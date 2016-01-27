@@ -1,0 +1,2422 @@
+LETTER
+
+¨
+Communicated by Flavio Frohlich
+
+Neural Mass Activity, Bifurcations, and Epilepsy
+Jonathan Touboul
+jonathan.touboul@sophia.inria.fr
+NeuroMathComp Laboratory, INRIA, CNRS, and ENS, Paris 75013, France
+
+Fabrice Wendling
+fabrice.wendling@univ-rennes1.fr
+INSERM U642, Rennes F-35000, France
+
+Patrick Chauvel
+patrick.chauvel@univmed.fr
+INSERM U751, Marseille 13385, France; Assistance Publique, Hˆopitaux de
+Marseille Timone, Marseille 13385, France; and Universit´e Aix-Marseille,
+Marseille 13385, France
+
+Olivier Faugeras
+olivier.faugeras@sophia.inria.fr
+NeuroMathComp Laboratory, INRIA, CNRS, and ENS, Paris 75013, France
+
+In this letter, we propose a general framework for studying neural mass
+models defined by ordinary differential equations. By studying the bifurcations of the solutions to these equations and their sensitivity to
+noise, we establish an important relation, similar to a dictionary, between their behaviors and normal and pathological, especially epileptic,
+cortical patterns of activity. We then apply this framework to the analysis of two models that feature most phenomena of interest, the Jansen
+and Rit model, and the slightly more complex model recently proposed
+by Wendling and Chauvel. This model-based approach allows us to test
+various neurophysiological hypotheses on the origin of pathological cortical behaviors and investigate the effect of medication. We also study
+the effects of the stochastic nature of the inputs, which gives us clues
+about the origins of such important phenomena as interictal spikes,
+interictal bursts, and fast onset activity that are of particular relevance in
+epilepsy.
+
+J. T. is now at the Coll`ege de France, Center for Institutional Research in Biology, CNRS
+UMR 7241, INSERM U1050, Universit´e Pierre et Marie Curie; MEMOLIFE Laboratory of
+Excellence and Paris Science Lettre, 75005 Paris, France; and INRIA Paris, France.
+Neural Computation 23, 3232–3286 (2011)
+
+c 2011 Massachusetts Institute of Technology
+
+Neural Mass Activity, Bifurcations, and Epilepsy
+
+3233
+
+1 Introduction
+Epilepsy is a common chronic neurological disorder characterized by the recurrence of seizures that strongly alter the patient’s quality of life. Epileptic
+seizures are transient manifestations of abnormal brain activity characterized by excessive and highly synchronous firing in networks of neurons distributing over focal or extended brain regions. During seizures, a variety of
+motor, sensory, cognitive, or behavioral signs and symptoms are observed.
+Understanding from a theoretical point of view the origin and the nature
+of this condition and predicting seizures are endeavors that have attracted
+a lot of attention from different scientific domains. This journey starts with
+a thorough understanding of the collective behavior of neurons in epileptic
+networks. Bundles of experimental observations on epileptogenic networks
+still need a systematic integration to the variety of computational and analytical models.
+Although the exact mechanisms leading to the various forms of epilepsy
+are still largely unknown, it is commonly admitted that the nature of the
+interactions between neurons and the properties of neurons themselves
+is altered in epileptogenic networks. These alterations are not completely
+described and understood, but most studies suggest that epilepsy can often
+be linked with hyperexcitability and hypersynchronization (Noebels, 1996;
+Babb, Pretorius, Kupfer, & Crandall, 1989; Munoz, Mendez, DeFelipe, &
+Alvarez-Leefmans, 2007) of the involved networks. The investigation of
+such alterations is essential for understanding of this condition and has
+important implications in possible treatments.
+In this context, the objective of this letter is to propose an integrative
+theoretical framework that allows for testing some hypotheses regarding
+mechanisms that occur in epileptogenic networks. Our framework makes
+use of physiologically relevant computational models of neuronal assemblies of the cerebral cortex (referred to as neural mass models) and is aimed at
+establishing relationships between model parameters and typical electrophysiological patterns observed in local field potentials (LFPs) or in the EEG
+recorded under normal or epileptic conditions. We are therefore interested
+in using versatile computational models able to reproduce experimental
+findings and generate or test experimental hypotheses yet simple enough
+to allow analytical or qualitative treatment.
+Two main complementary computational approaches have been developed over the past few decades: the microscopic (or detailed) approach
+that describes the assembly of neurons at the cell level and the macroscopic
+(or lumped-parameter) approach aimed at capturing with a minimum
+number of equations the effective behavior emerging from the network
+activity.
+Detailed models are more complex than lumped models based on a precise definition and thorough tuning of the membrane properties (passive
+and active ion channels) in each compartment (dendrites, soma, axon) of
+
+3234
+
+J. Touboul, F. Wendling, P. Chauvel, and O. Faugeras
+
+the considered neuronal units and the interconnections between presynaptic to (generally several thousands) postsynaptic neurons using appropriate
+synapse models. This approach, extensively developed by Traub and collaborators since the early 1980s (Traub, 1979, 1982; Traub & Llinas, 1979; Traub
+et al., 2001), has been successful in closely mimicking epileptic seizures but
+is completely out of reach of any mathematical understanding because of
+their high complexity and dimensionality.
+This is the main reason we are interested in macroscopic models. These
+models aim at reproducing the global activity of the network that can be
+recorded by extracellular electrodes (LFP or EEG recording), while avoiding the confusion resulting from the overwhelming amount of data and
+the huge dimensionality of the detailed models. Such models can be derived through the use of mean field limits (Ermentrout, 1998; Faugeras,
+Touboul, & Cessac, 2009) and are built on the facts that neurons are
+organized in different homogeneous populations sharing common characteristics (at least in a statistical sense). Here, the LFP or EEG signal
+reflects the global activity emerging from the microscopic interactions between thousands of neurons. These coupled activities are assumed to be
+summarized through the interaction of macroscopic variables characterizing the mean activity of interconnected neuronal subpopulations (mainly
+the pyramidal cells and the interneurons). This point of view conceptually differs from the detailed approach in the sense that it emphasizes the
+properties of neuronal populations as a whole instead of those of individual cells. A macroscopic variable of particular relevance in these models
+is the population firing rate (averaged over all neurons of the population) that replaces individual spikes in detailed models. This variable is
+generally assumed to satisfy a nonlinear (stochastic) ordinary differential
+equation.
+The macroscopic approach can be traced back to the 1970s with the
+seminal works of Wilson and Cowan (1972, 1973) who laid the theoretical
+foundations of these models and drew on the results of Mountcastle (1957),
+and Hubel and Wiesel (1965, 1963) who provided the first physiological
+evidence for the existence of macroscopic populations. This approach has
+then been progressively used to model the cat’s olfactory system (Freeman,
+1973, 1987) and the alpha rhythm in the dog’s EEG (Lopes da Silva, Hoeks,
+& Zetterberg, 1974; Lopes da Silva, van Rotterdam, Barts, van Heusden,
+& Burr, 1976), and has now firmly demonstrated its ability to capture the
+dynamics of cortical areas (Zetterberg, Kristiansson, & Mossberg, 1978;
+Suffczynski, Kalitzin, Pfurtscheller, & Lopes da Silva, 2001; Suffczynski,
+Lopes da Silva, Parra, Velis, Bouwman, van Rijn, et al. 2006; Wendling,
+Bellanger, Bartolomei, & Chauvel, 2000; Wendling, Bartolomei, Bellanger,
+& Chauvel, 2002).
+The question of what makes a good neural mass model is far reaching, and the answer clearly depends on the phenomena one wants to
+account for. Even for single-neuron models, the question is still largely
+
+Neural Mass Activity, Bifurcations, and Epilepsy
+
+3235
+
+open. However, the bifurcation analysis of neuron models defined by differential equations was quite successfully related to the excitability properties of the underlying dynamical system since the pioneering paper of
+Rinzel and Ermentrout (1989) in the late 1980s and the canonical models
+studied by Ermentrout and Kopell (1986). This approach was then generalized to the study of the excitability properties of the neurons (Izhikevich,
+2000; Touboul, 2008; Touboul & Brette, 2009). This relationship between
+bifurcations and excitability properties is very important. Indeed, the bifurcations of dynamical systems enjoy a genericity property: in the vicinity of
+any one of them, the system can be smoothly mapped onto one among a
+small number of universal systems described by polynomial equations of
+small degree (called normal forms). This property has permitted a simple
+and convincing description of the different behaviors of several reduced
+single-neuron models (Izhikevich, 2003; Touboul & Brette, 2008).
+Such a point of view can potentially provide a generic and systematic
+way to analyze neural mass models and study the influence of parameters
+on the behaviors of the system they represent. This is the viewpoint adopted
+here. We propose a correspondence between the typical collective behaviors of a large set of neurons contained in, say, a population of neurons
+(e. g., a cortical column) and the properties of the dynamical systems that
+are used to describe the mean activity of these neurons (periodic orbits,
+fixed points, bifurcations, and others). We then apply this method to one
+well-established biologically inspired macroscopic model of EEG signals
+generation. This model, referred to as the Jansen and Rit model (Jansen,
+Zouridakis, & Brandt, 1993; Jansen & Rit, 1995), is a minimal model of a
+neuronal population comprising two subpopulations of cells: pyramidal
+neurons and inhibitory interneurons. Despite its relative simplicity, this
+model was shown to be able to simulate signals with realistic temporal
+dynamics such as those found in real EEG recordings (background activity, alpha activity, sporadic or rhythmic epileptic spikes; Zetterberg et al.,
+1978). We apply in appendix C our generic method to an extended version
+of the Jansen and Rit model, the Wendling and Chauvel model (Wendling
+et al., 2000, 2002; Wendling, Hernandez, Bellanger, Chauvel, & Bartolomei,
+2005). This model was developed to better reproduce some architectonic
+features of the hippocampus. We also propose a simpler model featuring
+many observed properties of EEG signals. Because of its simplicity, this
+model may allow large-scale simulations and further analytical treatment.
+We also study some stochastic properties of these models and show that
+such important phenomena as interictal spikes and fast onset activity can
+be accounted for by the interaction between the properties of the dynamical
+system and the presence of noise in the input firing rate. We conclude by
+showing through numerical experiments that a global increase of the input
+can lead the system through all the phases of a typical seizure and by simulating the effect of some pharmacological agent injected at some point in
+time during the seizure.
+
+3236
+
+J. Touboul, F. Wendling, P. Chauvel, and O. Faugeras
+
+2 EEG Signal and Neural Mass Models
+Because our intent is to account for some salient events that occur in EEG
+signals under normal or epileptic condition using a model-based approach,
+we start by describing these events before giving a detailed description of
+the model we will focus on.
+2.1 Typical Features of EEG Signals Recorded During the Transition
+From Interictal to Ictal Activity. In this section, we recall some features
+characteristic of EEG signals that are measured during time periods including transitions from normal to pathological activity. Electroencephalographic signals (either depth or scalp EEG) recorded during time periods,
+including transitions from normal to pathological activity, present different
+stages characterized by dramatic changes in both the frequency and the
+amplitude of signals.
+A typical example is provided in Figure 1 showing depth EEG signals
+recorded in a patient with mesial temporal lobe epilepsy. Depth EEG signals
+are recorded during the presurgical evaluation of drug-resistant epilepsies.
+Technically, this exploration, named stereoelectroencephalography (SEEG),
+requires the use of intracerebral (i.e., depth) electrodes implanted (under stereotaxic conditions) in various brain regions potentially involved
+in the generation of epileptic seizures. It is intended to better define the socalled epileptogenic zone prior to surgery. (See Bancaud & Talairach, 1973;
+Chauvel, Vignal, Biraben, Badier, & Scarabin, 1996 for details about the
+SEEG technique carried out as part of patients’ normal clinical care, whose
+data are presented here. In addition, patients gave informed consent in the
+usual way and that they are informed that their data might be used for
+research purposes.)
+In the example reported in Figure 2, the transition from interictal background (see Figure 1A) to seizure (see Figure 1B) activity is marked by
+the appearance of strong nonstationarities in the recorded signal. Although
+the signal frequency content dramatically evolves as a function of time,
+it can generally be considered a sequence of piecewise stationary signals
+concatenated through abrupt transitions. In this type of epilepsy, which involves mesial structures like the hippocampus, seizure onset is manifested
+by fast (low-amplitude, high-frequency) activity that is clearly visible in
+depth EEG signals. This fast onset activity (see Figure 1B, segment S3) dramatically differs from background (see Figure 1A, segment S1) activity as
+the signal energy redistributes itself in higher-frequency bands (from 20
+Hz to 40 Hz). The background activity mainly occupies the theta band of
+the EEG and usually includes sporadic epileptic spikes. The fast onset activity is often preceded by high-amplitude spikes (see Figure 1B, segment
+S2). As the seizure develops, the fast activity gradually slows and evolves
+toward rhythmic spiking (see Figure 1B, segment S4). This latter activity
+is usually narrowband with a dominant frequency ranging from 10 Hz to
+
+Neural Mass Activity, Bifurcations, and Epilepsy
+
+3237
+
+Figure 1: Features of real EEG data during the transition from background
+to seizure activity. In this example, the EEG was recorded from hippocampus
+using intracerebral electrodes in a patient with drug-resistant epilepsy and undergoing presurgical evaluation. (A) Interictal background activity (5 minutes
+before seizure) shows the occurrence of transient spikes. (B) The transition from
+preictal to ictal activity is characterized by rhythmic spikes (S2) followed by
+fast oscillations at the onset of seizure (S3) that gradually slow down as the
+ictal activity (S4) develops. (C) Normalized power spectral densities (PSDs)
+computed on the for typical segments (S1–S4) selected at different steps of the
+process.
+
+3238
+
+J. Touboul, F. Wendling, P. Chauvel, and O. Faugeras
+
+Figure 2: (A) Schematic and (B) block diagram representations of JR neural mass
+model: a population of pyramidal cells (triangle) interacts with an inhibitory
+population of interneurons (circle). (A) Plain arrows: excitatory connections.
+Dashed arrow: inhibitory connection. (B) The boxes labeled he and hi correspond to linear synaptic integrations: the boxes labeled Si represent the cell
+body and correspond to the sigmoidal transformation converting a population
+activity into an output firing rate. The constants Ji account for the strength of the
+synaptic connections between populations, and y0 , y1 , and y2 are the variables
+in equations 2.1.
+
+5 Hz. Quasi-sinusoidal at the beginning, it gradually changes to a sustained
+spiking activity before seizure termination that is abrupt in most of the
+cases.
+2.2 The Jansen and Rit Model. The Jansen and Rit neural mass model
+was introduced by Lopes Da Silva and colleagues in 1974 and studied
+further by Van Rotterdam, in 1982 (Lopes da Silva et al., 1974, 1976; van
+Rotterdam, Lopes da Silva, van den Ende, Viergever, & Hermans, 1982).
+These authors developed a biologically inspired mathematical framework
+to simulate spontaneous electrical activities of neuronal assemblies measured, for instance, by EEG, with a particular interest in alpha activity. In
+their model, two neuronal populations interact with both excitatory and inhibitory connections. Jansen et al. (1993; Jansen & Rit, 1995) discovered that
+
+Neural Mass Activity, Bifurcations, and Epilepsy
+
+3239
+
+besides alpha activity, this model was also able to simulate evoked potentials, that is, averaged EEG activity observed after a sensory stimulation.
+More recently, Wendling et al. (2000) used this model to synthesize activities
+very similar to those observed in epileptic patients, and David and Friston
+(2003; David, Cosmelli, & Friston, 2004) studied the connectivity between
+cortical areas within a similar framework. Nevertheless, it was understood
+that one of the main issues of the Jansen and Rit model was that it was
+unable to produce all the rhythms that occur in epileptic activity and are
+observed in EEG recordings, in particular the fast activity at the onset of
+an epileptic seizure. This led to the introduction of an extended version,
+including a more precise description of the dynamics of somatic and dendritic projections (Wendling et al., 2005; Wendling & Chauvel, 2008, and
+appendix C).
+The Jansen and Rit model (see Figure 2A) features a population of pyramidal neurons that receive inhibitory input from a population of local
+interneurons, as well as external excitatory input (from neighboring cortical
+units and subcortical structures like the thalamus, for instance). Collateral
+excitation among pyramidal neurons is also represented in the model. The
+block diagram in Figure 2B is a more detailed description of the information flow among these two populations and summarizes the mathematical
+operations that are considered. The external excitatory input is represented
+by an arbitrary average firing rate p(t), which can be stochastic, accounting
+for a nonspecific background activity, or deterministic, accounting for some
+specific activity in other cortical units.
+The firing rate of each population is the result of the integration of the
+input it receives through the synapses. The model makes the common assumption that the synaptic integration is linear, which amounts to considering that the membrane potential of each population is the convolution of
+the input with the impulse response of the synapses. This impulse response,
+called the average postsynaptic potential (PSP), is characterized by a rapid
+rise and a slower decay.
+Two average PSP functions are considered in the model, corresponding
+to the two types of synaptic interactions (excitatory and inhibitory). They
+are represented by the functions he (t) and hi (t) in Figure 2B. Following the
+work of van Rotterdam et al. (1982), these transfer functions can be written
+as h(t) = αβte−βt 1 t≥0 , where 1 t≥0 is equal to 1 for t > 0 and otherwise 0.
+The parameter α defines the maximal amplitude of the PSP, and β is the
+inverse of the characteristic time of integration, which is mainly linked with
+the kinetics of synaptic transmission and the averaged distributed delays
+in the dendritic tree. These two parameters differ depending on the type
+of synaptic interaction (excitatory glutamatergic or inhibitory GABAergic).
+Modeled PSPs were fit to experimental recordings (see in particular van
+Rotterdam et al., 1982), and numerical values for the excitatory (resp. inhibitory) case, of the amplitude A (resp. B) and of the timescale a (resp.
+b) are provided in Table 1. The function h can be conveniently seen as the
+
+A
+B
+1/a
+1/b
+α1 , α2
+α3 , α 4
+J
+v0
+νmax
+r
+
+Parameter
+
+Average excitatory synaptic gain
+Average inhibitory synaptic gain
+Time constant of excitatory PSP
+Time constant of inhibitory PSP
+Average probability of synaptic contacts in the feedback excitatory loop
+Average probability of synaptic contacts in the slow feedback inhibitory loop
+Average number of synapses between populations
+Parameters of the sigmoid (amplitude)
+(threshold)
+(slope)
+
+Interpretation
+
+Table 1: Numerical Values Used in Jansen and Rit’s Original Model.
+
+3.25 mV
+22 mV
+10 ms
+20 ms
+α1 = 1, α2 = 0.8
+α3 = α4 = 0.25
+135
+6 mV
+5 s−1
+0.56 mV−1
+
+Value
+
+3240
+J. Touboul, F. Wendling, P. Chauvel, and O. Faugeras
+
+Neural Mass Activity, Bifurcations, and Epilepsy
+
+3241
+
+Green’s function, or fundamental solution, of a second order differential
+operator L:
+L(h) =
+
+1
+2
+β
+h (t) − h (t) − h(t).
+αβ
+α
+α
+
+This particular function, solution of a second-order ordinary differential
+equation, models both the rise and the decay phase of the PSP. The most
+widely used and highly simplistic PSP model h = e−t/τ 1 t≥0 is shown in
+section 4.4 to be unable to capture the essential dynamics of the cortical
+column and, in particular, the phenomena we want to model in the field of
+epilepsy.
+The activity of the population is characterized by its mean firing activity,
+which can be inferred from the average membrane potential through a
+sigmoidal effective gain transformation Si (Gerstner & Kistler, 2002; Dayan
+& Abbott, 2001). It is chosen to be of the form proposed by Freeman (1975):
+Si(v) =
+
+νmax
+νmax
+r
+1 + tanh (v − v0 ) =
+,
+2
+2
+1 + er(v0 −v)
+
+where νmax is the maximum firing rate, v0 is the value of the average membrane potential corresponding to the inflection point of the sigmoid (acting
+as a smooth activity threshold), and r is the slope of the sigmoid at v0 (see
+Table 1 for typical values of these parameters).
+The neuronal populations are interconnected through excitatory (feedback loop) and inhibitory (interneuron) synapses. The number of synapses
+established between two neuronal populations is denoted by Ji for i =
+1, . . . , 4 as in Figure 2B. They are considered to be constant and proportional
+to the maximal number of synapses J between populations. We denote by αi
+the related dimensionless coefficients (i.e., Ji = αi J) that allow experimental
+¨ (1998).
+fit, following Braitenberg and Schuz
+Given this architecture, there are three main variables in the model—the
+outputs of the three postsynaptic boxes of Figure 2B, denoted y0 , y1 , and
+y2 . The variable y0 corresponds to the output firing rate of the pyramidal
+population, y1 to the excitatory incoming firing rate to the pyramidal population (which corresponds to excitatory feedback of the pyramidal cells,
+filtered through the excitatory synapse), and y2 to the inhibitory firing rate
+incoming to the pyramidal population. It corresponds to the output firing
+rate of the inhibitory interneuron population filtered through the inhibitory
+synapse.1 These variables satisfy the following differential equations, where
+the dots indicate time derivatives:
+
+1 Note that classically, the heuristic way to see the excitatory feedback is by considering
+a virtual excitatory population of neurons.
+
+3242
+
+J. Touboul, F. Wendling, P. Chauvel, and O. Faugeras
+
+⎧
+y¨0 (t) = A aSi y1 (t) − y2 (t) − 2 a y˙0 (t) − a2 y0 (t)
+⎪
+⎪
+⎨
+y¨1 (t) = A a p(t) + J2 Si J1 y0 (t) − 2 a y˙1 (t) − a2 y1 (t) .
+⎪
+⎪
+⎩
+y¨2 (t) = B b J4 Si J3 y0 (t) − 2 b y˙2 (t) − b2 y2 (t)
+
+(2.1)
+
+These equations depend on 13 parameters—8 dimensioned (A, B, a, b, v0 ,
+νmax , r, and p) and 5 dimensionless (αi , i = 1, . . . , 4 and J). Note that the
+variable y1 − y2 , representing the incoming firing rate of the population
+of pyramidal cells, is closely related to the EEG signal. Indeed, pyramidal
+neurons throw their apical dendrites to the superficial layers of the cortex
+where the postsynaptic potentials are summed, accounting for the essential part of the EEG activity (see Kandel, Schwartz, & Jessel, 2000). Table 1
+summarizes the interpretations of 12 of the 13 parameters in these equations and gives their typical values as evaluated experimentally. There is a
+subtle interplay between the values of these parameters and the behavior
+of the solutions of equation 2.1 that we unravel in the sequel. At this stage,
+this behavior effectively depends on a smaller number of parameters. For
+example, we expect only the ratios ab and AB to be relevant to this description. Indeed, by using simple changes of variables, we show that the 13
+parameters can be reduced (in a nonunique fashion) to 9 dimensionless
+parameters.
+Introducing the time derivatives y3 , y4 , and y5 of, respectively, y0 , y1 , and
+y2 , and using a change of variable (as defined below), the resulting model
+can be written as a set of six dimensionless first-order ordinary differential
+equations, governed by, as announced, nine dimensionless parameters. This
+model is simpler and captures the essential dynamics of the variables. It is
+the one we use for our analysis in the balance of the letter. The equations
+read:
+⎧ ˙
+Y0 = Y3
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+X˙ = Y4 − Y5
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎨ Y˙2 = Y5
+⎪
+⎪
+Y˙3 = j S(X ) − 2 Y3 − Y0
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+Y˙4 = P + α2 j S(α1 Y0 ) − 2 Y4 − (Y2 + X )
+⎪
+⎪
+⎪
+⎪
+⎩
+Y˙5 = d α4 G j S(α3 Y0 ) − 2 d Y5 − d2 Y2 .
+
+(2.2)
+
+The reduction to dimensionless equations involves rescaling the time as τ =
+a t and introducing S, the sigmoidal function S(x) = 1/(1 + k0 exp(−x)); the
+dots now indicate the derivative with respect to the rescaled time τ . These
+
+Neural Mass Activity, Bifurcations, and Epilepsy
+
+3243
+
+Table 2: Name, Expression, and Numerical Value of the Reduced Equation 2.2
+Parameters.
+G
+
+d
+
+B
+A
+
+b
+a
+
+6.7692
+
+0.5
+
+α1
+
+1
+
+α2
+
+0.8
+
+α3
+
+0.25
+
+α4
+
+0.25
+
+log(k0 )
+
+P
+
+rv0
+
+p
+a (rA)
+
+3.36
+
+j
+(rA)
+
+νmax
+a
+
+J
+
+12.285
+
+equations involve the following dimensionless functions:
+⎧
+Y0 (τ ) = Jry0 (τ /a)
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+Y1,2 (τ ) = ry1,2 (τ /a)
+⎪
+⎪
+⎪
+⎪
+⎨
+Jr
+Y3 (τ ) = y3 (τ /a)
+⎪
+a
+⎪
+⎪
+⎪
+r
+⎪
+⎪
+Y4,5 (τ ) = y4,5 (τ /a)
+⎪
+⎪
+⎪
+a
+⎪
+⎩
+X = Y1 − Y2 .
+They depend on the free parameters αi , i = 1, . . . , 4, k0 , d, G, j, and P. Their
+expressions and, when possible, their numerical values corresponding to
+those in Table 1 are given in Table 2.
+Because the variable X = Y1 − Y2 is a dimensionless representation of the
+average incoming firing rate to the population of pyramidal cells, its time
+variation and its dependence with respect to changes in the parameters are
+thoroughly investigated in the sequel as a qualitative variable representing
+the EEG signal.
+3 Bifurcations and Behaviors
+In this section, we briefly recall some useful notions about dynamical
+systems and their link with EEG typical behaviors. Obviously this section
+does not pretend to summarize such a broad area as nonlinear dynamical
+systems and bifurcations theory; interested readers will find more detailed
+material in the good introductory book by Strogatz (1994) and more
+mathematical material in some excellent textbooks (Kuznetsov, 1998;
+Guckenheimer & Holmes, 1983; Golubitsky & Schaeffer, 1984; Golubitsky,
+Stewart, & Schaeffer, 1988).
+3.1 Nonlinear Differential Equations and Bifurcations. The above
+model, similar to most macroscopic models, consists of a set of nonlinear
+ordinary differential equations. Mathematical methods for solving these
+equations or proving analytical results about their solutions are still rudimentary and lacunar, and except in a limited number of examples, no
+
+3244
+
+J. Touboul, F. Wendling, P. Chauvel, and O. Faugeras
+
+closed-form solutions are available. However, efficient methods exist for
+characterizing certain types of asymptotic solutions, such as the fixed points
+(constant solutions) and the cycles (periodic solutions). The existence and
+stability of these solutions can often be analytically or numerically studied. When such a solution, noted S∗ , is stable (or attractive), solutions of
+the differential system having an initial condition in a certain neighborhood of S∗ (called its attraction basin) will converge toward S∗ . Therefore, this asymptotic stable solution S∗ actually represents the observed
+behaviors of the system after a transient phase during which the solution
+approaches S∗ .
+The existence, stability, and characteristics of the fixed points and cycles
+are typically quite sensitive to variations of the parameters in the model. In
+particular, the system can undergo sudden changes in the number or the
+stability of its fixed points or limit cycles when continuously varying the
+parameters. These brutal changes are called bifurcations. Bifurcations are
+well classified because they satisfy a genericity property: for values of the
+parameters close to those corresponding to the bifurcation, the equations
+of the system can be smoothly mapped to polynomial equations. The corresponding, and simpler, system is called the normal form, and there is a
+small number of normal forms. It captures entirely the qualitative behavior
+of the original system for parameter values in a neighborhood around those
+corresponding to the bifurcation. The codimension of a bifurcation is the
+minimal number of parameters necessary for a system to display that type
+of bifurcation (or the number of “equality conditions” that characterize the
+bifurcation).
+Although important changes in the number and stability of stationary
+solutions happen at bifurcations, these bifurcations are a reliable and robust
+phenomenon. The qualitative behavior of the system can be economically
+described in a neighborhood of the bifurcation point by the normal form and
+a reduced set of parameters. Moreover, there is a one-to-one correspondence
+between this behavior and the type of bifurcation.
+3.2 A Dictionary Relating EEG Signal Features and Bifurcations of
+Neural Mass Models. Motivated by the success of the application of nonlinear dynamics to single-neuron modeling, we aim at relating the neuronal
+behaviors typical of normal and pathological activity to the bifurcations of
+the solutions to systems of nonlinear differential equations such as those
+in the Jansen and Rit model described in section 2.2. More precisely, if one
+follows the trail that has been made in the case of single neurons, the first
+outstanding issue is to relate the behaviors observed in EEG signals with
+those predicted by the bifurcation analysis of the neural mass models. If this
+program can be successfully completed, one may then consider a second
+issue and ask whether there is a kind of “minimal model” that can economically account for all these behaviors, in the spirit of the single-neuron
+reduced models (Izhikevich, 2003; Touboul, 2008).
+
+Neural Mass Activity, Bifurcations, and Epilepsy
+
+3245
+
+In the remainder of this letter, we address the first issue and allude to
+the second in the conclusion.
+We are interested in typical observed behaviors in EEG recordings and
+how they can be reproduced by neural mass models. During normal activity,
+the recorded signal moves randomly about a constant value. It is appealing
+to think of this value as a stable fixed point of the model and the system as
+being randomly perturbed around this fixed point (see panel of Figure 3).
+Next come the oscillations of all sorts. In the theory of dynamical systems
+these oscillations are represented by the concept of a limit cycle (see panel
+2 of Figure 3). When the recorded signal changes abruptly from one value
+to another, the system is said to be bistable. Similarly, when the recorded
+signal swaps back and forth between two states in which it oscillates at
+two different frequencies with two different amplitudes, one also speaks of
+bistability. This phenomenon of bistability can be nicely accounted for by a
+special type of bifurcation called the cusp, or, in the second case, the cusp
+of limit cycles (see panel 3 of Figure 3).
+Finally, epileptic spikes often appear as low-frequency, large-amplitude
+oscillations. This phenomenon can also be accounted for by another type of
+bifurcation in which an unstable fixed point (technically a saddle) is turned
+into a cycle of low frequency, with generally large amplitude due to the
+appearance of what is called a homoclinic cycle (see panel 4 of Figure 3).
+The technical name of this bifurcation is the saddle homoclinic bifurcation.
+Smoothly varying the bifurcation parameter, the system suddenly switches
+from a fixed-point behavior (corresponding to normal background activity)
+to slow large-amplitude oscillations, a behavior close to the description of
+seizures. Finding homoclinic bifurcations in a dynamical system is generally a complex task, since it is a global bifurcation. Fortunately, it is known
+(Kuznetsov, 1998; Golubitsky & Schaeffer, 1984) that there exist simple local
+bifurcations (i.e., a bifurcations of fixed points) ensuring the presence of a
+saddle-homoclinic bifurcation. The simplest bifurcation with this property
+is the codimension 2 Bogdanov-Takens bifurcation in the neighborhood of
+which generically (in particular, robustly) there exists a curve of saddlehomoclinic bifurcations. We summarize this discussion in Table 3 and
+Figure 3.
+This “dictionary” gives clear indications about the kinds of features,
+including bifurcations, one should expect to find in any nonlinear neural
+mass model and how to identify the parameters in the model related to
+specific events of interest (in particular those whose variation can create the
+bifurcations). We now illustrate its use for classifying the behaviors featured
+by the Jansen and Rit model.
+4 Using the Dictionary: The Case of Jansen and Rit Model
+An essential parameter in the Jansen and Rit model is the input firing rate
+P, which represents the external input to the neural mass. This parameter is
+
+3246
+
+J. Touboul, F. Wendling, P. Chauvel, and O. Faugeras
+
+Figure 3: The dictionary. (Left) Dynamical systems properties. (Right) Related
+behaviors. In the fixed point (panel 1) and periodic orbit (panel 2) cases, we
+added noise to the dynamical system and obtained traces and power spectra
+for background activity and rhythmic activity comparable to those in Figure 1.
+Panels 3 and 4 are related to bifurcations of the system. P (or P1, P2) denotes
+a parameter of the system and X (or X1, X2) a variable. The cusp case (panel
+3) shows a bistability effect, and the homoclinic case (panel 4) is characterized
+by a sudden switch from a stable fixed-point behavior to a large periodic orbit
+with arbitrarily large period (shown right, panel 4). All the behaviors plotted
+on the right are simulations of Jansen and Rit model.
+
+Neural Mass Activity, Bifurcations, and Epilepsy
+
+3247
+
+Table 3: EEG-Neural Mass Dictionary.
+EEG
+Normal (background)
+Oscillations
+Bistable
+Low-frequency, large-amplitude
+oscillations (epilepsy?)
+
+Neural Mass
+Stable fixed point
+Limit cycle ⇐ Hopf bifurcation
+Two stable fixed points/
+limit cycles ⇐ Cusp bifurcation
+Saddle homoclinic ⇐ Bogdanov-Taken bifurcation
+
+Note: EEG behavior in relation to dynamical systems properties and bifurcations generically related to such properties when relevant.
+
+mathematically allowed to be positive or negative. Though this is not totally
+physiologically relevant since P is a density of action potentials, considering
+negative inputs P allows a better understanding of the origin of different
+dynamical features observed for more physiologically relevant values.2 The
+dependency of the dynamics on the input firing rate has already been
+studied by Grimbert and Faugeras (2006) when all the other parameters are
+fixed and equal to the physiological values provided in Table 1. The authors
+described a rich bifurcation diagram, featuring the coexistence of two limit
+cycles—one originating from a Hopf bifurcation and the other collapsing
+on the fixed points manifold.
+Grimbert and Faugeras (2006) suggested that this picture was quite sensitive to changes in the parameters. They observed that varying any parameter by as little as 5% resulted in dramatic changes in the bifurcation
+diagram and the observed behaviors. However, the parameters in Table 1
+are only approximately known, and errors (or natural variability) of this order of magnitude are clearly to be expected. Moreover, some parameters are
+known to evolve slowly in time (e.g., the connectivity parameters through
+the process of plasticity). This is why we decided to investigate thoroughly
+how the bifurcation diagram changed when one systematically varied the
+model parameters.
+Beside the external input firing rate, another parameter of particular interest is the total connectivity parameter j. Indeed, because this parameter
+is closely related to plasticity, it is important to study and understand its
+influence. This will allow us to test the hypothesis that an increased functional connectivity, or even the less common fact that an increased number
+of synapses between populations, favors the appearance of epileptic activity, as observed experimentally. The former phenomenon has been widely
+documented (Bettus et al., 2008), and the latter was mainly evidenced in
+2 It can be also seen as an approximation of a constant level of inhibitory input on pyramidal neurons, though in the cortex, this inhibition is normally mediated by interneurons
+whose synapses do not have exactly the same properties as excitatory ones.
+
+3248
+
+J. Touboul, F. Wendling, P. Chauvel, and O. Faugeras
+
+hippocampal epilepsy and is generally referred to as neosynaptogenesis, or
+sprouting, as it corresponds to the sprouting of mossy fibers of the dentate
+granule cells on the dendrites of pyramidal neurons of CA3 (Noebels, 1996;
+Babb et al., 1989; Munoz et al., 2007). This phenomenon in particular results
+in a bistable behavior, as shown in Sutula and Dudek (2007). In the sequel,
+we perform an analysis of the codimension 2 bifurcations of the system with
+respect to the pair ( j, P) of parameters. In other words, we describe what
+changes the solutions of equation 2.2 undergo when one varies these two
+parameters while keeping the others constant. Codimension two bifurcations with respect to the excitation and inhibition parameters α2 and α4 (see
+Table 1) are then described, and for the sake of completeness, bifurcations
+with respect to other pairs of parameters are described in appendix B.
+4.1 Bifurcation Analysis: The Role of Global Connectivity. The dimensionality and the complexity of the system make a full analytical study
+of the bifurcations impossible. However, it is important to note that as far as
+the fixed points are concerned, the analysis can be significantly simplified
+by the fact that the fixed points belong to a curve that can be parameterized
+by the value of the variable X; indeed, by setting the time derivatives equal
+to 0 in equation 2.2, one easily obtains Y3 = Y4 = Y5 = 0 and
+Y0 = jS(X )
+G
+jS(α3 jS(X ))
+d
+P = X + jS(X ) − α2 jS(α1 jS(X )).
+
+Y2 = α4
+
+For each value of the pair ( j, P), the number of fixed points is equal to
+the number of solutions of the third equation above, which is an implicit
+equation in X. Having solved this equation, we obtain the other coordinates,
+Y0 and Y2 , of the fixed points. The Jacobian matrix of equation 2.2 at the
+fixed points can also be conveniently parameterized by X:
+⎛
+
+0
+
+⎜
+0
+⎜
+⎜
+⎜
+0
+⎜
+J(X ) = ⎜
+⎜
+−1
+⎜
+⎜
+α
+jS
+α
+⎝ 1 2 ( jα1 S(X ))
+α3 α4 jdS ( jα3 S(X ))
+
+0
+
+0
+
+1
+
+0
+
+0
+
+0
+
+0
+
+1
+
+0
+
+0
+
+0
+
+0
+
+j S (X )
+
+0
+
+−2
+
+0
+
+−1
+
+−1
+
+0
+
+−2
+
+0
+
+−d2
+
+0
+
+0
+
+0
+
+⎞
+
+−1 ⎟
+⎟
+⎟
+1 ⎟
+⎟
+⎟.
+0 ⎟
+⎟
+⎟
+0 ⎠
+−2d
+
+This allows us to perform a semianalytical study of the bifurcations of
+equilibria with the help of a symbolic computation package—Maple in this
+case. The study of the limit cycles and the global bifurcations cannot be done
+
+Neural Mass Activity, Bifurcations, and Epilepsy
+
+3249
+
+Figure 4: Codimension 2 bifurcations of the JR model with respect to the connection strength j and the external input value P. The behaviors of the system for
+fixed values of j can be divided into eight zones labeled A–H enjoying different
+mathematical properties (colors and labels differentiate these zones). Codimension 1 bifurcation curves are shown in black (saddle node), blue (subcritical
+Hopf), red (supercritical Hopf), plain green (saddle homoclinic), dashed green
+(saddle-node homoclinic), and orange (fold of limit cycles). Codimension 2 bifurcation points: C: cusp bifurcation, BT: Bogdanov-Takens, GH: Generalized
+Hopf (Bautin bifurcation), CLC: cusp of limit cycles. (a) Full picture. (b) Zoom
+in the region within the small red rectangle in panel a where the system is very
+sensitive to the variations in the parameters.
+
+in a similar fashion; they must be derived numerically using the MatCont
+continuation package (Dhooge, Govaerts, & Kuznetsov, 2003a, 2003b).
+The results of this codimension two bifurcation analysis are summarized
+in the bifurcation diagram shown in Figure 4.
+Codimension 1 bifurcations are described by curves in the parameter
+space ( j, P). Let us describe and comment on the changes in the bifurcation structure of the system when increasing the values of parameter j.
+Qualitative changes occur when one goes from one of the eight zones in
+Figure 4 to the next. Each border is a vertical line going through one of the
+seven points noted (in increasing order of the values of j): C, BT, H2, E,
+GH, H1, and CLC. For small values of the parameter j (more precisely, for
+j < jC ), the system has no bifurcation: for each value of the parameter P,
+the system has a unique stable fixed point, and for any initial condition, the
+solution converges toward this fixed point (see Figure 5A).
+For j = jC , the system undergoes a cusp bifurcation, generating for larger
+values of j two curves of saddle-node bifurcations (represented in black in
+Figure 4). These two curves are the only bifurcations of the system for
+jC < j < jBT . Therefore, according to the correspondence produced previously, the system displays a bistable behavior, as will be assessed by the
+
+3250
+
+J. Touboul, F. Wendling, P. Chauvel, and O. Faugeras
+
+Table 4: ( j, P) Coordinates of Points of Interest of the Jansen and Rit Bifurcation
+Diagram of Figure 4.
+Point
+j
+P
+
+C
+
+BT
+
+H2
+
+S
+
+E
+
+5.38
+
+10.05
+
+12.10
+
+12.10
+
+12.38
+
+−0.29
+
+−3.07
+
+0.10
+
+1.98
+
+1.21
+
+GH
+
+H1
+
+CLC
+
+12.48
+
+12.55
+
+12.93
+
+−2.58
+
+−3.10
+
+3.75
+
+simulations, presented in Figure 6. This appears in the bifurcation diagram
+shown in panel in Figure 5a.
+At j = jBT , the system undergoes a subcritical Bogdanov-Takens bifurcation on the lower branch of the saddle-node bifurcations curve. This bifurcation gives rise to a curve of subcritical Hopf bifurcations (blue curve),
+a family of unstable limit cycles, and a curve of saddle homoclinic bifurcations (plain green curve in Figure 4). This curve meets the upper curve
+of saddle-node bifurcations at a point noted S in Figure 4. At this point,
+the saddle homoclinic loops turn into saddle-node homoclinic loops and
+the epileptic spiking behavior appears. The subcritical Hopf bifurcation
+curve undergoes a generalized Hopf (or Bautin) bifurcation and becomes
+a curve of supercritical Hopf bifurcations (shown in red in Figure 4), at
+the point denoted GH in the same figure. This bifurcation gives rise to a
+curve (shown in orange in Figure 4) of folds of limit cycles along which a
+family of stable limit cycles and a family of unstable limit cycles collide and
+disappear.
+The continuation of the folds of limit cycles curve shows the presence of
+a cusp bifurcation (point CLC in Figure 4). The unfolding of this bifurcation
+allows us to continue another branch of curve of folds of limit cycles. We
+observe that these folds of limit cycles merge with the homoclinic saddle
+bifurcation curve at the point S where the saddle homoclinic loop turns into
+a saddle-node homoclinic loop.
+Note that since the bifurcation curves described are not functions of the
+only parameter j, we had to introduce three artificial points; they correspond not to bifurcations but to the points where a parameterization of the
+bifurcation curves by the single parameter j fails. Two of these points, H1
+and H2, are located on the Hopf bifurcation curve, and one is located on
+one branch of the curve of folds of limit cycles (E). The numerical values
+of the parameters j and P corresponding to the codimension 2 bifurcations
+and to points H1, H2, and E are provided in Table 4.
+In each of the eight ranges of j values, the model displays similar behavior
+when varying the input parameter P in the sense of topological equivalence;
+in particular, it has the same number of fixed points and limit cycles with the
+same stability. Typical bifurcation diagrams, representing the fixed points
+and the cycles of the variable X as a function of parameter P for each range
+of j values, are provided in Figure 5. This can be thought of as showing the
+
+Neural Mass Activity, Bifurcations, and Epilepsy
+
+3251
+
+Figure 5: Bifurcation diagrams of the variable X with respect to the input P,
+in each of the eight cases determined in Figure 4. Solid black line: stable equilibrium. Dashed black line: unstable equilibrium. Solid gray line: stable limit
+cycle. Dashed gray line: unstable cycles. solid cycle: saddle homoclinic orbit
+bifurcation. Dotted cycle: fold of limit cycles. The saddle-node bifurcations
+are indicated by SN. The Hopf bifurcations are indicated by H. Parameters:
+(A) j = 4. For each value of P there exists a unique stable equilibrium. (B) j = 8.
+(C) j = 11. (D) j = 12.285 corresponding to the original parameters of the Jansen
+and Rit model. (E) j = 12.42. (F) j = 12.5. (G) j = 12.7. (H) j = 14.
+
+3252
+
+J. Touboul, F. Wendling, P. Chauvel, and O. Faugeras
+
+evolution of the bifurcation diagram of the X variable with respect to the
+input parameter P when increasing the total connectivity parameter j.
+We observe that the picture obtained by Grimbert and Faugeras (2006)
+and reproduced in Figure 5 is very sensitive to changes in the parameters.
+The range of values where the bifurcation diagram they obtained is valid
+only in zone D of the codimension 2 bifurcation diagram corresponding
+to 12.10 ≤ j ≤ 12.38). Moreover, the two intriguing facts reported in their
+article find an explanation here. First, the reason that the two bifurcations
+share the same family of limit cycles can be found in the fact that the
+two bifurcations actually belong to the same Hopf bifurcation curve in the
+parameter space ( j, P) (shown in blue and red in Figure 4). Second, the
+origin of the saddle node homoclinic bifurcation they report comes from
+the existence of the Bogdanov-Takens bifurcation (point BT in Figure 4).
+The saddle node on invariant circle (SNIC) bifurcation they report is simply
+our saddle node homoclinic bifurcation but seen from the cycles’ point of
+view.
+Albeit the particular bifurcation diagram Grimbert and Faugeras (2006)
+established is valid only in a very restricted zone of values of the connectivity parameter j; the picture they describe in terms of behaviors of neural
+masses is more general. Changing our viewpoint, we now turn to the interpretation of this bifurcation diagram structure in terms of behaviors of a
+neural mass and identify four parameter zones that qualitatively differ in
+their corresponding behaviors.
+4.2 Neurocomputational Features. The Jansen and Rit model is a good
+candidate for validating the correspondence proposed in section 3.2 (see
+Table 3). Indeed, it features all the bifurcations mentioned above: the cusp,
+the cusp of limit cycles, and the saddle homoclinic bifurcations. The eight
+classes defined in the previous section can now be clustered into four groups
+according to the presence of these bifurcations. We now study the neurocomputational features of the system in these four parameter regions.
+4.2.1 A: Trivial Behavior. For j < jC , the system presents a unique fixed
+point and no cycle whatever the input firing rate P. Therefore, when the
+input firing rate is fixed, for any initial condition, the activity of the column
+converges toward this unique equilibrium. Figure 6A shows the value of
+the variable X at equilibrium for five different values (corresponding to the
+different shades) of the parameter P and for the same initial condition.
+4.2.2 B–C: Bistable Nonoscillating Behavior. Zones B and C correspond to
+a bistable behavior, since the bifurcation diagram in these zones shows two
+saddle-node bifurcations (originating from a cusp bifurcation). Depending
+on the input firing rate P, the system has either a single, stable fixed point or
+two stable fixed points and one unstable. In the latter case, the system shows
+hysteresis and bistability. Depending on the initial condition, the variable
+
+Neural Mass Activity, Bifurcations, and Epilepsy
+
+3253
+
+Figure 6: The four typical observed behaviors. Shades are arbitrarily chosen to
+show solutions corresponding to different input values P and multiple curves
+of the same color in panel (B–C) correspond to different initial conditions. The
+trivial case corresponds to zone A in Figure 4 ( j = 4), the bistable behavior is
+observed in zones B and C of the bifurcation diagram of Figure 4, the epilepsy
+case extends from zone D through G of the bifurcation diagram of Figure 4, and
+the epilepsy, theta, and alpha case characteristic of H. See the text.
+
+X converges toward one or the other stable fixed point, corresponding to
+an up-state and down-state activity. Eventually it can switch between the
+two stable fixed points if perturbed. The darkest and lightest curves in
+Figure 6B–C correspond to P = −10 and P = 10, respectively, that is, to the
+cases where the system has a single stable fixed point. Regardless of the
+initial condition, the variable X converges toward the same value. The intermediate gray curves correspond to P = 0. Depending on its initial value,
+the variable X converges toward either its down-state value or its up-state
+value. Note that in the case of the down-state, no oscillations appear; the
+fixed point is a stable node. In the case of the up-state, damped oscillations
+appear; the fixed point is a stable focus. This behavior has been observed in
+both healthy and pathological cases (Sutula & Dudek, 2007).
+4.2.3 D–G: Epilepsy Case. For jH2 < j < jCLC , the system undergoes a
+saddle-node homoclinic bifurcation. From the correspondence between bifurcations and behaviors we produced, it is expected to display an epileptiform activity close to the bifurcation point. This is what we observe when
+simulating the system (see Figure 6D–G): the system always displays for
+
+3254
+
+J. Touboul, F. Wendling, P. Chauvel, and O. Faugeras
+
+some initial conditions and some values of the input firing rate P largeamplitude and small-frequency rhythmic activity, similar to epileptic spiking activity (segments S2 in Figure 1) in experimental recordings.
+In the parameter zones D and E, the epileptic activity always coexists
+with the alpha-like activity, observed in both healthy and epileptic recordings (segment S4 in Figure 1). Moreover, the attraction basin of the epileptic
+limit cycles is rather small. Therefore, in the presence of noise, rhythmic
+spikes are not sustained, albeit stable, because the noise can easily bring the
+solution out of the attraction basin. This is the mixed epileptic-alpha case.
+In cases F and G, there exists a whole interval of connectivity values j
+where the epileptic activity is the only possible behavior. In that case, even
+in the presence of noise, seizure activity with sustained rhythmic spiking
+will be observed. This is the purely epileptic situation. Note that these two
+cases correspond to larger values of the total connectivity parameter j than
+in the epileptic-alpha case. This observation is in agreement with the wellestablished fact that functional connectivity is increased in epilepsy (Bettus
+et al., 2008).
+We detail an example in the case j = 12.5. The black and light gray curves
+in, Figure 6 panel D–G of correspond to P = −2 and P = 9, respectively—the
+cases where the system has a single stable fixed point. As in the previous
+case, regardless of the initial condition, the variable X converges toward
+the same value. For P = 2.05, there is a unique stable limit cycle and the
+system always displays epileptic activity, plotted in dashed intermediate
+gray in the same figure. For P = 2.3 there are two stable limit cycles: alpha
+and epileptic activity coexist, and one or the other is selected by the initial
+conditions. The alpha activity is shown in solid intermediate gray in that
+figure. Finally for P = 5, there is a unique limit cycle corresponding to alpha
+activity.
+4.2.4 H: Epilepsy, Theta and Alpha Case. For larger values of the connectivity parameter ( j > jCLC ), the system undergoes a saddle node homoclinic
+bifurcation, and therefore still presents epileptic spikes, which are the only
+stable activities in a large interval of the input parameter values (i.e., the
+limit cycle corresponding to the epileptic-like activity is the only stable trajectory of the system). This family of large-amplitude and low-frequency
+limit cycles is connected to cycles of smaller amplitude and frequency rather
+stable around the theta activity, and eventually to cycles of amplitude and
+frequency corresponding to alpha activity (see Figure 5). Their aspect is
+similar to seizures characterized by rhythmic spike or spike-and-wave activity. A particular aspect of this parameter zone is the presence of EEG
+waves in the frequency band of the theta activity (it is not observed in the
+other cases) and the continuous transition from one oscillatory activity to
+the other, in contrast to the sharp transitions of cases D to G linked with the
+presence of bifurcations. In detail, for the value j = 14 of the connectivity,
+we observe in Figure 6H, for P = 10 an alpha activity (bottom row), for
+
+Neural Mass Activity, Bifurcations, and Epilepsy
+
+3255
+
+P = 5 a theta activity (middle row), and for P = 2.3 an epileptic or delta
+activity (top row).
+4.3 Influence of the Excitation and the Inhibition. In section 4.2, we
+provided a thorough analysis of the bifurcations of Jansen and Rit model
+with respect to the global connectivity parameter j and analyzed the behaviors it generated. An interesting feature of this parameter is that it can
+substantially vary during the dynamics, for instance, through plasticity effects. This parameter also allowed us to reveal and check that increased
+connectivity (either functional or anatomical) can lead to epileptic behaviors in the model, in agreement with the experimental studies previously
+cited. The other two interesting parameters are the connectivity parameters
+α2 and α4 that control the effect of excitation and inhibition. Indeed, we consider that the postsynaptic potentials are hard-coded in the structure of the
+cortical column and are linked with the type of connection (neurotransmitter and receptor mainly) that fixes the parameters G and d; the parameters α1
+and α3 are not directly controllable. The bifurcations with respect to these
+parameters are succinctly described in appendix B for completeness. We
+now discuss in more detail the effects of excitation and inhibition.
+The parameter α2 is of particular interest. Indeed, it controls the excitation in the model and can be used to simulate the effect of blocking
+excitation. Blocking excitation could be a pharmacological goal in the treatment of epilepsy and could, for instance, make the use of sodium channel
+blocking or glutamatergic receptor antagonist. Altering the efficiency of excitatory synaptic projections can be emulated in the Jansen and Rit model
+by decreasing the parameter α2 . We observe that a decrease of the parameter α2 induces the disappearance of the epileptic activity, as evidenced in
+the bifurcation diagram provided in Figure 7. This figure shows that for
+values of α2 (number of excitatory projections) smaller than a critical value,
+any oscillatory activity, and, in particular, epileptic activity, is turned off
+(the green zone in Figure 7). This bifurcation diagram presents a very interesting codimension 3 bifurcation, called the degenerate Bogdanov-Takens
+bifurcation (in the cusp case). The study of this bifurcation and its unfolding is particularly delicate, and was achieved by Dumortier, Roussarie, and
+Sotomayor (1987; Dumortier, Roussarie, Sotomayor, & Zoladek, 1991). This
+bifurcation is especially interesting because its unfolding presents all the
+qualitative behaviors observed in EEG signals that we discuss in this letter.
+In appendix C, we show that Wendling and Chauvel model also features
+this bifurcation, which provides an explanation for the similarities between
+both models. We eventually note that this bifurcation implies that blocking
+excitation leads to only a trivial behavior (there is no value of the parameter
+α2 such that epileptic behaviors disappear while nontrivial behaviors exist).
+The parameter α4 corresponds to the number of synaptic connections in
+the inhibitory feedback loop. Similar to the intuitive fact that seizures are
+linked to increased excitation, a fact corroborated by the previous analysis,
+
+3256
+
+J. Touboul, F. Wendling, P. Chauvel, and O. Faugeras
+
+Figure 7: Bifurcations with respect to p and (A) α2 , (B) α4 . green zone corresponds to the safe zone, where no epileptic behavior is present. Yellow zone of
+(B) corresponds to a case where the epileptic behavior is the only behavior in
+a significant zone of parameters. The vertical blue dot-dash curves correspond
+to the value of the parameter in the original model. Color code of curves is the
+same as in Figure 4. DBT: degenerate Bogdanov-takens bifurcation.
+
+one would think that increasing the inhibition would have a similar effect.
+This simplistic view is not correct, as shown in Figure 7. We observe that
+increasing inhibition through an increased value of the parameter α4 does
+not affect the presence of epileptic activity. However, altering the efficiency
+of inhibition (decreasing α4 ) has the effect of destroying the pathological
+epileptic cycles. This effect takes place very close to natural values of α4
+and allows keeping some interesting neurocomputational features such as
+bistability and alpha rhythms. The fact that the stabilization by blocking
+inhibition requires only decreasing α4 only by a small amount and that it
+keeps its computational capabilities suggests that targeting the inhibitory
+loop could be a good pharmacological treatment.
+4.4 Importance of Delays. Postsynaptic potentials are characterized by
+a fast rise time and a slower decay. The most usual model for modeling
+PSPs is the exponential model e−t/τ 1 t>0 (t), where 1 t>0 is the Heaviside step
+function. This model corresponds to neglecting the rise phase of the PSP
+and considering that an incoming spike has an instantaneous effect on the
+membrane potential of the postsynaptic cell. This amounts to neglecting
+delays of transmission and the fast dynamics of the synapse. This approximation is widely used because it is simple and yet catches the essence of
+the phenomenon one wants to simulate. However, it appears that in the
+Jansen and Rit model, the rise phase that creates a delay in the synaptic transmission is essential for generating the oscillatory activity. Indeed,
+a first-order synapse yields the highly simplistic bifurcation diagram of
+Figure 8, which features only a single equilibrium or a bistable behavior
+but no oscillatory activity. Other models allow a more precise description
+
+Neural Mass Activity, Bifurcations, and Epilepsy
+
+3257
+
+Figure 8: (A) Exponential PSP (black curve) versus second-order PSP (light gray
+curve), and (B) bifurcations of the Jansen and Rit model with exponential PSPs.
+Gray zone: trivial zone, white zone: bistable zone. Black curve: Saddle-node
+bifurcations.
+
+of the PSP by describing separately the rise phase and the decay phase
+of the PSP by the difference of two exponential functions. We believe that
+this type of model will provide results similar to those of Jansen and Rit’s
+original model, and progressively undergo bifurcations as the rise phase
+timescale becomes increasingly smaller.
+This result is in accordance with recent computational studies of largescale networks where delays are shown to be responsible for shaping the
+activity of neurons in large networks. For instance, Roxin, Brunel, and
+Hansel (2005) show that delays give rise to a variety of large-scale oscillatory
+activities.
+5 Not in the Dictionary: Role of Noise in the Dynamics
+In this section, we extend somewhat the purely deterministic framework in
+which we have developed our analyses so far to consider some important
+phenomena that are observed in real recordings. This naturally leads us
+to enrich our framework with stochastic considerations. This is done in a
+qualitative manner. A quantitative analysis is outside the scope of this letter
+and is presented in brief in appendix C.
+5.1 Fast Onset Activity. At first glance, the Jansen and Rit model does
+not feature the fast activity encountered at the onset of hippocampal and
+neocortical seizures in limbic structures, since no limit cycles seem to exist in the related range of frequency and amplitude. This observation led
+Wendling, Chauvel and coworkers (Wendling et al., 2005; Wendling &
+Chauvel, 2008) to extend the Jansen and Rit model by taking into account
+different dynamics for the projections of interneurons on the pyramidal
+
+3258
+
+J. Touboul, F. Wendling, P. Chauvel, and O. Faugeras
+
+neurons. The global structure of the system and its bifurcations are very
+close to those of Jansen and Rit model, as presented in the appendix C. The
+precise analysis of the Wendling and Chauvel model nevertheless leads to
+the same conclusion: the fast onset activity does not correspond to a deterministic limit cycle, and the differential system features a stable fixed point
+where the authors find fast oscillations. Fast onset activity in the Wendling
+and Chauvel model is in fact the result of random fluctuations around a
+stable focus, when the system is driven by Brownian noise, as briefly shown
+in appendix C. This observation gave us a clue as to what to look for in the
+Jansen and Rit model. The conclusion is that for similar values of the parameters, the same phenomenon takes place, and the oscillations observed
+are precisely in the frequency and amplitude range of typical fast onset
+activity (see Figure 9).
+5.2 Interictal Spikes. Another important phenomenon is the occurrence of nonrhythmic isolated epileptic spikes, that is, interictal spikes.
+These events can occur outside seizure periods. The frequency of occurrence of these spikes may increase before seizures. We relate these spikes to
+the presence of noise in the system. Indeed, let us assume that the system
+is located at a stable fixed point for values of the parameters close to a
+saddle-node homoclinic bifurcation. The destabilization of the fixed point
+by the noise will bring the system close to the limit cycles corresponding to
+the epileptic activity and will be interpreted as an interictal spike.
+In cases C to E in Figure 4, interictal spikes can therefore appear, but they
+do not always correspond to a preictal activity. The destabilization of the
+stable fixed point may bring the system close to the epileptic spikes limit
+cycle, but since this cycle is not the only stable behavior, the appearance of
+random spikes will hardly lead to a seizure. Indeed, the attraction basin of
+the epileptic cycles is quite small. When destabilizing the fixed point, we are
+very likely to experience a spike because the saddle-node bifurcation point
+is also a point of the saddle-node homoclinic cycle, part of the branch of
+limit cycles corresponding to epileptic spikes. But the noise will soon make
+the solution quit the attraction basin of the cycle and return to the other
+stable state (Zetterberg et al., 1978). In this case, isolated random spikes
+correspond to some kind of transition from rest to oscillatory activity (see
+Figure 10a). We also observe in this case the emergence of interictal bursts.
+In cases F, G, and H in Figure 4, epilepsy is the only possible behavior
+in a certain range of input parameters. As a consequence, interictal spikes
+predict a move toward rhythmic spikes characteristic of an epileptic seizure
+and therefore precede the onset of a seizure. The choices of the type of input
+noise, its standard deviation, and the kind of perturbed equilibrium affect
+the structure and the properties of the generated burst of spikes, but the
+qualitative behavior is always the same. When the inputs keep the system
+reasonably far from the saddle-node homoclinic bifurcation, spikes have
+a very small probability of occurring and in practice are hardly observed.
+
+Neural Mass Activity, Bifurcations, and Epilepsy
+
+3259
+
+Figure 9: Fast onset activity in the Jansen and Rit model. (A) The plot, as a
+function of the parameters j and P, of the imaginary part of one of two complexconjugate eigenvalues in the Jansen and Rit model, shows a clear maximum for
+some values of the parameters. It is the magnitude of the imaginary part that determines the frequency of the oscillations around the corresponding fixed point.
+The existence of this maximum, together with the fact that the corresponding
+real parts are almost constant and negative (not shown), corresponding to a stable fixed point, generate faster oscillations than the customary alpha rhythms
+observed in the Jansen and Rit model. (B–D) These eigenvalues generate fast
+oscillations around the stable fixed point that show up in the power spectrum.
+The row labeled 1 shows the power spectrum of the signal obtained in numerical experiments; the row labeled 2 shows experimental results from Wendling
+et al. (2005) and Wendling and Chauvel (2008). (B) For small values of P, the
+very small imaginary part of the eigenvalue yields a power spectrum with a
+sharp peak around 5 Hz, similar to the recorded preonset activity (B2), that
+evolves when getting closer to the seizure into a broader distribution (C). The
+high values of the imaginary parts of the eigenvalues (shown in A) correspond
+to the fast onset activity (D).
+
+3260
+
+J. Touboul, F. Wendling, P. Chauvel, and O. Faugeras
+
+Figure 10: Different behaviors in the Jansen and Rit reduced model driven by
+a Brownian noise P of mean μ = 1.8 and standard deviation of .5. (a) Interictal spikes leading to oscillatory activity. The parameters are those given in
+equation 2.2. (b) Interictal spikes and paroxysmal depolarizing shift (PDS). The
+parameters are those given in equation 2.2 except for j = 12.7.
+
+Closer to the bifurcation point, isolated spikes appear (see Figure 10a). Their
+probability of occurrence depends on the value of the input firing rate and
+the noise standard deviation. When increasing further the mean input and
+getting closer to the bifurcation points, spikes become almost rhythmic,
+and several superimposed spikes can appear and create interictal bursts,
+composed of interictal spikes jointly with rapid discharge, that are indeed
+observed in human epilepsy (see Figure 10b). When increasing further the
+stimulation, a seizure can appear, with rhythmic high-amplitude epileptic
+spikes.
+6 Discussion and Conclusion
+We have shown how the study of the bifurcations of equilibria and cycles in
+neural mass models can account for many neuronal behaviors and proposed
+a systematic approach to study parameters and behaviors in such models.
+We instantiated our model of choice, the Jansen and Rit model, and showed
+how our approach applies to it. This led us to describe all possible behaviors
+in the Jansen and Rit model and to show the correspondence between the
+model and several important biological observations: (1) the link between
+hyperexcitability, increased connectivity, either functional or anatomical
+such as neosynaptogenesis (sprouting), and epilepsy, and (2) the relative effects of excitation and inhibition on such behaviors. Our study is centered on
+deterministic structures in the model, but we also discussed different effects
+linked with the presence of noise in the external input. Extending this approach to stochastic models, taking into account noise in a more systematic
+
+Neural Mass Activity, Bifurcations, and Epilepsy
+
+3261
+
+fashion, is an important goal that we are pursuing, which raises interesting
+biological and mathematical issues (Arnold, 1998; Berglund & Gentz, 2006).
+Indeed, variability and noise can affect different variables and parameters in the model. The question of how stochastic perturbations modify
+the structures described in this letter is of great interest and an unsolved
+problem. We have shown that randomness in the input was able to explain
+inter-ictal or preictal behaviors by exhibiting the spectral content related to
+the imaginary part of eigenvalues of a stable fixed point. The effect of noise
+on periodic orbits still needs to be further explored.
+A more profound question related to noise bears on the origin of the
+neural mass model equations. Remember that the Jansen and Rit equations
+describe the global behavior of populations of at least thousands of neurons
+and that at the microscopic scale of individual neurons, noise is a prominent
+phenomenon. Therefore, the question of how one can derive these equations
+from the individual behavior of each neuron and how the microscopic noise
+is translated into macroscopic randomness is essential. Rigorous methods
+yield very complex equations, as presented in Faugeras et al. (2009). The
+study of these equations, and how the behaviors are affected by the noise,
+will most probably provide great insights into the effect of noise on the
+appearance of seizures and in the rhythms of the brain and is currently an
+active area of research.
+A very interesting aspect of the Jansen and Rit model is that it features
+the sequence of electrophysiological patterns observed in temporal lobe or
+prefrontal epilepsy when increasing the input parameter P. Indeed, in the
+epileptic behavior zones obtained, increasing the input parameter and considering this noise parameter makes the system go from a trivial interictal
+behavior to preictal activity showing individual isolated spikes and then
+to a faster onset activity that precedes the rhythmic spikes and alpha-band
+activity characteristic of the seizure. Simulation of this structure is provided in Figure 11A, and the trace generated in this fashion is very close to
+standard traces recorded in epileptic patients (see Figure 5A in McGonigal
+et al., 2008). This observation is related to the fact that in pathological cortical
+columns, a global increase of the input to the pyramidal neurons can trigger
+a seizure. It is well known that this is not the only phenomenon that can be
+at the origin of a seizure, since the world of epilepsy is complex (see Tim¨
+ofeev, 2010; Bazhenov, Timofeev, Frohlich,
+& Sejnowski, 2008; Timofeev &
+Steriade, 2004, for interesting facts and discussions). Moreover, the model
+allows discriminating between normal and pathological values of parameters and simulating, for instance, the effect of medication. As an example,
+in Figure 11B, we use the same parameters as in Figure 11A leading to a
+seizure and, additionally, simulate a sudden decrease in the parameter α2
+by 1%, which, according to the mathematical study, makes the epileptic
+spikes disappear. Such a phenomenon can be related to the injection of a
+convulsant drug and yields traces that can be observed experimentally: it
+stops the rhythmic spikes suddenly and turns the activity into alpha waves
+
+3262
+
+J. Touboul, F. Wendling, P. Chauvel, and O. Faugeras
+
+Figure 11: A seizure in the slightly hyperinnerved case ( j = 12.7). Input
+P = μ0 + 10−3 t + σ Bt where Bt is a Brownian motion, (A) μ0 = 1.5 and
+(B) μ0 = 1.2 in order to see the different preonset phases. σ = 0.4. (A) The
+gray zone corresponds to preonset activity and the pink zone to the onset of the
+seizure: we observe randomly distributed spikes and paroxysmal depolarizing
+shifts. The light green zone corresponds to the rhythmic spiking phase of the
+seizure itself: we observe rhythmic activity with high-amplitude oscillations.
+The yellow zone corresponds to the alpha activity phase of the seizure. If the
+input keeps increasing or if it is turned off, a return to background activity will
+be observed (not plotted). (B) Same parameters, with simulation of anti-GABA
+convulsant injection (decrease α2 from 0.25 to 0.23) at a time shown by the red
+bar. This has the effect of stopping the rhythmic spike and triggers the seizure
+alpha activity phase. The differences in preonset activity are evidenced during
+the preonset phase by the power spectra (C).
+
+Neural Mass Activity, Bifurcations, and Epilepsy
+
+3263
+
+such as those in segment S4 of Figure 1. Termination of the seizure (not plotted) can occur through several mechanisms. In the numerical protocol used
+here, we increased the parameter P, which will result in a disappearance of
+the alpha cycles (related to the seizure) through the Hopf bifurcation identified in the bifurcation diagram (see Figure 5) leading the system to return
+to background activity. A variety of phenomena can also occur during a
+seizure that lead to its termination, among them the dramatic decrease of
+extracellular calcium concentration, membrane shunting, and energy failures (Lado & Mosh´e, 2008; Heinemann, Lux, & Gutnick, 1977). These have
+the effect of reducing synaptic transmission, that is suddenly decreasing
+the input parameter P. This phenomenon also has the effect of pushing the
+system back to background activity since for small values of the input parameter, the bifurcation diagram presents a unique stable fixed point that is
+related to typical profiles of background activity. We note that this analysis
+raises the question of how to couple the dynamics of P or, for that matter,
+of other, parameter, to the activity of the system. Note that Figure 11 is
+based on a particular choice of the variation of one of the parameters of
+the system. Other choices of variations of parameters would allow finding
+different patterns of activity, depending on the bifurcation curves crossed.
+Conversely, experimental information on the variation of the parameters,
+mapped on the related bifurcation diagram, will give information about the
+cortical columns pattern of activity.
+The total connectivity level seems to be an important parameter in the
+model since variations of this parameter are linked to pathological behaviors. This naturally leads to the study of phenomena that can affect its values,
+for instance, plasticity, and, in particular, the links between plasticity and
+epileptogenic stimuli such as oscillatory visual stimulations.
+Part of our conclusion is that a good model for reproducing EEG activity should be versatile enough to reproduce all the behaviors discussed
+in this letter. One way to obtain such a model is to ensure that it features
+the same bifurcation structure as the Jansen and Rit model. This guarantees that one can, similar to this case, use the dictionary introduced in
+section 3.2 to find typical behaviors. We observed that the Jansen and Rit
+and the Wendling and Chauvel models both presented a codimension 3
+bifurcation that unfolded into the desired bifurcation structure. This bifurcation, called the degenerate Bogdanov-Takens bifurcation (also referred to
+as the cusp case of the singularity of planar vector fields with nillpotent
+Jacobian matrix), was studied by Dumortier et al. (1987, 1991) and has the
+important property of being generic, with this form:
+x˙ = y
+y˙ = x2 + α + y(β + γ x ± x3 )
+
+.
+
+(6.1)
+
+This suggests that such a polynomial model is a good candidate for a simple
+qualitative model of a cortical mass: it is very simple since it is of dimension
+
+3264
+
+J. Touboul, F. Wendling, P. Chauvel, and O. Faugeras
+
+2 and depends on only three parameters: α, β, and γ . The study of such
+phenomenological models is therefore very promising.
+Finally, we believe that the methodology developed in this letter is an
+appropriate and highly meaningful tool for the study of a large variety of
+important behaviors observed in EEG recordings with a particular emphasis
+on abnormal epilepsy-related phenomena.
+Appendix A: Numerical Methods for Bifurcations
+In this appendix we present a numerical algorithm to compute formally
+or numerically local bifurcations for vector fields implemented in Maple.
+This algorithm is based on the closed-form formulations for genericity
+and transversality conditions given in textbooks such as Guckenheimer
+and Holmes (1983) and Kuznetsov (1998). We present the main features
+of the algorithm in the first section and then apply this algorithm to
+compute codimension 2 bifurcations for the Jansen and Rit neural mass
+model. Bifurcations of cycles were computed using the MatCont package of
+Matlab implemented by Kuznetsov and collaborators (Dhooge et al., 2003a,
+2003b).
+A.1 Solver of Equations. For our numerical analysis, we implemented
+a precise and efficient solver of equations based on dichotomy. This algorithm controls the precision of the solution we are searching for and is
+considerably faster than the native fsolve Maple application.
+A.2 Saddle-Node Bifurcation Manifold. We recall that given a dynamical system of the type x˙ = f (μ, x) for x ∈ Rn and μ ∈ R, the systems
+undergoes a saddle-node bifurcation at the equilibrium x = x0 , μ = μ0 if
+and only if the following three conditions are satisfied (see Guckenheimer
+& Holmes, 1983, theorem 3.4.1):
+SN1: Dx f (μ0 , x0 ) has a simple 0 eigenvalue. Denote by v (resp. w) the
+unit norm right (resp. left) corresponding eigenvector.
+SN2: w, ∂ f /∂μ)(x0 , μ0 ) = 0.
+SN3: w, (D2x f (μ0 , x0 ))(v, v) = 0.
+The algorithm we use to identify the saddle-node bifurcation manifold
+is a straightforward application of this theorem. First, we solve the implicit
+equation det(Dx f (μ0 , x0 )) = 0 on the fixed-points manifold. We thereby
+obtain the equilibria where the Jacobian determinant vanishes (i.e., where
+there is at least one 0 eigenvalue). We then compute the left and right
+eigenvectors of the Jacobian matrix at these points:
+
+r Check that the dimension of the eigenspace related to the eigenvalue
+0 is 1
+
+r Check conditions SN2 and SN3.
+
+Neural Mass Activity, Bifurcations, and Epilepsy
+
+3265
+
+On the line where the determinant of the Jacobian matrix vanishes and
+some of the above conditions are not satisfied, we consider two cases corresponding to the cusp and the Bogdanov-Takens bifurcations
+A.3 Cusp Bifurcation. At a cusp bifurcation point, the Jacobian matrix
+of the system has a null eigenvalue, and the first coefficient of the normal
+form (given by condition SN3) vanishes. In that case, under the differential
+transversality and genericity conditions of Kuznetsov (1998, lemma 8.1), a
+smooth change of coordinates locally puts the system in the normal form of
+the cusp bifurcation. Our algorithm numerically checks the two conditions
+at these singular points.
+A.4 Bogdanov-Takens Bifurcation. If along the saddle-node manifold
+a second eigenvalue vanishes, under the genericity and transversality conditions of Guckenheimer and Holmes (1983), a smooth change of coordinates locally puts the system in the normal form of the Bogdanov-Takens bifurcation. These conditions are also numerically checked by our algorithm.
+A.5 Andronov-Hopf Bifurcation Manifold. Changes in the stability of
+fixed points can also occur by Andronov-Hopf bifurcations. In this case, the
+real part of an eigenvalue crosses 0 but not its imaginary part. Theoretically
+the dynamical system x˙ = f (x, μ) undergoes a Hopf bifurcation at the point
+x = x0 , μ = μ0 if and only if (see Guckenheimer & Holmes, 1983, theorem
+3.4.2):
+H1: Dx f (x0 , μ0 ) has a simple pair of purely imaginary eigenvalues and
+no other eigenvalues with 0 real part. Denote by λ(μ) the eigenvalue that is purely imaginary at μ0 .
+H2: l1 (x0 , μ0 ) = 0 where l1 is the first Lyapunov exponent.
+d
+H3: dμ
+(Re(λ(μ)))|μ=μ = d = 0.
+0
+
+In this case, checking condition H1 is not as easy as checking condition
+SN1. Different methods are available in order to compute Hopf bifurcation
+points (Guckenheimer, Myers, & Sturmfels, 1996; Guckenheimer & Myers,
+1996). Our algorithm is based on computing the bialternate product of the
+Jacobian matrix of the system 2 J( j, P) Id where Id is the identity matrix.
+Its eigenvalues are the sums λi + λ j , where λi and λ j are eigenvalues of the
+initial matrix J(j,P)). This implies that its determinant vanishes if and only
+if the Jacobian matrix has two eigenvalues adding up to 0. Therefore, at
+these points where the bialternate product vanishes, we have to check that
+there exists a purely imaginary eigenvalue to avoid cases where the system has two real opposed eigenvalues. Even with this step, the bialternate
+product method is much more efficient than other methods based on the
+characteristic polynomial such as Kubicek’s (1980) method.
+
+3266
+
+J. Touboul, F. Wendling, P. Chauvel, and O. Faugeras
+
+A.6 Bautin Bifurcation. If along the line of the Hopf bifurcations the
+first Lyapunov coefficient vanishes and a subcritical Hopf bifurcation becomes supercritical when changing the parameters, under the differential
+conditions of (Kuznetsov, 1998, theorem 8.2), the system undergoes a Bautin
+bifurcation. At the points where the first Lyapunov coefficient vanishes, the
+algorithm numerically checks these conditions.
+A.7 Application to the Jansen and Rit Model. We now apply this
+algorithm to the Jansen and Rit model. We start by identifying the fixed
+points and studying their stability before searching for bifurcations.
+A.7.1 Fixed Points and Stability. An interesting property of system 2.2 is
+that the equilibria can be parameterized as a function of the state variable
+X = Y1 − Y2 :
+Y0 = jS(X ),
+G
+jS(α3 jS(X )),
+d
+P = X + jS(X ) − α2 jS(α1 jS(X )).
+
+Y2 = α4
+
+The Jacobian matrix at such a fixed point is also parameterized by X and
+reads:
+⎛
+
+0
+
+0
+
+⎜
+0
+0
+⎜
+⎜
+⎜
+0
+0
+⎜
+J(X ) = ⎜
+⎜
+−1
+j
+S
+(X )
+⎜
+⎜
+⎝ α1 α2 jS ( jα1 S(X )) −1
+α3 α4 jdS ( jα3 S(X ))
+
+0
+
+0
+
+1
+
+0
+
+0
+
+0
+
+0
+
+⎞
+
+1 −1 ⎟
+⎟
+⎟
+0 0 0 1 ⎟
+⎟
+⎟.
+0 −2 0 0 ⎟
+⎟
+⎟
+−1 0 −2 0 ⎠
+−d2 0
+
+0 −2d
+
+Although all the dynamics can be parameterized with the variable X, because of the complexity of the sigmoidal function, the analytical bifurcation
+study is untractable, and one has to make use of numerical software in
+order to solve the problem.3
+In our case, almost all the calculations can be performed analytically with
+respect to the variable X. For this reason, the use of the bifurcation method
+allows computing the bifurcations of equilibria accurately. The continuation
+of periodic orbits is more intricate, and an analytical study is not possible.
+This is why we used Matlab’s toolbox MatCont (Dhooge et al., 2003b) to
+study these bifurcations.
+3 Grimbert
+
+and Faugeras (2006) used the XPPAut software in Ermentrout (2002).
+
+Neural Mass Activity, Bifurcations, and Epilepsy
+
+3267
+
+A.7.2 Saddle-node Bifurcation Manifold. In the case of the Jansen and Rit
+model (see section 2.2), the possible saddle-node bifurcation points are
+located on a curve in the parameter space depending on the variable X and
+whose expression is:
+d = j S (X )(α1 α2 d S (α1 j S(X )) − α3 α4 GS (α3 j S(X )))
+
+(A.1)
+
+In the case of the Wendling and Chauvel model (see appendix C), this
+equation becomes
+1 = j2 S (X ) α1 α2 S (α1 j S(X )) −
++S
+−
+
+−
+
+α3 α4
+G1 S (α3 j S(X ))
+d1
+
+jG1 α6
+α α α
+S(α3 jS(X ) + α5 jS(X )) 3 6 7 G2 S (α3 jS(X ))
+d1
+d1 d2
+
+α5 α6
+G S (X )
+d2 2
+
+.
+
+(A.2)
+
+On this curve, we have to check the genericity and the transversality
+conditions. For this step, we have to resort to purely numerical simulation,
+since the computations are too heavy to be performed analytically.
+It turns out that condition SN2 is always satisfied. For each point of
+the curve, the dimension of the eigenspace associated with the eigenvalue
+0 is equal to 1, except for the point BT of coordinates jBT = 10.05, PBT =
+−3.0742, XBT = 3.2956. We will study this point in section A.7.5 and prove
+that the system undergoes there a Bogdanov-Takens bifurcation.
+Finally, condition SN3 is satisfied everywhere except at point C of coordinates jC = 5.38, PC = −0.29, XC = 3.63 (Figure 12b represents the coefficient involved in the saddle-node nondegeneracy condition, SN3). We
+will also specifically study this point and show that the system undergoes
+a cusp bifurcation there.
+The curve is represented in projection in the ( j, P) plane on Figure 12a
+and presents a singularity at the point C.
+A.7.3 Andronov-Hopf Bifurcation Manifold. Using our symbolic computation algorithm, we obtain the manifold where the system possibly, undergoes Hopf bifurcations. When all the parameters but two are fixed, this
+manifold is a curve in a three-dimensional space (one coordinate is the
+variable X). This line can be computed in a closed form, but the expression
+is very complicated and we do not reproduce it here. At each point of this
+line, we check the transversality H2 and the genericity H3 conditions.
+We compute the eigenvalues and eigenvectors using Maple’s algorithm
+and numerically compute the derivative of the real part of the eigenvalue at
+
+3268
+
+J. Touboul, F. Wendling, P. Chauvel, and O. Faugeras
+
+Figure 12: Saddle-node bifurcation manifold and bifurcation diagram in ( j, P).
+
+Figure 13: Andronov-Hopf bifurcation manifold and bifurcation diagram in
+the ( j, P) space. The black part corresponds to a subcritical Hopf bifurcation
+(i.e., generating unstable limit cycles) and the gray one to supercritical Hopf
+bifurcations (generating stable limit cycles).
+
+this point and the first Lyapunov exponent, which is given in closed form
+as a function of the eigenvectors (Kuznetsov, 1998). The points we obtain
+where the system undergoes an Andronov-Hopf bifurcation are plotted in
+the ( j, P) plane, together with the sub- or supercritical type of the bifurcation
+in Figure 13.
+We observe that there is no Hopf bifurcation for j < jBT . When j is increase a branch of subcritical Hopf bifurcations appears. When we reach the
+point H2 defined by jH = 12.099480, PH = 0.095382, XH = 4.150820, two
+2
+2
+2
+additional Hopf bifurcation points appear. This point H2 is a regular Hopf
+
+Neural Mass Activity, Bifurcations, and Epilepsy
+
+3269
+
+bifurcation point (the Jacobian matrix has two purely imaginary eigenvalues and the dependence in the parameters is regular). After this point, when
+we increase the parameter j further, the system has three Hopf bifurcations,
+one of them subcritical and the other two subcritical. We then reach a singular point GH of coordinates jGH = 12.48, PGH = −2.58, XGH = 3.58, where
+the first Lyapunov exponent vanishes. At this point, one of the supercritical
+Hopf bifurcation becomes subcritical. Finally, the two subcritical Hopf bifurcations collapse at the regular Hopf bifurcation point H1 of coordinates
+jH = 12.55375000, PH = −3.104094843, XH = 3.450451048. For values of j
+1
+1
+1
+greater than jH , the system has a unique supercritical Hopf bifurcation.
+1
+
+A.7.4 Cusp Bifurcation. We now study point C shown in Figure 12a. At
+this point, the Jacobian matrix has a unique 0 eigenvalue, and the coefficient
+corresponding to the genericity condition SN3 vanishes. This fact leads us
+to check if this point corresponds to a cusp bifurcation. Two genericity
+conditions related to the cusp bifurcations are indeed satisfied at this point:
+the first and second derivatives of the normal form vanish. Two additional
+conditions are to be checked: these are the following:
+C1: The cubic coefficient of the normal form on the center manifold
+does not vanish (its numerical value is c = −3.032 10−2 ).
+C2: The transversality condition is satisfied: the dependence in the
+parameters and the variables is regular at this point. Indeed, we
+have to check that on the center manifold, a certain determinant
+does not vanish. Numerically we obtain the value −0.061; hence
+the system satisfies the transversality condition.
+A.7.5 Bogdanov-Takens Bifurcation. As mentioned before at the point BT,
+the Jacobian of the system has two 0 eigenvalues:
+BT1: We compute the quadratic coefficients of Taylor’s expansion in
+the center manifold and obtain, using Kuznetsov’s (1998) notations, a = 0.005342 and b = 0.009434. Hence, at point BT, we have
+a b > 0 and σ = sign(ab) = 1.
+BT2: The transversality condition is checked by computing the determinant of the Jacobian matrix of a certain application.
+Hence point BT corresponds to a supercritical Bogdanov-Takens bifurcation (i.e., generating unstable limit cycles). From this point, there is a
+saddle-homoclinic bifurcation curve.
+A.7.6 Bautin (Generalized Hopf) Bifurcation. At the point GH, the system
+undergoes a Hopf bifurcation, and the first Lyapunov exponent vanishes. At
+this point, we need to compute the second Lyapunov exponent and check a
+transversality condition. Complicated but straightforward differential computations yield the second Lyapunov coefficient. We obtain l2 = 2.235 10−3 .
+
+3270
+
+J. Touboul, F. Wendling, P. Chauvel, and O. Faugeras
+
+Figure 14: Full bifurcation diagram represented on the fixed points manifold.
+See the text for the description.
+
+The transversality condition is checked by computing the determinant of a
+Jacobian matrix, and this determinant does not vanish. Hence, the system
+undergoes a Bautin bifurcation.
+A.7.7 Conclusion. Figures 14a (in the ( j, P) plane) and 14b (in the (X, j, P)
+space) summarize the different local bifurcations we have found in our
+study. The black curve represents the saddle-node bifurcation curve, the
+light gray curve the subcritical Hopf bifurcations, and the dark blue curve
+the supercritical Hopf bifurcations. The cusp point C, the Bogdanov-Takens
+point BT, is at the intersection of the saddle-node and Hopf curves, and the
+generalized Hopf bifurcation point GH is the point where the subcritical
+Hopf bifurcations becomes supercritical.
+Appendix B: Influence of Other Parameters
+in the Jansen and Rit Model
+The different bifurcations and behaviors featured by the Jansen and Rit
+model when varying the input P, the total connectivity parameter j, and the
+excitatory and inhibitory connectivity parameters α2 and α4 are studied in
+section 4. As a complement, we study the bifurcations of the solutions with
+respect to the four remaining parameters G, d, α1 , and α3 . Note that there
+is no easy way to act on these variables from a neurological point of view.
+Indeed, the postsynaptic pulses depend on the type of neurotransmitter and
+the type of receptor involved in the synaptic transmission of information,
+and the dynamics of the information transmission is therefore hard-coded
+in the structure of the cortical column, while the slope of the voltage to the
+
+Neural Mass Activity, Bifurcations, and Epilepsy
+
+3271
+
+Figure 15: Codimension 2 bifurcations in the Jansen and Rit model with respect
+to the input P and (A) the PSP amplitude ratio G and (B) the PSP delay ratio d.
+The behavior of the system for fixed values of G can be split into eight zones
+(A), . . . , (H) described in the text. The black curve corresponds to the saddlenode manifold, the point C to the cusp bifurcation point and, the blue curve to
+the subcritical Hopf bifurcations manifold. It is connected to the saddle-node
+manifold via a subcritical Boganov-Takens bifurcation at point BT. At this point,
+the saddle-homoclinic bifurcations curve is plotted in green and connects to the
+saddle-node manifold via a saddle-homoclinic bifurcation, becoming a saddlenode-homoclinic bifurcation curve (dashed green line). The subcritical Hopf
+bifurcation manifold is connected to the supercritical Hopf bifurcation manifold (red curve) through a Bautin bifurcation (point GH). From this bifurcation
+point, there is a manifold of folds of limit cycles represented in orange. Cycles
+undergo a cusp bifurcation at the CLC point and a saddle-node-homoclinic bifurcation at the point S (the corresponding values of the parameters are shown in
+Table 5).
+
+firing rate function is encoded in the parameters α1 and α3 and is considered
+a fixed parameter that cannot easily be changed.
+Two parameters govern the postsynaptic potentials: the amplitude ratio
+G and the timescale d. Acting on G corresponds to increasing the effect
+of inhibition, and therefore the dependence of the system with respect to
+G is close to acting on α4 . Actually the parameter α4 G can be considered
+an independent parameter, but we did not choose to compact these in order to perform the study of medication that necessitated leaving α4 free.
+The bifurcation diagram, shown in Figure 15A, is very similar to that of
+Figure 4A, and the system features the same bifurcations as when varying
+j—a cusp, a Bogdanov-Takens and a Bautin bifurcation, two branches of
+the saddle-node of limit cycles collapsing at a cusp of limit cycles, and homoclinic and saddle-homoclinic bifurcations—which implies that the same
+types of behaviors will be observed. The value of the parameters associated
+with each bifurcation is provided in Table 5. In the eight zones identified,
+
+3272
+
+J. Touboul, F. Wendling, P. Chauvel, and O. Faugeras
+
+Table 5: (G, P) Coordinates of the Different Bifurcation and Special Points of
+the Jansen and Rit Model.
+Point
+G
+P
+
+BT
+
+H2
+
+S
+
+E
+
+GH
+
+H1
+
+CLC
+
+C
+
+3.06
+−4.53
+
+4.27
+1.05
+
+4.27
+1.06
+
+4.85
+−0.43
+
+5.07
+−1.34
+
+5.23
+−1.78
+
+5.69
+3.12
+
+20.51
+7.29
+
+the observed behaviors are analogous to the ones described in the case of
+the total connectivity j. There is a one-to-one correspondence between the
+behaviors of the zones labeled A to G in Figure 4a and those labeled B to
+H in Figure 15A. The only new kind of behavior corresponds to zone (H)
+in Figure 4a, where there is no saddle-node bifurcation but a supercritical
+Hopf bifurcation, which implies the existence of a cycle.
+The bifurcation structure with respect to the postsynaptic pulse time
+constant d also features the same bifurcations. This is shown in Figure 15B.
+The bifurcations are located in a very small zone, of parameter values, and
+in this zone, the system will therefore be very sensitive to changes of these
+parameters. For this reason, we chose not to display the different behavior
+zones to increase legibility. The bifurcations diagrams for parameters α1
+and α3 are not particularly interesting for this study and are omitted.
+Appendix C: Analysis of the Wendling and Chauvel Model
+Wendling, Chauvel, and colleagues (Wendling et al., 2005; Wendling &
+Chauvel, 2008) proposed an extension of the Jansen and Rit model with the
+specific aim of reproducing the fast activity observed at the onset of seizures.
+We showed in the main text that this phenomenon can be reproduced in
+the Jansen and Rit model through a stochastic effect that excites fast oscillation modes around a stable fixed point characterized by a large, imaginary
+part of the corresponding complex conjugate eigenvalues of the Jacobian
+matrix of the system. In order to account for these oscillations, Wendling,
+Chauvel, and colleagues revisited the Jansen and Rit model, focusing on
+the interconnections between pyramidal cells and interneurons, based on
+physiological evidence about the hippocampus structure. This model, referred to in what follows as the Wendling and Chauvel model, differentiates
+between fast somatic and slow dendritic projections of interneurons onto
+pyramidal cells. In this appendix, we describe the model in light of the
+dictionary developed in the main text and the results of the analysis of the
+Jansen and Rit model. We start with a mathematical description, continue
+with a study of its bifurcations and the behaviors they entail, and conclude
+that the two models present the same typical behaviors that are ultimately
+caused by the same underlying mathematical structures.
+
+Neural Mass Activity, Bifurcations, and Epilepsy
+
+3273
+
+C.1 Wendling and Chauvel Model of Hippocampus Activity. Wendling and Chauvel model draws on a bundle of neurophysiological studies
+of the hyppocampus structure (Jefferys & Whittington, 1996; White, Banks,
+Pearce, & Kopell, 2000; Houser & Esclapez, 1996), and introduce two different interconnection types between interneurons and pyramidal neurons.
+They indeed distinguish the dynamics of the fast somatic inhibition related
+to direct projections of the interneurons on the soma of pyramidal cells and
+the slow dendritic inhibition, which is already taken into account in the
+Jansen and Rit model. The typical architecture of the neural mass is shown
+in Figure 16. The distinction between the two types of interneuron projections can be analytically taken into account by introducing an artificial
+additional population of interneurons (see Figure 16). This population satisfies the same equation as the dendritic interneurons, with the distinction
+that somatic projections are characterized by a faster rising postsynaptic
+potential function h f (t) = C c e−c t . This yields equations similar to those of
+Jansen and Rit, with some additional parameters that were fitted using experimental data in Wendling and Chauvel (2008) and are provided in Table
+6. These equations can be written in a dimensionless manner as follows:
+⎧
+Y˙0 = Y5
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+X˙ = Y6 − Y7 − Y8
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪ Y˙ = Y
+⎪
+⎪
+2
+7
+⎪
+⎪
+⎪
+⎪
+˙
+⎪
+Y = Y8
+⎪
+⎪
+⎪ 3
+⎪
+⎪
+⎪
+˙
+⎪
+⎨ Z = α5Y5 − α6Y9
+Y˙5
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+Y˙6
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+Y˙7
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪ Y˙
+⎪
+⎪
+⎪ 8
+⎪
+⎪
+⎪
+⎪
+⎪
+⎩ Y˙
+9
+
+(C.1)
+
+= jS(X ) − 2Y5 − Y0
+= jα2 S(α1Y0 ) − 2Y6 − (X + Y2 + Y3 ) + P(t)
+= jd1 G1 α4 S(α3Y0 ) − 2d1Y7 − d12Y2
+= jd2 G2 α7 S(Z) − 2d2Y8 − d22Y3
+= jd1 G1 S(α3Y0 ) − 2d1Y9 − d12
+
+α5Y0 − Z
+α6
+
+In these equations, the parameters j, P and the sigmoid function S(x) are
+the same as those in the Jansen and Rit model and are described in the main
+text. The following additional parameters are used:
+⎧
+B
+C
+⎪
+⎪
+G2 =
+⎨ G1 =
+A
+A
+.
+⎪
+b
+c
+⎪
+⎩ d1 =
+d2 =
+a
+a
+
+(C.2)
+
+3274
+
+J. Touboul, F. Wendling, P. Chauvel, and O. Faugeras
+
+Figure 16: Wendling and Chauvel neural mass model. (A) Schematic and
+(B) block diagram representations of the model based on the cellular organization of the hippocampus. (A) Solid arrows: excitation. Gray dashed arrow: fast
+somatic GABAergic inhibition; black dashed arrow: slow GABAergic dendritic
+inhibition.
+
+Average excitatory synaptic gain
+Average inhibitory synaptic gain, slow dendritic inhibition loop
+Average inhibitory synaptic gain, fast somatic inhibition loop
+Time constant of average excitatory postsynaptic potentials
+Time constant of average inhibitory postsynaptic potentials
+Time constant of the filter time delay
+Average probability of synaptic contacts in the fast feedback inhibitory loop
+Average probability of synaptic contacts between slow and fast inhibitory neuron
+
+Interpretation
+
+Notes: The parameters α1 , . . . , α4 , J, v0 , r and νmax are the same as in the Jansen and Rit original model. See Table 1.
+
+A
+B
+C
+1/a
+1/b
+1/c
+α5 , α 6
+α7
+
+Parameter
+
+Table 6: Parameter Interpretations and Values of the Extended Model Proposed by Wendling and Chauvel (2008).
+
+3.25 mV
+22 mV
+20 mV
+10 ms
+35 ms
+5 ms
+0.1
+0.8
+
+Value
+
+Neural Mass Activity, Bifurcations, and Epilepsy
+3275
+
+3276
+
+J. Touboul, F. Wendling, P. Chauvel, and O. Faugeras
+
+These new parameters can be evaluated using the values of the parameters
+given in Table 6 and take the following values:
+G1 = 6.76923 G2 = 6.15385
+d1 = 0.2857
+
+d2 = 2
+
+.
+
+This is a 10-dimensional system of first-order ordinary differential equations depending on 13 parameters (including the input P). We now turn to
+analyzing this system in the light of the dictionary developed in the main
+text and the concepts introduced there.
+C.2 Analysis of Wendling and Chauvel Model. We study the possible
+behaviors displayed by Wendling and Chauvel model, equation C.1, as the
+parameters vary and link these behaviors with typical stages in epileptic
+seizures as described in section 2. We start by examining the joint role of the
+total connectivity parameter j and the input P in order to assess whether
+this model agrees with the well-established fact that an increased functional
+or anatomical connectivity can yield epileptic behavior, before turning to
+studying the role of the PSP amplitude ratios G1 and G2 in order to account
+for the results in Wendling and Chauvel (2008).
+C.2.1 Effect of the Total Connectivity. The study of the joint effect of the
+total connectivity and the input is numerically explored through our bifurcation and continuation algorithms.
+With respect to these two parameters, the Wendling and Chauvel model
+features, similar to those of Jansen and Rit, the following bifurcations: a
+saddle-node and a Hopf bifurcation manifolds, a cusp, a Bautin bifurcation,
+and a codimension 3 bifurcation—a degenerate Bogdanov-Takens bifurcation, similar to the one observed in Jansen and Rit model when varying the
+parameter α2 . Figure 17 displays the corresponding bifurcation diagram,
+which is split into four zones labeled from A to D. This provides a partition of the parameter space such that for each fixed j in a given zone, the
+Wendling and Chauvel system presents the same bifurcation diagram as
+the input P varies. These bifurcation diagrams are plotted in Figures 17b to
+17d, corresponding to the nontrivial behaviors:
+
+r In parameter zone A, the system exhibits a unique fixed point for every input P. This zone corresponds to the normal behavior in EEG
+recordings: the system always converges to the unique, stable equilibrium depending on the input rate (see Figure 17a) corresponding
+to the activity level of the column.
+r Parameter zone B corresponds to a purely epileptic behavior appearing through a saddle-node-homoclinic bifurcation as described
+in our dictionary in our dictionary in section 3.2 (see Figure 17b).
+
+Neural Mass Activity, Bifurcations, and Epilepsy
+
+3277
+
+Figure 17: Bifurcations of the Wendling and Chauvel model with respect to the
+parameters P and j. The other parameters are set to the values in Table 6. We
+observe a saddle-node bifurcation manifold (plain black curve), a Hopf bifurcation manifold (plain blue curve), a fold bifurcation of limit cycles manifold
+(plain orange curve), a Bautin bifurcation, and a codimension three degenerate
+Bogdanov-Takens bifurcation (DBT).
+
+The system features two saddle-node bifurcations and a subcritical Hopf bifurcation generating unstable limit cycles that undergo
+a fold of limit cycles connecting to a family of stable, large-amplitude,
+slow limit cycles corresponding to epileptic-like activity, as plotted in
+Figure 18b.
+r Parameter zone C of Figure 17 corresponds to a birhythmicity: the system presents a family of stable limit cycles of small amplitude and 10
+Hz frequency corresponding to alpha-like activity and a stable family of epileptic spikes. In this case, the system presents alpha activity
+together with epileptic spikes of low frequency and high amplitude
+
+3278
+
+J. Touboul, F. Wendling, P. Chauvel, and O. Faugeras
+
+Figure 18: Wendling-Chauvel behaviors in each parameter case. (a) Unconditional convergence to a unique fixed point. Parameters: j = 5, P = −5 or 10.
+(b) Epileptic spikes. Parameters: j = 8, P = 2, 3.5, 4, 5.5, 7, or 9. (c) Alpha and
+epileptic waves: j = 10, P = 9.7, 7, or 5. (d) Epilepsy, theta, and alpha rhythms.
+Parameters: j = 13, P = 5, 15, or 22.
+
+because of the presence of two fold bifurcations of limit cycles (see
+Figure 18c).
+r Parameter zone D corresponds to a case where the system presents two
+saddle-node bifurcations and a Hopf bifurcation (see Figure 17d) . The
+system presents a saddle-node homoclinic bifurcation, corresponding
+to the apparition of epileptic spikes, as stated in our dictionary, and
+visible in the simulations of Figure 18d. This branch of limit cycles
+
+Neural Mass Activity, Bifurcations, and Epilepsy
+
+3279
+
+smoothly connects to a branch of limit cycles corresponding to theta
+activity when the input firing rate of the column increases and eventually connects to a branch of alpha activity cycle, vanishing on a Hopf
+bifurcation. This smoothly connected family of oscillatory behaviors is
+very similar to the case of zone H in Figure 4, and behaviors are closely
+related, as plotted in Figure 18d, to be compared with Figure 6H
+in the main text.
+We observe that in the case where the parameters are set using the
+biophysical values of Table 6, the Wendling and Chauvel model features
+only behaviors that are also featured by Jansen and Rit’s model. The alpha
+activity always coexists with a rhythmic spikes activity, and rhythmic spikes
+are the only stable behavior in a given zone of parameters, yielding an
+unconditional epileptic spiking behavior in a determined region of the
+parameters. We observe that a very small input connectivity parameter
+always produces normal behavior.
+However, there are differences between the two models. Bistability never
+exists in the Wendling and Chauvel model when one fixes all parameters
+but j and P. Therefore, this behavior is an additional feature of Jansen and
+Rit’s model compared to Wendling and Chauvel’s. Moreover the fact that increasing j increases the likeliehood of the appearance of epileptic behaviors
+is not true in their model. Indeed, we observe that decreasing the parameter j from its physiological value yields an unconditional epileptic spiking
+behavior, which is a bit questionable physiologically in nonpathological
+cortexes. One also notes that as long as the resting state is not the only
+possible behavior, epilepsy is always present whatever the values of the parameter j. This makes the Wendling and Chauvel model more of a model of
+epileptic seizures than a generic model of a cortical column, since epileptic
+behaviors coexist with “normal” behaviors depending on the values of the
+parameters. This statement is made for variations of the parameter j. In the
+case where the parameters are set to their physiological values, there is a
+wide range of input values for which epileptic spikes occur, and this is not
+true in the case of the Jansen and Rit model. This discussion points to the
+fact that perhaps the Wendling and Chauvel model should be considered a
+model of epileptic hippocampus and not as a model of the “normal” brain.
+Note that Wendling and Chauvel never considered the effect of the total
+connectivity and focused their studies on analyzing of the influence of the
+PSP amplitude parameters A, B, and C that correspond in the dimensionless
+model C.1 to the parameters G1 and G2 . We now turn to the study of the
+influence of these two parameters.
+C.2.2 Fast Onset Activity and the Influence of the PSP Amplitude Parameters.
+Wendling and Chauvel (2008) provide a partition of the parameter space
+(A, B, C) of the original system (i.e., the dimensioned one) corresponding
+to different behaviors, and distinguish among normal activity, narrowband
+
+3280
+
+J. Touboul, F. Wendling, P. Chauvel, and O. Faugeras
+
+Figure 19: Where the maximum of the imaginary part of the eigenvalues is
+reached determines the values of the parameters where the model features fast
+onset activity.
+
+activity, sporadic spikes, and fast activity. The partition was obtained by
+simulating different EEG traces for a Brownian input rate. During this
+analysis, identify a zone where the system shows fast onset activity and
+reproduces the kind of spectrum recorded through EEG on different patients. The presence of these fast oscillations is analyzed here in light of the
+previous developments. In this model, as in that of Jansen and Rit, there
+is no limit cycle with large frequency. However, these frequencies clearly
+appear in the computed spectra when they are simulated with stochastic
+inputs. In that case, similar to the Jansen and Rit model, the fast oscillations
+with small amplitude, characteristic of fast onset activity, appear not to be
+related to cycles but arise from stable fixed points with a large imaginary
+part of the eigenvalue, as plotted in Figure 19. In that figure, we plot the
+larger imaginary eigenvalue of the fixed points as a function of P and G1
+and observe that in the zone corresponding to the fast onset activity, the
+Wendling and Chauvel model features a stable fixed point with a Jacobian
+matrix having large imaginary part eigenvalues (this zone barely depends
+on the parameter G2 ).
+The dimensionless reduction of the Wendling and Chauvel model shows
+that the effect of changes in the parameters (A, B, C) can be described using a
+bifurcation analysis in the space G1 = B/A, G2 = C/A. Nevertheless, one has
+
+Neural Mass Activity, Bifurcations, and Epilepsy
+
+3281
+
+to be aware that coefficient A influences the input firing rate since P = rA
+p.
+Ja
+Therefore, the different diagrams these authors obtain as A increases correspond to the same type of diagrams (distorted through our change of
+variable) we obtain when the parameter P varies. Addressing specifically
+the problem of determining the zones corresponding to different behaviors
+as a function of (A, B, C) must therefore be done by simultaneously varying
+P, G1 , and G2 ; thus, the dimensionality reduction does not help for this
+particular question. The study can nonetheless be done within the framework developed in the main text, and we show, for instance, in Figure 20 a
+diagram obtained when varying G1 and G2 , all the other parameters being
+fixed, and P = 6.
+The fast (β, γ ) activity observed numerically has no deterministic counterpart: no cycle with the correct frequency is present in the bifurcation diagram. This phenomenon, exactly as in the case of Jansen and Rit’s model,
+is a purely stochastic effect. For this value of the input, folds of limit cycles
+appear, as shown in Figures 20a and 20b. In that case, we observe a small
+region of narrowband (α, θ ) activity, immediately followed by rhythmic
+epileptic spikes corresponding to a family of limit cycles of large amplitude
+and low frequency. Sporadic spikes reported in Wendling and Chauvel
+(2008) appear in the region where an unstable cycle exists, which is coherent with the interpretation given in the case of Jansen and Rit’s model.
+This is caused by a random attraction to a nearby epileptic cycle: in effect,
+sporadic spikes in the Wendling and Chauvel model appear only in regions
+close to the epileptic activity. Around the Hopf bifurcation, the system features a stable fixed point whose Jacobian matrix has nonreal eigenvalues.
+The imaginary part of some of the eigenvalues is first close to the value corresponding to (α, θ ) activity near the Hopf bifurcation and then increases,
+which corresponds to a transition between narrowband and fast activities.
+This analysis provides the diagram plotted in Figure 20c that shows features
+similar to the results presented in Wendling and Chauvel (2008). Distortions
+due to the change of variables account for the differences between these diagrams. Further studies aiming at delineating more precisely the contours
+of these zones and determining the relative effects of (A, B, C) by returning to a dimensioned model are ongoing but are outside the scope of this
+appendix.
+C.3 Conclusion. Through the analysis of a second cortical mass model,
+we showed how bifurcation analysis and the use of the dictionary between
+behaviors and bifurcations developed in the main text greatly simplified the
+qualitative and quantitative discussion of the various zones in parameter
+space where different neuronal behaviors are predicted to occur. It should
+be clear by now that the mathematical approach proposed in this letter
+comes as a good complement to the analysis of the results of extensive
+simulations performed on the system of differential equations describing
+
+3282
+
+J. Touboul, F. Wendling, P. Chauvel, and O. Faugeras
+
+Figure 20: Behaviors and bifurcations in the Wendling and Chauvel model
+as a function of the PSP amplitude parameters enjoy a similar (but distorted
+through a change of variable) qualitative structure to that reported in Wendling
+and Chauvel (2008) (see text). (a, b) Black curves correspond to fixed points,
+gray curves to extremal values of limit cyles. (c) Dotted curve corresponds to a
+saddle-node curve, solid curves to Hopf bifurcations. The narrowband activity
+is determined through the continuation of the fold of limit cycles (dotted-dashed
+curve) and is here approximately continued because of the unstability of the
+numerical computations of this zone.
+
+the neural mass model for many different inputs and many values of the
+parameters: it predicts precisely what should happen and for which values
+of the input and parameters.
+
+Neural Mass Activity, Bifurcations, and Epilepsy
+
+3283
+
+Acknowledgments
+We warmly acknowledge Franc¸ois Grimbert for interesting discussions and
+insights on the Jansen and Rit model. This work was partially funded by
+ERC Advanced Grant NerVi 227747.
+References
+Arnold, L. (1998). Random dynamical systems. New York: Springer.
+Babb, T. L., Pretorius, J. K., Kupfer, W. R., & Crandall, P. H. (1989). Glutamate
+decarboxylase-immunoreactive neurons are preserved in human epileptic hippocampus. J. Neurosci., 9(7), 2562–2574.
+¨
+Bazhenov, M., Timofeev, I., Frohlich,
+F., & Sejnowski, T. (2008). Cellular and network
+mechanisms of electrographic seizures. Drug Discovery Today: Disease Models, 5(1),
+45–57.
+Bancaud, J., & Talairach, J. (1973). Methodology of stereo EEG exploration and surgical intervention in epilepsy Rev. Otoneuroophtalmol., 45(4), 315–328.
+Berglund, N., & Gentz, B. (2006). Noise-induced phenomena in slow-fast dynamical systems. Berlin: Springer-Verlag.
+Bettus, G., Wendling, F., Guye, M., Valton, L., R´egis, J., Chauvel, P., et al. (2008).
+Enhanced EEG functional connectivity in mesial temporal lobe epilepsy. Epilepsy
+Research, 81(1), 58–68.
+¨ A. (1998). Cortex: Statistics and geometry of neuronal connecBraitenberg, V., & Schuz,
+tivity (2nd ed.). New York: Springer.
+Chauvel, P., Vignal, J., Biraben, A., Badier, J., & Scarabin, J. (1996). Stereoelectroencephalography. In G. Pawlik & H. Stefan (Eds.), Multimethodological assessment of
+the epileptic forms (pp. 80–108). New York: Springer-Verlag.
+David, O., Cosmelli, D., & Friston, K. J. (2004). Evaluation of different measures of
+functional connectivity using a neural mass model. NeuroImage, 21, 659–673.
+David, O., & Friston, K. J. (2003). A neural mass model for MEG/EEG: Coupling and
+neuronal dynamics. NeuroImage, 20, 1743–1755.
+Dayan, P., & Abbott, L. F. (2001). Theoretical neuroscience: Computational and mathematical modeling of neural systems. Cambridge, MA: MIT Press.
+Dhooge, A., Govaerts, W., & Kuznetsov, Y. (2003a). Numerical continuation of fold
+bifurcations of limit cycles in MATCONT. In Proceedings of the ICCS (pp. 701–710).
+New York: Springer.
+Dhooge, A., Govaerts, W., & Kuznetsov, Y. A. (2003b). Matcont: A Matlab package
+for numerical bifurcation analysis of ODEs. ACM Trans. Math. Softw., 29(2), 141–
+164.
+Dumortier, F., Roussarie, R., & Sotomayor, J. (1987). Generic 3-parameter families of
+vector fields on the plane, unfolding a singularity with nilpotent linear part: The
+cusp case of codimension 3. Ergodic Theory and Dynamical Systems, 7, 375–413.
+Dumortier, F., Roussarie, R., Sotomayor, J., & .Zoladek, H. (1991). Bifurcations of planar
+vector fields(nilpotent singularities and Abelian integrals). New York: Springer-Verlag.
+Ermentrout, B. (1998). Neural networks as spatio-temporal pattern-forming systems.
+Reports on Progress in Physics, 61, 353–430.
+
+3284
+
+J. Touboul, F. Wendling, P. Chauvel, and O. Faugeras
+
+Ermentrout, B. (2002). Simulating, analyzing, and animating dynamical systems: A guide
+to XPPAUT for researchers and students. Philadelphia Society for Industrial and
+Applied Mathematics.
+Ermentrout, G. B., & Kopell, N. (1986). Parabolic bursting in an excitable system
+coupled with a slow oscillation. SIAM J. Appl. Math., 46(2), 233–253.
+Faugeras, O., Touboul, J., & Cessac, B. (2009). A constructive mean field analysis of
+multi population neural networks with random synaptic weights and stochastic
+inputs. Frontiers in Neuroscience, 3(1).
+Freeman, W. (1973). A model of the olfactory system. In M.A.B. Brazier, D. O.
+Walter, & D. Schneider (Eds.), Neural modeling (pp. 41–62). Berkeley: University
+of California Press.
+Freeman, W. (1975). Mass action in the nervous system. Orlando, FL: Academic
+Press.
+Freeman, W. (1987). Simulation of chaotic EEG patterns with a dynamic model of
+the olfactory system. Biological Cybernetics, 56, 139–150.
+Gerstner, W., & Kistler, W. M. (2002). Mathematical formulations of Hebbian learning. Biological Cybernetics, 87, 404–415.
+Golubitsky, M., & Schaeffer, D. (1984). Singularities and groups in bifurcation theory
+(Vol. 1). New York: Springer.
+Golubitsky, M., Stewart, I., & Schaeffer, D. (1988). Singularities and groups in bifurcation
+theory (Vol. 2). New York: Springer.
+Grimbert, F., & Faugeras, O. (2006). Bifurcation analysis of Jansen’s neural mass
+model. Neural Computation, 18(12), 3052–3068.
+Guckenheimer, J., & Holmes, P. J. (1983). Nonlinear oscillations, dynamical systems and
+bifurcations of vector fields. New York: Springer.
+Guckenheimer, J., & Myers, M. (1996). Computing Hopf bifurcations II: Three examples from neurophysiology. SIAM J. Sci. Comput, 17(6), 1275–1301.
+Guckenheimer, J., Myers, M., & Sturmfels, B. (1996). Computing Hopf bifurcations
+I. SIAM J. Num. Anal., 33, 1–21.
+Heinemann, U., Lux, H. D., & Gutnick, M. J. (1977). Extracellular free calcium and
+potassium during paroxysmal activity in the cerebral cortex of the cat. Experimental Brain Research, 27(3), 237–243.
+Houser, C. R., & Esclapez, M. (1996). Vulnerability and plasticity of the GABA system
+in the pilocarpine model of spontaneous recurrent seizures. Epilepsy Res., 26(1),
+207–218.
+Hubel, D., & Wiesel, T. (1963). Shape and arrangement of columns in cat’s striate
+cortex. Journal of Physiology, 165(3), 559–569.
+Hubel, D., & Wiesel, T. (1965). Receptive fields and functional architecture in two
+nonstriate visual areas (18 and 19) of the cat. Journal of Neurophysiology, 28, 229–
+289.
+Izhikevich, E. (2000). Neural excitability, spiking, and bursting. International Journal
+of Bifurcation and Chaos, 10, 1171–1266.
+Izhikevich, E. (2003). Simple model of spiking neurons. IEEE Transactions on Neural
+Networks, 14(6), 1569–1572.
+Jansen, B. H., & Rit, V. G. (1995). Electroencephalogram and visual evoked potential generation in a mathematical model of coupled cortical columns. Biological
+Cybernetics, 73, 357–366.
+
+Neural Mass Activity, Bifurcations, and Epilepsy
+
+3285
+
+Jansen, B. H., Zouridakis, G., & Brandt, M. E. (1993). A neurophysiologically-based
+mathematical model of flash visual evoked potentials. Biological Cybernetics, 68,
+275–283.
+Jefferys, J., & Whittington, M. (1996). Review of the role of inhibitory neurons in
+chronic epileptic foci induced by intracerebral tetanus toxin. Epilepsy Res., 26(1),
+59–66.
+Kandel, E., Schwartz, J., & Jessel, T. (2000). Principles of neural science (4th ed.). New
+York: McGraw-Hill.
+Kubicek, M. (1980). Algorithm for evaluation of complex bifurcation points in ordinary differential equations. SIAM Journal on Applied Mathematics, 38(1), 103–107.
+Kuznetsov, Y. A. (1998). Elements of applied bifurcation theory (2nd ed.) New York:
+Springer.
+Lado, F. A., & Mosh´e, S. L. (2008). How do seizures stop? Epilepsia, 49, 1651–1664.
+Lopes da Silva, F., Hoeks, A., & Zetterberg, L. (1974). Model of brain rhythmic
+activity. Kybernetik, 15, 27–37.
+Lopes da Silva, F., van Rotterdam, A., Barts, P., van Heusden, E., & Burr, W. (1976).
+Model of neuronal populations: The basic mechanism of rhythmicity. In M. A.
+Corner & D. F. Swaab (Eds.), Progress in brain research, 45 (pp. 281–308). Amsterdam: Elsevier.
+McGonigal, A., Gavaret, M., Da Fonseca, A., Guye, M., Scavarda, D., Villeneuve, N.,
+et al. (2008). MRI-negative prefrontal epilepsy due to cortical dysplasia explored
+by stereoelectroencephalography (SEEG). Epileptic Disord., 10(4), 330–339.
+Mountcastle, V. (1957). Modality and topographic properties of single neurons of
+cat’s somatosensory cortex. Journal of Neurophysiology, 20, 408–434.
+Munoz, A., Mendez, P., DeFelipe, J., & Alvarez-Leefmans, F. J. (2007). Cation-chloride
+cotransporters and GABA-ergic innervation in the human epileptic hippocampus. Epilepsia, 48(4), 663–673.
+Noebels, J. L. (1996). Targeting epilepsy genes. Neuron, 16(2), 241–244.
+Rinzel, J., & Ermentrout, B. (1989). Analysis of neural excitability and oscillations. Cambridge, MA: MIT Press.
+Roxin, A., Brunel, N., & Hansel, D. (2005). Role of delays in shaping spatiotemporal
+dynamics of neuronal activity in large networks. Physical Review Letters, 94(23),
+238103.
+Strogatz, S. (1994). Nonlinear dynamics and chaos. Reading, MA: Addison-Wesley.
+Suffczynski, P., Kalitzin, S., Pfurtscheller, G., & Lopes da Silva, F. (2001). Computational model of thalamo-cortical networks: dynamical control of alpha rhythms
+in relation to focal attention. International Journal of Psychophysiology, 43(1), 25–40.
+Suffczynski, P., Lopes da Silva, F., Parra, J., Velis, D., Bouwman, B., van Rijn, C.,
+et al. (2006). Dynamics of epileptic phenomena determined from statistics of ictal
+transitions. Biomedical Engineering, IEEE Transactions on, 53(3), 524–532.
+Sutula, T. P., & Dudek, F. E. (2007). Unmasking recurrent excitation generated by
+mossy fiber sprouting in the epileptic dentate gyrus: An emergent property of a
+complex system. Prog. Brain Res., 163, 541–563.
+Timofeev, I. (2010). Pathophysiology of neocortical epileptic seizures. In C.
+Panayiotopoulos (Ed.), Atlas of epilepsies (pp. 203–212). New York: Springer.
+Timofeev, I., & Steriade, M. (2004). Neocortical seizures: Initiation, development and
+cessation. Neuroscience, 123(2), 299–336.
+
+3286
+
+J. Touboul, F. Wendling, P. Chauvel, and O. Faugeras
+
+Touboul, J. (2008). Bifurcation analysis of a general class of nonlinear integrate-andfire neurons. SIAM Journal on Applied Mathematics, 68(4), 1045–1079.
+Touboul, J., & Brette, R. (2008). Dynamics and bifurcations of the adaptive
+exponential integrate-and-fire model. Biological Cybernetics, 99(4–5), 319–334.
+PMID:19011921. doi: 10.1007/s00422-008-0267-4.
+Touboul, J., & Brette, R. (2009). Spiking dynamics of bidimensional integrate-and-fire
+neurons. SIAM Journal on Applied Dynamical Systems, 8, 1462–1506.
+Traub, R. (1979). Neocortical pyramidal cells: A model with dendritic calcium conductance reproduces repetitive firing and epileptic behavior. Brain Res., 173(2),
+243–257.
+Traub, R. (1982). Simulation of intrinsic bursting in CA3 hippocampal neurons.
+Neuroscience, 7(5), 1233–1242.
+Traub, R., & Llinas, R. (1979). Hippocampal pyramidal cells: Significance of dendritic ionic conductances for neuronal function and epileptogenesis. Journal of
+Neurophysiology, 42(2), 476–496.
+Traub, R., Whittington, M., Buhl, E., LeBeau, F., Bibbig, A., Boyd, S., et al. (2001).
+A possible role for gap junctions in generation of very fast EEG oscillations
+preceding the onset of, and perhaps initiating, seizures. Epilepsia, 42(2), 153–170.
+van Rotterdam, A., Lopes da Silva, F., van den Ende, J., Viergever, M., & Hermans,
+A. (1982). A model of the spatial-temporal characteristics of the alpha rhythm.
+Bulletin of Mathematical Biology, 44(2), 283–305.
+Wendling, F., Bartolomei, F., Bellanger, J., & Chauvel, P. (2002). Epileptic fast activity can be explained by a model of impaired GABAergic dendritic inhibition.
+European Journal of Neuroscience, 15(9), 1499–1508.
+Wendling, F., Bellanger, J., Bartolomei, F., & Chauvel, P. (2000). Relevance of nonlinear lumped-parameter models in the analysis of depth-EEG epileptic signals.
+Biological Cybernetics, 83, 367–378.
+Wendling, F., & Chauvel, P. (2008). Transition to ictal activity in temporal lobe
+epilepsy: Insights from macroscopic models. In I. Stolesz & K. Staley (Eds.).
+Computational neuroscience in epilepsy (pp. 356–386). Amsterdam: Elsevier.
+Wendling, F., Hernandez, A., Bellanger, J.-J., Chauvel, P., & Bartolomei, F. (2005).
+Interictal to ictal transition in human temporal lobe epilepsy: Insights from a
+computational model of intracerebral EEG. J. Clin. Neurophysiol., 22(5), 343–356.
+White, J. A., Banks, M. I., Pearce, R. A., & Kopell, N. J. (2000). Networks of interneurons with fast and slow gamma-aminobutyric acid type a (GABAA) kinetics
+provide substrate for mixed gamma-theta rhythm. Proc. Natl. Acad. Sci. U.S.A.,
+97(14), 8128–8133.
+Wilson, H., & Cowan, J. (1972). Excitatory and inhibitory interactions in localized
+populations of model neurons. Biophys. J., 12, 1–24.
+Wilson, H., & Cowan, J. (1973). A mathematical theory of the functional dynamics
+of cortical and thalamic nervous tissue. Biological Cybernetics, 13(2), 55–80.
+Zetterberg, L., Kristiansson, L., & Mossberg, K. (1978). Performance of a model for a
+local neuron population. Biological Cybernetics, 31(1), 15–26.
+
+Received September 21, 2010; accepted May 24, 2011.
+
+

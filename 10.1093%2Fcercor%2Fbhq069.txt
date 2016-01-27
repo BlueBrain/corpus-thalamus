@@ -1,0 +1,1880 @@
+Cerebral Cortex October 2010;20:2287--2303
+doi:10.1093/cercor/bhq069
+Advance Access publication June 9, 2010
+
+Cell Type--Specific Thalamic Innervation in a Column of Rat Vibrissal Cortex
+Hanno S. Meyer1,2,3, Verena C. Wimmer1,4, Mike Hemberger1,2, Randy M. Bruno1,5, Christiaan P.J. de Kock1,6, Andreas Frick1,7,
+Bert Sakmann1,2,3 and Moritz Helmstaedter1
+1
+
+Department of Cell Physiology, Max Planck Institute for Medical Research, D-69120 Heidelberg, Germany
+
+2
+
+H.-S.M. and V.C.W. have contributed equally to this work
+Address correspondence to Hanno S. Meyer, Max Planck Florida Institute. Email: Hanno-S.Meyer@mpimf-heidelberg.mpg.de.
+
+This is the concluding article in a series of 3 studies that
+investigate the anatomical determinants of thalamocortical (TC)
+input to excitatory neurons in a cortical column of rat primary
+somatosensory cortex (S1). We used viral synaptophysinenhanced green fluorescent protein expression in thalamic
+neurons and reconstructions of biocytin-labeled cortical neurons
+in TC slices to quantify the number and distribution of boutons
+from the ventral posterior medial (VPM) and posteromedial
+(POm) nuclei potentially innervating dendritic arbors of excitatory neurons located in layers (L)2--6 of a cortical column in rat
+somatosensory cortex. We found that 1) all types of excitatory
+neurons potentially receive substantial TC input (90--580 boutons
+per neuron); 2) pyramidal neurons in L3--L6 receive dual TC input
+from both VPM and POm that is potentially of equal magnitude
+for thick-tufted L5 pyramidal neurons (ca. 300 boutons each from
+VPM and POm); 3) L3, L4, and L5 pyramidal neurons have
+multiple (2--4) subcellular TC innervation domains that match the
+dendritic compartments of pyramidal cells; and 4) a subtype of
+thick-tufted L5 pyramidal neurons has an additional VPM
+innervation domain in L4. The multiple subcellular TC innervation
+domains of L5 pyramidal neurons may partly explain their
+specific action potential patterns observed in vivo. We conclude
+that the substantial potential TC innervation of all excitatory
+neuron types in a cortical column constitutes an anatomical
+basis for the initial near-simultaneous representation of a sensory
+stimulus in different neuron types.
+Keywords: barrel cortex, dendrite domains, POm, thalamocortical
+projection, VPM
+
+Introduction
+The primary somatosensory (barrel) cortex is effectively driven
+by weak but near-synchronous thalamocortical (TC) input to
+the granular layer 4 (Bruno and Sakmann 2006). Anatomically,
+the TC input to layer 4 (L4) was ﬁrst described as ‘‘speciﬁc’’ TC
+afferents arising from thalamic relay nuclei, which ascend
+undivided through L5 and L6 and form a dense plexus of axons
+in cytoarchitectonic granular L4 and a less dense plexus in L3
+(Lorente de No 1922, 1938, 1992; see also Jones and Powell
+1970; Killackey 1973). ‘‘Unspeciﬁc’’ TC afferents were found to
+
+be sparsely distributed in all cortical layers and to arborize
+predominantly in L1 and L6 (Lorente de No´ 1938). This
+observation has been taken as evidence for the view that TC
+excitation of the cortex is effected mainly, if not exclusively, by
+the initial excitation of L4 neurons. In this view of a ‘‘hierarchical processing scheme,’’ as it was ﬁrst proposed for the visual
+cortex by Hubel and Wiesel (1962, 1968), sensory excitation
+then spreads from L4 to supra- and infragranular layers (Simons
+1978, 1985; Armstrong-James et al. 1992; Binzegger et al. 2004;
+Douglas and Martin 2004).
+However, dendrites of excitatory neurons from supra- and
+infragranular layers are also contacted by TC synapses within
+L4 (White 1978; Peters 1979). It was concluded that TC
+synapses were determined mainly by the overlap of TC axons
+with the dendrites of cortical cells and that TC axons make
+synapses with virtually all neurons that have their somata in
+L2--L6 (Peters 1979; White 1979). This prediction was further
+supported by the report of signiﬁcant TC projections from both
+the ventroposterior and the posterior thalamic nuclei to supraand infragranular layers (Wise and Jones 1978; Herkenham
+1980; Chmielowska et al. 1989; Lu and Lin 1993).
+As functional evidence of whole-column TC excitation,
+whole-cell, juxtasomal, and extracellular recordings from
+different cell types indicated that the minimal latency of
+excitatory postsynaptic potentials and action potential (AP)
+spiking, evoked by a whisker deﬂection, is comparable within
+only a few milliseconds in virtually all layers (Ahissar et al. 2000;
+Brecht and Sakmann 2002; Brecht et al. 2003; Manns et al. 2004;
+de Kock et al. 2007). These observations argue for an initial
+near-simultaneous representation of a tactile stimulus in
+multiple cortical layers rather than for a sequential representation radiating from the granular layer.
+In the sequence of studies reported in this and the 2 preceding
+articles, we aimed at quantifying the anatomical determinants
+for near-simultaneous TC activation in the somatosensory
+cortex. First, we measured the distribution of TC boutons
+originating in the ventral posterior medial (VPM) nucleus and
+the medial part of the posterior group nuclei (posteromedial,
+POm) of the thalamus (Wimmer et al. 2010) using virusmediated expression of ﬂuorescent proteins in thalamic boutons
+(Wimmer et al. 2004, 2010). Next, we measured the distribution
+
+Ó The Authors 2010. Published by Oxford University Press.
+This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License (http://creativecommons.org/licenses/by-nc/2.5), which permits
+unrestricted non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited.
+
+Downloaded from http://cercor.oxfordjournals.org/ at Bibliotheque Commune De ChimieUNIL - EPFL on November 6, 2015
+
+Current address: Research Group Cortical Column in Silico, Max Planck Institute for Neurobiology, D-82152 Martinsried,
+Germany
+3
+Current address: Department of Digital Neuroanatomy, Max Planck Florida Institute, Jupiter, FL 33458, USA
+4
+Current address: Florey Neuroscience Institues, The University of Melbourne, Parkville 3010, Victoria, Australia
+5
+Current address: Department of Neuroscience, Columbia University, New York, NY 10027, USA
+6
+Current address: Center for Neurogenomics and Cognitive Research, Neuroscience Campus Amsterdam, VU University
+Amsterdam, NL-1087 HV Amsterdam, the Netherlands
+7
+Current address: AVENIR Group Circuit and Dendritic Mechanisms Underlying Cortical Plasticity, INSERM U 862, NeuroCentre
+Magendie, 33077 Bordeaux, France
+
+Materials and Methods
+We 1) measured the proﬁle of VPM and POm thalamic bouton densities
+along the longitudinal column axis in somatosensory cortex (using virusmediated expression of ﬂuorescent proteins in TC boutons as reported
+in the ﬁrst article of this series of reports; Wimmer et al. 2010), 2)
+measured the distribution of neuronal somata stained for the neuronspeciﬁc nuclear protein ‘‘Neuronal Nuclei’’ (NeuN; Mullen et al. 1992) in
+separate experiments (as reported in the second article of this series of
+reports; Meyer et al. 2010), 3) measured the dendritic density distributions along the longitudinal column axis of neurons that were reconstructed after in vitro single-cell recordings in separate experiments (n =
+82), 4) aligned the bouton and dendritic density proﬁles using the pia
+and the white matter (WM) as landmarks in cortex, 5) divided the
+bouton proﬁles by a proﬁle representing the distribution of total
+dendritic length in a cortical column to obtain a proﬁle of normalized TC
+bouton density per unit dendrite length in a cortical column, and 6)
+multiplied the aligned TC bouton density proﬁle with dendritic proﬁles
+to obtain the distributions of thalamic contacts on individual neurons of
+different types.
+
+Measurement of Thalamic Bouton Densities
+Experiments were conducted in accordance with the German Animal
+Welfare Act. The methods used for virus delivery and the histological
+procedures were the same as described before (Wimmer et al. 2004,
+2010). Brieﬂy, P28 Wistar rats were anesthetized by intraperitoneal
+injection of 5 lg/kg fentanyl, 2 mg/kg midazolam, and 150 lg/kg
+medetomidine. Adeno-associated virus (AAV) - synaptophysin enhanced green ﬂuorescent protein (EGFP) (100--200 nL; 33106
+infectious particles/mL) was stereotaxically injected bilaterally into
+VPM or POm using calibrated injection capillaries. The injection
+
+2288 Thalamic Innervation of a Cortical Column
+
+d
+
+Meyer et al.
+
+coordinates were as follows (in mm): 2.85 posterior of bregma, 3.2
+lateral of the midline, and 5.05 deep from the pia for VPM and 3.25
+posterior, 2.1 lateral, and 5.2 deep for POm. After virus delivery (12--14
+days), rats were euthanized with a lethal dose of urethane and
+transcardially perfused with 15 mL phosphate buffer (PB) followed by
+15 mL PB with 4% paraformaldehyde (PFA). The brain was extracted
+and incubated overnight in PB containing 4% PFA at 4°C. TC vibratome
+sections (45° from midline) at 70--100 lm thickness were prepared
+(Bernardo and Woolsey 1987; Agmon and Connors 1991; Fleidervish
+et al. 1998).
+In order to align the virus-labeled bouton proﬁles with the data on
+soma distributions and dendritic labelings from different experiments,
+we deﬁned landmarks in each of the experiments (the details of
+alignment are described in a separate section, see below). To calibrate
+the L4-to-L5A border along the longitudinal column axis (as a control
+landmark) in the virus-labeled slices, these slices were subsequently
+immunolabeled against NeuN using a monoclonal antibody at 1:1000
+(for a detailed protocol, see Meyer et al. 2010).
+Then, slices were imaged using confocal mosaic scanning with TCS
+SP2 (Leica Microsystems) or FV1000 (Olympus) laser scanning microscopes. Either a 363 Leica (HCX PL APO CS; numerical aperture [NA]:
+1.32, oil immersion) or a 340 Olympus (UPLFLN; NA: 1.3, oil immersion)
+objective was used. Each mosaic tile measured 180--225 lm in x and y.
+To obtain the average thalamic bouton ﬂuorescence intensity along the
+longitudinal axis of a cortical column (‘‘z-axis’’), ﬂuorescence intensity
+histograms (bin size: 0.4 lm) were calculated from maximum intensity
+projections of confocal image stacks using ImageJ (http://rsb.info.nih.gov/ij/; ‘‘bouton z-proﬁles’’). To correct for potential background
+ﬂuorescence, a linear offset gradient based on the mean of the ﬁrst 50
+(POm) or 100 (VPM) and the last 100 bins was subtracted from the
+histograms. Finally, histograms were scaled to the standard TC
+projection column height (Wimmer et al. 2010) of 1840 lm, yielding
+an effective bin size of 46 lm.
+
+Labeling of Single Excitatory Neurons and Calculation of
+Dendritic Length Density Proﬁles
+In separate experiments, TC slices of adolescent (mean age:
+P28.5 ± 2 days, range: 26--42) Wistar rat barrel cortex were cut at
+300--350 lm thickness as described previously (Feldmeyer et al.
+1999). Using a 32.5 Olympus objective (Plan Neoﬂuar; NA: 0.075)
+and brightﬁeld illumination, barrel-related columns in the region of
+the posteromedial barrel subﬁeld were identiﬁed as bright spots in
+L4 outlined by dark bands. Neurons were visualized using a 340 Zeiss
+objective (Plan Apochromat; NA: 0.8, water immersion) and infrared
+differential interference contrast (IR-DIC; Dodt and Zieglga¨nsberger
+1990; Stuart et al. 1993)-or infrared gradient contrast (IR-GC; Dodt
+et al. 1998, 1999)-videomicroscopy. Whole-cell recordings of putative excitatory neurons in barrel columns were made for 10--30 min
+to ﬁll neurons with biocytin (Sigma). The intracellular solution
+consisted of (in mM) 135 K-gluconate, 10 HEPES (4-(2-hydroxyethyl)-1-piperazineethanesulfonic acid), 10 phosphocreatine-Na2, 4
+KCl, 4 ATP-Mg, and 0.3 GTP (adjusted to pH 7.2 with KOH) and
+contained 0.3--0.6% biocytin. Slices were ﬁxed in 4% PFA for 24 h,
+labeled using the diaminobenzidine (DAB)--horseradish peroxidase
+protocol (Horikawa and Armstrong 1988), and embedded in Mowiol
+(Kuraray Specialities Europe GmbH). Dendritic reconstructions of
+labeled neurons were made (n = 82) with a Neurolucida system
+(Microbrightﬁeld) equipped with a 3100 (NA: 1.25, oil immersion)
+objective. Slice edges were also traced to approximate the contours
+of the pia.
+All reconstructions were rotated so that the pial surface above the
+soma was oriented horizontally. For alignment, reconstructions were
+scaled uniformly so that the distance between pial surface and the
+border between cortex and the WM was 2000 lm using the custommade software NeuronRegistrator 1D (written in Matlab, The MathWorks). Three-dimensional dendritic length density maps at a bin size
+of (50 lm)3 were computed from the scaled reconstructions using the
+custom-made software Rembrandt 3D (written in Matlab). These 3D
+maps were projected onto the slice plane (‘‘x--z plane’’) by summing all
+bins sharing equal x and z coordinates. The resulting 2D map was
+
+Downloaded from http://cercor.oxfordjournals.org/ at Bibliotheque Commune De ChimieUNIL - EPFL on November 6, 2015
+
+of neuronal cell bodies in a cortical column deﬁned by the
+thalamic projections (Meyer et al. 2010). In the present study,
+we measured the dendrite distributions of 7 types of cortical
+excitatory neurons in L2--L6 of a cortical column by in vitro
+whole-cell ﬁlling of 82 cortical excitatory neurons. Together
+with the data on the prevalence of each of these neuron types
+from the preceding study, this yielded the distribution of
+putative postsynaptic dendrites of excitatory neurons in
+a cortical column. Finally, we computed the anatomical overlap
+between the TC bouton proﬁles and the distribution of
+putatively postsynaptic dendrites. The calculation is based on
+the simplifying assumption that the actual synaptic connectivity
+is proportional to the potential connectivity quantiﬁed as the
+product of bouton density and dendritic density (i.e., the
+connectivity is locally random; this notion was ﬁrst proposed
+by Peters [1979] and later extended by White [1979, 1989]; for
+a more recent discussion, see Shepherd et al. [2005]; Stepanyants
+and Chklovskii [2005]). The resulting estimates of the amount
+of potential TC innervation of cortical neurons provided
+quantitative constraints on TC innervation domains.
+We found that all excitatory neuron types in a cortical
+column of somatosensory cortex are potentially innervated by at
+least 90 TC boutons. This can be regarded as the anatomical
+basis for the initial near-simultaneous representation of a sensory
+stimulus measured in different neuron types in vivo. In addition,
+we found that excitatory neurons in L3, L5, and L6 have multiple
+subcellular TC innervation domains. A subtype of L5 thick-tufted
+pyramidal neurons had an additional TC innervation domain
+in L4. Strikingly, L5 thick-tufted pyramidal neurons are
+potentially innervated by both VPM and POm with comparable
+numbers of potential contacts per neuron, which may constitute the anatomical basis of their speciﬁc AP discharge patterns
+upon whisker stimulation as observed in vivo.
+
+projected onto the longitudinal column axis (z-axis; perpendicular to
+the pial surface) by summing all bins at the same depth from the pial
+surface, yielding a histogram of dendritic length density along the
+longitudinal axis of a cortical column (‘‘dendritic z-proﬁle’’). All
+dendritic z-proﬁles were scaled uniformly to the standard projection
+column height (1840 lm, yielding a bin size of 46 lm).
+TC bouton z-proﬁles and dendritic z-proﬁles were visualized as line
+plots and grayscale color plots after linear interpolation and smoothing
+with a sliding mean ﬁlter using the custom-made software ‘‘Rothko’’
+(available at http://www.mpimf-heidelberg.mpg.de/~mhelmsta/tools/)
+written in Matlab.
+
+Estimation of the Distribution of Dendritic Length of All
+Excitatory Neurons in a Cortical Column
+In the preceding article, we found a total number of approximately
+19 000 neurons (19 109 ± 444, n = 3) in a cortical column as deﬁned by
+the TC axonal projections (Meyer et al. 2010). To correct for
+nonexcitatory neurons, we assumed a (GABAergic) interneuron ratio
+
+Deﬁnition of ‘‘Excitatory’’ Neurons
+Neurons were selected for whole-cell recording if the soma had
+a pyramidal shape when visualized under the IR-DIC or IR-GC optics
+during the experiment (layers 2/3, 5, and 6); they were selected for
+recording if the soma had a spheroid shape in L4. The type of the
+recorded neuron was, however, deﬁnitively determined only after
+staining and reconstruction (as described above). Neurons in the supraand infragranular layers were included in the sample if they had the
+morphological features of pyramidal neurons. In the granular layer 4, all
+spiny neurons were included in the sample. Thus, the sample of
+82 neurons analyzed here can be summarized for all layers as ‘‘spiny
+neurons’’ anatomically. However, since there is ample evidence that the
+neurons we recorded from are glutamatergic (Markram et al. 1997;
+Feldmeyer et al. 1999, 2002, 2005, 2006; Mercer et al. 2005; West et al.
+2006; Krieger et al. 2007; Helmstaedter, Staiger, et al. 2008), we refer to
+these neurons as ‘‘excitatory’’ throughout the text.
+The somatic staining for NeuN as reported in the preceding article
+(Meyer et al. 2010) is assumed to label all neurons. We have corrected
+the total number of neurons for the approximate fraction of GABAergic
+neurons (15%; Beaulieu 1993; see above; cf. the Discussion for
+a quantiﬁcation of the effect of this simpliﬁcation). We therefore use
+the term ‘‘excitatory neuron’’ also for the NeuN-positive soma density
+when corrected for the expected ratio of GABAergic interneurons.
+Conversion of Bouton Fluorescence z-Proﬁles to Absolute
+Bouton Density z-Proﬁles
+The VPM bouton ﬂuorescence density z-proﬁle can be converted to a zproﬁle of absolute VPM bouton densities by scaling the integral of the
+proﬁle to the total number of VPM boutons per column. We assumed
+a total number of 250 VPM neurons projecting to a cortical column
+(range: 200--300; Land et al. 1995; Varga et al. 2002). For a single VPM
+neuron, the mean total axonal path length was taken to be
+approximately 60 3 103 lm (Oberlaender, Bruno, and Sakmann,
+unpublished observations), of which approximately 35 3 103 lm was
+estimated to be within the home column (Oberlaender, Bruno, and
+Sakmann, unpublished observations). Bouton density was assumed to
+be 0.33 ± 0.02/lm axon length (Oberlaender, Bruno, and Sakmann,
+unpublished observations). Together, this yields an estimated total of
+2.9 3 106 VPM boutons in the home column (250 3 35 3 103 3 0.33,
+range: 2.3--3.5 3 106 given 200--300 VPM neurons). Normalizing the
+integral of the proﬁle (Fig. 1A) to the total estimated number of VPM
+boutons then yields a peak density of 4.04 3 107/mm3 (range: 3.22-4.83 3 107/mm3) in a cortical column. Due to the lack of anatomical
+data on POm innervation of a cortical column, we did not estimate the
+total number of POm boutons projecting to a cortical column. Instead,
+we measured the difference between VPM bouton density in L4 and
+POm bouton density in L5A, that is, the difference between the
+respective peak bouton densities. Boutons marked by synaptophysinEGFP (see above) were visually identiﬁed in confocal image stacks. We
+counted 2861 (VPM) and 1959 (POm) boutons in 6 (VPM) and 4 (POm)
+volumes sized 11 3 103 lm3 each. VPM peak density (4.4 ± 0.6 3 107/
+mm3) matched the peak density based on anatomical assumptions
+
+Cerebral Cortex October 2010, V 20 N 10 2289
+
+Downloaded from http://cercor.oxfordjournals.org/ at Bibliotheque Commune De ChimieUNIL - EPFL on November 6, 2015
+
+Comparison of Cytoarchitectonic Landmarks in Virus-Labeled
+Slices and Whole-Cell Recording Experiments
+For alignment of bouton z-proﬁles and dendritic z-proﬁles from
+separate experiments, 3 landmarks in cortex were used: 1) the pial
+surface, 2) the border between L4 and L5A, and 3) the border between
+L6 and the subcortical WM. The pia and L6--WM border were identiﬁed
+by visual inspection in both virus-labeled slices and DAB-stained slices
+from whole-cell recording experiments. The pial surface was clearly
+identiﬁable as the border between pial blood vessels and cortical tissue.
+In DAB-stained slices, pia outlines were traced both at the ‘‘upper’’ and
+at the ‘‘lower’’ z-edges of the tissue and the average outline was used to
+correct for the curvature of the cortex. The L6--WM border was deﬁned
+on maximum intensity projection images of confocal NeuN ﬂuorescence image stacks for virus-labeled slices (see above). Other than L6,
+the WM contained none or only very few neurons (cf. Supplementary
+Fig. 1B). In DAB-stained slices, the L6--WM border was deﬁned as the
+transition to a dark horizontal band representing high density of
+myelinated axons in the WM (cf. Supplementary Fig. 1A).
+For virus-labeled slices, the border between L4 and L5A was deﬁned in
+the NeuN epiﬂuorescence images as the sharp transition from a layer of
+small neuron somata at high density representing L4 to a layer of larger
+neuron somata at low density representing L5A (cf. Supplementary
+Fig. 1B, see below). In DAB-stained slices from whole-cell recording
+experiments, the border between L4 and L5A was identiﬁed as the
+transition from the dark horizontal band representing L4 to a less stained
+region marking the beginning of L5A (cf. Supplementary Fig. 1A).
+To compare measurements made in virus-labeled slices with those
+made in slices from whole-cell recording experiments, we conﬁrmed
+the correspondence of the L4-to-L5A border derived from DAB staining
+to the L4-to-L5A border derived from the NeuN-positive soma density
+(Supplementary Fig. 1, n = 4). First, a TC slice was cut at 300 lm
+thickness and selected for whole-cell recording. Then, the subsequent
+slice was cut at 200 lm thickness and immediately ﬁxed in 4% PFA.
+Then, the 200-lm slice was immunolabeled for NeuN, and a maximum
+intensity projection of confocal NeuN ﬂuorescence image stacks was
+acquired from the upper 15 lm of the slice (measured perpendicular to
+the slice plane, see Supplementary Fig. 1B). The L4--L5A border was
+then visually identiﬁed on the maximum intensity projection image as
+described above for virus-labeled slices. The 300-lm slice was stained
+using the biocytin--horseradish peroxidase--DAB protocol as described
+above. Then, we compared the L4--L5A border identiﬁed in the DABstained slice with that identiﬁed in the NeuN-labeled slice (Supplementary Fig. 1A). The ratio of the L4--L5A border depth to the cortical
+thickness above the hippocampal pole with the pia rotated horizontally
+was measured in both slices. The mean difference of the ratio was 0.64
+± 0.37%. We concluded that the measurement of the L4--L5A border by
+visual inspection of NeuN-labeled slices is consistent with that by visual
+inspection of DAB-stained slices and that we could, as a basic
+prerequisite for alignment of dendritic z-proﬁles with bouton z-proﬁles,
+compare cytoarchitectonic landmark measurements from whole-cell
+recording experiments with measurements from virus-labeled slices.
+
+of 15% (Beaulieu 1993), yielding approximately 16 150 excitatory
+neurons per cortical column (for a comparison of this simpliﬁed
+assumption to other error sources, see Discussion; for a clariﬁcation of
+the nomenclature ‘‘excitatory neuron’’ and ‘‘interneuron’’, see below).
+We calculated the distribution of the dendritic path length of
+excitatory neurons in a cortical column from single-cell dendritic
+morphologies and whole-column neuron densities. The 82 neurons in
+our sample were grouped according to their soma depth from the pial
+surface (cf. Fig. 5; range of soma depth in a standard column: 124--1617
+lm, yielding 17 groups; average group size: 5 neurons, effective bin size:
+92 lm). Then, average dendritic z-proﬁles for each group were calculated
+by averaging the single-cell dendritic z-proﬁles within a group. Next, the
+average dendritic proﬁles were convolved with the neuron density
+proﬁle obtained from whole-column counts of NeuN-positive somata
+as reported in the preceding article (Meyer et al. 2010). This yielded
+a z-proﬁle of the distribution of the total dendritic length of excitatory
+neurons along the longitudinal axis of a cortical column (Fig. 4A).
+
+For estimating the contribution of septal neurons to the total dendritic
+path length in cortex, we took the volume of the septum related to
+a particular column as approximately 0.13 mm3 (Table 2 in Meyer et al.
+2010, i.e., 0.13/0.24 = 55% of the column volume) with a septal neuron
+density of 68.6 3 103/mm3 (Table 1 in Meyer et al. 2010, i.e., 68.6/78.9 =
+87% of the density inside a column); together, this means that including
+septal neurons adds approximately 48% to the intracolumnar dendritic
+length. TC input from other than the somatotopically aligned barreloid
+increases the TC axonal path length by approximately 67%; together, this
+yields a 1.67/1.48 = 13% increase under these assumptions. If septal
+neurons receive less or no direct VPM input, these numbers can
+substantially change; we therefore estimate a 10--30% increase in the
+numbers on TC boutons if these effects are included.
+
+(4.04 3 107/mm3). Since the infection rate of thalamic neurons upon
+virus injection was estimated to be only 85% (Wimmer et al. 2010), this
+indicates that our estimate of VPM boutons per home column based on
+anatomical assumptions may be slightly too low, possibly because it
+does not account for VPM projections from other than the somatotopically aligned barreloid.
+We used the direct bouton density measurements only to compare
+POm and VPM peak bouton densities. POm peak bouton density
+(4.7 ± 0.6 3 107/mm3) was not signiﬁcantly different from VPM
+(P = 0.54, paired t-test, 2 tailed). We thus scaled the POm bouton
+ﬂuorescence density proﬁle so that the peak density was equal to that
+of the VPM bouton density proﬁle, obtaining a proﬁle of absolute POm
+bouton densities, and a total number of 1.8 3 106 POm boutons
+projecting to a cortical column. For further calculations, the numbers
+of VPM and POm boutons were reduced by 15% to account for boutons
+contacting interneurons based on the ratio of interneurons in a cortical
+column (see above).
+
+2290 Thalamic Innervation of a Cortical Column
+
+d
+
+Meyer et al.
+
+Results
+VPM and POm Bouton Proﬁles
+Figure 1 shows dorsomedial portions of barrel cortex in the
+section plane of the TC slice after injection of VPM or POm with
+AAV expressing EGFP-coupled synaptophysin. Figure 1A (left
+panel) shows the staining of boutons of axons originating in the
+VPM. Figure 1B (left panel) shows another TC section with
+staining of boutons of axons originating in the POm. Both
+sections illustrate the differential vertical density distributions
+of VPM and POm boutons as quantiﬁed in the bouton
+ﬂuorescence intensity histograms (‘‘bouton z-proﬁles’’, right
+panels of Fig. 1A,B). Each proﬁle represents the respective
+thalamic bouton ﬂuorescence intensity as a function of the
+distance from the pial surface along the longitudinal column
+axis (for calculation of bouton z-proﬁles, see Materials and
+Methods). VPM and POm bouton density peaks were well
+separated, with a local overlap at 780--830 lm depth below the
+pia if scaled to a standard column height of 1840 lm (cf. Fig.
+1A,B). The bouton ﬂuorescence z-proﬁles were then converted
+to absolute bouton density z-proﬁles. Manual bouton counts
+yielded peak TC bouton densities of 4.4 ± 0.6 3 107/mm3 and
+4.7 ± 0.6 3 107/mm3 for VPM and POm, respectively. These
+densities matched the anatomical estimate of VPM innervation
+based on assumptions of the number of thalamic neurons in
+VPM, the axonal path length of VPM projections, and the bouton
+density on VPM axons (4.04 3 107/mm3 peak density and a total
+of 2.9 3 106 boutons in a cortical column). The total number of
+
+Downloaded from http://cercor.oxfordjournals.org/ at Bibliotheque Commune De ChimieUNIL - EPFL on November 6, 2015
+
+Figure 1. Thalamocortical bouton density profiles in a column. (A) Maximum
+intensity projection image of a confocal mosaic scan of a thalamocortical slice
+showing thalamic boutons from the VPM nucleus in a cortical column visualized by
+virus-expressed synaptophysin-coupled EGFP (left panel). A barrel column in the
+region above the hippocampal CA3 pole/fornix was selected for confocal scanning.
+Shown is a 170-lm-wide strip of the column center. The cortical thickness was
+scaled to a standard column height (distance from pia to the border between cortex
+and white matter) of 1840 lm. Right panel: VPM bouton fluorescence intensity
+histogram along the vertical (pia to white matter) column axis (‘‘bouton z-profile’’)
+obtained from the image shown on the left panel. The profile was interpolated and
+smoothed for visualization. (B) Image showing thalamic boutons from the POm
+nucleus in a cortical column. The same cortical region as in (A) was selected for
+confocal scanning. Shown is a 220-lm-wide strip of the column center (the cortical
+thickness was scaled to 1840 lm). Right panel: POm bouton z-profile obtained from
+the image shown on the left panel. The profile was interpolated and smoothed for
+visualization. Bouton densities were calibrated by manual counting of boutons in
+confocal image stacks. VPM and POm peak bouton densities were found to be equal.
+Assuming a total of 2.9 3 106 VPM boutons per column (see Materials and
+Methods), the underlying fluorescence intensities can be converted to bouton
+densities, yielding a peak density of 4.04 3 107 boutons/mm3 for both POm and VPM
+and 1.8 3 106 total POm boutons per column.
+
+Statistical Analyses
+All statistical analyses in this study, such as Student’s t-tests, one-way
+analyses of variance (ANOVAs), and multiple comparison tests (Scheffe´
+procedure), were performed with the statistical toolbox of Matlab.
+The cluster analysis for identifying the subtype of L5B pyramidal
+neurons with an additional VPM innervation domain in L4 was made in
+the following 2D parameter space: 1) the number of oblique dendrites
+within 300 lm above the L4-to-L5A border and 2) the total dendritic
+path length within 506--782 lm depth from the pia (corresponding to
+bins 11--17). The cluster analysis was made as described previously
+(Cauli et al. 2000; Helmstaedter et al. 2009): Euclidean distances, Ward’s
+method (Ward 1963), and Thorndike procedure (Thorndike 1953) for
+linkage distance cutoff (see Fig. 7B, lower panel), rejecting 1-item
+clusters (all in Matlab).
+The statistical test for the predicted number of VPM boutons has to
+be interpreted cautiously; because the innervation in L4 is highly
+correlated with the total dendritic density in L4, and because the latter
+parameter was used for separating the clusters, nonparametric tests are
+expected to report arbitrary levels of signiﬁcance. We used a parametric
+test (here: one-sided t-test assuming normally distributed data with
+unequal variances) that can be interpreted as an indication of the
+amount of separation between the clusters.
+
+Table 1
+Predicted number of thalamocortical boutons per excitatory neuron
+Type of excitatory neuron
+
+VPM boutons
+per neuron
+
+POm boutons
+per neuron
+
+TC boutons
+per neuron
+(VPM þ POm)
+
+Total dendritic
+length per
+neuron (lm)
+
+Spines per
+neuron
+
+Ratio of spines
+occupied by
+VPM (%)
+
+Mean distance
+between VPM
+boutons along
+dendrites (lm)
+
+Ratio of
+spines
+occupied
+by POm (%)
+
+Mean distance
+between POm
+boutons along
+dendrite (lm)
+
+L2 pyramid (n 5 7)
+L3 pyramid (n 5 9)
+L4 star pyramid (n 5 6)
+L4 spiny stellate (n 5 7)
+L5 slender tufted (n 5 20)
+L5 thick tufted (n 5 22)
+L6A pyramid (n 5 11)
+
+16
+222
+197
+188
+150
+299
+131
+
+75
+63
+57
+22
+269
+277
+66
+
+92
+285
+254
+210
+420
+576
+197
+
+4309
+5947
+3553
+2549
+5774
+10 356
+3908
+
+2155
+2973
+1777
+1275
+2887
+5178
+1954
+
+1
+7
+11
+15
+5
+6
+7
+
+265
+27
+18
+14
+38
+35
+30
+
+3
+2
+3
+2
+9
+5
+3
+
+57
+95
+62
+116
+21
+37
+59
+
+±
+±
+±
+±
+±
+±
+±
+
+14
+131
+46
+60
+50
+99
+66
+
+±
+±
+±
+±
+±
+±
+±
+
+33
+16
+46
+10
+121
+67
+42
+
+±
+±
+±
+±
+±
+±
+±
+
+36
+132
+65
+61
+131
+120
+79
+
+±
+±
+±
+±
+±
+±
+±
+
+1716
+1147
+732
+648
+1749
+1917
+794
+
+±
+±
+±
+±
+±
+±
+±
+
+858
+574
+366
+324
+874
+959
+397
+
+POm boutons in a cortical column was estimated to be 1.8 3 106
+(for details of the calculations, see Materials and Methods).
+
+Distribution of the Dendrites of Excitatory Neurons in
+a Cortical Column
+To quantify the overlap of TC bouton density distributions with
+dendritic length density distributions of excitatory neurons in
+a barrel-related column, we labeled neurons in acute brain
+slices of barrel cortex during whole-cell recording. Their soma
+and dendritic arbors were reconstructed. Figure 2 shows one
+reconstruction of an L5 thick-tufted neuron superimposed on
+a brightﬁeld image of the acute slice (a brightﬁeld image of the
+same slice after DAB staining is shown in Supplementary
+Fig. 1A; for a quantiﬁcation of dendritic length ratio outside the
+home column, see Supplementary Fig. 2). Dendritic length
+density histograms (‘‘dendritic z-proﬁles’’) were calculated from
+the reconstructions, representing the dendritic length as
+a function of the distance to the pial surface along the
+longitudinal column axis (right panel in Fig. 2; for details, see
+Materials and Methods). Both the thalamic bouton z-proﬁles and
+the reconstructed neurons were obtained from barrel columns
+located above the lateral ventricle/hippocampal fornix region,
+where the large barrels of macrovibrissae are located.
+To conﬁrm that the cytoarchitecture of the barrel columns
+analyzed for thalamic bouton distributions (Fig. 1) was similar to
+that of the barrel columns containing biocytin-ﬁlled neurons
+(Fig. 2), we compared cytoarchitectonic registration landmarks
+(for details of the comparability of landmarks obtained from
+DAB-stained slices with landmarks found in virus-labeled slices,
+see Materials and Methods; Supplementary Fig. 1). The cortical
+thickness (distance from pia to L6--WM border) was 1860 lm in
+the VPM bouton-labeled slice (Fig. 1A), 2050 lm in the POm
+bouton-labeled slice (Fig. 1B), and 1994 ± 105 lm (n = 82) in the
+slices containing DAB-stained biocytin-ﬁlled neurons. All measurements were then scaled uniformly to a standard projection
+column height of 1840 lm (the dimensions of the ‘‘standard’’
+projection column were reported in the ﬁrst article of this
+series; Wimmer et al. 2010). The ratio of the L4--L5A border to
+the total cortical thickness was comparable (43.8% and 44.1%
+in the virus-labeled slices vs. 43.7 ± 2.4% in DAB-stained slices).
+We concluded that bouton z-proﬁles based on the virus-labeled
+slices and dendritic z-proﬁles based on the DAB-stained slices
+could be superimposed after registration along the z-axis.
+
+Figure 2. Dendritic length density profile of an L5 thick-tufted pyramidal neuron.
+Brightfield image of an acute thalamocortical slice of barrel cortex (left panel).
+Brightness/contrast was adjusted for better visualization of the barrel borders (lateral
+borders indicated by white lines; see Supplementary Fig. 1 for an image of the same
+slice after diaminobenzidine labeling for biocytin). WM: white matter. Soma location of
+the whole-cell recorded and biocytin-filled neuron indicated by white pipette tip. Blue:
+soma-dendritic reconstruction. For visualization, the reconstruction was scaled uniformly
+to a standard column height of 1840 lm. Right panel: Dendritic length density
+histogram along the vertical (pia to WM) column axis (‘‘dendritic z-profile’’) of the neuron
+shown on the left panel. The profile was interpolated and smoothed for visualization.
+
+Our sample comprised 82 excitatory neurons. These were
+subclassiﬁed qualitatively into 7 types based on their dendritic
+shape and soma-to-pia distance (Fig. 3; for a depiction of all
+dendritic reconstructions, cf. Supplementary Fig. 3). L2
+pyramidal neurons mostly had a broad apical tuft with an early
+Cerebral Cortex October 2010, V 20 N 10 2291
+
+Downloaded from http://cercor.oxfordjournals.org/ at Bibliotheque Commune De ChimieUNIL - EPFL on November 6, 2015
+
+Note: The predicted number of boutons calculated for each neuron as the integral of the VPM or POm innervation density profile (see inset in Fig. 5B). The number of spines per neuron was calculated
+assuming a spine density of 0.5/lm dendritic path length. Mean distance of VPM and POm boutons: total dendritic length per neuron divided by the number of boutons per neuron. All values reported as
+mean ± standard deviation. Note that the predicted absolute number of thalamocortical boutons per neuron is based on the axonal path length of VPM neurons extended in the somatotopically aligned
+home column, only, and thus represents a lower bound estimate. All values have an additional estimated uncertainty of ±30% due to the uncertainty in assumptions on the total number of
+thalamocortical boutons in a column, see Materials and Methods and Discussion for details.
+
+Downloaded from http://cercor.oxfordjournals.org/ at Bibliotheque Commune De ChimieUNIL - EPFL on November 6, 2015
+
+Figure 3. Examples of the overlap between single soma-dendritic neuron reconstructions of 7 types of excitatory cortical neurons and the VPM and POm bouton z-profiles.
+Representative single-cell reconstructions (blue) superimposed on the VPM bouton intensity profile (gray values, left panels) and the POm bouton intensity profile (right panels).
+Both VPM and POm bouton z-profiles were normalized to the peak fluorescence intensity (for conversion to bouton density, cf. Fig. 1 and Materials and Methods). Color bar
+applies to all panels.
+
+2292 Thalamic Innervation of a Cortical Column
+
+d
+
+Meyer et al.
+
+Quantiﬁcation of TC Innervation of Individual Neurons
+In order to compute the probability of TC innervation for the
+different types of cortical neurons, TC bouton z-proﬁles
+(normalized to represent the absolute number of thalamic
+contacts; see Fig. 1 and Materials and Methods) were multiplied
+with dendritic z-proﬁles (Fig. 2). As a simpliﬁcation, at a given
+cortical depth, the number of thalamic boutons was taken to
+be uniformly ‘‘distributed’’ between all dendrites (Peters 1979;
+White 1979, 1989; Shepherd et al. 2005; Stepanyants and
+Chklovskii 2005). An individual dendrite will then receive the
+fraction of the boutons that corresponds to the ratio of its
+length to the total dendritic length present at that location.
+We therefore estimated the total dendritic length distribution of excitatory neurons in a cortical column. The average
+dendritic z-proﬁles of excitatory neurons at a given soma depth
+were convolved with a neuron density z-proﬁle that
+represented the number of excitatory neurons at that depth
+within an average TC projection column as deﬁned in the 2
+preceding articles (Meyer et al. 2010; Wimmer et al. 2010).
+This yielded a z-proﬁle of the total dendritic path length of
+excitatory neurons at a given depth in a cortical column
+(‘‘total dendritic z-proﬁle’’; Fig. 4A; for details, see Materials
+and Methods). The total dendritic length density was highest
+in the upper 150 lm of the cortex, with a peak density of
+812 m/mm3 at 70 lm depth, corresponding to the apical tufts
+of all pyramidal neurons in a cortical column. The total
+dendritic length of all excitatory neurons in a cortical column
+was 75 m.
+We then divided the VPM and POm bouton z-proﬁles (Fig. 1)
+by the total dendritic z-proﬁle (Fig. 4A). The resulting z-proﬁles
+show the depth dependence of VPM (red line in Fig. 4B) and
+POm (green line in Fig. 4B) bouton density per unit dendritic
+path length in a cortical column (‘‘normalized’’ VPM and POm
+
+Figure 4. Total dendritic length distribution and normalized thalamocortical
+innervation density in a cortical column. (A) Dendritic z-profile of all excitatory
+neurons in a cortical column. All excitatory neurons were grouped based on soma
+depth from the pial surface. Average dendritic z-profiles were calculated for all
+groups. Each profile was then multiplied with the total number of excitatory neurons
+in a cortical column within the respective bin and the multiplied profiles were
+summated (i.e., the average dendritic z-profiles were convolved with a soma density
+profile). This yielded a profile representing the total excitatory neuron dendritic length
+at a given depth, which was finally normalized to the total cortical column volume to
+obtain an estimate of the dendritic path length per volume density (m/mm3).
+*Corrected for the expected fraction of excitatory neurons (85%, see Materials and
+Methods). (B) Normalized VPM (red line) and normalized POm (green line) bouton
+density profiles in units of boutons per micrometer dendrite obtained by dividing the
+bouton z-profiles (Fig. 1) by the total dendritic length profile as shown in (A). Profiles
+were interpolated and smoothed for visualization (see Materials and Methods).
+
+bouton density proﬁles). Normalized VPM bouton density was
+highest between 400 and 800 lm depth from the pia
+(maximum: 0.10 boutons/lm dendrite). Normalized POm
+bouton density was highest between 900 and 1100 lm depth
+(maximum: 0.09 boutons/lm dendrite). Note that the normalization to dendritic path length modiﬁed the VPM and POm
+bouton proﬁles as the dendritic length density in a cortical
+column varied with depth from the pia (Fig. 4A). The
+normalized POm bouton density peak close to the pia was
+relatively lower compared with the raw POm bouton density
+peak (cf. green line in Figs 1B and 4B), reﬂecting the high
+dendritic density below the pia due to the apical tufts.
+TC Innervation Depends on Neuron Type and Soma
+Depth
+The normalized bouton density proﬁles (Fig. 4B) were then
+multiplied by the dendritic z-proﬁles of individual neurons
+(Fig. 2), yielding z-proﬁles of TC innervation density that
+represent the distribution of the absolute number of VPM or
+POm boutons contacting a given neuron at a given depth
+(insets in Fig. 5B for the example neuron shown in Fig. 2).
+To compare the potential TC input of different neuron types,
+the average number of POm and VPM boutons per type was
+calculated from the integrals of these individual thalamic
+contact density z-proﬁles (see insets in Fig. 5). The cell types
+Cerebral Cortex October 2010, V 20 N 10 2293
+
+Downloaded from http://cercor.oxfordjournals.org/ at Bibliotheque Commune De ChimieUNIL - EPFL on November 6, 2015
+
+primary bifurcation (n = 7, soma distance from pia: 124--275
+lm); L3 pyramidal neurons had longer apical dendrites with
+narrower apical tufts and longer basal dendrites (n = 9, somato-pia distance: 295--529 lm); L4 star pyramidal neurons had an
+apical dendrite that did not reach L1 and had no prominent tuft
+(n = 6, soma-to-pia distance: 614--750 lm); L4 spiny stellate
+neurons had short mostly asymmetric primary dendrites and
+did not show a prominent apical dendrite (n = 7, soma-to-pia
+distance: 607--802 lm); L5 slender-tufted pyramidal neurons
+had a small apical tuft and few apical oblique dendrites (n = 20,
+soma-to-pia distance: 772--975 lm); L5 thick-tufted pyramidal
+neurons had a broad apical tuft and more apical oblique
+dendrites (n = 22, soma-to-pia distance: 997--1251 lm); L6
+pyramidal neurons had apical dendrites that did not reach
+beyond L4 (n = 11, soma-to-pia distance: 1269--1617 lm, cf.
+Brumberg et al. 2003; Andjelic et al. 2009). According to their
+soma depth, the L6 neurons in our sample may be regarded as
+L6A neurons (Torres-Reveron and Friedlander 2007). We did
+not differentiate different dendritic subtypes of L6 neurons
+(Kumar and Ohana 2008; Andjelic et al. 2009; Chen et al. 2009).
+Figure 3 shows examples of individual somatic and dendritic
+reconstructions representative of the 7 excitatory cell types,
+superimposed on VPM (left panels) and POm (right panels)
+bouton z-proﬁles. Any overlap of domains of high thalamic
+bouton density and dendritic arbors of cortical neurons
+indicates that these neurons could receive direct thalamic
+input after a sensory stimulus.
+
+were signiﬁcantly different in average VPM innervation
+(P < 0.0001, one-way ANOVA; Table 1 and Fig. 5), with a peak
+for L5 thick-tufted pyramidal neurons (299 ± 99 boutons per
+neuron). The mean VPM innervation of L5 thick-tufted
+pyramidal neurons was signiﬁcantly higher than VPM innervation of L2 (16 ± 14), L5 slender-tufted (150 ± 50), and
+L6 (131 ± 66) pyramidal neurons (P < 0.05, multiple
+comparison test, Scheffe´ procedure). There was no signiﬁcant
+difference between L3 (222 ± 131), L4 (star pyramidal neurons:
+197 ± 46; spiny stellates: 188 ± 60), L5 slender-tufted, and L6
+neurons. This shows that, on average, excitatory neurons in
+layers 3, 4, 5, and 6 can receive signiﬁcant VPM innervation.
+Potential POm innervation was highest for L5 pyramidal
+neurons (slender tufted: 269 ± 121; thick tufted: 277 ± 67)
+and showed higher variability for the other neuron types (see
+Table 1). All excitatory neuron types with the exception of L4
+spiny stellates potentially receive at least 60 POm boutons.
+We then analyzed the correlation of soma depth and TC
+innervation for different neurons of the same type. Total
+dendritic length (i.e., the integrals of dendritic z-proﬁles, cf.
+Fig. 2) was not found to be signiﬁcantly depth dependent for
+any neuron type (open circles in Fig. 5A). When total VPM
+innervation per neuron was plotted as a function of pia--soma
+distance (open circles in Fig. 5B), however, L3, L5, and L6
+pyramidal neurons showed a dependence on soma depth, and 2
+patterns emerged: While the innervation of L3 (r = 0.87,
+P < 0.01) and L5 thick-tufted (r = 0.70, P < 0.001) pyramidal
+neurons increased signiﬁcantly with increasing soma depth,
+VPM innervation decreased for L5 slender-tufted (r = –0.46,
+P < 0.05) and L6 (r = –0.92, P < 0.0001) pyramidal neurons. For
+L5 and L6 neurons, POm innervation also depended on soma
+depth (open circles in Fig. 5C): In contrast to VPM innervation,
+POm innervation increased with soma depth for L5 slender2294 Thalamic Innervation of a Cortical Column
+
+d
+
+Meyer et al.
+
+tufted neurons (r = 0.57, P < 0.01), while it decreased for L5
+thick-tufted neurons (r = –0.57, P < 0.01). For L6 pyramidal
+neurons, POm innervation, like VPM innervation, decreased
+with soma depth (r = –0.75, P < 0.01). These correlations
+indicate that, anatomically, there is a high variability in potential
+TC input of L3, L5, and L6 neurons, which can be, in part,
+explained by the vertical position of the individual neurons in
+the cortical column that determines the axodendritic overlap.
+Subcellular TC Innervation Domains for 7 Excitatory
+Neuron Types
+We ﬁnally quantiﬁed potential subcellular TC innervation
+domains for each type of excitatory neuron. Figure 6 shows
+averaged soma-centered dendritic z-proﬁles (left panels) and
+thalamic contact density z-proﬁles (VPM: middle panel, POm:
+right panel) of all 7 types of excitatory neurons (for an
+illustration of the underlying anatomical overlap, cf. Fig. 3; for
+calculation of contact density z-proﬁles, cf. Fig. 4). Each contact
+z-proﬁle represents the vertical distribution of potential
+thalamic input along the dendritic compartments of a particular
+type. The number of potential TC contacts for each cell type,
+speciﬁed for the basal dendrites, proximal apical oblique
+dendrites, distal apical oblique dendrites, and apical tuft
+dendrites is reported in Table 2.
+Figure 6 shows that pyramidal neurons in L2 are likely to
+receive POm input at their apical tufts and probably lack VPM
+input. Pyramidal neurons in L3 are likely to receive strong VPM
+input at their basal and apical oblique dendrites, and, to
+a smaller degree, distributed POm input at their apical oblique
+dendrites and apical tuft. L4 spiny stellate neurons are likely to
+receive almost exclusively VPM input. L4 star pyramidal
+neurons are likely to receive VPM input at their basal dendrites
+and apical oblique dendrites and POm input at their basal
+
+Downloaded from http://cercor.oxfordjournals.org/ at Bibliotheque Commune De ChimieUNIL - EPFL on November 6, 2015
+
+Figure 5. Predicted number of thalamocortical boutons per neuron in dependence of soma location along the vertical column axis. (A) Soma depth dependence of total dendritic
+length per neuron quantified for all 82 excitatory neurons in the sample as the integral of the dendritic z-profiles. The dendritic length per neuron increased with soma depth in L2/
+L3 and L5 but not within groups of neurons of the same type. Colors: types of excitatory cortical neurons as defined by their somatodendritic morphologies (legend in (C)). For
+a depiction of all reconstructions, see Supplementary Figure 3. Blue arrow: neuron shown in the inset. Inset: example of the dendritic length density distribution of one neuron
+(same neuron as shown in Fig. 2); black arrow: soma position. (B) Soma depth dependence of total putative VPM innervation per neuron quantified as the integral of the singleneuron VPM innervation z-profile (inset, red line). Note that the total innervation of L3 and L5 thick-tufted pyramidal neurons increased significantly with soma depth, while L5
+slender-tufted and L6 pyramid innervation decreased. Inset: Potential VPM (red line) and POm (green line) innervation z-profile of the L5 thick-tufted pyramidal neuron shown in
+Figure 2. Multiplication of the normalized bouton density profiles (Fig. 4B) with dendritic z-profiles of individual neurons (Fig. 2, inset in (A)) yields profiles representing the absolute
+number of putative thalamocortical contacts. The integrals of the innervation z-profiles are an estimate of the absolute number of boutons contacting a neuron. Vertical axis as
+inset in (A). (C) Soma depth dependence of total POm innervation per neuron. Quantification as in (B). Innervation of L5 slender-tufted pyramidal neurons increased significantly
+with soma depth, while L5 thick-tufted and L6 pyramidal neuron innervation decreased.
+
+Downloaded from http://cercor.oxfordjournals.org/ at Bibliotheque Commune De ChimieUNIL - EPFL on November 6, 2015
+Figure 6. Average dendritic z-profiles and thalamocortical innervation density profiles of 7 excitatory neuron types. Left panels: Soma-aligned dendritic z-profiles (cf. Fig. 2)
+averaged for all neurons of a given type (see Supplementary Fig. 3 for all reconstructions). Average soma positions per type are indicated (dashed lines). Middle and right panels:
+Average VPM (middle panels) and POm (right panels) innervation density z-profiles representing the vertical distribution of potential thalamic contacts received by the 7 excitatory
+neuron types in a cortical column. Dashed lines indicate average soma positions. Note that because the profiles were aligned to the soma of the neurons, the average profiles can
+extend beyond the average pia (at z 5 0).
+
+Cerebral Cortex October 2010, V 20 N 10 2295
+
+Table 2
+Predicted number of thalamocortical boutons in the subcellular innervation domains
+Domain
+
+L2
+
+L3
+
+L4sp
+
+L5sl
+
+L5th
+
+L6
+
+VPM POm VPM POm VPM POm VPM POm VPM POm VPM POm
+Tuft
+1
+9
+Distal apical
+oblique dendrites
+Proximal apical
+oblique dendrites
+basal dendrites
+6
+Sum
+16
+
+44
+28
+
+3
+75
+
+0
+7
+
+22
+15
+
+0
+9
+
+3
+2
+
+1
+17
+
+25
+2
+
+12
+54
+
+68
+6
+
+5
+14
+
+4
+25
+
+163
+
+21
+
+119
+
+9
+
+101
+
+118
+
+116
+
+165
+
+97
+
+33
+
+52
+222
+
+5
+63
+
+69
+197
+
+43
+57
+
+31
+150
+
+124
+269
+
+118
+299
+
+37
+277
+
+15
+131
+
+5
+66
+
+dendrites. L5 slender-tufted pyramidal neurons are likely to
+receive VPM input at their apical oblique dendrites. They are
+also likely to receive POm input at their basal and apical
+oblique dendrites and, to a smaller degree, at their apical tuft.
+L5 thick-tufted pyramidal neurons are likely to receive strong
+VPM input at their basal dendrites and at their proximal and
+distal apical obliques and in addition POm input at the proximal
+apical oblique dendrites and at their apical tufts. Finally,
+a fraction of L6 neurons is likely to receive VPM input at their
+apical oblique dendrites.
+In summary, dendritic ﬁelds of all excitatory neuron types
+overlap with thalamic boutons. L3 pyramidal neurons, L4 star
+pyramidal neurons, and L5 slender-tufted and L5 thick-tufted
+pyramidal neurons can all receive direct thalamic input
+originating from 2 different thalamic subnuclei.
+Subcellular TC Innervation Domains Deﬁne a Subtype
+of Thick-Tufted L5B Neurons
+We found a small fraction of thick-tufted L5B pyramidal
+neurons (n = 4 of 22) that extended a substantial part of their
+apical oblique dendrites to L4 (Fig. 7A, right panel for an
+example), while the majority of thick-tufted neurons had
+virtually no dendrites in L4 (e.g., Fig. 7A, left panel; see
+Supplementary Fig. 3 for all L5B reconstructions). Quantitatively, these neurons were identiﬁed by a cluster analysis with
+the number of apical oblique dendrites in L4 and the total
+dendritic path length in L4 as parameters (Fig. 7B, right panel,
+see Materials and Methods). They had more than 4 apical
+oblique dendrites and more than 1 mm dendritic path length in
+L4 (Fig. 7B, left panel). Because this speciﬁc branching was well
+aligned with the VPM projections terminating in L4, this subtype
+of L5B neurons had a fourth subcellular TC innervation domain,
+which the majority of L5B cells did not show (Fig. 7C vs. D,
+Supplementary Table 2; predicted number of TC boutons per
+neuron in the L4 innervation domain: 132 ± 72 [n = 4] vs. 29 ±
+5.8 [n = 18], P < 0.03; see Materials and Methods for details and
+validity of this statistical test).
+
+Neuron Type--Speciﬁc Subcellular Innervation Domains
+The analysis of subcellular TC innervation domains on excitatory
+cortical neurons (Figs 6--8 and Table 2) revealed highly cell type-speciﬁc innervation patterns. These can be interpreted as follows
+(see Figs 6 and 8): TC innervation was ‘‘focal’’ and ‘‘unique’’ (one
+subcellular innervation domain, innervation by one thalamic
+nucleus) for pyramidal neurons in L2 (POm innervation domain
+at the apical tuft), L4 spiny stellate neurons (VPM innervation
+domain throughout their entire dendritic ﬁeld), and lower
+L6 pyramidal neurons (VPM innervation domain at their apical
+oblique dendrites, cf. also Fig. 5B). Pyramidal neurons in L3, L4,
+L5, and upper L6 on the other hand showed ‘‘multiple’’ and ‘‘dual’’
+TC innervation (2, 3, or 4 subcellular innervation domains,
+innervation by 2 thalamic nuclei). For L2 pyramidal neurons,
+TC innervation was restricted to a rather broad innervation
+domain by POm at their apical tuft, whereas their remaining
+dendritic compartments were potentially only sparsely contacted by TC projections at all. Basal and apical oblique dendrites
+of L2 pyramidal neurons may be targeted mainly by intracortical
+connections (Bannister 2005; Bureau et al. 2006).
+Clustered versus Distributed Subcellular TC Innervation
+Domains
+We quantiﬁed both the total expected TC innervation per
+neuron (Fig. 5 and Table 1) and the spatial distribution of TC
+innervation along the dendrites of a given neuron (Figs 6--8 and
+Table 2). While the ﬁrst method accurately describes the
+expected total amount of TC input per neuron, the latter is
+better suited to detect clustered innervation domains along the
+dendrites of a given neuron type. However, it underestimates
+distributed innervation. It is therefore questionable whether
+the weak average innervation of L4 spiny stellates by POm
+(Figs 6 and 8; cf. Fig. 5C; 22 ± 10 POm boutons total, see
+Table 1) and the innervation of L2 pyramidal neurons by VPM
+(Figs 6 and 8; cf. Fig. 5B; 16 ± 14 VPM boutons total, see Table 1)
+in fact represent signiﬁcant thalamic input to these neurons.
+Some L6A pyramidal neurons extend their apical tufts to L5A
+where they could receive signiﬁcant POm input (cf. Figs 3, 5C,
+6, and 8). This is only evident in the analysis of the total
+expected innervation per neuron (Fig. 5C and Table 1; 66 ± 42
+POm boutons total), especially for upper L6A neurons (Fig. 5C).
+Note that all other types of pyramidal neurons (located in L2-L5) can receive POm input within L1 where all of these types
+of pyramidal neurons extend their apical tufts; it is possible that
+upper L6 pyramidal neurons, although they do not extend an
+apical dendrite to L1 (see also, e.g., Chen et al. 2009), can
+potentially still integrate POm and VPM input.
+
+Discussion
+The aim of the present work was to make quantitative
+predictions about the innervation of excitatory cortical
+neurons by TC boutons in a column of primary somatosensory
+2296 Thalamic Innervation of a Cortical Column
+
+d
+
+Meyer et al.
+
+Deﬁnition of Excitatory Cell Types
+In this study, established morphological features of dendrites
+and the cortical depth of the soma location were used to
+
+Downloaded from http://cercor.oxfordjournals.org/ at Bibliotheque Commune De ChimieUNIL - EPFL on November 6, 2015
+
+Note: Integrals of the thalamocortical innervation density profiles (as in Table 1), differentiated by
+the dendritic domains of each excitatory neuron type. Dendritic domains were defined using the
+dendritic length density profiles (see Fig. 2, cf. Supplementary Fig. 3): basal dendrites: below the
+soma; apical tuft dendrites: above the first bin of the apical tuft dendritic density peak; the
+remaining part of the dendritic density profile was split in half to approximately define proximal
+and distal apical oblique dendrites. For data on the subgroups of L5 thick-tufted pyramidal cells,
+see Supplementary Table 2.
+
+barrel cortex. For this purpose, the dendritic domains of the
+neuron types were superimposed with TC bouton domains,
+and absolute numbers of TC innervation were estimated. In
+previous work, these neurons were shown to respond to
+a simple sensory stimulus (whisker deﬂection) in a typespeciﬁc manner (Brecht and Sakmann 2002; Brecht et al. 2003;
+Manns et al. 2004; de Kock et al. 2007). The present results
+suggest a possible anatomical basis for at least some of the cell
+type--speciﬁc responses.
+
+distinguish excitatory cell types. We found, however, that
+within the assumed homogeneous class of excitatory thicktufted L5 pyramidal neurons, speciﬁc branching features of the
+apical oblique dendrites that were well aligned with the VPM
+innervation pattern yielded strongly differing subcellular innervation domains for a few of the neurons (see Fig. 7). This
+could suggest subtypes of thick-tufted L5B neurons. Similarly,
+L6 pyramidal neurons could be further differentiated by, for
+example, the extent of their apical dendrites in L5A or L4,
+possibly predicted by their soma locations (Fig. 5B,C). In both
+cases, the selectivity of the thalamic projections along the
+vertical column axis attaches potential functional relevance
+to the purely morphological ﬁnding of variable dendritic
+branching patterns. Thus, the predicted TC input patterns
+can contribute to a more precise classiﬁcation of excitatory
+neurons within the layers of a cortical column.
+
+Estimation of Absolute TC Bouton Numbers per Neuron
+For a quantitative interpretation of the TC input to a cortical
+column, it was crucial to obtain absolute estimates of the
+number of potential TC contacts per excitatory neuron in
+a column. These estimates relied on a few anatomical
+assumptions, each of which contributes to the uncertainty of
+the estimate. The total number of boutons projected from one
+VPM barreloid to one cortical column was estimated using the
+reported number of neurons in a VPM barreloid (250--300; Land
+et al. [1995], expected uncertainty range: 200--300, e.g., Varga
+et al. [2002]), the average axonal path length of one VPM
+neuron extended in the home column (35 mm, approximate
+range: 20--50 mm, Oberlaender, Bruno, and Sakmann, unpublished observations), and the average distance between
+boutons on the TC axons (3 ± 0.2 lm, Oberlaender, Bruno, and
+Sakmann, unpublished observations; cf. however, 5 lm in
+Cerebral Cortex October 2010, V 20 N 10 2297
+
+Downloaded from http://cercor.oxfordjournals.org/ at Bibliotheque Commune De ChimieUNIL - EPFL on November 6, 2015
+
+Figure 7. Subgroup of thick-tufted pyramidal neurons with an additional VPM innervation domain in L4. (A) Two examples of L5 thick-tufted pyramidal neurons with different
+dendritic arborization patterns (blue and purple). Note that the neuron on the left panel has a broad apical tuft and several distal apical oblique dendrites that terminate directly
+below L4. The neuron on the right panel has a narrower apical tuft and many distal apical oblique dendrites in L4. (B) Quantification of the dendritic arborization in L4 for the whole
+sample of L5 thick-tufted pyramidal neurons (n 5 22). In contrast to the majority of the sample, which had no significant dendritic domain in L4 (blue circles, n 5 18), 4 of the
+neurons (as defined by a cluster analysis, right panels) had 5 or more apical oblique dendrites of different primary bifurcation origin within 300 lm above the lower L4 border and
+more than 1000 lm total dendritic length within 500 and 800 lm depth from the pia (purple circles). Dark blue and dark purple circles: neurons shown in (A); for an illustration of
+all of the L5B neurons, see Supplementary Figure 3. Right panels: linkage dendrogram (top) and linkage distance (bottom) generated in a cluster analysis (Ward’s method,
+Euclidean distances, and Thorndike criterion for cluster cutoff, see Materials and Methods) that was the basis for the clustering shown in the plot on the left. (C, D) Comparison of
+the dendritic density profiles (left panels) and the resulting VPM and POm innervation profiles (right panels) for the 2 subtypes of thick-tufted L5 neurons as defined in (B). Dashed
+lines indicate average soma positions. Note the additional VPM innervation domain in L4 for the rare subtype with significant dendritic arborization in L4 (D, right panel; number of
+predicted VPM boutons in L4: 132 ± 72 [n 5 4] vs. 29 ± 5.8 [n 5 18], P \ 0.03; see Materials and Methods).
+
+mouse; White et al. 2004). The ratio of excitatory neurons in
+a column was assumed to be 85% (Beaulieu 1993; range:
+80--90%). All of these assumptions contribute as multiplicative
+factors to the estimates of absolute bouton numbers; thus, the
+combined uncertainty for all estimates of absolute bouton
+numbers is approximately ±30%. In addition, the ratio of
+excitatory neurons is inhomogeneous along the vertical column
+axis (e.g., Beaulieu 1993). However, compared to the uncertainties in the assumptions about the number of total TC
+boutons, this variability in the ratio of inhibitory neurons (range:
+10--20% for different cortical layers) is of less signiﬁcance.
+We used an estimate of the total axonal path length of the
+average VPM neuron extended in the somatotopically aligned
+home column (see above, Materials and Methods). VPM
+neurons also project to neighboring columns and the septa
+between barrels in cortex; these projections can amount to as
+much as 40% of the axonal path length (Oberlaender, Bruno,
+and Sakmann, unpublished observations). Therefore, the
+absolute estimates of the number of potential TC contacts
+per excitatory neuron reported here are lower estimates of the
+total TC input to a single neuron. To account for TC input from
+other than the somatotopically aligned barreloid, the reported
+numbers (Tables 1 and 2) would have to be increased by
+approximately 10--30% (assuming that dendrites of septal
+2298 Thalamic Innervation of a Cortical Column
+
+d
+
+Meyer et al.
+
+neurons contribute ~40--50% to the total dendritic length in
+barrel cortex, see Meyer et al. [2010] and Materials and
+Methods). Thus, approximately half of the additional VPM
+projections could target neurons within the home column.
+
+The Number of VPM Boutons per Neuron in Comparison
+to Previous Studies
+First accounts of TC projections in primary sensory areas
+concluded that the primary target of TC axons were neurons in
+layer 4 (Lorente de No 1922, 1938, 1992; Jones and Powell
+1970; Killackey 1973). Subsequent ultrastructural analysis using
+electron microscopy of combined axon degeneration (without
+differentiation between VPM and POm) and Golgi staining or
+anterograde transporter labeling demonstrated, however, that
+also deep L3 pyramidal neurons and L5 and L6 pyramidal
+neurons were contacted by TC afferents within L4 (White
+1978, 1989; Keller et al. 1985). It was concluded (Peters 1979;
+White 1979) that all neurons extending their dendrites to L4
+received thalamic input. Furthermore, the fraction of putatively
+excitatory (asymmetric) synapses that was made by TC
+afferents was estimated to be as high as 18--23% in mouse
+barrel cortex (Hersch and White 1981, 1982; White and Hersch
+1981; Keller et al. 1985; White 1989), while much lower
+
+Downloaded from http://cercor.oxfordjournals.org/ at Bibliotheque Commune De ChimieUNIL - EPFL on November 6, 2015
+
+Figure 8. Subcellular thalamocortical innervation domains for different excitatory neuron types in a cortical column. Thalamocortical innervation domains calculated by
+thresholding the contact z-profiles (cf. Fig. 6) at bouton densities of 5 per bin (effective bin size: 46 lm, cf. Materials and Methods; dark red and dark green for VPM and POm,
+respectively) and 10 per bin (light colors). Each neuron type showed a unique combination of subcellular thalamocortical innervation domains (see Discussion).
+
+TC Projections from VPM versus POm
+We used the peak bouton density to calibrate VPM and POm
+projection densities (see Materials and Methods). This allowed
+to quantitatively compare the amount of thalamic projections
+converging on cortical neurons from either one or both
+thalamic nuclei. We found that the estimated number of VPM
+boutons was remarkably similar for L3, L4, and L5 excitatory
+neurons (estimated range: 150--299 VPM boutons per neuron;
+Table 1 and Fig. 5B). L6 pyramidal neurons were still predicted
+to receive 131 ± 66 VPM boutons per neuron, and only L2
+pyramidal neurons are predicted to have virtually no VPM input
+(16 ± 14). The intertype variability was higher for the number
+of POm boutons per neuron type, with L5 slender-tufted (269 ±
+121) and L5 thick-tufted (277 ± 67) pyramidal neurons
+potentially receiving about 4--5 times as many synapses as the
+other pyramidal neurons (range: 57--75). L5 slender-tufted
+pyramidal neurons were predicted to be the most densely
+POm-innervated neurons, with a synapse distance of 21 lm and
+a ratio of POm-occupied spines of 9%. Our data predict that
+thick-tufted L5 pyramidal neurons receive equal amounts of TC
+input from VPM and POm (with the exception of the putative
+subtype that has an L4--VPM domain as described in Fig. 7),
+while the TC input to all other cortical neurons is either VPM
+dominated (L3, L4, and L6) or POm dominated (L2 and L5
+slender tufted).
+Comparison with Estimates Derived from Physiological
+Measurements
+The different patterns of TC innervation reported here are
+based on calculating bouton--dendrite overlap proﬁles, making
+the simplifying assumption of locally random synaptic connectivity between TC axons and the dendrites of cortical neurons
+(Peters 1979; White 1979, 1989; see Shepherd et al. 2005;
+Stepanyants and Chklovskii 2005 for a critical account). The
+results reported here therefore represent ‘‘potential’’ synaptic
+connectivity and provide ﬁrst quantitative bounds on the
+amount of TC innervation of cortical neurons. Whether the
+overlap regions that we calculated here indeed correspond to
+actual synaptic contacts needs to be veriﬁed by, for example,
+labeling synaptic contacts simultaneously with markers speciﬁc
+for the pre- and postsynaptic compartments or by electron
+
+microscopic methods suitable to image large volumes like
+an entire layer of a cortical column (for a review, see
+Helmstaedter, Briggman, et al. 2008).
+Qualitatively, the fact that, in response to a whisker deﬂection, reliable, short onset latency (8--11 ms) excitatory postsynaptic potentials (EPSPs) are recorded in all cortical layers
+except in L2 (18 ms) (Brecht and Sakmann 2002; Brecht et al.
+2003; Manns et al. 2004) renders it likely that the bouton-dendrite overlap domains described here represent indeed
+functional TC innervation domains as we found signiﬁcant VPM
+innervation for all neuron types except for L2 (Figs 5--8 and
+Table 1). The onset latency of the earliest EPSP component in
+L3 pyramidal neurons (9.6 ms), for example, is not signiﬁcantly
+different from that of the earliest component of EPSPs in L4
+spiny stellate neurons (8.0 ms) (Brecht and Sakmann 2002;
+Brecht et al. 2003). This argues for signiﬁcant monosynaptic TC
+activation of both neuron types, which is in agreement with
+our anatomical data (222 ± 44 vs. 188 ± 23 [mean ± standard
+error of mean] VPM boutons per neuron, respectively). It is,
+however, important to note that high bouton numbers per
+neuron or dense innervation domains close to the soma do not
+directly imply higher activation since release probability may
+be different for different connections (Markram et al. 1998;
+Reyes et al. 1998; Reyes and Sakmann 1999) and since
+intracellular mechanisms may signiﬁcantly modify the effect
+of a single synaptic contact depending on the location along
+the dendritic tree (see below).
+Previous quantitative estimates of VPM innervation were
+based on inferences of VPM convergence onto excitatory
+L4 neurons (based on the fraction of connected pairs; Bruno
+and Sakmann 2006) and the average number of release sites for
+a single VPM--L4 connection (Gil et al. 1999). This suggested
+that the maximum possible number of VPM release sites that
+could contact a spiny stellate cell is approximately 600. Our
+lower bound anatomical estimate of the number of contacts
+(~200 VPM boutons per L4 neuron, cf. Table 1) lies well below
+this upper bound estimate for the number of release sites. This
+could suggest possible multiquantal release at VPM boutons.
+More recent anatomical data seem to support the order of
+magnitude of approximately 200 VPM boutons per L4 neuron
+(Schoonover and Bruno, in preparation).
+Recently, the input to cortical excitatory neurons has been
+studied using the expression of a light-activatable cation
+channel (Nagel et al. 2003) in populations of putatively
+presynaptic axons; among these were TC afferences (Petreanu
+et al. 2009). It was concluded that L5B pyramidal neurons lack
+signiﬁcant POm input in disagreement with the anatomical
+predictions presented in this study (Figs 6--8 and Tables 1 and
+2). Several reasons may contribute to this discrepancy. Our data
+suggest that apical tuft input could be a major factor for the
+excitation of L5 thick-tufted pyramidal neurons by POm (25%
+of all POm boutons per L5 thick-tufted pyramid; Table 2,
+Supplementary Table 2). The detection of apical tuft input is,
+however, hard to achieve in L5 thick-tufted neurons given their
+low input resistance, the lack of voltage control of distant
+dendrites in the setting of a somatic recording, and the strong
+attenuation of distally evoked spikes along the dendritic tree
+(Larkum et al. 2009). Even for basal dendrites the attenuation of
+synaptic input can be substantial (Nevian et al. 2007). In
+addition, the contribution of active dendritic mechanisms like
+calcium APs to the somatic current signal (Larkum et al. 2009)
+is difﬁcult to assess. It remains to be shown by ultrastructural
+Cerebral Cortex October 2010, V 20 N 10 2299
+
+Downloaded from http://cercor.oxfordjournals.org/ at Bibliotheque Commune De ChimieUNIL - EPFL on November 6, 2015
+
+numbers were obtained for visual cortex (e.g., Garey and
+Powell 1971; da Costa and Martin 2009).
+Our ﬁndings quantitatively conﬁrm that 1) all neurons in
+a column potentially receive substantial TC input (90--580
+boutons per neuron) and that 2) the fraction of potential TC
+synapses per neuron is at least 17% for spiny stellates in
+L4 (range: 4--17% for all excitatory neuron types, see Table 1;
+note that this is a lower bound estimate because we did not
+calculate TC input from other than the somatotopically aligned
+barreloids, see above). However, our data suggest that a substantial fraction of these potential TC synapses is not made
+within L4 but in the supra- and infragranular parts of the
+TC projections. For example, we estimate only 20--30% of all
+VPM boutons on an L5 thick-tufted pyramidal neuron to be
+made in L4 (~55 of ~300; Table 2 and Figs 6 and 8, or ~90 of
+~300, Supplementary Table 2), while the remaining contacts
+would be established mainly in L5. Our data do not support
+signiﬁcant monosynaptic VPM input to L1 (reported by Oda
+et al. [2004], see, however, Rubio-Garrido et al. [2009]).
+
+analysis whether thick-tufted L5B neurons receive signiﬁcant
+POm input as predicted by our data.
+
+2300 Thalamic Innervation of a Cortical Column
+
+d
+
+Meyer et al.
+
+Conclusions
+The anatomical data suggest, in combination with the
+synchrony of APs in VPM cells (Bruno and Sakmann 2006),
+2 limiting cases for an ‘‘effective’’ TC excitation of the cortex.
+On the one hand, it is based on a focal and dense input to
+a compact dendritic compartment, as has been quantiﬁed for
+L4 spiny stellate neurons. This neuron type is thought to be the
+main recipient of sensory input to a column in somatosensory
+cortex (Armstrong-James et al. 1992; Douglas and Martin 2004).
+On the other hand, effective excitation in the vibrissal cortex is
+also based on a spatially distributed input to several anatomically and electrically well-separated dendritic compartments
+(Larkum and Zhu 2002). This is the case for L5 thick-tufted
+pyramidal neurons. Here, the effective TC activation relies on
+the generation of active dendritic excitation by distributed
+synaptic input (Larkum et al. 2001).
+In combination with data on functional geometry of TC
+connectivity (i.e., paired recordings; Bruno and Sakmann 2006),
+the quantitative data on thalamic innervation patterns of the
+major excitatory neuron types will serve as a basis for
+simulations of the signal ﬂow through a cortical column in
+silico (Helmstaedter et al. 2007).
+
+Funding
+Max Planck Society.
+
+Supplementary Material
+Supplementary material can be found at: http://www.cercor
+.oxfordjournals.org/
+
+Downloaded from http://cercor.oxfordjournals.org/ at Bibliotheque Commune De ChimieUNIL - EPFL on November 6, 2015
+
+Functional Implications: Capacity for Coincidence
+Detection by Pyramidal Neurons
+The highest number of potential VPM contacts is received by
+thick-tufted neurons in the infragranular layer (L5), whereas
+contact density is highest for spiny cells in the granular layer
+(Table 1). In vivo recordings of AP responses have shown that
+L5 thick-tufted pyramidal neurons respond to a whisker
+deﬂection as rapidly as L4 spiny stellate neurons do but, on
+average, with a higher number of APs (de Kock et al. 2007).
+Thick-tufted pyramidal neurons are sensitive to coincident input
+to different dendritic compartments and typically respond with
+AP bursts to multilayer synaptic input (Larkum et al. 1999;
+Larkum and Zhu 2002). These observations are surprising, given
+the fact that input resistance of L5 thick-tufted pyramidal
+neurons is considerably lower than that of spiny stellates and
+because of the strong attenuation of post-synaptic potentials
+(PSPs) along their basal dendrites (Nevian et al. 2007). One
+factor that could contribute to the higher responsiveness of
+thick-tufted pyramidal neurons is their multiple innervation by
+VPM on their basal and apical oblique dendrites, respectively
+(Figs 6--8 and Table 2). Our sample contained a subset of cells
+that had a dense dendritic domain in L4, putatively enabling in
+particular those neurons to integrate VPM input at 2 dendritic
+compartments (Fig. 7).
+In addition, coincident input to basal and apical oblique
+dendrites from VPM and to apical oblique and apical tuft
+dendrites from POm could generate bursts of APs, as observed
+in vitro and in vivo (Larkum et al. 2001; de Kock et al. 2007;
+Schaefer et al. 2007; de Kock and Sakmann 2008). Larkum and
+colleagues found that, in distal tuft dendrites of L5 thick-tufted
+pyramidal neurons, attenuation of NMDA-mediated spikes is
+strong, but they estimated that approximately 100 tuft synapses
+can be sufﬁcient to trigger a calcium spike at the apical
+initiation zone (Larkum et al. 2009). This is approximately 25%
+more than the 68 POm boutons and 12 VPM boutons per tuft
+predicted as a lower bound by the present study (Table 2),
+indicating that synchronous POm activity could be close to the
+threshold of initiating active propagation of distal inputs to the
+axon initial segment for integration with proximal input (see
+also Larkum et al. 2004). As discussed above, this nonlinear
+transmission of apical tuft input to the soma may explain the
+substantial discrepancy between our predictions and physiological data based on the activation of, presumably, a few POm
+afferents (Petreanu et al. 2009).
+A dual TC innervation pattern is also suggested for pyramidal
+neurons located in L3. These cells are potentially innervated by
+VPM at their basal dendrites and potentially receive input from
+POm at their apical tufts in L1 (Figs 6 and 8). L2/3 pyramidal
+neurons can generate dendritic spikes and integrate distal and
+proximal synaptic input, which, however, only results in brief
+‘‘bursts’’ of 2 APs in vitro (Larkum et al. 2007). AP bursts from
+L3 pyramidal neurons are in fact infrequent and consist of only
+2 APs in in vivo recordings from the anesthetized cortex
+(de Kock and Sakmann 2008). In the awake animal, however,
+they become more frequent and can consist of 3 APs (de Kock
+and Sakmann 2008). This difference in the awake animal could,
+for example, result from increased POm activity, which could
+be mediated by arousal (Trageser and Keller 2004; Trageser
+
+et al. 2006) or from reduced inhibition at the distal dendrites
+(see Larkum et al. 2007). To investigate these potential effects
+of TC innervation in vivo, experiments are needed where
+L1 excitation in awake animals is measured (Kuhn et al. 2008;
+Murayama and Larkum 2009; Murayama et al. 2009).
+A dual TC innervation, distributed over multiple dendritic
+compartments, is also suggested for slender-tufted pyramidal
+neurons in L5. Both their basal and their apical dendrites
+overlap with POm bouton domains. The early compound PSP
+evoked by a whisker deﬂection also has, however, a short
+latency (~10 ms) (Manns et al. 2004). Presumably, the VPM
+projections to apical oblique dendrites mediate this early-onset
+PSP (Figs 6 and 8). APs in L5 slender-tufted pyramidal neurons
+are, however, evoked with a relatively long delay compared
+with other layers (de Kock et al. 2007), suggesting that the
+early-onset synaptic input is either weak or attenuated by rapid
+inhibition. The APs occurring later could then be evoked by
+the L4 spiny stellate-to-L5 slender-tufted pyramid pathway
+(Feldmeyer et al. 2005; Schubert et al. 2006), which would
+represent a disynaptic input from VPM. Slender-tufted pyramidal neurons could then be sensitive to coincident excitation
+conveyed by this disynaptic VPM pathway (to their basal and
+proximal apical oblique dendrites) and inputs from the POm
+pathway that excite their basal and apical oblique dendrites and
+the apical tufts in L1. Finally, the excitation of slender-tufted
+cells is increased during active whisking (Kerr et al. 2007;
+de Kock and Sakmann 2009), suggesting increased input from
+VPM and potentially direct input from POm in the awake
+behaving condition.
+
+Notes
+We thank Marlies Kaiser and Ellen Stier for histology, Rolf Ro¨del and
+Karl Schmidt for technical assistance, Radoslav Enchev and Anne
+Schreiber for programming of analysis software, and Sebastiano Bellanca
+for Neurolucida reconstructions. Author contributions: Conceived and
+designed the experiments: B.S., H.S.M., V.C.W., and M.H. Performed the
+experiments: H.S.M., V.C.W., M. Hemberger, R.M.B., C.P.J.de K., A.F., and
+M.H. Conceived the analysis: M.H., B.S., and H.S.M. Analyzed the data:
+H.S.M., M.H., and B.S. Wrote the paper: M.H., H.S.M., and B.S. Conﬂict of
+Interest : None declared.
+
+References
+
+Cerebral Cortex October 2010, V 20 N 10 2301
+
+Downloaded from http://cercor.oxfordjournals.org/ at Bibliotheque Commune De ChimieUNIL - EPFL on November 6, 2015
+
+Agmon A, Connors BW. 1991. Thalamocortical responses of mouse
+somatosensory (barrel) cortex in vitro. Neuroscience. 41:365--379.
+Ahissar E, Sosnik R, Haidarliu S. 2000. Transformation from temporal to
+rate coding in a somatosensory thalamocortical pathway. Nature.
+406:302--306.
+Andjelic S, Gallopin T, Cauli B, Hill EL, Roux L, Badr S, Hu E, Tamas G,
+Lambolez B. 2009. Glutamatergic nonpyramidal neurons from
+neocortical layer VI and their comparison with pyramidal and spiny
+stellate neurons. J Neurophysiol. 101:641--654.
+Armstrong-James M, Fox K, Das-Gupta A. 1992. Flow of excitation
+within rat barrel cortex on striking a single vibrissa. J Neurophysiol.
+68:1345--1358.
+Bannister AP. 2005. Inter- and intra-laminar connections of pyramidal
+cells in the neocortex. Neurosci Res. 53:95--103.
+Beaulieu C. 1993. Numerical data on neocortical neurons in adult rat,
+with special reference to the GABA population. Brain Res. 609:
+284--292.
+Bernardo KL, Woolsey TA. 1987. Axonal trajectories between mouse
+somatosensory thalamus and cortex. J Comp Neurol. 258:542--564.
+Binzegger T, Douglas RJ, Martin KA. 2004. A quantitative map of the
+circuit of cat primary visual cortex. J Neurosci. 24:8441--8453.
+Brecht M, Roth A, Sakmann B. 2003. Dynamic receptive ﬁelds of
+reconstructed pyramidal cells in layers 3 and 2 of rat somatosensory
+barrel cortex. J Physiol. 553:243--265.
+Brecht M, Sakmann B. 2002. Dynamic representation of whisker
+deﬂection by synaptic potentials in spiny stellate and pyramidal
+cells in the barrels and septa of layer 4 rat somatosensory cortex.
+J Physiol. 543:49--70.
+Brumberg JC, Hamzei-Sichani F, Yuste R. 2003. Morphological and
+physiological characterization of layer VI corticofugal neurons of
+mouse primary visual cortex. J Neurophysiol. 89:2854--2867.
+Bruno RM, Sakmann B. 2006. Cortex is driven by weak but synchronously active thalamocortical synapses. Science. 312:1622--1627.
+Bureau I, von Saint Paul F, Svoboda K. 2006. Interdigitated paralemniscal
+and lemniscal pathways in the mouse barrel cortex. PLoS Biol.
+4:e382.
+Cauli B, Porter JT, Tsuzuki K, Lambolez B, Rossier J, Quenet B, Audinat E.
+2000. Classiﬁcation of fusiform neocortical interneurons based
+on unsupervised clustering. Proc Natl Acad Sci U S A. 97:
+6144--6149.
+Chen CC, Abrams S, Pinhas A, Brumberg JC. 2009. Morphological
+heterogeneity of layer VI neurons in mouse barrel cortex. J Comp
+Neurol. 512:726--746.
+Chmielowska J, Carvell GE, Simons DJ. 1989. Spatial organization of
+thalamocortical and corticothalamic projection systems in the rat
+SmI barrel cortex. J Comp Neurol. 285:325--338.
+da Costa NM, Martin KA. 2009. The proportion of synapses formed by
+the axons of the lateral geniculate nucleus in layer 4 of area 17 of
+the cat. J Comp Neurol. 516:264--276.
+de Kock CP, Bruno RM, Spors H, Sakmann B. 2007. Layer- and cell-typespeciﬁc suprathreshold stimulus representation in rat primary
+somatosensory cortex. J Physiol. 581:139--154.
+de Kock CP, Sakmann B. 2008. High frequency action potential bursts
+( >or= 100 Hz) in L2/3 and L5B thick tufted neurons in
+anaesthetized and awake rat primary somatosensory cortex.
+J Physiol. 586:3353--3364.
+
+de Kock CP, Sakmann B. 2009. Spiking in primary somatosensory cortex
+during natural whisking in awake head-restrained rats is cell-type
+speciﬁc. Proc Natl Acad Sci U S A. 106:16446--16450.
+Dodt HU, Zieglga¨nsberger W. 1990. Visualizing unstained neurons in
+living brain slices by infrared DIC-videomicroscopy. Brain Res.
+537:333--336.
+Dodt HU, Frick A, Kampe K, Zieglga¨nsberger W. 1998. NMDA and AMPA
+receptors on neocortical neurons are differentially distributed. Eur J
+Neurosci. 10:3351--3357.
+Dodt HU, Eder M, Frick A, Zieglga¨nsberger W. 1999. Precisely localized
+LTD in the neocortex revealed by infrared-guided laser stimulation
+[erratum appears in Science. 1999. 286:2273.]. Science.
+286:110--113.
+Douglas RJ, Martin KA. 2004. Neuronal circuits of the neocortex. Annu
+Rev Neurosci. 27:419--451.
+Feldmeyer D, Egger V, Lubke J, Sakmann B. 1999. Reliable synaptic
+connections between pairs of excitatory layer 4 neurones within
+a single ‘barrel’ of developing rat somatosensory cortex. J Physiol.
+521(Pt 1):169--190.
+Feldmeyer D, Lubke J, Sakmann B. 2006. Efﬁcacy and connectivity of
+intracolumnar pairs of layer 2/3 pyramidal cells in the barrel cortex
+of juvenile rats. J Physiol. 575:583--602.
+Feldmeyer D, Lubke J, Silver RA, Sakmann B. 2002. Synaptic connections
+between layer 4 spiny neurone-layer 2/3 pyramidal cell pairs in
+juvenile rat barrel cortex: physiology and anatomy of interlaminar
+signalling within a cortical column. J Physiol. 538:803--822.
+Feldmeyer D, Roth A, Sakmann B. 2005. Monosynaptic connections
+between pairs of spiny stellate cells in layer 4 and pyramidal cells in
+layer 5A indicate that lemniscal and paralemniscal afferent pathways
+converge in the infragranular somatosensory cortex. J Neurosci.
+25:3423--3431.
+Fleidervish IA, Binshtok AM, Gutnick MJ. 1998. Functionally distinct
+NMDA receptors mediate horizontal connectivity within layer 4 of
+mouse barrel cortex. Neuron. 21:1055--1065.
+Garey LJ, Powell TP. 1971. An experimental study of the termination
+of the lateral geniculo-cortical pathway in the cat and monkey.
+Proc R Soc Lond B Biol Sci. 179:41--63.
+Gil Z, Connors BW, Amitai Y. 1999. Efﬁcacy of thalamocortical and
+intracortical synaptic connections: quanta, innervation, and
+reliability. Neuron. 23:385--397.
+Helmstaedter M, Briggman KL, Denk W. 2008. 3D structural imaging of
+the brain with photons and electrons. Curr Opin Neurobiol.
+18:633--641.
+Helmstaedter M, de Kock CPJ, Feldmeyer D, Bruno RM, Sakmann B.
+2007. Reconstruction of an average cortical column in silico. Brain
+Res Rev. 55:193--203.
+Helmstaedter M, Sakmann B, Feldmeyer D. 2009. Neuronal correlates of
+local, lateral, and translaminar inhibition with reference to cortical
+columns. Cereb Cortex. 19:926--937.
+Helmstaedter M, Staiger JF, Sakmann B, Feldmeyer D. 2008. Efﬁcient
+recruitment of layer 2/3 interneurons by layer 4 input in single
+columns of rat somatosensory cortex. J Neurosci. 28:8273--8284.
+Herkenham M. 1980. Laminar organization of thalamic projections to
+the rat neocortex. Science. 207:532--535.
+Hersch SM, White EL. 1981. Quantiﬁcation of synapses formed with
+apical dendrites of Golgi-impregnated pyramidal cells: variability in
+thalamocortical inputs, but consistency in the ratios of asymmetrical
+to symmetrical synapses. Neuroscience. 6:1043--1051.
+Hersch SM, White EL. 1982. A quantitative study of the thalamocortical
+and other synapses in layer IV of pyramidal cells projecting from
+mouse SmI cortex to the caudate-putamen nucleus. J Comp Neurol.
+211:217--225.
+Horikawa K, Armstrong WE. 1988. A versatile means of intracellular
+labeling: injection of biocytin and its detection with avidin
+conjugates. J Neurosci Methods. 25:1--11.
+Hubel DH, Wiesel TN. 1962. Receptive ﬁelds, binocular interaction and
+functional architecture in the cat’s visual cortex. J Physiol.
+160:106--154.
+Hubel DH, Wiesel TN. 1968. Receptive ﬁelds and functional architecture of monkey striate cortex. J Physiol. 195:215--243.
+
+2302 Thalamic Innervation of a Cortical Column
+
+d
+
+Meyer et al.
+
+Mercer A, West DC, Morris OT, Kirchhecker S, Kerkhoff JE,
+Thomson AM. 2005. Excitatory connections made by presynaptic
+cortico-cortical pyramidal cells in layer 6 of the neocortex. Cereb
+Cortex. 15:1485--1496.
+Meyer H-S, Wimmer VC, Oberlaender M, de Kock CP, Sakmann B,
+Helmstaedter M. 2010. Number and laminar distribution of neurons
+in a thalamocortical projection column of rat vibrissal cortex.
+Cereb Cortex. doi: 10.1093/cercor/bhq067.
+Mullen RJ, Buck CR, Smith AM. 1992. NeuN, a neuronal speciﬁc nuclear
+protein in vertebrates. Development. 116:201--211.
+Murayama M, Larkum ME. 2009. In vivo dendritic calcium imaging with
+a ﬁberoptic periscope system. Nat Protoc. 4:1551--1559.
+Murayama M, Perez-Garci E, Nevian T, Bock T, Senn W, Larkum ME.
+2009. Dendritic encoding of sensory stimuli controlled by deep
+cortical interneurons. Nature. 457:1137--1141.
+Nagel G, Szellas T, Huhn W, Kateriya S, Adeishvili N, Berthold P, Ollig D,
+Hegemann P, Bamberg E. 2003. Channelrhodopsin-2, a directly lightgated cation-selective membrane channel. Proc Natl Acad Sci U S A.
+100:13940--13945.
+Nevian T, Larkum ME, Polsky A, Schiller J. 2007. Properties of basal
+dendrites of layer 5 pyramidal neurons: a direct patch-clamp
+recording study. Nat Neurosci. 10:206--214.
+Oda S, Kishi K, Yang J, Chen S, Yokofujita J, Igarashi H, Tanihata S,
+Kuroda M. 2004. Thalamocortical projection from the ventral
+posteromedial nucleus sends its collaterals to layer I of the primary
+somatosensory cortex in rat. Neurosci Lett. 367:394--398.
+Peters A. 1979. Thalamic input to the cerebral cortex. Trends Neurosci.
+2:183--185.
+Petreanu L, Mao T, Sternson SM, Svoboda K. 2009. The subcellular
+organization of neocortical excitatory connections. Nature.
+457:1142--1145.
+Reyes A, Lujan R, Rozov A, Burnashev N, Somogyi P, Sakmann B. 1998.
+Target-cell-speciﬁc facilitation and depression in neocortical
+circuits. Nat Neurosci. 1:279--285.
+Reyes A, Sakmann B. 1999. Developmental switch in the short-term
+modiﬁcation of unitary EPSPs evoked in layer 2/3 and layer 5
+pyramidal neurons of rat neocortex. J Neurosci. 19:3827--3835.
+Rubio-Garrido P, Perez-de-Manzo F, Porrero C, Galazo MJ, Clasca F.
+2009. Thalamic input to distal apical dendrites in neocortical layer 1
+is massive and highly convergent. Cereb Cortex. 19:2380--2395.
+Schaefer AT, Helmstaedter M, Schmitt AC, Bar-Yehuda D, Almog M,
+Ben-Porat H, Sakmann B, Korngreen A. 2007. Dendritic voltagegated K+ conductance gradient in pyramidal neurones of neocortical layer 5B from rats. J Physiol. 579:737--752.
+Schubert D, Kotter R, Luhmann HJ, Staiger JF. 2006. Morphology,
+electrophysiology and functional input connectivity of pyramidal
+neurons characterizes a genuine layer va in the primary somatosensory cortex. Cereb Cortex. 16:223--236.
+Shepherd GM, Stepanyants A, Bureau I, Chklovskii D, Svoboda K. 2005.
+Geometric and functional organization of cortical circuits. Nat
+Neurosci. 8:782--790.
+Simons DJ. 1978. Response properties of vibrissa units in rat SI
+somatosensory neocortex. J Neurophysiol. 41:798--820.
+Simons DJ. 1985. Temporal and spatial integration in the rat SI vibrissa
+cortex. J Neurophysiol. 54:615--635.
+Stepanyants A, Chklovskii DB. 2005. Neurogeometry and potential
+synaptic connectivity. Trends Neurosci. 28:387--394.
+Stuart GJ, Dodt HU, Sakmann B. 1993. Patchclamp recordings from
+soma and dendrites of neurons in brain slices using infrared
+videomicroscopy. Pﬂu¨gers Arch. 423:511--518.
+Thorndike RL. 1953. Who belongs in the family? Psychometrika.
+18:267--276.
+Torres-Reveron J, Friedlander MJ. 2007. Properties of persistent
+postnatal cortical subplate neurons. J Neurosci. 27:9962--9974.
+Trageser JC, Burke KA, Masri R, Li Y, Sellers L, Keller A. 2006. Statedependent gating of sensory inputs by zona incerta. J Neurophysiol.
+96:1456--1463.
+Trageser JC, Keller A. 2004. Reducing the uncertainty: gating of
+peripheral inputs by zona incerta. J Neurosci. 24:8911--8915.
+
+Downloaded from http://cercor.oxfordjournals.org/ at Bibliotheque Commune De ChimieUNIL - EPFL on November 6, 2015
+
+Jones EG, Powell TP. 1970. An electron microscopic study of the
+laminar pattern and mode of termination of afferent ﬁbre pathways
+in the somatic sensory cortex of the cat. Philos Trans R Soc Lond B
+Biol Sci. 257:45--62.
+Keller A, White EL, Cipolloni PB. 1985. The identiﬁcation of
+thalamocortical axon terminals in barrels of mouse Sml cortex
+using immunohistochemistry of anterogradely transported lectin
+(Phaseolus vulgaris-leucoagglutinin). Brain Res. 343:159--165.
+Kerr JN, de Kock CP, Greenberg DS, Bruno RM, Sakmann B, Helmchen F.
+2007. Spatial organization of neuronal population responses in
+layer 2/3 of rat barrel cortex. J Neurosci. 27:13316--13328.
+Killackey HP. 1973. Anatomical evidence for cortical subdivisions based
+on vertically discrete thalamic projections from the ventral posterior
+nucleus to cortical barrels in the rat. Brain Res. 51:326--331.
+Krieger P, Kuner T, Sakmann B. 2007. Synaptic connections between layer
+5B pyramidal neurons in mouse somatosensory cortex are independent of apical dendrite bundling. J Neurosci. 27:11473--11482.
+Kuhn B, Denk W, Bruno RM. 2008. In vivo two-photon voltage-sensitive
+dye imaging reveals top-down control of cortical layers 1 and
+2 during wakefulness. Proc Natl Acad Sci U S A. 105:7588--7593.
+Kumar P, Ohana O. 2008. Inter- and intralaminar subcircuits of
+excitatory and inhibitory neurons in layer 6a of the rat barrel
+cortex. J Neurophysiol. 100:1909--1922.
+Land PW, Buffer SA Jr, Yaskosky JD. 1995. Barreloids in adult rat
+thalamus: three-dimensional architecture and relationship to
+somatosensory cortical barrels. J Comp Neurol. 355:573--588.
+Larkum ME, Kaiser KM, Sakmann B. 1999. Calcium electrogenesis in
+distal apical dendrites of layer 5 pyramidal cells at a critical
+frequency of back-propagating action potentials. Proc Natl Acad Sci
+U S A. 96:14600--14604.
+Larkum ME, Nevian T, Sandler M, Polsky A, Schiller J. 2009. Synaptic
+integration in tuft dendrites of layer 5 pyramidal neurons: a new
+unifying principle. Science. 325:756--760.
+Larkum ME, Senn W, Luscher HR. 2004. Top-down dendritic input
+increases the gain of layer 5 pyramidal neurons. Cereb Cortex.
+14:1059--1070.
+Larkum ME, Waters J, Sakmann B, Helmchen F. 2007. Dendritic spikes
+in apical dendrites of neocortical layer 2/3 pyramidal neurons.
+J Neurosci. 27:8999--9008.
+Larkum ME, Zhu JJ. 2002. Signaling of layer 1 and whisker-evoked Ca2+
+and Na+ action potentials in distal and terminal dendrites of rat
+neocortical pyramidal neurons in vitro and in vivo. J Neurosci.
+22:6991--7005.
+Larkum ME, Zhu JJ, Sakmann B. 2001. Dendritic mechanisms underlying
+the coupling of the dendritic with the axonal action potential
+initiation zone of adult rat layer 5 pyramidal neurons. J Physiol.
+533:447--466.
+Lorente de No R. 1922. La corteza cerebral de rato´n. Trabajos del
+Laboratorio de Investigaciones Biolo´gicas de la Universidad de
+Madrid. 20:41--78.
+Lorente de No R. 1992. The cerebral cortex of the mouse (a ﬁrst
+contribution—the ‘‘acoustic’’ cortex). (Transl. Faire´n A, Regidor J,
+Kruger L). Somatosens Mot Res. 9:3--36.
+Lorente de No´ R. 1938. Cerebral cortex: architecture, intracortical
+connections, motor projections. In: Fulton JF, editor. Physiology of
+the nervous system. 3rd ed. (1949). London: Oxford University
+Press. p. 300.
+Lu SM, Lin RC. 1993. Thalamic afferents of the rat barrel cortex: a
+light- and electron-microscopic study using Phaseolus vulgaris
+leucoagglutinin as an anterograde tracer. Somatosens Mot Res.
+10:1--16.
+Manns ID, Sakmann B, Brecht M. 2004. Sub- and suprathreshold
+receptive ﬁeld properties of pyramidal neurones in layers 5A and 5B
+of rat somatosensory barrel cortex. J Physiol. 556:601--622.
+Markram H, Lubke J, Frotscher M, Roth A, Sakmann B. 1997. Physiology
+and anatomy of synaptic connections between thick tufted
+pyramidal neurones in the developing rat neocortex. J Physiol.
+500(Pt 2):409--440.
+Markram H, Wang Y, Tsodyks M. 1998. Differential signaling via the
+same axon of neocortical pyramidal neurons. Proc Natl Acad Sci
+U S A. 95:5323--5328.
+
+White EL. 1989. Cortical circuits: synaptic organization of the cerebral
+cortex: structure, function and theory. Boston: Birkhauser.
+White EL, Hersch SM. 1981. Thalamocortical synapses of pyramidal cells
+which project from SmI to MsI cortex in the mouse. J Comp Neurol.
+198:167--181.
+White EL, Weinfeld E, Lev DL. 2004. Quantitative analysis of synaptic
+distribution along thalamocortical axons in adult mouse barrels.
+J Comp Neurol. 479:56--69.
+Wimmer VC, Bruno RM, de Kock CP, Kuner T, Sakmann B. 2010.
+Dimensions of a projection column and architecture of VPM- and
+POm-axons in rat vibrissal cortex. Cereb Cortex. doi: 10.1093/
+cercor/bhq068.
+Wimmer VC, Nevian T, Kuner T. 2004. Targeted in vivo expression of
+proteins in the calyx of Held. Pﬂugers Arch. 449:319--333.
+Wise SP, Jones EG. 1978. Developmental studies of thalamocortical and
+commissural connections in the rat somatic sensory cortex. J Comp
+Neurol. 178:187--208.
+
+Cerebral Cortex October 2010, V 20 N 10 2303
+
+Downloaded from http://cercor.oxfordjournals.org/ at Bibliotheque Commune De ChimieUNIL - EPFL on November 6, 2015
+
+Varga C, Sik A, Lavallee P, Deschenes M. 2002. Dendroarchitecture of
+relay cells in thalamic barreloids: a substrate for cross-whisker
+modulation. J Neurosci. 22:6186--6194.
+Ward JH. 1963. Hierarchical grouping to optimize an objective
+function. J Am Stat Assoc. 58:236--244.
+West DC, Mercer A, Kirchhecker S, Morris OT, Thomson AM. 2006.
+Layer 6 cortico-thalamic pyramidal cells preferentially innervate
+interneurons and generate facilitating EPSPs. Cereb Cortex.
+16:200--211.
+White EL. 1978. Identiﬁed neurons in mouse Sml cortex which are
+postsynaptic to thalamocortical axon terminals: a combined Golgielectron microscopic and degeneration study. J Comp Neurol.
+181:627--661.
+White EL. 1979. Thalamocortical synaptic relations: a review with
+emphasis on the projections of speciﬁc thalamic nuclei to the
+primary sensory areas of the neocortex. Brain Res. 180:
+275--311.
+
+

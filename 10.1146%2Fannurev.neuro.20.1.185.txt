@@ -1,0 +1,1702 @@
+P1: mbl
+
+December 12, 1996
+
+2:34
+
+Annual Reviews
+
+AR24-08
+
+AR24-8
+
+Annu. Rev. Neurosci. 1997. 20:185–215
+Copyright c 1997 by Annual Reviews Inc. All rights reserved
+
+Annu. Rev. Neurosci. 1997.20:185-215. Downloaded from www.annualreviews.org
+Access provided by McGill University on 02/06/15. For personal use only.
+
+SLEEP AND AROUSAL:
+Thalamocortical Mechanisms
+David A. McCormick and Thierry Bal1
+Section of Neurobiology, Yale University School of Medicine, 333 Cedar Street,
+New Haven, Connecticut 06510
+KEY WORDS:
+
+thalamus, cortex, spindle waves, epilepsy, ascending activation
+
+ABSTRACT
+Thalamocortical activity exhibits two distinct states: (a) synchronized rhythmic activity in the form of delta, spindle, and other slow waves during EEGsynchronized sleep and (b) tonic activity during waking and rapid-eye-movement
+sleep. Spindle waves are generated largely through a cyclical interaction between
+thalamocortical and thalamic reticular neurons involving both the intrinsic membrane properties of these cells and their anatomical interconnections. Specific
+alterations in the interactions between these cells can result in the generation of
+paroxysmal events resembling absence seizures in children. The release of several
+different neurotransmitters from the brain stem, hypothalamus, basal forebrain,
+and cerebral cortex results in a depolarization of thalamocortical and thalamic
+reticular neurons and an enhanced excitability in many cortical pyramidal cells,
+thereby suppressing the generation of sleep rhythms and promoting a state that is
+conducive to sensory processing and cognition.
+
+INTRODUCTION
+Even the first investigator to directly record the electrical activity in the mammalian cerebral cortex noted that the pattern of cortical activity was dependent
+upon the state of the animal (Caton 1887). Since this remarkable beginning, the
+investigation of the cellular correlates of sleep and arousal in thalamocortical
+systems has enjoyed several periods of rapid development. These include the
+demonstration of an ascending activating system in the brain stem that is essential for the generation of sleep-wake cycles (Bremer 1938, Moruzzi & Magoun
+1 Present address: Institut Alfred Fessard, CNRS, Ave. de la Terrasse, Gif Sur Yvette, Cedex
+91198, France.
+
+185
+0147-006X/97/0301-0185$08.00
+
+P1: mbl
+
+December 12, 1996
+
+Annu. Rev. Neurosci. 1997.20:185-215. Downloaded from www.annualreviews.org
+Access provided by McGill University on 02/06/15. For personal use only.
+
+186
+
+2:34
+
+Annual Reviews
+
+AR24-08
+
+AR24-8
+
+McCORMICK & BAL
+
+1949, Jouvet 1962), and the proposal of hypotheses concerning the generation
+of sleep-related thalamocortical rhythms (reviewed in Andersen & Andersson
+1968, Steriade & Deschˆenes 1984, Steriade et al 1993c). In the past 15 years,
+this base of information has been complemented by a dramatic increase in our
+knowledge of the mechanisms of the ionic, cellular, and network mechanisms
+through which thalamocortical activity is generated during sleep and of how
+this activity is disrupted in the transition to the waking state. In this review, we
+examine these more recent developments with a specific focus on the thalamus,
+a structure that is central to the generation of state-dependent activity in the
+forebrain.
+During the periods of sleep that exhibit synchronization of the electroencephalogram (EEG-synchronized sleep), a number of rhythms are present.
+Two distinct rhythms that are particularly prominent in thalamocortical systems are delta waves and spindle waves (see Steriade & Deschˆenes 1984,
+Niedermeyer 1993). Delta waves in the normal adult are 0.5- to 4-Hz oscillations that are largest during deep sleep, while spindle waves appear as 1to 3-s periods of waxing and waning 7- to 14-Hz oscillations that are superimposed upon the other rhythms of the EEG (see Figure 5, below). Researchers
+have known for some time that spindle waves are generated in the thalamus
+(reviewed in Steriade & Deschˆenes 1984), and these rhythms were the first for
+which a specific hypothesis of generation was proposed (Andersen & Andersson
+1968).
+Extracellular and intracellular recordings from thalamocortical neurons during EEG-synchronized sleep in naturally sleeping animals revealed that these
+cells generate repetitive burst discharges that ride on top of a slower depolarizing potential (Figure 1) (Hirsch et al 1983, McCarley et al 1983). The
+transition from EEG-synchronized sleep to the waking or REM-sleep states
+occurred with the progressive depolarization of thalamocortical cells and the
+abolition of the slow depolarizing spike and its associated burst of fast action
+potentials (Figure 1B). These alterations in the firing mode of thalamic neurons
+are associated with dramatic changes in the neurons’ responsiveness to peripheral stimuli. For example, during EEG-synchronized sleep, there is a marked
+diminution of the responsiveness of LGNd thalamic neurons to activation of
+their receptive fields (Livingstone & Hubel 1981), presumably owing to the
+hyperpolarized state of these neurons, the interrupting effects of spontaneous
+thalamocortical rhythms, and the frequency limitations of the burst firing mode
+(see McCormick & Feeser 1990, Steriade & McCarley 1990). Over-powerful
+inhibition also may affect neuronal responsiveness during EEG-synchronized
+sleep; this inhibition is specifically reduced by activation of ascending cholinergic pathways (Ahlsen et al 1984, Francesconi et al 1988, McCormick & Pape
+1988, Curr´o Dossi et al 1992b, Pape & McCormick 1995).
+
+P1: mbl
+
+December 12, 1996
+
+2:34
+
+Annual Reviews
+
+AR24-08
+
+AR24-8
+
+Annu. Rev. Neurosci. 1997.20:185-215. Downloaded from www.annualreviews.org
+Access provided by McGill University on 02/06/15. For personal use only.
+
+THALAMOCORTICAL ACTIVITY
+
+187
+
+Figure 1 Lateral geniculate relay neurons display two distinct modes of action potential generation
+in relation to behavioral state and electroencephalogram (EEG). During periods of slow-wave sleep,
+the EEG exhibits synchronous slow waves, and LGNd relay neurons discharge in bursts of action
+potentials (A). In contrast, during waking or REM sleep, LGNd neurons fire in the single spike
+or tonic mode of action potential generation (A). Intracellular recordings in vivo during these
+transitions indicate that they are accomplished by depolarization of the membrane by 10–20 mV
+(B). (Part A from McCarley et al 1983. Part B from Hirsch et al 1983.)
+
+These results, coupled with the earlier observations on the importance of
+the thalamus in the generation of sleep rhythms, suggest that the investigation
+of thalamic neurons and neuronal circuits may be particularly fruitful in the
+search to uncover the cellular mechanisms of sleep-wake alterations in the
+forebrain.
+
+THALAMIC NEURONS EXHIBIT TWO STATES
+OF ACTIVITY
+Early intracellular recordings of thalamocortical neurons in vivo revealed an
+unusual rebound burst discharge following hyperpolarization; this discharge
+could be generated by the intracellular injection of current or by the natural
+occurrence of an inhibitory postsynaptic potential (reviewed in Andersen &
+Andersson 1968, Deschˆenes et al 1984, Roy et al 1984). In vitro investigations revealed that the rebound potential occurring following hyperpolarization
+
+P1: mbl
+
+December 12, 1996
+
+Annu. Rev. Neurosci. 1997.20:185-215. Downloaded from www.annualreviews.org
+Access provided by McGill University on 02/06/15. For personal use only.
+
+188
+
+2:34
+
+Annual Reviews
+
+AR24-08
+
+AR24-8
+
+McCORMICK & BAL
+
+is generated by activation of a specialized Ca2+ current, known as the lowthreshold, or transient (IT ), Ca2+ current (Jahnsen & Llin´as 1984a,b). Voltageclamp analysis confirmed the presence of a large low-threshold Ca2+ current,
+as well as high-threshold Ca2+ currents, in thalamocortical cells (Coulter et al
+1989, Crunelli et al 1989, Hernandez-Crus & Pape 1989). These investigations revealed that IT shows both activation and inactivation. Activation occurs
+at membrane potentials positive to approximately −65 mV, while inactivation
+becomes complete, at steady state, at membrane potentials positive to approximately −65 mV. The kinetics of activation of IT are considerably faster than are
+the kinetics of inactivation, similar to the Na+ current underlying the generation
+of the more typical fast action potential. Therefore, if the membrane potential
+is depolarized from a relatively hyperpolarized membrane potential (negative
+to −65 mV), then IT may first activate and then more slowly inactivate, generating a low-threshold Ca2+ spike (Figure 2B). These Ca2+ spikes typically last
+on the order of 100–200 ms, and in turn bring the membrane potential positive
+to threshold (approximately −55 mV) for the generation of a burst of three to
+eight fast action potentials (Figure 2B) (Jahnsen & Llin´as 1984a,b).
+Tonic depolarization of the membrane potential positive to approximately
+−65 mV results in the inactivation of IT and therefore the suppression of burst
+discharges (e.g. Figure 2A). Following the inactivation of IT , phasic depolarizations that bring the membrane potential positive to −55 mV, such as excitatory
+postsynaptic potentials, result in the generation of single, or trains of, action
+potentials; however, they do not generate high-frequency bursts (Jahnsen &
+Llin´as 1984a,b, McCormick & Feeser 1990). Thus, the properties of IT impart two distinct states of action potential generation onto thalamocortical cells:
+(a) burst firing upon removal of a hyperpolarization that surpasses −65 mV for a
+sufficient period of time and (b) tonic single-spike activity upon depolarization
+positive to approximately −55 mV.
+
+Rhythmic Burst Firing and the Interaction
+of Two Ionic Currents
+During EEG-synchronized sleep, thalamocortical cells generate rhythmic bursts
+of action potentials in the frequency range of 0.5–4 Hz, even during the generation of spindle waves, which occur at frequencies of 7–14 Hz (McCarley
+1983, Roy et al 1984, Amzica & Steriade 1995a). Intracellular recordings in
+slices of cat LGNd maintained in vitro revealed a similar pattern of activity.
+Left unperturbed, a subpopulation of thalamocortical neurons generates lowthreshold Ca2+ spikes in a rhythmic manner at a frequency of approximately
+0.5–4 Hz (Figure 2) (McCormick & Pape 1990a, Leresche et al 1991, Soltesz
+et al 1991). This rhythmic burst firing results from the interaction of the lowthreshold Ca2+ spike and a hyperpolarization-activated cation current known as
+
+P1: mbl
+
+December 12, 1996
+
+2:34
+
+Annual Reviews
+
+AR24-08
+
+AR24-8
+
+Annu. Rev. Neurosci. 1997.20:185-215. Downloaded from www.annualreviews.org
+Access provided by McGill University on 02/06/15. For personal use only.
+
+THALAMOCORTICAL ACTIVITY
+
+189
+
+Figure 2 Thalamocortical neurons generate two distinct patterns of action potentials via the
+interaction of ionic currents. (A) This cat LGNd neuron generated rhythmic burst firing at a rate of
+about 2 Hz. Depolarization of the cell to −58 mV with the intracellular injection of current (depol.
+current injection) halted the rhythmic activity and switched the neuron to the tonic, or single spike,
+mode of action potential generation, owing to the inactivation of IT . Removal of the depolarization
+reinstated the oscillatory activity. (B) Expanded trace of oscillatory activity and the proposed
+currents that largely mediate it. Activation of the low-threshold calcium current, IT , depolarizes
+the membrane toward threshold for a burst of Na+ - and K+ -dependent fast action potentials. The
+depolarization deactivates the portion of Ih that was active immediately before the Ca2+ spike.
+Repolarization of the membrane due to IT inactivation is followed by a hyperpolarizing overshoot,
+which is due to the reduced depolarizing effect of Ih . The hyperpolarization in turn de-inactivates
+IT and activates Ih , which depolarizes the membrane toward threshold for another Ca2+ spike.
+(C) Expanded trace of single-spike activity. (From McCormick & Pape 1990a.)
+
+P1: mbl
+
+December 12, 1996
+
+Annu. Rev. Neurosci. 1997.20:185-215. Downloaded from www.annualreviews.org
+Access provided by McGill University on 02/06/15. For personal use only.
+
+190
+
+2:34
+
+Annual Reviews
+
+AR24-08
+
+AR24-8
+
+McCORMICK & BAL
+
+the h-current (Ih ). Hyperpolarization of thalamocortical neurons to membrane
+potentials negative to approximately −55 mV slowly activates a mixed Na+
+and K+ current that depolarizes the neuron back toward the reversal potential
+of this current (approximately −35 mV). Consequently, the falling phase of a
+low-threshold Ca2+ spike is associated with the activation of Ih , and the activation of Ih results in a slow depolarization. This pacemaker potential again
+activates IT and therefore another low-threshold Ca2+ spike.
+The precise shape of the low-threshold Ca2+ spike may be controlled by the
+activation of a variety of K+ currents that have been characterized in thalamocortical neurons (see Huguenard & McCormick 1992, Soltesz et al 1991,
+McCormick & Huguenard 1992). The interaction between the voltage dependence and the kinetics of the low-threshold Ca2+ current and the hyperpolarization-activated cation current result in the intrinsic propensity of thalamocortical
+neurons to generate rhythmic oscillations in the frequency range of 0.5–4 Hz
+(McCormick & Pape 1990a, McCormick & Huguenard 1992, Curr´o Dossi et al
+1992a), which is the frequency range of delta waves. Computational models
+of single thalamocortical cells suggest that small shifts in the amplitude or
+voltage dependence of either IT or Ih can result in large effects on the ability
+of single cells to generate rhythmic low-threshold Ca2+ spikes (McCormick
+& Huguenard 1992, Toth & Crunelli 1992, Destexhe et al 1993a,b). These
+findings are particularly relevant to the investigation of the mechanisms underlying the cessation of spindle waves and to the neurotransmitter control of
+synchronized thalamocortical rhythms (see below).
+
+Thalamic Reticular Neurons also Exhibit Two
+States of Activity
+Surrounding the thalamus and interposed between the thalamus and the cerebral
+cortex is a collection of GABAergic neurons known as the thalamic reticular nucleus (reviewed in Steriade & Deschˆenes 1984, Jones 1985). The perigeniculate
+nucleus is considered part of the thalamic reticular nucleus and is connected to
+the LGNd. The GABAergic neurons of the thalamic reticular and perigeniculate
+nuclei are innervated by axon collaterals of thalamocortical and corticothalamic neurons and give rise to a dense innervation of thalamocortical cells in a
+manner that often preserves reciprocal interactions between appropriate points
+in the thalamus, thalamic reticular nucleus, and cerebral cortex (see Steriade &
+Deschˆenes 1984, Jones 1985, Shosaku et al 1989, Uhlrich et al 1991, Bal et al
+1995a,b, Pinault et al 1995a,b).
+The GABAergic neurons of the thalamic reticular nucleus change their firing
+mode in a manner similar to that of thalamocortical cells (Steriade et al 1986).
+During periods of EEG-synchronized sleep, thalamic reticular cells generate
+
+P1: mbl
+
+December 12, 1996
+
+2:34
+
+Annual Reviews
+
+AR24-08
+
+AR24-8
+
+Annu. Rev. Neurosci. 1997.20:185-215. Downloaded from www.annualreviews.org
+Access provided by McGill University on 02/06/15. For personal use only.
+
+THALAMOCORTICAL ACTIVITY
+
+191
+
+rhythmic high-frequency (350–450 Hz) bursts of action potentials, while during waking and REM sleep, these neurons generate sequences of tonic action
+potential activity. As in thalamocortical cells, these two activity states result
+from the properties of the low-threshold Ca2+ current (Figure 3) (Mulle et al
+1986, Avanzini et al 1989, Huguenard & Prince 1992, Bal & McCormick 1993,
+Contreras et al 1993). However, these low-threshold Ca2+ spikes are distinct
+from those of thalamocortical neurons in an important way: Their voltage dependence is shifted to more positive membrane potentials (Huguenard & Prince
+1992, Destexhe et al 1996) such that thalamic reticular cells can generate lowthreshold Ca2+ spikes upon depolarization, even at membrane potentials of
+−65 mV. This particular property is important for the generation of synchronized thalamocortical rhythms, such as spindle waves, because the excitation of
+thalamic reticular neurons by thalamocortical and corticothalamic cells drives
+these rhythms (see below).
+A pronounced after-hyperpolarization follows the generation of each lowthreshold Ca2+ spike in thalamic reticular neurons as a result of an apaminsensitive Ca2+ -activated K+ conductance (IKCa ) (Avanzini et al 1989, Bal &
+McCormick 1993). This after-hyperpolarization by itself can be sufficient in
+amplitude and duration to remove enough inactivation of IT in thalamic reticular neurons to result in the generation of an additional low-threshold Ca2+
+spike (Figure 3A1 ). Through an interaction between IT and IKCa , therefore,
+these cells may generate rhythmic bursts of action potentials. The kinetics
+of IT and IKCa interact with the properties of thalamic reticular cells such
+that rhythmic firing occurs at frequencies of 0.5 to 12 Hz, depending upon
+the membrane potential of the cell (Avanzini et al 1989, Bal & McCormick
+1993). Hyperpolarization of thalamic reticular neurons facilitates the occurrence and intensity of low-threshold Ca2+ spikes, but also reduces the frequency with which these neurons intrinsically oscillate (Bal & McCormick
+1993).
+Rhythmic burst firing in thalamic reticular neurons is often followed by a prolonged “tail” of single-spike activity in vivo and in vitro (Figure 3A1 ) (Domich
+et al 1986, Steriade et al 1986, Bal & McCormick 1993). This tonic tail of
+activity appears to be generated through the activation of a Ca2+ -activated nonselective cation current (ICAN ). Thus, thalamic reticular cells are endowed with
+the intrinsic propensity to generate (a) sequences of activity that take the form
+of burst-burst-burst-burst-tonic firing at relatively hyperpolarized membrane
+potentials (e.g. −65 mV or so) and (b) tonic, also known as single-spike, activity following depolarization to membrane potentials positive to approximately
+−55 mV (Figure 3), a state that can be imposed upon these cells through the
+actions of a variety of neuromodulatory transmitters (see below).
+
+P1: mbl
+
+December 12, 1996
+
+Annu. Rev. Neurosci. 1997.20:185-215. Downloaded from www.annualreviews.org
+Access provided by McGill University on 02/06/15. For personal use only.
+
+192
+
+2:34
+
+Annual Reviews
+
+AR24-08
+
+AR24-8
+
+McCORMICK & BAL
+
+Figure 3 Idealized scheme of the ionic basis of rhythmic burst and tonic firing in thalamic reticular
+(perigeniculate) cells. Removal of a hyperpolarizing current pulse results in a low-threshold Ca2+
+spike, which activates a high-frequency burst of action potentials mediated by the transient Na+
+current INa and various K+ currents, collectively referred to as IK . In addition, the fast Na+ spikes
+also are likely to activate high-threshold Ca2+ currents, referred to here as ICa . The entry of Ca2+
+results in the activation of Ca2+ -activated K+ current and therefore an after-hyperpolarization. The
+depth and duration of this after-hyperpolarization determines the amplitude of the subsequent lowthreshold Ca2+ spike, which is activated by the relaxation of the after-hyperpolarization. In addition
+to activating a Ca2+ -activated K+ current, the entry of Ca2+ into the cell is also proposed to activate
+a Ca2+ -activated nonselective cation current (ICAN ) that results in a slow after-depolarization and
+the generation of tonic discharge at the end of the oscillatory burst firing ( A1 , A2 ). Activation of
+serotoninergic, noradrenergic, or glutamate metabotropic receptors results in a tonic depolarization
+of the cell, in part through the reduction of a resting “leak” potassium conductance (IKL ) that results
+in single-spike activity in the frequency range of 30–60 Hz. The frequency of this tonic activity
+may largely be determined by the interaction of the persistent Na+ current (INap ) and the currents
+involved in action potential generation (B1 , B2 ). (From Bal & McCormick 1993.)
+
+SYNAPTIC INTERACTIONS BETWEEN
+THALAMOCORTICAL, THALAMIC RETICULAR,
+AND CORTICOTHALAMIC CELLS
+Thalamic Reticular to Thalamocortical
+Thalamocortical and thalamic reticular cells are highly interconnected in situ
+(Yen et al 1985, Cucchiaro et al 1991, Uhlrich et al 1991, Liu et al 1995, Pinault
+et al 1995a,b). Activation of the thalamic reticular and/or perigeniculate nuclei, either artificially or spontaneously through the generation of spindle waves
+
+P1: mbl
+
+December 12, 1996
+
+2:34
+
+Annual Reviews
+
+AR24-08
+
+AR24-8
+
+Annu. Rev. Neurosci. 1997.20:185-215. Downloaded from www.annualreviews.org
+Access provided by McGill University on 02/06/15. For personal use only.
+
+THALAMOCORTICAL ACTIVITY
+
+193
+
+(see below), results in the generation of GABAA receptor–mediated inhibitory
+postsynaptic potentials (IPSPs) in thalamocortical neurons (Figure 4A–C) (Deschˆenes et al 1984, Thomson 1988, Huguenard & Prince 1994, Warren et al
+1994, Bal et al 1995a,b, Sanchez-Vives et al 1995). These IPSPs can be sufficiently large in amplitude and long in duration to result in the generation of a
+rebound low-threshold Ca2+ spike, even if they are generated by only a single
+perigeniculate neuron (Figure 4C).
+The activation of thalamic reticular neurons can also activate GABAB receptors in thalamocortical cells (Huguenard & Prince 1994, Bal et al 1995a,b,
+Sanchez-Vives et al 1995). The activation of GABAB receptors results, as it
+does in other central neurons, in the generation of slow inhibitory postsynaptic potentials through the activation of a G protein and an increase in a K+
+conductance (Crunelli et al 1988, McCormick 1991, Soltesz & Crunelli 1992).
+The long duration of GABAB receptor–mediated IPSPs facilitates the removal
+of inactivation of the low-threshold Ca2+ current; therefore these IPSPs can
+be followed by pronounced low-threshold Ca2+ spikes. Initial investigations
+suggest that in order to activate enough of a GABAB -receptor IPSP in thalamocortical cells to be able to generate a rebound low-threshold Ca2+ spike, several
+thalamic reticular or perigeniculate cells must discharge simultaneously at a
+high rate (Sanchez-Vives et al 1995).
+
+Thalamocortical to Thalamic Reticular
+Activation of thalamocortical inputs to thalamic reticular and/or perigeniculate
+neurons results in the generation of excitatory postsynaptic potentials (EPSPs)
+through the activation of excitatory amino acid receptors (Figure 4D–F). Similarly, activation of corticothalamic fibers to thalamic reticular neurons also results in pronounced excitation, owing to the activation of excitatory amino acid
+receptors, and this excitation often results in the generation of rhythmic burst
+firing in these cells (De Curtis et al 1989, Bal & McCormick 1993, Contreras
+& Steriade 1996).
+Bal et al (1995b) recently confirmed that thalamic reticular or perigeniculate
+neurons form disynaptic loops with thalamocortical cells in the ferret LGNd.
+Activation of a burst of action potentials with the intracellular injection of a
+current pulse into a single perigeniculate neuron typically results in the generation of a return barrage of EPSPs at a latency of approximately 100–150
+ms (Figure 4G and H). These return EPSPs are generated through the rebound
+burst firing of thalamocortical neurons. Thus, the prolonged delay (100–150
+ms) from the burst of action potentials in the perigeniculate cell and the return EPSPs is largely due to the duration of the GABAA receptor–mediated
+IPSP in the thalamocortical neuron (80–130 ms). A second cause for the delay is the time required for the generation of a Ca2+ spike to result in the
+
+Annu. Rev. Neurosci. 1997.20:185-215. Downloaded from www.annualreviews.org
+Access provided by McGill University on 02/06/15. For personal use only.
+
+P1: mbl
+
+December 12, 1996
+
+194
+
+2:34
+Annual Reviews
+
+McCORMICK & BAL
+
+AR24-08
+AR24-8
+
+P1: mbl
+
+December 12, 1996
+
+2:34
+
+Annual Reviews
+
+AR24-08
+
+AR24-8
+
+Annu. Rev. Neurosci. 1997.20:185-215. Downloaded from www.annualreviews.org
+Access provided by McGill University on 02/06/15. For personal use only.
+
+THALAMOCORTICAL ACTIVITY
+
+195
+
+generation of a burst of action potentials (Bal et al 1995a). Surprisingly, the
+number of action potentials in the perigeniculate neuron that is required to generate rebound action potentials in a thalamocortical neuron can be remarkably
+small, with only two action potentials in a well-connected perigeniculate cell
+resulting in return EPSPs when the cells are at membrane potentials of around
+−65 mV.
+The neurons of the thalamic reticular and perigeniculate nuclei innervate one
+another through local axonal collaterals, and perhaps in some species through
+dendrodendritic synapses (Ide 1982, Deschˆenes et al 1985, Uhlrich et al 1991),
+and inhibit one another through GABAA , and possibly GABAB , receptors (Figure 4J and K) (Ulrich & Huguenard 1995, Sanchez-Vives et al 1995). Intracellular recordings from perigeniculate neurons during the generation of spindle
+waves typically reveal barrages of EPSPs followed by, and overlapping with,
+barrages of IPSPs (Figure 4L) (Bal et al 1995b). Presumably these EPSPIPSP barrages in the GABAergic neurons arise from the burst discharges of
+thalamocortical neurons followed by the induced burst discharges of neighboring perigeniculate cells (Bal et al 1995b). These GABAA receptor–mediated
+fast IPSPs strongly regulate the response of the perigeniculate neurons to the
+←−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+Figure 4 Synaptic interactions between thalamocortical and perigeniculate cells. (A–C ) Activation of a perigeniculate neuron that monosynaptically innervates a thalamic relay cell results in
+inhibitory postsynaptic potentials (IPSPs). Generation of a tonic train of action potentials in the
+perigeniculate neuron through the intracellular injection of a current pulse results in a barrage of
+IPSPs in the thalamocortical cell but does not result in a rebound low-threshold Ca2+ spike. In
+contrast, activation of the perigeniculate neuron in the burst firing mode results in a larger IPSP and
+a rebound Ca2+ spike in the thalamocortical neuron. (D–F ) Monosynaptic connections between
+thalamocortical and perigeniculate neurons. Generation of a single spike in the thalamocortical
+neuron results in a prolonged single excitatory postsynaptic potential (EPSP) in the perigeniculate
+cell. Generation of a burst of action potentials results in a barrage of EPSPs that exhibit temporal
+summation. (G–I ) Pairs of perigeniculate and thalamocortical cells form reciprocal connections.
+Activation of a single perigeniculate cell (H ) results in a rebound burst of action potentials in
+extracellularly recorded thalamocortical cells and a return barrage of EPSPs. A burst of action
+potentials in a single thalamocortical cell (I ) results in a burst of action potentials in a perigeniculate cell and the generation of feedback IPSPs in the thalamocortical cell. (J–K ) Perigeniculate
+neurons inhibit one another. Activation of perigeniculate neurons with the local application of
+glutamate results in the generation of IPSPs in a neighboring perigeniculate cell. (L) During the
+generation of spindle waves, perigeniculate cells receive barrages of EPSPs followed by IPSPs.
+Presumably the IPSPs are generated from the burst-firing of neighboring perigeniculate cells that
+are activated by the barrages of EPSPs from thalamocortical cells. (Parts B, C, and H from T Bal
+& DA McCormick, unpublished observations. Parts E and F from U Kim & DA McCormick,
+unpublished observations. Parts I and L from Bal et al 1995a. Part K from MV Sanchez-Vives &
+DA McCormick, unpublished observations.)
+
+P1: mbl
+
+December 12, 1996
+
+196
+
+2:34
+
+Annual Reviews
+
+AR24-08
+
+AR24-8
+
+McCORMICK & BAL
+
+Annu. Rev. Neurosci. 1997.20:185-215. Downloaded from www.annualreviews.org
+Access provided by McGill University on 02/06/15. For personal use only.
+
+barrages of EPSPs. Block of GABAA receptors results in a large increase in the
+amplitude of the EPSP barrages and burst discharges of perigeniculate neurons
+(Bal et al 1995b, Sanchez-Vives et al 1995). Thus, the thalamic reticular and
+perigeniculate nuclei are envisioned to represent an interactive sheet of mutually inhibitory cells. The excitation of a particular point in these nuclei is
+expected to lead to the inhibition of neighboring GABAergic neurons. In the
+relay nuclei of the thalamus, this may appear as a central region of inhibition
+surrounded by an annulus of disinhibition.
+
+Corticothalamic Inputs to Thalamocortical and Thalamic
+Reticular Neurons
+Stimulation of the corticothalamic inputs to thalamocortical neurons results
+in monosynaptic EPSPs that involve both NMDA and non-NMDA receptors
+and in disynaptic IPSPs that involve intranuclear GABAergic interneurons and
+thalamic reticular cells (Deschˆenes & Hu 1990a, Scharfman et al 1990, von
+Krosigk & McCormick 1992). The monosynaptic EPSPs on thalamocortical neurons exhibit features that are consistent with the convergence of inputs
+from many layer-VI neurons onto single thalamocortical cells; they also exhibit
+marked frequency-dependent facilitation (e.g. see Deschˆenes & Hu 1990a).
+Corticothalamic cells in layer VI may be contacted with thalamocortical afferents, and therefore only a one-synapse loop may separate the thalamus and
+the cerebral cortex (White & Hersch 1982). Repetitive stimulation of corticothalamic fibers activates not only the fast ionotropic receptor–mediated
+EPSPs in thalamocortical neurons, but also a slow, long-lasting (up to one
+minute duration) EPSP that is generated through a reduction in a leak K+
+conductance and that may be mediated through the activation of glutamate
+metabotropic receptors (McCormick & von Krosigk 1992). These properties
+are in marked contrast to prethalamic inputs, such as those from the retina, which
+typically do not exhibit frequency-dependent facilitation or the generation of
+slow EPSPs (see McCormick & von Krosigk 1992; reviewed in McCormick
+1992).
+
+Thalamocortical and Thalamic Reticular Cells Interact to
+Generate Spindle Waves
+The capability of a burst of action potentials in a thalamic reticular or perigeniculate neuron to generate a rebound low-threshold Ca2+ spike and a burst
+of action potentials in thalamocortical neurons, which then returns to the same
+thalamic reticular cell as a barrage of EPSPs, is the proposed basis of spindle
+wave generation (von Krosigk et al 1993, Bal et al 1995a,b; see also Steriade
+& Deschˆenes 1984, Buzs´aki et al 1990, Steriade et al 1993c). The intracellular
+recordings of spindle waves in vivo by Andersen & Andersson (1968) revealed
+
+P1: mbl
+
+December 12, 1996
+
+2:34
+
+Annual Reviews
+
+AR24-08
+
+AR24-8
+
+Annu. Rev. Neurosci. 1997.20:185-215. Downloaded from www.annualreviews.org
+Access provided by McGill University on 02/06/15. For personal use only.
+
+THALAMOCORTICAL ACTIVITY
+
+197
+
+that during these oscillations, thalamocortical cells receive repetitive IPSPs at
+the frequencies of spindle wave generation, namely 7–14 Hz. Some of these
+IPSPs were associated with the rebound generation of bursts of action potentials,
+which these authors proposed had excited the GABAergic neurons responsible for the generation of the IPSPs in the first place. Andersen & Andersson
+(1968) envisioned that spindle waves were generated through a circuitous interaction between the excitatory thalamocortical cells and inhibitory intrathalamic
+GABAergic neurons. The location of these GABAergic neurons was proposed
+to be local, within each thalamic nucleus (Andersen & Andersson 1968). More
+recent investigations by Steriade, Deschˆenes, and colleagues, however, have
+demonstrated that the GABAergic neurons responsible for spindle wave generation are located in the thalamic reticular nucleus (Steriade et al 1985, 1987).
+Surgical isolation of the thalamic reticular nucleus from the rest of the thalamus
+abolishes spindle waves in thalamocortical neurons but preserves synchronized
+spindle-like oscillations in the thalamic reticular nucleus. These findings led
+Steriade et al (1987) to propose that the thalamic reticular nucleus acts as a
+pacemaker in the generation of spindle waves. One proposed mechanism was
+that thalamic reticular neurons may interact with one another through dendrodendritic and axonal connections to generate and synchronize spindle waves
+(Deschˆenes et al 1985, Steriade et al 1987).
+Contrary to this suggestion, intracellular recordings from thalamic reticular
+neurons have not revealed the occurrence of rebound burst discharges in response to IPSPs, as would be expected if spindle waves were generated through
+the interaction with other thalamic reticular neurons. Instead, these recordings have consistently revealed that each burst of action potentials in thalamic
+reticular cells is generated by a low-threshold Ca2+ spike that itself is triggered by the arrival of a barrage of EPSPs (Mulle et al 1986, Shosaku et al
+1989, Steriade et al 1993b, Contreras & Steriade 1995). These barrages of
+EPSPs often occur as clusters of three to five individual events that have the
+identical frequency components associated with burst firing in thalamocortical
+neurons, suggesting that they originate in thalamocortical neurons (Mulle et al
+1986).
+The discovery of a slice preparation that spontaneously generated spindle
+waves allowed for the detailed analysis of the neuronal circuitry involved in the
+generation of this synchronized rhythm (von Krosigk et al 1993). Intracellular
+recordings in vitro from thalamocortical neurons of the ferret LGNd revealed
+barrages of IPSPs arriving at approximately 6–10 Hz (Figure 5). These spindle wave–associated IPSPs are remarkably similar to those recorded in vivo
+(Andersen & Andersson 1968, Steriade & Deschˆenes 1984). Spindle wave
+IPSPs in the ferret LGNd are generated through the activation of GABAA
+receptor–mediated increases in Cl− conductance and arise from the burst firing
+
+P1: mbl
+
+December 12, 1996
+
+Annu. Rev. Neurosci. 1997.20:185-215. Downloaded from www.annualreviews.org
+Access provided by McGill University on 02/06/15. For personal use only.
+
+198
+
+2:34
+
+Annual Reviews
+
+AR24-08
+
+AR24-8
+
+McCORMICK & BAL
+
+Figure 5 Spindle waves and the interaction between thalamic reticular or perigeniculate cells
+and thalamocortical cells during spindle wave generation. (A) Field potential recording in cat
+intralaminar central lateral thalamic nucleus. Filtering of the field potential recording reveals spindle
+waves. (B) Spindle waves are generated in vitro by an interaction between perigeniculate neurons
+and relay neurons such that perigeniculate neurons inhibit a number of relay neurons, some of which
+rebound burst following each IPSP. These rebound bursts activate low-threshold Ca2+ spikes and
+action potential bursts in perigeniculate neurons. During the spindle wave, perigeniculate neurons
+progressively hyperpolarize, which increases and then decreases their participation in spindle wave
+generation. (C ) Blocking GABAA receptors results in the disinhibition of perigeniculate neurons
+from one another. It also increases the intensity of action potential bursts in perigeniculate neurons,
+increases the activation of GABAB receptors on relay cells, and subsequently increases the bursts
+of action potentials in relay neurons. This increase in relay neuron discharge also increases the
+activation of perigeniculate neurons. Thus blocking GABAA receptors results in the generation of a
+slowed paroxysmal discharge that is critically dependent upon GABAB receptors for its generation.
+(Part A from Steriade & Llin´as 1988. Parts B and C from Bal et al 1995a.)
+
+P1: mbl
+
+December 12, 1996
+
+2:34
+
+Annual Reviews
+
+AR24-08
+
+AR24-8
+
+Annu. Rev. Neurosci. 1997.20:185-215. Downloaded from www.annualreviews.org
+Access provided by McGill University on 02/06/15. For personal use only.
+
+THALAMOCORTICAL ACTIVITY
+
+199
+
+of nearby perigeniculate neurons (Bal et al 1995a,b). Thalamocortical neurons
+generate rebound low-threshold Ca2+ spikes following only a subset of IPSPs at
+a frequency of approximately 2–4 Hz (Bal et al 1995a,b), as has been observed
+in vivo (Deschˆenes et al 1984, Roy et al 1984). When thalamocortical neurons
+do burst, they are in marked synchrony with neighboring thalamocortical cells
+(Bal et al 1995a,b, Kim et al 1995). This frequency transformation property of
+thalamocortical cells is explained by their intrinsic propensity to rhythmically
+burst at 2–4 Hz, owing to the interaction of IT and Ih (Bal et al 1995a, Wang
+1994).
+Intracellular recordings from perigeniculate neurons revealed repetitive burst
+discharges during the generation of spindle waves. These repetitive burst discharges typically occur in the frequency range of 0.5–12 Hz, which is a higher
+frequency than that seen in thalamocortical cells. Close inspection of the perigeniculate burst discharges during spindle wave generation revealed that each
+is associated with the generation of a low-threshold Ca2+ spike that itself is
+activated by a large barrage of EPSPs that result from burst firing in thalamocortical cells (Figure 5). Thus, spindle waves in the ferret LGNd in vitro result
+from the interaction of thalamocortical and perigeniculate cells in a manner
+that is predicted by their disynaptic connections: The activation of a burst discharge in a thalamic reticular or perigeniculate neuron results in the generation
+of an IPSP in a thalamocortical cell. This IPSP removes inactivation of the
+low-threshold Ca2+ current, and the repolarizing phase of the IPSP activates
+this current, giving rise to a low-threshold Ca2+ spike and a burst of action
+potentials. It is this burst of action potentials in thalamocortical cells that subsequently activates once again the perigeniculate neurons. The time required
+for one completion of this loop between thalamocortical cells and thalamic
+reticular neurons explains the frequency range of spindle waves (6–10 Hz in
+ferrets).
+In the intact animal, burst discharges in thalamocortical cells communicate
+spindle waves to the cerebral cortex. Cortical pyramidal cells respond to the
+arrival of these barrages of EPSPs with the occasional generation of action
+potentials (Andersen & Andersson 1968, Contreras & Steriade 1996). The
+occurrence of such action potentials in identified corticothalamic neurons, as
+well as the potent excitatory influence of corticothalamic fibers on thalamic
+reticular and thalamocortical neurons, suggests that corticothalamic cells may
+also participate in the generation of spindle waves. The simultaneous recording of cortical, thalamic reticular, and/or thalamocortical neurons and field
+potentials reveals phase relations that are consistent with the hypothesis that
+both the cortical and thalamic reticular neurons are being driven by activity in
+thalamocortical cells (Contreras & Steriade 1996).
+
+P1: mbl
+
+December 12, 1996
+
+Annu. Rev. Neurosci. 1997.20:185-215. Downloaded from www.annualreviews.org
+Access provided by McGill University on 02/06/15. For personal use only.
+
+200
+
+2:34
+
+Annual Reviews
+
+AR24-08
+
+AR24-8
+
+McCORMICK & BAL
+
+SPINDLE WAVES CAN PROPAGATE The simultaneous recording from eight sites
+in the ferret LGNd in vitro revealed that spindle oscillations propagate across
+the slice at a rate of approximately 1 mm/s, or about 100 µm per burst of activity (Figure 6) (Kim et al 1995). This propagation typically occurs in the
+dorsal-ventral plane of sagittal slices, starting at one end of the slice and propagating in a somewhat saltatory manner to the other. The propagation occurs
+simultaneously in the perigeniculate nucleus and in all laminae of the LGNd
+along the lines of projection of connections between these two structures. The
+local pharmacological block of excitatory inputs from thalamocortical cells to
+the perigeniculate nucleus prevents spindle waves from propagating past the
+point of application. The areas of the tissue dorsal and ventral to the block
+
+P1: mbl
+
+December 12, 1996
+
+2:34
+
+Annual Reviews
+
+AR24-08
+
+AR24-8
+
+Annu. Rev. Neurosci. 1997.20:185-215. Downloaded from www.annualreviews.org
+Access provided by McGill University on 02/06/15. For personal use only.
+
+THALAMOCORTICAL ACTIVITY
+
+201
+
+generate spindle waves independently. On occasion, two different regions of
+a normal slice may generate spindle waves that then propagate toward each
+other. As long as the two spindle waves do not share the same region of the
+slice, they act as independent oscillators. However, once the oscillations propagate to the same portion of the LGNd and perigeniculate nucleus, they become synchronized into one spindle wave (Kim et al 1995). Spindle wave
+generation and propagation exhibit a refractory period of approximately 3–
+20 s. Owing to this refractory period, colliding spindle waves do not pass one
+another.
+Activation of even a single well-connected perigeniculate neuron can result
+in the generation and propagation of a spindle wave throughout the LGNd slice
+if the perigeniculate cell is activated near the end of the refractory period. If
+this neuron is in the middle of the dorsal-ventral extent of the slice, then the
+spindle wave propagates in a V-like pattern away from the activated perigeniculate cell. Based upon these observations, researchers have proposed that the
+propagation of spindle waves in vitro occurs as a result of a zig-zag interaction
+between thalamocortical cells in the LGNd and the GABAergic neurons of the
+perigeniculate nucleus such that each disynaptic loop of activity between these
+←−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+Figure 6 Spindle waves are propagating network oscillations in the ferret geniculate slice.
+(A) Drawing of a sagittal ferret LGNd slice with an array of eight multiunit electrodes arranged
+in lamina A along the dorsal-ventral (D-V) axis. The electrodes are regularly spaced about 250–
+400 µm apart, extending approximately 2–3 mm in the D-V axis. (B) Example of a recording
+of a spindle wave propagating through an array of seven electrodes. The spindle wave starts at
+the dorsal end of the slice and propagates ventrally. Each spindle wave waxed and waned over
+2–3 s and consisted of rhythmic action potential bursts with interburst frequencies of 6–10 Hz.
+(C ) Schematic diagram of propagation of 18 consecutive spindle waves. The duration of spindle
+oscillation at each recording site shown in A is plotted as a horizontal thick bar, while the start
+and stop of spindles at adjacent recording sites are connected with thin lines. The arrows indicate
+the direction of spindle wave propagation. Spindle oscillations normally propagated from dorsal
+(electrode 1) to ventral (electrode 7 ) at a speed of 0.4–0.8 mm/s. Neurons at the ventral end of the
+slice (recording sites 6, 7 ) generated spindle waves in a semi-independent fashion. Spindle waves
+that started from the dorsal end sometimes did not invade these areas (spindles 3, 5, 10, 16, 18) or
+did so with a delay (spindles 14, 15). Neurons at the ventral end (recording sites 6, 7 ) could also
+initiate spindle oscillations and generated local (spindles 4, 17 ) or reverse (spindle 11) propagation
+of spindle waves. When the spindle oscillations were initiated simultaneously from both dorsal and
+ventral ends, the two spindle waves propagated in opposite directions and collided in the middle
+(spindle 6). The local propagation of spindle waves and the stoppage of spindle propagation at
+the point of collision both indicate the presence of a refractory period for spindle wave generation
+and propagation. Dashed line segments represent periods of only weak activity in the extracellular
+recordings. The four segments in C are continuous in time, as indicated by the curved arrows.
+(From Kim et al 1995.)
+
+P1: mbl
+
+December 12, 1996
+
+Annu. Rev. Neurosci. 1997.20:185-215. Downloaded from www.annualreviews.org
+Access provided by McGill University on 02/06/15. For personal use only.
+
+202
+
+2:34
+
+Annual Reviews
+
+AR24-08
+
+AR24-8
+
+McCORMICK & BAL
+
+two cell groups is associated with the recruitment of neurons into the network
+oscillation at the edge or front of the activity. However, as the spindle wave
+generalizes, the network also starts to become refractory, such that the spindle
+wave ends after approximately 1–3 s. First, it ends at the site of initiation;
+then, this waning of the spindle wave propagates through the tissue, as did the
+growth, or waxing, of the spindle wave (Kim et al 1995).
+Previous multiple-site extracellular recordings in vivo have revealed the presence of two types of spindle waves: one that propagates in a manner similar
+to that observed in vitro, and one in which propagation is less clear (reviewed
+in Andersen & Andersson 1968). In this second type of spindle wave, the
+network oscillations occur in widely dispersed regions of the cerebral cortex at
+approximately the same time. More recent simultaneous recordings of spindle
+waves in anesthetized or sleeping cats suggest that this second type of spindle
+wave is by far the most prevalent, although spindle waves that slowly propagate can also occur, particularly in response to local cortical stimulation (D
+Contreras, A Destexhe & M Steriade, unpublished observations). The cellular mechanisms by which spindle waves may be generated throughout wide
+portions of the cerebral cortex and thalamus in near simultaneity, indicating
+rapid propagation throughout the thalamocortical system, are not yet known.
+The widespread axonal arbors of a subset of thalamic reticular, thalamocortical, corticothalamic, and corticocortical connections are likely involved (see
+Steriade et al 1984, Jones 1985, Felleman & Van Essen 1991). We propose
+that the synchronization of spindle waves is largely the result of divergence and
+convergence of axonal connections between interacting neuronal groups (see
+Kim et al 1995).
+MECHANISMS OF GENERATION OF THE SPINDLE WAVE REFRACTORY PERIOD
+
+The mechanisms of the generalization of synchronized oscillations, such as the
+waxing of spindle waves, appear to be relatively clear: The presence of axonal connections between the interacting cells recruits additional cells into the
+network oscillation. However, the mechanisms by which spindle waves spontaneously stop have been less clear. Previous explanations have centered on the
+desynchronization of the network (Andersen & Andersson 1968, Contreras &
+Steriade 1996) and the depolarization or hyperpolarization of thalamic reticular
+neurons (Domich et al 1986; von Krosigk et al 1993).
+Recent investigations in the ferret LGNd in vitro have revealed that events
+in thalamocortical cells may explain the waning of spindle waves. Intracellular
+recordings demonstrate that the refractory period for spindle wave generation is
+associated with a prolonged after-depolarization and an increase in membrane
+conductance. Both of these can be activated with an intracellular injection of
+repetitive hyperpolarizing current pulses that mimic the arrival of spindle wave
+
+P1: mbl
+
+December 12, 1996
+
+2:34
+
+Annual Reviews
+
+AR24-08
+
+AR24-8
+
+Annu. Rev. Neurosci. 1997.20:185-215. Downloaded from www.annualreviews.org
+Access provided by McGill University on 02/06/15. For personal use only.
+
+THALAMOCORTICAL ACTIVITY
+
+203
+
+IPSPs. This result indicates that the after-depolarization is generated as an intrinsic property of thalamocortical neurons (Bal & McCormick 1995, 1996), as
+was observed previously in spontaneously oscillating thalamocortical neurons
+(Leresche et al 1991, Soltesz et al 1991). The spindle wave–associated afterdepolarization results in a marked reduction in the ability of thalamocortical
+cells to generate rebound low-threshold Ca2+ spikes following the arrival of
+IPSPs from perigeniculate neurons. This reduced ability to generate rebound
+Ca2+ spikes presumably results from the voltage-dependent inactivation of IT .
+An analysis of the properties of the after-depolarization suggests that it may
+be mediated by a persistent activation of the hyperpolarization-activated cation
+conductance Ih . Indeed, the after-depolarization, increase in membrane conductance, and spindle wave refractory period are all selectively blocked by the
+extracellular application of Cs+ , a known blocker of the h-current. Based upon
+these findings, we have suggested that spindle waves may wax and wane during the progressive recruitment of more and more neurons into the oscillation
+through axonal collaterals, while at the same time, the h-current may become
+more and more activated, resulting in a depolarization of thalamocortical cells
+and a progressive reduction in their ability to generate rebound burst discharges,
+ultimately resulting in the cessation of this network activity. The spindle wave
+refractory period (3–20 s) is the time required for the h-current to return to a
+level that allows another spindle wave to occur (Bal & McCormick 1995, 1996;
+see also Soltesz et al 1991). What could cause the persistent activation of the
+h-current during the generation of a spindle wave? Two possibilities are that
+the voltage dependence of the h-current is shifted to more positive levels by
+increases in the intracellular Ca2+ concentration, or that the h-current exhibits
+slow deactivation kinetics at normal resting membrane potentials (see Hagiwara
+& Irisawa 1989, Destexhe et al 1993a,b).
+
+Delta and Spindle Waves May Be Grouped by a Slow
+Corticothalamic Oscillation
+In the naturally sleeping or anesthetized cat, delta and spindle waves do not
+occur continuously but rather can recur on a regular basis in groups every
+2–10 s (Steriade et al 1993b,d,e). Simultaneous recordings of cortical, thalamocortical, and thalamic reticular neurons reveal that this slow rhythm is
+associated with a relatively synchronized hyperpolarization followed by the
+sudden depolarization of all cell types (including local interneurons in the cerebral cortex) (Figure 7) (Steriade et al 1993a,b,d,e, Amzica & Steriade1995a,b,
+Contreras & Steriade 1995). The depolarization in cortical cells consists of a
+mixture of EPSPs and IPSPs, while the hyperpolarization appears to be a cessation of these synaptic barrages. Cortical-cortical interconnections are critically
+important in the generation and synchronization of this slow oscillation, since
+
+P1: mbl
+
+December 12, 1996
+
+Annu. Rev. Neurosci. 1997.20:185-215. Downloaded from www.annualreviews.org
+Access provided by McGill University on 02/06/15. For personal use only.
+
+204
+
+2:34
+
+Annual Reviews
+
+AR24-08
+
+AR24-8
+
+McCORMICK & BAL
+
+Figure 7 The slow (<1 Hz) rhythm of cortical neurons and suppression with brain stem stimulation. (A) Simultaneous intracellular recordings from two neurons, from left and right precruciate
+areas 4, together with depth EEG from the same areas. Note the development from nonoscillatory to
+oscillatory state. Spindle oscillations are generated in synchrony with the slow rhythm. (B) Block of
+the slow oscillation by stimulation (5 shocks at 100 Hz) (arrow) of the pedunculopontine tegmental
+nucleus. Recordings are from area 5. Data were recorded from cats anesthetized with ketamine
+and xylazine. (Part A from Steriade et al 1994. Part B from Steriade et al 1993a.)
+
+it survives massive lesions of the appropriate nuclei of the thalamus (Steriade
+et al 1993b,d,e), and synchronization is disrupted with block of intracortical
+connections (Amzica & Steriade 1995b).
+In the intact brain, cortical and thalamic networks interact extensively during the generation of the sleep EEG, resulting in a coordinated occurrence of
+corticothalamocortical rhythms. For example, the initial portion of the depolarization associated with the slow oscillation can trigger thalamic circuits to
+
+P1: mbl
+
+December 12, 1996
+
+2:34
+
+Annual Reviews
+
+AR24-08
+
+AR24-8
+
+Annu. Rev. Neurosci. 1997.20:185-215. Downloaded from www.annualreviews.org
+Access provided by McGill University on 02/06/15. For personal use only.
+
+THALAMOCORTICAL ACTIVITY
+
+205
+
+generate a spindle wave (Figure 7) (Steriade et al 1993b, Contreras & Steriade
+1995), resulting in a pattern similar to the K-complex of EEG-synchronized
+sleep (see Niedermeyer 1993). The slow oscillation may also be associated
+with the activation of groups of delta (0.5–4 Hz) oscillations in cortical networks (Steriade et al 1993b,e), although the precise cellular mechanisms for
+the generation of delta oscillations are still unknown (see Steriade 1993). Stimulation of the brain stem results in an abolition of the slow (<1 Hz) rhythm,
+an abolition of spindle waves and delta waves, and a promotion of higher frequency (20–60 Hz) activity (Steriade et al 1993a). Electrical stimulation in
+the region of the pedunculopontine nucleus, which is cholinergic, results in a
+muscarinic receptor–mediated suppression of the rhythmic hyperpolarization
+of the slow oscillation. During this activation, the cortical neurons remain in
+the depolarized state. Similarly, repetitive stimulation of the locus coeruleus,
+which is noradrenergic, can also result in the suppression of the slow rhythm
+through a suppression of the hyperpolarizing lulls between the depolarizing
+sequences (Steriade et al 1993a).
+Together, these results suggest that the depolarized state is generated by
+the reentrant excitation of cortical networks through corticocortical as well as
+corticothalamocortical synaptic connections. These reverberating excitatory
+circuits are tempered during the depolarized state by the activation of local
+inhibitory networks within the cortex and thalamus. The activation of components of the ascending activating system results in a suppression of the various
+slow thalamocortical rhythms, presumably through a depolarization of thalamic
+neurons and an increase in neuronal excitability in cortical networks (reviewed
+in Steriade & McCarley 1990, McCormick 1992).
+
+Perversion of Spindle Waves into Paroxysmal Events
+Absence epileptic seizures are characterized by a remarkable 3-Hz synchronized spike-and-wave oscillation in thalamocortical networks that consists of
+pronounced burst discharges during the spike interspersed with inhibition during the wave (reviewed in Avoli et al 1990, Steriade et al 1994). The cellular
+mechanisms for generation of absence seizures appear to be related to those for
+the generation of normal thalamocortical rhythms during sleep. Many children
+that exhibit this form of epilepsy have the majority of their seizures during
+EEG-synchronized sleep (Kellaway 1985), and at least some animal models of
+absence, or spike-and-wave, seizures have revealed a strong relationship between the mechanisms for the generation of spindle waves and the generation
+of spike-and-wave seizures (Avoli et al 1990, Buzs´aki et al 1990). Recent investigations in rodent models reveal two key points: Activation of the thalamic
+reticular nucleus is essential (Buzs´aki et al 1988) and activation of GABAB
+receptors in thalamic relay nuclei is important (Hosford et al 1992, Liu et al
+
+P1: mbl
+
+December 12, 1996
+
+Annu. Rev. Neurosci. 1997.20:185-215. Downloaded from www.annualreviews.org
+Access provided by McGill University on 02/06/15. For personal use only.
+
+206
+
+2:34
+
+Annual Reviews
+
+AR24-08
+
+AR24-8
+
+McCORMICK & BAL
+
+1992, Snead 1992) for the generation of spike-and-wave seizures. Because
+activation of GABAB receptors on thalamocortical neurons is particularly efficient in causing rebound burst discharges in these neurons (Crunelli & Leresche
+1991) and because activation of the thalamic reticular nucleus can result in the
+activation of GABAB receptors in thalamocortical neurons, one might suspect
+that a circuitous interaction between the thalamic reticular nucleus and thalamocortical cells may be involved in the generation of these paroxysmal events
+(Buzs´aki et al 1990).
+The pharmacological block of GABAA receptors in ferret geniculate slices
+results in the transformation of spindle waves into paroxysmal activity such that
+both thalamocortical and perigeniculate neurons greatly increase the intensity
+of their burst discharges and become phase-locked into a 2- to 4-Hz rhythm (Figure 5) (von Krosigk et al 1993, Bal et al 1995a,b). Bal et al (1995a,b) suggested
+that this shift from normal to paroxysmal activity resulted from the disinhibition
+of perigeniculate neurons from one another, resulting in an increase in discharge
+of these cells and a large increase in the postsynaptic activation of GABAB
+receptors in thalamocortical neurons (see Huguenard & Prince 1994, SanchezVives et al 1995). The long duration of GABAB receptor–mediated IPSPs enhances the removal of inactivation of IT , thereby resulting in large rebound bursts
+of action potentials, which excite the perigeniculate neurons even more (Bal
+et al 1995b). Thus, the spindle waves are slowly transformed into a paroxysmal
+oscillation that resembles that which occurs during spike-and-wave seizures.
+In the intact animal, the cerebral cortex also plays an important, and perhaps
+even dominant, role in the generation of spike-and-wave seizures (Avoli et al
+1990b, Steriade et al 1994). One hypothesis is that abnormal burst discharges
+in the cerebral cortex result in the pronounced excitation of thalamic reticular
+neurons. Together, the activity of these two regions may result in the strong excitation of and subsequent inhibition of thalamocortical cells, which could then
+result in large rebound bursts that feed into the hyperexcitable cortical network
+and thalamic reticular nucleus to reinitiate the next cycle of neuronal discharge.
+
+NEUROTRANSMITTER MECHANISMS UNDERLYING
+THE TRANSITION FROM SLEEP TO WAKING
+The transition from sleep to waking, or REM sleep, is associated with the
+depolarization of thalamocortical and thalamic reticular neurons (Hirsch et al
+1983, Steriade et al 1986). Because the ascending systems of the brain stem
+(and hypothalamus) are critical to this transition (e.g. Bremer 1938, Moruzzi
+& Magoun 1949), the release of neurotransmitters from these neurons may be
+responsible for this depolarization. The search for ascending neurotransmitter systems that innervate the thalamus has identified at least five candidates:
+
+P1: mbl
+
+December 12, 1996
+
+2:34
+
+Annual Reviews
+
+AR24-08
+
+AR24-8
+
+Annu. Rev. Neurosci. 1997.20:185-215. Downloaded from www.annualreviews.org
+Access provided by McGill University on 02/06/15. For personal use only.
+
+THALAMOCORTICAL ACTIVITY
+
+207
+
+acetylcholine (ACh) from the pedunculopontine and lateral dorsal tegmental nuclei, norepinephrine (NE) from the locus coeruleus, serotonin (5-HT)
+from the raphe nuclei, histamine (HA) from the tuberomammillary nucleus
+of the hypothalamus, and glutamate (reviewed in Steriade & McCarley 1990,
+McCormick 1992).
+The investigation of each of these neurotransmitters reveals that the activation of muscarinic receptors by ACh, α 1 -adrenoceptors by NE, and H1 receptors
+by HA and metabotropic glutamate receptors results in the prolonged depolarization of thalamocortical neurons as a result of a reduction in a resting leak
+K+ conductance termed IKL (McCormick & Prince 1987, 1988; McCormick
+1991; McCormick & Williamson 1991; McCormick & von Krosigk 1992).
+Activation of each of these receptors results in a slow depolarization of the
+membrane potential that results in an inhibition of rhythmic or rebound burst
+firing through the inactivation of IT and the promotion of single-spike firing
+by bringing the membrane potential closer to the single-spike firing threshold
+(Figure 8F). Maximal activation of any combination of these receptors appears
+to result in a maximal response of a shift, or nearly complete shift, from rhythmic burst firing to just into the single-spike firing mode, suggesting that this
+response exhibits a ceiling that prevents it from causing thalamocortical neurons
+to fire at high rates merely from the release of modulatory transmitters.
+A prominent response in thalamocortical neurons is the enhancement of the
+hyperpolarization-activated cation current Ih by a shift in its activation curve
+to more positive membrane potentials, thereby causing more of this current to
+be activated at each membrane potential negative to approximately −55 mV
+(reviewed in McCormick 1992). This response occurs following the activation of serotoninergic, β-adrenergic, and H2 -histaminergic receptors and the
+application of nitric oxide donors, and may be mediated by the activation of
+adenylyl cyclase (McCormick & Pape 1990b, McCormick & Williamson 1991,
+Pape & Mager 1992). Activation of purinergic A1 receptors has the opposite
+effect: It shifts the voltage dependence of Ih to more negative membrane potentials (Pape 1992). Positive shifts in the voltage dependence of Ih increase
+the frequency of intrinsic oscillations and also reduce the ability of the cells
+to oscillate in both thalamocortical cells maintained in vitro and in computational models (McCormick & Pape 1990b, Soltesz et al 1991, McCormick &
+Huguenard 1992).
+Together, these results suggest that the release of ACh, NE, glutamate,
+HA, and perhaps nitric oxide onto thalamocortical neurons should abolish
+sleep-related activity in thalamocortical networks and facilitate the single-spike
+activity typical of the waking state. Indeed, application of many of these substances to the A-laminae of the ferret LGNd results in a suppression of spindle
+wave generation in vitro (Lee & McCormick 1996a,b).
+
+P1: mbl
+
+December 12, 1996
+
+Annu. Rev. Neurosci. 1997.20:185-215. Downloaded from www.annualreviews.org
+Access provided by McGill University on 02/06/15. For personal use only.
+
+208
+
+2:34
+
+Annual Reviews
+
+AR24-08
+
+AR24-8
+
+McCORMICK & BAL
+
+Figure 8 State-dependent activities in cortical and thalamic neurons. (A–C ) Neurons in the
+cerebral cortex (A), thalamic reticular nucleus (B), and thalamic relay nuclei (C ) change their
+activities in vivo from periodic and rhythmic spike bursts during natural, slow-wave sleep to tonic
+firing of trains of single spikes during waking and REM sleep in behaving cats with chronic implants.
+(D–F ) Similar changes in firing pattern occur in vitro in neurons in the cerebral cortex (D), thalamic
+reticular nucleus (E ), and thalamic relay nuclei (F ) in response to various neurotransmitters released
+by modulatory systems. The depolarization results from the reduction of K+ conductances and the
+enhancement of Ih . (From Steriade et al 1993, McCormick 1992, Hirsch et al 1983.)
+
+The GABAergic neurons of the thalamic reticular and perigeniculate nuclei are modulated in a manner that is similar, but also distinct, from that
+of thalamocortical cells. Activation of serotoninergic 5-HT2/1C , α 1 -adrenergic,
+metabotropic glutamate, or CCKA receptors on these neurons results in a marked
+and slow depolarization owing to the reduction of IKL (McCormick & Wang
+1991, Bal & McCormick 1993, Cox et al 1995) (Figure 8E). As in thalamocortical neurons, this depolarization of thalamic reticular cells results in a suppression of rhythmic burst firing and the promotion of single-spike activity. In
+contrast to this depolarizing response, the application of cholinergic agonists to
+perigeniculate and thalamic reticular neurons results in a rapid nicotinic excitation followed by a more prolonged muscarinic inhibition through the activation
+of a K+ conductance (McCormick & Prince 1986b, Lee & McCormick 1995).
+Recent investigations reveal that the activation of noradrenergic, serotoninergic,
+
+P1: mbl
+
+December 12, 1996
+
+2:34
+
+Annual Reviews
+
+AR24-08
+
+AR24-8
+
+Annu. Rev. Neurosci. 1997.20:185-215. Downloaded from www.annualreviews.org
+Access provided by McGill University on 02/06/15. For personal use only.
+
+THALAMOCORTICAL ACTIVITY
+
+209
+
+metabotropic glutamate, and CCK receptors on the GABAergic perigeniculate
+neurons results in the suppression of spindle wave generation and the promotion
+of single-spike activity (Lee & McCormick 1996a,b).
+Activation of ascending pathways in vivo complement and extend these findings. The electrical stimulation of ascending cholinergic systems, or cholinergic projections from the basal forebrain, results in muscarinic inhibition in
+perigeniculate and thalamic reticular neurons that may be preceded by rapid
+nicotinic excitation (Hu et al 1989a, Pinault & Deschˆenes 1992b). In thalamocortical cells, electrical stimulation in the region of cholinergic neurons of
+the brain stem results in a rapid nicotinic excitation followed by a slow muscarinic depolarization (Hu et al 1989b, Deschˆenes & Hu 1990b, Curr´o Dossi
+et al 1991). Activation of ascending cholinergic systems is associated with
+the abolition of spindle and slow waves in the EEG and with the enhancement
+of higher-frequency activities, as occurs in the natural transition to waking or
+REM sleep (Curr´o Dossi et al 1991, Steriade et al 1993a).
+Electrical stimulation in the region of the locus coeruleus also results in a
+slow excitation of thalamocortical cells (see Kayama 1985) and a block of slow
+rhythms in thalamocortical systems—an effect that is blocked by administration of α 2 -antagonists, presumably by inhibiting the release of NE (Steriade
+et al 1993a). In addition, lesion of the locus coeruleus or administration of
+α 1 -antagonists results in a marked reduction in the firing rate of thalamic reticular neurons (Pinault & Deschˆenes 1992a).
+Together, these results suggest that the transition from the EEG-synchronized
+sleep to the waking state is associated with depolarization of thalamocortical
+neurons through multiple mechanisms, including increased barrages of fast
+EPSPs from prethalamic and corticothalamic systems; the reduction of IKL
+from the release of ACh, NE, HA, and glutamate; and the enhancement of Ih
+through the release of 5-HT, NE, HA, and other agents. Simultaneously, the
+GABAergic cells of the thalamic reticular and perigeniculate nuclei are also
+depolarized through the release of 5-HT, NE, glutamate, and CCK. Since the
+synaptic release of most, if not all, of these agents increases with the transition
+from EEG-synchronized sleep to arousal (reviewed in Steriade & McCarley
+1990, McCormick 1992), it is reasonable to suggest that they are responsible
+for the transition of thalamic neurons from the rhythmic burst firing to tonic
+mode of action potential generation. Presumably, the inhibitory influence of
+cholinergic fibers to the thalamic reticular and perigeniculate nuclei helps to
+temper these depolarizing influences and provides a mechanism for phasic
+disinhibition of thalamocortical neurons during, for example, shifts in attention
+or arousal.
+The shift from EEG-synchronized sleep to REM sleep is also associated
+with an abolition of delta and spindle waves, as well as a marked reduction of
+
+P1: mbl
+
+December 12, 1996
+
+Annu. Rev. Neurosci. 1997.20:185-215. Downloaded from www.annualreviews.org
+Access provided by McGill University on 02/06/15. For personal use only.
+
+210
+
+2:34
+
+Annual Reviews
+
+AR24-08
+
+AR24-8
+
+McCORMICK & BAL
+
+the occurrence of absence seizures, even though this state is associated with
+a marked inhibition of neuronal activity in noradrenergic, serotoninergic, and
+histaminergic neurons (reviewed in Steriade & McCarley 1990, McCormick
+1992). The depolarized state of thalamocortical neurons at this state is presumably the result of the influence of ascending cholinergic and descending
+corticothalamic activity. The depolarization of thalamic reticular cells may
+result from the combined influence of increased tonic firing in both thalamocortical and corticothalamic systems.
+The changes that occur in cortical circuits in the transition from EEGsynchronized sleep to waking and the actions of neuromodulatory transmitters
+on different types of cortical neurons appear to be considerably more complex than in the thalamus, perhaps owing to the wide variety of different cell
+types and neuronal circuits. Some cortical neurons do, however, exhibit burst
+discharges preferentially during sleep, and tonic single-spike activity during
+waking (Figure 8A) (reviewed in McCormick 1992). Interestingly, the application of ACh, NE, or a glutamate metabotropic receptor agonist to intrinsically
+burst-generating neurons (which typically are subcortically projecting large
+layer-V pyramidal cells) results in a depolarization through the reduction of
+a leak potassium current and a suppression of burst discharges, as occurs in
+the thalamus (Wang & McCormick 1993). This switch from burst generation
+to tonic firing is associated with an increase in linearity of the membrane responses of layer-V pyramidal cells (McCormick et al 1993). The excitability of
+non-burst-generating pyramidal cells may also be typically enhanced through
+the application of modulatory transmitters such as ACh, NE, 5-HT, or HA. This
+enhanced excitability results from a reduction in spike frequency adaptation owing to a block of the Ca2+ -activated K+ current IAHP and the voltage-dependent
+K+ current IM (McCormick & Prince 1986a, McCormick & Williamson 1989;
+reviewed in McCormick 1992). However, in addition to these increases in
+excitability, the activation of other receptors results in inhibitory responses.
+
+SUMMARY
+Neuronal activity in thalamocortical systems changes in parallel with changes
+in the state of the animal. During periods of EEG-synchronized sleep, groups
+of thalamic and cortical neurons interact during the generation of synchronized oscillations such as spindle waves and of slow oscillations. This network activity is generated as a consequence of both the intrinsic membrane
+properties of the constituent cells and their synaptic interactions. The lowthreshold Ca2+ current is important in the generation of at least some of these
+network oscillations. The transition from EEG-synchronized sleep to arousal
+is accomplished through a depolarization of thalamic neurons, resulting in an
+
+P1: mbl
+
+December 12, 1996
+
+2:34
+
+Annual Reviews
+
+AR24-08
+
+AR24-8
+
+THALAMOCORTICAL ACTIVITY
+
+211
+
+inhibition of the low-threshold Ca2+ current and an abolition of sleep-related
+oscillations. The depolarized state facilitates the transmission of information
+through the thalamus in a manner that is consistent with the awake and attentive
+state.
+Visit the Annual Reviews home page at
+http://www.annurev.org.
+
+Annu. Rev. Neurosci. 1997.20:185-215. Downloaded from www.annualreviews.org
+Access provided by McGill University on 02/06/15. For personal use only.
+
+Literature Cited
+Ahls´en G, Lindstr¨om S, Lo F-S. 1984. Inhibition
+from the brain stem of inhibitory interneurones of the cat’s dorsal lateral geniculate nucleus. J. Physiol. 347:593–609
+Amzica F, Steriade M. 1995a. Short- and longrange neuronal synchronization of the slow
+(<1 Hz) cortical oscillation. J. Neurophysiol.
+73:20–38
+Amzica F, Steriade M. 1995b. Disconnection of
+intracortical synaptic linkages disrupts synchronization of a slow oscillation. J. Neurosci. 15:4658–77
+Andersen P, Andersson SA. 1968. Physiological Basis of the Alpha Rhythm. New York:
+Appleton-Century-Crofts
+Avanzini G, de Curtis M, Panzica F, Spreafico
+R. 1989. Intrinsic properties of nucleus reticularis thalami neurones of the rat studied in
+vitro. J. Physiol. 416:111–22
+Avoli M, Gloor P, Kostopoulos G. 1990.
+Thalamocortical relationships in generalized epilepsy with bilaterally synchronous
+spike-and-wave discharge. In Generalized
+Epilepsy. Neurobiological Approaches, ed. M
+Avoli, P Gloor, G Kostopoulos, R Naquet, pp.
+190–212. Boston: Birkhauser
+Bal T, McCormick DA. 1993. Ionic mechanisms
+of rhythmic burst firing and tonic activity in
+the nucleus reticularis thalami, a mammalian
+pacemaker. J. Physiol. 468:669–91
+Bal T, McCormick DA. 1995. A mechanism for
+the waning of thalamic spindle and “absenceseizure like” oscillations in vitro. Soc. Neurosci. Abst. 21:11
+Bal T, McCormick DA. 1996. What stops synchronized thalamocortical oscillations? Neuron. 17:297–308
+Bal T, von Krosigk M, McCormick DA. 1995a.
+Synaptic and membrane mechanisms underlying synchronized oscillations in the ferret
+LGNd in vitro. J. Physiol. 483.3:641–63
+Bal T, von Krosigk M, McCormick DA. 1995b.
+Role of the ferret perigeniculate nucleus in
+the generation of synchronized oscillations
+in vitro. J. Physiol. 483.3:665–85
+Bremer F. 1938. L´ıactivit´e e´ lectrique de l´ıe´ corce
+c´er´ebrale et le probl`eme physiologique du
+
+sommeil. Boll. Soc. Ital. Biol. Sper. 13:271–
+90
+Buzs´aki G, Bickford RG, Ponomareff G, Thal
+LJ, Mandel R, Gage FH. 1988. Nucleus
+basalis and thalamic control of neocortical
+activity in the freely moving rat. J. Neurosci.
+8:4007–26
+Buzs´aki G, Smith A, Berger S, Fisher LJ, Gage
+FH. 1990. Petit mal epilepsy and Parkinsonian tremor: hypothesis of a common pacemaker. Neuroscience 36:1–14
+Caton R. 1887. Researches on electrical phenomena of cerebral grey matter. 9th Int.
+Congr. Med. 3:246
+Contreras D, Curr´o Dossi R, Steriade M. 1993.
+Electrophysiological properties of cat reticular thalamic neurones in vivo. J. Physiol.
+470:273–94
+Contreras D, Steriade M. 1995. Cellular basis of EEG slow rhythms: A study of dynamic corticothalamic relationships. J. Neurosci. 15:604–22
+Contreras D, Steriade M. 1996. Spindle oscillation: the role of corticothalamic feedback in
+a thalamically generated rhythm. J. Physiol.
+490:159–79
+Coulter DA, Huguenard JR, Prince DA. 1989.
+Calcium currents in rat thalamocortical relay
+neurones, kinetic properties of the transient,
+low-threshold current. J. Physiol. 414:587–
+604
+Cox CL, Huguenard JR, Prince DA. 1995.
+Cholecystokinin depolarizes rat thalamic
+reticular neurons by suppressing a K+ conductance. J. Neurophysiol. 74:990–1000
+Crunelli V, Haby M, Jassik-Gerschenfeld D,
+Leresche N, Pirchio M. 1988. Cl- and K+ dependent inhibitory postsynaptic potentials
+evoked by interneurons of the rat lateral
+geniculate nucleus. J. Physiol. 399:153–76
+Crunelli V, Leresche N. 1991. A role for
+GABAB receptors in excitation and inhibition of thalamocortical cells. Trends Neurosci. 14:16–21
+Crunelli V, Lightowler S, Pollard CE. 1989. A
+T-type Ca2+ current underlies low-threshold
+Ca2+ potentials in cells of the cat and rat lat-
+
+P1: mbl
+
+December 12, 1996
+
+Annu. Rev. Neurosci. 1997.20:185-215. Downloaded from www.annualreviews.org
+Access provided by McGill University on 02/06/15. For personal use only.
+
+212
+
+2:34
+
+Annual Reviews
+
+AR24-08
+
+AR24-8
+
+McCORMICK & BAL
+
+eral geniculate nucleus. J. Physiol. 413:543–
+61
+Cucchiaro JB, Uhlrich RJ, Sherman SM. 1991.
+An electron-microscopic analysis of synaptic
+input from the perigeniculate nucleus to the
+A-laminae of the lateral geniculate nucleus in
+cats. J. Comp. Neurol. 310:316–36
+Curr´o Dossi R, Nunez A, Steriade M. 1992a.
+Electrophysiology of a slow (0.5–4 Hz) intrinsic oscillation of cat thalamocortical neurones in vivo. J. Physiol. 447:215–34
+Curr´o Dossi R, Par´e D, Steriade M. 1991.
+Short lasting nicotinic and long-lasting muscarinic depolarizing responses of thalamocortical neurons to stimulation of mesopontine cholinergic neurons. J. Neurophysiol.
+65:393–406
+Curr´o Dossi R, Par´e D, Steriade M. 1992b. Various types of inhibitory postsynaptic potentials in anterior thalamic cells are differentially altered by stimulation of laterodorsal
+tegmental cholinergic nucleus. Neuroscience
+47:279–89
+De Curtis M, Spreafico R, Avanzini G. 1989.
+Excitatory amino acids mediate responses
+elicited in vitro by stimulation of cortical afferents to reticularis thalami neurons of the
+rat. Neuroscience 33:275–83
+Deschˆenes M, Hu B. 1990a. Electrophysiology
+and pharmacology of the corticothalamic input to lateral thalamic nuclei, an intracellular
+study in the cat. Eur. J. Neurosci. 2:140–52
+Deschˆenes M, Hu B. 1990b. Membrane resistance increase induced in thalamic neurons
+by stimulation of brainstem cholinergic afferents. Brain Res. 513:339–42
+Deschˆenes M, Madariaga-Domich A, Steriade
+M. 1985. Dendrodendritic synapses in cat
+reticularis thalami nucleus, a structural basis
+for thalamic spindle synchronization. Brain
+Res. 334:169–71
+Deschˆenes M, Paradis M, Roy JP, Steriade M.
+1984. Electrophysiology of neurons of lateral thalamic nuclei in cat, resting membrane
+properties and burst discharges. J. Neurophysiol. 51:1196–19
+Destexhe A, Babloyantz A, Sejnowski TJ.
+1993a. Ionic mechanisms for intrinsic slow
+oscillations in thalamic relay neurons. Biophys. J. 65:1538–52
+Destexhe A, Contreras D, Steriade M, Sejnowski TJ, Huguenard JR. 1996. In vivo,
+in vitro and computational analysis of dendritic calcium currents in thalamic reticular
+neurons. J. Neurosci. 16:169–85
+Destexhe A, McCormick DA, Sejnowski TJ.
+1993b. A model for 8–10 Hz spindling in
+interconnected thalamic relay and reticularis
+neurons. Biophys. J. 65:2474–78
+Domich L, Oakson G, Steriade M. 1986. Thalamic burst patterns in the naturally sleeping
+
+cat: a comparison between cortically projecting and reticularis neurones. J. Physiol.
+379:429–49
+Felleman DJ, Van Essen DC. 1991. Distributed
+hierarchical processing in the primate cerebral cortex. Cereb. Cortex 1:1–47
+Francesconi W, Muller CM, Singer W. 1988.
+Cholinergic mechanisms in the reticular control of transmission in the cat lateral geniculate nucleus. J. Neurophysiol. 59:1690–
+718
+Hagiwara N, Irisawa H. 1989. Modulation by
+intracellular Ca++ of the hyperpolarization
+activated inward current in rabbit single sinoatrial node cells. J. Physiol. 409:121–41
+Hernandez-Crus A, Pape H-C. 1989. Identification of two calcium currents in acutely dissociated neurons from the rat lateral geniculate
+nucleus. J. Neurophysiol. 61:1270–83
+Hirsch JC, Fourment A, Marc ME. 1983. Sleeprelated variations of membrane potential in
+the lateral geniculate body relay neurons of
+the cat. Brain Res. 259:308–12
+Hosford DA, Clark S, Cao Z, Wilson WA, Lin
+F-h, et al. 1992. The role of GABA-B receptor activation in absence seizures of lethargic
+(lh/lh) mice. Science 257:398–401
+Hu B, Steriade M, Deschˆenes M. 1989a. The effects of brainstem peribrachial stimulation on
+perigeniculate neurons, the block of spindle
+waves. Neuroscience 31:1–12
+Hu B, Steriade M, Deschˆenes M. 1989b. The
+effects of brainstem peribrachial stimulation
+on neurons of the lateral geniculate nucleus.
+Neuroscience 31:13–24
+Huguenard JR, McCormick DA. 1992. Simulation of the currents involved in rhythmic
+oscillations in thalamic relay neurons. J. Neurophysiol. 68:1373–83
+Huguenard JE, Prince DA. 1992. A novel
+T-type current underlies prolonged Ca2+ dependent burst firing in GABAergic neurons
+of rat thalamic reticular nucleus. J. Neurosci.
+12:3804–17
+Huguenard JR, Prince DA. 1994. Intrathalamic rhythmicity studied in vitro, nominal
+T current modulation causes robust antioscillatory effects. J. Neurosci. 14:5485–502
+Ide LS. 1982. The fine structure of the perigeniculate nucleus in the cat. J. Comp. Neurol. 210:317–34
+Jahnsen H, Llin´as R. 1984a. Electrophysiological properties of guinea-pig thalamic neurons, an in vitro study. J. Physiol. 349:205–
+26
+Jahnsen H, Llin´as R. 1984b. Ionic basis for the
+electroresponsiveness and oscillatory properties of guinea-pig thalamic neurons in vitro.
+J. Physiol. 349:227–47
+Jones EG. 1985. The Thalamus. New York:
+Plenum
+
+P1: mbl
+
+December 12, 1996
+
+2:34
+
+Annual Reviews
+
+AR24-08
+
+AR24-8
+
+Annu. Rev. Neurosci. 1997.20:185-215. Downloaded from www.annualreviews.org
+Access provided by McGill University on 02/06/15. For personal use only.
+
+THALAMOCORTICAL ACTIVITY
+Jouvet M. 1962. Recherches sur les structures
+nerveuses et les m´ecanismes responsables
+des diff´erentes phases du sommeil physiologique. Arch. Ital. Biol. 100:125–206
+Kayama Y. 1985. Ascending, descending and
+local control of neuronal activity in the rat lateral geniculate nucleus. Vision Res. 25:339–
+47
+Kellaway P. 1985. Sleep and epilepsy. Epilepsia
+26:S15–S30
+Kim U, Bal T, McCormick DA. 1995. Spindle
+waves are propagating synchronized oscillations in the ferret LGNd in vitro. J. Neurophysiol. 74:1301–23
+Lee K, McCormick DA. 1996a. Modulation of
+spindle oscillations by acetylcholine, cholecystokinin, and 1S, 3R-ACPD in the ferret
+lateral geniculate and perigeniculate nuclei
+in vitro. Neuroscience. In press
+Lee K, McCormick DA. 1996b. Abolition of
+spindle oscillations by serotonin and norepinephrine in the ferret lateral geniculate
+and perigeniculate nuclei in vitro. Neuron
+17:309–21
+Lee K, McCormick DA. 1995. Acetylcholine
+excites GABAergic neurons of the ferret perigeniculate nucleus through nicotinic receptors. J. Neurophysiol. 73:2123–28
+Leresche N, Lightowler S, Soltesz I, JassikGerschenfeld D, Crunelli V. 1991. Low frequency oscillatory activities intrinsic to rat
+and cat thalamocortical cells. J. Physiol.
+441:155–74
+Liu X-B, Warren RA, Jones EG. 1995. Synaptic distribution of afferents from reticular nucleus in ventroposterior nucleus of cat thalamus. J. Comp. Neurol. 352:187–202
+Liu Z, Vergnes M, Depaulis A, Marescaux C.
+1992. Involvement of intrathalamic GABAB
+neurotransmission in the control of absence
+seizures in the rat. Neuroscience 48:87–93
+Livingstone MS, Hubel DH. 1981. Effects of
+sleep and arousal on the processing of visual
+information in the cat. Nature 291:554–61
+McCarley RW, Benoit O, Barrionuevo G. 1983.
+Lateral geniculate nucleus unitary discharge
+in sleep and waking, state- and rate-specific
+aspects. J. Neurophysiol. 50:798–818
+McCormick DA. 1991. Cellular mechanisms
+underlying cholinergic and noradrenergic
+modulation of neuronal firing mode in the
+cat and guinea pig dorsal lateral geniculate
+nucleus. J. Neurosci. 12:278–89
+McCormick DA. 1992. Neurotransmitter actions in the thalamus and cerebral cortex and
+their role in neuromodulation of thalamocortical activity. Prog. Neurobiol. 39:337–88
+McCormick DA, Feeser HR. 1990. Functional
+implications of burst firing and single spike
+activity lateral geniculate relay neurons. Neuroscience 39:103–13
+
+213
+
+McCormick DA, Huguenard JR. 1992. A model
+of the electrophysiological properties of thalamocortical relay neurons. J. Neurophysiol.
+68:1384–400
+McCormick DA, Pape H-C. 1988. Acetylcholine inhibits identified interneurons in
+the cat lateral geniculate nucleus. Nature
+334:246–48
+McCormick DA, Pape H-C. 1990a. Properties
+of a hyperpolarization-activated cation current and its role in rhythmic oscillation in thalamic relay neurons. J. Physiol. 431:291–318
+McCormick DA, Pape H-C. 1990b. Noradrenergic and serotonergic modulation of a
+hyperpolarization-activated cation current in
+thalamic relay neurons. J. Physiol. 431:319–
+42
+McCormick DA, Prince DA. 1986a. Mechanisms of action of acetylcholine in the
+guinea-pig cerebral cortex in vitro. J. Physiol.
+375:169–94
+McCormick DA, Prince DA. 1986b. Acetylcholine induces burst firing in thalamic reticular neurones by activating a potassium conductance. Nature 319:402–5
+McCormick DA, Prince DA. 1987. Actions of
+acetylcholine in the guinea-pig and cat medial and lateral geniculate nuclei, in vitro. J.
+Physiol. 392:147–65
+McCormick DA, Prince DA. 1988. Noradrenergic modulation of firing pattern in guinea pig
+and cat thalamic neurons, in vitro. J. Neurophysiol. 59:978–96
+McCormick DA, von Krosigk M. 1992.
+Corticothalamic activation modulates thalamic firing through activation of glutamate
+metabotropic receptors. Proc. Natl. Acad.
+Sci. USA 89:2774–78
+McCormick DA, Wang Z. 1991. Serotonin and
+noradrenaline excite GABAergic neurones of
+the guinea pig and cat thalamic reticular nucleus. J. Physiol. 442:235–55
+McCormick DA, Wang Z, Huguenard JR. 1993.
+Neurotransmitter control of neocortical neuronal activity and excitability. Cereb. Cortex
+3:387–98
+McCormick DA, Williamson A. 1989. Convergence and divergence of neurotransmitter action in human cerebral cortex. Proc. Natl.
+Acad. Sci. USA 86:8098–102
+McCormick DA, Williamson A. 1991. Modulation of neuronal firing mode in Cat and
+Guinea Pig LGNd by histamine. Possible cellular mechanisms of histaminergic control of
+arousal. J. Neurosci. 11:3188–99
+Moruzzi G, Magoun HW. 1949. Brain stem
+reticular formation and activation of the
+EEG. Electroencephalogr. Clin. Neurophysiol. 1:455–73
+Mulle C, Madariage A, Deschˆenes M. 1986.
+Morphology and electrophysiological prop-
+
+P1: mbl
+
+December 12, 1996
+
+Annu. Rev. Neurosci. 1997.20:185-215. Downloaded from www.annualreviews.org
+Access provided by McGill University on 02/06/15. For personal use only.
+
+214
+
+2:34
+
+Annual Reviews
+
+AR24-08
+
+AR24-8
+
+McCORMICK & BAL
+
+erties of reticularis thalami neurons in cat, in
+vivo study of a thalamic pacemaker. J. Neurosci. 6:2134–45
+Niedermeyer E. 1993. Sleep and EEG. In Electroencephalograph. Basic Principles, Clinical Applications, and Related Fields, ed. E
+Niedermeyer, F Lopes Da Silva, pp. 153–66.
+Baltimore: Williams & Wilkins. 3rd ed.
+Pape H-C. 1992. Adenosine promotes burst activity in guinea pig geniculocortical neurones
+through two different ionic mechanisms. J.
+Physiol. 447:729–53
+Pape H-C, Mager R. 1992. Nitric oxide controls oscillatory activity in thalamocortical
+neurons. Neuron 9:441–48
+Pape H-C, McCormick DA. 1995. Electrophysiological and pharmacological properties of
+interneurons in the cat dorsal lateral geniculate nucleus. Neuroscience 68:1105–25
+Pinault D, Bourassa J, Deschˆenes M. 1995a. The
+axonal arborization of single thalamic reticular neurons in the somatosensory thalamus
+of the rat. Eur. J. Neurosci. 7:31–40
+Pinault D, Bourassa J, Deschˆenes M. 1995b.
+Thalamic reticular input to the rat visual thalamus: a single fiber study using biocytin as
+an anterograde tracer. Brain Res. 670:147–
+52
+Pinault D, Deschˆenes M. 1992a. Control of 40Hz firing of reticular thalamic cells by neurotransmitters. Neuroscience 51:259–68
+Pinault D, Deschˆenes M. 1992b. Muscarinic inhibition of reticular thalamic cells by basal
+forebrain neurones. Neuroreport 3:1101–4
+Roy JP, Clercq M, Steriade M, Deschˆenes M.
+1984. Electrophysiology of neurons of lateral
+thalamic nuclei in cat: mechanisms of longlasting hyperpolarizations. J. Neurophysiol.
+51:1220–35
+Sanchez-Vives MV, Bal T, McCormick DA.
+1995. Properties of GABAergic inhibition in
+the ferret LGNd contributing to the generation of synchronized oscillations. Soc. Neurosci. Abst. 21:11
+Scharfman HE, Lu S-M, Guido W, Adams PR,
+Sherman SM. 1990. N-Methyl-D-Aspartate
+receptors contribute to excitatory postsynaptic potentials of cat lateral geniculate neurons
+recorded in thalamic slices. Proc. Natl. Acad.
+Sci. 87:4548–52
+Shosaku A, Kayama Y, Sumitomo I, Sugitani
+M, Iwama K. 1989. Analysis of recurrent inhibitory circuit in rat thalamus: neurophysiology of the thalamic reticular nucleus. Prog.
+Neurobiol. 32:77–102
+Snead OC. 1992. Evidence for GABA-B mediated mechanisms in experimental generalized absence seizures. Eur. J. Pharmacol.
+213:343–49
+Soltesz I, Crunelli V. 1992. GABAA and preand post-synaptic GABAB receptor-medi-
+
+ated responses in the lateral geniculate nucleus. Prog. Brain Res. 90:151–69
+Soltesz I, Lightowler S, Leresche N, JassikGerschenfeld D, Pollard CE, Crunelli V.
+1991. Two inward currents and the transformation of low frequency oscillations of
+rat and cat thalamocortical cells. J. Physiol.
+441:175–97
+Steriade M. 1993. Cellular substrates of brain
+rhythms. In Electroencephalograph. Basic
+Principles, Clinical Applications, and Related Fields, ed. E Niedermeyer, F Lopes
+Da Silva, pp. 27–62. Baltimore: Williams &
+Wilkins. 3rd ed.
+Steriade M, Amzica F, Nunez A. 1993a. Cholinergic and noradrenergic modulation of the
+slow (approximately 0.3 Hz) oscillation in
+neocortical cells. J. Neurophysiol. 70:1385–
+400
+Steriade M, Contreras D, Amzica F. 1994.
+Synchronized sleep oscillations and their
+paroxysmal developments. Trends Neurosci.
+17:199–208
+Steriade M, Contreras D, Curr´o Dossi R, Nunez
+A. 1993b. The slow (<1 Hz) oscillation in
+reticular thalamic and thalamocortical neurons. Scenario of sleep rhythms generation
+in interacting thalamic and neocortical networks. J. Neurosci. 13:3284–99
+Steriade M, Deschˆenes M. 1984. The thalamus
+as a neuronal oscillator. Brain Res. Rev. 8:1–
+63
+Steriade M, Deschˆenes M, Domich L, Mulle
+C. 1985. Abolition of spindle oscillations
+in thalamic neurons disconnected from nucleus reticularis thalami. J. Neurophysiol.
+54:1473–97
+Steriade M, Domich L, Oakson G. 1986. Reticularis thalami neurons revisited. Activity
+changes during shifts in states of vigilance.
+J. Neurosci. 6:68–81
+Steriade M, Domich L, Oakson G. 1987.
+The deafferented reticular thalamic nucleus
+generates spindle rhythmicity. J. Neurophysiol. 57:260–73
+Steriade M, Llin´as RR. 1988. The functional
+states of the thalamus and the associated neuronal interplay. Physiol. Rev. 68:649–742
+Steriade M, McCarley RW. 1990. Brainstem
+Control of Wakefulness and Sleep. New York:
+Plenum
+Steriade M, McCormick DA, Sejnowski TJ.
+1993c. Thalamocortical oscillations in the
+sleeping and aroused brain. Science 262:679–
+85
+Steriade M, Nunez A, Amzica F. 1993d. A novel
+slow (<1 Hz) oscillation of neocortical neurons in vivo, depolarizing and hyperpolarizing components. J. Neurosci. 13:3252–65
+Steriade M, Nunez A, Amzica F. 1993e. Intracellular analysis of relations between slow
+
+P1: mbl
+
+December 12, 1996
+
+2:34
+
+Annual Reviews
+
+AR24-08
+
+AR24-8
+
+Annu. Rev. Neurosci. 1997.20:185-215. Downloaded from www.annualreviews.org
+Access provided by McGill University on 02/06/15. For personal use only.
+
+THALAMOCORTICAL ACTIVITY
+(<1 Hz) neocortical oscillation and other
+sleep rhythms of the electroencephalogram.
+J. Neurosci. 13:3266–83
+Steriade M, Parent A, Hada J. 1984. Thalamic projections of nucleus reticularis thalami
+of cat, a study using retrograde transport of
+horseradish peroxidase and double fluorescent tracers. J. Comp. Neurol. 229:531–47
+Thomson AM. 1988. Inhibitory postsynaptic
+potentials evoked in thalamic neurons by
+stimulation of the reticularis nucleus evoke
+slow spikes in isolated rat brain slices-I. Neuroscience 25:491–502
+Toth T, Crunelli V. 1992. Computer simulation
+of the pacemaker oscillations of thalamocortical cells. Neuroreport 3:65–68
+Uhlrich DJ, Cucchiaro JB, Humphrey AL, Sherman SM. 1991. Morphology and axonal projection patterns of individual neurons in the
+cat perigeniculate nucleus. J. Neurophysiol.
+65:1528–41
+Ulrich D, Huguenard JR. 1995. Purinergic inhibition of GABA and glutamate release in the
+thalamus: implications for thalamic network
+activity. Neuron 15:909–18
+von Krosigk M, Bal T, McCormick DA. 1993.
+Cellular mechanisms of a synchronized oscillation in the thalamus. Science 261:361–64
+
+215
+
+von Krosigk M, McCormick DA. 1992. Mechanisms of frequency dependent facilitation of
+corticothalamic EPSPs. Soc. Neurosci. Abst.
+18:140
+Wang X-J. 1994. Multiple dynamical modes
+of thalamic relay neurons, rhythmic bursting and intermittent phase-locking. Neuroscience 59:21–31
+Wang Z, McCormick DA. 1993. Control of firing mode of corticotectal and corticopontine
+layer V burst generating neurons by norepinephrine, acetylcholine and 1S,3R-ACPD.
+J. Neurosci. 13:2199–216
+Warren RA, Agmon A, Jones EG. 1994. Oscillatory synaptic interactions between ventroposterior and reticular neurons in mouse
+thalamus in vitro. J. Neurophysiol. 72:1993–
+2003
+White EL, Hersch SM. 1982. A quantitative
+study of thalamocortical and other synapses
+involving the apical dendrites of corticothalamic projection cells in mouse SmI cortex.
+J. Neurocytol. 11:137–57
+Yen CT, Conley M, Hendry SHC, Jones EG.
+1985. The morphology of physiologically
+identified GABAergic neurons in the somatic
+sensory part of the thalamic reticular nucleus
+in the cat. J. Neurosci. 5:2254–68
+
+

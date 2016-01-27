@@ -1,0 +1,1541 @@
+LETTER
+
+Communicated by Olivier Faugeras
+
+Realistically Coupled Neural Mass Models Can Generate EEG
+Rhythms
+Roberto C. Sotero
+rcarlos@cneuro.edu.cu
+
+Nelson J. Trujillo-Barreto
+trujillo@cneuro.edu.cu
+
+Yasser Iturria-Medina
+iturria@cneuro.edu.cu
+Cuban Neuroscience Center, Brain Dynamics Department, Havana, Cuba
+
+Felix Carbonell
+felix@icmf.inf.cu
+
+Juan C. Jimenez
+jcarlos@icmf.inf.cu
+Instituto de Cibern´etica Matem´atica y F´ısica, Departamento de Sistemas Adaptativos,
+Havana, Cuba
+
+We study the generation of EEG rhythms by means of realistically coupled neural mass models. Previous neural mass models were used to
+model cortical voxels and the thalamus. Interactions between voxels of
+the same and other cortical areas and with the thalamus were taken into
+account. Voxels within the same cortical area were coupled (short-range
+connections) with both excitatory and inhibitory connections, while coupling between areas (long-range connections) was considered to be excitatory only. Short-range connection strengths were modeled by using
+a connectivity function depending on the distance between voxels. Coupling strength parameters between areas were defined from empirical
+anatomical data employing the information obtained from probabilistic
+paths, which were tracked by water diffusion imaging techniques and
+used to quantify white matter tracts in the brain. Each cortical voxel was
+then described by a set of 16 random differential equations, while the
+thalamus was described by a set of 12 random differential equations.
+Thus, for analyzing the neuronal dynamics emerging from the interaction of several areas, a large system of differential equations needs to
+be solved. The sparseness of the estimated anatomical connectivity matrix reduces the number of connection parameters substantially, making
+the solution of this system faster. Simulations of human brain rhythms
+were carried out in order to test the model. Physiologically plausible results were obtained based on this anatomically constrained neural mass
+model.
+Neural Computation 19, 478–512 (2007)
+
+C
+
+2007 Massachusetts Institute of Technology
+
+Realistic Neural Mass Models
+
+479
+
+1 Introduction
+We aim at describing a generative model of EEG rhythms based on anatomically constrained coupling of neural mass models. Although the biophysical
+mechanisms underlying oscillatory activity in neurons are well studied, the
+origin and function of global characteristics (such as EEG rhythms) of large
+populations of neurons are still unknown. In this context, computational
+models have proven capable of providing insight into this problem. Two
+modeling approaches have been used to study the behavior of neuronal
+populations. One approach is based on the study of large computational
+neuronal networks in which each cell is realistically represented by multiple compartments for the soma, axon, and dendrites, and each synaptic
+connection is modeled explicitly (Traub & Miles, 1991). A disadvantage of
+such realistic modeling is that it requires high computational power. For
+this reason, simplified versions of such models in which only one compartment model was taken into account have been used (Wang, Golomb, &
+Rinzel, 1995; Rinzel, Terman, Wang, & Ermentrout, 1998). However, even
+in this case, the use of such detailed models makes it difficult to determine
+the influence of each model parameter on the generated average network
+characteristics. The second approach is based on the use of neural mass
+models (NMM). In contrast to neuronal networks, NMMs describe the dynamics of cortical columns and brain areas by using only a few parameters,
+but without much detail. In this approach, spatially averaged magnitudes
+are assumed to characterize the collective behavior of populations of neurons of a given type instead of modeling single cells and their interactions in a detailed network (Wilson & Cowan, 1972; Lopes da Silva, Hoeks,
+Smits, & Zetterberg, 1974; Zetterberg, Kristiansson, & Mossberg, 1978; van
+Rotterdam, Lopes da Silva, van den Ende, Viergever, & Hermans, 1982;
+Jansen & Rit, 1995; Valdes, Jim´enez, Riera, Biscay, & Ozaki, 1999; Wendling,
+Bellanger, Bartolomei, & Chauvel, 2000; David & Friston, 2003).
+Despite their simplicity, NMMs have been very helpful in the study
+of EEG rhythms. For example, in order to study the origin of the alpha
+rhythm, Lopes da Silva et al. (1974) developed an NMM comprising two
+interacting populations of neurons, the thalamocortical relay cells and the
+inhibitory interneurons, which were interconnected by a negative feedback
+loop. Later, this model was extended to include both positive and negative
+feedback loops (Zetterberg et al., 1978; Jansen, Zouridakis, & Brandt, 1993).
+In Jansen and Rit (1995), alpha and beta activities were replicated by using
+two coupled neural mass models representing cortical areas with delays
+in the interconnections between them. Wendling et al. (2000) investigated
+the generation of epileptic spikes by extending Jansen’s model to multiple
+coupled areas but explored the dynamics of only three areas for different
+values of the connectivity constants. David and Friston (2003) considered
+that a cortical area comprises several noninteracting neuronal populations
+that were in turn described by Jansen’s models. This model allowed them
+
+480
+
+R. Sotero et al.
+
+to reproduce the whole spectrum of EEG signals by changing the coupling
+between two of these areas, thus showing the importance of parameters
+related to the coupling between different brain regions for the resulting
+dynamics.
+Due to the lack of information about actual connectivity patterns, previous approaches have been devoted to the study of the temporal evolution
+of neuronal populations rather than their spatial dynamics. However, the
+development of techniques such as diffusion weighted magnetic resonance
+imaging (DWMRI) in the past 20 years makes noninvasive study of the
+anatomical brain circuitry of the living human brain possible. This has put
+at our disposal extremely valuable information and gives us a unique opportunity to formulate models that take into account a more realistic view
+of the central nervous system.
+In this article, we extend Jansen’s model to characterize the dynamics of
+a cortical voxel. Building on this, our goal is to study the rhythms obtained
+when coupling several areas comprising large numbers of interconnected
+voxels. In this approach, voxels of the same cortical area are assumed to
+be coupled with excitatory and inhibitory connections (short-range connections), while connections between areas (long-range connections) are
+assumed to be excitatory only. This is an extension of the model of David
+and Friston (2003) because interactions between voxels within the same area
+are taken into account. Additionally, we introduce anatomical constraints
+on coupling strength parameters (CSP) between different brain regions.
+This is accomplished by using CSPs estimated from human DWMRI data
+(Iturria-Medina, Canales-Rodr´ıguez, Meli´e-Garcia, & Vald´es-Hern´andez,
+2005). The thalamus is also modeled using a single NMM, mutually coupled with the cortical areas. We show that this anatomically constrained
+NMM can reproduce the EEG rhythms recorded at the scalp, another step
+in the validation of NMMs as a valuable tool for describing the activity of
+large populations of neurons.
+The letter is organized as follows. In section 2, the NMMs used for a
+cortical voxel and the thalamus are formulated. Section 3 is devoted to
+the modeling of short-range and long-range interactions. The integrated
+thalamocortical model is formulated in section 4. In section 5 the observation
+model that links the activity in a cortical voxel with the recorded EEG on the
+scalp surface is presented. Section 6 describes the numerical method used
+for integrating the huge system of random differential equations obtained.
+Finally, sections 7 and 8 are devoted to a description of the simulations as
+well as a discussion of the results.
+2 Models for a Cortical Voxel and the Thalamus
+In this work we model the neuronal activity in a cortical voxel by extending previous neural mass models that have been used to describe neural dynamics at smaller spatial scales. In particular, Jansen and Rit (1995)
+
+Realistic Neural Mass Models
+
+481
+
+A
+
+B
+
+Figure 1: The basic neural mass models used. (A) Model for a cortical voxel. The
+dynamics is obtained by the interaction of three populations of neurons: excitatory pyramidal cells, excitatory spiny stellate cells, and inhibitory interneurons
+(smooth stellate cells). Input to the system is modeled by the pulse density
+p(t). This reduces to Jansen’s model when removing the dashed-line loop. (B)
+Model for the thalamus. Interaction between one excitatory and one inhibitory
+subpopulation, representing thalamocortical and reticular-thalamic neurons,
+respectively.
+
+studied the temporal dynamics of a cortical column by means of the interaction of interconnected populations of excitatory pyramidal and stellate
+cells as well as inhibitory interneurons. This model (see Figure 1A, except
+for the dashed-line loop) capitalizes on the basic circuitry of the cortical
+column (Mountcastle, 1978, 1997). Pyramidal cells receive feedback from
+
+482
+
+R. Sotero et al.
+
+excitatory and inhibitory interneurons, which receive only excitatory
+input from pyramidal cells. Nevertheless, at the spatial scale of voxels,
+this simplified circuitry is no longer valid, but more complicated interactions need to be considered. While a cortical column has a diameter of 150 to
+300 µm, the length of a voxel usually ranges from 1 to 3 mm, comprising several interconnected columns. At this spatial scale, pyramidal-to-pyramidal
+connections become increasingly important, accounting for the majority of
+¨ 1998). In our approach, Jansen’s
+intracortical fibers (Braitenberg & Schuz,
+model is extended to include this kind of connection by adding a selfexcitatory loop for the pyramidal population (see Figure 1B). Zetterberg
+et al. (1978) had already used a generic model of this kind for describing
+the temporal dynamics of a neuronal mass consisting of two excitatory
+and one inhibitory population. Although they were able to produce signals
+resembling EEG background activity, their model had no specific neural
+substrate.
+Usually in this type of modeling, the dynamics of each neuronal population is represented by two transformations (Jansen & Rit, 1995; Zetterberg
+et al., 1978). First, the average pulse density of action potentials entering a
+population is converted into an average postsynaptic membrane potential
+by means of linear convolutions with impulse responses h e (t) and h i (t) for
+the excitatory and the inhibitory case, respectively:
+h e (t) = Aa te −a t
+h i (t) = Bbte
+
+−bt
+
+(2.1)
+.
+
+(2.2)
+
+Parameters Aand B represent the maximum amplitude of excitatory (EPSP)
+and inhibitory postsynaptic potentials (IPSP), respectively, while lumped
+parameters a and b depend on passive membrane time constants and other
+distributed delays in the dendritic network.
+The second (nonlinear) transformation accounts for the conversion of average membrane potentials of the population into an average pulse density
+of action potentials, which is accomplished by means of a sigmoid function,
+
+S(ν) =
+
+2e 0
+,
+1 + e r (v0 −v)
+
+(2.3)
+
+where 2e 0 is the maximum firing rate, ν0 is the postsynaptic potential (PSP)
+corresponding to firing rate e 0 , and parameter r controls the steepness of the
+sigmoid function.
+The interaction between the different populations is characterized by
+five connectivity constants c 1 , c 2 , c 3 , c 4 , c 5 (see Figure 1A), which represent
+the average number of synaptic contacts. The first four constants have the
+
+Realistic Neural Mass Models
+
+483
+
+same interpretation as in Jansen and Rit (1995) and were related in that
+work based on physiological arguments:
+c 2 = 0.8c 1 , c 3 = c 4 = 0.25c 1 .
+
+(2.4)
+
+Similarly, c 5 accounts for interactions between pyramidal cells. Using
+Laplace transforms, this convolution model can easily be expressed in terms
+of the following system of differential equations:
+y˙ 1 (t) = y4 (t)
+y˙ 2 (t) = y5 (t)
+y˙ 3 (t) = y6 (t)
+y˙ 4 (t) = Aa { p(t) + c 5 S(y1 (t) − y2 (t)) + c 2 S(c 1 y3 (t))} − 2a y4 (t) − a 2 y1 (t)
+y˙ 5 (t) = Bbc 4 S(c 3 y3 (t)) − 2by5 (t) − b 2 y2 (t)
+y˙ 6 (t) = Aa S(y1 (t) − y2 (t)) − 2a y6 (t) − a 2 y2 (t),
+
+(2.5)
+
+where y1 (t), y3 (t) are average EPSP and y2 (t) is the average IPSP (see
+Figure 1A).
+From classical electrophysiology, pyramidal cells are considered to be
+the main contributors to the measured EEG at the scalp surface. This is also
+known to stem from two basic reasons: (1) the specific location of excitatory
+and inhibitory synaptic inputs on the pyramidal neuron and (2) the spatial
+organization of these cells in the form of a palisade oriented perpendicular
+to the cortex (Niedermeyer & Lopes da Silva, 1987; Nunez, 1981). That is,
+afferent excitatory connections make contact predominantly on apical dendrites, creating an extracellular negative potential (sink of current due to
+Na + entering the cell), while inhibitory synapses reach mainly the soma of
+the neuron, creating an extracellular positive potential (source of current
+due to Cl − entering the cell). Thus, at a macroscopic level, the potential
+field generated by a synchronously activated palisade of neurons behaves
+like that of a dipole layer and can be considered the basis of EEG generation. Note that in our approach, y1 (t) and y2 (t) are the result of excitatory
+and inhibitory synapses acting on the pyramidal cell population. Thus, the
+difference y1 (t) − y2 (t) can be taken in a fairly good approximation to be
+proportional to the EEG signal (Jansen & Rit, 1995).
+The input to the model in Figure 1A is the process p(t), which represents
+the basal stochastic activity within the voxel plus the extrinsic input. This
+extrinsic input does not include afferences from voxels of the same and
+other cortical areas, but it models specific stimulus-dependent input that
+modulates the activity of the neuronal population.
+Additionally, our approach capitalizes on specific properties of the thalamic nuclei in order to model the contribution of this subcortical structure,
+
+484
+
+R. Sotero et al.
+
+which is the main relay station of the sensory input on its way to the cortex. That is, the thalamus comprises two major populations of neurons:
+thalamocortical (TC) excitatory relay neurons and thalamic inhibitory reticular (RE) neurons. Only the axons of TC neurons project to the cortex,
+while RE neurons form an inhibitory network that surrounds the thalamus
+and project inhibitory connections to TC neurons exclusively (Destexhe &
+Sejnowski, 2001). This circuitry allowed us to formulate the mass model
+shown in Figure 1B, which Lopes da Silva et al. (1974) used for simulating
+the alpha rhythm. Note that the model is used to describe the dynamics
+of the thalamus as a whole, without taking into account any subdivision
+into voxels. The motivation for this was the physical separation of the two
+types of neuronal populations that form the thalamus. On the other hand,
+the absence of any preferential orientation of the neurons in the thalamus,
+together with the depth of this structure, has led to the idea that it does
+not generate any measurable voltage at the scalp surface. Thus, in our approach, no direct thalamic contribution to the EEG is considered. A more
+sophisticated model of the thalamic activity could be used to elucidate its
+actual contribution to the EEG generation, but that would entail a detailed
+knowledge of its microscopic cytoarchitectonic organization, which we lack
+at the moment.
+
+3 Short-Range versus Long-Range Interactions
+If we want to model the dynamics of macroscopic cortical areas, we have
+to augment the model described to account for the specific neuronal interactions in the brain. In the cytoarchitectonic organization of the cerebral
+cortex, two types of connections can be distinguished: short-range and
+long-range connections (SRC and LRC, respectively). SRCs are made by
+cortical neurons with local branches that can reach a maximum of about
+10 mm (Braitenberg, 1978; Abeles, 1991; Jirsa & Haken, 1997) corresponding
+to the length of the longest horizontal axon collaterals plus the length of
+the longest dendrites. LRCs are mainly formed by axons of pyramidal cells
+that cross the white matter and connect cortical regions that can be up to
+100 mm apart (Abeles, 1991; Jirsa & Haken, 1997).
+Several differences between these two systems can be established, not
+only in their characteristic lengths but also in their specificity and function
+¨ 1998). While SRCs can be described in
+(Abeles, 1991; Braitenberg & Schuz,
+statistical terms, with an effective connection strength that diminishes exponentially with the distance between neuronal populations, LRCs do not
+show such a regular and smooth pattern but have a high degree of specificity. Additionally, LRCs terminate preferentially on the apical dendrites of
+pyramidal cells, while local collaterals terminate more on basal dendrites.
+In the following sections, we describe how this differentiation of cortical
+interactions is incorporated into our model.
+
+Realistic Neural Mass Models
+
+485
+
+3.1 Within-Area Interactions. First, SRCs that mediate neuronal interactions within a cortical area will be described. A diagram of the proposed
+augmented model for a given voxel is shown in Figure 2A. We assume
+that voxels of the same area are coupled by means of both excitatory and
+inhibitory connections, where the pyramidal cell population is the target
+of all the input to the system. Excitatory input comes from pyramidal and
+spiny stellate cell populations with coupling strengths described by connectivity functions that depend on the distance between voxels |xm − x j |
+(Jirsa & Haken, 1996, 1997):
+mj
+
+ke1 =
+mj
+
+ke2 =
+
+1 − |xmσ−x j |
+e1
+e
+2σe1
+
+(3.1)
+
+1 − |xmσ−x j |
+e2
+e
+.
+2σe2
+
+(3.2)
+mj
+
+mj
+
+In equations 3.1 and 3.2, ke1 and ke2 are the strengths of the connections that
+pyramidal cells and excitatory interneurons of voxel m make on pyramidal
+cells of voxel j, respectively. Delays in these connections can be modeled by
+linear transformations similar to equation 2.1, as in Jansen and Rit (1995).
+We use h d2 (t) and h d3 (t), respectively:
+h d2 (t) = Aa d2 te −a d2 t
+h d3 (t) = Aa d3 te
+
+−a d3 t
+
+(3.3)
+.
+
+(3.4)
+
+Similar equations are formulated for within-area inhibitory connections,
+mj
+which are considered by means of the connection strength ki that inhibitory interneurons (smooth stellate cells) of voxel m exert on pyramidal
+cells of voxel j, that is,
+1 − |xmσ−x j |
+i
+e
+2σi
+
+(3.5)
+
+h d4 (t) = Bb d4 te −bd4 t .
+
+(3.6)
+
+mj
+
+ki =
+
+3.2 Between-Area Interactions. Interactions between distant cortical
+areas are determined by LRCs, which in our approach are mediated by
+pyramidal-to-pyramidal cell connections. There is no clarity about the rules
+¨ 1998). Nevertheless,
+governing the system of LRCs (Braitenberg & Schuz,
+the emergence of new imaging techniques like diffusion weighted magnetic
+resonance imaging (DWMRI) in the past few years has opened a window
+to the study of this type of connection in the living human brain. DWMRI
+is based on the fact that trajectories followed by water molecules during
+diffusion processes reflect the microscopic environment of brain tissues.
+Then nervous fibers can be characterized by tracing probabilistic paths
+
+486
+
+R. Sotero et al.
+
+Figure 2: The thalamocortical model. (A) Input-output relationship for the neural mass model of a cortical voxel. A cortical voxel receives excitatory afferences
+from pyramidal cells and excitatory stellate cells of voxels of the same area, from
+pyramidal cells of other cortical areas, and from TC relay neurons. Inhibitory
+afferences are received from inhibitory interneurons of voxels of the same area.
+The pulse density p(t) accounts for the basal stochastic activity within the voxel.
+(B) Input-output relationship for the neural mass model of the thalamus. TC
+relay neurons send axonal projections to the cortex, where they make synapses
+on the three populations of neurons considered. TC cells receive backward connections from cortical pyramidal neurons. The pulse density pth (t) accounts for
+the background stochastic activity within the thalamus plus stimulus related
+inputs.
+
+Realistic Neural Mass Models
+
+487
+
+that represent the preferred direction of water diffusion along the nervous
+fibers in each voxel. Finally, measures of anatomical connectivity reflecting
+the interrelation between voxels and areas can be defined and calculated
+based on these paths. In this article, the LRC strength K i,n between two
+areas i and n will be estimated from actual DWMRI data.
+Most work in the field of DWMRI has defined measures of betweenvoxel rather than between-areas anatomical connectivity. For example, for
+characterizing the probability of connection of a point R with a point P, one
+can use the number of probabilistic paths leaving P and entering R divided
+by the number of probabilistic paths generated in P (Behrens et al., 2003;
+Hagmann et al., 2003; Parker, Wheeler-Kingshott, & Barker, 2002; Koch,
+Norris, & Hund-Georgiadis, 2002). In Tuch (2002) the probability of connection between two points is estimated as the probability of the most probable paths joining both points, while in Parker et al. (2002) and Tournier,
+Calamate, Gadian, & Connelly, (2003), it is taken as the probability of the
+path that minimizes a cost function depending on diffusion data. However,
+diffusion data generally show high isotropy within the gray matter, giving
+poor information about the distribution of nerve fibers. Consequently, in
+most cases, it is not convenient to trace probabilistic paths within gray matter areas. Another approach for studying connectivity in the brain is to use
+only the points at the boundaries of gray matter regions for characterizing
+connection strengths between zones and not between the individual voxels
+comprising them. In this line of work, Iturria-Medina, Canales-Rodr´ıguez
+et al. (2005) and Iturria-Medina, Vald´es-Hern´andez et al. (2005) proposed a
+model for obtaining anatomical connection strengths (ACS) between brain
+zones. In their method, the ACS between two regions, A and B (C A↔B ),
+was defined as being proportional to the cross-section area of the total
+cylindrical-shaped volume of the nervous fibers shared by these regions.
+ACS was then calculated as the area occupied by the connector volume over
+the surfaces of the connected zones,
+C A↔B = AT(A,B) + BT(A,B) ,
+
+(3.7)
+
+where AT( A,B) and BT( A,B) represent the area defined by fibers (both afferent
+and efferent), joining A with B over the surface of A and B, respectively.
+These areas were evaluated from a DWMRI data set by measuring the
+number of target voxels on each surface of the generated probabilistic paths
+that simulate fiber trajectories under the assumption that those paths are
+contained inside the connector volume.
+Notice that methods for reconstructing fiber paths using DWMRI data
+cannot distinguish between excitatory and inhibitory connections. However, in the proposed model, LRCs are considered to be excitatory only.
+This assumption is consistent with physiological and anatomical studies,
+demonstrating, that pyramidal cells of layer III are the main source of the
+
+488
+
+R. Sotero et al.
+
+feedforward projections to other cortical areas (Gilbert & Wiesel, 1979, 1983;
+Martin & Whitteridge, 1984; McGuire, Gilbert, Rivlin, & Wiesel, 1991; Douglas & Martin, 2004). Thus, information obtained from DWMRI data can be
+used as a measure of the CSP (K i,n ) between any two given areas i and n.
+For modeling delays in long-range connections, we use
+h d1 (t) = Aa d1 te −a d1 t .
+
+(3.8)
+
+Like parameters a and b of Jansen’s model, constants a d1 , a d2 , a d3 , and b d4
+account for passive membrane time constants and other distributed delays
+in the dendritic network.
+4 Thalamocortical Model
+In this section we present the final mathematical formulation of the thalamocortical model proposed, with SRCs and LRCs included.
+As shown in Figure 2A, intra- and intervoxel interactions are described
+by nine connectivity constants, from c 1 to c 9 . The first five constants, c 1 to c 5 ,
+have already been defined in section 2. Constant c 6 represents the number
+of synapses made by pyramidal cells of one voxel on voxels of other areas,
+c 7 is the number of synapses made by pyramidal cells on voxels of the
+same area, and constants c 8 and c 9 are the number of synapses made by
+excitatory and inhibitory interneurons on pyramidal cells of voxels within
+the same area. Thus, the dynamics of the neuronal activity in a cortical voxel
+is described by a system of 16 differential equations:
+nj
+
+nj
+
+nj
+
+nj
+
+nj
+
+nj
+
+nj
+
+nj
+
+nj
+
+nj
+
+nj
+
+nj
+
+nj
+
+nj
+
+nj
+
+nj
+
+y˙ 1 (t) = y9 (t)
+y˙ 2 (t) = y10 (t)
+y˙ 3 (t) = y11 (t)
+y˙ 4 (t) = y12 (t)
+y˙ 5 (t) = y13 (t)
+y˙ 6 (t) = y14 (t)
+y˙ 7 (t) = y15 (t)
+y˙ 8 (t) = y16 (t)
+nj
+
+nj
+
+nj
+
+nj
+
+y˙ 9 (t) = Aa c 5 S y1 (t) − y2 (t) + c 2 S y3 (t) + K th,n c 3t S(x4 (t))
+
+
+ Mn
+mj
+mj
+ke1 c 7 S y6mn (t) + ke2 c 8 S (y7mn (t))
++ Aa
+
+ m=1
+m= j
+
+Realistic Neural Mass Models
+
+Mi
+
+N
+
++
+
+K i,n
+
+c 6 S y5im (t)
+m=1
+
+i=1
+i=n
+
+nj
+
+y˙ 10 (t) = Bb
+
+489
+
+
+
+
+
+
+
+
+nj
+
+nj
+
+mj
+
+c 4 S y4 (t) +
+
+ki c 9 S y8nm (t)
+m=1
+m= j
+
+nj
+
+nj
+
+− 2a y9 (t) − a 2 y1 (t) + Aa p nj (t)
+
+Mn
+
+
+
+
+nj
+
+
+
+
+
+
+
+
+
+
+
+nj
+
+nj
+
+− 2by10 (t) − b 2 y2 (t)
+
+nj
+
+nj
+
+nj
+
+y˙ 11 (t) = Aa c 1 S y1 (t) − y2 (t) + K th,n c 4t S(x5 (t)) − 2a y11 (t) − a 2 y3 (t)
+nj
+
+nj
+
+nj
+
+nj
+
+nj
+
+y˙ 12 (t) = Aa c 3 S y1 (t) − y2 (t) + K th,n c 5t S (x6 (t)) − 2a y12 (t) − a 2 y4 (t)
+nj
+
+nj
+
+nj
+
+nj
+
+nj
+
+nj
+
+nj
+
+nj
+
+nj
+
+nj
+
+nj
+
+nj
+
+nj
+
+nj
+
+nj
+
+nj
+
+nj
+
+nj
+
+2
+y˙ 13 (t) = Aa d1 S y1 (t) − y2 (t) − 2a d1 y13 (t) − a d1
+y5 (t)
+2
+y˙ 14 (t) = Aa 21 S y1 (t) − y2 (t) − 2a d2 y14 (t) − a d2
+y6 (t)
+2
+y˙ 15 (t) = Aa d3 S y3 (t) − 2a d3 y15 (t) − a d3
+y7 (t)
+2
+y˙ 16 (t) = Bb d4 S y4 (t) − 2b d4 y16 (t) − b d4
+y8 (t),
+
+(4.1)
+
+where the superscript nj refers to the voxel j in the area n. The system
+has extrinsic inputs given by connections from other cortical voxels and the
+thalamus as well as an intrinsic input p(t) that represents baseline stochastic
+nj
+nj
+activity within the voxel. The output is taken as y1 (t) − y2 (t), which from
+section 2 can be considered proportional to the generated EEG signal. Note
+that close voxels separated by the boundary of two neighboring regions are
+considered to be coupled through LRC solely, even if they are close enough
+for the SRC to be important. This simplification can easily be avoided by
+nj
+nj
+adding relevant terms to the equations for y˙ 9 and y˙ 10 in equation 4.1.
+Nevertheless, in the calculations shown here, all anatomical areas were
+chosen large enough and the activation regions within each area located
+distant enough such that boundary effects could be neglected. This allowed
+us to keep equations simple for the sake of a better understanding of the
+model.
+In the case of the thalamus, the main output of the system is mediated
+by TC cells, which are assumed to send axonal projections to the three
+populations of neurons in the cortex: pyramidal, spiny stellate, and smooth
+stellate cells (see Figure 2). On the contrary, only pyramidal cells project
+back to the thalamus and make synapses on TC neurons. This model is
+described by the following set of 12 differential equations:
+x˙ 1 (t) = x7 (t)
+x˙ 2 (t) = x8 (t)
+
+490
+
+R. Sotero et al.
+
+x˙ 3 (t) = x9 (t)
+x˙ 4 (t) = x10 (t)
+x˙ 5 (t) = x11 (t)
+x˙ 6 (t) = x12 (t)
+Mi
+
+N
+
+x˙ 7 (t) = At a t
+
+c 6 S y5im (t) + pth (t) − 2a t x7 (t) − a t2 x1 (t)
+
+K th,i
+i=1
+
+m=1
+
+x˙ 8 (t) = Bt b t c 2t S (c 1t x3 (t)) − 2b t x8 (t) − b t2 x2 (t)
+x˙ 9 (t) = At a t S(x1 (t) − x2 (t)) − 2a t x9 (t) − a t2 x3 (t)
+2
+x˙ 10 (t) = At a d1t S (x1 (t) − x2 (t)) − 2a d1t x10 (t) − a d1t
+x4 (t)
+2
+x˙ 11 (t) = At a d2t S (x1 (t) − x2 (t)) − 2a d2t x11 (t) − a d2t
+x5 (t)
+2
+x6 (t).
+x˙ 12 (t) = At a d3t S (x1 (t) − x2 (t)) − 2a d3t x12 (t) − a d3t
+
+(4.2)
+
+The pulse density input pth (t) in this case can be modeled as the sum of a
+stimulus (visual or auditory stimulation for example) and a basal random
+activity in the thalamus.K th,i is the CSPs between the thalamus and the
+cortical area i and is obtained from the anatomical connectivity matrix as
+described in section 3.2.
+At this point, it is worth making some comments about the mathematical formulation of systems 4.1 and 4.2. The two neural mass models
+correspond to a mathematical object called random differential equation
+(RDE) (Hasminskii, 1980 i.e., equations of the form d x(t) = f (x(t), p(t))dt,
+where p(t) is an external stochastic process). Indeed, in equations 4.1
+and 4.2, the nonautonomous inputs p nj (t) and pth (t) are external stochastic processes. Note that for each fixed realization of p nj (t) and pth (t),
+the systems 4.1 and 4.2 are in fact nonautonomous ordinary differential equations. This approach differs from the neural mass models
+proposed in Jansen and Rit (1995), Wendling et al. (2000), and David
+and Friston (2003), which mainly use stochastic differential equations
+(SDE) (i.e., equations of the form d x(t) = f (x(t))dt + g(x(t))dW(t), where
+the differential dW(t) of the Wiener process W(t) is a gaussian white
+noise).
+Notice that the mathematical formulation of SDEs and RDEs is
+quite different (Gard, 1988). However, both types of equations are
+related in the particular case p(t) = W(t). That is, the RDE d x(t) =
+f (x(t), p(t))dtcan be transformed into an SDE by adding the equation
+d p(t) = d W(t). Hence, the framework of RDEs allows us to consider not
+only Wiener process but also other types of modeling for the noise
+p(t). Besides, numerical calculations can be significantly simplified by
+
+Realistic Neural Mass Models
+
+491
+
+avoiding elements of stochastic integration theory usually required in
+SDEs.
+Finally, the existence and uniqueness of the solution of systems 4.1 and
+4.2 follow from classical arguments. That is, given a realization of the
+stochastic processes p nj (t) and pth (t), it is easily seen that the right-hand
+side of systems 4.1 and 4.2 is given by continuously differentiable functions
+of their respective arguments (for any choice of the corresponding parameters). Besides, function S (v(t)) defined in equation 2.3, the only source of
+nonlinearity presented on both systems, satisfies a Lipchitz condition (it has
+first derivative bounded). According to theorem 3.1 in Hasminskii (1980),
+these two last conditions (continuity and Lipchitz) are enough to guarantee that our model is well posed (i.e., existence and uniqueness of the
+solution).
+5 EEG Observation Model
+We now relate the average membrane potential of pyramidal cells of each
+voxel to the observed EEG on the scalp surface.
+The current dipole due to a PSP is approximately (H¨am¨al¨ainen, Hari,
+Ilmoniemi, Knuutila, & Lounasmaa, 1993)
+j=
+
+π 2
+d σin V = ε V
+4
+
+(5.1)
+
+ε=
+
+π 2
+d σin ,
+4
+
+(5.2)
+
+where d is the diameter of the dendrite, σin is the intracellular conductivity,
+and V is the change of voltage during a PSP (for a single PSP j ≈ 20 fAm;
+H¨am¨al¨ainen et al., 1993). The equivalent current dipole (ECD) due to N
+PSPs is then
+N
+
+J =
+
+N
+
+αi ji ≈ ε
+i=1
+
+αi Vi ,
+
+(5.3)
+
+i=1
+
+where αi is +1 for EPSP and −1 for IPSP. As discussed in section 2, we can
+assume that for one voxel.
+N
+
+y1 (t) − y2 (t) =
+
+αi Vi
+
+(5.4)
+
+i=1
+
+and
+J (t) = ε (y1 (t) − y2 (t)) .
+
+(5.5)
+
+492
+
+R. Sotero et al.
+
+On the other hand, from the forward problem of the EEG, we know that the
+voltage measured at the scalp surface due to a current density distribution
+is given by
+φ(rs , t) =
+
+K (rs , r g ) J (r g , t)d 3 r g .
+
+(5.6)
+
+where the kernel K (rs , r g ) is the electric lead field, which summarizes the
+electric and geometric properties of the conducting media (brain, skull, and
+scalp), and J (r g , t) is the primary current density (PCD) vector. The indices
+s and g run over the sensor (electrodes) and generator (voxels) spaces,
+respectively, and t denotes time. The lead field matrix K (rs , r g ) is commonly
+known and can be calculated by means of the reciprocity theorem (Plonsey,
+1963; Rush & Driscoll, 1969). Thus, the EEG generated due to the activation
+of one voxel at a given array of electrodes distributed over the scalp surface
+can easily be calculated by multiplication of the lead field by expression 5.5,
+both evaluated for the given voxel.
+6 Numerical Method
+As we mentioned in section 4, an RDE is just a nonautonomous ordinary
+differential equation (ODE) coupled with a stochastic process ( p(t) and
+pth (t) in our model). Thus, in principle, RDEs can be integrated by applying
+conventional numerical methods for ODEs. However, it is well known that
+classical methods in ODEs may introduce “ghost” solutions and numerical
+instabilities when applied to nonlinear equations, which is critical when
+dealing with high-dimensional problems (as in our case). On the other
+hand, very few researchers have studied systematically the properties of
+such methods for the numerical integration of RDEs (Grune & Kloeden,
+2001; Carbonell, Jimenez, Biscay, & de la Cruz, 2005). In this letter we
+choose the local linearization (LL) for RDE (Carbonell et al., 2005) to solve
+systems 4.1 and 4.2 (see a description of this method in the appendix). The
+rationale for this choice is the fact that the LL method improves the order of
+convergence and stability properties of conventional numerical integrators
+(Carbonell et al., 2005) for RDEs. Moreover, the LL approach has been key
+for constructing efficient and stable numerical schemes for the integration
+and estimation of various classes of random dynamical systems (Shoji &
+Ozaki, 1998; Prakasa-Rao, 1999; Schurz, 2002).
+7 Results
+In this section, computational simulations are used to demonstrate the capability of the model to reproduce the temporal dynamics and spectral
+characteristics of the EEG signal as recorded on the scalp surface. A number of model predictions arising from the results obtained are also shown,
+
+Realistic Neural Mass Models
+
+493
+
+Figure 3: (A) Average anatomical connectivity matrix estimated from diffusion
+weighted magnetic resonance imaging data of two human subjects. This matrix
+contains the connection strength between 71 brain areas. These areas were
+segmented based on the Probabilistic Brain Atlas developed at the Montreal
+Neurological Institute. The values are normalized between 0 and 1. (B) Random
+matrix calculated with the same degree of sparseness as that of the anatomical
+connectivity matrix in A.
+
+and can be further tested experimentally. Additionally, the sensitivity of the
+results to changes in model parameters is studied.
+7.1 Description of the Simulation Method. In the simulations, 71 brain
+areas were defined based on the Probabilistic MRI Atlas (PMA) produced
+by the Montreal Neurological Institute (Evans et al., 1993, 1994; Collins,
+Neelin, Peters, & Evans, 1994; Mazziotta, Toga, Evans, Fox, & Lancaster,
+1995). Anatomical connectivity matrices between these areas, corresponding to two human subjects, were then calculated and averaged out. The
+elements of the resultant average matrix were then used as CSP for betweenareas interactions. As shown in Figure 3, the sparseness of this anatomical
+connectivity matrix allows for a significant reduction in the number of CSPs
+and thus reduces the computational cost of solving the large RDE system
+that describes the model presented here.
+Initial conditions were set to zero in all simulations, and an integration
+step size of 5 ms was used. The first 100 points of the simulated signals
+were discarded in order to avoid transient behavior, and the input p(t)
+was a gaussian process with mean and standard deviation of 10,000 and
+1000 pulses per second, respectively. As for the rest of the model parameter
+values, they were chosen to vary across space, with values taken from
+a uniform distribution in the interval between 5% below and above the
+standard values reported in Table 1. This choice was motivated by the
+inhomogeneities found in cortical tissue. The motor cortex, for example,
+has a relatively sparse population of neurons, while sensory cortices tend
+
+494
+
+R. Sotero et al.
+
+Table 1: Values of Model Parameters and Physiological Interpretation.
+Parameters with the Same Value in All Simulations
+Parameter
+A, B
+e 0 , ν0 , r
+σe1 , σe2 , σi
+c6 , c7 , c8 , c9
+
+Physiological Interpretation
+Average synaptic gain for cortical
+voxels
+Parameters of the nonlinear
+sigmoid function
+Parameters of the connectivity
+functions.
+Average number of synaptic
+contacts between the neuronal
+populations of different cortical
+voxels
+
+Value
+A = 3.25 mV, B = 22 mV
+e 0 = 5 s−1 , ν0 = 6 mV
+r = 0.56 mV−1
+σe1 = 10, σe2 = 10, σi = 2
+c 6 = 200, c 7 = 100
+c 8 = 100, c 9 = 100
+
+Parameters with Different Values for Each Simulation
+Parameter
+a, b
+a d1 , a d2 , a d3 , b d4
+c 1 , c 2 = 0.8c 1
+c 3 = c 4 = 0.25c 1
+c5
+At , Bt
+c 1t , c 2t , c 3t
+c 4t , c 5t
+a t , bt
+Rhythm
+Delta rhythm
+Theta rhythm
+Alpha rhythm
+
+Beta rhythm
+Gamma rhythm
+
+Physiological Interpretation
+Average synaptic time constants for excitatory and inhibitory
+populations
+Average time delay on efferent connection from a population for
+cortical voxels
+Average number of synaptic contacts between the neuronal
+populations within a cortical voxel
+
+Synaptic gain for the thalamus
+Number of synaptic contacts made by the neuronal populations
+of the thalamus
+Average synaptic time constants for TC and RE populations
+Actual Values Used in Each Case
+a = 20 s−1 , b = 20 s−1 , a d1 = 15 s−1 , a d2 = 20 s−1 , a d3 = 20 s−1 ,
+b d4 = 20 s−1 , c 1 = 50
+a = 50 s−1 , b = 40 s−1 , a d1 = 15 s−1 , a d2 = 50 s−1 , a d3 = 50 s−1 ,
+b d4 = 40 s−1 , c 1 = 50
+a = 100 s−1 , b = 50 s−1 , a d1 = 33 s−1 , a d2 = 100 s−1 , a d3 = 100 s−1 ,
+b d4 = 50 s−1 , c 1 = 150, At = 3.25 mV, Bt = 22 mV, c 1t = 50, c 2t =
+50, c 3t = 80, c 4t = 100, c 5t = 80, a t = 100, b t = 40
+a = 100 s−1 , b = 100 s−1 , a d1 = 33 s−1 , a d2 = 100 s−1 , a d3 =
+100 s−1 , b d4 = 100 s−1 , c 1 = 180
+a = 100 s−1 , b = 100 s−1 , a d1 = 33 s−1 , a d2 = 100 s−1 , a d3 =
+100 s−1 , b d4 = 100 s−1 , c 1 = 250
+
+Realistic Neural Mass Models
+
+495
+
+to be more densely populated than the average. Furthermore, even within
+a given cytoarchitectonic region, cortical thickness and neuronal densities
+vary considerably (Abeles, 1991). However, despite these differences, it
+is believed that all cortical regions process information locally according
+to the same principles. Parameter values will also depend on voxel size.
+Nevertheless, because it is difficult to establish the exact nature of this
+dependence, the selection of a plausible range of variation of parameter
+values (see Table 1) was based on previous modeling studies (Lopes da
+Silva et al., 1974; Zetterberg et al., 1978; Jansen & Rit, 1995; David & Friston,
+2003). Parameters used in previous works and parameters introduced for
+the first time in this study were then tuned so that the model could produce
+the different rhythms observed in the human EEG.
+In all simulations, our generator space consists of a 3D regular grid of
+points that represent the possible generators of the EEG inside the brain,
+while the measurement space is defined by the array of sensors where
+the EEG is recorded. In this work, 41,850 grid points (defining voxels of
+size 4.25 mm × 4.25 mm × 4.25 mm) and a dense array of 120 electrodes are
+placed in registration with the PMA. The 3D grid is further clipped by the
+gray matter, which consists of all 71 brain regions segmented (18,905 grid
+points remaining). The electrodes’ positions were determined by extending
+and refining the standard 10/20 system (FP1, FP2, F3, F4, C3, C4, P3, P4,
+O1, O2, F7, F8, T3, T4, T5, T6, Fz, Cz, and Pz). The physical head model
+constructed in this way allows us to easily compute the electric lead field
+matrix that relates the PCD inside the brain to the voltage measured at the
+sensors’ locations.
+7.2 Generation of Alpha Rhythm. Experimental data from fMRI as well
+as solutions of the EEG inverse problem show that generators of the different brain rhythms are not localized in the same cortical areas (Goldman,
+Stern, Engel, & Cohen, 2002; Mart´ınez-Montes, Vald´es-Sosa, Miwakeichi,
+Goldman, & Cohen, 2004). In the case of the alpha rhythm, it has been
+demonstrated that increased EEG alpha power is correlated with decreased
+fMRI signal in multiple regions of occipital, superior temporal, inferior
+frontal, and cingulate cortex and with increased power in the thalamus
+and insula (Goldman et al., 2002). In this study, these regions were segmented and subdivided into 12 anatomical areas selected from the PMA (see
+Table 2), which were further subdivided based on their hemispheric location (left or right). An illustrative visualization of some of these regions with
+the corresponding fiber tracts estimated from DWMRI is shown in Figure
+4A.
+The 24 defined brain areas together with their corresponding anatomical
+connectivity values were used in our model to generate alpha activity;
+the results are shown in Figure 5. The temporal dynamics and the power
+spectrum of the signal at the electrodes of maximum amplitude (O1 and
+O2) show reasonable agreement with experimentally observed EEG (see
+
+496
+
+R. Sotero et al.
+
+Table 2: Brain Areas Selected for Each Rhythm Simulation.
+Alpha Rhythm
+
+Delta, Beta, Theta, and Gamma Rhythms
+
+Cuneus (left and right)
+Lingual gyrus (left and right)
+Lateral occipitotemporal gyrus (left and
+right)
+Insula (left and right)
+Inferior occipital gyrus (left and right)
+Superior occipital gyrus (left and right)
+Medial occipitotemporal gyrus (left and
+right)
+Occipital pole (left and right)
+Cingulate region (left and right)
+Inferior frontal gyrus (left and right)
+Superior temporal gyrus (left and right)
+Thalamus (left and right)
+
+Medial front-orbital gyrus (left and right)
+Middle frontal gyrus (left and right)
+Precentral gyrus (left and right)
+Lateral front-orbital gyrus (left and right)
+Medial frontal gyrus (left and right)
+Superior frontal gyrus (left and right)
+Inferior frontal gyrus (left and right)
+
+Figure 4: Visualization of the fiber tracts connecting the brain regions used in
+the simulations as calculated from DWMRI. (A) Alpha rhythm: left and right
+superior temporal gyri (1, 2); left and right thalamus (3, 4); left and right medial
+occipitotemporal gyri (5, 6); left and right occipital poles (7, 8). (B) Beta, gamma,
+delta, and theta rhythms: left and right superior frontal gyri (1, 2); left and right
+inferior frontal gyri (3, 4).
+
+Realistic Neural Mass Models
+
+497
+
+Figure 5: Simulation of alpha rhythm (8–12 Hz). (A) Temporal dynamics and
+spectrum of the signal at electrodes O1 and O2. (B) Topographic distribution
+of the alpha power on the scalp surface. The spatial distribution of the 120
+electrodes’ system used in the simulation is also shown.
+
+Figure 5A). The amplitude of the signal varies between 30 and 50 µV for
+both electrodes, and the maximum of the spectrum was at 9.98 Hz for
+electrode O1 and 9.90 Hz for electrode O2. These values are in the range of
+actual recordings. Other qualitative properties, like the waxing and waning
+characteristic of actual alpha rhythm, as well as interhemispheric symmetry,
+are also observed. Regarding the topographic distribution of the activity,
+
+498
+
+R. Sotero et al.
+
+Figure 6: Reactivity test simulation. A trapezoidal input of 12 seconds duration
+and amplitude of 106 pulses per second is used to simulate visual input at the
+thalamic level. The response of the system results in a significant reduction in
+the amplitude of both the signal and the peak of the alpha power and a shift of
+the power spectrum toward higher frequencies.
+
+Figure 5B shows that the simulated EEG is maximal over the occipital
+regions and diminishes in amplitude toward frontal areas, which has also
+been described for alpha rhythm.
+The influence of an external input (stimulus) on the simulated alpha
+activity was also studied, and results are depicted in Figure 6. Actual
+alpha rhythm is known to be temporarily blocked by an influx of light
+(eye opening). This is known as reactivity. The degree of reactivity varies;
+the alpha rhythm may be blocked, suppressed, or attenuated with voltage
+
+Realistic Neural Mass Models
+
+499
+
+reduction (Niedermeyer & Lopes da Silva, 1987). In the simulations shown
+in Figure 6, a trapezoidal input representing visual stimulation of 12 seconds duration and amplitude of 106 pulses per second was given to the
+thalamus. As shown in the figure, the effect of this input was to attenuate
+the EEG signal and shift the whole EEG spectrum toward higher frequencies with a reduction in the amplitude of the power, which is also observed
+in actual reactivity tests.
+7.3 Generation of Delta, Theta, Beta, and Gamma Rhythms. For the
+simulation of delta, theta, beta, and gamma rhythms, 7 brain regions
+(medial-front orbital gyrus, middle frontal gyrus, precental gyrus, lateralfront orbital gyrus, medial frontal gyrus, superior frontal gyrus, and inferior
+frontal gyrus) were selected and subdivided based on their hemispheric location (left or right), for a total of 14 brain areas. Some of these areas, with
+the corresponding fiber tracts connecting them, are shown in Figure 4B.
+In these studies, 30 seconds of EEG data were simulated for each rhythm.
+Figures 7, 8, 9, and 10 show the temporal dynamics and the spectrum of
+the signal obtained at electrodes Fp1 and Fp2 for the delta, theta, beta,
+and gamma rhythms simulations, respectively. Amplitudes and spectral
+frequency bands obtained are within the range of experimentally observed
+EEG. Note the characteristic interhemispheric asymmetry in the frequency
+of the peak for the beta rhythm (see Figure 9). That is, the maximum of
+the spectrum is located at 18.46 Hz for electrode Fp1 and at 16.76 Hz for
+electrode Fp2. The rest of the simulated rhythms do not show a significant
+interhemispheric frequency asymmetry. Finally note that the power spectrum on the scalp surface was maximum at frontal areas in all cases and
+reaches minimum amplitudes at occipital electrodes.
+7.4 Influence of the Model Parameters on the Generation of the EEG
+Rhythms. Parameter values in Table 1 show that by increasing c 1 (and thus
+c 2 , c 3 , and c 4 ), while keeping the other parameters constant, the EEG spectrum shifts toward higher frequencies, going from beta to gamma frequency
+bands. On the other hand, keeping c 1 constant, we can switch from delta
+to theta rhythm by increasing parameters associated with membrane time
+constants and dendritic tree time delays. However, as there are 32 parameters in the model (excluding the connectivity matrix values), it is difficult
+to study the influence of each of them on the output of the model. That
+is, parameter values presented in Table 1 are not the only ones capable of
+producing EEG rhythms. Additionally, neural mass models can produce
+the same EEG rhythm with different sets of parameter values, as shown by
+David and Friston (2003), which varied excitatory and inhibitory time constants and obtained regions of the parameters’ phase-space within which
+the same rhythm was obtained. In this section, we perform similar analyses
+for parameters a and b.
+
+500
+
+R. Sotero et al.
+
+Figure 7: Simulation of delta rhythm (1–4 Hz). (A) Temporal dynamics and
+power spectrum of the signal at electrodes Fp1 and Fp2. (B) Topographic distribution of the delta power on the scalp surface. The spatial distribution of the
+120 electrodes’ system used in the simulation is also shown.
+
+In the first set of simulations the areas involved in the alpha rhythm
+simulation study were selected, and then parameters a , b were varied from
+10 s−1 to 500 s−1 , with a step size of 10 s−1 , while the rest of the parameters
+were kept constant with the values in Table 1 that correspond to alpha
+rhythm. For each case, the resulting dynamics was assigned to an EEG
+
+Realistic Neural Mass Models
+
+501
+
+Figure 8: Simulation of theta rhythm (4–8 Hz). (A) Temporal dynamics and
+power spectrum of the signal at electrodes Fp1 and Fp2. (B) Topographic distribution of the theta power on the scalp surface. The spatial distribution of the
+120 electrodes’ system used in the simulation is also shown.
+
+band. A phase diagram is shown in Figure 11A. Two phases are obtained
+depending on parameter values: one corresponding to alpha rhythms and
+the other corresponding to noise.
+
+502
+
+R. Sotero et al.
+
+Figure 9: Simulation of beta rhythm (12–30 Hz). (A) Temporal dynamics and
+power spectrum of the signal at electrodes Fp1 and Fp2. (B) Topographic distribution of the theta power on the scalp surface. The spatial distribution of the
+120 electrodes’ system used in the simulation is also shown.
+
+In the second study, parameters a , b were also varied from 10 s−1 to
+500 s−1 with a step size of 10 s−1 , but now the brain areas selected were the
+ones involved in the generation of delta, theta, beta, and gamma rhythms.
+As in the previous case, the other parameters were kept constant with the
+values shown in Table 1 for beta rhythm. The corresponding phase diagram
+
+Realistic Neural Mass Models
+
+503
+
+Figure 10: Simulation of gamma rhythm (30–70 Hz). (A) Temporal dynamics
+and power spectrum of the signal at electrodes Fp1 and Fp2. (B) Topographic
+distribution of the gamma power on the scalp surface. The spatial distribution
+of the 120 electrodes’ system used in the simulation is also shown.
+
+is shown in Figure 11B. As can be seen, five different phases are obtained
+corresponding to delta, theta, beta, and gamma rhythms, as well as noise.
+However, alpha rhythm (the small spots in white between theta and beta
+areas in Figure 11B) was also obtained for three pairs of values (b, a ):
+(340,180), (340,190), (120,280).
+
+504
+
+R. Sotero et al.
+
+Figure 11: Phase-space diagram of the average synaptic time constants for
+excitatory (a ) and inhibitory (b) populations. (A) The chosen regions were the
+ones used previously in the alpha rhythm simulation. The phase space splits into
+two regions that separate noise from alpha rhythm. (B) The selected areas were
+the ones used in delta, theta, beta, and gamma rhythm simulations. The phase
+space splits into different regions—one for each rhythm and noise. Nevertheless,
+for three pairs of values (b, a ), alpha rhythm was also obtained (white points
+between theta and beta areas). (C) The same areas as in A were selected but with
+values extracted from the random matrix of Figure 3B. (D) The same areas as in
+B but with values extracted from the random matrix. In C and D, for very large
+physiologically unrealistic values of (b, a ), several rhythms appear.
+
+Thus, by changing a or b, or both, the system undergoes phase transitions
+that allow the same model to generate the different EEG rhythm. Note also
+that, as expected, in both sets of simulations, noise is obtained for high
+values of a or b, or both, which corresponds to processes decaying very
+rapidly and thus occurring at very high (nonphysiological) frequencies.
+One of the main goals of this article is the validation of the use of anatomical connectivity information obtained from DWMRI to model the LRC
+strength between multiple coupled neural mass models representing cortical areas and the capability of this modeled system to generate different EEG
+rhythms. So far, we have proven that our model is capable of generating
+alpha, delta, theta, beta, and gamma rhythm in a wide range of parameter
+values. Nevertheless, an important question remains: How important is the
+
+Realistic Neural Mass Models
+
+505
+
+Figure 12: Effect of the reduction of connectivity parameters on alpha and beta
+rhythms. CSPs between areas were diminished by 50%, and parameter c 1 was
+also diminished to c 1 = 50. The dotted line is the spectrum when using the
+standard values, and the solid line represents the reduced parameters.
+
+use of the actual connectivity matrix values? In other words, wouldn’t be
+possible to generate EEG rhythms with a completely different connectivity
+matrix?
+To elucidate this matter, the two sets of simulations previously described
+were replicated, but in this case, the random connectivity matrix shown
+in Figure 3B was used instead for the coupling between the brain areas
+involved in the simulations. This random matrix was generated with the
+same degree of sparseness as the actual connectivity matrix. Results are
+shown in Figures 11C and 11D. As can be seen, no rhythm emerged for
+the range of values (b, a ) from 10 s−1 to 500 s−1 in these cases. Only for
+extremely high and nonphysiological values (corresponding to average
+population time constants of less than 1 ms) are some rhythms obtained.
+An interesting case is to analyze the impact of decreased connection
+strengths (see section 8). For this, the values of the anatomical connectivity
+matrix were decreased 50% and parameter c 1 was reduced to c 1 = 50 for
+the cases of the alpha and beta rhythms generation models. The results are
+shown in Figure 12. For both alpha and beta, the peak amplitude of the
+power spectrum reduces for its corresponding frequency bands, while the
+delta and theta bands were accentuated.
+8 Discussion
+In this work, previous neural mass models (Lopes da Silva et al., 1974;
+Zetterberg et al., 1978; Jansen & Rit, 1995) were generalized and combined
+to account for intravoxel interactions, as well as short-range and long-range
+connections representing interactions between cortical voxels within the
+same area and with voxels of other cortical areas, respectively. The thalamus
+
+506
+
+R. Sotero et al.
+
+was also described by a neural mass model and coupled to the cortical areas.
+Anatomical information from DWMRI was introduced to constrain coupling strength parameters between different brain regions. This allowed us
+to couple multiple brain areas with real anatomical connectivity values and
+study the rhythms emerging from these interactions across different spatial
+scales. Knowing the average depolarization of pyramidal cells in each voxel
+and the lead field matrix that characterizes the spatial distribution of the
+electromagnetic field in the head, we obtained the voltage signals recorded
+at the location of given electrodes on the scalp surface.
+For validating the model, several simulations were carried out. The parameters that were tuned in each simulation were the time delays of efferent
+connections and connectivity constants between the different populations
+within a voxel. The choice of parameter was given by its importance in
+the generation of different rhythms, as demonstrated by previous work in
+this field (Jansen & Rit, 1995; David & Friston, 2003). The temporal dynamics and the spectrum of human EEG rhythms were reproduced by the
+proposed model. EEG rhythms were also obtained at the right spatial locations. In the case of alpha rhythm, the activity was maximal at occipital
+electrodes and diminished toward the frontal electrodes. Delta, theta, beta,
+and gamma rhythms were maximal at frontal electrodes. The amplitudes
+of the rhythms were also within the range observed in actual EEG recordings. Interhemispheric symmetry was found in the case of alpha rhythm,
+since the difference between the peaks of EEG spectrum at electrodes O1
+and O2 was less than 0.1 Hz. In contrast beta rhythm showed interhemispheric asymmetry; that is, there was a difference of 1.7 Hz between the
+peaks of the EEG spectrum at Fp1 and Fp2. For delta, theta, and gamma
+rhythms, interhemispheric symmetry with respect to the peak frequency of
+the spectrum was obtained. In clinical practice, no EEG is complete without a reactivity test (Niedermeyer & Lopes da Silva, 1987). For this reason,
+we made a reactivity test simulation, finding that the effect of stimulation
+was to shift the spectrum toward higher frequencies together with a reduction in amplitude, which also agrees with actual EEG recordings in healthy
+subjects.
+Instead of the anatomical connectivity matrix, values from a random
+matrix were also used to couple brain areas. In this case, some rhythms
+appear for extremely high values of parameters a and b. However, these
+values of a and b correspond to an average population time constant of less
+than 1 ms, which does not make much sense from the physiological point of
+view. Thus, it can be concluded that in the range of physiologically plausible
+values, no rhythm was obtained when using a nonrealistic connectivity
+matrix.
+Finally, the model was used to study the effect of a reduction in all
+connectivity parameters values predicting an increase in delta and theta
+power (see Figure 12), along with a decrease in alpha and beta peaks. It is
+
+Realistic Neural Mass Models
+
+507
+
+interesting to note that this slowing of oscillatory activity is a prominent
+functional abnormality that has been reported in EEG and MEG studies of
+Alzheimer disease (AD) patients (Coben, Danziger, & Berg, 1983; Penttil¨a,
+Partanen, Soininen, & Riekkinen, 1985; Schreiter-Gasser, Gasser, & Ziegler,
+1993; Berendse, Verbunt, Scheltens, van Dijk, & Jonkman, 2000). On the
+other hand it is also recognized that AD patients show a progressive cortical disconnection syndrome due to the loss of large pyramidal neurons in
+cortical layers III and V (Pearson, Esiri, Hiorns, Wilcock, & Powell, 1985;
+Morrison, Scherr, Lewis, Campbell, & Bloom, 1986). Related to this, it has
+also been found that the total callosal area is significantly reduced in patients suffering from this pathology (Rose et al., 2000; Hampel et al., 1998).
+According to our model, the shift of the EEG spectrum toward low frequencies found in AD could be associated with the cortical disconnection
+syndrome that is reflected in the decreased values of the coupling strength
+parameters, although the model does not exclude contributions from other
+mechanisms.
+As we know, lumped models are simplifications of actual brain structures, so further improvements could be made by including more realistic
+models in order to describe a wider range of phenomena. Another limitation of our approach is that DWMRI cannot distinguish between efferent
+and afferent fibers (this is reflected in the symmetry of the connectivity
+matrix; see Figure 3A), and connectivity values thus could be overestimated. Moreover, the validity of the connectivity matrix values depends
+on the assumption that probabilistic paths calculated based on the information obtained from DWMRI reflect the actual connections between brain
+areas.
+While this letter focused on the EEG forward problem, the next logical
+step is the estimation of the parameters of this model from data. Previous
+work has accomplished this task. For example, in Valdes et al. (1999), the
+neural mass model described in Zetterberg et al. (1978) was fitted to actual
+EEG alpha data. In that work, the LL approach was used to discretize Zetterberg’s model, which was then reformulated in a state-space formalism that
+could be integrated by using a nonlinear Kalman filter scheme. A maximum
+likelihood procedure was then employed to estimate the model parameters
+for several EEG data sets. Bayesian inference, dynamic causal modeling
+(Friston, Harrison, & Penny, 2003; David, Harrison, Kilner, Penny, & Friston, 2004), and genetic algorithms (Jansen, Balaji Kavaipatti, & Markusson,
+2001) have also been used for estimating the parameters of neural mass
+models of the type presented here. A more ambitious goal is the integration
+of EEG with functional imaging techniques such as functional magnetic resonance imaging and positron emission tomography. The use of this model
+as a framework in which electrical, hemodynamic, and metabolic activities
+can be coupled is currently under study and will be the subject of a future
+publication.
+
+508
+
+R. Sotero et al.
+
+Appendix: Local Linearization Method for RDE
+Assume that a k-dimensional random process p(t), t ∈ [t0 , T] and a nonlinear function f are given, and define the d-dimensional RDE:
+dy(t) = f (y(t), p(t))dt
+y(t0 ) = y0 .
+Then, given a step size h,the local linearization scheme that solves numerically the equation above at the time instants tn = t0 + nh, n = 0, 1, . . . , is
+given by
+yn+1 = yn + Le Cn h R,
+where L = [Id , 0d x2 ], R = [01x(d+1) , 1]T , and the (d + 2) × (d + 2) matrix Cn
+is defined by blocks as
+
+
+
+f˙ y (t)(yn , p(tn )) f˙ p (t)(yn , p(tn )) p(tn+1 h)− p(tn ) f (yn , p(tn ))
+
+Cn = 
+0
+0
+1
+0
+0
+0
+Here, f˙ y (t) and f˙ p (t) denote the derivatives of f with respect to the variables
+y and p, respectively.
+Due to the high dimensionality of our problem, the main task in the implementation of the LL scheme is the computation of the matrix exponential
+e Cn h . The use of the Krylov subspace methods (Sidje, 1998) is strongly recommended for that purpose. Indeed, that method can be used to compute
+the vector v = e Cn h R, and then the operation Lv reduces to take the first d
+elements of v.
+Acknowledgments
+We thank Trinidad Virues, Elena Cuspineda, and Thomas Wennekers for
+helpful comments.
+References
+Abeles, M. (1991). Corticonics: Neural circuits of the cerebral cortex. Cambridge:
+Cambridge University Press.
+Behrens, T., Johansen-Berg, H., Woolrich, M. W., Smith, S. M., WheelerKingshott, C., Boulby, P. A., Barker, G. J., Sillery, E. L., Sheehan, K., Ciccarelli, O.,
+Thompson, A. J., Brady, J. M., & Matthews, P. M. (2003). Non-invasive mapping
+of connections between human thalamus and cortex using diffusion imaging.
+Nature Neuroscience, 6, 750–757.
+
+Realistic Neural Mass Models
+
+509
+
+Berendse, H. W., Verbunt, J. P., Scheltens, P., van Dijk, B. W., & Jonkman, E. J. (2000).
+Magnetoencephalographic analysis of cortical activity in Alzheimer’s disease: A
+pilot study. Clin. Neurophysiol., 111, 604–612.
+Braitenberg V. (1978). Cortical architectonics: General and areal. In M. A. B. Brazier
+and M. Petche (Eds.), Architectonics of the cerebral cortex (pp. 443–465). New York:
+Raven Press.
+¨ A. (1998). Cortex: Statistics and geometry of neuronal connecBraitenberg, V., & Schuz,
+tivity. Berlin: Springer-Verlag.
+Carbonell, F., Jimenez, J. C., Biscay, R. J., & de la Cruz, H. (2005). The local linearization
+method for numerical integration of random differential equations. BIT Numerical
+Mathematics, 45(1), 1–14.
+Coben, L. A., Danziger, W. L., & Berg, L. (1983). Frequency analysis of the resting
+awake EEG in mild senile dementia of Alzheimer type. Electroencephalogr. Clin.
+Neurophysiol., 55, 372–380.
+Collins, D. L., Neelin, P., Peters, R. M., & Evans, A. C. (1994). Automatic 3D intersubject registration of MR volumetric in standardized Talairach space. J. Comp.
+Assist. Tomog., 18, 192–205.
+David, O., & Friston, K. J. (2003). A neural mass model for MEG/EEG: Coupling and
+neuronal dynamics. NeuroImage., 20, 1743–1755.
+David, O., Harrison, L., Kilner, J., Penny, W., & Friston, K. J. (2004). Studying effective connectivity with a neural mass model of evoked MEG/EEG responses. In
+Proceedings of the 14th International Conference on Biomagnetism BIOMAG 2004 (pp.
+136–138). Boston.
+Destexhe, A., & Sejnowski, T. J. (2001). Thalamocortical assemblies: How ion channels,
+single neurons, and large-scale networks organize sleep oscillations. New York: Oxford
+University Press.
+Douglas, R. J., & Martin, K. A. C. (2004). Neuronal circuits of the neocortex. Annu.
+Rev. Neurosci., 27, 419–51.
+Evans, A. C., Collins, D. L., Mills, S. R., Brown, E. D., Kelly, R. L & Peters, T. M.
+(1993). 3D statistical neuroanatomical models from 305 MRI volumes. Proc. In
+IEEE Nuclear Science Symposium and Medical Imaging Conference (pp. 1813–1817).
+London: MTP Press.
+Evans, A .C., Collins, D. L., Neelin, P., MacDonald, D., Kamber, M., & Marrett,
+T. S., 1994. Three-dimensional correlative imaging: Applications in human brain
+mapping. In: Thatcher, R., Hallet, M., Zeffiro, T., John, E. R., & Huerta, M.
+(Eds.), Functional Neuroimaging: Technical Foundations. Academic Press, New York,
+pp. 145–161.
+Friston, K. J., Harrison, L., & Penny, W. (2003). Dynamic causal modelling. NeuroImage, 19, 1273–1302.
+Gard, T. C. (1988). Introduction to stochastic differential equations. New York: Marcel
+Dekker.
+Gilbert, C. D., & Wiesel, T. N. (1979). Morphology and intracortical projections of
+functionally characterised neurones in the cat visual cortex. Nature, 280, 120–125.
+Gilbert, C. D., & Wiesel, T. N. (1983). Functional organization of the visual cortex.
+Prog. Brain Res., 58, 209–218.
+Goldman, R. I., Stern, J. M., Engel, J., & Cohen, M. S. (2002). Simultaneous EEG and
+fMRI of the alpha rhythm. NeuroReport, 13(18), 2487–2492.
+
+510
+
+R. Sotero et al.
+
+Grune, L., & Kloeden, P. E. (2001). Pathwise approximation of random ordinary
+differential equation. BIT, 41, 711–721.
+Hagmann, P., Thiran, J. P., Jonasson, L., Vandergheynst, P., Clarke, S., Maeder, P.,
+& Meuli, R. (2003). DTI mapping of human brain connectivity: Statistical fibre
+tracking and virtual dissection. NeuroImage, 19, 545–554.
+H¨am¨al¨ainen, M., Hari, R., Ilmoniemi, R. J., Knuutila, J., & Lounasmaa, O. V. (1993).
+Magnetoencephalography—theory, instrumentation and applications to noninvasive studies of the working human brain. Rev. Modern Phys., 65, 413–497.
+Hampel, H., Teipel, S. J., Alexander, G. E., Horwitz, B., Teichberg, D., Schapiro, M. B.,
+& Rapoport, S. I. (1998). Corpus callosum atrophy is a possible indicator of regionand cell type–specific neuronal degeneration in Alzheimer disease: A magnetic
+resonance imaging analysis. Arch. Neurol., 55, 193–198.
+Hasminskii, R. Z. (1980). Stochastic stability of differential equations. Alphen aan den
+Rijn, The Netherlands: Sijthoff Noordhoff.
+Iturria-Medina, Y., Canales-Rodr´ıguez, E., Meli´e-Garc´ıa, L., & Vald´es-Hern´andez, P.
+(2005). Bayesian formulation for fiber tracking. Presented at the 11th Annual Meeting
+of the Organization for Human Brain Mapping, Toronto, Ontario, Canada.
+Iturria-Medina, Y., Vald´es-Hern´andez, P., & Canales-Rodriguez, E. (2005). Measures
+of anatomical connectivity obtained from neuro diffusion images. Presented at the
+11th Annual Meeting of the Organization for Human Brain Mapping, Toronto,
+Ontario, Canada.
+Jansen, B. H., Balaji Kavaipatti, A., & Markusson, O. (2001). Evoked potential enhancement using a neurophysiologically-based model. Methods of Information in
+Medicine, 40, 338–345.
+Jansen, B. H., & Rit, V. G. (1995). Electroencephalogram and visual evoked potential
+generation in a mathematical model of coupled cortical columns. Biol. Cybern.,
+73, 357–366.
+Jansen, B. H., Zouridakis, G., & Brandt, M. E. (1993). A neurophysiologically-based
+model of flash visual evoked potentials. Biol. Cybern., 68, 275–283.
+Jirsa, V. K., & Haken, H. (1996). Field theory of electromagnetic brain activity. Phys.
+Rev. Lett., 77(5), 960–963.
+Jirsa, V. K., & Haken, H. (1997). A derivation of a macroscopic field theory of the
+brain from the quasi-microscopic neural dynamics. Physica D, 99, 503–526.
+Koch, M. A., Norris, D. G., & Hund-Georgiadis, M. (2002). An investigation of
+functional and anatomical connectivity using magnetic resonance imaging. NeuroImage, 16, 241–250.
+Lopes da Silva, F. H., Hoeks, A., Smits, H., & Zetterberg, L. H. (1974). Model of brain
+rhythmic activity: The alpha-rhythm of the thalamus. Kybernetik, 15, 27–37.
+Martin, K. A. C., & Whitteridge, D. (1984). Form, function and intracortical projections of spiny neurones in the striate visual cortex of the cat. J. Physiol, 353,
+463–504.
+Mart´ınez-Montes, E., Vald´es-Sosa, P. A., Miwakeichi, F., Goldman, R. I., & Cohen,
+M. S. (2004). Concurrent EEG/fMRI analysis by multiway partial least squares.
+NeuroImage, 22, 1023–1034.
+Mazziotta, J. C., Toga, A., Evans, A. C., Fox, P., & Lancaster, J. (1995). A probabilistic
+atlas of the human brain: Theory and rationale for its development. Neuroimage,
+2, 89–101.
+
+Realistic Neural Mass Models
+
+511
+
+McGuire, B. A., Gilbert, C., Rivlin, P. K., & Wiesel, T. N. (1991). Targets of horizontal connections in macaque primary visual cortex. J. Comp. Neurol., 305, 370–
+392.
+Morrison, J. H., Scherr, S., Lewis, D. A., Campbell, M. J., & Bloom, F. E. (1986).
+The laminar and regional distribution of neocortical somatostatin and neuritic
+plaques: Implications for Alzheimer’s disease as a global neocortical disconnection syndrome. In A. B. Scheibel, A. F. Weschler (Eds.), The biological substrates of
+Alzheimer’s disease (pp. 115–131). New York: Academic Press.
+Mountcastle V. B. (1978). An organizing principle for cerebral function. In G. M.
+Edelman, V. B. Mountcastle (Eds.), The mindful brain (pp. 7–50). Cambridge, MA:
+MIT Press.
+Mountcastle, V. B. (1997). The columnar organization of the neocortex. Brain, 120,
+701–722.
+Niedermeyer, E. & Lopes da Silva, F. (1987). Electroencephalography: Basic principlesclinical applications and related fields (2nd ed.). Baltimore: Urban & Schwarzenberg.
+Nunez, P. L. (1981). Electric fields of the brain. New York: Oxford University Press.
+Parker, G. J., Wheeler-Kingshott, C. A., & Barker, G. J. (2002). Estimating distributed
+anatomical connectivity using fast marching methods and diffusion tensor imaging. IEEE Transactions on Medical Imaging, 21(5), 505–512.
+Pearson, R. C. A., Esiri, M. M., Hiorns, R. W., Wilcock, G. K., & Powell, T. P. S.
+(1985). Anatomical correlates of the distribution of the pathological changes in
+the neocortex in Alzheimer’s disease. Proc. Natl. Acad. Sci. USA, 82, 4531–4534.
+Penttil¨a, M., Partanen, J. V., Soininen, H., & Riekkinen, P. J. (1985). Quantitative analysis of occipital EEG in different stages of Alzheimer’s disease. Electroencephalogr.
+Clin. Neurophysiol., 60, 1–6.
+Plonsey, R. (1963). Reciprocity applied to volume conductors and the ECG. IEEE
+Trans. BioMedical Electronics, 10, 9–12.
+Prakasa-Rao, B. L. S. (1999). Statistical inference for diffussion type processes. New York:
+Oxford University Press.
+Rinzel, J., Terman, D., Wang, X.-J., & Ermentrout, B. (1998). Propagating activity
+patterns in large-scale inhibitory neuronal networks. Science, 279, 1351–1355.
+Rose, S. E., Chen, F., Chalk, J. B., Zelaya, F. O., Strugnell, W. E., Benson, M.,
+Semple, J., & Doddrell, D. M. (2000). Loss of connectivity in Alzheimer’s disease:
+An evaluation of white matter tract integrity with colour coded MR diffusion
+tensor imaging. J. Neurol. Neurosurg. Psychiatry, 69, 528–530.
+Rush, S., & Driscoll, D. A. (1969). EEG electrode sensitivity–an application of reciprocity. IEEE Trans on Biomed. Eng., 16(1), 15–22.
+Schreiter-Gasser, U., Gasser, T., & Ziegler, P. (1993). Quantitative EEG analysis in
+early onset Alzheimer’s disease: A controlled study. Electroencephalogr. Clin. Neurophysiol., 86, 15–22.
+Schurz H. (2002). Numerical analysis of stochastic differential equations without
+tears. In D. Kannan & V. Lakahmikamtham (Eds.), Handbook of stochastic analysis
+applications (pp. 237–358). New York: Marcell Dekker.
+Shoji, I., & Ozaki, T. (1998). Estimation for nonlinear stochastic differential equations
+by a local linearization method. Stochast. Anal. Appl., 16, 733–752.
+Sidje, R. B. (1998). EXPOKIT: Software package for computing matrix exponentials.
+AMC Trans. Math. Software, 24, 130–156.
+
+512
+
+R. Sotero et al.
+
+Tournier, J. D., Calamante, F., Gadian, D. G., & Connelly, A. (2003). Diffusionweighted magnetic resonance imaging fibre tracking using a front evolution
+algorithm. NeuroImage, 20, 276–288.
+Traub, R. D., & Miles, R. (1991). Neuronal networks of the hippocampus. Cambridge:
+Cambridge University Press.
+Tuch, D. (2002). Diffusion MRI of complex neural architecture. Unpublished doctoral
+dissertation, Massachusetts Institute of Technology.
+Valdes, P. A., Jim´enez, J. C., Riera, J., Biscay, R., & Ozaki, T. (1999). Nonlinear EEG
+analysis based on a neural mass model. Biol. Cybern., 81, 415–424.
+van Rotterdam, A., Lopes da Silva, F. H., van den Ende, J., Viergever, M. A., &
+Hermans, A. J. (1982). A model of the spatial temporal characteristic of the alpha
+rhythm. Bull. Math. Biol., 44, 238–305.
+Wang, X.-J., Golomb, D., & Rinzel, J. (1995). Emergent spindle oscillations and intermittent burst firing in a thalamic model: Specific neuronal parameters. Proc. Natl.
+Acad. Sci. USA, 92, 5577–5581.
+Wendling, F., Bellanger, J. J., Bartolomei, F., & Chauvel, P. (2000). Relevance of nonlinear lumped-parameter models in the analysis of depth-EEG epilectic signals.
+Biol. Cybern., 83, 367–378.
+Wilson, H. R., & Cowan, J. D. (1972). Excitatory and inhibitory interactions in localized populations of model neurons. Biophys. J., 12, 1–24.
+Zetterberg, L. H., Kristiansson, L., & Mossberg, K. (1978). Performance of a model
+for a local neuron population. Biol. Cybern., 31, 15–26.
+
+Received December 20, 2005; accepted June 9, 2006.
+
+

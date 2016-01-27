@@ -1,0 +1,1483 @@
+J. Sleep Res. (2011) 20, 57–72
+
+Spindles and K-complexes
+
+doi: 10.1111/j.1365-2869.2010.00830.x
+
+Human non-rapid eye movement stage II sleep spindles are
+blocked upon spontaneous K-complex coincidence and resume
+as higher frequency spindles afterwards
+V A S I L E I O S K O K K I N O S and G E O R G E K . K O S T O P O U L O S
+Neurophysiology Unit, Department of Physiology, Medical School, University of Patras, Rion, Greece
+
+Accepted in revised form 24 December 2009; received 05 August 2009
+
+SUMMARY
+
+The purpose of this study was to investigate a potential relation between the K-complex
+(KC) and sleep spindles of non-rapid eye movement (NREM) stage II of human sleep.
+Using 58 electroencephalogram electrodes, plus standard electrooculogram and
+electromyogram derivations for sleep staging, brain activity during undisturbed
+whole-night sleep was recorded in six young adults (one of them participated twice).
+NREM stage II spindles (1256 fast and 345 slow) and 1131 singular generalized KCs
+were selected from all sleep cycles. The negative peak of the KC, the positive peak of the
+KC (where applicable), and the prominent negative wave peak of slow and fast spindles
+were marked as events of reference. Fast Fourier transform-based time–frequency
+analysis was performed over the marked events, which showed that: (a) fast spindles
+that happen to coincide with KC are interrupted (100% of 403 cases) and in their place
+a slower rhythmic oscillation often (80%) appears; and (b) spindles that are usually
+(72% of 1131) following KCs always have a higher frequency (by $1 Hz) than both the
+interrupted spindles and the individual fast spindles that are not in any way associated
+with a KC. This enhancement of spindle frequency could not be correlated to any of the
+KC parameters studied. The results of this study reveal a consistent interaction between
+the KC and the sleep spindle during NREM stage II in human sleep.
+k e y w o r d s human electroencephalogram, k-complex, non-rapid eye movement
+sleep, spindle
+
+INTRODUCTION
+The second stage of the human non-rapid eye movement
+(NREM) sleep is characterized by two major electroencephalogram (EEG) graphoelements: the K-complex (KC) and the
+sleep spindle. The KC is a delineated biphasic slow wave,
+starting with a negative phase that may or may not be
+immediately followed by a positive phase (Amzica and
+Steriade, 2002; Colrain, 2005; Hala´sz, 2005). The sleep spindle
+is a clearly distinguishable oscillatory rhythm of a waxing and
+waning shape (De Gennaro and Ferrara, 2003). Two types of
+sleep spindles have been described: fast spindles of a centroCorrespondence: George Kostopoulos, Neurophysiology Unit, Department of Physiology, University of Patras, 26500, Rion, Greece.
+Tel.: +302610-969157; fax: +302610-997215; e-mail: gkkostop@med.
+upatras.gr
+Ó 2010 European Sleep Research Society
+
+parietal dominance and a frequency varying $ 14 Hz; and
+slow spindles of a frontal distribution and a frequency varying
+$12 Hz (Gibbs and Gibbs, 1964).
+Although the KC was ﬁrst described by Loomis et al. (1938)
+70 years ago, its functional role is still a debatable issue. The
+KC can appear either spontaneously or can be elicited by
+external stimuli, is accompanied by autonomic alterations
+(Hornyak et al., 1991; Okada et al., 1991; Roth et al., 1956;
+Takehuchi et al., 1994; Tank et al., 2003), and may be
+followed by arousals; therefore, it is considered by some to
+be an arousal reaction. Other investigators argue that it is a
+sleep-protecting mechanism, inhibiting arousals and promoting cortical processing (Colrain, 2005). Similarly, since its ﬁrst
+description by Loomis et al. (1936), the function of the sleep
+spindle also remains undeﬁned. There are data supporting its
+role as an arousal inhibitor and thus a sleep preservation
+
+57
+
+58
+
+V. Kokkinos and G. K. Kostopoulos
+
+mechanism (Yamadori, 1971). There are also data supporting
+a role of spindles in memory consolidation during sleep (Gais
+et al., 2002).
+The idea of an antagonistic scheme between the KC and the
+sleep spindle has progressively developed in literature. Ehrhart
+et al. (1981) investigated the occurrence of both EEG phenomena before transient arousals during sleep, and found that
+there is a lower incidence of sleep spindles in the 10-s interval
+before the microarousal and an increase in KC appearance.
+Benzodiazepine administration has been shown to increase
+spindle appearance and decrease KCs (Gaillard and Tissot,
+1975; Johnson et al., 1976; Kubicki et al., 1987; Naitoh et al.,
+1982). Hala´sz (1993) reported a suppression of spindles for
+5–15 s following evoked KCs, and so proposed that KCs are
+Janus-face responses to arousal inputs, as they combine a slow
+wave maintaining the continuity of sleep with an ability of
+non-oscillating thalamocortical (TC) circuits to import information. The role attributed to the KC as being the forerunner
+of delta waves of slow-wave sleep (SWS) supported an inverse
+relation between KCs and sleep spindles, in accordance with
+the inverse relationship between delta waves and sleep spindles
+(De Gennaro and Ferrara, 2003; De Gennaro et al., 2000). On
+the contrary, there are data supporting independent roles for
+both KCs and sleep spindles. Church et al. (1978) showed that
+the application of auditory stimuli during either the presence
+or the absence of a sleep spindle did not inhibit the occurrence
+of KCs but, moreover, evoked higher KCs. In addition,
+auditory stimuli during spindle bursts produced no signiﬁcant
+cardiovascular responses. The KC versus spindle interaction
+results of Church et al. (1978) were conﬁrmed by Crowley
+et al. (2004), and further complemented by the absence of agerelated eﬀects. Spindle occurrence is increased while spontaneous KCs are reduced throughout the night (Curcio et al.,
+2003). Finally, in terms of pacing mechanisms, spindles are
+thought to be paced by TC circuits, whereas KCs by intracortical networks, rather independently of the thalamus
+(Amzica and Steriade, 2002).
+The main objective of this study was to investigate a
+potential relation between the KC and the sleep spindle, an
+idea derived from the fact that they characterize the same stage
+of sleep. More speciﬁcally, the question set was: ÔIf the two
+phenomena are somehow related, then upon their coincidence
+shouldnÕt one of them inﬂuence one or more characteristics of
+the other?Õ. This study diﬀers from past approaches that
+investigated the relation between KC and spindles in the
+application of event-related techniques on manually selected
+and sorted EEG epochs according to prominent features of
+those two EEG elements. We distinguished and selected
+singular generalized spontaneous KCs, that is, KCs not
+immediately preceded or followed by another KC or slowwave activity, distinguishable across the midline electrodes,
+occurring spontaneously. We also distinguished and selected
+both slow and fast spindles in order to determine which group
+interacts with the KC. The event-related methodology was
+powered by time–frequency analysis and electrode space
+mapping.
+
+MATERIALS AND METHODS
+Subjects and procedures
+Six individuals (one male and ﬁve females) aged between 27
+and 33 years (mean age 28.8 ± 2.56 years) volunteered to
+participate in this study. One of the subjects participated twice,
+to check for reproducibility of sleep features, thus completing a
+total of seven nocturnal sleep recordings. All participants were
+good sleepers, without any diﬃculties in falling or remaining
+asleep during the night. They were all in good health and free
+from medication at the time of study. None of the subjects
+reported a history of neurological or psychiatric disorder, or
+disordered sleep. Subjects kept a 7-day sleep diary, and were
+instructed to follow their regular sleep schedule, and refrain
+from alcohol and caﬀeine at least 3 and 1 days, respectively,
+prior to the experiment. Menstrual phase was not controlled
+for in female subjects. All participants read and signed an
+informed consent form, which described in detail the procedures and purposes of the study.
+Subjects were instructed to arrive at the laboratory $1 h
+prior to their usual bedtime, the latter calculated as a 7-day
+bedtime average based on their sleep diaries. Each of them spent
+one whole night in the laboratory, in an air-conditioned
+soundproof temperature controlled dark Faraday-cage room
+that was intentionally not monitored to avoid potential sleep
+disturbances owing to the feeling of Ôbeing watchedÕ. No
+pharmacological substance was used to induce sleep. Before
+sleep, 2 min of recording was taking place, during which the
+subjects were instructed to keep their eyes closed and relax.
+Night sleep recording began after the subjects willingly switched
+oﬀ the room lights, as were instructed to do when they would
+feel like falling asleep, and ended with their spontaneous wake
+up in the morning. Electrophysiological signals were monitored
+in an adjacent room and overnight communication with the
+subjects was established vocally through a microphone–speaker
+console system. In the morning, all subjects reported to have
+had a comfortable and undisturbed sleep.
+Recording
+All-night sleep was recorded using 58 EEG tin electrodes
+according to the extended international 10–20 system (FP1,
+FPZ, FP2, F3A, F4A, F7, F5, F3, F1, FZ, F2, F4, F6, F8, C5A,
+C3A, C1A, CZA, C2A, C4A, C6A, T3, C5, C3, C1, CZ, C2, C4,
+C6, T4, T3L, TCP1, C3P, C1P, PZA, C2P, C4P, TCP2, T4L, T5,
+P5, P3, P1, PZ, P2, P4, P6, T6, CB1, P3P, P1P, PZP, P2P, P4P,
+CB2, O1, OZ, O2) using an electrode cap (ElectroCap International, Eaton, OH, USA), that provided inter-electrode spacing of $4.5 cm. EEG electrode inputs were ear lobe referenced
+and grounded over the FZA position. A bipolar derivation of
+oblique electrooculogram was used to detect eye movements,
+for which electrodes were placed 1 cm above the right outer
+cantus and 1 cm below the left outer cantus, and a bipolar
+EMG from the upper masseter muscle was used to track
+muscle tone changes. Impedance of all electrodes was kept
+below 10 kOhms for most of the night. All electrophysiological
+Ó 2010 European Sleep Research Society, J. Sleep Res., 20, 57–72
+
+Human NREM stage II K-complexes and spindles
+parameters were AC recorded, ampliﬁed at a total gain of
+1000, band-pass ﬁltered at 0.05–500 Hz and digitized through
+an 16-bit resolution A ⁄ D converter, which provided an
+accuracy of 0.084 uV ⁄ LSB, at a sampling frequency of
+2500 Hz by a Synamps system (Neuroscan, Charlotte, NC,
+USA), and stored on hard disk. The 50-Hz notch ﬁlter was not
+applied during recording. Subject movements during sleep
+were detected by a sensitive motion detector placed over the
+bed area that produced a 2-s Transistor-Transistor Logic
+signal every time movement occurred. The motion detectorÕs
+signal was recorded as an external trigger and was stored along
+with the electrophysiological signals as an event channel.
+Scoring and event selection
+Sleep staging was performed by visual inspection according to
+the standard criteria of Rechtschaﬀen and Kales (1968).
+Scoring was further aided by the collation of a Fast Fourier
+Transform (FFT)-based hypnospectrogram, that is, the wholenight FFT-based time–frequency plot for 0.05–45 Hz with a
+step frequency of 0.05 Hz. Continuous scoring was performed
+rather than epoch-based scoring to obtain a precise match
+between the derived hypnogram and the hypnospectrogram
+(Fig. 1). This was achieved by examining a 20-s EEG epoch
+and marking on it any intra-epoch changes (stage transitions
+or brief microarousals) with $1 s. Microarousals were scored
+according to the guidelines of the ASDA Report (1992). Note
+that the hypnogram was formed with a step of only 1 s. The
+cumulative duration of microarousals was within normal limits
+(Table 1), and much shorter than the graphics compression of
+the hypnogram in Fig. 1 may imply.
+In Table 2, we present the incidence and average peak
+frequency values of the basic rhythms that were observed in
+this study for every subject.
+The KC was identiﬁed – based on standardized criteria of
+the AASM Visual Scoring Task Force (2007) as well as those
+
+Figure 1. The FFT-based whole-night time–
+frequency plot of EEG power (hypnospectrogram) derived from the Cz electrode
+(upper) and the respective hypnogram (lower)
+(MA, microarousal; AW, awake; REM,
+rapid-eye movement sleep; SI–IV, NREM
+sleep stages I–IV) of subject 1. The horizontal
+lines appearing at high frequencies are 50-Hz
+noise byproducts.
+Ó 2010 European Sleep Research Society, J. Sleep Res., 20, 57–72
+
+59
+
+of the DGSM Task Force (2006) – as a > 500-ms welldelineated negative sharp wave usually followed by a positive
+phase that stands out of the EEG background (Fig. 2a,b). In
+this study, singular (without another KC or slow-wave activity
+immediately preceding or following) generalized (distinguishable in the EEG all across the midline electrodes) spontaneously occurring KCs from only NREM stage II periods of the
+whole-night sleep of our subjects were selected. For the needs
+of this particular study, KCs were further categorized as
+KCXÀ X0 Xþ , where XÀ 2 f0; 1g and denotes the absence (0) or
+existence (1) of a spindle interrupted by the KC, X0 2 f0; 1g
+and denotes the absence (0) or existence (1) of an oscillation
+during the negative phase of the KC, and Xþ 2 f0; 1gand
+denotes the absence (0) or existence (1) of a spindle starting
+during the descending negative and the positive phase of the
+KC (see raw data images of Table 3). KCs immediately
+preceding microarousals and awakenings during sleep, as well
+as KCs followed by alpha or delta waves, were excluded from
+this study.
+The sleep spindle was identiﬁed as a > 500-ms train of
+$11–16-Hz waves. In this study, two types of sleep spindles
+were further identiﬁed as slow and fast spindles according to
+the deﬁnitions of Gibbs and Gibbs (1964). Fast spindles
+(>13 Hz) exhibit a symmetric bilateral distribution over
+centro-parietal areas, while slow spindles (<13 Hz) exhibit a
+similarly bilateral distribution frontally and are absent or
+signiﬁcantly diminished in the centro-parietal and posterior
+areas (Figs 3 and 4). All spindles, both slow and fast, were
+selected from only NREM stage II periods of the whole-night
+sleep of our subjects. Posterior alpha rhythm was derived from
+the eyes-closed relaxed awareness presleep recording.
+Analysis
+Manual cursor marking oﬀered by Scan software (Neuroscan,
+Charlotte, NC, USA) was used to create event channels.
+
+60
+
+V. Kokkinos and G. K. Kostopoulos
+
+Table 1 Sleep parameters
+Variables
+
+Values
+
+Total sleep time (min)
+Wakefulness after sleep onset (min)
+% Wakefulness after sleep onset
+Sleep eﬃciency index
+Sleep stage (min)
+Stage I
+Stage II
+Stage III
+Stage IV
+Rapid eye movement sleep
+Microarousals
+Sleep stage (% of total sleep time)
+Stage I
+Stage II
+Stage III
+Stage IV
+Rapid eye movement sleep
+Microarousals
+
+412.07
+20.52
+5.12
+93.60
+
+±
+±
+±
+±
+
+81.81
+16.67
+5.03
+4.95
+
+27.13
+118.40
+99.61
+58.57
+63.79
+25.53
+
+±
+±
+±
+±
+±
+±
+
+15.47
+45.91
+42.25
+17.29
+30.41
+12.34
+
+6.50
+28.07
+24.71
+18.96
+15.12
+6.20
+
+±
+±
+±
+±
+±
+±
+
+3.10
+8.10
+9.67
+11.11
+5.18
+2.58
+
+Values are mean ± SD.
+
+NREM stage II epochs from the whole-night sleep recording
+and free of any movement and other artifacts were selected,
+and precise time-markers were placed over the events under
+study. In total, four kinds of events were visually marked and
+used for further analysis: (a) the peak of the negative phase of
+the KC; (b) the peak of the positive phase of the KC (where
+applicable); (c) the peak of the maximum in amplitude negative
+
+wave of the fast spindle; and (d) the peak of the maximum in
+amplitude negative wave of the slow spindle. For all markers,
+the peak was marked over the record of the Cz electrode,
+where fast spindles are prominent, except for the slow spindlesÕ
+marker that was positioned over the record of the Fz electrode
+where slow spindles stand out.
+Event-related data were further processed by a custom-made
+Matlab-based (The Mathworks, Natic, MA, USA) software
+suite developed at the Neurophysiology Unit. FFT-based
+event-related time–frequency analysis was performed for each
+selected event within a time-window centered (time = 0.00) at
+the marked event, from 0.05 to 20 Hz at a step of 0.05 Hz. In
+particular, slow as well as fast spindles were analyzed in a timewindow of )1.00 to 1.00 s, the negative peak of the KC was
+coarsely analyzed in a time-window of )2.00 to 2.00 s, and the
+positive peak of the KC was analyzed in a time-window of
+)0.50 to 0.50 s. Coarse analysis resulted in averaging of the
+time–frequency plots (Fig. 2d) for all samples for each
+category of events. Moreover, the EEG related to the negative
+peak of the KC (time = 0.00) was ﬁnely FFT-based time–
+frequency analyzed in three equal and symmetrical timewindows, the ﬁrst covering the time interval of )1.50 to 0.00 s,
+the second )0.75 to 0.75 s, and the third 0.00–1.50 s. The ﬁne
+analysis was performed for each of the marked samples in
+order to obtain, from each of the three time intervals, the peak
+frequency value, and the power spectral density (PSD) of the
+KC-interrupted spindle, the oscillation within the KC, and the
+post-KC spindle, respectively, where applicable depending on
+the KC KCXÀ X0 Xþ type. PSD values appear as the dB
+
+Table 2 Average peak frequency values of the basic rhythms that were observed in this study for every subject (subject 4 slept twice), from a total
+of 1131 KCs and 1601 spindles (345 slow and 1256 fast)
+Subject 1
+
+Posterior alpha
+Slow spindles
+Fast spindles
+Pre-KC spindles
+KC oscillation
+Post-KC spindles
+
+Subject 2
+
+Subject 4 (ﬁrst night)
+
+Peak
+frequency (Hz)
+
+Samples
+
+Peak
+frequency (Hz)
+
+Samples
+
+Peak
+frequency (Hz)
+
+Samples
+
+Peak
+frequency (Hz)
+
+Samples
+
+9.15
+12.00
+13.60
+13.47
+8.34
+14.49
+
+2 min
+93
+235
+60 ⁄ 207
+186 ⁄ 207
+175 ⁄ 207
+
+10.22
+12.90
+14.60
+14.78
+8.07
+15.67
+
+2 min
+72
+240
+105 ⁄ 233
+152 ⁄ 233
+165 ⁄ 233
+
+11.14
+12.10
+13.95
+14.13
+8.13
+14.81
+
+2 min
+13
+111
+22 ⁄ 62
+51 ⁄ 62
+37 ⁄ 62
+
+10.68
+11.80
+15.10
+14.47
+9.37
+15.93
+
+2 min
+40
+196
+67 ⁄ 195
+152 ⁄ 195
+128 ⁄ 195
+
+±
+±
+±
+±
+±
+±
+
+0.83
+0.55
+0.51
+0.65
+1.38
+0.69
+
+Subject 5
+
+Posterior alpha
+Slow spindles
+Fast spindles
+Pre-KC spindles
+KC oscillation
+Post-KC spindles
+
+Subject 3
+
+±
+±
+±
+±
+±
+±
+
+0.85
+0.68
+0.76
+0.55
+1.23
+0.77
+
+Subject 6
+
+±
+±
+±
+±
+±
+±
+
+0.33
+0.55
+0.81
+0.76
+1.24
+0.75
+
+±
+±
+±
+±
+±
+±
+
+0.68
+0.70
+0.83
+1.16
+1.17
+0.75
+
+Subject 4 (second night)
+
+Across-subject means
+
+Peak
+frequency (Hz)
+
+Samples
+
+Peak
+frequency (Hz)
+
+Samples
+
+Peak
+frequency (Hz)
+
+Samples
+
+Peak
+frequency (Hz)
+
+Samples
+
+9.92
+11.15
+12.65
+12.56
+8.81
+13.34
+
+2 min
+37
+232
+52 ⁄ 115
+99 ⁄ 115
+69 ⁄ 115
+
+11.44
+12.85
+14.25
+14.26
+9.29
+14.98
+
+2 min
+47
+160
+46 ⁄ 139
+106 ⁄ 139
+104 ⁄ 139
+
+10.59
+11.40
+14.90
+14.82
+9.79
+15.75
+
+2 min
+43
+82
+51 ⁄ 180
+128 ⁄ 180
+137 ⁄ 180
+
+10.44
+12.02
+14.15
+14.11
+8.82
+14.99
+
+14 min
+345
+1256
+403 ⁄ 1131
+874 ⁄ 1131
+815 ⁄ 1131
+
+±
+±
+±
+±
+±
+±
+
+0.57
+0.45
+0.72
+0.84
+1.34
+0.84
+
+±
+±
+±
+±
+±
+±
+
+0.42
+0.68
+0.53
+0.43
+1.03
+0.52
+
+±
+±
+±
+±
+±
+±
+
+0.73
+1.07
+0.44
+0.61
+1.01
+0.56
+
+±
+±
+±
+±
+±
+±
+
+0.63
+0.66
+0.65
+0.71
+1.20
+0.69
+
+For each subject we selected all KCs fulﬁlling the named criteria (i.e. 207 for subject 1). Pre-KC spindles, KC oscillation and post-KC spindles
+were all KC1XX, KCX1X, and KCXX1, respectively (i.e. 60, 186, and 175). All values were measured over the Cz electrode, except for the slow
+spindles values that were measured over the Fz electrode and the posterior alpha values that were measured over the Oz electrode. Values are
+means ± SD, unless otherwise indicated.
+KC, K-complex.
+
+Ó 2010 European Sleep Research Society, J. Sleep Res., 20, 57–72
+
+Human NREM stage II K-complexes and spindles
+
+61
+
+Figure 2. The KC: raw EEG of a NREM stage II KC (a), waveform superposition and average (white) of 195 KCs from subject 4Õs ﬁrst night of
+sleep (b), the topographical sketches of the averaged negative (cA) and positive (cB) peaks of the KC, and the averaged time–frequency plot of the
+KCsÕ power derived from the Fz electrode along with the respective PSD graph (vertical curve on the right, d). The blue and red vertical lines in (b)
+mark the negative and positive peaks of KC, respectively.
+
+magnitude of the spectral analysis, that is, as 10 · log10
+[power(uV2)] over the selected time interval. The peak frequency of occipital alpha rhythm during relaxed awareness
+was calculated by epoching and FFT of the 2–3-min presleep
+recording. Scalp mapping of the recorded data was performed
+by the use of the Green-function-based multiquadric interpolation method described by Sandwell (1987), after baseline
+correction of all channels. No ﬁlter was applied to the
+processed electrophysiological data. All frequency and PSD
+values were measured over the Cz electrode, unless otherwise
+stated.
+RESULTS
+KCs
+A total of 1131 KCs were accumulated from NREM stage II
+periods in seven whole-night EEG recordings of six subjects
+(one subject slept twice to control for the constancy of sleep
+architecture and brain rhythm characteristics) using the
+criteria described in section ÔMaterials and methodsÕ. The time
+and space distribution as well as the frequency content of the
+studied KCs were similar to the ones already described in
+literature (Colrain, 2005; De Gennaro et al., 2000; Hala´sz,
+200), that is, a more than 500-ms wave of signiﬁcant amplitude
+($50–400 uV) with a prevalence of the negative peak over the
+frontal areas (Fig. 2a–c). The positive peak of the KC samples
+exhibited a dominant distribution over the central and anterior
+parietal areas (Fig. 2b,c).
+Ó 2010 European Sleep Research Society, J. Sleep Res., 20, 57–72
+
+Sleep spindles
+Individual spindles, that is, spindles not coinciding with KCs
+or other prominent EEG features, in total 1601 (345 slow
+spindles and 1256 fast spindles), were studied throughout all
+NREM stage II epochs of the seven whole-night sleep
+recordings. In conﬁrmation of the previously described
+distinction (De Gennaro and Ferrara, 2003; Schabus et al.,
+2007; Urakami, 2008), sleep spindles extracted from the sleep
+recordings of this study were either slow (of mean frequency
+12.02 ± 0.66 Hz and maximal distribution over the frontal
+and prefrontal electrodes) or fast (of mean frequency
+14.15 ± 0.84 Hz and maximal distribution over the central
+and anterior-parietal electrodes), as can be seen in Figs 3 and
+4. Notably, both slow and fast sleep spindles compared with
+the EEG background were accompanied by a decrease in EEG
+power at frequencies 2–4 Hz (see averaged spectral graphs of
+Fig. 4).
+Post-KC spindles are higher frequency spindles
+Sleep spindles appeared right after the negative peak of KC
+(reaching maximum within 1 s from the negative peak of the
+KC, that is, during the late part of the negative and ⁄ or during
+its positive phase) in 814 ⁄ 1131 (71.97%) of the times KCs were
+observed. Although not precisely time-locked to the KC, we
+will call these spindles Ôpost-KC spindlesÕ to distinguish them
+from Ôsporadic spindlesÕ appearing at random times, without
+being preceded or followed by KCs. Post-KC spindles had the
+
+Exemplary EEG traces (top), average TFAs (middle) and frequency statistics (bottom). [The peak frequencies of the rhythms that concern this study, that is, pre-KC, the oscillation during the
+negative phase of the KC (intra-KC) and the post-KC spindles appear clustered according to the type of KC. The last column shows the mean frequency values across subjects. The raw data
+images show the KCXÀ X0 X þ categorization: X_ stands for the absence (0) or existence (1) of a spindle interrupted by the KC, X0 stands for the absence (0) or existence (1) of an oscillation during
+the negative phase of the KC, and X+ stands for the absence (0) or existence (1) of a spindle triggered during the descending negative and positive phase of the KC. The spectral images [for
+frequencies 0.05 Hz (top) to 20 Hz (bottom), for a time interval of ± 2 s from the negative peak of the KC] are taken from 179 KCs of the second night of Subject 4Õs sleep. In the last column, the
+raw data and spectral images are both averages from the same subject. Values are means ± SD, unless otherwise indicated.
+KC, K-complex.
+
+Table 3 Classiﬁcation of KC types
+
+62
+V. Kokkinos and G. K. Kostopoulos
+
+Ó 2010 European Sleep Research Society, J. Sleep Res., 20, 57–72
+
+Human NREM stage II K-complexes and spindles
+
+63
+
+Figure 3. The sleep spindles: raw EEG of a fast spindle (left), a slow spindle (middle) and both (right), all from NREM stage II of subject 2. Under
+each sample, a 10–17-Hz band-pass-ﬁltered channel is presented.
+
+Figure 4. The sleep spindles: on the left, waveform averages (white) and superimposed single traces of 47 slow (a) and 160 fast spindles (b) derived
+from the Fz and Cz electrode, respectively, taken from the whole-night sleep recording of subject 6. The blue vertical line marks the most prominent
+negative peak of spindles. Next to them, topographic maps of the most prominent negative peaks derived from the average of slow and fast
+spindles. On the right, averaged time–frequency analysis of slow and fast spindles derived from the Fz and Cz electrodes, respectively, along with
+the respective PSD graphs.
+
+characteristics of fast sporadic spindles, that is, they exhibited
+a waxing–waning shape (see Fig. 5a,b) and had high frequency
+(14.99 ± 0.90 Hz). The details of sporadic spindles and postKC spindles frequency comparison are given in Table 2, from
+which it can be appreciated that the mean frequency of the
+post-KC spindles was signiﬁcantly (P < 0.00001, paired t-test)
+higher, in comparison with the fast sporadic spindles of the
+Ó 2010 European Sleep Research Society, J. Sleep Res., 20, 57–72
+
+same nightÕs sleep, by an average of 0.84 ± 0.12 Hz
+(5.93 ± 0.84%).
+Sleep spindles are blocked upon KC coincidence
+From each subject, during a prime scouting for evidence of KC
+and sleep spindle interaction, we selected and extracted a total
+
+64
+
+V. Kokkinos and G. K. Kostopoulos
+
+Figure 5. The KC coinciding with spindles: raw EEG from a NREM stage II KC coinciding with a sleep spindle (a). Below, the same sample is
+shown as raw, 5 Hz low-pass ﬁltered and 6–17 Hz band-pass ﬁltered, from top to bottom, respectively, for the Cz electrode (b). Time–frequency
+analysis graph of 37 KCs coinciding with spindles (KC111) from subject 1, showing: (a) the blockage of coinciding spindles during the rise of the
+KCÕs negative phase; (b) the increase in power of the theta and alpha band (6–10 Hz) around the peak of the negative phase; and (c) the appearance
+of higher frequency spindles during the fall of the KCÕs negative and along the positive phase, over electrodes Fz (c) and Cz (d). The average power
+of post-KC spindles can be higher than pre-KC spindles power (d), can be comparable, as seen from 28 KC111 samples of subject 6 (e), and can also
+be lower, as seen from 54 KC111 samples of subject 2 (f), all analyzed over the Cz electrode.
+
+of 403 KCs that occurred while an individual spindle was
+oscillating. In every case, the development of spindles was
+interrupted by KCs. The observation of a complete stop in
+100% of the cases and the shorter duration on average of these
+spindles compared with the sporadic ones of the same subject
+make a coincidental termination of spindles unlikely and allow
+us to consider it as interruption. Of course, the terms
+ÔinterruptedÕ or ÔblockedÕ are used in their merely descriptive
+
+sense and they do not imply any causal mechanistic relationship.
+In the most often appearing case (193 ⁄ 403, 47.89%) these
+KCs were of the type KC111, that is, KCs that coincide with a
+spontaneously occurring sleep spindle, present an oscillation
+during their negative phase and are immediately followed by a
+new sleep spindle (Fig. 5a). Sample-by sample 6–17-Hz bandpass ﬁltering revealed an interruption of the ongoing sleep
+Ó 2010 European Sleep Research Society, J. Sleep Res., 20, 57–72
+
+Human NREM stage II K-complexes and spindles
+
+65
+
+Figure 6. Cortical distribution of the KC
+versus spindle interaction phenomenon. The
+interruption of the ongoing spindle upon KC
+occurrence, the appearance of the intra-KC
+oscillation, and the generation of a faster
+post-KC spindle can all be seen in the brain
+(average time–frequency analysis from 37
+KC111s of subject 1, as in Fig. 5d). For display density reasons, only the most representative for each lobe electrodes are shown.
+
+Table 4 PSD values of the rhythms in the cases of coincidence of KC with spindles
+
+Pre-KC spindles
+KC oscillation
+Post-KC spindles
+
+Pre-KC spindles
+KC oscillation
+Post-KC spindles
+
+Subject 1, PSD (dB)
+
+Subject 2, PSD (dB)
+
+Subject 3, PSD (dB)
+
+Subject 4 (ﬁrst night), PSD (dB)
+
+23.13 ± 5.02
+22.57 ± 2.97
+24.95 ± 3.00
+
+26.56 ± 3.88
+25.23 ± 2.98
+24.53 ± 3.53
+
+24.57 ± 3.65
+28.75 ± 2.53
+23.91 ± 3.19
+
+26.32 ± 3.19
+26.97 ± 2.39
+26.26 ± 3.12
+
+Subject 5, PSD (dB)
+
+Subject 6, PSD (dB)
+
+Subject 4 (second night), PSD (dB)
+
+Across-subject means, PSD (dB)
+
+22.70 ± 3.18
+24.30 ± 2.57
+22.27 ± 3.14
+
+22.62 ± 2.81
+26.18 ± 2.85
+23.52 ± 3.06
+
+25.29 ± 2.78
+27.58 ± 2.38
+25.70 ± 2.88
+
+24.45 ± 1.67
+25.94 ± 2.09
+24.44 ± 1.35
+
+By comparing pre-KC with post-KC spindle power, the power relation between them varies from subject to subject. On average the power of the
+two rhythms remains comparable. Values are means ± SD. The number of samples for each spindle group and subjects are, respectively, those
+of Table 2.
+KC, K-complex; PSD, power spectral density.
+
+spindle during the KC (which we will be referring to as ÔpreKC spindleÕ), the appearance of an intra-KC oscillation
+(8.82 ± 1.20 Hz) in its place and the appearance of a new
+sleep spindle (Fig. 5b). By Ôintra-KC oscillationÕ we want to
+note that we had no evidence of this oscillation before or after
+the negative phase of the KC. It seems to characterize most
+KCs (874 ⁄ 1131, Table 3: KC010, KC011, KC110 and KC111),
+regardless of whether the KCs occur alone (532 ⁄ 708, Table 2:
+KC010 and KC011) or during the development of fast spindles
+(322 ⁄ 403, Table 2: KC110 and KC111). The probability of KCs
+being followed by spindles does not seem to depend on
+whether the KC is crowned by this short rhythmic oscillation
+Ó 2010 European Sleep Research Society, J. Sleep Res., 20, 57–72
+
+(629 ⁄ 875, 71.96%, Table 2: KC011 and KC111) or not
+(186 ⁄ 255, 72.94%, Table 2: KC001 and KC101).
+Sample-by-sample time–frequency analysis covering the
+time period around the KC negative peak, apart from verifying
+the spindle interruption and the appearance of a rhythmic
+oscillation, revealed the generation of a higher frequency
+spindle by an average of 1.17 ± 0.38 Hz (8.29 ± 2.69%) after
+the KC, in comparison to the frequency of the KC-interrupted
+spindle. Per subject averaging of the KC111 time–frequency
+graphs further conﬁrmed the latter (Fig. 5c,d). The herebydescribed prevailing phenomenon of already oscillating spindles being interrupted upon KC occurrence and being replaced
+
+66
+
+V. Kokkinos and G. K. Kostopoulos
+
+Figure 7. Rhythm relations: pre-KC, fast,
+and post-KC spindles exhibit a robust relationship (a–c), which does not exist between
+slow and fast sporadic spindles (d). In each
+part (a–d), the regression line function
+appears along with the R2 value. Note the
+superior values of the x coeﬃcient and R2
+(both $1) in (a–c) in contrast to the lesser
+values in (d). (e) The intra-subject relationship
+between pre-KC and post-KC spindles is
+shown. Note that the coordinates formed by
+the frequencies of the two rhythms for each
+and every EEG trace are always above the
+midline.
+
+by a short rhythm before a new spindle of higher frequency
+appeared was observed globally on the scalp (Fig. 6). The
+frequency of the post-KC spindles was found to be signiﬁcantly (P < 0.00001, paired t-test) higher than the frequency
+of the fast pre-KC spindles.
+The power relation between pre- and post-KC spindles was
+also investigated. Table 4 shows the mean PSD values for
+every subject that participated in this study, from which it is
+clear that the average power relation of the pre- and post-KC
+spindles varied across subjects. In two of our sleep recordings
+(subjects 1 and 6), the power of post-KC spindles was higher
+than the power of pre-KC spindles; in two (subjects 2 and 3)
+the power of post-KC spindles was lower than the power of
+pre-KC spindles; and in the rest of our recordings (subjects 4
+and 5) the power of the two was kept at the same level (also see
+Fig. 5, compare d–f).
+Relationships between KCs, spindles, and related rhythms
+To pursue these ﬁndings further, a table of rhythms (TOR) was
+formed for each subject, denoting the peak frequency of each
+characteristic brain oscillation and the diﬀerent types of
+
+spindles were systematically categorized (Table 2). The posterior alpha rhythm, produced under conditions of relaxed
+awareness, and the two types of sleep spindles are reported for
+each subject. We added to the TOR the phenomena that are
+the object of this study, that is, the peak frequencies of the preKC spindles, of the rhythmic oscillation appearing during the
+negative phase of the KC, and of the post-KC spindles, derived
+from all the accumulated KCs. It is worth noting the relatively
+consistent frequency means of the above-mentioned rhythms
+for subject 4 whose sleep was recorded twice. Presenting data
+from each subject in this TOR reveal that the hereby-described
+small but robust and consistent eﬀects of KCs can be detected
+in spite of relatively larger diﬀerences of the mean values in
+each subject (i.e. fast spindles frequency range from 12.65 to
+15.10 Hz).
+From the TOR, it can also be noted that: (a) the frequency
+of the posterior alpha rhythm is always lower than that of the
+slow sporadic spindles; (b) the frequency of the intra-KC
+oscillation appearing during the negative phase of the KC is
+always lower than the frequency of both the posterior alpha
+rhythm and slow spindles; (c) the pre-KC spindles are in
+congruence with sporadic fast spindles; (d) the frequency of the
+Ó 2010 European Sleep Research Society, J. Sleep Res., 20, 57–72
+
+Human NREM stage II K-complexes and spindles
+post-KC spindles is always higher than the frequency of both
+fast sporadic and pre-KC spindles. In addition, note the
+signiﬁcantly higher proportion of KCs followed by spindles
+(814 ⁄ 1131, 71.97%) in comparison with KCs preceded by
+spindles (402 ⁄ 1131, 35.54%).
+The relations between the investigated rhythms are schematically depicted in the diagrams of Fig. 7. Fig. 7a–c shows a
+robust relationship between the frequency of sporadic fast
+spindles, pre-KC spindles and post-KC spindles, for each of
+the seven sleep recordings. As Fig. 7b shows, subjects with
+relatively higher frequency of sporadic spindles also had
+relatively higher frequency post-KC spindles. More speciﬁcally, not only is it shown that the higher the frequency of the
+sporadic fast spindles (and thereby the frequency of the preKC spindles) the higher the frequency of the post-KC spindles,
+but also that the amount of mean frequency increase is
+consistent (thus creating the balanced oﬀset of the regression
+line) irrespective of the mean frequency of the pre-KC spindles.
+Fig. 7d shows that the latter robustness does not apply
+amongst slow and fast spindles. In Fig. 7e, the intra-subject
+pre-KC versus post-KC spindles relationship is shown for all
+seven sleep recordings. Thus, the ability of spindles oscillating
+at a higher frequency after the KC is not only shown as a mean
+diﬀerence between evoked and spontaneous fast spindles, but
+is also observed in each and every one of the 238 cases of
+individual KCs preceded by spindles and followed by new
+ones.
+As can be noted in Fig. 7a and Table 2, the frequency of fast
+spindles tends to characterize subjects, that is, it seems to vary
+more between than within subjects; the span of the mean
+frequency for each subject (from 12.65 Hz in subject
+5–15.10 Hz in subject 4Õs ﬁrst night and 14.90 Hz second
+night) is greater than 2 SD in each subject. For this reason, we
+compared all parameters of this study in each subject as well as
+in total, and graphically displayed results for each individual
+subject. The mean results of comparisons reported have been
+similarly observed in each and every subject with regards to
+frequency of spindles (Table 2), but not with regards to their
+power (Table 4).
+To investigate the frequency increase of post-KC spindles in
+more detail, we separated the pre-KC spindles of every subject
+into two groups; the ﬁrst group comprising of pre-KC spindles
+of frequency that fall below the mean fast spindle frequency
+(lower frequency group), and the second group of those that
+exceed the mean (higher frequency group) of each subject. The
+analysis showed that the post-KC spindles following the lower
+frequency group exhibited a signiﬁcantly higher (P < 0.005,
+paired
+t-test)
+frequency
+increase
+(1.60 ± 0.68 Hz,
+11.33 ± 3.31%) than those that followed the higher frequency
+group (0.74 ± 0.22 Hz, 5.24 ± 1.55%). Thus, we concluded
+that interruption of lower frequency fast spindles is associated
+with a higher frequency increase post-KC than the interruption
+of higher frequency fast spindles. The latter adheres to the
+existence of a ceiling in spindle frequency increase (and thereby
+spindle frequency), which is diﬀerent for each individual
+subject.
+Ó 2010 European Sleep Research Society, J. Sleep Res., 20, 57–72
+
+67
+
+We believed to determine whether the phenomenon of the
+higher frequency of post-KC spindles had some speciﬁc
+relationship to KC features, and we categorized the selected
+KCs according to several criteria. First, we clustered KCs
+according to the KCXÀ X0 Xþ type, as can be seen from the
+indicative images of Table 3. For each KC type, the mean
+frequency of the pre-KC spindles, the KC oscillation of the
+negative phase and the post-KC spindles were once more
+calculated, as shown in Table 3. By focusing on the four KC
+types that are related to post-KC spindles (KC001, KC011,
+KC101, and KC111), one can easily see that the higher post-KC
+spindle frequency is a common feature. More speciﬁcally, postKC spindle frequency values were higher by an average of
+1.21 ± 0.10 Hz (8.70 ± 0.71%) with respect to those of the
+respective pre-KC spindles, regardless of the fact that the
+majority of the accumulated KCs (KC001 + KC011 = 577,
+51.01%) were not preceded by spindles but, on the contrary,
+they were followed by them. When KCs occurred after the
+appearance of fast spindles (403 ⁄ 1131, 35.63%), spindles
+invariably (100%) stopped for at least the duration of the
+rising phase of the KC and were replaced (322 ⁄ 403, 79.9%) by
+a lower frequency short rhythm of $ 8.82 ± 1.20 Hz (see raw
+data of Fig. 5b, and spectral data of Fig. 5c,d). Following this
+and during the falling phase of their negative phase, a new
+spindle sequence was evoked in 238 ⁄ 403, 59.05% of the cases.
+This is a signiﬁcantly (P = 0.0009, paired t-test for the seven
+sleep recordings) smaller percentage compared with the total
+cases of KCs that are followed by spindles (815 ⁄ 1131,
+72.06%). Apparently, the precedence of spindles decreases
+the probability of new spindles following the KC (from
+72.06% to 59.05%). Hence, there was no case of a spindle
+running uninterrupted during a KC. Only 21.04% of the total
+KCs (Table 3, KC101 and KC111, total 238 ⁄ 1131) were both
+preceded and followed by spindles, and in every one of these
+cases the spindle following was of higher frequency than the
+one preceding, so it is most likely to be a diﬀerent event.
+Then, aiming to explore a potential dependency of the
+described eﬀects on the shape or on a particular phase of the
+KC, we clustered KCs according to their distinguished
+recorded features, that is, the amplitude of the negative and
+the positive peak. For each of the abovementioned features, we
+ranked all accumulated KCs per subject. Then we selected the
+highest and lowest 25% of the ranked KCs from every subject,
+waveform-averaged and performed time–frequency analysis on
+them, as shown in Fig. 8a–d. In all cases, the elevation of postKC spindle frequency was evident. The mean frequency
+increase in the 25% of KCs with high negative phase peak
+for all subjects was 0.95 ± 0.25 Hz, in the 25% of KCs with
+low negative phase peak was 1.01 ± 0.22 Hz, in the 25% of
+KCs with high positive peak was 0.93 ± 0.16 Hz, and in the
+25% of KCs with low positive phase was 1.00 ± 0.62 Hz. To
+complement the results, we selected from every subject all KCs
+whose positive phase was hardly distinguishable and therefore
+was not marked according to section ÔMaterials and methodsÕ
+(Fig. 8e). Even when the positive phase was virtually absent,
+the post-KC spindles had an average frequency increase of
+
+68
+
+V. Kokkinos and G. K. Kostopoulos
+
+Figure 8. Speciﬁcity of post-KC spindle frequency increases. KCs are grouped according to their recorded features and each row displays from left
+to right superimposed single (black) and averaged (red) waveform (over Cz), topographical and spectral (over Cz) data. (a) KCs of high negative
+phase peak (the highest 25% of samples, n = 35); (b) KCs of low negative phase peak (the lowest 25% of samples, n = 35); (c) KCs of high
+positive phase peak (the highest 25% of samples, n = 30); (d) KCs of low positive phase peak (the lowest 25% of samples, n = 30); (e) KCs with
+hardly distinguishable positive phase (n = 21). The blue and red vertical lines mark the negative and positive peaks of KCs, respectively. None of
+these KC features pertains to the generation of higher frequency post-KC spindles (or to the blockage of coinciding pre-KC spindles). All data
+shown were derived from the clustering of 139 KCs from subject 6.
+
+Ó 2010 European Sleep Research Society, J. Sleep Res., 20, 57–72
+
+Human NREM stage II K-complexes and spindles
+0.84 ± 0.20 Hz. In addition note that amplitude sorting of
+both the negative and the positive KC phase (even when the
+latter is hardly distinguishable) showed that the topographical
+characteristics did not vary consistently with the KC recorded
+size (see averages of waveform and topography of Fig. 8).
+Finally, we investigated whether the occurrence of post-KC
+spindles is aﬀected by the occurrence of the distinctive positive
+phase of the KC. From all subjects, we grouped 811 ⁄ 1131
+(71.71%) KCs with prominent positive phase, and 320 ⁄ 1131
+(28.29%) with hardly distinguishable positive phase. Of the
+former group, post-KC spindles occurred at a relatively high
+proportion of 74.10% (601 ⁄ 811), and in the latter group at an
+also high and comparable proportion of 66.56% (213 ⁄ 320). It
+therefore appears that the higher frequency of post-KC
+spindles is not related to the size or the relative prominence
+of the KCÕs positive phase.
+DISCUSSION
+Detailed analysis of spontaneous singular and generalized KCs
+occurring during NREM stage II of whole-night undisturbed
+sleep resulted in three main observations: (a) the sleep spindle
+is blocked upon accidentally coinciding KC; (b) during the
+blockage, an intra-KC oscillation appears instead; and (c) the
+spindles appearing with high probability after the negative
+peak of the KC – not time-locked to the KC – have a
+signiﬁcantly higher frequency than both pre-KC fast spindles
+as well as sporadic, non-KC-related, fast spindles. The latter
+increase in spindle frequency was highly correlated to the mean
+frequency of both the pre-KC spindles and the sporadic fast
+spindles (Fig. 7), while it seemed to be by a maximum
+frequency. For every subject all spindle frequencies (sporadic
+slow and fast, pre- and post-KC spindles) are kept within
+relatively narrow individual ranges, despite the relatively wider
+inter-subject variation. Spindle power did not necessarily
+increase after the KC. Clustering all selected KCs according
+to the above observations showed that all related combinations (KC001, KC011, KC101, and KC111) exhibited in the
+immediate post-KC period a similar statistically signiﬁcant
+increase in spindle incidence and spectral frequency. The same
+happened with clusters of KCs with relatively higher or lower
+amplitude of their negative or positive phases, or even KCs
+without a positive phase. Finally, the probability of KCs being
+followed by spindles does not seem to depend on whether the
+KC is crowned by the short oscillation at $ 8.8 Hz or not
+(72% in both). Overall, we found no KC feature that could
+predict either the spectral frequency increase or the incidence
+of spindles following the KC better than any others. In all
+categories, higher frequency spindles occurred after the passing
+of the KC at a similarly high level of probability. It should be
+noticed that all conclusions of this study are limited to
+the prominent type of KCs peaked by unblinded sampling
+but according to the strict criteria fully described in
+section ÔMaterials and methodsÕ; they may not necessarily
+generalize to all KCs appearing in other sleep stages besides
+NREM stage II.
+Ó 2010 European Sleep Research Society, J. Sleep Res., 20, 57–72
+
+69
+
+In spite of the evidence for independence of spindles from
+KCs (reviewed in section ÔIntroductionÕ), the most frequent
+clustering of the two graphoelements in the timeframe of the
+Cyclic Alternating Pattern (Terzano et al., 1985) is impressive.
+It is often stated that spindles Ôride on KCsÕ or Ôconstitute a
+part of the KCÕ (Blum and Rutkove, 2007). In addition, the
+positive phases of KCs are associated to population burst
+discharges in layer 5 and 6 pyramidal neurons, which project
+to the thalamus (Amzica and Steriade, 1998). Such a strong
+corticothalamic input could possibly discharge reticular
+nucleus (RE) neurons and thereby trigger spindles (Buzsaki,
+2006). We have clariﬁed and quantiﬁed this tendency to
+coincide in time, showing that ongoing spindles stop upon KCs
+for their duration and a new spindle usually appears at the
+half-second interval following the completion of the negative
+component of a KC. This study strongly supports the
+independence of spindles incidence from a preceding KC by
+means of distinguishing, presenting and analyzing separately
+all the possible combinations of sequential events ⁄ rhythms
+appearance in association to the KC (KC000–KC111, Table 3),
+despite the fact that some combinations appear more often
+than others. If KCs and spindles were not independent
+phenomena of sleep, at least one of the four combinations
+(that is, KC0X0, KC0X1, KC1X0 and KC1X1) would be obsolete.
+However, this independence of incidence concerns the generation mechanisms of the KC and the sleep spindle. We have
+shown in this study that when the two phenomena coincide,
+there is a clear interaction between the two.
+Sleep spindles rhythm is initiated in c-aminobutyric acidergic thalamic RE neurons, which impose onto TC neurons
+rhythmic inhibitory postsynaptic potentials, thus de-inactivating a low-threshold Ca2 + current, which promotes burst
+ﬁring. This is transferred to the cortex where it induces
+rhythmic excitatory postsynaptic potentials, the electrical
+generators of the EEG spindles. Cortical excitation on both
+RE and TC neurons helps synchronize, spread and maintain
+the spindle rhythm (Buzsaki, 2006; Steriade and McCarley,
+2005). The fact that the ongoing spindling activity is invariably, abruptly and completely blocked upon KC coincidence,
+the higher spectral frequency and the high incidence of
+spindles after the negative phase of the KCs are all phenomena
+that could be understood in the context of the down–up states
+of the slow frequency (<1 Hz) cortical oscillation, where the
+succession of down and up states reﬂects a hyperpolarizing–
+depolarizing sequence (Amzica and Steriade, 1998; Cash et al.,
+2009; Steriade et al., 1993). To the extent that we currently
+understand the mechanisms of bistability of neocortical
+networks, it can be surmised that the slow oscillation is an
+emergent network property of neocortical neurons (Buzsaki,
+2006). Scalp-recorded KCs are considered to reﬂect the
+neuronal synchrony associated with the down–up depolarization shift (Amzica and Steriade, 1998), and the up state
+triggers spindles. The fast transition from silence to population activity represents a self-organized criticality, the very
+nature of which may allow subcortical stimuli (sensory or
+homeostatic) to interrupt and reverse either the down or up
+
+70
+
+V. Kokkinos and G. K. Kostopoulos
+
+state. It is therefore conceivable that in our KC1XX types
+(Table 3) an up state carrying spontaneously occurring spindles was interrupted by an endogenous arousal stimulus,
+which in turn induced a new down–up shift carrying a KC,
+and often a new spindle. The higher frequency of the new
+spindle can then be attributed to a depolarization of TC
+neurons, which facilitates their rebound ﬁring a few milliseconds earlier than before. In turn, this depolarization of TC
+neurons could be attributed to either an enhanced corticothalamic input at the beginning of the up state or by the
+subcortical input that brought about the down–up shift in the
+ﬁrst place.
+Although both cortical and subcortical eﬀects on the
+thalamus are possible, we consider the later as better explaining our data, as: (a) RE neurons produce spindles only when a
+dampening of brainstem activity allows it and that in arousal
+spindles are blocked when inputs from the brainstem and basal
+forebrain hyperpolarize and so decouple the synaptic networks
+of RE (Steriade and McCarley, 2005); (b) KCs may be
+considered as a complex sleep-protecting reaction to arousing
+stimuli in the frame of a highly dynamic balance between
+hypnagogic and arousing tendencies in NREM stage II
+(Hala´sz, 2005). It is therefore conceivable that a brief arousing
+stimulus may trigger a KC and at the same time block spindles
+by a brainstem inhibitory action at the RE level, upon the
+depolarizing rebound of which a new spindle rhythm of higher
+frequency is produced. This explanation would be compatible
+with both the observed higher frequency of spindles occurring
+immediately after a KC (in each subject faster than the fast and
+never slow) and the high probability of the post-KC appearing
+sleep spindles, yet none of the latter correlating with a
+particular feature of the KC.
+Another ﬁnding that requires explanation is the appearance
+during the negative peak of the KC of a short-lasting rhythm
+of a narrow frequency range (8.88 ± 1.20 Hz). It seems to
+characterize most KCs, regardless of whether the KCs occur
+alone (75%) or they occur during the development of fast
+spindles (80%). Although TC neurons have the ability to
+produce oscillations in the theta ⁄ alpha frequency (Hughes and
+Crunelli, 2007), these rhythms are not a particular feature of
+stage II NREM sleep, but rather characterize arousals and
+partially NREM stage I. While human SWS rhythmic activity
+in the 12–15-Hz spindle frequency range becomes grouped
+during the slow oscillations, theta (4–8 Hz) and alpha (8–
+13 Hz) band activities do not display such dynamics (Mo¨lle
+et al., 2002). The short oscillation we observed during KCs,
+which appeared to cover a narrow range at the border of these
+two rhythms, may therefore not relate to either of them.
+Moreover, we showed (Table 2) that this intra-KC oscillation
+always had lower frequency than the posterior alpha. Its
+appearance was not correlated with the appearance of spindles
+either before or after the KC (Table 3). To our knowledge, this
+short rhythm has not been observed with other sleep slow
+waves, like delta. Along with the interaction of the KC with
+spindles, the revealing of an oscillation riding on the KC
+negative phase supports the view that the KC is a complex
+
+multifaceted phenomenon, whose secrets are still unveiled
+seven decades after its ﬁrst description.
+Our data enhance the impression that fast and slow spindles
+are distinct features of stage II sleep. We conﬁrm (Anderer
+et al., 2001; Gibbs and Gibbs, 1964; Himanen et al., 2002;
+Zeitlhofer et al., 1997; Zygierewicz et al., 1999) the frontal
+predominance and slower frequency compared with the
+centro-parietal predominance and faster frequency, as well as
+the relatively higher incidence of the fast spindles (De Gennaro
+and Ferrara, 2003). In addition, their respective mean spectral
+frequencies do not appear to co-vary in individual subjects
+(Fig. 7d). Most crucially, the spindles following KCs were
+never of the slow type, but actually faster than the fast ones
+observed in each and every subject.
+It is not yet known whether the diﬀerent characteristics of
+slow spindles are due to diﬀerent TC circuits (Anderer et al.,
+2001) and ⁄ or longer hyperpolarization of TC neurons. More
+frontal slow spindles are found in the ﬁrst sleep cycle when
+sleep pressure is assumed to be highest and hyperpolarization
+of their generators is considered to be deepest (Himanen et al.,
+2002). Sleep pressure is determined both by homeostatic and
+circadian factors (Borbe´ly, 1982), and it is diﬃcult to decipher
+their inﬂuence on spindles frequency. Also, our data were
+pooled from all sleep cycles and we certainly had many very
+fast spindles in the ﬁrst cycle of sleep. However, if fast spindles
+are postulated to occur in instances of relatively lighter sleep
+compared with the slow ones, the even faster spindles we found
+to follow KCs may indicate that following the KC there is a
+short window of time (0.5–2 s) of even lighter sleep than before
+the KC. This would be in line with the proposed arousing
+stimulus as a more likely explanation of all the eﬀects we
+observed.
+The frequency variation of sleep spindles provides a handle
+to the study of TC pacing mechanisms, and our ﬁnding of even
+faster spindles following KC calls for a multidimensional
+approach that would consider brain location and sleep
+macrostructure (sleep stages and cycles) as well as microstructure (interaction between concurrent events). Such an
+approach would help further understand the two roles so far
+recognized for spindles: the gating of information processing
+and thus protecting the sleeper from disturbing stimuli
+(Buzsaki, 2006); and participation in oﬀ-line learning (Gais
+et al., 2002). Spontaneous spindles or TC stimuli in the spindle
+frequency have been shown to induce sustained depolarization
+of cortical neurons, enhancement of cortical excitability lasting
+several minutes and Ca2 + entry in the dendrites (Steriade and
+McCarley, 2005). All these eﬀects are frequency dependent,
+and learning a visuomotor task has been linked to an increase
+of fast rather than slow spindles in the cortical areas involved
+in the learning (Tamaki et al., 2009). Therefore, the observation of even higher frequency spindles could be relevant to
+brain plasticity and memory consolidation mechanisms.
+Finally, in the realm of pathophysiology, TC mechanisms
+elaborating sleep spindles have been implicated in the development of EEG spike and wave discharges underlying absence
+seizures (evidence reviewed in Kostopoulos, 2000). A gating
+Ó 2010 European Sleep Research Society, J. Sleep Res., 20, 57–72
+
+Human NREM stage II K-complexes and spindles
+function in these discharges has been alternatively ascribed to
+KCs (Amzica and Steriade, 2002; Hala´sz, 2005). Some
+information on combining the above hypotheses to explain
+absence seizures may be given by the observed eﬀects of KCs
+on spindles.
+ACKNOWLEDGEMENTS
+The authors acknowledge the contribution of Andreas
+Koupparis MD in the development of the Matlab-based suite
+used for sleep data analysis, and Dr Maria L. Stavrinou in
+signal processing issues.
+REFERENCES
+American Academy of Sleep Medicine (AASM). The visual scoring of
+sleep in adults, J. Clin. Sleep Med., 2007, 3: 121–135.
+American Sleep Disorders Association (ASDA). EEG arousals:
+scoring rules and examples: A preliminary report from the Sleep
+Disorder Atlas Task Force of the American Sleep Disorder
+Association. Sleep, 1992, 15: 174–184.
+Amzica, F. and Steriade, M. Cellular substrates and laminar proﬁle of
+sleep K-complex. Neuroscience, 1998, 82: 671–686.
+Amzica, F. and Steriade, M. The functional signiﬁcance of
+K-complexes, Sleep Med. Rev., 2002, 6: 139–149.
+Anderer, P., Klosch, G., Gruber, G. et al. Low-resolution brain
+electromagnetic tomography revealed simultaneously active frontal
+and parietal sleep spindle sources in the human cortex. Neuroscience,
+2001, 103: 581–592.
+Blum, A. S. and Rutkove, S. B. The Clinical Neurophysiology Primer.
+Humana Press Totowa, New Jersey, 2007.
+Borbe´ly, A. A. A two process model of sleep regulation, Hum.
+Neurobiol., 1982, 1: 195–204.
+Buzsaki, G. Rhythms of the Brain. Oxford University Press, 2006.
+Cash, S. S., Halgren, E., Dehghani, N. et al. The human K-complex
+represents an isolated cortical down-state. Science, 2009, 324: 1084–
+1087.
+Church, M. W., Johnson, L. C. and Seales, D. M. Evoked
+K-complexes and cardiovascular responses to spindle-synchronous
+and spindle-asynchronous stimulus clicks during NREM sleep.
+Electroencephalogr. Clin. Neurophysiol., 1978, 45: 443–453.
+Colrain, I. M. The K-complex: a 7-decade history. Sleep, 2005, 28:
+255–273.
+Crowley, K., Trinder, J., Colrain, I. and Evoked K-complex generation: the impact of sleep spindles, age. Clin. Neurophysiol., 2004, 115:
+471–476.
+Curcio, G., Ferrara, M., Pellicciari, M C., Cristiani, R. and DeGennaro, L. Eﬀect of total sleep deprivation on the landmarks of stage 2
+sleep. Clin. Neurophysiol., 2003, 114: 2279–2285.
+De Gennaro, L. and Ferrara, M. Sleep spindles: an overview, Sleep
+Med. Rev., 2003, 7: 423–440.
+De Gennaro, L., Ferrara, M. and Bertini, M. The spontaneous
+K-complex during stage 2 sleep: is it the ‘‘forerunner’’ of delta
+waves? Neurosci. Lett., 2000, 291: 41–43.
+DGSM German Sleep Society Task Force. A review of sleep EEG
+patterns. Part I: A compilation of amended rules for their visual
+recognition according to Rechtshaﬀen and Kales. Somnologie, 2006,
+10: 159–175.
+Ehrhart, J., Ehrhart, M., Muzet, A., Schieber, J. P. and Naitoh, P.
+K-complexes and sleep spindles before transient activation during
+sleep. Sleep, 1981, 4: 400–407.
+Gaillard, J. M. and Tissot, R. EEG sleep studies of insomniacs under
+ﬂunitrazepam treatment. Int. Pharmacopsychiatry, 1975, 10: 199–
+207.
+Ó 2010 European Sleep Research Society, J. Sleep Res., 20, 57–72
+
+71
+
+Gais, S., Molle, M., Hels, K. and Born, J. Learning-dependent increase
+in sleep spindle density. J. Neurosci., 2002, 22: 6830–6834.
+Gibbs, F.A. and Gibbs, E.L. In: A. Reading (Ed.) Atlas of Electroencephalography, Vol. 1. Addison-Wesley, Reading, MA, USA,
+1964: 90–96.
+Hala´sz, P. Arousals without awakening – dynamic aspect of sleep.
+Physiol. Behav., 1993, 54: 795–802.
+Hala´sz, P. K-complex, a reactive graphoelement of NREM sleep:
+an old chap in a new garment. Sleep Med. Rev., 2005, 9: 391–
+412.
+Himanen, S.-L., Virkkala, J., Huhtala, H. and Hasan, J. Spindle
+frequencies in sleep EEG show U-shape within ﬁrst four NREM
+sleep episodes. J. Sleep Res., 2002, 11: 35–42.
+Hornyak, M., Cejnar, M., Elam, M., Matousek, M. and Wallin, B. G.
+Sympathetic muscle nerve activity during sleep in man. Brain, 1991,
+114: 1281–1295.
+Hughes, S. W. and Crunelli, V. Just a phase theyÕre going through: the
+complex interaction of intrinsic high-threshold bursting and gap
+junctions in the generation of thalamic alpha and theta rhythms. Int.
+J. Psychophysiol., 2007, 64: 3–17.
+Johnson, L. C., Hanson, K. and Bickford, R. G. Eﬀect of ﬂurazepam
+on sleep spindles and K-complexes. Electroenceph. Clin. Neurophysiol., 1976, 40: 67–77.
+Kostopoulos, G. K. Spike-and-wave discharges of absence seizures
+as a transformation of sleep spindles: the continuing development of a hypothesis. Clin. Neurophysiol., 2000, 111(Suppl. 2):
+S27–38.
+Kubicki, S., Haag-Wusthof, C., Rohmel, J., Hermann, W. M. and
+Scheuler, W. Eﬀect of lormetazepam, triazolam and ﬂunitrazepam
+on rapid eye movements, K-complexes and sleep spindles in normal
+probands [in German]. EEG EMG Z. Elektroenzephalogr.
+Elektromyogr. Verwandte Geb., 1987, 18: 61–67.
+Loomis, A. L., Harvey, E. N. and Hobart, G. A. Electrical potentials
+of the human brain. J. Exp. Psychol., 1936, 19: 249–279.
+Loomis, A. L., Harvey, E. N. and Hobart, G. A. Distribution of
+disturbance patterns in the human electroencephalogram, with
+special reference to sleep. J. Neurophysiol., 1938, 1: 413–430.
+Mo¨lle, M., Marshall, L., Gais, S. and Born, J. Grouping of spindle
+activity during slow oscillations in human non-rapid eye movement
+sleep. J. Neurosci., 2002, 22: 10941–10947.
+Naitoh, P., Antony-Baas, V., Muzet, A. and Ehrhart, J. Dynamic
+relation of sleep spindles and K-complexes to spontaneous phasic
+arousal in sleeping human subjects. Sleep, 1982, 5: 58–72.
+Okada, H., Iwase, S., Mano, T., Sugiyama, Y. and Watanabe, T.
+Changes in muscle sympathetic nerve activity during sleep in
+humans. Neurology, 1991, 41: 1961–1966.
+Rechtschaﬀen, A. and Kales, A. (Eds) A Manual of Standardized
+Terminology, Techniques and Scoring System for Sleep Stages of
+Human Subjects. BI ⁄ BR, Los Angeles, CA, 1968.
+Roth, M., Shaw, J. and Green, J. The form, voltage distribution and
+physiological signiﬁcance of the K-complex. Electroenceph. Clin.
+Neurophysiol., 1956, 8: 385–402.
+Sandwell, D. Biharmonic spline interpolation of GEOS-3 and SEASTAT altimeter data. Geophys. Res. Lett., 1987, 14: 139–142.
+Schabus, M., Dang-Vu, T. T., Albouy, G. et al. Hemodynamic
+cerebral correlates of sleep spindles during human non-rapid eye
+movement sleep. Proc. Natl Acad. Sci. USA, 2007, 104: 13164–
+13169.
+Steriade, M. and McCarley, R. W. Brain Control of Wakefulness and
+Sleep. Springer, New York, 2005.
+Steriade, M., Nunez, A. and Amzica, F. A novel slow (<1 Hz)
+oscillation of neocortical neurons in vivo: depolarizing and hyperpolarizing components. J. Neurosci., 1993, 13: 3252–3265.
+Takehuchi, S., Iwase, S., Mano, T., Okada, H., Sugiyama, Y. and
+Watanabe, T. Sleep-related changes in human muscle and skin
+sympathetic nerve activities. J. Auton. Nerv. Syst., 1994, 47: 121–
+129.
+
+72
+
+V. Kokkinos and G. K. Kostopoulos
+
+Tamaki, M., Matsuoka, T., Nittono, H. and Hori, T. Activation of
+fast sleep spindles at the premotor cortex and parietal areas
+contributes to motor learning: a study using sLORETA. Clin.
+Neurophysiol., 2009, 120: 878–886.
+Tank, J., Dietrich, A., Hale, N. et al. Relationship between blood
+pressure, sleep K-complexes, and muscle sympathetic nerve activity
+in humans. Am. J. Physiol. Regul. Integr. Comp. Physiol., 2003, 285:
+R208–214.
+Terzano, M. G., Mancia, D., Salati, M. R., Costani, G., Decembrino,
+A. and Parrino, L. The cyclic alternating pattern as a physiologic
+component of normal NREM sleep. Sleep, 1985, 8: 137–145.
+
+Urakami, Y. Relationships between sleep spindles and activities of
+cerebral cortex as determined by simultaneous EEG and MEG
+recording. J. Clin. Neurophysiol., 2008, 25: 13–24.
+Yamadori, A. Role of spindles in the onset of sleep. J. Med. Sci., 1971,
+17: 97–111.
+Zeitlhofer, J., Gruber, G., Anderer, P., Asenbaum, S., Schimicek, P.
+and Saletu, B. Topographic distribution of sleep spindles in young
+healthy subjects. J. Sleep Res., 1997, 6: 149–155.
+Zygierewicz, J., Blinowska, K. J., Durka, P. J., Szelenberger, W.,
+Niemcewicz, S. and Androsiuk, W. High resolution study of sleep
+spindles. Clin. Neurophysiol., 1999, 110: 2136–2147.
+
+Ó 2010 European Sleep Research Society, J. Sleep Res., 20, 57–72
+
+

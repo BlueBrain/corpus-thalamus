@@ -1,0 +1,1537 @@
+Cerebral Cortex January 2007;17:149--162
+doi:10.1093/cercor/bhj132
+Advance Access publication February 15, 2006
+
+A Statistical Analysis of InformationProcessing Properties of Lamina-Specific
+Cortical Microcircuit Models
+
+Stefan Haeusler and Wolfgang Maass
+
+A major challenge for computational neuroscience is to understand
+the computational function of lamina-specific synaptic connection
+patterns in stereotypical cortical microcircuits. Previous work on
+this problem had focused on hypothesized specific computational
+roles of individual layers and connections between layers and had
+tested these hypotheses through simulations of abstract neural
+network models. We approach this problem by studying instead
+the dynamical system defined by more realistic cortical microcircuit
+models as a whole and by investigating the influence that its
+laminar structure has on the transmission and fusion of information
+within this dynamical system. The circuit models that we examine
+consist of Hodgkin--Huxley neurons with dynamic synapses, based
+on detailed data from Thomson and others (2002), Markram and
+others (1998), and Gupta and others (2000). We investigate to what
+extent this cortical microcircuit template supports the accumulation and fusion of information contained in generic spike inputs into
+layer 4 and layers 2/3 and how well it makes this information
+accessible to projection neurons in layers 2/3 and layer 5. We
+exhibit specific computational advantages of such data-based
+lamina-specific cortical microcircuit model by comparing its
+performance with various types of control models that have the
+same components and the same global statistics of neurons and
+synaptic connections but are missing the lamina-specific structure
+of real cortical microcircuits. We conclude that computer simulations of detailed lamina-specific cortical microcircuit models
+provide new insight into computational consequences of anatomical and physiological data.
+
+2004; and the references in these recent publications). Treves
+(2003) and Raizada and Grossberg (2003) investigated speciﬁc
+hypotheses regarding the computational role of lamina-speciﬁc
+structure and have supported these hypotheses through computer simulations of rather abstract models for neural circuits.
+The results of Treves (2003) show that in this more abstract
+setting the laminar circuit structure yields a small advantage
+regarding the separation of 2 types of information: at which
+horizontal location of the circuit input has been injected
+(‘‘where’’ information) and about the particular pattern which
+had been injected there (‘‘what’’ information). We complement
+this analysis by taking a closer look at the temporal dynamics
+of information at a single horizontal location, more precisely
+within a single column with a diameter of about 100 lm. We
+ﬁnd that from this perspective the computational advantage of
+laminar circuits is substantially larger: around 30% (depending
+on the speciﬁc type of information-processing task), rather than
+just 10% as observed in Treves (2003).
+The stereotypical cortical microcircuit is a highly recurrent
+circuit that involves numerous superimposed positive and negative feedback loops (Douglas and Martin 2004). Most methods
+that have been developed in engineering sciences in order
+to design and analyze such recurrent circuits focus on the
+system behavior of the recurrent circuit as a whole because it
+has turned out to be not feasible to understand the emergent
+dynamics of nonlinear recurrent circuits merely on the basis
+of speciﬁcations of their components. This systems’ perspective
+of stereotypical cortical microcircuits had ﬁrst been emphasized by Douglas and others (1995) and had led to their deﬁnition of an abstract model of a ‘‘canonical microcircuit.’’ It was
+demonstrated in Douglas and others (1995) that this systems’
+perspective provides a new way of understanding the role
+of inhibition in cortical microcircuits, in particular the way
+in which relatively small changes of inhibitory feedback may
+cause large changes in the gain of the system. However, the
+temporal dynamics of neuronal and synaptic activity had not
+been taken into account in these early models. Also much fewer
+data on stereotypical connection patterns were available at that
+time. Furthermore, no attempt had previously been made to
+analyze with rigorous statistical methods emergent informationprocessing capabilities of the resulting detailed microcircuit
+models. The goal of this article is to close this gap.
+We investigate the information-processing capabilities of
+detailed microcircuit models based on data from Thomson
+and others (2002) on lamina-speciﬁc connection probabilities
+and connection strengths between excitatory and inhibitory
+neurons in layers 2/3, 4, 5, and on data from Markram and others
+(1998) and Gupta and others (2000) regarding stereotypical
+
+Keywords: cortical layers, lamination, microcircuit models, real-time
+computations, small-world networks, temporal integration
+Introduction
+The neocortex is composed of neurons in different laminae that
+form precisely structured microcircuits. In spite of numerous
+differences depending on age, cortical area, and species, many
+properties of these microcircuits are stereotypical, suggesting
+that neocortical microcircuits are variations of a common
+microcircuit template (White 1989; Douglas and others 1995;
+Mountcastle 1998; Nelson 2002; Silberberg and others 2002;
+Douglas and Martin 2004; Kalisman and others 2005). One may
+conjecture that such microcircuit template is distinguished by
+speciﬁc functional properties, which enable it to subserve the
+enormous computational and cognitive capabilities of the brain
+in a more efﬁcient way than, for example, a randomly connected
+circuit with the same number of neurons and synapses. The
+potential computational function of laminar circuit structure
+has already been addressed in numerous articles (see, e.g.,
+Raizada and Grossberg 2003; Treves 2003; Douglas and Martin
+
+Institute for Theoretical Computer Science, Technische
+Universitaet Graz, A-8010 Graz, Austria
+
+Ó The Author 2006. Published by Oxford University Press. All rights reserved. For permissions, please e-mail: journals.permissions@oxfordjournals.org
+The online version of this article has been published under an open access model. Users are entitled to use, reproduce, disseminate, or display the open access version of this article for noncommercial purposes provided that: the original authorship is properly and fully attributed; the Journal and Oxford University Press are attributed as the original place of publication with the
+correct citation details given; if an article is subsequently reproduced or disseminated not in its entirety but only in part or as a derivative work this must be clearly indicated. For commercial
+re-use, please contact journals.permissions@oxfordjournals.org.
+
+dynamic properties (such as paired pulse depression and paired
+pulse facilitation) of synaptic connections between excitatory
+and inhibitory cortical neurons. Our analysis is based on the
+assumption that stereotypical cortical microcircuits have some
+‘‘universal’’ computational capabilities and can carry out quite
+different computations in diverse cortical areas. Consequently,
+it concentrates on the generic information-processing capability to hold and fuse information contained in Poisson input
+spike trains from 2 different sources (modeling thalamic or
+cortical feedforward input into layer 4, and lateral or top--down
+input into layers 2/3). In addition, we have examined the
+capability of such circuit models to carry out linear and
+nonlinear computations on time-varying ﬁring rates of these 2
+afferent input streams. In order to avoid—necessarily quite
+biased—assumptions about the neuronal encoding of the results
+of such computations, we have analyzed the information which
+is available about the results of such computations to the
+generic ‘‘neural users,’’ that is, to pyramidal neurons in layers 2/3
+(which typically project to higher cortical areas) and to
+pyramidal neurons in layer 5 (which typically not only project
+to lower cortical areas or to subcortical structures but also
+project, e.g., from V1 back to nonspeciﬁc thalamus, i.e., to the
+intralaminar and midline nuclei that do not receive direct
+primary sensory input, and through this relay to higher cortical
+areas, see Callaway 2004).
+In contrast to the model in Maass and others (2002) (for
+a discussion, see Destexhe and Marder 2004), we have not
+used simply linear regression to estimate the information available to such readout neurons, whose output is modeled by
+a weighted sum of postsynaptic potentials (PSPs) (with an exponential decay time constant of 15 ms) in response to spikes
+from presynaptic neurons. Rather, we have added here the
+constraint that the contribution of an excitatory (inhibitory)
+presynaptic neuron needs to have a positive (negative) weight
+in such weighted sum. In addition, we have taken into account
+that a readout neuron in layers 2/3 or layer 5 only receives
+synaptic inputs from a rather small subset of neurons in the
+microcircuit according to the data of Thomson and others
+(2002) (which imply that in a circuit of 560 neurons, a neuron
+in layers 2/3 has on average 84 presynaptic neurons, and
+a neuron in layer 5 has on average 109 presynaptic neurons,
+see Fig. 1). But as in the earlier model, we have not modiﬁed the
+parameters of synapses within the circuit for speciﬁc computational tasks, only the weights of synaptic connections to such
+symbolic readout neurons in layers 2/3 and 5 (which were not
+modeled to be part of the circuit, in the sense that they did not
+project back into the circuit). (This simpliﬁcation was made in
+this article for pragmatic reasons because ﬁrst results on the
+case with feedback [Maass and others 2005] suggest that it
+requires a separate analysis).
+Methods
+The currently most complete set of data on connection probabilities
+and efﬁcacies of synaptic connections between 6 speciﬁc populations
+of neurons in cortical microcircuits (excitatory and inhibitory neurons
+in layers 2/3, 4, and 5) has been assembled in Thomson and others
+(2002). Intracellular recordings with sharp electrodes from 998 pairs
+of identiﬁed neurons were made to assemble these data. A total of
+679 paired recordings were made from somatosensory, motor, and
+visual areas of adult rats and 319 from visual areas in adult cats. The
+sampling was made randomly within a lateral spread of 50--100 lm
+(A. M. Thomson, personal communication). For those pairs, where data
+from both rat and cat are given in Thomson and others (2002), we have
+
+150 Lamina-Speciﬁc Cortical Microcircuit Models
+
+d
+
+Haeusler and Maass
+
+taken the data from rat (see Fig. 1). Only for pairs of neurons within
+layer 4, no data from rat are given in Thomson and others (2002); hence,
+the corresponding data in Figure 1 are from cat. (Some of the pairings
+were rarely observed, and the corresponding entries suffer from small
+sample size [for details, see Thomson and others 2002]. Also very small
+neurons in rat may have been missed [A. M. Thomson, personal
+communication]. In addition, it is possible that in some cortical microcircuits, connections exist between pairs of neurons for which no
+connections were reported in Thomson and others [2002] [for the case
+of connections to inhibitory neurons in layers 2/3, see, e.g., Dantzker
+and Callaway 2000]).
+The short-term dynamics of cortical synapses (i.e., their speciﬁc
+mixture of paired pulse depression and paired pulse facilitation) is
+known to depend on the type of the presynaptic and postsynaptic
+neuron (see, e.g., Markram and others 1998; Gupta and others 2000;
+Thomson 2003). We modeled this short-term synaptic dynamics
+according to the model proposed in Markram and others (1998), with
+synaptic parameters U, D, and F. The model predicts the amplitude Ak
+of the PSP for the kth spike in a spike train with interspike intervals
+D1, D2, . . ., Dk–1 through the recursive equations,
+Ak = w Á uk Á Rk ;
+uk = U + uk – 1 ð1 – U Þexpð – Dk – 1 =F Þ;
+Rk = 1 + ðRk – 1 – uk – 1 Rk – 1 – 1Þexpð – Dk – 1 =DÞ;
+
+ð1Þ
+
+with hidden dynamic variables u 2 [0,1] and R 2 [0,1] whose initial
+values for the 1st spike are u1 = U and R1 = 1 (see, Maass and Markram
+[2002] for a justiﬁcation of this version of the equations, which corrects
+a small error in Markram and others [1998]). The deterministic synapse
+model is designed to model the average sum of postsynaptic responses
+resulting from the concerted action of multiple stochastic synaptic
+release sites. Results show that the inclusion of short-term synaptic
+plasticity has a signiﬁcant impact on the information-processing capability of the circuit models. (Long-term synaptic plasticity within the
+simulated circuit was not included in this study for pragmatic reasons
+because of the additional complex issues involved, but will be addressed
+in subsequent studies).
+The parameters U, D, and F were chosen in our computer model
+from Gaussian distributions that reﬂect data reported in Markram and
+others (1998) and Gupta and others (2000) for each type of connection
+(note that the parameter U is according to Markram and others [1998]
+largely determined by the initial release probability of the synaptic release sites involved). Depending on whether the input was excitatory
+(E) or inhibitory (I), the mean values of these 3 parameters U, D, F (with
+D, F expressed in seconds) were chosen to have the mean values that
+were reported in these articles (see Table 1). The standard deviation
+(SD) of each parameter was chosen to be 50% of its mean (with negative
+values replaced by values chosen from an uniform distribution between
+zero and two times the mean).
+The microcircuit models that we examined consisted of 3 layers,
+with 30%, 20%, and 50% of the neurons assigned to layers 2/3, layer 4,
+and layer 5, respectively. Each layer consisted of a population of
+excitatory neurons and a population of inhibitory neurons with a ratio
+of 4:1. Synaptic connections between the neurons in any pair of the
+resulting 6 populations were randomly generated in accordance with
+the empirical data from Table 1 and Figure 1. Most circuits that were
+simulated consisted of 560 neurons. The mean number of presynaptic
+neurons from a neuron in such circuit was then 76, yielding altogether
+an average of 42 594 synapses in the circuit.
+As models for excitatory and inhibitory neurons, we chose conductance-based single compartment Hodgkin--Huxley neuron models
+with passive and active properties modeled according to Destexhe and
+others (2001) and Destexhe and Pare (1999). In accordance with
+experimental data on neocortical and hippocampal pyramidal neurons
+(Stuart and Sakmann 1994; Magee and Johnston 1995; Hoffman and
+others 1997; Magee and others 1998), the active currents comprise
++
+a voltage-dependent Na current (Traub and Miles 1991) and a delayed
++
+rectiﬁer K current (Traub and Miles 1991). For excitatory neurons,
++
+a non-inactivating K current (Mainen and others 1995) responsible for
+spike frequency adaptation was included in the model. The peak
++
++
+conductance densities for the Na current and delayed rectiﬁer K
+
+Figure 1. Cortical microcircuit template. Numbers at arrows denote connection strengths (mean amplitude of PSPs measured at soma in mV) and connection probabilities (in
+parentheses) according to Thomson and others (2002), for connections between cortical neurons in 3 different layers, each consisting of an excitatory (E) and an inhibitory
+(I) population, with an estimated maximal horizontal distance of up to 100 lm. Most of the data are from rat cortex, except for interconnections in layer 4 (italic), which are from
+cat. (Connections from L2/3-I to L5-E are reported in Thomson and others [2002], but are discussed only qualitatively. Hence, the entry for connections from L2/3-I to L5-E [marked
+by a question mark] is only an extrapolation. The same applies to connections from L4-I to L2/3-I. No data on the amplitudes of inhibitory PSPs from L5-I to L5-I are given in Thomson
+and others [2002], hence the corresponding entry is just a guess.) Percentages at input streams denote connection probabilities for input neurons used in our simulations. In
+addition, each neuron receives background noise reflecting the synaptic inputs from a large number of more distal neurons (see Methods).
+
+Table 1
+Synaptic parameters that scale the short-term dynamics
+From/to
+
+E
+
+I
+
+E
+I
+
+0.5, 1.1, 0.05
+0.25, 0.7, 0.02
+
+0.05, 0.125, 1.2
+0.32, 0.144, 0.06
+
+Note: Synaptic parameters that scale the short-term dynamics of synapses according to the type
+(excitatory or inhibitory) of the pre- and postsynaptic neuron: mean values of U, D, and F
+according to Markram and others (1998) and Gupta and others (2000).
+
+current were chosen to be 500 and 100 pS/lm2, respectively, and the
++
+peak conductance density for the non-inactivating K current was
+2
+chosen to be 5 pS/lm . The membrane area of the neuron was set to
+be 34 636 lm2 as in Destexhe and others (2001). For each simulation,
+the initial conditions of each neuron, that is, the membrane voltage at
+time t = 0, were drawn randomly (uniform distribution) from the interval
+[–70 mV, –60 mV].
+A cortical neuron receives synaptic inputs not only from immediately
+adjacent neurons (which were modeled explicitly in our computer
+
+model) but also smaller background input currents from a large number
+of more distal neurons. In fact, intracellular recordings in awake animals
+suggest that neocortical neurons are subject to an intense bombardment
+with background synaptic inputs, causing a depolarization of the
+membrane potential and a lower input resistance commonly referred
+to as ‘‘high-conductance state’’ (for a review, see Destexhe and others
+2003). This was reﬂected in our computer model by background input
+currents that were injected into each neuron (in addition to explicitly
+modeled synaptic inputs from afferent connections and from neurons
+within the circuit). The conductances of these background currents
+were modeled according to Destexhe and others (2001) as a 1-variable
+stochastic process similar to an Ornstein--Uhlenbeck process with
+mean ge = 0.012 lS and gi = 0.057 lS, variance re = 0.003 lS and ri =
+0.0066 lS, and time constants se = 2.7 mS and si = 10.5 mS where
+the indices e/i refer to excitatory and inhibitory background input
+conductances, respectively. According to Destexhe and others (2001),
+this model captures the spectral and amplitude characteristics of the
+input conductances of a detailed biophysical model of a neocortical
+pyramidal cell that was matched to intracellular recordings in cat parietal cortex in vivo. Furthermore, the ratio of the average contributions
+
+Cerebral Cortex January 2007, V 17 N 1 151
+
+of excitatory and inhibitory background conductances was chosen to be
+5 in accordance with experimental studies during sensory responses
+(Borg-Graham and others 1998; Hirsch and others 1998; Anderson and
+others 2000).
+The maximum conductances of the synapses were chosen from a
+Gaussian distribution with a SD of 70% of its mean (with negative values
+replaced by values chosen from an uniform distribution between zero
+and two times the mean). The mean maximum conductances of the
+synapses were chosen to reproduce the mean amplitude of PSPs given in
+Figure 1 at the resting membrane potential (in the presence of synaptic
+background activity).
+Two afferent input streams, each consisting of either 4 or 40 spike
+trains (i.e., 4 or 40 input channels), were injected into the circuit. Each
+of the channels of the 1st input stream (representing thalamic or
+feedforward cortical input) was injected not only into layer 4, that is, to
+50% of its inhibitory neurons and 80% of its excitatory neurons but also
+into 20% of the excitatory neurons in layers 2/3 and 10% of the
+excitatory neurons in layer 5 (all randomly chosen). (This input
+distribution reﬂects qualitatively the evidence cited in Chapter III of
+White [1989] that ‘‘thalamocortical afferents to layer 4 synapse not only
+with layer 4 nonpyramidal neurons but also with a wide variety of both
+pyramidal and nonpyramidal neuronal types whose cell bodies occur
+throughout layers 2--6.’’) The average number of inputs converging to
+an excitatory neuron in layer 4 is therefore 3.2 or 32. (Computer
+simulations suggest that smaller connection probabilities from external
+input neurons can be chosen if the amplitudes of resulting PSPs are
+scaled up accordingly. For the case of 40 input channels, we carried out
+simulations with lower input connectivity for input stream 1 while
+keeping the product of PSP amplitude and connection probability
+constant. The results about performance differences between databased circuits and amorphous control circuits [see Table 2] are largely
+invariant to these changes, even if the connection probabilities for
+external input neurons are scaled down to 1/5th of the previously
+given values.) This is roughly in the range suggested by experimental
+measurements of the variability of excitatory postsynaptic potentials
+(EPSPs) in simple cells of cat visual cortex with varying levels of lateral geniculate nucleus (LGN) stimulation (Ferster 1987) and crosscorrelation experiments between monosynaptically linked cells of the
+LGN and cat visual cortex (Tanaka 1983), which suggest that at least 10
+LGN cells provide input to each simple cell. The mean conductance of
+input synapses was chosen to generate a PSP with a mean amplitude of
+1.9 mV at the resting membrane potential (in the presence of synaptic
+background activity). This value corresponds to the lower bound of the
+estimate of geniculate input to a single neuron in layer 4 of adult cats
+given in Chung and Ferster (1998). It was multiplied in our simulations
+with a scaling parameter SI1 that reﬂects the biologically unrealistic
+number of input neurons in these simulations (see Discussion below).
+Each of the channels of the 2nd afferent input stream was injected into
+20% of the excitatory neurons in layers 2/3 (also with a mean amplitude
+of 1.9 mV, multiplied with another scaling parameter SI2).
+Altogether there remain 3 parameters for which values have to be
+chosen in order to arrive at functional computer models of cortical
+microcircuits. These parameters SRW, SI1, SI2 scale (in the form of
+multiplicative factors) the amplitudes of PSPs for all synaptic connections within the circuit (recurrent weights), the amplitudes of PSPs from
+input stream 1, and the amplitudes of EPSPs from input stream 2. They
+have to be chosen in such a way that they account for the difference in
+scale between our simulated microcircuits and biological cortical
+microcircuits. Values for these 3 parameters cannot be read off from
+
+the previously mentioned data, and one has to suspect that adequate
+values depend also on the species, on the speciﬁc cortical microcircuit
+in vivo that one wants to model, on the current state of various homeostatic processes, on the current behavioral state (including attention)
+of the organism, and on the intensity of the current afferent input.
+The parameter SI1 was chosen so that the afferent input stream 1
+(consisting of 40 Poisson spike trains at 20 Hz) caused (without input
+stream 2 and without recurrent connections, i.e., SRW set to 0) an
+average ﬁring rate of 15 Hz in layer 4. The parameter SI2 was analogously
+chosen so that the afferent input stream 2 (generated like input stream
+1) caused an average ﬁring rate of 10 Hz in layers 2/3. In either case only
+one of the 2 input streams was activated. With this procedure, we
+obtained SI1 = 14 and SI2 = 33. For simulations with input streams
+consisting of 4 Poisson spike trains, we multiplied these values by 10.
+The input synapses were chosen to be static, that is, the synaptic
+parameters were set to U = 1, D = 0, and F = 0, and their maximum
+conductances were chosen from a Gaussian distribution with a SD of
+70% of its mean (with negative values replaced by values chosen from an
+uniform distribution between zero and two times the mean).
+The parameter SRW accounts for the average strength of synaptic
+inputs to a neuron from other neurons in the circuit (apart from the
+globally modeled background synaptic input, see above), and therefore
+for the difference in circuit size between our simulated microcircuit
+models and a real cortical microcircuit. It turned out that a value of
+60 000/(number of neurons in the simulated circuit) for SRW produced
+in layer 5 of the simulated circuit for the standard values of SI1 and SI2
+a realistic low but signiﬁcant ﬁring activity of 8.5 Hz (see Fig. 2), hence
+we used this value as standard value for SRW. This value scales the
+average number 76 of presynaptic neurons in a circuit of 560 neurons
+up to 107 times that value, yielding thereby an average of 8132
+presynaptic neurons. This number is consistent with the estimates for
+the total number of synapses on a neuron given in Binzegger and others
+(2004) that range from 2981 to 13 075 for different cell types in cat
+visual cortex. Some additional synaptic input was modeled by background synaptic input (see above).
+These standard values of the parameters SRW, SI1, SI2 were used
+throughout our computer experiments, except for the results reported
+in Figures 10 and 11, where we analyzed the impact of these parameters
+on the reported results. There we simulated circuit models with randomly chosen values from independent uniform distributions over the
+interval [0.1 3 standard value, 3.1 3 standard value] for all 3 parameters.
+Our computer simulations examined how much information about
+each preceding temporal segment (of length 30 ms) of each of the 2
+input streams was accessible to a hypothetical projection neuron in
+layers 2/3 and to a hypothetical projection neuron in layer 5. The
+excitatory and inhibitory presynaptic neurons for such a hypothetical
+readout neuron were randomly chosen in the same manner as for any
+other excitatory neuron in that layer (i.e., according to Fig. 1), but no
+synaptic connections from a readout neuron back into the circuit
+were included. This amounted to an average of 84 presynaptic neurons
+for a readout neuron in layers 2/3 and 109 presynaptic neurons for
+a readout neuron in layer 5. The weights of synaptic connections from
+these presynaptic neurons were optimized for speciﬁc tasks. In contrast
+to the simulations discussed in Maass and others (2002), the resulting
+number of inputs to such readout neuron was much smaller than the
+circuit size. The projection or readout neurons themselves were
+modeled as linear neurons, that is, their output was a weighted sum of
+low-pass ﬁltered spikes (exponential decay with a time constant of
+15 ms, modeling the time constants of synaptic receptors and
+
+Table 2
+Performance decrease of control circuits compared with data-based circuits
+Tasks/circuits
+
+Amorphous
+
+Small-world
+
+Degree-controlled
+
+Degree-controlled w/o input or output specificity
+
+Random short-term synaptic dynamics
+
+Static synapses
+
+Memory
+Nonlinear
+Other
+All
+
+32.6
+36.9
+12.2
+25.0
+
+41.6
+11.3
+5.3
+15.4
+
+12.0
+ÿ2.3
+ÿ0.6
+1.6
+
+35.8
+4.6
+5.6
+12.0
+
+48.3
+40.1
+14.1
+30.4
+
+65.7
+38.7
+6.9
+30.6
+
+Note: Average percentage of performance decrease compared with data-based circuits (averaged over tasks and readout types) for 7 types of control circuits (defined in the text) and the tasks defined
+in the legend for Figure 5. The memory tasks are tcl1(t ÿ Dt) and tcl2(t ÿ Dt), the nonlinear tasks are XOR and computations on the purely nonlinear components of r1/r2 and (r1 ÿ r2)2, and other tasks
+are the remaining tasks considered in Figure 5. Only degree-controlled circuits achieve better performance than data-based circuits for some tasks.
+
+152 Lamina-Speciﬁc Cortical Microcircuit Models
+
+d
+
+Haeusler and Maass
+
+Figure 2. (A) Two input streams consisting each of 40 Poisson spike trains (the input to layers 2/3 starts here 100 ms later). (B) Spike raster of data-based cortical microcircuit
+model (consisting of 560 neurons) for the 2 input streams shown in (A). The vertical dimension is scaled according to the number of neurons in each layer. Spikes of inhibitory
+neurons are indicated in gray. (The population firing rates of different layers are somewhat but not totally correlated. The maximum correlation coefficient between the population
+firing rates of layers 2/3 and layer 4, layers 2/3 and layer 5, and layer 4 and layer 5 [for t > 150 ms, 1 ms bin size, and arbitrary lag] is 0.62, 0.65, and 0.56, respectively.) (C)
+Distribution of firing rates in (B) (after onset of input into layers 2/3 and layer 4), showing an automatically emerging exponential distribution of firing rates in layer 5. Mean firing rate:
+8.5 Hz. (D) Enlargement of the initial time segment, showing a spread of excitation from layer 4 to superficial and deep layers that qualitatively matches data from Armstrong-James
+and others (1992).
+
+membrane of a readout neuron). Care was taken to make sure that
+weights from excitatory (inhibitory) presynaptic neurons could not
+become negative (positive). For this purpose, we used the linear least
+squares method with nonnegativity constraints (Lawson and Hanson
+1974) to optimize the weights for a particular task. This is in contrast to
+the linear regression that was used in Maass and others (2002). For each
+training or test example, which consisted of an input and a target value
+for the readout neuron, we performed a simulation of the microcircuit
+model. Each input for the readout neuron was generated by collecting
+the low-pass ﬁltered version of the presynaptic spike trains to the
+readout neuron at time point t = 450 ms. Each corresponding target
+value was calculated for the various tasks described below (see Results).
+In order to correctly apply the linear least squares method with nonnegativity constraints, the spike trains of inhibitory (excitatory) neurons
+were convolved with negative (positive) exponential kernels, and the
+corresponding readout weights were multiplied by –1 (+1) after
+training. For classiﬁcation tasks, the linear readout neuron was trained
+to output the class labels, that is, 0 or 1, whereas a classiﬁcation was
+obtained by thresholding the output at 0.5 (analogous to the ﬁring
+threshold of a real cortical neuron). This algorithm yields a weight
+vector <w1 ; . . . ; wn > with wi > 0 if the ith presynaptic neuron of the
+readout is excitatory, and wi < 0 if the ith presynaptic neuron is
+inhibitory. Within these (linear) constraints this restricted form of linear
+regression minimizes the error of the readout on the training examples.
+(In MATLAB, one can execute this optimization algorithm through the
+
+command LSQNONNEG.) This typically resulted in an assignment of
+weight 0 (corresponding to a silent synapse in a biological circuit) to
+about 2/3 of these synapses. Hence, a typical readout neuron had less
+than 40 nonzero weights, and therefore a much smaller capability to
+extract information in comparison with the model considered in Maass
+and others (2002).
+For each computer simulation, at least 10 circuits were generated.
+For the experiments shown in Figures 5 and 8, we used 20 circuits. We
+also generated new spike templates each time when a new circuit
+was drawn, in order to avoid accidental dependencies on properties
+of speciﬁc spike templates. For the training of the readout neurons,
+we performed 1500 simulations with randomly drawn Poisson inputs
+over 450 ms, and 300 simulations with new randomly generated inputs
+were used for testing. The error bars in the ﬁgures denote standard
+errors. All performance results in this article (except for some diagnostic results reported in Fig. 8, see legend) are for test inputs that had
+not been used for the training of readouts, and freshly generated random
+initial conditions and background noise for all neurons in the circuit.
+All simulations were carried out with the CSIM software (Natschla¨ger
+and others 2003) in combination with MATLAB.
+
+Results
+Injection of 2 input streams consisting of Poisson spike trains
+into layer 4 and layers 2/3 of the microcircuit model produced
+Cerebral Cortex January 2007, V 17 N 1 153
+
+a response (see Fig. 2) whose successive onset in different
+layers qualitatively matches data on cortical microcircuits in
+vivo (Armstrong-James and others 1992). In addition, the ﬁring
+rates in layer 5 automatically acquire a biologically realistic
+exponential distribution (see, e.g., v. Vreeswijk and Sompolinsky
+1996, 1998; Amit and Brunel 1997; Baddeley and others 1997).
+(The distribution of ﬁring rates in layers 2/3 and 4 reﬂects
+the typical rate distribution of Poisson spike trains that was
+induced by the Poisson input to these layers.) Figure 3 gives an
+impression of the fairly large trial-to-trial variability of ﬁring
+activity within the circuit for the same spike input patterns,
+which resulted from jitter in the spike input (top row) and
+internal noise (bottom row) due to the injection of randomly
+varying background input currents to all neurons in order to
+model in vivo conditions (see Methods). (In addition, for all
+subsequently considered computational tasks independently
+chosen spike patterns had been previously injected as afferent
+inputs, causing a fairly large variance of initial states of dynamic
+synapses.) Hence, the simulated circuits reﬂect qualitatively the
+commonly observed large trial-to-trial variability of neural
+responses in vivo to repetitions of the same stimulus.
+We tested these microcircuit models on a variety of generic
+information-processing tasks that are likely to be related to
+actual computational tasks of neural microcircuits in cortex:
+ classiﬁcation of spike patterns in either of the two afferent
+input streams (requiring invariance to noise and spike input
+from the other input stream)
+
+ temporal integration of information contained in such spike
+patterns
+ fusion of information from spike patterns in both input
+streams in a nonlinear fashion (related to ‘‘binding’’ tasks)
+ real-time computations on the ﬁring rates from both input
+streams.
+For information-processing tasks with spike patterns, we
+randomly generated spike pattern templates consisting of 30 ms
+segments of 40 Poisson spike trains at 20 Hz (see Fig. 4). More
+precisely, the spike trains of each of the 2 input streams were
+of length 450 ms and consisted of 15 consecutive time segments
+of length 30 ms. For each segment, 2 spike pattern templates
+were generated randomly. For the actual input one of the 2
+templates of each time segment was chosen randomly (with
+equal probability) and a noisy variation of it, where each spike
+was moved by an amount drawn from a Gaussian distribution
+with mean 0 and SD 1 ms (see the panel on the right-hand side
+of Fig. 4), was injected into the circuit. Such temporal jitter
+in the spike input causes signiﬁcant changes in the circuit
+response (see Fig. 3), and it is a nontrivial task for readout
+neurons to classify spike patterns in spite of this fairly large trialto-trial variability of the circuit response. We also tested
+retroactive classiﬁcation of preceding spike patterns that had
+been injected 30 ms before, and hence were ‘‘overwritten’’ by
+independently chosen subsequent spike patterns. Furthermore,
+a nonlinear exclusive-or (XOR) computation on spike patterns
+in the 2 concurrent input streams was examined in order to test
+
+Figure 3. Impact of temporal jitter of input spikes (Gaussian distribution with mean 0 and SD 1 ms) and background noise of neurons in the circuit on the circuit response (see
+Methods). The rows in the middle and at the top show the spike rasters resulting from 2 trials with identical background noise and with input spike patterns that were identical
+except for their temporal jitter. The bottom row shows how much the spike raster for a trial with novel background noise and identical input spike patterns differs from that for the
+trial shown in the middle row. This illustrates that the simulated circuits (which were subject to both sources of noise) reflect qualitatively the commonly observed large trial-to-trial
+variability of neural responses in vivo to repetitions of the same stimulus.
+
+154 Lamina-Speciﬁc Cortical Microcircuit Models
+
+d
+
+Haeusler and Maass
+
+Figure 4. Input distributions for the spike pattern classification and XOR tasks. The task is to compute the XOR of the 2 bits that represent the labels of the 2 templates from which
+the most recent spike patterns in the 2 input streams had been generated, that is, classify as 1 if their template labels are different and 0 otherwise. The spike trains of each of the 2
+input streams were of length 450 ms and consisted of 15 time segments of length 30 ms. For each segment, 2 templates were generated randomly (40 Poisson spike trains at 20
+Hz). The actual spike trains of each input of length 450 ms used for training or testing were generated by choosing for each segment one of the 2 previously chosen associated
+templates and then generating a jittered version by moving each spike by an amount drawn from a Gaussian distribution with mean 0 and SD 1 ms (a sample is shown in the panel
+on the right-hand side).
+
+the capability of the circuit to extract and combine information
+from both input streams in a nonlinear manner. The task is to
+compute the XOR (The XOR outputs 1 if exactly one of its 2
+input bits has value 1, it outputs 0 if the input bits are 00 or 11)
+of the 2 bits that represent the labels of the 2 templates from
+which the most recent spike patterns in the 2 input streams
+had been generated (e.g., its target output is 1 for both time
+segments for the input shown on the right-hand side of Fig. 4).
+Note that this computation involves a nonlinear binding
+operation on spike patterns because it has to give a low output
+value if and only if either noisy versions of the spike templates
+with label 1 appeared both in input streams 1 and 2, or if noisy
+version of the spike templates with label 0 appeared both in
+input stream 1 and 2.
+In addition, we analyzed linear and nonlinear computations
+on time-varying ﬁring rates of the 2 input streams. The spike
+trains of each of the 2 input streams were of length 450 ms and
+consisted of 15 consecutive time segments of length 30 ms. For
+each input stream and each time segment, 4 Poisson spike trains
+were generated with a randomly chosen frequency between 15
+and 25 Hz. The actual ﬁring rates used for the computations on
+these input ﬁring rates were calculated from these spike trains
+with a sliding window of 15 ms width. We used input streams
+consisting of just 4 spike trains for these tests because the
+performance of both data-based circuits and control circuits
+was quite low if input rates were represented by 40 spike trains.
+
+The emergent computational properties of data-based microcircuit models are recorded in Figure 5 (gray bars). The performance of the trained readouts for test inputs (which are
+generated from the same distribution as the training examples,
+but not shown during training) was measured for all binary
+classiﬁcation tasks by the kappa coefﬁcient, which ranges over
+[–1, 1], and assumes a value >0 if and only if the resulting
+classiﬁcation of test examples makes fewer errors than random
+guessing. (The kappa coefﬁcient measures the percentage of
+agreement between 2 classes expected beyond that of chance
+and is deﬁned as (Po – Pc)/(1 – Pc), where Po is the observed
+agreement and Pc is the chance agreement. Thus, for classiﬁcation into 2 equally often occurring classes one has Pc = 0.5.)
+For tasks that require an analog output value, the performance
+of the trained readout was measured on test examples by its
+correlation coefﬁcient with the analog target output. The
+accuracy of computations achieved by trained readout neurons
+from microcircuit models with a data-based laminar structure is
+compared with the accuracy achieved by trained readout
+neurons from control circuits (black bars in Fig. 5) whose
+data-based laminar connectivity structure has been scrambled
+by replacing the source and target neurons of each synaptic
+connection within the circuit by randomly drawn neurons of
+the same type, that is, excitatory or inhibitory neurons, under
+the constraint that no synaptic connection occurs twice (we
+will usually refer to these circuit models as amorphous circuits).
+Note that this procedure does not change the total number
+Cerebral Cortex January 2007, V 17 N 1 155
+
+Figure 5. Performance of trained linear readout neurons in layers 2/3 and layer 5 (see Methods) for various classification tasks on spike patterns and computations performed on
+the rates of the 2 input streams, both for data-based laminar microcircuit models (gray bars) and for control circuits where the laminar structure had been scrambled (black bars).
+tcl1/2(t) denotes retroactive classification of noisy spike patterns (inputs were generated as shown in Fig. 4) in input streams 1 or 2 that were injected during the preceding time
+interval [t – 30 ms, t] into 2 classes according to the template from which each spike pattern had been generated. tcl1/2(t – Dt) refers to the more difficult task to classify at time t
+the spike pattern before the last one that had been injected during the time interval [t – 60 ms, t – 30 ms]. For XOR classification, the task is to compute at time t = 450 ms the XOR
+of the template labels (0 or 1) of both input streams injected during the preceding time segment [420 ms, 450 ms]. On the right-hand side, the performance results for real-time
+computations on the time-varying firing rates r1(t) of input stream 1 and r2(t) of input stream 2 (both consisting of 4 Poisson spike trains with independently varying firing rates in the
+2 input streams). The white bars show performance results for the 2 target functions r1(t)/r2(t) and (r1(t) – r2(t))2, and the bold bars for the performance on the nonlinear components
+of these real-time computations at any time t (on the actual firing rates in both input streams during the last 30 ms).
+
+of synapses, the synapse type alignment with regard to pre- and
+postsynaptic neuron type, the global distributions of synaptic
+weights or other synaptic parameters, or the sets of neurons,
+which receive afferent inputs or provide output to readout
+neurons. The connectivity structure of amorphous circuits is
+(apart from different connection probabilities between and
+within the populations of excitatory and inhibitory neurons)
+identical with that of the graphs studied in classical random
+graph theory (Bollobas 1985) (with the 4 connection probabilities for these 2 populations taken from the data-based circuits).
+Figure 5 shows that data-based circuits perform signiﬁcantly
+better for the majority of the considered information-processing
+tasks, except for the rate tasks for a readout neuron in layer
+5 and the task tcl2(t–Dt) for a readout neuron in layers 2/3
+(for which the performance increase was not signiﬁcant). In
+particular, potential projection neurons in layers 2/3 and layer
+5 have in a data-based laminar circuit better access to the
+information contained in the current and preceding spike
+patterns from either afferent input stream. The results show
+that potential readout neurons can classify spike patterns
+from either afferent input stream independently from the
+simultaneously injected spike pattern in the other input stream
+(and independently from the fairly high trial-to-trial variability
+shown in Fig. 3). One interesting detail can be observed for the 2
+tasks involving computations on ﬁring rates. Here the performance of data-based and control circuits is about the same (see
+156 Lamina-Speciﬁc Cortical Microcircuit Models
+
+d
+
+Haeusler and Maass
+
+white bars in Fig. 5), but readouts from layers 2/3 perform for
+data-based circuits signiﬁcantly better on the nonlinear component of these computations (see bold bars in front of the
+white bars in Fig. 5). (This nonlinear component of the target
+functions r1/r2 and (r1 – r2)2 resulted by subtracting from these
+functions an [for the considered distribution of r1, r2] optimally
+ﬁtted linear function).
+The actual performance achieved by trained readouts from
+microcircuit models depends on the size of the circuit
+(theoretical results predict that it will automatically improve
+when the circuit size increases [Maass and others 2002]). This is
+demonstrated in Figure 6 for one of the computational tasks
+considered in Figure 5 (XOR of labels of spike patterns from the
+2 afferent input streams), both for data-based circuits and for
+control circuits. Figure 6 also shows that the superior performance of data-based circuits does not depend on the circuit
+size. The performance improvement of circuits consisting of
+1000 neurons compared with circuits consisting of 160 neurons
+is somewhat smaller for rate tasks. For instance, the performance of a readout neuron in layers 2/3 or layer 5 trained for
+the 2 rate tasks r1/r2 and (r1 – r2)2 increases on average by only
+25% for data-based circuits and 20% for amorphous circuits.
+The preceding results show that microcircuits with a databased laminar structure have superior computational capabilities for a large variety of computational tasks. This raises the
+question ‘‘why’’ this is the case. We approach this question from
+
+performance
+
+L2/3 readout
+0.5
+0.4
+0.3
+0.2
+0.1
+0
+
+160
+
+360
+
+560
+
+810
+
+1000
+
+810
+
+1000
+
+performance
+
+L5 readout
+0.5
+
+data−based circuit
+amorphous circuit
+
+0.4
+0.3
+0.2
+0.1
+0
+
+160
+
+360
+
+560
+
+number of neurons in the circuit
+Figure 6. Performance (see Methods) of projection neurons in layers 2/3 and layer 5
+for different circuit sizes, with and without a data-based laminar structure, for the
+computation of the XOR task. These results show that the superior performance of
+data-based circuits does not depend on the circuit size.
+
+two different perspectives. We ﬁrst examine which aspects
+of the data-based circuit structure are essential for their superior performance. Obviously, our procedure for generating
+amorphous circuits destroys not only the laminated structure
+of data-based circuits but also other structural properties such
+as the distribution of degrees of nodes in the underlying
+connectivity graph, and its cluster structure. We therefore
+introduce 3 additional types of control circuits in order to
+analyze the impact of speciﬁc structural features on the performance. Second, we exhibit a characteristic feature of the
+internal dynamic of these different circuit types that is
+correlated with their computational performance.
+We ﬁrst studied the computational impact of small-world
+properties of data-based circuits. Small-world networks have
+been characterized in Watts and Strogatz (1998) through 2
+properties. They have a higher clustering coefﬁcient (measured
+by the proportion of immediate neighbors of nodes in the graph
+that are connected by a link) than amorphous circuits, while
+maintaining a comparable average shortest path length. (Note
+that both properties refer to the structure of the underlying
+‘‘undirected’’ graph, where directed edges are replaced by
+undirected links.) Data-based cortical microcircuit models
+have in fact small-world properties according to this deﬁnition
+because their clustering coefﬁcient (that has a value of 36%) is
+38% higher than in amorphous circuits, whereas their average
+shortest path length is about the same (1.75 links). (The longrange cortical connectivities in the cat and macaque monkey
+brain have clustering coefﬁcients of 55% and 46%, respectively,
+as reported in Hilgetag and others [2000]). In order to decide
+whether these small-world properties are sufﬁcient for inducing
+the superior computational properties of data-based circuits,
+we generated control circuits that have the same size, clustering
+coefﬁcient, and average shortest path length as data-based
+circuits by the spatial growth algorithm described in Kaiser
+and Hilgetag (2004) (with parameters a = 4, b =1.32 and 560
+nodes). Subsequently, these undirected graphs were converted
+to directed graphs by randomly replacing each edge with
+
+a synapse (in random orientation) or a reciprocal synaptic
+connection with a probability so that the total number of
+synaptic connections and reciprocal synaptic connections is
+identical to the corresponding number for data-based circuits.
+(It should be noted that this procedure does not reproduce the
+same fraction of synapse types as for data-based circuits and
+amorphous circuits).
+For the 3rd type of control circuit, we considered circuits
+that have the same distributions of in- and outdegrees for
+neurons as data-based circuits. The in- and outdegree of a
+neuron is deﬁned as the total number of incoming and outgoing
+synaptic connections, respectively.
+For this purpose, we generated data-based circuits and
+subsequently exchanged the target neurons of randomly
+chosen pairs of synapses with pre- and postsynaptic neurons
+of the same category (excitatory or inhibitory), until the
+laminar-speciﬁc connectivity structure disappeared (no exchange was carried out if either of the 2 resulting new
+connections existed already). This circuit type also has smallworld properties, but the average cluster coefﬁcient was smaller
+than for data-based circuits (only 27% higher than in amorphous
+networks). We refer to this circuit type as degree-controlled
+circuits.
+Degree-controlled circuits preserve the distribution of degrees among neurons that receive external input or provide
+input to a readout neuron. We therefore added control circuits,
+referred to as degree-controlled circuits without input or output speciﬁcity, by randomly exchanging neurons in different
+layers of degree-controlled circuits. The degree distributions
+of neurons for all 5 types of circuits are shown in Figure 7.
+An important structural feature of all circuit types considered
+until now is the alignment of synapse type with regard to preand postsynaptic neuron type according to Table 1. In order to
+analyze the impact of the alignment of dynamic synapses on the
+performance, we randomly exchanged the synaptic parameter
+triplets, that is, U, D, and F, that deﬁne the short-term plasticity
+between all synapses. In the last type of control circuit we
+replaced all dynamic synapses by static synapses (with weights
+rescaled so that the mean ﬁring rate in layer 5 stayed ﬁxed).
+A summary of the performance of all 7 different types of
+control circuits is shown in Table 2. The small-world property
+increases the performance of amorphous circuits to some
+extent, but a more important structural feature is the degree
+distribution deﬁned by data-based circuits. If this degree
+distribution matches the degree distribution of data-based
+circuits for each single layer, and therefore matches also the
+speciﬁc input and output topology of data-based circuits, the
+average performance is comparable with the performance of
+data-based circuits. Table 2 also shows (see column 5) that
+a data-based assignment of synapse types (according to Table 1)
+is essential for good computational performance. The last
+column shows that circuits with static synapses also have
+inferior computational properties.
+In order to elucidate the relationship between inherent
+properties of the circuit dynamics and computational performance, we studied one fundamental—but relatively simple—
+information-processing task in more detail: retroactive classiﬁcation of spike patterns into 2 classes, in spite of noise. More
+precisely, the task was to classify the 2 3 4 input spike trains
+generated from 2 templates (as in Fig. 4) into 2 classes, in spite
+of a subsequent waiting period of 100 ms (during which
+identical spike trains were injected in either case), and in
+Cerebral Cortex January 2007, V 17 N 1 157
+
+L2/3−I
+
+probability
+
+L2/3−E
+0.06
+
+0.06
+
+0.04
+
+0.04
+
+0.02
+
+0.02
+
+0
+
+0
+
+probability
+
+L4−E
+
+L4−I
+
+0.06
+
+0.06
+
+0.04
+
+0.04
+
+0.02
+
+0.02
+
+0
+
+0
+
+probability
+
+L5−E
+
+L5−I
+
+0.06
+
+0.06
+
+0.04
+
+0.04
+
+0.02
+
+0.02
+
+0
+
+0
+
+100
+
+200
+
+300
+
+indegree + outdegree
+
+0
+
+data−based circuit and
+degree−controlled circuit
+amorphous circuit
+small−world circuit
+degree−controlled circuit w/o
+input or output specificity
+
+0
+
+100
+
+200
+
+300
+
+indegree + outdegree
+
+Figure 7. Degree distributions of neurons in different populations for 5 types of circuits (averaged over 100 circuits). All circuits have degree distributions that can be better
+approximated by sums of Gaussians than a power law of the form P(d) } d–c for neurons of degree d and a positive constant c (i.e., the circuits are not scale free). The correlation
+coefficients for least square fits for sums of Gaussians and power law distributions are >0.96 and <0.08, respectively. Thus, none of these circuits is scale free, which shows that
+their difference in performance cannot be explained on the basis of this concept. The computational analysis (see Table 2) implies that the varying locations of peaks for different
+layers of data-based circuits are essential for their superior computational performance.
+
+spite of widely different initial conditions (caused by different
+preceding spike inputs) and the relatively high internal noise
+that models bombardment with unrelated background synaptic
+input in the high-conductance state (compare the middle and
+bottom row of Fig. 3 to see stochastic changes in the spike
+response caused by the latter). This task tests the capability of
+circuits to maintain information about spike patterns that
+had been injected more than 100 ms ago. This information is
+reduced by noise resulting from inherent noise in neurons and
+varying initial conditions (in-class variance). The dashed gray
+lines in Figure 8 show that readout neurons in layers 2/3 and
+layer 5 of data-based circuits can learn quite fast from relatively
+few training examples to guess which of the 2 ﬁxed spike
+patterns had previously been injected. A comparison with the
+black lines shows that their error on new examples of this task
+(test error) is signiﬁcantly smaller than that of readout neurons
+in amorphous control circuits. Furthermore, this advantage is
+not reduced when more training examples become available.
+The superiority of readouts from data-based circuits results
+both from a better ﬁt to the training data (solid curves in Fig. 8)
+and from a smaller generalization error (=distance between
+solid and dashed curve). (Note that all types of circuits have for
+a smaller number of training examples a smaller error on the
+training set but a larger error on the test set due to the wellknown overﬁtting effect that is studied extensively in statistical
+learning theory [Vapnik 1998]).
+A more intrinsic explanation for the better computational
+performance of data-based laminar circuits is provided by the
+theory of computations in dynamical systems (for a review, see
+158 Lamina-Speciﬁc Cortical Microcircuit Models
+
+d
+
+Haeusler and Maass
+
+Legenstein and Maass 2005). Figure 9 shows that a data-based
+circuit works in a substantially less chaotic regime than an
+amorphous control circuit. Its sensitivity to tiny differences in
+initial conditions is also less than in the other 3 types of control
+circuits that preserve selected aspects of the data-based network structure. A less chaotic dynamics implies better generalization capability to new inputs for many different types of
+dynamical systems. This observation is of interest because one
+might assume that the number of synapses per neuron is the
+essential parameter that determines the amount of chaos in
+the circuit. But all circuits for which results are plotted in Figure
+9 have the same number of synapses.
+The solid curves in Figure 8 show that another reason for the
+better computational performance of data-based circuit models
+is that the synaptic weights of their readout neurons can be
+better ﬁtted to the training data. This fact can be explained in
+terms of the ‘‘in-class variance’’ of high-dimensional circuit
+states caused by varying initial conditions and internal noise
+(for repeated trials with the same spike input to the circuit).
+The correlation between this in-class variance on training data
+and the classiﬁcation error of trained readouts on test data for
+the task considered in Figure 8 was 0.80 for readouts from layers
+2/3 and 0.72 for readouts from layer 5 for data-based laminar
+circuits.
+Figure 10 shows that for amorphous control circuits this inclass variance is generally larger. Furthermore, Figure 10 shows
+that this noise-suppressing feature of the dynamics in data-based
+laminar circuits is not an accidental property of the ﬁxed setting
+of the 3 parameters SRW, SI1, SI2 (which scale the weights of
+
+L2/3 readout
+
+classification error
+
+0.5
+0.4
+0.3
+0.2
+0.1
+0
+
+50
+
+100
+
+150
+
+200
+
+250
+
+300
+
+350
+
+400
+
+450
+
+L5 readout
+
+classification error
+
+0.5
+0.4
+0.3
+0.2
+training error for data−based circuits
+test error for data−based circuits
+training error for amorphous circuits
+test error for amorphous circuits
+
+0.1
+0
+
+50
+
+100
+
+150
+
+200
+
+250
+
+300
+
+350
+
+400
+
+450
+
+number of training examples
+Figure 8. Training and testing error of readouts from data-based and amorphous microcircuit models as function of the size of the training set. The task was retroactive
+classification of 2 randomly created spike patterns of length 100 ms (consisting of 4 Poisson spike trains at 20 Hz) after identical input of length 100 ms was subsequently injected
+into the circuit, in spite of varying initial conditions (caused by independently generated preceding Poisson spike inputs of the same type) and noisy background input currents as
+before. The top panel shows the performance of a potential readout neuron in layers 2/3 with 84 presynaptic neurons, trained by sign-constrained linear regression (see Methods).
+The bottom panel depicts the performance for a potential readout neuron in layer 5 with 109 presynaptic neurons. Both types of readouts perform better for data-based laminar
+circuit, both on the training set (with new random drawings of initial conditions and background noise) and on the testing set. This holds for all sizes of the training set that were
+considered.
+
+recurrent synaptic connections, the amplitudes of input stream
+1, and the amplitudes of input stream 2) that we have used for
+the simulations reported so far (see Methods). Figure 10 shows
+that this noise-suppressing feature appears also for all other
+(randomly chosen) settings of these parameters that were tested.
+Figure 11 shows that also the superior computational performance of data-based laminar microcircuit models is not an
+accidental consequence of a particular choice of these 3
+parameters, but holds for most of their potential values. This
+fact is demonstrated here for the XOR on spike patterns that
+was already previously discussed. (The SD of the performance of
+readouts from control circuits for different parameter settings
+was 0.15 for readouts from layers 2/3 and 0.18 for readouts from
+layer 5. The performance improvement for data-based laminar
+circuits was somewhat correlated with the performance [correlation coefﬁcient 0.16 for layers 2/3, 0.59 for layer 5 readouts]). This suggests that a laminar circuit has for some tasks
+superior computational capability for a fairly large variation of
+dynamic regimes. This is of interest because different behavioral
+states, different states of homeostatic processes, or different
+input intensities may give rise to a variety of different dynamic
+regimes of cortical microcircuits.
+
+Discussion
+We have demonstrated that data-based laminar connectivity
+structure enhances the information-processing capabilities of
+
+cortical microcircuit models. In particular, we have shown that
+such data-based circuit model can accumulate, hold, and fuse
+information contained in 2 afferent spike input streams. It
+should be noted that the computations that were analyzed in
+our computer experiments were biologically realistic real-time
+computations on dynamically varying input streams, rather than
+static computations on batch inputs that are usually considered
+in modeling studies. In contrast to the circuit models from
+Buonomano and Merzenich (1995) and Maass and others
+(2002), the circuit models that were analyzed in this article
+not only have a biologically realistic laminar structure but also
+consist of Hodgkin--Huxley type neurons (with additional
+background input based on data which are conjectured to be
+representative for the high-conductance state of cortical
+circuits in vivo [Destexhe and others 2003]). In addition, the
+simulations discussed in this article took a substantially larger
+trial-to-trial variability into account. Furthermore, information
+was not extracted from all neurons as in Buonomano and
+Merzenich (1995) and Maass and others (2002) but from
+a much smaller subset of neurons that represents the typical
+set of presynaptic neurons for a projection neuron in layers
+2/3 or 5. In addition, the extraction of information by such
+projection neurons was for the ﬁrst time subjected to the
+constraint that the signs of weights of incoming synapses
+cannot be chosen arbitrarily in a biological circuit but are
+determined by the type (excitatory or inhibitory) of each
+presynaptic neuron. Although this means that not the full
+Cerebral Cortex January 2007, V 17 N 1 159
+
+L2/3 readout
+
+Euclidean distance
+
+3
+
+2
+
+1
+
+0
+
+100
+
+600
+
+1100
+
+L5 readout
+
+Euclidean distance
+
+3
+
+2
+data−based circuit
+amorphous circuit
+small−world circuit
+degree−controlled circuit
+degree−controlled circuit w/o
+input or output specificity
+
+1
+
+0
+
+100
+
+600
+
+1100
+
+time [ms]
+Figure 9. Euclidean distances in trajectories of circuit states (more precisely: of input vectors to readout neurons in layers 2/3 and in layer 5) resulting from moving a single input
+spike (at 100 ms) by 0.5 ms. Shown is the average from simulations of 400 randomly generated circuits with different initial conditions and background noise. Initial conditions and
+internal noise were chosen to be identical in both trials of each simulation, as in standard tests for estimating the Lyapunov exponent of (deterministic) dynamical systems, see
+Legenstein and Maass (2005). The curves show lasting differences in Euclidean distance between circuit states that are about twice as large for amorphous circuits, thereby
+indicating a more chaotic dynamics than in laminar circuits with the same number of neurons and synapses.
+
+L5 readout
+
+number of parameter settings
+
+L2/3 readout
+14
+
+14
+
+12
+
+12
+
+10
+
+10
+
+8
+
+8
+
+6
+
+6
+
+4
+
+4
+
+2
+
+2
+
+0
+−100
+
+−50
+
+0
+
+difference [%]
+
+50
+
+0
+−100
+
+−50
+
+0
+
+50
+
+difference [%]
+
+Figure 10. Data-based circuit structure reduces the impact of noise. For each of 2 circuit types, that is, for data-based and amorphous circuits, 50 circuits were generated, and 500
+identical inputs as generated for the task in Figure 8 were injected into each of them. The difference in the variance of circuit responses (averaged over the 50 circuits) was
+evaluated from the perspective of readout neurons. More precisely, we measured the variance of the input to readout neurons, after injecting 500 times the same input into the
+circuit and analyzed by how much this variance was reduced for the data-based circuit structure (expressed as percentage of change in comparison with amorphous control
+circuits). The smaller variance for data-based circuits shows that their dynamics is less influenced by internal noise and different initial conditions, thereby providing better
+generalization capabilities of trained readouts. This experiment was repeated for 30 randomly chosen settings of the scaling parameters SRW, SI1, SI2 (see Methods), and this figure
+shows for how many of these parameter settings a specific noise reduction was achieved for data-based circuits. The mean in-class variance for all parameter settings was 0.58
+and SD was 0.29, for data-based circuits. The percentages for 5 of these circuits were not entered into this plot because their in-class variance was below 0.01, resulting from the
+fact that they hardly responded to the input. The percentage of change of in-class variance for the standard setting of the scaling parameters was –38 for layers 2/3 readouts and
+–41 for layer 5 readouts. These results show that the noise reduction capability of the data-based circuits was not an accidental property of the standard setting of the scaling
+parameters.
+
+power of linear regression (or of the perceptron learning rule)
+can be used for optimizing such more realistic readouts, we
+show that even under these biologically more realistic conditions a substantial amount of information can be extracted by
+160 Lamina-Speciﬁc Cortical Microcircuit Models
+
+d
+
+Haeusler and Maass
+
+projection neurons in layers 2/3 or layer 5. Furthermore,
+the results in Figure 6 show that their performance increases
+with circuit size, making it reasonable to conjecture that almost
+perfect performance will be achieved by a circuit model which
+
+L5 readout
+
+number of parameter settings
+
+L2/3 readout
+5
+
+5
+
+4
+
+4
+
+3
+
+3
+
+2
+
+2
+
+1
+
+1
+
+0
+−100
+
+0
+
+100
+
+200
+
+0
+−100
+
+improvement [%]
+
+0
+
+100
+
+200
+
+improvement [%]
+
+Figure 11. Percentage of improvement in performance of readouts from laminar circuits for different values of the 3 scaling parameters, for the same XOR task as discussed in
+Figures 4 and 5 (but with just 2 3 4 input spike trains). The percentage of improvement was measured for 16 randomly drawn settings of the scaling parameters SRW, SI1, and SI2.
+Two of these settings yielded extremely low performance for both data-based and amorphous circuits (below 0.08, hence below the SD of the performance data for all 16
+parameter settings) and were therefore omitted from the plot. The improvement in performance for the standard setting of these parameters was 74% for layers 2/3 readouts and
+64% for layer 5 readouts. This suggests that a laminar circuit has a superior computational capability for most parameter settings, hence for a wide variety of stimulus intensities and
+regulatory states of neural systems in vivo.
+
+is sufﬁciently large so that the number of presynaptic neurons
+approaches realistic values of a few thousand.
+We have demonstrated in Figure 5 that data-based laminar
+microcircuit models perform signiﬁcantly better than control
+circuits (which are lacking the laminar structures but are
+otherwise identical with regard to their components and
+overall connection statistics) for a wide variety of fundamental
+information-processing tasks. This superiority holds for most
+settings of the parameters which scale the global strength of
+afferent inputs and recurrent connections, corresponding to
+a wide variety of stimulus intensities and regulatory states of
+neural systems in vivo (Fig. 11). We have also analyzed which
+aspect of the connectivity structure of data-based laminar
+circuits is responsible for their better computational performance. We have arrived (on the basis of the results reported in
+Table 2) at the conclusion that their particular distribution of
+degrees of nodes (relative to circuit inputs and projection
+neurons) is primarily responsible, more so than the small-world
+property of data-based circuits. We propose that this computational superiority of laminar circuits can be understood in terms
+of the properties of the dynamical system, which is deﬁned by
+such microcircuit models. We have shown in Figures 9 and 10
+that the dynamics of laminar circuits is somewhat less inﬂuenced by internal noise and noise in the input, thereby
+providing better generalization capabilities of trained readouts
+and a better ﬁt to training data because of the reduced variance
+in circuit responses.
+Apparently, the neural circuit models considered in this
+article represent the most detailed data-based cortical microcircuit models whose information-processing capabilities have
+been analyzed so far. The results of this analysis show that it is
+possible to exhibit through extensive computer simulations
+speciﬁc computational consequences of their laminar structure,
+thereby creating a link between detailed anatomical and
+neurophysiological data and their likely computational consequences. We expect that this program can be continued to
+elucidate also functional consequences of further details of
+cortical microcircuits such as those described, for example, in
+Gupta and others (2000), Staiger and others (2000), Schubert
+and others (2001), Binzegger and others (2004), Callaway
+
+(2004), Markram and others (2004), and Yoshimura and
+others (2005).
+Notes
+We would like to thank Ed Callaway, Rodney Douglas, Rolf Koetter,
+Henry Markram, and Alex Thomson for helpful discussions on research
+related to this article. The work was partially supported by the Austrian
+Science Fund Fonds zur Fo¨rderung der Wissenschaftlichen Forschung
+(FWF), project # P15386 and # S9102-N04, Pattern Analysis, Statistical
+Modelling and Computational Learning project # IST2002-506778, and
+the Fast Analog Computing with Emergent Transient States project #
+FP6-015879 of the European Union.
+Funding to pay the Open Access publication charges for this article
+was provided by Austrian Science Fund FWF.
+Address correspondence to email: haeusler@igi.tugraz.at.
+
+References
+Amit DJ, Brunel N. 1997. Model of global spontaneous activity and local
+structured activity during delay periods in the cerebral cortex. Cereb
+Cortex 7(3):237--252.
+Anderson J, Lampl I, Reichova I, Carandini M, Ferster D. 2000. Stimulus
+dependence of two-state ﬂuctuations of membrane potential in cat
+visual cortex. Nat Neurosci 3(6):617--621.
+Armstrong-James M, Fox K, Das-Gupta A. 1992. Flow of excitation within
+rat barrel cortex on striking a single vibrissa. J Neurophysiol 68(4):
+1345--1358.
+Baddeley R, Abbott LF, Booth MC, Sengpiel F, Freeman T, Wakeman EA,
+Rolls ET. 1997. Responses of neurons in primary and inferior
+temporal visual cortices to natural scenes. Proc R Soc Lond B Biol
+Sci 264(1389):1775--1783.
+Binzegger T, Douglas RJ, Martin KA. 2004. A quantitative map of the
+circuit of cat primary visual cortex. J Neurosci 24(39):8441--8453.
+Bollobas B. 1985. Random graphs. London: Academic Press.
+Borg-Graham LJ, Monier C, Fregnac Y. 1998. Visual input evokes
+transient and strong shunting inhibition in visual cortical neurons.
+Nature 393(6683):369--373.
+Buonomano DV, Merzenich MM. 1995. Temporal information transformed into a spatial code by a neural network with realistic
+properties. Science 267:1028--1030.
+Callaway EM. 2004. Feedforward, feedback and inhibitory connections
+in primate visual cortex. Neural Netw 17(5--6):625--632.
+Chung S, Ferster D. 1998. Strength and orientation tuning of the
+thalamic input to simple cells revealed by electrically evoked cortical
+suppression. Neuron 20:1177--1189.
+
+Cerebral Cortex January 2007, V 17 N 1 161
+
+Dantzker JL, Callaway EM. 2000. Laminar sources of synaptic input to
+cortical inhibitory interneurons and pyramidal neurons. Nat Neurosci 3(7):701--707.
+Destexhe A, Marder E. 2004. Plasticity in single neuron and circuit
+computations. Nature 431:789--795.
+Destexhe A, Pare D. 1999. Impact of network activity on the integrative
+properties of neocortical pyramidal neurons in vivo. J Neurophysiol
+81(4):1531--1547.
+Destexhe A, Rudolph M, Fellous JM, Sejnowski TJ. 2001. Fluctuating
+synaptic conductances recreate in vivo-like activity in neocortical
+neurons. Neuroscience 107(1):13--24.
+Destexhe A, Rudolph M, Pare D. 2003. The high-conductance state of
+neocortical neurons in vivo. Nat Rev Neurosci 4(9):739--751.
+Douglas RJ, Koch C, Mahowald M, Martin K, Suarez H. 1995. Recurrent
+excitation in neocortical circuits. Science 269(5226):981--985.
+Douglas RJ, Martin KA. 2004. Neuronal circuits of the neocortex. Annu
+Rev Neurosci 27:419--451.
+Ferster D. 1987. Origin of orientation-selective EPSPs in simple cells of
+cat visual cortex. J Neurosci 7(6):1780--1791.
+Gupta A, Wang Y, Markram H. 2000. Organizing principles for a diversity
+of GABAergic interneurons and synapses in the neocortex. Science
+287:273--278.
+Hilgetag C, Burns G, O’Neill M, Scannell J. 2000. Anatomical connectivity
+deﬁnes the organization of clusters of cortical areas in the macaque
+monkey and the cat. Philos Trans R Soc Lond B Biol Sci 355:91--110.
+Hirsch JA, Alonso JM, Reid RC, Martinez LM. 1998. Synaptic integration
+in striate cortical simple cells. J Neurosci 18(22):9517--9528.
+Hoffman DA, Magee JC, Colbert CM, Johnston D. 1997. K+ channel
+regulation of signal propagation in dendrites of hippocampal
+pyramidal neurons. Nature 387(6636):869--875.
+Kaiser M, Hilgetag C. 2004. Spatial growth of real-world networks. Phys
+Rev E 69:036103.
+Kalisman N, Silberberg G, Markram H. 2005. The neocortical microcircuit as a tabula rasa. Proc Natl Acad Sci USA 102(3):880--885.
+Lawson CL, Hanson RJ. 1974. Linear least squares with linear inequality
+constraints. In: Solving least squares problems. Englewood Cliffs (NJ):
+Prentice-Hall. p 161.
+Legenstein R, Maass W. 2005. What makes a dynamical system
+computationally powerful? In: Haykin S, Principe JC, Sejnowski T,
+McWhirter J, editors. New directions in statistical signal processing:
+from systems to brain. MIT Press. Forthcoming. Available at http://
+www.igi.tugraz.at/maass/ps_les/165.pdf.
+Maass W, Joshi P, Sontag ED. 2005. Principles of real-time computing
+with feedback applied to cortical microcircuit models. Proceedings
+of Advances in Neural Information Processing Systems. MIT Press.
+Forthcoming.
+Maass W, Markram H. 2002. Synapses as dynamic memory buffers. Neural
+Netw 15:155--161.
+Maass W, Natschla¨ger T, Markram H. 2002. Realtime computing without
+stable states: a new framework for neural computation based on
+perturbations. Neural Comput 14(11):2531--2560.
+Magee J, Hoffman D, Colbert C, Johnston D. 1998. Electrical and calcium
+signaling in dendrites of hippocampal pyramidal neurons. Annu Rev
+Physiol 60:327--346.
+Magee JC , Johnston D. 1995. Characterization of single voltage-gated
+Na+ and Ca2+ channels in apical dendrites of rat CA1 pyramidal
+neurons. J Physiol 487(Pt 1):67--90.
+
+162 Lamina-Speciﬁc Cortical Microcircuit Models
+
+d
+
+Haeusler and Maass
+
+Mainen ZT, Joerges J, Huguenard JR, Sejnowski TJ. 1995. A model of spike
+initiation in neocortical pyramidal neurons. Neuron 15(6):1427--1439.
+Markram H, Toledo-Rodriguez M, Wang Y, Gupta A, Silberberg G, Wu C.
+2004. Interneurons of the neocortical inhibitory system. Nat Rev
+Neurosci 5(10):793--807.
+Markram H, Wang Y, Tsodyks M. 1998. Differential signaling via the same
+axon of neocortical pyramidal neurons. Proc Natl Acad Sci USA
+95:5323--5328.
+Mountcastle VB. 1998. Perceptual neuroscience: the cerebral cortex.
+Cambridge, MA: Harvard University Press.
+Natschla¨ger T, Markram H, Maass W. 2003. Computer models and
+analysis tools for neural microcircuits. In: Ko¨tter R, editor. Neuroscience databases. A practical guide. Boston: Kluwer Academic
+Publishers. p 123--138.
+Nelson S. 2002. Cortical microcircuits: diverse or canonical? Neuron
+36(1):19--27.
+Raizada RD, Grossberg S. 2003. Towards a theory of the laminar
+architecture of cerebral cortex: computational clues from the visual
+system. Cereb Cortex 13(1):100--113.
+Schubert D, Staiger JF, Cho N, Kotter R, Zilles K, Luhmann HJ. 2001.
+Layer-speciﬁc intracolumnar and transcolumnar functional connectivity of layer v pyramidal cells in rat barrel cortex. J Neurosci
+21(10):3580--3592.
+Silberberg G, Gupta A, Markram H. 2002. Stereotypy in neocortical
+microcircuits. Trends Neurosci 25(5):227--230.
+Staiger JF, Kotter R, Zilles K, Luhmann HJ. 2000. Laminar characteristics
+of functional connectivity in rat barrel cortex revealed by stimulation with caged-glutamate. Neurosci Res 37(1):49--58.
+Stuart GJ, Sakmann B. 1994. Active propagation of somatic action
+potentials into neocortical pyramidal cell dendrites. Nature
+367(6458):69--72.
+Tanaka K. 1983. Cross-correlation analysis of geniculostriate neuronal
+relationships in cats. J Neurophysiol 49:1303--1318.
+Thomson AM. 2003. Presynaptic frequency- and patterndependent
+ﬁltering. J Comput Neurosci 15:159--202.
+Thomson AM, West DC, Wang Y, Bannister AP. 2002. Synaptic
+connections and small circuits involving excitatory and inhibitory
+neurons in layers 2--5 of adult rat and cat neocortex: triple
+intracellular recordings and biocytin labelling in vitro. Cereb Cortex
+12(9):936--953.
+Traub RD, Miles R. 1991. Neuronal networks of the hippocampus.
+Cambridge, MA: Cambridge University Press.
+Treves A. 2003. Computational constraints that may have favoured the
+lamination of sensory cortex. J Comput Neurosci 14:271--282.
+Vapnik VN. 1998. Statistical learning theory. New York: John Wiley.
+van Vreeswijk CA, Sompolinsky H. 1996. Chaos in neuronal networks
+with balanced excitatory and inhibitory activity. Science
+274:1724--1726.
+van Vreeswijk CA, Sompolinsky H. 1998. Chaotic balanced state in
+a model of cortical circuits. Neural Comput 10(6):1321--1371.
+Watts DJ, Strogatz SH. 1998. Collective dynamics of ‘small-world’
+networks. Nature 393:440--442.
+White EL. 1989. Cortical circuits. Boston: Birkhaeuser.
+Yoshimura Y, Dantzker JL, Callaway EM. 2005. Excitatory cortical
+neurons form ﬁne-scale functional networks. Nature 433(7028):
+868--873.
+
+

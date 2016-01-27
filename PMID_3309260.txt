@@ -1,0 +1,2986 @@
+653
+
+J. Physiol. (1987), 383, pp. 653-692
+With 17 text-figure and I plate
+Printed in Great Britain
+
+PASSIVE CABLE PROPERTIES AND MORPHOLOGICAL CORRELATES
+OF NEURONES IN THE LATERAL GENICULATE NUCLEUS
+OF THE CAT
+
+BY STEWART A. BLOOMFIELD, JAMES E. HAMOS
+AND S. MURRAY SHERMAN
+From the Department of Neurobiology and Behavior, State University of New York,
+Stony Brook, NY 11794, U.S.A.
+
+(Received 15 November 1985)
+SUMMARY
+
+1. We used an in vivo preparation of the cat to study the passive cable properties
+of sixteen X and twelve Y cells in the lateral geniculate nucleus. Cells were modelled
+as equivalent cylinders according to Rall's formulations (Rall, 1959a, 1969, 1977).
+We injected intracellular current pulses into these geniculate neurones, and we
+analysed the resulting voltage transients to obtain the cable parameters of these cells.
+In addition, fifty-four physiologically characterized neurones were labelled with
+horseradish peroxidase (HRP) and analysed morphologically.
+2. Analysis of HRP-labelled geniculate neurones showed that the dendritic
+branching pattern of these cells adheres closely to the 2 power rule. That is, at each
+branch point, the diameter of the parent branch raised to the 2 power equals the
+sum of the diameters of the daughter dendrites after each is raised to the 2 power.
+Furthermore, preliminary data indicate that the dendritic terminations emanating
+from each primary dendrite occur at the same electrotonic distance from the soma.
+These observations suggest that both X and Y cells meet the geometric constraints
+necessary for reduction of their dendritic arbors into equivalent cylinders.
+3. We found a strong linear relationship between the diameter of each primary
+dendrite and the membrane surface area of the arbor emanating from it. We used
+this relationship to derive an algorithm for determining the total somatic and
+dendritic membrane surface area of an X or Y cell simply from knowledge of the
+diameters of its soma and primary dendrites.
+4. Both geniculate X and Y cells display current-voltage relationships that were
+linear within + 20 mV of the resting membrane potential. This meant that we could
+easily remain within the linear voltage range during the voltage transient analyses.
+5. X and Y cells clearly differ in terms of many of their electrical properties,
+including input resistance, membrane time constant and electrotonic length. The
+difference in input resistance between X and Y cells cannot be attributed solely to
+the smaller average size of X cells, but it also reflects a higher specific membrane
+resistance (Rm) of the X cells. Furthermore, X cells exhibit electrotonic lengths
+slightly larger than those of Y cells, but both neuronal types display electrotonic
+lengths of roughly 1. This indicates that even the most distally located innervation
+to these cells should have considerable influence on their somatic and axonal
+responses.
+
+654
+
+S. A. BLOOMFIELD, J. E. HAMOS AND S. Mf. SHERMAN
+
+6. The relationship between membrane time constant and electrotonic length
+suggests that the Y cell population has rather uniform dendritic geometry (i.e. they
+are scaled in size) whereas X cells are more variable in terms of their dendritic
+geometry. This finding agrees with morphological data reported here and by others
+(Friedlander, Lin, Stanford & Sherman, 1981).
+7. We utilized an expression derived from the equivalent cylinder model to
+calculate the specific membrane capacitance (Cm) for eight neurones that were studied
+biophysically and subsequently labelled with HRP. Both X and Y cells display
+similar values for Cm, with a mean for the eight neurones of 1P86 /tF/cm2. With the
+assumption of a constant Cm for all geniculate cells, the Rm values of all twenty-eight
+geniculate neurones were calculated from measurements of the membrane time
+constants. X cells show higher Rm values than do Y cells. In addition, X cells showed
+considerable heterogeneity in their values for RB, whereas values for Rm are rather
+constant across the Y cell population.
+8. The present results suggest that the cable parameters of geniculate neurones
+over-all are not simply correlated to cell size. This is largely due to X cells having
+greater and more variable values for RE than do Y cells. Within the Y cell class, the
+electrical properties appear to correlate fairly well to cell size, whereas the electrical
+parameters of X cells cannot be explained by any simple factor of size scaling. X cell
+electrical parameters seem to reflect variations in specific R" and variations in
+dendritic geometry.
+9. The relatively high values of Rm for X cells serve to reduce their electrotonic
+length. This, in turn, may compensate for the relative thinness of X cell dendrites
+compared to those of Y cells. Furthermore, the variability in the values of Rm for
+X cells may offset variability in the dendritic geometry of these cells, thereby ensuring
+uniform values of electrotonic length across the X cell population.
+INTRODUCTION
+
+In the cat, the pathway from the retina through laminae A and At of the lateral
+geniculate nucleus to the visual cortex is comprised of two parallel, independent
+neuronal streams known as the X and Y cell pathways (Stone, Dreher & Leventhal,
+1979; Lennie, 1980; Sherman & Spear, 1982; Sherman, 1985). In the context of this
+organization, the lateral geniculate nucleus has been generally regarded as a mere
+relay whose function is the transfer of visual information from retina to cortex
+without significant elaboration of receptive field properties. This idea has stemmed
+from the fact that geniculate X and Y cells receive their retinal inputs from one or
+a few ganglion cells of the same X or Y cell class and of the same on- or off-centre
+receptive field type (Cleland, Dubin & Levick, 1971; Hoffmann, Stone & Sherman,
+1972). The receptive field properties of geniculate cells are thus virtually identical
+to those of their retinal afferent inputs (Hubel & Wiesel, 1961; Kaplan, Marcus &
+So, 1979; So & Shapley, 1981). However, only 10 20 o of the synapses on geniculate
+relay cells are retinal in origin (Guillery, 1969a, b; Wilson, Friedlander & Sherman,
+1984), and activation of many non-retinal inputs (e.g. from the mid-brain and pons)
+dramatically alters the excitability of these cells (Singer, 1973; Foote, Mordes, Colby
+& Harrison, 1977; Ahlsen, Lindstr6m & Lo, 1984). It is thus abundantly clear that
+
+CABLE PROPERTIES OF GENICULATE NEURONES
+
+655
+
+geniculate cells integrate information from many non-retinal excitatory and
+inhibitory inputs, and it has been suggested that the lateral geniculate nucleus may
+serve to gate or control the gain of signal transmission from retina to cortex (Singer,
+1977; Crick, 1984; Sherman & Koch, 1986).
+To understand the integrative performance of geniculate neurones, several anatomical studies have been initiated to study the pattern of afferent inputs to these
+cells (Guillery, 1969a, b; Wilson et al. 1984; Hamos, Van Horn, Raczkowski &
+Sherman, 1986). However, one must also have a description of their passive electrical
+or cable properties, because these parameters play a crucial role in determining
+synaptic current flow within a neurone's dendritic tree. The passive cable properties
+of dendrites, in conjunction with synaptic location, largely determine the amplitude
+and duration of post-synaptic potentials recorded at the soma (for reviews, see Rall,
+1959b, 1970, 1977; Jack, Noble & Tsien, 1975).
+Due largely to technical considerations, studies of neuronal cable properties in the
+mammalian central nervous system have focused mostly on in vivo preparations of
+the relatively large spinal motoneurones (Nelson & Lux, 1970; Burke & ten
+Bruggencate, 1971; lansek & Redman, 1973; Barrett & Crill, 1974; for a review, see
+Rall, 1977) or on in vitro preparations, such as brain slices, that may disrupt the
+morphological relationships of the neurones under study and severely limit the
+opportunity to stimulate these neurones via their natural afferent pathways.
+Furthermore, many of these latter studies have been directed at neuronal populations, such as hippocampal cells (Turner & Schwartzkroin, 1980; Brown, Fricke &
+Perkel, 1981 a; Durand, Carlen, Gurevich, Ho & Kunov, 1983), for which knowledge
+of basic functional roles and/or morphological patterns of identified synaptic inputs
+is lacking.
+In contrast to this, the cat's lateral geniculate nucleus offers two major advantages
+not generally found elsewhere in the mammalian central nervous system for the study
+of cable properties. First, as noted above, the functionally distinct X and Y cell classes
+coexist in geniculate laminae A and Al. We can thus determine with the same
+techniques and preparations the extent to which these two neuronal types possess
+different passive electrical properties and, moreover, what contribution the cable
+properties might make to the different responses of these X and Y cells. Secondly,
+it is of obvious interest to relate the cable properties of these neurones to their
+distinctive morphological features. In particular, geniculate X cells possess somatic
+and dendritic morphology plus a pattern of synaptic inputs that differ from those
+of Y cells (Friedlander et al. 1981; Wilson et al. 1984; Hamos et al. 1986).
+Consequently, a biophysical analysis of the cable properties of geniculate neurones
+not only provides a more complete description of these cells, but it affords a unique
+opportunity to relate these parameters to other well-documented anatomical and
+functional features of these cells.
+In the present study, we have investigated the passive cable properties of
+geniculate neurones from an in vivo preparation of the cat by modelling these
+neurones as equivalent cylinders (Rall, 1959a, 1977). In addition, by combining
+intracellular recording and labelling of some cells with horseradish peroxidase
+(HRP), we have been able to determine both the cable properties of identified X or
+Y cells as well as their somatic and dendritic morphological properties.
+
+656
+
+S. A. BLOOMFIELD, J. E. HAMOS AND S. M. SHERMAN
+
+Our results indicate that geniculate X and Y cells are electrically quite compact
+(i.e. their electrotonic lengths are roughly 1), which implies that even the most distal
+innervation on their dendritic arbors may have considerable influence on their
+somatic and axonal responses. Furthermore, certain of the cable properties of X cells
+differ from those of Y cells. Some of these differences are not simply reflexions of the
+smaller anatomical size of X cells relative to that of Y cells, but instead seem to reflect
+variability between the physiological classes in terms of their intrinsic membrane
+structure.
+Portions of these data have been presented in preliminary form elsewhere
+(Bloomfield & Sherman, 1984; Bloomfield, Hamos & Sherman, 1985).
+METHODS
+
+General preparation
+Many of the general methods used during these experiments have been described previously
+(Friedlander et al. 1981; Stanford, Friedlander & Sherman, 1983; Sur & Sherman, 1982; Humphrey,
+Sur, Uhlrich & Sherman, 1985), and a brief summary follows. We initially anaesthetized normal
+adult cats (2-0-3-5 kg) with 4% halothane delivered in a 50/50 mixture of nitrous oxide and oxygen,
+cannulated the fentoral vein to allow the infusion of paralytic agents plus supplemental doses of
+barbiturate, and performed a tracheotomy to insert an endotracheal tube. We placed the animal
+in a stereotaxic device and changed the level of anaesthetic for all subsequent surgery to 1 %
+halothane in a 70/30 mixture of nitrous oxide and oxygen. The cat was paralysed with a 5 mg bolus
+of gallamine triethiodide followed by a continuous infusion of 3-6 mg gallamine triethiodide/h,
+0O7 mg d-tubocurarine/h, and 6 ml 5 % lactated Ringer solution/h. We then artificially respired the
+animal and kept its end-tidal carbon dioxide at a level of 4 %. We made small craniotomies and
+durotomies to introduce the stimulating and recording electrodes into the brain. These openings
+were hydraulically sealed during recording. Following surgery, all wounds and pressure points were
+infiltrated at regular intervals with1 % lidocaine. We then discontinued halothane and maintained
+the animal for the remaining 24-36 h of the experiment on a 70/30 mixture of nitrous oxide and
+oxygen plus sodium pentobarbitone administered at a rate of 1 mg/h for each kilogram of body
+weight. Body temperature was maintained at 37 0C with a thermostatically controlled heating
+blanket. In addition, heart rate and e.e.g. (electroencephalogram) were monitored throughout the
+course of an experiment.
+
+Visual stimulation
+
+Atropine sulphate and phenylephrine were topically applied to the cats' eyes to dilate the pupils
+and retract the nictitating membranes. We then fitted the corneas with contact lenses chosen by
+retinoscopy to ensure that each retina was focused on the targets used for visual stimulation. We
+projected the optic disk of each eye onto a frontal tangent screen by the method of Fernald & Chase
+(1971). Neuronal receptive field positions were measured with respect to that of the optic disk and,
+in turn, to that of the area centralis (e.g. Sanderson & Sherman, 1971). By using Sanderson's (1971)
+maps of the lateral geniculate nucleus, we could confidently match the histological location of each
+HRP-labelled neurone with the appropriate receptive field location.
+Responses to spatial sine-wave gratings, either sinusoidally or rectilinearly modulated in time,
+
+were used to determine the spatial and temporal summation properties of cells. The gratings were
+generated on a cathode ray tube with spatial frequency, temporal frequency, and spatial phase
+continuously variable. The gratings had a mean luminance of 40 cd/M2 and a contrast that could
+most measures, we employed a contrast of 0-6: Neuronal
+responses to the gratings were Fourier analysed in order to assess the linearity of these responses
+(Hochstein & Shapley, 1976; Shapley & Lennie, 1985). Cells were considered to sum linearly if their
+responses were generated primarily at the fundamental temporal frequency of the stimulus and
+showed sinusoidal spatial phase dependency, with practically no modulated response at one spatial
+phase (the null position) and a maximal response to a phase angle of 90 deg from the null position.
+Cells with non-linear summation displayed significant response components at twice the temporal
+
+be continuously varied up to 0-6; for
+
+CABLE PROPERTIES OF GENICULATE NEURONES65
+657
+frequency of the stimulus, and these doubling responses were essentially independent of the spatial
+phase of the stimulus.
+Electrophysiological recordings
+We fashioned recording electrodes from omega-dot glass tubing (outer diameter of 1 2 mm, inner
+diameter of 0 7 mm) on a vertical puller. We filled each pipette with one of three solutions: (1)
+4 M-potassium chloride, (2) 4 M-potassium acetate, or (3) 50 HRP (Sigma VI) plus 0-2 M-potassium
+chloride in 0 05 M-Tris buffer. We then bevelled each micropipette to a final impedance (measured
+at 100 Hz) of 20-60 MQ for electrodes filled with potassium chloride or potassium acetate and
+65-110 MCI for electrodes filled with HRP. Recordings were made using a high-impedence amplifier
+equipped with a bridge and current injection circuitry. We used a hydraulic microdrive to advance
+the electrodes to the lateral geniculate nucleus. All but one of the geniculate cells included in this
+paper were recorded in laminae A and Al; the exception was a Y cell located in lamina C.
+Bipolar stimulating electrodes were inserted across the optic chiasm to effect orthodromic
+activation of geniculate neurones. The latency of activation from the stimulation site was measured
+as the time from the stimulus artifact to the foot of the action potential or excitatory post-synaptic
+potential. In half of the experiments, an array of four stimulating electrodes was placed in the
+cortical grey matter of areas 17 and 18 and pairs were used for bipolar stimulation to elicit
+antidromic activation of geniculate cells. Such activation was verified by triggering the cortical
+stimulus from a spontaneous orthodromic action potential in the geniculate cell. This ensured that
+the orthodromic spike collided with and cancelled the antidromic spike, preventing the latter from
+invading the soma.
+We studied several response properties of each geniculate neurone prior to biophysical analysis.
+These included response latency to electrical stimulation of the optic chiasm (and of cortex for those
+animals in which cortical electrodes were used), ocular dominance, receptive field position, centre
+size, centre-surround properties, responses to the modulated sine-wave gratings, responses to
+standing contrasts, and responses to fast-moving targets. From these responses, we identified
+geniculate neurones as X or Y cells (see Stone et al. 1979; Lennie, 1980; Sherman & Spear, 1982;
+Sherman, 1985; Shapley & Lennie, 1985).
+Approximately one-half of the neurones were identified as X or Y cells during extracellular
+recordings. We then slowly advanced the electrode until we observed fluctuations in the recorded
+potential. Cells were then impaled either by applying brief (50 ms) positive current pulses of 2-10 nA
+through the recording micropipette, by oscillating the amplifier through over-adjustment of the
+capacitance compensation circuit, or by physically tapping the micro-electrode holder. Intracellular
+impalement was indicated by a large, d.c. drop in recorded potential, the appearance of
+post-synaptic potentials, and large, positive action potentials. Immediately after impalement of
+a neurone, we quickly re-analysed its response properties to ensure that the impaled cell was the
+same one that we studied extracellularly. The remaining half of the cells in our study were impaled
+immediately and thus analysed solely during intracellular recording.
+For those cells studied with HRP-filled electrodes, physiological analysis was first performed,
+and then HRP was ionophoresed into the neurone with 50-100 ms positive current pulses of 3-10 nA
+at 5 Hz for 2-20 min. The activity of the neurone was monitored intermittently to ensure that the
+electrode was still inside the same cell. Following HRP ionophoresis, we withdrew the electrode
+from the brain and repositioned it at least 500 ,tm distant to any other penetration.
+
+Biophysical measurements
+We took precautions to minimize artifacts introduced into our data by the recording system,
+particularly since biophysical properties were measured with a single-electrode recording paradigm
+requiring a bridge circuit. We collected data only from electrodes that, with optimum capacitance
+compensation, displayed time-to-peak responses of 300 1as or less to a square-wave current pulse
+when measured at the level of the lateral geniculate nucleus; this corresponded to time constants
+of 100-250 Its. During several of the experiments we utilized a driven shield to reduce electrode
+capacitance to acceptable levels. We also required that each electrode show no sign of rectification
+when currents of up to 5 nA were delivered across its tip. As soon as any change in the recording
+characteristics of an electrode was detected during a penetration, the recording was immediately
+terminated. When electrode characteristics changed appreciably, any data collected after the
+electrode was last verified to have behaved stably were discarded.
+
+658
+
+S. A. BLOOMFIELD, J. E. HAMOS AND S. M. SHERMAN
+
+We adopted minimum requirements for acceptable intracellular recording. These included a
+stable resting membrane potential (Vm) of at least -50 mV (with a mean for the acceptable
+neurones of -60 mV), a spike amplitude of at least 30 mV (with a mean of 39 mV), and clear
+activation of synaptic potentials by stimulation of the optic chiasm. We used the bridge to balance
+or cancel the extracellular resistance (corresponding to the resistance of the electrode and recording
+system) and then determined the input resistance (Rn) of each neurone by measuring the voltage
+response to depolarizing and hyperpolarizing constant current pulses with amplitudes of 0-25 nA
+and durations of 250-500 ms. We also measured current-voltage (I- V) relationships of several
+neurones with similar current pulses ranging in amplitude up to 2-0 nA.
+We modelled each geniculate neurone as an equivalent cylinder with a lumped somatic impedance
+at one end and a closed terminus at the other (Rall, 1959a, 1969, 1977). We determined the
+membrane time constant (Tm) of each cell via the method of exponential peeling of the transient
+voltage response to a hyperpolarizing constant current step (Rall, 1969). The hyperpolarizing
+current steps were 50 ms in duration and 0-25-0-50 nA in amplitude. Voltage responses to each of
+these current steps were sampled at a rate of 7 kHz and averaged for 10}-200 trials by computer.
+We also analysed four of the cells with current pulses lasting only 0 5 ms (Jack & Redman, 1971;
+Jansek & Redman, 1973; Durand et al. 1983). Unfortunately, the rather high current amplitudes
+(5-10 nA) required with the 0 5 ms pulses often caused rectification of our electrodes, prompting
+us to abandon this technique.
+The charging response of a neurone to an injection of constant current is the sum of exponentials
+(Rall, 1969):
+1-FV
+
+e
+Coe- t/To+lt/T+Ce-t/T2+
+
+-
+
+(1)
+
+where V is the initial resting membrane potential, Vf is the final, steady-state resting potential,
+the Ci values are coefficients that depend on the initial distribution of membrane polarization and
+the point of observation, t is time after start of current injection, To is the membrane time constant,
+and the Ti values are the equalizing time constants. The natural logarithm of the voltage was plotted
+against time and the resulting curve was then 'peeled' by a computer-driven algorithm to derive
+the time constants and coefficients. In practice, only the longest time constant (r0 = Tm) and the
+two longest equalizing time constants (T1 and T2) could be clearly resolved.
+We used the first two time constants to calculate the electrotonic length of the entire neurone
+(Ln), including the soma, from Rall's (1969) formulations:
+a- =
+
+[ (To/Tl )-1 2
+
+Ln = 7r/ca.
+
+(2 )
+(3)
+
+The ratio of the dendritic-to-somatic conductance (p) was estimated from the relationship
+reported by Brown, Perkel, Norris & Peacock (1981 b):
+
+(To! Vf) [(Co/To) + (C/IT)]-1.
+(4)
+The electrotonic length (L) of the uniform cylinder most equivalent to the dendritic tree may then
+be approximated by:
+L = 7T[p/(p + l )]/(TO/.-1)2.
+(5)
+We employed this estimate for L as a starting point to obtain its more accurate value by computer
+p
+
+=
+
+iteration of the transcendental equation (Rall, 1969):
+p + [a cot (a L) tanh (L)] = 0.
+(6)
+When a neurone consists of dendrites that can be reduced to equivalent cylinders of equal L (this
+criterion is satisfied by geniculate neurones; see Results), Rm can be derived by the equation (Rall,
+
+1977):
+
+Rm = [AnRn tanh(Ln)]/Ln
+
+(7)
+
+where An is the total membrane surface area of the cell's soma and dendrites. Several geniculate
+neurones for which we determined Rn and Ln were labelled with HRP, as described above, and
+An calculated. For these cells, we could then estimate Rm using eqn. (7). Finally, we could estimate
+Cm =Tm/Rm.
+Cm from:
+(8)
+
+CABLE PROPERTIES OF GENICULATE NEURONES
+
+659
+
+Histology
+Light microscopy. Cats in which HRP labelling of geniculate neurones was performed were
+sacrificed at least 1 h after the final HRP injection with a lethal dose of pentobarbitone. We then
+transcardially perfused them with a 2 1 mixture of 1 % paraformaldehyde and 2 % gluteraldehyde
+in 0-1 M-phosphate buffer (pH 7 4) followed by a 1 1 rinse of 10 % sucrose in phosphate buffer. The
+brain was blocked stereotaxically and placed in 30 % sucrose solution overnight. Serial coronal
+sections were cut on a freezing microtome at a thickness of 100 gam. These sections were reacted
+with diaminobenzidine, and the reaction was intensified with cobaltous chloride (Adams, 1977).
+We reconstructed cells at roughly 1000 x by using a drawing-tube attachment on a light
+microscope fitted with a 100 x oil-immersion objective (N.A. 1-32). We measured morphological
+features (soma sizes and dendritic diameters) directly under the microscope by using the same optics
+with an eyepiece graticule. We assume a resolution of 0-5 4um for these measurements (Friedlander
+et al. 1981). Tissue shrinkage was estimated from the histological material of several brains that
+had landmark lesions placed in the lateral geniculate nucleus during recording and that were
+processed for histology as described above. The average shrinkage was roughly 20 % linearly, and
+although variability was seen in these estimates, we corrected our final measures of HRP-labelled
+cells for this average shrinkage (see also Discussion).
+Electron microscopy. We made some measurements of dendritic diameters from electron microscopic material. This was performed to improve the resolution (to roughly 0 05 ,um) for the thinner,
+more distally located dendritic segments. The actual measurements were made from serial
+reconstructions of dendritic arbors that were photographed and then printed at a magnification
+of 8500 x . These reconstructions are part of another study (Hamos et al. 1986), and details of the
+tissue preparation for electron microscopy can be found elsewhere (Wilson et al. 1984).
+
+Statistics
+Unless indicated otherwise, statistical analyses were made using the Mann-Whitney U test
+(Krauth, 1983).
+RESULTS
+
+We obtained data from seventy-four geniculate X and Y cells during the course
+of these experiments. Our morphometric analysis was based on measurements from
+fifty-four physiologically identified geniculate neurones that were subsequently
+labelled with HRP. Plate 1 shows representative examples of HRP-labelled geniculate cells. Of these labelled neurones, thirteen were used for measurements of dendritic
+morphology, and the remaining forty-one were used for the determination of An. The
+biophysical measurements were from twenty-eight cells whose intracellular records
+met the criteria outlined in Methods. Eight of the fifty-four HRP-labelled cells used
+for morphological analysis of An were among the twenty-eight studied biophysically.
+
+Assumptions of the equivalent cylinder model
+The equivalent cylinder model that we used in the analysis of the passive electrical
+properties of geniculate neurones has several underlying assumptions (Rall, 1959b,
+1970, 1977). In addition to previously established assumptions basic to axonal
+electrotonus (Hodgkin & Rushton, 1946; Davis & Lorente de No, 1947) these
+assumptions include: (1) that the internal surface of the somatic membrane is
+isopotential, allowing the soma to be represented as a lumped impedance; (2) that
+the external resistance is uniform and negligible over the external surface of the entire
+neurone; (3) that all electrical properties, including specific membrane and internal
+resistance, are constant throughout the cell; (4) that all terminal endings are of the
+
+S. A. BLOOMFIELD, J. E. HAMOS AND S. M. SHERMAN
+same form (i.e. sealed, infinite resistance); (5) that the pattern of dendritic branching
+conforms to the 'I power rule'; (6) that all terminal branches end at the same total
+electrotonic distance from the soma; and (7) that current flows passively within the
+dendritic arbor. Detailed expositions ofthe underlying assumptions of the model have
+been presented elsewhere (Rall, 1959b, 1970, 1977; Jack et al. 1975; Jansek & Redman,
+1973). Although we could not test experimentally most of these underlying
+assumptions, we have at least examined partially the validity of the last three as
+applied to geniculate neurones. The morphological and electrical constraints of
+dendritic branching are considered in the following section, and the requirement of
+passive current flow is discussed below under 'Biophysical measurements'.
+
+660
+
+Morphometry
+Patterns of dendritic branching. The reduction of a dendritic tree to an equivalent
+cylinder requires that, at each dendritic branch point, the sum of diameters of the
+daughter dendrites (Dd) taken to the power equals the diameter of the mother
+dendrite (Di) taken to the 3 power (Rall, 1959a):
+Dm1 = IDdi.
+(9)
+We tested this relationship at ninety-seven branch points (thirty-nine from Y cells
+and fifty-eight from X cells) from ten different HRP-labelled geniculate neurones.
+We purposely made measurements from a population of cells that displayed
+considerable morphological variability (e.g. Friedlander et al.; 1981) to avoid any
+pronounced bias in favour of any one class of cell. One complication of the
+measurements was that the dendrites of geniculate neurones, particularly those of
+X cells, exhibited numerous swellings and constrictions along a single branch.
+Therefore, for each dendritic segment showing such irregularities, an average diameter
+was calculated from measurements made each 3-5 #um. Of the ninety-seven branch
+points, seventy-six were mostly proximal and thus of large calibre, and we measured
+their diameters with the light microscope. To ensure accurate measures at distal
+locations, where dendritic diameters approach the resolution of the light microscope,
+twenty-one additional branch points were studied by using material reconstructed
+from the electron microscope.
+Fig. 1 illustrates the data from all ninety-seven branch points, including proximal,
+intermediate, and distal locations. It is clear from these data that both X and Y cell
+dendritic arbors follow the 'j3 power rule' remarkably well. This pattern of dendritic
+branching consequently fits the geometrical requirement for the reduction of these
+dendritic arbors to equivalent cylinders. Although the scatter in the data may
+indicate intrinsic differences among individual branch points, it may simply reflect
+the error in our measurements, particularly for those branches that displayed
+considerable variation in diameter.
+Electrotonic lengths of terminal branches. An additional constraint must be met
+before a dendritic tree can be collapsed into an equivalent cylinder. Namely, all
+terminal branches that derive from a single primary dendrite end at the same
+electrotonic distance from the soma. We tested this constraint, as far as our methods
+allow, on arbors emanating from six primary dendrites, one from each of three X and
+three Y cells. Given the assumptions of constant specific membrane and internal
+
+CABLE PROPERTIES OF GENICULATE NEURONES
+
+661
+resistances (see above), the electrotonic length of an individual dendritic segment is
+proportional to 1/A/d, where 1 is the actual length of the segment and d is its diameter.
+The electrotonic length along a dendritic path is simply the sum of the electrotonic
+lengths of the individual segments traversed. We used this algorithm to calculate the
+electrotonic distance to the soma from each terminal ending of a dendritic arbor.
+* Xcell
+o Ycell
+
+2*0
+1 8
+
+1*61-4
+1-42_0 1.
+0-0r1@0
+O*8
+
+0
+
+pes
+
+0
+
+30
+
+00
+
+3-0
+
+4.0
+Dm
+
+*
+
+0
+
+0
+
+00
+
+0-2 _
+
+0*6-
+
+0*40.20.0
+
+1.0
+
+2.0
+
+5*O
+
+6*0
+
+7.0
+
+8*O
+
+9*0
+
+(Wm)
+
+Fig. 1. Analysis of the a power rule at ninety-seven dendritic branch points of ten different
+HRP-labelled geniculate neurones. The ordinate expresses the 3 power relationship, and
+the abscissa reflects the diameter of the mother dendrite (Dm). Measurements of diameters
+of proximal dendrites were mostly made with the light microscope, whereas analysis of
+distal branch points were made from material reconstructed with the electron microscope
+(see text). Dendritic branch points of both X and Y cells satisfy the 2 power rule
+remarkably well, exhibiting an average value of 0 99 + 013 for this relationship.
+
+The arbors from these primary dendrites provided between six and sixteen such
+terminal endings, with a mean of 10-8. The values of electrotonic distance for each
+arbor were normally distributed. To test whether the electrotonic distances of the
+terminal branches within a single arbor were equivalent, we compared the variance
+of these values with that expected from measurement error alone (Mendenhall &
+Scheaffer, 1973). We assumed a measurement error of 05 jsm for diameter and 4 jsm
+for length; diameter measurements reflect only the resolution limit of the light
+microscope, whereas length measurements also reflect errors in extracting threedimensional information from our histological sections. Using x2 statistics, we found
+that the variance in values of terminal electrotonic distances for each arbor was equal
+to or less than the measurement error (P < 0-08-015 for all arbors). Consequently,
+within the limitations of our histological measures, these data suggest that dendritic
+terminals emanating from a single primary dendrite have equally long electrotonic
+paths to the soma.
+Although geniculate cells often contain primary dendrites that produce arbors of
+varying size, data presented in a succeeding section of Results indicate that larger
+
+S. A. BLOOMFIELD, J. E. HAMOS AND S. M. SHERMAN
+arbors are associated with thicker dendrites and thus larger space constants. Indeed,
+our impression is that all dendritic endings for a single cell related to different primary
+dendrites exhibit similar electrotonic distances from the soma. We obtained limited
+data to support this impression. For two additional neurones (one X and one Y cell),
+measurements of terminal electrotonic distances were made from two dendritic arbors
+each. For the X cell, these primary dendrites produced eight and nine terminal
+endings, and the mean electrotonic distance between the endings of one primary
+dendrite and the soma were not significantly different from those of the other
+(P > 01). Likewise, the primary dendrites for the Y cell provided fifteen and thirteen
+endings, with no significant difference between the electrotonic distances of these
+endings from the soma (P > 041).
+These measurements of electrotonic distance between terminal endings and soma,
+while limited in scope and subject to error, none the less suggest that dendritic arbors
+of a geniculate cell can be reduced to equivalent cylinders of equal L.
+Membrane surface area. To determine the Rm of geniculate neurones, it was
+necessary to measure the somatic-dendritic membrane surface area (An) of these cells
+in addition to their electrical parameters (see eqn. (7)). This required the intracellular
+labelling of cells with HRP following the analysis of cable properties. Unfortunately,
+a direct measurement of An is a tedious and time-consuming task, requiring estimates
+of diameter and length of many segments of the dendritic tree. However, a much
+simpler solution to this problem has recently been suggested. In a study of spinal
+motoneurones, Ulfhake & Kellerth (1981) and Ulfhake & Cullheim (1981) found a
+strong linear relationship between the diameter of the primary dendrite and the total
+membrane surface area of all dendritic segments deriving from that dendrite. Burke,
+Dum, Fleshman, Glenn, Lev-Tov, O'Donovan & Pinter (1982) subsequently generated an algorithm from these data with which they could calculate the surface area
+of any motoneurone's dendritic arbor simply by measuring the diameters of its
+primary dendrites.
+We adopted a similar strategy in our measurements of An for geniculate neurones.
+Fig. 2 shows drawings of single dendritic branches reconstructed from an HRPlabelled X and Y cell, and P1. 1 A and B shows photomicrographs of these branches.
+The dendritic branches were divided into individual segments that were represented
+as smooth cylinders with uniform diameter (Fig. 2B and D). The diameter and length
+of each segment were determined with careful attention paid to the movement of
+processes in and out of the plane of section in order to incorporate all three dimensions
+into our measurements. From these measurements, we calculated the membrane
+surface area of each dendritic segment.
+In this fashion, we laboriously determined the membrane surface area of all of the
+dendritic arbor related to thirteen primary dendrites. These were selected from a
+heterogeneous population of thirteen different cells (seven X and six Y cells) to
+minimize any bias in our measurements for any one morphological class. Fig. 3 shows
+the relationship between the diameter of the primary dendrite and the total
+membrane surface area of all dendritic arbor related to it. Since these values are
+highly correlated (r= + 099; P < 0-001), we could fit a line to the points by the
+method of least squares. The line's equation, y = 1 68x-0 99, provided an algorithm
+for the determination of the membrane surface area (y) of a dendritic arbor from the
+662
+
+CABLE PROPERTIES OF GENICULATE NEURONES
+
+663
+
+diameter of its primary branch (x). Both X and Y cells follow this linear relationship
+with the same algorithm, indicating a common aspect to the architecture of their
+dendritic arbors. Interestingly, this algorithm differs from that reported by Burke
+et al. (1982) for motoneurones. We could now calculate the dendritic surface areas
+Ycell
+
+X cell
+
+C
+
+Soma
+
+25 pm
+
+25jum
+
+B
+
+D
+
+Fig. 2. Reconstructions of all dendritic processes emanating from a single primary dendrite
+for a geniculate X and Y cell labelled with HRP; coronal views. A, reconstruction for an
+X cell. B, Sholl plot of the same arbor shown in A. The arbor was divided into individual
+segments and measurements of both length and diameter were made for each to determine
+the total membrane surface area of the arbor. The length of each segment in the Sholl
+plot reflects the actual length of the dendritic segment it represents. C, reconstruction for
+a Y cell. D, Sholl plot of the arbor illustrated in C; conventions as in B.
+
+of geniculate neurones by simply measuring the diameters of all primary dendrites
+and sequentially applying the derived algorithm. Furthermore, this new method
+permitted the use of less-well-labelled cells in which only the proximal dendrites were
+darkly stained.
+To determine An, the somatic membrane surface area must also be calculated. We
+
+664
+
+S. A. BLOOMFIELD, J. E. HAMOS AND S. M. SHERMAN
+estimated the somatic membrane surface area by assuming the soma to be spherical
+with a diameter equal to the average of its maximum diameters measured in the x,
+y and z planes. More elaborate calculations, including a correction for the surface area
+occupied by the bases of primary dendrites, were not made since the somatic surface
+area accounted for < 10 % of the total An of our sample of cells.
+10 0
+9"
+
+.19
+
+-
+
+EL
+
+* X cell
+0 Y cell
+
+8x
+X
+
+,
+
+~~~6~~~~~0
+~
+
+,,
+
+~40
+E
+
+c
+
+o/
+
+~
+
+4-0
+20
+
+12 0
+
+,,
+
+~
+
+,
+
+30
+50
+2-0
+40
+Diameter of primary dendrite (;Lm)
+
+60
+
+Fig. 3. Graph illustrating the relationship between the membrane surface area of dendritic
+arbors emanating from single primary dendrites, as illustrated in Fig. 2, and the diameter
+of the corresponding primary dendrites. Measurements were made from thirteen different
+HRP-labelled geniculate cells. The coefficient of correlation for these data is 0-99,
+indicating a strong linear relationship. A best fit line was generated for these data using
+the method of least squares (dashed line). The equation y = 1 68x-0-99, allowed us to
+calculate the membrane surface area (y) of all dendritic processes related to a primary
+dendrite from the diameter of the primary dendrite (x).
+
+By these methods, we estimated An for forty-one other geniculate neurones,
+including twenty-two HRP-labelled X and nineteen Y cells (Fig. 4A). The An for X
+cells ranged from 19 900 to 46200 ju2(with a mean+ S.D. of 32 700 +8300 /Z2)
+whereas the values for Y cells were 33300 to 55 200 ,uM2 (44 000 + 6500 ,uM2) . Although
+there is overlap in An values between the two classes, on average Y cells are clearly
+larger than X cells (P < 0 001).
+Fig. 5 illustrates another feature of these membrane surface area measurements.
+For each neurone, the surface area of the soma is highly correlated with its total Ana
+This is as true of the entire cell population as it is for X and Y cells individually
+(r = +n0i87 to 0n92 and Pr<t0n001 for all correlations). This confirms an earlier
+conclusion, based on different morphometric measurements, that larger somata of
+exteysoldenditdritic arbors (Friedlander et al.
+geniculate neurones are related to more
+1981; Stanford et al. 1983).
+Scaling of dendritic arbors. Fig. 6 illustrates yet another feature of dendritic
+branching for these geniculate X and Y cells. A strong relationship exists between
+
+CABLE PROPERTIES OF GENICULATE NEURONES
+8
+
+V/% X cells
+
+A
+
+D
+
+6
+
+8
+0
+
+Ycells
+
+'7
+
+4
+%I-
+
+665
+
+2
+
+L
+E 0
+z
+
+6
+An (X 104 1Im2)
+
+Fig. 4. Measurements of the total somatic-dendritic membrane surface areas of geniculate
+X and Y cells. A, An for forty-one HRP-labelled geniculate X and Y cells based on
+morphological measurements. Although there is clear overlap in the An values for the two
+classes, on average Y cells are larger than X cells. B, distribution of An values for
+twenty-eight geniculate X and Y cells derived entirely from their passive electrical
+properties using eqn. (11) (see text).
+
+60
+55
+
+* Xcell
+o Ycell
+
+0
+0
+
+50
+E
+0
+x
+c
+
+0
+
+45
+40
+
+35
+30
+25
+20
+15
+
+eo
+0
+*
+
+0
+
+@0
+
+0
+
+0
+
+0
+
+0.
+
+0
+
+0
+
+00
+0.
+a
+
+0
+
+1
+
+-
+
+2
+
+4
+3
+2
+Soma surface area (x 1i03 Mm2)
+
+---i
+
+5
+
+Fig. 5. Relationship between the total somatic-dendritic membrane surface areas (An) of
+geniculate cells and the surface areas of their somata.
+
+the diameter of the primary dendrite and both the total number of branch points
+in the resultant arbor (Fig. 6A) as well as the total number of dendritic segments
+in that arbor (Fig. 6B). The similarity in the two relationships of Fig. 6A and B is
+not surprising inasmuch as each parent dendrite always gave rise to two daughter
+dendrites at branch points. These relationships of Fig. 6A and B are statistically
+significant (r = +0-91, P < 0001 for all of the neurones; r = +0 74, P < 005 for the
+
+666
+
+S. A. BLOOMFIELD, J. E. HAMOS AND S. M. SHERMAN
+
+X cells and r = + 0-95, P < 0-00 1 for the Y cells). Interestingly, these correlations are
+stronger for Y cells than for X cells (P > 0-02 on a comparison of correlation
+coefficients), which implies that the arbors of Y cells are simply scaled versions of
+one another, with larger primary dendrites giving rise to predictably more daughter
+branches and higher-order dendritic segments. In contrast, X cells have more
+heterogeneity in the geometry of their dendritic arbors than do Y cells. These are
+themes to which we shall return repeatedly below.
+20
+
+A
+
+18
+
+*
+o
+
+Xcell
+Ycell
+
+0
+
+16
+0
+U
+
+14
+
+c
+
+OL
+.0
+
+0
+
+12
+
+0
+
+10
+
+0
+
+0 0
+
+.0
+
+E
+
+z
+
+8
+
+0
+
+0
+
+0 0
+0
+
+6
+
+en
+
+A4
+
+a)
+
+42
+
+I
+
+-
+
+B
+0
+
+38
+0
+
+34
+C
+
+CD
+
+E
+
+30
+
+0
+
+26
+
+.2
+
+22
+
+z
+
+0
+
+0 0
+
+0
+
+18
+
+0
+
+0
+
+0
+
+.
+
+14
+
+10
+
+I
+
+2
+
+-
+
+3
+4
+5
+6
+Diameter of primary dendrite (am)
+
+A
+
+7
+
+Fig. 6. Relationship between the diameter of the primary dendrite and the number of
+segments and branch points in the resultant arbor. The data were taken from the thirteen
+HRP-labelled dendrites illustrated in Fig. 3. A, scatter plot illustrating the strong
+
+correlation for both X and Y cells between the diameter of the primary dendrite and the
+number of branch points in the resultant arbor. B, scatter plot illustrating a similar strong
+correlation between the diameter of the primary dendrite and the number of segments
+in the resultant arbor.
+
+Biophysical measurements
+We studied the passive membrane properties of twenty-eight geniculate neurones
+(sixteen X and twelve Y cells) that met our criteria for adequate intracellular
+recording (see Methods). Nineteen of these cells were unequivocally identified as relay
+neurones based upon the ability to activate them antidromically from visual cortex
+or clear visualization of an axon entering the optic radiations following HRP
+
+CABLE PROPERTIES OF GENICULATE NEURONES
+
+667
+
+labelling. The remainder had similar response properties, and we assume that most
+or all were relay cells, although for these we employed neither antidromic activation
+nor HRP labelling. Fig. 7 illustrates an intracellular recording from a geniculate X
+cell, exemplary of the quality of recordings obtained during this study. This cell
+exhibited a steady resting membrane potential of -67 mV with spike amplitudes of
+approximately 60 mV. These recordings were obtained during the presentation of a
+counterphased sinusoidal grating. Fig. 7A shows the lack of a modulated response
+to a grating placed at the null position, and Fig. 7 B shows the modulated and linear
+response of this cell when the same grating was displaced from the null position by
+90 deg.
+
+A "I
+
+IIII||11
+
+Ill | 1 11il |li
+
+li
+
+id i II
+
+25 mV
+
+250 ms
+
+Fig. 7. Intracellular recording from a geniculate X cell. These records were obtained during
+visual stimulation with a grating sinusoidally modulated in space and time. The grating
+was generated on a cathode ray tube; it had an average luminance of 40 cd/M2 and a
+maximum contrast of 0-6. A, lack of a modulated response of this neurone to a grating
+placed in the null position of the receptive field of this cell. Note the high spontaneous
+activity of this cell. B, linear response of this neurone to the same grating when spatially
+displaced by a phase angle of 90 deg from the null position.
+
+Current-voltage (I-V) relationships. As noted earlier, a major assumption of the
+equivalent cylinder model is that current flow within the dendritic tree is totally
+passive. As a partial test of this assumption, we studied the I- V relationships for ten
+geniculate neurones (five X and five Y cells), paying particular attention to any
+non-linearities indicative of rectification induced by voltage-dependent conductances. Fig. 8 illustrates the I-V curves for an X and a Y cell showing no obvious
+non-linearities for a voltage range of + 20 mV from the resting potential. The I-V
+curves for the other X and Y cells were quite similar to those illustrated in Fig. 8.
+The decrease in Rn (slope of I-V curve) seen during the greatest depolarization
+probably reflects activation of voltage-sensitive sodium channels, since action
+potentials were usually initiated at or near this level. The Rn values obtained from
+
+668
+
+S. A. BLOOMFIELD, J. E. HAMOS AND S. M. SHERMAN
+
+the slope of the I- V relationships of Fig. 8 were 18 MQ for the X cell and 13 MQ for
+the Y cell. This is consistent with Rn measurements from other geniculate neurones
+(see below). Of course, the data do not rule out absolutely the existence of additional
+active conductances in these cells, because non-linear mechanisms of opposite
+polarity can conceivably cancel one another and remain undetected in measurements
+such as those depicted in Fig. 8. Voltage- and time-dependent conductances have
+mV
+20
+
+00
+
+0
+
+0
+
+* Cell.
+o
+
+0
+
+o
+
+0
+
+Y cell
+
+0
+
+-10
+
+0
+0
+
+0
+
+.0
+0
+
+,
+-1-0
+
+-2-0
+
+.
+
+wD
+
+,
+
+,
+1-0
+
+W
+
+, nA
+2-0
+
+00
+
+0.
+0
+0
+
+0
+
+*
+
+-10
+
+0
+0
+0
+
+0
+
+0
+
+~~~-20
+
+Fig. 8. Current-voltage (I-V) relationships for a geniculate X and Y cell. These data were
+obtained using 250 ms duration current pulses delivered through the intracellular
+recording electrode. The resting membrane potentials were - 64 mV for the Y cell and
+
+- 62 mV for the X cell. There are no obvious non-linearities in the I- V curves for either
+the X or the Y cell, thereby implying that no voltage-dependent conductances were
+activated in a range of ± 20 mY from the resting membrane potential of these cells.
+
+been described for mammalian thalamic cells (Jahnsen & Llina's, 1984 a, b; Deschenes,
+Paradis, Roy & Steriade, 1984; Roy, Clercq, Steriade & Deschenes, 1984), but the
+50 ms duration of most of our current injections is probably too brief to activate many
+of these. For instance, the calcium conductance underlying a low-threshold spike
+requires a 100-200 ms period of hyperpolarization before it can be de-inactivated
+(Jahnsen & Llina's, 1984a, b).
+
+The relatively large voltage range about the resting membrane potential for which
+geniculate neurones appeared to behave passively meant that we could easily remain
+within these limits during analysis of voltage transients. Furthermore, as described
+in Methods, such analysis was carried out on four cells with both 50 ms (long) and
+0-5 ms (short) current pulses. Durand et al. (1983) have recently suggested that short
+current pulses reduce the possibility of activating time-dependent conductances
+(e.g. Ito & Oshima, 1965). Therefore, a comparison between these two protocols
+provides a second test for non-linear behaviour of geniculate cells. In each case (two X
+and two Y cells), we found no significant difference between the time constants
+
+CABLE PROPERTIES OF GENICULATE NEURONES
+6
+
+A
+
+669
+
+B
+
+4
+2-
+
+IL
+10
+
+14
+
+18
+
+22
+
+26
+
+30
+
+8
+10
+Tm (Ms)
+
+6
+
+4
+
+R" (Ma)
+
+12
+
+14
+
+F D
+
+6F C
+4
+4-
+
+I0)
+E 2
+
+.0
+z
+
+I
+
+2-5
+
+1-5
+
+3-5
+
+2-5
+
+Tr (Ms)
+
+4-5
+
+5-5
+
+1 5
+
+1-75
+
+p
+
+8r
+
+X cells
+
+6
+
+Y cells
+
+F
+
+4
+
+2
+u
+
+2
+
+1
+
+0-75
+
+1
+
+1 25
+
+1 5
+
+Ln
+
+1 75
+
+2
+
+0-75
+
+1
+
+1 25
+
+2
+
+L
+
+Fig. 9. Distributions of the passive membrane properties of sixteen X cells and twelve Y
+cells in the lateral geniculate nucleus. A, frequency histograms of values for input
+resistance (Rn). B, frequency histograms of values for membrane time constant (Tm). C,
+frequency histograms of values for first equalizing time constant (Tj). D, frequency
+histograms of values for dendritic-to-somatic conductance ratio (p). E, frequency histograms of values for the whole neurone electrotonic length (Ln). F, frequency histograms
+of values for the electrotonic length (L) of the equivalent cylinder representing only the
+dendritic arbor.
+
+670
+
+S. A. BLOOMFIELD, J. E. HAMOS AND S. M. SHERMAN
+
+obtained using either long or short pulses, thus providing further evidence for the
+passive and linear behaviour of these geniculate cells during our recording conditions.
+Input resistance (Rn). Rn of each geniculate neurone was measured using constant
+current pulses of +0-25 nA. Fig. 9A shows the distribution of Rn values. These values
+were greater for X cells (with a mean+ S.D. of 22-6 + 3-2 MQ) than for Y cells
+(I6l0+ 3-6 Mf), with distributions that are significantly different (P < 0-001). This
+result is not surprising, given the smaller size of X cells, and does not, by itself, suggest
+any differences between X and Y cells with regard to their intrinsic membrane
+properties.
+
+Extracel u lar
+
+Intracellular
+
+3 mVK
+2 ms
+
+Fig. 10. Transient voltage responses to the onset of a 50 ms duration square-wave current
+pulse applied through the recording electrode. The faster response was obtained while the
+recording electrode was just extracellular to a geniculate X cell. The slower response was
+obtained while the electrode was intracellular to the geniculate X cell. The resting
+membrane potential was -59 mV. The amplitude of the current pulses was adjusted to
+produce voltage responses of equal amplitude. The response time of the electrode in
+extracellular space is clearly faster than it is in the neurone.
+
+Membrane time constant (Tm). Tm of each geniculate neurone was measured from the
+voltage transient response to a constant current pulse. Fig. 10 illustrates two voltage
+responses to the same 50 ms square-wave current pulse applied through the amplifier
+bridge. The faster response was obtained while the electrode was just extracellular
+to a geniculate X cell, and the slower one was recorded while the electrode was inside
+the same X cell. The response time (i.e. the time needed for the voltage response to
+reach a steady, d.c. level) is considerably faster in the extracellular space than it is
+inside the cell. In fact, the time constants of our electrodes were typically at least
+two orders of magnitude shorter than the Tm values of geniculate neurones and one
+order of magnitude shorter than the tr values. Hence, we did not adjust our measures
+of neuronal time constants to account for the insignificant contribution of the
+electrodes.
+The response of an X cell to a 50 ms current step of -05 nA can be seen in
+Fig. 11 A. This cell exhibited a stable resting potential of 59 mV, and its action
+
+CABLE PROPERTIES OF GENICULATE NEURONES
+A
+
+671
+
+B
+
+29
+
+4)
+
+E
+
+CD
+0
+
+0
+m
+
+0)
+0
+-J
+
+4.
+
+to = 1 1 73
+
+0
+
+20
+Time (ms)
+
+Time (ms)
+C
+
+50 um
+
+Fig. 11. Determination of the membrane and equalizing time constants of a geniculate
+X cell using the method of exponential peeling. A, computer average of 100 intracellularly
+recorded voltage responses to a 50 ms duration current pulse of -0-25 nA. The actual plot
+represents the voltage response as a function of time following the onset of the current
+pulse. B, same data as in A except the ordinate has been converted to the natural logarithm
+of the voltage. The final linear portion of the curve was fitted by a least-squares algorithm
+by computer, and this line was extrapolated to time zero. The negative reciprocal of the
+slope of this line equals the membrane time constant (Xr = Tm = 1173 ms). Subtraction of
+this line from the short latency exponential portion of the curve yields a second curve,
+for which the process of fitting a line to its linear portion is repeated. The first equalizing
+time constant (rl = 1-79 ms) is derived from the negative reciprocal of the slope of this
+second line. Further peeling in this manner leads to derivation of the second equalizing
+time constant (T2 = 0 47 ms). In practice, we could never clearly resolve time constants
+beyond T2. However, only Tm and were important for our computations (see text). C,
+drawing of the HRP-labelled X cell from which the electrical data described in A and B
+were obtained; coronal view.
+T1
+
+672
+
+S. A. BLOOMFIELD, J. E. HAMOS AND S. M. SHERMAN
+
+potentials were 40 mV in amplitude. A plot of the natural logarithm of the voltage
+against time (Fig. 11 B) reveals both exponential and linear portions of this function,
+thereby indicating a multi-exponential decay. Tm (which equals r0) andT1 andT2 were
+determined by sequentially 'peeling' the linear component from the exponential
+portion of the curve. This X cell displayed a Tm value of 11 73 ms, r1 of 1P79 and T2
+of 0 47 ms. We subsequently ionophoresed HRP into this neurone, and a reconstruction of the labelled cell is illustrated in Fig. 11 C. The cell body was located in
+lamina A. Its morphology, including numerous dendritic appendages and a dendritic
+arbor oriented mostly at right angles to the borders of lamina A, is typical of that
+of X cells (Friedlander et al. 1981). The An for this neurone was 43700 ,%m2, making
+it one of the largest X cells in our sample (see Figs. 4 and 5).
+A similar analysis for a Y cell is illustrated in Fig. 12. This cell, whose soma was
+located in lamina C, had a resting potential of -58 mV and exhibited action
+potentials with amplitudes of 32 mV. Its Tm was 9-67 ms, which is slightly shorter
+than that measured for the X cell, T1 was 0 95 ms and T2 was 0-20 ms. The cell was
+also labelled with HRP and displayed an An of 50400gm2 (Fig. 12C). This cell
+exhibited typical Y cell morphology, including fairly straight, smooth dendrites and
+a roughly spherical geometry to its dendritic arbor (Friedlander et al. 1981).
+As shown in Fig. 9 B, the total population of X cells exhibited longer and somewhat
+more variable Tm values than did Y cells (with means ±S.D. for X cells, 10-28 + 1-30,
+and for Y cells, 8-15 + 0-81 ms). This difference between X and Y cells is statistically
+significant (P < 0-001 for a test of the difference of means; P < 0 05 on an F test for
+the difference of variance) and suggests differences between the intrinsic membrane
+properties of X and Y cells. Indeed, data to be described below suggest that the
+difference in Tm between the two neuronal classes reflects a higher and more variable
+Rm for X cells than for Y cells.
+Equalizing time con8tant8 (ji). Ti values reflect the time needed to redistribute
+current within the neurone so that the membrane can return to a state of isopotentiality. These time constants depend somewhat on the geometry of the cell's
+dendritic arbor, and they thus provide some measure of this dendritic geometry. Our
+methods routinely can resolve only the first two equalizing time constants, and to
+be conservative, we have analysed in detail only the first of these (T1) for X and Y
+cells (Fig. 9C). It is interesting that these values for X cells (with a mean+S.D. of
+1-48 + 0-40 ms) are longer than for Y cells (0-90 + 0-22 ms). This difference is statistically significant (P < 0-001). There is also more variance in the values for X cells
+than for Y cells (P < 0.01 on an F test). We found no evidence that the T1 values
+were an epiphenomena of the Tm values because, within each neuronal class, these
+values were uncorrelated (r = +0-31, P > 041 for X cells, and r = -0-06, P > 0-1 for
+Y cells). Thus the T1 values may be regarded as independent evidence of intrinsic
+differences between X and Y cells, perhaps related to the above-mentioned morphological differences in dendritic branching patterns for these cell types.
+Dendritic-to-8omatic conductance ratio (p). p was calculated for twenty-eight cells
+using the method formulated by Brown et al. (1981 a). The X and Y cells displayed
+similar values of p that were not statistically different (Fig. 9D; mean + S.D. for X
+cells, 3-89 + 1 00 and for Y cells, 4*34 + 0 70; P > 0 1). The similarity in p between
+
+673
+
+CABLE PROPERTIES OF GENICULATE NEURONES
+A
+
+B
+
+15
+
+2-7
+
+&
+
+0)
+cm
+
+E
+Ut
+
+0)
+0
+
+0
+
+-j
+
+ro =
+
+9-67
+
+-1 3
+
+0
+
+21
+Time (ms)
+
+Time (ms)
+
+C
+
+Axon
+
+50pm
+
+Fig. 12. Determination of the membrane and equalizing time constants for a geniculate
+Y cell using the method of exponential peeling; procedure and conventions as in Fig. 11.
+A, computer average of 150 intracellularly recorded voltage responses to a -0-25 nA
+current pulse of 50 ms duration. B, same data as in A except the ordinate has been
+converted to the natural logarithm of the voltage. Exponential peeling of this curve yields
+the membrane time constant (Xr0 = rm = 9-67 ms) plus the first and second equalizing time
+constants (Tr = 0 95 and T2 = 0-20 ms). C, drawing of the HRP-labelled Y cell from which
+the data in A and B were obtained; coronal view.
+22
+
+PHY
+
+383
+
+674
+
+S. A. BLOOMFIELD, J. E. HAMOS AND S. M. SHERMAN
+
+classes as well as the small variance in these values was surprising in light of the
+tremendous variability in soma size and dendritic geometry of geniculate neurones.
+Rall (1959b) has shown that p can also be roughly estimated from the relationship:
+p = 0-2 (Rm) (Zd2)/As,
+(10)
+where d is the diameter of each primary dendrite and As is the surface area of the
+soma. This equation implies that p is proportional to Rm as well as the ratio of
+the size parameters for the primary dendrites (Zd2) and soma (As). As shall be
+demonstrated below, X cells are endowed with slightly higher values of Rm than are
+Y cells. Thus the fact that the cell classes exhibited similar values of p implies that
+the ratio Zd2/AS is smaller for X cells than for Y cells.
+60
+,,'
+
+* X cell
+
+-o
+
+° Y cell
+, 50
+E
+o
+
+,#o
+le
+
+0~
+of
+
+x
+Sc4Q .
+E
+Lu
+
+-'
+
+#A
+
+30
+
++j
+
+"'
+
+~~~~01 oo
+
+.
+
+.
+
+o
+
+.
+
+.
+
+30,
+
+20 ,
+20
+
+.
+30
+
+40
+50
+Measured An (X 103 Mm2)
+
+60
+
+Fig. 13. Comparison of morphologically determined and biophysically derived total
+membrane surface areas (An) of geniculate X and Y cells. Each of the eight cells
+represented in this data was labelled with HRP and biophysically analysed. The abscissa
+represents the morphologically determined A., and the ordinate indicates the An values
+derived entirely from electrical properties (see text). The dashed line, which has a slope
+of 1, is shown for reference only.
+
+Our morphological data support this contention. Data from our reconstructions
+of dendritic arbor related to thirteen primary dendrites (see Fig. 6) indicate that Y
+cells display, on average, thicker primary dendrites than X cells (4 3 /um for Y cells
+versus 3-4 #um for X cells). In addition, measurements from forty-one HRP-labelled
+geniculate neurones show that Y cells, on average, maintain more primary dendrites
+than do X cells (6-9 for Y cells versus 5.3 for X cells). With our estimates of As, we
+conclude that the size ratio Ed2/A. for Y cells is roughly 1 1 times that of X cells,
+which closely parallels the X to Y cell ratio of Rm of about 1 2. In essence, these data
+indicate that the greater Rm of X cells is roughly compensated by the larger 2di/As
+value of the Y cells, resulting in similar values of p for the two functional classes.
+Electrotonic length (L). The electrotonic length of the entire neurone (Ln), which
+corresponds to that of the equivalent cylinder representing the dendritic arbor and
+
+675
+CABLE PROPERTIES OF GENICULATE NEURONES
+soma, was calculated from rm and ri (see eqn. (3)). Fig. 9E summarizes the Ln values.
+Ln was slightly but significantly greater for X cells than for Y cells (mean + S.D. for
+X cells, 1P29 + 0-21, and for Y cells, 1 10 + 0O18; P < 002). Furthermore, the variance
+in Ln for X cells was greater than that for Y cells (P < 0001 on an F test). A more
+exact value for L of the equivalent cylinder representing only the dendritic arbor was
+TABLE 1. Electrical and morphometric parameters of geniculate neurones
+MeasEstiured
+mated
+Cm
+An
+An
+(x 103
+(X103
+(1tF/
+T
+TM
+RM Rn
+cm2)
+p
+, m2)
+L
+Class (ms) (Ms) ((Q cm2) (MCI)
+#m2))
+Ln
+43-2
+1P10 6-02
+1P23
+18
+9-91 1-32 5338
+X
+52-4
+1X50 1-79
+1-90
+19
+X
+9-31 2-49 5015
+41P5
+1-16 3-01
+1P41
+20
+X
+9-71 1-63 5230
+42-1
+1P23 3-48
+21
+1-45
+X 10-14 1-78 5462
+46.2
+22
+1-24 1P07 4-47
+X 12-89 1-74 6943
+1P51
+37-9
+30-8
+1P12 3-36
+1-33
+23
+X
+8-60 1-31 5697
+32-2
+24
+1P32 1-10 3-17
+9-44 1P42 5085
+X
+1-62
+43-7
+38-2
+24
+1-07 2-54
+1-33
+X 11-73 1-69 6855
+27-2
+5*03
+24
+0-94 0-81
+9-49 0-78 5112
+X
+32-7
+1-43 1-22 3-54
+28
+X 10-62 1P82 5720
+2-00
+21-6
+23-3
+4-64
+1 00 0-86
+27
+X
+8-90 0-82 4442
+27-9
+1-14 0.99 4-83
+28
+X 10-38 1P21 5591
+33-4
+22
+1-13 0-96 3-98
+X
+9-79 1-13 5273
+2-48
+29-7
+39-6
+3-97
+1-07
+1-25
+20
+X 10-00 1-37 4031
+37-6
+24
+1-07 4 03
+1-26
+X 11-32 1-57 6097
+35-6
+1-21
+1-04 4-32
+27
+X 12-35 1-60 6652
+1-92
+35-1
+36-2
+1P02 0-88 4-72
+16
+8-12 0-78 4374
+Y
+48-2
+1-26 3-15
+1P50
+13
+Y
+7-02 1P30 3781
+39-8
+0-88 4-85
+14
+1 01
+Y
+7-85 0-74 4228
+42-3
+1-07 4-11
+1-25
+15
+Y
+8-00 1P09 4309
+1-93
+43-5
+45-1
+1-04 0 90 4-73
+15
+Y
+9 40 0 93 4880
+1-83
+50 4
+49 7
+14
+1P04 0-89 4-55
+Y
+9-67 0-96 5278
+7*90 0-61 4255 18 0-91 0-80 5-23 29-8
+Y
+1P16 3-01 28-3
+1-35
+23
+Y
+7-83 1P22 4217
+55-2
+1P56
+46-4
+14
+1P19 1P02 4-21
+Y
+8-42 1P06 5394
+27-3
+5-26
+0 79
+24
+0-91
+Y
+9-65 0 75 5198
+38-8
+3-72
+12
+1P01
+1P19
+Y
+6-04 0-76 3253
+38-7
+4-57
+0 94 0-81
+14
+Y
+7-87 0-65 4239
+Totals (mean+ S.D.)
+1.90
+33-2
+36-5
+X
+10-28 1-48 5534 22-6 1-29 1.09 3-89
++7-3
++8-4 +0-38
++1-30 +0-40 +777 +3-2 +0-21 +0-15 +100
+1 81
+46-1
+39-2
+Y
+8.15 0-90 4451 16-0 110 0-97 4-34
++7-6 +0-15
++7-3
++0-81 +0-22 +606 +3-6 +0-18 +0-16 +0 70
+
+Vm
+(mV)
+-55
+-52
+-62
+-69
+-54
+-62
+-61
+-59
+-54
+-67
+-65
+-56
+-55
+-55
+-67
+-54
+-64
+-60
+-62
+-63
+-69
+-58
+-74
+-60
+-53
+-56
+-69
+-51
+-60-0
+
+±5_5
+-61-6
+
++6-5
+
+determined by incorporating p into our calculations (see eqns. (5) and (6)). Fig. 9F
+shows that, as was the case for values of Ln, a small difference was observed in the
+measures of L (mean+S.D. for X cells, 1-09+0-15, and for Y cells, 0-97±+016;
+P < 002), with X cells exhibiting more variance than did Y cells on this measure
+(P < 0001 on an F test).
+Specific membrane resistance (Rm) and capacitance (Cm). Given the assumptions
+22-2
+
+676
+
+S. A. BLOOMFIELD, J. E. HAMOS AND S. M. SHERMAN
+
+required for the equivalent cylinder model that each neurone is endowed with a
+uniform Rm and Cm, Rm can be determined from knowledge of Rn, L and An (see
+eqn. (7)). Eight neurones were labelled with HRP after their biophysical properties
+were studied so that their An values could be calculated. On average, the X cells
+exhibited slightly higher and more variable Rm values than did the Y cells in this
+sample (mean +S.D. for X-cells, 5256 + 1108 n cm2, and for Y cells,
+4947 +451 Q cm2). However, possibly due to the small data base of four representative cells from each class, these differences between the X and Y cells are not
+statistically significant. Cm was then determined for these eight cells using eqn. (3).
+Values for Cm for both X and Y cells were quite similar, with the respective means
+for X and Y cells of 1-90 and 1P81 ,tF/cm2; the mean+ S.D. of these values for all eight
+neurones was 1P86 + 0-29 ,IF/cm2.
+We assumed that geniculate neurones exhibit a common lipid basis for their
+membranes, which implies that Cm is constant across neurones. Using the derived
+average Cm value of 1-86 #tF/cm2, we estimated An for each of the twenty-eight
+neurones from which cable properties were determined by substituting eqn. (8) into
+eqn. (7):
+(11)
+An = (TmLn)/[Cm Rn tanh (Ln)].
+For each of the eight geniculate neurones that had their cable properties measured
+and that were labelled with HRP, An was derived from eqn. (11) and also measured
+more directly from histological material. Fig. 13 shows the strong correlation between
+these two measures (r = + 0-83; P < 0-01). Fig. 4B shows the distribution of An values
+as derived from eqn. (11) for the twenty-eight X and Y cells from which cable
+properties were determined. These distributions are reasonably close to those
+determined from histological material and illustrated in Fig. 4A (P < 0 1 on
+comparisons between histologically and biophysically derived An values for X and
+Y cells), although the size differences between X and Y cells of Fig. 4B are no longer
+statistically significant. However, Figs. 4 and 13 together support the validity of
+modelling neurones as cables to derive structure-function relationships. Finally, the
+average Rm value for all twenty-eight cells is 5534+777 Q cm2 for X cells, and
+4439 + 609 n cm2 for Y cells.
+A summary of all electrical parameters of geniculate X and Y cells is given in
+Table 1.
+
+Relationships among electrical parameters
+In addition to determining the actual values for the various cable properties of
+geniculate neurones, we examined the interrelationships among these parameters. In
+particular, we were interested in which parameters were strongly predicted by the
+functional X or Y cell class, and which were more closely related to other neuronal
+properties.
+Relationships with input resistance (Rn). The measurement of Rn can be influenced
+by several extrinsic factors. First, injury associated with electrode impalement can
+produce current shunts that effectively reduce the observed R. values. Secondly,
+these shunts can lead to reduced resting membrane potentials that may, in turn,
+activate voltage-dependent conductances, resulting in further reductions in Rn. In
+
+677
+CABLE PROPERTIES OF GENICULATE NEURONES
+view of this, we examined what influence the resting membrane potential, which
+covered a range of 23 mV, had on Rn measurements. Any relationship between Rn
+and resting membrane potential could reflect shunting due to impalement injury,
+since both parameters would be conjointly reduced. Fig. 14 shows that no such
+relationship exists for either X and Y cells (for all cells, r = -0O08; for X cells,
+r = +0-28; for Y cells, r = -007; P > 01 for all correlations). Although we found
+no evidence of impalement injury, we none the less assume that cells were injured
+to some degree, because recent work has uncovered cell damage during even the
+highest quality recordings Durand et al. 1983; Gustafsson & Pinter, 1984). However,
+we feel that any cell damage during the present study was relatively small and not
+biased in favour of X or Y cells.
+30
+
+X cell .
+Ycello
+
+*
+
+25
+
+*
+
+0
+
+0
+
+o
+
+0
+
+0
+
+*S.
+
+~200
+0
+
+C
+
+.
+
+0
+
+0
+
+15
+
+0
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+0
+
+lo~~~~~
+
+10
+-50
+
+.
+-54
+
+-58
+-62
+-66
+Resting potential (mV)
+
+-70
+
+-74
+
+Fig. 14. Scatter plot of input resistance (Rn) and resting membrane potential for geniculate
+X and Y cells.
+
+Fig. 15 illustrates the relationship between Rn and An as described by eqn. (7). The
+series of dashed curves represent lines of equal Rm for the varying values of Ln. The
+Ln values represented in the Figure are consistent with those derived in the present
+study for geniculate X and Y cells. The triangles represent the eight neurones
+described above that had their cable properties measured and were also labelled with
+HRP. Fig. 15 shows the slightly larger Rm values exhibited by X cells than by Y
+cells. More striking, however, is the tremendous range of Rm values indicated for X
+cells, whereas these values for Y cells fall within a narrow band of specific membrane
+iso-resistance lines. Given the assumption of a constant Cm across cells and the
+relationship described by eqn. (8), the results of Fig. 15 are consistent with the wider
+range of Tm values displayed by X cells than by Y cells.
+Because of the relatively small range of Rm values for Y cells, variations in Rn
+within this class show a simple relationship with cell size (see Fig. 15). This would
+be expected if changes in cell size reflected simple scaling rather than a change in the
+basic geometry of the dendritic tree. This conclusion is supported by the morphological relationships illustrated in Fig. 6. The variation in Rn of X cells, on the other
+hand, shows no simple relationship to either cell size or Rm. This suggests that
+
+678
+
+S. A. BLOOMFIELD, J. E. HAMOS AND S. M. SHERMAN
+
+variations in the size of X cells may be associated with structural changes in dendritic
+geometry that will influence Rn values. As noted above, X cells exhibited greater
+variation than did Y cells both in the relationship between primary dendritic
+diameters and dendritic branching patterns (Fig. 6) as well as in the values of r1
+(Fig. 90). Both observations suggest a greater degree of structural heterogeneity in
+X cell arbors than in those of Y cells.
+40
+
+I ";
+
+"=
+\
+R =7800fcm2
+
+It'
+~~~~~~~~~~~~L =0-8
+
+30
+
+L
+
+103ym2
+An\(X
+S
+
+L~
+
+cc
+
+\
+
+' \
+
+\D%(
+
+=
+
+1
+
+1
+-
+
+O~
+10 ~ ~ ,10
+F
+1
+R
+Ln0=12
+=
+
+10
+0
+
+10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+An (X 103 JAM2)
+
+Fig. 15. Relationship between the total membrane surface area (An) and input resistance
+(Rn) of geniculate neurones. The dashed lines represent families of curves described by
+eqn. (11) for selected values of electrotonic length (Ln) and constant specific membrane
+resistance (Rm). The data include X and Y cells whose values for An were either measured
+
+histologically or estimated from electrical parameters (see text). A, X cells with
+morphologically determined An; *, X cells with An estimated from biophysical parameters; A, Y cells with morphologically determined An; 0, Y cells with An estimated
+from biophysical parameters.
+
+Relationships with membrane time constant (Tm). There is no relationship between
+Tm and cell size among our sample of geniculate X and Y cells (Fig. 16A). In contrast,
+we did find a significant correlation between Tm and neuronal Rn for our entire
+population of geniculate X and Y cells (Fig. 16B; r = + 0O65; P < 0 001). However,
+this seems to be an epiphenomenon of the above-mentioned fact that Y cells tend
+to have smaller values of both variables than do X cells, because no significant
+correlation exists between these parameters when X or Y cells are considered alone
+(for X cells, r = +0-21 and P > 0 I; for Y cells, r = +0 40 and P > 0 1). This latter
+conclusion is consistent with our observation of no clear correlation between Rn and
+Rm. Finally, the membrane time constant of geniculate cells bore no relationship with
+the resting membrane potential (Fig. 16C; for all cells, r = -0-28; for X cells,
+r = -016; for Y cells, r = -0-26; P > 0 1 for all correlations).
+Relationships with electrotonic length. The whole neurone (Ln) and dendritic
+electrotonic lengths (L) of X and Y cells bore a strong linear relationship with each
+
+CABLE PROPERTIES OF GENICULATE NEURONES
+
+679
+
+36 r
+A
+
+32 1
+;ZE 28
+E
+
+No
+
+a
+
+:t
+
+a
+
+° 24 F
+x2
+I';( 20r
+
+0
+
+i
+
+A
+A
+
+A
+
+^A
+
+*
+
+AA
+
+A
+
+16
+
+A
+A
+
+0
+
+12
+
+15
+
+a
+
+a
+
+11
+
+12
+
+I
+
+6
+
+10
+9
+Tm (Ms)
+
+8
+
+7
+
+r
+
+8
+
+* X cell
+o Y cell
+
+13
+
+0
+
+1i1
+
+I
+
+a
+
+E
+WE
+
+13
+
+0
+
+.
+
+0
+
+9
+
+.
+
+8 o
+
+o
+o
+00
+
+14
+
+18
+
+0
+
+7
+
+:
+
+0
+0
+
+5
+
+10
+
+22
+Rf (MI2)
+
+26
+
+30
+
+14 r
+C
+0
+0
+
+11
+
+F
+
+0
+0
+
+00
+o
+
+E
+
+0
+
+0
+0
+
+0
+
+0
+
+0
+
+c
+0
+0
+
+8
+
+0
+
+o
+
+0
+
+00 0
+
+0
+
+5L
+-5CD
+
+a
+
+-54
+
+a
+
+I
+
+a
+
+-66
+-58
+-62
+Resting potential (mV)
+
+a
+
+-70
+
+-74
+
+Fig. 16. Relationships between membrane time constant (tm) and various other
+electrical parameters of geniculate X and Y cells. A, scatter plot of relationship between
+the membrane surface area (An) and Tm for twenty-eight geniculate X and Y cells. These
+data include cells whose values for An were either measured morphologically or estimated
+from electrical data. Symbols: *, X cells with A. measured morphologically; A, X cells
+with An estimated from electrical data; 0, Y cells with An measured morphologically;
+A, Y cells with An estimated from electrical data. B, scatter plot of the relationship
+between the input resistance (R.) and rm of geniculate X and Y cells. Key in B applies
+to C as well. C, scatter plot of the relationship between the resting membrane potential
+and rm of geniculate X and Y cells.
+
+680
+
+S. A. BLOOMFIELD, J. E. HAMOS AND S. M. SHERMAN
+
+other (r > + 0-99; P < 0 001). Consequently, all relationships described for L can be
+applied to Ln as well.
+A cell's electrotonic length depends largely on dendritic geometry and Rm,
+particularly since the equivalent cylinder model assumes constant internal and
+external resistance. Jack, Miller, Porter & Redman (1971) and Gustafsson & Pinter
+(1984) have shown that L is inversely proportional to the square root of rm (or Rm)
+as follows:
+La (l/Vd) (m), 2
+(12)
+where I and d represent the length and diameter of the cylinder equivalent to the
+dendritic arbor. This inverse trend between rm and L exists for Y cells but not for
+1.6
+
+Xcell *
+
+13-
+
+Ycell o
+
+0
+
+0
+
+L
+
+0
+0
+
+0~~~~~~
+~0
+
+1~~~0
+
+0.71 ~
+5
+
+~
+7
+
+0
+
+0*
+9
+Tm (Ms)
+
+11
+
+13
+
+Fig. 17. Relationship between the electrotonic length (L) and membrane time constant
+(Tm) of geniculate X and Y cells.
+
+X cells (Fig. 17). There is no significant correlation between these parameters for our
+entire population of neurones (r = + 0-05; P > 0 1) or for the X cells (r = -0.03;
+P > 0 1), but a significant correlation exists for Y cells (r = - 0-66; P < 0-01). This
+relationship suggests that Y cells differ only in size (i.e. they are scaled versions of
+one another, since l/Vd remains fairly constant), and that L depends mostly on Tm
+and thus on Rm. In contrast, X cells appear to have far greater heterogeneity in their
+dendritic geometry (l/V/d of the equivalent cylinder) and exhibit no obvious
+relationship between L and Tm (or Rm). Together, these data provide yet further
+evidence, based totally on electrical measurements, that X cells are morphologically
+more diverse than are Y cells.
+DISCUSSION
+
+We measured the passive electrical properties of neurones from an in vivo
+preparation of the cat's lateral geniculate nucleus. These cable properties can be
+related to the wealth of morphological and physiological data already available for
+these neurones, including their classification as X and Y cells. In the following
+
+CABLE PROPERTIES OF GENICULATE NEURONES
+
+681
+
+sections, we discuss some implications ofthese findings as well as certain qualifications
+necessitated by technical considerations.
+
+Morphometry
+Technical considerations. Our morphological measurements were subject to errors
+introduced from two sources. First, most observations were made with the light
+microscope, which limits the resolution of measurements under ideal conditions to
+02-0 3 #um. Our use of thick sections (100 gim) and white light reduces the useful
+resolution from this ideal limit, and we estimate our measurement resolution with
+the light microscope to be roughly 0-5 #m. Although this limit was not a significant
+problem for the measurements of soma diameters and the calibre of the relatively
+large proximal dendrites, the diameters of peripheral processes can approach 05 inm.
+We thus employed electron microscopy for determination of many diameters below
+1-0 jm, but this cannot eliminate all error in our measurements.
+A second source of error was tissue shrinkage resulting from histological processing.
+As described in Methods, we adjusted all of our measurements for an average
+shrinkage of 20 %. However, we found some variation in tissue shrinkage not only
+between animals but occasionally between sections of tissue obtained from the same
+animal. Many of our labelled geniculate neurones were obtained from experiments
+in which an independent assessment of tissue shrinkage was not obtained, because
+we were not yet aware of the problem. Consequently, our use of an average 20 %
+adjustment for all morphological measurements reduces but does not eliminate errors
+due to differential tissue shrinkage.
+Dendritic branching. An important conclusion from our data is that geniculate X
+and Y cells obey the '3 power rule', thereby meeting one geometric precondition
+for modelling their dendritic arbors as equivalent cylinders. Although our measurements of dendritic diameters indicate some scatter for this constraint, this scatter
+bore no relationship to the diameter or location (i.e. distal versus proximal) of branch
+points and thus may simply reflect the above-mentioned errors inherent in our
+measures. In any case, the scatter in the relationship was not sufficient to obscure
+its obvious presence.
+The 3 power rule has been sought for many other neuronal types at a variety of
+loci with variable and often controversial results. Some studies of a-motoneurones
+of the spinal cord have argued that these neurones obey the power rule (Lux,
+Schubert & Kreutzberg, 1970; Brown & Fyffe, 1981; Ulfhake & Kellerth, 1981), while
+others deny this (Barrett & Crill, 1974; Egger & Egger, 1982). Brain-stem respiratory
+neurones (Kreuter, Richter, Camerer & Senekowitsch, 1977), retinal ganglion cells
+(Koch, Poggio & Torre, 1982), neocortical pyramidal cells (Hillman, 1979), and
+cerebellar Purkinje cells (Hillman, 1979) all fail to satisfy the 3 power rule, whereas
+CAl pyramidal cells (Turner & Schwartzkroin, 1980), hippocampal granule cells
+(Durand et al. 1983) and spinocervical tract neurones (Sedivec, Capowski & Mendell,
+1985) follow this relationship. Curiously, those dentate granule cells located in the
+distal portions of the molecular layer obey the 3 power relationship, while granule
+cells located elsewhere do not (Desmond & Levy, 1984).
+Since many neuronal cell types in the mammalian central nervous system need not
+obey the 3 power rule, one might ask what its functional significance is and why
+
+BLOOMFIELD, J. E. HAMOS AND S. M. SHERMAN
+geniculate X and Y cells in the cat represent cell types that adhere faithfully to this
+682
+
+S. A.
+
+rule. It is certainly not present just to satisfy the needs of experimental models.
+Unfortunately, other than Rall's (1959a) original description of the3 power rule
+and subsequent references to it, we have found little in the literature that addresses
+the functional significance of this constraint (but see Rall, 1964).
+Two general possibilities can be considered regarding the significance of the 2
+power rule. First, this branching pattern may simply reflect the structural or
+hydraulic needs of the dendritic arbor. That is, such a branching pattern may be an
+epiphenomenon of growth, or it may reflect the most efficient structure for the
+internal transport of various substances. While such explanations that do not relate
+primarily to neurone electrotonus cannot be ruled out, they seem unlikely or limited
+because so many neurones do not exhibit such a pattern of branching. Secondly, this
+branching pattern may represent an important means of controlling electrotonic
+signal transmission within a dendritic arbor. C. Koch (personal communication) has
+recently used computer simulations to model cells that follow the power rule. His
+results indicate that branch points satisfying this relationship exhibit the least
+attenuation of electrotonic conduction in both directions, and that any other
+branching pattern can maximize such conduction in only one direction. That is,
+dendritic branching patterns that obey the 3 power rule not only permit efficient
+electrotonic conduction of post-synaptic potentials towards the soma, but they also
+permit efficient conduction towards the distal dendrites of currents generated at the
+soma and proximal dendrities. As a result, action potentials initiated in the soma or
+axon hillock, as well as synaptic potentials generated proximally, can invade the more
+distal dendrites and influence the further generation of synaptic potentials there. In
+this manner, the state of activity of a cell can regulate synaptic activation. Perhaps
+only certain cell types (such as geniculate X and Y cells) are designed with such a
+state-dependent gating of synaptic inputs in mind, whereas other neurones are
+designed to maintain constant post-synaptic potentials regardless of the cells' levels
+of activity.
+Membrane surface area. A second interesting morphometric finding was the linear
+relationship between the diameter of the primary dendrite and the membrane surface
+area of the arbor emanating from that dendrite. The algorithm generated from this
+provides a relatively simple and straightforward method for calculating An without
+the tedious microscopic measurements previously required. Although we can offer no
+obvious functional explanation for such a relationship, either structural or electrical,
+it is interesting that analogous relationships have been previously reported for
+(Ulfhake & Kellerth, 1981), y-motoneurones (Ulfhake & Cullheim,
+ac-motoneurones
+and
+1981),
+spinocervical tract neurones (Sedivec et al. 1985). However, the specific
+algorithm differs for each cell type, which apparently reflects differences in their sizes
+and in the geometry of their dendritic arbors.
+
+Appropriateness of the equivalent cylinder model
+As noted in Results, the equivalent cylinder model of neurones requires a number
+of assumptions, many of which are presently not amenable to experimental verification. In particular, we cannot evaluate the assumptions of somatic membrane
+isopotentiality or of uniform and negligible resistance in the internal and external
+
+CABLE PROPERTIES OF GENICULATE NEURONES
+683
+media. We can, however, address the other assumptions. One discussed immediately
+above that seems valid is the power rule. We also have shown that geniculate
+neurones respond in a passive manner under our experimental conditions and that
+terminal dendritic branches of a given cell end at roughly equal electrotonic distances.
+Uniform specific membrane resistance (Rm). Another assumption of the equivalent
+cylinder model is that the neuronal membranes exhibit a uniform Rm. Although we
+did not examine this constraint directly, several points warrant discussion. Studies
+of spinal motoneurones (Barrett & Crill, 1974; lansek & Redman, 1973; Fleshman,
+Segev, Cullheim & Burke, 1983) and hippocampal cells (Durand et al. 1983) suggest
+that Rm may be spatially non-uniform, with resistance increasing with distance from
+the soma. Barrett & Crill (1974) and Rall (1982) suggested that such non-uniformity
+of Rm would result in gross over-estimates of Cm since, as determined from somatic
+recordings, estimates of Rm would be low (see eqn. (8)).
+Indeed, a number of studies of other neurone types utilizing techniques similar to
+those used here have produced Cm values that are much higher than the generally
+accepted value of 10 gF/cm2 for biological membranes (Cole, 1968). The Cm values
+have been reported to be from 2-1 to 5 2 gF/cm2 for spinal motoneurones (Barrett
+& Crill, 1974; Ulfhake & Kellerth, 1984), hippocampal granule cells (Durand et al.
+1983), and hippocampal pyramidal cells (Turner & Schwartzkroin, 1980). Our derived
+value for Cm of 1 86 ,F/cm2 was also greater than the accepted value 10 ,sF/cm2,
+although to a lesser degree than these other studies. While the Cm for geniculate
+neuronal membranes may be greater than 1 0 gF/cm2, it seems reasonable to
+conclude that our derived values of Rm are underestimates for reasons such as ohmic
+shunting of the soma due to injury associated with the electrode penetration (Durand
+et at. 1983; Gustafsson & Pinter, 1984) and/or a non-uniform Rm.
+Another significant factor that can lower the measured Rm from its true value is
+the conductance increase due to synaptic activation. In many neurones, including
+geniculate X and Y cells (Wilson et al. 1984), inhibitory synapses, which create
+relatively large increases in post-synaptic membrane conductance (Ben-Ari,
+Krnjevic, Reiffenstein & Reinhardt, 1981), tend to concentrate more on proximal
+than on distal dendritic locations. Thus any maintained level of afferent synaptic
+activity throughout a neurone's dendritic arbor is likely to increase ionic conductances (with an associated decrease in effective Rm) and should do so to a greater
+degree for proximal than for distal dendritic locations.
+Unfortunately, it is not practical with an in vivo preparation such as ours to
+measure the effect of synaptic activity on Rm, since it is impossible for us to regulate
+this activity. Under our recording conditions, the X and Y cells are almost certainly
+under constant synaptic bombardment that will increase membrane conductance in
+a non-uniform manner throughout the dendritic arbor. It thus seems plausible that
+our derived values of Rm are artifactually low. This must remain an important caveat
+to our conclusions based on our derived cable properties of geniculate X and Y cells.
+Distribution ofsynaptic inputs. The equivalent cylinder model allows representation
+of current injection to dendrites only if the current is injected at dendritic sites that
+are of equal electrotonic distance from the soma. Although this constraint may seem
+to reflect some ideal case, recent electron microscopic observations for geniculate
+neurones indicate that such a synaptic distribution indeed exists. Wilson et al. (1984)
+
+S. A. BLOOMFIELD, J. E. HAMOS AND S. M. SHERMAN
+showed that each population of synaptic input to geniculate X and Y cells, deriving
+from either retinal, cortical, or inhibitory terminals, innervate each neurone in a
+particular dendritic zone; these zones lie at different distances from the soma. More
+recently. Hamos et al. (1986) have shown that there is a direct correlation between
+actual length and electrotonic length of the dendrites of these cells. Taken together,
+these results suggest that each class of input terminates on different dendrites at a
+roughly constant electrotonic distance from the soma, but this constant distance
+differs among the afferent types. Consistent with this idea, Hamos et al. 1986
+also showed that an individual retinal axon can contact each of its post-synaptic
+targets in a given geniculate cell at a fixed electrotonic distance from the soma.
+Of course, current flow within the dendritic tree will also be affected by factors such
+as interactions among the synaptic inputs, voltage-dependent conductances, or
+membrane specializations such as spines that are not considered in the model (Dodge,
+1979; Koch, 1985). However, the electrical parameters that we have derived for
+geniculate neurones using the equivalent cylinder model may be considered reasonable first approximations which will need to be modified as more physiological and
+anatomical information is provided for these cells. Indeed, the present data indicate
+that geniculate neurones meet many of the constraints posed by the equivalent
+cylinder model extraordinarily well.
+684
+
+Comparison with other neurones
+The cable properties of geniculate X and Y cells derived in the present study are
+comparable to those of other neuronal types reported in other studies. The range of
+Rn values for geniculate cells (12-28 M() was higher than the range of 05-4 0 Mf1
+reported for spinal motoneurones (Barrett & Crill, 1974; Burke et al. 1982; Ulfhake
+& Kellerth, 1984), but it is less than the range of 39-60 MQ reported for hippocampal
+pyramidal cells (Brown et al. 1981 a), granule cells (Brown et al. 1981 a; Durand et al.
+1983), and dorsal root ganglion cells (Brown et al. 1981 b).
+Our sample of geniculate neurones exhibited Tm values that ranged from 6-04 to
+12-89 ms. This compares to values of 11-19 ms reported for hippocampal pyramidal
+cells (Brown et al. 1981 a) and hippocampal granule cells (Brown et al. 1981 a) plus
+3-9 ms for spinal motoneurones (Burke & ten Bruggencate, 197 1 ; Ulfhake & Kellerth,
+1984) and dorsal root ganglion cells (Brown et al. 1981 b). Geniculate X and Y cells thus
+seem to possess Tm values that fall within the reported range of these values for other
+neuronal types. As a result, the temporal summation properties of geniculate
+neurones appear to be somewhat intermediate among those of other cells in the
+central nervous system. Given the relationship defined by eqn. (8), a perusal of the
+literature shows that our estimates for Rm for these geniculate cells are comparable
+to such values for other neuronal types.
+Finally, most neuronal types studied to date, including our sample of geniculate
+neurones, exhibit remarkably short electrotonic lengths of 0-9-1-8. These measures
+have been made for spinal motoneurones (Nelson & Lux, 1970; Lux et al. 1970; Jack
+et al. 197 1 ; Burke & ten Bruggencate, 197 1 ; Barrett & Crill, 1974; Ulfhake & Kellerth,
+1984), hippocampal pyramidal and granule cells (Johnson, 1981; Brown et al. 1981 a;
+Durand et al. 1983), red nucleus neurones (Tsukahara, Murakami & Hultborn, 1975),
+
+CABLE PROPERTIES OF GENICULATE NEURONES
+
+685
+
+and dorsal root ganglion cells (Brown et al. 1981 b). These data indicate that, despite
+the immense heterogeneity seen in dendritic geometry for neurones of the central
+nervous system, most or all of these neurones maintain remarkably short electrotonic
+lengths, L. This property enables synaptic inputs throughout the dendritic arbor of
+a cell to influence responses at the soma and axon hillock. A conclusion of relatively
+small values for L almost seems tautological, since it seems implausible that neurones
+would grow such large dendritic arbors that many of their distally located synaptic
+inputs are electrically too distant from the soma to be functionally relevant.
+However, it should be realized that the evidence for small L values applies only
+to Golgi type I cells (i.e. projection neurones), whose axons represent the sole output
+of these cells. This may not apply to Golgi type II cells (i.e. interneurones). Recent
+studies of amacrine cells of the vertebrate retina, which are interneurones with both
+presynaptic and post-synaptic contacts on their dendrites, indicate that these
+dendrites cover several electrotonic lengths (Ellias & Stevens, 1980; Miller &
+Bloomfield, 1983). Consequently, synaptic potentials may be effectively isolated from
+the soma and neighbouring branches, suggesting that individual dendrites constitute
+functional subunits. A morphological study of an interneurone of the cat's lateral
+geniculate nucleus also suggests such isolation of many of the cell's synaptic inputs
+(Hamos, Van Horn, Raczkowski, Uhlrich & Sherman, 1985).
+
+Comparison of X and Y cell electrotonus
+X and Y cells clearly differ in several of their passive cable properties, although
+these differences are not large in absolute terms. By examining the relationships
+between these parameters and neuronal morphology, we can determine which cable
+properties are likely to reflect size differences between X and Y cells and which require
+more sophisticated explanations.
+Membrane time constant (Tm) and specific membrane resistance (Rm). We assume that
+X and Y cells do not differ in terms of Cm, and our limited derivations of Cm support
+this assertion. Thus differences between X and Y cells in terms of their average Tm
+values simply reflect differences in Rm. Rm (and thus Tm) values were both higher and
+more variable for X than for Y cells. We cannot as yet determine whether this reflects
+an intrinsic difference between X and Y cells in terms of the make-up of their neuronal
+membranes or a difference in their synaptic inputs, which, as noted above, can alter
+ionic conductances and thus the observed values of Rm.
+Indeed, differences between the pattern of synaptic inputs to X and Y cells may
+account for differences in their values of Rm. Nearly all synaptic inputs to Y cells
+terminate on dendritic shafts, whereas many retinal and inhibitory inputs to X cells
+terminate on dendritic appendages or spines (Wilson et al. 1984). Koch (1985) has
+demonstrated through computer modelling that the synaptic conductance changes
+for many of these inputs to X cell spines will be relatively isolated from the soma,
+whereas active synapses on Y cells will strongly influence the soma. Our recording
+electrodes inside somata would thus measure cable properties that might be less
+influenced by synaptic activity in X cells than in Y cells, with the result being that
+the observed Rm values would be higher for X cells than for Y cells.
+We were struck by the considerable variability in Rm values of X cells. One simple
+explanation for this finding is that X cells exhibit heterogeneity in their intrinsic
+
+S. A. BLOOMFIELD, J. E. HAMOS AND S. M. SHERMAN
+membrane structure; this, in turn, may be related to the variability in X cell dendritic
+morphology (Friedlander et al. 1981; Weller & Humphrey, 1985). However, an
+alternative explanation is that the on-going synaptic activation of X cells, which will
+reduce membrane resistivity, is variable among individual cells. Several pieces of
+evidence support this latter contention. First, recent examinations of the microcircuitry of geniculate neurones have shown that X cells vary considerably in the
+amounts of inhibitory innervation they receive (Wilson et al. 1984; Hamos et al.
+1986). Secondly, geniculate X cells have recently been subtyped as 'normal' and
+'lagged' (Mastronarde, 1983; Humphrey & Weller, 1985). The distinguishing feature
+of these subtypes is the powerful, short-latency inhibition seen in lagged X cell
+responses. In addition, X cells have been described with intermediate amounts of
+inhibition. Thus, both physiological and morphological evidence suggest that X cells
+receive inhibitory innervation of great variability, and this could result in the variable
+Rm values we have measured. Although it is possible to explain much of the difference
+in Tm and Rm observed between geniculate X and Y cells without invoking intrinsic
+membrane differences, this does not rule out their existence. Regardless of their
+aetiology, these differences in observed Rm (and Tm) represent important functional
+differences between X and Y cells that affect how these neurones integrate synaptic
+information.
+Electrotonic length. The short electrotonic lengths of about 1-0 for both X and Y
+cells indicate that these geniculate neurones are electrically compact. One can
+appreciate this compactness by calculating the voltage attenuation factor (H) for a
+uniform cylinder of electrotonic length L from the formula (Jack et al. 1975):
+686
+
+H=
+
+VO/ VL= cosh (L),
+
+(13)
+
+where V0 is the potential at the site of current injection, and VL is the potential at
+the opposite end of the equivalent cylinder. Using our derived average values of L
+for geniculate cells, we calculate a value for H of 1-65 for X cells and 1-51 for Y cells.
+In terms of voltage attenuation seen at the soma, these values indicate that synaptic
+potentials generated at the most distal dendritic sites will decay by only 34 % in Y
+cells and by 39 % in X cells. Therefore, even the most distal excitatory synaptic
+innervation, thought to arise from visual cortex (Jones & Powell, 1969; Guillery,
+1969a, b; Szentagothai, 1973; Wilson et al. 1984) is likely to have considerable
+influence on a neurone's somatic and axonal responses.
+Can cable properties be used to distinguish X from Y cells? Although a major goal
+of the present study was to characterize the cable properties of geniculate X and Y
+cells and to correlate these with other morphological and physiological properties of
+these cells, we also wished to determine if these cable parameters can be used as
+criteria to identify these neurones as X or Y cells. Such an additional set of identifying
+criteria may represent the best or perhaps only means of identifying these cell classes
+under certain experimental conditions, such as in vitro preparations of the cat's
+lateral geniculate nucleus.
+We explored this possibility in the following manner. For each cable parameter,
+the value that was half-way between the average value for all X cells and the average
+value for all Y cells was arbitrarily chosen as a cut-off point. For each cell, individual
+
+CABLE PROPERTIES OF GENICULATE NEURONES
+687
+values of electrical parameters were then assigned as X-like or Y-like depending on
+which side of the cut-off point they fell. This was then compared to the X-Y
+classification of the cell based on its receptive field properties and response latency
+to optic chiasm stimulation. In this manner, we examined the possibility of using
+individual values of Rn, 7m L and p to identify the functional class of a geniculate
+neurone. The accuracy rates for individual parameters were 89 % for Rn, 82 % for Tmi
+79 % for L, and 68 % for p. By combining the results for the first three parameters,
+we could predict the functional class of each of the twenty-eight geniculate cells with
+an accuracy of 93 %. Thus, at least in the in vivo preparation, cable properties can
+be regarded as useful criteria to identify geniculate neurones as X or Y cells. This
+reinforces the validity and appropriateness of identifying geniculate cells within the
+X-Y classification scheme.
+Functional considerations. The clear differences in many of the membrane properties
+between X and Y cells indicate that these parameters vary as a consequence of
+physiological class and hence may be related to their unique functional roles.
+Furthermore, many of these differences were unrelated to morphological size, since
+these differences were present in those X and Y cells that exhibited overlap in their
+values of An. It is thus important to consider the influence that this difference in cable
+parameters between X and Y cells might have on their individual response properties.
+Although many of the differences in membrane properties between X and Y cells
+were statistically significant, which serves to underscore the point that the X and
+Y cell pathways continue to be elaborated separately central to the retina, the
+functional relevance of these differences remains unclear in most cases. For example,
+the small difference in values of L between X and Y cells reflects only a 5 % difference
+in the attenuation of synaptic potentials as they travel from distal dendritic locations
+to the soma. In other words, a 20 mV post-synaptic potential generated at a distal
+dendritic site and recorded at the soma would differ by only 1 mV between X and
+Y cells. From a functional perspective, then, X and Y cells are much alike in terms
+of their electrical compactness.
+The X cells exhibited higher Tm values than did the Y cells. This will result in the
+generation of synaptic potentials in X cells that will last longer and permit increased
+temporal summation compared to the activity in Y cells. However, the extent to
+which this small difference of approximately 2 ms between the values of rm of X and
+Y cells will contribute to the difference in post-synaptic potentials and temporal
+response properties of these cells is unclear.
+Finally, differences between X and Y cells with respect to Rn reflect the smaller
+An and slightly greater Rm values for X cells. The higher Rn values for X cells than
+for Y cells imply that, for equal amounts of synaptic current, the X cells would display
+somewhat larger synaptic potentials. It should be realized, however, that our values
+for Rn were measured with somatic recording and can thus differ significantly from
+the actual Rn at any specific synaptic site (cf. Koch & Poggio, 1983b). In addition,
+as pointed out by Koch & Poggio (1983 a), synaptic activation can be thought of as
+producing a conductance change rather than an injection of current. As a result,
+synaptic sites with high input impedances can be very non-linear as they tend to
+saturate in potential, thereby limiting the inflowing current and consequently the
+potential change at the soma. Thus the validity of the generalization that the greater
+
+688
+
+S. A. BLOOMFIELD, J. E. HAMOS AND S. M. SHERMAN
+
+Rn of X cells will result in greater amplification and efficacy of synaptic potentials
+than for Y cells will depend on the electrical and morphological features of individual
+synaptic sites.
+Perhaps the most important difference we found was the higher Rm values of X
+cells than for the Y cells. Indeed, Rm (and Tm) represents the only parameter in our
+study that is directly related to intrinsic membrane structure. Furthermore,
+differences in Rm between X and Y cells appear to be the basis for differences in their
+values for Rn and Tm as well. As noted, it is not clear if these differences in Rm reflect
+differences in intrinsic membrane structure, differences in the pattern and activity
+of synaptic inputs, or other factors.
+Whatever the cause of the Rm differences between X and Y cells, this still presents
+functional consequences. One consequence relates to the reduction of a neurone's L
+value as a function of its increased Rm. As noted above, X cells exhibit thinner
+dendrites than do Y cells. This would tend to produce relatively short space constants
+for X cells, thereby placing these cells at a disadvantage in terms of the propagation
+of synaptic potentials along the dendrites to the soma. The greater average Rm value
+of X cells than of Y cells will result in an increase in their dendritic space constants
+and, consequently, a reduction in their L values. Although X cells still display greater
+values of L than do Y cells, this difference in L would be correspondingly greater if
+X and Y cells exhibited equivalent Rm values.
+In addition to RM, the geometry of dendritic branching also has a major influence
+on values of L (eqn. (12)). However, although X cells show great heterogeneity in
+their dendritic geometry, they show rather constant values of L. We suggest that
+values for Rm may vary as a consequence of the branching pattern of X cells in order
+to maintain a constant and low value of L across these cells, values that are also
+comparable to those of the Y cells. This would explain the tremendous variability
+in Rm of X cells as reflecting the comparatively great heterogeneity of X cell dendritic
+geometry.
+We wish to thank Dr Rosalyn Weller for participating in several of the experiments, Jin-Chang
+Cheng for computer programming, Joan Sommermeyer for excellent technical assistance, and Ellen
+Friedman for help with statistical analyses. We also thank Drs Wilfred Rall and Christof Koch
+for providing comments on the manuscript. This research was supported by USPHS Grants
+EY03038 and EY03604.
+
+REFERENCES
+
+ADAMS, J. C. (1977). Technical considerations on the use of horseradish peroxidase as a neuronal
+marker. Neuroscience 2, 141-145.
+AHLSEN, G., LINDSTR6M, S. & Lo, F.-S. (1984). Inhibition from the brain stem of inhibitory
+
+interneurones of the cat's dorsal lateral geniculate nucleus. Journal of Phy8iology 347, 593-609.
+BARRETT, J. N. & CRILL, W. E. (1974). Specific membrane properties of cat motoneurones. Journal
+
+of Physiology 239, 301-324.
+BEN-ARI, Y., KRNJEVIC, K., REIFFENSTEIN, R. J. & REINHARDT, W. (1981). Inhibitory conductance changes and action of y-aminobutyrate in rat hippocampus. Neuroscience 6, 2445-2463.
+BLOOMFIELD, S. A., HAMOS, J. E. & SHERMAN, S. E. (1985). Passive electrical properties of X- and
+Y-cells in the cat's lateral geniculate nucleus. Neuroscience Abstracts 11, 232.
+BLOOMFIELD, S. A. & SHERMAN, S. M. (1984). Morphometric and electrical properties of neurons
+in the lateral geniculate nucleus of the cat. Neuroscience Abstracts 10, 56.
+
+CABLE PROPERTIES OF GENICULATE NEURONES
+
+689
+
+BROWN, A. G. & FYFFE, R. E. (1981). Direct observations on the contacts made between Ia afferent
+fibres and a-motoneurones in the cat's lumbosacral spinal cord. Journal of Physiology 313,
+121-140.
+BROWN, T. H., FRICKE, R. A. & PERKEL, D. H. (1981 a). Passive electrical constants in three classes
+of hippocampal neurones. Journal of Neurophysiology 46, 812-827.
+BROWN, T. H., PERKEL, D. H., NORRIS, J. C. & PEACOCK, J. H. (1981 b). Electrotonic structure and
+specific membrane properties of mouse dorsal root ganglion cells. Journal of Neurophysiology 45,
+1-15.
+BURKE, R. E., DUM, R. P., FLESHMAN, J. W., GLENN, L. L., LEV-Tov, A., O'DONOVAN, M. J. &
+PINTER, M. J. (1982). An HRP study of the relation between cell size and motor unit type in
+cat ankle extensor motoneurons. Journal of Comparative Neurology 209, 17-28.
+BURKE, R. E. & TEN BRUGGENCATE, G. (1971). Electrotonic characteristics of alpha motoneurones
+of varying size. Journal of Physiology 212, 1-20.
+CLELAND, B. G., DUBIN, M. W. & LEVICK, W. R. (1971). Sustained and transient neurones in the
+cat's retina and lateral geniculate nucleus. Journal of Physiology 217, 473-496.
+COLE, K. S. (1968). Membranes, Ions and Impulses. Berkeley: University of California Press.
+CRICK, R. (1984). The function of the thalamic reticular complex: the searchlight hypothesis.
+Proceeding of the National Academy of Sciences of the UJ.S.A. 81, 4586-4590.
+DAVIS, L. & LORENTE DE No, R. (1947). Contribution to the mathematical theory of electrotonics.
+Studies of the Rockefeller Institute of Medical Research 131, 442-496.
+DESCHENES, M., PARADIS, M., Roy, J. P. & STERIADE, M. (1984). Electrophysiology of neurons of
+lateral thalamic nuclei in cat: resting properties and burst discharges. Journal of Neurophysiology
+51, 1196-1219.
+DESMOND, N. L. & LEVY, W. B. (1984). Dendritic caliber and 3/2 power relationship of dentate
+granule cells. Journal of Comparative Neurology 227, 589-596.
+DODGE, F. A. (1979). The nonuniform excitability of central neurons exemplified by a model of the
+spinal motoneuron. In The Neurosciences Fourth Study Program, ed. SCHMITT, F. 0. & WORDEN,
+F. G., pp. 439-455. Cambridge, MA: M.I.T. Press.
+DURAND, D., CARLEN, P. L., GUREVICH, N., Ho, A. & KuNov, H. (1983). Electrotonic parameters
+of rat dentate granule cells measured using short current pulses and HRP staining. Journal of
+Neurophysiology 50, 1080-1097.
+EGGER, M. D. & EGGER, L. D. (1982). Quantitative morphological analysis of spinal motoneurons.
+Brain Research 253, 19-30.
+ELLIAS, S. A. & STEVENS, J. K. (1980). The dendritic varicosity: a mechanism for electrically
+isolating the dendrites of cat retinal amacrine cell? Brain Research 196, 365-372.
+FERNALD, R. & CHASE, R. (1971). An improved method for plotting retinal landmarks and focusing
+the eyes. Vision Research 11, 95-96.
+FLESHMAN, J. W., SEGEV, I., CULLHEIM, S. & BURKE, R. E. (1983). Matching electrophysiological
+with morphological measurements in cat spinal a-motoneurone. Neuroscience Abstracts 46, 341.
+FOOTE, W. E., MORDES, J. P., COLBY, C. L. & HARRISON, T. A. (1977). Differential effect of
+midbrain stimulations on X-sustained and Y-transient neurons in the lateral geniculate nucleus
+of the cat. Brain Research 127, 153-158.
+FRIEDLANDER, M. J., LIN, C.-S., STANFORD, L. R. & SHERMAN, S. M. (1981). Morphology of
+functionally identified neurons in lateral geniculate nucleus of the cat. Journal of Neurophysiology
+46, 80-129.
+GUILLERY, R. W. (1969a). The organization of synaptic interconnections in the laminae of the
+dorsal lateral geniculate nucleus of the cat. Zeitschrift fur Zellforschung und mikroskopische
+Anatomie 96, 1-38.
+GUILLERY, R. W. (1969b). A quantitative study of synaptic interconnections in the dorsal lateral
+geniculate nucleus of the cat. Journal of Comparative Neurology 96, 39-48.
+GUSTAFSSON, B. & PINTER, M. J. (1984). Relations among passive electrical properties of lumbar
+a-motoneurones of the cat. Journal of Physiology 356, 401-431.
+HAMOS, J. E., VAN HORN, S. C., RACZKOWSKI, D. & SHERMAN, S. M. (1986). Synaptic circuits
+involving an individual retinogeniculate axon in the cat. Journal of Comparative Neurology (in
+the Press).
+HAMOS, J. E., VAN HORN, S. G., RACZKOWSKI, D., ULHRICH, D. J. & SHERMAN, S. M. (1985).
+Synaptic connectivity of a local circuit neurone in lateral geniculate nucleus of the cat. Nature
+317, 618-621.
+
+690
+
+S. A. BLOOMFIELD, J. E. HAMOS AND S. M. SHERMAN
+
+HILLMAN, D. E. (1979). Neuronal shape parameters and substructures as a basis of neuronal form.
+In The Neurosciences: Fourth Study Program, ed. SCHMITT, F. 0. & WORDEN, F. G., pp. 477-498.
+Cambridge, MA: M.I.T. Press.
+HOCHSTEIN, S. & SHAPLEY, R. M. (1976). Quantitative analysis of retinal ganglion cell classifications. Journal of Physiology 262, 265-284.
+HODGKIN, A. L. & RUSHTON, W. A. H. (1946). The electrical constants of a crustacean nerve fibre.
+Proceedings of the Royal Society B 133, 444-479.
+HOFFMANN, K.-P., STONE, J. & SHERMAN, S. M. (1972). Relay of receptive-field properties in dorsal
+lateral geniculate nucleus of the cat. Journal of Neurophysiology 35, 518-531.
+HUBEL, D. H. & WIESEL, T. N. (1961). Integrative action in the cat's lateral geniculate body.
+Journal of Physiology 155, 385-398.
+HUMPHREY, A. L., SUR, M., UHLRICH, D. J. & SHERMAN, S. M. (1985). Projection patterns of
+individual X- and Y-cell axons from the lateral geniculate nucleus to cortical area 17 in the cat.
+Journal of Comparative Neurology 233, 159-189.
+HUMPHREY, A. L. & WELLER, R. E. (1985). Functional subgroups among X-cells in the lateral
+geniculate nucleus of the cat. Neuroscience Abstracts 11, 318.
+JANSEK, R. & REDMAN, S. J. (1973). An analysis of the cable properties of spinal motoneurones
+using a brief intracellular current pulse. Journal of Physiology 234, 613-636.
+ITO, M. & OSHIMA, T. (1965). Electrical behaviour of the motoneurone membrane during
+intracellularly applied current steps. Journal of Physiology 180, 607-635.
+JACK, J. J. B., MILLER, S., PORTER, R. & REDMAN, S. J. (1971). The time course of minimal
+excitatory post-synaptic potentials evoked in spinal motoneurones by group Ia afferent fibres.
+Journal of Physiology 215, 353-380.
+JACK, J. J. B., NOBLE, D. G. & TSIEN, R. W. (1975). Electrical Current Flow in Excitable Cells,
+pp. 131-224. Oxford: Clarendon Press.
+JACK, J. J. B. & REDMAN, S. J. (1971). An electrical description of the motoneurone, and its
+application to the analysis of synaptic potentials. Journal of Physiology 215, 321-352.
+JAHNSEN, H. & LLINkS, R. (1984 a). Electrophysiological properties of guinea-pig thalamic neurones:
+an in vitro study. Journal of Physiology 349, 205-226.
+JAHNSEN, H. & LLINkS, R. (1984b). Ionic basis for the electroresponsiveness and oscillatory
+properties of guinea-pig thalamic neurones in vitro. Journal of Physiology 349, 227-247.
+JOHNSON, D. (1981). Passive cable properties of hippocampal CA3 pyramidal neurons. Cellular
+Molecular Neurobiology 1, 41-55.
+JONES, E. G. & POWELL, T. P. S. (1969). An electron microscopic study of the mode of termination
+cortico-thalamic fibers within the sensory relay nucleii of the thalamus. Proceedings of the Royal
+Society B 172, 173-185.
+KAPLAN, E. S., MARCUS, S. & So, Y.-T. (1979). Effects of dark adaptation on spatial and temporal
+properties of receptive fields in cat lateral geniculate nucleus. Journal of Physiology 294, 561-580.
+KOCH, C. (1985). Understanding the intrinsic circuitry of the cat's LGN: electrical properties of
+the spine-triad arrangement. Proceedings of the Royal Society B 225, 365-390.
+KOCH, C. & PoGGIo, T. (1983a). Electrical properties of dendritic spines. Trends in Neurosciences
+6, 80-83.
+KOCH, C. & PoGGIo, T. (1983 b). A theoretical analysis of electrical properties of spines. Proceedings
+of the Royal Society B 218, 455-477.
+KOCH, C., POGIO, T. & TORRE, V. (1982). Retinal ganglion cells: a functional interpretation of
+dendritic morphology. Philosophical Transactions of the Royal Society B 298, 227-264.
+KRAUTH, J. (1983). The interpretation of significance tests for independent and dependent samples.
+Journal of Neuroscience Methods 9, 269-281.
+KREUTER, F., RICHTER, D. W., CAMERER, H. & SENEKOWITSCH, R. (1977). Morphological and
+electrical description of medullary respiratory neurons of the cat. Pfliigers Archiv 372, 7-16.
+LENNIE, P. (1980). Parallel visual pathways. Vision Research 20, 561-594.
+LUX, H. D., SCHUBERT, P. & KREUTZBERG, G. W. (1970). Direct matching of morphological and
+electrophysiological data in cat spinal motoneurones. In Excitatory Synaptic Mechanisms, ed.
+ANDERSEN, P. & JANSEN, J. K. S., pp. 189-198. Oslo: Universitets Forlaget.
+MASTRONARDE, D. (1983). Subtypes of X relay cells in the cat LGN can be distinguished solely by
+responses to visual stimuli. Investigative Ophthalmology and Visual Science 24, supply , 265.
+MENDENHALL, W. & SCHEAFFER, R. L. (1973). Mathematical Statistics with Applications,
+pp. 348-351. North Scituate: Duxbury Press.
+
+CABLE PROPERTIES OF GENICULATE NEURONES
+
+691
+
+MILLER, R. F. & BLOOMFIELD, S. A. (1983). Electroanatomy of a unique amacrine cell in the rabbit
+retina. Proceedings of the National Academy of Sciences of the U.S.A. 80, 3069-3073.
+NELSON, P. G. & Lux, H. D. (1970). Some electrical measurements of motoneuron parameters.
+Biophysical Journal 10, 55-73.
+RALL, W. (1959a). Branching dendritic trees and motoneuron membrane resistivity. Experimental
+Neurology 1, 491-527.
+RALL, W. (1959b). Dendritic current distribution and whole neuron properties. In Research Report
+NM 01 05 00.01.02, vol. 17, pp. 479-526. Bethesda: Naval Medical Research Institute.
+RALL, W. (1964). Theoretical significance of dendritic trees for neuronal input-output relations. In
+Neural Theory and Modeling, ed. REIS, R., pp. 73-97. Stanford: Stanford University Press.
+RALL, W. (1969). Time constants and electrotonic length of membrane cylinders and neurons.
+Biophysical Journal 9, 1483- 1508.
+RALL, W. (1970). Cable properties of dendrites and effects of synaptic location. In Excitatory
+Synaptic Mechanisms., ed. ANDERSON, P. & JANSEN, J. K. S., pp. 175-187. Oslo: Universitets
+Forlaget.
+RALL, W. (1977). Core conductor theory and cable properties of neurons. In Handbook of Physiology,
+section 1; The Nervous System, vol. 1: Cellular Biology of Neurons, ed. KANDEL, E. R. & GEIGER,
+S., pp. 39-97. Bethesda: American Physiological Society.
+RALL, W. (1982). Theoretical models which increase Rm with dendritic distance help fit lower values
+of Cm. Neuroscience Abstracts 8, 414.
+Roy, J. P., CLERCQ, M., STERIADE, M. & DESCHENES, M. (1984). Electrophysiology of neurons of
+lateral thalamic nuclei in cat: mechanisms of long-lasting hyperpolarizations. Journal of
+Neurophysiology 51, 1220-1235.
+SANDERSON, K. J. (1971). The projection of the visual field to the lateral geniculate and medial
+interlaminar nuclei in the cat. Journal of Comparative Neurology 143, 101-118.
+SANDERSON, K. J. & SHERMAN, S. M. (1971). Naso-temporal overlap in visual field projected to
+lateral geniculate nucleus in the cat. Journal of Neurophysiology 34, 453-466.
+SEDIVEC, M. J., CAPOWSKI, J. J. & MENDELL, L. M. (1985). Morphology of HRP-injected spinocervical tract neurons: effect of dorsal rhizotomy. Journal of Neuroscience 6, 661-672.
+SHAPLEY, R. & LENNIE, P. (1985). Spatial frequency analysis in the visual system. Annual Review
+of Neuroscience 8, 547-583.
+SHERMAN, S. M. (1985). Functional organization of the W-, X- and Y-cell pathways in the cat: a
+review and hypothesis. In Progress in Psychobiology and Physiological Psychology, vol. 11, ed.
+SPRAGUE, J. M. & EPSTEIN, A. N., pp. 233-314. New York: Academic Press.
+SHERMAN, S. M. & KOCH, C. (1986). The control of retinogeniculate transmission in the mammalian
+lateral geniculate nucleus. Experimental Brain Research 63, 1-20.
+SHERMAN, S. M. & SPEAR, P. D. (1982). Organization of visual pathways in normal and visually
+deprived cats. Physiological Reviews 62, 738-855.
+SINGER, W. (1973). The effect of mesencephalic reticular stimulation on intracellular potentials of
+cat lateral geniculate neurons. Brain Research 61, 35-54.
+SINGER, W. (1977). Control of thalamic transmission by corticofugal and ascending reticular
+pathways in the visual system. Physiological Reviews 57, 386-420.
+So, Y.-T. & SHAPLEY, R. (1981). Spatial tuning of cells in and around lateral geniculate nucleus
+of the cat: X and Y relay cells and perigeniculate interneurons. Journal of Neurophysiology 45,
+107-120.
+STANFORD, L. R., FRIEDLANDER, M. J. & SHERMAN, S. M. (1983). Morphological and physiological
+properties of geniculate W-cells of the cat: a comparison with X- and Y-cells. Journal of
+Neurophysiology 50, 582-608.
+STONE, J., DREHER, B. & LEVENTHAL, A. (1979). Hierarchical and parallel mechanisms in the
+organization of visual cortex. Brain Research Reviews 1, 345-394.
+SUR, M. & SHERMAN, S. M. (1982). Retinogeniculate terminations in cats: morphological differences
+between X- and Y-cell axons. Science 218, 389-391.
+SZENTA~GOTHAI, J. (1973). Neuronal and synaptic architecture of the lateral geniculate nucleus. In
+Handbook of Sensory Physiology, vol. VII/3, Central Processing of Visual Information, part B,
+Visual Centers in the Brain, ed. JUNG, R., pp. 141-176. Berlin: Springer-Verlag.
+TSUKAHARA, N., MURAKAMI, F. & HULTBORN, H. (1975). Electrical constants of neurons of the red
+nucleus. Experimental Brain Research 23, 49-64.
+
+692
+
+S. A. BLOOMFIELD, J. E. HAMOS AND S. M. SHERMAN
+
+TURNER, D. A. & SCHWARTZKROIN, P. A. (1980). Steady-state electrotonic analysis of
+intracellularly-stained hippocampal neurons. Journal of Neurophy8iology 44, 184-199.
+ULFHAKE, B. & CULLHEIM, S. (1981). A quantitative light microscopic study of the dendrites of cat
+spinal y-motoneurons after intracellular staining with horseradish peroxidase. Journal of
+Comparative Neurology 202, 585-596.
+ULFHAKE, B. & KELLERTH, J.-O. (1981). A quantitative light microscopic study of the dendrites
+of cat spinal a-motoneurones after intracellular staining with horseradish peroxidase. Journal
+of Comparative Neurology 202, 561-569.
+ULFHAKE, B. & KELLERTH, J.-O. (1984). Electrophysiological and morphological measurements in
+cat gastrocnemius and soleus a-motoneurones. Brain Research 307, 167-169.
+WELLER, R. E. & HUMPHREY, A. L. (1985). Structural correlates of functional subgroups among
+X-cells in the cat LGN. Neuroscience Ab8tract8 11, 318.
+WILSON, J. R., FRIEDLANDER, M. J. & SHERMAN, S. M. (1984). Fine structural morphology of
+identified X- and Y-cells in the cat's lateral geniculate nucelus. Proceedings of the Royal Society
+B 221, 411-436.
+EXPLANATION OF PLATE
+
+Photomicrographs of HRP-labelled geniculate neurones in 100 jsm thick coronal sections. A,
+physiologically characterized X cell that was subsequently labelled with HRP. The arrow points
+to the portion of dendritic arbor that is shown in Fig. 2A and B. Calibration bar = 50 jtm and
+applies to B as well. B, HRP-labelled geniculate Y cell. The arrow points to the portion of dendritic
+arbor that is shown in Fig. 2C and D. C, HRP-labelled geniculate X cell that was analysed
+biophysically and shown in Fig. 11. Calibration bar = 15 ,sm.
+
+The Journal of Physiology, Vol. 383
+
+e ...
+
+Plate 1
+
+e
+
+:\eW
+
+N
+(3
+
+I
+
+BLOOMFIELD, HAMOS AND SHERMAN(
+
+(Facing p. 692)
+
+

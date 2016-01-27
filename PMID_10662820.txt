@@ -1,0 +1,961 @@
+The Journal of Neuroscience, February 15, 2000, 20(4):1307–1317
+
+Action Potential Backpropagation and Somato-dendritic
+Distribution of Ion Channels in Thalamocortical Neurons
+Stephen R. Williams and Greg J. Stuart
+Division of Neuroscience, John Curtin School of Medical Research, Australian National University, Canberra,
+A.C.T. 0200, Australia
+
+Thalamocortical (TC) neurons of the dorsal thalamus integrate
+sensory inputs in an attentionally relevant manner during wakefulness and exhibit complex network-driven and intrinsic oscillatory activity during sleep. Despite these complex intrinsic and
+network functions, little is known about the dendritic distribution of ion channels in TC neurons or the role such channel
+distributions may play in synaptic integration. Here we demonstrate with simultaneous somatic and dendritic recordings from
+TC neurons in brain slices that action potentials evoked by
+sensory or cortical excitatory postsynaptic potentials are initiated near the soma and backpropagate into the dendrites of TC
+neurons. Cell-attached recordings demonstrated that TC neuron dendrites contain a nonuniform distribution of sodium but a
+roughly uniform density of potassium channels across the so-
+
+matodendritic area examined that corresponds to approximately half the average path length of TC neuron dendrites.
+Dendritic action potential backpropagation was found to be
+active, but compromised by dendritic branching, such that
+action potentials may fail to invade relatively distal dendrites.
+We have also observed that calcium channels are nonuniformly
+distributed in the dendrites of TC neurons. Low-threshold calcium channels were found to be concentrated at proximal
+dendritic locations, sites known to receive excitatory synaptic
+connections from primary afferents, suggesting that they play a
+key role in the amplification of sensory inputs to TC neurons.
+
+Thalamocortical (TC) neurons of the dorsal thalamus integrate
+synaptic input from the periphery, neocortex, and brainstem to
+convey sensory information to the neocortex in an attentionally
+relevant and state-dependent manner (Steriade and Deschenes,
+1984; McCormick, 1992; Steriade et al., 1993; Guido and Weyand,
+1995; Sherman and Guillery, 1996). The complex electrophysiological properties of TC neurons serve to highlight their important integrative role (McCormick, 1992). Anatomical studies have
+revealed a precise organization of excitatory inputs from sensory
+and cortical inputs to the stem and relatively distal dendrites of
+TC neurons, respectively (Ralston and Herman, 1969; Sherman
+and Guillery, 1996). A similar anatomical segregation of inhibitory inputs from intrinsic and extrinsic GABAergic neurons may
+facilitate complex synaptic interactions in the dendrites of TC
+neurons (Sherman and Guillery, 1996). This synaptic organization highlights the need to directly investigate dendritic function
+in TC neurons.
+Recent advances in recording techniques have allowed investigation of the distribution of voltage-activated channels that
+influence synaptic integration in the dendrites of several types of
+central neurons (Johnston et al., 1996; Stuart et al., 1997b). The
+complex radial, multi-branched fine caliber dendritic arbor of TC
+neurons (Grossman et al., 1973; Bloomfield et al., 1987; Havton
+and Ohara, 1993; Ohara and Havton, 1994; Ohara et al., 1995;
+Warren and Jones, 1997), however, has until now precluded direct
+
+analysis. Imaging, anatomical, and modeling studies have indicated that the dendrites of TC neurons contain voltage-activated
+calcium currents (Munsch et al., 1997; Zhou et al., 1997; Budde et
+al., 1998; Destexhe et al., 1998); however, the distribution and
+properties of these channels are unknown.
+Simultaneous dendritic and somatic recording would allow
+investigation of the site(s) of action potential generation in TC
+neurons (Stuart et al., 1997b). Furthermore, once generated,
+action potentials may backpropagate into TC dendrites, where the
+complex dendritic branching of these neurons may influence
+action potential invasion (Spruston et al., 1995). Recent modeling
+studies have indicated that the geometry of the dendritic tree
+plays a key role in controlling the extent of active backpropagation of action potentials, with complex multi-branched dendritic
+arbors compromising this form of retrograde information transfer
+(Hausser et al., 1998). Similarly, modeling studies of branched
+cable and axonal structures have demonstrated that propagation
+of action potentials may fail or be compromised at branch points
+(Goldstein and Rall, 1974; Luscher and Shiner, 1990; Manor et
+al., 1991). The multi-branched structure of TC neuron dendrites,
+therefore, allows direct investigation of the role of dendritic
+branch points in the control of action potential backpropagation.
+The failure of action potential invasion into parts of a multibranched dendritic tree may have important functional outcomes.
+For example, backpropagating action potentials may invade some
+areas of the dendritic tree resetting synaptic integration but fail to
+influence activity in others (Spruston et al., 1995; Magee and
+Johnston, 1997; Stuart et al., 1997b; Stuart and Hausser, 1998).
+Here we directly address these issues by making simultaneous
+whole-cell and cell-attached patch-clamp recordings from the
+soma and dendrites of TC neurons in slices of the dorsal lateral
+geniculate nucleus (dLGN).
+
+Received Sept. 17, 1999; revised Nov. 15, 1999; accepted Nov. 24, 1999.
+Correspondence should be addressed to Dr. Greg Stuart, Division of Neuroscience, John Curtin School of Medical Research, Mills Road, Australian National
+University, Canberra, A.C.T. 0200, Australia. E-mail: Greg.Stuart@anu.edu.au.
+This work was supported by the Wellcome Trust and the Human Frontiers Science
+Program.
+Copyright © 2000 Society for Neuroscience 0270-6474/00/201307-11$15.00/0
+
+Key words: sodium channel; calcium channel; potassium
+channel; burst firing; patch clamp; dendrite; thalamus
+
+1308 J. Neurosci., February 15, 2000, 20(4):1307–1317
+
+MATERIALS AND METHODS
+E xperiments were performed according to methods approved by the
+Animal E xperimentation Ethics Committee of the Australian National
+University. Wistar rats (postnatal day 16 –22) were decapitated, and
+300-␮m-thick brain slices of the dorsal lateral geniculate nucleus were
+prepared either in the plane of the optic tract (Crunelli et al., 1987b;
+Williams et al., 1996) or parasagittally (T urner and Salt, 1998). At this
+age, the synaptic, morphological, and electrophysiological properties of
+rat TC neurons are similar to those of adult animals (Perez Velazquez
+and C arlen, 1996; Warren and Jones, 1997; Warren et al., 1997; Golshani
+et al., 1998).
+Slices were perf used with oxygenated Ringer’s solution of the following composition (in mM): 125 NaC l, 25 NaHC O3, 3 KC l, 1.25 NaH2PO4,
+2 C aC l2, 1 MgC l2, and 10 glucose. E xperiments on action potential
+backpropagation were performed at 31–33°C; all other experiments were
+conducted at room temperature (20 –24°C). Simultaneous somatic (pipette resistance 2–7 M⍀) and dendritic (pipette resistance 10 –15 M⍀)
+patch-clamp recordings were made from visually identified TC neurons
+using two identical current-clamp amplifiers (Dagan) as previously described (Stuart and Sakmann, 1994). If the formation of a dendritic
+recording altered the somatic membrane potential or input resistance,
+both recordings were abandoned. A patch-clamp amplifier (Axon Instruments) was used in voltage and fast current-clamp mode for experiments
+involving the generation of a somatic action potential waveform in the
+presence of tetrodotoxin (TTX). Synaptic potentials were evoked with
+the use of a metal bipolar electrode or a patch pipette (1–2 M⍀) placed
+within the optic tract, within the nucleus reticularis thalami to stimulate
+fibers of the cortical backprojection, or close (within 100 ␮m) to the
+recorded neuron. Synaptic responses were evoked at low frequency
+(0.1– 0.5 Hz), usually in the presence of the GABAA receptor antagonist
+bicuculline methiodide. Somatic and dendritic cell-attached recordings
+(pipette resistance 12–15 M⍀) were made using on-line leak subtraction
+(P/4), and caref ul adjustment of pipette capacitance neutralization was
+made. No differences in the degree or time of negative pressure applied
+to the back of pipettes was required to form high resistance (3–10 G⍀)
+seals at somatic and dendritic sites, suggesting that similar membrane
+areas were sampled. For whole-cell recordings, patch electrodes were
+filled with the following (in mM): 135 K-gluconate, 7 NaC l, 10 H EPES,
+0.5 EGTA, 2 Na2-ATP, 0.3 Na2-GTP, 10 Na2-phosphocreatine, and 2
+MgC l (pH 7.2 adjusted with KOH; osmolarity 270 mOsm). No correction
+was made for liquid junction potentials. For cell-attached recordings of
+Na and K currents, patch electrodes contained (in mM): 135 NaC l, 3 KC l,
+1 C aC l2, 2 MgC l2, 3 NiC l2, 0.5 C dC l2,10 H EPES, and 10 glucose, pH 7.2;
+whereas for recordings of C a 2ϩ currents, electrodes contained 140 mM
+tetraethylammonium chloride (TEA), 10 mM BaC l2, 2 mM MgC l2, 1 mM
+C sC l2, 3 mM 4-aminopyridine, 1 ␮M TTX, and 10 mM H EPES (pH 7.2
+adjusted with Tris-base solution) (Mouginot et al., 1997). For whole-cell
+recordings, voltage and current signals were filtered at 10 or 30 kHz,
+whereas for cell-attached recordings current signals were filtered at 2–5
+kHz. Signals were acquired at 20 –100 kHz, using an I TC -16 interface
+(Instrutech Corporation, L ong Island, N Y) controlled by an Apple
+PowerPC implementing Axograph acquisition and analysis software
+(kindly supplied by Dr. J. C lements, Division of Neuroscience, Australian National University). Maximal conductance was calculated with an
+equation of the form g ϭ I/(VT Ϫ Vrev), where I is the recorded current,
+VT is the test voltage, and Vrev is the reversal potential extrapolated from
+current–voltage relationships. Steady-state activation and inactivation
+curves were fit with a single Boltzmann equation of the form: y ϭ 1/(1 ϩ
+e (V1/2 Ϫ V)/ k), where V1/2 is the voltage of half-maximal activation or
+inactivation, and k is a constant. The rise and decay of outward currents
+were fit with an equation of the form y ϭ a (1 Ϫ e (Ϫt / ␶ rise))G ⅐ (e (Ϫt /
+␶ decay)
+ϩ c), where t is time, ␶rise and ␶decay are the time constants of rise
+and decay, b is the power of the activation process (Huguenard et al.,
+1991), and a and c are scaling factors. Numerical values are given in the
+text as mean Ϯ SEM, unless stated otherwise. Statistical analysis was
+performed with either Student’s t test or ANOVA, with statistical significance determined with ␣ ϭ 0.05.
+
+RESULTS
+The dendritic morphology of TC neurons is well preserved in
+slices of the rat dLGN (Crunelli et al., 1987b; Williams et al.,
+1996). These neurons exhibit radial dendritic trees, with 3–10
+stem dendrites, that branch to form second to seventh order
+terminal dendrites (Williams et al., 1996). The dendritic path
+
+Williams and Stuart • Action Potential Backpropagation in TC Neurons
+
+length (length from origin to termination) has been found to be
+on average 151 ␮m (range 58 –193 ␮m) in TC neurons of the adult
+rat somatosensory thalamus (Ohara and Havton, 1994). In the
+present investigation, dLGN TC neurons were visually identified
+using interference contrast video microscopy (see Fig. 5B) by
+their relatively large round somata and the presence of three or
+more stem dendrites, which had diameters of ϳ1–3 ␮m. This
+method of identification was confirmed by somatic whole-cell
+recordings that revealed characteristic electrophysiological properties of TC neurons, namely a robust low-threshold calcium
+potential and a highly rectified voltage–current relationship
+(Williams et al., 1996).
+
+Initiation and backpropagation of action potentials
+Simultaneous whole-cell current-clamp recordings were made
+from the soma and dendrites of TC neurons. Electrical stimulation of the sensory input (optic tract) (n ϭ 6) or cortical backprojection (n ϭ 8) evoked EPSPs that led to the generation of
+either a single or high-frequency burst of action potentials in a
+voltage-dependent manner (Fig. 1 A, C). This corresponds to the
+two action potential firing modes of TC neurons (Deschenes et
+al., 1982; Llinas and Jahnsen, 1982). Burst firing is known to be
+driven by the activation of low-threshold calcium (IT) channels,
+which form a transient depolarizing potential termed a lowthreshold calcium potential (LTCP) (Crunelli et al., 1987a; Llinas, 1988; Coulter et al., 1989; Hernandez-Cruz and Pape, 1989;
+McCormick, 1992; Steriade et al., 1993). This LTCP has recently
+been suggested to be generated by IT channels located in the
+distal dendrites of TC neurons (Destexhe et al., 1998). Activation
+of these calcium channels may therefore lead to dendritic depolarization sufficient to evoke dendritic action potential initiation,
+as has been shown in other central neurons after intense distal
+dendritic depolarization (Schiller et al., 1997; Stuart et al., 1997a;
+Golding and Spruston, 1998).
+Under all conditions, EPSPs led to the generation of single or
+LTCP-driven bursts of action potentials that were always recorded first at the somatic recording electrode (n ϭ 14) (Fig.
+1 A, C, insets). In an attempt to depolarize the dendrites of TC
+neurons to a greater extent to search for dendritic action potential
+initiation, we repetitively stimulated the sensory and cortical
+inputs (Fig. 1 B, D). Repetitive stimulation of the sensory input
+led to profound frequency-dependent depression of EPSPs (Fig.
+1 B); the summated series of EPSPs, however, always evoked
+action potentials that were recorded first somatically (n ϭ 6) (Fig.
+1 B, inset). In contrast, repetitive stimulation of the cortical backprojection led to frequency-dependent facilitation, where each
+EPSP of a train increased in amplitude (Fig. 1 D). This form of
+input depolarized neurons to such an extent that action potentials
+were inactivated and replaced by the generation of slower regenerative events (Fig. 1 D, bottom inset) (Turner and Salt, 1998).
+Despite this powerful form of distal dendritic depolarization, all
+action potentials and slow regenerative events were recorded first
+from somatic sites (n ϭ 8) (Fig. 1 D), indicating that action
+potential initiation does not occur in TC neuron dendrites.
+To further explore the site of action potential initiation in TC
+neurons, we evoked action potentials by the injection of current at
+the soma or at the dendritic recording site (n ϭ 40) (Fig. 2 A). In
+all neurons examined, action potentials were first recorded at the
+soma and then backpropagated into the dendritic tree. Action
+potential backpropagation was found to be decremental, with the
+degree of attenuation related to the dendritic recording location.
+The effects of recording location are summarized in Figure 2 A,
+
+Williams and Stuart • Action Potential Backpropagation in TC Neurons
+
+J. Neurosci., February 15, 2000, 20(4):1307–1317 1309
+
+Figure 1. EPSPs evoke action potentials that backpropagate into the dendrites of TC neurons. A, Simultaneous
+somatic and stem dendritic (25 ␮m from the soma/dendritic
+intersection) recording of action potentials evoked by electrical stimulation of fibers of the optic tract. EPSPs led to
+the generation of a single or a burst discharge of action
+potentials, in a voltage-dependent manner. Membrane potential (indicated to the left of traces) was controlled by the
+tonic passage of current through the somatic electrode. The
+inset shows the first somatic and dendritic (thick trace)
+action potential at a faster time base. Note that action
+potentials are recorded first at the soma. B, Repetitive
+stimulation (5 stimuli at 100 Hz) of optic tract fibers evoked
+EPSPs that depress during the train. The top inset shows
+superposed somatic and dendritic action potentials, and the
+bottom inset the rising phase of the first EPSP of the train.
+Note that the EPSP rise time is faster in the dendritic
+recording made from a secondary dendrite 37 ␮m from the
+soma/dendritic intersection. C, Action potential discharge
+evoked by electrical stimulation of fibers of the corticothalamic tract. The dendritic recording was made from a stem
+dendrite 35 ␮m from the soma/dendritic intersection. The
+inset shows the first somatic and dendritic (thick trace)
+action potential at a faster time base. Note that action
+potentials are recorded first at the soma. D, Repetitive
+stimulation of this pathway evoked EPSPs that showed
+frequency-dependent facilitation. The top inset shows superposed somatic and stem dendritic (30 ␮m from the soma/
+dendritic intersection) action potentials, and the bottom inset
+shows slow regenerative potentials at a faster time base.
+
+where dendritic recordings were sequentially made at the first
+dichotomous branch point, from its stem dendrite, and from one
+of its daughter dendrites of the same neuron. Note that the
+amplitude and shape of backpropagating dendritic action potentials are dramatically altered at and after the dendritic branch
+point. Pooled data derived from simultaneous somatic and dendritic recordings (n ϭ 27) demonstrated that when dendritic
+recordings were made from a stem dendrite, the amplitude of
+dendritic action potentials decreased, on average, by 3.8% per 10
+␮m (distances from soma/dendrite intersection) (Fig. 2 B, E).
+Dendritic recordings made from higher order (second or third)
+dendrites (n ϭ 13) revealed that action potential attenuation was
+increased after dendritic branching, proceeding with a steeper
+average slope of 9% per 10 ␮m (Fig. 2 B, F). To ascertain in any
+given dendrite whether a branch point-induced decrease in action
+potential backpropagation occurred, recordings were made from
+the same dendrite at sites before and after a branch. For an
+average dendritic electrode separation of 16.5 ␮m, an average
+decrease in action potential amplitude of 27.4% was observed
+(Fig. 2 B, inset). This value is greater than that found for action
+potential attenuation along an unbranched dendrite, emphasizing
+the deleterious effects of dendritic branching on action potential
+backpropagation. The attenuation of slower voltage changes of
+
+the membrane were measured by plotting the degree of steadystate voltage attenuation from soma to dendrite (determined at
+the termination of small, negative, 200 –500 msec somatic current
+steps that evoked voltage deviations of Ͻ5 mV at the soma). The
+degree of steady-state attenuation was found to be 2.9% per 10
+␮m along stem dendrites and 4% per 10 ␮m when recordings
+were made after dendritic branching (Fig. 2C), indicating that
+steady-state attenuation is not noticeably effected by dendritic
+branching. The relationship between action potential and steadystate voltage attenuation was found to be close to 1 for recordings
+made from stem dendrites, but Ͻ1 for recordings made after
+dendritic branching (Fig. 2 D). This suggests that action potential
+backpropagation is active; that is, it is reliant on the activation of
+dendritic voltage-activated ionic currents, because a near-unity
+relationship between action potential and steady-state attenuation in stem dendrites would not be expected for a passive system.
+
+Distribution of sodium and potassium channels
+Somatic and dendritic cell-attached recordings (n ϭ 46) were
+used to map the distribution and basic properties of sodium and
+potassium channels. From a pipette voltage of 0 mV [i.e., from the
+resting membrane potential (RMP) of the cell], a Ϫ40 mV, 500
+msec prepulse was used to remove steady-state inactivation, fol-
+
+1310 J. Neurosci., February 15, 2000, 20(4):1307–1317
+
+Williams and Stuart • Action Potential Backpropagation in TC Neurons
+
+Figure 2. Action potential backpropagation into the dendrites of TC neurons. A, Simultaneous somatic and dendritic
+recordings of action potentials evoked by somatic current
+injection. Dendritic recordings were sequentially made from
+the first branch point of a stem dendrite (35 ␮m from the
+soma/dendrite intersection), from the stem dendrite (20
+␮m), and from one of its daughter dendrites (62 ␮m). Note
+changes in action potential onset, the abrupt decrease in
+amplitude, and increase in action potential duration for
+recordings made at and after the dendritic branch point. B,
+Pooled data demonstrate the relationship between action
+potential amplitude and dendritic recording location for
+recordings made from stem (E) and higher order (F) dendrites. All data from simultaneous somatic and dendritic
+recordings. The average amplitude of somatic action potentials (ϮSD) is shown as the filled square. Lines represent
+regression analysis, constrained to the average somatic action potential amplitude. The inset shows the degree of
+reduction of action potential amplitude for recordings made
+before (E) and after (F) a branch point from the same
+dendrite. C, Normalized steady-state attenuation of small
+negative voltage responses evoked at the soma for recordings made from stem (E) and higher order dendrites (F).
+Lines represent regression analysis, constrained at origin to
+1. D, Relationship between normalized steady-state attenuation and normalized action potential attenuation for recordings made from stem (E) and higher order dendrites
+(F); the line has a slope of 1.
+
+Figure 3. Properties and somato-dendritic distribution of
+sodium channels. A, Three consecutive single sweeps of
+cell-attached patch currents recorded from a stem dendrite.
+Note the clear appearance of a fast inward current followed
+by a slower outward current. The bottom trace is an average
+(n ϭ 30 trials), and the dashed line represents a fit to the
+rising and decaying phase of the outward current (see Materials and Methods). Note that extrapolation of this fit
+indicates that there is no significant outward current activation at the time of the peak of the inward current. The
+voltage protocol is shown as an inset. B, Superposed averaged (n ϭ 5 trials) cell-attached current records demonstrate the voltage dependence of activation of the fast inward current; data were obtained from a dendritic primary
+branch point. The dashed lines represent fits made to the rise
+and decay of the outward current. The voltage protocol is
+shown as an inset. C, Pooled data demonstrating the somatodendritic distribution of the fast inward (sodium) current
+during test pulses to ϩ90 mV, as shown in A. The line is an
+unconstrained regression fit. Filled squares show mean
+(ϮSD) current as a function of distance from the soma
+(ϮSD) for recordings made from the soma, stem dendrites,
+primary branch points. and higher order dendrites (from left
+to right, respectively). Note that for higher order dendrites
+the amplitude of the fast inward (sodium) current is on
+average reduced. D, Normalized current–voltage relationship. Families of currents for a single neuron were normalized to the maximal value, and then data from different
+neurons were pooled (n ϭ 13).
+
+lowed by a positive test pulse to ϩ90 mV. The mean whole-cell
+RMP of neurons was Ϫ73 Ϯ 1 mV; therefore, the voltage change
+of the membrane will be from approximately Ϫ113 mV to ϩ17
+mV. When the contribution of a liquid-junction and Donnan
+equilibrium potentials are considered (Verheugen et al., 1999),
+however, the true resting potential of neurons is probably closer
+
+to Ϫ80 mV. Figure 3 demonstrates examples of cell-attached
+patch currents during steps to these test potentials, which were
+characterized by a fast transient inward current followed by a
+bi-phasic outward current. This ensemble channel activity was
+variable from trial to trial (Fig. 3A). An incremental series (ϩ30
+to ϩ 150 mV) of positive test pulses were used to establish the
+
+Williams and Stuart • Action Potential Backpropagation in TC Neurons
+
+nature of these currents (Fig. 3B). The fast inward current first
+activated ϳ40 mV positive to RMP, peaked close to ϳ80 mV
+positive to RMP, and demonstrated voltage-dependent activation
+kinetics (Fig. 3 B, D). This current was substantially inactivated by
+omitting the hyperpolarizing prepulse or applying small positive
+(20 mV) prepulses (data not shown). Given that calcium currents
+were blocked under our recording conditions, this cell-attached
+inward current is most likely a fast sodium current (INa) (Parri
+and Crunelli, 1998). The amplitude of INa was found to be
+variable from patch to patch, but on average it was similar for
+recordings made from the soma, stem dendrites, and at the first
+dendritic branch point (Fig. 3C). The average amplitude of INa in
+recordings made from higher order dendrites was found, however,
+to be relatively smaller than those recorded from the soma ( p Ͻ
+0.05, t test) (Fig. 3C). At the test potential used to assess sodium
+channel density, the amplitude of the fast inward current was
+minimally distorted by the presence of outward currents because
+the activation of outward currents was relatively slow and possessed a sigmoidal time course. The predicted time course of the
+outward current is shown by extrapolation from fits made to the
+rise and decay of the outward current in Figure 3 A, B. Note that
+at the peak of INa little outward current is activated.
+INa was followed by a bi-phasic outward current, which was
+characterized by a relatively fast transient component that, in
+turn, was followed by a more sustained component (Fig. 4 A, B).
+The relative fraction of these kinetically distinct components was
+variable at different locations in the same neuron (Fig. 4 A). The
+amplitude of the transient current was calculated by subtraction of
+the value of the steady-state current at the end of the test pulse
+(used to measure the sustained current) from the peak of the
+current. We observed that some patches appeared to contain only
+one of these components (data not shown). On average, however,
+despite a large degree of interpatch variability, these channels
+were found to be uniformly distributed on the soma, stem, and
+higher order dendrites (Fig. 4C,D). The uniform density of outward currents is in contrast to that of INa, indicating that any
+contamination of INa measurement by potassium currents would
+be similar at all somato-dendritic locations. The kinetic properties
+(Fig. 4 B) of these ensemble channel activities are similar to the
+transient IA-like and more slowly inactivating delayed rectifier
+potassium currents identified by whole-cell recording in TC neurons (Huguenard and Prince, 1991; Huguenard et al., 1991).
+Furthermore, the transient component of the current was found
+to activate from more hyperpolarized membrane potentials (Fig.
+4 B), as is the case for whole-cell IA-like currents. It should be
+noted, however, that the voltage dependence of activation of this
+transient outward current may have been shifted in the depolarized direction by the inclusion of calcium channel blockers in the
+patch pipette-filling solution (Mayer and Sugiyama, 1988; Klee et
+al., 1995). In summary, cell-attached recordings demonstrate that
+potassium channels are localized in the dendrites of TC neurons
+at densities similar to those of the soma.
+
+Active action potential backpropagation
+To directly test the influence of dendritic voltage-activated channels on backpropagation of action potentials, we made simultaneous whole-cell somatic and dendritic recordings under control
+conditions, and then for each neuron examined (n ϭ 16) we used
+the somatically recorded action potential as a somatic voltageclamp command waveform to ascertain action potential attenuation in the presence of the sodium channel blocker TTX (Stuart
+and Sakmann, 1994). In these experiments care was taken to
+
+J. Neurosci., February 15, 2000, 20(4):1307–1317 1311
+
+Figure 4. Properties and somato-dendritic distribution of potassium
+channels. A, Averaged (n ϭ 30 trails) cell-attached patch currents obtained from the indicated somato-dendritic locations of a single neuron.
+Note that the amplitude and the relative contribution of the transient and
+sustained outward currents is variable from patch to patch. B, A family of
+superposed cell-attached patch currents demonstrate the voltagedependent activation properties of the transient and sustained outward
+currents, obtained from a stem dendritic patch. The voltage protocol is
+shown as an inset. C, Pooled data demonstrating the somato-dendritic
+distribution of the transient outward current. The line is an unconstrained
+regression fit. Filled squares show mean (ϮSD) current as a function of
+distance from the soma (ϮSD) for recordings made from the soma, stem
+dendrites, primary branch points, and higher order dendrites (from left to
+right, respectively). D, Pooled data demonstrating the somato-dendritic
+distribution of the sustained outward current, as in C.
+
+achieve stable, low series resistance somatic recordings (Ͻ8 M⍀,
+pipette resistance 2–3 M⍀, which was compensated for by Ͼ95%,
+in the presence of lag values of Ͻ3 ␮sec). Using this technique we
+observed that the blockade of sodium channels by bath application of TTX greatly reduced the amplitude of dendritic action
+potentials (Fig. 5 A, C), decreasing the slope of action potential
+attenuation with distance from 4.3% per 10 ␮m to 11.9% per 10
+␮m. To verify the voltage change at the soma produced by the
+injection of action potential voltage-command waveforms, we
+made subsequent double somatic recordings in 10 of 16 neurons
+and observed that the voltage change produced was on average
+95.8% of the original somatic action potential amplitude (Fig.
+5 A, C). These findings, therefore, directly demonstrate that action
+potential backpropagation in TC neurons is active and dependent
+on dendritic sodium channel activation.
+
+Dendritic filtering of action potential burst firing
+During burst firing, the attenuation of the first action potential of
+a burst mirrored that of action potentials evoked in single-spike
+firing mode (slope reduction along stem dendrites 4.2% per 10
+␮m; after branch points 9.1% per 10 ␮m). Each action potential
+of a burst was recorded first at soma. Surprisingly, however, we
+observed that when backpropagating action potentials were re-
+
+1312 J. Neurosci., February 15, 2000, 20(4):1307–1317
+
+Figure 5. Active dendritic action potential backpropagation. A, The top
+traces show simultaneous somatic and dendritic whole-cell current-clamp
+recordings demonstrating action potential attenuation under control conditions. The soma was then voltage-clamped, and the control somatic
+action potential was used as a voltage command. The middle traces
+demonstrate the relatively small dendritic voltage response evoked by the
+somatic action potential voltage command in the presence of the sodium
+channel blocker tetrodotoxin (TTX ). The bottom traces show the actual
+voltage deviation produced at the soma by the somatic action potential
+voltage command (thick trace) during double somatic recording. B, Video
+image of the neuron and the location of somatic and dendritic (white
+asterisk) recording electrodes. The white arrows show the location of major
+dendritic branch points, and the black arrow indicates a small collateral
+dendrite. C, Pooled data from 16 experiments showing the ratio of
+dendritic action potential amplitude in the presence of TTX versus that in
+control at different dendritic locations. The ratio of voltage changes
+recorded at the soma during control and in TTX, obtained during double
+somatic recordings, is shown as open circles. The line represents the result
+of linear regression analysis.
+
+corded after dendritic branch points, the degree of attenuation of
+subsequent action potentials in a burst was less than that of the
+first (Fig. 6 A). When recorded from the soma, later action potentials in a burst showed a reduction in amplitude and a slowing of
+rise and decay times (Fig. 6 A). Backpropagating action potentials
+recorded after dendritic branch points, however, showed an apparent equalization of amplitude, where the first action potential
+of a burst was attenuated to the greatest extent (slope reduction
+along stem dendrites for third action potential of a burst 3.7% per
+10 ␮m; after branch points 7.4% per 10 ␮m) (Fig. 6 A). This effect
+is quantified in Figure 6 B by plotting the difference in amplitude
+of the first and third action potentials recorded at the soma,
+relative to their differential amplitude when recorded dendritically. Along stem dendrites, a near unity relationship exists that
+collapses after dendritic branching (Fig. 6 B). These effects were
+not a consequence of sodium channel activation/inactivation because they were also observed in the presence of TTX, after the
+injection of a voltage-clamp waveform composed of an action
+potential burst at the soma. Furthermore, scaling of this burst
+voltage-clamp waveform by one-half did not modify the normalization of dendritic action potential amplitude (data not shown),
+suggesting that these effects are not dependent on the influence of
+potassium or calcium channels but are likely to reflect the more
+effective passive propagation through dendritic branch points of
+
+Williams and Stuart • Action Potential Backpropagation in TC Neurons
+
+Figure 6. Filtering of action potential burst firing by dendritic branch
+points. A, Top, Simultaneous somatic (thin trace) and secondary dendritic
+(thick trace) whole-cell recordings during a burst of action potentials
+evoked by somatic current injection. Note that the amplitude of somatic
+action potentials decreases during the burst, but the amplitude of dendritic action potentials increases. Bottom, This effect is shown more
+clearly at a faster time base, where the first dendritic action potential
+(thick trace) has been scaled to equal the amplitude of the first somatic
+action potential. B, The relative difference in first and third action
+potential amplitude, when measured from the soma and dendrite. Note a
+near-unity relationship exists for recordings made from stem dendrites
+(E), but this relationship collapses after dendritic branching (F).
+
+the slowly rising and broader action potentials that occurred later
+in the burst.
+
+Properties of calcium channels in
+cell-attached patches
+Cell-attached recordings, made in the presence of TTX and with
+a TEA-based, barium-rich pipette solution (n ϭ 60), demonstrated that an isolated transient inward current was evoked in
+both the soma and dendrites in response to voltage steps from
+approximately Ϫ113 to Ϫ33 mV (Fig. 7A). This cell-attached
+current was of low amplitude, variable from trial to trial, but
+clearly discernible in single trials (Fig. 7A). An increase in test
+pulse amplitude led to the additional appearance of a sustained
+inward current in some patches (Fig. 7B). The construction of
+current–voltage relationships revealed that this transient inward
+current was first activated from potentials ϳ20 mV positive to
+RMP, reaching a peak at ϳ75 mV positive to RMP, whereas the
+sustained component was first activated from potentials ϳ50 mV
+
+Williams and Stuart • Action Potential Backpropagation in TC Neurons
+
+Figure 7. Calcium channel activation in the dendrites of TC neurons. A,
+Cell-attached patch currents recorded from a secondary dendrite with
+pipette solutions designed to block sodium and potassium currents (see
+Materials and Methods). Three sequential single trials demonstrate the
+presence of an isolated transient inward current, which is shown more
+clearly in the average (n ϭ 50 trials). The voltage protocol is shown as an
+inset. B, An additional sustained current was evoked by increasing the
+magnitude of the test pulse.
+
+positive to RMP (Fig. 8 A, C). The kinetics of activation and
+inactivation of the transient current were found to be voltage
+dependent (Fig. 8 A). Furthermore, the transient inward current
+could be steady-state inactivated by applying prepulses (1 sec
+duration) of varying amplitude (Fig. 8 B). We constructed steadystate activation and inactivation curves for ensemble IT currents
+recorded from the majority of patches (Fig. 8 D). When pooled
+from all recording sites, steady-state activation and inactivation
+curves were found to be well fit with single Boltzmann functions,
+with slopes of 13.6 and 11.8, respectively. A better approximation
+of the steady-state activation curve could be made, however, by
+raising the Boltzmann function to the third power (Fig. 8 D). A
+considerable voltage overlap was found between these curves,
+indicating that under ideal voltage-clamp conditions a nonnegligible window current exists (Fig. 8 D) (Williams et al., 1997).
+Furthermore, the slope of these steady-state curves was found to
+be shallower than those reported for whole-cell recordings made
+from intact or dissociated TC neurons (Coulter et al., 1989;
+Crunelli et al., 1989; Destexhe et al., 1998). This was not a
+product of data pooling because we observed steepness values of
+between 5.5 to 16.6 (activation) and 7.6 to 19.9 (inactivation) in
+individual recordings, indicating that previous estimates of these
+parameters may have been compromised by the recording configuration and conditions (Destexhe et al., 1998). These voltagedependent and kinetic properties identify the transient inward
+current as a low-threshold calcium current, IT, and the sustained
+current as a high-threshold calcium current (Coulter et al., 1989;
+Crunelli et al., 1989; Hernandez-Cruz and Pape, 1989; Mouginot
+et al., 1997).
+
+Distribution of low-threshold calcium channels
+We mapped the distribution of IT channels and observed that the
+kinetic properties of these channels were similar in patches derived from the soma, stem, and higher order dendrites (Fig. 9A).
+The amplitude of ensemble currents, however, was found to be on
+average significantly larger (ANOVA, p Ͻ 0.05) in recordings
+made from the stem dendrite compared with somatic and higher
+order dendritic locations (Fig. 9B). To our surprise we obtained
+
+J. Neurosci., February 15, 2000, 20(4):1307–1317 1313
+
+Figure 8. Steady-state properties of low-threshold calcium channels. A,
+Superposed cell-attached current traces used for the construction of
+steady-state activation curves during test pulses from ϩ15 to ϩ65 mV in
+5 mV steps. Each trace is an average of five trials. The inset shows the
+voltage-dependent activation kinetics of the current at a faster time base.
+B, A family of current traces used for the construction of steady-state
+inactivation curves during prepulses from Ϫ40 to 40 mV in 10 mV steps.
+The insets show the voltage-dependent kinetics of this current at a faster
+time base. C, Current–voltage relationship of the current shown in A
+when measured at peak amplitude (F) or immediately before the termination of the test pulse (E). D, Pooled steady-state activation (F) and
+inactivation (E) curves; each point represents mean Ϯ SEM. The solid
+curves were fit with single Boltzmann functions (see Material and Methods). A better approximation of the activation curve was found by raising
+the Boltzmann function to the third power (dashed line). Note the voltage
+overlap between curves. Voltages are relative to resting membrane
+potential.
+
+many somatic patches that did not show any, or demonstrated
+very little, calcium channel activity. Furthermore, little calcium
+channel activity was found in our most distal dendritic recordings
+(Fig. 9B).
+When the voltage dependence of activation and steady-state
+inactivation were examined at different somato-dendritic locations, we observed a small parallel shift in the midpoint values of
+steady-state activation and inactivation curves (soma: 52.9 mV,
+activation, 4.5 mV, inactivation; primary dendrite branch: 59.6
+mV, activation, 11.92 mV, inactivation; all potentials are relative
+to RMP) in the depolarized direction for recordings made from
+the most distal sites (i.e., at dendritic branch points and from
+higher order dendrites) (Fig. 9C). These effects were not produced by differences in RMP between somatic and dendritic sites
+because we observed no noticeable differences in RMP across the
+somato-dendritic area examined. In summary, these data directly
+demonstrate that low-threshold calcium channels have a predominant dendritic distribution and that the profile of this distribution is nonuniform and highest in stem dendrites.
+
+Local dendritic regenerative activity
+We sought to explore whether a predominate dendritic location
+of IT channels led to any unique effects when current was directly
+injected into the dendrites of TC neurons (Fig. 10). Simultaneous
+somatic and dendritic current-clamp recordings demonstrated
+that as the somatic membrane potential was changed by tonic
+
+1314 J. Neurosci., February 15, 2000, 20(4):1307–1317
+
+Figure 9. Somato-dendritic distribution and properties of low-threshold
+calcium channels. A, Selected averaged traces demonstrating the relationship between current amplitude and recording location. Note that the
+transient inward current is of the same kinetics at each recording location,
+but of relatively greater amplitude when recorded from stem dendrites.
+Somatic and stem dendritic patches were taken from the same neuron. B,
+Pooled data quantifying the relationship between current density and
+dendritic location. Each recording is shown as an open circle. Filled squares
+show mean (ϮSD) current as a function of distance from the soma (ϮSD)
+for recordings made from the soma, stem dendrites, primary branch
+points, and higher order dendrites (from left to right, respectively). C,
+Steady-state activation and inactivation curves constructed from data
+pooled by recording location, as shown in the inset. Note that more distal
+dendritic recordings yield activation and inactivation curves that are
+shifted to the right along the voltage axis. Voltages are relative to resting
+membrane potential.
+
+somatic current injection, the firing response of TC neurons in
+response to small positive somatic current steps changed from
+single spike to the burst firing of action potentials in a voltagedependent manner, as has been described previously (Deschenes
+et al., 1982; Llinas and Jahnsen, 1982). This transformation was
+produced by the activation of an LTCP. When this experiment
+was repeated by controlling membrane potential with tonic current injection through the dendritic pipette and voltage responses
+were evoked by small positive dendritic current steps, a similar
+transformation of firing pattern was observed. The charging pattern of the membrane was altered (Fig. 10, right, arrows), however,
+in 5 of 30 recordings during dendritic current steps, as a consequence of the generation of smaller amplitude transient depolarizing potential that proceeded the full blown LTCP. This potential was of greatest amplitude when recorded locally in the
+dendrite and was significantly attenuated at the somatic recording
+site (Fig. 10). The voltage dependence of this local transient
+depolarizing potential was similar to that of the LTCP, suggesting
+that it is mediated by the activation of dendritic IT channels.
+These data, therefore, suggest that local voltage-dependent pro-
+
+Williams and Stuart • Action Potential Backpropagation in TC Neurons
+
+Figure 10. Local regenerative activity in the dendrites of TC neurons.
+All traces were recorded during simultaneous somatic (thin traces) and
+secondary dendritic recording. The membrane potential was controlled by
+tonic current injection through the somatic (left) or dendritic (right)
+electrode, and voltage responses were evoked by 100 pA current steps
+(bottom traces) delivered to either the somatic (left) or dendritic (right)
+recording electrode. In response to somatic current injection the neuron
+showed a voltage-dependent firing pattern, characterized by the generation of a low-frequency train of action potentials at the most depolarized
+membrane potential and a burst of action potentials crowning a lowthreshold calcium potential at more hyperpolarized membrane potentials.
+In response to dendritic current injection, low-threshold calcium potentials are proceeded by a smaller transient depolarizing potential (arrows).
+This potential could be evoked in isolation at the most hyperpolarized
+test potential. Note the degree of attenuation of this transient depolarizing potential from dendrite to soma. The resting membrane potential of
+this neurons was Ϫ70 mV.
+
+cesses can occur in relative isolation in the dendrites of TC
+neurons.
+
+DISCUSSION
+We show that action potentials evoked by sensory or cortical
+EPSPs are initiated near the soma and actively backpropagate
+into the dendrites of TC neurons. Backpropagation is compromised, however, by the properties of dendritic branches coupled
+with a declining density of dendritic sodium channels, indicating
+that backpropagation may fail to effect synaptic integration in the
+distal dendrites of TC neurons. We further show that lowthreshold calcium channels are nonuniformly distributed in TC
+neuron dendrites. A high density of these channels at sites that
+are known to receive excitatory synaptic connections from pri-
+
+Williams and Stuart • Action Potential Backpropagation in TC Neurons
+
+mary afferents suggests that IT channels play a key role in the
+amplification of sensory input to TC neurons.
+
+Site of action potential initiation and active
+dendritic backpropagation
+Our simultaneous recordings demonstrated that action potentials
+were recorded first at the soma and subsequently in the dendrites
+of TC neurons. Because the axon of rat dLGN TC neurons arises
+from the soma (Grossman et al., 1973; Williams et al., 1996), these
+data indicate that action potentials are probably initiated at axonal sites, as shown in other central neurons (Stuart et al., 1997b).
+After axonal initiation, dendritic action potential backpropagation has been shown to be reliant on the activation of dendritic
+voltage-activated sodium channels in a number of central neurons
+(Johnston et al., 1996; Stuart et al., 1997b). The density of sodium
+channels in TC neurons was on average constant across recordings made from the soma to the first branch point of stem
+dendrites. In daughter dendrites, however, we observed a reduction in sodium channel density. The density of potassium channels underlying a fast transient (IA-like) current and more slowly
+inactivating delayed rectifier type current was found to be on
+average constant across the somatodendritic area examined,
+which corresponds to approximately one-half the path length of
+TC neuron dendrites. Such channel distributions appear to be
+unique, because in pyramidal neurons of the hippocampus and
+neocortex, potassium channels with different properties are differentially distributed between the soma and dendrites (Hoffman
+et al., 1997; Bekkers and Stuart, 1998). The measured channel
+densities should therefore be considered in future dendritic models of TC neurons (Lytton et al., 1996; Antal et al., 1997). The
+active nature of action potential backpropagation in TC neurons
+was confirmed by comparing dendritic voltage responses in the
+absence and presence of TTX. A decrease in sodium channel
+density in daughter dendrites may help to explain the observation
+that action potential backpropagation is compromised after the
+branching of stem dendrites. The control of action potential
+backpropagation, however, is influenced not only by channel
+densities but also by dendritic morphology.
+
+Influence of dendritic geometry
+Modeling studies have demonstrated that action potential propagation through branched cable structures is critically dependent
+on cable geometry (Goldstein and Rall, 1974; Luscher and
+Shiner, 1990; Manor et al., 1991; Hausser et al., 1998). Action
+potential propagation through a dichotomously branched uniformly excitable cable occurs without amplitude degradation if
+the input impedance of the parent cable matches that of the
+daughter cables (Goldstein and Rall, 1974). For a cable of infinite
+length, this relationship holds if the diameter of the cables after
+the branch raised to the power 3/2 equals that of the parent cable
+raised to the power 3/2, yielding a geometrical ratio (GR) that
+equals 1 (Goldstein and Rall, 1974). If GR is greater than 1, a
+time-delay and decrease in action potential amplitude at and after
+the branch point occurs (Goldstein and Rall, 1974; Luscher and
+Shiner, 1990; Manor et al., 1991). It should be noted that invasion
+of a particular branch of an axon or dendrite is influenced not
+only by the GR of the branch point that an action potential
+immediately encounters but by the GR of other more distal
+branch points, within certain electrotonic limits (Manor et al.,
+1991; Hausser et al., 1998), and that the summed influence of such
+mismatches is supralinear (Manor et al., 1991). Consistent with a
+deleterious effect of dendritic branching on action potential back-
+
+J. Neurosci., February 15, 2000, 20(4):1307–1317 1315
+
+propagation, we find that a shallower relationship exists, on
+average, between backpropagating action potential amplitude and
+distance of dendritic recordings from soma along unbranched
+stem dendrites as compared with those made after branch points
+(Fig. 2). Furthermore, recordings made from the same dendrite
+before and after a branch point indicate that attenuation of action
+potentials over a finite distance is greater for a branching dendrite
+than for an unbranched dendrite.
+Anatomical studies have demonstrated that the dichotomously
+branched dendrites of TC neurons do not obey Ralls power law
+(Kniffki et al., 1993; Ohara et al., 1995). The degree of variation
+from GR ϭ 1 is dependent on the branch number; stem dendrites
+of TC neurons branch many times (average values between 7 and
+25, depending on species and nuclei) to form a large number (1 to
+Ͼ40) of terminal dendrites (Havton and Ohara, 1993; Kniffki et
+al., 1993; Ohara and Havton, 1994; Ohara et al., 1995). Average
+GR values of near 1 (but with scatter from 0.7–1.3) (Bloomfield et
+al., 1987), 1.4 (Ohara et al., 1995), and 1.72 (Kniffki et al., 1993)
+have been obtained at the first stem to nonterminal dendritic
+branch, whereas values Ͼ4 –5 have been observed for more distal
+fifth to seventh order branches (Kniffki et al., 1993; Ohara et al.,
+1995). These data are therefore compatible with our electrophysiological findings and suggest that action potential backpropagation is controlled in TC neurons according to the following
+scheme: (1) impedance mismatch at dendritic branch points directly compromises backpropagation; (2) as a corollary more
+highly branched dendrites hamper backpropagation to a greater
+extent and (3) combined with the lower sodium channel density in
+daughter dendrites this forms a situation in which lower amplitude action potentials are less likely to activate a decreasing
+number of sodium channels. Backpropagating action potentials
+may therefore fail to invade the most distal dendrites of TC
+neurons. The filtering effects of dendritic branch points on action
+potentials of different rise and decay times generated during
+action potential burst firing are consistent with this scheme,
+because slower rising events will be expected to be filtered less by
+impedance mismatches at dendritic branch points.
+One key function of backpropagating action potentials is
+thought to be the resetting of synaptic integration, produced as a
+consequence of the depolarization of dendrites decreasing the
+driving force for excitatory synaptic currents, and by shunting
+produced by the conductance changes associated with action
+potential generation (Stuart and Sakmann, 1994; Stuart et al.,
+1997b; Stuart and Hausser, 1998). Backpropagating action potentials in TC neurons may be capable of effecting the dendritic
+integration of the primary afferent and intrageniculate inhibitory
+inputs to these cells, which are made on stem dendrites or at sites
+close to the first dendritic branch points but may fail to effect
+inputs from cortical neurons made at distal dendritic sites (Sherman and Guillery, 1996). Backpropagation of action potentials in
+TC neurons might therefore lead to the resetting of dendritic
+integration of synaptic inputs that primarily determine the receptive field properties of TC neurons (Sherman and Guillery, 1998)
+while sparing inputs from the cortex that are thought to produce
+slower membrane potential changes that control response mode
+(i.e., single or burst firing of action potentials) (Sherman and
+Guillery, 1998).
+
+Distribution of calcium channels
+The low-threshold calcium current underlies many of the complex
+electrophysiological properties of TC neurons, including the generation of action potential burst firing, periodic oscillatory activ-
+
+1316 J. Neurosci., February 15, 2000, 20(4):1307–1317
+
+ity, and membrane potential bistability (Llinas, 1988; Steriade et
+al., 1993; Williams et al., 1997). Furthermore, IT has been shown
+to amplify subthreshold EPSPs and IPSPs (von Krosigk et al.,
+1993; Turner et al., 1994; Williams et al., 1997; Kim and McCormick, 1998). Our dendritic recordings indicate that IT channels
+are at a high density in stem dendrites and stem dendritic branch
+points of TC neurons, with a lower and more patchy distribution
+at the soma. Furthermore, we failed to detect IT channels in more
+distal secondary dendrites. Supportive of these findings, calcium
+imaging experiments have indicated the presence of low- and
+high-threshold calcium channel-mediated signals in the stem dendrites of TC neurons (Munsch et al., 1997; Zhou et al., 1997). The
+voltage dependence of steady-state activation and inactivation
+processes of dendritic IT channels was found to be shifted in the
+depolarized direction at more distal recording locations. These
+properties would allow dendritic IT channels to be activated at
+membrane potentials nearer firing threshold, and so extend the
+role of dendritic IT channels in the amplification of synaptic
+inputs. Recent modeling studies have indicated that the electrophysiological properties of TC neurons may be reproduced if IT
+channels are distributed dendritically with a uniform high density
+throughout their arbor (Destexhe et al., 1998). Our data, however, indicate that IT channels are nonuniformly distributed.
+More extensive computer simulations are therefore required to
+ascertain the consequences of a nonuniform dendritic distribution of IT channels.
+In conclusion, we have directly demonstrated that the dendrites
+of TC neurons contain various voltage-activated ion channels and
+can support active backpropagation of action potentials and the
+generation of local dendritic regenerative activity. These channel
+distributions extend the functional repertoire of TC neurons and
+indicate that during wakefulness and sleep dendritic ion channels
+will influence synaptic integration and the generation of oscillatory activity in TC neurons.
+
+REFERENCES
+Antal K, Emri Z, Toth TI, Crunelli V (1997) Model of a thalamocortical
+neurone with dendritic voltage-gated ion channels. NeuroReport
+8:1063–1066.
+Bekkers JM, Stuart G (1998) Distribution and properties of potassium
+channels in the soma and apical dendrites of layer 5 cortical pyramidal
+neurons. Soc Neurosci Abstr 24:807.8.
+Bloomfield SA, Hamos JE, Sherman SM (1987) Passive cable properties
+and morphological correlates of neurones in the lateral geniculate
+nucleus of the cat. J Physiol (Lond) 383:653– 692.
+Budde T, Munsch T, Pape HC (1998) Distribution of L-type calcium
+channels in rat thalamic neurones. Eur J Neurosci 10:586 –597.
+Coulter DA, Huguenard JR, Prince DA (1989) Calcium currents in rat
+thalamocortical relay neurones: kinetic properties of the transient,
+low-threshold current. J Physiol (Lond) 414:587– 604.
+Crunelli V, Kelly JS, Leresche N, Pirchio M (1987a) On the excitatory
+post-synaptic potential evoked by stimulation of the optic tract in the rat
+lateral geniculate nucleus. J Physiol (Lond) 384:603– 618.
+Crunelli V, Kelly JS, Leresche N, Pirchio M (1987b) The ventral and
+dorsal lateral geniculate nucleus of the rat: intracellular recordings in
+vitro. J Physiol (Lond) 384:587– 601.
+Crunelli V, Lightowler S, Pollard CE (1989) A T-type Ca2ϩ current
+underlies low-threshold Ca2ϩ potentials in cells of the cat and rat
+lateral geniculate nucleus. J Physiol (Lond) 413:543–561.
+Deschenes M, Roy JP, Steriade M (1982) Thalamic bursting mechanism:
+an inward slow current revealed by membrane hyperpolarization. Brain
+Res 239:289 –293.
+Destexhe A, Neubig M, Ulrich D, Huguenard J (1998) Dendritic lowthreshold calcium currents in thalamic relay cells. J Neurosci
+18:3574 –3588.
+Golding NL, Spruston N (1998) Dendritic sodium spikes are variable
+triggers of axonal action potentials in hippocampal CA1 pyramidal
+neurons. Neuron 21:1189 –1200.
+
+Williams and Stuart • Action Potential Backpropagation in TC Neurons
+
+Goldstein SS, Rall W (1974) Changes of action potential shape and
+velocity for changing core conductor geometry. Biophys J 14:731–757.
+Golshani P, Warren RA, Jones EG (1998) Progression of change in
+NMDA, non-NMDA, and metabotropic glutamate receptor function
+at the developing corticothalamic synapse. J Neurophysiol 80:143–154.
+Grossman A, Lieberman AR, Webster KE (1973) A Golgi study of the
+rat dorsal lateral geniculate nucleus. J Comp Neurol 150:441– 466.
+Guido W, Weyand T (1995) Burst responses in thalamic relay cells of the
+awake behaving cat. J Neurophysiol 74:1782–1786.
+Hausser M, Vetter P, Roth A (1998) Action potential backpropagation
+depends on dendritic geometry. Soc Neurosci Abstr 24:719.1.
+Havton LA, Ohara PT (1993) Quantitative analyses of intracellularly
+characterized and labelled thalamocortical projection neurons in the
+ventrobasal complex of primates. J Comp Neurol 336:135–150.
+Hernandez-Cruz A, Pape HC (1989) Identification of two calcium currents in acutely dissociated neurons from the rat lateral geniculate
+nucleus. J Neurophysiol 61:1270 –1283.
+Hoffman DA, Magee JC, Colbert CM, Johnston D (1997) K ϩ channel
+regulation of signal propagation in dendrites of hippocampal pyramidal
+neurons. Nature 387:869 – 875.
+Huguenard JR, Prince DA (1991) Slow inactivation of a TEA-sensitive
+K current in acutely isolated rat thalamic relay neurons. J Neurophysiol
+66:1316 –1328.
+Huguenard JR, Coulter DA, Prince DA (1991) A fast transient potassium current in thalamic relay neurons: kinetics of activation and
+inactivation. J Neurophysiol 66:1304 –1315.
+Johnston D, Magee JC, Colbert CM, Cristie BR (1996) Active properties of neuronal dendrites. Annu Rev Neurosci 19:165–186.
+Kim U, McCormick DA (1998) The functional influence of burst and
+tonic firing mode on synaptic interactions in the thalamus. J Neurosci
+18:9500 –9516.
+Klee R, Ficker E, Heinemann U (1995) Comparison of voltagedependent potassium currents in rat pyramidal neurons acutely isolated
+from hippocampal regions CA1 and CA3. J Neurophysiol 74:1982–1995.
+Kniffki K-D, Pawlak M, Vahle-Hinz C (1993) Scaling behavior of the
+dendritic branches of thalamic neurons. Fractals 1:171–178.
+Llinas R (1988) The intrinsic electrophysiological properties of mammalian neurons: insights into central nervous system function. Science
+242:1654 –1664.
+Llinas R, Jahnsen H (1982) Electrophysiology of mammalian thalamic
+neurones in vitro. Nature 297:406 – 408.
+Luscher HR, Shiner JS (1990) Simulation of action potential propagation in complex terminal arborizations. Biophys J 58:1389 –1399.
+Lytton WW, Destexhe A, Sejnowski TJ (1996) Control of slow oscillations in the thalamocortical neuron: a computer model. Neuroscience
+70:673– 684.
+Magee JC, Johnston D (1997) A synaptically controlled, associative signal for Hebbian plasticity in hippocampal neurons. Science
+275:209 –213.
+Manor Y, Koch C, Segev I (1991) Effect of geometrical irregularities on
+propagation delay in axonal trees. Biophys J 60:1424 –1437.
+Mayer ML, Sugiyama K (1988) A modulatory action of divalent cations
+on transient outward current in cultured rat sensory neurones. J Physiol
+(Lond) 396:417– 433.
+McCormick DA (1992) Neurotransmitter actions in the thalamus and
+cerebral cortex and their role in neuromodulation of thalamocortical
+activity. Prog Neurobiol 39:337–388.
+Mouginot D, Bossu JL, Gahwiler BH (1997) Low-threshold Ca 2ϩ currents in dendritic recordings from Purkinje cells in rat cerebellar slice
+cultures. J Neurosci 17:160 –170.
+Munsch T, Budde T, Pape HC (1997) Voltage-activated intracellular
+calcium transients in thalamic relay cells and interneurons. NeuroReport 8:2411–2418.
+Ohara PT, Havton LA (1994) Dendritic architecture of rat somatosensory thalamocortical projection neurons. J Comp Neurol 341:159 –171.
+Ohara PT, Ralston H, Havton LA (1995) Architecture of individual
+dendrites from intracellularly labelled thalamocortical projection neurons in the ventral posterolateral and ventral posteromedial nuclei of
+cat. J Comp Neurol 358:563–572.
+Parri HR, Crunelli V (1998) Sodium current in rat and cat thalamocortical neurons: role of a non-inactivating component in tonic and burst
+firing. J Neurosci 18:854 – 867.
+Perez Velazquez JL, Carlen PL (1996) Development of firing patterns
+and electrical properties in neurons of the rat ventrobasal thalamus.
+Brain Res Dev Brain Res 91:164 –170.
+
+Williams and Stuart • Action Potential Backpropagation in TC Neurons
+
+Ralston H, Herman MM (1969) The fine structure of neurons and synapses in ventrobasal thalamus of the cat. Brain Res 14:77–97.
+Schiller J, Schiller Y, Stuart G, Sakmann B (1997) Calcium action potentials restricted to distal apical dendrites of rat neocortical pyramidal
+neurons. J Physiol (Lond) 505:605– 616.
+Sherman SM, Guillery RW (1996) Functional organization of thalamocortical relays. J Neurophysiol 76:1367–1395.
+Sherman SM, Guillery RW (1998) On the actions that one nerve cell can
+have on another: distinguishing “drivers” from “modulators”. Proc Natl
+Acad Sci USA 95:7121–7126.
+Spruston N, Schiller Y, Stuart G, Sakmann B (1995) Activity-dependent
+action potential invasion and calcium influx into hippocampal CA1
+dendrites. Science 268:297–300.
+Steriade M, Deschenes M (1984) The thalamus as a neuronal oscillator.
+Brain Res 320:1– 63.
+Steriade M, McCormick DA, Sejnowski TJ (1993) Thalamocortical oscillations in the sleeping and aroused brain. Science 262:679 – 685.
+Stuart G, Hausser M (1998) Shunting of EPSPs by action potentials. Soc
+Neurosci Abstr 24:718.3.
+Stuart GJ, Sakmann B (1994) Active propagation of somatic action potentials into neocortical pyramidal cell dendrites. Nature 367:69 –72.
+Stuart G, Schiller J, Sakmann B (1997a) Action potential initiation and
+propagation in rat neocortical pyramidal neurons. J Physiol (Lond)
+505:617– 632.
+Stuart G, Spruston N, Sakmann B, Hausser M (1997b) Action potential
+initiation and backpropagation in neurons of the mammalian CNS.
+Trends Neurosci 20:125–131.
+
+J. Neurosci., February 15, 2000, 20(4):1307–1317 1317
+
+Turner JP, Salt TE (1998) Characterization of sensory and corticothalamic excitatory inputs to rat thalamocortical neurones in vitro.
+J Physiol (Lond) 510:829 – 843.
+Turner JP, Leresche N, Guyon A, Soltesz I, Crunelli V (1994) Sensory
+input and burst firing output of rat and cat thalamocortical cells: the
+role of NMDA and non-NMDA receptors. J Physiol (Lond)
+480:281–295.
+Verheugen JA, Fricker D, Miles R (1999) Noninvasive measurements of
+the membrane potential and GABAergic action in hippocampal interneurons. J Neurosci 19:2546 –2555.
+von Krosigk M, Bal T, McCormick DA (1993) Cellular mechanisms of a
+synchronized oscillation in the thalamus. Science 261:361–364.
+Warren RA, Jones EG (1997) Maturation of neuronal form and function in a mouse thalamo-cortical circuit. J Neurosci 17:277–295.
+Warren RA, Golshani P, Jones EG (1997) GABA(B)-receptormediated inhibition in developing mouse ventral posterior thalamic
+nucleus. J Neurophysiol 78:550 –553.
+Williams SR, Turner JP, Anderson CM, Crunelli V (1996) Electrophysiological and morphological properties of interneurones in the rat
+dorsal lateral geniculate nucleus in vitro. J Physiol (Lond) 490:129 –147.
+Williams SR, Toth TI, Turner JP, Hughes SW, Crunelli V (1997) The
+“window” component of the low threshold Ca2ϩ current produces
+input signal amplification and bistability in cat and rat thalamocortical
+neurones. J Physiol (Lond) 505:689 –705.
+Zhou Q, Godwin DW, O’Malley DM, Adams PR (1997) Visualization
+of calcium influx through channels that shape the burst and tonic firing
+modes of thalamic relay cells. J Neurophysiol 77:2816 –2825.
+
+

@@ -1,0 +1,1894 @@
+ORIGINAL RESEARCH ARTICLE
+published: 16 July 2013
+doi: 10.3389/fncom.2013.00094
+
+COMPUTATIONAL NEUROSCIENCE
+
+Modulation of epileptic activity by deep brain stimulation:
+a model-based study of frequency-dependent effects
+Faten Mina 1,2 , Pascal Benquet 1,2 , Anca Pasnicu 3 , Arnaud Biraben 1,2,3 and Fabrice Wendling 1,2*
+1
+2
+3
+
+INSERM, U1099, Universite de Rennes 1, Rennes, France
+Laboratoire Traitement du Signal et de L’Image, Université de Rennes 1, Rennes, France
+Unité d’Épileptologie, Service de Neurologie, CHU, Rennes, France
+
+Edited by:
+Peter Robinson, University of
+Sydney, Australia
+Reviewed by:
+Peter Robinson, University of
+Sydney, Australia
+Anthony Burkitt, University of
+Melbourne, Australia
+*Correspondence:
+Fabrice Wendling, Laboratoire
+Traitement du Signal et de L’Image,
+INSERM, Université de Rennes 1,
+Campus de Beaulieu,
+Bat. 22 - 35042 Rennes Cedex,
+France
+e-mail: fabrice.wendling@
+univ-rennes1.fr
+
+A number of studies showed that deep brain stimulation (DBS) can modulate the activity
+in the epileptic brain and that a decrease of seizures can be achieved in “responding”
+patients. In most of these studies, the choice of stimulation parameters is critical to
+obtain desired clinical effects. In particular, the stimulation frequency is a key parameter
+that is difficult to tune. A reason is that our knowledge about the frequency-dependant
+mechanisms according to which DBS indirectly impacts the dynamics of pathological
+neuronal systems located in the neocortex is still limited. We address this issue using both
+computational modeling and intracerebral EEG (iEEG) data. We developed a macroscopic
+(neural mass) model of the thalamocortical network. In line with already-existing models,
+it includes interconnected neocortical pyramidal cells and interneurons, thalamocortical
+cells and reticular neurons. The novelty was to introduce, in the thalamic compartment,
+the biophysical effects of direct stimulation. Regarding clinical data, we used a quite unique
+data set recorded in a patient (drug-resistant epilepsy) with a focal cortical dysplasia
+(FCD). In this patient, DBS strongly reduced the sustained epileptic activity of the FCD
+for low-frequency (LFS, < 2 Hz) and high-frequency stimulation (HFS, > 70 Hz) while
+intermediate-frequency stimulation (IFS, around 50 Hz) had no effect. Signal processing,
+clustering, and optimization techniques allowed us to identify the necessary conditions
+for reproducing, in the model, the observed frequency-dependent stimulation effects.
+Key elements which explain the suppression of epileptic activity in the FCD include: (a)
+feed-forward inhibition and synaptic short-term depression of thalamocortical connections
+at LFS, and (b) inhibition of the thalamic output at HFS. Conversely, modeling results
+indicate that IFS favors thalamic oscillations and entrains epileptic dynamics.
+Keywords: DBS, thalamocortical model, computational, centromedian nucleus, FCD, premotor cortex, epilepsy
+
+INTRODUCTION
+Deep brain stimulation (DBS) for Parkinson’s disease (PD) and
+other movement and psychiatric disorders—including dystonia,
+tremor, and depression—is clinically used today as a conventional
+therapeutic procedure for the alleviation of symptoms (Sillay and
+Starr, 2009). Since the early 90s, neurologists also attempted to
+apply DBS to other neurological disorders, typically to intractable
+epilepsies in order to suppress—or at least dramatically reduce—
+the occurrence of seizures [see recent review in Boon et al.
+(2009)]. These studies followed early scientific evidence showing
+potentially beneficial effects of DBS on epileptic neural dynamics in animal models (Reimer et al., 1967; Hablitz, 1976) as well
+as in patients (Cooper et al., 1973; Davis et al., 1982; Wright and
+Abbreviations: CMN, Centromedian Nucleus; DBS, Deep Brain Stimulation;
+EPSP, Excitatory Postsynaptic Potentials; FCD, Focal Cortical Dysplasia; FFI, FeedForward Inhibition; GPi, Globus Pallidus; HFS, High Frequency Stimulation; iEEG,
+Intracerebral EEG (depth electrodes); IFS, Intermediate Frequency Stimulation;
+IPSP, Inhibitory Postsynaptic Potentials; LFP, Local Field Potential; LFPsFCD , Local
+Field Potentials recorded in the FCD; LFS, Low Frequency Stimulation; NS,
+No Stimulation; PMC, Premotor cortex; RtN, Reticular thalamic Nucleus, STD,
+Short-Term Depression; STN, Subthalamic Nucleus.
+
+Frontiers in Computational Neuroscience
+
+Weller, 1983). However, contrary to PD, the optimal “antiepileptic parameters” of DBS for reducing the frequency of seizures are
+much more variable among patients and the number of nonresponders to stimulation still perplexes scientists. Moreover, in
+responding patients, the fine tuning of stimulation parameters in
+a patient-specific manner remains indispensable for maximizing
+antiepileptic effects. On that account, many fundamental questions are frequently raised: where and when to stimulate, at which
+frequency, at which current intensity, and with which current
+waveform?
+The answers to these questions remain bound to our current, and still limited, understanding of the mechanisms by which
+DBS modulates neuronal dynamics, whether normal or pathological. Today, the precise mechanisms of neuronal modulation by
+DBS remain elusive. In addition, these mechanisms are controversial as observed effects are sometimes opposite (McIntyre et al.,
+2004b). Among the many studies reported over the last decade,
+identified mechanisms regarding HFS include: local depolarization blockade by HFS (Beurrier et al., 2001), synaptic depression due to neurotransmitter depletion (Shen et al., 2003; Kim
+et al., 2012), synaptic inhibition (Filali et al., 2004), disruption of
+
+www.frontiersin.org
+
+July 2013 | Volume 7 | Article 94 | 1
+
+Mina et al.
+
+Frequency-dependent effects of DBS
+
+the thalamocortical network’s dysrhythmia (McIntyre and Hahn,
+2010; Kendall et al., 2011). As far as LFS is concerned, some studies described a transient synaptic depression that alters synaptic
+transmission (Jiang et al., 2003; Speechley et al., 2007). Finally,
+IFS is routinely used in the context of presurgical evaluation of
+patients with drug resistant epilepsy to map epileptogenic and
+functional brain areas. It has long been observed that this type of
+stimulation is prone to trigger epileptic afterdischarges (Goddard,
+1967). This brief overview shows that the spectrum of involved
+mechanisms is very large and that distinct stimulation frequencies
+trigger distinct cellular/network processes. More precise insights
+into these processes will come with increased knowledge about
+both biophysical and neurophysiological effects of stimulation
+currents on underlying neuronal systems.
+However, the access to cellular and network mechanisms
+induced by DBS is rather difficult in animal models of epilepsy
+and (almost) impossible in patients especially in large-scale systems like the thalamocortical loop. An alternative approach is
+the use of computational models based on physiological data to
+first reproduce and then explain changes in cerebral activity as
+a function of stimulation conditions (stimulation site, intensity,
+and frequency). This is precisely the objective of this study, with a
+special focus on the distinct effects of DBS frequency on cortical
+epileptic dynamics.
+Our investigation combines computational modeling and clinical data. We explored stimulation effects in a lumped-parameter
+mesoscopic neural mass model of the thalamacortical loop,
+inspired from previously published models (Suffczynski et al.,
+2004; Lopes Da Silva, 2006; Roberts and Robinson, 2008; Crunelli
+et al., 2011).
+Although these models are lumped representations of underlying neuronal systems, they offer a number of advantages in the
+context of this study. First, neural mass models include subpopulations of principal excitatory cells and inhibitory interneurons.
+Second, these models were shown to produce realistic activity as
+observed in LFPs or EEG under normal (Freeman, 1973; Lopes
+Da Silva et al., 1974) or epileptic conditions [review in Lytton
+(2008); Wendling (2008)]. Third, main parameters (mean membrane potential and firing rate) provide access to the investigation
+of several stimulation-induced (patho)physiological mechanisms.
+For instance, a neural mass model was successfully used in the
+context of direct low-intensity pulse stimulation in the hippocampus to explain the behavior of evoked responses during the
+transition to seizures (Suffczynski et al., 2008).
+In particular, using this model, we analyzed the neurophysiological effects induced by direct thalamic stimulation on epileptic
+cortical dynamics at low frequency (LF, < 20 Hz), intermediate
+frequency (IF, 20–70 Hz) and high frequency (HF, 70–130 Hz).
+Model parameters were tuned to reproduce a typical pathological
+oscillatory activity observed in a neocortical lesion (focal cortical dysplasia, or FCD) in a patient with drug-resistant epilepsy.
+Intracerebral EEG (iEEG) signals observed during thalamic stimulation (centromedian nucleus) of this patient revealed particularly pronounced frequency-dependent modulation of the FCD
+pathological activity. Therefore, this data set offered the unique
+opportunity to identify key model parameters for which such
+a frequency-dependent modulation could be reproduced and,
+
+Frontiers in Computational Neuroscience
+
+subsequently to get insights regarding the mechanisms underlying the modulatory effects, in the FCD, of thalamic stimulation. Results revealed that LFS favors feed-forward inhibition
+and short-term depression at the cortical level and that HFS
+inhibits the thalamic activity, while IFS reinforces reticulothalamic oscillations thus entraining cortical pathological epileptic
+dynamics.
+
+MATERIALS AND METHODS
+In this section, we present (1) the neurophysiologically-relevant
+computational model that we developed to study thalamic DBS,
+(2) the real depth-EEG dataset used for model tuning and, (3)
+the signal processing methods used for characterizing real and
+simulated EEG signals.
+MODEL OF THE THALAMOCORTICAL LOOP
+
+In order to study the effects of thalamic DBS on cortical dynamics,
+we implemented a physiologically-plausible mesoscopic model
+of the thalamocortical loop. This model accounts for the average activity of both cortical and thalamic compartments which
+include various types of neuronal populations interacting via
+synaptic transmission. This modeling approach was first proposed in the early 70s (Wilson and Cowan, 1972) and further
+enriched in order to interpret electrophysiological recordings and
+study brain dynamics, in the olfactory (Freeman, 1973) and the
+thalamocortical (Lopes Da Silva et al., 1974) system, for instance,
+as well as the dynamics of cortical oscillations (Nunez, 1974). This
+approach was then developed by other research groups in the context of state changes in brain dynamics (Wright et al., 1985), visual
+evoked potentials (Jansen et al., 1993), dynamics of the human
+alpha rhythm (Stam et al., 1999) or pathophysiological mechanisms of ictal transitions in epilepsy (Wendling et al., 2000, 2002;
+Suffczynski et al., 2001; Robinson et al., 2002; Liley and Bojak,
+2005; Breakspear et al., 2006). Later, neural mass models were
+also used in studies dealing with the connectivity among cortical
+regions and the impact of model parameters on the power spectrum of EEG or MEG signals (Robinson et al., 1997; David and
+Friston, 2003; Zavaglia et al., 2006).
+Model architecture
+
+The model architecture was inspired from previously published
+models of the thalamocortical loop (Suffczynski et al., 2004; Lopes
+Da Silva, 2006; Roberts and Robinson, 2008; Crunelli et al., 2011).
+In a global view, the model was built of three interconnected
+compartments: a cortical compartment, a thalamic compartment,
+and a reticular compartment, in accordance with previously published models (Figure 1A) and with anatomical data (Figure 1B).
+Each compartment includes one or several subpopulation(s) of
+neurons, either excitatory or inhibitory. Generally speaking, the
+input/output functions of a considered subpopulation are represented by two mathematical equations that were respectively
+named “pulse-to-wave” (input) and “wave-to-pulse” (output) by
+Walter Freeman (Freeman, 1992). The former is a linear transfer
+function that converts the presynaptic average density of afferent action potentials into an average postsynaptic membrane
+potential (PSP), either excitatory (EPSP) or inhibitory (IPSP).
+The output function is a static nonlinear function (sigmoid) that
+
+www.frontiersin.org
+
+July 2013 | Volume 7 | Article 94 | 2
+
+Mina et al.
+
+Frequency-dependent effects of DBS
+
+FIGURE 1 | Model of the thalamocortical loop. (A) The model
+architecture comprises three main compartments: cortical, thalamic, and
+reticular. The cortical compartment includes three subpopulations: P
+(pyramidal principal neurons), I1C (soma- and proximal-dendrite targeting
+interneurons mediating GABAA, fast currents), and I2C , (dendrite-targeting
+interneurons mediating GABAA, slow currents). The thalamic compartment
+represents a generic thalamic nucleus including a subpopulation of
+excitatory thalamocortical (TC) cells. The reticular nucleus (RtN)
+
+provides the average pulse density of action potentials fired by
+neurons depending on the sum of EPSPs and IPSPs at the input.
+This non-linear function accounts for threshold and saturation
+effects that take place at the somas and initial axonal segments of
+considered cells.
+Formally, the input function is represented by a second order
+low-pass filter H(s) = W/(s+1/τw )2 (where s is the Laplace
+variable). The impulse response of this filter is given by
+h(t) =
+
+W
+· t · e−t/τw
+τw
+
+(1)
+
+Parameters W and τw are tuned such that h(t) approximates the shape of real excitatory (glutamatergic) or inhibitory
+(GABAergic) postsynaptic potentials (Lopes Da Silva et al., 1976).
+The quantity W.τ2w is the static gain of filter h. Lumped parameter τw (expressed in s) is linked to the kinetics of synaptic
+currents. It determines both the rise time (trise = τw ) and the
+decay time (tdecay = 3.146τw ) of the second order filter impulse
+response h and it is usually adjusted with respect to the physiological rise and decay times of actual PSPs (Molaee-Ardekani
+et al., 2010). Given the time constantτw , parameter W can be used
+to adjust the sensitivity of synapses (the maximal PSP amplitude
+is W.e−1 ). An alternative implementation of the h function was
+introduced in Bojak and Liley (2005) and is described in detail
+in Molaee-Ardekani et al. (2013). It is based on a bi-exponential
+pulse-to-wave function with two time constant parameters. This
+implementation allows for the separate adjustment of the rise
+and decay times of PSPs, and therefore a better approximation of
+actual PSPs in some circumstances. Besides, the output function
+
+Frontiers in Computational Neuroscience
+
+compartment is made up of two GABAergic neuronal populations
+(I1Rt , GABAA, fast currents and I2Rt , GABAA, slow ). Excitatory synaptic
+transmission among the considered subpopulations is glutamatergic
+(GLU). (B) Anatomical connectivity of the CMN, PMC, and RtN. This
+diagram represents the anatomy of a particular thalamocortical loop
+interconnecting the CM thalamic nucleus, the PMC, and the RtN.
+Connectivity patterns were inferred from the literature. It is compatible
+with the thalamocortical model diagram presented in (A).
+
+2e0
+, where 2e0 is the maximum firis represented by S(v) =
+1+er(v0 −v)
+ing rate, v0 is the postsynaptic potential corresponding to a firing
+rate of e0 and r is the steepness of the sigmoid.
+
+The cortical compartment
+
+The cortical compartment was inspired from an existing model
+of the neocortex which proved its capability of generating both
+normal and epileptiform activity. Readers may refer to MolaeeArdekani et al. (2010) for details. In brief, the cortical compartment integrates a subpopulation of pyramidal cells (P, W =
+AC , τw = τac in Equation 1) and two inhibitory neuronal populations (I1c and I2c , Figure 1A) representing soma- and proximaldendrite targeting interneurons (GABAA, fast currents, W =
+GC , τw = τgc in Equation 1) and dendrite-targeting interneurons (GABAA, slow currents, W = BC , τw = τbc in Equation 1),
+respectively. Pyramidal collateral excitation was implemented as
+in Jansen et al. (1993).
+In addition, these three cortical subpopulations receive excitatory input from the thalamic compartment. Therefore, feedforward inhibition (FFI) is represented in the model as the two
+subpopulations of interneurons project to the pyramidal subpopulation (see The Thalamic and Reticular Compartments paragraph
+below).
+Short-term synaptic depression (STD)
+
+STD is present in the neocortex (Boudreau and Ferster, 2005). It
+can be potentially involved in the context of direct stimulation
+of the thalamus as TC cells directly project to cortical pyramidal cells. Consequently, this mechanism was implemented at the
+interface of thalamic/cortical compartments. To our knowledge,
+
+www.frontiersin.org
+
+July 2013 | Volume 7 | Article 94 | 3
+
+Mina et al.
+
+Frequency-dependent effects of DBS
+
+an implementation of STD in neural mass models has not been
+proposed before.
+In our model, we represented a modulatory effect of the
+amplitude of the average EPSP (parameter AC ’) at the level of
+subpopulation P depending on the density of action potentials
+[dAP (t)] coming from the thalamic compartment. This modulatory effect was obtained by multiplying AC ’ by a time-varying
+coefficient κ(t) ∈ [0.6, 1] where the function describing the evolution of κ(t) was derived from Chung et al. (2002). This study
+shows that: (i) cortical EPSPs drop by 40% under periodic lowfrequency intense thalamocortical (TC) cell firing and, (ii) this
+drop in cortical EPSP is directly linked to transient depression of
+thalamocortical monosynaptic projections to pyramidal neurons.
+In line with these observations, STD was implemented as fol(t)
+lows. First, signal dAP is low-pass filtered (cutoff frequency =
+10 Hz) to restrict the STD effect to LFS. Then, from each time tη at
+f
+which the filtered signal dAP (t) exceeds a firing rate equal to η, the
+κ(t) coefficient undertakes an exponential decay given by κ(t) =
+κη · e−t/τ where κη = κ(tη− ) and where tη− is the time instant that
+just precedes tη . The decrease of κ(t) is limited to the time interval [tη + 0.45 s] and cannot exceed 40%, total. Parameters η and
+τ were set to 0.8 and 8 s, respectively.
+The thalamic and reticular compartments
+
+The thalamic compartment was limited to one population of excitatory neurons (known as glutamatergic thalamocortical - TC
+- cells) receiving glutamatergic EPSPs (W = ATh , τw = τaTh in
+Equation 1) from cortical pyramidal cells (P) and GABAergic
+IPSPs with slow (W = BTh , τw = τbTh in Equation 1) and fast
+(W = GTh , τw = τgTh in Equation 1) kinetics from the reticular
+compartment (RtN). Here, we increased the time constant (τbTh )
+with respect to τbc to account for both GABAA, slow - and GABAB receptor mediated currents in a single variable. TC cells directly
+target both cortical pyramidal cells and interneurons. The activation of these GABAergic interneurons subsequently promotes
+inhibition of pyramidal cells after a di-synaptic delay. Therefore,
+TC cells activation induces first an EPSP followed later on by an
+IPSP on cortical pyramidal cells, resulting in feed-forward inhibition (FFI). The RtN compartment comprised two inhibitory subpopulations, namely I1RT and I2RT which both receive excitatory
+input from the cortical (W = ARt , τw = τaRt in Equation 1) and
+the thalamic (W = ARt , τw = τaRt in Equation 1) compartments.
+Simulation of stimulation effects
+
+Stimulation currents induce a perturbation of the membrane
+potential of neurons. At cellular level, this effect can be accounted
+for by the “λE model”, which is well grounded in the biophysics of compartment models (Rattay, 1998; McIntyre et al.,
+2004a; Manola et al., 2005, 2007) (see Miranda et al., 2009 for
+a review) and supported by in vitro experiments (Bikson et al.,
+2004; Frohlich and McCormick, 2010). This model V ≈ λ.E
+approximates the membrane potential variation V as a linear
+function of the electrical field E induced by stimulation (λ representing the membrane space constant). In our neural mass model,
+the situation is less straightforward as space is not explicitly represented, conversely to detailed or mean-field models. However,
+within a certain range of intensity values, it has been shown that
+
+Frontiers in Computational Neuroscience
+
+the membrane potential variation V is modified in a linear way
+with respect to the electrical field which is itself proportional
+to the stimulation intensity (Bikson et al., 2004). These considerations led us to also assume a linear variation for the mean
+membrane potential as a function of stimulation intensity, in
+stimulated sub-populations of neurons. In addition, stimulation
+was represented by a train of periodic monophasic depolarizing
+pulses. The pulse width was fixed to 1 ms (as in clinics). Pulses
+were low-pass filtered to account for the average time of repolarization (set to 4.8 ms) in stimulated sub-populations of cells. The
+resulting stimulation signal was added to the mean membrane
+potential of neuronal sub-populations included in the thalamic
+(TC) and reticular (I1RT and I2RT ) compartments of the proposed
+model. The depolarizing effect was weighted by three coefficients
+STC , SRt1 and SRt2 (Table 1) accounting for the possibly different
+stimulation impact at the thalamic and reticular level.
+Model parameters, outputs, and implementation
+
+Parameter values as well as physiological interpretation are provided in Table 1. Note that each synaptic connection in the model
+is weighted by a connectivity constant denoted by CSP1−SP2 where
+SP1 and SP2, respectively, denote the source and target subpopulations. In addition, two Gaussian noise inputs pP (t)∼ N(μP , σP )
+and pTC (t)∼ N(μTC , σTC ) were used to represent nonspecific
+inputs on pyramidal and thalamocortical cell subpopulations.
+Finally, signals simulated at the level of pyramidal cells in the
+cortical compartment and at the level of TC cells in the thalamic
+compartment were chosen as model outputs. They correspond
+to the sum of PSPs at each compartment respectively. The temporal dynamics of these signals provide a good approximation
+of actual LFPs. The model was implemented in Simulink®,
+and all other complementary scripts were implemented
+in MATLAB®.
+REAL DATA FOR MODEL TUNING
+
+We used real clinical data to tune the model into a functioning mode which simulates pathological activity. The clinical data set was limited to a unique patient who underwent
+thalamic DBS during the presurgical intracerebral EEG exploration (iEEG performed with depth electrodes implanted under
+stereotaxic conditions) at the Epilepsy Surgery Unit, Rennes
+University Hospital. This particular patient was chosen for
+two main reasons: (1) the pronounced frequency-dependent
+stimulation effects observed during his preoperative diagnostic iEEG exploration at LF, IF and HF in addition to (2) the
+existence of an epileptogenic zone in a limited area of the
+premotor cortex (PMC).
+In brief, this patient suffered from partial drug-resistant
+epilepsy since the age of two. MRI scans and EEG recordings
+pointed out the existence of a neuronal malformation known
+as FCD in the PMC at the origin of seizures. This type of
+cortical malformation is known for its epileptogenic features
+like neuronal hyperexcitability and hypersynchronization and its
+characteristic epileptiform discharges (continuous, rhythmic or
+semirhythmic spikes, and polyspikes) (Avoli et al., 2003; Palmini,
+2010) as shown in Figure 2C. Based on various clinical studies reporting the modulation of epileptic cortical activity by the
+
+www.frontiersin.org
+
+July 2013 | Volume 7 | Article 94 | 4
+
+Mina et al.
+
+Frequency-dependent effects of DBS
+
+Table 1 | Model parameters, values and interpretation.
+Parameter
+
+Value
+
+Interpretation
+
+AC
+
+6 (optimized, pathological)
+3 (normal) mV
+
+Amplitude of the cortical average EPSP
+
+AC ’
+
+κ(t).AC mV
+
+Amplitude of the cortical average EPSP in response to thalamic input (only on
+subpopulation P)
+
+BC
+
+14 (optimized, pathological)
+50 (normal) mV
+
+Amplitude of the cortical average IPSP (GABAA,slow mediated currents)
+
+GC
+
+16.5 (optimized,
+pathological)
+22 (normal) mV
+
+Amplitude of the cortical average IPSP (GABAA,fast mediated currents)
+
+ATh
+
+3.5 mV
+
+Amplitude of the thalamic average EPSP
+
+BTh
+
+30 mV
+
+Amplitude of the thalamic average IPSP (GABAA,slow and GABAB receptors)
+
+GTh
+
+22 mV
+
+Amplitude of the thalamic average IPSP (GABAA,fast receptors)
+
+ARt
+
+3.5 mV
+
+Amplitude of the reticular average EPSP
+
+τac
+
+1/80 s
+
+Time constant of cortical glutamate-mediated synaptic transmission.
+
+τbc
+
+1/35 s
+
+Time constant of cortical GABA-mediated synaptic transmission (GABAA, slow receptors)
+Time constant of cortical GABA-mediated synaptic transmission (GABAA, fast receptors)
+
+τgc
+
+1/180 s
+
+τaTh
+
+1/100 s
+
+Time constant of thalamic glutamate-mediated synaptic transmission
+
+τbTh
+
+1/20 s
+
+Time constant of thalamic GABA-mediated synaptic transmission (GABAA, slow and
+GABAB receptors)
+
+τgTh
+
+1/150 s
+
+Time constant of thalamic GABA-mediated synaptic transmission (GABAA, fast receptors)
+
+τaRt
+
+1/100 s
+
+Time constant of reticular glutamate-mediated synaptic transmission
+
+ν0 , e0 , r
+
+ν0 = 6mV, e0 = 2.5 s−1
+r = 0.56mV−1
+
+Parameters of the nonlinear sigmoid function (transforming the average membrane
+potential to an average density of action potentials)
+
+CP−P
+
+135
+
+Collateral excitation connectivity constant
+
+CP −P
+
+108
+
+Collateral excitation connectivity constant
+
+CP−I C
+
+33.75
+
+P to I2C connectivity constant
+
+CI C −P
+
+33.75
+
+I2C to P connectivity constant
+
+CP−I C
+
+40.5
+
+P to I1C connectivity constant
+
+CI C −I C
+
+13.5
+
+I1C to I2C connectivity constant
+
+CI C −P
+
+91.125
+
+I1C to P connectivity constant
+
+CTC−P
+
+120
+
+TC to P connectivity constant
+
+CTC−I C
+
+30
+
+TC to I1C connectivity constant
+
+CTC−I C
+
+45
+
+TC to I2C connectivity constant
+
+CTC−I Rt
+
+20
+
+TC to I1Rt connectivity constant
+
+CTC−I Rt
+
+20
+
+TC to I2Rt connectivity constant
+
+CP−I Rt
+
+30
+
+P to I1Rt connectivity constant
+
+CP−I Rt
+
+30
+
+P to I2Rt connectivity constant
+
+CP−TC
+
+20
+
+P to TC connectivity constant
+
+CI Rt −TC
+
+35
+
+I1Rt to TC connectivity constant
+
+CI Rt −TC
+
+5
+
+I2Rt to TC connectivity constant
+
+μP1
+
+0
+
+Mean of nonspecific cortical input
+
+μP2
+
+70
+
+Mean of nonspecific subcortical input
+
+σP1
+
+20.v6
+
+Standard deviation of nonspecific cortical input
+
+σP2
+
+35.v6
+
+Standard deviation of nonspecific subcortical input
+
+STC
+
+5
+
+Stimulation impact on subpopulation TC
+
+SRt1
+
+4
+
+Stimulation impact on subpopulation I1Rt
+
+SRt2
+
+4
+
+Stimulation impact on subpopulation I2Rt
+
+fs
+
+1Hz – 150Hz
+
+Frequency of the stimulation signal (pulse train)
+
+Afs
+
+1
+
+Stimulation signal amplitude
+
+2
+
+2
+
+1
+
+2
+
+1
+
+1
+
+1
+2
+1
+2
+
+1
+2
+
+1
+2
+
+Model parameters used to reproduce LFPsFCD . Stimulation impact parameters STC , SRt1 and SRt2 are set to zero during the simulation of the NS scenario. These
+parameters are held constant for all other stimulation scenarios.
+
+Frontiers in Computational Neuroscience
+
+www.frontiersin.org
+
+July 2013 | Volume 7 | Article 94 | 5
+
+Mina et al.
+
+Frequency-dependent effects of DBS
+
+signals corresponding to either typical pathological activity or
+modulated activity (depending on stimulation conditions) were
+used to optimize the model parameters.
+PROCESSING OF REAL AND SIMULATED SIGNALS
+
+FIGURE 2 | Frequency-dependent stimulation effects: real data. iEEG
+signals recorded during presurgical depth-EEG exploration in a patient with
+drug-resistant epilepsy. (A) MRI data showing the FCD (focal cortical
+dysplasia in the PMC) and the electrode trajectory. The red dot marks the
+position of the depth electrode in the FCD. (B) Zoom on the FCD. (C) DBS
+of the CMN modulated the pathological activity of the FCD in a
+frequency-dependent manner. LFS (2 Hz) and HFS (≥70 Hz) suppressed
+pathological oscillations. IFS (50 Hz) had no effects.
+
+stimulation of the CM nucleus (Velasco et al., 1995, 1997, 2000,
+2001, 2007), it was decided by neurologists and neursosurgeons to
+implant a depth electrode in this nucleus, as potentially beneficial
+for the patient who gave his informed consent.
+During the presurgical exploration, the stimulation of the thalamic CM nucleus (CMN) induced frequency-dependent modulation of the pathologic activity of the FCD (Figure 2). Readers
+may refer to (Pasnicu et al., 2013) for detailed information.
+Interestingly, LFS (2 Hz, 4 mA) and HFS (70, 100, and 150 Hz,
+0.8 mA) desynchronized the pathological activity of the FCD,
+while IFS (50 Hz, 0.8 mA) barely affected it. These segments of
+
+Frontiers in Computational Neuroscience
+
+The use of signal processing techniques was necessary (i) to
+quantify the above-described effects of stimulation in real iEEG
+signals, and (ii) to define a feature-vector-based cost function for
+model parameter optimization. Figure 3A illustrates the feature
+extraction methodology. iEEG signals recorded in the FCD in
+absence of stimulation (LFPsFCD ) and under different stimulation
+conditions were decomposed using an orthogonal matching pursuit algorithm [matching pursuit toolkit—MPTK—(Krstulovic
+and Gribonval, 2006)]. First introduced in 1993 (Mallat and
+Zhifeng, 1993), matching pursuit is signal processing algorithm
+used to decompose any time series into a linear sum of waveforms selected from a predefined dictionary based on a mother
+wavelet. To proceed, a proper multi-scalar dictionary of Gabor,
+Fourier, and Dirac atoms was first defined to account for real
+iEEG signal components (time-frequency atoms are waveforms
+well localized in both the time and the frequency domains). In line
+with (Krstulovic and Gribonval, 2006), the multi-scalar dictionary was formed by translation in time and amplitude/frequency
+modulation of atoms (defined as Gabor and Fourier functions
+in our case), over ten different user-defined time scales (i.e. the
+atom durations, ranging from 0.125 to 5 s). Then, the algorithm
+provided a table of time-frequency parameters associated to the
+detected atoms (atom type, central frequency, phase, scale, amplitude, position). Identified atoms were reconstructed using the
+extracted parameter table and their analytical expression. They
+were then associated to a given frequency band depending on
+their central frequency. These frequency bands corresponded to
+the classical EEG bands as defined in normal adults (δ1 [0 –
+1.9Hz], δ2 [1.9 – 3.4 Hz], θ1 [3.4 – 5.4 Hz], θ2 [5.4 – 7.4 Hz], α1
+[7.4 – 10 Hz], α2 [10 – 12 Hz], β1 [12 –18 Hz], β2 [18 – 24 Hz],
+γ [24 – 128 Hz]) (Figure 3A, blue). Finally, a 9D feature vector
+VF was defined from the normalized energy distribution in these
+frequency bands, itself computed as the sum of averaged (over
+time) atom energies relative to the total signal energy (Figure 3A,
+green).
+MODEL OPTIMIZATION UNDER THE “NO STIMULATION” CONDITION
+
+In order to simulate LFPsFCD , we optimized the excitation/inhibition ratio of the cortical compartment. Thus, the
+average EPSP/IPSP amplitude parameters of the cortical compartment {AC , BC , GC } were considered as free parameters
+while all other model parameters were set to fixed values
+(Table 1). The optimization method is illustrated in Figure 3B.
+For each triplet {AC , BC , GC }, the feature vector VF, model of
+the model’s output signal (cortical compartment’s LFP) was calculated and compared to VF, real , i.e., the feature vector computed from the average of the 20 feature vectors, each computed on a 5 s signal segment of real LFPsFCD . Feature vectors
+VF, model and VF, real were computed as described in section
+Processing of Real and Simulated Signals. The optimization procedure aimed at finding the triplet A C , B C , GC that minimizes a cost function simply corresponding to the Euclidean
+
+www.frontiersin.org
+
+July 2013 | Volume 7 | Article 94 | 6
+
+Mina et al.
+
+Frequency-dependent effects of DBS
+
+FIGURE 3 | iEEG signal processing. (A) Feature vector extraction. Input
+signals were characterized using the matching pursuit (MP) method
+(dictionary of Gabor, Fourier, and Dirac atoms). Parameters of detected atoms
+(atom type, central frequency fc , scale, phase, amplitude, and position) are
+extracted by MP from input signals. Detected atoms are then associated with
+frequency bands (δ1 to γ) depending on their proper central frequency.
+Sub-band (δ1 to γ) signals were reconstructed from the sum of corresponding
+
+distance d(VF, real , VF, model ) when parameters AC , BC , and GC
+span pre-defined ranges of values according to a Brute-Force
+procedure.
+
+RESULTS
+In this section, results regarding the identification of cellular mechanisms underlying the modulation of cortical activity
+by thalamic DBS are reported. First, the model capability to
+reproduce signals similar to those recorded from the FCD in
+the patient was assessed, under two conditions (no stimulation and during stimulation). Three mechanisms contributing
+to frequency-dependant stimulation effects could be identified.
+Then, simulations were performed to analyze the marginal or
+joint contribution of these mechanisms at low, intermediate or
+high frequency stimulation.
+
+Frontiers in Computational Neuroscience
+
+atoms, themselves obtained by fitting parameters into their analytic
+expression (see top left: input and reconstructed signals). The normalized
+energy vector [E(δ1 ) . . . E(γ)]/(E(δ1 ) + . . . + E(γ)] was chosen as the feature
+vector for further optimization of model parameters. (B) The model’s free
+parameters AC , BC , and GC were optimized by minimizing the distance
+between the feature vector VF, model of the simulated cortical LFP and the
+average of real feature vectors VF, real of LFPsFCD .
+
+SIMULATION OF LFPsFCD UNDER NO STIMULATION CONDITION
+
+As a first step, we verified the ability of the model to generate signals that resemble those recorded from the FCD in
+the considered patient (LFPsFCD ). This procedure, described in
+sections Processing of Real and Simulated Signals and Model
+Optimization Under the “No Stimulation” Condition, led us to
+identify a minimal distance (Figures 4A–C) and thus an optimal
+parameter vector A C , B C , GC = {6, 14, 16.5} for which simulated signals under the no stimulation condition have similar
+features as compared with those of real signals (Figure 4D).
+SIMULATION OF LFPsFCD UNDER STIMULATION CONDITIONS
+
+Actual LFPsFCD recorded at various stimulation frequencies (2,
+50, 70, 100, and 150 Hz) were first characterized using the
+matching pursuit method described in section Processing of
+
+www.frontiersin.org
+
+July 2013 | Volume 7 | Article 94 | 7
+
+Mina et al.
+
+Frequency-dependent effects of DBS
+
+FIGURE 4 | Model parameter optimization. Normalized Euclidian
+distance between VE, real and VE, model . Best fit (gray disk) between
+simulated and real LFPsFCD was obtained for (A) AC = 6, (B) BC = 14,
+and (C) GC = 16.5. (D) For these modified values of excitation and
+
+Real and Simulated Signals (Figure 3A). Results are shown in
+Figure 5A where feature vectors of segments of LFPsFCD are
+represented in a 3D space where axes correspond to merged typical EEG frequency bands (δ2 to θ1 , θ2 to β1 , β2 to γ). Results
+show that the distribution of points in the 3D frequency space
+is not random but clustered, indicating that the frequency content of LFPsFCD segments depends on the stimulation frequency.
+In addition, some clusters are very close. This is typically the
+case for i) the no stimulation (yellow) and the 50 Hz stimulation conditions (red) on the one hand, and ii) the 70 Hz (violet)
+and 150 Hz (cyan) stimulation conditions on the other hand.
+To go beyond the qualitative clustering performed by visual
+inspection of 3D plots, a K-means clustering algorithm implemented in MATLAB and using a Mahalanobis distance was used
+to automatically detect the three types of stimulation effects.
+Initial centroids were randomly chosen. The optimal clustering that globally minimizes intra-cluster inertia is presented in
+Figure 5B. LFPsFCD segments were automatically classified into
+three subgroups. The first subgroup contains LFPsFCD segments
+obtained for low-frequency stimulation (LFS). The second subgroup gathers all segments recorded for high frequency stimulations (HFS, > 70 Hz). And finally, in the third subgroup,
+segments obtained under the no stimulation and the intermediate stimulation frequency (IFS, 50 Hz) conditions are merged
+
+Frontiers in Computational Neuroscience
+
+inhibition, the simulated signal exhibits similar characteristics as the iEEG
+signal recorded in the FCD. For standard values of excitation and
+inhibition (AC = 3, BC = 50, GC = 22), the model generates background
+EEG activity.
+
+together, suggesting that this stimulation frequency does not
+reduce the “epileptiform aspect” of the activity reflected in the
+LFP.
+Based on this characterization of local field potentials recorded
+in the FCD (LFPsFCD ), parameters STC , SRt1 and SRt2 were manually tuned to lead the model to generate simulated signals which
+have spectral characteristics similar to those of actual LFPsFCD .
+Such a manual procedure was sufficient to reproduce stimulation
+effects observed in one patient. However, extending the study to
+a larger group of patients would have made imperative an automated parameter fitting procedure based on the spectral characteristics of real EEG signals as in Rowe et al. (2004). Figure 5B
+shows the projection of representative simulated LFPsFCD in the
+3D frequency space (“M” triangles). As depicted, simulated signals obtained for LFS, IFS and HFS were close to corresponding
+clusters obtained from real signals for the exact same computation
+of feature vectors. Shown in Figure 5C, these representatives simulated LFPsFCD do not perfectly match actual signals. However,
+qualitatively similar bifurcations were observed in the model
+when the stimulation conditions are changed. Indeed, under the
+no stimulation (NS) and the IFS condition the model generates
+rhythmic slow oscillations (δ) with superimposed faster activity
+(β, γ), as observed in real data. For LFS and HFS conditions,
+strong modulation of this activity was also obtained in the model.
+
+www.frontiersin.org
+
+July 2013 | Volume 7 | Article 94 | 8
+
+Mina et al.
+
+Frequency-dependent effects of DBS
+
+FIGURE 5 | Characterization and classification of real and simulated
+data. (A) 3-dimensional (3D) projection of feature vectors (VF, real )
+corresponding to different stimulation conditions. This projection was
+obtained by summing some coordinates of initial 9D feature vectors to
+get 3D vectors [E(δ2 )+E(θ1 ), E(θ2 )+E(α1 )+E(α2 )+E(β1 ),
+E(β2 )+E(γ)]/ [E(δ1 )+ · · · + E(γ)]. Each vector was then represented by a
+point in the 3D space (δ2 +θ1 , θ2 + α1 + α2 + β1 , β2 + γ).Three main
+classes can be visually identified. (B) Clusters obtained using the
+
+At LFS, in the model, the slow wave activity was strongly reduced
+but spike events occurred in the signals at the instant times of
+stimulation, mimicking, to some extent, comparable events also
+present in actual LFPsFCD . Finally, at HFS, slow oscillations (δ)
+were abolished in the model which generates quasi-normal background activity. This simulated activity was also comparable to
+real activity observed for HFS stimulation but disclosed less γ
+activity. Note that these are the effects which were quantified in
+Figure 5B. The qualitative optimization procedure of parameters STC , SRt1 , and SRt2 was then complemented by an evaluation
+of parameter sensitivity aimed at studying the impact of random changes affecting the parameter vector = {AC , BC , GC ,
+ATh , BTh , GTh , ARt } on simulated signals. Parameter vector
+determines the excitability properties in the three model compartments. As shown in Figure 6, results show that the simulated
+signals obtained under the four stimulation conditions (NS, LFS,
+IFS, HFS) stay “quite robust” (in the sense that waveforms are
+conserved) when parameters stay in the range [
+0 ≤ ζ ≤ 0.2.
+
+± ζ.
+
+] with
+
+MECHANISMS UNDERLYING FREQUENCY-DEPENDANT STIMULATION
+EFFECTS
+
+Three main mechanisms implemented in the model are required
+to mimic actually observed effects of the CM nucleus stimulation. These mechanisms are the following: (i) the presence of
+feed-forward inhibition (FFI) at the level of thalamic projections
+
+Frontiers in Computational Neuroscience
+
+k-means algorithm (Mahalanobis distance). The three clusters correspond
+to (i) low-frequency stimulation (LFS) effects (green squares), (ii) no
+stimulation (NS) and intermediate-frequency stimulation (IFS) effects
+(yellow squares), and (iii) high-frequency stimulation (HFS) effects (blue
+squares). Simulated signals corresponding to the four types of scenarios
+(NS, LFS, IFS, and HFS) were also projected in the same space
+(triangles). (C) Two-second segments of real and simulated signal during
+NS, LFS, IFS, and HFS.
+
+to the FCD, (ii) the presence of short-term depression (STD) at
+the level of the thalamocortical glutamatergic synapses and, (iii)
+the depolarization of RtN inhibitory interneurons targeting TC
+cells.
+This result raises an additional question: to what extent
+the joint effect of these mechanisms is necessary to reproduce
+frequency-dependant stimulation effects (LFS, IFS, and HFS).
+In order to assess their individual contribution, we performed
+simulations where each mechanism was either present in—or
+removed from—the model (the model parameters remaining
+unchanged). Results are displayed in Figure 7. First, they confirmed that both FFI and STD mechanisms are jointly necessary in the model to suppress the epileptic activity in the
+FCD when LFS is being used since the withdrawal of either
+STD or FFI leads the model to generate epileptic activity at
+LFS. Second, results indicated that the RtN inhibitory interneurons targeting TC cells (both I1RT and I2RT subpopulations)
+must be affected (i.e., depolarized) by the stimulation to obtain
+a suppression of epileptic activity when HFS is being used,
+as observed in the patient. Third, and interestingly, an unexpected effect was observed at IFS when the depolarization of
+I2RT interneurons was removed from the model. Indeed, epileptic activity was abolished in this case, which is really unlikely
+to occur during actual stimulation as both subtypes of neurons
+are expected to be affected by the direct stimulation of the CM
+nucleus.
+
+www.frontiersin.org
+
+July 2013 | Volume 7 | Article 94 | 9
+
+Mina et al.
+
+Frequency-dependent effects of DBS
+
+FIGURE 6 | Evaluation of parameter sensitivity. Model output sensitivity to
+variations of excitatory and inhibitory key parameters. Realizations of
+parameter vector = {AC , BC , GC , ATh , BTh , GTh , ARt } were randomly
+(uniform law) generated around the optimal parameter vector 0 over a
+
+These results were complemented by a deeper analysis of the
+thalamic output (i.e., the firing rate of TC cells) in response to
+stimulation at low, intermediate and high frequency. Results are
+provided in Figure 8. First, they showed that the thalamic output dramatically differs depending on the stimulation frequency
+(Figure 8A). Under the no stimulation condition, the firing rate
+continuously oscillates around a certain value (referred to as
+, Figure 8A). At LFS, the firing rate was found to be lower,
+except at the stimulation times where it abruptly and transiently
+increased. At IFS, a balance was observed between time intervals for which the TC firing is above and below . Finally, at
+HFS, the output of TC cells was found to be very low, i.e., systematically under the threshold . From these observations, we
+could define (i) two time intervals, 1 and 2, for which the
+TC cells firing rate is either below ( 1) or above
+( 2)
+and (ii) a “high to low firing” ratio (HtoLR) which provides
+an indication on the amount of time the TC cells spend firing (up state) relatively to the amount of time they do not fire
+(down state). Figure 8B provides the evolution of the HtoLR
+when the stimulation frequency is progressively changing from 0
+to 150 Hz in the model. As depicted, these simulations indicated
+that three stimulation frequency ranges have dramatic effects on
+the firing of TC cells. First, from 0 to 20 Hz, the down state
+
+Frontiers in Computational Neuroscience
+
+variation domain defined by (1 ±ζ). 0 . For ζ ≤ 0.2 (±20% variation),
+stimulation effects are preserved in the model for (A) no stimulation,
+(B) low-frequency stimulation, (C) intermediate-frequency stimulation, and
+(D) high-frequency stimulation.
+
+is predominant. Then, an abrupt jump was observed around
+22 Hz indicating that beyond this value, the firing rate dramatically increased. Interestingly, from 55 to 65 Hz, a progressive
+decrease of the HtoLR was observed. Then, after 70 Hz, the ratio
+is equal to zero indicating that TC cells did not fire anymore.
+Finally, in order to relate the thalamic activity with the cortical activity, we plotted the phase portraits (TC cell firing vs.
+cortical LFP) as illustrated in Figure 8C. Results confirmed the
+visual inspection of signals simulated at the two sites. For the
+no stimulation (NS) and for the intermediate frequency stimulation (IFS) conditions, phase portraits were found to be quite
+similar. They indicated the presence of mixed slow/fast oscillations in both signals. For the low frequency stimulation (LFS)
+condition, oscillations in the simulated LFP in the FCD were
+reduced. They came along with short-duration, abrupt and rhythmic augmentations of the TC firing corresponding to stimulation
+pulses. Finally, for the high frequency stimulation (HFS) condition, oscillations in both types of activity stayed confined to small
+amplitude values.
+
+DISCUSSION
+We modeled the thalamocortical loop in order to investigate
+frequency-dependent effects of electrical stimulation performed
+
+www.frontiersin.org
+
+July 2013 | Volume 7 | Article 94 | 10
+
+Mina et al.
+
+Frequency-dependent effects of DBS
+
+FIGURE 7 | Conditions to reproduce frequency-dependent
+stimulation effects. Model output in the case where one of the
+implemented mechanisms (FFI, STD, depolarization of I2Rt , and I1Rt „
+respectively) is removed at a time. LFS effects are not reproduced
+when the model does not account for FFI and STD. HFS effects
+
+in the thalamus and aimed at modulating the neocortical activity. We chose to elaborate our model at a mesoscopic level, i.e.,
+intermediate between microsocopic and macroscopic.
+Regarding the model architecture, we followed a similar
+approach to that used in previously proposed models of the thalamocortical loop (Robinson et al., 2002; Suffczynski et al., 2004;
+Breakspear et al., 2006; Roberts and Robinson, 2008; Marten et al.,
+2009; Crunelli et al., 2011). Our model includes three main compartments: cerebral cortex, reticular nucleus and thalamic relay.
+Subpopulations of neurons and interneurons located in these
+three structures interact via excitatory and/or inhibitory synaptic
+connections. The novelty with respect to aforementioned studies is threefold. First, we modified the cortical compartment in
+order to better approximate the temporal dynamics of epileptic
+signals recorded in the FCD. This modification consisted in the
+use of two types of interneurons (mediating GABAergic IPSPs
+with slow and fast kinetics on cortical principal cells), as reported
+in a previous study (Molaee-Ardekani et al., 2010). Second, our
+model accounts for the direct effects of electrical stimulation. At
+this stage, we used the V ≈ λ.E assumption according to which
+the perturbation of the mean membrane potential of neurons
+is a linear function of the electrical field magnitude induced by
+bipolar stimulation. This “λE” assumption was already used in
+neural mass models in the context of low-intensity direct hippocampal stimulation to anticipate seizures (Suffczynski et al.,
+2008) as well as in the analysis of the stimulus-response relationship of DBS in healthy animals (Adhikari et al., 2009). However,
+it is worth mentioning that in our model, the three subtypes of
+neurons (TC cells and both subpopulations of inhibitory neurons
+in the RtN) are depolarized by the stimulation, as suggested in
+
+Frontiers in Computational Neuroscience
+
+require the depolarization of both reticular populations I2Rt and I1Rt .
+Suppression of epileptic activity is observed at IFS when I2Rt
+interneurons are removed. Red dotted lines indicate situations where
+simulated signals do not match real ones for given stimulation
+condition.
+
+(Molaee-Ardekani et al., 2013) and conversely to (Adhikari et al.,
+2009) where only principal cells are impacted. And third, our
+model includes two well-known mechanisms at the cortical level:
+feed-forward inhibition (FFI) and short-term depression (STD).
+As in any modeling approach, our approach has some limitations. First, the chosen modeling level does not allow for analyzing
+sub-cellular mechanisms involved in stimulation-evoked changes.
+Similarly, it does not account for direct activation of axons by
+stimulation versus somatic inhibition (McIntyre et al., 2004b),
+nor for the mechanisms of orthodromic/antidromic propagation of action potentials due to stimulation (Degos et al., 2005;
+Hammond et al., 2007; Dorval et al., 2008). Second, a strong
+assumption in the type of model we used (neural mass) is related
+to the intrinsic synchronization among neurons included in a
+given sub-population. This assumption does not allow for representing either de- or weakly-synchronized firing patterns that
+may be observed during epileptic activity, in particular during
+high frequency oscillations that can be encountered in FCDs
+(Brázdil et al., 2010). Nevertheless, we could accurately reproduce the abnormal rhythms generated in the FCD suggesting that
+main pyramidal cells have a relatively synchronized activity in
+this epileptogenic tissue. Third, regarding plasticity-related mechanisms, we only implemented short-term effects (i.e., STD) and
+neglected long-term plastic changes that may be induced by DBS
+(Shukla et al., 2013).
+Despite these limitations, we could identify a number of
+mesoscopic factors which could explain the frequency-dependent
+mechanisms of thalamic stimulation. The model was tuned using
+electrophysiological data recorded in a patient in whom the centromedian nucleus (CMN) stimulation was particularly efficient
+
+www.frontiersin.org
+
+July 2013 | Volume 7 | Article 94 | 11
+
+Mina et al.
+
+Frequency-dependent effects of DBS
+
+FIGURE 8 | Model behavior as a function of the stimulation
+frequency. (A) The firing rate of TC cells depends on the
+stimulation frequency ( 1 : time interval for which this firing is
+lower than a threshold
+,
+2 : time interval for which this firing is
+
+to reduce the epileptic activity of a FCD located in the premotor cortex, in a frequency-specific manner. The main findings are
+summarized in Figure 9.
+
+higher than
+). (B) Evolution of the “High to Low firing Ratio”
+(HtoLR) as a function of stimulation frequency. (C) Phase portraits
+(FCD activity vs. CM firing) for the four stimulation conditions (NS,
+LFS, IFS, and HFS).
+
+pathological oscillations resembling those actually recorded in the
+FCD (Figure 9A).
+LOW-FREQUENCY STIMULATION (LFS) CONDITION
+
+“NO STIMULATION” (NS) CONDITION
+
+In the model, under the NS condition, excitation among pyramidal cells had to be increased and inhibition had to be reduced
+in the cortical compartment for producing “pathological” oscillatory rhythms, as observed in the FCD. The thalamocortical loop
+was found to be responsible for these pathological dynamics,
+characteristic of FCDs. These findings are in line with histological studies showing that these typical oscillations are generated in
+altered brain tissue, where inhibition is partially deteriorated or
+dysfunctioning (Calcagnotto et al., 2005), and where excitation is
+heavily increased (Avoli et al., 2003). In addition to neuron alterations in the dysplastic tissue (Sisodiya et al., 2009), FCD keeps
+sufficient projections to—and input from—other brain structures to propagate pathological dynamics (Avoli et al., 2003). As
+mentioned, the presence of connections with subcortical structures was a necessary condition in the model for producing
+
+Frontiers in Computational Neuroscience
+
+For the low-frequency stimulation (LFS, f < 20 Hz) condition,
+two mechanisms were found to play a major role for the abortion of epileptic activity in the FCD: short-term depression (STD,
+i.e., decreased excitatory synaptic efficacy in thalamus-to-cortex
+connections) and feed-forward inhibition (FFI, i.e., excitation of
+inhibitory cortical interneurons by TC cells) (Figure 9B).
+STD was reported in previous studies concerning cortical
+adaptation to thalamic stimulation, and suggesting that electrical
+LFS of TC cell axons in vivo resulted in a 40% reduction in cortical EPSPs (Chung et al., 2002). In the same context, LFS trains
+in adult anaesthetized rats provoked transient long-term depression of thalamocortical synapses; this was measured by up to 40%
+drop in cortical EPSPs after LFS trains and under the effect of
+GABA antagonist (Speechley et al., 2007).
+As mentioned above, the LFS effects could not be reproduced by the model without incorporating also FFI. Actually,
+
+www.frontiersin.org
+
+July 2013 | Volume 7 | Article 94 | 12
+
+Mina et al.
+
+Frequency-dependent effects of DBS
+
+FIGURE 9 | Frequency-dependent mechanisms underlying DBS. (A)
+Under the no stimulation (NS) condition, the thalamocortical loop is
+responsible for pathological oscillatory rhythms observed in the FCD. (B) For
+low-frequency stimulation (LFS), feed-forward inhibition (FFI, i.e., excitation of
+inhibitory cortical interneurons by TC cells) and short-term depression (STD,
+i.e., decreased excitatory synaptic efficacy in thalamus-to-cortex connections)
+was found to play a major role for the abortion of epileptic activity in the FCD.
+
+thalamocortical ascending fibers directly target pyramidal neurons as well as cortical GABAergic interneurons inducing EPSPs
+in both cell types (Pouille and Scanziani, 2001). In the model,
+while less efficient (STD) thalamic EPSPs arrive directly onto
+pyramidal neurons, IPSPs induced by thalamic stimulation also
+arrive on pyramidal neurons (FFI) lagging by 1–2 ms. This short
+latency between the onset of thalamocortical excitation and
+the onset of feed-forward inhibition presents a temporal “window of opportunity” for pyramidal cells to integrate excitatory
+and inhibitory inputs, thus keeping the transmembrane potential below firing threshold. In the literature, neuroanatomical
+and neurophysiological studies (Isaacson and Scanziani, 2011)
+showed the functional importance of FFI in regulating cortical dynamics by controlling cortical excitability (Gabernet et al.,
+2005). Our study suggests that LFS regulates cortical excitability
+by a dual mechanism of FFI and STD (Figure 9B).
+INTERMEDIATE-FREQUENCY STIMULATION (IFS) CONDITION
+
+For the intermediate-frequency stimulation (IFS, 20 <
+f < 70 Hz) condition, results indicated that the thalamic
+output is reinforced (increase of TC cells firing) and leads to an
+increase of the average excitatory post-synaptic potential (EPSP)
+on cortical pyramidal cells (Figure 9C). This effect corresponds
+to an increase of the spatiotemporal summation of unitary
+EPSPs. In this case, both the cortical excitability and the gain in
+the excitatory thalamocortical loop is increased, leading to “no
+anti-epileptic” effect. We did not find much studies using DBS
+stimulation in the intermediate frequency range of (20–60 Hz) in
+the context of epilepsy. Nevertheless, it is noteworthy that 50 Hz
+stimulation frequency is classically used during the presurgical
+evaluation of patient with intractable partial epilepsy in order to
+
+Frontiers in Computational Neuroscience
+
+(C) For the intermediate-frequency stimulation (IFS) condition, thalamic
+output is reinforced (increase of TC cells firing) leading to an increase of the
+average excitatory post-synaptic potential (EPSP) on cortical pyramidal cells
+and to no “anti-epileptic” effect. (D) For high-frequency stimulation (HFS), the
+direct and sustained excitation of reticular nucleus (RtN) interneurons leads
+to dramatic decrease of TC cells firing rate and to a suppression of epileptic
+activity.
+
+trigger seizures and delineate the epileptogenic zone (Talairach
+et al., 1974; Jayakar et al., 1992). The same frequency range is also
+known to provoke afterdischarges and was actually used in the
+kindling model of epilepsy (Goddard, 1967; Racine, 1972).
+HIGH-FREQUENCY STIMULATION (HFS) CONDITION
+
+Finally, for the high-frequency stimulation (HFS, f > 70 Hz) condition, the direct and sustained excitation of reticular nucleus
+(RtN) interneurons leads to strong inhibition of TC cells and
+thus to dramatic decrease of their firing rate. Despite the fact
+that TC neurons are also affected by stimulation, the response
+of reticular GABAergic neurons to stimulation and the higher
+efficiency of GABA-mediated currents ensure that IPSPs override EPSPs on TC cells. In this case, the reduced excitatory
+input to cortical pyramidal cells also leads to a suppression of
+epileptic activity (Figure 9D). This result corroborates reported
+stimulation studies where HFS (>100 Hz) was associated with
+significant decrease in epileptiform discharges in vitro, and reduction in seizure frequency in responding patients (Velasco et al.,
+2006; Fisher et al., 2010). This hypothesis is in line with recent
+findings suggesting that HFS of the globus pallidus (GPi) in dystonia patients decreased its firing by stimulation-evoked GABA
+release from afferent fibers and thereby the enhancement of
+inhibitory synaptic transmission by HFS (Liu et al., 2012).
+Similarly, HFS (100 Hz–130 Hz) of the STN neurons in vitro
+showed a suppression of the activity of the majority of neurons by the reinforcement of inhibitory responses (Filali et al.,
+2004). Other HFS studies also provided evidence on the inhibition of GPi output during HFS in human patients (Dostrovsky
+et al., 2000) as well as the disruption thalamocortical network’s
+dysrhythmia (McIntyre and Hahn, 2010; Kendall et al., 2011).
+
+www.frontiersin.org
+
+July 2013 | Volume 7 | Article 94 | 13
+
+Mina et al.
+
+Frequency-dependent effects of DBS
+
+CONCLUSION
+In epilepsy research, it is well-admitted that there is, unfortunately, a lack of tangible results regarding the effects of
+electrical stimulation in the brain. Therefore, the very crucial
+issue of choosing the “optimal” stimulation parameters remains
+unsolved, whatever the stimulation procedure. Although computational models are always based on a number of simplifying
+assumptions, we think that they provide an efficient framework to
+(i) account for the many and essential factors that may intervene
+during stimulation procedures and (ii) analyze the links between
+these factors in a formal manner. This approach is particularly
+fruitful when models are well grounded in experimental/clinical
+data (Wendling et al., 2012). This is somehow a weak point of this
+study since we could make use of data sets recorded in one patient
+only. However, it should be mentioned that these very informative data sets stay relatively rare since many conditions have to be
+met (patient candidate to surgery, FCD, electrodes positioned in
+appropriate structures).
+At this stage, the face value of the model is satisfactory. The
+next step is obviously to test the model predictions using animal
+
+REFERENCES
+Adhikari, M. H., Heeroma, J. H.,
+Di Bernardo, M., Krauskopf, B.,
+Richardson, M. P., Walker, M. C.,
+et al. (2009). Characterisation of
+cortical activity in response to deep
+brain stimulation of ventral-lateral
+nucleus: modelling and experiment.
+J. Neurosci. Methods 183, 77–85. doi:
+10.1016/j.jneumeth.2009.06.044
+Avoli, M., Louvel, J., Mattia, D., Olivier,
+A., Esposito, V., Pumain, R., et al.
+(2003). Epileptiform synchronization in the human dysplastic cortex. Epileptic Disord. 5(Suppl. 2),
+S45–S50.
+Beurrier, C., Bioulac, B., Audin, J.,
+and Hammond, C. (2001). Highfrequency stimulation produces a
+transient blockade of voltage-gated
+currents in subthalamic neurons.
+J. Neurophysiol. 85, 1351–1356.
+Bikson, M., Inoue, M., Akiyama, H.,
+Deans, J. K., Fox, J. E., Miyakawa,
+H., et al. (2004). Effects of uniform
+extracellular DC electric fields on
+excitability in rat hippocampal slices
+in vitro. J. Physiol. 557, 175–190. doi:
+10.1113/jphysiol.2003.055772
+Bojak, I., and Liley, D. T. (2005).
+Modeling the effects of anesthesia
+on the electroencephalogram.
+Phys. Rev. E Stat. Nonlin. Soft
+Matter Phys. 71:041902. doi:
+10.1103/PhysRevE.71.041902
+Boon, P., Raedt, R., De Herdt, V.,
+Wyckhuys, T., and Vonck, K.
+(2009).
+Electrical
+stimulation
+for the treatment of epilepsy.
+Neurotherapeutics 6, 218–227. doi:
+10.1016/j.nurt.2008.12.003
+Boudreau, C. E., and Ferster, D.
+(2005). Short-term depression
+
+in
+thalamocortical
+synapses
+of cat primary visual cortex.
+J. Neurosci. 25, 7179–7190. doi:
+10.1523/JNEUROSCI.1445-05.2005
+Brázdil, M., Halámek, J., Jurák, P.,
+Daniel, P., Kuba, R., Chrastina,
+J., et al. (2010). Interictal highfrequency oscillations indicate
+seizure onset zone in patients
+with focal cortical dysplasia.
+Epilepsy Res. 90, 28–32. doi:
+10.1016/j.eplepsyres.2010.03.003
+Breakspear, M., Roberts, J. A., Terry, J.
+R., Rodrigues, S., Mahant, N., and
+Robinson, P. A. (2006). A unifying
+explanation of primary generalized
+seizures through nonlinear brain
+modeling and bifurcation analysis.
+Cereb. Cortex 16, 1296–1313. doi:
+10.1093/cercor/bhj072
+Calcagnotto, M. E., Paredes, M. F.,
+Tihan, T., Barbaro, N. M., and
+Baraban, S. C. (2005). Dysfunction
+of synaptic inhibition in epilepsy
+associated with focal cortical dysplasia. J. Neurosci. 25, 9649–9657. doi:
+10.1523/JNEUROSCI.2687-05.2005
+Chung, S., Li, X., and Nelson, S.
+B. (2002). Short-term depression at thalamocortical synapses
+contributes to rapid adaptation
+of cortical sensory responses
+in vivo. Neuron 34, 437–446. doi:
+10.1016/S0896-6273(02)00659-1
+Cooper, I. S., Amin, I., and Gilman, S.
+(1973). The effect of chronic cerebellar stimulation upon epilepsy in
+man. Trans. Am. Neurol. Assoc. 98,
+192–196.
+Crunelli, V., Cope, D. W., and Terry,
+J. R. (2011). Transition to absence
+seizures and the role of GABA(A)
+receptors. Epilepsy Res. 97, 283–289.
+
+Frontiers in Computational Neuroscience
+
+models. Experiments can be undertaken in rodents with electrodes implanted in the cerebral cortex and in the thalamus.
+First, we could start with control animals to assess the modulation of cortical rhythms during/after direct thalamic stimulation
+at various frequencies and for controlled vigilance states (sleep,
+awake, resting, exploratory). In these controls, some drugs can
+be used to alter some parameters related to synaptic transmission
+(in a more or less specific manner) which have a correspondence
+in the model, on the other hand. Then, refined experimental
+models could be introduced to get closer to the epilepsy context
+including models of developmental dysplastic lesions [see review
+in Schwartzkroin and Wenzel (2012)]. Hopefully, this combined
+computational/experimental approach will help us to disclose
+some of the highly intricate effects of DBS either at local or at
+network level.
+
+ACKNOWLEDGMENTS
+This study was supported by Region Bretagne, France. The first
+author benefits from a research allocation (ARED) in the context
+of the project entitled “STIMULE.”
+David, O., and Friston, K. J. (2003). A
+neural mass model for MEG/EEG:
+coupling and neuronal dynamics.
+Neuroimage 20, 1743–1755. doi:
+10.1016/j.neuroimage.2003.07.015
+Davis, R., Engle, H., Kudzma, J.,
+Gray, E., Ryan, T., and Dusnak, A.
+(1982). Update of chronic cerebellar stimulation for spasticity and
+epilepsy. Appl. Neurophysiol. 45,
+44–50.
+Degos, B., Deniau, J. M., Thierry,
+A. M., Glowinski, J., Pezard,
+L., and Maurice, N. (2005).
+Neuroleptic-induced
+catalepsy:
+electrophysiological
+mechanisms
+of functional recovery induced
+by high-frequency stimulation
+of the subthalamic nucleus.
+J. Neurosci. 25, 7687–7696. doi:
+10.1523/JNEUROSCI.1056-05.2005
+Dorval, A. D., Russo, G. S., Hashimoto,
+T., Xu, W., Grill, W. M., and
+Vitek, J. L. (2008). Deep brain
+stimulation
+reduces
+neuronal
+entropy in the MPTP-primate
+model of Parkinson’s disease.
+J. Neurophysiol. 100, 2807–2818.
+doi: 10.1152/jn.90763.2008
+Dostrovsky, J. O., Levy, R., Wu, J.
+P., Hutchison, W. D., Tasker, R.
+R., and Lozano, A. M. (2000).
+Microstimulation-induced inhibition of neuronal firing in human
+globus pallidus. J. Neurophysiol. 84,
+570–574.
+Filali, M., Hutchison, W. D., Palter, V.
+N., Lozano, A. M., and Dostrovsky,
+J. O. (2004). Stimulation-induced
+inhibition of neuronal firing in
+human subthalamic nucleus. Exp.
+Brain Res. 156, 274–281. doi:
+10.1007/s00221-003-1784-y
+
+www.frontiersin.org
+
+Fisher, R., Salanova, V., Witt, T.,
+Worth, R., Henry, T., Gross, R.,
+et al. (2010). Electrical stimulation of the anterior nucleus of thalamus for treatment of refractory
+epilepsy. Epilepsia 51, 899–908. doi:
+10.1111/j.1528-1167.2010.02536.x
+Freeman, W. J. (1973). “A model of
+the olfactory system,” in, Neural
+Modeling, eds M. A. B. Brazier,
+D. O. Walter, and D. Schneider
+(Los Angeles, CA: University. of
+California), 41–62.
+Freeman, W. J. (1992). Tutorial
+on neurobiology: from single
+neurons to brain chaos. Int. J.
+Bifurcat. Chaos 2, 451–482. doi:
+10.1142/S0218127492000653
+Frohlich, F., and McCormick, D. A.
+(2010). Endogenous electric fields
+may guide neocortical network
+activity. Neuron 67, 129–143. doi:
+10.1016/j.neuron.2010.06.005
+Gabernet, L., Jadhav, S. P., Feldman,
+D. E., Carandini, M., and Scanziani,
+M. (2005). Somatosensory integration controlled by dynamic thalamocortical feed-forward inhibition. Neuron 48, 315–327. doi:
+10.1016/j.neuron.2005.09.022
+Goddard, G. V. (1967). Development
+of epileptic seizures through
+brain stimulation at low intensity. Nature 214, 1020–1021. doi:
+10.1038/2141020a0
+Hablitz, J. J. (1976). Intramuscular
+penicillin epilepsy in the cat: effects
+of chronic cerebellar stimulation.
+Exp. Neurol. 50, 505–514. doi:
+10.1016/0014-4886(76)90022-4
+Hammond, C., Bergman, H., and
+Brown, P. (2007). Pathological synchronization in Parkinson’s disease:
+
+July 2013 | Volume 7 | Article 94 | 14
+
+Mina et al.
+
+networks, models and treatments.
+Trends Neurosci. 30, 357–364. doi:
+10.1016/j.tins.2007.05.004
+Isaacson, J. S., and Scanziani, M.
+(2011). How inhibition shapes cortical activity. Neuron 72, 231–243.
+doi:
+10.1016/j.neuron.2011.
+09.027
+Jansen, B. H., Zouridakis, G.,
+and Brandt, M. E. (1993). A
+neurophysiologically-based mathematical model of flash visual
+evoked potentials. Biol. Cybern. 68,
+275–283. doi: 10.1007/BF00224863
+Jayakar, P., Alvarez, L. A., Duchowny,
+M. S., and Resnick, T. J. (1992).
+A safe and effective paradigm to
+functionally map the cortex in
+childhood. J. Clin. Neurophysiol.
+9, 288–293. doi: 10.1097/00004691199204010-00009
+Jiang, B., Akaneya, Y., Hata, Y., and
+Tsumoto, T. (2003). Long-term
+depression is not induced by lowfrequency stimulation in rat visual
+cortex in vivo: a possible preventing
+role of endogenous brain-derived
+neurotrophic factor. J. Neurosci. 23,
+3761–3770.
+Kendall, H. L., Frederick, L. H., SuYoune, C., Dongchul, C. L., David,
+W. R., Cameron, C. M., et al.
+(2011). High frequency stimulation
+abolishes thalamic network oscillations: an electrophysiological and
+computational analysis. J. Neural
+Eng. 8:046001. doi: 10.1088/17412560/8/4/046001
+Kim, E., Owen, B., Holmes, W. R.,
+and Grover, L. M. (2012). Decreased
+afferent excitability contributes to
+synaptic depression during high frequency stimulation in hippocampal area CA1. J. Neurophysiol. 108,
+1965–1976. doi: 10.1152/jn.00276.
+2011
+Krstulovic,
+S.,
+and
+Gribonval,
+R. (2006). “Mptk: Matching
+Pursuit Made Tractable,” in:
+IEEE International Conference
+on Acoustics, Speech and Signal
+Processing, (Toulouse), 496–499.
+Liley, D. T., and Bojak, I. (2005).
+Understanding the transition to
+seizure by modeling the epileptiform activity of general anesthetic
+agents. J. Clin. Neurophysiol. 22,
+300–313.
+Liu, L. D., Prescott, I. A., Dostrovsky,
+J. O., Hodaie, M., Lozano, A. M.,
+and Hutchison, W. D. (2012).
+Frequency-dependent effects of
+electrical stimulation in the globus
+pallidus of dystonia patients.
+J. Neurophysiol. 108, 5–17. doi:
+10.1152/jn.00527.2011
+Lopes Da Silva, F. H. (2006). Eventrelated neural activities: what
+about phase? Prog. Brain Res. 159,
+
+Frequency-dependent effects of DBS
+
+3–17. doi: 10.1016/S0079-6123(06)
+59001-6
+Lopes Da Silva, F. H., Hoeks, A., Smits,
+H., and Zetterberg, L. H. (1974).
+Model of brain rhythmic activity. The alpha-rhythm of the thalamus. Kybernetik 15, 27–37. doi:
+10.1007/BF00270757
+Lopes Da Silva, F. H., van Rotterdam,
+A., Barts, P., van Heusden, E., and
+Burr, W. (1976). Models of neuronal
+populations: the basic mechanisms
+of rhythmicity. Prog. Brain Res.
+45, 281–308. doi: 10.1016/S00796123(08)60995-4
+Lytton, W. W. (2008). Computer modelling of epilepsy. Nat. Rev. Neurosci.
+9, 626–637. doi: 10.1038/nrn2416
+Mallat, S. G., and Zhifeng, Z. (1993).
+Matching pursuits with timefrequency
+dictionaries.
+Signal
+Processing, IEEE Transactions 41,
+3397–3415. doi: 10.1109/78.258082
+Manola, L., Holsheimer, J., Veltink,
+P., and Buiteweg, J. R. (2007).
+Anodal vs cathodal stimulation of
+motor cortex: a modeling study.
+Clin. Neurophysiol. 118, 464–474.
+doi: 10.1016/j.clinph.2006.09.012
+Manola, L., Roelofsen, B. H.,
+Holsheimer, J., Marani, E., and
+Geelen, J. (2005). Modelling motor
+cortex stimulation for chronic pain
+control: electrical potential field,
+activating functions and responses
+of simple nerve fibre models. Med.
+Biol. Eng. Comput. 43, 335–343. doi:
+10.1007/BF02345810
+Marten, F., Rodrigues, S., Benjamin,
+O., Richardson, M. P., and Terry,
+J. R. (2009). Onset of polyspike
+complexes in a mean-field model
+of human electroencephalography
+and its application to absence
+epilepsy. Philos. Trans. A Math.
+Phys. Eng. Sci. 367, 1145–1161. doi:
+10.1098/rsta.2008.0255
+McIntyre, C. C., Grill, W. M., Sherman,
+D. L., and Thakor, N. V. (2004a).
+Cellular effects of deep brain
+stimulation: model-based analysis of activation and inhibition.
+J. Neurophysiol. 91, 1457–1469.
+McIntyre, C. C., and Hahn, P. J. (2010).
+Network perspectives on the mechanisms of deep brain stimulation.
+Neurobiol. Dis. 38, 329–337. doi:
+10.1016/j.nbd.2009.09.022
+McIntyre, C. C., Savasta, M., KerkerianLe Goff, L., and Vitek, J. L. (2004b).
+Uncovering the mechanism(s)
+of action of deep brain stimulation: activation, inhibition, or
+both. J. Clin. Neurophysiol. 115,
+1239–1248.
+Miranda, P. C., Wendling, F., Ruffini,
+G., Merlet, I., Molaee-Ardekani,
+B., Dunne, S., et al. (2009). Brain
+Stimulation: Models, Experiments
+
+Frontiers in Computational Neuroscience
+
+and Open Questions, Deliverable
+D1.1: Review of the State of the
+Art in Currents Distribution and
+Effects HIVE (FET Open FP7
+EU project), Available online at:
+http://hive-eu.org
+Molaee-Ardekani, B., Benquet, P.,
+Bartolomei, F., and Wendling,
+F.
+(2010).
+Computational
+modeling
+of
+high-frequency
+oscillations at the onset of neocortical partial seizures: from
+‘altered structure’ to ‘dysfunction’.
+Neuroimage 52, 1109–1122. doi:
+10.1016/j.neuroimage.2009.12.049
+Molaee-Ardekani, B., Marquez-Ruiz,
+J., Merlet, I., Leal-Campanario, R.,
+Gruart, A., Sanchez-Campusano,
+R., et al. (2013). Effects of transcranial Direct Current Stimulation
+(tDCS) on cortical activity: a computational modeling study. Brain
+Stimul. 6, 25–39. doi: 10.1016/j.brs.
+2011.12.006
+Nunez, P. L. (1974). The brain wave
+equation: a model for the EEG.
+Math. Biosci. 21, 279–297. doi:
+10.1016/0025-5564(74)90020-0
+Palmini, A. (2010). Electrophysiology
+of the focal cortical dysplasias.
+Epilepsia 51(Suppl. 1), 23–26. doi:
+10.1111/j.1528-1167.2009.02437.x
+Pasnicu, A., Denoyer, Y., Haegelen,
+C., Pasqualini, E., and Biraben, A.
+(2013). Modulation of paroxysmal
+activity in focal cortical dysplasia
+by centromedian thalamic nucleus
+stimulation. Epilepsy Res. 104,
+264–268. doi: 10.1016/j.eplepsyres.
+2012.10.012
+Pouille, F., and Scanziani, M.
+(2001). Enforcement of temporal fidelity in pyramidal cells by
+somatic feed-forward inhibition.
+Science 293, 1159–1163. doi:
+10.1126/science.1060342
+Racine, R. J. (1972). Modification
+of seizure activity by electrical stimulation. II. Motor
+seizure. Electroencephalogr. Clin.
+Neurophysiol. 32, 281–294. doi:
+10.1016/0013-4694(72)90177-0
+Rattay, F. (1998). Analysis of the electrical excitation of CNS neurons. IEEE
+Trans. Biomed. Eng. 45, 766–772.
+doi: 10.1109/10.678611
+Reimer, G. R., Grimm, R. J., and
+Dow, R. S. (1967). Effects
+of cerebellar stimulation on
+cobalt-induced epilepsy in the
+cat.
+Electroencephalogr.
+Clin.
+Neurophysiol. 23, 456–462. doi:
+10.1016/0013-4694(67)90188-5
+Roberts, J. A., and Robinson, P.
+A. (2008). Modeling absence
+seizure dynamics: implications
+for basic mechanisms and measurement
+of
+thalamocortical
+and corticothalamic
+latencies.
+
+www.frontiersin.org
+
+J. Theor. Biol. 253, 189–201. doi:
+10.1016/j.jtbi.2008.03.005
+Robinson, P. A., Rennie, C. J., and
+Rowe, D. L. (2002). Dynamics
+of large-scale brain activity in
+normal arousal states and epileptic
+seizures. Phys. Rev. E Stat. Nonlin.
+Soft Matter Phys. 65:041924. doi:
+10.1103/PhysRevE.65.041924
+Robinson, P. A., Rennie, C. J., and
+Wright, J. J. (1997). Propagation
+and stability of waves of electrical activity in the cerebral cortex. Phys. Rev. E Stat. Nonlin.
+Soft Matter Phys. 56, 826–840. doi:
+10.1103/PhysRevE.56.826
+Rowe, D. L., Robinson, P. A., and
+Rennie, C. J. (2004). Estimation
+of neurophysiological parameters
+from the waking EEG using a biophysical model of brain dynamics.
+J. Theor. Biol. 231, 413–433. doi:
+10.1016/j.jtbi.2004.07.004
+Schwartzkroin, P. A., and Wenzel,
+H. J. (2012). Are developmental dysplastic lesions epileptogenic?
+Epilepsia 53(Suppl. 1), 35–44. doi:
+10.1111/j.1528-1167.2012.03473.x
+Shen, K. Z., Zhu, Z. T., Munhall, A.,
+and Johnson, S. W. (2003). Synaptic
+plasticity in rat subthalamic nucleus
+induced by high-frequency stimulation. Synapse 50, 314–319. doi:
+10.1002/syn.10274
+Shukla, A. W., Moro, E., Gunraj, C.,
+Lozano, A., Hodaie, M., Lang, A.,
+et al. (2013). Long-term subthalamic nucleus stimulation improves
+sensorimotor integration and proprioception. J. Neurol. Neurosurg.
+Psychiatry. doi:10.1136/jnnp-2012304102. [Epub ahead of print].
+Sillay, K., and Starr, P. (2009).
+“Chapter 42 - deep brain stimulation in Parkinson’s Disease,” in
+Neuromodulation, eds E. S. Krames,
+P. H. Peckham, and A. R. Rezai
+(San Diego, CA: Academic Press),
+539–548.
+Sisodiya, S. M., Fauser, S., Cross, J.
+H., and Thom, M. (2009). Focal
+cortical dysplasia type II: biological features and clinical perspectives. Lancet Neurol. 8, 830–843. doi:
+10.1016/S1474-4422(09)70201-7
+Speechley, W. J., Hogsden, J. L.,
+and Dringenberg, H. C. (2007).
+Continuous white noise exposure
+during and after auditory critical
+period differentially alters bidirectional thalamocortical plasticity
+in rat auditory cortex in vivo. Eur.
+J. Neurosci. 26, 2576–2584. doi:
+10.1111/j.1460-9568.2007.05857.x
+Stam, C. J., Pijn, J. P., Suffczynski, P.,
+and Lopes Da Silva, F. H. (1999).
+Dynamics of the human alpha
+rhythm: evidence for non-linearity?
+Clin. Neurophysiol. 110, 1801–1813.
+
+July 2013 | Volume 7 | Article 94 | 15
+
+Mina et al.
+
+Suffczynski, P., Kalitzin, S., Da Silva, F.
+L., Parra, J., Velis, D., and Wendling,
+F. (2008). Active paradigms of
+seizure anticipation: computer
+model evidence for necessity of
+stimulation. Phys. Rev. E Stat.
+Nonlin. Soft Matter Phys. 78:051917.
+doi: 10.1103/PhysRevE.78.051917
+Suffczynski, P., Kalitzin, S., and
+Lopes Da Silva, F. H. (2004).
+Dynamics
+of
+non-convulsive
+epileptic phenomena modeled
+by a bistable neuronal network.
+Neuroscience 126, 467–484. doi:
+10.1016/j.neuroscience.2004.03.014
+Suffczynski,
+P.,
+Kalitzin,
+S.,
+Pfurtscheller, G., and Lopes Da
+Silva, F. H. (2001). Computational
+model
+of
+thalamo-cortical
+networks:
+dynamical
+control
+of alpha rhythms in relation to focal attention. Int. J.
+Psychophysiol. 43, 25–40. doi:
+10.1016/S0167-8760(01)00177-5
+Talairach, J., Bancaud, J., Szikla, G.,
+Bonis, A., Geier, S., and Vedrenne,
+C. (1974). [New approach to
+the neurosurgery of epilepsy.
+Stereotaxic methodology and therapeutic results. 1. Introduction
+and
+history].
+Neurochirurgie
+20(Suppl. 1), 1–240.
+Velasco, A. L., Velasco, F., Jiménez,
+F., Velasco, M., Castro, G.,
+Carrillo-Ruiz, J. D., et al. (2006).
+Neuromodulation of the centromedian thalamic nuclei in
+the treatment of generalized
+seizures and the improvement
+of the quality of life in patients
+with Lennox–Gastaut syndrome.
+Epilepsia 47, 1203–1212. doi:
+10.1111/j.1528-1167.2006.00593.x
+
+Frequency-dependent effects of DBS
+
+Velasco, F., Velasco, A. L., Velasco,
+M., Jimenez, F., Carrillo-Ruiz, J. D.,
+and Castro, G. (2007). Deep brain
+stimulation for treatment of the
+epilepsies: the centromedian thalamic target. Acta Neurochir. Suppl.
+97, 337–342. doi: 10.1007/978-3211-33081-4_38
+Velasco, F., Velasco, M., Velasco, A. L.,
+Jimenez, F., Marquez, I., and Rise,
+M. (1995). Electrical stimulation
+of the centromedian thalamic
+nucleus in control of seizures:
+long-term
+studies.
+Epilepsia
+36, 63–71. doi: 10.1111/j.15281157.1995.tb01667.x
+Velasco, M., Velasco, F., and Velasco, A.
+L. (2001). Centromedian-thalamic
+and
+hippocampal
+electrical
+stimulation for the control of
+intractable
+epileptic
+seizures.
+J. Clin. Neurophysiol. 18, 495–513.
+doi: 10.1097/00004691-20011100000001
+Velasco, M., Velasco, F., Velasco, A. L.,
+Brito, F., Jimenez, F., Marquez, I.,
+et al. (1997). Electrocortical and
+behavioral responses produced by
+acute electrical stimulation of the
+human centromedian thalamic
+nucleus. Electroencephalogr. Clin.
+Neurophysiol. 102, 461–471. doi:
+10.1016/S0013-4694(96)95203-0
+Velasco, M., Velasco, F., Velasco, A. L.,
+Jimenez, F., Brito, F., and Marquez,
+I. (2000). Acute and chronic electrical stimulation of the centromedian thalamic nucleus: modulation of reticulo-cortical systems
+and predictor factors for generalized seizure control. Arch. Med. Res.
+31, 304–315. doi: 10.1016/S01884409(00)00085-0
+
+Frontiers in Computational Neuroscience
+
+Wendling, F. (2008). Computational
+models of epileptic activity: a
+bridge between observation and
+pathophysiological
+interpretation. Expert Rev. Neurother. 8,
+889–896. doi: 10.1586/14737175.8.
+6.889
+Wendling,
+F.,
+Bartolomei,
+F.,
+Bellanger, J. J., and Chauvel, P.
+(2002). Epileptic fast activity
+can be explained by a model of
+impaired GABAergic dendritic
+inhibition. Eur. J. Neurosci. 15,
+1499–1508. doi: 10.1046/j.14609568.2002.01985.x
+Wendling, F., Bartolomei, F., Mina,
+F., Huneau, C., and Benquet,
+P. (2012). Interictal spikes, fast
+ripples and seizures in partial
+epilepsies - combining multi-level
+computational models with experimental data. Eur. J. Neurosci. 36,
+2164–2177. doi: 10.1111/j.14609568.2012.08039.x
+Wendling, F., Bellanger, J. J.,
+Bartolomei, F., and Chauvel, P.
+(2000). Relevance of nonlinear
+lumped-parameter models in the
+analysis of depth-EEG epileptic
+signals. Biol. Cybern. 83, 367–378.
+doi: 10.1007/s004220000160
+Wilson, H. R., and Cowan, J. D. (1972).
+Excitatory and inhibitory interactions in localized populations of
+model neurons. Biophys. J. 12,
+1–24. doi: 10.1016/S0006-3495(72)
+86068-5
+Wright, G. D., and Weller, R. O. (1983).
+Biopsy and post-mortem findings
+in a patient receiving cerebellar
+stimulation for epilepsy. J. Neurol.
+Neurosurg. Psychiatr. 46, 266–273.
+doi: 10.1136/jnnp.46.3.266
+
+www.frontiersin.org
+
+Wright, J. J., Kydd, R. R., and Lees,
+G. J. (1985). State-changes in the
+brain viewed as linear steady-states
+and non-linear transitions between
+steady-states. Biol. Cybern. 53,
+11–17. doi: 10.1007/BF00355686
+Zavaglia, M., Astolfi, L., Babiloni, F.,
+and Ursino, M. (2006). A neural
+mass model for the simulation of
+cortical activity estimated from high
+resolution EEG during cognitive or
+motor tasks. J. Neurosci. Methods
+157, 317–329. doi: 10.1016/j.
+jneumeth.2006.04.022
+Conflict of Interest Statement: The
+authors declare that the research
+was conducted in the absence of any
+commercial or financial relationships
+that could be construed as a potential
+conflict of interest.
+Received: 07 December 2012; paper
+pending published: 23 March 2013;
+accepted: 23 June 2013; published online:
+16 July 2013.
+Citation: Mina F, Benquet P, Pasnicu
+A, Biraben A and Wendling F (2013)
+Modulation of epileptic activity by deep
+brain stimulation: a model-based study
+of frequency-dependent effects. Front.
+Comput. Neurosci. 7:94. doi: 10.3389/
+fncom.2013.00094
+Copyright © 2013 Mina, Benquet,
+Pasnicu, Biraben and Wendling. This is
+an open-access article distributed under
+the terms of the Creative Commons
+Attribution License, which permits use,
+distribution and reproduction in other
+forums, provided the original authors
+and source are credited and subject to any
+copyright notices concerning any thirdparty graphics etc.
+
+July 2013 | Volume 7 | Article 94 | 16
+
+

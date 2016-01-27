@@ -1,0 +1,1090 @@
+LETTER
+
+Communicated by Maxim Bazhenov
+
+Bifurcation Analysis of Jansen’s Neural Mass Model
+Franc¸ois Grimbert
+Francois.Grimbert@sophia.inria.fr
+
+Olivier Faugeras
+Olivier.Faugeras@sophia.inria.fr
+Odyss´ee Laboratory, INRIA/ENPC/ENS, INRIA Sophia-Antipolis, 06902 Sophia
+Antipolis, France.
+
+We present a mathematical model of a neural mass developed by a number of people, including Lopes da Silva and Jansen. This model features
+three interacting populations of cortical neurons and is described by a
+six-dimensional nonlinear dynamical system. We address some aspects
+of its behavior through a bifurcation analysis with respect to the input
+parameter of the system. This leads to a compact description of the oscillatory behaviors observed in Jansen and Rit (1995) (alpha activity) and
+Wendling, Bellanger, Bartolomei, and Chauvel (2000) (spike-like epileptic activity). In the case of small or slow variation of the input, the model
+can even be described as a binary unit. Again using the bifurcation framework, we discuss the influence of other parameters of the system on the
+behavior of the neural mass model.
+1 Introduction
+Jansen’s neural mass model is based on the work of Lopes da Silva, Hoeks,
+and Zetterberg (1974), Lopes da Silva, van Rotterdam, Barts, van Heusden, and Burr (1976), and van Rotterdam, Lopes da Silva, van den Ende,
+Viergever, and Hermans, (1982). They developed a biologically inspired
+mathematical framework to simulate spontaneous electrical activities of
+neurons assemblies recorded by EEG, with a particular interest for alpha
+activity. In their model, populations of neurons interact by excitation and
+inhibition and can, in effect, produce alpha activity. Jansen, Zouridakis, and
+Brandt (1993) and Jansen and Rit (1995), discovered that this model was also
+able to simulate evoked potentials, that is, EEG activities observed after a
+sensory stimulation (such as a flash of light or a sound). More recently,
+Wendling, Bellanger, Bartolomei, and Chauvel (2000) used this model to
+synthesize activities very similar to those observed in epileptic patients,
+and David and Friston (2003); David, Cosmelli, and Friston (2004) studied
+connectivity between cortical areas with a similar framework.
+The contribution of this letter is a fairly detailed description of the behavior of this particular neural mass model as a function of its input. This
+Neural Computation 18, 3052–3068 (2006)
+
+C
+
+2006 Massachusetts Institute of Technology
+
+Bifurcation Analysis of Jansen’s Neural Mass Model
+a.
+
+3053
+
+b.
+y0
+P1
+
+he (t)
+excitatory
+inhibitory
+interneurons interneurons
+
+S1
+
+C1
+
+C3
+Sigm
+S3
+
+S2
+
+Sigm
+
+Sigm
+
+y
+y1
+
+main
+population
+
+y2
++
+
+C2
+P2
+
+–
+
+C4
+
+P3
+
+hi (t)
+
++
+
++
+
+he (t)
+
+external input
+
+p(t)
+
+Figure 1: (a) Neural mass model of a cortical unit. It features a population of
+pyramidal cells interacting with two populations of interneurons—one excitatory (left branch) and the other inhibitory (right branch). (b) Block representation
+of a unit. The h boxes simulate synapses between the neuron’s populations. Sigm
+boxes simulate cell bodies of neurons by transforming the membrane potential
+of a population into an output firing rate. The constants Ci model the strength
+of the synaptic connections between populations.
+
+description is grounded in the mathematics of dynamic systems and bifurcation theories. We briefly recall the model in section 2 and describe in
+section 3 the properties of the associated dynamical system.
+2 Description of the Model.
+The model features a population of pyramidal neurons (see the central
+part of Figure 1a) that receive excitatory and inhibitory feedback from local
+interneurons and an excitatory input from neighboring cortical units and
+subcortical structures like the thalamus. Actually the excitatory feedback
+must be considered as coming from both local pyramidal neurons and
+genuine excitatory interneurons like spiny stellate cells.
+2.1 Equations of the Model. Figure 1b is a translation of Figure 1a in
+the language of system theory. It represents the mathematical operations
+
+3054
+
+F. Grimbert and O. Faugeras
+
+performed inside such a cortical unit. The excitatory input is represented by
+an arbitrary average firing rate p(t), which can be random (accounting for
+a nonspecific background activity) or deterministic, accounting for some
+specific activity in other cortical units. The three families—pyramidal neurons, excitatory interneurons, and inhibitory interneurons—and synaptic
+interactions between them are modeled by different systems.
+The postsynaptic systems Pi , i = 1, 2, 3 (labeled h e (t) or h i (t) in the figure)
+convert the average firing rate describing the input to a population into an
+average excitatory (EPSP) or inhibitory (IPSP) postsynaptic potential. From
+the signal processing standpoint, they are linear stationary systems that are
+described by either a convolution with an impulse response function or,
+equivalently, a second-order linear differential equation. They have been
+proposed by van Rotterdam et al. (1982) in order to reproduce well the
+characteristics of real EPSPs and IPSPs. The impulse response function is of
+the form
+h(t) =
+
+αβte −βt t ≥ 0
+t<0
+
+0
+
+.
+
+In other words, if x(t) is the input to the system, its output y(t) is the
+convolution product h ∗ x(t).
+The constants α and β are different in the excitatory and inhibitory cases.
+α, expressed in millivolts, determines the maximal amplitude of the postsynaptic potentials; β, expressed in s −1 , lumps together characteristic delays
+of the synaptic transmission, that is, the time constant of the membrane and
+the different delays in the dendritic tree (Freeman, 1975; Jansen et al., 1993).
+The corresponding differential equation is
+y¨ (t) = αβx(t) − 2β y˙ (t) − β 2 y(t).
+
+(2.1)
+
+In the excitatory (resp. inhibitory) case, we have α = A, β = a (resp.
+α = B, β = b). This second-order differential equation can be conveniently
+rewritten as a system of two first-order equations:
+y˙ (t) = z(t)
+z˙ (t) = αβx(t) − 2αz(t) − α 2 y(t)
+
+.
+
+(2.2)
+
+The sigmoid systems introduce a nonlinear component in the model. They
+are the gain functions that transform the average membrane potential of a
+neural population into an average firing rate (see, e.g., Gerstner & Kistler,
+2002):
+Sigm(v) =
+
+νmax
+r
+νmax
+1 + tanh (v − v0 ) =
+,
+2
+2
+1 + e r (v0 −v)
+
+Bifurcation Analysis of Jansen’s Neural Mass Model
+
+3055
+
+where νmax is the maximum firing rate of the families of neurons, v0 is the
+value of the potential for which a 50% firing rate is achieved, and r is the
+slope of the sigmoid at v0 ; v0 can be viewed as either a firing threshold or
+the excitability of the populations. This sigmoid transformation approximates the functions proposed by the neurophysiologist Walter Freeman
+(1975) to model the cell body action of a population.
+The connectivity constants C1 , . . . , C4 account for the number of
+synapses established between two neuron’s populations. We will see that
+they can be reduced to a single parameter C.
+There are three main variables in the model—the outputs of the three
+postsynaptic boxes noted y0 , y1 , and y2 (see Figure 1b). We also consider
+their derivatives y˙ 0 , y˙ 1 , y˙ 2 , noted y3 , y4 , and y5 , respectively. If we write two
+equations similar to equation 2.2 for each postsynaptic system, we obtain a
+system of six first-order differential equations that describes Jansen’s neural
+mass model:
+
+2
+
+ y˙0 (t) = y3 (t) y˙3 (t) = Aa Sigm[y1 (t) − y2 (t)] − 2a y3 (t) − a y0 (t)
+y˙1 (t) = y4 (t) y˙4 (t) = Aa { p(t) + C2 Sigm[C1 y0 (t)]} − 2a y4 (t) − a 2 y1 (t) (2.3)
+
+
+y˙2 (t) = y5 (t) y˙5 (t) = BbC4 Sigm[C3 y0 (t)] − 2by5 (t) − b 2 y2 (t).
+We focus on the variable y = y1 − y2 , the membrane potential of the main
+family of neurons (see Figure 1b). We think of this quantity as the output of
+the unit because in the cortex, the pyramidal cells are the main vectors of
+long-range cortico-cortical connections. Besides, their electrical activity corresponds to the EEG signal: pyramidal neurons throw their apical dendrites
+to the superficial layers of the cortex where the postsynaptic potentials are
+summed, accounting for the essential part of the EEG activity (Kandel,
+Schwartz, & Jessel, 2000).
+2.2 Numerical Values of the Parameters. The parameters A, B, a , and b
+have been adjusted by van Rotterdam et al. (1982) to reproduce some basic
+properties of real postsynaptic potentials and make the system produce
+alpha activity. These authors set A = 3.25 mV, B = 22 mV, a = 100 s−1 , and
+b = 50 s−1 .
+The excitability of cortical neurons can vary as a function of the action of
+several substances, and v0 could potentially take different values, though
+we will use v0 = 6 mV as suggested by Jansen on the basis of experimental
+studies due to Freeman (1987). The works of the latter also suggest that
+νmax = 5s −1 and r = 0.56 mV−1 , the values used by Jansen and Rit (1995).
+The connectivity constants Ci , i = 1, . . . , 4 are proportional to the average number of synapses between populations. On the basis of several neu¨ 1998, among others) where
+roanatomical studies (Braitenberg and Schuz,
+these quantities had been estimated by counting synapses, Jansen and Rit
+
+3056
+
+F. Grimbert and O. Faugeras
+
+Figure 2: Activities of the unit shown in Figure 1 when simulated with a uniformly distributed white noise (between 120 and 320 Hz) as input. The different
+curves show different activities depending on the value of the parameter C.
+The third curve from the top looks like alpha activity and has been obtained for
+C = 135 (from Jansen & Rit, 1995).
+
+succeeded in reducing them to fractions of a single parameter C:
+C1 = C
+
+C2 = 0.8C
+
+C3 = 0.25C C4 = 0.25C
+
+.
+
+Jansen and Rit varied C to observe alpha-like activity and obtained it for
+C = 135 (see Figure 2).
+
+Bifurcation Analysis of Jansen’s Neural Mass Model
+
+3057
+
+In summary, previous work shows that the following set of parameters
+allows the neural mass model described by equations 2.3 to produce a set
+of EEG-like signals:
+
+
+ A = 3.25 B = 22
+a = 100 b = 50 .
+
+
+v0 = 6 C = 135
+
+(2.4)
+
+We show in section 3.4 that the behavior of the neural mass model is fairly
+sensitive to the choice of the values of these parameters. Indeed, changes
+as small as 5% in these values produce some fairly different behaviors.
+The quantity p represents the lumped activity of the brain areas connected to the unit. Jansen and Rit (1995) chose p(t) to be a uniformly distributed noise ranging from 120 to 320 pulses per second, as they wanted
+to model nonspecific input (they used the term background spontaneous activity). This noise dynamics allowed them to produce alpha-like activity.
+Similarly, Wendling and his colleagues (2000) used a white gaussian noise
+(mean 90 and standard deviation 30) for p(t) and observed the emission
+of spikes that was reminiscent of an epileptic activity. We show in the next
+section that these two different behaviors can be nicely accounted for by a
+geometric study of system 2.3 through its bifurcations.
+3 Bifurcations and Oscillations
+In this section we consider p as a parameter of the system and propose to
+study the behavior of a unit when p varies. We therefore study the dynamical system 2.3, with all parameters but p being kept constant and equal to
+the values set by Jansen and Rit (1995) (see equation 2.4). In section 3.4 we
+extend this analysis to other values of the parameters in equation 2.4. Let
+Y = (y0 , . . . , y5 )T ; the system has the form
+Y˙ = f (Y, p),
+where f is the smooth map from R6 to R6 given by equation 2.3 and p is a
+parameter.
+We are interested in computing the fixed points and periodic orbits of
+the system as functions of p because they will allow us to account for the
+appearance of such activities as those shown in Figure 2 (alpha-like activity)
+and Figure 3 (epileptic spike-like activity).
+3.1 Fixed Points
+3.1.1 The One Parameter Family of Fixed Points. We look for the points Y
+where the vector field f (., p) vanishes (called fixed points, critical points, or
+
+3058
+
+F. Grimbert and O. Faugeras
+
+(a)
+
+(b)
+
+(c)
+
+(d)
+
+(e)
+
+(f)
+
+(g)
+
+(h)
+
+(i)
+
+Figure 3: (a–e) Activities of the unit shown in Figure 1 when simulated with a
+white gaussian noise as input (corresponding to an average firing rate between
+30 and 150 Hz). The authors varied the excitation/inhibition ratio A/B. As this
+ratio is increased, we observe sporadic spikes followed by increasingly periodic
+activities. (f–i) Real activities recorded from epileptic patients before (f,g) and
+during a seizure (h,i). (From Wendling et al. 2000.)
+
+Bifurcation Analysis of Jansen’s Neural Mass Model
+
+3059
+
+equilibrium points). Writing Y˙ = 0, we obtain the system of equations
+
+
+ y0 =
+y1 =
+
+
+y2 =
+
+A
+Sigm[y1 − y2 ]
+a
+A
+( p + C2 Sigm[C1 y0 ])
+a
+B
+C Sigm[C3 y0 ]
+b 4
+
+y3 = 0
+y4 = 0
+
+(3.1)
+
+y5 = 0,
+
+which leads to the (implicit) equation of the one-parameter family of equilibrium points in the ( p, y = y1 − y2 ) plane:
+y=
+
+A
+A
+B
+A
+A
+p + C2 Sigm
+C1 Sigm(y) − C4 Sigm
+C3 Sigm(y) .
+a
+a
+a
+b
+a
+
+(3.2)
+
+As mentioned before, y = y1 − y2 can be thought of as representing the EEG
+activity of the unit, and p is our parameter of interest. We show the curve
+defined by equation 3.2 in Figure 4a. The number of intersections between
+this curve and a vertical line of equation p = consta nt is the number of
+equilibrium points for this particular value of p. We notice that for p ≈ 110–
+120, the system goes from three equilibrium points to a single one. We also
+note that the curve has been drawn for some negative values of p. These
+points do not have any biological meaning since p is a firing rate. It turns
+out, though, that they play a central role in the mathematical description of
+the model (see section 3.2).
+The coordinates of the singular points cannot be written explicitly as
+functions of p, but every singular point is completely determined by the
+quantity y. More precisely, the coordinates of every singular point S(y) have
+the following form:
+S(y) =
+
+A
+Sigm(y)
+a
+
+A
+A
+p + C2 Sigm C1 Sigm(y)
+a
+a
+
+A
+B
+C4 Sigm C3 Sigm(y)
+b
+a
+
+0
+
+0
+
+0
+
+,
+
+(3.3)
+
+p and y being related through equation 3.2.
+3.1.2 Local Study Near the Singular Points. In order to study the behavior
+of the system near the fixed points, we linearize it and calculate its Jacobian
+matrix, that is, the partial derivative J of f (., p) at the fixed point S(y). It is
+easy but tedious to show that at the fixed point S(y), we have
+J (S(y)) =
+
+I3
+03
+K M(y) −K
+
+,
+
+3060
+
+F. Grimbert and O. Faugeras
+b
+
+8
+
+8
+
+6
+
+6
+
+y (mV)
+
+y (mV)
+
+a
+
+4
+2
+0
+
+4
+2
+0
+
+0
+
+100
+
+200
+
+300
+
+400
+
+0
+
+100
+
+200
+
+p (Hz)
+
+p (Hz)
+
+c
+
+d
+
+300
+
+400
+
+12
+10
+
+4
+2
+
+5
+
+4
+
+3
+0.1
+
+6
+
+0
+
+2
+
+4
+
+y
+
+y (mV)
+
+8
+
+1
+
+2
+
+0.05
+
+0
+1
+0
+
+100
+
+200
+
+300
+
+400
+
+0
+
+0
+
+50
+
+p (Hz)
+
+100
+
+150
+
+p
+
+Figure 4: (a) Curve defined by equation 3.2. For each value of p, the curve yields
+the coordinate(s) y of the corresponding fixed point(s). (b) Fixed points and their
+stability. Stable fixed points lie on the solid portions of the curve, and unstable
+points lie on the dashed ones. Stars correspond to transition points where the
+Jacobian matrix has some eigenvalues with zero real part. (c) Curve of the fixed
+points with two branches of limit cycles (shaded regions bounded by thick black
+curves). The stars labeled 3 and 5 are Hopf bifurcation points. The oval between
+them is the branch of Hopf cycles: for each 89.83 ≤ p ≤ 315.70, the thick black
+curves between points 3 and 5 give the highest and lowest y values attained by
+the Hopf cycle. The other branch of limit cycles lies in the domain between the
+star labeled 1, where there is a saddle node bifurcation with homoclinic orbit,
+and the dash-dotted line 4 representing a fold bifurcation of limit cycles. This
+kind of representation is called a bifurcation diagram. (d) A Hopf bifurcation at
+the point labeled 2 ( p = −12.15) gives rise to a branch of unstable limit cycles
+that merges with the branch of stable cycles lying between the point labeled 1
+and the dashed line labeled 4. This phenomenon is called a fold bifurcation of
+limit cycles.
+
+where
+
+
+−a /2 γ (y) −γ (y)
+
+
+K = 2diag(a , a , b), M(y) =  δ(y) −a /2
+θ (y)
+
+0
+
+0
+−b/2
+
+
+
+,
+
+Bifurcation Analysis of Jansen’s Neural Mass Model
+
+3061
+
+I3 is the three-dimensional identity matrix, and 03 is the three-dimensional
+null matrix. The three functions γ , δ, and θ are defined by
+A
+Sigm (y)
+2
+AC1 C2
+δ(y) =
+Sigm (C1 y0 (y))
+2
+BC3 C4
+θ (y) =
+Sigm (C3 y0 (y)),
+2
+
+γ (y) =
+
+where y0 (y) is the first coordinate of S(y) and Sigm is the derivative of the
+function Sigm.
+We compute the eigenvalues of J along the curve of Figure 4a to analyze
+the stability of the family of equilibrium points. The results are summarized
+in Figure 4b. The solid portions of curve correspond to stable fixed points
+(all eigenvalues have a negative real part) and the dashed ones to unstable
+fixed points (some eigenvalues have a positive real part). Stars indicate
+points where at least one eigenvalue of the system crosses the imaginary
+axis, therefore having a zero real part. These points are precious landmarks
+for the study of bifurcations of the system.
+3.2 Bifurcations and Oscillatory Behavior in Jansen’s Model. A bifurcation is a drastic and sudden change in the behavior of a dynamic system
+that occurs when one or several of its parameters are varied. Often it corresponds to the appearance or disappearance of limit cycles. Describing
+oscillatory behaviors in Jansen’s model is therefore closely related to studying its bifurcations. In our case, when p varies from −∞ to +∞, the system
+undergoes five bifurcations (remember that only the positive values of p
+are biologically relevant).
+We now describe these bifurcations from a somewhat intuitive viewpoint, but our results are grounded in the mathematical theory of bifurcations (Perko, 2001; Ioos & Adelmeyer, 1999; Kuznetsov, 1998; Berglund,
+2001a, 2001b) and the extensive use of the software XPP-Aut due to Bard
+Ermentrout (available on http://www.pitt.edu/∼phase/). We were also
+inspired by bifurcation studies of single-neuron models (see Izhikevich, in
+press; Hoppenstaedt & Izhikevich, 1997; Rinzel & Ermentrout, 1998).
+3.2.1 Hopf Bifurcations and Alpha Activity in Jansen’s Model. When p is
+varied smoothly, the eigenvalues of the fixed points move smoothly in the
+complex plane: when two complex conjugate eigenvalues cross the imaginary axis, the system undergoes in general what is called a Hopf bifurcation.
+Two of them happen in Jansen’s model (if we ignore the negative values
+of p) for p = 89.83 and p = 315.70. A theorem due to Hopf (Perko, 2001)
+
+3062
+
+F. Grimbert and O. Faugeras
+
+shows1 that for p = 89.83, a one-parameter family of stable periodic orbits appears at the fixed point that has two complex conjugate eigenvalues
+crossing the imaginary axis toward positive real parts. These periodic orbits persist until p = 315.70, where a second Hopf bifurcation occurs: the
+two eigenvalues whose real parts became positive for p = 89.83 see them
+become negative again, corresponding to the (re)creation of a simple, attractive fixed point. This is shown in Figure 4c: for p between 89.83 and
+315.70, there is a family of periodic orbits (we call them Hopf cycles from
+now on) parameterized by p for which the minimal and maximal y values
+have been plotted (thick oval curve). Numerically, using XPP-Aut, we find
+that these oscillations have a frequency around 10 Hz, which corresponds
+to alpha activity. So it appears that alpha-like activity in Jansen’s model
+is determined by Hopf cycles. Interestingly enough, the system does not
+display any Hopf bifurcation if we approximate the sigmoid by a piecewise
+linear function, or if we try to reduce the dimensionality of the system by
+singular perturbation theory (Berglund 2001b). In both cases, the system is
+unable to produce alpha activity.
+Let us interpret Jansen and Rit’s results in the light of our mathematical analysis. They report observing alpha activity (see the third curve in
+Figure 2) when they use a uniformly distributed noise in the range 120 to
+320 Hz at the entry of the system. This is easy to account for if we look at
+Figure 4c: in this domain of p values, the Hopf cycles are essentially the only
+attractors of the dynamical system 2.3. So at every time instant t, its trajectories will tend to coil around the Hopf cycle corresponding to p = p(t). We
+will therefore see oscillations of constant frequency and varying amplitude
+leading to the waxing and waning activity reported by Jansen and Rit.
+3.2.2 Global Bifurcations and Spike-Like Epileptic Activity. Hopf bifurcations are called local because their appearance depends on only local properties of the dynamical system around the bifurcation point. In Figure 3,
+we see that the system is able to display spike-like activities that resemble
+certain epileptic EEG recordings (Wendling et al., 2000). These activities
+arise from a branch of large stable periodic orbits delimited by a pair of
+global bifurcations (i.e., depending not only on local properties of the dynamical system) that correspond to the star labeled 1 and the dash-dotted
+line labeled 4 in Figure 4c. From now on, we will call these orbits spike cycles.
+The branch of spike cycles begins for p = 113.58, thanks to a saddlenode bifurcation with homoclinic orbit2 (see Perko, 2001; Kuznetsov, 1998).
+It ends for p = 137.38 because of a fold bifurcation of limit cycles that we
+1 The proof of the existence of a Hopf bifurcation relies on the calculation of the
+Lyapunov number at the bifurcation points. It is quite technical and is not developed
+here.
+2 The proof of the existence of this saddle node bifurcation with homoclinic orbit uses
+a theorem due to Shil’nikov (Kuznetsov, 1998).
+
+Bifurcation Analysis of Jansen’s Neural Mass Model
+
+3063
+
+identified with XPP-Aut. This bifurcation results from the fusion of a stable
+and an unstable family of periodic orbits. The stable family is the branch
+of spike cycles, and the unstable family originates from a Hopf bifurcation
+occuring at p = −12.15.
+Thanks to XPP-Aut, we have been able to plot the folding and the associated Hopf bifurcation with respect to the y0 axis (see Figure 4d). So far we
+have shown the bifurcation diagrams in the ( p, y) plane, but for technical
+reasons due to XPP-Aut, we show the bifurcation diagram in the ( p, y0 )
+plane in this case. Its general properties are the same, though. For example, we recognize the S shape of the fixed points diagram and the relative
+position of landmarks 1, 2, and 4.
+Contrary to the Hopf cycles whose periods remains around 10 Hz, the
+spike cycles can display every frequency in the range 0 to 5 Hz (it increases
+with p) so that they are able to reproduce the various “spiking” activities
+observed in Figure 3.
+In this case also we can identify the central role played by p in shaping the
+output of the unit. Wendling et al. (2000) used a gaussian noise with mean
+90 and standard deviation 30 to produce the spikes in Figure 3, resulting
+in an input to the unit essentially varying between 30 and 150 Hz, which
+is quite low compared to the range used by Jansen and Rit (1995). Let us
+first distinguish two parts in the curve of fixed points in Figure 4c. We
+call the set of stable fixed points below the star labeled 1 lower branch and
+the one between the stars labeled 2 and 3 upper branch. For p between 30
+and 90, the system displays a classical bistable behavior with two stable
+fixed points (one on each branch), the lowest fixed points appearing to
+be dominant. We found experimentally that the basin of attraction of the
+upper point is not very large, so that one has to start quite close to it in
+order to converge to it. As a result, a low input ( p ≤ 90) produces in general
+a low output: the trajectory is attracted by the lower branch. For p between
+110 and 140, we are in the range of p values where spike-like activity can
+appear and spiking competes with Hopf cycles, but trajectories near the
+lower branch are attracted by spike cycles (as we will see in section 3.3),
+hence producing spike-shaped activities. These two facts—attraction to the
+lower branch and preference of the lower branch for spike cycles—allow us
+to understand how the model can produce epileptic-like activities.
+3.3 Synthesis: Behavior of the Cortical Unit Model According to the
+Input Parameter p. We now have in hand all the ingredients to describe
+the activity of this neural mass model when stimulated by a slowly varying
+input. For that purpose, we computed two trajectories (or orbits) of the
+system with p increasing linearly in time at a slow rate (d p/dt = 1). The
+system was initialized at the two stable fixed points at p = 0: the stable
+state on the lower branch and the one on the upper branch (see the stars in
+Figure 5). As long as p ≤ 89.83, the two trajectories are flat, following their
+respective branches of fixed points (see Figure 6, p = 80). After the Hopf
+
+3064
+
+F. Grimbert and O. Faugeras
+
+12
+
+10
+
+8
+
+y (mV)
+
+6
+
+4
+
+2
+
+0
+
+0
+
+50
+
+100
+
+150
+
+200
+
+250
+
+300
+
+350
+
+400
+
+p (Hz)
+
+Figure 5: Diagram of the stable attractors (stable fixed points and stable limit
+cycles) of the model described by equations 2.3. The stars show the starting
+points of the two trajectories we simulated with p slowly increasing. Their time
+courses have been frozen for p = 80, 100, 125, and 200 (as indicated by the
+vertical dashed lines on this figure) and can be seen in Figure 6. Lower and
+upper states of the unit correspond to the thick and thin lines, respectively.
+
+bifurcation occurring at p = 89.83, the orbit corresponding to the upper
+branch naturally coils on the Hopf cycles branch (see Figure 6, p = 100),
+resulting in alpha-like activity. The trajectory on the lower branch does the
+same with the spike cycles as soon as p reaches the value 113.58 (see Figure 6,
+p = 125). As p ≥ 137.38, the only remaining attractor is the Hopf cycle
+branch so that the system can exhibit only alpha-like behavior (see Figure 6,
+p = 200). For high values of p (≥315.70), there is only one stable fixed point,
+and the trajectory is flat again. These results lead us to distinguish two states,
+the lower and the upper, for the unit. The lower state is described by the
+combination of the lower branch of fixed points that correspond to rest and
+the spike cycles (thick lines in Figure 5). It corresponds to positive values of
+p less than 137.38. The upper state is described by the upper branch of fixed
+points, the Hopf cycle branch, and the branch of fixed points following it
+(thin lines in Figure 5). It corresponds to positive values of p. These states
+are relevant for slow dynamics of the input p. In effect, a trajectory starting
+
+Bifurcation Analysis of Jansen’s Neural Mass Model
+p=100
+
+12
+
+12
+
+10
+
+10
+
+8
+
+8
+
+y (mV)
+
+y (mV)
+
+p=80
+
+6
+
+6
+
+4
+
+4
+
+2
+
+2
+
+0
+80
+
+80.5
+
+3065
+
+81
+
+0
+100
+
+81.5
+
+100.5
+
+t (s)
+
+10
+
+10
+
+8
+
+8
+
+6
+
+4
+
+2
+
+2
+126
+
+t (s)
+
+201
+
+201.5
+
+6
+
+4
+
+125.5
+
+101.5
+
+p=200
+12
+
+y (mV)
+
+y (mV)
+
+p=125
+12
+
+0
+125
+
+101
+
+t (s)
+
+126.5
+
+0
+200
+
+200.5
+
+t (s)
+
+Figure 6: Activities produced by Jansen’s neural mass model for typical values
+of the input parameter p (see the text). The thin (resp. thick) curves are the
+time courses of the output y of the unit in its upper (resp. lower) state. For
+p > 137.38, there is only one possible behavior of the system. In the case of
+oscillatory activities, we added a very small amount of noise to p (a zero mean
+gaussian noise with standard deviation 0.05).
+
+near one of these states will stay in its neighborhood when p is varied
+slowly (increasing or decreasing). When the unit is in its lower-state and p
+becomes larger than 137.38, it jumps to its upper state and cannot return to
+its lower state (if p varies slowly). Therefore, when in its upper state, a unit
+essentially produces alpha-like activity, and its input must be decreased
+abruptly to bring it back to its lower state. Conversely, starting in the lower
+state, a unit can be brought to the upper state by an abrupt increase of its
+input. It can also stay in its lower state regime, between rest and spiking, if
+the input and its variation remain moderate.
+3.4 What About Other Parameters? We think that the bifurcation analysis with respect to p is the most relevant since this parameter is expected to
+vary more and faster than the others, but it is interesting to build bifurcation
+diagrams with respect to p with different settings of the other parameters.
+
+3066
+
+F. Grimbert and O. Faugeras
+a
+
+b
+
+10
+
+14
+12
+
+8
+10
+8
+6
+
+4
+
+y(mV)
+
+y(mV)
+
+6
+
+2
+
+4
+2
+0
+
+0
+
+0
+
+50
+
+100
+
+150
+
+200
+
+p(Hz)
+
+250
+
+300
+
+350
+
+400
+
+0
+
+100
+
+200
+
+300
+
+400
+
+500
+
+600
+
+p(Hz)
+
+Figure 7: The stable attractors of the system in two typical cases encountered for
+different settings of parameters A, B, C, a , or b. (a) Corresponds to lower (resp.
+higher) values of A, B, C (resp. a and b) than those given by equation 2.4. Here,
+A = 3 instead of 3.25: there are no more limit cycles. (b) Corresponds to higher
+(resp. lower) values of A, B, C (resp. a and b). Here C = 140 instead of 135. The
+spiking behavior is more prominent and is the only one available in a wide range
+of p values (112.6 ≤ p ≤ 173.1). Except in a narrow band (173.1 ≤ p ≤ 180.4),
+the system displays one single behavior for each value of p.
+
+We indeed observed that varying any parameter by more than 5% leads to
+quite drastic changes in the bifurcation diagram and to significantly less
+rich behaviors of the unit. These changes fall into two broad categories (see
+Figure 7).
+For low values of A, B, or C or high values of a or b, the system is no
+longer able to produce oscillations (see Figure 7a). For high values of A, B,
+or C or low values of a or b, we observed a new kind of bifurcation diagram
+(an example is given in Figure 7b). In this regime, the system has only one
+stable state for each value of p, except sometimes in a narrow range of p
+values (in the figure, 173.1 ≤ p ≤ 180.4). The range where spiking can occur
+is broader and the one for alpha activity is severely truncated. Moreover,
+spiking does not coexist with alpha rhythm anymore so that (except for a
+very small range of p values) it is the only available behavior on a broad
+interval of p values (in the figure, 112.6 ≤ p ≤ 173.1). So spiking becomes
+really prominent.
+The mathematical explanation for this new diagram is the fusion of the
+Hopf cycles branch with the branch of unstable periodic orbits that can
+be seen in Figure 4d. It results in a new organization of periodic orbit
+branches. We have two stable branches (for 112.6 ≤ p ≤ 180.4 and 173.1 ≤
+p ≤ 457.1), linked by a branch of unstable orbits. Transitions between stable
+and unstable orbits are made via fold bifurcations of limit cycles like the
+one in Figure 4d.
+
+Bifurcation Analysis of Jansen’s Neural Mass Model
+
+3067
+
+4 Conclusion
+The bifurcation diagram (see Figure 5) is a precious tool to describe Jansen’s
+neural mass model’s behaviors for constant or slowly varying stimulus. We
+also showed that this analysis provided a good basis for understanding
+what happened when the input was noisy. In the case of small or slow
+variations of this input, the model can be reduced to a binary unit with two
+possible states.
+When we studied how the bifurcation diagram varied when changing the
+values of the other model’s parameters, it appeared that Jansen’s model’s
+behavior was quite sensitive to the choice of the physiological parameters
+A, B, C, a , and b. Variations of a few percentages in the values of these
+parameters can cause drastic changes in the qualitative behavior of this
+neural mass model. Detailed comparisons of these behaviors with experimental data should be essential for further validation of the model and for
+defining ways to make it evolve.
+What about the behavior of spatial assemblies of such models? Jansen
+et al. have studied evoked potentials in two connected cortical units (Jansen
+& Rit, 1995; Jansen et al., 1993) and Wendling et al. (2000) have simulated an
+epileptogenic network composed of three units. There are still no studies
+involving an arbitrary number of such units or a continuum of them.
+This is a difficult task for at least three reasons. First, the size of the
+system of differential equations describing the network increases linearly
+with the number of units, making its mathematical analysis even more
+difficult. Second, the nonlinearities in the model and the network open the
+door to emerging properties impossible to predict from the sole knowledge
+of the behavior of one unit. Third, the way to connect those units is an open
+question since our knowledge of anatomical connectivity in the cortex is
+still very poor. Nevertheless, we think this is an important area for future
+work.
+Acknowledgments
+This work was partially supported by Elekta Instrument AB.
+References
+Berglund, N. (2001a). Geometrical theory of dynamical systems. Citebase.
+Berglund, N. (2001b). Perturbation theory of dynamical systems. Citebase.
+¨ A. (1998). Cortex: Statistics and geometry of neuronal connecBraitenberg, V., & Schuz,
+tivity (2nd ed.). Berlin: Springer.
+David, O., Cosmelli, D., & Friston, K. J. (2004). Evaluation of different measures of
+functional connectivity using a neural mass model. Neurolmage, 21, 659–673.
+David, O., & Friston, K. J. (2003). A neural mass model for MEG/EEG: Coupling and
+neuronal dynamics. Neurolmage, 20, 1743–1755.
+
+3068
+
+F. Grimbert and O. Faugeras
+
+Freeman, W. (1975). Mass action in the nervous system. New York: Academic Press.
+Freeman, W. (1987). Simulation of chaotic EEG patterns with a dynamic model of
+the olfactory system. Biological Cybernetics, 56, 139–150.
+Gerstner, W., & Kistler, W. M. (2002). Mathematical formulations of Hebbian learning.
+Biol. Cybern., 87, 404–415.
+Hoppenstaedt, F., & Izhikevich, E. (1997). Weakly connected neural networks. New
+York: Springer-Verlag.
+Ioos, G., & Adelmeyer, M. (1999). Topics in bifurcation theory and applications (2nd ed.).
+Singapore: World Scientific.
+Izhikevich, E. M. (in press). Dynamical systems in neuroscience: The geometry of excitability and bursting. Cambridge, MA: MIT Press.
+Jansen, B. H., & Rit, V. G. (1995). Electroencephalogram and visual evoked potential
+generation in a mathematical model of coupled cortical columns. Biol. Cybern.,
+73, 357–366.
+Jansen, B. H., Zouridakis, G., & Brandt, M. E. (1993). A neurophysiologically-based
+mathematical model of flash visual evoked potentials. Biological Cybernetics, 68,
+275–283.
+Kandel, E., Schwartz, J., & Jessel, T. (2000). Principles of neural science (4th ed.). New
+York: McGraw-Hill.
+Kuznetsov, Y. A. (1998). Elements of applied bifurcation theory. (2nd ed.). New York:
+Springer.
+Lopes da Silva, F., Hoeks, A., & Zetterberg, L. (1974). Model of brain rhythmic
+activity. Kybernetik, 15, 27–37.
+Lopes da Silva, F., van Rotterdam, A., Barts, P., van Heusden, E., & Burr, W. (1976).
+Model of neuronal populations: The basic mechanism of rhythmicity. In M. A.
+Corner & D. F. Swaab (Eds.), Progress in brain research (pp. 281–308). Amsterdarm:
+Elsevier.
+Perko, L. (2001). Differential equations and dynamical systems (3rd ed.). New York:
+Springer.
+Rinzel, J., & Ermentrout, G. (1998). Analysis of neuronal excitability and oscillations.
+In C. Koch & I. Segev (Eds.), Methods in neuronal modeling: From ions to networks
+(pp. 251–291). Cambridge, MA: MIT Press.
+van Rotterdam, A., Lopes da Silva, F., van den Ende, J., Viergever, M., & Hermans,
+A. (1982). A model of the spatial-temporal characteristics of the alpha rhythm.
+Bulletin of Mathematical Biology, 44(2), 283–305.
+Wendling, E, Bellanger, J., Bartolomei, F., & Chauvel, P. (2000). Relevance of nonlinear lumped-parameter models in the analysis of depth-EEG epileptic signals.
+Biological Cybernetics, 83, 367–378.
+
+Received September 23, 2005; accepted April 28, 2006.
+
+

@@ -1,0 +1,2208 @@
+PHYSICAL REVIEW E, VOLUME 63, 021903
+
+Prediction of electroencephalographic spectra from neurophysiology
+P. A. Robinson,1,* C. J. Rennie,
+
+1,2,3
+
+J. J. Wright,4 H. Bahramali,3 E. Gordon,3 and D. L. Rowe1,3
+
+1
+
+School of Physics, University of Sydney, New South Wales 2006, Australia
+Department of Medical Physics, Westmead Hospital, Westmead, New South Wales 2145, Australia
+3
+Brain Dynamics Center, Department of Psychological Medicine, Westmead Hospital and University of Sydney,
+Westmead, New South Wales 2145, Australia
+4
+Mental Health Research Institute, Parkville, Victoria 3052, Australia
+͑Received 22 May 2000; revised manuscript received 19 October 2000; published 18 January 2001͒
+2
+
+A recent neurophysical model of propagation of electrical waves in the cortex is extended to include a
+physiologically motivated subcortical feedback loop via the thalamus. The electroencephalographic spectrum
+when the system is driven by white noise is then calculated analytically in terms of physiological parameters,
+including the effects of filtering of signals by the cerebrospinal fluid, skull, and scalp. The spectral power at
+low frequencies is found to vary as f Ϫ1 when awake and f Ϫ3 when asleep, with a breakpoint to a steeper
+power-law tail at frequencies above about 20 Hz in both cases; the f Ϫ1 range concurs with recent magnetoencephalographic observations of such a regime. Parameter sensitivities are explored, enabling a model with
+fewer free parameters to be proposed, and showing that spectra predicted for physiologically reasonable
+parameter values strongly resemble those observed in the laboratory. Alpha and beta peaks seen near 10 Hz
+and twice that frequency, respectively, in the relaxed wakeful state are generated via subcortical feedback in
+this model, thereby leading to predictions of their frequencies in terms of physiological parameters, and of
+correlations in their occurrence. Subcortical feedback is also predicted to be responsible for production of
+anticorrelated peaks in deep sleep states that correspond to the occurrence of theta rhythm at around half the
+alpha frequency and sleep spindles at 3/2 times the alpha frequency. An additional positively correlated waking
+peak near three times the alpha frequency is also predicted and tentatively observed, as are two new types of
+sleep spindle near 5/2 and 7/2 times the alpha frequency, and anticorrelated with alpha. These results provide
+a theoretical basis for the conventional division of EEG spectra into frequency bands, but imply that the exact
+bounds of these bands depend on the individual. Three types of potential instability are found: one at zero
+frequency, another in the theta band at around half the alpha frequency, and a third at the alpha frequency
+itself.
+DOI: 10.1103/PhysRevE.63.021903
+
+PACS number͑s͒: 87.10.ϩe, 87.19.La, 87.18.Ϫh
+
+I. INTRODUCTION
+
+Electroencephalograms ͑EEGs͒ have diverse forms that
+are correlated with differing pathologies and states of
+arousal, as determined independently by behavioral and
+clinical measures ͓1͔, and are inferred to be closely connected to brain dynamics, information processing, and cognition ͓2,3͔. These correlations are widely used diagnostically, where they have been employed to elucidate
+fundamental mechanisms of overall brain function and dysfunction. Even so, they are not well understood in terms of
+the underlying physiology, despite 125 years’ work ͓1,4,5͔.
+Prominent in EEGs are the alpha rhythm ͑narrowband at
+7–11 Hz in the relaxed waking state, weakening rapidly with
+increased attention, or with sleep͒, and beta rhythm ͑broader
+band at 15–25 Hz͒, and sleep spindles ͑12–14 Hz, occurring
+in deeper sleep and sometimes termed sigma activity͒, as
+shown in Fig. 1. The experimental setup and procedures for
+acquisition of these spectra have been described in detail
+elsewhere, along with the methods used to ensure that artifacts do not significantly contaminate the data ͓6͔; a brief
+summary is given in Appendix A. The origins of these
+rhythms are also obscure and have not been quantified in
+terms of physiology, although the thalamus is widely thought
+
+*Electronic address: robinson@physics.usyd.edu.au
+1063-651X/2001/63͑2͒/021903͑18͒/$15.00
+
+to be involved in alpha, beta, and sleep spindles ͓7–12͔,
+since experiments show high coherence between EEGs in the
+two structures ͓10,13–15͔. Underlying the specific rhythms
+is a smoother background EEG spectrum whose origin and
+structure are even more cryptic. Recently, analogous magnetoencephalographic ͑MEG͒ measurements revealed that the
+low frequency component of this background was 1/f noise,
+whose power spectrum P( f ) decreased as P( f )ϳ f Ϫa , with
+aϷ1 ͓16͔; at high frequencies the decrease was much
+steeper. In deep sleep there is a strong enhancement of
+the spectrum at low frequencies, in the so-called delta
+( f Ͻ3.5 Hz) and theta ͑4 Hz Ͻ f Ͻ7.5 Hz) ranges
+͓1,10,17,18͔.
+Scientific and clinical understanding of EEGs would be
+greatly facilitated by a theory, based on physiology, that
+could predict features of EEG spectra such as those mentioned above. Consequently, many attempts to model largescale cortical electrical activity have been made, with varying degrees of physiological realism and incorporating
+differing aspects of the cortex. One avenue has been to average over microscopic neural structure to develop continuum cortical models on scales from millimeters up to the
+whole cortex ͓7,10,15,19–33͔. Some continuum models
+yield wave equations for the propagation of cortical activity
+͓10,21–24,27,31–33͔, which are particularly convenient for
+analysis and which incorporate realistic anatomical features
+such as separate excitatory and inhibitory neural populations
+
+63 021903-1
+
+©2001 The American Physical Society
+
+P. A. ROBINSON et al.
+
+PHYSICAL REVIEW E 63 021903
+
+back and filtering by overlying tissues. Analytic predictions
+for EEG spectra in terms of physiological parameters are
+then made in Sec. III, and the structure of the underlying
+spectrum is estimated. Parameter sensitivities are explored in
+Sec. IV, leading to elimination of several parameters to yield
+a simplified model that is well suited for comparison with
+data. This simplified model is used to estimate the locations,
+sizes, and possible instabilities of spectral peaks in Sec. V,
+and thereby formulate constraints on the underlying feedback
+physiology. These results justify the customary division of
+EEG spectra into distinct bands, but highlight the significance of individual variability in this subdivision. In the case
+of spectra predicted when the cortex is near marginal stability, a state that has been inferred from MEG observations
+͓16͔, further simplifications can be obtained; these are discussed in Sec. VI.
+II. THEORY
+
+In this section we outline the main relevant results of our
+recent wave-equation formulation of continuum cortical dynamics ͓21–23͔, which incorporates the physiological effects
+discussed in Sec. I. We then generalize this model in Sec.
+II B to incorporate a corticothalamic feedback loop, motivated by a range of physiological considerations.
+A. Basic model
+
+FIG. 1. Illustrative examples of EEG spectra from a normal
+subject, with waking spectra ͑eyes closed, solid curves͒ showing
+alpha and beta peaks near 9.5 Hz and 19 Hz, while sleep spectra
+͑sleep stage 2, dashed curves͒ show spindle peaks near 14 Hz. All
+these spectra have been smoothed for clearer display using a 1 Hz
+wide window function. ͑a͒ Cz electrode. ͑b͒ Fz electrode. ͑c͒ Pz
+electrode. ͑d͒ C3 electrode. ͑e͒ C4 electrode. ͑f͒ All spectra superposed to show interelectrode variability.
+
+͑e.g., pyramidal cells and interneurons, respectively͒, nonlinearities, long-range excitatory connections, dendritic signalintegration effects, axonal time delays, and intracortical feedback.
+In this paper we study the spectral properties and parameter dependences of our recent physiology-based waveequation theory of the cortex ͓21–23,33͔, concentrating in
+particular on the consequences of adding a subcortical feedback loop, probably involving the thalamus, with plausible
+physiological characteristics, and the filtering that occurs between cortex and scalp. Our aims are to formulate a relatively simple, physiologically based model that can reproduce the main features of EEGs such as those in Fig. 1, and
+to explore its qualitative properties and parameter sensitivities. In future work, we will test the predictions of this model
+via quantitative comparisons with data. It is also anticipated
+that the usefulness of our results will be further enhanced by
+comparison with simultaneous measurements of brain function via positron emission tomography or functional magnetic resonance imaging.
+In Sec. II we briefly review the model developed in our
+previous work and extend it to include corticothalamic feed-
+
+The mean firing rates ͑or pulse densities͒ Q a of excitatory
+(aϭe) and inhibitory (aϭi) neurons are approximately related to the cell-body potentials V a by
+Q a ͑ r,t ͒ ϭ
+
+Q max
+a
+1ϩexp͓ Ϫ ͑ ␲ / ␴ a ͱ3 ͒ ͕ V a ͑ r,t ͒ Ϫ ␪ a ͖ ͔
+
+,
+
+͑1͒
+
+where ␪ a is the mean firing threshold of neurons of type a,
+␴ a is the standard deviation in this threshold in the neural
+Ϫ1
+is the maximum attainable
+population, and Q max
+a տ100 s
+firing rate. The coordinate r refers to position on the cortex,
+modeled as a two-dimensional sheet, which is justified by its
+relative thinness.
+The quantity V a is the potential at the cell body after
+inputs have been summed and filtered through the dendrites.
+A good approximation to V a is ͓21–23͔
+
+͵
+
+ϱ
+
+L ͑ tϪt Ј ͒ P a ͑ r,t Ј ͒ dt Ј ,
+
+͑2͒
+
+␣␤
+͑ e Ϫ ␣ u Ϫe Ϫ ␤ u ͒ ⌰ ͑ u ͒ ,
+␤Ϫ␣
+
+͑3͒
+
+V a ͑ r,t ͒ ϭ
+
+Ϫϱ
+
+with
+L͑ u ͒ϭ
+
+where P a is the mean potential generated by action potentials
+arriving from other neurons at the dendrites of neurons of
+type a, ⌰ is the unit step function, and ␣ and ␤ are dendritic
+rate constants, with ␤ у ␣ assumed without loss of generality. The Fourier transform of L(u), used below, is
+
+021903-2
+
+L ͑ ␻ ͒ ϭ ͑ 1Ϫi ␻ / ␣ ͒ Ϫ1 ͑ 1Ϫi ␻ / ␤ ͒ Ϫ1 ,
+
+͑4͒
+
+PREDICTION OF ELECTROENCEPHALOGRAPHIC . . .
+
+PHYSICAL REVIEW E 63 021903
+
+which implies that the dendrites act as a low-pass filter with
+cutoff frequency ␣ and a steeper fall-off for ␻ Ͼ ␤ .
+The potential P a at a particular location comprises contributions from fields ␾ e,i that represent signals propagating
+from other cortical neurons, and subcortical inputs ␾ s
+͓21,23͔:
+P a ϭN ae s e ␾ e ϩN ai s i ␾ i ϩN as s s ␾ s .
+
+TABLE I. Physiological estimates of parameters of the model,
+as discussed in Refs. ͓23͔ and ͓24͔. The limits given are only approximate.
+
+͑5͒
+
+Here, N ab is the mean number of couplings from neurons of
+type bϭe,i,s to those of type a, and s b is the size of the
+response to a unit signal from neurons of type b.
+Outgoing pulses from each neuron propagate along its
+axon and axonal tree at a velocity v Ϸ10 m sϪ1 . Assuming
+an isotropic distribution of axons with a distribution of
+ranges in accord with experiment ͑see Ref. ͓21͔ for the exact
+distribution͒, this propagation can be described by damped
+wave equations for the fields ␾ a , which represent axonal
+signals:
+D a ␾ a ͑ r,t ͒ ϭQ a ͑ r,t ͒ ,
+D aϭ
+
+1
+
+␥ 2a
+
+ͫ
+
+‫ץ‬2
+‫ץ‬t
+
+2
+
+ϩ2 ␥ a
+
+‫ץ‬
+‫ץ‬t
+
+͑6͒
+
+ͬ
+
+ϩ ␥ 2a Ϫ v 2 ٌ 2 ,
+
+͑7͒
+
+where ␥ a ϭ v /r a and r a is the characteristic range of axons of
+type a ͓21͔. Strictly speaking, very short-range excitatory
+axons have lower v than the longer range corticocortical
+ones, because they are not myelinated. This effect is omitted
+here on the grounds that the difference will not have strong
+effects on long-range wave propagation, but could be incorporated by splitting excitatory neurons into two populations
+with a corresponding division of the field ␾ e into two parts.
+Equations ͑1͒–͑7͒ determine the steady states of cortical
+activation, when the cortex is driven by a constant, spatially
+uniform stimulus ␾ s(0) . Small perturbations relative to these
+steady states obey a linear wave equation which yields the
+transfer functions ͓23͔
+
+␾ e ͑ k, ␻ ͒
+G es L ͑ ␻ ͒
+ϭ
+,
+␾ s ͑ k, ␻ ͒ D e ͓ 1ϪG ii L ͑ ␻ ͔͒ ϪG ee L ͑ ␻ ͒
+
+͑8͒
+
+␾ i ͑ k, ␻ ͒ D e G is ␾ e ͑ k, ␻ ͒
+ϭ
+,
+␾ s ͑ k, ␻ ͒
+G es ␾ s ͑ k, ␻ ͒
+
+͑9͒
+
+D e ͑ k, ␻ ͒ ϭk 2 r 2e ϩ ͑ 1Ϫi ␻ / ␥ e ͒ 2 ,
+
+͑10͒
+
+in Fourier space. Here, the gain parameters G ab ϭ ␳ a N ab s b
+express the response strength in neurons a due to a unit signal incident from neurons of type b. The parameter ␳ a
+(0)
+ϭdQ (0)
+a /dV a Ϸ ␲ Q a / ␴ a ͱ3 is evaluated in the steady state
+(0)
+is the steady-state firing rate.
+where Q a ϭ5 – 10 sϪ1 ӶQ max
+a
+In writing ͑8͒ and ͑9͒ we used the short range of inhibitory
+axons to set D i ϭ1, the local inhibition approximation ͓21͔,
+and assumed that the numbers of interconnections between
+neural types are proportional to the number of available synapses, the random connectivity approximation ͓21–
+23,28,34͔.
+
+Quantity
+
+Value
+
+Unit
+
+␴ e,i
+␪ e,i
+␣
+␤/␣
+re
+ri
+v
+t0
+N ee ,N ie ,N se
+N ei ,N ii ,N si
+N es ,N is
+s e,s
+Ϫs i
+␥e
+␥i
+max
+Q e,i
+Q e,i
+␳ e,i,s
+G ee
+ϪG ii
+ϪG es
+
+3–8
+10–25
+50–200
+1–5
+70–100
+ϳ0.1
+7–10
+25–100
+2000–6000
+300–1000
+30–100
+1–3
+5–8
+70–150
+ϳ105
+100–300
+5–10
+1000–6000
+2–90
+1.3–60
+0.03–2
+
+mV
+mV
+sϪ1
+mm
+mm
+m sϪ1
+ms
+
+␮V s
+␮V s
+sϪ1
+sϪ1
+sϪ1
+sϪ1
+Ϫ1 Ϫ1
+V s
+
+The parameters of the above model are physiologically
+measurable, although not all have yet been measured precisely. Table I lists typical values inferred from physiology
+͓23,24͔, plus values of several other quantities that are discussed below.
+B. Subcortical feedback
+
+Several suggestions for the production of the resonances
+that correspond to observed cortical rhythms have been
+made. These include the possible occurrence of standing
+waves in the cortex, a potential scenario that is incorporated
+in the model outlined in Sec. II A, but which does not appear
+to yield sufficiently sharp resonances to account for observations ͓21–23͔ if physiologically realistic input parameters are
+used in our model. A second possibility is the presence of a
+thalamic ‘‘pacemaker’’ or ‘‘clock’’ ͓9,10͔, which we do not
+consider here, although it can be incorporated into our
+model. Third, it has been widely noted that the thalamus also
+displays alpha rhythm ͑and possibly beta and sleep-spindle
+peaks͒, with a high degree of correlation with the cortical
+one ͓7–10,13,14,18͔, which may result either from pacemaker activity or from some form of corticothalamic feedback. Hence, we are particularly motivated to include corticothalamic feedback in our model.
+A key subcortical feedback loop that may underlie production of the alpha rhythm involves feedback via the diffuse
+thalamocortical projection system ͓8,9,13,14,35͔. This system projects both to other thalamic nuclei and from the thalamus to the whole cortex and thus has the potential to be
+
+021903-3
+
+P. A. ROBINSON et al.
+
+PHYSICAL REVIEW E 63 021903
+
+signals by differentiating them in the loop. Differentiation
+circuits are commonplace in the brain ͑e.g., for edge detection in the visual field͒, so the latter type of feedback certainly cannot be ruled out, and has been discussed previously
+in the context of CT feedback ͓8͔. Limiting cases of truly
+specific feedback ͑each point in the cortex feeds back to
+itself͒ and totally diffuse feedback with uniform driving ͑every point feeds back to the whole cortex, making every point
+equivalent to every other one if the driving is at least statistically uniform, thereby reducing the system to a zerodimensional one͒ are included in the form ͑11͒, but intermediate types of spatial variation would require a k-dependent
+transfer function and are not considered here.
+The frequency-domain transfer function that corresponds
+to the above physiology can be written as
+FIG. 2. Schematic block diagram of the corticothalamic feedback loop, showing inputs from excitatory ͑e͒ and inhibitory ͑i͒
+neurons in the cortex, transmission through both thalamic populations, and feedback to both cortical populations. The gain parameters G ab are defined after ͓10͔ in the text.
+
+involved in modulating large-scale EEG activity
+͓8,14,18,36͔; it also has the correct latency of tens of ms ͓8͔.
+Other corticothalamic loops pass through the so-called specific nuclei of the thalamus ͑e.g., the pulvinar, lateral posterior, and ventral anterior nuclei͒, which themselves project
+preferentially back to the same cortical areas that stimulate
+them ͓1,36͔. We stress that, although we assume corticothalamic feedback in the remainder of this paper, for definiteness and simplicity, the results obtained are applicable to
+other potential feedback loops with like characteristics. Corticothalamic feedback should be significant because the
+thalamus is known to strongly affect the state of attention of
+the cortex, implying the existence of influential projections
+from thalamus to cortex. Strong projections in the reverse
+direction also exist to complete the loop, involving an even
+greater number of axons ͓37–39͔.
+Corticothalamic ͑CT͒ feedback is modeled approximately
+here by assuming that ␾ s is the sum of a non-CT part ␾ N and
+a feedback ␾ T , which travels along excitatory neurons that
+project to excitatory and inhibitory neurons in the thalamus
+before returning to the cortex via other excitatory neurons.
+This situation is illustrated in Fig. 2. The feedback signal
+thus passes through nϳ1 additional neurons compared to
+direct corticocortical connections ͑which involve more than
+one neuron on average͒. This adds a propagation time delay
+t 0 and nϳ1 extra stages of dendritic filtering with rate constants ␩ 1 and ␩ 2 of the same order as ␣ and ␤ . We thus
+approximate ␾ T by
+
+␾ T ϭT e ͑ ␻ ͒ ␾ e .
+
+͑12͒
+
+⌿ ͑ ␻ ͒ ϭ ␺ Ϫi ␻ t 0 ␺ Ј ,
+
+͑13͒
+
+␶͑ ␻ ͒ϭ
+
+e i␻t0
+͑ 1Ϫi ␻ / ␩ 1 ͒ n ͑ 1Ϫi ␻ / ␩ 2 ͒ n
+
+,
+
+͑14͒
+
+where ␶ (0)ϭ1, and ␺ and ␺ Ј measure the strengths of direct
+and differential feedbacks. The factor t 0 in ͑13͒ is included
+to make ␺ Ј dimensionless.
+The magnitudes and signs of ␺ and ␺ Ј in ͑13͒ are expected to vary with state of arousal as the relative responses
+of the excitatory and inhibitory neurons in the thalamus
+change. Such changes may result from the action of neurotransmitters or neuromodulators that preferentially affect
+one population or the other, for example. Hence, if the coupling of thalamic inhibitory neurons to thalamocortical excitatory fibers exceeds that of excitatory ones in some states,
+the thalamus will invert incoming signals as well as filtering,
+delaying, and ͑in part͒ differentiating them. In Sec. IV we
+will see that, for many purposes, one may approximate ͑14͒
+by setting nϭ1 and ␩ 1 ϭ ␩ 2 ϭ ␣ .
+Combining ͑8͒–͑14͒, we find the transfer functions for
+non-CT stimuli to be given by
+
+␾ e ͑ k, ␻ ͒
+ϭG es L ͑ ␻ ͒͑ D e ͓ 1ϪG ii L ͑ ␻ ͔͒
+␾ N ͑ k, ␻ ͒
+ϪG ee ͓ 1ϩ⌿ ͑ ␻ ͒ ␶ ͑ ␻ ͔͒ L ͑ ␻ ͒͒ Ϫ1 ,
+
+͑15͒
+
+and the analog of ͑9͒.
+The dispersion relation of waves in our model system is
+given by setting the denominator of ͑15͒ to zero, giving
+k 2 ϩq 2 ͑ ␻ ͒ ϭ0,
+
+͑11͒
+
+This incorporates feedback of both excitatory and inhibitory
+input signals to excitatory neurons ͑thereby generating the
+field ␾ e ) that project to the thalamus. After time delays and
+thalamic low-pass filtering, encapsulated in the transfer function T e ( ␻ ), this signal returns to the cortex via other excitatory neurons. We also allow for the possibility of both direct
+feedback, and feedbacks that emphasize changes in cortical
+
+T e ͑ ␻ ͒ ϭG ee ⌿ ͑ ␻ ͒ ␶ ͑ ␻ ͒ /G es ,
+
+ͩ
+
+q 2 ͑ ␻ ͒ r 2e ϭ 1Ϫ
+
+i␻
+␥e
+
+ͪ
+
+2
+
+Ϫ
+
+G ee ͓ 1ϩ⌿ ͑ ␻ ͒ ␶ ͑ ␻ ͔͒ L ͑ ␻ ͒
+.
+1ϪG ii L ͑ ␻ ͒
+
+͑16͒
+
+͑17͒
+
+In ͑11͒–͑17͒ linearization is implicitly carried out relative to
+steady states of the combined corticothalamic system, not the
+cortex alone. The steady state values in Table I refer to the
+combined system.
+
+021903-4
+
+PREDICTION OF ELECTROENCEPHALOGRAPHIC . . .
+
+PHYSICAL REVIEW E 63 021903
+
+ͯ
+
+III. ELECTROENCEPHALOGRAPHIC SPECTRA
+
+In this section we derive the form of the EEG spectrum
+from the transfer function ͑15͒. We then derive analytic
+forms for quantities such as the ␻ ϭ0 stability boundaries of
+the system, the asymptotic forms of the spectrum at high and
+low frequencies, and breakpoints between different ranges.
+We also examine the effects on the spectrum of filtering
+through the cerebrospinal fluid, skull, and scalp.
+A. Filtering by overlying structures
+
+In calculating scalp EEG spectra ͑rather than intracranial
+ones at the cortical surface͒, one must consider the possibility of filtering due to shielding that results from volume conduction by the cerebrospinal fluid, skull, and the scalp itself
+͓10,20,40͔. Filtering of high spatial frequencies k can be significant, as found by Srinivasan et al. ͓40͔. The k dependence
+of their low-to-moderate wave number results is reasonably
+well fitted by a spatial filter of the form
+F ͑ k ͒ ϭe Ϫk
+
+2 /k 2
+0
+
+͑18͒
+
+,
+
+where F(k) is the square of the ratio of scalp to cortical
+voltage and k 0 Ϸ30 mϪ1 . We show in Appendix B that the
+precise form of this function does not significantly affect the
+form of the final spectra calculated, so we use the form ͑18͒
+because it allows the spectrum to be evaluated in a convenient closed form.
+
+ϭ PN
+
+ϫIm͓ exp͑ q * 2 /k 20 ͒ E 1 ͑ q * 2 /k 20 ͔͒ ,
+2
+P N ϭ ␲ ͉ ␾ N2 ͉ G es
+/r 2e ,
+
+P͑ ␻ ͒ϭ
+ϭ
+
+͵␾
+͉
+
+͉ ␾ N2 ͉
+
+r 4e
+
+e ͑ k, ␻ ͒ ͉
+
+ͯ
+
+2
+
+͑19͒
+
+F͑ k ͒d 2k
+
+G es L ͑ ␻ ͒
+1ϪG ii L ͑ ␻ ͒
+
+ͯ͵
+2
+
+F͑ k ͒d 2k
+͉ k 2 ϩq 2 ͉ 2
+
+͑20͒
+
+͑21͒
+͑22͒
+
+where ␪ is the complex argument of q 2 , ͉ ␾ N2 ͉ is the whitenoise power level in Fourier space, and E 1 is the exponential
+integral function ͓42͔, with
+ϱ
+
+E 1 ͑ z ͒ ϭϪ ␥ Ϫln zϪ
+
+͚
+
+jϭ1
+
+͑ Ϫz ͒ j
+,
+j j!
+
+͑23͒
+
+for ͉ arg z ͉ Ͻ ␲ , where ␥ ϭ0.5772 . . . is Euler’s constant. The
+spectrum ͑21͒ has been calculated for the specific form ͑18͒
+of F(k).
+The limit k 0 →ϱ corresponds to the absence of volume
+conduction and, in the related limit ͉ q 2 ͉ /k 20 →0, we find that
+͑21͒ simplifies to
+
+ͯ
+
+P͑ ␻ ͒ϭ PN
+
+ͯ
+
+2
+L͑ ␻ ͒
+␪
+.
+2 2
+1ϪG ii L ͑ ␻ ͒ ͉ q r e ͉ sin ␪
+
+͑24͒
+
+In the opposite limit, ͉ q 2 ͉ /k 20 ӷ1, expansion of ͑21͒ in powers of k 20 /q 2 yields
+
+B. Spectra
+
+EEGs result from fields generated as charges flow in and
+out of neural membranes as neurons fire and the resulting
+signals propagate. Hence, we assume that the observed signals primarily result from the firing of excitatory neurons,
+since these are larger and much more numerous than inhibitory ones, and have a higher degree of spatial alignment,
+which implies they contribute more coherently to the total
+signal ͓10͔. Further reasons for ignoring ␾ i are that its transfer function is proportional to the one for ␾ e at small k
+͑thereby giving only a multiplicative correction͒, while volume conduction filters out both signals at large k ͓10,40͔. We
+see below that the bulk of the EEG power is at large scales
+where both fields have the same spectral profile in any case.
+Stimuli to the cortex have complicated temporal and spatial dependences. We approximate these here by assuming
+that their total ␾ N consists of white noise in space and time,
+which is effectively filtered via its interaction with the cortex
+to yield the EEG spectrum. This picture is consistent with
+recent results that indicate that at least the alpha frequency
+range is consistent with linearly filtered noise in most cases
+͓7,41͔, although in 1.25% of cases possible evidence of nonlinear behavior was found.
+The resulting spectrum is
+
+ͯ
+
+2
+L͑ ␻ ͒
+1
+2 2
+1ϪG ii L ͑ ␻ ͒ ͉ q r e ͉ sin ␪
+
+P ͑ ␻ ͒ ϭ P ϱ͑ ␻ ͒
+
+k 20 sin ␪
+͉ q 2͉ ␪
+
+,
+
+͑25͒
+
+where P ϱ ( ␻ ) is the spectrum given by ͑24͒. At large frequencies, where ͉ q 2 ͉ becomes large and ͉ ␪ ͉ Ϸ ␲ , this implies
+an asymptotic frequency filtering function
+F ͑ ␻ ͒ Ϸ ␻ F3 / ␻ 3 ,
+
+͑26͒
+
+with a turnover frequency of
+
+␻ F Ϸ ␥ e ͑ 2k 20 r 2e / ␲ ͒ 1/3.
+
+͑27͒
+
+For the parameters in Table I, the turnover frequency occurs
+at about 30 Hz—too high to significantly affect the main part
+of the frequency spectrum. Equation ͑26͒ does not have the
+form F( ␻ )ϭexp(Ϫ␻2v2/k20) one might naively expect from
+͑18͒ for a dispersion relation whose real part has the
+asymptotic form ␻ ϭk v . This difference occurs because of
+damping, which implies that ␻ is the solution of the complex
+dispersion relation ͑16͒. Hence, the Fourier transform of
+waves satisfying this relation has a Lorentzian profile in the
+real part of ␻ , giving F( ␻ )ϰ ␻ Ϫ2 ; the actual ␻ Ϫ3 dependence comes about because of the detailed structure of ͑21͒,
+which causes the coefficient of the ␻ Ϫ2 term in an expansion
+in powers of ␻ Ϫ1 to be zero.
+The shape of the spectrum depends strongly on the locus
+of q 2 in the complex plane, with instability occurring if this
+locus crosses the negative real axis, which corresponds to q
+itself acquiring a negative real part, consistent with earlier
+
+021903-5
+
+P. A. ROBINSON et al.
+
+PHYSICAL REVIEW E 63 021903
+
+ing spectral distortions that would otherwise occur due to the
+effects of volume conduction ͓10,40͔. This point is explored
+further in Sec. IV.
+D. Features of the underlying spectrum
+
+FIG. 3. Theoretical EEG power spectrum P( f )/ P N and q 2 r 2e .
+Parameters are ␥ e ϭ110 sϪ1 , ␣ ϭ70 sϪ1 , ␤ / ␣ ϭ4, t 0 ϭ0.07 s,
+G ii ϭϪ1, G ee ϭ1, ␩ 1 ϭ ␩ 2 ϭ150 sϪ1 , nϭ1, ␺ ϭ1, ␺ Ј ϭ0, and k 0
+ϭ30 mϪ1 , implying Sϭ0. ͑a͒ Spectrum P( f )/ P N . ͑b͒ Locus of
+q 2 r 2e for ␻ Ͼ0.
+
+work ͓21,22͔. Stability at ␻ ϭ0 corresponds to Re͓ q 2 (0) ͔
+Ͼ0, Im͓ q 2 (0) ͔ ϭ0, and ␪ (0)ϭ0, implying that we can define a stability parameter S
+
+Sϭ1Ϫ
+
+G ee ͑ 1ϩ ␺ ͒
+,
+1ϪG ii
+
+͑28͒
+
+that must satisfy Sу0 for the system to avoid instability at
+␻ ϭ0 ͑this is a necessary, but not sufficient, condition for
+overall stability͒.
+
+In this section we temporarily ignore the spectral peaks
+͑which are discussed in Sec. V͒ and examine the properties
+of the smooth, underlying spectrum. At very low frequencies
+͑21͒ implies P( ␻ )Ϸ P(0), with ␪ ( ␻ )Ϸ0 and, hence,
+͑30͒
+
+G 0 ϭ1ϪG ii ,
+
+͑31͒
+
+ϱ
+
+2
+
+͑ ␻ ͒ r 2e ϭ
+
+C. Illustrative spectrum
+
+Mϭ
+
+l
+͓ max͕ 0,ϪRe͑ q 2 r 2e ͒ ͖ ͔ 1/2,
+2␲re
+
+͚
+
+jϭ0
+
+A j ͑ Ϫi ␻ ͒ j ,
+
+͑32͒
+
+the structure of ͑17͒ implies that all the A j are real. Explicit
+expressions for A 0 and A 1 are found in Appendix C.
+The case A 0 ϭ0 corresponds to Sϭ0 ͑see Appendix C͒
+and, hence, to marginal stability, a condition that favors
+complex dynamics, such as actually seen in EEG recordings
+͓41͔. If A 0 is small and A 1 0, there is a small-␻ regime in
+which q 2 ( ␻ )ϷϪi ␻ A 1 . In this case, one finds ␪ ϷϮ ␲ /2 for
+␻ Ͼ0 and
+P͑ ␻ ͒Ϸ
+
+PN
+␲
+.
+G 20 2 ␻ ͉ A 1 ͉
+
+͑33͒
+
+Such a regime with P( ␻ )ϰ ␻ Ϫ1 was recently observed in
+magnetoencephalographic observations ͓16͔. Significantly,
+all the model parameters other than k 0 affect the behavior in
+this regime, via A 1 .
+If A 0 and A 1 are both very small, the jϭ2 term in ͑32͒
+will dominate in magnitude over the jϭ3 term at small ␻
+unless A 2 Ϸ0, while the jϭ3 term dominates the imaginary
+part of q 2 . Assuming that A 2 is not too close to zero, two
+cases exist: if A 2 Ͼ0, ␪ ϷϮ ␲ and
+P͑ ␻ ͒ϭ
+
+͑29͒
+
+and the characteristic width of the integrand in M is of order
+(l/2␲ r e ) ͓ Im(q 2 r 2e ) ͔ 1/2. Figure 3͑b͒ thus shows that M is
+small up to at least the beta frequency. This implies that
+EEGs in this regime are spatially large scale, thereby reduc-
+
+G 20 S
+
+provided the system is stable (SϾ0) and ͉ q 2 ͉ Ӷk 20 . This prediction is in accord with the physical expectation that a small
+stability parameter will be associated with high EEG power.
+In this regime, only S and G 0 affect the power for constant
+P N ; none of the feedback parameters affect the power level.
+If S is small, q 2 (0)Ϸ0 and the behavior of P( ␻ ) at small
+␻ depends on the leading terms in the expansion of q 2 ( ␻ ) in
+powers of ␻ . If we write
+q
+
+Figure 3͑a͒ shows an illustrative spectrum obtained from
+͑21͒ for parameters typical of those in Table I. Alpha and
+beta peaks ͑plus weak, higher-frequency ones͒, are seen near
+8 Hz and 22 Hz, respectively, superposed on a smooth underlying spectrum which has approximately f Ϫ5 behavior at
+large f, f Ϫ1 behavior for 0.4 Hz Շ f Շ3 Hz, and levels off as
+f →0. Figure 3͑b͒ shows the corresponding locus of q 2 ( ␻ )
+for ␻ Ͼ0. After starting near the origin at f ϭ0, q 2 increases
+in modulus, with q 2 ( ␻ )ϰ ␻ , where P( f )ϰ f Ϫ1 . Feedback
+then causes the curve to loop back toward the origin several
+times, producing correlated alpha, beta, and higher frequency
+enhancements. Finally, the locus recedes along an asymptotically parabolic path in the regime with P( f )ϰ f Ϫ5 until filtering via volume conduction cuts in, and P( f )ϰ f Ϫ8 thereafter, although the latter regime is not fully attained even at
+100 Hz. The onset of dendritic filtering produces the noticeable knee in the spectrum at ␻ Ϸ ␣ , thereby restricting the
+potential range of the f Ϫ1 spectrum to ␻ Շ ␣ .
+Momentarily ignoring F(k), the integrand in ͑20͒ peaks
+where k 2 ϭmax͕0,ϪRe q 2 ͖ , and has a characteristic width of
+͉ Im q 2 ͉ . Hence, in a cortex of characteristic linear size l, the
+mode number M at which the integrand peaks is
+
+PN
+
+,
+
+P͑ 0 ͒ϭ
+
+PN
+G 20
+
+␲
+.
+͉ A 3͉ ␻ 3
+
+͑34͒
+
+1
+.
+͉ A 2͉ ␻ 2
+
+͑35͒
+
+If A 2 Ͻ0, ␪ Ϸ ␲ A 3 /A 2 , and
+
+021903-6
+
+P͑ ␻ ͒ϭ
+
+PN
+G 20
+
+PREDICTION OF ELECTROENCEPHALOGRAPHIC . . .
+
+PHYSICAL REVIEW E 63 021903
+
+Regimes exist with these behaviors provided A 0 Ϸ0 ͑which
+implies SϷ0), and A 1 Ϸ0. Higher order cancellations of the
+first few terms in ͑32͒ may occur, but such occurrences represent increasingly smaller zones of parameter space, so we
+do not consider them in this paper. If A 2 Ͼ0 the condition
+A 1 ϭ0 defines a stability boundary of the system, since q 2
+crosses the negative imaginary axis infinitesimally close to
+the origin at ␻ ϭ0 in this case.
+In applying ͑34͒ and ͑35͒, the condition Sϭ0 implies an
+interrelationship between G ee , G ii , and ␺ , via ͑28͒. Likewise, the condition A 1 ϭ0 at Sϭ0 requires
+
+␺
+
+ͩ
+
+ͪ
+
+ͩ
+
+ͪ
+
+2
+2
+2
+n
+n
+2
+ϩ
+ϩt 0 ϩ ϩ
+Ϫ ␺ Ј t 0 ϭϪ
+ϩ
+,
+␥e ␣G0
+␩1 ␩2
+␥e ␣G0
+͑36͒
+
+where Eq. ͑C2͒ of Appendix C has been used.
+At high frequencies with ␻ Ͼ ␣ the term (1Ϫi ␻ / ␥ e ) 2 on
+the right-hand side of ͑17͒ dominates, ␪ ϷϪ ␲ for ␻ Ͼ0,
+͉ q 2 r 2e ͉ sin ␪ϷϪ2␥e /␻, and ͉ L( ␻ ) ͉ 2 Ϸ ␣ 2 ␤ 2 / ␻ 4 . If volume
+conduction is not important, these scalings give
+P͑ ␻ ͒ϭ
+
+P N␲ ␣ 2␤ 2␥ e
+,
+2␻5
+
+͑37͒
+
+in this range, provided ͉ G ii L( ␻ ) ͉ Շ1 ͓22͔. In this regime, the
+power level is most sensitive to ␣ and ␤ , with a weaker
+dependence on ␥ e , while the feedback parameters have no
+effect. If volume conduction is strong ( ␻ ӷ ␻ F ), the filtering
+factor in ͑25͒ must be included, steepening the spectrum to
+an ␻ Ϫ8 dependence. In addition, the existence of an ␻ Ϫ1
+regime requires ͉ G ii L( ␻ ) ͉ տ1. Hence,
+2
+2
+1ϩ ␻ max
+/ ␤ 2 Ͻ ͉ G ii ͉ Շ1ϩ ␻ min
+/ ␤ 2,
+
+͑38͒
+
+where ␻ min is the minimum frequency of any observed ␻ Ϫ5
+regime and ␻ max is the maximum frequency of any observed
+␻ Ϫ1 regime.
+IV. PARAMETER SENSITIVITIES AND SIMPLIFIED
+MODEL
+
+In this section we examine how the spectrum ͑21͒ varies
+with each of the model parameters ␥ e , ␣ , ␤ , G ii , G ee , ␺ ,
+␺ Ј , t 0 , n, ␩ m ͑with ␩ 1 ϭ ␩ 2 assumed for convenience͒, and
+k 0 . Except for the parameter being varied at any given time,
+the parameters are identical to those of Fig. 3 throughout this
+section and P N is fixed. We term the values in Fig. 3 ‘‘nominal’’ for convenience. Possible correlations between changes
+in parameters due to their common dependence on steady
+state firing rates, for example, are not included here; only
+one parameter at a time is varied.
+Toward the end of this section, we argue that several of
+the model’s parameters can be absorbed into one another for
+most purposes, leaving a simplified model with fewer parameters for fitting to the shapes of experimental spectra. We
+also clarify the a priori physiological constraints on these
+parameters. Further simplifications are made in Sec. VI,
+where the number of parameters is further reduced by one in
+the case of marginally stable spectra.
+
+Figure 4͑a͒ shows the effect of varying ␥ e from 70 to 150
+sϪ1 ͑nominal value: 110 sϪ1 ). At high f, Pϰ ␥ e is satisfied in
+accord with ͑37͒, whereas there is little effect at low f, as
+expected from ͑30͒.
+Figure 4͑b͒ shows the effect of varying ␣ from 40 to 100
+sϪ1 ͑nominal value: 70 sϪ1 ), with ␤ / ␣ ϭ4 fixed. For f
+տ ␣ , Pϰ ␣ 4 , in accord with the effects of dendritic filtering
+incorporated in ͑37͒. However, dependence on ␣ ͑via A 1 ) is
+weak in the f Ϫ1 regime, in agreement with ͑33͒. The corresponding loci of q 2 r 2e have loops that expand and approach
+the origin as ␣ increases, producing the enhanced peaks
+seen—for a strong alpha peak to be seen at a frequency ␻ ␣ ,
+one must have ␣ տ ␻ ␣ . The effects of increasing the ratio
+␤ / ␣ from 1 to 7 ͑nominal value: 4͒, seen in Fig. 4͑c͒, are
+quite similar to those of increasing ␣ itself, in the frequency
+ratio of interest—higher ␤ / ␣ corresponds to less dendritic
+filtering, more clearly visible spectral peaks, and a shallower
+͑as ␻ Ϫ3 rather than ␻ Ϫ5 ) fall-off at frequencies ␣ Շ ␻ Շ ␤ ,
+before the onset of an ␻ Ϫ5 tail for ␻ տ ␤ .
+Figure 4͑d͒ shows the effect of varying G ii from Ϫ0.5 to
+Ϫ1.5 ͑nominal value: Ϫ1). For G ii ϭϪ0.5,Ϫ1, Sр0 is satisfied, leading to a 1/f spectrum, with instability at f ϭ0 in
+the first case (q 2 intersects the negative real axis at ␻ ϭ0),
+and marginal stability in the second. For G ii ϭϪ1.5, SϾ0
+holds, and a plateau occurs at low f, as in ͑30͒. Below a few
+Hz, P decreases as G 0 increases in all cases, in accord with
+͑30͒ and ͑33͒. The main effect at higher frequencies is that
+the alpha and beta resonances weaken with increasing G 0 , a
+reflection of contracted loops of q 2 in the complex plane.
+Similar effects are seen in Fig. 4͑e͒, in which G ee is varied
+from 0.5 to 1.5 ͑nominal value: 1͒. This leads primarily to a
+steepening of the spectrum at low f due to the onset of instability at f ϭ0 for G ee Ͼ1, plus some sharpening of the spectral peaks owing to expansion of the q 2 loops.
+Figure 4͑f͒ shows the effect of varying the direct corticothalamic feedback parameter ␺ from Ϫ0.5 to 2.5 ͑nominal
+value: 1͒. Larger ͉ ␺ ͉ increases the magnitudes of the spectral
+peaks, and the low-f component of the spectrum as f ϭ0
+instability is approached, while negative ␺ results in an inversion of the peaks and troughs, with new peaks appearing
+midway between the original ones, which are replaced by
+troughs; the new peaks are still weak for ␺ ϭϪ0.5. Note that
+there is a 1/f low-frequency component for ␺ ϭ0,2.5,
+whereas there is a plateau for Ϫ0.5 because SϾ0 in this
+case. Variation of the final gain-related parameter ␺ Ј from
+Ϫ0.6 to 0.6 ͑nominal value: 0͒ is explored in Fig. 4͑g͒. As
+͉ ␺ Ј ͉ increases the peaks sharpen and become more pronounced. As ␺ Ј increases there is an increase in the frequencies of the alpha and beta peaks, with a corresponding reduction in their frequency ratio from just below 3 at large
+negative ␺ Ј to just above 2 at large positive ␺ Ј , a phenomenon that will be further examined in Sec. V. Note that the
+second q 2 loop is larger than the first in this case, because
+the magnitude of the differential feedback term peaks for
+nonzero ␻ . Finally, variations in ␺ Ј produce shifts in the
+normalization of the f Ϫ1 range, as expected from ͑33͒. Although ͑34͒ and ͑36͒ imply that an f Ϫ3 regime should be
+attainable for suitable ␺ Ј , an instability at nonzero f inter-
+
+021903-7
+
+P. A. ROBINSON et al.
+
+PHYSICAL REVIEW E 63 021903
+
+FIG. 4. Dependence of spectra P( f )/ P N and q 2 r 2e on individual parameters, with other parameters fixed at the values used
+in Fig. 3. Solid, dotted, and dashed curves are used in order of increasing magnitude of the parameter being varied. In each of the rows
+͑a͒–͑k͒ the left frame shows P( f )/ P N and the right shows q 2 r 2e for f Ͼ0. In each case one of the curves is the same as that in the
+corresponding frame of Fig. 3. ͑a͒ ␥ e ϭ70,110,150 sϪ1 , ͑b͒ ␣ ϭ40,70,110 sϪ1 , ͑c͒ ␤ / ␣ ϭ1,4,7, ͑d͒ G ii ϭϪ0.5,Ϫ1.0,Ϫ1.5, ͑e͒ G ee
+ϭ0.5,1.0,1.5, ͑f͒ ␺ ϭϪ0.5,1,2.5, ͑g͒ ␺ Ј ϭϪ0.6,0,0.6, ͑h͒ t 0 ϭ0.03,0.07,0.11 s, ͑i͒ nϭ0,1,2, ͑j͒ ␩ 1 , ␩ 2 ϭ50,150,250 sϪ1 , ͑k͒ k 0
+ϭ20,30,40 mϪ1 .
+021903-8
+
+PREDICTION OF ELECTROENCEPHALOGRAPHIC . . .
+
+PHYSICAL REVIEW E 63 021903
+
+venes first for the parameters considered when ͉ ␺ Ј ͉ is further
+increased. We consider this point further in Sec. VI.
+The main effects of increasing the time delay t 0 in the
+corticothalamic loop are to reduce the alpha and beta frequencies, and sharpen the peaks, as shown in Fig. 4͑h͒, the
+latter effect due to there being less thalamic filtering at low
+frequencies. Similar effects are seen with changes in n, ␩ 1 ,
+and ␩ 2 , as seen in Figs 4͑i͒ and 4͑j͒. There are also weak
+effects on the normalization of the f Ϫ1 regime, as expected
+from ͑33͒. These four parameters leave the high-f part of the
+spectrum essentially unchanged.
+Figure 4͑k͒ shows the effect of varying the characteristic
+wave number k 0 above which volume conduction filters out
+cortical signals. There is little effect on the shape of the
+spectrum below about 25 Hz, but a substantial steepening
+above this point for small k 0 , in agreement with the semiquantitative estimate ͑26͒.
+In summary, Fig. 4 shows that for fixed P N only ␣ , ␤ ,
+␥ e , and k 0 significantly affect the high frequency spectrum,
+in accord with ͑26͒ and ͑37͒. The lowest frequencies are only
+affected by G ii , G ee , and ␺ , via their effects on S, which
+occurs in ͑30͒. The f Ϫ1 spectrum is affected moderately by
+all parameters, with its existence depending most strongly on
+the value of S, which replaces it with a low-f plateau if it is
+significantly greater than zero. Large values of ␣ , ␤ , G ii ,
+͉ ␺ ͉ , ͉ ␺ Ј ͉ , ␩ 1 , and ␩ 2 tend to sharpen the peaks, while t 0 , ␩ ,
+n, ␺ , and ␺ Ј are the chief determinants of the peak frequencies.
+Having examined the variation of the predicted spectrum
+with each of our model’s parameters. We note that when
+fitting experimental data, a model with fewer parameters
+would tend to give fits that were simpler to interpret and of
+higher statistical significance. Published EEG data usually
+span only the range 1–40 Hz or thereabout, sometimes as
+great a range as 0.1–100 Hz, or as little as 2–30 Hz. Figure
+4 shows that these ranges are unlikely to be sufficient to
+distinguish all the model parameters unambiguously, particularly once the effects of noise are included. Hence, there is
+little point in distinguishing all these parameters theoretically. Following this argument, we note that increases in ␤
+have effects similar to increasing ␣ in the frequency range of
+interest, so these two parameters can be replaced by a common effective value of ␣ for most purposes, giving L( ␻ )
+ϭ(1Ϫi ␻ / ␣ ) Ϫ2 in ͑4͒. Similarly, the effects of n, ␩ 1 , and ␩ 2
+are quite similar to those of t 0 provided n is nonzero ͑otherwise the differential feedback becomes unphysically large in
+magnitude at high frequencies͒. Hence, we can approximate
+these parameters by setting nϭ1 and ␩ 1 ϭ ␩ 2 ϭ ␣ , which implies ␶ ( ␻ )ϭe i ␻ t 0 L( ␻ ) in ͑14͒. The remaining model has
+only seven parameters ͑rather than 11͒, aside from the overall normalization of the spectrum. In Sec. VI, the likely restriction to SϷ0 reduces this to only six parameters aside
+from normalization. At the cortical surface, k 0 is also irrelevant, leaving one fewer parameter still. There is also the
+possibility that the dependence of scalp spectra on k 0 will not
+be experimentally distinguishable from the effects due to ␥ e
+and ␣ .
+When fitting to experimental data, we emphasize that the
+
+normalization is set by the observed root-mean-square ͑rms͒
+signal, while the other parameters are not completely free,
+since physiology constrains them, in some cases quite
+strongly ͑see Table I͒. For example, the characteristic range
+r e of excitatory axons has been measured, as have axonal
+signal velocities v . These measurements constrain ␥ e to
+within roughly Ϯ40% of its best estimate of 110 sϪ1 . Likewise, the dendritic rate constant ␣ is known to be within
+roughly a factor of two of 100 sϪ1 , with a major uncertainty
+arising from the difficulty of assigning a single rate to describe all the different neural and synaptic types. Similarly,
+500 sϪ1 տ ␤ is probably satisfied, and ␤ у ␣ can be assumed
+without loss of generality ͑in the simplified version of our
+model we set ␤ ϭ ␣ and the resulting effective value of ␣
+then lies somewhere between 50 and 500 sϪ1 ).
+Although their signs are strictly known, the values of G ee
+and G ii are less well constrained by physiology, with typical
+magnitudes estimated to lie between roughly 1 and 100,
+based on the values in Table I. The ratio ͉ G ee /G ii ͉ is somewhat better constrained, with a value of 1–5 times the ratio
+(0)
+Q (0)
+e /Q i ϳ1 of the steady-state firing rates in the two neural
+populations ͓see ͑1͔͒. Since normal EEG and magnetoencephalographic ͓16͔ spectra peak strongly at low frequencies,
+S must be small and non-negative to ensure a significant f Ϫ1 ,
+f Ϫ2 , or f Ϫ3 spectral range while avoiding instability. Likewise, if SϷ0, A 1 Ͼ0 is required whenever A 2 Ͼ0 to avoid a
+low-f instability—a condition that restricts combinations of
+parameters via ͑36͒ and via an analogous expression for the
+locus on which A 2 ϭ0.
+The magnitude of ⌿ must be of order unity to be consistent with physiological knowledge that the thalamus has
+strong, but not overwhelming, effects on the cortex and its
+state of attention, and that the cortex likewise projects
+strongly to the thalamus ͓37–39͔. Thus, although corticothalamic connections ͑in both directions͒ are much less numerous than corticocortical ones, these connections must be
+more effective in stimulating the cortex than their numbers
+imply—e.g., as a result of larger s b values than for other
+fibers, or because they have more axonal synapses than average. Hence, ͉ ␺ ͉ and/or ͉ ␺ Ј ␣ t 0 ͉ are probably of order unity
+in some states, the latter being the maximal magnitude of the
+differential feedback term ␻ t 0 ␺ Ј ␶ ( ␻ ) if ␣ ϳ ␤ , ␩ 1 , ␩ 2 .
+The value of the delay t 0 ͑including corticothalamic dendritic delays͒ must be of order 25–100 ms, since the latency
+for signals to reach the cortex from the thalamus is ϳ25 ms
+͓8͔ and there is presumably a similar delay in the reverse
+direction, plus some shorter intrathalamic delays. Although
+2
+and ͉ ␾ N2 ͉ in the normalization ͑22͒ are not
+the factors G es
+separately observable, they do not constitute free parameters
+of the spectral shape, and variations of the magnitude of the
+2
+͉ ␾ N2 ͉ can be determined experimentally.
+normalization G es
+Finally, the volume conduction turnover wave number k 0
+can be estimated from the electrical conductivities and thicknesses of the various tissues overlying the cortex ͓40͔, giving
+k 0 Ϸ30 mϪ1 .
+V. SPECTRAL PEAKS
+
+In this section we turn our attention to the EEG spectral
+peaks, which are of central importance to practical electro-
+
+021903-9
+
+P. A. ROBINSON et al.
+
+PHYSICAL REVIEW E 63 021903
+
+encephalography, where they are often termed rhythms. We
+use the simplified model introduced in the preceding section
+to avoid an unnecessarily complicated discussion. The effects of spatial filtering are also ignored, since the preceding
+section implies that these are only significant for frequencies
+above those of the major rhythms. We estimate the locations
+of the peaks and the resulting frequency ratios, the sharpness
+of the peaks, and the conditions for onset of instabilities. In
+doing this, we unify all the peaks observed into a single
+theoretical framework in which each peak is distinguished by
+a unique number and a theoretical basis is obtained for the
+customary subdivision of the spectrum into bands.
+A. Frequencies and occurrence of spectral peaks
+
+Some numerical experimentation shows that the factor in
+͑24͒ that dominates in determining the frequencies of spectral peaks is the variation of Im q 2 r 2e ϭ ͉ q 2 r 2e ͉ sin ␪. We find
+that the dominant behavior can be approximated in the limits
+␻ 2 Ӷ ␣ 2 and ␻ 2 ӷ ␣ 2 by
+Im q 2 r 2e ϭϪ
+
+2x
+ϪB ͑ ␻ ͒ G ee ͓ ␺ sin xϪx ␺ Ј cos x ͔ , ͑39͒
+␥ et 0
+
+␻ 2Ӷ ␣ 2
+
+B ͑ ␻ ͒ Ϸ1/G 0 ,
+ϳ ␣ 4/ ␻ 4,
+
+␣ 2Ӷ ␻ 2,
+
+xϭ ␻ t 0 .
+
+͑40͒
+͑41͒
+͑42͒
+
+Since the first term on the right-hand side of ͑39͒ is negative
+͑for positive x, which is assumed henceforth͒, peaks of P( ␻ )
+occur approximately where the term in square brackets has
+its maximum negative value of Ϫ ͉ ⌿ ͉ . The factor B( ␻ ) in
+͑39͒ and the factor ␪ in the numerator in ͑24͒ act to downshift the frequencies from those we will shortly predict using
+the above argument, with this shift increasing for ␻ Ͼ ␣
+where the fractional rate of change of B( ␻ ) becomes large.
+However, the present approach is adequate to predict the
+main trends semiquantitatively, while numerical results easily yield more accurate peak frequencies when required.
+We find that the maximum negative values of the term in
+square brackets in ͑39͒ are attained for
+sin xϭϪ ␺ / ͉ ⌿ ͉ ,
+
+͑43͒
+
+cos xϭ ␺ Ј x/ ͉ ⌿ ͉ .
+
+͑44͒
+
+For ␺ Ј ϭ0, these equations yield peaks at
+x m ϭ ͑ mϪ 21 ͒ ␲ ,
+
+͑45͒
+
+with peak index mϭ2,4, . . . for ␺ Ͼ0 and mϭ1,3,5, . . . for
+␺ Ͻ0. For ͉ ␺ Ј x m / ␺ ͉ ӷ1 we find x m is given by ͑45͒ with the
+addition of a term sign( ␺ ) ␲ /2. An approximate result, valid
+for all ␺ Ј , is
+
+␻ m t 0 Ϸx m ϩsinϪ1 ͑ ␺ Ј x m / ͉ ⌿ m ͉ ͒ sign͑ ␺ ͒ ,
+
+͑46͒
+
+2 1/2
+͉ ⌿ m͉ ϭ ͑ ␺ 2ϩ ␺ Ј2x m
+͒ ,
+
+͑47͒
+
+FIG. 5. Peak frequencies predicted from ͑46͒ as functions of
+␺ Ј / ␺ . Solid lines represent peaks that occur for ␺ Ͼ0 ͑troughs
+for ␺ Ͻ0) while dashed lines represent peaks for ␺ Ͻ0 ͑troughs for
+␺ Ͼ0).
+
+with sign(u)ϭ0 for uϭ0 here and x m given by ͑45͒. The
+approximate frequency given by ͑46͒ increases monotonically from (mϪ1) ␲ to m ␲ as ␺ Ј increases from Ϫϱ to ϱ,
+as was illustrated in Fig. 4͑g͒. Note that there is a discontinuity in ␻ m as a function of ␺ Ј at ␺ Ј ϭ0 in the case ␺ ϭ0.
+Figure 5 shows the dependence of ␻ m on ␺ Ј / ␺ for various m, as obtained from ͑46͒. The solid and dashed lines
+correspond to peaks and troughs in the spectrum for ␺ Ͼ0,
+and the reverse for ␺ Ͻ0. On each curve ␻ m t 0 passes
+through a range of ␲ as ␺ Ј increases, with most of the
+change concentrated in the range ͉ ␺ Ј ͉ Շ1/( ␻ m t 0 ). The frequency ratio between successive peaks decreases as ␺ Ј increases, which may enable the ratio ␺ Ј / ␺ to be determined
+experimentally. Typical ratios f ␤ / f ␣ of the beta to alpha
+frequencies are very close to 2 ͑see Fig. 1, for example͒. This
+is consistent with the association mϭ2 for alpha and mϭ4
+for beta, if 2 ␲ ␺ Ј / ␺ տ1 and ␺ Ͼ0 in the waking state, giving
+a frequency ratio just over 2. It is also consistent with m
+ϭ3 for alpha and mϭ5 for beta, if 2 ␲ ␺ Ј / ␺ ՇϪ1 and ␺
+Ͻ0, which leads to a frequency ratio just less than 2. ͑Physiologically, positive feedback with ␺ Ͼ0 is expected in the
+waking state, also favoring the first scenario ͓12͔.͒ The sleep
+spindle peak appears roughly midway between the alpha and
+beta peaks, as illustrated in Fig. 1, qualitatively consistent
+with the two scenarios just mentioned, for mϭ3 and mϭ4,
+respectively. The largest qualitative difference between the
+two scenarios is that there is another nonzero-f waking peak
+below the alpha peak in the case ␺ Ͻ0; however, in practice,
+this may not be distinguishable from the 1/f peak ͑present in
+both waking and sleeping states at marginal stability, and to
+which we assign the value mϭ0 for completeness͒. It seems
+that the most promising method of distinguishing the two
+possibilities is detailed comparison of the ratio f ␤ / f ␣ , as
+determined from the full spectral formula ͑22͒, with
+experiment—if this ratio definitely exceeds 2, one has the
+simplest possible correspondence between the peak index of
+observed and predicted peaks, as listed in Table II. In determining this ratio, one must be careful to correct for downshifts due to the decrease of the smooth underlying spectrum,
+an effect that becomes stronger at high frequencies.
+
+021903-10
+
+PREDICTION OF ELECTROENCEPHALOGRAPHIC . . .
+
+PHYSICAL REVIEW E 63 021903
+
+TABLE II. Association between rhythms at f Ͻ40 Hz and the
+resonances discussed in Sec. V. The first column gives the peak
+index m, the second its designation on the assumption ␺ Ј / ␺ Ͼ1/␲ ,
+the third its nominal frequency in Hz based on an alpha frequency
+of 10 Hz, the fourth the corresponding nominal frequency range in
+Hz of the associated sub-band, and the fifth whether it has a peak in
+sleeping or waking states. The sixth column gives the peak frequencies in Hz inferred from the data displayed in Figs. 1 and 6 ͑the
+nominal ones should be multiplied by 0.95, the ratio of the actual to
+nominal alpha frequencies, for comparison with these data͒. The
+frequency of the delta peak was obtained from Fig. 1. Dashes indicate where no peak was observed in this instance. The conventional
+bands are deltaϭ0–3.5 Hz, thetaϭ4–7.5 Hz, alphaϭ8–13 Hz, beta
+ϭ14–30 Hz, and gammaϭabove 30 Hz.
+m
+
+Rhythm
+
+f
+
+Band
+
+State
+
+Data
+
+0
+1
+2
+3
+4
+5
+6
+7
+8
+
+delta
+theta
+alpha
+spindle ͑sp.͒
+beta
+beta-2 sp.
+beta-2
+gamma-1 sp.
+gamma-1
+
+0
+5
+10
+15
+20
+25
+30
+35
+40
+
+0–2.5
+2.5–7.5
+7.5–12.5
+12.5–17.5
+17.5–22.5
+22.5–27.5
+27.5–32.5
+32.5–37.5
+37.5–42.5
+
+both
+sleep
+wake
+sleep
+wake
+sleep
+wake
+sleep
+wake
+
+Ͻ0.2
+4.6Ϯ0.5
+9.5Ϯ0.5
+14Ϯ0.5
+19Ϯ1
+23Ϯ1
+26Ϯ2
+33Ϯ2
+
+In either scenario for the ratio ␺ Ј / ␺ discussed in the previous paragraphs, the ratio ␺ Ј / ␺ has the same sign in both
+sleeping and waking states, even when ␺ changes sign ͑i.e.,
+␺ and ␺ Ј appear to change sign at roughly the same point͒.
+The simplest feedback architecture consistent with this is one
+in which any thalamic signal inversion occurs at a common
+structure through which both the direct and differential feedback signals pass. A very likely candidate for such a structure is the thalamic reticular nucleus because there is wide
+agreement that, in sleep, connections from this nucleus
+strongly inhibit other thalamic nuclei ͓12,14,43͔. The enhanced inhibitory influence of the thalamic reticular nucleus
+combined with the existence of an otherwise excitatory feedback loop from the cortex through the thalamic reticular
+nucleus to other thalamic nuclei and thence back to the cortex, is the reason that both ␺ and ␺ Ј might change sign in
+sleep relative to waking states. A third possible scenario is
+one in which the even-m resonances alone determine the
+spectral peaks, with a shift in ␺ Ј / ␺ from large positive values in waking to large negative ones in sleep, with the consequent frequency downshift allowing each resonance to account for one waking peak and a sleep peak roughly 5 Hz
+below it. However, this possibility requires an additional argument as to why the odd-m peaks never seem to contribute.
+A fourth and final possibility, that suffers from the same
+problems as the third, is that the opposite trend in ␺ Ј / ␺ may
+occur, allowing each even-m resonance to account for a waking peak and a sleep peak roughly 5 Hz higher in frequency.
+We discuss the distinction between these scenarios further at
+the end of Sec. VI.
+If we assume the association between m and spectral
+rhythm given in Table II, we find that the alpha (mϭ2) and
+
+FIG. 6. Ratios of sleep spectra in Fig. 1 to the corresponding
+waking spectra. The regions at 49–50 Hz should be ignored, as they
+have been contaminated by the 50 Hz mains frequency. ͑a͒ Ratios
+obtained at Cz ͑solid curve͒, Fz ͑dashed͒, Pz ͑dotted͒, C3 ͑dashed–
+dotted pattern͒, and C4 ͑dashed–triple-dotted pattern͒ electrodes.
+͑b͒ Mean ratio ͑solid curve͒ bracketed by the interelectrode standard deviations ͑dashed curves͒. Vertical lines are at the first to
+seventh multiples of 4.75 Hz, the locations of peaks and troughs
+predicted on the basis of an alpha frequency of 9.5 Hz.
+
+beta (mϭ4) peaks should be positively correlated with each
+other, and with a new mϭ6 peak at roughly three times the
+alpha frequency. We term this the beta-2 peak, a nomenclature that we will justify in the next paragraph. This peak is
+seen at roughly three times the alpha frequency in Fig. 1,
+located on the wing of the beta peak, from which it is not
+well resolved in this example ͑see the discussion of Fig. 6
+below for further analysis͒. The predicted alpha–beta correlation has been observed in recent work ͓44͔. Similarly, we
+expect that peaks at mϭ1 ͑theta or delta rhythm, whose peak
+may blend smoothly into the 1/f peak in many practical situations͒, mϭ3 ͑sleep spindles; which we denote by the symbol ␴ ␤ 1 since they occur in the lower part of what is commonly termed the beta band͒, and mϭ5 will be positively
+correlated with each other, and negatively correlated with the
+alpha, beta, and gamma peaks. Since the latter peaks occur in
+the waking state, they are obviously anticorrelated with sleep
+spindles, which are only seen during sleep. Evidence for an
+anticorrelation between theta and alpha power in the waking
+state has also been presented recently ͓45͔, while theta and
+delta are well known to be most prominent in deep sleep,
+especially sleep stage 2 ͓17,18͔. We term the mϭ5 rhythm,
+which has not previously been discussed, beta-2 sleep
+spindles ͑symbol ␴ ␤ 2 , since they occupy the upper part of
+the conventional beta band͒ in analogy with normal sleep
+spindles. An enhancement corresponding to this rhythm is
+seen around 21 Hz in Fig. 1.
+The above arguments unify all the rhythms discussed into
+a single family, with two subfamilies corresponding to waking and sleeping states. This provides a theoretical justification for dividing EEG spectra into bands, but implies that the
+frequency boundaries of these bands will vary somewhat
+from individual to individual, with an inverse dependence on
+t 0 , weaker dependence on ␺ Ј / ␺ , and still weaker variation
+with the other model parameters. Such variations between
+individuals have been recognized in the literature ͓18͔.
+The third column of Table II illustrates nominal assignments of frequency band designations based on an alpha frequency of 10 Hz. These correspond quite well with the conventional assignments of the delta, theta, and alpha bands.
+
+021903-11
+
+P. A. ROBINSON et al.
+
+PHYSICAL REVIEW E 63 021903
+
+The traditional beta band incorporates the spindle, beta,
+beta-2 spindle, and beta-2 bands of our classification scheme.
+As conventionally defined, the gamma band extends undifferentiated upward from 30 Hz. In principle, our analysis
+implies that it can be subdivided into sub-bands of order 5
+Hz in width, which we label gamma-1, gamma-1 spindle
+( ␴ ␥ 1 ), gamma-2, gamma-2 spindle ( ␴ ␥ 2 ), etc. However, in
+practice, the relevant peaks are unlikely to be distinguishable
+from experimental noise in this range ͑see the next subsection for details͒, so it is not unreasonable to label the entire
+range the gamma band, as is conventional. In the above terminology, the theta rhythm could be labeled the alpha
+spindle and denoted ␴ ␣ , but the old nomenclature is too well
+established to be likely to make this renaming acceptable.
+Figure 6͑a͒ shows the ratios of the pairs of spectra in Figs.
+1͑a͒–1͑e͒. These ratios are remarkably similar at different
+electrodes, despite the relatively large differences between
+the actual spectra. In Fig. 6͑b͒ the mean of the five ratios is
+plotted, bracketed by the interelectrode standard deviation.
+This ratio oscillates strongly, with an amplitude that decreases rapidly with f. It has peaks at f Ϸ5, 14, 23, and 33
+Hz, as listed in Table II, the last of these being relatively
+indistinct. Troughs are also seen near 9.5, 19, and 26 Hz. We
+argue that these peaks and troughs correspond to the theta,
+spindle, beta-2 spindle, gamma-1 spindle, alpha, beta, and
+beta-2 rhythms, respectively. The peak at Ͻ0.2 Hz, seen in
+Fig. 1 corresponds to delta rhythm. At high frequencies, the
+ratios seen in Fig. 6 approach a nearly constant plateau, as
+expected from ͑37͒.
+Use of ratios between waking and sleeping spectra removes skull-thickness differences between electrodes, as
+well as the systematic frequency shifts associated with the
+shape of the underlying smooth spectrum, and also highlights
+the differences between the waking and sleeping spectra. The
+ratios of the frequencies obtained from Figs. 1 and 6 to the
+alpha frequency are close to integers and half-integers, as
+predicted from our theory. Figure 6 thus provides evidence
+of the detection of the mϭ5 ͑beta-2 spindle͒ rhythm, with
+weaker evidence for the mϭ6 ͑beta-2͒, and mϭ7 ͑gamma-1
+spindle͒ rhythms. In future work, these tentative detections
+will be further tested using EEGs from multiple subjects with
+longer acquisition times.
+B. Sharpness of spectral peaks
+
+The prominence of spectral peaks can be quantified in
+terms of their Q values ͑which should not be confused with
+the firing rates Q e and Q i in Sec. II͒, which are large for
+strong peaks. We define an effective Q m to be the ratio of the
+height of the mth peak to the trough immediately above it in
+frequency. This gives
+Q mϷ
+
+Ϸ
+
+2
+͉ Im q mϩ1
+r 2e ͉
+
+͑48͒
+
+2 2
+͉ Im q m
+re͉
+
+Im͓ 2x mϩ1 ϩG ee B ͑ ␻ mϩ1 ͒ ␥ e t 0 ⌿ mϩ1 e i ␻ mϩ1 t 0 ͔
+Im͓ 2x m ϩG ee B ͑ ␻ m ͒ ␥ e t 0 ⌿ m e i ␻ m t 0 ͔
+
+.
+
+͑49͒
+
+Since ␻ m and ␻ mϩ1 correspond to a peak and its neighboring
+trough, the imaginary parts of ⌿ m exp(i␻mt0) and
+⌿ mϩ1 exp(i␻mϩ1t0) are approximately equal and opposite,
+with the denominator in ͑49͒ being small for a strong peak.
+Hence, if we approximate x mϩ1 by x m in the first term in the
+numerator, and B( ␻ mϩ1 ) by B( ␻ m ), we find
+Q mϷ
+
+4␻m
+G ee B ͑ ␻ m ͒ ␥ e ͉ Im͓͑ ⌿ m Ϫ⌿ res ͒ e i ␻ m t 0 ͔ ͉
+
+,
+
+͑50͒
+
+where the exactly resonant value ⌿ res is complex and satisfies
+Im͓ ⌿ rese i ␻ m t ͔ ϭ2 ␻ m / ␥ e G ee B ͑ ␻ m ͒ .
+
+͑51͒
+
+At large and small ␻ ͑with some deviations in between͒,
+Eq. ͑50͒ implies that the mth resonance sharpens as ⌿
+→⌿ m and that ͉ ⌿ ͉ must certainly exceed the modulus of the
+right-hand side of ͑51͒ before resonance can occur. The behavior of B( ␻ ) given by ͑40͒ and ͑41͒ implies that high-Q
+resonances are only possible for ␻ m Շ ␣ and, hence, for low
+m. The rapid fall-off in Q for high m is seen in the theoretical
+spectra in Figs. 3 and 4 and in the experimental ones in Figs.
+1 and 6. Experimentally, it seems that only the mϭ1Ϫ4
+resonances can have large Q, consistent with Fig. 6. The
+rapid decrease of Q m with m underpins our comments in the
+preceding section that only the peaks with small m are likely
+to be discernible in experimental data. It is worth noting that,
+as was seen in Fig. 6, the mϭ1 solution does not always
+produce a strong discrete peak; in some cases it blends with
+the 1/f spectrum with no intervening minimum. This behavior is consistent with the preceding discussion, because the
+latter explicitly ignored the factor ␪ in the numerator in ͑24͒,
+which cancels the sin ␪ term in the denominator at small ␪ .
+This behavior can weaken the theta peak relative to what was
+implied above.
+C. Instabilities
+
+The condition Sу0 is necessary, but not sufficient, for
+cortical stability, since it guarantees the absence of instability
+only at f ϭ0, and then only so long as A 1 does not change
+sign. One possibility for instability at Sϭ0 occurs if A 1
+changes sign, in which case the spectrum passes through a
+1/f 3 regime, given by ͑34͒, followed by an instability that
+first sets in at f ϭ0 then extends to include higher frequencies. Alternatively, it is possible for instability to set in at
+nonzero frequency if a q 2 loop cuts the negative real axis.
+Instability at ␻ m then sets in approximately when ͉ ⌿ ͉
+ϭ ͉ ⌿ m ͉ , where the spectrum can first develop a singularity.
+Since ͉ ⌿ m ͉ increases monotonically with m, the first such
+instability usually sets a stability boundary for the cortical
+dynamics as a whole. Assuming the simpler association between m and peaks, this boundary is thus set by the mϭ2
+͑alpha͒ resonance in the waking state, and the mϭ1 ͑theta͒
+resonance in sleep ͑or the mϭ3 resonance if the theta resonance is weakened, as was discussed above͒.
+If an instability sets in, the system will rapidly move to a
+nonlinear regime in which the linear analysis is invalid.
+
+021903-12
+
+PREDICTION OF ELECTROENCEPHALOGRAPHIC . . .
+
+PHYSICAL REVIEW E 63 021903
+
+Hence, in the presence of instabilities, spectra computed
+from equations in the preceding sections will not be correct.
+If the ratio ␺ Ј / ␺ is specified, as will be the case in Sec.
+VI, we can estimate the stability boundaries implied by the
+above discussion. When A 1 ϭ0, ͑36͒ implies that one must
+have
+
+␺
+
+ͫ
+
+ͬ ͩ
+
+ͪ
+
+2
+2
+2
+2
+2
+ϩ
+ϩ ϩt Ј ϾϪ
+ϩ
+,
+␥e ␣G0 ␣
+␥e ␣G0
+
+͑52͒
+
+t Ј ϭt 0 ͑ 1Ϫ ␺ Ј / ␺ ͒ ,
+
+͑53͒
+
+which implies ␺ ϾϪ1 unless ␺ Ј / ␺ Ͼ1Ϫ2/␣ t 0 . The relationship Sϭ0 then implies a boundary in the G ee ϪG ii plane,
+with the physically allowable region satisfying
+
+ͩ ͪ
+
+4
+2
+2
+ϩ ϩt Ј ϪG ee ϩt Ј
+␥e ␣
+␣
+G ii Ͻ
+.
+2
+2
+ϩ ϩt Ј
+␥e ␣
+
+͑54͒
+
+This condition is a straight line with slope above Ϫ1 unless
+the denominator in ͑54͒ is negative, which occurs for
+
+ͩ
+
+ͪ
+
+␺Ј
+2 1
+1
+Ͼ1ϩ
+ϩ .
+␺
+t0 ␥e ␣
+
+͑55͒
+
+In the latter case, the condition
+
+ͩ ͪ
+
+4
+2
+2
+ϩ ϩt Ј ϪG ee ϩt Ј
+␥e ␣
+␣
+,
+G ii Ͼ
+2
+2
+ϩ ϩt Ј
+␥e ␣
+
+͑56͒
+
+applies and the slope of the boundary line is more negative
+than Ϫ1. At large ␺ Ј / ␺ , the slope of the boundary is Ϫ ͓ 1
+ϩ2/( ␥ e t 0 ␺ Ј / ␺ ) ͔ .
+If ͉ ␺ Ј / ␺ ͉ is large, one has ͉ ⌿ ͉ Ϸ ͉ ␺ ␻ t 0 ͉ and ␺ is forced to
+be small once ␻ t 0 exceeds unity, which is the case at all
+spectral peaks with mу1, except at mϭ1 if one also has
+␺ Ј / ␺ ՇϪ1. The approximate condition for the absence of
+nonzero-f instabilities of the mϭ1 and 2 rhythms ͑theta and
+alpha͒, ͉ ⌿ ͉ Ͻ ͉ ⌿ m ͉ then yields
+
+ͫ
+
+1ϪG ee 1Ϫ
+
+2
+
+␥ et 0͉ ␺ Ј/ ␺ ͉
+
+ͬ
+
+ͫ
+
+տG ii տ1ϪG ee 1ϩ
+
+2
+
+ͬ
+
+.
+␥ et 0͉ ␺ Ј/ ␺ ͉
+͑57͒
+
+Equation ͑57͒ defines lines with negative slopes either side
+of unity in magnitude. Closer analysis of the instability condition q 2 ϭ0 implies that the left inequality is imposed by the
+mϭ1 ͑theta͒ instability ͑or mϭ3 if theta is weakened, a
+proviso that will be assumed implicitly henceforth͒, and the
+right by the mϭ2 ͑alpha͒ instability.
+If ͉ ␺ Ј / ␺ ͉ is sufficiently small, none of the resonances can
+become unstable. This can be seen by noting that, for ␺ Ј
+ϭ0, Eq. ͑17͒ implies that the locus of q 2 is composed of a
+secular part and an oscillatory part that results from CT feed-
+
+back and gives rise to loops superposed on the secular trend.
+These loops decrease in radius as ␶ ( ␻ ) in ͑12͒ decreases in
+magnitude with frequency, while at zero frequency and marginal stability the radius of the loop is just sufficient for the
+locus to start at the origin. The only way an instability can
+occur is for a subsequent loop to reach the origin or the
+negative real axis, a possibility that is most favored if ͉ ␶ ( ␻ ) ͉
+stays as large as possible—i.e., for ␣ , ␤ , ␩ 1 , and ␩ 2 as large
+as possible. If we make these parameters infinite ͑the optimal
+case͒, we find that the locus q 2c of the loop centers satisfies
+͉ q 2c r 2e ͉ 2 ϭ
+
+␺2
+2␻2 ␻4
+ϩ
+ϩ 4,
+͑ 1ϩ ␺ ͒ 2
+␥ 2e
+␥e
+
+͑58͒
+
+which is monotonic increasing with ␻ unless Ϫ2Ͻ ␺ ϽϪ1,
+a range that is forbidden by ͑54͒, which requires ␺ ϾϪ1 for
+␺ Ј / ␺ small. Hence, since the loop center moves monotonically away from the origin, and the loop radius is nonincreasing, q 2 ϭ0 cannot be attained and no instability starting at
+the origin is possible in this case. Once q 2c moves into the left
+half of the complex plane, the origin is no longer the closest
+point on the nonpositive real axis and the possibility of an
+instability arising due to intersection of q 2 with some other
+point on this axis arises. However, the imaginary part of q 2c
+increases monotonically in magnitude in this regime from a
+value which is already too large for q 2 ϭ0 ͑and, hence,
+Im q 2 ϭ0) to be attained at the point where q 2c first crosses
+into the left half plane. Hence, combining these arguments,
+no instability is possible for ␺ Ј ϭ0.
+From the above arguments, we conclude that the physically allowable region of parameter space is bounded below
+by the higher of the mϭ2 boundary obtained from ͑57͒ and
+the A 1 ϭ0 boundary ͑56͒, if the latter applies in place of
+͑54͒. It is bounded above by the lower of the mϭ1 boundary
+from ͑57͒ and the A 1 ϭ0 boundary ͑54͒, unless ͑56͒ applies
+as a lower bound and ͑54͒ is irrelevant. For small positive
+␺ Ј / ␺ the A 1 ϭ0 condition sets the upper bound, but this is
+supplanted by the mϭ1 boundary at larger values, particularly once ͑56͒ applies and the A 1 ϭ0 boundary becomes a
+lower bound. There is no lower boundary for very small
+␺ Ј / ␺ because the A 1 ϭ0 boundary is an upper bound and no
+resonances can become unstable. At larger ␺ Ј / ␺ the mϭ2
+lower boundary cuts in, followed by competition between
+A 1 ϭ0 and mϭ2 lower bounds, which both have the same
+slope at large ␺ Ј / ␺ . At small negative ␺ Ј / ␺ the A 1 ϭ0 upper
+bound is again the only relevant one, with the mϭ2 lower
+bound appearing at larger negative values. At large negative
+␺ Ј / ␺ the mϭ1 and A 1 ϭ0 boundaries compete closely to set
+the upper bound, since they have the same slopes as ␺ Ј / ␺
+→ϱ.
+We thus find that there are three possible routes to instability from the marginally stable state, apart from S becoming negative: ͑a͒ instability starting at f ϭ0 due to A 1 changing sign, ͑b͒ mϭ1 theta instability at f Ϸ1/2t 0 Ϸ5 Hz when
+␺ is negative and ␺ Ј / ␺ is positive, or lower frequencies if
+␺ Ј / ␺ is negative, and ͑c͒ mϭ2 alpha instability at f Ϸ1/t 0
+Ϸ10 Hz when ␺ and ␺ Ј / ␺ are positive ͑or at around 5 Hz if
+␺ is positive and ␺ Ј / ␺ is negative͒. Frequencies in the alpha
+
+021903-13
+
+P. A. ROBINSON et al.
+
+PHYSICAL REVIEW E 63 021903
+
+range are seen in photic epilepsy and some stages of grand
+mal seizures, initial frequencies are around 4 Hz in petit mal
+seizures, and very low frequencies predominate in some
+stages of grand mal ͓18͔. Hence, we speculate that some of
+these seizures may represent the nonlinear stages of the instabilities considered here. However, to verify or reject this
+speculation will require nonlinear simulations of our model,
+which are beyond the scope of the present paper.
+VI. MARGINALLY STABLE EEG SPECTRA
+
+In this section we explore the dependence of spectral
+structure and instabilities on the gain parameters of our
+model and impose some restrictions on the possible locus of
+an arousal sequence that carries the cortex through all the
+states of arousal from sleep stage 4 to high-vigilance waking
+states ͑e.g., while doing complex mental arithmetic under
+time pressure͒.
+Observed normal EEG and MEG spectra do not appear to
+exhibit any low-f plateau, except perhaps below about 0.3
+Hz ͑see Fig. 1 and ͓16͔͒. Equations ͑30͒ and ͑33͒, and the
+requirement to avoid f ϭ0 instability, then restrict S to very
+small, non-negative values. Hence, in this section we assume
+Sϭ0 in addition to the other simplifying assumptions made
+in Secs. IV and V ( ␣ ϭ ␤ ϭ ␩ 1 ϭ ␩ 2 and nϭ1). If we further
+fix the values of ␣ ϭ70 sϪ1 , ␥ e ϭ110 sϪ1 , and t 0 ϭ0.07 s,
+we are left with only k 0 and the gain parameters G ii , G ee ,
+␺ , and ␺ Ј . The characteristic wave number k 0 can be ignored here since it does not affect the stability of the cortex.
+Of the remaining four parameters, ␺ can be eliminated via
+͑28͒ for Sϭ0. Physiologically, one requires G ee Ͼ0 and
+G ii Ͻ0, which restricts attention to a quarter of the G ee – G ii
+plane for fixed ␺ Ј / ␺ . We choose the latter ratio as the third
+free parameter, rather than ␺ Ј itself, since it measures the
+relative strengths of direct and differential feedbacks.
+Figure 7 shows the regions in the G ee – G ii plane in which
+the model spectrum ͑21͒ is marginally stable ͑white zones͒
+or unstable at some frequencies ͑gray zones͒ for ␺ Ј / ␺ ϭ0,
+Ϯ1,Ϯ5; only the white regions represent physically allowable steady states. The locus of ␺ ϭ0 is shown dotted in each
+frame and solid contours of the lowest unstable frequency
+are overplotted in the gray zones.
+In Fig. 7͑a͒, ␺ Ј / ␺ ϭ0 and we see that there is a single
+zone of instability at upper right, bounded by the A 1 ϭ0
+locus ͑54͒. As expected, the instability onset frequency near
+this boundary is zero. The physically allowable region has no
+lower bound, consistent with the arguments in Sec. V that no
+resonant instabilities are possible in this case. Figure 8 displays a sequence of spectra and q 2 loci as the upper instability boundary is crossed, showing the development of a widening f Ϫ3 regime below about 5 Hz, followed by onset of
+instability at f ϭ0 initially, then moving to higher f, with f
+Ϸ0.8 Hz in column ͑c͒. In the unstable regime the corresponding q 2 locus loops first up from the origin, then down
+across the negative real axis very close to the origin. At the
+boundary, this crossing occurs at the origin.
+In Fig. 7͑b͒, ␺ Ј / ␺ ϭ1 and the stable zone is now bounded
+above and below by the mϭ1 and mϭ2 instability boundaries, respectively, from ͑57͒. The crossover between the
+
+FIG. 7. Zones of instability ͑gray͒ in the G ee – G ii plane for S
+ϭ0, ␥ e ϭ110 sϪ1 , ␣ ϭ ␤ ϭ ␩ 1 ϭ ␩ 2 ϭ70 sϪ1 , nϭ1, and t 0
+ϭ0.07 s. The dotted line marks ␺ ϭ0, while the contours within
+the gray areas show the minimum unstable frequency in Hz. The
+irregular appearance of the zone boundaries is due to the finite
+resolution of the array used in plotting. ͑a͒ ␺ Ј / ␺ ϭ0, ͑b͒ ␺ Ј / ␺ ϭ1,
+͑c͒ ␺ Ј / ␺ ϭ5, ͑d͒ ␺ Ј / ␺ ϭϪ1, ͑e͒ ␺ Ј / ␺ ϭϪ5.
+
+A 1 ϭ0 and mϭ1 conditions determining the upper bound
+occurs around ␺ Ј / ␺ ϭ0.6 for the parameters considered here.
+The estimate ͑57͒ is only approximately correct here because
+␺ Ј / ␺ is relatively small. Figure 9 displays a sequence of
+spectra and q 2 loci as the upper instability boundary is
+crossed, showing that there is no f Ϫ3 regime in this case;
+rather the theta peak at around 3.5 Hz sharpens until theta
+instability sets in. This is reflected in the q 2 locus crossing,
+then recrossing, the negative real axis in the unstable regime.
+In this case, the first crossing is near, but not at, the origin,
+even at the instability boundary. Figure 10 displays spectra
+and q 2 loci as the lower instability boundary is crossed,
+
+021903-14
+
+PREDICTION OF ELECTROENCEPHALOGRAPHIC . . .
+
+PHYSICAL REVIEW E 63 021903
+
+FIG. 8. Loci of q 2 r 2e ͑upper frames͒ and spectra ͑lower frames͒
+spanning the instability boundary in Fig. 7͑a͒ at G ii ϭϪ2 and G ee
+ϭ3.7,3.8,3.9 in columns ͑a͒–͑c͒, respectively. In the case of the
+instability in ͑c͒ linear theory breaks down and the shape of the
+spectrum is no longer reliable.
+
+FIG. 9. Loci of q 2 r 2e ͑upper frames͒ and spectra ͑lower frames͒
+spanning the upper instability boundary in Fig. 7͑b͒ at G ii ϭϪ2 and
+G ee ϭ4.1,4.2,4.3 in columns ͑a͒–͑c͒, respectively. In the case of the
+instability in ͑c͒ linear theory breaks down and the shape of the
+spectrum is no longer reliable.
+
+showing that the alpha peak becomes unstable in this case
+once the q 2 locus loops right around the origin, crossing the
+negative real axis in the process. At the instability boundary
+the first crossing of the negative axis occurs at the origin.
+In Fig. 7͑c͒, ␺ Ј / ␺ ϭ5. Here the stable zone is bounded
+above by the mϭ1 instability boundary, which is reasonably
+well estimated by ͑57͒. The lower bound is set by the A 1
+ϭ0 instability, although the mϭ2 instability sets in at almost the same point.
+Figure 7͑d͒ shows the case ␺ Ј / ␺ ϭϪ1, in which the
+stable zone is bounded above by the A 1 ϭ0 curve, and below
+by the mϭ2 instability. This situation persists in Fig. 7͑e͒, in
+which ␺ Ј / ␺ ϭϪ5.
+Taking Fig. 7 as a whole ͑and also the results presented in
+Fig. 4͒, we note that it seems to be very difficult to achieve
+the conditions required for an ␻ Ϫ2 spectrum, given by ͑35͒,
+to manifest itself. This appears to be because A 2 changes
+sign close to the locus of ␺ ϭ0 for physiologically realistic
+parameters, leaving it with the wrong sign for ͑35͒ to apply
+on the locus where A 1 ϭ0.
+Figure 7 allows us to make some comments regarding
+likely arousal sequences. Specifically, the appearance of a
+low-frequency f Ϫ3 spectrum near the A 1 ϭ0 boundary allows us to associate proximity to this boundary with sleep.
+Hence, unless ␺ Ј / ␺ is large and positive, sleep corresponds
+to negative ␺ , and wakefulness to positive ␺ , with the reverse association for large positive ␺ Ј / ␺ . Since G ee and G ii
+are both proportional to the mean firing rates of neurons ͓see
+the discussion following ͑10͔͒, one would expect an arousal
+
+sequence that approximately followed a line passing through
+the origin in the G ee – G ii plane. The association with ␺ Ͼ0
+in the waking state provides a more natural fit with this expectation, and also accords with the physiological expectation of positive feedback in the waking state. The results
+presented in Fig. 7 thus support the correspondence between
+m values and spectral peaks made in Sec. V A.
+VII. SUMMARY AND DISCUSSION
+
+In this work we have investigated the spectral properties
+of a generalized version of our recent model of cortical electrical activity, including a physiologically plausible corticothalamic loop with both direct and differential feedbacks,
+and exploring the effects of volume conduction in tissues
+overlying the cortex. Differential feedback is included to allow for the possibility that temporal variations are
+emphasized—likely, since almost all sensory inputs to the
+cortex first pass through the thalamus, which plays a key role
+in determining the attentional state of the brain. Unlike many
+previous models, our model does not presuppose the existence of thalamic pacemakers or ‘‘clocks’’ to regulate the
+periods of the alpha and beta rhythms. Instead, these emerge
+directly from the delays in the feedback loop.
+One of the main results of this work is the formula ͑21͒
+for the EEG spectrum that arises from white-noise subcortical inputs, in accord with previous work ͓7,41͔, allowing for
+volume conduction effects. Volume conduction is found to
+affect the spectrum significantly only above about 25 Hz,
+
+021903-15
+
+P. A. ROBINSON et al.
+
+PHYSICAL REVIEW E 63 021903
+
+FIG. 10. Loci of q 2 r 2e ͑upper frames͒ and spectra ͑lower frames͒
+spanning the lower instability boundary in Fig. 7͑b͒ at G ii ϭϪ2 and
+G ee ϭ1.3,1.4,1.5 in columns ͑a͒–͑c͒, respectively. In the case of the
+instability in ͑a͒ linear theory breaks down and the shape of the
+spectrum is no longer reliable.
+
+and contributes at most an extra factor of f Ϫ3 relative to the
+unfiltered spectrum.
+EEG spectra are comprised of a series of peaks superposed on smooth underlying continuum. Equation ͑21͒ accounts for the major features of the underlying continuum
+observed in EEG and MEG experiments, with a low-f 1/f or
+f Ϫ3 component occurring near marginal stability, and a
+steepening of the spectrum to f Ϫ5 ( f Ϫ8 with filtering via
+volume conduction above about 25 Hz͒ at frequencies above
+␣ , the characteristic dendritic rate constant, where dendritic
+filtering becomes strong. The observed knee in the spectrum
+occurs at around 20 Hz, consistent with ␣ Ϸ120 sϪ1 , which
+is in turn consistent with independent physiological estimates
+listed in Table I.
+Exploration of the parameter sensitivities of the model
+was carried out in Sec. IV, resulting in the development of a
+simplified model with fewer parameters than the initial one.
+This simplified version was used to analyze the frequencies,
+sharpness, stability, and mutual correlations of spectral peaks
+predicted by the model. The main results were that each peak
+can be denoted by a unique ‘‘harmonic’’ number m, with the
+zeroth peak corresponding to the 1/f or 1/f 3 spectrum, m
+ϭ1 to theta, mϭ2 to alpha, mϭ3 to sleep spindles, and m
+ϭ4 to beta. The mϭ2,4, . . . peaks are predicted to be positively correlated with one another and prominent in waking.
+Likewise, the mϭ1,3,5, . . . peaks should be positively correlated and prominent in sleep, whereas these two sets are
+anticorrelated overall and the mϭ0 peak is always present,
+but stronger in sleep. Comparison with published observa-
+
+tions confirms the predicted correlations, anticorrelations,
+and states in which certain peaks are expected to be most
+prominent. The theory is also consistent with the data shown
+in Figs. 1 and 6, whence we tentatively identify new peaks
+corresponding to mϭ5 ͑beta-2 spindle͒, mϭ6 ͑beta-2͒, and
+mϭ7 ͑gamma-1 spindle͒ rhythms. The inferred corticothalamic feedback delay t 0 Ϸ1/f ␣ Ϸ100 ms is also consistent
+with physiological constraints on this quantity. We conclude
+that the simplest association between state of arousal and our
+parameters is for ␺ and ␺ Ј to be positive in waking and
+negative in sleep, although we cannot yet categorically rule
+out certain alternatives discussed in Secs. V A and VI.
+Our analysis of the spectral peaks leads to the unification
+of all the major large-scale brain rhythms, and the prediction
+and tentative confirmation of two new ones. It also provides
+a theoretical basis for the customary subdivision of the spectrum into bands, but implies that the frequencies of these
+bands are not universal, but are tied to the alpha frequency of
+the individual subject, contrary to some conventions, but
+consistent with the recognition of such variations in the literature ͓18͔.
+Analysis of the sharpness and stability of the spectral
+peaks showed that only the first few can have high Q, and
+that stability of the mϭ1 ͑or mϭ3) and mϭ2 rhythms can
+impose bounds on the physically allowable states of the cortex, corresponding to instabilities near 5 Hz ͑or 15 Hz͒ and
+10 Hz, respectively. Together with the A 1 Ͼ0 condition required to avoid instability at f ϭ0, these conditions restrict
+the range of physically allowable states in parameter space.
+We speculate that these instabilities may be associated with
+the linear stages of certain generalized seizures, possibly including grand mal, petit mal, and photic epilepsies. Significantly, an f Ϫ3 regime is predicted at low f close to the A 1
+ϭ0 boundary in sleep. This is consistent with the observed
+steepening and enhancement of the low-f spectrum in sleep.
+The above results indicate that our model provides a
+promising semiquantitative theoretical explanation for EEG
+spectra. Most significantly, we explain the entire spectrum in
+a unified way, a major advance on previous analyses, which
+have generally concentrated on a single frequency band at a
+time. In a forthcoming paper we will compare it in detail
+with observations of multiple subjects in various states of
+arousal to determine whether it is quantitatively consistent
+and, in particular, whether the parameters inferred are consistent with those inferred from independent physiological
+measurements. We hope that these physiological links will
+prompt experimental physiologists to determine tighter constraints on some of the less well known parameter values.
+Our model differs from some in the literature in that,
+rather than adding numerous parameters to describe ever
+finer details, it restricts attention to a set of physiologically
+realistic mechanisms that appear to be sufficient to capture
+the overall behavior of the EEG, and parametrizes these as
+simply as possible. This keeps the number of parameters low
+and their physical significance clear.
+One limitation of the present work is that it does not attempt to describe spatial variations of the spectrum, although
+these are significant in practice ͑albeit less so when spectral
+ratios, such as those in Fig. 6 are considered͒. This is not a
+
+021903-16
+
+PREDICTION OF ELECTROENCEPHALOGRAPHIC . . .
+
+PHYSICAL REVIEW E 63 021903
+
+fundamental limitation, as the model can be easily generalized to include such variations if next-order accuracy is required, but at the price of introducing additional parameters.
+A second limitation is that, although the cortex appears to
+operate near marginal stability, we have not as yet identified
+a mechanism to keep it at this point. This does not affect the
+present discussion, but is an important point of principle.
+Third, although we argue that corticothalamic feedback is the
+most important one in determining the observed spectral
+rhythms, we do not exclude the possibility that other feedback loops with similar time delays may also contribute.
+
+jaw muscles, this class of artifact could be suppressed to the
+point that the high-frequency spectrum was not significantly
+affected. Cardiac interference at low frequencies was also
+found to be minimal, with no spectral peak detected at the
+heartbeat frequency of around 1 Hz, or its harmonics.
+The waking spectra in Fig. 1 were for a normal female
+subject, aged 30, in a relaxed, eyes-closed state, while the
+sleep spectrum was for the same subject in sleep stage 2.
+
+ACKNOWLEDGMENTS
+
+In this appendix we show that the high frequency effects
+of filtering are nearly the same for any physically reasonable
+filter function.
+If we assume that F(k) only depends on the magnitude of
+the wave vector, and falls off rapidly for kϾk 0 , the integral
+in ͑20͒ can be written in the form
+
+The authors thank K. E. Crowley and I. Colrain for scoring the sleep spectra in Fig. 1.
+This work was supported by the Australian Research
+Council, the National Health and Medical Research Council,
+and the Ross Trust, Melbourne.
+
+APPENDIX B: GENERAL EFFECTS OF FILTERING
+BY OVERLYING STRUCTURES
+
+APPENDIX A: BRIEF DESCRIPTION OF THE
+EXPERIMENT USED TO OBTAIN FIG. 1
+
+Iϭ ␲
+
+In this appendix we briefly outline the experiment used to
+obtain the data used in Fig. 1, justifying the accuracy of the
+overall form of the spectrum and the reality of the spectral
+peaks seen. A fuller description is found in Ref. ͓6͔ and more
+details will be published in a forthcoming work in which a
+large set of EEG spectra from multiple subjects will be analyzed in detail.
+The data in Fig. 1 were obtained from the Cz, Pz, Fz, C3,
+and C4 electrodes in the International 10–20 system, with
+linked ears providing the reference potential. The Cz electrode is located at the crown ͑or vertex͒ of the head, furthest
+from the reference electrodes and from muscle groups that
+could generate electrical interference. The Fz and Pz electrodes are located roughly 6 cm in front of and behind this
+electrode, respectively, while the C3 and C4 electrodes are
+situated symmetrically Ϸ6 cm either side of it. The data
+were low-pass filtered to remove frequencies above 50 Hz
+and sampled at 250 Hz for periods of 2 minutes in waking
+and 13 minutes in sleep. The spectra were then calculated by
+Fourier transforming 8 second segments of these data and
+averaging these transforms.
+Narrow band artifacts at the mains frequency of 50 Hz
+and its subharmonic of 25 Hz were identified due to their
+presence even in the absence of a subject. As each affected
+only a single spectral channel, they were simply removed by
+deleting these channels before plotting the spectra. Ocular
+artifacts due to eye blinks and pendular eye movements were
+removed by standard algorithms ͓46͔. When present, muscular artifacts due to jaw, neck, and other movements, were
+found to contaminate the high-frequency spectrum with
+noise having an approximately 1/f spectrum which is easily
+identified. Trials with a subset of subjects showed that, with
+appropriate instructions to minimize movement and relax
+
+͵
+
+ϱ
+
+dk
+
+2
+
+0
+
+F ͑ k 2 /k 20 ͒
+͉ k 2 ϩq 2 ͉ 2
+
+͑B1͒
+
+.
+
+Upon changing variables to uϭk 2 /k 20 , we find
+
+Iϭ
+
+ϳ
+
+␲
+2i Im q 2
+
+͵
+
+ϱ
+
+0
+
+du F ͑ u ͒
+
+␲
+
+k 20 Im q 2
+
+Im q 2
+
+͉ q 4͉
+
+ͫ
+
+1
+uϩq
+
+2
+
+Ϫ
+/k 20
+
+1
+uϩq * 2 /k 20
+
+ͬ
+
+͑B2͒
+͑B3͒
+
+,
+
+where ͑B2͒ has been expanded in powers of k 20 /q 2 u and we
+have used the fact that F falls off rapidly for kϾk 0 . This
+result is of the same form as the more specialized one, Eq.
+͑26͒, and shows that the asymptotic ␻ Ϫ3 filtering does not
+depend strongly on the structure of the filter function.
+APPENDIX C: EXPLICIT EXPRESSIONS FOR A 0 AND A 1
+
+In this appendix we give explicit expressions for the coefficients A 0 and A 1 in the expansion ͑32͒ for ␣ ϭ ␤ . Expressions for higher A j are complicated and their exact analytic
+form is likely to be more strongly model dependent, so we
+do not reproduce them here.
+Direct expansion of ͑17͒ yields
+A 0 ϭS,
+A 1ϭ
+
+ͫ
+
+ͩ
+
+ͪ
+
+ͬ
+
+2
+G ee 2 ͑ 1ϩ ␺ ͒
+n
+n
+ϩ
+ϩ t 0ϩ ϩ
+␺ Ϫt 0 ␺ Ј ,
+␥e G0
+␣G0
+␩1 ␩2
+͑C2͒
+
+with S given by ͑28͒ and G 0 given by ͑31͒.
+
+021903-17
+
+͑C1͒
+
+P. A. ROBINSON et al.
+
+PHYSICAL REVIEW E 63 021903
+
+͓1͔ M.R. Rosenzweig and A.L. Leiman, Physiological Psychology
+͑Random House, New York, 1989͒.
+͓2͔ M.P. Stryker, Nature ͑London͒ 338, 297 ͑1989͒.
+͓3͔ W. Singer and C.M. Gray, Annu. Rev. Neurosci. 18, 555
+͑1995͒.
+͓4͔ R. Caton, Br. Med. J. 1, 278 ͑1875͒.
+͓5͔ H. Berger, Arch. Psychol. Nervenkr. 87, 527 ͑1929͒.
+͓6͔ A.R. Haig, E. Gordon, G. Rogers, and J. Anderson, Electroencephalogr. Clin. Neurophysiol. 94, 288 ͑1995͒.
+͓7͔ F.H. Lopes da Silva, A. Hoeks, A. Smits, and L.H. Zetterberg,
+Kybernetik 15, 27 ͑1974͒.
+͓8͔ D.L. Robinson, Int. J. Neurosci. 22, 81 ͑1983͒.
+͓9͔ G. Buzsa´ki, Neuroscience ͑Oxford͒ 41, 351 ͑1991͒.
+͓10͔ P.L. Nunez, in Neocortical Dynamics and Human EEG
+Rhythms, edited by P.L. Nunez ͑Oxford University Press, Oxford, 1995͒, Chaps. 1 and 9.
+͓11͔ F.H. Lopes da Silva, Electroencephalogr. Clin. Neurophysiol.
+79, 81 ͑1991͒.
+͓12͔ A.M.L. Coenen, Neurosci. Biobehav Rev. 19, 447 ͑1995͒.
+͓13͔ F.H. Lopes da Silva, J.E. Vos, J. Mooibroek, and A. van Rotterdam, Electroencephalogr. Clin. Neurophysiol. 50, 449
+͑1980͒.
+͓14͔ M. Steriade, P. Gloor, R.R. Llina´s, F.H. Lopes da Silva, and
+M.-M. Mesulam, Electroencephalogr. Clin. Neurophysiol. 76,
+481 ͑1990͒.
+͓15͔ W.J. Freeman, in Induced Rhythms of the Brain, edited by E.
+Bas¸ar and T.H. Bullock ͑Birkha¨user, Basel, 1991͒.
+͓16͔ E. Novikov, A. Novikov, D. Shannahoff-Khalsa, B. Schwartz,
+and J. Wright, Phys. Rev. E 56, R2387 ͑1997͒.
+͓17͔ G. Dumermuth, B. Lange, D. Lehmann, C.A. Meier, R. Dinkelmann, and L. Molinari, Eur. Neurol. 22, 322 ͑1983͒.
+͓18͔ E. Niedermeyer, in Electroencephalography: Basic Principles,
+Clinical Applications, and Related Fields, 4th ed., edited by E.
+Niedermeyer and F.H. Lopes da Silva ͑Williams and Wilkins,
+Baltimore, 1999͒, Chaps. 9, 13, and 27.
+͓19͔ H.R. Wilson and J.D. Cowan, Kybernetik 13, 55 ͑1973͒.
+͓20͔ P.L. Nunez, Electric Fields of the Brain ͑Oxford University
+Press, Oxford, 1981͒.
+͓21͔ P.A. Robinson, C.J. Rennie, and J.J. Wright, Phys. Rev. E 56,
+826 ͑1997͒.
+͓22͔ P.A. Robinson, J.J. Wright, and C.J. Rennie, Phys. Rev. E 57,
+4578 ͑1998͒.
+͓23͔ C.J. Rennie, P.A. Robinson, and J.J. Wright, Phys. Rev. E 59,
+3320 ͑1999͒.
+
+͓24͔ C.J. Rennie, J.J. Wright, and P.A. Robinson, J. Theor. Biol.
+205, 17 ͑2000͒.
+͓25͔ A. van Rotterdam, F.H. Lopes da Silva, J. van den Ende, M.A.
+Viergever, and A.J. Hermans, Bull. Math. Biol. 44, 283
+͑1982͒.
+͓26͔ W.J. Freeman, Mass Action in the Nervous System ͑Academic,
+New York, 1975͒.
+͓27͔ P.L. Nunez, IEEE Trans. Biomed. Eng. 21, 473 ͑1974͒.
+͓28͔ J.J. Wright and D.T.J. Liley, Network Comput. Neural Syst. 5,
+191 ͑1994͒.
+͓29͔ J.J. Wright, Biol. Cybern. 81, 131 ͑1999͒.
+͓30͔ J.J. Wright and D.T.J. Liley, Behav. Brain Sci. 19, 285 ͑1996͒.
+͓31͔ V.K. Jirsa and H. Haken, Phys. Rev. Lett. 77, 960 ͑1996͒.
+͓32͔ V.K. Jirsa and H. Haken, Physica D 99, 503 ͑1997͒.
+͓33͔ P.A. Robinson, C.J. Rennie, J.J. Wright, and P.D. Bourke,
+Phys. Rev. E 58, 3557 ͑1998͒.
+͓34͔ D.T.J. Liley and J.J. Wright, Network 5, 175 ͑1994͒.
+͓35͔ G.H. Bishop, Cold Spring Harbor Symp. Quant. Biol. 4, 305
+͑1936͒.
+͓36͔ E.R. Kandel, J.H. Schwartz, and T.M. Jessell, Principles of
+Neural Science ͑Appleton and Lange, Norwalk, Connecticut,
+1991͒.
+͓37͔ V. Braitenberg and A. Shu¨z, Anatomy of the Cortex: Statistics
+and Geometry ͑Springer, Berlin, 1991͒.
+͓38͔ R. Douglas and K. Martin, in The Synaptic Organization of the
+Brain, edited by G. Shepherd ͑Oxford, New York, 1998͒, p.
+459.
+͓39͔ S.M. Sherman and C. Koch, in The Synaptic Organization of
+the Brain, edited by G. Shepherd ͑Oxford, New York, 1998͒,
+p. 289.
+͓40͔ R. Srinivasan, P.L. Nunez, and R.B. Silberstein, IEEE Trans.
+Biomed. Eng. 45, 814 ͑1998͒.
+͓41͔ C.J. Stam, J.P.M. Pijn, P. Suffczynski, and F.H. Lopes da
+Silva, Electroencephalogr. Clin. Neurophysiol. 110, 1801
+͑1999͒.
+͓42͔ M. Abramowitz and I.A. Stegun, Handbook of Mathematical
+Functions ͑Dover, New York, 1970͒.
+͓43͔ J.A. Gray, Neural Networks 10, 1257 ͑1997͒.
+͓44͔ C.L. Lim, R.J. Barry, E. Gordon, A. Sawant, C.J. Rennie, and
+C. Yiannikas, Int. J. Psychophysiol. 21, 151 ͑1996͒.
+͓45͔ W. Klimesch, Brain Res. Rev. 29, 169 ͑1999͒.
+͓46͔ G. Gratton, M.G. Coles, and E. Donchin, Electroencephalogr.
+Clin. Neurophysiol. 55, 468 ͑1983͒.
+
+021903-18
+
+

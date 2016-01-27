@@ -1,0 +1,2725 @@
+JOURNALOF NEUROPHYSIOLOGY
+Vol. 68, No. 4, October 1992. Printed
+
+in U.S.A.
+
+A Model of the Electrophysiological Properties
+of Thalamocortical Relay Neurons
+DAVID A. MCCORMICK
+AND JOHN R. HUGUENARD
+Section ofNeurobiology,
+Yale University School of Medicine, New Haven, Connecticut 06.510; and
+Department ofNeurology, Stanford University Medical School, Stanford, California 94305
+6. Addition of the hyperpolarization
+activated cation current &
+resulted in a depolarizing
+sag on hyperpolarization
+and generated
+an apparent afterhyperpolarization
+after a low-threshold
+Ca 2+
+1. A model of the electrophysiological
+properties of single thalspike.
+During
+the
+generation
+of
+a
+low-threshold
+Ca2+
+spike,
+&
+amocortical relay neurons in the rodent and cat dorsal lateral gedeactivated, resulting in the membrane potential’s falling to a
+niculate nucleus was constructed, based in part on the voltage
+more negative level on repolarization
+of the Ca2+ spike. Subsedependence and kinetics of ionic currents detailed with voltageof the membrane
+clamp techniques. The model made the simplifying assumption of quent activation of & resulted in repolarization
+potential
+and
+therefore
+the
+appearance
+of
+an
+afterhyperpolarizaa single uniform compartment
+and incorporated
+a fast and trantion.
+sient Na+ current, &,; a persistent, depolarization-activated
+Na’
+7. Rhythmic low-threshold
+Ca2+ spikes and burst generation
+current, INap; a low-threshold
+Ca2+ current, &; a high-threshold
+were successfully modeled and depended critically on Jr, &, and
+Ca2+ current, I,; a Ca2+ -activated K+ current, Ic; a transient and
+the leak currents Imeak and INaleak. The frequency and amplitude of
+depolarization-activated
+K+ current, 1*; a slowly inactivating and
+rhythmic Ca2+ spike generation was strongly modulated by the
+depolarization-activated
+K+ current, 1= ; a hyperpolarization-acamplitude
+of &, IT, and IUeak. Increasing the maximal conductivated cation current, &; and KC and Na+ leak currents JKleak
+tance of g, resulted in an increase in rhythmic burst generation
+and hileak *
+from 0.5 to a maximum of 4 Hz. Shifting the voltage dependence
+2. The effects of the various ionic currents on the electrophysioof & by it 10 mV resulted in an increase and decrease, respectively,
+logical properties of thalamocortical
+relay neurons were initially
+of the frequency of rhythmic Ca2+ spike generation and a decrease
+investigated through examining the effect of each current individuand increase, respectively, of the ability of the cell to maintain
+ally on passive membrane responses. The two leak currents, JKleak rhythmic oscillation.
+and &weak 7 determined in large part the resting membrane poten8. The response of the model to depolarizing
+inputs was marktial and the apparent input resistance of the model neuron. Addiedly different during rhythmic oscillation than during tonic depotion of 1* resulted in a delay in the response of the model cell to a larization.
+During rhythmic
+oscillation,
+depolarization
+of the
+depolarizing
+current pulse, whereas addition of 1=, or IL commodel cell resulted in a transient burst response and disruption of
+bined with I,, resulted in a marked and prolonged decrease in the rhythmic burst discharges, whereas application of the same deporesponse to depolarization.
+Addition of 1h resulted in a depolarizlarizing current pulse in the tonic firing mode resulted in a train of
+ing “sag” in response to hyperpolarization,
+whereas addition of &
+action potentials that displayed no spike frequency adaptation.
+resulted in a large rebound Ca2+ spike after hyperpolarization.
+9. In summary, the present model of thalamocortical
+relay cells
+Finally, addition of INap resulted in enhancement
+of depolarizasuggests that the various K+ currents in these neurons contribute
+tion.
+to the repolarization
+of not only Na+ but also low-threshold
+Ca2+
+3. The low-threshold
+Ca2+ spike of rodent neurons was sucspikes,
+control
+the
+temporal
+characteristics
+of
+repetitive
+firing,
+and
+cessfully modeled with the active currents JT, IL, 1*, I,, and &.
+generate
+an
+apparent
+rectification
+of
+the
+neuron
+at
+resting
+memThe low-threshold
+Ca2+ current &- generated the low-threshold
+brane potentials. The ionic currents & and & are critically inCa2’ spike. The transient K+ current 1* slowed the rate of rise and
+volved in rhythmic low-threshold
+Ca2+ spike generation, which
+reduced the peak amplitude
+of the low-threshold
+Ca2+ spike,
+also depends critically on the status of the various “leak” conducwhereas the slowly inactivating K+ current JK2 contributed greatly
+tances that determine the membrane potential and apparent input
+to the repolarization
+of the Ca2+ spike. Activation of IL during the
+resistance of the cell. These findings confirm and extend previous
+peak of the Ca2+ spike led to activation of Ic, which also contribsuggestions based on intracellular
+recordings of thalamocortical
+uted to the repolarization
+of the Ca2+ spike. Reduction of any one
+relay cells obtained in vivo and in vitro.
+of the K+ currents resulted in an increase in the other two, thereby
+resulting in substantially smaller changes in the Ca2+ spike than
+would be expected on the basis of the amplitude of each ionic
+INTRODUCTION
+current alone.
+4. Activation of the various K+ currents, 1*, 1=, and &, also
+In the accompanying paper (Huguenard and McCorresulted in apparent rectification of the model neuron such that
+mick 1992)) we presented mathematical models of the voltthe response to a depolarizing
+current pulse was substantially
+age dependence and kinetics of several ionic currents pressmaller than the response to a hyperpolarizing
+current pulse.
+ent
+in rodent thalamocortical
+relay cells including the low5. Fast, Na+ -dependent
+action potentials were repolarized
+threshold
+Ca2+
+current,
+IT;
+the
+hyperpolarization-activated
+largely by 1c at membrane potentials positive to -60 mV, with
+cation
+current,
+1h
+;
+the
+transient,
+depolarization-activated
+smaller contributions
+by 1* and 1=. In contrast, 1* and 1= formed
+a major component of the ionic currents flowing in between ac- K+ current, 1*; and the slowly inactivating, depolarizationactivated K+ current, &. In this paper, we utilize these
+tion potentials and therefore slowed the rate of action potential
+generation.
+mathematical
+models, plus those developed by others
+SUMMARY
+
+1384
+
+AND
+
+CONCLUSIONS
+
+0022-3077/92 $2.00 Copyright 0 1992 The American Physiological Society
+
+CURRENT
+
+CLAMP
+
+MODEL
+
+(French et al. 1990; Kay and Wong 1987; Yamada et al.
+1989 ) , in an attempt to model the basic electrophysiological properties of single thalamocortical
+relay neurons.
+Rodent thalamocortical
+relay cells have the interesting
+property of being able to generate action potentials in either
+of two modes, both in vivo and in vitro: 1) single spike, or
+tonic, firing in which action potentials are generated one at
+a time in trains and 2) burst firing in which the cell generates a rebound high-frequency burst of action potentials
+after a brief hyperpolarization
+generated either by a hyperpolarizing current pulse or by an inhibitory postsynaptic
+potential. These unique electrophysiological
+features of individual thalamocortical
+relay neurons have been proposed
+to be critical to the appearance of rhythmic oscillations in
+intrathalamic
+and thalamocortical
+circuits (Deschenes et
+al. 1984; Jahnsen and Llinas 1984a,b; reviewed by Steriade
+and Deschenes 1984; Steriade and Llinas 1988 j. Indeed,
+recently it has been demonstrated that even individual thalamocortical relay cells in the feline thalamus can maintain
+rhythmic Ca 2-t spike-mediated burst activity when isolated
+in vitro (McCormick
+and Prince 1987; McCormick
+and
+Pape 1990a; Soltesz et al. 199 1). The generation of this
+slow (OS-4 Hz) oscillation was proposed to be due largely
+to the interaction of two currents: the low-threshold Ca2+
+current l,r and the hyperpolarization-activated
+cation
+current I, (McCormick
+and Pape 1990a).
+One test of the various hypotheses concerning the contribution of the various ionic currents present in thalamocortical relay cells to their electrophysiological
+properties is the
+success with which an accurate mathematical model of the
+properties of these different currents is able to reconstruct
+the electrophysiological
+behavior of the neuron. In addition, mathematical models of neurons are valuable, for they
+allow the plotting of the amplitude and time course of each
+of the different ionic currents during electrical activity in
+the model neuron, as well as the easy examination of the
+possible effects of the alteration in the amplitude or properties of each ionic current on the electrophysiological behavior of the neuron.
+In this model we demonstrate that the various K+
+currents present in thalamic relay cells are likely to contribute to the repolarization of both Na+ and low-threshol‘d
+Ca2+ -mediated action potentials and control the frequency
+and time course of repetitive firing. In addition, this model
+confirms and extends the suggestion that rhythmic Ca2+
+spike generation depends critically on the interaction of &
+and & as well as on the status of K+ currents active at rest.
+METHODS
+
+This model of thalamocortical
+relay cells was based on the mathematical description of &, 1*, IU, and & presented in the accompanying paper (Huguenard and McCormick
+1992). In addition to
+these currents, thalamocortical
+relay cells are also known to possess a fast and transient Na+ current, a persistent Na+ current, a
+Ca2+-activated
+K+ current, and a high-threshold
+Ca2’ current
+(Coulter et al. 1989; Jahnsen and Llinas 1984a,b; McCormick,
+unpublished
+observations).
+The mathematical
+model of the fast
+Na+ current was based on whole cell voltage-clamp recording obtained from acutely dissociated cortical pyramidal cells (Huguenard et al. 1988 ) and is presented in the APPENDIX.
+The mathematical model of the persistent Na+ current was based on the data of
+French et al. ( 1990) obtained from hippocampal
+pyramidal cells;
+
+OF
+
+THALAMIC
+
+NEURONS
+
+1385
+
+the model of the Ca2+ -activated K+ current was that of Yamada et
+al. ( 1989), derived from bullfrog sympathetic ganglion cells; and
+the model of the high-threshold
+Ca2’ current Ii- was that of Kay
+and Wong ( 1987)) based on data obtained from hippocampal
+pyramidal cells. Although it is likely that there are differences
+between these ionic currents of hippocampal,
+cortical, and sympathetic ganglion cells and those of thalamocortical
+relay cells, the
+inclusion of these currents in the present model was necessary to
+increase the accuracy of the emulation of the current-clamp
+behavior of thalamocortical
+relay neurons.
+This model is a “point” or single compartment
+model in which
+all of the membrane behaves in unison. Although this is an obvious gross simplification
+of the complicated morphology of thalamocortical relay neurons (e.g., see Bloomfield et al. 1987; Sherman and Koch 1986)) it was considered necessary because the
+spatial distributions
+of the various ionic currents are not known.
+When they become available, these spatial data can be incorporated into future versions of this model. In addition, the success of
+this “point”
+model in replicating the basic electrophysiological
+properties of thalamocortical
+relay neurons suggests that the modeling of the complicated dendritic morphology of these cells is not
+essential to the modeling of some of their basic electrophysiological features. Second, the dynamics of Ca2+ buffering in thalamocortical relay neurons are not known. In this model, we assumed a
+single exponential decay of [ Ca2+li in the inner 100 nm of space
+just beneath the supposed membrane. The time constant of this
+decay was adjusted to replicate the duration of afterhyperpolarizations ( ~60 ms) that occur after the generation of a single action
+potential (Jahnsen and Llinas 1984a,b).
+The total membrane area in this model was assumed to be
+29,000 pm2, which is in the range of feline thalamocortical
+relay
+cells (Bloomfield
+et al. 1987). Given a specific membrane capacitance of 1 pF/cm2, this yields an input capacitance of 0.29 nF.
+This value is within the range of input capacitances for feline thalamocortical
+relay cells in slices in vitro as measured by the response to small hyperpolarizing
+current pulses (0.15-0.8
+nF;
+McCormick,
+unpublished
+observations).
+The maximal conductances of the various ionic currents were estimated by scaling the
+normalized
+conductance
+(nS /pF) from the data obtained by
+whole cell recording in dissociated thalamocortical
+relay neurons
+to that used here (0.29 nF; Table 1). The maximal conductance of
+1h ( lo-30 nS) was based on voltage-clamp data obtained in thalamocortical neurons maintained as a slice, in vitro (McCormick
+and Pape 1990a).
+The temperature used in the present model was set to 35.5 “C,
+because this is the temperature at which the intracellular
+recordings from thalamocortical
+relay cells maintained
+in slices were
+obtained (e.g., McCormick
+and Pape 1990a). The kinetics of all
+currents, except &- where it has been directly measured, were assumed to have a Qlo of 3. The extracellular concentration
+of Ca2’
+used in slice experiments was 2.0 mM and therefore was adopted
+here in an attempt to model results obtained from intracellular
+recordings in slices. In accordance with this change in [ Ca2+], ,
+and the resultant changes in screening charge, the voltage dependence of activation and inactivation of & was adjusted so that the
+values used for vi,, in the Bolzmann
+equation were -60.5 mV
+(activation)
+and -84 mV (inactivation).
+Numeric solution of the differential equations representing the
+kinetics of the different ionic currents was achieved for this paper
+by use of the fourth-order Runge-Kutta
+method. The time step of
+simulation continually varied, depending on the rate of change of
+the various ionic gates. For these simulations, the total change in
+ionic gates was limited to < 1YO during any particular time step. For
+preliminary
+results, a one- or two-step Euler integration method
+was used and was found to yield similar or identical results to the
+Runge-Kutta
+method while greatly increasing the speed of simulation. The simulation program was written for use on an IBM AT-
+
+1386
+TABLE
+
+D. A. MCCORMICK
+1.
+
+Maximal
+
+AND
+
+J. R. HUGUENARD
+
+conductances for isolated and model cells
+
+Isolated cells 17.5 pF at
+23.5”C
+Maximum permeability,
+cm’/s
+Range
+Average
+PL
+PT
+
+0.1 O-2.54
+0.09-0.75
+
+0.90
+0.33
+
+Maximum conductance, nS
+Range
+Average
+gA
+
+gK2
+gNa
+
+18.7-82.6
+10.7-64.9
+
+41.2
+36.8
+
+Intact cell 290 pF at
+35.5OC
+Normalized,
+Maximum
+cm/s
+Range
+
+Average
+
+Q10
+
+0.005-O. 145
+0.005-0.043
+
+0.05 1
+0.019
+
+3
+3
+
+Range
+5.9-l 57
+6.5-52
+Maximum
+
+Range
+
+S/cm2
+
+0.00 1l-0.0047
+0.0006-0.0037
+0.0 1o-0.022
+
+style computer with or without math coprocessor and with some
+type of screen graphics capability (Hercules, CGA, EGA, or VGA).
+Intracellular
+recordings from guinea pig and cat dorsal lateral
+geniculate nucleus (LGNd)
+neurons illustrated
+here were obtained with the in vitro slice technique during the performance of
+experiments for previously published studies (McCormick
+199 1,
+1992a; McCormick
+and Pape 1990a).
+
+Average
+0.0024
+0.002 1
+0.011
+
+Range
+1.6
+1.58
+1.5
+
+0.5-2.4
+0.3-l .9
+4.6- 10.2
+
+permeability,
+cm3/s
+Average
+56
+23
+
+Model
+Cell
+80
+40
+
+conductance,
+PS
+Average
+1.2
+1.1
+5.1
+
+1
+1
+9
+
+rectification,
+with electrotonic
+responses to outward
+current injection being substantially smaller than to inward
+current injection of the same amplitude.
+Addition
+of the hyperpolarization-activated
+cation
+current & resulted in a small depolarization of the cell at
+rest because of a slight activation of this current at -63 mV.
+The main effect of & was to generate a depolarizing sag in
+the response to the hyperpolarizing current pulse, whereas
+RESULTS
+the response to the depolarizing current pulses was unGuinea pig thalamocortical
+relay neurons in vitro possess changed (Fig. 10).
+Turning on of the low-threshold Ca2+ current JT resulted
+an average resting membrane potential of about -63 mV, a
+resting input resistance of 30-90 MQ, and an average memin the appearance of a rebound Ca2+ spike on offset of hybrane time constant of - 14 ms (Jahnsen and Llinas 1984a; perpolarization (Fig. 1E) . Interestingly, this rebound Ca2+
+McCormick
+and Prince 1987; McCormick
+and Pape spike was associated with a large depolarization that peaked
+1990a). In this model of guinea pig thalamocortical
+relay at 0 mV and repolarized as IT inactivated. The large amplineurons, the two leak conductances gmeak and gNaleakwere tude of the low-threshold Ca2+ spike in this simulation is
+due to the lack of active K+ currents (see below). The peradjusted to 15 and 6 nS, respectively to give a resting membrane potential of -63 mV and a resting input resistance of sistent Na+ current, JNap, resulted in an enhancement of the
+48 MQ. Injection of inward or outward current pulses in response to depolarizing current pulses, whereas the rethis situation resulted in passive membrane responses with sponse to hyperpolarizing current pulses was only slightly
+enhanced. The persistence of the depolarization after the
+a time constant of 14 ms (Fig. 1, A and D; - - -) . Addition
+end of the outward current pulse in the present simulation
+of each of the modeled active currents one at a time resulted
+in unique alterations in the response of the modeled cell to indicates that plateau depolarizations would be produced
+the current pulses (Fig. 1). Addition of 1* resulted in a by persistent Na+ currents in the absence of active K+ consmall hyperpolarization
+of the cell because of tonic activa- ductances.
+tion of the A-current at -63 mV, resulting from the small
+“window” between activation and inactivation
+of this
+Two modes of action potential generation
+current (see Fig. 4; Huguenard and McCormick
+1992). Depolarization of the neuron transiently activated 1*, resultThalamocortical
+relay neurons in vivo or in vitro display
+ing in a delay with which the membrane potential obtained
+two prominent modes of action potential generation: burst
+its maximum value (Fig. 1A). In contrast, the response of firing, in which two to six action potentials occur in a highthe neuron to the hyperpolarizing current pulse was largely
+frequency (250-400 Hz) burst riding on a low-threshold
+unaltered by 1*.
+Ca2+ spike; and single spike activity, in which action potenAddition of 1k2 resulted in a substantial decrease in the tials are generated in trains, the frequency of which depends
+response of the model to depolarization,
+whereas the re- on the strength of depolarization (Deschenes et al. 1984;
+sponse to hyperpolarization
+was unchanged. In addition,
+Jahnsen and Llinas 1984a). Burst firing in nonoscillating
+like 1*, a small amount of 1= was active at rest and there- relay neurons is typically evoked by the offset of a hyperpofore resulted in a small hyperpolarization
+of the model cell. larizing current pulse and is often generated in response to
+Addition of the high-threshold Ca2+ current & and the an inhibitory postsynaptic potential in vivo (see Steriade
+Ca2’ -activated I(+ current I, also resulted in a marked de- and Deschenes 1984).
+crease in the response of the model to depolarization,
+The present model of a guinea pig LGNd relay cell also
+whereas the response to hyperpolarization
+was unchanged.
+exhibited these two modes of action potential generation.
+These results indicate that the presence of JA, IK2, and I,
+Injection of a hyperpolarizing
+current pulse at rest (-65
+together in the model should result in marked apparent
+mV) was followed by the generation of a rebound burst of
+
+CURRENT
+
+A
+
+IA
+
+CLAMP
+
+B
+
+MODEL
+
+OF THALAMIC
+
+NEURONS
+
+1387
+
+IK2
+
+Ih
+
+FIG. 1.
+Effect of addition of each current on the response of the model thalamic cell to an inward and outward current
+pulse of 1 nA. Model was initially set with an Ikieakof 15 nS and an lNaleakof 6 nS for a resting membrane potential of -63 mV
+and an input impedance of 48 MQ. A: addition of IA results in a slowing of the rate of rise to the initial portion of the
+depolarizing current pulse (is with 0.8 PS IA, - - - is Ikieakand &ieak only). Plot of the A-current (below the voltage
+trace) reveals that a small amount of I, was active at rest ( /1 ) because of a “window” current and thereby hyperpolarizing the
+cell by N 2 mV. Depolarization of the cell results in activation followed by complete inactivation of IA. Hyperpolarization of
+the cell results in removal of activation of 1*. B: addition of 1= (0.8 pS) results in a substantial decrease in the response of the
+cell to the depolarizing current pulse. C: addition of the Ca2+ current 1L ( 80 X 10 -6 cm3 / s) and the Ca2+ -activated current I,
+( 1 pS) results in a marked reduction in the response to depolarizing current pulses from the activation of 1L and the
+subsequent activation of IC (bottom traces). D: addition of Ih (20 nS) results in a time-dependent “sag” of the membrane
+potential in the hyperpolarizing range. Note small amount of & active at rest ( I ). E: addition of 1= (40 X 10m6cm3/sec)
+results in a rebound low-threshold Ca2+ spike that peaks at -0 mV. F: addition of JNapersistent results in a marked increase
+in response to depolarizing current pulses. Depolarization persists because of the lack of K-currents to repolarize the cell.
+
+four action potentials (Fig. 2A). The rebound burst re- Model of the low-threshold Ca2+ spike
+sulted from the activation of the low-threshold Ca2+
+current &- (Fig. 2A, 7 ), whereas the fast action potentials
+The low-threshold Ca2+ spike in rodent thalamocortical
+were generated by the fast Na+ current 1& Thus hyperporelay neurons was recorded in vitro after the block of voltlarization of the neuron with the current pulse led to re- age-dependent Na+ currents with the local application of
+moval of inactivation of IT. On release of the hyperpolariztetrodotoxin ( 10 PM in micropipette) and after block of the
+ing current pulse, the membrane repolarized back toward hyperpolarization-activated
+cation current & with local aprest, thereby activating &- and subsequently generating a plication of Cs+ (20 mM in micropipette; McCormick and
+low-threshold Ca2+ spike. The low-threshold Ca2+ current
+Pape 1990a; Fig. 3 A ) . Intracellular injection of a depolarizthen depolarized the neuron past the threshold for the gener- ing current pulse while tonically hyperpolarizing the cell to
+ation of fast, Na+-dependent
+action potentials.
+- 115 mV to remove inactivation of 1+rresulted in the eliciSimulation of a depolarizing current pulse resulted in a tation of a low-threshold Ca2+ spike that was characterized
+train of four action potentials that showed little spike fre- by a rapid rate of rise, a much slower rate of fall, and the
+quency adaptation, as in normal rodent and cat LGNd re- appearance of a fast “spike” and negative going “notch” at
+lay neurons (Jahnsen and Llinas 1984a,b; McCormick
+the peak of the Ca2+ spike (Fig. 3A, r( ). Differentiation of
+1992a). In contrast to the hyperpolarizing
+current pulse, the voltage trace with respect to time revealed that the rate
+the depolarizing current pulse activated very little 1=, be- of rise for this particular cell peaked at - 12 V/s and that
+cause of the nearly complete inactivation of this current at the rate of fall displayed both a fast and a slow phase (Fig.
+-65 mV.
+3A, d V/ dt ) . The results of modeling of a guinea pig LGNd
+Therefore the model successfully replicated the presence cell under the same conditions as that of the cell of Fig. 3A
+of two basic modes of action potential generation in thala- are illustrated in Fig. 3 B. The model cell was held to - 115
+mocortical relay cells. Now we would like to consider in mV and a current pulse of 0.25 nA was injected. The model
+more detail the role of each of the different ionic currents in cell generated a low-threshold Ca2+ spike, which exhibited a
+the generation of these two modes of electroresponsiveness.
+fast rate of rise and a fast and slow rate of fall (Fig. 3 B) and
+
+1388
+
+D. A. MCCORMICK
+
+BI
+
+r
+
+L
+
+-65 mV
+7
+
+AND J. R. HUGUENARD
+
+100
+
+---I-
+
+30 mV
+
+msec
+
+IL I50
+nAp
+IK2
+INap
+Ih
+
+4 nA
+1 nA
+0.2
+
+(IK2)
+(INap)
+
+1
+
+I
+
+jm-
+
+nA
+
+u-----
+
+FIG. 2. Response of the model cell to hyperpolarizing
+and depolarizing
+current pulses. Hyperpolarizing current pulse is followed by a rebound
+burst of action potentials due to the activation of & ( 7 ). Depolarizing
+current pulse results in a train of action potentials that displays little spike
+frequency adaptation and very little activation of & (as in real LGNd relay
+neurons).
+
+the presence of a “peak” followed by a “notch” on the falling phase (Fig. 3 23, d ). Although the peak rate of rise of
+the modeled Ca2+ spike ( 14 V/s) was higher than that in
+the cell in Fig. 3A, it is within the range reported for guinea
+pig thalamocortical
+relay cells (Jahnsen and Llinas 1984a).
+The contribution
+of the different ionic currents contained in this model to the generation of the low-threshold
+Ca2+ spike was examined in more detail. At resting membrane potential of -63 mV, and after block of INa and &,,
+A
+
+Guinea
+I
+
+B
+
+Plg LGNd
+0.25 nA
+
+injection of a hyperpolarizing current pulse was followed by
+the occurrence of a rebound Ca2+ spike (Fig. 4A). A plot of
+the different ionic currents flowing during the rebound
+Ca2+ spike revealed that the Ca2+ spike was generated
+largely by the low-threshold Ca2+ current &- with a small
+contribution by the high-threshold Ca2+ current 1L (Fig. 4,
+A and C). A plot of the different potassium currents during
+the generation of the Ca2+ spike revealed that 1*, I,, and 1=
+all contributed to this electrophysiological
+response (Fig. 4,
+A and C) . The A-current activated earlier and more rapidly
+than 1c or IK2 and therefore contributed substantially to the
+rising phase of the Ca2+ spike (Fig. 4C). After the Ca2+
+spike reached approximately
+-45 mV, & became increasingly active, thereby activating I, at about the peak of the
+Ca2+ spike. This activation of I, is in large part responsible
+for the “notch” on the initial repolarizing phase of the Ca2+
+spike. The slowly inactivating K+ current JK2 was active
+throughout the repolarization
+of the Ca2’ spike and became the dominant K+ current approximately
+halfway
+through repolarization (Fig. 4C). Therefore all three K+
+currents appear to be involved in the shaping of the amplitude-time course of low-threshold Ca 2+ spikes, with 1* dominant during the rise of the Ca2+ spike, & dominant during
+the initial phases of repolarization, and 1= dominant during the remainder of repolarization (Fig. 4C).
+To test this hypothesis, each of the different K+ currents
+was reduced or blocked individually and in combination to
+examine the subsequent effect on the low-threshold Ca2+
+spike. In addition to revealing the role of each of the different K+ currents in the shaping of the low-threshold Ca2+
+spike, these simulations also revealed the interesting finding
+that reduction of any one of the K+ currents results in a
+compensatory increase in the other two, thereby resulting
+in smaller changes in the amplitude-time
+course of the Ca2’
+spike than might be expected given the plots of the amplitude-time course of the different currents in Fig. 4C (see
+also Yamada et al. 1989).
+Reduction of 1* resulted in a substantial increase in the
+rate of rise of the low-threshold Ca2+ spike and an increase
+in its peak amplitude (Fig. 4A ), with little effect on its duration (not shown). Reduction or block of 1c resulted in a loss
+
+MO&l
+I
+
+IJ
+
+I
+
+30 mV
+,115 mV
+/
+
+/
+
+5 v/set
+
+FIG. 3. Simulation of low-threshold
+Ca2+ spikes in
+guinea pig LGNd relay neurons. A : injection of a 0.25
+nA current pulse in a guinea pig LGNd relay cell after the
+block of Na+ conductances with tetrodotoxin (TTX; 10
+FM in micropipette) and I,, with external Cs’ (20 mM in
+micropipette) and while holding the cell to - 115 mV to
+remove inactivation of IT. Low-threshold Ca2-’ spike is
+characterized by the presence of a marked “notch” in the
+initial parts of repolarization ( r( ). Differentiation of the
+voltage trace with respect to time (d V/dt) is plotted below. B: model of a guinea pig LGNd neuron. Again the
+low threshold Ca2+ spike displays a prominent “notch”
+during repolarization.
+
+CURRENT
+
+A
+
+Reduced
+
+CLAMP
+
+MODEL
+
+OF THALAMIC
+
+NEURONS
+
+1389
+
+-+
+
+IA
+
+--=-/
+I
+
+I InJ
+
+I 1 nA
+
+IA
+ID
+IL
+IT
+
+---y
+
+/
+
+/ --
+
+-----\
+p
+
+--------A
+
+-----
+
+2 nA
+4 nA (IT)
+
+I
+
+D
+
+200 pA
+
+Gulnea Pig LGNd
+
+12 nA
+50 msec
+
+30 msec
+FIG. 4. Amplitude-time course of different currents during injection of hyperpolarizing and depolarizing current pulses
+in a model guinea pig LGNd relay cell without active Na+ conductances. A: injection of a hyperpolarizing current pulse
+results in a rebound Ca2+ spike (- - -). Plot of different currents illustrates that the Ca2+ spike is generated by &- with a small
+contribution of 1L and is repolarized by inactivation of 1T and activation of the various IS+ currents, Ic, IA, and IK2.
+Reduction of 1= from 0.8 to 0.2 ,uSresults in a substantial broadening of the duration of the Ca2+ spike, whereas reduction of
+IA from 0.8 to 0.6 PS results in an increase in the rate of rise and peak amplitude of the Ca2+ spike (- - -, control; -,
+reduced IK2 and IA). Interestingly, resulting changes in the Ca2+ spike are smaller than might be suspected because of
+increased activation of Ic, which compensates in part for the reduced amplitude of IK2 and IA. B: expanded plot of the low
+threshold Ca2+ spike and the amplitude-time course of the various currents. C: injection of a depolarizing current pulse of an
+amplitude equal to the hyperpolarizing current pulse results in marked apparent rectification because of the activation of the
+K + currents ( - - -) . Reducing Im and IA results in an increase in response to the depolarizing current pulse (-),
+although,
+again, there is a compensatory increase in Ic because of the increased depolarization (compare - - - and -)
+. D: response
+of a guinea pig LGNd cell to a hyperpolarizing and depolarizing current pulse before (control) and after addition of 4-AP
+( 100 ,uM). This concentration of 4-AP should largely block the slowly inactivating K+ current IAs (see McCormick 199 1))
+with minor effects on the quickly inactivating K+ current IA (see Huguenard et al. 199 1) . Note that the cell exhibits apparent
+rectification to the depolarizing current pulse, which is lessened with 4-AP, whereas the rebound Ca2’ spike is significantly
+increased in amplitude and duration by addition of this drug. Time base in D for A, C, and D.
+
+of the hyperpolarizing “notch” in the low-threshold Ca2+
+spike, an increase in the peak amplitude of this spike, an
+increase in activation of IA and IK2, and a subsequent decrease in the duration of the Ca2+ spike because of increased activation of IK2 (not shown). Reductions of IK2
+resulted in substantial increases in the duration of the lowthreshold Ca2+ spike and an increase in the amplitude of I,
+(Fig. 4A). Reduction of I’ and IK2 together resulted in an
+
+increase in the initial peak amplitude and duration of the
+Ca2+ spike (Fig. 4A). These results are similar to those obtained with intracellular recordings from guinea pig LGNd
+relay neurons in vitro (Fig. 40). Here, application of 100
+PM 4-aminopyridine
+(4-AP) results in a substantial increase in the duration of the low-threshold Ca2+ spike as
+well as an increase in its peak amplitude (Fig. 4 D; McCormick 199 1). Bath application of 100 PM 4-AP is known to
+
+1390
+
+D. A. MCCORMICK
+
+A
+
+AND J. R. HUGUENARD
+
+Control
+
+A/!/LL
+
+Vm
+/
+
+IC
+
+/
+
+I
+
+L
+
+1
+
+1
+
+L
+
+30 mV
+
+50 msec
+
+Role ofIA and IKz in repetitive firing
+1 20 nA
+
+IA
+11
+
+nA
+
+fi
+
+gates
+-----------
+
+hA
+-----------------
+
+----m---___
+
+8
+hK2 __-----
+
+Tg
+
+mK2
+
+B
+
+No
+
+No
+
+& (Fig. 4 B, compare - - - with -).
+Similar results have
+been obtained in guinea pig LGNd cells. Here, block of
+slowly inactivating K+ currents with 4-AP results in an increase in the amplitude of the response to a depolarizing
+current pulse with no change in the response to an equal
+amplitude hyperpolarizing current pulse (Fig. 4 D; McCormick 1991).
+
+IA
+
+IK2
+
+FIG. 5.
+Role of IA and IK2 in control of repetitive firing in model relay
+neuron. A: injection of a depolarizing current pulse of 0.4 nA results in a
+train of action potentials. Amplitude-time course of 3 potassium currents
+(1c, IA, &) and the state of the activation ( mA, m,) and inactivation ( h,,
+h - - -) gates are shown. B: reduction of IA to 0 results in a decrease in
+tc’interspike interval and an increase in the response of the cell to the
+depolarizing current pulse. C: similarly, block of 1= also results in a decrease in the interspike interval.
+
+block at least the slowly inactivating K+ current IAs, a
+current that is electrophysiologically
+similar to 1= (McCormick 1991).
+Thalamocortical
+relay neurons in the rodent or cat
+LGNd display marked apparent rectification in that the response to a depolarizing current pulse is substantially
+smaller than that to an equal amplitude hyperpolarizing
+pulse (Fig. 4 D, control). This rectification results in part
+from the activation of slowly inactivating K+ currents such
+as JAs(McCormick
+199 1). Similarly, in the model, the cell
+displayed apparent rectification
+against depolarizing
+current pulses (compare Fig. 4, A and B). Plots of the different K+ currents indicated that Im, 1*, and & were all
+activated by the depolarizing current pulse, resulting in a
+decrease in the amplitude of the subsequent depolarization
+(Fig. 4 B). Reduction of & from 0.8 to 0.2 @ and 1A from
+0.8 to 0.6 $3 resulted in an increase in the depolarizing
+response, alth ough this increase was limited to only -3
+mV, owin .g to compensatory increases in the am plitud .e of
+
+The role of the transient K+ currents 1* and JK2 in repetitive single spike activity was investigated by examining the
+amplitude-time
+course of these currents during the generation of trains of action potentials and the effect of block of
+these currents on the rate of action potential generation.
+Application of a depolarizing current pulse into the model
+cell resulted in a train of action potentials that showed only
+a small amount of spike frequency adaptation, as in real
+thalamocortical
+relay cells (McCormick
+1992a). Plots of
+the different K+ currents revealed that although 1* and &
+contributed to the repolarization of each Na+ action potential, the main K+ current involved in this was I, (Fig. 5A).
+In contrast, 1* and 1= formed the dominant K+ currents in
+between action potentials. In particular, the slow depolarization of the membrane potential toward the initiation of
+each Na+ action potential resulted in an increase in activation of JA (Fig. 5A), which subsequently slowed the rate of
+depolarization and controlled the membrane potential trajectory as action potential threshold was approached. The
+occurrence of the action potential then rapidly activated 1*
+and failed to completely inactivate 1* ; therefore this current
+contributed to repolarization of the fast spike. Examination
+of the gates for 1* and 1= indicated that the activation (m,)
+and inactivation ( hA) variables for 1* were substantially
+more dynamic than the activation (m,) and inactivation
+variables ( hK2) for JK2 (Fig. 54 ) . This result indicates that
+variations in the amplitude of 1* are both the consequence
+of changes in the gates for 1* and the difference between the
+membrane potential and EK, whereas variations in the amplitude of 1= during a train of action potentials depend
+substantially on the driving force on K+ ions (Fig. 5A).
+Reduction of either 1* or 1k2 resulted in substantial increases in the firing frequency during the depolarizing
+current pulse (Fig. 5, B and C), confirming the importance
+of these ionic currents in the shaping of the train of action
+potentials. The rapidly inactivating K+ current 1* is dynamically involved in the shaping of each action potential afterhyperpolarization,
+whereas the kinetically slower current
+1k2 modulates firing rate through more prolonged changes
+in excitability.
+Electrophysiological
+consequences ofI,+
+Rodent and cat LGNd cells in vivo and in vitro display a
+marked depolarizing
+“sag” upon hyperpolarization
+because of the activation of a hyperpolarization-activated
+cation current known as & (Fig. 6A; McCormick
+and Pape
+1990a; Steriade et al. 199 1). Similarly, addition of & to the
+model cell resulted in substantial depolarizing “sags” in the
+response to prolonged hyperpolarizations
+(Fig. 6 D), owing
+to the activation of & (Fig. 6 E). The amplitude and rate of
+
+A
+
+C
+
+I InJ
+
+I Inj
+
+6. Hyperpolarization-activated
+cation current
+generates a substantial inward “sag” in the membrane
+response. A and R: intracellular responses of a guinea pig
+LGNd cell to prolonged (2 set) hyperpolarizing current
+pulses after block of active Na+ current with TTX. Note
+the prominent inward sag in the hyperpolarizing direction. This sag is completely blocked by block of Ih with
+external Cs+ (not shown; McCormick and Pape 1990a).
+C and D: response of the model neuron to a prolonged
+hyperpolarizing current pulse. Activation of Ih (E) results in a marked depolarizing sag of the membrane potential (D) . Block of & illustrates the response of the cell
+to the largest current pulse without this current (No I,J.
+FIG.
+
+B
+
+Ih
+
+D
+
+Vm
+
+Vm
+
+4
+
+E
+
+1
+L
+
+20 mV
+1 set
+4
+
+No Ih
+
+E
+ih
+
+Guinea
+
+pig
+
+C
+
+LGNd
+
+-8%
+
+Cat
+
+-83
+
+B
+
+D
+
+LGNd
+
+J 1 cs+
+Control
+
+20 mV
+200 msec
+
+Vm
+
+I
+
+I1 nA
+0
+Ih
+
+1 0.2 nA
+
+IT
+
+I5
+
+mH
+------mT
+
+hT
+. -e-- ------------
+
+nA
+
+_----__ ----__mH
+--- 100% open
+mT I
+FIG. 7. Activation and deactivation of the H-current generates a slow afterhyperpolarization
+after a Ca2+ spike in guinea
+pig (A) and cat (C) LGNd cells. A : injection of a short-duration ( 10 msec) depolarizing current pulse into a guinea pig
+LGNd cell in the presence of TTX and after hyperpolarization to -85 mV results in a low threshold Ca2+ spike, followed by
+an afterhyperpolarization. B: injection of a depolarizing current pulse in the model cell also results in a prolonged afterhyperpolarization, which is due to the activation of Ih (see Ih and wl,). C: Activation of a low threshold Ca2+ spike in a cat LGNd
+cell results in a burst of Na+ spikes and a prolonged afterhyperpolarization. This afterhyperpolarization is almost completely
+blocked by reduction of Ih with extracellular application of Cs+ ( 10 mM in micropipette). Note the difference in duration of
+low threshold Ca2+ spikes in cat vs. guinea pig LGNd relay cells. D: model of the results in C. Block of Ih results in a nearly
+complete abolition of the slow afterhyperpolarization. Residual AHP is due to activation of IK2 ( not shown ) .
+---- --------_
+
+, /.
+I,
+
+1391
+
+1392
+
+D. A. MCCORMICK
+
+AND
+
+repolarization of the membrane increased with increases in
+hyperpolarization
+of the modeled cell, owing to the decrease in time constant of activation of & and the increased
+activation of this current (see Fig. 7 in Huguenard and
+McCormick
+1992). Block of & completely removed this
+electrophysiological
+feature of the model cell (Fig. 6 0).
+In cat LGNd cells it has been proposed that decreased
+activation and subsequent reactivation of & may form the
+slow afterhyperpolarization
+(AHP) that appears after the
+generation of a low-threshold Ca2+ spike (McCormick
+and
+Pape 1990a). Indeed, modeling of the generation of lowthreshold Ca 2+ spikes from a hyperpolarized membrane
+potential (-85 mV) resulted in the appearance of a slow
+AHP, as in guinea pig LGNd cells in vitro (Fig. 7, A and B).
+Examination of the flow of ionic currents during the slow
+AHP in the model cell revealed that it is largely due to
+decreased activation ( ?nh) of & during the Ca2+ spike and
+the subsequent reactivation of the current on repolarization
+(Fig. 7 B). The residual AHP is due to activation of 1= by
+the low-threshold Ca2+ spike (not shown).
+Intracellular recordings from LGNd relay cells in guinea
+pig, rat, and cat have revealed that low-threshold Ca2+
+spikes in cat are substantially longer in duration than those
+either in guinea pig or rat (Crunelli et al. 1989; McCormick,
+unpublished observations). In this model the low-threshold
+Ca2+ spikes were similar in duration to those in rodent (Fig.
+7, A and B) but substantially shorter in duration than those
+in cat (Fig. 7, C and 0). The similarity of the modeled Ca2+
+spikes to those in rodent is consistent with the fact that the
+model is based on voltage-clamp analysis of currents in rodent thalamocortical
+relay neurons (Huguenard
+and
+McCormick
+1992).
+Block of & in cat LGNd neurons with the local application of Cs+ results in a nearly complete abolition of the slow
+AHP occurring after the generation of a low-threshold Ca2+
+spike (Fig. 7C; McCormick
+and Pape 1990a). Similarly,
+block of 1h in the model also resulted in a near abolition of
+the slow AHP (Fig. 7 D), confirming that this electrophysiological feature of thalamocor-tical relay cells is generated
+largely by &. To summarize, the generation of a low-threshold Ca2+ spike is associated with a decrease in activation of
+& ( as indicated by a decrease in mh ; Fig. 7, B and D) . On
+inactivation of I, (h, in Fig. 7, B and D), the membrane
+repolarizes and overshoots the original potential because of
+a decreased Ih. The subsequent increased activation of Ii,
+(mh, Fig. 7, B and D) results in a slow depolarization of the
+membrane potential back toward rest, thus generating an
+apparent AHP (Fig. 7, A and C).
+Contribution of ionic currents to rhythmi
+Ca2+ spike
+generation
+Cat LGNd cells maintained in vitro, or hyperpolarized in
+vivo, generate rhythmic high-frequency burst discharges
+(Fig. 84; McCormick
+and Pape 1990a; Steriade et al.
+199 1). We have previously proposed that these rhythmic
+burst discharges arise from the interaction of the low-threshold Ca2+ current 1-r and the hyperpolarization-activated
+cation current Jh (McCormick
+and Pape 1990a). Here we examined the electrophysiological
+features of rhythmic burst
+firing with this model.
+
+J. R. HUGUENARD
+
+Intracellular recordings in rodent and cat LGNd cells in
+vitro reveal that cat LGNd cells have a much greater propensity toward slow rhythmic burst discharges than do rodent LGNd cells (McCormick,
+unpublished observations).
+This increased propensity may result in part from the substantially longer duration of cat low-threshold Ca2+ spikes
+in comparison to those of guinea pig or rat (e.g., Fig. 7).
+Indeed, we found here that the model thalamocortical
+relay
+cell would not support rhythmic burst firing unless the duration of the low-threshold Ca2+ spike was increased through
+either a reduction of the amplitude of IU (Fig. 4A) or a
+slowing of the kinetics of inactivation of Jr (not shown).
+Both of these methods of increasing the duration of the
+low-threshold spike resulted in the ability of the modeled
+cell to generate rhythmic Ca2+ spikes with similar characteristics. In this model, we chose to increase the duration of
+the low-threshold Ca2+ spike through reduction of JK2
+(from 1 to 0.2 @) because substantial differences in kinetics of cat and rodent T-currents have not yet been established.
+Application
+of tetrodotoxin
+to cat LGNd cells maintained in vitro blocks voltage-dependent Na+ currents and
+reveals the underlying low-threshold Ca2+ spikes that supA
+
+Cat
+
+LGNd
+
+Normal
+
+FIG. 8. Rhythmic
+burst firing in cat LGNd relay neurons and model of
+such. A and B: intracellular
+recording
+showing rhythmic
+oscillation
+of a cat
+LGNd cell in the lack of current injection
+before (A) and after (B) application of TTX ( 10 PM in micropipette).
+Note prominent
+“pacemaker”
+potential in between low threshold
+Ca2+ spikes. C: model of rhythmic
+oscillation in cat LGNd
+cells. Plot of the amplitude-time
+course of different
+currents reveals that Ca2+ spikes are generated by IT; their amplitude-time
+course is modulated
+by activation
+of I,, IA, and IK2; and Ih generates the
+“pacemaker”
+potential in between low threshold
+Ca2+ spikes. Although
+Ih
+is a small current,
+it forms a dominant
+component
+of active currents in
+between Ca2+ spikes.
+
+CURRENT
+
+CLAMP
+
+MODEL
+
+port rhythmic burst firing (Fig. 8, A and B; McCormick
+and Pape 1990a). These rhythmic Ca2+ spikes are characterized by the appearance of a “pacemaker” potential that
+slowly depolarizes the membrane potential in between
+Ca2+ spikes (Fig. 8 B). Interestingly, the model of thalamocortical relay cells was able to support rhythmic burst firing
+and the generation of rhythmic low-threshold Ca2+ spikes
+at a frequency similar to that found in cat LGNd cells (OS4 Hz) (Fig. SC). A plot of the different ionic currents flowing during the generation of rhythmic Ca2+ spikes revealed
+that each Ca2+ spike is generated largely by Jr, with a
+smaller contribution of &. As stated above, the K+ currents
+1*, I,, and 1= are all involved in the shaping of the amplitude-time course and repolarization
+of each Ca2+ spike.
+The hyperpolarization-activated
+cation current & forms
+only a small ionic current, with a peak amplitude in this
+example of - 100 pA (Fig. 8C, &). However, even though
+this ionic current is small, it exhibits substantial influence
+on the membrane potential in between each Ca2+ spike,
+owing to the near nonexistence of other voltage-dependent
+currents in between Ca2+ spikes (Fig. 8C). Thus Ii., forms
+the “pacemaker”
+potential that slowly depolarizes the
+membrane potential in between Ca2+ spikes and activates
+each Ca2+ spike by activating 1*.
+The contribution of each of the different ionic currents to
+rhythmic burst firing was examined by altering the maximal amplitude of the conductance underlying each current.
+Reduction of g,,,, to 0 nS resulted in an abolition of rhythmic oscillation and of the depolarizing “pacemaker” potential or “sag” on hyperpolarization
+(Fig. 9A ) . Increasing
+ghmaxto as little as 5 nS resulted in the appearance of rhythmic Ca2+ spikes (Fig. 9A ) . Increasing ghmax to 10 nS increased the frequency of Ca2+ spike generation and decreased the amplitude of each Ca2+ spike (Fig. 9 B). Further increases of g,,,, to 15 and 20 nS resulted in a failure to
+support rhythmic oscillation indefinitely,
+but rather resulted in damped oscillations that supported from four to
+seven cycles (Fig. 9, C and D).
+Careful examination of the amplitude and time course of
+& and I, and their underlying gates revealed the following
+sequence of events: at the starting membrane potential of
+-55 mV very little g, or gr is active owing to the low level of
+m, and the complete inactivation ( hT) of gT (Fig. 9A). As
+the membrane potential hyperpolarizes toward Ek, & begins
+t0 XtiVate
+(increase
+in ???h)and the inactivation of &. is
+largely removed (increase in hT) (Fig. 9A). Increases in mh
+result in an increase in Jh, which subsequently depolarizes
+the membrane potential toward Eh ( -40 mV). The depolarization of the membrane eventually increases the activation
+of I, ( m,), which further depolarizes the membrane potential and further increases m, in a positive feedback manner.
+Subsequently a low-threshold Ca2+ spike is generated. The
+increase in inactivation of & (h*) and the activation of 1*,
+I,, and 1= results in the repolarization of the membrane
+and a subsequent increase in activation of & ( mh ; Fig. 9A).
+At low levels of g,,,, (5- 10 nS), this oscillation quickly
+reached a steady state and continued indefinitely.
+Increases in the amplitude of maximal g, result in increases in the frequency of oscillation through an increase
+in the rate of rise of the membrane potential in between
+
+OF
+
+THALAMIC
+
+Change
+
+\
+/
+
+1393
+
+NEURONS
+
+Ih Amplitude
+
+I
+
+!
+
+1
+
+mH
+
+FIG. 9. Effect of changing
+Ih amplitude
+on rhythmic
+Ca2+ spike generation in the model cat LGNd relay cell. All simulations
+start at -55 mV. If
+maximal
+h-conductance
+is 0 nS, then the cell fails to oscillate, but comes to
+rest at about -95 mV. A : addition of 5 nS of ghmax results in slow rhythmic
+Ca2+ spikes. Increase of ghmax to 10 nS (B) increases the frequency
+of
+rhythmic
+Ca2+ spikes and decreases their amplitude.
+Increasing ghmax to 15
+or 20 nS results in a damped oscillation
+(C and 0) because of the lack of
+sufficient removal of inactivation
+of &- (h,, - - -) and therefore
+a failure of
+the low threshold
+Ca2+ spikes.
+
+subsequent Ca2+ spikes and consequently a decrease in the
+time interval before the next Ca2’ spike threshold is
+reached. However, increasing ghmax past a critical level
+( - 12 nS in this simulation) results in such a decrease in the
+depth of hyperpolarization
+of the membrane in between
+low-threshold Ca2+ spikes that the amount of inactivation
+of &- that is removed is insufficient to maintain rhythmic
+oscillation (Fig. 9, C and 0).
+Increasing the amplitude of the maximal T-current permeability (pr ) revealed that the model would support
+rhythmic Ca 2+ spike generation only at values of 240
+( X lop6 cm3/sec) or greater (Fig. 10). Increasing pr from
+40 to 80 was found to increase the frequency of rhythmic
+Ca2+ spike generation and increase the amplitude of each
+Ca2+ spike (Fig. 10, B-D). When pT was set below 40, there
+was too little & available to support the continual generation of rhythmic Ca2+ spikes ( Fig. 1OA ) .
+In addition to & and Jr, another important current in the
+generation of rhythmic Ca2+ spikes was IUeak. This current
+was important for drawing the membrane potential toward
+EK in between Ca2+ spikes and therefore helping to remove
+
+D. A. MCCORMICK
+
+1394
+
+AND J. R. HUGUENARD
+
+Change IT Amplitude
+B
+
+I-
+
+30 mV
+
+Vm
+
+0.5 set
+
+1990a; McCormick and Williamson
+199 1). In contrast, activation of adenosine-A, receptors appears to result in a
+shift in the activation curve of & to more negative membrane potentials (Pape 1992). Although preliminary evidence in vitro indicates that the positive shift in & activation results in the abolition
+of rhythmic burst firing
+(McCormick
+and Pape 1990b), this effect has not yet been
+studied in detail, particularly for small alterations in &,.
+Therefore we examined here with the model of rhythmic
+Ca2+ spike generation the effect of alterations in the voltage
+dependency of Ih.
+Shifts of the voltage dependence of & from -2.5 to - 10
+mV resulted in a slowing of the frequency of rhythmic Ca2+
+spike generation and an increase in the amplitude of each
+Ca2+ spike (Fig. 12, -2.5, -5.0, -7.5, and - 10.0 mV).
+Likewise, shifting & voltage dependence by +2.5 to + 10
+mV resulted in an increase of the rate of rhythmic oscillation and a decrease in the amplitude of each Ca2+ spike
+(Fig. 12,2.5,5.0,7.5,and
+lO.OmV).Inaddition,shiftsofI,
+by as little as 2.5 mV resulted in conversion of the rhythmic
+Ca2+ spike generation to a “damped oscillation” ( Fig. 12,
+2.5, 5.0, 7.5, and 10.0 mV) as reported previously in cat
+LGNd thalamocortical
+neurons (McCormick
+and Pape
+1990b). These results indicate that the neurotransmitter
+control of the voltage sensitivity of & may strongly influence the ability of thalamocortical
+relay neurons to gener-
+
+7
+
+10. Effect of changes in amplitude of IT on rhythmic Ca2+ spike
+generation. With a pr of 20 or 30 ( X 10 -6 cm3 / set) the cell fails to oscillate.
+Increasing pr from 40 to 80 increases the amplitude of the low threshold
+Ca2+ spikes and the frequency of oscillation.
+
+Change
+
+FIG.
+
+inactivation of 1=. When gKleakwas set to 4 nS, the modeled
+cell displayed only a damped oscillation owing to the lack of
+sufficient hyperpolarization
+in between sequential Ca 2+
+spikes (Fig. 11 A). Increasing gKleak to 6 nS supported the
+generation of rhythmic Ca2+ spikes and slowed the frequency of their generation, whereas further increases to 8
+nS further enhanced rhythmic Ca2+ spike generation and
+the amplitude of each Ca2+ spike. Additional increases of
+gKleakto 10 nS abolished the ability of the model to generate
+rhythmic Ca 2+ spikes, owing to an inability of & to depolarize the membrane potential sufficiently to activate &
+(Fig. 11 D).
+These results reveal that the ability of thalamocortical
+relay neurons to generate rhythmic low-threshold Ca2+
+spikes is a complex interaction requiring a balancing of the
+amplitude and properties of at least &, JT, and the conductances that determine the resting membrane potential and
+input resistance (e.g., leak conductances).
+Effects of alteration in voltage dependence of Ih on
+rhythmic Ca2+ spike generation
+Application of a variety of putative neurotransmitters
+to
+thalamocortical
+relay neurons in vitro results in alterations
+in the voltage dependency of & (McCormick
+and Pape
+1990b; McCormick and Williamson
+199 1; Pape 1992). For
+example, activation of ,B-noradrenergic, serotoninergic, or
+histaminergic-H,
+receptors results in a positive shift of the
+activation curve of 1h bv 5-- 10 mV (McCormick
+and Pape
+
+IKleak
+
+A
+
+Amplitude
+B
+
+“h-
+
+Vm
+
+-96mV
+
+-----
+
+----
+
+-----
+
+---&
+
+;;--;
+
+----------
+
+-
+
+;;
+
+mvv
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+;
+
+LLlub&e ga+es
+c I I ,
+
+D
+
+130 mV
+I
+0.5 set
+
+Vm
+-96
+- At- ~~
+
+~~-------~~-~~~~~~~~~__,
+
+-96 mV
+%
+
+I
+I
+
+I/
+
+-\ \ \
+\
+
+’
+
+’
+
+\
+
+;;
+
+‘\----;
+
+gates
+
+)II
+AI
+
+’
+
+__________________,
+-----------,
+
+hT
+
+‘-\
+‘\\.-
+
+MT
+
+--a___
+
+o2
+I
+
+-----we_
+
+nA
+
+~“*
+
+5
+8
+i 8
+
+FIG. 1 1. Effect of changes in JKleakamplitude on the generation of low
+threshold Ca2+ spikes. A: with a gKieak of 4 nS, the model cell fails to
+maintain oscillation because of decreased hyperpolarization in between
+Ca2+ spikes and a subsequent decrease in the removal of inactivation of
+sufficient 1-r to maintain oscillation. B: increasing gKleakto 6 nS results in
+maintained oscillation. C: increases to 8 nS slow the frequency of oscillation. D: increases to 10 nS block oscillation because of inability of & to
+depolarize the membrane sufficiently to activate a low threshold Ca2+
+spike.
+
+CURRENT
+
+CLAMP
+
+MODEL
+
+OF THALAMIC
+
+NEURONS
+
+1395
+
+ate slow rhythmic Ca2+ spikes and the frequency with
+which these Ca2+ spikes occur.
+Effect of rhythmic oscillation
+depolarizing inputs
+
+30 mV
+
+m
+
+on response to
+f3
+
+Extracellular recordings of LGNd neurons during the
+shift from sleep to waking reveal not only that there is a
+disappearance of rhythmic burst firing and the appearance
+of single spike activity, but also that the response of these
+neurons to visual inputs is also greatly enhanced (Coenen
+and Vendrik 1972; Livingstone and Hubel 198 1). One possible reason for these changes in the responsiveness of
+LGNd relay cells is that the burst and single spike firing
+modes differ in their responsiveness to depolarizations associated with barrages of excitatory postsynaptic potentials
+from the retina. To investigate this possibility in this model,
+we examined the response of the model cell to the injection
+of a depolarizing current pulse while the cell either was
+rhythmically bursting or after tonic depolarization to near
+fast Na+ spike firing threshold.
+Intracellular
+injection of a depolarizing current pulse
+during rhythmic burst firing resulted in a initial burst of
+action potentials resulting from the activation of 1* (Fig.
+13 B, \ ) followed by a disruption of rhythmic oscillation
+because of tonic depolarization (Fig. 13 B). The amplitude
+of the initial burst response depended on the amount of
+time which had passed since the Ca2+ spike before the injecShift Ih Voltage Dependence
+-lo,0
+
+-75
+
+I
+
+-83
+
+I-in]
+
+200
+
+msec
+
+mV
+
+,
+
+I
+
+0.25
+
+nA
+1 0.2 nA
+
+\d
+IT
+
+v
+
+\r,,
+
+M-
+
+F14*
+
+FIG. 13. Response of the model cell to a depolarizing
+current pulse
+(0.25 nA) during oscillation and after reduction of JKleak.A : reduction of
+gKleakto 2 nS results in a new membrane potential of -6 1 mV. Injection of
+a current pulse at this membrane potential results in a train of action
+potentials. B : increasing gKleakto 7 nS results in the appearance of rhythmic burst firing. Injection of the same current pulse now results in only a
+transient burst at the beginning of the pulse because of activation of the low
+threshold Ca2+ current, &- ( \ ). Current pulse also blocks the rhythmic
+oscillation.
+
+tion of the current pulse (not shown). Decrease of gKleak
+from 7 to 2 nS, as occurs in vitro in response to acetylcholine, norepinephrine,
+or histamine (McCormick
+1992a;
+McCormick and Prince 1987; McCormick and Williamson
+199 1 ), resulted in a depolarization of the model cell to near
+firing threshold. Injection of the same depolarizing current
+pulse now resulted in a train of action potentials that
+showed little, if any, spike frequency adaptation (Fig. 13A).
+Examination
+of the different ionic currents during the
+shift in firing mode from rhythmic bursting to single spike
+activity on reduction of IKleak revealed that the persistent
+Na+ current &, was particularly important in facilitating
+the depolarization
+of the membrane sufficiently to bring
+the membrane to, or close to, single spike firing threshold.
+DISCUSSION
+
+I
+
+200
+
+2
+2
+msec
+
+12. Effect of changing Ii-, voltage dependence on rhythmic Ca2+
+spike generation in model cat LGNd cell. Shifting Ih voltage dependence
+from 10 mV more negative ( - 10.0) to 10 mV more positive ( 10.0) results
+in substantial changes in the frequency of oscillation, amplitude of each
+Ca2+ spike, and the ability of the cell to maintain oscillation.
+FIG.
+
+Intracellular recordings in vivo and in vitro from thalamocortical relay neurons have shown that these cells possessa number of unique electrophysiological
+properties, including the ability to generate high frequency burst discharges on removal of hyperpolarization
+(Deschenes et al.
+1984; Jahnsen and Llinas 1984a,b); tonic firing during depolarization that displays little, if any, spike frequency adaptation (Jahnsen and Llinas 1984a; McCormick
+1992a) ; apparent rectification at rest, in which the response to depolarizing current pulses is considerably smaller than that to
+hyperpolarizing current pulses (McCormick
+199 1); and finally, the ability to generate intrinsic rhythmic burst firing
+at interburst frequencies of 0.5-4 Hz (Curro Dossi et al.
+199 1; Leresche et al. 199 1; McCormick
+and Pape 1990a;
+Soltesz et al. 199 1; Steriade et al. 1992). These electrophysiological features of thalamocortical
+relay neurons have
+been proposed to underlie the different modes of action
+potential generation that thalamocortical
+relay neurons dis-
+
+1396
+
+D. A. MCCORMICK
+
+AND
+
+play in vivo, particularly in the transition from rhythmic
+burst firing to tonic activity associated with the transition
+from slow wave sleep to waking or to rapid-eye-movement
+sleep (reviewed in Steriade and Deschenes 1984; Steriade
+and Llinas 1988). The present model of thalamocortical
+relay neurons successfully replicated all of the above-listed
+electrophysiological
+features of these cells.
+
+Rebound burst discharges
+As revealed by in vitro experiments in thalamocortical
+relay neurons (Coulter et al. 1989; Crunelli et al. 1989;
+Jahnsen and Llinas 1984a,b; Hernandez-Cruz
+and Pape
+1989)) our results confirm the central role of the low-threshold Ca2+ spike in the generation of rebound high frequency
+burst discharges on the release of a phasic hyperpolarization. In addition, the present simulation of low-threshold
+Ca2+ spikes suggests that this electrophysiological
+response
+is considerably
+influenced by the amplitude and time
+course of various
+voltage- and Ca2+-dependent
+K+
+currents. In particular, the transient and rapidly inactivating K+ current 1* (Huguenard
+et al. 199 1) appears to be
+particularly involved in the rising phase of the low-threshold Ca2+ spike, whereas the more slowly inactivating K+
+current Jk2 (Huguenard
+and Prince 199 1) controls the repolarizing phase of the Ca2+ spike (Fig. 4A). The possibility that transient K’ currents may control the shape of the
+low-threshold
+Ca2+ spike has recently received experimental support with in vitro experiments in which the bath application of 100 PM 4-AP, which abolishes the slowly inactivating K+ current IAs, resulted in an increase in the duration of the low-threshold
+Ca2+ spike and an increase in its
+peak amplitude ( see Fig. 4 D; McCormick
+199 1) . In addition, in the present model, the Ca2+-activated
+K+ current
+also contributed
+substantially
+to the shaping of the lowthreshold Ca2+ spike, particularly during the most depolarized membrane potentials, owing to the voltage dependency of this current and the activation of the high threshold Ca2’ current .
+An interesting, and potentially important, finding of this
+simulation and those of others (Yamada et al. 1989) concerns the interpretation
+of current-clamp
+recordings when
+an ionic current is reduced or blocked. In the present
+model, a decrease in any one or two of the voltage-dependent K+ currents resulted in an increase in the remaining
+K+ currents in response to a depolarizing event (e.g., fast
+action potential, Ca 2+ spike, or current injection), owing to
+the increased depolarization of the cell. This compensatory
+increase in the remaining K+ currents could result in a substantially smaller change in the membrane potential than
+expected based merely on the amplitude of the blocked
+current alone (e.g., Fig. 4, A and B). Results obtained with
+current-clamp
+recordings in vitro must, therefore, take into
+account this potential difficulty of interpretation.
+
+Tonic firing
+Modeling of the response of thalamocortical
+relay neurons to tonic depolarization
+revealed trains of fast action
+potentials that display relatively little spike frequency adaptation (e.g., Figs. 2 and 5). Examination
+of the different
+
+J. R. HUGUENARD
+
+ionic currents involved in fast action potential generation
+revealed that each spike was generated by the fast Na+
+current JNa with an additional contribution
+by the highthreshold Ca2+ current &. The subsequent activation of &
+(with an additional contribution
+by /A and 1k2) resulted in
+repolarization of each action potential. The exact contribution of each of these different K+ currents in the repolarization of action potentials in thalamic relay neurons remains
+to be examined, particularly because the Ca2+-activated K+
+conductances of these cells have not yet been characterized.
+It may be that the relative contributions
+of 1*, 1=, and
+Ca2+-activated K+ currents to repolarization of fast action
+potentials in thalamic relay cells are substantially different
+from those modeled here. In other neuronal cell types, most
+notably hippocampal pyramidal cells and sympathetic ganglion cells, the repolarization
+of fast action potentials is
+achieved through the activation of a variety of K+ currents,
+of which Ca2+ -activated K+ currents appear to contribute a
+major role at depolarized membrane potentials (e.g., positive to -60 mV; Belluzzi and Sacchi 1988, 199 1; Lancaster
+and Nicoll 1987; Storm 1987). The lack of spike frequency
+adaptation in LGNd neurons and this model presumably
+results from the apparent lack of the slow Ca2+-activated
+K+ current known as lAHp in these cells (see Madison and
+Nicoll 1984; Pennefather et al. 1985). Indeed, relay neurons of the parateanial thalamic nucleus display both a substantial slow afterhyperpolarizing
+current and spike frequency adaptation (McCormick
+and Prince 1988; McCormick, unpublished observations).
+The lack of significant
+spike frequency adaptation in LGNd relay cells presumably
+allows these cells to relay trains of action potentials from
+the retina to the visual cortex for prolonged periods of time
+without decay.
+
+Apparent rect$cation
+Previous in vitro intracellular recordings from thalamocortical relay neurons have suggested that the activation of
+various K+ currents may be involved in decreasing the response of these cells to phasic or tonic depolarization
+(McCormick
+199 1). Our results confirm and extend this
+hypothesis
+and reveal that depolarization
+from resting
+membrane potentials typical for those obtained with intracellular recordings in vitro or in vivo may result in the activation of I,, 1k2, and I,, all of which subsequently can
+reduce the amplitude of the electrotonic response. In particular, the activation of the more slowly inactivating or noninactivating currents JK2 and I, is important to the reduction of the response to prolonged ( >50 ms) depolarization.
+The ability of thalamocortical
+relay cells to display reduced responsiveness
+to depolarization
+and the apparent
+favoring of response to hyperpolarization
+may explain in
+part the observation that thalamocortical
+relay neurons are
+highly responsive to inhibitory postsynaptic potentials during periods of slow wave sleep, while being considerably less
+responsive to excitatory postsynaptic
+potentials (reviewed
+in Steriade and Deschenes 1984; Steriade and Llinas 1988 ) .
+In contrast, tonic depolarization
+of thalamocortical
+relay
+neurons, such as that which occurs during the waking state
+(Hirsch et al. 1983), abolishes this bias such that the neu-
+
+CURRENT
+
+CLAMP
+
+MODEL
+
+ron responds to depolarizing and hyperpolarizing current
+pulses in a more equitable manner (McCormick
+199 1).
+This intrinsic bias at hyperpolarized membrane potentials
+in favor of rebound burst discharges to inhibitory postsynaptic potentials and the lack of firing to excitatory postsynaptic potentials may facilitate the appearance of intrathalamic rhythmic burst firing and the filtering, or lack of responsiveness, to excitatory postsynaptic potentials of
+retinal or cortical origin during periods of slow wave sleep.
+In addition, the electroresponsive properties of thalamic
+neurons during endogenous rhythmic burst firing results in
+an emphasis of the initial portions of depolarizations with a
+lack of response to prolonged events (i.e., Fig. 13). It remains to be determined whether this emphasis of low-frequency transient events is of value in the processing of sensory information (see discussion in McCormick and Feeser
+1990).
+Intrinsic
+
+rhythmic burst Jiring
+
+The ability of cat thalamocortical
+relay neurons to generate intrinsic rhythmic burst firing in the frequency range of
+OS-4 Hz has been suggested to result from the interplay of
+the low-threshold Ca2+ current Jr and the hyperpolarization-activated
+cation current & (McCormick
+and Pape
+1990a; Soltesz et al. 199 1). The model of thalamocortical
+relay neurons confirmed that it is possible to support rhythmic Ca2+ spike generation based solely on the presence of
+these two currents, with the addition of leak currents to
+determine the membrane potential and apparent input resistance. Examination
+of the actions of the different ionic
+currents in the present model revealed that rhythmic Ca2+
+spike generation undergoes a regular and repeating sequence of events in which the Ca2+ spike is activated by Jr
+and the “pacemaker” potential is generated by 1h (Figs.
+8-l 1). One of the most important factors involved in the
+generation of rhythmic Ca2+ spike generation was the
+amount of T-current permeability (pT) available before activation of each Ca2+ spike. If the amount of pr available
+(i.e., not inactivated) became too small, then rhythmic
+Ca2+ spike generation eventually failed and the neuron displayed a “damped” oscillation. The amount of pr available
+before each Ca2’ spike generated depends on two important factors: the maximal T-current permeability present in
+the neuron and the depth and duration ofthe hyperpolarization, and therefore the degree of removal of inactivation of
+IT, before the Ca2+ spike. The depth and duration of the
+hyperpolarization
+before the Ca2+ spike depended in this
+model on the amplitude and kinetics of & and the amplitude of the leak currents IUeak and INaleak. Increasing the
+amplitude of &, or shifting its voltage dependence to more
+positive membrane potentials leads to a decrease in the duration and depth of hyperpolarization
+in between rhythmic
+Ca2+ spikes and therefore to an increase in the frequency of
+oscillation and a decrease in the amplitude of each Ca2+
+spike. Similar results have been obtained from cat LGNd
+neurons in vitro. Local extracellular application of Cs+,
+which reduces Ih, results in hyperpolarization
+of these cells,
+a dramatic increase in the amplitude of the low-threshold
+Ca2+ spike (and therefore an increase in the number of Na+
+
+OF
+
+THALAMIC
+
+NEURONS
+
+1397
+
+spikes generated), and a slowing of the frequency of oscillation (McCormick
+and Pape 1990a).
+Activation of P-adrenergic receptors, H,-histaminergic
+receptors, and serotoninergic receptors all result in positive
+shifts in the voltage dependence of & and in the activation
+kinetics of this current (McCormick
+and Pape 1990b;
+McCormick
+and Williamson
+199 1) . Similarly, activation
+of adenylate cyclase or increases in intracellular concentrations of cyclic adenosine monophosphate
+(CAMP) have
+similar effects, suggesting that the above-mentioned
+receptors may alter & through this second messenger. Although
+we have previously proposed that maximal (5-10 mV)
+shifts in the voltage dependence of 1h abolish the ability of
+thalamocortical
+relay cells to rhythmically
+burst (McCormick and Pape 1990b), the effect of more subtle alterations
+in & has not yet been examined. In this model, we found
+that subtle (mV) alteration in the voltage dependence of &
+can strongly influence the rate of rhythmic Ca 2+ spike generation from a frequency of 0.5 to one of -4 Hz (Fig. 12).
+Thus the activity of brainstem monoaminergic
+neurons
+and hypothalamic histaminergic cells may control in part
+the frequency and propensity with which thalamocortical
+cells generate rhythmic burst firing through alterations in
+the voltage dependence of &.
+Comparison
+
+with other thalamic
+
+models
+
+Over the past few years a number of other mathematical
+models of thalamic neurons have been published that successfully mimicked one or more features of thalamic relay
+cells, including the generation of low-threshold Ca2+ spikes
+(Dextexhe and Babloyantz 199 1; Rose and Hindmarsh
+1985, 1989; Wang et al. 199 1) and the generation of tonic
+single spike firing on depolarization (Rose and Hindmarsh
+1989; McMullen
+and Ly 1988). However, these models
+were limited owing to the limited information available on
+the different ionic currents present in thalamocortical
+relay
+cells. In addition, the ability of thalamic relay cells to oscillate intrinsically
+has been demonstrated
+only recently,
+along with the appreciation of the importance of the hyperpolarization-activated
+cation current in this oscillation
+(e.g., McCormick and Pape 1990a). Like previous models,
+these simulations successfully replicated the presence of
+two firing modes in thalamic relay neurons: burst firing and
+single spike activity. However, in addition, this model also
+predicted the presence of slow-frequency rhythmic behavior, apparent rectification of the membrane potential at
+rest, and the contribution of the various K+ currents to the
+amplitude-time
+course of the low-threshold Ca2+ spikes.
+The similarity between rhythmic low-threshold Ca 2+
+spike generation in this model of thalamocortical
+relay cells
+and the proposed mechanisms of rhythm generation in cardiac cells is striking and deserves comment. DiFrancesco
+and Noble ( 1985, 1989) have presented a model of cardiac
+pacemaking in which the hyperpolarization-activated
+cation current 1, makes an important
+contribution
+to the
+“pacemaker” potential. This current contributes to the determination of the frequency of rhythmic activity in that it
+activates on hyperpolarization
+in between action potentials
+and repolarizes
+I
+the membrane toward threshold for ”genera-
+
+1398
+
+D. A. MCCORMICK
+
+AND
+
+tion of the next action potential. A number of neuromodulatory substances alter the voltage sensitivity of I,, much in
+the same manner as &, ( see DiFrancesco 1985; DiFrancesco
+et al. 1989; DiFranceico and Tortora 199 1). For example,
+activation of cyclic AMP or stimulation of ,&adrenergic receptors results in a marked enhancement of If through a
+positive shift in its voltage sensitivity ( DiFrancesco -and
+Tortora 199 1 ), as it does Ih in thalamic relay cells (McCormick an .d Pape 1990a). These similarities suggest that hyper-polar <zation-activated cation currents may have a genera1 role in the generation of rhythmic oscillation in various
+types of electrically excitable cells.
+
+J. R. HUGUENARD
+
+P=
+
+-0.062*(
+
+The inactivation
+
+Vm + 38)/
+
+{ 1 - exp[(
+
+Vm
+
++ W/Y >
+
+646)
+
+I
+
+W)
+(A@
+
+variable h was described by
+CY= O.O16=exp[(-55
+p = 2.07/(exp[(17
+
+These parameters
+( 1988 ) obtained
+ductance, &max
+with the model
+(1991).
+
+-
+
+V,,)/15
+
+- V&21]
+
++ l>
+
+were derived from the data of Huguenard et al.
+from cortical pyramidal cells. The maximal con7 for this current was set to 12 PS in accordance
+of Naf action potentials by Beluzzi and Sacchi
+
+I Nap
+
+APPENDIX
+
+The model of thalamocortical
+relay cell was constructed using
+the following equations. The principal equation describing the
+change in intracellular
+potential with respect to time was
+
++
+
+IK2
+
++
+
+Ih
+
++
+
+JKleak
+
++
+
+JNaleak
+
+) / Gin
+
+CA
+
+The transient Na+ current, INa, was described by the following
+Hodgkin-and-Huxley-style
+equations
+=
+
+gNamax
+
+l
+
+cE
+
+-
+
+ENa)
+
+l
+
+m3h
+
+W)
+
+is the maximal conductance, E is the membrane
+where gNarnax
+potential, ENa is the equilibrium
+potential for Na+ (assumed to be
++45 mV), m is the activation variable and varies from 0 (not
+activated) to 1 (fully activated), and h is the inactivation variable
+and also varies from 0 (completely inactivated) to 1 (no inactivation). In all Hodgkin-and-Huxley-style
+descriptions, the steadystate activation or inactivation variables were described by
+
+%a,)
+and the time constant,
+scribed by
+
+7, of activation
+7=
+
+For the activation
+a = 0 .091
+
+= 4(, + P)
+
+(A-u
+
+or inactivation
+
+was de-
+
++ 38)/
+
+(I - exp[-(
+
+=
+
+gNapmaxe(E
+
+-
+
+(A9
+
+ENa)em
+
+The voltage dependen ce of activation of the persistent
+current was described by th e Boltzman eq uation
+mNapm
+
+= l/(1
+
++ exp[(-49
+
+- V,)/5])
+
+Na +
+WO)
+
+This equation is that derived by French et al. ( 1990) on the basis
+of data obtained from hippocampal
+pyramidal cells. The kinetics
+of activation of &ap are not yet available, although it is known to
+activate rapidly in cortical pyramidal neurons (Stafstrom et al.
+1985). Here we assumed the same kinetics for activation for &,
+as for gNa. The maximal conductance for &p was set to 7 nS, in
+accordance with the data of French et al. ( 1990).
+
+The Ca2+-activated K+ current I, was described by the equation of Yamada et al. ( 1989) derived for bullfrog sympathetic
+ganglion cells
+(All)
+
+and
+a = 2.5 X 105* [Ca2’]i*exp(
+p = 0.1
+
+l exp(-V,/24)
+
+V,/24)
+
+(A 12)
+w-u
+
+where Ek was assumed to be - 105 mV, according to the data of
+McCormick
+and Prince ( 1987 ) . The maximal conductance for I,
+was set to 1 ,uS, which is within the range proposed in other models
+of Na+-dependent
+action potentials (Belluzzi
+and Sacchi 199 1;
+Yamada et al. 1989). Intracellular recordings in vitro from thalamocortical relay neurons reveal that fast action potentials and
+high threshold Ca2+ spikes are followed by substantial Ca2+-activated K+ currents, whereas low-threshold
+Ca2+ spikes are not
+(Jahnsen and Llinas 1984a,b; McCormick,
+unpublished observations). In accordance with this data, we made I, sensitive to increases in Ca2+ concentration
+resulting from IL, but not those
+resulting from 1*. Recent immunological
+studies have revealed
+the spatial segregation of L-type channels in hippocampal pyramidal cells ( Westenbroek et al. 1990)) confirming at least the possibility that L- and T-type Ca2+ channels are segregated from one and
+another in thalamic neurons and therefore may differentially activate Ca2+ -activated K+ currents.
+
+W)
+
+l/(a+P)
+
+variable m of INa, a and ,6 were as follows
+
+l ( V,
+
+was described by
+I Nap
+
+1 >
+
+The input capacitance (Gin) was set to 0.29 nF, as was measured
+in a cat LGNd neuron that generated rhythmic burst firing and
+that is illustrated in Fig. 8. In all equations voltage is in millivolts,
+current is in nanoamperes, time is in milliseconds, conductance is
+microsiemens (unless stated otherwise), concentration
+is molar,
+and volume is in liters.
+The mathematical
+description
+of the different currents was
+achieved either through a Hodgkin-Huxley
+style derivation of forward and backward rate equations ( Hodgkin and Huxley 1952) or
+through the mathematical description of the voltage dependence
+of activation and inactivation and the kinetics of such. The equations for JA, JK2, &, and & were derived from voltage-clamp recordings of thalamocortical
+relay neurons and are given in the
+accompanying
+paper (Huguenard
+and McCormick
+1992). The
+range in maximal conductances for these four currents as observed in vitro and the values used in the present model are presented in Table 1. Here we present the equations for the description of JNa, 1&, , &, &, JKleak, and JNaleakand for Ca2+ buffering,
+assuming a temperature of 23.5 “C.
+
+INa
+
+&,
+
+Vm + 38)/5]}
+
+(A-u
+
+As with the low-threshold
+Ca2+ current (Eq. 10 in Huguenard
+and McCormick
+1992)) the high-threshold
+Ca2+ was modeled using the Goldman-Hodgkin-Katz
+constant field equation
+
+CURRENT
+
+IL = pLmax-m2-
+
+EF2/RT*[[Ca2+]i
+
+z2-
+
+CLAMP
+
+MODEL
+
+- [Ca2’],.exp(-zFE/RT)]/
+[ 1 - exp( -zFE/RT)]
+
+(AM)
+
+is the maximal permeability
+(in cm3/ set), z is 2 for
+where
+PLmax
+Ca2+, [ Ca2+], is determined by both Ir, and Jr, [ Ca2+], is 2.0 mM,
+and E, F, R, and T have their usual meanings (Hille 1984).
+The activation variable m was described according to the data of
+Kay and Wong ( 1987) obtained from hippocampal
+pyramidal
+cells
+cx = 1.6/{
+,8 = 0.02*(
+
+1 + exp[-0.072*(
+
+V-
+
+1.31)/
+
+(exp[(
+
+VV-
+
+S.O)]}
+
+1.31)/5.36]
+
+(A15)
+- l}
+
+(A16)
+
+In dissociated thalamocortical
+relay cells, pL was generally twice
+as large as pr. Therefore, because pr was set at 40 ( X 1Oe6 cm3/
+set), pL was set to 80 ( X10e6 cm3/sec).
+
+OF
+
+THALAMIC
+
+NEURONS
+
+resting membrane potential
+resistance of 138 MQ.
+
+1399
+
+of -95
+
+mV and an apparent
+
+input
+
+We thank B. Strowbridge,
+P. Majherate,
+and G. Shepherd,
+whose advice
+made the present model of thalamic
+neurons possible.
+This work was supported
+by National
+Institute
+of Neurological
+Disorders and Stroke Grants NS-06477
+and NS- 12 15 1 to D. A. Prince and
+NS-26 143 to D. A. McCormick.
+Additional
+support was obtained from the
+Sloan Foundation,
+the Klingenstein
+Fund, and the Jane and Peter Pattison
+Fund.
+Those interested
+in obtaining
+a copy of the modelling
+program
+and
+instruction
+manual should send a diskette and an address label to J. R.
+Huguenard
+or D. A. McCormick.
+Address for reprint requests: D. A. McCormick,
+Section of Neurobiology, SHM C303, Yale Medical
+School, 333 Cedar St., New Haven,
+CT
+065 10.
+Received
+
+24 March
+
+1992; accepted
+
+in final
+
+form
+
+8 June 1992.
+
+C’a 2+ bu$h?ng
+Calcium concentrations were calculated in the inner 100 nm of
+cytoplasm just beneath the membrane area of 29,000 pm2. In this
+simulation,
+we adopted the simple proportional
+model of Ca2+
+diffusion out of this space used by Traub ( 1982) in the modeling
+of hippocampal
+pyramidal cells. In this model, the change in
+[ Ca2+li is described by
+d[Ca2+]/dt
+
+The concentration
+cording to
+[Ca2+lI
+
+= [Ca2+lt-i
+
+= P=[Ca2’]
+
+WV
+
+of Ca2+ at time step t was then calculated
++ At*([-5.18
+
+X IO-“*&-
+
+or
+
+(area-depth)
+
+ac-
+
+I=)]/
+
+- ,&[Ca2f]t-I>
+
+(AH)
+
+where the constant -5.18 X 10v3 is used to convert current (in
+nanoamperes),
+time (in milliseconds),
+and volume (in cubic micrometers) to concentration
+of Ca2+ ions and is derived from
+1 nA = 1 X lo-l2
+1 liter
+
+Coulombs/msec
+
+= 1 X 10 I5 pm3
+
+and Faraday’s constant of 1.92988 X lo5 coulombs
+per
+mole Ca2+.
+The minimal [ Ca2+]i was set to 50 nM. The low-threshold
+and
+high-threshold
+Ca 2+ currents were treated separately.
+The diffusion rate constant p was adjusted so as to replicate the
+duration of the AHP after a single action potential ( ~60 ms). A
+value for ,B of 1 was used in these simulations at 355 “C.
+
+I Kleak
+
+and
+
+INaleak
+
+The leak conductances gKleak and &&.& were considered
+linear leak conductances and were described by
+I Kleak
+
+=
+
+gKleak
+
+I Naleak
+
+=
+
+gNaleak
+
+’ cE
+
+l
+
+tE
+
+-
+
+EK)
+-
+
+ENa
+
+to be
+
+WV
+>
+
+ww
+
+The maximal conductances gU& and &&.ak were adjusted to
+match the resting membrane potential and apparent input conductance of guinea pig or cat LGNd that was being modeled. In
+the modeling of guinea pig neurons, this resulted in a gUeak of 15
+of 6 nS (see RESULTS).
+In the modeling of the
+nS and
+a gNaleak
+oscillating cat LGNd neuron, two properties of this cell were considered: 1) after the block of & with the local application of Cs+,
+the resting membrane potential of this cell was approximately
+-85
+mV and the apparent input resistance was 150 MQ. In the present
+model, g&& was set to 7 nS and gN&& was set to 0.25 nS, giving a
+
+REFERENCES
+
+BELLUZZI, 0. AND SACCHI, 0. The interactions
+
+between potassium
+and
+action potentials
+in the rat sympathetic
+J. Physiol. Lond. 397: 127-147, 1988.
+BELLUZZI, 0. AND SACCHI, 0. A five-conductance
+model of the action
+potential
+in rat sympathetic
+neuron. Prog. Biophys. Mol. Biol. 55: l-30,
+1991.
+BLOOMFIELD, S. A., HAMOS, J. E., AND SHERMAN, S. M. Passive cable
+properties
+and morphological
+correlates of neurons in the lateral geniculate nucleus of the cat. J. Physiol. Lond. 383: 653-692, 1987.
+COENEN, A. M. L. AND VENDRIK, A. J. H. Determination
+of the transfer
+ratio of cat’s geniculate
+neurons through
+quasi-intracellular
+recordings
+and the relation with the level of alertness. Exp. Brain Res. 14: 227-242,
+1972.
+COULTER, D.A., HUGUENARD, J.R., ANDPRINCE, D.A.Calciumcurrents
+in rat thalamocortical
+relay neurons:
+kinetic properties
+of the transient,
+low-threshold
+current.
+J. Physiol. Lond. 4 14: 587-604,
+1989.
+CRUNELLI, V., LIGHTOWLER, S., AND POLLARD, C. E. A T-type Ca2+
+current underlies low-threshold
+Ca2+ potentials in cells of the cat and rat
+lateral geniculate
+nucleus. J. Physiol. Lond. 4 13: 543-56 1, 1989.
+CURRY)DOSSI, R., NUNEZ, A., AND STERIADE, M. Electrophysiology
+of a
+slow intrinsic oscillation
+in thalamocortical
+cells of cat in vivo. J. Physiol. Lond. In press. 199 1.
+DESCH~NES,M., PARADIS, M., ROY, J.P., ANDSTERIADE, M.Electrophysiology of neurons
+of lateral thalamic
+nuclei in rat: resting properties
+and burst discharges.
+J. Neurophysiol. 5 1: 1196-12 19, 1984.
+DEXTEXHE, A. AND BABLOYANTZ, A. Cortical coherent activity induced
+by thalamic
+oscillations.
+In: Complex Dynamics in Neural Networks,
+edited by J. Taylor. New York: Springer-Verlag,
+199 1.
+DIFRANCESCO, D. The cardiac hyperpolarizing-activated
+current
+If: origins and developments.
+Prog. Biophys. Mol. Biol. 46: 163-183, 1985.
+DIFRANCESCO, D. The contribution
+of the “pacemaker”
+current (if) to
+generation
+of spontaneous
+activity in rabbit sino-atria1 node myocytes.
+J. Physiol. Land. 434: 23-40, 199 1.
+DIFRANCESCO,D., DUCOURET, P., ANDROBINSON, R.B.Muscarinicmodulation
+of cardiac rate at low acetylcholine
+concentrations.
+Science
+Wash. DC 243: 669-67 1, 1989.
+DIFRANCESCO, D. AND NOBLE, D. A model of cardiac electrical activity
+incorporating
+ionic pumps and concentration
+changes. Philos. Trans. R.
+Sot. Lond. B Biol. Sci. 307: 353-398, 1985.
+DIFRANCESCO,D. AND NOBLE, D. Current I, and its contribution
+to cardiac pacemaking.
+In: Neuronal and Cellular Oscillators, edited by J. W.
+Jacklet. New York: Dekker,
+1989, p. 3 l-57.
+DIFRANCESCO, D. AND TORTORA, P. Direct activation
+of cardiac pacemaker channels by intracellular
+cyclic AMP. Nature Land. 35 1: 145147, 1991.
+FRENCH,~. R., SAH, P., BUCKETT, K.J., AND GAGE, P. W. A voltage-dependent
+persistent
+sodium current
+in mammalian
+hippocampal
+neurons. J. Gen. Physiol. 95: 1139-l 157, 1990.
+HAMILL,~. P., HUGUENARD, J.R., ANDPRINCE, D.A.Patch-clampstudies of voltage-gated
+currents
+in identified
+neurons
+of the rat cerebral
+cortex. Cerebral Cortex 1: 48-6 1, 199 1.
+sodium
+neuron.
+
+currents
+
+in generating
+
+1400
+
+D. A. MCCORMICK
+
+AND J. R. HUGUENARD
+
+A. AND PAPE, H.-C. Identification of two calcium
+currents in acutely dissociated neurons from the rat lateral geniculate
+nucleus. J. Neurophys. 61: 1270-1283, 1989.
+HILLE, B. Ionic channels of excitable membranes. Sunderland, MA: Sinauer, 1984.
+HIRSCH, J. C., FOURMENT,
+A., AND MARC, M. E. Sleep-related variations
+of membrane potential in the lateral geniculate body relay neurons of
+the cat. Brain Res. 259: 308-312, 1983.
+HODGKIN,
+A. L. AND HUXLEY, A. F. A quantitive description of membrane current and its application to conduction and excitation in nerve.
+J. Physiol. Land. 117: 500-544, 1952.
+HUGUENARD,
+J. R., COULTER, D. A., AND PRINCE, D. A. A fast transient
+potassium current in thalamic relay neurons: kinetics of activation and
+inactivation. J. Neurophysiol. 66: 1304- 13 15, 199 1.
+HUGUENARD,
+J. R., HAMILL, 0. P., AND PRINCE, D. A. Developmental
+changes in Na+ conductances in rat neocortical neurons: appearance of
+a slowly inactivating component. J. Neurophysiol. 59: 778-795, 1988.
+HUGUENARD,
+J. R. AND MCCORMICK,
+D. A. Simulation of the currents
+involved in rhythmic oscillations in thalamic relay neurons. J. Neurophysiol. 68: 1373- 1383, 1992.
+HUGUENARD,
+J. R. AND PRINCE, D. A. Slow inactivation of a TEA-sensitive K current in acutely isolated rat thalamic relay neurons. J. Neurophysiol. 66: 1316-1328, 1991.
+JAHNSEN, H. AND LLIN~S, R. Electrophysiological properties of guineapig thalamic neurons: an in vitro study. J. Physiol. Land. 349: 205-226,
+1984a.
+JAHNSEN, H. AND LLIN&
+R. Ionic basis for the electroresponsiveness and
+oscillatory properties of guinea-pig thalamic neurons in vitro. J. Physiol. Lond. 349: 227-247, 1984b.
+KAY, A. R. AND WONG, R. K. S. Calcium current activation kinetics in
+isolated pyramidal neurons of the CA 1 region of the mature guinea-pig
+hippocampus. J. Physiol. Lond. 392: 603-6 16, 1987.
+LANCASTER, B. AND NICOLL, R. A. Properties of two calcium-activated
+hyperpolarizations in rat hippocampal neurons. J. Physiol. Lond. 389:
+187-203, 1987.
+LERESCHE, N., LIGHTOWLER,
+S., SOLTESZ, I., JASSIK-GERSCHENFELD,
+D.,
+AND CRUNELLI,
+V. Low frequency oscillatory activities intrinsic to rat
+and cat thalamocortical cells. J. Physiol. Lond. 44 1: 155- 174, 199 1.
+LIVINGSTONE,
+M. S. AND HUBEL, D. H. Effects of sleep and arousal on the
+processing of visual information in the cat. Nature Land. 29 1: 554-56 1,
+1981.
+MADISON,
+D. V. AND NICOLL, R. A. Control of repetitive discharge of rat
+CA 1 pyramidal neurons in vitro. J. Physiol. Lond. 354: 3 19-33 1, 1984.
+MCCORMICK,
+D. A. Functional properties of a slowly inactivating potassium current IAs in guinea pig dorsal lateral geniculate relay neurons. J.
+Neurophysiol. 66: 1176- 1189, 199 1.
+MCCORMICK,
+D. A. Cellular mechanisms underlying cholinergic and noradrenergic modulation of neuronal firing mode in the cat and guinea pig
+dorsal lateral geniculate nucleus. J. Neurosci. 12: 278-289, 1992a.
+MCCORMICK,
+D. A. Neurotransmitter actions in the thalamus and cerebral cortex and their role in neuromodulation of thalamocortical activity. Prog. Neurobiol. 39: 337-388, 1992b.
+MCCORMICK,
+D. A. AND FEESER, H. R. Functional implications of burst
+firing and single spike activity lateral geniculate relay neurons. Neuroscience 39: 103- 113, 1990.
+MCCORMICK,
+D. A., HUGUENARD,
+H., AND STROWBRIDGE, B. Determination of state dependent processing in thalamus by single neuron properties and neuromodulators. In: Single Neuron Computation, edited by T.
+McKenna, J. Davis, and S. F. Zornetzer. San Diego: Academic. 1992.
+MCCORMICK,
+D. A. AND PAPE, H.-C. Properties of a hyperpolarization-activated cation current and its role in rhythmic oscillation in thalamic
+relay neurons. J. Physiol. Lond. 43 1: 291-318, 1990a.
+HERN~NDEZ-CRUZ,
+
+D. A. AND PAPE, H.-C. Noradrenergic and serotonergic
+modulation of a hyperpolarization-activated cation current in thalamic
+relay neurons. J. Physiol. Lond. 43 1: 3 19-342, 1990b.
+MCCORMICK,
+D. A. AND PRINCE, D. A. Noradrenergic modulation of
+firing pattern in guinea pig and cat thalamic neurons, in vitro. J. Neurophysiol. 59: 978-996, 1988.
+MCMULLEN,
+T. A. AND LY, N. Model of oscillatory activity in thalamic
+neurons: role of voltage- and calcium-dependent ionic conductances.
+Biol. Cybern. 58: 243-259, 1988.
+MONTERO,
+V. M. A quantitative study of synaptic contacts on interneurons and relay cells of the cat lateral geniculate nucleus. Exp. Brain Res.
+86: 257-270, 1991.
+PAPE, H. C. Adenosine promotes burst firing activity in guinea pig geniculocortical neurons through two different mechanisms. J. Physiol. Land.
+447: 729-753, 1992.
+PENNEFATHER,
+P., LANCASTER, B., ADAMS, P. R., AND NICOLL, R. A. TWO
+distinct Ca-dependent K currents in bullfrog sympathetic ganglion cells.
+Proc. Natl. Acad. Sci. USA 82: 3040-3044, 1985.
+ROSE, R. M. AND HINDMARSH,
+J. L. A model of a thalami neuron. Proc. R.
+Sot. Lond. B Biol. Sci. 225: 161-193, 1985.
+ROSE, R. M. AND HINDMARSH,
+J. L. The assembly of ionic currents in a
+thalamic neuron. I-III. Proc. R. Sot. Land. B Biol. Sci. 237: 267-334,
+1989.
+RUDY, B. Diversity and ubiquity of K channels. Neuroscience 25: 729749, 1988.
+SHERMAN, S. M. AND KOCH, C. The control of retinogeniculate transmission in the mammalian lateral geniculate nucleus. Exp. Brain Res. 63:
+l-20, 1986.
+SOLTESZ, I., LIGHTOWLER,
+S., LERESCHE, N., JASSIK-GERSCHENFELD,
+D.,
+POLLARD, C. E., AND CRUNELLI,
+V. Two inward currents and the transformation of low frequency oscillations of rat and cat thalamocortical
+cells. J. Physiol. Lond. 441: 175-197, 199 1.
+STERIADE, M., CURRY DOSSI, R., AND NUNEZ, A. Network modulation of
+a slow intrinsic oscillation of cat thalamocortical neurons implicated in
+sleep delta waves: cortical potentiation and brainstem suppression. J.
+Neurosci. 11: 3200-32 17, 199 1.
+STERIADE, M. AND DESCH~NES, M. The thalamus as a neuronal oscillator.
+Brain Res. Rev. 8: l-63, 1984.
+STERIADE, M. AND LLIN~S, R. R. The functional states of the thalamus
+and the associated neuronal interplay. Physiol. Rev. 68: 649-742, 1988.
+STERIADE, M. AND MCCARLEY,
+R. W. Brainstem Control of Wakefullness
+and Sleep. New York: Plenum, 1990.
+STORM, J. F. Action potential repolarization and a fast after-hyperpolarization in rat hippocampal pyramidal cells. J. Physiol. Lond. 385: 733-759,
+1987.
+STORM, J. F. Potassium currents in hippocampal pyramidal cells. Prog.
+Brain Res. 83: 161-187, 1990.
+TRAUB, R. D., WONG, R. K. S., MILES, R., AND MICHELSON,
+H. A model
+of a CA3 hippocampal pyramidal neuron incorporating voltage-clamp
+data on intrinsic conductances. J. NeurophysioZ. 66: 635-650, 199 1.
+YAMADA,
+W. M., KOCH, C., AND ADAMS, P. Multiple channels and calcium dynamics. In: Methods in Neuronal Modeling. From Synapses to
+Networks, edited by C. Koch and I. Segev. Cambridge, MA: MIT Press,
+1989, p. 97-133.
+WANG, X.-J., RINZEL, J., AND ROGAWSISI, M. A. A model of the T-type
+calcium current and the low threshold spike in thalamic neurons. J.
+Neurophysiol. 66: 839-850, 199 1.
+WESTENBROEK,
+R. E., AHLIJANIAN,
+M. K., AND CATTERALL, W. A. Clustering 0 f L-type Ca2+ channels at the base of major dendrites in hippocampal pyramidal neurons. Natu re Lond. 347: 28 l-284, 1990.
+MCCORMICK,
+
+

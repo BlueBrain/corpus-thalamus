@@ -1,0 +1,920 @@
+European Journal of Neuroscience
+
+European Journal of Neuroscience, Vol. 37, pp. 850–859, 2013
+
+doi:10.1111/ejn.12098
+
+MOLECULAR AND SYNAPTIC MECHANISMS
+
+GABAA, NMDA and mGlu2 receptors tonically regulate
+inhibition and excitation in the thalamic reticular nucleus
+John W. Crabtree,1 David Lodge,1 Zafar I. Bashir1 and John T. R. Isaac2
+1
+
+Medical Research Council Centre for Synaptic Plasticity, School of Physiology and Pharmacology, Medical Sciences Building,
+University of Bristol, Bristol BS8 1TD, UK
+2
+Eli Lilly and Company, Erl Wood Manor, Windlesham, Surrey GU20 6PH, UK
+Keywords: constitutively active receptors, miniature excitatory postsynaptic currents, miniature inhibitory postsynaptic currents,
+thalamic reticular neurons, Wistar rat
+
+Abstract
+Traditionally, neurotransmitters are associated with a fast, or phasic, type of action on neurons in the central nervous system
+(CNS). However, accumulating evidence indicates that c-aminobutyric acid (GABA) and glutamate can also have a continual, or
+tonic, influence on these cells. Here, in voltage- and current-clamp recordings in rat brain slices, we identify three types of tonically active receptors in a single CNS structure, the thalamic reticular nucleus (TRN). Thus, TRN contains constitutively active
+GABAA receptors (GABAARs), which are located on TRN neurons and generate a persistent outward ClÀ current. When TRN
+neurons are depolarized, blockade of this current increases their action potential output in response to current injection. Furthermore, TRN contains tonically active GluN2B-containing N-methyl-D-aspartate receptors (NMDARs). These are located on reticuloreticular GABAergic terminals in TRN and generate a persistent facilitation of vesicular GABA release from these terminals. In
+addition, TRN contains tonically active metabotropic glutamate type 2 receptors (mGlu2Rs). These are located on glutamatergic
+cortical terminals in TRN and generate a persistent reduction of vesicular glutamate release from these terminals. Although tonically active GABAARs, NMDARs and mGlu2Rs operate through different mechanisms, we propose that the continual and combined activity of these three receptor types ultimately serves to hyperpolarize TRN neurons, which will differentially affect the
+output of these cells depending upon the current state of their membrane potential. Thus, when TRN cells are relatively depolarized, their firing in single-spike tonic mode will be reduced, whereas when these cells are relatively hyperpolarized, their ability to
+fire in multispike burst mode will be facilitated.
+
+Introduction
+Neurotransmitters are usually associated with a fast (phasic) type of
+action on neurons in the central nervous system (CNS), but mounting evidence indicates that c-aminobutyric acid (GABA) and glutamate can also have a persistent (tonic) inﬂuence on these cells
+(Semyanov et al., 2004; Cavelier et al., 2005; Farrant & Nusser,
+2005; Glykys & Mody, 2007; Featherstone & Shippy, 2008; Brickley
+& Mody, 2012). Unlike receptors located at the synapse that
+respond phasically to relatively high concentrations of synaptically
+released neurotransmitter, tonically active receptors are located at
+perisynaptic or extrasynaptic sites and continually respond to relatively low concentrations of ambient GABA and glutamate in the
+extracellular space. Postsynaptically, tonically active receptors will
+affect neuronal excitability by continually generating a membrane
+conductance. Presynaptically, tonically active receptors will affect
+this excitability by continually modulating the inhibitory or excitatory ‘tone’ that results from vesicular release of GABA or glutamate, respectively. In the thalamus, control of neuronal excitability
+
+Correspondence: Dr J. W. Crabtree, as above.
+E-mail: j.w.crabtree@bristol.ac.uk
+Received 6 August 2012, revised 13 October 2012, accepted 20 November 2012
+
+is thought to depend on the interactions among intrinsic membrane
+conductances and relatively long-lasting changes in membrane
+potentials due to activation of postsynaptic receptors (Sherman &
+Guillery, 2001). However, this view should be broadened to take
+into account the effects of tonically active receptors in the thalamus
+(Belelli et al., 2005; Cope et al., 2005; Jia et al., 2005; Bright
+et al., 2007; Bright & Brickley, 2008).
+The thalamic reticular nucleus (TRN) is a sheet of GABAergic
+neurons (Houser et al., 1980) that surrounds much of the lateral
+and rostral margins of the main body of thalamic relay nuclei.
+TRN neurons receive glutamatergic inputs from collaterals of
+axons arising from thalamocortical (TC) neurons (Jones, 1975) and
+layer VI corticothalamic (CT) neurons (Bourassa et al., 1995). The
+main targets of TRN GABAergic outputs are TC neurons (Jones,
+1975). Thus, TRN neurons provide a strong inhibitory innervation
+of TC neurons (Cox et al., 1997; Kim & McCormick, 1998),
+which will strongly inﬂuence their transfer of sensory information
+to cortex (Salt, 1989; Lee et al., 1994a,b; Warren & Jones, 1994;
+Hartings & Simons, 2000; Cotillon-Williams et al., 2008). Therefore, mechanisms regulating the excitability of TRN neurons will
+make important contributions to the control of information ﬂow
+through the thalamus.
+
+© 2013 Federation of European Neuroscience Societies and Blackwell Publishing Ltd
+
+Tonic receptors in the thalamic reticular nucleus 851
+Several mechanisms intrinsic to TRN have been identiﬁed that
+regulate the excitability of its neurons, including chemical (SanchezVives et al., 1997; Deleuze & Huguenard, 2006; Lam et al., 2006;
+Mistry et al., 2008) and electrical (Landisman et al., 2002; Long
+et al., 2004) synapses, depolarization-induced suppression of inhibition (Sun et al., 2011) and short-term depression at glutamatergic
+synapses (Mistry et al., 2008). However, demonstration of additional
+regulatory mechanisms in TRN that are mediated by tonically active
+receptors has been inconclusive (Belelli et al., 2005; Cope et al.,
+2005; Jia et al., 2005; Alexander & Godwin, 2006). Here we show
+that TRN contains three types of tonically active receptors, postsynaptic GABAA receptors (GABAARs), presynaptic N-methyl-D-aspartate receptors (NMDARs) and presynaptic metabotropic glutamate
+type 2 receptors (mGlu2Rs). Although operating through different
+mechanisms, the combined and continual activity of these three
+types of receptors will be to hyperpolarize TRN neurons.
+
+Materials and methods
+Thalamic slice preparation
+All experimental procedures were performed in accordance with the
+UK Animals (Scientiﬁc Procedures) Act 1986 and were ethically
+approved by the University of Bristol. Young (14–21 days old)
+Wistar rats of either sex were killed by cervical dislocation. The
+brain was rapidly removed and placed in ice-cold oxygenated (95%
+O2, 5% CO2) artiﬁcial cerebrospinal ﬂuid (ACSF). Horizontal slices
+(500 lm thick) were cut through the thalamus on a vibratome and
+were allowed to recover in oxygenated ACSF for at least 1 h at
+room temperature (19–22 °C). Slices were then transferred to a
+recording chamber and submerged beneath continuously perfusing
+oxygenated ACSF. The ACSF contained (in mM): 119 NaCl, 2.5
+KCl, 1.0 NaH2PO4, 26.2 NaHCO3, 11.0 glucose, 2.5 CaCl2 and 1.3
+MgSO4.
+Electrophysiology
+Using 3–5 MΩ glass electrodes, whole-cell voltage- or currentclamp recordings were made from neurons in a centroventral sector
+of TRN (Crabtree & Isaac, 2002). Transilluminating a slice created
+contrast interference patterns that allowed visualization of TRN and
+adjacent thalamic nuclei (Crabtree & Isaac, 2002; Mistry et al.,
+2008).
+During experiments a recording electrode was advanced ‘blind’
+through a slice and only one neuron per slice was recorded. For
+voltage-clamp recordings, the whole-cell solution contained (in mM):
+135 Cs methane sulphonate, 10 HEPES, 0.5 EGTA, 3.0 NaCl, 5.0
+QX-314, 4.0 Mg-ATP and 0.3 Na-GTP, pH 7.2 using CsOH (275–
+280 mOsm). For current-clamp recordings, the whole-cell solution
+contained (in mM): 130 K methane sulphonate, 5.0 HEPES, 0.2
+EGTA, 8.5 NaCl, 4.0 Mg-ATP and 0.5 Na-GTP, pH 7.2 using
+KOH (275–280 mOsm). During voltage-clamp recordings, different
+combinations of 6-imino-3(4-methoxyphenyl)-1-(6H)-pyridazinebutanoic acid hydrobromide (gabazine; 50 or 100 lM) or picrotoxin
+(50 lM), 2,3-dioxo-6-nitro-,1,2,3,4-tetrahydrobenzo[f]quinoxaline-7sulfonamide (NBQX; 2 lM), D-(À)-2-amino-5-phosphonopentanoic
+acid (D-AP5; 50 lM) and tetrodotoxin (TTX; 1 lM) were bath
+applied in the ACSF to block synaptic currents mediated by
+GABAARs, a-amino-3-hydroxy-5-methylisoxazole-4-propionic acid
+receptors (AMPARs), NMDARs and action potentials presynaptic to
+a recorded cell, respectively, as speciﬁed for the various experimental procedures. During voltage-clamp recordings, caesium ions and
+
+QX-314 in the whole-cell solution blocked postsynaptic currents
+mediated by GABAB receptors (GABABRs). In some of these
+recordings, (5R, 10S)-(–)-5-methyl-10,11-dihydro-5H-dibenzo[a,d]
+cyclohepten-5,10-imine maleate (MK-801; 3 mM) was included in
+the whole-cell solution (iMK-801) to block postsynaptic NMDARmediated currents. To ensure blockade of these currents, neurons
+were depolarized to –10 mV for 10 s once every min for 10 min
+after whole-cell access (Woodhall et al., 2001). In other voltageclamp recordings, guanosine 5′-[b-thio]diphosphate trilithium salt
+(GDPbS; 1 mM) was included in the whole-cell solution to block
+postsynaptic mGluR-mediated currents (Lee & McCormick, 1997;
+Cox & Sherman, 1999; Alexander & Godwin, 2006) and data acquisition began 20 min after whole-cell access. All drugs were obtained
+from Ascent Scientiﬁc (Avonmouth, UK) except for Ro 25-6981,
+which was obtained from Tocris Bioscience (Bristol, UK), and picrotoxin and GDPbS, which were obtained from Sigma–Aldrich (St
+Louis, MO, USA). During voltage-clamp recordings, cells were held
+at 0 mV or À60 mV as speciﬁed for the various experimental procedures. During current-clamp recordings, the membrane potential
+was close to À55 mV. Using an in-line heater (Scientiﬁca, Uckﬁeld,
+UK), all recordings were made at close to physiological temperature
+(32–35 °C).
+Data acquisition and analysis
+Recordings were made using an Axopatch 200B ampliﬁer (Axon
+Instruments, Foster City, CA, USA). Data were ﬁltered at 5 kHz,
+digitized at 10 kHz, and stored on computer. Holding current (DC),
+series resistance (Rs), input resistance (Rm), inhibitory postsynaptic
+currents (IPSCs), miniature inhibitory (or excitatory) postsynaptic
+currents [mI(E)PSCs] and action potentials were displayed on-line
+using WinLTP (Anderson & Collingridge, 2007). Data were acceptable from neurons with a stable whole-cell access (on average about
+25 MΩ) or were discarded if the Rs changed by > 20%. DC was
+measured at the beginning of 2-s periods sampled every 4 s. DC
+measurements were discarded if they fell on IPSCs. Rm was measured at the beginning of 5-s periods sampled every 20 s or at the
+beginning of each of six 5-s periods sampled every 2 min. Rm measurements were discarded if they fell on mIPSCs or mEPSCs. During a 5-min baseline period, 100–120 IPSCs were sampled and
+averaged for each neuron using Clampﬁt (Axon Instruments). The
+total IPSC current, or IPSC charge transfer (integral of the average
+IPSC) multiplied by IPSC frequency, was then determined for each
+cell. mIPSCs were recorded over 5-s periods sampled every 20 s
+and 18–24 trials were given before and after a 10-min wash-in of an
+agonist or antagonist. mEPSCs were recorded over 5-s periods for
+six trials sampled every 2 min. Amplitudes and frequencies of mI
+(E)PSCs were analysed using Mini-Analysis (Synaptosoft, Decatur,
+GA, USA). Detection threshold for mI(E)PSCs was 10 pA. Action
+potentials were recorded over 200-ms current-pulse periods sampled
+every 10 s and 72 trials were given before and after a 10-min washin of picrotoxin (50 lM). Pooled data are expressed as cumulative
+probabilities or as means Æ SEM. Statistical signiﬁcance was
+assessed using the Wilcoxon matched-pair test or Kolmogorov–
+Smirnov test. Differences were considered signiﬁcant at P < 0.05.
+
+Results
+TRN contains tonically active GABAARs
+Blockade of intra-TRN inhibition increased the tonic spike output of
+TRN neurons to stimulation of their glutamatergic inputs (Mistry
+
+© 2013 Federation of European Neuroscience Societies and Blackwell Publishing Ltd
+European Journal of Neuroscience, 37, 850–859
+
+852 J. W. Crabtree et al.
+et al., 2008). During such blockade, we observed that the amplitudes of the ﬁrst evoked EPSPs in response trains increased compared with baseline amplitudes. This suggested that, in addition to
+intra-TRN inhibition, another source of inhibition was present in
+TRN because, under control conditions, the ﬁrst evoked EPSP in a
+response train will occur much earlier than any inﬂuence that intraTRN inhibition will have on neuronal responses. Tonically active
+GABAARs were a likely candidate to account for this other source
+of inhibition (Semyanov et al., 2004; Cavelier et al., 2005; Farrant
+& Nusser, 2005; Glykys & Mody, 2007; Belelli et al., 2009; Brickley & Mody, 2012). Therefore, we tested the hypothesis that tonically active GABAARs are present on TRN neurons.
+TRN neurons were recorded in voltage-clamp mode and held at
+0 mV in the presence of NBQX (2 lM) and D-AP5 (50 lM). Bathapplied gabazine (50 lM, n = 11; 100 lM, n = 3) abolished phasic
+IPSCs and had no affect on the holding current (Fig. 1A). However,
+bath-applied picrotoxin (50 lM) not only abolished phasic IPSCs but
+also caused a reduction in an outward holding current (Fig. 1B); in
+15 of 18 TRN neurons (83.3%), there was a signiﬁcant shift in holding current averaged over the last 5 min compared with the holding
+current averaged over the ﬁrst 5 min of each experiment (Fig. 1C).
+The amplitude of this current shift was 21.1 Æ 8.9 pA. These ﬁndings are consistent with the blockade of constitutively active postsynaptic GABAARs that mediate a tonic ClÀ current. Because of
+this persistent current, constitutively active postsynaptic GABAARs
+would provide a mechanism for reducing the excitability of TRN
+neurons.
+The proportions of the total intra-TRN GABAAR inhibition mediated by phasic and tonic currents were estimated. For the 15 TRN
+neurons in which a tonic current was observed, IPSCs contributed
+5.1 Æ 4.7% (1.0 Æ 0.5 of 22.1 Æ 9.4 pA) of the total GABAARmediated current, whereas the tonic component contributed
+94.9 Æ 4.7% (21.1 Æ 8.9 of 22.1 Æ 9.4 pA) of this total current.
+Thus, most (> 90%) of the intra-TRN GABAAR-mediated inhibition
+is carried by tonically active GABAARs.
+In the cerebellum (Brickley et al., 1996; Hamann et al., 2002),
+hippocampus (Semyanov et al., 2003) and thalamic dorsal lateral
+
+A
+
+B
+
+C
+
+D
+
+Fig. 1. A tonic GABAAR-mediated conductance in TRN neurons. (A) Holding current (DC) vs. time recorded from a representative TRN neuron at a
+holding potential of 0 mV. Bath-applied gabazine (50 lM; black bar) abolished outward spontaneous IPSCs but did not affect the holding current. The
+individual traces at the top were taken at the times indicated (1, 2). (B) Holding current (DC) vs. time recorded from a representative TRN neuron at a
+holding potential of 0 mV. Bath-applied picrotoxin (50 lM; black bar) abolished outward spontaneous IPSCs and reduced an outward holding current,
+indicating that a tonic GABAAR-mediated conductance was present in this
+cell. The individual traces at the top were taken at the times indicated (1, 2).
+The scale bars for these traces also apply to those in A. (C) Summary graph
+of the effect of picrotoxin (50 lM; black bar) on DC over time in 15 TRN
+neurons. Data are expressed as changes from the average baseline response
+before picrotoxin application. Compared with this baseline, the shift in DC
+averaged over the last 5 min was signiﬁcant (P < 0.05; Wilcoxon matchedpair test). The dashed line indicates the baseline response level. (D) In an
+example TRN neuron, depolarizing current pulses (200-ms steps) produced
+ﬁring of action potentials (spikes) under control conditions (upper traces) and
+in the presence of picrotoxin (50 lM; lower traces). The membrane potential
+of this cell is shown to the left of each row of traces. The scale bar for the
+trace at the upper left applies to all the traces. For the example TRN neuron,
+the number of spikes is shown vs. injected current (lower left plot). Each
+point represents the number of spikes over a 200-ms period averaged over
+12 trials. Pooled data from 10 TRN neurons for the number of spikes vs.
+injected current (lower right plot). Compared with control, the number of
+spikes signiﬁcantly increased at all levels of injected current, except the lowest level, after wash-in of picrotoxin (*P < 0.05; Wilcoxon matched-pair
+tests).
+© 2013 Federation of European Neuroscience Societies and Blackwell Publishing Ltd
+European Journal of Neuroscience, 37, 850–859
+
+Tonic receptors in the thalamic reticular nucleus 853
+geniculate nucleus (Cope et al., 2005), tonically active GABAARs
+reduce action potential output of neurons. Therefore, we tested the
+effect of tonic postsynaptic GABAARs on the excitability of TRN
+neurons. TRN neurons (n = 10) were recorded in current-clamp
+mode and held close to –55 mV before and during the presence of
+bath-applied picrotoxin (50 lM). Under control conditions, these
+cells ﬁred action potentials (spikes) in response to current injections
+(200-ms pulses) and the spike frequency increased with increasing
+levels of current injection (Fig. 1D). Compared with control, the
+spike frequency signiﬁcantly increased at all levels of current injection used, except the lowest level, in the presence of picrotoxin
+(Fig. 1D). Thus, removal of the tonic GABAAR-mediated current by
+picrotoxin increases the excitability of TRN neurons.
+TRN contains tonically active NMDARs
+Axon terminals in neocortex (Berretta & Jones, 1996; Corlew
+et al., 2007; Brasier & Feldman, 2008), hippocampus (Breukel
+et al., 1998) and cerebellum (Glitsch & Marty, 1999) exhibit
+tonically active NMDARs. These receptors continually facilitate the
+vesicular release of GABA or glutamate onto a neuron depending
+on whether the recipient neuron is GABAergic or glutamatergic,
+respectively. Thus, an additional mechanism possibly involved in
+affecting the excitability of TRN neurons is the tonic activation of
+NMDARs on GABAergic terminals. Therefore, we next investigated whether such receptors are also present on GABAergic terminals
+in TRN.
+TRN neurons were recorded in voltage-clamp mode and held at
+0 mV. By electrically stimulating TC and CT axons (see Mistry
+et al., 2008), we initially recorded EPSCs evoked in TRN neurons
+(n = 3) in the presence of bath-applied NBQX (2 lM) and conﬁrmed that intracellularly applied MK-801 (iMK-801; 3 mM) was
+effective in blocking postsynaptic NMDARs (Fig. 2A, inset). In
+control conditions, outward mIPSCs (Fig. 2A–C) were recorded in
+the presence of TTX (1 lM), NBQX (2 lM) and iMK-801 (3 mM).
+The presence of tonically active presynaptic NMDARs was then
+tested by recording mIPSCs under two conditions: during bath
+application of an NMDAR agonist (NMDA) or an NMDAR antagonist (D-AP5) In six of six TRN neurons, there was no change in
+the amplitudes of mIPSCs (Fig. 2A left and D left) but the frequency of mIPSCs signiﬁcantly increased (Fig. 2A right and D
+right) following wash-in of NMDA (40 lM). This increase in
+mIPSC frequency was 22.0 Æ 3.6%. In eight of eight TRN neurons,
+there was again no change in the amplitudes of mIPSCs (Fig. 2B
+left and D left) but the frequency of mIPSCs now signiﬁcantly
+decreased (Fig. 2B right and D right) following wash-in of D-AP5
+(50 lM). This decrease in mIPSC frequency was 39.5 Æ 1.4%.
+Additional wash-in of picrotoxin (50 lM) abolished the mIPSCs,
+indicating that they were mediated by GABAARs (Fig. 2B insert).
+That there were changes only in the frequencies of mIPSCs in the
+presence of NMDA or D-AP5 is indicative of the presence of presynaptic NMDARs. That the frequency of mIPSCs decreased below
+the baseline level in the presence of D-AP5 indicates that these presynaptic NMDARs are tonically active and facilitate the release of
+GABA from terminals in TRN. Tonically active NMDARs are
+reported to contain a GluN2B subunit (Woodhall et al., 2001;
+Brasier & Feldman, 2008; Larsen et al., 2011). We then tested
+whether the tonic NMDARs in TRN contained this subunit by
+recording mIPSCs during bath application of a GluN2B antagonist
+Ro 25-6981 ((aR,bS)-a-(4-hydroxyphenyl)- b-methyl-4-(phenylmethyl)-1-piperidinepropanol maleate). In six of six TRN neurons,
+there was no change in the amplitudes of mIPSCs (Fig. 2C left and
+
+D left) but the frequency of mIPSCs signiﬁcantly decreased
+(Fig. 2C right and D right) following wash-in of Ro 25-6981
+(3 lM). This decrease in mIPSC frequency was only 28.1 Æ 2.2%,
+suggesting that tonically active NMDARs on GABAergic terminals
+in TRN may contain a subunit other than GluN2B. For the neurons
+in the above experiments, there was no change in Rm following
+wash-in of NMDA (40 lM; baseline, 101.6 Æ 9.7 MΩ; NMDA,
+98.4 Æ 8.4 MΩ; P > 0.05; Wilcoxon matched-pair test), D-AP5
+(50 lM; baseline, 125.1 Æ 7.0 MΩ; D-AP5, 128.7 Æ 6.9 MΩ;
+P > 0.05; Wilcoxon matched-pair test) or Ro 25-6981 (3 lM; baseline, 123.7 Æ 8.0 MΩ; Ro 25-6981, 126.4 Æ 8.3 MΩ; P > 0.05;
+Wilcoxon matched-pair test).
+For the baseline periods, the cumulative probability plots for
+inter-mIPSC intervals for the NMDA (Fig. 2A right), D-AP5
+(Fig. 2B right) and Ro 25-6981 (Fig. 2C right) conditions indicate
+substantial between-cell variability in mIPSC frequency. Although
+this variability was evident when the inter-mIPSC interval data were
+plotted for each neuron in the NMDA (Fig. 3A), D-AP5 (Fig. 3B)
+and Ro 25-6981 (Fig. 3C) conditions, all the cells in each condition
+showed the same downward or upward shift in mean inter-mIPSC
+interval following agonist or antagonist application, respectively.
+Furthermore, there was no indication that these applications had
+stronger or weaker effects on cells with substantially different basal
+mIPSC frequencies.
+TRN contains tonically active mGlu2Rs
+Axon terminals in hippocampus (Losonczy et al., 2003; Lauri
+et al., 2006) and hypothalamus (Boudaba et al., 2003; AcunaGoycolea et al., 2004) exhibit tonically active mGluRs. These
+receptors continually reduce the vesicular release of glutamate onto
+a neuron. Thus, another possible mechanism involved in affecting
+the excitability of TRN neurons is the tonic activation of mGluRs
+on glutamatergic terminals. Although presynaptic Group II
+mGluRs (mGlu2R and mGlu3R) do not appear to be present at
+thalamoreticular synapses (Ohishi et al., 1993a,b), such presynaptic
+mGluRs are present at corticoreticular synapses and are presumably mGlu2Rs (Alexander & Godwin, 2006). Therefore, we next
+investigated whether these presumptive mGlu2Rs are tonically
+active.
+TRN neurons were recorded in voltage-clamp mode and held
+at À60 mV. In control conditions, inward mEPSCs (Fig. 4A and C)
+were recorded in the presence of TTX (1 lM), D-AP5 (50 lM) and
+picrotoxin (50 lM). In addition, GDPbS (1 mM) was included in the
+intracellular recording solution to block any postsynaptic effects of
+mGluRs (Lee & McCormick, 1997; Cox & Sherman, 1999; Alexander & Godwin, 2006). The presence of tonically active presynaptic
+mGlu2Rs was then tested by recording mEPSCs under two conditions: during bath application of a selective mGlu2R agonist,
+(1SR,2SR,4RS,5RS,6SR)-2-amino-4-methylbicyclo[3.1.0]-hexane2,6dicarboxylic acid (LY395756; Dominguez et al., 2005; Ceolin
+et al., 2011), or a selective Group II mGluR antagonist, (2S,1′S,2′S)2-(9-xanthylmethyl)-2-(2′-carboxycyclopropylglycine
+(LY341495;
+Kingston et al., 1998). Bath application of LY395756 (3 lM) caused
+a reversible decrease in the frequency of mEPSCs (Fig. 4A). In
+three of three TRN neurons, there was a signiﬁcant decrease in mEPSC frequency averaged over the points at 18–24 min compared
+with the mEPSC frequency averaged over the points at 2–10 min
+(Fig. 4B). This decrease was 36.3 Æ 3.4%. In comparing these two
+time periods, there was no change in the amplitudes of mEPSCs
+(baseline, 16.4 Æ 0.6 pA; LY395756, 16.1 Æ 1.1 pA; P > 0.05;
+Wilcoxon matched-pair test). In contrast, bath application of
+
+© 2013 Federation of European Neuroscience Societies and Blackwell Publishing Ltd
+European Journal of Neuroscience, 37, 850–859
+
+854 J. W. Crabtree et al.
+Fig. 2. A tonic presynaptic NMDAR facilitates release of GABA from terminals in TRN. (A) Pooled data from six TRN neurons before (solid lines)
+and after (dashed red lines) wash-in of NMDA (40 lM). Data were obtained
+by collecting 200 mIPSCs under each condition from each of the cells. Comparing before and after NMDA wash-in, the mIPSC amplitudes did not signiﬁcantly differ (P > 0.05; Kolmogorov–Smirnov test) but the inter-mIPSC
+interval was signiﬁcantly shifted to the left (P < 0.05; Kolmogorov–Smirnov
+test). The individual traces at the top were taken under the conditions indicated. The insert shows over 200-ms periods an evoked NMDAR-mediated
+EPSC recorded from a TRN neuron (top trace) and the abolition of this
+EPSC (bottom trace) after the cell was dialysed with MK-801. (B) Pooled
+data from eight TRN neurons before (solid lines) and after (dashed red lines)
+wash-in of D-AP5 (50 lM). Data were obtained by collecting 200 mIPSCs
+under each condition from each of the cells. Comparing before and after
+D-AP5 wash-in, the mIPSC amplitudes did not signiﬁcantly differ (P > 0.05;
+Kolmogorov–Smirnov test) but the inter-mIPSC interval was signiﬁcantly
+shifted to the right (P < 0.05; Kolmogorov–Smirnov test). The individual
+traces at the top were taken under the conditions indicated. The scale bars
+for the trace on the right applies to all the traces in A–C. The inset shows
+over 5-s periods mIPSCs recorded from a TRN neuron (top trace) and the
+abolition of mIPSCs (bottom trace) after bath application of picrotoxin
+(50 lM). (C) Pooled data from six TRN neurons before (solid lines) and after
+(dashed red lines) wash-in of Ro 25-6981 (3 lM). Data were obtained by collecting 200 mIPSCs under each condition from each of the cells. Comparing
+before and after Ro 25-6981 wash-in, the mIPSC amplitudes did not signiﬁcantly differ (P > 0.05; Kolmogorov–Smirnov test) but the inter-mIPSC
+interval was signiﬁcantly shifted to the right (P < 0.05; Kolmogorov–Smirnov test). The individual traces at the top were taken under the conditions
+indicated. (D) Pooled data from the six neurons shown in A, the eight neurons shown in B, and the six neurons shown in C before (Baseline) and after
+wash-in of NMDA (40 lM), D-AP5 (50 lM) or Ro 25-6981 (3 lM). The bars
+represent the amplitude or frequency of mIPSCs over a 5-s period averaged
+over 18 trials for each cell under the various conditions and are expressed as
+percentages of the average baseline response before NMDA, D-AP5 or Ro
+25-6981 application. Compared with baseline, the mIPSC amplitudes did not
+signiﬁcantly differ after the various agonist or antagonist wash-ins (P > 0.05;
+Wilcoxon matched-pair tests) but the mIPSC frequency signiﬁcantly
+increased after NMDA wash-in (*P < 0.05; Wilcoxon matched-pair test) or
+decreased after D-AP5 or Ro 25-6981 wash-in (*P < 0.05; Wilcoxon
+matched-pair tests).
+
+A
+
+B
+
+C
+
+18–24 min compared with the mEPSC frequency averaged over the
+points at 2–10 min (Fig. 4D). This increase was 52.9 Æ 4.9%. In
+comparing these two time periods, there was no change in the
+amplitudes of mEPSCs (Fig. 4E left) but the frequency of mEPSCs
+signiﬁcantly increased (Fig. 4E right). Additional wash-in of NBQX
+(2 lM) abolished the mEPSCs, indicating that they were mediated
+by AMPARs (Fig. 4E insert). That there were changes only in
+the frequency of mEPSCs in the presence of LY341495 is indicative
+of the presence of presynaptic mGlu2Rs. That the frequency of
+mEPSCs increased above the baseline level in the presence of
+LY341495 indicates that these presynaptic mGlu2Rs are tonically
+active and reduce the release of glutamate from terminals in TRN.
+During bath application of LY395756 (3 lM) or LY341495
+(300 nM) there was no change in Rm averaged over the points at
+18–24 min compared with the baseline Rm averaged over the
+points at 2–10 min (baseline, 162.8 Æ 16.6 MΩ; LY395756,
+163.8 Æ 16.1 MΩ; P > 0.05; Wilcoxon matched-pair test; baseline,
+184.2 Æ 10.1 MΩ; LY341495, 180.1 Æ 10.6 MΩ; P > 0.05;
+Wilcoxon matched-pair test).
+
+D
+
+Discussion
+LY341495 (300 nM) caused a reversible increase in the frequency of
+mEPSCs (Fig. 4C). In eight of eight TRN neurons, there was a signiﬁcant increase in mEPSC frequency averaged over the points at
+
+Here we show the presence of three types of tonically active receptors in a single CNS structure, the TRN. Figure 5 summarizes our
+ﬁndings: each of the three receptors that we have studied is indicated by an asterisk. Thus, TRN contains constitutively active post-
+
+© 2013 Federation of European Neuroscience Societies and Blackwell Publishing Ltd
+European Journal of Neuroscience, 37, 850–859
+
+Tonic receptors in the thalamic reticular nucleus 855
+A
+
+B
+
+C
+
+Fig. 3. Change in mean inter-mIPSC interval for each neuron. Bars represent the population mean. (A) Data from six TRN neurons before (Baseline) and after wash-in of NMDA (40 lM). (B) Data from eight TRN
+neurons before (Baseline) and after wash-in of D-AP5 (50 lM). (C) Data
+from six TRN neurons before (Baseline) and after wash-in of Ro 25-6981
+(3 lM).
+
+synaptic GABAARs, which generate in TRN neurons a persistent
+outward ClÀ current approximately 21 pA in amplitude. Furthermore, TRN exhibits tonically active GluN2B-containing NMDARs
+on reticuloreticular GABAergic terminals, which generate a continual facilitation of GABA release as indicated by an approximately
+40 or 28% decrease in the frequency of mIPSCs when these
+NMDARs are blocked by D-AP5 or Ro 25-6981, respectively.
+Moreover, TRN contains tonically active mGlu2Rs on corticoreticular glutamatergic terminals, which generate a continual reduction of
+glutamate release as indicated by an approximately 53% increase in
+the frequency of mEPSCs when these mGlu2Rs are blocked by
+LY341495. Therefore, each of these receptor types serves to hyperpolarize TRN neurons. It remains to be determined whether individual TRN neurons are inﬂuenced by all three of these tonically active
+receptor types.
+The presence of tonically active GABAARs appears ubiquitous in
+the CNS. Neurons containing these receptors are found in the neocortex (Salin & Prince, 1996; Krook-Magnuson et al., 2008), dentate gyrus (Nusser & Mody, 2002; Stell & Mody, 2002),
+hippocampus (Bai et al., 2001; Semyanov et al., 2003), dorsal striatum (Ade et al., 2008), amygdala (Marowsky et al., 2012), thalamic
+
+relay nuclei (Porcello et al., 2003; Belelli et al., 2005; Cope et al.,
+2005; Jia et al., 2005), cerebellum (Kaneda et al., 1995; Brickley
+et al., 1996; Wall & Usowicz, 1997) and spinal cord (Wang et al.,
+2008). However, in contrast to previous studies in rodents (Belelli
+et al., 2005; Cope et al., 2005; Jia et al., 2005), we now ﬁnd tonically active GABAARs in TRN. The discrepancy between our ﬁndings and these previous studies is most likely due to the types of
+GABAAR antagonists used. Whereas the earlier studies used only
+competitive GABAAR antagonists (bicuculline or gabazine), we
+used both a competitive (gabazine) and a non-competitive (picrotoxin) antagonist. But it is only when picrotoxin is used that a
+reduction in holding current in TRN neurons occurs. This different
+result when using a non-competitive antagonist is entirely consistent
+with the presence of constitutively active GABAARs in TRN. Such
+receptors do not require the endogenous ligand (GABA) to open the
+channel and therefore are not sensitive to orthosteric antagonists but
+are sensitive to the open channel blocker picrotoxin (Sigel et al.,
+1989; Krishek et al., 1996; Bouairi et al., 2006; McCartney et al.,
+2007).
+In rodents, functional GABAARs are pentameric structures that
+are usually composed of combinations of at least one of six a
+subunits, one of three b subunits, and one of three c subunits,
+although a d subunit can replace a c subunit (Pirker et al., 2000).
+Different combinations of subunits will impart distinct pharmacological and electrophysiological properties onto GABAARs (Sieghart
+et al., 1999; Mody & Pearce, 2004; Semyanov et al., 2004; Farrant
+& Nusser, 2005; Glykys & Mody, 2007; Belelli et al., 2009; Eyre
+et al., 2012). GABAARs in TRN express the a3, b3 and c2 subunits
+but not the a1, a4, b2 or d subunits (Pirker et al., 2000; Eyre et al.,
+2012). The combinations of subunits that make up phasic (synaptic)
+and tonic (constitutively active) GABAARs in TRN are currently
+unknown.
+GABAARs containing b1 subunits are also expressed in the
+rodent TRN (Pirker et al., 2000; Huntsman & Huguenard, 2006).
+These subunits impart a much greater heterogeneity in the electrophysiological properties of GABAARs (Huntsman & Huguenard,
+2006). Homomeric b1 subunit-containing GABAARs form functional ClÀ selective channels (Sigel et al., 1989; Krishek et al.,
+1996). These receptors exhibit channel opening in the absence of
+GABA, are insensitive to GABA and orthosteric antagonists, and
+are blocked by picrotoxin. Therefore, homomeric b1 GABAARs
+would be ideally suited to fulﬁl the role of constitutively active
+receptors that generate a persistent outward ClÀ current in TRN neurons. If these receptors are present in TRN, they could be regulated
+intracellularly by postsynaptic activation of G-protein-coupled
+receptors.
+Picrotoxin (50 lM) can act as a partial antagonist at homomeric
+a subunit-containing glycine receptors (GlyRs; Chattipakorn &
+McMahon, 2002). Therefore, the presence of these receptors in TRN
+could account for the persistent outward ClÀ current that we attribute to tonically active GABAARs. GlyR a2 and b subunits are
+expressed early in development in the rat TRN (Malosio et al.,
+1991). Although non-ligand-binding b subunits are still expressed
+here in the adult, there is no expression of ligand-binding a2 subunits in TRN on postnatal day 15 or thereafter. Because our data
+investigating tonic ClÀ currents are from 2- to 3-week-old rats, it is
+unlikely that blockade of GlyRs explains the picrotoxin-induced
+reduction in holding current of TRN neurons.
+Our data showing changes in postsynaptic miniature event frequency indicate that TRN contains tonically active presynaptic
+NMDARs that continually facilitate GABA release from reticuloreticular terminals. Such presynaptic facilitation of transmitter release
+
+© 2013 Federation of European Neuroscience Societies and Blackwell Publishing Ltd
+European Journal of Neuroscience, 37, 850–859
+
+856 J. W. Crabtree et al.
+Fig. 4. A tonic presynaptic mGlu2R reduces release of glutamate from terminals in TRN. (A) mEPSC frequency vs. time recorded from a representative TRN neuron at a holding potential of –60 mV. Each point represents the
+number of mEPSCs over a 5-s period averaged over six trials. Bath-applied
+LY395756 (3 lM; black bar) reversibly reduced mEPSC frequency. The individual traces at the top were taken at the times indicated (1, 2, 3). (B) Summary graph of the effect of LY395756 (3 lM; black bar) on mEPSC
+frequency over time in three TRN neurons. Data are expressed as percentages of the average baseline response over the points at 2–10 min before
+LY395756 application. Compared with this baseline, the decrease in mEPSC
+frequency averaged over the points at 18–24 min was signiﬁcant (P < 0.05;
+Wilcoxon matched-pair test). The dashed line indicates the baseline response
+level (100%). (C) mEPSC frequency vs. time recorded from a representative
+TRN neuron at a holding potential of À60 mV. Each point represents the
+number of mEPSCs over a 5-s period averaged over six trials. Bath-applied
+LY341495 (300 nM; black bar) reversibly increased mEPSC frequency. The
+individual traces at the top were taken at the times indicated (1, 2, 3). (D)
+Summary graph of the effect of LY341495 (300 nM; black bar) on mEPSC
+frequency over time in eight TRN neurons. Data are expressed as percentages of the average baseline response over the points at 2–10 min before
+LY341495 application. Compared with this baseline, the increase in mEPSC
+frequency averaged over the points at 18–24 min was signiﬁcant (P < 0.05;
+Wilcoxon matched-pair test). The dashed line indicates the baseline response
+level (100%). (E) Pooled data from the eight TRN neurons shown in D
+before (solid lines) and after (dashed red lines) wash-in of LY341495
+(300 nM). Data were obtained by collecting 200 mEPSCs each at the
+2–10 min points and the 18–24 min points from each of the cells. Comparing before and after LY341495 wash-in, the mIPSC amplitudes did not signiﬁcantly differ (P > 0.05; Kolmogorov–Smirnov test) but the inter-mIPSC
+interval was signiﬁcantly shifted to the left (P < 0.05; Kolmogorov–Smirnov
+test). The insert shows over 5-s periods mEPSCs in a TRN neuron (top trace)
+and the abolition of mEPSCs (bottom trace) after bath application of NBQX
+(2 lM).
+
+A
+
+B
+
+C
+
+CT input
+
+TRN input
+
+G
+L
+U
+T
+
+G
+A
+B
+A
+
+*
+D
+
+*
+R
+
+*
+AMPAR
+NMDAR
+GABAAR
+GABABR
+Group I mGluR
+Group II mGluR
+mGlu2R
+
+G
+L
+U
+T
+
+TC input
+Fig. 5. Summary of postsynaptic and presynaptic receptors in TRN. The
+schematic shows a GABAergic neuron in TRN (R). For clarity, only a single
+unbranched dendrite is shown. The receptors are those that we took into
+account in this study. Receptors indicated by an asterisk, either on the dendrite, the GABAergic (GABA) axon terminal or the glutamatergic (GLUT)
+axon terminal, summarize our ﬁndings regarding the presence of three types
+of tonically active receptors in TRN. Receptor and terminal locations are
+only approximate.
+
+E
+
+agrees with previous ﬁndings in the neocortex (Berretta & Jones,
+1996; Corlew et al., 2007; Brasier & Feldman, 2008), hippocampus
+(Breukel et al., 1998) and cerebellum (Glitsch & Marty, 1999). Pos-
+
+sible presynaptic NMDARs in the somatodendritic compartment
+appear to play only a small role in changing the frequency of postsynaptic miniature events (Glitsch & Marty, 1999). Thus, the presynaptic NMDARs responsible for these changes would be mostly
+located in the axonal domain. These receptors contain a GluN2B
+subunit that is selectively antagonized by Ro 25-6981. However,
+this compound is only a partial antagonist of such subunits (Bartlett
+
+© 2013 Federation of European Neuroscience Societies and Blackwell Publishing Ltd
+European Journal of Neuroscience, 37, 850–859
+
+Tonic receptors in the thalamic reticular nucleus 857
+et al., 2007; Paoletti & Neyton, 2007) so that, in our experiments,
+the reduction in frequency of mIPSCs by Ro 25-6981 is only about
+70% of that produced by D-AP5. Therefore, the possibility remains
+that not all tonically active NMDARs in TRN necessarily contain
+GluN2B subunits.
+Our data showing changes in postsynaptic miniature event frequency further indicate that TRN contains tonically active presynaptic mGlu2Rs that continually reduce glutamate release from
+corticoreticular terminals. Such presynaptic mGluR-mediated reduction of transmitter release agrees with previous ﬁndings in the hippocampus (Losonczy et al., 2003; Lauri et al., 2006) and
+hypothalamus (Boudaba et al., 2003; Acuna-Goycolea et al., 2004).
+However, 3 lM LY395756 not only acts as an agonist at mGlu2Rs
+but can also act as an antagonist at mGlu3Rs (Dominguez et al.,
+2005; Ceolin et al., 2011). Thus, in TRN, the mGlu2R-mediated
+decrease in mEPSC frequency of approximately 36% may be an
+underestimation due to an opposing effect mediated by mGlu3Rs.
+Furthermore, 300 nM LY341495 is not only a Group II mGluR
+antagonist but can also act as an antagonist at Group III mGlu8Rs
+(Kingston et al., 1998). Because TRN does not appear to express
+mGlu8Rs (Saugstad et al., 1997), the increase in mEPSC frequency
+of approximately 53% that we see during LY341495 application
+may accurately reﬂect the antagonist effect of this compound on
+mGlu2/3Rs regulating glutamate release from corticoreticular
+terminals.
+Presynaptic Group II mGluRs do not appear to be present at reticuloreticular synapses (Alexander & Godwin, 2006). However, the
+tonically active presynaptic NMDARs that we have identiﬁed in
+TRN may be expressed at other locations in this structure or TRN
+may express other types of tonically active presynaptic receptors.
+Thus, adenosine A1 receptors are present on GABAergic and glutamatergic terminals (Ulrich & Huguenard, 1995), GABABRs are
+present on GABAergic (Ulrich & Huguenard, 1996) and thalamoreticular (Sanchez-Vives et al., 1997) terminals, Group III mGlu4Rs
+are present on thalamoreticular terminals (Snead et al., 2000) and
+kainate receptors are present on corticoreticular terminals (Miyata &
+Imoto, 2009). All of these receptors modulate the release of neurotransmitter in TRN. Although not yet demonstrated, all of the abovementioned receptors could be tonically active. Whether TRN contains
+tonically active NMDARs on glutamatergic axons/terminals was not
+tested in the present study and remains to be determined.
+Like the types of tonically active receptors that are present
+throughout the CNS (Mody & Pearce, 2004; Semyanov et al.,
+2004; Cavelier et al., 2005; Farrant & Nusser, 2005; Glykys &
+Mody, 2007; Corlew et al., 2008; Featherstone & Shippy, 2008;
+Belelli et al., 2009; Brickley & Mody, 2012), those in TRN are
+presumably located at perisynaptic or extrasynaptic sites. Furthermore, tonically active NMDARs and mGlu2Rs on terminals in
+TRN are presumably activated by relatively low concentrations of
+ambient glutamate in the extracellular space. Possible sources of
+this endogenous agonist, with estimated basal ambient concentrations in the low micromolar range (Cavelier et al., 2005; Featherstone & Shippy, 2008), include activity-dependent homo- and
+heterosynaptic release and ‘spillover’ of neurotransmitter, activityindependent synaptic release of neurotransmitter, observed as
+mEPSCs, exocytosis of neurotransmitter from axons, dendrites and
+glial cells, and the cystine–glutamate transmembrane exchange system. Whatever the sources, the basal ambient concentration of glutamate, and hence the strength of tonically active NMDARs and
+mGlu2Rs, is most likely under the control of glutamate transport
+systems (Danbolt, 2001; Cavelier et al., 2005; Featherstone &
+Shippy, 2008). High-frequency synaptic activity could temporarily
+
+increase the strength of these tonically active receptors by momentarily increasing the ambient concentration of glutamate.
+Functional implications of tonically active receptors in TRN
+Our ﬁndings suggest that the three types of tonically active receptors
+we have identiﬁed in TRN will act together harmoniously to hyperpolarize the membrane potential of TRN neurons. Thus, the ClÀ current
+continually generated by constitutively active postsynaptic GABAARs
+in TRN neurons will directly hyperpolarize the membrane potential of
+these cells. Furthermore, the persistent increase in frequency of mIPSCs
+generated by tonically active presynaptic NMDARs will increase the
+inhibitory tone impinging on TRN neurons by increasing the amount of
+GABA that is available to bind at postsynaptic GABAARs and
+GABABRs. In addition, the persistent decrease in frequency of
+mEPSCs generated by tonically active presynaptic mGlu2Rs will
+decrease the excitatory tone impinging on TRN neurons by decreasing
+the amount of glutamate that is available to bind at postsynaptic AMPARs
+and NMDARs. However, because TRN neurons exhibit tonic and
+burst ﬁring modes (Steriade et al., 1986; Avanzini et al., 1989; Hartings et al., 2003), which occur at relatively depolarized or hyperpolarized membrane potentials, respectively, the hyperpolarizing effects
+of the tonically active receptors will differentially affect the action
+potential output of these cells depending on the moment-to-moment
+state of their membrane potential. Thus, when TRN neurons are depolarized, the tonically active receptors will act to reduce ﬁring in singlespike tonic mode. Indeed, we show that blockade of the persistent ClÀ
+current, which accounts for more than 90% of the intra-TRN inhibition, increases the action potential output of TRN neurons (cf. Brickley et al., 1996; Hamann et al., 2002; Semyanov et al., 2003; Cope
+et al., 2005). Furthermore, when TRN neurons are hyperpolarized, the
+tonically active receptors will act to increase the tendency to ﬁre in
+multispike burst mode through depolarizing intra-TRN GABAergic
+inputs and activation of T-type Ca2+ channels (Sun et al., 2012).
+Therefore, the presence of tonically active GABAARs, NMDARs and
+mGlu2Rs in TRN will affect its constituent neurons by decreasing
+their inhibitory output when they are relatively depolarized or increasing their inhibitory output when they are relatively hyperpolarized.
+
+Acknowledgements
+We thank Bill Anderson for supplying the data-acquisition software and Eli
+Lilly, Co. for generously supplying the LY341495 and LY395756. The support
+of The Wellcome Trust (J.W.C., Z.I.B. and J.T.R.I.) and NINDS (J.T.R.I.) is
+gratefully acknowledged. J.T.R.I. is a full-time employee of Eli Lilly and Company. The other authors declare no conﬂicts of interest, ﬁnancial or otherwise.
+
+Abbreviations
+ACSF, artiﬁcial cerebrospinal ﬂuid; AMPAR, a-amino-3-hydroxy-5-methylisoxazole-4-propionic acid receptor; CT, corticothalamic; D-AP5, D-(–)-2amino-5-phosphonopentanoic acid; EPSP, excitatory postsynaptic potential;
+GABA, c-aminobutyric acid; GABAAR, GABAA receptor; GDPbS, guanosine 5′-[b-thio]diphosphate trilithium salt; GlyR, glycine receptor; IPSC,
+inhibitory postsynaptic current; LY341495, (2S,1′S,2′S)-2-(9-xanthylmethyl)2-(2′-carboxycyclopropylglycine; LY395756, (1SR,2SR,4RS,5RS,6SR)-2-amino4-methylbicyclo[3.1.0]-hexane2,6-dicarboxylic acid; mEPSC, miniature
+excitatory postsynaptic current; mGlu2R, metabotropic glutamate type 2
+receptor; mIPSC, miniature inhibitory postsynaptic current; MK801, (5R,10S)-(–)-5-methyl-10,11-dihydro-5H-dibenzo[a,d]cyclohepten-5,10iminemaleate; NBQX, 2,3-dioxo-6-nitro-,1,2,3,4-tetrahydrobenzo[f]quinoxaline-7-sulfonamide; NMDAR, N-methyl-D-aspartate receptor; Ro 25-6981,
+(αR,βS)-α-(4-hydroxyphenyl)-β-methyl-4-(phenylmethyl)-1-piperidinepropanol maleate; TC, thalamocortical; TRN, thalamic reticular nucleus; TTX,
+tetrodotoxin.
+
+© 2013 Federation of European Neuroscience Societies and Blackwell Publishing Ltd
+European Journal of Neuroscience, 37, 850–859
+
+858 J. W. Crabtree et al.
+
+References
+Acuna-Goycolea, C., Li, Y. & van den Pol, A.N. (2004) Group III metabotropic glutamate receptors maintain tonic inhibition of excitatory synaptic
+input to hypocretin/orexin neurons. J. Neurosci., 24, 3013–3022.
+Ade, K.K., Janssen, M.J., Ortinski, P.I. & Vicini, S. (2008) Differential tonic
+GABA conductances in striatal medium spiny neurons. J. Neurosci., 28,
+1185–1197.
+Alexander, G.M. & Godwin, D.W. (2006) Unique presynaptic and postsynaptic roles of group II metabotropic glutamate receptors in the modulation
+of thalamic network activity. Neuroscience, 141, 501–513.
+Anderson, W.W. & Collingridge, G.L. (2007) Capabilities of the WinLTP
+data acquisition program extending beyond basic LTP experimental functions. J. Neurosci. Methods, 162, 346–356.
+Avanzini, G., de Curtis, M., Panzica, F. & Spreaﬁco, R. (1989) Intrinsic
+properties of nucleus reticularis thalami neurones of the rat studied in vitro. J. Physiol., 416, 111–122.
+Bai, D., Zhu, G., Pennefather, P., Jackson, M.F., MacDonald, J.F. & Orser,
+B.A. (2001) Distinct functional and pharmacological properties of tonic
+and quantal inhibitory postsynaptic currents mediated by c-aminobutyric
+acidA receptors in hippocampal neurons. Mol. Pharmacol., 59, 814–824.
+Bartlett, T.E., Bannister, N.J., Collett, V.J., Dargan, S.L., Massey, P.V., Bortolotto, Z.A., Fitzjohn, S.M., Bashir, Z.I., Collingridge, G.L. & Lodge, D.
+(2007) Differential roles of NR2A and NR2B-containing NMDA receptors
+in LTP and LTD in the CA1 region of two-week old rat hippocampus.
+Neuropharmacology, 52, 60–70.
+Belelli, D., Peden, D.R., Rosahl, T.W., Wafford, K.A. & Lambert, J.J.
+(2005) Extrasynaptic GABAA receptors of thalamocortical neurons: a
+molecular target for hypnotics. J. Neurosci., 25, 11513–11520.
+Belelli, D., Harrison, N.L., Maguire, J., Macdonald, R.L., Walker, M.C. &
+Cope, D.W. (2009) Extrasynaptic GABAA receptors: form, pharmacology,
+and function. J. Neurosci., 29, 12757–12763.
+Berretta, N. & Jones, R.S.G. (1996) Tonic facilitation of glutamate release
+by presynaptic N- methyl-D-aspartate autoreceptors in the entorhinal cortex. Neuroscience, 75, 339–344.
+Bouairi, E., Kamendi, H., Wang, X., Gorini, C. & Mendelowitz, D. (2006)
+Multiple types of GABAA receptors mediate inhibition in brain stem parasympathetic cardiac neurons in the nucleus ambiguus. J. Neurophysiol.,
+96, 3266–3272.
+Boudaba, C., Linn, D.M., Halmos, K.Cs. & Tasker, J.G. (2003) Increased
+tonic activation of presynaptic metabotropic glutamate receptors in the rat
+supraoptic nucleus following chronic dehydration. J. Physiol., 551, 815–
+823.
+Bourassa, J., Pinault, D. & Desch^enes, M. (1995) Corticothalamic projections
+from the cortical barrel ﬁeld to the somatosensory thalamus in rats: a single-ﬁbre study using biocytin as an anterograde tracer. Eur. J. Neurosci.,
+7, 19–30.
+Brasier, D.J. & Feldman, D.E. (2008) Synapse-speciﬁc expression of functional presynaptic NMDA receptors in rat somatosensory cortex. J. Neurosci., 28, 2199–2211.
+Breukel, A.I.M., Besselsen, E., Lopes da Silva, F.H. & Ghijsen, W.E.J.M.
+(1998) A presynaptic N-methyl-D-aspartate autoreceptor in rat hippocampus modulating amino acid release from a cytoplasmic pool. Eur. J.
+Neurosci., 10, 106–114.
+Brickley, S.G. & Mody, I. (2012) Extrasynaptic GABAA receptors: their
+function in the CNS and implications for disease. Neuron, 73, 23–34.
+Brickley, S.G., Cull-Candy, S.G. & Farrant, M. (1996) Development of a
+tonic form of synaptic inhibition in rat cerebellar granule cells resulting
+from persistent activation of GABAA receptors. J. Physiol., 497, 753–
+759.
+Bright, D.P. & Brickley, S.G. (2008) Acting locally but sensing globally:
+impact of GABAergic synaptic plasticity on phasic and tonic inhibition in
+the thalamus. J. Physiol., 586, 5091–5099.
+Bright, D.P., Aller, M.I. & Brickley, S.G. (2007) Synaptic release generates
+a tonic GABAA receptor-mediated conductance that modulates burst precision in thalamic relay neurons. J. Neurosci., 27, 2560–2569.
+Cavelier, P., Hamann, M., Rossi, D., Mobbs, P. & Attwell, D. (2005) Tonic
+excitation and inhibition of neurons: ambient transmitter sources and computational consequences. Prog. Biophys. Mol. Biol., 87, 3–16.
+Ceolin, L., Kantamneni, S., Barker, G.R.I., Hanna, L., Murray, L., Warburton, E.C., Robinson, E.S.J., Monn, J.A., Fitzjohn, S.M., Collingridge,
+G.L., Bortolotto, Z.A. & Lodge, D. (2011) Study of novel selective mGlu2
+agonist in the temporo-ammonic input to CA1 neurons reveals reduced
+mGlu2 receptor expression in a Wistar substrain with an anxiety-like phenotype. J. Neurosci., 31, 6721–6731.
+
+Chattipakorn, S.C. & McMahon, L.L. (2002) Pharmacological characterization of glycine-gated chloride currents recorded in rat hippocampal slices.
+J. Neurophysiol., 87, 1515–1525.
+Cope, D.W., Hughes, S.W. & Crunelli, V. (2005) GABAA receptor-mediated
+tonic inhibition in thalamic neurons. J. Neurosci., 25, 11553–11563.
+Corlew, R., Wang, Y., Ghermazien, H., Erisir, A. & Philpot, B.D. (2007)
+Developmental switch in the contribution of presynaptic and postsynaptic
+NMDA receptors to long-term depression. J. Neurosci., 27, 9835–9845.
+Corlew, R., Brasier, D.J., Feldman, D.E. & Philpot, B.D. (2008) Presynaptic
+NMDA receptors: newly appreciated roles in cortical synaptic function and
+plasticity. Neuroscientist, 14, 609–625.
+Cotillon-Williams, N., Huetz, C., Hennevin, E. & Edeline, J-M. (2008) Tonotopic control of auditory thalamus frequency tuning by reticular thalamic
+neurons. J. Neurophysiol., 99, 1137–1151.
+Cox, C.L. & Sherman, S.M. (1999) Glutamate inhibits thalamic reticular neurons. J. Neurosci., 19, 6694–6699.
+Cox, C.L., Huguenard, J.R. & Prince, D.A. (1997) Nucleus reticularis neurons mediate diverse inhibitory effects in thalamus. Proc. Natl. Acad. Sci.
+USA, 94, 8854–8859.
+Crabtree, J.W. & Isaac, J.T.R. (2002) New intrathalamic pathways allowing
+modality-related and cross-modality switching in the dorsal thalamus.
+J. Neurosci., 22, 8754–8761.
+Danbolt, N.C. (2001) Glutamate uptake. Prog. Neurobiol., 65, 1–105.
+Deleuze, C. & Huguenard, J.R. (2006) Distinct electrical and chemical connectivity maps in the thalamic reticular nucleus: potential roles in synchronization and sensation. J. Neurosci., 26, 8633–8645.
+Dominguez, C., Prieto, L., Valli, M.J., Massey, S.M., Bures, M., Wright,
+R.A., Johnson, B.G., Andis, S.L., Kingston, A., Schoepp, D.D. & Monn,
+J.A. (2005) Methyl substitution of 2-aminobicyclo[3.1.0]hexane 2,6-dicarboxylate (LY354740) determines functional activity at metabotropic glutamate receptors: identiﬁcation of a subtype selective mGlu2 receptor
+agonist. J. Med. Chem., 48, 3605–3612.
+Eyre, M.D., Renzi, M., Farrant, M. & Nusser, Z. (2012) Setting the time
+course of inhibitory synaptic currents by mixing multiple GABAA receptor
+a subunit isoforms. J. Neurosci., 32, 5853–5867.
+Farrant, M. & Nusser, Z. (2005) Variations on an inhibitory theme: phasic and
+tonic activation of GABAA receptors. Nat. Rev. Neurosci., 6, 215–229.
+Featherstone, D.E. & Shippy, S.A. (2008) Regulation of synaptic transmission by ambient extracellular glutamate. Neuroscientist, 14, 171–181.
+Glitsch, M. & Marty, A. (1999) Presynaptic effects of NMDA in cerebellar
+Purkinje cells and interneurons. J. Neurosci., 19, 511–519.
+Glykys, J. & Mody, I. (2007) Activation of GABAA receptors: views from
+outside the synaptic cleft. Neuron, 56, 763–770.
+Hamann, M., Rossi, D.J. & Attwell, D. (2002) Tonic and spillover inhibition
+of granule cells control information ﬂow through cerebellar cortex.
+Neuron, 33, 625–633.
+Hartings, J.A. & Simons, D.J. (2000) Inhibition suppresses transmission of
+tonic vibrissae-evoked activity in the rat ventrobasal thalamus. J. Neurosci., 20 RC100, 1–5.
+Hartings, J.A., Temereanca, A. & Simons, D.J. (2003) State-dependent processing
+of sensory stimuli by thalamic reticular neurons. J. Neurosci., 23, 5264–5271.
+Houser, C.R., Vaughn, J.E., Barber, R.P. & Roberts, E. (1980) GABA neurons are the major cell type of the nucleus reticularis thalami. Brain Res.,
+200, 341–354.
+Huntsman, M.M. & Huguenard, J.R. (2006) Fast IPSCs in rat thalamic reticular nucleus require the GABAA receptor b1 subunit. J. Physiol., 572,
+459–475.
+Jia, F., Pignataro, L., Schoﬁeld, C.M., Yue, M., Harrison, N.L. & Goldstein,
+P.A. (2005) An extrasynaptic GABAA receptor mediates tonic inhibition
+in thalamic VB neurons. J. Neurophysiol., 94, 4491–4501.
+Jones, E.G. (1975) Some aspects of the organization of the thalamic reticular
+complex. J. Comp. Neurol., 162, 285–308.
+Kaneda, M., Farrant, M. & Cull-Candy, S.G. (1995) Whole-cell and singlechannel currents activated by GABA and glycine in granule cells of the
+rat cerebellum. J. Physiol., 485, 419–435.
+Kim, U. & McCormick, D.A. (1998) The functional inﬂuence of burst and
+tonic ﬁring mode on synaptic interactions in the thalamus. J. Neurosci.,
+18, 9500–9516.
+Kingston, A.E., Ornstein, P.L., Wright, R.A., Johnson, B.G., Mayne, N.G.,
+Burnett, J.P., Belagaje, R., Wu, S. & Schoepp, D.D. (1998) LY341495 is
+a nanomolar potent and selective antagonist of group II metabotropic glutamate receptors. Neuropharmacology, 37, 1–12.
+Krishek, B.J., Moss, S.J. & Smart, T.G. (1996) Homomeric b1 c-aminobutyric acidA receptor-ion channels: evaluation of pharmacological and physiological properties. Mol. Pharmacol., 49, 494–504.
+
+© 2013 Federation of European Neuroscience Societies and Blackwell Publishing Ltd
+European Journal of Neuroscience, 37, 850–859
+
+Tonic receptors in the thalamic reticular nucleus 859
+Krook-Magnuson, E.I., Li, P., Paluszkiewicz, S.M. & Huntsman, M.M.
+(2008) Tonically active inhibition selectively controls feedforward circuits
+in mouse barrel cortex. J. Neurophysiol., 100, 932–944.
+Lam, Y-W., Nelson, C.S. & Sherman, S.M. (2006) Mapping of the functional interconnections between thalamic reticular neurons using photostimulation. J. Neurophysiol., 96, 2593–2600.
+Landisman, C.E., Long, M.A., Beierlein, M., Deans, M.R., Paul, D.L. &
+Connors, B.W. (2002) Electrical synapses in the thalamic reticular nucleus.
+J. Neurosci., 22, 1002–1009.
+Larsen, R.S., Corlew, R.J., Henson, M.A., Roberts, A.C., Mishina, M., Watanabe, M., Lipton, S.A., Nakanishi, N., Perez-Ota~no, I., Weinberg, R.J. & Philpot, B.D. (2011) NR3A-containing NMDARs promote neurotransmitter
+release and spike timing-dependent plasticity. Nat. Neurosci., 14, 338–344.
+Lauri, S.E., Vesikansa, A., Segerstr
+ale, M., Collingridge, G.L., Isaac, J.T.R.
+& Taira, T. (2006) Functional maturation of CA1 synapses involves activity-dependent loss of tonic kainate receptor-mediated inhibition of glutamate release. Neuron, 50, 415–429.
+Lee, K.H. & McCormick, D.A. (1997) Modulation of spindle oscillations by
+acetylcholine, cholecystokinin and 1S,3R-ACPD in the ferret lateral geniculate and perigeniculate nuclei in vitro. Neuroscience, 77, 335–350.
+Lee, S.M., Friedberg, M.H. & Ebner, F.F. (1994a) The role of GABA-mediated inhibition in the rat ventral posterior medial thalamus. I. Assessment
+of receptive ﬁeld changes following thalamic reticular nucleus lesions.
+J. Neurophysiol., 71, 1702–1715.
+Lee, S.M., Friedberg, M.H. & Ebner, F.F. (1994b) The role of GABA-mediated inhibition in the rat ventral posterior medial thalamus. II. Differential
+effects of GABAA and GABAB receptor antagonists on responses of
+VPM neurons. J. Neurophysiol., 71, 1716–1726.
+Long, M.A., Landisman, C.E. & Connors, B.W. (2004) Small clusters of
+electrically coupled neurons generate synchronous rhythms in the thalamic
+reticular nucleus. J. Neurosci., 24, 341–349.
+Losonczy, A., Somogyi, P. & Nusser, Z. (2003) Reduction of excitatory
+postsynaptic responses by persistently active metabotropic glutamate receptors in the hippocampus. J. Neurophysiol., 89, 1910–1919.
+Malosio, M.-L., Marqueze-Pouey, B., Kuhse, J. & Betz, H. (1991) Widespread expression of glycine receptor subunit mRNAs in the adult and
+developing rat brain. EMBO J., 10, 2401–2409.
+Marowsky, A., Rudolph, U., Fritschy, J.-M. & Arand, M. (2012) Tonic inhibition in principal cells of the amygdala: a central role for a3 subunit-containing GABAA receptors. J. Neurosci., 32, 8611–8619.
+McCartney, M.R., Deeb, T.Z., Henderson, T.N. & Hales, T.G. (2007) Tonically active GABAA receptors in hippocampal pyramidal neurons exhibit
+constitutive GABA-independent gating. Mol. Pharmacol., 71, 539–548.
+Mistry, R.B., Isaac, J.T.R. & Crabtree, J.W. (2008) Two differential frequency-dependent mechanisms regulating tonic ﬁring of thalamic reticular
+neurons. Eur. J. Neurosci., 27, 2643–2656.
+Miyata, M. & Imoto, K. (2009) Contrary roles of kainate receptors in transmitter release at corticothalamic synapses onto thalamic relay and reticular
+neurons. J. Physiol., 587, 999–1012.
+Mody, I. & Pearce, R.A. (2004) Diversity of inhibitory neurotransmission
+through GABAA receptors. Trends Neurosci., 27, 569–575.
+Nusser, Z. & Mody, I. (2002) Selective modulation of tonic and phasic inhibition in dentate gyrus granule cells. J. Neurophysiol., 87, 2624–2628.
+Ohishi, H., Shigemoto, R., Nakanishi, S. & Mizuno, N. (1993a) Distribution
+of the messenger RNA for a metabotropic glutamate receptor, mGluR2, in
+the central nervous system of the rat. Neuroscience, 53, 1009–1018.
+Ohishi, H., Shigemoto, R., Nakanishi, S. & Mizuno, N. (1993b) Distribution
+of the mRNA for a metabotropic glutamate receptor (mGluR3) in the rat
+brain: an in situ hybridization study. J. Comp. Neurol., 335, 252–266.
+Paoletti, P. & Neyton, J. (2007) NMDA receptor subunits: function and pharmacology. Curr. Opin. Pharmacol., 7, 39–47.
+Pirker, S., Schwarzer, C., Wieselthaler, A., Sieghart, W. & Sperk, G. (2000)
+GABAA receptors: immunocytochemical distribution of 13 subunits in the
+adult rat brain. Neuroscience, 101, 815–850.
+
+Porcello, D.M., Huntsman, M.M., Mihalek, R.M., Homanics, G.E. & Huguenard, J.R. (2003) Intact synaptic GABAergic inhibition and altered neurosteroid modulation of thalamic relay neurons in mice lacking d subunit.
+J. Neurophysiol., 89, 1378–1386.
+Salin, P.A. & Prince, D.A. (1996) Spontaneous GABAA receptor-mediated
+inhibitory currents in adult rat somatosensory cortex. J. Neurophysiol., 75,
+1573–1588.
+Salt, T.E. (1989) Gamma-aminobutyric acid and afferent inhibition in the cat
+and rat ventrobasal thalamus. Neuroscience, 28, 17–26.
+Sanchez-Vives, M.V., Bal, T. & McCormick, D.A. (1997) Inhibitory interactions between perigeniculate GABAergic neurons. J. Neurosci., 17, 8894–
+8908.
+Saugstad, J.A., Kinzie, J.M., Shinohara, M.M., Segerson, T.P. & Westbrook,
+G.L. (1997) Cloning and expression of rat metabotropic glutamate receptor 8
+reveals a distinct pharmacological proﬁle. Mol. Pharmacol., 51, 119–125.
+Semyanov, A., Walker, M.C. & Kullmann, D.M. (2003) GABA uptake regulates cortical excitability via cell type-speciﬁc tonic inhibition. Nat. Neurosci., 6, 484–490.
+Semyanov, A., Walker, M.C., Kullmann, D.M. & Silver, R.A. (2004) Tonically active GABAA receptors: modulating gain and maintaining the tone.
+Trends Neurosci., 27, 262–269.
+Sherman, S.M. & Guillery, R.W. (2001) Exploring the Thalamus. Academic
+Press, San Diego CA.
+Sieghart, W., Fuchs, K., Tretter, V., Ebert, V., Jechlinger, M., H€
+oger, H. &
+Adamiker, D. (1999) Structure and subunit composition of GABAA receptors. Neurochem. Int., 34, 379–385.
+Sigel, E., Baur, R., Malherbe, P. & M€
+ohler, H. (1989) The rat b1-subunit of
+the GABAA receptor forms a picrotoxin-sensitive anion channel open in
+the absence of GABA. FEBS Lett., 257, 377–379.
+Snead, O.C., Banerjee, P.K., Burnham, M. & Hampson, D. (2000) Modulation of absence seizures by the GABAA receptor: a critical role for
+metabotropic glutamate receptor 4 (mGluR4). J. Neurosci., 20, 6218–
+6224.
+Stell, B.M. & Mody, I. (2002) Receptors with different afﬁnities mediate
+phasic and tonic GABAA conductances in hippocampal neurons. J. Neurosci., 22 RC223, 1–5.
+Steriade, M., Domich, L. & Oakson, G. (1986) Reticularis thalami neurons
+revisited: activity changes during shifts in states of vigilance. J. Neurosci.,
+6, 68–81.
+Sun, Y.-G., Wu, C.-S., Lu, H.-C. & Beierlein, M. (2011) Target-dependent
+control of synaptic inhibition by endocannabinoids in the thalamus.
+J. Neurosci., 31, 9222–9230.
+Sun, Y.-G., Wu, C.-S., Renger, J.J., Uebele, V.N., Lu, H.-C. & Beierlein, M.
+(2012) GABAergic synaptic transmission triggers action potentials in thalamic reticular nucleus neurons. J. Neurosci., 32, 7782–7790.
+Ulrich, D. & Huguenard, J.R. (1995) Purinergic inhibition of GABA and glutamate release in the thalamus: implications for thalamic network activity.
+Neuron, 15, 909–918.
+Ulrich, D. & Huguenard, J.R. (1996) GABAB receptor-mediated responses in
+GABAergic projection neurones of rat nucleus reticularis thalami in vitro.
+J. Physiol., 493, 845–856.
+Wall, M.J. & Usowicz, M.M. (1997) Development of action potentialdependent and independent spontaneous GABAA receptor-mediated
+currents in granule cells of postnatal rat cerebellum. Eur. J. Neurosci., 9,
+533–548.
+Wang, L., Spary, E., Deuchars, J. & Deuchars, S.A. (2008) Tonic GABAergic inhibition of sympathetic preganglionic neurons: a novel substrate for
+sympathetic control. J. Neurosci., 28, 12445–12452.
+Warren, R.A. & Jones, E.G. (1994) Glutamate activation of cat thalamic
+reticular nucleus: effects on response properties of ventroposterior neurons.
+Exp. Brain Res., 100, 215–226.
+Woodhall, G., Evans, D.I., Cunningham, M.O. & Jones, R.S.G. (2001)
+NR2B-containing NMDA autoreceptors at synapses on entorhinal cortical
+neurons. J. Neurophysiol., 86, 1644–1651.
+
+© 2013 Federation of European Neuroscience Societies and Blackwell Publishing Ltd
+European Journal of Neuroscience, 37, 850–859
+
+

@@ -1,0 +1,1225 @@
+REVIEW
+
+Communicated by Dan Johnston
+
+The NEURON Simulation Environment
+M. L. Hines
+Department of Computer Science and Neuroengineering and Neuroscience Center,
+Yale University, New Haven, CT 06520, U.S.A.
+
+N. T. Carnevale
+Psychology Department, Yale University, New Haven, CT 06520, U.S.A.
+
+The moment-to-moment processing of information by the nervous system involves the propagation and interaction of electrical and chemical
+signals that are distributed in space and time. Biologically realistic modeling is needed to test hypotheses about the mechanisms that govern
+these signals and how nervous system function emerges from the operation of these mechanisms. The NEURON simulation program provides
+a powerful and flexible environment for implementing such models of
+individual neurons and small networks of neurons. It is particularly useful when membrane potential is nonuniform and membrane currents are
+complex. We present the basic ideas that would help informed users make
+the most efficient use of NEURON.
+1 Introduction
+NEURON (Hines, 1984, 1989, 1993, 1994) provides a powerful and flexible environment for implementing biologically realistic models of electrical
+and chemical signaling in neurons and networks of neurons. This article
+describes the concepts and strategies that have guided the design and implementation of this simulator, with emphasis on those features that are
+particularly relevant to its most efficient use.
+
+1.1 The Problem Domain. Information processing in the brain results
+from the spread and interaction of electrical and chemical signals within
+and among neurons. This involves nonlinear mechanisms that span a wide
+range of spatial and temporal scales (Carnevale & Rosenthal, 1992) and are
+constrained to operate within the intricate anatomy of neurons and their
+interconnections. Consequently the equations that describe brain mechanisms generally do not have analytical solutions, and intuition is not a reliable guide to understanding the working of the cells and circuits of the
+brain. Furthermore, these nonlinearities and spatiotemporal complexities
+are quite unlike those that are encountered in most nonbiological systems,
+Neural Computation 9, 1179–1209 (1997)
+
+c 1997 Massachusetts Institute of Technology
+
+1180
+
+M. L. Hines and N. T. Carnevale
+
+so the utility of many quantitative and qualitative modeling tools that were
+developed without taking these features into consideration is severely limited.
+NEURON is designed to address these problems by enabling both the
+convenient creation of biologically realistic quantitative models of brain
+mechanisms and the efficient simulation of the operation of these mechanisms. In this context the term biological realism does not mean “infinitely
+detailed.” Instead, it means that the choice of which details to include in
+the model and which to omit are at the discretion of the investigator who
+constructs the model, and not forced by the simulation program.
+To the experimentalist, NEURON offers a tool for cross-validating data,
+estimating experimentally inaccessible parameters, and deciding whether
+known facts account for experimental observations. To the theoretician, it
+is a means for testing hypotheses and determining the smallest subset of
+anatomical and biophysical properties that is necessary and sufficient to
+account for particular phenomena. To the student in a laboratory course,
+it provides a vehicle for illustrating and exploring the operation of brain
+mechanisms in a simplified form that is more robust than the typical “wet
+lab” experiment. For the experimentalist, theoretician, and student alike, a
+powerful simulation tool such as NEURON can be an indispensable aid to
+developing the insight and intuition that is needed if one is to discover the
+order hidden within the intricacy of biological phenomena, the order that
+transcends the complexity of accident and evolution.
+1.2 Experimental Advances and Quantitative Modeling. Experimental advances drive and support quantitative modeling. Over the past two
+decades, the field of neuroscience has seen striking developments in experimental techniques, among them the following:
+• High-quality electrical recording from neurons in vitro and in vivo
+using patch clamp.
+• Multiple impalements of visually identified cells.
+• Simultaneous intracellular recording from paired pre- and postsynaptic neurons.
+• Simultaneous measurement of electrical and chemical signals.
+• Multisite electrical and optical recording.
+• Quantitative analysis of anatomical and biophysical properties from
+the same neuron.
+• Photolesioning of cells.
+• Photorelease of caged compounds for spatially precise chemical stimulation.
+
+The NEURON Simulation Environment
+
+1181
+
+• New drugs such as channel blockers and receptor agonists and antagonists.
+• Genetic engineering of ion channels and receptors.
+• Analysis of messenger RNA and biophysical properties from the same
+neuron.
+• “Knockout” mutations.
+These and other advances are responsible for impressive progress in the
+definition of the molecular biology and biophysics of receptors and channels; the construction of libraries of identified neurons and neuronal classes
+that have been characterized anatomically, pharmacologically, and biophysically; and the analysis of neuronal circuits involved in perception, learning,
+and sensorimotor integration.
+The result is a data avalanche that catalyzes the formulation of new hypotheses of brain function, while at the same time serving as the empirical
+basis for the biologically realistic quantitative models that must be used to
+test these hypotheses. Following are some examples from the large list of
+topics that have been investigated through the use of such models:
+• The cellular mechanisms that generate and regulate chemical and electrical signals (Destexhe, Contreras, Steriade, Sejnowski, & Huguenard,
+1996; Jaffe et al., 1994).
+• Drug effects on neuronal function (Lytton & Sejnowski, 1992).
+• Presynaptic (Lindgren & Moore, 1989) and postsynaptic (Destexhe &
+Sejnowski, 1995; Traynelis, Silver, & Cull-Candy, 1993) mechanisms
+underlying communication between neurons.
+• Integration of synaptic inputs (Bernander, Douglas, Martin, & Koch,
+1991; Cauller & Connors, 1992).
+• Action potential initiation and conduction (H¨ausser, Stuart, Racca, &
+Sakmann, 1995; Hines & Shrager, 1991; Mainen, Joerges, Huguenard,
+& Sejnowski, 1995).
+• Cellular mechanisms of learning (Brown, Zador, Mainen, & Claiborne,
+1992; Tsai, Carnevale, & Brown, 1994a).
+• Cellular oscillations (Destexhe, Babloyantz, & Sejnowski, 1993a; Lytton, Destexhe, & Sejnowski, 1996).
+• Thalamic networks (Destexhe, McCormick, & Sejnowski, 1993b; Destexhe, Contreras, Sejnowski, & Steriade, 1994).
+• Neural information encoding (Hsu et al., 1993; Mainen & Sejnowski,
+1995; Softky, 1994).
+
+1182
+
+M. L. Hines and N. T. Carnevale
+
+2 Overview of NEURON
+NEURON is intended to be a flexible framework for handling problems in
+which membrane properties are spatially inhomogeneous and where membrane currents are complex. Since it was designed specifically to simulate
+the equations that describe nerve cells, NEURON has three important advantages over general-purpose simulation programs. First, the user is not
+required to translate the problem into another domain, but instead is able
+to deal directly with concepts that are familiar at the neuroscience level.
+Second, NEURON contains functions that are tailored specifically for controlling the simulation and graphing the results of real neurophysiological
+problems. Third, its computational engine is particularly efficient because
+of the use of special methods and tricks that take advantage of the structure
+of nerve equations (Hines, 1984; Mascagni, 1989).
+The general domain of nerve simulation, however, is still too large for
+any single program to deal optimally with every problem. In practice, each
+program has its origin in a focused attempt to solve a restricted class of
+problems. Both speed of simulation and the ability of the user to maintain conceptual control degrade when any program is applied to problems
+outside the class for which it is best suited.
+NEURON is computationally most efficient for problems that range from
+parts of single cells to small numbers of cells in which cable properties play
+a crucial role. In terms of conceptual control, it is best suited to tree-shaped
+structures in which the membrane channel parameters are approximated by
+piecewise linear functions of position. Two classes of problems for which
+it is particularly useful are those in which it is important to calculate ionic
+concentrations and those where one needs to compute the extracellular
+potential just next to the nerve membrane. It is especially capable for investigating new kinds of membrane channels since they are described using a
+high-level neuron model description language (NMODL) (Moore & Hines,
+1996), which allows the expression of models in terms of kinetic schemes or
+sets of simultaneous differential and algebraic equations. To maintain efficiency, user-defined mechanisms in NMODL are automatically translated
+into C, compiled, and linked into the rest of NEURON.
+The flexibility of NEURON comes from a built-in object-oriented interpreter, which is used to define the morphology and membrane properties of
+neurons, control the simulation, and establish the appearance of a graphical
+interface. The default graphical interface is suitable for exploratory simulations involving the setting of parameters, control of voltage and current
+stimuli, and graphing variables as a function of time and position.
+Simulation speed is excellent since membrane voltage is computed by
+an implicit integration method optimized for branched structures (Hines,
+1984). The performance of NEURON degrades very slowly with increased
+complexity of morphology and membrane mechanisms, and it has been
+applied to very large network models: 104 cells with six compartments each,
+
+The NEURON Simulation Environment
+
+1183
+
+for a total of 106 synapses in the net (T. Sejnowski, personal communication,
+March 29, 1996).
+3 Mathematical Basis
+Strategies for numerical solution of the equations that describe chemical
+and electrical signaling in neurons have been discussed in many places.
+Elsewhere we have briefly presented an intuitive rationale for the most
+commonly used methods (Hines & Carnevale, 1995). Here we start from
+this base and proceed to address those aspects that are most pertinent to the
+design and application of NEURON.
+3.1 The Cable Equation. The application of cable theory to the study
+of electrical signaling in neurons has a long history, which is briefly summarized elsewhere (Rall, 1989). The basic computational task is to solve
+numerically the cable equation
+∂ 2V
+∂V
++ I(V, t) =
+,
+∂t
+∂x2
+
+(3.1)
+
+which describes the relationship between current and voltage in a onedimensional cable. The branched architecture typical of most neurons is
+incorporated by combining equations of this form with appropriate boundary conditions.
+Spatial discretization of this partial differential equation is equivalent to
+reducing the spatially distributed neuron to a set of connected compartments. The earliest example of a multicompartmental approach to the analysis of dendritic electrotonus was provided by Rall (1964).
+Spatial discretization produces a family of ordinary differential equations
+of the form
+cj
+
+dvj
++ iionj =
+dt
+
+k
+
+vk − vj
+.
+rjk
+
+(3.2)
+
+Equation 3.2 is a statement of Kirchhoff’s current law, which asserts that net
+transmembrane current leaving the jth compartment must equal the sum
+of axial currents entering this compartment from all sources (see Figure 1).
+The left-hand side of equation 3.2 is the total membrane current, which is
+the sum of capacitive and ionic components. The capacitive component is
+cj dvj /dt, where cj is the membrane capacitance of the compartment. The ionic
+component iionj includes all currents through ionic channel conductances.
+The right-hand side of equation 3.2 is the sum of axial currents that enter
+this compartment from its adjacent neighbors. Currents injected through a
+microelectrode would be added to the right-hand side. The sign conventions
+for current are as follows: outward transmembrane current is positive; axial
+
+1184
+
+M. L. Hines and N. T. Carnevale
+
+Figure 1: The net current entering a region must equal zero.
+
+current flow into a region is positive; positive injected current drives vj in a
+positive direction.
+Equation 3.2 involves two approximations. First, axial current is specified
+in terms of the voltage drop between the centers of adjacent compartments.
+The second approximation is that spatially varying membrane current is
+represented by its value at the center of each compartment. This is much
+less drastic than the often-heard statement that a compartment is assumed
+to be “isopotential.” It is far better to picture the approximation in terms
+of voltage varying linearly between the centers of adjacent compartments.
+Indeed, the linear variation in voltage is implicit in the usual description of
+a cable in terms of discrete electrical equivalent circuits.
+If the compartments are of equal size, it is easy to use Taylor’s series
+to show that both of these approximations have errors proportional to the
+square of compartment length. Thus, replacing the second partial derivative
+by its central difference approximation introduces errors proportional to
+x2 , and doubling the number of compartments reduces the error by a
+factor of four.
+It is often not convenient for the size of all compartments to be equal.
+Unequal compartment size might be expected to yield simulations that are
+only first-order accurate. However, comparison of simulations in which
+unequal compartments are halved or quartered in size generally reveals a
+
+The NEURON Simulation Environment
+
+1185
+
+second-order reduction of error. A rough rule of thumb is that simulation
+error is proportional to the square of the size of the largest compartment.
+The first of two special cases of equation 3.2 that we wish to discuss allows
+us to recover the usual parabolic differential form of the cable equation.
+Consider the interior of an unbranched cable with constant diameter. The
+axial current consists of two terms involving compartments with the natural
+indices j − 1 and j + 1, that is,
+cj
+
+dvj
+vj−1 − vj
+vj+1 − vj
++ iionj =
++
+.
+dt
+rj−1,j
+rj,j+1
+
+If the compartments have the same length x and diameter d, then the capacitance of a compartment is Cm π d x, and the axial resistance is Ra x/π(d/2)2 .
+Cm is called the specific capacitance of the membrane, which is generally
+taken to be 1 µf/cm2 . Ra is the axial resistivity, which has different reported
+values for different cell classes (e.g., 35.4 cm for squid axon). Equation 3.2
+then becomes
+Cm
+
+dvj
+d vj+1 − 2vj + vj−1
++ ij =
+,
+dt
+4Ra
+x2
+
+where we have replaced the total ionic current iionj with the current density
+ij . The right-hand term, as x → 0, is just ∂ 2 v/∂x2 at the location of the
+now-infinitesimal compartment j.
+The second special case of equation 3.2 allows us to recover the boundary condition. This is an important exercise since naive discretizations at
+the ends of the cable have destroyed the second-order accuracy of many
+simulations. Nerve boundary conditions are that no axial current flows at
+the end of the cable; the end is sealed. This is implicit in equation 3.2, where
+the right-hand side consists of only the single term (vj−1 − vj )/rj−1,j when
+compartment j lies at the end of an unbranched cable.
+3.2 Spatial Discretization in a Biological Context: Sections and Segments. Every nerve simulation program solves for the longitudinal spread
+of voltage and current by approximating the cable equation as a series of
+compartments connected by resistors (see Figure 4 and equation 3.2). The
+sum of all the compartment areas is the total membrane area of the whole
+nerve. Unfortunately, it is usually not clear at the outset how many compartments should be used. Both the accuracy of the approximation and the
+computation time increase as the number of compartments used to represent the cable increases. When the cable is “short,” a single compartment
+can be made to represent the entire cable adequately. For long cables or
+highly branched structures, it may be necessary to use a large number of
+compartments.
+This raises the question of how best to manage all the parameters that
+exist within these compartments. Consider membrane capacitance, which
+
+1186
+
+M. L. Hines and N. T. Carnevale
+
+has a different value in each compartment. Rather than specify the capacitance of each compartment individually, it is better to deal in terms of a
+single specific membrane capacitance that is constant over the entire cell
+and have the program compute the values of the individual capacitances
+from the areas of the compartments. Other parameters such as diameter or
+channel density may vary widely over short distances, so the graininess of
+their representation may have little to do with numerically adequate compartmentalization.
+Although NEURON is a compartmental modeling program, the specification of biological properties (neuron shape and physiology) has been separated from the numerical issue of compartment size. What makes this possible is the notion of a section, which is a continuous length of unbranched
+cable. Although each section is ultimately discretized into compartments,
+values that can vary with position along the length of a section are specified in terms of a continuous parameter that ranges from 0 to 1 (normalized
+distance). In this way, section properties are discussed without regard to
+the number of segments used to represent it. This makes it easy to trade
+off between accuracy and speed, and enables convenient verification of the
+numerical correctness of simulations.
+Sections are connected together to form any kind of branched tree structure. Figure 2 illustrates how sections are used to represent biologically
+significant anatomical features. The top of this figure is a cartoon of a neuron with a soma that gives rise to a branched dendritic tree and an axon
+hillock connected to a myelinated axon. Each biologically significant component of this cell has its counterpart in one of the sections of the NEURON
+model, as shown in the bottom of Figure 2: the cell body (Soma), axon hillock
+(AH), myelinated internodes (Ii ), nodes of Ranvier (Ni ), and dendrites (Di ).
+Sections allow this kind of functional and anatomical parcellation of the cell
+to remain foremost in the mind of the person who constructs and uses a
+NEURON model.
+To accommodate requirements for numerical accuracy, NEURON represents each section by one or more segments of equal length (see Figures 3
+and 4). The number of segments is specified by the parameter nseg, which
+can have a different value for each section.
+At the center of each segment is a node, the location where the internal
+voltage of the segment is defined. The transmembrane currents over the
+entire surface area of a segment are associated with its node. The nodes of
+adjacent segments are connected by resistors.
+It is crucial to realize that the location of the second-order correct voltage is not at the edge of a segment but rather at its center, that is, at its
+node. This is the discretization method employed by NEURON. To allow
+branching and injection of current at the precise ends of a section while
+maintaining second-order correctness, extra voltage nodes that represent
+compartments with zero area are defined at the section ends. It is possible to achieve second-order accuracy with sections whose end nodes have
+
+The NEURON Simulation Environment
+
+1187
+
+Figure 2: (Top) Cartoon of a neuron indicating the approximate boundaries
+between biologically significant structures. The left-hand side of the cell body
+(Soma) is attached to an axon hillock (AH) that drives a myelinated axon (myelinated internodes Ii alternating with nodes of Ranvier Ni ). From the right-hand
+side of the cell body originates a branched dendritic tree (Di ). (Bottom) How
+sections would be employed in a NEURON model to represent these structures.
+
+nonzero area compartments. However, the areas of these terminal compartments would have to be exactly half that of the internal compartments, and
+extra complexity would be imposed on administration of channel density
+at branch points.
+Based on the position of the nodes, NEURON calculates the values of internal model parameters such as the average diameter, axial resistance, and
+compartment area that are assigned to each segment. Figures 3 and 4 show
+how an unbranched portion of a neuron, called a neurite (see Figure 3A), is
+represented by a section with one or more segments. Morphometric analysis generates a series of diameter measurements whose centers lie on the
+midline of the neurite (the thin axial line in Figure 3B). These measurements
+and the path lengths between their centers are the dimensions of the section,
+which can be regarded as a chain of truncated cones or frusta (see Figure 3C).
+Distance along the length of a section is discussed in terms of the normalized position parameter x. That is, one end of the section corresponds to
+
+1188
+
+M. L. Hines and N. T. Carnevale
+
+Figure 3: (A) Cartoon of an unbranched neurite (thick lines) that is to be represented by a section in a NEURON model. Computer-assisted morphometry
+generates a file that stores successive measurements of diameter (thin circles)
+centered at x, y, z coordinates (thin crosses). (B) Each adjacent pair of diameter
+measurements (thick circles) becomes the parallel faces of a truncated cone or
+frustum, the height of which is the distance between the measurement locations. The outline of each frustum is shown with thin lines, and a thin centerline
+passes through the central axis of the chain of solids. (C) The centerline has been
+straightened so the faces of adjacent frusta are flush with each other. The scale underneath the figure shows the distance along the midline of the section in terms
+of the normalized position parameter x. The vertical dashed line at x = 0.5 divides the section into two halves of equal length. (D) Electrical equivalent circuit
+of the section as represented by a single segment (nseg = 1). The open rectangle
+includes all mechanisms for ionic (noncapacitive) transmembrane currents.
+
+x = 0 and the other end to x = 1. In Figure 3C these locations are depicted
+as being on the left- and right-hand ends of the section. The locations of
+the nodes and the boundaries between segments are conveniently specified
+
+The NEURON Simulation Environment
+
+1189
+
+Figure 4: How the neurite of Figure 3 would be represented by a section with
+two segments (nseg = 2). Now the electrical equivalent circuit (bottom) has
+two nodes. The membrane properties attached to the first and second nodes are
+based on neurite dimensions and biophysical parameters over the x intervals
+[0, 0.5] and [0.5, 1], respectively. The three axial resistances are computed from
+the cytoplasmic resistivity and neurite dimensions over the x intervals [0, 0.25],
+[0.25, 0.75], and [0.75, 1].
+
+in terms of this normalized position parameter. In general, a section has
+nseg segments that are demarcated by evenly spaced boundaries at intervals of 1/nseg. The nodes at the centers of these segments are located at
+x = (2i − 1)/2 nseg where i is an integer in the range [1, nseg]. As we shall
+see later, x is also used in specifying model parameters or retrieving state
+variables that are a function of position along a section (see section 4.4).
+The special importance of x and nseg lies in the fact that they free the
+user from having to keep track of the correspondence between segment
+number and position on the nerve. In early versions of NEURON, all nerve
+properties were stored in vector variables where the vector index was the
+segment number. Changing the number of segments was an error-prone
+and laborious process that demanded a remapping of the relationship between the user’s mental image of the biologically important features of the
+model, on the one hand, and the implementation of this model in a digital
+computer, on the other. The use of x and nseg insulates the user from the
+most inconvenient aspects of such low-level details.
+
+1190
+
+M. L. Hines and N. T. Carnevale
+
+When nseg = 1 the entire section is lumped into a single compartment.
+This compartment has only one node, which is located midway along its
+length, at x = 0.5 (see Figures 3C and D). The integral of the surface area
+over the entire length of the section (0 ≤ x ≤ 1) is used to calculate the
+membrane properties associated with this node. The values of the axial
+resistors are determined by integrating the cytoplasmic resistivity along the
+paths from the ends of the section to its midpoint (dashed line in Figure 3C).
+The left- and right-hand axial resistances of Figure 3D are evaluated over
+the x intervals [0, 0.5] and [0.5, 1], respectively.
+Figure 4 shows what happens when nseg = 2. Now NEURON breaks
+the section into two segments of equal length that correspond to x intervals
+[0, 0.5] and [0.5, 1]. The membrane properties over these intervals are attached to the nodes at 0.25 and 0.75, respectively. The three axial resistors
+Ri1 , Ri2 , and Ri3 are determined by integrating the path resistance over the
+x intervals [0, 0.25], [0.25, 0.75], and [0.75, 1].
+3.3 Integration Methods. Spatial discretization reduced the cable equation, a partial differential equation with derivatives in space and time, to
+a set of ordinary differential equations with first-order derivatives in time.
+Selection of an integration method to solve these equations is guided by
+concerns of stability, accuracy, and efficiency (Hines & Carnevale, 1995).
+NEURON offers the user a choice of two stable implicit integration methods: backward Euler and a variant of Crank-Nicholson (C-N). Backward
+Euler is the default because of its robust numerical stability properties.
+Backward Euler can be used with extremely large time steps in order to
+find the steady-state solution for a linear (“passive”) system. It produces
+good qualitative results even with large time steps, and it works even if
+some or all of the equations are strictly algebraic relations among states.
+A more accurate method for small time steps is available by setting the
+global parameter secondorder to 2. NEURON then uses a variant of the
+C-N method, in which numerical error is proportional to t2 .
+Both of these are implicit integration methods, in which all current balance equations must be solved simultaneously. The backward Euler algorithm does not resort to iteration to deal with nonlinearities, since its numerical error is proportional to t anyway. The special feature of the C-N
+variant is its use of a staggered time step algorithm to avoid iteration of
+nonlinear equations (see section 3.3.1). This converts the current balance
+part of the problem to one that requires only the solution of simultaneous
+linear equations.
+Although the C-N method is formally stable, it is sometimes plagued
+by spurious large-amplitude oscillations (see Hines and Carnevale, 1995,
+Figure 7). This occurs when t is too large, as may occur in models that
+involve fast voltage clamps or have compartments coupled by very small
+resistances. However, C-N is safe in most situations, and it can be much
+more efficient than backward Euler for a given accuracy.
+
+The NEURON Simulation Environment
+
+1191
+
+These two methods are almost identical in terms of computational cost
+per time step (see section 3.3.1). Since the current balance equations have the
+structure of a tree (there are no current loops), direct gaussian elimination is
+optimal for their solution (Hines, 1984). This takes exactly the same number
+of computer operations as would be required for an unbranched cable with
+the same number of compartments.
+The best way to determine the method of choice for any particular problem is to compare both methods with several values of t to see which
+allows the largest t consistent with the desired accuracy. In performing
+such trials, one must remember that the stability properties of a simulation
+depend on the entire system that is being modeled. Because of interactions
+between the “biological” components and any “nonbiological” elements,
+such as stimulators or voltage clamps, the time constants of the entire system may be different from those of the biological components alone. A
+current source (perfect current clamp) does not affect stability because it
+does not change the time constants. Any other signal source imposes a load
+on the compartment to which it is attached, changing the time constants and
+potentially requiring use of a smaller time step to avoid numerical oscillations in the C-N method. The more closely a signal source approximates a
+voltage source (perfect voltage clamp), the greater this effect will be.
+
+3.3.1 Efficiency. Nonlinear equations generally need to be solved iteratively to maintain second-order correctness. However, voltage-dependent membrane properties, which are typically formulated in analogy to
+Hodgkin-Huxley (HH) type channels, allow the cable equation to be cast
+in a linear form, still second order correct, that can be solved without iterations. A direct solution of the voltage equations at each time step t → t + t
+using the linearized membrane current I(V, t) = G · (V − E) is sufficient
+as long as the slope conductance G and the effective reversal potential E
+are known to second order at time t + 0.5 t. HH type channels are easy
+to solve at t + 0.5 t since the conductance is a function of state variables,
+which can be computed using a separate time step that is offset by 0.5 t
+with respect to the voltage equation time step. That is, to integrate a state
+from t − 0.5 t to t + 0.5 t, we require only a second-order correct value for
+the voltage-dependent rates at the midpoint time t.
+Figure 5 contrasts this approach with the common technique of replacing
+nonlinear coefficients by their values at the beginning of a time step. For
+HH equations in a single compartment, the staggered time grid approach
+converts four simultaneous nonlinear equations at each time step to four
+independent linear equations that have the same order of accuracy at each
+time step. Since the voltage-dependent rates use the voltage at the midpoint
+of the integration step, integration of channel states can be done analytically
+in just a single addition and multiplication operation and two table-lookup
+operations. Although this efficient scheme achieves second-order accuracy,
+
+1192
+
+M. L. Hines and N. T. Carnevale
+
+Figure 5: The equations shown at the top of the figure are computed using the
+Crank-Nicholson method. (Top) x(t+ t) and y(t+ t) are determined using their
+values at time t. (Bottom) Staggered time steps yield decoupled linear equations.
+y(t + t/2) is determined using x(t), after which x(t + t) is determined using
+y(t + t/2).
+
+the trade-off is that the tables depend on the value of the time step and must
+be recomputed whenever the time step changes.
+Neuronal architecture can also be exploited to increase computational
+efficiency. Since neurons generally have a branched tree structure with no
+loops, the number of arithmetic operations required to solve the cable equation by gaussian elimination is exactly the same as for an unbranched cable
+with the same number of compartments. That is, we need only O(N) arith-
+
+The NEURON Simulation Environment
+
+1193
+
+metic operations for the equations that describe N compartments connected
+in the form of a tree, even though standard gaussian elimination generally
+takes O(N3 ) operations to solve N equations in N unknowns. The tremendous efficiency increase results from the fact that in a tree, one can always
+find a leaf compartment i that is connected to only one other compartment j,
+so that the equation for compartment i (see equation 3.3a) involves only the
+voltages in compartments i and j, and the voltage in leaf compartment i is
+involved only in the equations for compartments i and j (see equations 3.3a
+and 3.3b):
+aii Vi + aij Vj = bi
+
+(3.3a)
+
+aji Vi + ajj Vj + [terms from other compartments] = bj .
+
+(3.3b)
+
+Using equation 3.3a to eliminate the Vi term from equation 3.3b, which
+requires O(1) (instead of N) operations, gives equation 3.4 and leaves N − 1
+equations in N − 1 unknowns.
+ajj Vj + [terms from other compartments] = bj
+
+(3.4)
+
+where
+ajj = ajj − (aij aji /aii )
+and
+bj = bj − (bi aji /aii ).
+This strategy can be applied until there is only one equation in one unknown.
+Assume that we know the solution to these N − 1 equations, and in
+particular that we know Vj . Then we can find Vi from equation 3.3a with
+O(1) step. Therefore, the effort to solve these N equations is O(1) plus the
+effort needed to solve N − 1 equations. The number of operations required
+is independent of the branching structure, so a tree of N compartments uses
+exactly the same number of arithmetic operations as a one-dimensional
+cable of N compartments.
+Efficient gaussian elimination requires an ordering that can be found by
+a simple algorithm: choose the equation with the current minimum number
+of terms as the equation to use in the elimination step. This minimum degree
+ordering algorithm is commonly employed in standard sparse matrix solver
+packages. For example, NEURON’s Matrix class uses the matrix library
+written by Stewart and Leyk (1994). This and many other sparse matrix
+packages are freely available on the Internet at http://www.netlib.org.
+
+1194
+
+M. L. Hines and N. T. Carnevale
+
+4 The Neuron Simulation Environment
+No matter how powerful and robust its computational engine may be, the
+real utility of any software tool depends largely on its ease of use. Therefore
+a great deal of effort has been invested in the design of the simulation environment provided by NEURON. In this section we first briefly consider
+general aspects of the high-level language used for writing NEURON programs. Then we turn to an example of a model of a nerve cell to introduce
+specific aspects of the user environment, after which we cover these features
+more thoroughly.
+4.1 The hoc Interpreter. NEURON incorporates a programming language based on hoc, a floating-point calculator with C-like syntax described
+by Kernighan and Pike (1984). This interpreter has been extended by the
+addition of object-oriented syntax (not including polymorphism or inheritance) that can be used to implement abstract data types and data encapsulation. Other extensions include functions that are specific to the domain of
+neural simulations and functions that implement a graphical user interface
+(see below). With hoc one can quickly write short programs that meet most
+problem-specific needs. The interpreter is used to execute simulations, customize the user interface, optimize parameters, analyze experimental data,
+calculate new variables such as impulse propagation velocity, and so forth.
+NEURON simulations are not subject to the performance penalty often
+associated with interpreted (as opposed to compiled) languages because
+computationally intensive tasks are carried out by highly efficient precompiled code. Some of these tasks are related to integration of the cable equation, and others are involved in the emulation of biological mechanisms that
+generate and regulate chemical and electrical signals.
+NEURON provides a built-in implementation of the microemacs text editor. Since the choice of a programming editor is highly personal, NEURON
+will also accept hoc code in the form of straight ASCII files created with
+any other editor.
+4.2 A Specific Example. In the following example we show how NEURON might be used to model the cell in the top of Figure 6. Comments in the
+hoc code are preceded by double slashes (//), and code blocks are enclosed
+in curly brackets ({}).
+4.2.1 First Step: Establish Model Topology. One very important feature of
+NEURON is that it allows the user to think about models in terms that are
+familiar to the neurophysiologist, keeping numerical issues (e.g., number
+of spatial segments) entirely separate from the specification of morphology
+and biophysical properties. This separation is achieved through the use of
+one-dimensional cable “sections” as the basic building block from which
+model cells are constructed. These sections can be connected together to
+
+The NEURON Simulation Environment
+
+1195
+
+Figure 6: (Top) Cartoon of a neuron with a soma, three dendrites, and an unmyelinated axon (not to scale). The diameter of the spherical soma is 50 µm.
+Each dendrite is 200 µm long and tapers uniformly along its length from 10 µm
+diameter at its site of origin on the soma, to 3 µm at its distal end. The unmyelinated cylindrical axon is 1000 µm long and has a diameter of 1 µm. An electrode
+(not shown) is inserted into the soma for intracellular injection of a stimulating
+current. (Bottom) Topology of a NEURON model that represents this cell (see
+text for details).
+
+form any kind of branched cable and endowed with properties that may
+vary with position along their length.
+The idealized neuron in Figure 6 has several anatomical features whose
+existence and spatial relationships we want the model to include: a cell body
+(soma), three dendrites, and an unmyelinated axon. The following hoc code
+sets up the basic topology of the model:
+create soma, axon, dendrite[3]
+connect axon(0), soma(0)
+for i=0,2 { connect dendrite[i](0), soma(1) }
+
+The program starts by creating named sections that correspond to the important anatomical features of the cell. These sections are attached to each
+other using connect statements. As noted previously, each section has a
+normalized position parameter x, which ranges from 0 at one end to 1 at
+the other. Because the axon and dendrites arise from opposite sides of the
+cell body, they are connected to the 0 and 1 ends of the soma section (see the
+
+1196
+
+M. L. Hines and N. T. Carnevale
+
+bottom of Figure 6). A child section can be attached to any location on the
+parent, but attachment at locations other than 0 or 1 is generally employed
+only in special cases such as spines on dendrites.
+4.2.2 Second Step: Assign Anatomical and Biophysical Properties. Next we
+set the anatomical and biophysical properties of each section. Each section
+has its own segmentation, length, and diameter parameters, so it is necessary
+to indicate which section is being referenced. There are several ways to
+declare which is the currently accessed section, but here the most convenient
+is to precede blocks of statements with the appropriate section name:
+// specify anatomical and biophysical properties
+soma {
+nseg = 1
+// compartmentalization parameter
+L = 50
+// [µm] length
+diam = 50
+// [µm] diameter
+insert hh
+// standard Hodgkin-Huxley
+// currents
+gnabar hh = 0.5*0.120 // max HH sodium conductance
+}
+axon {
+nseg = 20
+L = 1000
+diam = 1
+insert hh
+}
+for i=0,2 dendrite[i] {
+nseg = 5
+L = 200
+diam(0:1) = 10:3
+// dendritic diameter tapers
+// along its length
+insert pas
+// standard passive current
+e pas = -65
+// [mv] equilibrium potential
+// for passive current
+// [siemens/cm2 ] conductance
+g pas = 0.001
+// for passive current
+}
+
+The fineness of the spatial grid is determined by the compartmentalization parameter nseg. Here the soma is lumped into a single compartment
+(nseg = 1), while the axon and each of the dendrites are broken into several
+subcompartments (nseg = 20 and 5, respectively).
+In this example, we specify the geometry of each section by assigning
+values directly to section length and diameter. This creates a stylized model.
+Alternatively, one can use the 3D method, in which NEURON computes
+
+The NEURON Simulation Environment
+
+1197
+
+section length and diameter from a list of (x, y, z, diam) measurements (see
+section 4.5).
+Since the axon is a cylinder, the corresponding section has a fixed diameter along its entire length. The spherical soma is represented by a cylinder
+with the same surface area as the sphere. The dimensions and electrical
+properties of the soma are such that its membrane will be nearly isopotential, so the cylinder approximation is not a significant source of error. If
+chemical signals such as intracellular ion concentrations were important in
+this model, it would be necessary to approximate not only the surface area
+but also the volume of the soma.
+Unlike the axon, the dendrites become progressively narrower with distance from the soma. Furthermore, unlike the soma, they are too long to
+be lumped into a single compartment with constant diameter. The taper of
+the dendrites is accommodated by assigning a sequence of decreasing diameters to their segments. This is done through the use of range variables,
+which are discussed in section 4.4.
+In this model the soma and axon contain HH sodium, potassium, and
+leak channels (Hodgkin & Huxley, 1952), while the dendrites have constant, linear (“passive”) ionic conductances. The insert statement assigns
+the biophysical mechanisms that govern electrical signals in each section.
+Particular values are set for the density of sodium channels on the soma
+(gnabar hh) and for the ionic conductance and equilibrium potential of
+the passive current in the dendrites (g pas and e pas). More information
+about membrane mechanisms is presented in section 4.6.
+4.2.3 Third Step: Attach Stimulating Electrodes. This code emulates the
+use of an electrode to inject a stimulating current into the soma by placing
+a current pulse stimulus in the middle of the soma section. The stimulus
+starts at t = 1 ms, lasts for 0.1 ms, and has an amplitude of 60 nA.
+objref stim
+soma stim = new IClamp(0.5)
+stim.del = 1
+stim.dur = 0.1
+stim.amp = 60
+
+//
+//
+//
+//
+
+put it in middle of soma
+[ms] delay
+[ms] duration
+[nA] amplitude
+
+The stimulating electrode is an example of a point process. Point processes
+are discussed in more detail in section 4.6.
+4.2.4 Fourth Step: Control Simulation Time Course. At this point all model
+parameters have been specified. All that remains is to define the simulation
+parameters, which govern the time course of the simulation, and write some
+code that executes the simulation.
+This is generally done in two procedures. The first procedure initializes
+the membrane potential and the states of the inserted mechanisms (channel
+states, ionic concentrations, extracellular potential next to the membrane).
+
+1198
+
+M. L. Hines and N. T. Carnevale
+
+The second procedure repeatedly calls the built-in single-step integration
+function fadvance() and saves, plots, or computes functions of the desired
+output variables at each step. In this procedure it is possible to change the
+values of model parameters during a run.
+dt = 0.05
+tstop = 5
+finitialize(-65)
+
+//
+//
+//
+//
+
+[ms] integration time step
+[ms]
+initialize membrane potential,
+state variables, and time
+
+proc integrate() {
+print t, soma.v(0.5)
+
+// show starting time
+// and initial somatic
+// membrane potential
+
+while (t < tstop) {
+fadvance()
+// advance solution by dt
+// function calls to save or plot results
+// would go here
+print t, soma.v(0.5)
+// show present time
+// and somatic
+// membrane potential
+// statements that change model parameters
+// would go here
+}
+}
+
+The built-in function finitialize() initializes time t to 0, membrane
+potential v to −65 mv throughout the model, and the HH state variables
+m, n, and h to their steady-state values at v = −65 mv. Initialization can
+also be performed with a user-written routine if there are special requirements that finitialize() cannot accommodate, such as nonuniform
+membrane potential.
+Both the integration time step dt and the solution time t are global
+variables. For this example dt = 50 µs. The while(){} statement repeatedly
+calls fadvance(), which integrates the model equations over the interval
+dt and increments t by dt on each call. For this example, the time and
+somatic membrane potential are displayed at each step. This loop exits when
+t ≥ tstop.
+When this program is first processed by the NEURON interpreter, the
+model is set up and initiated, but the integrate() procedure is not executed. When the user enters an integrate() statement in the NEURON
+interpreter window, the simulation advances for 5 ms using 50 µs time steps.
+4.3 Section Variables. Three parameters apply to the section as a whole:
+cytoplasmic resistivity Ra ( cm), the section length L, and the compartmentalization parameter nseg. The first two are ordinary in the sense that they
+
+The NEURON Simulation Environment
+
+1199
+
+do not affect the structure of the equations that describe the model. Note that
+the hoc code specifies values for L but not for Ra. This is because each section in a model is likely to have a different length, whereas the cytoplasm
+(and therefore Ra) is usually assumed to be uniform throughout the cell.
+The default value of Ra is 35.4 cm, which is appropriate for invertebrate
+neurons. Like L it can be assigned a new value in any or all sections (e.g.,
+∼ 200 cm for mammalian neurons).
+The user can change the compartmentalization parameter nseg without
+having to modify any of the statements that set anatomical or biophysical
+properties. However, if parameters vary with position in a section, care must
+be taken to ensure that the model incorporates the spatial detail inherent in
+the parameter description.
+4.4 Range Variables. Like dendritic diameter in our example, most cellular properties are functions of the position parameter x. NEURON has
+special provisions for dealing with these properties, which are called range
+variables. Other examples of range variables are the membrane potential
+v and ionic conductance parameters such as the maximum HH sodium
+conductance gnabar hh (siemens/cm2 ).
+Range variables enable the user to separate property specification from
+segment number. A range variable is assigned a value in one of two ways.
+The simpler and more common is as a constant. For example, the statement
+axon.diam = 10 asserts that the diameter of the axon is uniform over its
+entire length.
+The syntax for a property that changes along a length of a section is
+rangevar(xmin : xmax) = e1 : e2. The four italicized symbols are expressions, with e1 and e2 being the values of the property at xmin and xmax,
+respectively. The position expressions must meet the constraint 0 ≤ xmin ≤
+xmax ≤ 1. Linear interpolation is used to assign the values of the property at
+the segment centers that lie in the position range [xmin, xmax]. In this manner a continuously varying property can be approximated by a piecewise
+linear function. If the range variable is diameter, neither e1 nor e2 should be
+0, or corresponding axial resistance will be infinite.
+In our model neuron, the simple dendritic taper is specified by diam(0:1)
+= 10:3 and nseg = 5. This results in five segments that have centers at
+x = 0.1, 0.3, 0.5, 0.7, and 0.9 and diameters of 9.3, 7.9, 6.5, 5.1, and 3.7,
+respectively.
+The value of a range variable at the center of a segment can appear in any
+expression using the syntax rangevar(x) in which 0 ≤ x ≤ 1. The value
+returned is the value at the center of the segment containing x, not the linear
+interpolation of the values stored at the centers of adjacent segments. If the
+parentheses are omitted, the position defaults to a value of 0.5 (middle of
+the section).
+A special form of the for statement is available: for (var) stmt. For
+each value of the normalized position parameter x that defines the center
+
+1200
+
+M. L. Hines and N. T. Carnevale
+
+of each segment in the selected section (along with positions 0 and 1), this
+statement assigns var that value and executes the stmt. This hoc code
+would print the membrane potential as a function of physical position (in
+µm) along the axon:
+axon for (x) print x*L, v(x)
+
+4.5 Specifying Geometry: Stylized versus 3D. There are two ways to
+specify section geometry. Our example uses the stylized method, which
+simply assigns values to section length and diameter. This is most appropriate when cable length and diameter are authoritative and 3D shape is
+irrelevant.
+If the model is based on anatomical reconstruction data (quantitative
+morphometry) or if 3D visualization is paramount, it is better to use the
+3D method. This approach keeps the anatomical data in a list of (x, y, z,
+diam) “points.” The first point is associated with the end of the section that
+is connected to the parent (this is not necessarily the zero end), and the
+last point is associated with the opposite end. There must be at least two
+points per section, and they should be ordered in terms of monotonically
+increasing arc length. This pt3d list, which is the authoritative definition of
+the shape of the section, automatically determines the length and diameter
+of the section.
+When the pt3d list is nonempty, the shape model used for a section is
+a sequence of frusta. The pt3d points define the locations and diameters
+of the ends of these frusta. The effective area, diameter, and resistance of
+each segment are computed from this sequence of points by trapezoidal
+integration along the segment length. This takes into account the extra area
+introduced by diameter changes; even degenerate cones of 0 length can be
+specified (i.e., two points with same coordinates but different diameters),
+which add area but not length to the section. No attempt is made to deal
+with the effects of centroid curvature on surface area. The number of 3D
+points used to describe a shape has nothing to do with nseg and does not
+affect simulation speed.
+4.6 Density Mechanisms and Point Processes. The insert statement
+assigns biophysical mechanisms, which govern electrical and (if present)
+chemical signals, to a section. Many sources of electrical and chemical signals are distributed over the membrane of the cell. These density mechanisms are described in terms of current per unit area and conductance
+per unit area; examples include voltage-gated ion channels such as the HH
+currents. However, density mechanisms are not the most appropriate representation of all signal sources. Synapses and electrodes are best described
+in terms of localized absolute current in nanoamperes and conductance in
+microsiemens. These are called point processes.
+
+The NEURON Simulation Environment
+
+1201
+
+An object syntax is used to manage the creation, insertion, attributes, and
+destruction of point processes. For example, a current clamp (electrode for
+injecting a current) is created by declaring an object variable and assigning it a new instance of the IClamp object class. When a point process is
+no longer referenced by any object variable, the point process is removed
+from the section and destroyed. In our example, redeclaring stim with the
+statement objref stim would destroy the pulse stimulus, since no other
+object variable is referencing it.
+The location of a point process can be changed with no effect on its other
+attributes. In our example, the statement dendrite[2] stim.loc(1)
+would move the current stimulus to the distal end of the third dendrite.
+Many user-defined density mechanisms and point processes can be simultaneously present in each compartment of a neuron. One important
+difference between density mechanisms and point processes is that any
+number of the same kind of point process can exist at the same location.
+User-defined density mechanisms and point processes can be linked into
+NEURON using the model description language NMODL. This lets the user
+focus on specifying the equations for a channel or ionic process without
+regard to its interactions with other mechanisms. The NMODL translator
+then constructs the appropriate C program, which is compiled and becomes
+available for use in NEURON. This program properly and efficiently computes the total current of each ionic species used, as well as the effect of that
+current on ionic concentration, reversal potential, and membrane potential.
+An extensive discussion of NMODL is beyond the scope of this article, but
+its major advantages can be listed succinctly.
+1. Interface details to NEURON are handled automatically, and there are
+a great many such details. NEURON needs to know that model states
+are range variables and which model parameters can be assigned values and evaluated from the interpreter. Point processes need to be
+accessible via the interpreter object syntax, and density mechanisms
+need to be added to a section when the “insert” statement is executed.
+If two or more channels use the same ion at the same place, the individual current contributions need to be added together to calculate a
+total ionic current.
+2. Consistency of units is ensured.
+3. Mechanisms described by kinetic schemes are written with a syntax
+in which the reactions are clearly apparent. The translator provides
+tremendous leverage by generating a large block of C code that calculates the analytic Jacobian and the state fluxes.
+4. There is often a great increase in clarity since statements are at the
+model level instead of the C programming level and are independent
+of the numerical method. For example, sets of differential and non-
+
+1202
+
+M. L. Hines and N. T. Carnevale
+
+linear simultaneous equations are written using an expression syntax
+such as
+x’ = f(x, y, t)
+~ g(x, y) = h(x, y)
+
+where the prime refers to the derivative with respect to time (multiple
+primes such as x’’ refer to higher derivatives), and the tilde introduces an algebraic equation. The algebraic portion of such systems of
+equations is solved by Newton’s method, and a variety of methods are
+available for solving the differential equations, such as Runge-Kutta
+or backward Euler.
+5. Function tables can be generated automatically for efficient computation of complicated expressions.
+6. Default initialization behavior of a channel can be specified.
+4.7 Graphical Interface. The user is not limited to operating within the
+traditional code-based command-mode environment. Among its many extensions to hoc, NEURON includes functions for implementing a fully
+graphical, windowed interface. Through this interface, and without having to write any code at all, the user can effortlessly create and arrange
+displays of menus, parameter value editors, graphs of parameters and state
+variables, and views of the model neuron. Anatomical views, called space
+plots, can be explored, revealing what mechanisms and point processes are
+present and where they are located.
+The purpose of NEURON’s graphical interface is to promote a match
+between what the user thinks is inside the computer and what is actually
+there. These visualization enhancements are a major aid to maintaining
+conceptual control over the simulation because they provide immediate
+answers to questions about what is being represented in the computer.
+The interface has no provision for constructing neuronal topology, a conscious design choice based on the strong likelihood that a graphical toolbox
+for building neuronal topologies would find little use. Small models with
+simple topology are so easily created in hoc that a graphical topology editor is unnecessary. More complex models are too cumbersome to deal with
+using a graphical editor. It is best to express the topological specifications of
+complex stereotyped models through algorithms, written in hoc, that generate the topology automatically. Biologically realistic models often involve
+hundreds or thousands of sections, whose dimensions and interconnections
+are contained in large data tables generated by hours of painstaking quantitative morphometry. These tables are commonly read by hoc procedures
+that in turn create and connect the required sections without operator intervention.
+The basic features of the graphical interface and how to use it to monitor and control simulations are discussed elsewhere (Moore & Hines, 1996).
+
+The NEURON Simulation Environment
+
+1203
+
+However, several sophisticated analysis and simulation tools that have special utility for nerve simulation are worthy of mention:
+• The Function Fitter optimizes a parameterized mathematical expression to minimize the least squared difference between the expression
+and data.
+• The Run Fitter allows one to optimize several parameters of a complete
+neuron model to experimental data. This is most useful in the context of
+voltage clamp data that are contaminated by incomplete space clamp
+or models that cannot be expressed in closed form, such as kinetic
+schemes for channel conductance.
+• The Electrotonic Workbench plots small signal input and transfer impedance and voltage attenuation as functions of space and frequency
+(Carnevale, Tsai, & Hines, 1996). These plots include the neuromorphic
+(Carnevale, Tsai, Claiborne, & Brown, 1995) and L versus x (O’Boyle,
+Barrevale, Carnevale, Claiborne, & Brown, 1996) renderings of the electrotonic transformation (Brown et al., 1992; Tsai, Carnevale, Claiborne,
+& Brown, 1994; Zador, Agmon-Snir, & Segev, 1995). By revealing the effectiveness of signal transfer, the Workbench quickly provides insight
+into the “functional shape” of a neuron.
+All interactions with these and other tools takes place in the graphical interface, and no interpreter programming is needed to use them. However, they
+are constructed entirely within the interpreter and can be modified when
+special needs require.
+4.8 Object-Oriented Syntax.
+4.8.1 Neurons. It is often convenient to deal with groups of sections that
+are related. Therefore NEURON provides a data class called a SectionList
+that can be used to identify subsets of sections. Section lists fit nicely with
+the “regular expression” method of selecting sections, used in earlier implementations of NEURON, in that the section list is easily constructed by using
+regular expressions to add and delete sections. After the list is constructed it
+is available for reuse, and it is much more efficient to loop over the sections
+in a section list than to pick out the sections accepted by a combination of
+regular expressions. This code
+objref alldend
+alldend = new SectionList()
+forsec "dend" alldend.append()
+forsec alldend print secname()
+
+forms a list of all the sections whose names contain the string “dend” and
+then iterates over the list, printing the name of each section in it. For the
+example program presented here, this would generate the following output
+
+1204
+
+M. L. Hines and N. T. Carnevale
+
+in the NEURON interpreter window,
+dendrite[0]
+dendrite[1]
+dendrite[2]
+
+although in this very simple example it would clearly have been easy
+enough to loop over the array of dendrites directly, for example:
+for i = 0,2 {
+dendrite[i] print secname()
+}
+
+4.8.2 Networks. To help the user manage very large simulations, the
+interpreter syntax has been extended to facilitate the construction of hierarchical objects. This is illustrated by the following code fragment, which
+specifies a pattern for a simple stylized neuron consisting of three dendrites
+connected to one end of a soma and an axon connected to the other end:
+begintemplate Cell1
+public soma, dendrite, axon
+create soma, dendrite[3], axon
+proc init() {
+for i=0,2 connect dendrite[i](0), soma(0)
+connect axon(0), soma(1)
+axon insert hh
+}
+endtemplate Cell1
+
+Whenever a new instance of this pattern is created, the init() procedure
+automatically connects the soma, dendrite, and axon sections together. A
+complete pattern would also specify default membrane properties, as well
+as the number of segments for each section.
+Names that can be referenced outside the pattern are listed in the public
+statement. In this case, since init is not in the list, the user could not
+reinitialize by calling the init() procedure. Public names are referenced
+through a dot notation.
+The particular benefit of using templates (“classes” in standard objectoriented terminology) is the fact that they can be employed to create any
+number of instances of a pattern. For example,
+objref cell[10][10]
+for i=0,9 for j=0,9 cell[i][j]=new Cell1()
+
+creates an array of one hundred objects of type Cell1 that can be
+referenced individually by the object variable cell. In this example,
+cell[4][5].axon. gnabar hh(0.5) is the value of the maximum HH
+sodium conductance in the middle of the axon of cell[4][5].
+
+The NEURON Simulation Environment
+
+1205
+
+As this example implies, templates offer a natural syntax for the creation
+of networks. However, it is entirely up to the user to organize the templates
+logically so that they appropriately reflect the structure of the problem.
+Generally any given structural organization can be viewed as a hierarchy
+of container classes, such as cells, microcircuits, layers, or networks. The
+important issue is how much effort is required for the concrete network
+representation to support a range of logical views of the same abstract network. A logical view that organizes the cells differently may not be easy
+to compute if the network is built as an elaborate hierarchy. This kind of
+pressure tends to encourage relatively flat organizations that make it easier
+to implement functions that search for specific information. The bottom line
+is that network simulation design remains an ad hoc process that requires
+careful programming judgment.
+One very important class of logical views that are not generally organizable as a hierarchy are those of synaptic organization. In connecting cells
+with synapses, one is often driven to deal with general graphs, which is to
+say no structure at all.
+In addition to the notions of classes and objects (a synapse is an object
+with a pre- and a postsynaptic logical connection) the interpreter offers
+one other fundamental language feature that can be useful in dealing with
+objects that are collections of other objects: the notion of iterators, taken
+from the Sather programming language (Murer, Omohundro, Stoutamire,
+& Szyerski, 1996). This is a separation of the process of iteration from that
+of “what is to be done for each item.” If a programmer implements one or
+more iterators in a collection class, the user of the class does not need to
+know how the class indexes its items. Instead the class will return each item
+in turn for execution in the context of the loop body. This allows the user to
+write
+for layer1.synapses(syn, type) {
+// statements that manipulate the object
+// reference named "syn" (The iterator
+// causes "syn" to refer, in turn, to
+// each synapse of a certain type in
+// the layer1 object)
+}
+
+without being aware of the possibly complicated process of picking out
+these synapses from the layer (that is the responsibility of the author of the
+class of which layer1 is an instance).
+It is to be sadly emphasized that these kinds of language features, though
+very useful, do not impose any policy with regard to the design decisions
+that users must make in building their networks. Different programmers
+express very different designs on the same language base, with the consequence that it is more often than not infeasible to reconcile slightly different
+representations of even very similar concepts.
+
+1206
+
+M. L. Hines and N. T. Carnevale
+
+An example of a useful way to deal uniformly with the issue of synaptic
+connectivity is the policy implemented in NEURON by Lytton (1996). This
+implementation uses the normal NMODL methodology to define a synaptic conductance model and enclose it within a framework that manages
+network connectivity.
+5 Summary
+The recent striking expansion in the use of simulation tools in the field
+of neuroscience has been encouraged by the rapid growth of quantitative
+observations that both stimulate and constrain the formulation of new hypotheses of neuronal function, enabled by the availability of ever-increasing
+computational power at low cost. These factors have motivated the design and implementation of NEURON, the goal of which is to provide a
+powerful and flexible environment for simulations of individual neurons
+and networks of neurons. NEURON has special features that accommodate
+the complex geometry and nonlinearities of biologically realistic models,
+without interfering with its ability to handle more speculative models that
+involve a high degree of abstraction.
+As we note in this article, one particularly advantageous feature is that
+the user can specify the physical properties of a cell without regard for the
+strictly computational concern of how many compartments are employed
+to represent each of the cable sections. In a future publication, we will examine how the NMODL translator is used to define new membrane channels
+and calculate ionic concentration changes. Another will describe the Vector
+class. In addition to providing very efficient implementations of frequently
+needed operations on lists of numbers, the vector class offers a great deal of
+programming leverage, especially in the management of network models.
+NEURON source code, executables, and documents are available at
+http://neuron.duke.edu and http://www.neuron.yale.edu, and by ftp from
+ftp.neuron.yale.edu.
+Acknowledgments
+We thank John Moore, Zach Mainen, Bill Lytton, David Jaffe, and the many
+other users of NEURON for their encouragement, helpful suggestions, and
+other contributions. This work was supported by NIH grant NS 11613 (Computer Methods for Physiological Problems) to M.L.H. and by the Yale Neuroengineering and Neuroscience Center.
+References
+Bernander, O., Douglas, R. J., Martin, K. A. C., & Koch, C. (1991). Synaptic background activity influences spatiotemporal integration in single pyramidal
+cells. Proc. Nat. Acad. Sci., 88, 11569–11573.
+
+The NEURON Simulation Environment
+
+1207
+
+Brown, T. H., Zador, A. M., Mainen, Z. F., & Claiborne, B. J. (1992). Hebbian
+computations in hippocampal dendrites and spines. In T. McKenna, J. Davis,
+& S. F. Zornetzer (Eds.), Single Neuron Computation (pp. 81–116). San Diego:
+Academic Press.
+Carnevale, N. T., & Rosenthal, S. (1992). Kinetics of diffusion in a spherical cell:
+I. No solute buffering. J. Neurosci. Meth., 41, 205–216.
+Carnevale, N. T., Tsai, K. Y., Claiborne, B. J., & Brown, T. H. (1995). The electrotonic transformation: A tool for relating neuronal form to function. In
+G. Tesauro, D. S. Touretzky, & T. K. Leen (Eds.), Advances in Neural Information Processing Systems (vol. 7, pp. 69–76). Cambridge, MA: MIT Press.
+Carnevale, N. T., Tsai, K. Y., & Hines, M. L. (1996). The Electrotonic Workbench.
+Society for Neuroscience Abstracts, 22, 1741.
+Cauller, L. J., & Connors, B. W. (1992). Functions of very distal dendrites: Experimental and computational studies of layer I synapses on neocortical pyramidal cells. In T. McKenna, J. Davis, & S. F. Zornetzer (Eds.), Single Neuron
+Computation (pp. 199–229). San Diego: Academic Press.
+Destexhe, A., Babloyantz, A., & Sejnowski, T. J. (1993). Ionic mechanisms for
+intrinsic slow oscillations in thalamic relay neurons. Biophys. J., 65, 1538–
+1552.
+Destexhe, A., Contreras, D., Sejnowski, T. J., & Steriade, M. (1994). A model of
+spindle rhythmicity in the isolated thalamic reticular nucleus. J. Neurophysiol.,
+72, 803–818.
+Destexhe, A., Contreras, D., Steriade, M., Sejnowski, T. J., & Huguenard, J. R.
+(1996). In vivo, in vitro and computational analysis of dendritic calcium currents in thalamic reticular neurons. J. Neurosci., 16, 169–185.
+Destexhe, A., McCormick, D. A., & Sejnowski, T. J. (1993). A model for 8–10 Hz
+spindling in interconnected thalamic relay and reticularis neurons. Biophys.
+J., 65, 2474–2478.
+Destexhe, A., & Sejnowski, T. J. (1995). G-protein activation kinetics and spillover of GABA may account for differences between inhibitory responses in
+the hippocampus and thalamus. Proc. Nat. Acad. Sci., 92, 9515–9519.
+H¨ausser, M., Stuart, G., Racca, C., & Sakmann, B. (1995). Axonal initiation and
+active dendritic propagation of action potentials in substantia nigra neurons.
+Neuron, 15, 637–647.
+Hines, M. (1984). Efficient computation of branched nerve equations. Int. J. BioMed. Comput., 15, 69–76.
+Hines, M. (1989). A program for simulation of nerve equations with branching
+geometries. Int. J. Bio-Med. Comput., 24, 55–68.
+Hines, M. (1993). NEURON—a program for simulation of nerve equations. In
+F. Eeckman (Ed.), Neural Systems: Analysis and Modeling (pp. 127–136). Norwell, MA: Kluwer.
+Hines, M. (1994). The NEURON simulation program. In J. Skrzypek (Ed.), Neural
+Network Simulation Environments (pp. 147–163). Norwell, MA: Kluwer.
+Hines, M., & Carnevale, N. T. (1995). Computer modeling methods for neurons. In M. A. Arbib (Ed.), The Handbook of Brain Theory and Neural Networks
+(pp. 226–230). Cambridge, MA: MIT Press.
+
+1208
+
+M. L. Hines and N. T. Carnevale
+
+Hines, M., & Shrager, P. (1991). A computational test of the requirements for
+conduction in demyelinated axons. J. Restor. Neurol. Neurosci., 3, 81–93.
+Hodgkin, A. L., & Huxley, A. F. (1952). A quantitative description of membrane
+current and its application to conduction and excitation in nerve. J. Physiol.,
+117, 500–544.
+Hsu, H., Huang, E., Yang, X.-C., Karschin, A., Labarca, C., Figl, A., Ho, B.,
+Davidson, N., & Lester, H. A. (1993). Slow and incomplete inactivations of
+voltage-gated channels dominate encoding in synthetic neurons. Biophys. J.,
+65, 1196–1206.
+Jaffe, D. B., Ross, W. N., Lisman, J. E., Miyakawa, H., Lasser-Ross, N., & Johnston,
+D. (1994). A model of dendritic Ca2+ accumulation in hippocampal pyramidal neurons based on fluorescence imaging experiments. J. Neurophysiol., 71,
+1065–1077.
+Kernighan, B. W., & Pike, R. (1984). Appendix 2: Hoc manual. In B. W. Kernighen
+& R. Pike (Eds.), The UNIX Programming Environment (pp. 329–333). Englewood Cliffs, NJ: Prentice Hall.
+Lindgren, C. A., & Moore, J. W. (1989). Identification of ionic currents at presynaptic nerve endings of the lizard. J. Physiol., 414, 210–222.
+Lytton, W. W. (1996). Optimizing synaptic conductance calculation for network
+simulations. Neural Computation, 8, 501–509.
+Lytton, W. W., Destexhe, A., & Sejnowski, T. J. (1996). Control of slow oscillations
+in the thalamocortical neuron: A computer model. Neurosci., 70, 673–684.
+Lytton, W. W., & Sejnowski, T. J. (1992). Computer model of ethosuximide’s
+effect on a thalamic neuron. Ann. Neurol., 32, 131–139.
+Mainen, Z. F., Joerges, J., Huguenard, J., & Sejnowski, T. J. (1995). A model of
+spike initiation in neocortical pyramidal neurons. Neuron, 15, 1427–1439.
+Mainen, Z. F., & Sejnowski, T. J. (1995). Reliability of spike timing in neocortical
+neurons. Science, 268, 1503–1506.
+Mascagni, M. V. (1989). Numerical methods for neuronal modeling. In C. Koch
+& I. Segev (Eds.), Methods in Neuronal Modeling (pp. 439–484). Cambridge,
+MA: MIT Press.
+Moore, J. W., & Hines, M. (1996). Simulations with NEURON 3.1, on-line documentation in HTML format, available at http://neuron.duke.edu.
+Murer, S., Omohundro, S. M., Stoutamire, D., & Szyerski, C. (1996). Iteration abstraction in Sather. ACM Transactions on Programming Languages and Systems,
+18, 1–15.
+O’Boyle, M. P., Carnevale, N. T., Claiborne, B. J., & Brown, T. H. (1996). A new
+graphical approach for visualizing the relationship between anatomical and
+electrotonic structure. In J. M. Bower (Ed.), Computational Neuroscience: Trends
+in Research 1995. San Diego: Academic Press.
+Rall, W. (1964). Theoretical significance of dendritic tree for input-output relation. In R. F. Reiss (Ed.), Neural Theory and Modeling (pp. 73–97). Stanford:
+Stanford University Press.
+Rall, W. (1989). Cable theory for dendritic neurons. In C. Koch & I. Segev (Ed.),
+Methods in Neuronal Modeling (pp. 8–62). Cambridge, MA: MIT Press.
+Softky, W. (1994). Sub-millisecond coincidence detection in active dendritic trees.
+Neurosci., 58, 13–41.
+
+The NEURON Simulation Environment
+
+1209
+
+Stewart, D., & Leyk, Z. (1994). Meschach: Matrix computations in C. In Proceedings of the Centre for Mathematics and Its Applications (Vol. 32). Canberra,
+Australia: School of Mathematical Sciences, Australian National University.
+Traynelis, S. F., Silver, R. A., & Cull-Candy, S. G. (1993). Estimated conductance
+of glutamate receptor channels activated during epscs at the cerebellar mossy
+fiber-granule cell synapse. Neuron, 11, 279–289.
+Tsai, K. Y., Carnevale, N. T., & Brown, T. H. (1994). Hebbian learning is jointly
+controlled by electrotonic and input structure. Network, 5, 1–19.
+Tsai, K. Y., Carnevale, N. T., Claiborne, B. J., & Brown, T. H. (1994). Efficient
+mapping from neuroanatomical to electrotonic space. Network, 5, 21–46.
+Zador, A. M., Agmon-Snir, H., & Segev, I. (1995). The morphoelectrotonic transform: A graphical approach to dendritic function. J. Neurosci., 15, 1669–1682.
+
+Received September 26, 1996; accepted January 10, 1997.
+
+

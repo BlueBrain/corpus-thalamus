@@ -1,0 +1,847 @@
+Hindawi Publishing Corporation
+Neuroscience Journal
+Volume 2014, Article ID 370764, 6 pages
+http://dx.doi.org/10.1155/2014/370764
+
+Research Article
+Age-Dependent Increase of Absence Seizures and Intrinsic
+Frequency Dynamics of Sleep Spindles in Rats
+Evgenia Sitnikova,1 Alexander E. Hramov,2,3 Vadim Grubov,2,3 and Alexey A. Koronovsky2,4
+1
+
+Institute of the Higher Nervous Activity and Neurophysiology of Russian Academy of Sciences, Butlerova Street 5A,
+Moscow 117485, Russia
+2
+Research and Educational Center “Nonlinear Dynamics of Complex Systems”, Saratov State Technical University,
+Saratov, Polytechnicheskaya Street 77, Saratov 410054, Russia
+3
+Faculty of Nonlinear Processes, Saratov State University, Saratov, Astrakhanskaya Street 83, Saratov 410012, Russia
+4
+Saratov State University, Astrakhanskaya Street 83, Saratov 410012, Russia
+Correspondence should be addressed to Evgenia Sitnikova; jenia-s@mail.ru
+Received 28 April 2014; Revised 1 June 2014; Accepted 2 June 2014; Published 23 June 2014
+Academic Editor: Pasquale Striano
+Copyright © 2014 Evgenia Sitnikova et al. This is an open access article distributed under the Creative Commons Attribution
+License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly
+cited.
+The risk of neurological diseases increases with age. In WAG/Rij rat model of absence epilepsy, the incidence of epileptic spikewave discharges is known to be elevated with age. Considering close relationship between epileptic spike-wave discharges and
+physiologic sleep spindles, it was assumed that age-dependent increase of epileptic activity may affect time-frequency characteristics
+of sleep spindles. In order to examine this hypothesis, electroencephalograms (EEG) were recorded in WAG/Rij rats successively
+at the ages 5, 7, and 9 months. Spike-wave discharges and sleep spindles were detected in frontal EEG channel. Sleep spindles
+were identified automatically using wavelet-based algorithm. Instantaneous (localized in time) frequency of sleep spindles was
+determined using continuous wavelet transform of EEG signal, and intraspindle frequency dynamics were further examined. It
+was found that in 5-months-old rats epileptic activity has not fully developed (preclinical stage) and sleep spindles demonstrated
+an increase of instantaneous frequency from beginning to the end. At the age of 7 and 9 months, when animals developed matured
+and longer epileptic discharges (symptomatic stage), their sleep spindles did not display changes of intrinsic frequency. The present
+data suggest that age-dependent increase of epileptic activity in WAG/Rij rats affects intrinsic dynamics of sleep spindle frequency.
+
+1. Introduction
+Sleep spindles are well-known EEG phenomena that reflect
+spontaneous rhythmic activity of thalamocortical neuronal
+network during non-REM sleep [1–3]. In vivo experiments
+demonstrated a close relationship between sleep spindles
+and epileptic spike-wave discharges (SWD) [4–6]. SWD
+are electroencephalographic (EEG) manifestation of absence
+epilepsy, and they are triggered by the cortex, opposite
+to sleep spindles, which are known to originate from the
+thalamus (reviewed in [7]). In comparison to sleep spindles,
+SWD are underlain by more intensive excitation and/or
+synchronization processes in thalamocortical network [7–9].
+
+Previously we demonstrated that sleep spindles and SWD
+showed different time-frequency characteristics, as measured
+in the cortex and thalamus [10].
+Intraspindle frequency is an important parameter characterizing intrinsic properties of thalamocortical network
+activity [11, 12] with respect to generation of autonomous
+oscillations. In healthy human subjects, the frequency of
+sleep spindles is known to vary from 10 to 16 Hz (e.g.,
+[2, 12, 13]), and in animals (rats and cats) from 7 to 14 Hz
+[1, 14]. Recently we compared time-frequency characteristics
+of the anterior sleep spindles in nonepileptic Wistar and
+epileptic WAG/Rij rats (genetic model of absence epilepsy)
+[15] and demonstrated that instantaneous frequency of sleep
+
+2
+spindles in symptomatic WAG/Rij rats was constant during a
+spindle event, opposite to ascending dynamics of intraspindle
+frequency in control Wistar rats. We also found [16] that
+∼50% of anterior sleep spindles in WAG/Rij rats (at the age
+between 5 and 9 months) appeared in EEG with the frequency
+between 8 and 10 Hz (mean ∼9.3 Hz), 20–25% of spindles—
+with frequency between 10 and 12 Hz (∼11.4 Hz), and 25–
+30%—between 12 and 14 Hz (∼13.4 Hz), whereas an increase
+of intrinsic frequency during sleep spindle was found at the
+younger age (5 months) and only in ∼9.3 and ∼11.4 Hz sleep
+spindles, but not in ∼13.4 Hz spindles. It is well known that
+the number and duration of SWD in WAG/Rij rats increase
+with age [17–19], although age-dependent changes in sleep
+spindles are still uncertain. Considering close relationship
+between epileptic spike-wave discharges and physiologic
+sleep spindles, it was assumed that age-dependent increase
+of epileptic activity may affect time-frequency characteristics
+of sleep spindles. In order to examine this hypothesis in
+the current study, we compared dynamics of intraspindle
+frequency in WAG/Rij rats at the younger age (preclinical
+state) and elder (symptomatic) ages, when SWD are fully
+developed in EEG.
+
+2. Materials and Methods
+Experiments were conducted in six male WAG/Rij rats at the
+Institute of Higher Nervous Activity and Neurophysiology
+RAS and were approved by the Ethical Committee on Animal
+Experimentation of this Institution. EEGs were recorded
+during three successive sessions at the age of ∼5 months
+(from 4.8 to 5), ∼7 months (6.8–7.1), and ∼9 months (8.5–
+9). Rats were equipped with metal screw electrodes that
+were implanted epidurally at the right hemisphere over the
+frontal cortex (coordinates: AP +2 mm and L 2.5 mm relative
+to bregma), parietal (AP −2 mm; L 5.5 mm) and occipital
+areas (AP −5 mm; L 3 mm) under chloral hydrate anesthesia
+(325 mg/kg, 4% solution in 0.9% NaCl). Recordings were
+made continuously during a period of 24 hours in freely
+moving rats. EEG signals were band-pass filtered between 0.5
+and 200 Hz, digitized with 400 samples/second/per channel,
+and stored on hard disk. Only frontal EEG data were used
+for time-frequency analysis (because sleep spindles showed
+maximum amplitude in the frontal channel), while occipital
+and parietal EEGs were used to facilitate determining the
+state of vigilance, in particular, slow wave sleep.
+Sleep spindles and SWD were investigated in frontal EEG
+(Figure 1) for the reason that they both displayed amplitude
+maximum in this (anterior) area [5, 8, 14, 17, 19]. SWD were
+detected visually as a sequence of repetitive high-voltage
+negative spikes and negative waves that lasted longer than
+1 sec; amplitude of SWD exceeded background more than
+three times [5, 17, 18]. The number and duration of SWD
+were scored in 6-hour interval during dark phase. Sleep
+spindles were recognized in EEG as 8–14 Hz waves with
+characteristic waxing-waning morphology and symmetrical
+waveform, whose amplitude exceeded background level at
+least twice.
+
+Neuroscience Journal
+The continuous wavelet transform (CWT) was used for
+time-frequency analysis of sleep spindles in EEG as recorded
+during dark phase. Three to 5 intervals during slow-wave
+sleep (duration 15–30 s) per animal in each age group were
+extracted. The CWT, 𝑊(𝑠, 𝜏), was obtained by convolving the
+EEG signal, 𝑥(𝑡), with the basis function 𝜙0
+𝑊 (𝑠, 𝜏) =
+
+1 +∞
+𝑡−𝜏
+) 𝑑𝑡
+∫ 𝑥 (𝑡) 𝜙0∗ (
+√𝑠 −∞
+𝑠
+
+(1)
+
+“ ∗ ” denotes complex conjugation,
+where 𝑠: time scales (that were converted into Fourier
+frequencies 𝑓) and 𝜏: the time shift.
+Complex Morlet wavelet, 𝜙0 , was used as basis function
+𝜙0 =
+
+1 𝑗Ω𝜂 −𝜂2 /2
+𝑒 𝑒
+,
+√𝜋
+4
+
+(2)
+
+in which parameter Ω = 2𝜋.
+Sleep spindles were detected automatically using earlier
+developed wavelet-based algorithm in frontal EEG in 15–30 s
+intervals during slow-wave sleep [15, 16, 20]. Briefly, wavelet
+energy 𝑤(𝑡) was measured in the spindle frequency band, 𝐹 ∈
+(8, 16) Hz
+󵄨
+󵄨2
+𝑤 (𝑡) = ∫ 󵄨󵄨󵄨𝑊 (𝑓𝑠 , 𝑡)󵄨󵄨󵄨 𝑑𝑓𝑠 .
+𝐹
+
+(3)
+
+The value of 𝑤(𝑡) was averaged in the time window 𝑇:
+⟨𝑤 (𝑡)⟩ = ∫
+
+𝑡+𝑇
+
+𝑡−𝑇
+
+𝑤 (𝑡󸀠 ) 𝑑𝑡󸀠 .
+
+(4)
+
+The best quality of automatic recognition was achieved
+when 𝑇 was set to 0.5 s that roughly corresponded to the
+averaged duration of a sleep spindle. Finally, the threshold
+level of wavelet power, 𝑤𝑐 , was empirically defined and sleep
+spindles were identified under condition ⟨𝑤(𝑡)⟩ > 𝑤𝑐 . In
+order to determine the end point of sleep spindles, wavelet
+power of background EEG was averaged in the frequency
+band 𝐹 ∈ (8, 16) Hz over the time period of 10 s, 𝑤0 . The
+value of 𝑤0 was compared with the averaged wavelet power
+in the same band 𝐹 ∈ (8, 16) Hz, ⟨𝑤(𝑡)⟩. The end point
+of sleep spindle was assigned when ⟨𝑤(𝑡)⟩ < 0.25𝑤0 . The
+true positive detections of sleep spindles reached 90–95% of
+visually selected sleep spindles.
+Rapid changes of the dominant frequency during sleep
+spindles were explored using “skeletons” of wavelet surfaces
+that were constructed based on the previously described
+procedure [15, 16]. First, the instantaneous wavelet energy
+distribution 𝐸𝑖 (𝑓𝑠 , 𝑡0 ) = |𝑊(𝑓𝑠 , 𝑡0 )|2 was computed for
+the time moment 𝑡0 . Second, the function 𝐸𝑖 (𝑓𝑠 , 𝑡0 ) was
+examined for the presence of local maxima, 𝐸max,𝑘 . If several
+maxima were detected in 𝐸𝑖 (𝑓𝑠 , 𝑡0 ), the highest maximum was
+selected and its frequency was considered as the dominant
+frequency at the given time moment 𝑡0 . The value of the dominant frequency was used as the initial point in “skeleton.”
+In order to plot the full “skeleton” of wavelet surface, the
+abovementioned procedure was repeated for the next time
+
+−500
+−250
+0
+250
+500
+
+3
+
+Age = 5 m
+
+Spike-wave discharges
+(𝜇V)
+
+(𝜇V)
+
+Neuroscience Journal
+−500
+−250
+0
+250
+500
+
+Age = 5 m
+
+−500
+−250
+0
+250
+500
+
+(b)
+
+Spike-wave discharges
+(𝜇V)
+
+(𝜇V)
+
+(a)
+
+Age = 7 m
+
+−500
+−250
+0
+250
+500
+
+Age = 7 m
+
+−500
+−250
+0
+250
+500
+
+Sleep spindles
+
+(d)
+
+Spike-wave discharges
+(𝜇V)
+
+(𝜇V)
+
+(c)
+
+Age = 9 m
+
+Sleep spindles
+
+1s
+
+−500
+−250
+0
+250
+500
+
+Age = 9 m
+
+(e)
+
+Sleep spindles
+
+(f)
+
+Figure 1: Examples of epileptic activity (spike-wave discharges, SWD) and sleep spindles as recorded in frontal EEG in WAG/Rij rat at
+different ages. Note that at the age of 5 months, waveform of SWD was immature (waxing-winning envelope, unstable amplitude of spikes in
+a train).
+
+point. Skeletons of wavelet surfaces were constructed in 5 s
+time intervals containing sleep spindles.
+Nonparametric Friedman’s ANOVA was used for the
+statistical analysis of age-dependent changes of measurable
+parameters in EEG (with 3 levels of “age,” within-subject
+design, repeated measures) and Wilcoxon matched pairs test
+for the subsequent post hoc analysis.
+
+3. Results
+Epileptic activity in WAG/Rij rats increased with age. The
+number of SWD increased in a period between 5 and 9
+months of age from 3 to 38 discharges as counted in 6-hour
+2
+interval (Friedman test, 𝜒𝑁=6,
+𝑑𝑓=2 = 6.5, 𝑃 < 0.05), as well
+as the total duration of seizure activity as summed in 6 hours
+2
+(from 34 ± 20 s to 439 ± 281 s, 𝜒𝑁=6,
+𝑑𝑓=2 = 8.0, 𝑃 < 0.05). At
+the age of 5 months, SWD were completely absent in 4 out of
+6 rats, and the rest two animals showed very few discharges
+with immature waveform (waxing-winning envelope, low
+frequency, and unstable amplitude of spikes, Figure 1). This
+implies, first, that spike-wave activity in Moscow’s population
+of WAG/Rij rats appeared at the older age as compared to
+relatively early development of SWD in native population in
+Nijmegen, in which SWD were known to be fully developed
+at the age of 5 months [18]. Second, five months of age in
+our rats might be considered as a preclinical state of absence
+epilepsy.
+In total, 115 sleep spindles were automatically selected
+in EEG and analyzed in 5-month-old WAG/Rij rats, 117
+spindles—in 7-month-old, and 115 spindles—in 9-monthold. Intrinsic frequency dynamics of sleep spindles were
+examined using “skeletons” of wavelet surfaces constructed
+in the spindle frequency band, 9–14 Hz. It was found that
+instantaneous frequency of sleep spindles slightly changed
+from the beginning to the end of each sleep spindle event.
+
+Figure 2 demonstrates three examples of sleep spindles as
+recorded in one individual at different ages and corresponding wavelet “skeletons.” An increase of dominant frequency
+was observed from beginning to the end of a sleep spindle
+only at the age of 5 months (ascending frequency dynamics in
+the “skeleton” plot in Figure 2(a)), but it was no longer present
+at the elder ages (Figures 2(b) and 2(c)).
+For the statistical analysis, intraspindle frequency was
+examined in wavelet “skeletons” by measuring the instantaneous frequency at the beginning (𝑓start ) and at the end (𝑓end )
+of each sleep spindle.
+It was found, first, that the value of 𝑓start increased with
+2
+age (𝜒𝑁=115,
+𝑑𝑓=2 = 12.6, 𝑃 < 0.005). Second, the value of 𝑓start
+at the age of 5 months was lower than that at the age of 7 and
+9 months (pairwise Wilcoxon test, all 𝑃’s < 0.05, Figure 3).
+Third, the difference between 𝑓start and 𝑓end significantly
+2
+changed with age (𝜒𝑁=115,
+𝑑𝑓=2 = 11.3, 𝑃 < 0.005). According
+to pairwise Wilcoxon test, ascending intraspindle frequency
+dynamics, that is, 𝑓start < 𝑓end , were significant only in 5month-old WAG/Rij rats (𝑃 < 0.005), and at the age of 7 and
+9 months, the difference between 𝑓start and 𝑓end disappeared
+(𝑓start = 𝑓end , Figure 3).
+
+4. Discussion
+The current paper demonstrates that intrinsic frequency of
+sleep spindles in WAG/Rij rat model of absence epilepsy
+changed in parallel to the age-dependent increase of epileptic
+spike-wave discharges in EEG. Five-month-old WAG/Rij rats
+developed very few SWD with immature waveform; therefore
+this age has been considered as preclinical stage. At this
+age, intrinsic frequency of sleep spindles increased from
+the beginning to the end. Similar elevation of intraspindle
+frequency was found previously in nonepileptic Wistar rats at
+the age of 7 and 9 months [15]. Therefore, in the present study,
+intraspindle frequency dynamics in 5-month-old WAG/Rij
+
+4
+
+Neuroscience Journal
+Age: 7 months
+
+Age: 5 months
+
+100 mV
+
+12
+11
+10
+9
+
+f (Hz)
+
+f (Hz)
+
+100 mV
+
+0
+
+0.5
+
+1
+Time (s)
+
+1.5
+
+12
+11
+10
+9
+
+0
+
+0.5
+
+(a)
+
+1
+Time (s)
+
+1.5
+
+(b)
+
+Age: 9 months
+
+f (Hz)
+
+100 mV
+12
+11
+10
+9
+
+0
+
+0.5
+
+1
+Time (s)
+
+1.5
+
+(c)
+
+Figure 2: Two-second EEG epochs with sleep spindles as recorded in WAG/Rij rat at three different ages. Sleep spindles (marked in grey)
+were identified automatically based on the continuous wavelet transform. Bottom plots demonstrate “skeletons” of wavelet surfaces, in which
+dominant frequency fluctuates in the spindle frequency band, 9–14 Hz.
+
+rats were similar to what was previously found in nonepileptic
+Wistar [15].
+Here it was found that the beginning value of spindle frequency (𝑓start ) in preclinical (5 months old) WAG/Rij rats was
+significantly lower as compared to that in older ages (7 and 9
+months), when epileptic discharges became more numerous
+and epileptic activity became longer. Age-dependent increase
+of absence seizures in WAG/Rij rats is well known from
+the literature [17–19, 21]. Considering the present findings,
+we can add that age-dependent increase of absence seizures
+was associated with changes of intraspindle frequency, and
+this might be caused by aggravation of epileptic activity
+in thalamocortical neuronal network due to more intensive
+excitation (hyperexcitation) and/or stronger synchronization
+(hypersynchronization) [7–9]. Furthermore, the low start
+value of the intraspindle frequency 𝑓start in preclinical (5
+months old) WAG/Rij rats might reflect “normal” rhythmic
+activity of thalamocortical network.
+The current results might shed some light on the
+controversial data about interrelation between sleep spindles and SWD [7, 8]. According to the present findings,
+time-frequency profile of sleep spindles in presymptomatic
+WAG/Rij rats was rather normal (and it was similar to agematched Wistar rats [15]), but it changed in older ages,
+when thalamocortical network started producing epileptic
+discharges. It can be concluded that qualitative changes of
+sleep spindles were associated with quantitative changes in
+SWD. It is not surprising, because it is well known that
+SWD and sleep spindles share the same thalamocortical
+pathways (reviewed in [1, 7]). Our previous study [21] and
+
+the literature [22] indicated that time-frequency properties
+of SWD changed with age; more specifically, the frequency of
+immature SWD in younger rats was 5-6 Hz and it increased
+to 9-10 Hz in older animals. Taken together, both kinds of
+thalamocortical oscillations, that is, sleep spindles and SWD,
+displayed age-related changes of time-frequency properties.
+In order to explain an increase of intraspindle frequency
+during sleep spindles in presymptomatic animals, we suggest
+the following mechanism. It is well known that sleep spindles result from mutual interactions between glutamatergic
+thalamocortical (TC) neurons in specific thalamic nuclei and
+GABA-ergic cells in the reticular thalamic nucleus, RTN
+(refs in [3]). Neurons in RTN have a propensity to trigger
+spindle oscillations and fire in bursts at every cycle, acting
+as pacemaker cells. TC cells receive inhibitory synaptic input
+from the RTN and produce rhythmic bursts only once in
+two to four cycles. Neuronal network mechanism of sleep
+spindles includes four processes [1, 23]: (1) initial period—
+spindle sequence is initiated by the pacemaker cells in the
+RTN; (2) beginning of a spindle—some TC neurons are silent
+during the first two-to-four bursts of RTN neurons and do not
+return signals to the RTN; (3) the middle part of a spindle—
+all TC cells burst synchronously with RTN neurons; (4)
+termination of a spindle, which is putatively triggered by the
+corticothalamic neurons. Here in presymptomatic animals
+we found that the frequency at beginning of a spindle (the
+stage 2 of the abovementioned process) was lower than at the
+middle and at the end (the stage 3). It seems likely that at the
+stage 3, more TC cells are recruited by RTN, and this results
+in strengthening of rebound inhibition. Therefore duration
+
+Instantaneous frequency of spindles (Hz)
+
+Neuroscience Journal
+
+5
+as negative sign that prerequisites development of epileptic
+spike-wave discharges.
+We believe that our findings would benefit development
+of new methods for the early (preclinical) diagnosis of
+epileptic diseases based on time-frequency properties of
+EEG. Developing of new strategies acting at preclinical stage
+(preventing epilepsy in a high-risk group) may be considered
+as future directions in research.
+
+12.0
+
+11.6
+11.2
+10.8
+
+∗
+
+5. Conclusions
+
+10.4
+10.0
+
+Beginning
+of spindle (fstart )
+
+End
+of spindle (fend )
+
+Age (months)
+5
+7
+9
+
+Figure 3: Age-dependent changes of the instantaneous frequency
+of sleep spindles in WAG/Rij rats as measured at the beginning
+of a spindle, 𝑓start , and at the end, 𝑓end . Asterisk indicates that
+instantaneous frequency in 5-month-old WAG/Rij rats was lower
+than in older ages, and the effect 𝑓start < 𝑓end was significant only in
+5-month-old WAG/Rij rats (pairwise Wilcoxon tests, all 𝑃’s < 0.05).
+
+of each oscillatory cycle becomes shorter, and the frequency
+of spindle oscillations increased at the end. In symptomatic
+animals, the frequency of spindles at beginning (the stage
+2) was higher than in presymptomatic animals; therefore,
+all TC neurons in symptomatic rats might be recruited by
+the RTN already at the beginning of sleep spindles (similar
+to the stage 3), and this might lead to the “flattening” of
+intraspindle frequency. This putative mechanism ought to
+be investigated in the future. In general, our data indicate
+that age-dependent development of absence seizures was
+associated with “flattening” of intrinsic frequency of sleep
+spindles. The present findings may be helpful for a better
+understanding of the pathophysiology of absence epilepsy
+and its probable correlation with sleep disorders, particularly
+with those related to age.
+Specific dynamics of intraspindle frequency were also
+described in human sleep EEG. Changes of intraspindle
+frequency (spectral “chirp”) in humans were investigated with
+the aid of Matching Pursuit algorithm [23, 24]. In particular,
+Sch¨onwald et al. [24] studied sleep spindles in C3-A2 EEG
+channel in healthy subjects and showed the higher proportion
+of negatively chirping spindles, suggesting that sleep spindles
+in healthy humans tend to decelerate their frequency before
+termination. In subjects with moderate obstructive sleep
+apnea, there was a decrease in negatively chirping sleep, or
+loss of sleep spindle deceleration. This effect was found only
+in slow spindles and only in frontal and parietal regions
+[25]. In the present study, flattening of intraspindle frequency
+dynamics from 𝑓start < 𝑓end in preclinical WAG/Rij rats to
+𝑓start = 𝑓end in symptomatic animals might be considered
+
+Continuous wavelet transform was used for time-frequency
+EEG analysis of sleep spindles in rats with genetic predisposition to absence epilepsy (WAG/Rij). It was found that
+younger subjects at preclinical stage (5 months old) displayed
+elevation of intraspindle frequency from the beginning to
+the end of sleep spindles, but older subjects with fully blown
+seizures (at the age of 7 and 9 months, symptomatic stage)
+did not display any changes of intraspindle frequency. This
+assumes that age-dependent elevation of epileptic activity
+in WAG/Rij rats affects intrinsic dynamics of sleep spindle
+frequency.
+
+Abbreviations
+CWT:
+SWD:
+TC:
+RTN:
+
+Continuous wavelet transform
+Spike-wave discharges
+Thalamocortical neurons
+The reticular thalamic nucleus.
+
+Conflict of Interests
+The authors confirm that there is no conflict of interests of
+any sort for any of the authors.
+
+Acknowledgments
+This study was financially supported by Russian Foundation
+for Basic Research (RFBR, projects 14-02-31235, 13-04-00084,
+and 12-02-31544) and by the Ministry of Education and
+Science of the Russian Federation (projects SGTU-141 and
+SGTU-157). The authors thank Professor Ivan N. Pigarev for
+providing electronic equipment and Dr. Elizaveta Rutskova
+for technical assistance.
+
+References
+[1] M. Steriade, Neuronal Substrates of Sleep and Epilepsy, Cambridge University Press, Cambridge, Mass, USA, 2003.
+[2] L. de Gennaro and M. Ferrara, “Sleep spindles: an overview,”
+Sleep Medicine Reviews, vol. 7, no. 5, pp. 423–440, 2003.
+[3] A. Destexhe and T. J. Sejnowski, Thalamocortical Assemblies,
+Oxford University Press, Oxford, UK, 2001.
+[4] P. Gloor, “Generalized epilepsy with bilateral synchronous spike
+and wave discharge. New findings concerning its physiological
+mechanisms,” Electroencephalography and Clinical Neurophysiology, no. 34, pp. S245–S249, 1978.
+
+6
+[5] E. L. J. M. van Luijtelaar, “Spike-wave discharges and sleep
+spindles in rats,” Acta Neurobiologiae Experimentalis, vol. 57, no.
+2, pp. 113–121, 1997.
+[6] G. K. Kostopoulos, “Spike-and-wave discharges of absence
+seizures as a transformation of sleep spindles: the continuing
+development of a hypothesis,” Clinical Neurophysiology, vol. 111,
+supplement 2, pp. S27–S38, 2000.
+[7] N. Leresche, R. C. Lambert, A. C. Errington, and V. Crunelli,
+“From sleep spindles of natural sleep to spike and wave
+discharges of typical absence seizures: is the hypothesis still
+valid?” Pflugers Archiv European Journal of Physiology, vol. 463,
+no. 1, pp. 201–212, 2012.
+[8] E. Sitnikova, “Thalamo-cortical mechanisms of sleep spindles
+and spike-wave discharges in rat model of absence epilepsy (a
+review),” Epilepsy Research, vol. 89, no. 1, pp. 17–26, 2010.
+[9] A. L¨uttjohann and G. van Luijtelaar, “The dynamics of corticothalamo-cortical interactions at the transition from pre-ictal to
+ictal LFPs in absence epilepsy,” Neurobiology of Disease, vol. 47,
+no. 1, pp. 49–60, 2012.
+[10] E. Sitnikova, A. E. Hramov, A. A. Koronovsky, and G. van Luijtelaar, “Sleep spindles and spike-wave discharges in EEG: their
+generic features, similarities and distinctions disclosed with
+Fourier transform and continuous wavelet analysis,” Journal of
+Neuroscience Methods, vol. 180, no. 2, pp. 304–316, 2009.
+[11] T. Andrillon, Y. Nir, R. J. Staba et al., “Sleep spindles in humans:
+insights from intracranial EEG and unit recordings,” Journal of
+Neuroscience, vol. 31, no. 49, pp. 17821–17834, 2011.
+[12] Y. Urakami, A. A. Ioannides, and G. K. Kostopoulos, “Sleep
+spindles—as a biomarker of brain function and plasticity,” in
+Advances in Clinical Neurophysiology, I . M. Ajeena, Ed., chapter
+4, 2012.
+[13] C. Iber, S. Ancoli-Israel, A. Chesson, and S. F. Quan, The AASM
+Manual for the Scoring of Sleep and Associated Events: Rules,
+Terminology, and Technical Specification, American Academy of
+Sleep Medicine, Westchester, Ill, USA, 1st edition, 2007.
+[14] G. Gandolfo, L. Glin, and C. Gottesmann, “Study of sleep
+spindles in the rat: a new improvement,” Acta Neurobiologiae
+Experimentalis, vol. 45, no. 5-6, pp. 151–162, 1985.
+[15] E. Sitnikova, A. E. Hramov, V. V. Grubov, and A. A. Koronovsky,
+“Time-frequency characteristics and dynamics of sleep spindles
+in WAG/Rij rats with absence epilepsy,” Brain Research, vol.
+1543, pp. 290–299, 2014.
+[16] E. I. Sitnikova, V. V. Grubov, A. E. Khramov, and A. A.
+Koronovskiˇı, “[Age-related changes in time-frequency structure of sleep spindles in EEG in rats with genetic predisposition to absence epilepsy (Wag/Rij)],” Zhurnal Vyssheˇı Nervnoˇı
+Deiatelnosti Imeni I P Pavlova, vol. 62, no. 6, pp. 733–744, 2012.
+[17] A. M. L. Coenen and E. L. J. M. van Luijtelaar, “Genetic animal
+models for absence epilepsy: a review of the WAG/Rij strain of
+rats,” Behavior Genetics, vol. 33, no. 6, pp. 635–655, 2003.
+[18] A. M. L. Coenen and E. L. J. M. van Luijtelaar, “The WAG/Rij
+rat model for absence epilepsy: age and sex factors,” Epilepsy
+Research, vol. 1, no. 5, pp. 297–301, 1987.
+[19] G. van Luijtelaar and A. Bikbaev, “Midfrequency corticothalamic oscillations and the sleep cycle: genetic, time of day
+and age effects,” Epilepsy Research, vol. 73, no. 3, pp. 259–265,
+2007.
+[20] A. Ovchinnikov, A. L¨uttjohann, A. Hramov, and G. van Luijtelaar, “An algorithm for real-time detection of spike-wave
+discharges in rodents,” Journal of Neuroscience Methods, vol. 194,
+no. 1, pp. 172–178, 2010.
+
+Neuroscience Journal
+[21] E. I. Sitnikova, T. N. Egorova, and V. V. Raevskiˇı, “Reduction
+of the number of neurons in substantia nigra (Pars compacta)
+positively correlates with a reduction of seizure activity in
+WAG/Rij rats,” Zhurnal Vyssheˇı Nervnoˇı Deiatelnosti Imeni I P
+Pavlova, vol. 62, no. 5, pp. 619–628, 2012 (Russian).
+¨
+[22] N. C
+¸ arc¸ak, R. G. Aker, O. Ozdemir,
+T. Demiralp, and F. Y. Onat,
+“The relationship between age-related development of spikeand-wave discharges and the resistance to amygdaloid kindling
+in rats with genetic absence epilepsy,” Neurobiology of Disease,
+vol. 32, no. 3, pp. 355–363, 2008.
+[23] M. Steriade, “The corticothalamic system in sleep,” Frontiers in
+Bioscience, vol. 8, pp. d878–d899, 2003.
+[24] S. V. Sch¨onwald, D. Z. Carvalho, G. Dellagustin, E. L. de SantaHelena, and G. J. L. Gerhardt, “Quantifying chirp in sleep
+spindles,” Journal of Neuroscience Methods, vol. 197, no. 1, pp.
+158–164, 2011.
+[25] D. Z. Carvalho, G. J. Gerhardt, G. Dellagustin et al., “Loss
+of sleep spindle frequency deceleration in Obstructive Sleep
+Apnea,” Clinical Neurophysiology, vol. 125, pp. 306–312, 2014.
+
+Sleep Disorders
+Hindawi Publishing Corporation
+http://www.hindawi.com
+
+Volume 2014
+
+Stroke
+Research and Treatment
+Hindawi Publishing Corporation
+http://www.hindawi.com
+
+Volume 2014
+
+International Journal of
+
+Alzheimer’s Disease
+Hindawi Publishing Corporation
+http://www.hindawi.com
+
+Volume 2014
+
+Depression Research
+and Treatment
+Hindawi Publishing Corporation
+http://www.hindawi.com
+
+Volume 2014
+
+Research and Treatment
+Hindawi Publishing Corporation
+http://www.hindawi.com
+
+Volume 2014
+
+International Journal of
+
+Brain Science
+
+Scientifica
+Hindawi Publishing Corporation
+http://www.hindawi.com
+
+Schizophrenia
+
+Hindawi Publishing Corporation
+http://www.hindawi.com
+
+Volume 2014
+
+Volume 2014
+
+Submit your manuscripts at
+http://www.hindawi.com
+
+Autism
+
+The Scientific
+World Journal
+
+Research and Treatment
+Hindawi Publishing Corporation
+http://www.hindawi.com
+
+Hindawi Publishing Corporation
+http://www.hindawi.com
+
+Volume 2014
+
+Volume 2014
+
+Neural
+Plasticity
+
+Computational and
+Mathematical Methods
+in Medicine
+Hindawi Publishing Corporation
+http://www.hindawi.com
+
+Volume 2014
+
+Neurology
+Research International
+Hindawi Publishing Corporation
+http://www.hindawi.com
+
+Volume 2014
+
+Psychiatry
+Journal
+
+Cardiovascular Psychiatry
+and Neurology
+Hindawi Publishing Corporation
+http://www.hindawi.com
+
+Volume 2014
+
+Hindawi Publishing Corporation
+http://www.hindawi.com
+
+Volume 2014
+
+Neuroscience
+Journal
+
+Journal of
+
+Volume 2014
+
+Hindawi Publishing Corporation
+http://www.hindawi.com
+
+Volume 2014
+
+Hindawi Publishing Corporation
+http://www.hindawi.com
+
+Volume 2014
+
+Parkinson’s
+Disease
+
+Neurodegenerative
+Diseases
+Hindawi Publishing Corporation
+http://www.hindawi.com
+
+Epilepsy Research
+and Treatment
+
+BioMed
+Research International
+Hindawi Publishing Corporation
+http://www.hindawi.com
+
+Volume 2014
+
+Hindawi Publishing Corporation
+http://www.hindawi.com
+
+Volume 2014
+
+Hindawi Publishing Corporation
+http://www.hindawi.com
+
+Volume 2014
+
+
