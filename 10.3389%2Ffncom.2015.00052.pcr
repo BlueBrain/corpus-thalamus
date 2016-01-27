@@ -1,1 +1,1 @@
-[]
+[{"localizer": {"text": "is ", "type": "text", "location": 925}, "annotId": "30beb5ee-c51a-11e5-b197-64006a4c56ef", "tags": {"birnlex_11013": "Disease", "birnlex_2075": "Behavioral Experimental Paradigm"}, "version": "1", "parameters": [{"id": "BBP-00004", "unit": "cm", "value": 23.0}, {"id": "BBP-00004", "unit": "cm", "value": 23.0}], "authors": ["oreilly"], "pubId": "10.3389/fncom.2015.00052", "comment": "test"}]
