@@ -1,0 +1,2090 @@
+Perspectives
+Guidelines
+
+Petilla terminology: nomenclature of
+features of GABAergic interneurons
+of the cerebral cortex
+The Petilla Interneuron Nomenclature Group (PING)*
+
+Abstract | Neuroscience produces a vast amount of data from an enormous diversity
+of neurons. A neuronal classification system is essential to organize such data and
+the knowledge that is derived from them. Classification depends on the
+unequivocal identification of the features that distinguish one type of neuron from
+another. The problems inherent in this are particularly acute when studying cortical
+interneurons. To tackle this, we convened a representative group of researchers to
+agree on a set of terms to describe the anatomical, physiological and molecular
+features of GABAergic interneurons of the cerebral cortex. The resulting
+terminology might provide a stepping stone towards a future classification of these
+complex and heterogeneous cells. Consistent adoption will be important for the
+success of such an initiative, and we also encourage the active involvement of
+the broader scientific community in the dynamic evolution of this project.
+The GABA (γ-aminobutyric acid)-ergic
+interneurons of the cerebral cortex are a
+diverse population of cells. Their diversity is
+manifested in every aspect of their phenotype,
+as evidenced by their different morphological,
+electrophysiological and neurochemical features. It has long been assumed that neocortical interneurons belong to different classes1,
+with the variability in their features within a
+class being much smaller than the differences
+across classes. We are convinced that the differences between the classes are indeed real
+and functionally relevant. Thus, identifying
+classes and subclasses of interneurons is an
+important step towards understanding how
+inhibition shapes cortical function.
+How to classify neocortical interneurons
+has been a topic of debate for some time.
+Nevertheless, classification criteria often
+seem to be arbitrarily chosen, and the
+nomenclature that is used to describe their
+features often varies. Consequently, communication among investigators can suffer. Not
+only do the different terminologies make
+comparisons of the findings of different
+
+studies difficult, they can even obscure the
+value of the inquiry.
+Cortical interneurons are typically
+described and classified according to various
+morphological, molecular and physiological
+features. Ideally the characterization of a
+neuron will consider all three sets of criteria,
+but as neurons do not have an autonomous
+morphology, molecular biology, or physiology, these multidimensional features are
+merely probed by specific detection methods. Each investigator might select a particular method to characterize a cell, but there is
+only one unitary reality behind it all.
+
+Several classification schemes for cortical
+interneurons have been proposed. Cajal
+termed these cells “short-axon” neurons2 and
+distinguished between them on the basis
+of the morphologies that were revealed by
+Golgi staining. Lorente de Nó subsequently
+described dozens of types of short-axon cells
+in the mouse neocortex3, and similar Golgibased classification ensued for more than
+half a century 4–6. Novel labelling methods,
+such as the use of intracellular horseradish
+peroxidase (HRP), revealed axonal arbors
+more completely and led to new efforts to
+classify interneurons morphologically1,7.
+The establishment of electrophysiological
+criteria has resulted in several additional
+classification attempts1,8–10. Finally, molecular and genetic markers have also been used
+as bases for classification11–13. These classifications are not always compatible, and
+interneuron researchers often face problems
+in describing the cellular subtypes that they
+investigate.
+To aid ongoing efforts towards interneuron classification, to facilitate the exchange
+of information and to build a foundation for
+future progress in the field, we propose and
+publicly endorse a standardized nomenclature of interneuron properties. This proposal
+arose out of a meeting devoted to this topic
+in Cajal’s native town, Petilla de Aragón
+(Navarra, Spain), and is rooted in the collective work that has been performed in many
+laboratories. We seek agreement on a list of
+the essential features that differentiate the
+GABAergic interneurons of the neocortex,
+and encourage all investigators to use the
+same terms to describe the same features.
+We hope that this first step will later lead to
+a broadly adopted classification. However,
+before we are able to speak a common
+language, we need to agree on the words.
+
+Box 1 | The Petilla Interneuron Nomenclature Group (PING)
+PING consists of: Giorgio A. Ascoli, Lidia Alonso-Nanclares, Stewart A. Anderson, German
+Barrionuevo, Ruth Benavides-Piccione, Andreas Burkhalter, György Buzsáki, Bruno Cauli, Javier
+DeFelipe, Alfonso Fairén, Dirk Feldmeyer, Gord Fishell, Yves Fregnac, Tamas F. Freund, Daniel
+Gardner, Esther P. Gardner, Jesse H. Goldberg, Moritz Helmstaedter, Shaul Hestrin, Fuyuki Karube,
+Zoltán F. Kisvárday, Bertrand Lambolez, David A. Lewis, Oscar Marin, Henry Markram, Alberto
+Muñoz, Adam Packer, Carl C. H. Petersen, Kathleen S. Rockland, Jean Rossier, Bernardo Rudy, Peter
+Somogyi, Jochen F. Staiger, Gabor Tamas, Alex M. Thomson, Maria Toledo-Rodriguez, Yun Wang,
+David C. West and Rafael Yuste.
+
+nature reviews | neuroscience	
+
+volume 9 | july 2008 | 557
+© 2008 Macmillan Publishers Limited. All rights reserved.
+
+Perspectives
+Our terminology is dynamic. The associated online supplementary material includes
+the complete terminology as it stands
+at the time of manuscript submission. Links
+to the nomenclature that was originally
+agreed upon in Petilla and the most upto-date version as it matures are provided
+in the Further Information. A committee
+will update this nomenclature as needed.
+Continuous feedback, constructive criticism
+and suggestions are invited from the whole
+scientific community.
+Overview of interneuronal features
+Even the meaning of terms such as
+‘interneuron’ and ‘cortex’ can be sources
+of debate. This Perspective focuses on the
+GABAergic cells (both local and projection
+neurons) of the cerebral cortex, including
+the neo‑, the archi‑ and the paleo-cortex.
+A PubMed search using the query ‘cortex
+interneuron’ returns more than 200 reviews
+in the past 40 years, ranging from early functional overviews14 to recent specifications of
+developmental origins15. Most approaches
+make use of one or more of three essential
+types of characteristics: morphological,
+molecular and physiological. We have
+therefore structured the terminology of the
+features according to this broad division.
+The sequence in which these three categories
+of features are presented does not convey an
+order of priority. However, each domain is
+internally ordered in a logically hierarchical
+fashion. Only the first levels of this organization are illustrated and discussed here. The
+finer details are included in Supplementary
+information S2 (box), S3 (box) and S4 (box)
+and on the Petilla Terminology website.
+Some terms are self-explanatory or widely
+agreed and do not require further elaboration. Others, which are either less common
+or more controversial, are given further
+explanation.
+When used in a scientific document,
+some terms referring to quantitative features
+would require the explicit provision of
+definite numerical criteria. However, such
+criteria will vary depending on the specific
+scientific questions and particular lines of
+investigation. Thus, we refrain from suggesting precise borders between different
+anatomical attributes, chemical content or
+electrical activities, leaving this choice as the
+purview of individual researchers. We recognize the difficulties of comparing morphology or biophysics across laboratories without
+quantitative guidelines. However, we hope
+that the future use of this nomenclature for
+these features will always be accompanied by
+their quantification, and we envision that the
+
+numerical criteria that are needed to distinguish among the different classes of neurons
+will become clearer with time. It is important
+to agree on a common terminology when
+referring to the same features before
+comparative measurements are attempted.
+Although some traditional terms for
+cortical interneurons (such as basket cells
+and chandelier cells) are used here for ease of
+reference and illustration, the nomenclature
+proposed does not attempt to give names to
+different classes of interneurons; instead, it
+defines the features that can be used for their
+identification. In the following brief description of some of these key features, the actual
+terms used in the nomenclature are given in
+quotation marks.
+
+the axon, and their electrical and chemical
+synaptic connections. Each component
+is associated with a set of features (Box 2;
+Supplementary information S2).
+
+Morphological features
+The main structural components of
+interneurons are the soma, the dendrites,
+
+Dendrites. The morphology of dendritic
+trees is often simpler in cortical interneurons
+than in principal cells. Moreover, dendrites
+
+Somata. The shape, size and orientation
+of somata vary greatly. Qualitative shape
+descriptors (such as ‘round’, ‘fusiform’,
+‘triangular’ and ‘polygonal’) are illustrated
+in FIG. 1 and Supplementary information S5
+(figure). Somata typically vary in diameter
+from 10–30 µm, although more extreme
+values have been reported. The main axis
+of somata can be perpendicular (‘radial’) or
+parallel (‘tangential’) to the pial surface in
+the coronal plane (or, in the hippocampus,
+to the cellular layer in the transverse plane).
+
+Box 2 | Summary of morphological, molecular and physiological features
+Morphological features
+• Soma: shape; size; orientation; other
+• Dendrite: arborization polarity; branch metrics; fine structure; postsynaptic element; other
+• Axon: initial segment; arbor trajectory; terminal shape; branch metrics; boutons; synaptic targets;
+other
+• Connections: chemical and electrical; source; location and distribution; other
+Molecular features
+• Transcription factors
+• Neurotransmitters or their synthesizing enzymes
+• Neuropeptides
+• Calcium-binding proteins
+• Receptors: ionotropic; metabotropic
+• Structural proteins
+• Cell-surface markers
+• Ion-channels
+• Connexins
+• Transporters: plasma membrane; vesicular
+• Others
+Physiological features
+• Passive or subthreshold parameters: resting membrane potential; membrane time constants; input
+resistance; oscillation and resonance; rheobase and chronaxie; rectification
+• Action potential (AP) measurements: amplitude; threshold; half-width; afterhyperpolarization;
+afterdepolarization; changes in AP waveform during train.
+• Dendritic backpropagation
+• Depolarizing plateaus
+• Firing pattern: oscillatory and resonant behaviour; onset response to depolarizing step; steadystate response to depolarizing step
+• Response to hyperpolarizing step: rectification; rebound
+• Spiking recorded extracellularly: phase relationship to oscillations; functional response specificity;
+cross-correlation and other dynamics
+• Postsynaptic responses: spontaneous and evoked; ratio of receptor subtypes; spatial and temporal
+summation; short- and long-term plasticity; gap junctions
+
+558 | july 2008 | volume 9	
+
+www.nature.com/reviews/neuro
+© 2008 Macmillan Publishers Limited. All rights reserved.
+
+Perspectives
+are typically less elaborate and easier to
+visualize than axons and thus provide a
+practical source of morphological features.
+The polarity of the dendritic arborization16
+can be described (FIG. 1a–h; Supplementary
+information S5). ‘Unipolar’, ‘bipolar’ and
+‘multipolar’ cells have one, two or multiple
+long primary dendrites, respectively, extending from their cell body17,18. ‘Bitufted’ cells
+have two clusters of branches that originate
+directly from the soma and extend in
+opposite directions19. In any interneuron
+with bidirectional dendrites (be it bipolar
+or bitufted), the two arbors can extend in
+radial or tangential directions. In addition
+to other, shorter dendrites, some interneurons have one thick primary dendrite that
+resembles that of pyramidal cells. There are
+also interneurons that have a single dendritic
+tuft. In addition, some dendrites are confined to specific cortical laminae or columns
+(‘intralaminar’ and ‘intracolumnar’ dendrites), whereas others are not (‘interlaminar’ and ‘intercolumnar’ dendrites). Somatic
+shape is to a great extent determined by
+the number and orientation of the primary
+dendrites; thus, these two sets of features are
+not independent.
+Dendritic branching metrics (FIG. 2)
+are routinely analysed automatically20.
+‘Frequency’ (the ‘number’ or ‘distribution’ of
+branches, bifurcations and terminals) and
+‘size’ (branch diameter, length or surface
+area) are commonly provided. Other related
+measurements include the change of
+diameter along the branch (‘taper’) and at
+the bifurcations, which can be captured by the
+‘power relation’ (Ref. 21). ‘Sholl analysis’ measures the number of times that the dendrite
+intersects a series of consecutive concentric
+circles22,23. Several variants of this analysis
+also exist: for example, the percent length of
+process measured against its distance along
+the dendritic path. The ‘fractal dimension’
+measures a one-dimensional dendrite’s ability
+to fill a two- or three-dimensional space at
+finer and finer resolutions, quantifying an
+important aspect of spatial occupancy24. A
+related characteristic, ‘tortuosity’, describes
+dendritic meandering and is captured by the
+ratio between the straight and the path (along
+the dendrite) distances between the two ends
+of the branch25. ‘Partition asymmetry’ analyses the imbalance between the subtrees that
+stem from a branch in terms of the number
+of their terminal tips26, and various angles
+can be used to report the local threedimensional spatial features.
+On a finer scale, dendritic spines and
+beads can be considered (FIG. 1i–k). Dendritic
+beads are focal swellings that typically
+
+a
+
+b
+
+c
+
+d
+
+e
+
+f
+
+g
+
+h
+
+i
+
+j
+
+k
+
+Figure 1 | Somatic and dendritic morphology: shape and fine structure. Human cerebral cortex
+Nature
+Neuroscience
+sections stained by NADPH-diaphorase histochemistry reveal key features
+ofReviews
+somatic| and
+dendritic
+morphology. a–h | Examples of soma shape and dendritic arborization polarity. Somata can be fusiform
+(a–c), polygonal (d), round (g), triangular (h) or shapes that are not described by any of these terms (e,f).
+Dendritic arborization can be termed monopolar (a), bitufted (b), bipolar (c) or multipolar (d).
+i–k | Higher-magnification images showing structural details of the dendrites. Dendrites can be fairly
+regular and aspiny (i), irregular and spiny (j; arrows indicate spines) or beaded and aspiny (k; arrows
+indicate beads). Scale bars: a–d (shown in d): 50 µm; e–h (shown in f): 20 µm; i–k (shown in k): 10 µm.
+Images supplied by Javier DeFelipe.
+
+contain mitochondria. Many interneurons
+are spiny early in their development but
+lose most of their spines as they mature;
+thus, age should be specified. The total
+number, density, distribution and shape of
+spines or beads on the dendrites all vary.
+These fine structures might have important
+computational significance. There can also
+be other structures, such as filopodia. The
+
+synaptic inputs that a cell receives on its
+dendrites also distinguish it from other cell
+types. ‘Asymmetric’, or Type I, inputs are
+mostly glutamatergic and excitatory, whereas
+‘symmetric’, or Type II, inputs are mostly
+GABAergic and inhibitory27–29. How densely
+the inputs are distributed, where they make
+contact and where they come from are also
+all important features30.
+
+nature reviews | neuroscience	
+
+volume 9 | july 2008 | 559
+© 2008 Macmillan Publishers Limited. All rights reserved.
+
+Perspectives
+Definition or units
+
+Frequency
+
+Number of branch-points
+per unit length
+
+Thickness
+
+Micrometres
+
+Taper
+
+Percentage narrowing per
+unit distance
+
+Angle
+
+Bifurcation amplitude
+
+Tortuosity
+
+Ratio of the distances
+between the branch endpoints measured as a straight
+line and along the path
+
+Partition
+asymmetry
+
+Ratio of the absolute
+difference and the sum of the
+numbers of bifurcations in
+the two daughter subtrees of
+a branch-point
+
+Fractal
+dimension
+
+1 – S, where S is the slope
+of the line in the plot of
+log (length) versus log
+(resolvable size)
+
+Diameter
+power
+relation
+
+High values
+
+Log
+(resolvable size)
+
+Number of intersections
+plotted against the distance
+from the soma
+Number of
+intersections
+
+Sholl
+analysis
+
+Log (length)
+
+Low values
+
+Metric
+
+Distance
+from soma
+
+(Diameter of parent branch)3/2
+of
+Σ ( Diameter
+child branches )
+
+3/2
+
+Figure 2 | Basic morphological features that describe neuronal branching. Dendritic and
+axonal processes can be quantified with many different metrics. These Nature
+measurements
+illustrated
+Reviews |are
+Neuroscience
+schematically to show the properties of the complex structures that can be captured. Representative
+exemplars of branches that would give increasing numerical values are shown for each metric.
+Although some metrics can be understood with little explanation (such as taper), others are not
+immediately intuitive and must be defined mathematically (such as fractal dimension). Sholl analysis
+yields a plot rather than a single value. In some cases, cortical interneurons can be distinguished from
+pyramidal cells and from each other using a combination of these metrics. Images supplied by
+Adam Packer.
+
+Axons. Axons are the major determinant
+of connectivity (Supplementary information S6 (figure)), and their morphological
+features have traditionally been used as the
+principal classification criteria2,3,5. Moreover,
+axonal morphologies are strongly correlated
+with both the developmental origin of
+neocortical interneurons31 and their synaptic
+physiology32. However, rigorously defining
+quantitative differences between distinct
+axonal morphologies remains a difficult and
+open problem.
+The axon originates either from the soma
+or from a primary dendrite and typically has
+a distinct (short, thin and smooth) initial
+
+segment (defined as the portion of the axon
+that contains a high density of Na+ channels
+and electron-microscopically recognized
+plasma-membrane undercoating and fasciculated microtubules). The first bifurcation
+or collateral can arise at a variable distance
+from the soma, and this distance should be
+recorded. Axons can be restricted to their
+region or layer of origin and can have major
+branches that travel long distances horizontally. Alternatively, they can course preferentially into deeper cortical layers (‘descending’
+towards the white matter) or to more superficial layers (‘ascending’ towards the pial surface). Some axons ascend and descend, and
+
+thus form an arch before arborization begins
+(‘willow axons’). Other axonal arbors (of
+so-called long-range interneurons) can cover
+multiple layers and cortical regions33–35.
+Unfortunately, there is little data about such
+long-distance GABAergic projections in the
+cerebral cortex36–38.
+The description of axonal arbors shares
+some terminology with that of dendrites, but
+there are also some important differences.
+In principle, similar branching metrics can
+be applied. However, unlike most dendrites,
+some axons are ‘myelinated’. Axon diameter can vary along the length of the axon:
+broad and myelinated portions alternate
+with unmyelinated and slender portions.
+Other axons are unmyelinated and more
+consistently slender or tapering. A complete
+description of axonal geometry should
+therefore include analysis of the relationships
+between branching patterns, axonal diameters and myelination patterns. The density
+of axonal arbors as well as their projection
+pattern (‘radial/oblique’ or ‘tangential’) can
+be described. Some axons are confined to
+specific lamina or columns (‘intralaminar’
+and ‘intracolumnar’ axons), whereas others
+are not (‘interlaminar’ and ‘intercolumnar’
+axons). Certain patterns of axonal arborization have been assigned specific designations.
+For example, a plexus of highly branched
+axons is shown in FIG. 3A. A distinctive pattern of arborization is demonstrated by the
+type of interneurons that are usually found in
+neocortical layers 2 and 3 and that have historically been referred to as double-bouquet
+cells (FIG. 3B; Supplementary information S6).
+In addition to a dense local plexus in the
+layer of origin39, these interneurons have
+bundles of long vertical branches that
+resemble horsetails40–42 and descend to all
+deeper layers5,43 to predominantly innervate
+dendritic spines and shafts2,44. The terminal
+branches of some axons can be ‘curved’,
+‘straight’ or ‘clustered’. The terms curved and
+straight refer to whether or not the terminal
+or preterminal branches bend as they
+approach their target cell(s). Some basket
+cells (FIG. 3C; Supplementary information S6)
+provide a clear example of the former case,
+whereas chandelier or axo-axonic cells
+exemplify the straight phenotype. Clustered
+terminals are densely grouped together, as in
+chandelier cell axons.
+Not all GABAergic synapses are associated with axonal boutons. Nevertheless,
+when boutons are present, they can vary
+in several respects (FIG. 3D,E). Their ‘size’
+and ‘density’ can be quantified, as can
+their clustering patterns (or distribution)45.
+Boutons can exhibit a particular structure46,
+
+560 | july 2008 | volume 9	
+
+www.nature.com/reviews/neuro
+© 2008 Macmillan Publishers Limited. All rights reserved.
+
+Perspectives
+such as ‘terminal’ or ‘en passant’, or can be
+connected by thin stalks or twigs. Electron
+microscopy can reveal important ultrastructural characteristics, such as the density and
+type of vesicles that are present in or near
+the pre­synaptic terminal, the specific type of
+synapse, the presence and density of mitochondria in the bouton47 and the number of
+synapses per bouton.
+Connections. The postsynaptic target (be
+it a pyramidal cell, an interneuron, a glial
+cell or a component of the vascular system)
+links the function of an interneuron and
+the spatial characteristics of its axon. The
+location of the synapse on the target cell
+should be identified: are contacts made on
+the soma, the dendrites (in which case the
+description should include the order and the
+distance from the soma) and/or the axon, and
+are they restricted to specific regions of the
+dendritic tree (for example, the basal or apical
+dendrites, the main apical trunk or the
+apical oblique dendrites)? Furthermore,
+the proportion of contacts made on to
+dendritic spines versus dendritic shafts can
+vary considerably. The final pattern of postsynaptic contacts might present recognizable
+features. ‘Distributed’ patterns are evenly
+spaced, whereas in a ‘gradient’ pattern the
+distribution of contacts changes in a specific
+direction. ‘Clustered’ terminal branches are
+often seen in chandelier or axo-axonic cells
+that innervate pyramidal-cell axon initial
+segments48. Noticeably, these cells also have
+such clusters as en passant formations49. The
+general degree of postsynaptic specificity of
+GABAergic interneurons, and how it affects
+cortical microcircuitry, is still debated50.
+Cortical interneurons can be coupled
+electrically through gap junctions51,52. These
+connections are found in the membranes
+of somata, dendrites and axons. Their location and distance from the soma can vary53.
+The distribution of gap junctions can be
+expressed as the total number and density
+of contacts and/or the probability that the
+interneuron of interest will make contact
+with its neighbouring cells54. If possible, the
+identity of the connected neurons should
+also be noted. Finally, neurotransmitters can
+diffuse upon release and act on other synaptic contacts or on extrasynaptic receptors55,56.
+Obtaining these data requires difficult
+experiments, but the available information
+in this regard should also be noted.
+Molecular features
+In contrast to morphological features, the
+definition of the molecular features of an
+interneuron is often unambiguous. Some
+
+1
+
+A
+
+B
+
+D
+
+100 µm
+
+10 µm
+
+1
+
+2/3
+2/3
+100 µm
+4
+5
+4
+
+6
+
+d
+d
+
+a3
+
+C
+
+a3
+
+500 µm
+PIA
+
+ax
+a5
+
+2/3
+
+d
+*
+
+D
+
+Ee
+
+ax
+
+d
+
+a3
+ax
+a2
+a1 Ea
+
+a2
+
+Eb
+
+d
+a2
+d
+
+Ed
+
+M
+d
+d
+4
+
+5/6
+
+WM
+
+a1
+
+a1
+
+Ec
+
+Figure 3 | Axonal morphology and synaptic structure. a | An example of a dense plexus of highly
+branched axons: a neurogliaform cell in the rat somatosensory cortex. The soma and dendrites are
+Nature
+| Neuroscience
+shown in black and the axon is shown in red. b | A double-bouquet cell
+from Reviews
+the cat primary
+visual
+cortex. The soma and dendrites are shown in red and the axon is shown in black. Note the characteristic horsetail-like axonal distribution. c | Morphological characteristics of a layer-3 large basket cell
+from the cat primary visual cortex. In this three-dimensional computer reconstruction, the soma and
+dendrites are shown in red and the axon is shown in black. The axon arborized profusely in the lower
+half of layer 3 (black boutons) and had a lateral extent of 1.1 mm from the parent soma (indicated by
+the asterisk). In addition, two axon collaterals descended into layers 5 and upper 6, each of which
+provided a small tuft (dark gray boutons). In layer 4, only a few boutons (light gray) were found. The
+total length of the axon was 44.053 mm, and it had 5,373 boutons. Typically, large basket cell boutons
+establish multiple axo-somatic contacts on other neurons. d | Fine structure of an axon revealed in a
+photomicrograph, showing terminal boutons (indicated by arrow heads) and boutons en passant
+(indicated by arrows). The image was obtained by staining a section of human cerebral cortex using
+NADPH-diaphorase histochemistry. e | Correlated light and electron microscopy of autapses.
+ea | A myelinated axonal branch (labelled ‘ax’) gives rise to six terminal boutons (four of which, a1, a2,
+a3 and a5, are labelled) that are apposed to the dendrite (labelled ‘d’). Eb | Three of the terminal boutons shown in ea emerge from the myelinated axonal trunk (ax) and establish synapses (indicated by
+the arrows) on successive dendritic beads, as illustrated at higher magnification in Ec-e. Scale bars:
+Ea: 10 µm; Eb: 1 µm; Ec-e (shown in Ec): 0.3 µm. D, dorsal; M, medial; PIA, pia mater; WM, white matter.
+Part A modified, with permission, from REF. 108  (2003) American Association for the Advancement
+of Science. Part B reproduced, with permission, from REF. 39  (1998) Society for Neuroscience.
+Part C courtesy of Alex S. Ferecskó. Part D  supplied by Javier DeFelipe. Part E reproduced, with
+permission, from REF. 46  (1997) Society for Neuroscience.
+
+nature reviews | neuroscience	
+
+volume 9 | july 2008 | 561
+© 2008 Macmillan Publishers Limited. All rights reserved.
+
+Perspectives
+widely used molecular markers are listed in
+Box 2 and in Supplementary information
+S3.The number of molecular features that
+could be measured or characterized is obviously enormous and is also rapidly expanding as our knowledge grows. Nevertheless,
+several families of molecules seem to be
+particularly important for distinguishing
+different types of neurons, and cortical
+interneurons in particular, from each other.
+We have thus grouped these molecules into
+categories: transcription factors, neurotransmitters or their synthesizing enzymes,
+neuropeptides, Ca2+-binding proteins, neuro­
+transmitter receptors, structural proteins,
+ion channels, connexins, pannexins and
+membrane transporters. Several prominent
+members of each group are listed. However,
+hundreds of molecules might be of interest,
+and gene expression profiles, which can be
+generated quickly, are gaining prominence
+in specifying the molecules of interest in a
+given interneuron population11,57.
+Given how quickly this field is moving, one could argue that it might be
+disadvantageous to put too much emphasis
+on the molecular analysis of interneuron
+phenotypes at this early stage. Moreover,
+even ostensibly similar interneurons (from
+the biochemical point of view) can be distinguished on the basis of the layer-specific
+combination of inputs that they receive and
+on the different regions of postsynaptic cell
+that they target. However, each day more and
+more site-specific neurochemical information becomes available58, and considerable
+effort is focused on investigating the entire
+genome of single cells59 or populations of
+identical cells60. In the future, it is therefore
+likely that these molecular features will
+be a powerful tool in the classification of
+interneurons, along with information from
+studies of the functional and structural
+features of individual cells and their connections. For example, on the basis of
+immunocytochemistry, chandelier cells can
+be chemically defined as GABAergic cells
+that contain the Ca2+-binding proteins parvalbumin and calbindin but not calretinin,
+and that might also contain the neuropeptide
+corticotropin-releasing factor but not other
+neuropeptides61, namely cholecystokinin,
+somatostatin, neuropeptide Y, vasoactive
+intestinal polypeptide and tachykinins. It is
+also important to recognize that such phenotypes change during development and,
+quantitatively at least, can be altered plastically.
+Physiological and biophysical features
+The electrophysiological characteristics of a
+neuronal population are important in
+
+determining what part those cells play in circuit activity and computation. To an extent,
+neocortical interneurons can be differentiated on the basis of these features alone.
+However, although some electrophysio­
+logical characteristics correlate well with
+other features, other characteristics do not,
+and unambiguous identification requires
+the assessment of other dimensions (see the
+example in Supplementary information S7
+(figure)). Interneurons possess passive
+properties as well as those that are revealed
+by stimulation with injections of current.
+Some spiking information (such as ‘firing
+frequency’) can also be revealed by extracellular recordings. Postsynaptic responses to
+stimulation vary in both their time course
+and the dynamics of transmitter release
+(Box 2; Supplementary information S4).
+When characterizing the electrophysio­logical
+properties of cortical interneurons, the
+advantages and limitations of every technique should be considered. For example,
+whole-cell patch electrodes are commonly
+used to record intracellularly, particularly in
+slice preparations. Although this technique
+provides stable electrical access to the neuron, it also dializes the neuron’s intracellular
+milieu, thus potentially altering the response
+properties of the cell that are modulated or
+controlled by its intracellular biochemistry.
+By contrast, sharp-electrode recordings are
+thought to affect this intracellular biochemistry less, but often do not provide the stability
+and electrical access of patch electrodes.
+Passive and subthreshold properties. The
+first three measurable passive properties
+described in the nomenclature are electrical.
+The ‘membrane potential’, which is usually
+given in millivolts (mV), reflects the potential difference across the membrane given
+specific experimental conditions, which
+should be precisely defined. The membrane
+potential can resonate or oscillate at a characteristic frequency, particularly when it is
+close to the firing threshold62–64, which might
+be related to its function in the circuit49,65.
+The membrane ‘time constant’, which
+quantifies the exponential temporal decay
+of a voltage perturbation, depends on the
+‘membrane resistance’ and the ‘membrane
+capacitance’. The ‘input resistance’ reflects
+(from an operational point of view) the
+aggregate electrical resistance of the entire cell
+(not just the membrane) to current injected
+through the electrode. A cell’s subthreshold
+features are its features during the condition
+in which any stimulus that is being applied
+does not cause the cell to fire. The ‘rheobase’
+is defined as the minimal electrical current
+
+(of infinite duration) that is required to bring
+the cell to its action-potential threshold. The
+‘chronaxie’ is the duration of the briefest
+current of twice the rheobase amplitude that
+can cause firing.
+Action-potential measurements. Action
+potentials have various definable characteristics, including the threshold voltage
+at which the spike is triggered, as well as
+the spike amplitude and the half-width.
+Spike ‘afterhyperpolarizations’ (AHPs) and
+‘afterdepolarizations’ (ADPs) are transient
+changes in membrane potential that follow
+the action potential (FIG. 4a): they can be simple and close to mono-phasic in shape or can
+be complex. These waveform characteristics
+can change during the course of a train of
+action potentials. If information is available
+on whether or not backpropagation of the
+action potential into the dendritic tree from
+the soma can occur, this should be noted66.
+Firing pattern. Interneurons exhibit a wide
+diversity of spontaneous and evoked firing
+patterns67. Depolarizing current steps are
+often used to uncover a cell’s stereotypical
+response. The response at the onset of a
+constant somatic depolarizion might or
+might not resemble the steady-state response
+(the firing pattern that is observed after
+an extended current injection)8. The term
+‘continuous’ refers to a pattern in which
+steady-state behaviour is similar to onset
+behaviour (FIG. 5). An ‘onset burst’ is a train of
+action potentials that occurs at the beginning
+of a stimulus and has a shorter ‘interspike
+interval’ (ISI) than the steady-state trains
+of spikes. Although the term ‘burst’ is often
+used simply to indicate higher-frequency
+firing at the start of a response and/or strong
+adaptation following the onset, it is also useful to distinguish this from bursts that ride
+on a depolarizing wave and are nearly identical every time. However, as yet there is no
+agreement on the terms that should be used
+to distinguish between these two types of
+burst. In a ‘delayed onset’ neuron, even when
+a suprathreshold current is injected, the
+membrane does not reach the firing threshold until after the moment that would be
+predicted from the time constant (FIG. 5). In
+some cells a single spike can be triggered at
+the onset and firing can cease for an interval
+before the steady-state behaviour begins.
+Other onset behaviour is possible as well.
+Steady-state responses to depolarizing
+current steps are characterized by different
+firing patterns. ‘Amplitude accommodation’
+is the decrease in amplitude of the action
+potentials that occurs during a train. ‘Spike
+
+562 | july 2008 | volume 9	
+
+www.nature.com/reviews/neuro
+© 2008 Macmillan Publishers Limited. All rights reserved.
+
+Perspectives
+b
+
+20 ms
+
+100 pA
+
+10 mV
+
+20 mV
+
+a
+
+400 pA
+
+frequency adaptation’ (FIG. 5; Supplementary
+information S8 (figure)) is the decrease in
+firing frequency that occurs during sustained firing. The maximal sustained firing
+frequency is called the ‘saturating frequency’.
+The minimal constantly maintained firing
+rate is the ‘continuous frequency’. The ‘I‑f
+curve’ is the relationship between the firing
+frequency (f) and the amount of current
+injected (I). ‘AHP accommodation’ is the
+change in the amplitude and/or shape of
+the spike AHP that occurs during sustained
+firing. Another type of AHP results from a
+cumulative and/or voltage-dependent current, which can be particularly slow after a
+current step.
+Even at steady state, the ISI can vary.
+Action-potential discharges with a broad ISI
+distribution, denoted ‘variable’ discharges,
+are commonly termed ‘irregular spiking’
+(FIG. 5). Some interneurons display a ‘stuttering’ (sometimes called interrupting) pattern,
+in which pairs or brief trains of spikes with
+short and nearly constant ISIs alternate
+with longer periods of silence (FIG. 5).
+‘Fast‑spiking’ cells (FIG. 5; Supplementary
+information S9 (figure)) fire at a continuous
+(but not necessarily constant) high frequency
+(greater than 50 Hz, which is often considerably higher than the firing rates of principal
+cells). These interneurons commonly display
+a brief action potential with a deep, fast AHP.
+In healthy adult tissue, many of these cells
+have subthreshold oscillations. Differences
+in the degree of spike frequency adaptation (expressed as an adaptation ratio for
+individual cells68) can be used to distinguish
+between broad anatomical and physiological classes of interneurons (Supplementary
+information S8). ‘Silent cells’, as their name
+implies, exhibit no action potentials, although
+the existence of these cells is debated. Other
+firing patterns are also possible.
+The pattern of spiking changes in response
+to different current injections. Specifically,
+the firing behaviour that results when a small
+current is injected so that the membrane
+potential stays near the threshold level can
+differ from that which is observed with strong
+current injections. For example, some fastspiking cells produce near-threshold highfrequency discharges in a stuttering pattern.
+By contrast, at stronger current injections
+these cells produce continuous rhythmic
+spiking. However, the near-threshold pattern
+varies with cortical area and layer, and the
+stuttering behaviour is not seen in all cortical
+locations. Researchers should specify the
+current that was injected. Furthermore, firing patterns change with maturation, so the
+age of the animal should be documented.
+
+500 ms
+
+c
+
+d
+
+e
+
+f
+
+Figure 4 | Functional characterization of interneurons. a,b | Electrophysiological protocols used
+Naturecurrent
+Reviewsinjection
+| Neuroscience
+to measure neurons’ afterhyperpolarization (AHP) and sag responses. Somatic
+(bottom trace in both plots) and recorded membrane voltage (top traces) reveal an AHP ( a) and a sag
+response (b)109. c-f | Diverse interneuron subclasses translate distinct patterns of activity into unique
+Ca2+ signals. The warmth of the colour reflects the magnitude of the Ca2+ accumulations. Axon terminals (indicated by the small black arrows) are positioned adjacent to dendrites to illustrate the
+spatial arrangement of synaptic activation, which can be in clusters or alone. c | A schematic of dendritic Ca2+ dynamics during a single action potential (left), a subthreshold excitatory postsynaptic
+potential (EPSP) (centre) and EPSP/action-potential coupling (right) in the dendrites of a multipolar
+perisoma-targeting fast-spiking cell from neocortical layer 2/3. Note that Ca2+ influx during single
+action potentials is proximally restricted. During subthreshold synaptic activation, convergent inputs
+activate dendritic subunits whereas individual inputs cause microdomains of Ca2+ accumulation.
+During EPSP/action-potential coupling, spikes propagate specifically to synaptically activated synaptic compartments where IA currents are inactivated. d | A schematic of a neocortical layer-2/3
+calretinin-positive irregular-spiking interneuron stimulated as in c. The Ca2+ dynamics of bipolar
+irregular-spiking cells resemble fast-spiking cells, except that they lack Ca 2+ microdomains.
+e | Dendritic Ca2+ signals in a layer-2/3 bitufted cell during action-potential backpropagation (left)
+and repetitive subthreshold (centre) and suprathreshold (right) activation of a single synapse. The
+multiple arrowheads on the individual schematic axonal terminals represent repetitive activation of
+a single synapse. f | Dendritic Ca2+ signals in a layer-5 rebound-spiking dendrite-targeting interneuron. In burst mode (left), synaptic activation (top trace) or somatic current injection (bottom trace)
+generates rebound spikes and highest Ca2+ signals at distal dendrites, where low-voltage-activated
+Ca2+ channels are clustered. In tonic mode (right), globally propagating Na+-based action potentials
+triggered either synaptically (top trace) or by somatic current injection (bottom trace) cause uniform
+Ca2+ accumulations. Excitation that is subthreshold for rebound-spike or action-potential generation
+does not cause Ca2+ influx (centre). Parts a and b reproduced from REF. 109. Parts c-f reproduced, with
+permission, from REF. 110  (2005) Elsevier Science.
+
+nature reviews | neuroscience	
+
+volume 9 | july 2008 | 563
+© 2008 Macmillan Publishers Limited. All rights reserved.
+
+Perspectives
+Burst
+Fast spiking
+
+Continuous
+
+Delayed
+
+Stuttering
+
+20 mV
+500 msec
+
+Non-adapting,
+non-fast spiking
+
+Adapting
+
+Irregular spiking
+
+Intrinsic burst
+firing
+
+30 mV
+400 ms
+
+Accelerating
+
+20 mV
+
+200 ms
+
+Figure 5 | Petilla terminology: types of firing patterns. Cortical GABAergic
+interneurons
+display
+Nature Reviews
+| Neuroscience
+a vast repertoire of discharge responses. These samples are representative of the most common
+responses to standardized intrasomatic step-current injections in the rat neocortex. The features
+of firing patterns in response to step-onset, organized in columns, include bursts, delays and continuous firing, which is neither burst nor delayed. Steady-state patterns, displayed in rows, can be fast
+spiking, non-adapting non-fast spiking, adapting, irregular spiking, intrinsic burst firing or accelerating.
+Fast spiking neurons can also display a stuttering or ‘Morse-code-like’ discharge that is characterized
+by high-frequency spike clusters that are intermingled with unpredictable periods of silence for a wide
+range of long, sustained, somatic-current injections. Blank areas of the table and boxes containing
+only scale bars correspond to firing patterns that have not yet been characterized in neocortical
+interneurons. The scale bar at the top left refers to the traces in the first four rows; the scale bars in the
+fifth and sixth rows refers to the traces in the fifth and sixth rows, respectively.
+
+Characteristic responses to hyperpolarizing steps are described by the rectification
+and rebound behaviour. The differences
+between the voltages at the onset of the step
+and during steady state is defined as the ‘sag’
+(FIG. 4b). At the end of a hyperpolarizing step,
+a depolarizing hump or rebound can appear,
+which might or might not initiate firing.
+For example, in burst-firing cells a brief
+stereotypical high-frequency burst of action
+potentials is initiated on rebound.
+Postsynaptic responses. Interneurons can
+also be characterized on the basis of their
+responses to excitatory or inhibitory synaptic input, which can be ‘spontaneous’ or
+‘evoked’ by the stimulation of an identified
+presynaptic cell. The frequency of spontaneous events and the probability of evoking a
+response upon presynaptic stimulation are
+highly sensitive to the exact experimental
+
+conditions. The properties of the postsynaptic responses of cortical interneurons vary
+over a wide range69. For example, their ‘rise
+time’, ‘amplitude’, ‘decay’ (or width at half
+amplitude), ‘reversal potential’, ‘charge’ and
+complement of ‘receptors’ that underlie the
+synaptic current67 can differ. The GABAA
+receptors that mediate the outputs of
+interneurons also differ across subtypes70.
+The ratio of the different receptor subtypes
+that mediate a combined synaptic current
+is often of interest. ‘Spatial summation’ and
+‘temporal summation’ occur across a cell to
+differing extents.
+Many types of plasticity can occur at
+the synaptic level. This document does not
+attempt to incorporate the rich phenomenology of the synaptic plasticity field, which is
+among the largest and most active in cortical
+neuroscience71–73. Instead, we provide some
+guidelines for the types of measurements
+
+that can be carried out. In ‘short-term
+plasticity’, the kinetics of synaptic facilitation/augmentation, depression and posttetanic potentiation vary considerably74–76. In
+‘long-term plasticity’, the same kinetics can
+be measured, as well as the polarity charge
+and amplitude77. Furthermore, transmitter
+release by and on to interneurons is also
+controlled by neuromodulators, such as
+acetylcholine, serotonin, noradrenaline and
+endocannabinoids78–83. Studies have shown
+that different neuromodulators have differential effects on different types of cells.
+In the future, this might also help to classify
+neocortical interneurons.
+The electrical properties of gap junctions include how strongly they are coupled
+— the ‘coupling coefficient’ is the ratio of
+the voltage response in one cell to the
+voltage response in another. Another
+gap-junction property is ‘rectification’,
+in which a rapid change in conductance in
+one cell occurs when the difference in voltage between the two coupled cells changes
+sign, or when the coupling ratio is
+voltage-dependent78.
+Extracellular recordings. Interneurons are
+embedded in circuits that can modify their
+firing properties in a state-dependent manner. In addition to intracellular recordings,
+interneurons can be recorded extracellularly
+to broadly characterize their spiking patterns
+during responses to sensory input or in association with oscillatory population activity.
+An important goal of physiological characterization is to be able to recognize interneuron types by their extracellular features in
+behaving animals84. The ‘functional response
+specificity’ of an interneuron refers to its role
+or function in vivo, such as its receptive-field
+properties. Several extracellular features,
+such as spike waveform, firing rate, spike
+dynamics (including many of the spiking
+patterns described above), spontaneous and
+evoked properties and the ‘phase relationship’
+between the interneuron spiking and localfield oscillations, can be quantified65,85–87.
+To date, however, no agreed criteria are
+available to reliably classify in vivo recorded
+interneurons. Future research should clarify
+the relationship between in vitro and in vivo
+characterization49.
+Concluding remarks
+A community agreement on the most useful
+and accurate terms to describe the morphological, molecular and electrophysiological
+features of cortical GABAergic interneurons
+is an essential step towards establishing and
+maintaining effective scientific
+
+564 | july 2008 | volume 9	
+
+www.nature.com/reviews/neuro
+© 2008 Macmillan Publishers Limited. All rights reserved.
+
+Perspectives
+Box 3 | Petilla terminology in action: the Martinotti cell
+One of the classic interneurons of the cerebral cortex, the Martinotti cell (MC) was first described by
+Carlo Martinotti104 and was proposed by Ramón y Cajal to play a part in cortical sensorimotor
+processing2. The MC is characterized anatomically by ascending axonal collaterals that reach layer 1
+and then ramify to form a fan-like spread of axonal collaterals5. A biocytin reconstruction of a
+layer-5 low-threshold spiking MC from mouse somatosensory cortex88 shows its triangular soma and
+aspiny multipolar dendrites (shown in blue in part A of the figure). Its axon (shown in red) originates
+at the soma, arborizes locally in layer 5, descends to the white matter, and ascends radially towards
+layer 1, where it arborizes densely with spine-like boutons, mostly on dendritic shafts of the apical
+tufts of pyramidal neurons105,106. Although the physiology of MCs can vary106,107, the intrinsic
+physiology (see figure, part Ba) is characteristic: it has a burst-onset response and, at steady state,
+shows spike amplitude accommodation and pronounced frequency adaptation. It responds to a
+hyperpolarizing current step with a sag (indicated by the arrow) and bursts on rebound (indicated by
+the arrowhead). A common feature of its synaptic physiology, shown in part Bb, is its strong shortterm facilitation of slow excitatory postsynaptic potentials and its bursting response to successive
+synaptic stimulations (indicated by the three circles). Recently, the molecular and genetic details of
+this phenotype have begun to be clarified (part C). Most consistently, MCs express somatostatin
+(SOM) and occasionally calbindin (CB), but not parvalbumin (PV) or vasoactive intestinal peptide
+(VIP)107. Part Ca illustrates somatostatin-positive cells from layers 4 and 5 of the visual cortex of a
+somatostatin/green fluorescent protein (GFP) transgenic mouse. In part Cb, single-cell reverse
+transcriptase (RT) PCR analysis of an MC reveals a typical neurochemical profile106, including the
+expression of SOM and a repertoire of K+ and Ca2+ channels that underlie MC physiological
+properties. Ca, calcium channel; CCK, cholesystokinin; CR, calretinin ; GAPDH, glyceraldehyde
+3-phosphate dehydrogenase; HCN, hyperpolarization-activated cyclic-nucleotide-gated channel;
+MW, molecular-weight marker; NPY, neuropeptide Y; SK, small conductance Ca2+-activated K+
+channel. Parts A and B reproduced, with permission, from REF. 88  (2004) Cambridge University
+Press. Part Cb reproduced, with permission, from REF. 106  (2004) Cambridge University Press.
+
+A Anatomical
+
+B Physiological
+Ba Intrinsic
+
+Bb Synaptic
+
+40 mv –70
+
+1
+
+–70
+40 ms
+
+400 pA
+
+2/3
+
+C Molecular
+Ca SOM-GFP mouse
+
+Kv
+Kv3.3
+3.4
+MW
+Kv
+4.3
+HC
+HCN3
+Ca N 4
+1
+Ca aA
+Ca 1aB
+1aG
+MW
+Ca
+1
+Ca al
+b
+SK 1
+2
+
+5
+
+MW
+Ca
+b
+Ca 3
+b4
+
+Cb Single-cell RT-PCR
+CB
+P
+MWV
+C
+NP R
+Y
+V
+SO IP
+M
+GA CCK
+PD
+H
+
+4
+
+400 ms
+
+20 µm
+
+Kv
+Kv 1.1
+1.2
+MW
+Kv
+1
+Kv .6
+Kv 2.1
+2
+Kv .2
+Kv 3.1
+3
+Kv .2
+4
+Kv .1
+Kv b1
+HCb2
+N
+M 1
+HC W
+N2
+
+6
+
+communication in this field. It will be
+particularly useful for facilitating the collaboration of investigators from different
+research subcommunities and scientific
+backgrounds. A combination of techniques
+and approaches can aid the characterization
+of cortical cells (as illustrated in BOX 3 for the
+Martinotti neuron88).
+
+Nature Reviews | Neuroscience
+
+It is also important to acknowledge again
+that there might not be full agreement on the
+terms we have chosen for the nomenclature,
+and we remain open to suggestions and
+feedback from all readers and interested
+researchers. An example of one such area of
+potential disagreement is the laminar location of the somata of cortical interneurons.
+
+Although its importance as a feature is not
+yet agreed upon, location is included in our
+nomenclature.
+A community-approved terminology for
+classifying cortical neurons is also a goal of
+the Neuroscience Information Framework
+project, which is funded by the US
+National Institutes of Health Blueprint for
+Neuroscience. The project intends to decide
+on a nomenclature tree, with subtypes of
+cortical neurons defined according to one
+of the principal schemes (morphological,
+molecular or physiological), and with the
+other dimensions or schemes represented
+as attributes that could potentially modify
+terms anywhere in the basic tree. A further
+goal of the project is that the scheme be both
+adaptive (as more data or more-refined distinctions are introduced) and generalizable
+to non-cortical cells.
+It is tempting at this stage to endeavour
+to decide the most important properties
+with which to define a class of interneurons.
+However, after extensive discussion within
+our group and with the rest of the community, a strong consensus emerged that this
+would be counter-productive at this point.
+Because cortical interneurons are such
+multi­faceted entities, their classification
+using a few ‘essential’ descriptors (such as
+morphological descriptors) does not yet
+match well with classifications using other
+schemes (such as electrophysiological
+schemes)89. Ultimately, a simple classification might be based on the role of interneuron subtypes in the circuit. However, such
+a classification is premature in the absence
+of a clear functional understanding of the
+contribution that each element makes to the
+neocortical network. This work has instead
+leveraged the expertise from different fields
+of neuroscience to identify the descriptors
+that are most likely to lead to a useful
+multidimensional classification. Efforts are
+underway to organize future meetings that
+would serve both as an open platform from
+which to revise and refine this nomenclature
+and as a way to move towards the goal
+of unifying the classification of cortical
+interneurons.
+The Petilla terminology, even before its
+publication, has already been used as a recognized reference in the recent literature90,91.
+Ideally, this consensus will foster discussion
+to identify those features that are most
+consistently predictive, functionally relevant
+and empirically useful in characterizing
+cells in the mammalian nervous system. For
+example, a pure morphological classification
+of layer-5 neurons from the mouse primary
+visual cortex revealed classes of both
+
+nature reviews | neuroscience	
+
+volume 9 | july 2008 | 565
+© 2008 Macmillan Publishers Limited. All rights reserved.
+
+Perspectives
+pyramidal cells and interneurons. Somatic
+and dendritic metrics similar to those that
+are described in this document were used to
+quantitatively distinguish these classes92.
+
+There are likely to be correlations among
+the morphological, biophysical, molecular
+and synaptic properties. For instance, the
+presence of certain molecular markers (such
+
+Box 4 | Species differences: neurogliaform (NGF) cells in primates and rodents
+The figure shows axonal and dendritic patterns of NGF cells from the monkey (a) and the rat (b)
+prefrontal cortex. In both species these interneurons can be readily identified on the basis of their
+distinctive morphological features. Monkey NGF cells have only a few morphological features that
+differ from rat NGF cells, including a larger soma, a greater number of dendrites and a more compact
+axonal field. Parts c and d show Sholl analysis of neuronal arbors from nine monkey and seven rat
+NGF cells. Average dendritic (c) and axonal (d) intersections are plotted against the distance from
+the soma (for data marked with an asterisk, p<0.05; error bars represent standard error). Primary
+dendrites of monkey NGF cells have more intersections than those of rat NGF cells. In contrast to the
+morphological similarity, whole-cell recordings of the responses to injected current steps reveal a
+number of differences between monkey and rat NGF cells (see also Supplementary information S10).
+Monkey NGF cells consistently generate a short-latency first spike that rides on an initial
+depolarizing hump, whereas in rat NGF cells the first spike appears after a substantial delay riding on
+a depolarizing ramp that is not seen in monkey NGF cells. Parts e and f show the subthreshold
+membrane properties of NGF cells in monkey and rat. Voltage responses to the hyperpolarizing
+current steps are shown in e. Both monkey and rat NGF cells show time-independent inward
+rectification. Subthreshold voltage responses to depolarizing current pulses are shown in f. The
+arrows points to the ‘hump’ in the monkey response and to the ‘ramp’ in the rat response. Thus,
+although rat NGF cells are traditionally classified as late-spiking cells, monkey NGF cells do not meet
+this physiological criterion. In addition, NGF cells in monkey seem to be more excitable than those in
+rat, because they display higher input resistance, lower spike threshold and higher firing frequency.
+Finally, NGF cells in monkey show a more prominent spike frequency adaptation than in rat. Figure
+reproduced, with permission, from REF. 100  (2007) American Physiological Society.
+
+a
+
+d
+
+120
+
+Monkey
+Rat
+
+Axonal intersections
+
+100
+
+b
+
+80
+
+*
+
+60
+
+*
+
+*
+
+40
+
+*
+
+*
+
+20
+
+**
+
+*
+
+0
+0
+
+100 µm
+
+100
+
+200
+
+300
+
+400
+
+500
+
+600
+
+Distance from soma (mm)
+
+e
+
+Monkey
+
+–63 mV
+
+Rat
+–64 mV
+10 mV
+
+100 pA
+100 ms
+
+c
+Dendritic intersections
+
+40
+
+Monkey
+Rat
+
+*
+
+30
+
+Monkey
+
+f
+–80 mV
+
+Rat
+15 mV
+
+–80 mV
+
+100 pA
+100 ms
+
+20
+10
+
+Monkey
+
+0
+
+–65 mV
+0
+
+20
+
+40
+
+60
+
+80
+
+Distance from soma (mm)
+
+566 | july 2008 | volume 9	
+
+Rat
+–64 mV
+
+100
+
+as voltage-gated ion channels or metabotropic receptors) might have specific electrophysiological implications13, whereas other
+markers (such as cell-adhesion proteins or
+neurotrophic factors) might correspond
+to particular morphological phenotypes.
+Some combinations might be common and
+others might be rare. The more that these
+correlations are identified and validated, the
+faster we will advance towards agreeing on a
+classification scheme. For example, morphological and electrophysiological measurements of three molecularly identified sets
+of interneurons uncovered a correlation
+between synaptic input kinetics and axonal
+morphologies32.
+A number of other aspects should be considered, such as developmental ontogeny31,93
+and the function that the interneuron has
+in the local circuit94. Although these other
+features are likely to be crucially related to
+interneuron structure and function, their
+complexity constitutes a major challenge
+to categorization, particularly by multiple
+researchers with different viewpoints. Yet,
+we consider these criteria to be important
+and we will not renounce them in future
+efforts, because research will probably help
+to clarify which features of these criteria are
+most important for distinguishing between
+interneurons. Many cortical interneurons
+perform multiple functional roles, switching
+dynamically on the basis of local and afferent
+activity95. Moreover, intracellular dynamics,
+such as dendritic Ca2+ signalling (FIG. 4c–f),
+can also vary substantially in distinct types
+and even subtypes of cortical interneurons66,88,96–99. Furthermore, properties of
+cortical GABAergic interneurons might
+also differ across species, especially between
+primates and rodents, in which differences
+in the relative proportions of cell types and
+their embryonic origins have been reported.
+For example, a recent study revealed both
+differences and similarities in the properties
+of neurogliaform inhibitory neurons in the
+prefrontal cortex of macaque monkeys and
+rats100 (BOX 4; Supplementary information
+S10 (figure)). Thus, the canonical cortical
+circuit differs in at least some aspects of its
+constituent elements across species.
+Similarly, many of the features that are
+discussed here vary considerably across age
+groups, as well as with disease and genetic,
+pharmacological, surgical and behavioural
+manipulations. The comprehensive collection of such complex information is
+likely to go beyond the possibilities of
+individual laboratories and to require
+federated programmes101. Ongoing efforts
+are already striving to gather relevant
+
+Nature Reviews | Neuroscience
+© 2008 Macmillan Publishers Limited. All rights reserved.
+
+www.nature.com/reviews/neuro
+
+Perspectives
+information from the internet (for example,
+the Neurogateway), the neuroscience
+literature (for example, SenseLab), shared
+digital data102 (for example, NeuroMorpho)
+or by direct experimental acquisition103. A
+widespread convergence on a common set
+of terms is necessary. We look forward to a
+dynamic evolution of the Petilla nomenclature with the constructive participation of all
+active researchers.
+*A full list of authors appears in Box 1.
+Giorgio A. Ascoli is at the Molecular Neuroscience
+Department and Center for Neural Informatics,
+Structures, and Plasticity, Krasnow Institute for
+Advanced Study, George Mason University, MS2A1,
+4400 University Drive, Fairfax, Virginia 22030, USA.
+Rafael Yuste is at Columbia University, 1212
+Amsterdam Avenue, Box 2435, New York, New York
+10027, USA.
+Correspondence to G.A.A. or R.Y.
+e-mails: ascoli@gmu.edu;
+rmy5@columbia.edu
+doi:10.1038/nrn2402
+1.	
+
+2.	
+
+3.	
+
+4.	
+5.	
+
+6.	
+7.	
+8.	
+
+9.	
+10.	
+
+11.	
+12.	
+
+13.	
+
+14.	
+15.	
+
+Somogyi, P., Tamas, G., Lujan, R. & Buhl, E. H.
+Salient features of synaptic organisation in the cerebral
+cortex. Brain Res. Brain Res. Rev. 26, 113–135
+(1998).
+Ramón y Cajal, S. Textura del sistema nervioso del
+hombre y de los vertebrados (Moya, Madrid, 1899).
+English translation: Histology of the Nervous System
+of Man and Vertebrates (Oxford Univ. Press, New
+York, 1995)
+Lorente de Nó, R. La corteza cerebral de ratón.
+(Primera contribución - La corteza acústica). Trabajos
+del Laboratorio de Investigaciones Biológicas de la
+Universidad de Madrid 20, 41–78 (1922). English
+translation: Fairén, A., Regidor, J. & Kruger, L. The
+cerebral cortex of the mouse (a first contribution - the
+“acoustic” cortex). Somatosens. Mot. Res. 9, 3–36
+(1992).
+Szentagóthai, J. The neuron network of the cerebral
+cortex: a functional interpretation. Proc. R. Soc. Lond.
+B Biol. Sci. 201, 219–248 (1978).
+Fairén, A., DeFelipe, J. & Regidor, J. in Cerebral Cortex
+vol. 1 Cellular Components of the Cerebral Cortex
+(eds, Peters, A. & Jones, E. G.) 201–253 (Plenum,
+New York, 1984).
+Lund, J. S. Anatomical organization of macaque
+monkey striate visual cortex. Ann. Rev. Neurosci.
+11, 253–288 (1988).
+Douglas, R. J. & Martin, K. A. C. in The Synaptic
+Organization of the Brain (ed. Shepherd, G. M.)
+459–511 (Oxford Univ. Press, Oxford, 1998).
+Gupta, A., Wang, Y. & Markram, H. Organizing
+principles for a diversity of GABAergic interneurons
+and synapses in the neocortex. Science 287,
+273–278 (2000).
+Lacaille, J. C., Kunkel, D. D. & Schwartzkroin, P. A. in
+The Hippocampus: New Vistas (eds Chan-Palay, V. &
+Kohler, C.) 287–305 (Liss, 1989).
+Maccaferri, G. & Lacaille, J. C. Interneuron diversity
+series: Hippocampal interneuron classifications making things as simple as possible, not simpler.
+Trends Neurosci. 26, 564–571 (2003).
+Cauli, B. et al. Molecular and physiological diversity of
+cortical nonpyramidal cells. J. Neurosci. 17,
+3894–3906 (1997).
+Kawaguchi, Y. Physiological, morphological, and
+histochemical characterization of three classes of
+interneurons in rat neostriatum. J. Neurosci. 13,
+4908–4923 (1993).
+Toledo-Rodriguez, M. et al. Correlation maps allow
+neuronal electrical properties to be predicted from
+single-cell gene expression profiles in rat neocortex.
+Cereb. Cortex 14, 1310–1327 (2004).
+Kostyuk, P. G. Synaptic mechanism of central
+inhibition. Prog. Brain Res. 22, 67–85 (1968).
+Huang, Z. J., Di Cristo, G. & Ango, F. Development
+of GABA innervation in the cerebral and cerebellar
+cortices. Nature Rev. Neurosci. 8, 673–686 (2007).
+
+16.	 Bayraktar, T., Welker, E., Freund, T. F., Zilles, K. &
+Staiger, J. F. Neurons immunoreactive for vasoactive
+intestinal polypeptide in the rat primary
+somatosensory cortex: morphology and spatial
+relationship to barrel-related columns. J. Comp.
+Neurol. 420, 291–304 (2000).
+17.	 Porter, J. T. et al. Properties of bipolar VIPergic
+interneurons and their excitation by pyramidal
+neurons in the rat neocortex. Eur. J. Neurosci. 10,
+3617–3628 (1998).
+18.	 Rozov, A., Jerecic, J., Sakmann, B. & Burnashev, N.
+AMPA receptor channels with long-lasting desensitization
+in bipolar interneurons contribute to synaptic depression
+in a novel feedback circuit in layer 2/3 of rat neocortex.
+J. Neurosci. 21, 8062–8071 (2001).
+19.	 Zilberter, Y., Kaiser, K. M. & Sakmann, B. Dendritic
+GABA release depresses excitatory transmission
+between layer 2/3 pyramidal and bitufted neurons in
+rat neocortex. Neuron 24, 979–988 (1999).
+20.	 Scorcioni, R. & Ascoli, G. A. Algorithmic extraction of
+morphological statistics from electronic archives of
+neuroanatomy. Lect. Notes Comput. Sci. 2084,
+30–37 (2001).
+21.	 Rall, W. Electrophysiology of a dendritic neuron model.
+Biophys. J. 2, 145–167 (1962).
+22.	 Sholl, D. A. Dendritic organization in the neurons of
+the visual cortex and motor cortices of the cat.
+J. Anat. 87, 387–406 (1953).
+23.	 Sholl, D. A. The organization of the visual cortex in the
+cat. J. Anat. 89, 33–46 (1953).
+24.	 Cannon, R. C., Wheal, H. V. & Turner, D. A. Dendrites
+of classes of hippocampal neurons differ in structural
+complexity and branching patterns. J. Comp. Neurol.
+413, 619–633 (1999).
+25.	 Li, Y., Brewer, D., Burke, R. E. & Ascoli, G. A.
+Developmental changes in spinal motoneuron
+dendrites in neonatal mice. J. Comp. Neurol. 483,
+304–317 (2005).
+26.	 Uylings, H. B. M. & van Pelt, J. Measures for
+quantifying dendritic arborizations. Netw. Comput.
+Neural Syst. 13, 397–414 (2002).
+27.	 Gray, E. G. Axo-somatic and axo-dendritic synapses of
+the cerebral cortex: an electron microscopic study.
+J. Anat. 93, 420–433 (1959).
+28.	 Colonnier, M. Synaptic patterns on different cell types
+in the different laminae of the cat visual cortex. An
+electron microscope study. Brain Res. 9, 268–287
+(1968).
+29.	 Peters, A., Palay, S. L. & Webster, H. deF. The Fine
+Structure of the Nervous System. Neurons and their
+Supporting Cells (Oxford Univ. Press, New York, 1991).
+30.	 Gulyás, A. I., Megías, M., Emri, Z. & Freund, T. F. Total
+number and ratio of excitatory and inhibitory synapses
+converging onto single interneurons of different types
+in the CA1 area of the rat hippocampus. J. Neurosci.
+19, 10082–10097 (1999).
+31.	 Butt, S. J. et al. The temporal and spatial origins of
+cortical interneurons predict their physiological
+subtype. Neuron 48, 591–604 (2005).
+32.	 Dumitriu, D., Cossart, R., Huang, J. & Yuste, R.
+Correlation between axonal morphologies and
+synaptic input kinetics of interneurons from mouse
+visual cortex. Cereb. Cortex 17, 81–91 (2007).
+33.	 Sik, A., Ylinen, A., Penttonen, M. & Buzsáki, G.
+Inhibitory CA1‑CA3‑hilar region feedback in the
+hippocampus. Science 265, 1722–1724 (1994).
+34.	 Sik, A., Penttonen, M., Ylinen, A. & Buzsáki, G.
+Hippocampal CA1 interneurons: an in vivo intracellular
+labeling study. J. Neurosci. 15, 6651–6665 (1995).
+35.	 Sik, A., Penttonen, M. & Buzsáki, G. Interneurons in
+the hippocampal dentate gyrus: an in vivo intracellular
+study. Eur. J. Neurosci. 9, 573–588 (1997).
+36.	 Jinno, S. et al. Neuronal diversity in GABAergic longrange projections from the hippocampus. J. Neurosci.
+27, 8790–8804 (2007).
+37.	 Miyashita, T. & Rockland, K. S. GABAergic projections
+from the hippocampus to the retrosplenial cortex in
+the rat. Eur. J. Neurosci. 26, 1193–1204 (2007).
+38.	 Tomioka, R. & Rockland, K. S. Long-distance
+corticocortical GABAergic neurons in the adult monkey
+white and gray matter. J. Comp. Neurol. 505,
+526–538 (2007).
+39.	 Tamas, G., Somogyi, P. & Buhl, E. H. Differentially
+interconnected networks of GABAergic interneurons in
+the visual cortex of the cat. J. Neurosci. 18,
+4255–4270 (1998).
+40.	 Somogyi, P. & Cowey, A. Combined Golgi and
+electron microscopic study on the synapses formed
+by double bouquet cells in the visual cortex of the cat
+and monkey. J. Comp. Neurol. 195, 547–566
+(1981).
+41.	 Somogyi, P. & Cowey, A. in Cerebral Ccortex vol. 1
+Cellular Components of the Cerebral Cortex (eds
+
+42.	
+43.	
+44.	
+
+45.	
+
+46.	
+47.	
+
+48.	
+
+49.	
+50.	
+51.	
+52.	
+53.	
+
+54.	
+
+55.	
+
+56.	
+
+57.	
+
+58.	
+
+59.	
+
+60.	
+61.	
+62.	
+
+63.	
+64.	
+
+65.	
+66.	
+
+67.	
+
+Peters, A. & Jones, E. G.) 337–360 (Plenum, New
+York, 1984).
+White, E. L. Cortical Circuits. Synaptic Organization of
+the Cerebral Cortex (Birkhauser, Boston, 1989).
+Valverde, F. The organization of area 18 in the
+monkey: Golgi study. Anat. Embryol. 154, 305–334
+(1978).
+Ballesteros-Yánez, I. et al. The double bouquet cell in
+the human cerebral cortex and a comparison with
+other mammals. J. Comp. Neurol. 486, 344–360
+(2005).
+Binzegger, T., Douglas, R. J. & Martin, K. A.
+Stereotypical bouton clustering of individual neurons
+in cat primary visual cortex. J. Neurosci. 27,
+12242–12254 (2007).
+Tamas, G., Buhl, E. H. & Somogyi, P. Massive autaptic
+self-innervation of GABAergic neurons in cat visual
+cortex. J. Neurosci. 17, 6352–6364 (1997).
+Peters, A. & Harriman, K. M. Different kinds of axon
+terminals forming symmetric synapses with the cell
+bodies and initial axon segments of layer II/III
+pyramidal cells. I. Morphometric analysis.
+J. Neurocytol. 19, 154–174 (1990).
+DeFelipe, J., Hendry, S. H., Jones, E. G. & Schmechel, D.
+Variability in the terminations of GABAergic chandelier
+cell axons on initial segments of pyramidal cell axons
+in the monkey sensory-motor cortex.
+J. Comp. Neurol. 231, 364–384 (1985).
+Somogyi, P. & Klausberger, T. Defined types of cortical
+interneuron structure space and spike timing in the
+hippocampus. J. Physiol. 562, 9–26 (2005).
+DeFelipe, J. (ed.) J. Neurocytol. 31, 181–416 (2002).
+McBain, C. J. & Fisahn, A. Interneurons unbound.
+Nature Rev. Neurosci. 2, 11–23 (2001).
+Bennett, M. V. & Zukin, R. S. Electrical coupling and
+neuronal synchronization in the mammalian brain.
+Neuron 41, 495–511 (2004).
+Tamas, G., Buhl, E. H., Lörincz, A. & Somogyi, P.
+Proximally targeted GABAergic synapses and gap
+junctions synchronize cortical interneurons. Nature
+Neurosci. 3, 366–371 (2000).
+Fukuda, T. & Kosaka, T. Ultrastructural study of gap
+junctions between dendrites of parvalbumincontaining GABAergic neurons in various neocortical
+areas of the adult rat. Neuroscience 120, 5–20 (2003).
+Zoli, M., Jansson, A., Sykova, E., Agnati, L. F. & Fuxe, K.
+Volume transmission in the CNS and its relevance for
+neuropsychopharmacology. Trends Pharmacol. Sci.
+20, 142–150 (1999).
+Vizi, E. S. Role of high-affinity receptors and
+membrane transporters in nonsynaptic
+communication and drug action in the central nervous
+system. Pharmacol. Rev. 52, 63–89 (2000).
+Monyer, H. & Markram, H. Interneuron diversity
+series: Molecular and genetic tools to study
+GABAergic interneuron diversity and function. Trends
+Neurosci. 27, 90–97 (2004).
+Ray, A., Zoidl, G., Weickert, S., Wahle, P. &
+Dermietzel, R. Site-specific and developmental
+expression of pannexin1 in the mouse nervous system.
+Eur. J. Neurosci. 21, 3277–3290 (2005).
+Kamme, F. et al. Single-cell microarray analysis in
+hippocampus CA1: demonstration and validation of
+cellular heterogeneity. J. Neurosci. 23, 3607–3615
+(2003).
+Sugino, K. et al. Molecular taxonomy of major
+neuronal classes in the adult mouse forebrain. Nature
+Neurosci. 9, 99–107 (2006).
+DeFelipe, J. Chandelier cells and epilepsy. Brain 122,
+1807–1822 (1999).
+Llinás, R. R., Grace, A. A. & Yarom, Y. In vitro neurons
+in mammalian cortical layer 4 exhibit intrinsic
+oscillatory activity in the 10- to 50-Hz frequency range.
+Proc. Natl Acad. Sci. USA 88, 897–901 (1991).
+Hutcheon, B. & Yarom, Y. Resonance, oscillation and
+the intrinsic frequency preferences of neurons. Trends
+Neurosci. 23, 216–222 (2000).
+Pike, F. G. et al. Distinct frequency preferences of
+different types of rat hippocampal neurones in
+response to oscillatory input currents. J. Physiol. 529,
+205–213 (2000).
+Klausberger, T. et al. Brain‑state‑ and cell‑type‑specific
+firing of hippocampal interneurons in vivo. Nature
+421, 844–848 (2003).
+Goldberg, J. H., Tamas, G. & Yuste, R. Ca2+ imaging of
+mouse neocortical interneurone dendrites: Ia-type K+
+channels control action potential backpropagation.
+J. Physiol. 551, 49–65 (2003).
+Ali, A. B., Bannister, A. P. & Thomson, A. M. Robust
+correlations between action potential duration and the
+properties of synaptic connections in layer 4
+interneurones in juvenile and adult neocortical slices.
+J. Physiol. 580, 149–169 (2007).
+
+nature reviews | neuroscience	
+
+volume 9 | july 2008 | 567
+© 2008 Macmillan Publishers Limited. All rights reserved.
+
+Perspectives
+68.	 Kröner, S., Krimer, L. S., Lewis, D. A. & Barrionuevo, G.
+Dopamine increases inhibition in the monkey
+dorsolateral prefrontal cortex through cell typespecific modulation of interneurons. Cereb. Cortex 17,
+1020–1032 (2007).
+69.	 Thomson, A. M., West, D. C. & Deuchars, J. Properties
+of single axon EPSPs elicited in spiny interneurones by
+action potentials in pyramidal neurones in slices of rat
+neocortex. Neuroscience 69, 727–738 (1995).
+70.	 Ali, A. B. & Thomson, A. M. Synaptic a5 subunit
+containing GABAA receptors mediate IPSPs elicited by
+dendrite-targeting cells in rat neocortex. Cereb. Cortex
+18, 1260–1271 (2008).
+71.	 Markram, H. & Tsodyks, M. Redistribution of synaptic
+efficacy between neocortical pyramidal neurons.
+Nature 382, 807–810 (1996).
+72.	 Kullmann, D. M. & Lamsa, K. P. Long-term synaptic
+plasticity in hippocampal interneurons. Nature Rev.
+Neurosci. 8, 687–699 (2007).
+73.	 Pelletier, J. G. & Lacaille, J. C. Long-term synaptic
+plasticity in hippocampal feedback inhibitory
+networks. Prog. Brain Res. 169, 241–250 (2008).
+74.	 Thomson, A. M., Deuchars, J. & West, D. C. Single
+axon EPSPs in neocortical interneurones exhibit
+pronounced paired pulse facilitation. Neuroscience
+54, 347–360 (1993).
+75.	 Thomson, A. M., West, D. C., Wang, Y. &
+Bannister, A. P. Synaptic connections and small
+circuits involving excitatory and inhibitory neurones in
+layers 2 to 5 of adult rat and cat neocortex: triple
+intracellular recordings and biocytin-labelling in vitro.
+Cereb. Cortex 12, 936–953 (2002).
+76.	 West, D. C., Mercer, A., Kirchhecker, S., Morris, O. T. &
+Thomson, A. M. Layer 6 cortico- thalamic pyramidal
+cells preferentially innervate interneurons and
+generate facilitating EPSPs. Cereb. Cortex 16,
+200–211 (2006).
+77.	 Maffei, A., Nataraj, K., Nelson, S. B. & Turrigiano, G. G.
+Potentiation of cortical inhibition by visual deprivation.
+Nature 443, 81–84 (2006).
+78.	 Kawaguchi, Y. & Shindou, T. Noradrenergic excitation
+and inhibition of GABAergic cell types in rat frontal
+cortex. J. Neurosci. 18, 6963–6976 (1998).
+79.	 Xiang, Z., Huguenard, J. R. & Prince, D. A. Cholinergic
+switching within neocortical inhibitory networks.
+Science 281, 985–988 (1998).
+80.	 Férézou, I. et al. 5‑HT3 receptors mediate
+serotonergic fast synaptic excitation of neocortical
+vasoactive intestinal peptide/cholecystokinin
+interneurons. J. Neurosci. 22, 7389–7397 (2002).
+81.	 Bacci, A., Huguenard, J. R. & Prince, D. A. Long-lasting
+self-inhibition of neocortical interneurons mediated by
+endocannabinoids. Nature 431, 312–316 (2004).
+82.	 Bodor, A. L. et al. Endocannabinoid signaling in rat
+somatosensory cortex: laminar differences and
+involvement of specific interneuron types. J. Neurosci.
+25, 6845–6856 (2005).
+83.	 Gulledge, A. T., Park, S. B., Kawaguchi, Y. & Stuart, G. J.
+Heterogeneity of phasic cholinergic signaling in
+neocortical neurons. J. Neurophysiol. 97, 2215–2229
+(2007).
+84.	 Buzsáki, G. Large-scale recording of neuronal
+ensembles. Nature Neurosci. 7, 446–451 (2004).
+85.	 Csicsvari, J., Hirase, H., Czurkó, A., Mamiya, A. &
+Buzsáki, G. Oscillatory coupling of hippocampal
+pyramidal cells and interneurons in the behaving rat.
+J. Neurosci. 19, 274–287 (1999).
+86.	 Barthó, P. et al. Characterization of neocortical
+principal cells and interneurons by network
+interactions and extracellular features.
+J. Neurophysiol. 92, 600–608 (2004).
+87.	 Klausberger, T. et al. Spike timing of dendrite-targeting
+bistratified cells during hippocampal network
+oscillations in vivo. Nature Neurosci. 7, 41–47
+(2004).
+88.	 Goldberg, J. H., Lacefield, C. O. & Yuste, R. Global
+dendritic calcium spikes in mouse layer 5 low
+threshold spiking interneurones: implications for
+control of pyramidal cell bursting. J. Physiol. 558,
+465–478 (2004).
+89.	 Tyner, C. F. The naming of neurons: applications of
+taxonomic theory to the study of cellular populations.
+Brain Behav. Evol. 12, 75–96 (1975).
+90.	 Bota, M. & Swanson, L. W. The neuron classification
+problem. Brain Res. Rev. 56, 79–88 (2007).
+91.	 Miyoshi, G., Butt, S. J., Takebayashi, H. & Fishell, G.
+Physiologically distinct temporal cohorts of cortical
+interneurons arise from telencephalic Olig2-expressing
+precursors. J. Neurosci. 27, 7786–7798 (2007).
+92.	 Tsiola, A., Hamzei-Sichani, F., Peterlin, Z. & Yuste, R.
+Quantitative morphologic classification of layer 5
+neurons from mouse primary visual cortex. J. Comp.
+Neurol. 461, 415–428 (2003).
+
+93.	 Wonders, C. P. & Anderson, S. A. The origin and
+specification of cortical interneurons. Nature Rev.
+Neurosci. 7, 687–696 (2006).
+94.	 Thomson, A. M. & Lamy, C. Functional maps of
+neocortical local circuitry. Front. Neurosci. 1, 19–42
+(2007).
+95.	 Swadlow, H. A. Fast-spike interneurons and
+feedforward inhibition in awake sensory neocortex.
+Cereb. Cortex 13, 25–32 (2003).
+96.	 Goldberg, J. H., Tamas, G., Aronov, D. & Yuste, R.
+Calcium microdomains in aspiny dendrites. Neuron
+40, 807–821 (2003).
+97.	 Goldberg, J. H., Yuste, R. & Tamas, G. Ca2+ imaging of
+mouse neocortical interneurone dendrites:
+contribution of Ca2+-permeable AMPA and NMDA
+receptors to subthreshold Ca2+ dynamics. J. Physiol.
+551, 67–78 (2003).
+98.	 Kaiser, K. M., Zilberter, Y. & Sakmann, B. Backpropagating action potentials mediate calcium
+signalling in dendrites of bitufted interneurons in layer
+2/3 of rat somatosensory cortex. J. Physiol. 535,
+17–31 (2001).
+99.	 Kaiser, K. M., Zilberter, Y. & Sakmann, B. Postsynaptic
+calcium influx at single synaptic contacts between
+pyramidal neurons and bitufted interneurons in layer
+2/3 of rat neocortex is enhanced by backpropagating
+action potentials. J. Neurosci. 24, 1319–1329
+(2004).
+100.	Povysheva, N. V. et al. Electrophysiological differences
+between neurogliaform cells from monkey and rat
+prefrontal cortex. J. Neurophysiol. 97, 1030–1039
+(2007).
+101.	 Ascoli, G. A. Mobilizing the base of neuroscience
+data: the case of neuronal morphologies. Nature Rev.
+Neurosci. 7, 318–324 (2007).
+102.	Ascoli, G. A., Donohue, D. E. & Halavi, M.
+NeuroMorpho.Org: a central resource for neuronal
+morphologies. J. Neurosci. 27, 9247–9251 (2007).
+103.	Markram, H. The Blue Brain Project. Nature Rev.
+Neurosci. 7, 153–160 (2006).
+104.	Martinotti, C. Contributo allo studio della corteccia
+cerebrale, ed all’origine centrale dei nervi. Ann.
+Freniatr. Sci. Affini. 1, 14–381 (1889).
+
+105.	Marin-Padilla, M. in Cerebral Cortex: Cellular
+Components of the Cerebral Cortex (eds Peters, A. &
+Jones, E. G.) 447–478 (Plenum, New York, 1984).
+106.	Wang, Y. et al. Anatomical, physiological and
+molecular properties of Martinotti cells in the
+somatosensory cortex of the juvenile rat. J. Physiol.
+561, 65–90 (2004).
+107.	 Kawaguchi, Y. & Kubota, Y. GABAergic cell subtypes
+and their synaptic connections in rat frontal cortex.
+Cereb. Cortex 7, 476–486 (1997).
+108.	Tamás, G., Lorincz, A., Simon, A. & Szabadics, J.
+Identified sources and targets of slow inhibition
+in the neocortex. Science 299, 1902–1905 (2003).
+109.	Toledo-Rodriguez, M. Genetical, Anatomical and
+Electrical Determinants of Neuronal Diversity. Thesis,
+Weizmann Inst. Sci.
+110.	 Goldberg, J. H. & Yuste, R. Space matters: local and
+global dendritic Ca2+ compartmentalization in cortical
+interneurons. Trends Neurosci. 28, 158–167 (2005).
+
+Acknowledgements
+
+The authors are grateful to funding agencies in their respective countries for supporting this work. The Gobierno de
+Navarra/Nafarroako Gobernua and the town and people of
+Petilla are acknowledged for graciously hosting the meeting
+that originated this document. Special thanks are due to
+A. Rowan, who attended the Petilla meeting and greatly
+contributed to establishing the initial vision for this report.
+
+FURTHER INFORMATION
+Petilla Terminology: http://krasnow.gmu.edu/cng/petilla/
+Neuroscience Information Framework: http://nif.nih.gov/
+Neurogateway: http://www.neurogateway.org/
+SenseLab: http://senselab.med.yale.edu
+NeuroMorpho: http://neuromorpho.org
+
+SUPPLEMENTARY INFORMATION
+See online article: S1 (box) | S2 (box) | S3 (box) | S4 (box) | S5
+(figure) | S6 (figure) | S7 (figure) | S8 (figure) | S9 (figure) | S10
+(figure)
+All links are active in the online pdf
+
+S C IEN C E A ND S O C IE T Y
+
+Brain foods: the effects of nutrients
+on brain function
+Fernando Gómez-Pinilla
+
+Abstract | It has long been suspected that the relative abundance of specific
+nutrients can affect cognitive processes and emotions. Newly described influences
+of dietary factors on neuronal function and synaptic plasticity have revealed
+some of the vital mechanisms that are responsible for the action of diet on brain
+health and mental function. Several gut hormones that can enter the brain, or that
+are produced in the brain itself, influence cognitive ability. In addition, wellestablished regulators of synaptic plasticity, such as brain-derived neurotrophic
+factor, can function as metabolic modulators, responding to peripheral signals such
+as food intake. Understanding the molecular basis of the effects of food on
+cognition will help us to determine how best to manipulate diet in order to increase
+the resistance of neurons to insults and promote mental fitness.
+Although food has classically been perceived
+as a means to provide energy and building
+material to the body, its ability to prevent
+and protect against diseases is starting to be
+recognized. In particular, research over the
+past 5 years has provided exciting evidence
+
+for the influence of dietary factors on
+specific molecular systems and mechanisms
+that maintain mental function. For instance,
+a diet that is rich in omega‑3 fatty acids is
+garnering appreciation for supporting cognitive processes in humans1 and upregulating
+
+568 | july 2008 | volume 9	
+
+www.nature.com/reviews/neuro
+© 2008 Macmillan Publishers Limited. All rights reserved.
+
+
