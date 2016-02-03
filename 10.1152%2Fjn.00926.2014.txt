@@ -1,0 +1,1550 @@
+J Neurophysiol 114: 2353–2367, 2015.
+First published August 19, 2015; doi:10.1152/jn.00926.2014.
+
+Open-loop organization of thalamic reticular nucleus and dorsal thalamus: a
+computational model
+Adam M. Willis,1,2 Bernard J. Slater,3 Ekaterina D. Gribkova,4 and Daniel A. Llano3,4,5
+1
+
+Department of Neurology, San Antonio Military Medical Center, Fort Sam Houston, Texas; 2Department of Theoretical and
+Applied Mechanics, University of Illinois at Urbana-Champaign, Urbana, Illinois; 3Neuroscience Program, University of
+Illinois at Urbana-Champaign, Urbana, Illinois; 4Department of Molecular and Integrative Physiology, University of Illinois
+at Urbana-Champaign, Urbana, Illinois; and 5Beckman Institute for Advanced Science and Technology, Urbana, Illinois
+Submitted 18 November 2014; accepted in final form 17 August 2015
+
+Willis AM, Slater BJ, Gribkova ED, Llano DA. Open-loop
+organization of thalamic reticular nucleus and dorsal thalamus: a
+computational model. J Neurophysiol 114: 2353–2367, 2015. First
+published August 19, 2015; doi:10.1152/jn.00926.2014.—The thalamic reticular nucleus (TRN) is a shell of GABAergic neurons that
+surrounds the dorsal thalamus. Previous work has shown that TRN
+neurons send GABAergic projections to thalamocortical (TC) cells to
+form reciprocal, closed-loop circuits. This has led to the hypothesis
+that the TRN is responsible for oscillatory phenomena, such as sleep
+spindles and absence seizures. However, there is emerging evidence
+that open-loop circuits are also found between TRN and TC cells. The
+implications of open-loop configurations are not yet known, particularly when they include time-dependent nonlinearities in TC cells
+such as low-threshold bursting. We hypothesized that low-threshold
+bursting in an open-loop circuit could be a mechanism by which the
+TRN could paradoxically enhance TC activation, and that enhancement would depend on the relative timing of TRN vs. TC cell
+stimulation. To test this, we modeled small circuits containing TC
+neurons, TRN neurons, and layer 4 thalamorecipient cells in both
+open- and closed-loop configurations. We found that open-loop TRN
+stimulation, rather than universally depressing TC activation, increased cortical output across a broad parameter space, modified the
+filter properties of TC neurons, and altered the mutual information
+between input and output in a frequency-dependent and T-type calcium channel-dependent manner. Therefore, an open-loop model of
+TRN-TC interactions, rather than suppressing transmission through
+the thalamus, creates a tunable filter whose properties may be modified by outside influences onto the TRN. These simulations make
+experimentally testable predictions about the potential role for the
+TRN for flexible enhancement of cortical activation.
+burst; T-type calcium channels; thalamic reticular nucleus; thalamocortical neurons; thalamus
+
+is a critical checkpoint for all information that
+reaches the cerebral cortex. Despite many decades of scientific
+investigation, its role in sensory information processing has
+remained unclear. One key to understanding the role of the
+thalamus likely lies in its interactions with a closely related and
+mysterious structure known as the thalamic reticular nucleus
+(TRN). The TRN is a thin layer of GABAergic neurons that
+partially surrounds the dorsal thalamus,1 and its neurons innervate thalamocortical (TC) neurons (Pinault 2004). The TRN
+has been widely speculated to play prominent roles in a host of
+THE THALAMUS
+
+Address for reprint requests and other correspondence: D. A. Llano, 2355 Beckman
+Inst., 405 N. Mathews, Urbana, IL 61801 (e-mail: d-llano@illinois.edu).
+1
+Note that many authors use the term “dorsal thalamus” to refer to the
+structure that is commonly called “thalamus.” In this report, for simplicity, the
+word “thalamus” does not refer to ventral thalamic structures such as the TRN.
+www.jn.org
+
+brain functions, such as maintenance of arousal (Llinás and
+Paré 1991; Steriade et al. 1993a), selective attention (Crick
+1984; Guillery et al. 1998; McAlonan et al. 2008), the production of sleep spindles (Destexhe et al. 1994), and, in pathological
+states, the production of seizures (McCormick and Contreras
+2001), and may contain functional subnetworks subserving these
+myriad functions (Halassa et al. 2014). Despite the wealth of data
+derived from slice physiological studies about the TRN, the
+specific role of the TRN in modulating larger-scale brain activity
+has been difficult to elucidate, in part because the TRN is a small,
+deep structure and therefore difficult to study in vivo. For this
+reason, computational models can be used to build bridges between the microcircuit-level analysis of the TRN and networklevel phenomena.
+TRN neurons receive input from branches of TC axons en
+route to the cortex as well as branches from corticothalamic
+axons en route to the thalamus (Pinault 2004). Early models of
+TRN function postulated that TC neurons and TRN neurons are
+reciprocally innervated (Steriade et al. 1993a). Models including reciprocal thalamic-TRN innervation reproduce wellknown oscillatory phenomena thought to be generated in the
+thalamus, such as spindle oscillations and absence seizures
+(Destexhe et al. 1993, 1999; Huguenard 1998). However, there
+are emerging data suggesting that there are additional nonreciprocal or open-loop arrangements between the thalamus and
+TRN. For example, the TRN receives input from regions of the
+thalamus that do not receive returning axons from the TRN
+(Crabtree and Isaac 2002; Kimura 2014; Kimura et al. 2007;
+Pinault and Deschênes 1998). In addition, the sensory portions
+of the TRN receive input from nonsensory parts of the forebrain, such as the prefrontal cortex (Zikopoulos and Barbas
+2006), basal forebrain (Asanuma and Porter 1990; Bickford et
+al. 1994; Pita-Almenar et al. 2014; Sun et al. 2013), and
+amygdala (Zikopoulos and Barbas 2012). These types of openloop circuits may provide a substrate by which TC transmission may be modulated by regions of the brain not classically
+associated with sensory processing, possibly to permit attentional or emotional demands to modify sensory processing.
+A key component for the potential of the TRN to shape the
+coding properties of the thalamus is the low-threshold bursting
+behavior of TC neurons. Hyperpolarization of TC neurons
+leads to deinactivation of T-type calcium channels, which
+changes the response mode of TC cells from tonic, single-spike
+firing to low-threshold, burst firing (Jones 2007; Sherman
+2001). Low-threshold bursting allows hyperpolarized thalamic
+neurons not only to respond to stimuli that would normally be
+2353
+
+2354
+
+OPEN-LOOP THALAMIC-TRN COMPUTATIONAL MODEL
+
+subthreshold but also to respond to such stimuli with a burst of
+two to five action potentials. Previous experimental and computational work has established that bursts are a reliable way to
+send a high-efficacy signal to a postsynaptic target and are
+likely a more suitable mode for signal detection than spikes in
+tonic mode (Denning and Reinagel 2005; Goense et al. 2003;
+Krahe and Gabbiani 2004; Lisman 1997; Mukherjee and Kaplan 1995; Person and Perkel 2005; Reinagel et al. 1999; Smith
+et al. 2000; Swadlow and Gusev 2001). In the case of the TC
+synapse, since this synapse induces large postsynaptic currents
+but is highly depressing (Chung et al. 2002; Gil et al. 1999;
+Stratford et al. 1996), a burst of action potentials arriving after
+a period of quiescence (as required by the voltage- and time
+sensitivity of T-type calcium channels) would have a high
+likelihood of inducing a postsynaptic response in a cortical
+neuron. In contrast, thalamic cells in “tonic” mode have a
+lower likelihood of inducing a cortical response because the
+tonically arriving individual spikes would likely meet a depressed synapse. Therefore, the TRN appears poised to induce
+a switch from tonic to burst firing based on its ability to
+hyperpolarize TC neurons. However, because of the time
+required to deinactivate the T-type calcium channels (Jahnsen
+and Llinas 1984), the TRN may also simply suppress incoming
+signals to the thalamus if those signals arrive prior to T-channel
+deinactivation. Therefore, the TRN is strategically situated to
+influence the flow of information passing through the thalamus
+and may enhance or suppress thalamic responsiveness, depending on the relative timing of afferent inputs and TRN activation.
+An important consideration for any theory of thalamic function that involves the use of bursts as a means to carry sensory
+information is whether or not bursts are seen during the awake
+state. Several studies have shown that a mixture of bursting and
+individual spikes is seen in awake animals (Fanselow et al.
+2001; Guido and Weyand 1995; Ortuño et al. 2014; Ramcharan
+et al. 2005), suggesting that the excitability of thalamic neurons
+may be actively modulated during wakefulness. This is consistent with the finding that injection of currents into thalamic
+cells in vitro, similar to those recorded in vivo, produces a
+mixture of single spikes and bursts (Wolfart et al. 2005). It is
+also important to note that bursts per se are not critical for the
+potential for the TRN to boost thalamic output. This is because
+the low-threshold potentiation of depolarization created by T
+currents, which may only produce one or two spikes riding a
+slow calcium wave, may also enhance cortical activation.
+Because these spikes necessarily follow a period of quiescence,
+they would not be subject to the strong temporal filtering at the
+TC synapse (Deleuze et al. 2012).
+Therefore, given 1) the presence of extrinsic inputs from
+remote brain regions onto TRN neurons, 2) the potential for
+TRN neurons to potentiate thalamic output by creating bursts,
+and 3) the strong temporal filtering present at the TC synapse,
+we hypothesized that stimulation of the TRN could paradoxically enhance cortical responses to sensory stimuli. Furthermore, we hypothesized that this enhancement would only be
+seen at particular rates of TRN and sensory input. To test these
+ideas and to generate quantitative predictions that could be
+tested experimentally, we constructed a computational model
+containing TC cells, TRN cells, fast-spiking (FS) interneurons,
+and thalamorecipient cells in layer 4 (L4) of the cortex and
+explored the dynamics of this network as TRN inputs were
+
+modulated. Preliminary results of this work were previously
+presented in abstract form (Willis and Llano 2012).
+METHODS
+
+All surgical procedures were approved by the Institutional Animal
+Care and Use Committee at the University of Illinois. All animals
+were housed in animal care facilities approved by the Association for
+Assessment and Accreditation of Laboratory Animal Care International. Every attempt was made to minimize the number of animals
+used and to reduce suffering at all stages of the study.
+Physiological recordings. Balb/c mice (30 – 40 days of age) were
+bred in house from breeders purchased from Harlan Laboratories. To
+obtain slices, mice were deeply anesthetized by intraperitoneal injection of pentobarbital (50 mg/kg), then transcardially perfused with an
+ice-cold high-sucrose cutting solution (in mM: 206 sucrose, 10.0
+MgCl2, 11.0 glucose, 1.25 NaH2PO4, 26 NaHCO3, 0.5 CaCl2, 2.5
+KCl, pH 7.4), and had brains removed quickly. Coronal tissue slices
+(300 ␮m) were cut with a vibrating tissue slicer and transferred to a
+holding chamber containing oxygenated incubation artificial cerebrospinal fluid (aCSF; in mM: 126 NaCl, 3.0 MgCl2, 10.0 glucose, 1.25
+NaH2PO4, 26 NaHCO3, 1.0 CaCl2, 2.5 KCl, pH 7.4) and incubated at
+32°C for 1 h prior to recording.
+Whole cell recordings were performed with a visualized slice setup
+outfitted with infrared-differential interference contrast optics and
+performed at 32°C. During recordings, tissue was bathed in recording
+aCSF (in mM: 126 NaCl, 2.0 MgCl2, 10.0 glucose, 1.25 NaH2PO4, 26
+NaHCO3, 2.0 CaCl2, 2.5 KCl, pH 7.4). Recordings were done in the
+absence, and the presence, of tetrodotoxin (TTX). TTX was added to
+the bath at a 1 ␮M concentration to eliminate spikes to permit
+parameter matching for the underlying membrane properties (see
+below). Recording pipettes were pulled from borosilicate glass capillary tubes and had tip resistances of ϳ5 M⍀ when filled with
+solution, which contained (in mM) 117 K-gluconate, 13 KCl, 1.0
+MgCl2, 0.07 CaCl2, 0.1 ethylene glycol-bis(␤-aminoethyl ether)-N, N,
+N=, N=-tetraacetic acid, 10.0 4-(2-hydroxyethyl)-1-piperazineethanesulfonic acid, 2.0 Na-ATP, 0.4 Na-GTP, and 0.5% biocytin, pH 7.3.
+Thalamic areas were identified via landmarks readily visualized in the
+slice. The data for the present study come from neurons in the ventral
+posterior medial part of the thalamus, from the TRN, and from FS and
+regular-spiking cells in cortical L4. We used the Multiclamp 700B
+amplifier (Molecular Devices, Sunnyvale, CA) and pCLAMP software (Molecular Devices) for data acquisition (20-kHz sampling).
+Multiple cells were recorded from each class (TC, TRN, L4 regular
+spiking and FS). A representative neuron from each class was chosen
+to be modeled. This approach was used rather than averaging parameters across neurons because using parameter averages may lead to
+modeling of cell parameter combinations that may not exist in reality.
+Our choice of modeling representative neurons still allows exploration
+of a broad range of parameters to examine the impact of those
+parameter changes on model performance (e.g., Fig. 8).
+Model architecture. Single-compartment models of TC, TRN, FS,
+and L4 cells were built with a Hodgkin-Huxley framework with
+membrane potential V modeled by the first-order differential equation
+for a single-compartment neuron:
+Cm ϭ
+
+dV
+dt
+
+ϭ g L͑ V Ϫ E L͒ ϩ
+
+n
+
+͚ gi͑V͒͑V Ϫ Ei͒ ϩ Ie
+iϭ1
+
+where gL is the leak conductance, EL is the leak reversal potential, Cm
+is the capacitance of the membrane, n is the number of channels, gi(V)
+is the conductance of the ith channel, Ei is the reversal potential of the
+ith channel, and Ie is the externally applied current to the cell. The
+conductances of each channel are semiempirically modeled by activation and inactivation variables. Our TC model used the same model
+as Deleuze et al. (2012) and included a T-type calcium channel, an H
+current, as well as fast sodium current and delayed rectifying potas-
+
+J Neurophysiol • doi:10.1152/jn.00926.2014 • www.jn.org
+
+OPEN-LOOP THALAMIC-TRN COMPUTATIONAL MODEL
+
+sium current. For complete mathematical description of model, please
+refer to Deleuze et al. (2012). A similar computational model was also
+used to describe the dynamics of TRN cells, with parameters changed
+to match physiological recordings from TRN cells. A slow-inactivating potassium current (KS current; Pospischil et al. 2008; Yamada et
+al. 1989) was added to this model to account for spike-frequency
+adaptation seen in our TRN recordings. The L4 and FS cells were
+modeled with the regular-spiking neuron and FS cell described by
+Pospichil et al. (2008) and had parameters modified to match our
+recorded neurons. See Table 1 for list of model cellular parameters.
+To ensure that the findings of this study are not the result of the
+idiosyncrasies of a select group of neurons, key parameters were
+estimated across 30 recorded neurons (10 from each: TC, TRN, and
+L4) and are shown in Table 2.
+The model contains an input stream representing sensory afferents
+to the TC cell (e.g., optic tract input to the visual thalamus), here
+referred to as “afferent” stimulation. In the nonreciprocal network, the
+TRN received synaptic input that was independent of afferent input to
+the TC cell. The initial parameters for our synapses were derived from
+the following publications: retinogeniculate (Chen and Regehr 2003),
+thalamocortical (Laurent et al. 2002), reticulothalamic (Wanaverbecq
+et al. 2008), and thalamoreticular (Gentet and Ulrich 2003). The
+synapse derived from a hypothetical remote source (e.g., the
+amygdala, nonsensory cortex, basal forebrain) to the TRN was modeled as a generic excitatory synapse with mild paired-pulse depression
+(recovery time constant ϭ 40 ms). It is recognized that very little is
+
+Table 1. Model cellular parameters
+TC cell
+Leak conductance
+Leak equilibrium potential
+Fast sodium conductance
+Sodium equilibrium potential
+Potassium conductance
+Potassium equilibrium potential
+T-current amplitude
+Calcium equilibrium potential
+H-current amplitude
+H-current equilibrium potential
+L4 cell
+Leak conductance
+Leak equilibrium potential
+Fast sodium conductance
+Sodium equilibrium potential
+Potassium conductance
+Potassium equilibrium potential
+M-current amplitude
+TRN cell
+Leak conductance
+Leak equilibrium potential
+Fast sodium conductance
+Sodium equilibrium potential
+Potassium conductance
+Potassium equilibrium potential
+T-current amplitude
+H-current amplitude
+H-current equilibrium potential
+KS-current amplitude
+KS current ␶
+FS cell
+Leak conductance
+Leak equilibrium potential
+Fast sodium conductance
+Sodium equilibrium potential
+Potassium conductance
+Potassium equilibrium potential
+H-current amplitude
+
+3.263 nS
+Ϫ60.03 mV
+1,500 nS
+50 mV
+520 nS
+Ϫ100 mV
+45 nS
+120 mV
+0.608 nS
+Ϫ33 mV
+4.8128 nS
+Ϫ60.2354 mV
+3,000 nS
+50 mV
+140 nS
+Ϫ90 mV
+1.5 nS
+3.7928 nS
+Ϫ57 mV
+3,000 nS
+50 mV
+400 nS
+Ϫ100 mV
+21 nS
+0.0192 nS
+Ϫ33 mV
+3.5 nS
+200 ms
+8.252 nS
+Ϫ76 mV
+300 nS
+50 mV
+1,100 nS
+Ϫ100 mV
+0 nS
+
+TC, thalamocortical; TRN, thalamic reticular nucleus; FS, fast spiking; L4,
+layer 4; KS current, slow-inactivating potassium current; ␶, time constant.
+
+2355
+
+Table 2. Averaged parameter estimates from 10 cells in each
+class (TC, TRN, and L4)
+TC cell
+Leak conductance
+Leak equilibrium potential
+T-current amplitude
+H-current amplitude
+L4 cell
+Leak conductance
+Leak equilibrium potential
+M-current amplitude
+TRN cell
+Leak conductance
+Leak equilibrium potential
+T-current amplitude
+H-current amplitude
+
+3.09 (0.91) nS
+Ϫ57.4 (9.0) mV
+49.1 (11.0) nS
+0.94 (0.57) nS
+5.24 (2.33) nS
+Ϫ64.7 (9.6) mV
+1.06 (0.58) nS
+4.80 (1.49) nS
+Ϫ53.6 (3.9) mV
+24.5 (12.0) nS
+0.04 (0.07) nS
+
+Values are means (SD); n ϭ 10.
+
+currently known about such synapses, and the neurotransmitters used
+likely differ in different projections (e.g., acetylcholine or GABA
+from the basal forebrain; Asanuma and Porter 1990; Bickford et al.
+1994; Pita-Almenar et al. 2014; Sun et al. 2013), likely glutamate
+from the cortex since this is used in other corticoreticular (Gentet and
+Ulrich 2004) and corticothalamic (Kao and Coulter 1997; Turner and
+Salt 1998) projections. For this reason we explored a range of synaptic
+strengths for this synapse spanning two orders of magnitude and
+examined the effect of these strengths on model behavior (see Fig.
+8D). As more is learned about the myriad pathways that impinge upon
+the TRN, this model may be refined. Several other parameters were
+systematically varied to explore their impact on network behavior. All
+external inputs to the TC and TRN cells were either trains of pulses at
+a fixed rate or Poisson-modulated pulse trains comprising individual
+pulses lasting one time step (0.1 ms).
+The parameter space of each neuron’s possible conductances is
+rather large, and to model neurons that are realistic, computational
+models were matched to recordings from TC cells, TRN cells, L4
+regular-spiking cells or FS cells, described above. Matching was
+performed with a hybrid approach of simplex minimization (Nelder
+and Mead 1965) and hand parameter matching. The shape and depth
+of cell’s depolarization were matched in a point-to-point fashion
+under conditions in which an external current of Ϫ100 pA was
+applied. Matching occurred by allowing Cm, gL, EL, and the conductances of both the T-type calcium channel and the H-type current to be
+varied by the simplex optimizer. By focusing on matching the hyperpolarization curve, a good qualitative match was achieved between
+our simulation posthyperpolarization calcium T current and a TC cell
+recorded in whole cell current clamp in the presence of TTX. The
+conductance of the T-type calcium channel, the firing threshold of the
+fast sodium channel, as well as the conductances of the sodium and
+potassium channels were hand adjusted to match the number of spikes
+contained in a tonic depolarization with 100 pA as well as the number
+of spikes in a burst following a Ϫ100-pA hyperpolarization. As has
+been done previously (Bazhenov et al. 2002), modifications of resting
+membrane potential of the TC cell model were accomplished by
+adjusting the leak current gL. For the TRN neuron, adjustments were
+made in the leak potential EL rather than gL, because changes made in
+gL to depolarize cells were countered by the KS current.
+All synapses were modeled using the depressing synapse model of
+Tsodyks and Markram (1997). This model assumes a finite number of
+resources that are in an active, inactive, or recovered state. These
+resources can be thought of as vesicles filled with neurotransmitter.
+Action potentials activate a set fraction USE of the available recovered
+resources to the active state, which then transition to an inactive state
+with a linear time constant ␶inact. The inactive resources then recover
+with a time constant ␶recov. To have realistic models of each synapse
+in our simulation, we used simplex minimization (described above) to
+select optimal parameters to matched published data of inhibitory
+
+J Neurophysiol • doi:10.1152/jn.00926.2014 • www.jn.org
+
+2356
+
+OPEN-LOOP THALAMIC-TRN COMPUTATIONAL MODEL
+
+postsynaptic currents (IPSCs), excitatory postsynaptic potentials (EPSPs), or excitatory postsynaptic currents (EPSCs) of our respective
+synapses (see Table 3 for listing of synaptic parameters).
+Mutual information calculations. Mutual information (MI) between the afferent spike train to the TC neuron and the output spike
+train measured at the L4 cortical neuron was evaluated with an MI
+estimator:
+MI ϭ
+
+M
+
+Pijout,in
+Pijout,inlog 2 out in
+Pi P j
+j
+
+M
+
+͚i ͚
+
+in
+Where Pout,
+is the joint probability of an input event and an output
+ij
+event (both defined below), Pin
+j is the marginal probability of an input
+event, Pout
+is the marginal probability of an output event, i ϭ bin
+i
+number (when using the output marginal probability), j ϭ bin number
+(when using the input marginal probability) and M ϭ total number of
+bins.
+The uniform partition to compute MI does not work well for
+processes with incomparable timescales (Darbellay and Vajda 1999;
+Marek and Tichavsky 2008). Therefore, because of significant differences in L4 firing rates observed across different afferent input rates,
+a variant of the adaptive partition (Cellucci et al. 2005) has been
+applied. The partitioning used here relies on output spike intervals to
+take into account different rates of L4 output spikes observed with
+different rates of afferent input spikes. If a uniform partition had been
+used, the different rates of L4 output spikes would have created a
+different resolution of analysis for each afferent input rate, confounding comparisons across afferent input rates.
+Input events were defined as being the spikes from the afferent
+input to the TC cell (i.e., spikes in an optic tract axon). For each output
+
+Table 3. Model synaptic parameters
+External synapse to TC cell
+Conductance
+␶recov
+␶inact
+Equilibrium potential
+USE
+External synapse to TRN cell
+Conductance
+␶recov
+␶inact
+Equilibrium potential
+USE
+TRN-to-TC cell synapse
+Conductance
+␶recov
+␶inact
+Equilibrium potential
+USE
+TC-to-TRN cell synapse
+Conductance
+␶recov
+␶inact
+Equilibrium potential
+USE
+TC-to-L4 or FS synapse
+Conductance
+␶recov
+␶inact
+Equilibrium potential
+USE
+FS-to-L4 synapse
+Conductance
+␶recov
+␶inact
+Equilibrium potential
+USE
+
+32 nS
+125 ms
+2.64 ms
+0 mV
+0.76
+32 nS
+40 ms
+10.58 ms
+0 mV
+0.3
+80 nS
+167.29 ms
+16.62 ms
+Ϫ80 mV
+0.62
+150 nS
+500 ms
+2.64 ms
+0 mV
+0.76
+50 nS
+160 ms
+11.52 ms
+0 mV
+0.8113
+50 nS
+511.41 ms
+7.162 ms
+Ϫ100 mV
+0.2
+
+␶recov, ␶inact, time constants of recovery, transition to inactive state; USE, set
+fraction of available recovered resources to active state.
+
+interval ⌬tout
+i , these inputs were represented as the number of spikes
+ni. N is defined as the total number of input spikes on the whole time
+series. Therefore, the marginal probability of an input event was
+defined as
+Piin ϭ
+
+ni
+N
+
+Output events were defined as the intervals between spikes in the
+L4 neuron. Therefore, the marginal probability of an output event was
+defined as
+Piout ϭ
+
+⌬tiout
+T
+
+where T ϭ total simulation time.
+The joint probability Pout, in for any combination of ni and ⌬tout
+was
+i
+calculated by constructing a two-dimensional matrix with output
+interval bins on the horizontal axis and input spike number in each bin
+on the vertical axis. Entries on the diagonal of the matrix all equal 1/N.
+Off-diagonal entries equal either zero for unique combinations of ni
+and ⌬tout
+or 1/N for repeated values of ni for a given ⌬tout
+i
+i . Therefore,
+for any input-output sequences that were highly predictable (i.e., a
+similar number of input spikes for every output interval), Pout, in was
+maximized. For uncorrelated input-output sequences, most off-diagonal entries to the matrix were 0, minimizing Pout, in.
+The simulations were all coded in MATLAB. All time integration
+was accomplished with a hybrid analytic-numerical integration
+scheme proposed by Moore and Ramon (1974), which provides
+numerically accurate solutions to Hodgkin-Huxley models while
+maintaining a reasonable computational cost. All simulations were run
+on a Dell XPS machine using a Windows operating system. Thalamocortical transfer functions were plotted as L4 spike output (y-axis) vs.
+afferent stimulation rate (x-axis). Bandwidth was computed by using
+the standard deviation of a Gaussian function fitted to the transfer
+function (with GraphPad software).
+RESULTS
+
+Model comparison to physiological data. Consistent with
+many previous reports (Jahnsen and Llinas 1984; Jones 2007;
+Sherman 2001), depolarization of a real thalamic neuron from
+its resting potential leads to trains of individual action potentials, with firing rates that are dependent on the degree of
+depolarization and with rates that show minimal adaptation
+over time (Fig. 1B). Hyperpolarization of the same cell leads to
+a delayed drift of depolarization that is most apparent toward
+the end of the hyperpolarizing current pulse. This depolarizing
+drift is likely a consequence of an underlying hyperpolarization-activated cation current (a.k.a. the sag current), known to
+exist in TC neurons (Lüthi and McCormick 1998). This depolarization drift is followed by a rebound slow potential with a
+burst of fast action potentials riding on top of the slow potential
+(i.e., the “burst”; Fig. 1B). Similar to the real thalamic neuron,
+and previous reports with a similar model (Deleuze et al. 2012;
+Destexhe et al. 1998), our model thalamic neuron also fired
+trains of individual action potentials when depolarized, showed
+a sag current late during hyperpolarization, and had a burst of
+fast action potentials riding a slow depolarization after the
+injection of negative current (Fig. 1C). Modeled TRN neurons
+also showed bursting after hyperpolarization, as seen in real
+TRN neurons (Fig. 1, D and E; Huguenard and Prince 1992),
+and voltage traces from modeled cortical L4 cells closely
+approximated the voltage traces and firing properties of real
+regular-spiking neurons (Fig. 1, F and G).
+
+J Neurophysiol • doi:10.1152/jn.00926.2014 • www.jn.org
+
+OPEN-LOOP THALAMIC-TRN COMPUTATIONAL MODEL
+
+2357
+
+Fig. 1. A: model architecture. Independent Poisson inputs are fed into a thalamocortical (TC) neuron (“afferent input”) or a thalamic reticular nucleus (TRN)
+neuron (“external input”). The TRN may also receive inputs from a TC cell, then sends a GABAergic input to the TC cell, which projects to a layer 4 (L4) cell.
+PFC, prefrontal cortex. B: a real TC cell, recorded from the ventral posterior medial part of the thalamus in current-clamp mode, in response to direct current
+injections from Ϫ100 pA to ϩ100 pA. C: the behavior of a model cell in response to the same inputs. D–G: real (D) and model (E) TRN cells and real (F) and
+model (G) L4 cells. See text for details.
+
+Baseline model synaptic characteristics. Stimulation of the
+TC cell from sensory afferents modeled after a retinogeniculate
+synapse with high synaptic efficacy and strong synaptic depression (i.e., a “driver synapse”; Reichova and Sherman 2004)
+showed significant rate-dependent effects. Stimulation of afferents at rates of 5 or 10 Hz produced a single postsynaptic
+action potential for each incoming action potential. At 20 Hz,
+
+only the initial incoming action potentials are transmitted
+through this synapse (Fig. 2A). Similarly, the TC synapse was
+modeled as a high-efficacy, high-synaptic depression synapse
+and therefore also showed loss of temporal fidelity at synaptic
+stimulation rates above 10 Hz (Fig. 2B). A range of different
+time constants and magnitudes of synaptic depression for both
+of these synapses has been reported in the literature and used
+
+Fig. 2. Illustration of the behavior of the 3 main synapses in this model as they are driven at 5 Hz, 10 Hz and 20 Hz. A: the afferent synapse to the TC is driven
+at different rates, showing depression at rates Ͼ 10 Hz. B: the TC-to-L4 synapse is driven at different rates, directly by simulating stimulation of the TC axon,
+showing depression at rates Ͼ 10 Hz. C: the TRN-to-TC synapse is driven at different rates, showing hyperpolarization with rebound depolarizations, driven by
+T currents, which culminate in rebound spikes at rates above 10 Hz. Note that all y-axes use a 15-mV marker except the bottom 2 nonspiking traces in C, which
+have an expanded y-axis to illustrate subthreshold dynamics.
+J Neurophysiol • doi:10.1152/jn.00926.2014 • www.jn.org
+
+2358
+
+OPEN-LOOP THALAMIC-TRN COMPUTATIONAL MODEL
+
+in previous modeling studies (Banitt et al. 2007; Bartlett and
+Smith 2002; Boudreau and Ferster 2005; Chance et al. 1998;
+Chen and Regehr 2003; Chung et al. 2002; Laurent et al. 2002;
+Reig et al. 2006; Wehr and Zador 2005), and the impact of
+systematically modifying these time constants is explored
+below. Stimulation of the TRN-to-TC synapse at low rates
+produces a hyperpolarization of the TC cell, followed by a
+rebound depolarization without spiking. As the rate of TRN
+stimulation is increased, the degree of synaptic depression
+became more evident, and the magnitude of the rebound
+depolarizing current increases, culminating in a two-spike
+rebound burst with stimulation rates of 20 Hz and above
+(Fig. 2C).
+The impact of incorporation of the TRN, initially in a
+closed-loop configuration, was examined to determine whether
+our model shows behavior similar to previous modeling studies
+(Destexhe et al. 1993, 1996; Steriade et al. 1993a). As expected, in response to a 2-s-long tonic afferent input (modeled
+as a train of afferent spikes at 1,000 Hz), the TC and TRN
+neurons fire alternately at ϳ11 Hz. The oscillatory firing of the
+TC cell elicits rhythmic spikes in the L4 cell. The oscillations
+cease at the termination of the stimulus because of the absence
+of excitatory drive to the TC cell (Fig. 3).
+Behavior of the open-loop network. The behavior of the
+open-loop network using independent Poisson-modulated
+trains of pulses as inputs to the TC and TRN cells was
+examined. In the absence of TRN input (Fig. 4A), Poissonmodulated input at an average rate of 25 Hz produced a spike
+train of ϳ3.1 spikes/s in the TC cell and 2.8 spikes/s in the L4
+cell. The L4 cell responded to most of the TC spikes with a
+spike unless TC spikes came in rapid succession, which were
+filtered out by the paired pulse depression built into the TC
+synapse model (Fig. 4A). The interspike interval histogram of
+the TC cell shows a single peak at ϳ150 ms, with a long tail
+of intervals extending out to ϳ900 ms.
+When input to the TRN is added, the behavior of the circuit
+changes. Figure 4B illustrates the results when the TRN received Poisson-modulated inputs at an average rate of 5 Hz
+while the TC cell continued to receive inputs at an average rate
+of 25 Hz, in response to an afferent stimulus identical to that
+used for the simulation in Fig. 4A. In the presence of inputs to
+the TRN, TC cells fire a mixture of individual spikes and bursts
+(Fig. 4B). The total spike rate in the TC cell was 5.6 spikes/s,
+which is ϳ81% higher than without the TRN, while the total
+spike rate of the L4 cell was 4.4 spikes/s, which is ϳ57%
+higher than the spike rate without the TRN. It is notable that
+bursts are seen infrequently in the TC cell but still produce
+substantial enhancement of L4 spiking. In addition, the convergence of postinhibitory depolarizations and direct excitatory
+
+afferent inputs allows several spikes to appear in the L4 cell
+that were not apparent without activation of the TRN (Fig. 4B).
+Other L4 spikes shifted their timing compared with the original
+stimulus without the TRN (Fig. 4B). Similar to in vivo data
+from the thalamus of awake subjects (Jeanmonod et al. 1996;
+Ramcharan et al. 2000), the interspike interval histogram of the
+TC cell shows two peaks: one corresponding to the action
+potentials within the bursts (ϳ6 ms) and the other corresponding to action potentials between bursts (ϳ150 ms). These data
+suggest that the presence of the TRN in an open-loop configuration may increase TC and L4 total spike output, that this is
+accomplished by changing the interval statistics of the TC
+spike train, and that the increase in L4 output is not solely
+dependent upon TC cell bursting, which is seen very infrequently in this example (ϳ0.5 Hz, compared with a total spike
+rate of 5.6 Hz).
+Different input rates to both TC and TRN cells were explored, ranging in average rate from 0.5 Hz to 200 Hz, with
+rates being logarithmically spaced. All inputs to TC and TRN
+cells were Poisson distributed. Without TRN stimulation, both
+TC and L4 cells demonstrated incremental increases in firing
+rate as the average afferent input rate increased up to ϳ10 Hz,
+and at higher rates a decrease in firing rates was observed (first
+column in Fig. 5A and black line in Fig. 5B). The drop-off in
+spiking with low and high rates is caused by different factors.
+With low afferent stimulation rates, the low spiking rates are
+related to the small numbers of input pulses provided to these
+cells. As the rate of afferent stimulation increased, the spike
+outputs increased until synaptic depression diminished postsynaptic firing at each synapse (recovery time constant ␶ ϭ 125
+ms for each synapse in the baseline model). At rates Ͼ 10 Hz,
+the drop-off in spiking is related to synaptic depression. This
+point is made more clear as the value of ␶ is varied at the
+afferent and TC synapses (see below).
+Particular combinations of input rates to the TRN cell and to
+the TC cell produced a maximum total spike output in the L4
+cell (Fig. 5A), showing a peak response when the average rates
+of input to both the TRN cell and the TC cell were each ϳ10
+Hz. The presence of input to the TRN altered the filtering
+properties of L4 neurons in complex ways (Fig. 5, B–F). The
+bandwidth of the thalamocortical transfer functions measured
+at the L4 neuron was ϳ35 Hz. As the rate of input to the TRN
+increased, the thalamocortical transfer function initially broadened, with bandwidths approaching 60 Hz at afferent rates
+between 5 and 50 Hz, and then narrowed again, with bandwidths returning to ϳ35 Hz at TRN rates of 200 Hz. These data
+suggest that the TRN adjusts the tuning properties of the
+thalamocortical filter.
+
+Fig. 3. Behavior of the reciprocal model. Tonic input
+to the TC cell produces rhythmic spiking at ϳ10 Hz in
+the TC cell (red) and the TRN cell (blue) and an onset
+response in the L4 neuron (black). Inset, bottom right,
+shows higher-resolution view of TC and TRN cell
+activity.
+
+J Neurophysiol • doi:10.1152/jn.00926.2014 • www.jn.org
+
+OPEN-LOOP THALAMIC-TRN COMPUTATIONAL MODEL
+
+2359
+
+Fig. 4. Illustration of the impact of the TRN on a TC and a L4 cell while there is concurrent afferent input to the TC cell. A: with no input to the TRN but input
+to the TC cell of a 25 Hz-modulated pulse train, the TC cell fires intermittent spikes and drives the L4 cell, with occasional failures at the TC synapse due to
+TC synaptic depression (open circle). Interspike interval (ISI) histogram (right) shows a single peak at ϳ150 ms. B: with inclusion of TRN input at 5 Hz and
+an external stimulus to TC cells identical to that in A, TC cells show occasional bursts (single asterisk), but mostly individual spikes, leading to a greater total
+number of spikes at the L4 cell (double asterisk for spikes seen in the L4 cell seen only when TRN is receiving input). Other L4 spikes shifted their timing relative
+to the case prior to engaging the TRN (caret). Interspike interval histograms from the TC cell show 2 peaks, 1 corresponding to the interburst interval at ϳ150
+ms and another corresponding to the spikes within the bursts, peaking at ϳ6 ms (shown in inset).
+
+To further examine the impact of the TRN on L4 firing rates,
+a normalized spike output matrix was constructed by subtracting the baseline firing rates (without the TRN, which is the first
+column of Fig. 5A) from the corresponding firing rates when
+the TRN was being stimulated (Fig. 5D). This difference
+matrix, shown as a three-dimensional contour plot, illustrates
+that most of the TRN-induced enhancement in L4 output was
+seen at the highest rates of afferent stimulation, which is due to
+recovery from synaptic depression in the TC cell, as shown in
+Fig. 4B. The greatest suppression of L4 output, shown as a
+negative-going wave with an arrow, is seen at the highest rates
+of TRN stimulation. Review of individual filter functions from
+Fig. 5D illustrate the rate-dependent enhancement and suppression phenomena more clearly. For example, normalized L4
+spiking rates obtained at two different rates of TRN stimulation
+(25 and 150 Hz), and at varying rates of afferent input, are
+shown in Fig. 5E. At a rate of stimulation of the TRN of 25 Hz,
+maximum enhancement in L4 spiking is seen at the highest rates
+of afferent stimulation to the TC cell. When the stimulation rate of
+the TRN is raised to 150 Hz mostly suppression is seen, and this
+
+suppression is most evident when afferent stimulation to the TC
+cell is ϳ20 –30 Hz. When looked at from the reverse perspective,
+that is, by holding the rate of afferent stimulation fixed at either 25
+or 150 Hz and varying the rate of stimulation of the TRN (Fig.
+5F), it becomes clear that the TRN is more likely to enhance L4
+spiking when afferent rates are high (150 Hz) and to suppress L4
+spiking when afferent rates are intermediate (25 Hz). These data
+illustrate the complex interrelationships between the rates of
+stimulation of the TRN and the TC cell and the resulting pattern
+of spiking at the L4 cell.
+To ensure that these findings are not a result of the particular
+combination of parameters used from individual neurons, the
+simulations were rerun with averaged parameters obtained across
+the three cell types (10 of each cell type). These data are illustrated
+in Fig. 6 and show that the phenomena of rate-dependent enhancement and suppression are similar when using averaged parameters
+and parameters derived from individual cells (compare to Fig. 5,
+A and D).
+Removal of T-type calcium channels substantially altered
+the impact of the TRN on L4 firing. In the absence of T-type
+
+J Neurophysiol • doi:10.1152/jn.00926.2014 • www.jn.org
+
+2360
+
+OPEN-LOOP THALAMIC-TRN COMPUTATIONAL MODEL
+
+Fig. 5. Output of L4 cell in response to a range of combinations of inputs to TC and TRN cells ranging from 0.5 Hz to 200 Hz. A: heat map of the raw spike
+output in the L4 cell. B: thalamocortical transfer functions with no input to TRN (baseline) compared with 25-Hz input to TRN and 150-Hz input to TRN showing
+broadening of the transfer function. C: bandwidth of the thalamocortical transfer function changes as a function of TRN stimulation rate. D: 3-dimensional
+contour plot of the difference of spike output relative to the baseline case of no input to the TRN in the L4 cell. Asterisk shows area of maximal enhancement,
+and arrow shows area of maximal suppression. E: individual normalized thalamocortical transfer functions obtained at 2 different rates of TRN stimulation (25
+and 150 Hz); 25 Hz produces enhancement at high rates of afferent stimulation to the TC cell, while 150 Hz produces depression of L4 spiking. F: individual
+traces showing normalized spike output as a function of TRN stimulation rate at 2 different rates of afferent stimulation (25 and 150 Hz).
+
+calcium channels, increasing the rate of TRN stimulation
+monotonically reduced the spiking output of the L4 cell (Fig. 7,
+A and B). Unlike the changes in bandwidth seen with changing
+rates of TRN input in the presence of thalamic T currents seen
+in Fig. 5C, removal of T currents produced bandwidths that are
+initially flat and then diminish as TRN stimulation rates rise,
+primarily because the magnitude of the response at high TRN
+rates declines precipitously (Fig. 7C). These data suggest that
+TRN-based enhancement of spike output and adjustment of
+thalamocortical transfer function tuning are dependent upon
+thalamic T-type calcium channels.
+Impact of changing synaptic and biophysical parameters.
+The effects of changing several synaptic and biophysical properties on the magnitude of TRN-based enhancement in L4
+spiking rates were explored. During these parameter changes,
+all other biophysical and synaptic properties were held constant. TRN-based enhancement of L4 spiking rates was found
+to be highly dependent on the magnitude of the T-type calcium
+current (Fig. 8A). Enhancement of L4 output was seen at
+T-type channel conductance values as low as 15 nS and
+showed a steep increase as the conductance value was increased to 30 nS. Beyond 50 nS, the increase plateaued. In
+addition, adjustment of the resting potential of TC and TRN
+neurons was done as a way to simulate the presence of
+typically depolarizing modulators, such as acetylcholine or
+norepinephrine. Mild tonic hyperpolarization of the TC cell
+shut down TC spiking by dropping EPSP amplitudes below
+spiking thresholds, while tonic depolarization gradually increased TRN-based enhancement of L4 spike output (Fig. 8B).
+
+This increase in enhancement is related to higher tonic spiking
+rates in TC neurons, which suppressed L4 spiking and was then
+relieved by the intermittent pauses and rebounds induced by
+the TRN. L4 spiking output was relatively stable across a broad
+range of resting potentials of TRN neurons, although at strong
+depolarizations (about ϩ12 mV relative to baseline) TRN
+spike rates became quite high and tonically suppressed TC
+neurons, diminishing L4 output (Fig. 8B). This suppression
+was partially relieved by depolarizing both the TC neuron and
+the TRN neuron by ϳ12 mV (Fig. 8B). Changing the recovery
+time constant of the afferent input to the TC cell or the TC
+synapse from 25 ms to 800 ms did gradually diminish the
+magnitude of enhancement seen in the L4 cell (Fig. 8C), and
+this drop was more prominent when the TC synapse recovery
+time constant was increased. This suggests that synaptic filtering at either synapse is not the sole cause of TRN-based
+enhancement of L4 spiking. The strength of synaptic projections from external sources (such as the prefrontal cortex,
+amygdala, or nonreciprocal portions of the thalamus) is not yet
+known and may vary between these different sources of input.
+Therefore we examined the impact of varying the strength of
+the external synapse to the TRN from 2 to 256 nS (Fig. 8D). At
+low levels of synaptic conductance, there is essentially no
+enhancement of L4 firing, related to absence of TRN firing
+under these conditions. Above 10 nS, there is a sharp increase
+in enhancement, which drops off gradually at higher synaptic
+strengths. This latter result is consistent with the overall result
+that the degree of TRN-mediated enhancement of TC trans-
+
+J Neurophysiol • doi:10.1152/jn.00926.2014 • www.jn.org
+
+OPEN-LOOP THALAMIC-TRN COMPUTATIONAL MODEL
+
+2361
+
+spikes/s at the highest TRN rates, while they only dropped
+by ϳ1 spike/s without the FS cell. Finally, the bandwidths
+of the thalamocortical transfer functions were narrower in
+the presence of the FS cell, particularly at high rates of TRN
+stimulation (Fig. 9F).
+Impact of TRN on mutual information. Given previous work
+demonstrating the impact of bursting on the information content of thalamic spike trains (Reinagel et al. 1999), we examined the impact of the TRN on the relationship between the
+temporal pattern of afferent input to the TC cell and L4
+temporal spiking patterns using MI. In the absence of the TRN,
+the MI rose with afferent input rate, then peaked at input rates
+of ϳ2 Hz, and then declined (Fig. 10A). This initial rise was
+likely related to the increasing number of L4 spikes produced
+as the number of input pulses grew, because normalizing by the
+number of L4 spikes produced an essentially a monotonic
+decreasing amount of MI as the afferent rate increased (Fig.
+10B). In addition, normalizing by number of spikes virtually
+equalized the MI (expressed as bits/spike) across different
+simulation durations (Fig. 10B). At afferent stimulation rates
+above 2 Hz, MI diminished, related to diminishing correspondence between input and output because of adaptation.
+Inclusion of the TRN had different effects on MI depending
+on the rate of afferent input to the TC cell. Using a value of
+normalized MI (normalized to number of spikes) expressed
+relative to the maximum MI at a particular afferent stimulation
+rate, the TRN caused a prominent drop in MI at TRN stimulation rates between 5 and 20 Hz and a recovery of MI above
+20 Hz (Fig. 10, C and D). As TRN stimulation rate increased,
+this pattern appeared to invert, such that at high rates of
+afferent stimulation TRN stimulation rates in the 1–20 Hz
+range boosted MI quite considerably, then declined again at
+higher rates of TRN stimulation (Fig. 10, C and D). Note that
+these changes cannot simply be spike rate dependent since
+these MI values have been normalized for L4 spike rate.
+DISCUSSION
+Fig. 6. Output of L4 cell in response to a range of combinations of inputs to TC
+and TRN cells ranging from 0.5 Hz to 200 Hz, using the averaged parameters
+shown in Table 2. A: heat map of the raw spike output in the L4 cell. B:
+3-dimensional contour plot of the difference of spike output relative to the
+baseline case of no input to the TRN in the L4 cell.
+
+mission is maximal at intermediate rates of activation of TRN
+neurons (as illustrated in Fig. 5F).
+Impact of FS interneurons. TC neurons are known to make
+strong synapses on FS interneurons, which then provide
+GABAergic innervation to L4 regular-spiking neurons (Cruikshank et al. 2007; Sun et al. 2006). We therefore examined the
+impact of including an FS interneuron interposed between the
+TC cell and the L4 cell (see Fig. 9A for model architecture and
+Fig. 9, B and C, for the real and modeled FS cells, respectively). The general pattern of raw spike counts in the presence
+of the FS cell is generally similar to that without the FS cell
+(compare Fig. 9D to Fig. 5A). Two differences are that 1) the
+overall spike counts are slightly diminished in the presence of
+the FS cell and 2) the highest rates of TRN stimulation produce
+less enhancement than in the model without the FS cell
+(compare circled area in Fig. 9D to similar region in Fig. 5A).
+This is most evident when looking at the normalized spike
+output (Fig. 9E), where spike rates diminish by nearly 3
+
+In the present study, we found that model circuits that
+contain nonreciprocal TRN-TC connectivity can potentiate
+ascending signals as they pass through the thalamus. In addition, this potentiation is only seen for a restricted range of rates
+of stimulation of TC and TRN cells; suppression is seen at
+others. This suggests that the TRN, when placed in an openloop configuration with the dorsal thalamus, can act to create a
+tunable temporal filter such that only particular rates of ascending information activate the cortex. In addition, this filtering
+capacity disappeared when T-type calcium channels were
+removed, suggesting that the filtering was dependent on the
+activation of these channels. Finally, when this model was
+reconfigured into a closed-loop organization, oscillatory
+activity at similar rates seen in spindles was observed,
+which is similar to many previous modeling studies. This
+final point suggests that the only fundamental difference
+between the present model and previous models is the
+connectivity of the dorsal thalamus and TRN cells. These
+data highlight the considerable importance of knowing the
+microarchitecture of TRN-thalamic circuitry to make inferences about larger-scale network activity.
+Methodological issues. The models in the present study are,
+by design, extremely simple and do not capture the wealth of
+
+J Neurophysiol • doi:10.1152/jn.00926.2014 • www.jn.org
+
+2362
+
+OPEN-LOOP THALAMIC-TRN COMPUTATIONAL MODEL
+
+Fig. 7. Impact of removal of the T current on model behavior. Removal of the T currents diminishes all enhancement of firing seen both in the raw spike output
+(A) and the normalized spike output (B). The bandwidth of the thalamocortical transfer functions also decreases as a function of rate of TRN stimulation, related
+to the low overall spike counts at high TRN rates (C).
+
+biophysical detail present in real TC, TRN, or L4 cortical
+thalamorecipient cells. One particular issue that may benefit
+from a more biophysically detailed model is the presence of
+T-type calcium channels on dendrites (Crandall et al. 2010).
+An assumption of the present model is that ascending sensory
+inputs and TRN inputs are integrated at the same location,
+although it is certainly possible that these inputs may be
+physically separated to different parts of the dendritic tree or to
+different dendrites, producing local dendritic integration. Other
+details have also been left out, such as cross-channel interactions in the dorsal thalamus, potentially mediated by the TRN
+(Crabtree and Isaac 2002; Deschênes et al. 1985; Landisman et
+al. 2002; Pinault and Deschênes 1998). Furthermore, there are
+other sources of GABAergic input onto sensory TC cells:
+intrinsic GABAergic interneurons (Sherman 2004), inhibition
+from the zona incerta (Barthó et al. 2002), or, in the case of the
+auditory and visual systems, ascending inhibition from the
+midbrain (Cucchiaro et al. 1991; Llano et al. 2014; Peruzzi et
+al. 1997; Venkataraman and Bartlett 2013; Winer et al. 1996).
+Additionally, it is not known whether such TRN-based enhancement of cortical activation would be modified by other
+inputs to the TRN, such as those from layer 6 of the cortex (Liu
+and Jones 1999). It is well recognized that corticothalamic
+projections can have dominant roles in the firing of thalamic
+neurons (Alitto and Usrey 2003; Sillito et al. 2006; Suga and
+Ma 2003) and that these roles may vary dynamically (Crandall
+et al. 2015). Since our goal was to examine the potential for the
+reticulothalamic pathway to modify signals ascending through
+the thalamus, we have not included these projections, although
+they may be incorporated in future simulations. In addition,
+excitatory synapses in this model were all relatively generic,
+most closely resembling AMPA-type receptors, although it is
+known that NMDA receptors are present on multiple modeled
+synapses (Funke et al. 1991; Gentet and Ulrich 2004; Gil and
+Amitai 1996). The impact of inclusion of NMDA currents in
+the present model is not yet known: enhancement of TC firing
+may have been seen with high afferent rates, but this may be
+offset by TC synaptic filtering. A dedicated exploration of the
+impact of NMDA currents would require systematic exploration of their impact at multiple synapses, and may easily be
+incorporated in future studies. Finally, L4 cells receive a
+number of thalamic inputs (Alonso et al. 2001; Miller et al.
+2001), and synchronous firing in multiple thalamic cells may
+
+be required to produce a postsynaptic response (Bruno and
+Sakmann 2006). Therefore, the impact of a TRN impulse on
+the likelihood that an L4 neuron would fire may be dependent
+on TRN effects on a population of TC neurons, not just one
+neuron as presently modeled.
+Three points should be made with respect to the validity of
+using the simple models used in the present study to infer
+network dynamics. First, all of the physiological parameters
+used to construct this model were obtained from recordings
+made at the soma, such that these values were obtained after
+dendritic filtering took place. Second, simple single-compartment models have been used successfully to gain insight into
+neural network properties, despite drastic simplifications made
+for the sake of tractability (Ching et al. 2010; Destexhe et al.
+1993; Grillner et al. 1988). Third, now that the core behavior of
+this simple network has been characterized in silico, it would
+be straightforward to incorporate more components to the
+model, such as dendritic currents, cross-channel integration,
+
+Fig. 8. Assessment of the impact of adjustment of T-current magnitude (A), TC
+and TRN cell resting membrane potential relative to the resting potential in the
+baseline model (B), afferent and TC synaptic recovery time constant (C), and
+strength of external synapse to TRN (D). Output is expressed as maximum
+spikes per second above baseline (i.e., compared with spike output at same TC
+stimulation rate without input to the TRN cell).
+
+J Neurophysiol • doi:10.1152/jn.00926.2014 • www.jn.org
+
+OPEN-LOOP THALAMIC-TRN COMPUTATIONAL MODEL
+
+2363
+
+Fig. 9. Assessment of the impact of incorporation of a fast-spiking (FS cell). A: model architecture with FS cell interposed between a TC and a L4 cell. B and
+C: a real (B) and a model (C) FS cell. D: heat map of raw spike output at various rates of afferent and TRN stimulation showing a peak of spike outputs at TRN
+rates about 10 Hz and afferent rates of between 10 and 40 Hz. Circle denotes area that shows substantially less spiking than the case without the FS cell (compare
+to Fig. 5A). E: 3-dimensional contour plot showing normalized spike outputs with varying rates of afferent and TRN input. F: bandwidths of thalamocortical
+transfer functions in the baseline model (without the FS cell) compared with the model with the FS cell.
+
+other forms of GABAergic input, etc., and assess their impact
+on model performance.
+Comparison with physiological data. The present results are
+consistent with previous data showing the enhanced efficacy,
+in terms of spiking at the level of the cortex (Swadlow and
+Gusev 2001), detection of sensory signals (Guido et al. 1995)
+and information content (Reinagel et al. 1999) of thalamic
+neurons in burst mode. The present results also indicate that the
+impact of TRN modulation on both cortical spiking and MI
+between afferent input to the TC cell and spiking in an L4 cell
+is strongly dependent on the rate of stimulation of the afferent
+synapse to the TC neuron. For example, Fig. 5, D and F, show
+that potentiation of L4 activation is seen primarily only at high
+(Ͼ20 Hz) rates of afferent input and that at intermediate rates
+depression is seen. Similarly, TRN-based enhancement of MI
+is diminished at low afferent rates but enhanced at high afferent
+stimulation rates, and these changes are seen only at intermediate rates of TRN stimulation (Fig. 10, C and D). Afferent
+inputs to the traditional sensory parts of the thalamus, such as
+the lateral geniculate nucleus, medial geniculate body, and
+ventral posterior nucleus, are derived from the retina, inferior
+colliculus, and medial lemniscus/spinothalamic system, respectively. The rates of firing of thalamic-projecting neurons in
+these systems are highly variable, depending on the stimuli
+being encoded and the subsets of afferent neurons being
+activated, and encompass the ranges used in this study (Alitto
+and Usrey 2008; Davidson et al. 2007; Hubel 1960; Rose et al.
+1963; Sincich et al. 2007). Given this heterogeneity of temporal patterns of afferent input to the thalamus, the present data
+suggest that the TRN may produce diverse effects on thalamo-
+
+cortical networks that strongly depend on both stimulus features as well as the spiking properties of the individual afferent
+projections to TC neurons.
+TRN-mediated thalamocortical potentiation was sensitive to
+some synaptic and cellular parameters and not others. For
+example, adjustment of the strength of the T current strongly
+modulated the degree of potentiation as well as the bandwidth
+of the thalamocortical transfer function (Fig. 7 and Fig. 8A).
+Potentiation was seen at all T-current values above 15 nS,
+which encompasses T currents used across several different
+computational modeling studies (Deleuze et al. 2012; Destexhe
+et al. 1993; Pospischil et al. 2008; Wang 1994), suggesting that
+TRN-based enhancement of TC firing seen here is not due to
+selection of an artificially high value of the T current. Potentiation was also strongly diminished with increases in the
+afferent and TC synaptic recovery time constants. This is
+because high values of this time constant are suppressive for
+virtually all thalamic inputs. At low values of these time
+constants, the L4 cell tracks, spike for spike, the activity of the
+TC neuron. These findings, coupled with previous work showing that the degree of TC filtering can be altered by a host of
+different modulators and/or local network activity (Gil et al.
+1997; Hirata and Castro-Alamancos 2006; Reig et al. 2006),
+suggest that the TC synapse may be an important point of
+regulation to control the response of the cortex to temporally
+patterned input delivered to the thalamus. Output of the L4 cell
+was not strongly dependent on the resting potential of the TC
+or TRN cell, although decreases in the degree of TRN-based
+enhancement of L4 spiking were seen with hyperpolarization
+of TC neurons or strong depolarization of TRN neurons (Fig.
+
+J Neurophysiol • doi:10.1152/jn.00926.2014 • www.jn.org
+
+2364
+
+OPEN-LOOP THALAMIC-TRN COMPUTATIONAL MODEL
+
+Fig. 10. Impact of the TRN on mutual information (MI). A: the MI between the afferent train to
+the TC cell and the L4 spike train increases, then
+decreases, as the input rate to the TC cell increases and increases as the length of the simulation increases. B: dividing the MI by the number of spikes in the output cell causes MI to
+become a monotonic decreasing function with
+input rate and equalizes MI across the different
+lengths of simulation. C: across a range of rates
+of input to the TC and TRN cell, the normalized
+relative MI shows a complex relationship with
+input rates. D: at low rates of afferent stimulation, TRN stimulation causes a drop in MI at low
+TRN rates, then a recovery of MI at higher rates.
+At high rates of afferent stimulation, TRN stimulation at low rates causes an increase in MI,
+which then decreases at high rates of TRN
+stimulation.
+
+8B). Interestingly, the depression of L4 enhancement seen with
+depolarization of TRN neurons was partially recovered by also
+depolarizing the TC cell (Fig. 8B). This finding indicates that
+matched depolarizing input to TRN and TC neurons (such as
+that coming from brain stem cholinergic systems during increases in arousal) suggests that the impact of the TRN on
+thalamocortical activation may not be particularly state
+dependent.
+The stimulus design needs to be considered in the interpretation of the present results. Uncorrelated Poisson-modulated
+pulse trains were used as simple approximations to random
+inputs received by the TRN and TC neuron, although it is
+known that many spike trains violate Poisson assumptions (Liu
+et al. 2001). The presence of uncorrelated inputs has implications in the MI data. For example, while it is not surprising that
+the addition of a source of noise, in the form of uncorrelated
+inputs from the TRN to the TC cell, can diminish the correspondence between the afferent input and the L4 neuron and
+thus diminish the MI, this drop in MI is only seen at particular
+combinations of rates of input to the TC and TRN cells. At
+high rates of input to the TC cell, the TRN causes substantial
+increases in the MI (see Fig. 10D) that cannot simply be due to
+an increase in L4 spiking, since MI was normalized for spike
+output. In this sense, the TRN can facilitate MI in a manner
+similar to what has been observed with stochastic resonance in
+other neural systems (Hänggi 2002; Stacey and Durand 2000).
+It is not yet known with any precision what kinds of signals are
+sent to the TRN from remote regions, such as the overlying
+cortex, prefrontal cortex, amygdala, or basal forebrain, but it is
+not likely that the TRN simply acts as a source of noise, since
+TRN spiking activity in vivo is highly correlated to sensory
+inputs or motor outputs (Marlinski and Beloozerova 2014;
+McAlonan et al. 2006; Shosaku and Sumitomo 1983; Yu et al.
+2009). Future work with this model, incorporating more real-
+
+istic inputs to the TRN, will be feasible once neuronal recordings in vivo from identified inputs to the TRN are available.
+Bursting, inhibition, and TC coding. The idea that bursting
+in TC neurons may be an important form of coding information
+is controversial. Indeed, there is a body of literature that would
+suggest that bursting is seen in states of global inattention and
+therefore suppresses the flow of information through the thalamus. This literature is based primarily on the findings that
+thalamic neurons tend to hyperpolarize during sleep or drowsiness and often burst rhythmically during these states (Bereshpolova et al. 2011; Hirsch et al. 1983; Livingstone and Hubel
+1981; Steriade et al. 1993b). In addition, thalamic bursting is
+seen during absence seizures, a state in which the organism is
+awake but inattentive to external stimuli (von Krosigk et al.
+1993). This has led to the most common description of thalamic function, that of being a relay, which is gated based on
+overall states of arousal. More specifically, during drowsiness
+or sleep there is a decrease in activity of monaminergic
+afferents from the brain stem, which permits hyperpolarization
+of the thalamus and therefore blocks relay of information to the
+cortex. Then, during states of arousal, TC neurons become
+depolarized from the action of monoaminergic brain stem
+afferents and the neurons switch from burst to tonic mode and
+relay information with high fidelity to the cortex.
+Unfortunately, this simple model of thalamic function does
+not account for other findings in the literature, such as the
+presence of bursting seen in awake animals (Fanselow et al.
+2001; Guido and Weyand 1995; Ramcharan et al. 2005). In
+addition, several groups have found that bursts can selectively
+encode sensory features. For example, bursting in visual thalamic neurons robustly encodes certain types of temporal
+sequences, such as the movement of an object into the visual
+field (Lesica et al. 2006; Lesica and Stanley 2004). Other
+studies demonstrate that viewing naturalistic movies will induce hyperpolarizations that transition visual thalamic cells to
+
+J Neurophysiol • doi:10.1152/jn.00926.2014 • www.jn.org
+
+OPEN-LOOP THALAMIC-TRN COMPUTATIONAL MODEL
+
+burst mode (Wang et al. 2007). Finally, it has been shown that
+bursting in visual thalamic cells is driven by specific patterns of
+stimulation and is a highly reliable form of signaling (Alitto et
+al. 2005). These data, combined with the temporal filtering
+characteristics of the TC synapse (Chung et al. 2002; Gil et al.
+1999; Stratford et al. 1996) that provide a cortical “readout”
+mechanism that favors bursts, suggest that bursting not only
+may be a viable mode of coding but also may be more potent
+than tonic spikes in activating the cortex. Finally, it is important to note that, similar to the findings of others (Deleuze et al.
+2012), fully elaborated bursts were not necessary to produce
+enhanced cortical responses; rebound T current-mediated depolarizations carrying one or two spikes were sufficient to
+produce enhanced cortical activation (Fig. 4B, center, TC
+trace). Patterns of thalamic firing potentiated by T currents, but
+not showing bursting, would be difficult to detect with traditional means of identifying bursts in the extracellular record
+(Lu et al. 1992; Ramcharan et al. 2000) but would change the
+statistical properties of the thalamic spike train (Fig. 4B, right).
+Therefore, the present findings, coupled with previous work
+demonstrating the presence of nonperiodic bursting during the
+awake state, suggest that a more nuanced view of the thalamus
+and bursting may be appropriate. Although spontaneous, rhythmic bursting may be associated with states of global inattention, irregular bursting may, in fact, be a mechanism by which
+detection of weak signals is facilitated. This implies that
+modulatory inputs from remote regions such as the basal
+forebrain, amygdala, and prefrontal cortex can alter the activation of a particular region of the cortex by dynamically
+modulating the state of TC neurons during wakefulness. The
+fact that such low-threshold detection does not appear to occur
+during sleep may be due to a whole host of sleep-specific
+factors, for example, cortical unresponsiveness during slowwave oscillations (Watson et al. 2008) or withdrawal of monoamine neuromodulators that may hyperpolarize thalamic cells
+to the point that they are unable to respond to external inputs
+(Livingstone and Hubel 1981). Whereas substantial advances
+were made in the past in understanding closed-loop TRNthalamus interactions with reduced experimental preparations
+that retained only thalamus-TRN connectivity (von Krosigk et
+al. 1993), the results presented here suggest that more complicated dynamics are invoked once afferent inputs to the thalamus are stimulated concurrently with the TRN. Therefore, in
+future studies it will be necessary to test the hypotheses
+advanced here with experimental preparations that contain a
+greater degree of intact circuitry between TRN, thalamus, and
+afferent inputs to the thalamus, either in a slice preparation
+(Llano et al. 2014) or with in vivo approaches that allow
+excitation of the TRN while monitoring an animal’s behavioral
+state (Halassa et al. 2011).
+ACKNOWLEDGMENTS
+The authors thank Dr. Kush Paul for his assistance in identifying fastspiking interneurons in our data set.
+GRANTS
+D. A. Llano was supported by National Institute on Deafness and Other
+Communication Disorders (NIDCD) Grant DC-012125, and B. J. Slater was
+supported by NIDCD Grant DC-013501.
+The view(s) expressed herein are those of the author(s) and do not reflect
+the official policy or position of Brooke Army Medical Center, the U.S. Army
+
+2365
+
+Medical Department, the U.S. Army Office of the Surgeon General, the
+Department of the Air Force, the Department of the Army or the Department
+of Defense or the U.S. Government.
+DISCLOSURES
+No conflicts of interest, financial or otherwise, are declared by the author(s).
+AUTHOR CONTRIBUTIONS
+Author contributions: A.M.W., E.D.G., and D.A.L. conception and design
+of research; A.M.W., B.J.S., E.D.G., and D.A.L. performed experiments;
+A.M.W., B.J.S., E.D.G., and D.A.L. analyzed data; A.M.W., B.J.S., E.D.G.,
+and D.A.L. interpreted results of experiments; A.M.W. and D.A.L. prepared
+figures; A.M.W., B.J.S., E.D.G., and D.A.L. drafted manuscript; A.M.W.,
+E.D.G., and D.A.L. edited and revised manuscript; A.M.W., B.J.S., E.D.G.,
+and D.A.L. approved final version of manuscript.
+REFERENCES
+Alitto HJ, Usrey WM. Corticothalamic feedback and sensory processing.
+Curr Opin Neurobiol 13: 440 – 445, 2003.
+Alitto HJ, Usrey WM. Origin and dynamics of extraclassical suppression in
+the lateral geniculate nucleus of the macaque monkey. Neuron 57: 135–146,
+2008.
+Alitto HJ, Weyand TG, Usrey WM. Distinct properties of stimulus-evoked
+bursts in the lateral geniculate nucleus. J Neurosci 25: 514 –523, 2005.
+Alonso JM, Usrey WM, Reid RC. Rules of connectivity between geniculate
+cells and simple cells in cat primary visual cortex. J Neurosci 21: 4002–
+4015, 2001.
+Asanuma C, Porter LL. Light and electron microscopic evidence for a
+GABAergic projection from the caudal basal forebrain to the thalamic
+reticular nucleus in rats. J Comp Neurol 302: 159 –172, 1990.
+Banitt Y, Martin KA, Segev I. A biologically realistic model of contrast
+invariant orientation tuning by thalamocortical synaptic depression. J Neurosci 27: 10230 –10239, 2007.
+Barthó P, Freund TF, Acsády L. Selective GABAergic innervation of
+thalamic nuclei from zona incerta. Eur J Neurosci 16: 999 –1014, 2002.
+Bartlett EL, Smith PH. Effects of paired-pulse and repetitive stimulation on
+neurons in the rat medial geniculate body. Neuroscience 113: 957–974,
+2002.
+Bazhenov M, Timofeev I, Steriade M, Sejnowski TJ. Model of thalamocortical slow-wave sleep oscillations and transitions to activated states. J
+Neurosci 22: 8691– 8704, 2002.
+Bereshpolova Y, Stoelzel CR, Zhuang J, Amitai Y, Alonso JM, Swadlow
+HA. Getting drowsy? Alert/nonalert transitions and visual thalamocortical
+network dynamics. J Neurosci 31: 17480 –17487, 2011.
+Bickford ME, Günlük AE, van Horn SC, Sherman SM. GABAergic
+projection from the basal forebrain to the visual sector of the thalamic
+reticular nucleus in the cat. J Comp Neurol 348: 481–510, 1994.
+Boudreau CE, Ferster D. Short-term depression in thalamocortical synapses
+of cat primary visual cortex. J Neurosci 25: 7179 –7190, 2005.
+Bruno RM, Sakmann B. Cortex is driven by weak but synchronously active
+thalamocortical synapses. Science 312: 1622–1627, 2006.
+Cellucci C, Albano AM, Rapp P. Statistical validation of mutual information
+calculations: comparison of alternative numerical algorithms. Phys Rev E
+71: 066208, 2005.
+Chance FS, Nelson SB, Abbott LF. Synaptic depression and the temporal
+response characteristics of V1 cells. J Neurosci 18: 4785– 4799, 1998.
+Chen C, Regehr WG. Presynaptic modulation of the retinogeniculate synapse.
+J Neurosci 23: 3130 –3135, 2003.
+Ching S, Cimenser A, Purdon PL, Brown EN, Kopell NJ. Thalamocortical
+model for a propofol-induced ␣-rhythm associated with loss of consciousness. Proc Natl Acad Sci USA 107: 22665–22670, 2010.
+Chung S, Li X, Nelson SB. Short-term depression at thalamocortical synapses
+contributes to rapid adaptation of cortical sensory responses in vivo. Neuron
+34: 437– 446, 2002.
+Crabtree JW, Isaac JT. New intrathalamic pathways allowing modalityrelated and cross-modality switching in the dorsal thalamus. J Neurosci 22:
+8754 – 8761, 2002.
+Crandall SR, Cruikshank SJ, Connors BW. A corticothalamic switch:
+controlling the thalamus with dynamic synapses. Neuron 86: 768 –782,
+2015.
+
+J Neurophysiol • doi:10.1152/jn.00926.2014 • www.jn.org
+
+2366
+
+OPEN-LOOP THALAMIC-TRN COMPUTATIONAL MODEL
+
+Crandall SR, Govindaiah G, Cox CL. Low-threshold Ca2ϩ current amplifies
+distal dendritic signaling in thalamic reticular neurons. J Neurosci 30:
+15419 –15429, 2010.
+Crick F. Function of the thalamic reticular complex: the searchlight hypothesis. Proc Natl Acad Sci USA 81: 4586 – 4590, 1984.
+Cruikshank SJ, Lewis TJ, Connors BW. Synaptic basis for intense thalamocortical activation of feedforward inhibitory cells in neocortex. Nat Neurosci
+10: 462– 468, 2007.
+Cucchiaro JB, Bickford ME, Sherman SM. A GABAergic projection from
+the pretectum to the dorsal lateral geniculate nucleus in the cat. Neuroscience 41: 213–226, 1991.
+Darbellay GA, Vajda I. Estimation of the information by an adaptive
+partitioning of the observation space. IEEE Trans Inf Theory 45: 1315–
+1321, 1999.
+Davidson S, Zhang X, Yoon CH, Khasabov SG, Simone DA, Giesler GJ.
+The itch-producing agents histamine and cowhage activate separate populations of primate spinothalamic tract neurons. J Neurosci 27: 10007–10014,
+2007.
+Deleuze C, David F, Béhuret S, Sadoc G, Shin HS, Uebele VN, Renger JJ,
+Lambert RC, Leresche N, Bal T. T-type calcium channels consolidate
+tonic action potential output of thalamic neurons to neocortex. J Neurosci
+32: 12228 –12236, 2012.
+Denning KS, Reinagel P. Visual control of burst priming in the anesthetized
+lateral geniculate nucleus. J Neurosci 25: 3531–3538, 2005.
+Deschênes M, Madariaga-Domich A, Steriade M. Dendrodendritic synapses
+in the cat reticularis thalami nucleus: a structural basis for thalamic spindle
+synchronization. Brain Res 334: 165–168, 1985.
+Destexhe A, Bal T, McCormick DA, Sejnowski TJ. Ionic mechanisms
+underlying synchronized oscillations and propagating waves in a model of
+ferret thalamic slices. J Neurophysiol 76: 2049 –2070, 1996.
+Destexhe A, Contreras D, Sejnowski TJ, Steriade M. A model of spindle
+rhythmicity in the isolated thalamic reticular nucleus. J Neurophysiol 72:
+803– 818, 1994.
+Destexhe A, Contreras D, Steriade M. Mechanisms underlying the synchronizing action of corticothalamic feedback through inhibition of thalamic
+relay cells. J Neurophysiol 79: 999 –1016, 1998.
+Destexhe A, McCormick DA, Sejnowski TJ. A model for 8 –10 Hz spindling
+in interconnected thalamic relay and reticularis neurons. Biophys J 65:
+2473–2477, 1993.
+Destexhe A, McCormick DA, Sejnowski TJ. Thalamic and thalamocortical
+mechanisms underlying 3 Hz spike-and-wave discharges. Prog Brain Res
+121: 289 –307, 1999.
+Fanselow EE, Sameshima K, Baccala LA, Nicolelis MA. Thalamic bursting
+in rats during different awake behavioral states. Proc Natl Acad Sci USA 98:
+15330 –15335, 2001.
+Funke K, Eysel UT, FitzGibbon T. Retinogeniculate transmission by NMDA
+and non-NMDA receptors in the cat. Brain Res 547: 229 –238, 1991.
+Gentet LJ, Ulrich D. Strong, reliable and precise synaptic connections
+between thalamic relay cells and neurones of the nucleus reticularis in
+juvenile rats. J Physiol 546: 801– 811, 2003.
+Gentet L, Ulrich D. Electrophysiological characterization of synaptic connections between layer VI cortical cells and neurons of the nucleus reticularis
+thalami in juvenile rats. Eur J Neurosci 19: 625– 633, 2004.
+Gil Z, Amitai Y. Adult thalamocortical transmission involves both NMDA
+and non-NMDA receptors. J Neurophysiol 76: 2547–2554, 1996.
+Gil Z, Connors BW, Amitai Y. Differential regulation of neocortical synapses
+by neuromodulators and activity. Neuron 19: 679 – 686, 1997.
+Gil Z, Connors BW, Amitai Y. Efficacy of thalamocortical and intracortical
+synaptic connections: quanta, innervation, and reliability. Neuron 23: 385–
+397, 1999.
+Goense J, Ratnam R, Nelson ME. Burst firing improves the detection of
+weak signals in spike trains. Neurocomputing 52: 103–108, 2003.
+Grillner S, Buchanan JT, Lansner A. Simulation of the segmental burst
+generating network for locomotion in lamprey. Neurosci Lett 89: 31–35,
+1988.
+Guido W, Lu SM, Vaughan J, Godwin DW, Sherman SM. Receiver
+operating characteristic (ROC) analysis of neurons in the cat’s lateral
+geniculate nucleus during tonic and burst response mode. Vis Neurosci 12:
+723–741, 1995.
+Guido W, Weyand T. Burst responses in thalamic relay cells of the awake
+behaving cat. J Neurophysiol 74: 1782–1786, 1995.
+Guillery RW, Feig SL, Lozsádi DA. Paying attention to the thalamic reticular
+nucleus. Trends Neurosci 21: 28 –32, 1998.
+
+Halassa MM, Chen Z, Wimmer RD, Brunetti PM, Zhao S, Zikopoulos B,
+Wang F, Brown EN, Wilson MA. State-dependent architecture of thalamic
+reticular subnetworks. Cell 158: 808 – 821, 2014.
+Halassa MM, Siegle JH, Ritt JT, Ting JT, Feng G, Moore CI. Selective
+optical drive of thalamic reticular nucleus generates thalamic bursts and
+cortical spindles. Nat Neurosci 14: 1118 –1120, 2011.
+Hänggi P. Stochastic resonance in biology. How noise can enhance detection
+of weak signals and help improve biological information processing. Chem
+Phys Chem 3: 285–290, 2002.
+Hirata A, Castro-Alamancos MA. Relief of synaptic depression produces
+long-term enhancement in thalamocortical networks. J Neurophysiol 95:
+2479 –2491, 2006.
+Hirsch JC, Fourment A, Marc ME. Sleep-related variations of membrane
+potential in the lateral geniculate body relay neurons of the cat. Brain Res
+259: 308 –312, 1983.
+Hubel DH. Single unit activity in lateral geniculate body and optic tract of
+unrestrained cats. J Physiol 150: 91–104, 1960.
+Huguenard J, Prince D. A novel T-type current underlies prolonged Ca2ϩdependent burst firing in GABAergic neurons of rat thalamic reticular
+nucleus. J Neurosci 12: 3804 –3817, 1992.
+Huguenard JR. Neuronal circuitry of thalamocortical epilepsy and mechanisms of antiabsence drug action. Adv Neurol 79: 991–999, 1998.
+Jahnsen H, Llinas R. Electrophysiological properties of guinea-pig thalamic
+neurones: an in vitro study. J Physiol 349: 205–226, 1984.
+Jeanmonod D, Magnin M, Morel A. Low-threshold calcium spike bursts in
+the human thalamus. Common physiopathology for sensory, motor and
+limbic positive symptoms. Brain 119: 363–375, 1996.
+Jones EG. The Thalamus. Cambridge, UK: Cambridge Univ. Press, 2007.
+Kao CQ, Coulter DA. Physiology and pharmacology of corticothalamic
+stimulation-evoked responses in rat somatosensory thalamic neurons in
+vitro. J Neurophysiol 77: 2661–2676, 1997.
+Kimura A. Diverse subthreshold cross-modal sensory interactions in the
+thalamic reticular nucleus: implications for new pathways of cross-modal
+attentional gating function. Eur J Neurosci 39: 1405–1418, 2014.
+Kimura A, Imbe H, Donishi T, Tamai Y. Axonal projections of single
+auditory neurons in the thalamic reticular nucleus: implications for tonotopy-related gating function and cross-modal modulation. Eur J Neurosci
+26: 3524 –3535, 2007.
+Krahe R, Gabbiani F. Burst firing in sensory systems. Nat Rev Neurosci 5:
+13–23, 2004.
+Landisman CE, Long MA, Beierlein M, Deans MR, Paul DL, Connors
+BW. Electrical synapses in the thalamic reticular nucleus. J Neurosci 22:
+1002–1009, 2002.
+Laurent A, Goaillard JM, Cases O, Lebrand C, Gaspar P, Ropert N.
+Activity-dependent presynaptic effect of serotonin 1B receptors on the
+somatosensory thalamocortical transmission in neonatal mice. J Neurosci
+22: 886 –900, 2002.
+Lesica NA, Stanley GB. Encoding of natural scene movies by tonic and burst
+spikes in the lateral geniculate nucleus. J Neurosci 24: 10731–10740, 2004.
+Lesica NA, Weng C, Jin J, Yeh CI, Alonso JM, Stanley GB. Dynamic
+encoding of natural luminance sequences by LGN Bursts. PLoS Biol 4:
+e209, 2006.
+Lisman JE. Bursts as a unit of neural information: making unreliable synapses
+reliable. Trends Neurosci 20: 38 – 43, 1997.
+Liu RC, Tzonev S, Rebrik S, Miller KD. Variability and information in a
+neural code of the cat lateral geniculate nucleus. J Neurophysiol 86:
+2789 –2806, 2001.
+Liu XB, Jones EG. Predominance of corticothalamic synaptic inputs to
+thalamic reticular nucleus neurons in the rat. J Comp Neurol 414: 67–79,
+1999.
+Livingstone M, Hubel DH. Effects of sleep and arousal on the processing of
+visual information in the cat. Nature 291: 554 –561, 1981.
+Llano DA, Slater BJ, Lesicko AM, Stebbings KA. An auditory colliculothalamocortical brain slice preparation in mouse. J Neurophysiol 111:
+197–207, 2014.
+Llinás RR, Paré D. Of dreaming and wakefulness. Neuroscience 44: 521–535,
+1991.
+Lu SM, Guido W, Sherman SM. Effects of membrane voltage on receptive
+field properties of lateral geniculate neurons in the cat: contributions of the
+low-threshold Ca2ϩ conductance. J Neurophysiol 68: 2185, 1992.
+Lüthi A, McCormick DA. H-current: properties of a neuronal and network
+pacemaker. Neuron 21: 9 –12, 1998.
+Marek T, Tichavsky P. On the estimation of mutual information. In: Proceedings of ROBUST. Prague: JCMF, 2008.
+
+J Neurophysiol • doi:10.1152/jn.00926.2014 • www.jn.org
+
+OPEN-LOOP THALAMIC-TRN COMPUTATIONAL MODEL
+Marlinski V, Beloozerova IN. Burst firing of neurons in the thalamic reticular
+nucleus during locomotion. J Neurophysiol 112: 181–192, 2014.
+McAlonan K, Cavanaugh J, Wurtz RH. Attentional modulation of thalamic
+reticular neurons. J Neurosci 26: 4444 – 4450, 2006.
+McAlonan K, Cavanaugh J, Wurtz RH. Guarding the gateway to cortex with
+attention in visual thalamus. Nature 456: 391–394, 2008.
+McCormick DA, Contreras D. On the cellular and network bases of epileptic
+seizures. Annu Rev Physiol 63: 815– 846, 2001.
+Miller LM, Escabi MA, Read HL, Schreiner CE. Functional convergence of
+response properties in the auditory thalamocortical system. Neuron 32:
+151–160, 2001.
+Moore JW, Ramon F. On numerical integration of the Hodgkin and Huxley
+equations for a membrane action potential. J Theor Biol 45: 249 –273, 1974.
+Mukherjee P, Kaplan E. Dynamics of neurons in the cat lateral geniculate
+nucleus: in vivo electrophysiology and computational modeling. J Neurophysiol 74: 1222–1243, 1995.
+Nelder JA, Mead R. A simplex method for function minimization. Comput J
+7: 308 –313, 1965.
+Ortuño T, Grieve KL, Cao R, Cudeiro J, Rivadulla C. Bursting thalamic
+responses in awake monkey contribute to visual detection and are modulated
+by corticofugal feedback. Front Behav Neurosci 8: 198, 2014.
+Person AL, Perkel DJ. Unitary IPSPs drive precise thalamic spiking in a
+circuit required for learning. Neuron 46: 129 –140, 2005.
+Peruzzi D, Bartlett E, Smith PH, Oliver DL. A monosynaptic GABAergic
+input from the inferior colliculus to the medial geniculate body in rat. J
+Neurosci 17: 3766 –3777, 1997.
+Pinault D. The thalamic reticular nucleus: structure, function and concept.
+Brain Res Rev 46: 1–31, 2004.
+Pinault D, Deschênes M. Anatomical evidence for a mechanism of lateral
+inhibition in the rat thalamus. Eur J Neurosci 10: 3462–3469, 1998.
+Pita-Almenar JD, Yu D, Lu HC, Beierlein M. Mechanisms underlying
+desynchronization of cholinergic-evoked thalamic network activity. J Neurosci 34: 14463–14474, 2014.
+Pospischil M, Toledo-Rodriguez M, Monier C, Piwkowska Z, Bal T,
+Frégnac Y, Markram H, Destexhe A. Minimal Hodgkin-Huxley type
+models for different classes of cortical and thalamic neurons. Biol Cybern
+99: 427– 441, 2008.
+Ramcharan EJ, Gnadt JW, Sherman SM. Burst and tonic firing in thalamic
+cells of unanesthetized, behaving monkeys. Vis Neurosci 17: 55– 62, 2000.
+Ramcharan EJ, Gnadt JW, Sherman SM. Higher-order thalamic relays
+burst more than first-order relays. Proc Natl Acad Sci USA 102: 12236 –
+12241, 2005.
+Reichova I, Sherman SM. Somatosensory corticothalamic projections: distinguishing drivers from modulators. J Neurophysiol 92: 2185–2197, 2004.
+Reig R, Gallego R, Nowak LG, Sanchez-Vives MV. Impact of cortical
+network activity on short-term synaptic depression. Cereb Cortex 16:
+688 – 695, 2006.
+Reinagel P, Godwin D, Sherman SM, Koch C. Encoding of visual information by LGN bursts. J Neurophysiol 81: 2558 –2569, 1999.
+Rose JE, Greenwood DD, Goldberg JM, Hind JE. Some discharge characteristics of single neurons in the inferior colliculus of the cat. I. Tonotopical
+organization, relation of spike-counts to tone intensity, and firing patterns of
+single elements. J Neurophysiol 26: 294 –320, 1963.
+Sherman SM. Tonic and burst firing: dual modes of thalamocortical relay.
+Trends Neurosci 24: 122–126, 2001.
+Sherman SM. Interneurons and triadic circuitry of the thalamus. Trends
+Neurosci 27: 670 – 675, 2004.
+Shosaku A, Sumitomo I. Auditory neurons in the rat thalamic reticular
+nucleus. Exp Brain Res 49: 432– 442, 1983.
+Sillito AM, Cudeiro J, Jones HE. Always returning: feedback and sensory
+processing in visual cortex and thalamus. Trends Neurosci 29: 307–316,
+2006.
+Sincich LC, Adams DL, Economides JR, Horton JC. Transmission of spike
+trains at the retinogeniculate synapse. J Neurosci 27: 2683–2692, 2007.
+Smith GD, Cox CL, Sherman SM, Rinzel J. Fourier analysis of sinusoidally
+driven thalamocortical relay neurons and a minimal integrate-and-fire-orburst model. J Neurophysiol 83: 588 – 610, 2000.
+
+2367
+
+Stacey WC, Durand DM. Stochastic resonance improves signal detection in
+hippocampal CA1 neurons. J Neurophysiol 83: 1394 –1402, 2000.
+Steriade M, McCormick D, Sejnowski T. Thalamocortical oscillations in the
+sleeping and aroused brain. Science 262: 679 – 685, 1993a.
+Steriade M, Nunez A, Amzica F. Intracellular analysis of relations between
+the slow (Ͻ1 Hz) neocortical oscillation and other sleep rhythms of the
+electroencephalogram. J Neurosci 13: 3266 –3283, 1993b.
+Stratford KJ, Tarczy-Hornoch K, Martin KAC, Bannister NJ, Jack JJ.
+Excitatory synaptic inputs to spiny stellate cells in cat visual cortex. Nature
+382: 258 –261, 1996.
+Suga N, Ma X. Multiparametric corticofugal modulation and plasticity in the
+auditory system. Nat Rev Neurosci 4: 783–794, 2003.
+Sun QQ, Huguenard JR, Prince DA. Barrel cortex microcircuits: thalamocortical feedforward inhibition in spiny stellate cells is mediated by a small
+number of fast-spiking interneurons. J Neurosci 26: 1219 –1230, 2006.
+Sun YG, Pita-Almenar JD, Wu CS, Renger JJ, Uebele VN, Lu HC,
+Beierlein M. Biphasic cholinergic synaptic transmission controls action
+potential activity in thalamic reticular nucleus neurons. J Neurosci 33:
+2048 –2059, 2013.
+Swadlow H, Gusev A. The impact of “bursting” thalamic impulses at a
+neocortical synapse. Nat Neurosci 4: 402– 408, 2001.
+Tsodyks MV, Markram H. The neural code between neocortical pyramidal
+neurons depends on neurotransmitter release probability. Proc Natl Acad Sci
+USA 94: 719 –723, 1997.
+Turner JP, Salt TE. Characterization of sensory and corticothalamic excitatory inputs to rat thalamocortical neurones in vitro. J Physiol 510: 829 –
+843, 1998.
+Venkataraman Y, Bartlett EL. Postnatal development of synaptic properties
+of the GABAergic projection from the inferior colliculus to the auditory
+thalamus. J Neurophysiol 109: 2866 –2882, 2013.
+von Krosigk M, Bal T, McCormick D. Cellular mechanisms of a synchronized oscillation in the thalamus. Science 261: 361–364, 1993.
+Wanaverbecq N, Bodor ÁL, Bokor H, Slézia A, Lüthi A, Acsády L.
+Contrasting the functional properties of GABAergic axon terminals with
+single and multiple synapses in the thalamus. J Neurosci 28: 11848 –11861,
+2008.
+Wang X, Wei Y, Vaingankar V, Wang Q, Koepsell K, Sommer FT, Hirsch
+JA. Feedforward excitation and inhibition evoke dual modes of firing in the
+cat’s visual thalamus during naturalistic viewing. Neuron 55: 465– 478,
+2007.
+Wang XJ. Multiple dynamical modes of thalamic relay neurons: rhythmic
+bursting and intermittent phase-locking. Neuroscience 59: 21–31, 1994.
+Watson BO, MacLean JN, Yuste R. UP states protect ongoing cortical
+activity from thalamic inputs. PLoS One 3: e3971, 2008.
+Wehr M, Zador AM. Synaptic mechanisms of forward suppression in rat
+auditory cortex. Neuron 47: 437– 445, 2005.
+Willis A, Llano D. Enhanced thalamocortical activity secondary to thalamic
+reticular nucleus activation: a computational model (Abstract). Neuroscience Meeting Planner 2012: Abstract 368.16, 2012.
+Winer JA, Saint Marie RL, Larue DT, Oliver DL. GABAergic feedforward
+projections from the inferior colliculus to the medial geniculate body. Proc
+Natl Acad Sci USA 93: 8005– 8010, 1996.
+Wolfart J, Debay D, Le Masson G, Destexhe A, Bal T. Synaptic background
+activity controls spike transfer from thalamus to cortex. Nat Neurosci 8:
+1760 –1767, 2005.
+Yamada WM, Koch C, Adams PR. Multiple channels and calcium dynamics.
+In: Methods in Neuronal Modeling. Cambridge, MA: MIT Press, 1989, p.
+97–133.
+Yu XJ, Xu XX, Chen X, He S, He J. Slow recovery from excitation of
+thalamic reticular nucleus neurons. J Neurophysiol 101: 980 –987, 2009.
+Zikopoulos B, Barbas H. Prefrontal projections to the thalamic reticular
+nucleus form a unique circuit for attentional mechanisms. J Neurosci 26:
+7348 –7361, 2006.
+Zikopoulos B, Barbas H. Pathways for emotions and attention converge on
+the thalamic reticular nucleus in primates. J Neurosci 32: 5338 –5350, 2012.
+
+J Neurophysiol • doi:10.1152/jn.00926.2014 • www.jn.org
+
+
