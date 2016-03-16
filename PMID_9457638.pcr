@@ -48,7 +48,18 @@
                     "entity2": "None",
                     "type": "point"
                 },
-                "requiredTags": []
+                "requiredTags": [
+                    {
+                        "id": "nifext_8054",
+                        "name": "Transmembrane ionic current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
             },
             {
                 "description": {
@@ -87,7 +98,18 @@
                     "entity2": "None",
                     "type": "point"
                 },
-                "requiredTags": []
+                "requiredTags": [
+                    {
+                        "id": "nifext_8054",
+                        "name": "Transmembrane ionic current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
             },
             {
                 "description": {
