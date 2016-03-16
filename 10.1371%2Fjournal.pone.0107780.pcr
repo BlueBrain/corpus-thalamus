@@ -1,1 +1,17 @@
-[]
+[
+    {
+        "annotId": "162f7c00-eb8e-11e5-9a8e-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "test",
+        "localizer": {
+            "no": "1",
+            "type": "figure"
+        },
+        "parameters": [],
+        "pubId": "10.1371/journal.pone.0107780",
+        "tags": {},
+        "version": "1"
+    }
+]
