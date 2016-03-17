@@ -81,5 +81,27 @@
             "nlx_52865": "Modelling"
         },
         "version": "1"
+    },
+    {
+        "annotId": "f0cd4b9c-ec67-11e5-9a54-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Leak conductance of a mouse TC cell.",
+        "localizer": {
+            "no": "2",
+            "noCol": "2",
+            "noRow": "2",
+            "type": "table"
+        },
+        "parameters": [],
+        "pubId": "10.1152/jn.00926.2014",
+        "tags": {
+            "birnlex_2300": "Computational model",
+            "birnlex_2313": "Neural circuit model",
+            "nifext_41": "Thalamocortical cell",
+            "nlx_52865": "Modelling"
+        },
+        "version": "1"
     }
 ]
