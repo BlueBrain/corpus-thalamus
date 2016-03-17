@@ -529,7 +529,16 @@
                             "unit": "mV"
                         }
                     ],
-                    "parameterRefs": [],
+                    "parameterRefs": [
+                        {
+                            "instanceId": "43879152-ec5f-11e5-bfab-64006a4c56ef",
+                            "paramTypeId": "BBP-090001"
+                        },
+                        {
+                            "instanceId": "84e0d136-ec5f-11e5-bfab-64006a4c56ef",
+                            "paramTypeId": "BBP-101001"
+                        }
+                    ],
                     "type": "function"
                 },
                 "experimentProperties": [],
