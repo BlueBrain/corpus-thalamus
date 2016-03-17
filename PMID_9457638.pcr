@@ -517,65 +517,6 @@
             {
                 "description": {
                     "depVar": {
-                        "typeId": "BBP-090001",
-                        "values": {
-                            "type": "compounded",
-                            "valueLst": [
-                                {
-                                    "statistic": "mean",
-                                    "type": "simple",
-                                    "unit": "mV",
-                                    "values": [
-                                        -23.9
-                                    ]
-                                },
-                                {
-                                    "statistic": "sem",
-                                    "type": "simple",
-                                    "unit": "mV",
-                                    "values": [
-                                        0.9
-                                    ]
-                                },
-                                {
-                                    "statistic": "N",
-                                    "type": "simple",
-                                    "unit": "dimensionless",
-                                    "values": [
-                                        13
-                                    ]
-                                }
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "experimentProperties": [],
-                "id": "e0891eaa-ec5d-11e5-bfab-64006a4c56ef",
-                "relationship": {
-                    "entity1": {
-                        "id": "nifext_8055",
-                        "name": "Sodium current"
-                    },
-                    "entity2": "None",
-                    "type": "point"
-                },
-                "requiredTags": [
-                    {
-                        "id": "nifext_8054",
-                        "name": "Transmembrane ionic current",
-                        "rootId": "nifext_8054"
-                    },
-                    {
-                        "id": "sao1813327414",
-                        "name": "Cell",
-                        "rootId": "sao1813327414"
-                    }
-                ]
-            },
-            {
-                "description": {
-                    "depVar": {
                         "typeId": "BBP-101001",
                         "values": {
                             "type": "compounded",
