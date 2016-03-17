@@ -759,5 +759,27 @@
             "sao1797800540": "Sodium Channel"
         },
         "version": "1"
+    },
+    {
+        "annotId": "18c055a4-ec5e-11e5-bfab-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "localizer": {
+            "no": "1",
+            "noCol": "2",
+            "noRow": "1",
+            "type": "table"
+        },
+        "parameters": [],
+        "pubId": "PMID_9457638",
+        "tags": {
+            "birnlex_254": "Wistar Rat",
+            "birnlex_721": "Hippocampus",
+            "nifext_8055": "Sodium current",
+            "sao1797800540": "Sodium Channel"
+        },
+        "version": "1"
     }
 ]
