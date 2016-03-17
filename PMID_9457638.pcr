@@ -769,5 +769,27 @@
             "sao1797800540": "Sodium Channel"
         },
         "version": "1"
+    },
+    {
+        "annotId": "4d2816dc-ec5f-11e5-bfab-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Slope parameter of the sigmoid curve describing activation for pyramidal cells in the hippocampus of the rat.",
+        "localizer": {
+            "no": "1",
+            "noCol": "3",
+            "noRow": "2",
+            "type": "table"
+        },
+        "parameters": [],
+        "pubId": "PMID_9457638",
+        "tags": {
+            "birnlex_254": "Wistar Rat",
+            "birnlex_721": "Hippocampus",
+            "nifext_8055": "Sodium current",
+            "sao1797800540": "Sodium Channel"
+        },
+        "version": "1"
     }
 ]
