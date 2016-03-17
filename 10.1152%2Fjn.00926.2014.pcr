@@ -1,1 +1,85 @@
-[{"authors": ["oreilly"], "annotId": "b308f270-cb1f-11e5-b518-64006a4c56ef", "parameters": [{"unit": "nS", "id": "BBP-00009", "value": 3.263}], "localizer": {"no": "1", "noRow": "2", "type": "table", "noCol": null}, "comment": "", "pubId": "10.1152/jn.00926.2014", "tags": {"birnlex_2313": "Neural circuit model", "nlx_52865": "Modelling", "nifext_41": "Thalamocortical cell", "birnlex_2300": "Computational model"}, "version": "1"}, {"authors": ["oreilly"], "annotId": "f0df4120-ca6c-11e5-aefd-64006a4c56ef", "parameters": [], "localizer": {"location": 8202, "type": "text", "text": "the TRN is strategically situated to\ninfluence the flow of information passing through the thalamus\nand may enhance or suppress thalamic responsiveness, depending\non the relative timing of afferent inputs and TRN activation."}, "comment": "", "pubId": "10.1152/jn.00926.2014", "tags": {"birnlex_1721": "Thalamic reticular nucleus", "birnlex_2313": "Neural circuit model", "birnlex_954": "Thalamus", "birnlex_2300": "Computational model", "nlx_52865": "Modelling"}, "version": "1"}, {"authors": ["oreilly"], "annotId": "1a3ea79a-cb21-11e5-b518-64006a4c56ef", "parameters": [], "localizer": {"no": "1", "noRow": "3", "type": "table", "noCol": "None"}, "comment": "", "pubId": "10.1152/jn.00926.2014", "tags": {"birnlex_2313": "Neural circuit model", "nlx_52865": "Modelling", "nifext_41": "Thalamocortical cell", "birnlex_2300": "Computational model"}, "version": "1"}]
+[
+    {
+        "annotId": "b308f270-cb1f-11e5-b518-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "localizer": {
+            "no": "1",
+            "noCol": null,
+            "noRow": "2",
+            "type": "table"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "nS",
+                            "values": [
+                                3.263
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "experimentProperties": [],
+                "id": "d0b5a2fa-ec67-11e5-9a54-64006a4c56ef",
+                "relationship": {
+                    "entity1": {
+                        "id": "BBP_nlx_0001",
+                        "name": "Leak ionic current"
+                    },
+                    "entity2": "None",
+                    "type": "point"
+                },
+                "requiredTags": [
+                    {
+                        "id": "BBP_nlx_0001",
+                        "name": "Leak ionic current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1152/jn.00926.2014",
+        "tags": {
+            "birnlex_2300": "Computational model",
+            "birnlex_2313": "Neural circuit model",
+            "nifext_41": "Thalamocortical cell",
+            "nlx_52865": "Modelling"
+        },
+        "version": "1"
+    },
+    {
+        "annotId": "f0df4120-ca6c-11e5-aefd-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "localizer": {
+            "location": 8202,
+            "text": "the TRN is strategically situated to\ninfluence the flow of information passing through the thalamus\nand may enhance or suppress thalamic responsiveness, depending\non the relative timing of afferent inputs and TRN activation.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1152/jn.00926.2014",
+        "tags": {
+            "birnlex_1721": "Thalamic reticular nucleus",
+            "birnlex_2300": "Computational model",
+            "birnlex_2313": "Neural circuit model",
+            "birnlex_954": "Thalamus",
+            "nlx_52865": "Modelling"
+        },
+        "version": "1"
+    }
+]
