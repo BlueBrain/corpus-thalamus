@@ -521,7 +521,7 @@
                         "typeId": "BBP-050003",
                         "unit": "dimensionless"
                     },
-                    "equation": "prop_activ_ion_curr = 1",
+                    "equation": "prop_activ_ion_curr = 1/(1+exp(-(potential_membrane-mid_amp_activ)/slope_factor_activ))**3",
                     "indepVars": [
                         {
                             "statistic": "raw",
