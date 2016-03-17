@@ -4,7 +4,7 @@
         "authors": [
             "oreilly"
         ],
-        "comment": "Boltzmann function used to model steady-state inactivation curve.",
+        "comment": "Boltzmann function used to model steady-state inactivation curve. Measured using prepulpse to membrane potential between -120 and -30 mV.",
         "localizer": {
             "location": 12072,
             "text": "f = 1\u00cf{1 + exp[(V \u2212 V\u00bd)\u00cfk]}.",
