@@ -451,5 +451,26 @@
             "sao1797800540": "Sodium Channel"
         },
         "version": "1"
+    },
+    {
+        "annotId": "762700ea-ec53-11e5-a049-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Boltzmann function raised to the third power to model activation curve.",
+        "localizer": {
+            "location": 11628,
+            "text": "The activation\ncurve was obtained from the peak current\u2014voltage relation using\nthe Goldman\u2014Hodgkin\u2014Katz equation (Hille, 1992) and was fitted\nwith a Boltzmann function raised to the third power:\nf = 1\u00cf{1 + exp[\u2212(V \u2212 V\u00bd)\u00cfk]}\u00c5,\nwhere V is membrane potential, V\u00bd is the potential at which the\nvalue of the Boltzmann function is 0\u00b75, and k is the slope factor.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9457638",
+        "tags": {
+            "birnlex_254": "Wistar Rat",
+            "birnlex_721": "Hippocampus",
+            "nifext_8055": "Sodium current",
+            "sao1797800540": "Sodium Channel"
+        },
+        "version": "1"
     }
 ]
