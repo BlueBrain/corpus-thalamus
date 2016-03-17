@@ -581,6 +581,47 @@
                         "rootId": "sao1813327414"
                     }
                 ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "statistic": "raw",
+                        "typeId": "BBP-050003",
+                        "unit": "dimensionless"
+                    },
+                    "equation": "prop_activ_ion_curr = 1/(1+exp(1))**3",
+                    "indepVars": [
+                        {
+                            "statistic": "raw",
+                            "typeId": "BBP-010001",
+                            "unit": "dimensionless"
+                        }
+                    ],
+                    "parameterRefs": [],
+                    "type": "function"
+                },
+                "experimentProperties": [],
+                "id": "2de5c828-ec55-11e5-bfab-64006a4c56ef",
+                "relationship": {
+                    "entity1": {
+                        "id": "nifext_8055",
+                        "name": "Sodium current"
+                    },
+                    "entity2": "None",
+                    "type": "point"
+                },
+                "requiredTags": [
+                    {
+                        "id": "nifext_8054",
+                        "name": "Transmembrane ionic current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
             }
         ],
         "pubId": "PMID_9457638",
