@@ -589,7 +589,7 @@
                         "typeId": "BBP-050003",
                         "unit": "dimensionless"
                     },
-                    "equation": "prop_activ_ion_curr = 1/(1+exp(1))**3",
+                    "equation": "prop_activ_ion_curr = 1/(1+exp(-(potential_membrane-mid_amp_activ)/slope_factor_activ))**3",
                     "indepVars": [
                         {
                             "statistic": "raw",
@@ -597,7 +597,16 @@
                             "unit": "dimensionless"
                         }
                     ],
-                    "parameterRefs": [],
+                    "parameterRefs": [
+                        {
+                            "instanceId": "e2998806-ec53-11e5-a049-64006a4c56ef",
+                            "paramTypeId": "BBP-090001"
+                        },
+                        {
+                            "instanceId": "050ce23e-ec54-11e5-a049-64006a4c56ef",
+                            "paramTypeId": "BBP-101001"
+                        }
+                    ],
                     "type": "function"
                 },
                 "experimentProperties": [],
