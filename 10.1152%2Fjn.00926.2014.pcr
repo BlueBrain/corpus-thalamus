@@ -384,7 +384,67 @@
             "noRow": "12",
             "type": "table"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-011001",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "mV",
+                                    "values": [
+                                        -53.6
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "mV",
+                                    "values": [
+                                        3.9
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        10
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "experimentProperties": [],
+                "id": "6ea87a7e-ed11-11e5-b708-64006a4c56ef",
+                "relationship": {
+                    "entity1": {
+                        "id": "birnlex_2300",
+                        "name": "Computational model"
+                    },
+                    "entity2": "None",
+                    "type": "point"
+                },
+                "requiredTags": [
+                    {
+                        "id": "sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    },
+                    {
+                        "id": "nifext_8054",
+                        "name": "Transmembrane ionic current",
+                        "rootId": "nifext_8054"
+                    }
+                ]
+            }
+        ],
         "pubId": "10.1152/jn.00926.2014",
         "tags": {
             "birnlex_2300": "Computational model",
