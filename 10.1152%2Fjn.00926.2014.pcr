@@ -216,8 +216,8 @@
         "comment": "H-current amplitude of a mouse TC cell.",
         "localizer": {
             "no": "2",
-            "noCol": "5",
-            "noRow": "2",
+            "noCol": "2",
+            "noRow": "5",
             "type": "table"
         },
         "parameters": [],
