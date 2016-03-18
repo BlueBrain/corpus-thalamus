@@ -483,7 +483,7 @@
                                     ]
                                 },
                                 {
-                                    "statistic": "sem",
+                                    "statistic": "sd",
                                     "type": "simple",
                                     "unit": "nS",
                                     "values": [
