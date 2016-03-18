@@ -172,8 +172,8 @@
         "comment": "Leak equilibrium potential of a mouse TC cell.",
         "localizer": {
             "no": "2",
-            "noCol": "3",
-            "noRow": "2",
+            "noCol": "2",
+            "noRow": "3",
             "type": "table"
         },
         "parameters": [],
