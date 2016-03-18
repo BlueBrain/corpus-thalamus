@@ -238,8 +238,8 @@
         "comment": "Leak conductance of a mouse TRN cell.",
         "localizer": {
             "no": "2",
-            "noCol": "11",
-            "noRow": "2",
+            "noCol": "2",
+            "noRow": "11",
             "type": "table"
         },
         "parameters": [],
