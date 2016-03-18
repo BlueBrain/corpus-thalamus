@@ -279,7 +279,7 @@
         "authors": [
             "oreilly"
         ],
-        "comment": "",
+        "comment": "T-current amplitude of a mouse TRN cell.",
         "localizer": {
             "no": "2",
             "noCol": "2",
@@ -291,7 +291,7 @@
         "tags": {
             "birnlex_2300": "Computational model",
             "birnlex_2313": "Neural circuit model",
-            "nifext_41": "Thalamocortical cell",
+            "nifext_45": "Thalamus reticular nucleus cell",
             "nlx_52865": "Modelling"
         },
         "version": "1"
