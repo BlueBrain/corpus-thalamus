@@ -194,8 +194,8 @@
         "comment": "T-current amplitude of a mouse TC cell.",
         "localizer": {
             "no": "2",
-            "noCol": "4",
-            "noRow": "2",
+            "noCol": "2",
+            "noRow": "4",
             "type": "table"
         },
         "parameters": [],
