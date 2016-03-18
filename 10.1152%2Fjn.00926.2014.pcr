@@ -185,5 +185,27 @@
             "nlx_52865": "Modelling"
         },
         "version": "1"
+    },
+    {
+        "annotId": "71b9d726-ecee-11e5-b708-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "T-current amplitude of a mouse TC cell.",
+        "localizer": {
+            "no": "2",
+            "noCol": "4",
+            "noRow": "2",
+            "type": "table"
+        },
+        "parameters": [],
+        "pubId": "10.1152/jn.00926.2014",
+        "tags": {
+            "birnlex_2300": "Computational model",
+            "birnlex_2313": "Neural circuit model",
+            "nifext_41": "Thalamocortical cell",
+            "nlx_52865": "Modelling"
+        },
+        "version": "1"
     }
 ]
