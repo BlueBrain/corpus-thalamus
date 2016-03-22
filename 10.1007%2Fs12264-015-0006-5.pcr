@@ -30,7 +30,37 @@
             "text": "There was no significant difference in the Vrest between neurons\nin the ventral and dorsal MGB (dorsal:\n-59.06 \u00b1 0.56 mV, n = 36;",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-010002",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": []
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "experimentProperties": [],
+                "id": "7d4cc3e0-f05f-11e5-9704-64006a4c56ef",
+                "relationship": {
+                    "entity1": {
+                        "id": "birnlex_1608",
+                        "name": "Dorsal nucleus of medial geniculate body"
+                    },
+                    "entity2": "None",
+                    "type": "point"
+                },
+                "requiredTags": [
+                    {
+                        "id": "sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
         "pubId": "10.1007/s12264-015-0006-5",
         "tags": {
             "birnlex_1608": "Dorsal nucleus of medial geniculate body",
