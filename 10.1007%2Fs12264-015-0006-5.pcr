@@ -37,7 +37,32 @@
                         "typeId": "BBP-010002",
                         "values": {
                             "type": "compounded",
-                            "valueLst": []
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "mV",
+                                    "values": [
+                                        -59.06
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "mV",
+                                    "values": [
+                                        0.56
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        36
+                                    ]
+                                }
+                            ]
                         }
                     },
                     "type": "pointValue"
