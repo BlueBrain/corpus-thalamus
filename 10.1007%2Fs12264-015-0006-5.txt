@@ -1,913 +1,889 @@
-State-Dependent Architecture
-of Thalamic Reticular Subnetworks
-Michael M. Halassa,1,2,3,4,* Zhe Chen,3 Ralf D. Wimmer,1,2,3,4 Philip M. Brunetti,4 Shengli Zhao,5 Basilis Zikopoulos,6
-Fan Wang,5 Emery N. Brown,7,8,9,10 and Matthew A. Wilson4
-1Neuroscience
+Neurosci. Bull. February, 2016, 32(1):16–26
+DOI 10.1007/s12264-015-0006-5
 
-Institute, New York University Langone Medical Center, New York, NY 10016, USA
-of Neuroscience & Physiology, New York University Langone Medical Center, New York, NY 10016, USA
-3Department of Psychiatry, New York University Langone Medical Center, New York, NY 10016, USA
-4Picower Institute for Learning and Memory, Massachusetts Institute of Technology, Cambridge, MA 02139, USA
-5Department of Cell Biology, Duke University, Durham, NC 27710, USA
-6Department of Health Sciences and Program in Neuroscience, Boston University, Boston, MA 02215, USA
-7Department of Anesthesia, Critical Care and Pain Medicine, Massachusetts General Hospital, Boston, MA 02114, USA
-8Harvard Medical School, Boston, MA 02115, USA
-9Department of Brain and Cognitive Sciences, Massachusetts Institute of Technology, Cambridge, MA 02139, USA
-10Harvard-MIT Division of Health Sciences and Technology, Institute of Medical Engineering and Science, Massachusetts Institute of
-Technology, Cambridge, MA 02139, USA
-*Correspondence: michael.halassa@nyumc.org
-http://dx.doi.org/10.1016/j.cell.2014.06.025
-2Department
+www.neurosci.cn
+www.springer.com/12264
 
-SUMMARY
+ORIGINAL ARTICLE
 
-Behavioral state is known to influence interactions
-between thalamus and cortex, which are important
-for sensation, action, and cognition. The thalamic
-reticular nucleus (TRN) is hypothesized to regulate
-thalamo-cortical interactions, but the underlying
-functional architecture of this process and its state
-dependence are unknown. By combining the first
-TRN ensemble recording with psychophysics and
-connectivity-based optogenetic tagging, we found
-reticular circuits to be composed of distinct subnetworks. While activity of limbic-projecting TRN
-neurons positively correlates with arousal, sensoryprojecting neurons participate in spindles and show
-elevated synchrony by slow waves during sleep.
-Sensory-projecting neurons are suppressed by
-attentional states, demonstrating that their gating of
-thalamo-cortical interactions is matched to behavioral state. Bidirectional manipulation of attentional
-performance was achieved through subnetwork-specific optogenetic stimulation. Together, our findings
-provide evidence for differential inhibition of thalamic
-nuclei across brain states, where the TRN separately
-controls external sensory and internal limbic processing facilitating normal cognitive function.
-INTRODUCTION
-How does the brain switch between processing of information
-originating from different sources to successfully guide behavior? How does it flexibly shift between processing external
-stimuli and internal constructs to optimize cognitive perfor808 Cell 158, 808–821, August 14, 2014 ª2014 Elsevier Inc.
+Characterization of Rebound Depolarization in Neurons
+of the Rat Medial Geniculate Body In Vitro
+Xin-Xing Wang1 • Yan Jin2 • Hui Sun3 • Chunlei Ma3 • Jinsheng Zhang4
+Ming Wang1,2 • Lin Chen1,2
 
-mance? Answers to these questions will not only enhance our
-understanding of the neural basis of cognition but will also refine
-our concepts of brain disorders in which cognitive dysfunction is
-central (Stefansson et al., 2014). In humans, the shift between
-external and internal goal-directed cognition is known to recruit
-distinct cortical networks (Buckner and Krienen, 2013). For
-example, the default mode network, which includes medial prefrontal cortex, is suppressed during tasks that demand external
-attention but activated when subjects perform internally guided
-behaviors (Spreng et al., 2010). In contrast, the dorsal attentional
-network, which includes dorsolateral prefrontal cortex, is activated during external attention (Fox et al., 2005). Electrophysiological recordings in nonhuman primates have shown that
-interactions among circuits of the dorsal attentional network
-are achieved through synchronous oscillatory dynamics (Miller
-and Buschman, 2013). Prefrontal regions lead parietal regions
-in top-down attention, whereas parietal regions lead prefrontal
-ones in bottom-up attention (Buschman and Miller, 2007).
-Although the circuit mechanisms underlying the establishment
-of these cortical oscillatory dynamic states are incompletely understood, recent experiments have shown that the thalamus
-may play a central role in cortico-cortical synchrony required
-for cognitive performance (Saalmann et al., 2012). These findings
-add to established knowledge on the role of thalamus in regulating cortical dynamics in sleep (Magnin et al., 2010; Steriade
-and Llina´s, 1988) but raise important mechanistic questions on
-how it regulates cortical activity in an arousal state-dependent
-manner, a prerequisite to understanding its precise role in
-cognitive function. Also, because the thalamus is functionally
-segregated into different nuclei (Jones, 2002), it may allow for establishing a multitude of cortical states depending on the type
-and number of nuclei engaged during a particular behavior.
-Broad shifts in arousal offer an opportunity to study circuit
-mechanisms of how the brain switches between processing
-external stimuli and internally generated activity. Several studies
-have delineated cortical mechanisms by which processing of
+•
 
-sensory information is broadly suppressed during sleep (Issa
-and Wang, 2011; Livingstone and Hubel, 1981) but is enhanced
-in active waking (Livingstone and Hubel, 1981) and attentional
-states (Briggs et al., 2013; Desimone and Duncan, 1995),
-whereas others have established mechanisms by which offline
-limbic processing of memories is enhanced during sleep and
-quiet wakefulness (Buzsa´ki, 2010; Ji and Wilson, 2007; Karlsson
-and Frank, 2009). Within this framework, thalamo-cortical
-network engagement in processing of different information types
-is expected to occur in an arousal state-dependent manner.
-The thalamic reticular nucleus (TRN), a group of GABAergic
-neurons that provides inhibitory control over thalamic nuclei, is
-strategically positioned to selectively modulate thalamo-cortical
-interactions (Crick, 1984; Pinault, 2004). In fact, based on its
-anatomical connections, Francis Crick postulated that ‘‘if the
-thalamus is the gateway to the cortex, the reticular complex might
-be described as the guardian of the gateway’’ (Crick, 1984). The
-TRN has been implicated in sensory processing where its neurons exhibit complex visual receptive fields (Vaingankar et al.,
-2012) and respond to deviant (oddball) auditory stimuli (Yu
-et al., 2009). In behaving primates, visual TRN neurons are modulated by selective attention (McAlonan et al., 2008). The TRN has
-also been linked to internal processing during sleep, where its activity is associated with sleep rhythms and behavior (Cueni et al.,
-2008; Espinosa et al., 2008; Huguenard and McCormick, 2007).
-TRN neurons are known to exhibit rhythmicity in relation to spindle oscillations (Steriade et al., 1986), 9–15 Hz dynamics that are
-observed in the cortex during sleep, which correlate with sleep
-stability (Dang-Vu et al., 2010), and sleep-dependent memory
-consolidation (Diekelmann and Born, 2010; Eschenko et al.,
-2006). How the TRN operates to support these different statedependent functions is unclear, in part, due to a gap in knowledge
-about how its microcircuits are functionally organized. Physiological attributes of thalamic nuclei are known to depend on their
-anatomical connections (Jones, 1981), but the TRN has traditionally been viewed as a monolithic structure, with no link between
-its connectivity and function. Although recent work in primates
-has shown distinct connectivity patterns for sensory and limbic
-TRN (Zikopoulos and Barbas, 2012), the impact of these anatomical substrates on thalamo-cortical function has remained unknown given the lack of physiological studies.
-We directly addressed this gap in knowledge by recording
-from TRN ensembles in naturally behaving mice. Our recordings
-revealed a previously unknown functional diversity among TRN
-microcircuits. Specifically, two functional subpopulations of
-neurons were identified that exhibited opposite modulation by
-sleep and attentional states. Connectivity and genetic-based
-dissection of these microcircuits revealed an anatomical basis
-for this functional segregation. Specifically, sensory-projecting
-neurons exhibited activity patterns consistent with inhibition of
-sensory processing during sleep but its augmentation during
-attentional states, whereas limbic-connected neurons exhibited
-little activity during sleep, likely enhancing offline limbic processing. TRN-specific optogenetic manipulations revealed its causal
-role in attentional performance, an effect that was recapitulated
-by its selective sensory subnetwork manipulation. Together, our
-data show that the TRN consists of connectivity-based functional subnetworks that differentially participate in sensory and
+Received: 11 June 2015 / Accepted: 11 October 2015 / Published online: 19 January 2016
+Ó Shanghai Institutes for Biological Sciences, CAS and Springer Science+Business Media Singapore 2016
 
-limbic processing in a state-dependent manner. This architecture may facilitate switching of cortical information processing
-between externally driven and internally generated computations, a basic determinant of cognitive function.
-RESULTS
-TRN Recordings in the Freely Behaving Preparation
-To obtain stable recordings of TRN ensembles in mice during
-free behavior, we implanted arrays of adjustable extracellular
-recording electrodes targeting the dorsal pole of this brain structure (Figure 1A), which is known to be connected to both anterior
-limbic (Cornwall et al., 1990) and visual sensory thalamic nuclei
-(Kimura et al., 2012). Electrode position was confirmed by physiological signals obtained during adjustment (Figures 1A–1D),
-and postmortem histology (Figures 1E and 1F). TRN neurons
-were identified by their thin spike waveform compared to relay
-neurons as has been done in recent studies (Gardner et al.,
-2013; Halassa et al., 2011) (Figure 1G) and is normally performed
-for extracellular inhibitory neuronal identification in cortical (Cardin et al., 2009) and hippocampal recordings (Royer et al., 2012).
-Consistent with previous studies, many TRN neurons showed a
-bursting spike firing pattern most noticeable during slow wave
-sleep (SWS; 128 out of 195; Figures S1A and S1B available online), and about half of these neurons exhibited a particular burst
-structure (accelerando decelerando) observed in other species
-(Marlinski et al., 2012; Vaingankar et al., 2012) (Figures S1C
-and S1D).
-TRN Neurons Exhibit Heterogeneous Firing in Relation
-to Sleep Spindle Oscillations
-One of the major functions attributed to TRN neurons is their role
-in generating spindle oscillations (Bazhenov et al., 2000; Contreras et al., 1993; Halassa et al., 2011). We examined the correlation between individual TRN neuronal rate functions and cortical
-electroencephalographic (EEG) spindle power in natural SWS
-(Figures 2A, S2A and S2B). Consistent with previous findings in
-unanesthetized cats (Steriade et al., 1986), we found that many
-TRN neurons were positively correlated with spindle power (Figures 2A and S2B). However, surprisingly, we found that others
-were negatively correlated with this measure (Figures 2A and
-S2B). Analysis of the correlation between TRN neuronal firing
-rates and cortical spindle power revealed a bimodal distribution
-(Figure 2B; n = 7 mice). Neurons that were positively correlated to
-spindle power increased their firing rate specifically during spindle events (Figures 2C–2E; see Figures S2C and S2D for spindle
-detection examples), with stronger spindle-phase locking values
-observed for these neurons than negatively correlated ones (Figures 2F–2H; see Figures S2E and S2F for unbiased detection of
-phase locking). Conversely, neurons that were negatively correlated to spindle power were also negatively correlated to delta
-power (Figure S2G) and exhibited a robust elevation in firing
-rate with increased arousal (arousal correlated [AC]; Figure 2I).
-Thus, in SWS, two functional TRN subpopulations are observed:
-one that is spindle correlated (SC) and another that is AC. Equivalent numbers of these neurons were recorded from all animals
-with high recording yield, and they exhibited no difference in
-overall firing rates or burst properties (Table S1).
-Cell 158, 808–821, August 14, 2014 ª2014 Elsevier Inc. 809
+Abstract Rebound depolarization (RD) is a response to
+the offset from hyperpolarization of the neuronal membrane potential and is an important mechanism for the
+synaptic processing of inhibitory signals. In the present
+study, we characterized RD in neurons of the rat medial
+geniculate body (MGB), a nucleus of the auditory thalamus, using whole-cell patch-clamp and brain slices. RD
+was proportional in strength to the duration and magnitude
+of the hyperpolarization; was effectively blocked by
+Ni2? or Mibefradil; and was depressed when the resting
+membrane potential was hyperpolarized by blocking
+hyperpolarization-activated cyclic nucleotide-gated (HCN)
+channels with ZD7288 or by activating G-protein-gated
+inwardly-rectifying K? (GIRK) channels with baclofen.
+Our results demonstrated that RD in MGB neurons, which
+is carried by T-type Ca2? channels, is critically regulated
+by HCN channels and likely by GIRK channels.
 
-Figure 1. Independently Adjustable Multielectrode Recordings in the TRN
-(A) The dorsal part of TRN was targeted by
-implanting an independently adjustable multielectrode implant (16 independently movable microdrives, only 6–12 loaded in any experiment) at a
-15-degree angle relative to midline. Numbers
-denote different anatomical structures at which
-physiological recordings were made and shown in
-(B) and (C).
-(B) Broadband (0.1 Hz–32 kHz) signal recorded at
-the different anatomical stations shows the physiological trajectory of the recordings. Note the
-absence of spiking in the two white matter crossings (corpus callosum [2] and internal capsule [4]).
-(C) Band-pass filtered signal (600 Hz–10 kHz) of
-traces in (B) showing spike trains.
-(D) Clustered neurons from traces 1, 3, and 5
-showing the waveforms of a putative cortical fastspiking interneuron (top), a striatal medium spiny
-neuron (middle), and finally, a TRN neuron (bottom). Highlighted inset shows a burst event of this
-unit, exhibiting the accelerando-decelerando
-burst structure previously described.
-(E) Histological verification of the recording by
-electrode track (white arrowheads) and lesion at
-the tip (yellow arrowheads).
-(F) Distribution of TRN lesions seen across six out
-of seven mice recorded. Numbers denote A/P
-distance from bregma in millimeters.
-(G) A total of 195 putative TRN units with ‘‘thin’’
-spikes were recorded (crimson), which had
-significantly different spike waveform features
-(peak-to-trough time and trough half-width) than
-102 putative thalamic units (red).
-See also Figure S1.
+Electronic supplementary material The online version of this
+article (doi:10.1007/s12264-015-0006-5) contains supplementary
+material, which is available to authorized users.
+& Lin Chen
+linchen@ustc.edu.cn
+1
 
-SC TRN Neurons Exhibit State-Dependent Modulation
-Consistent with Regulation of Sensory Processing
-SWS is a state in which the cortical surface EEG is dominated by
-slow waves in the delta range (0.5–4 Hz). These dynamics are
-associated with coordinated changes of excitability across
-cortical neurons (Steriade et al., 1993; Vyazovskiy et al., 2009)
-and are known to influence excitability in cortically connected
-structures (Hahn et al., 2012). We found that TRN neurons
-were modulated by cortical delta, with both SC and AC neurons
-810 Cell 158, 808–821, August 14, 2014 ª2014 Elsevier Inc.
+CAS Key Laboratory of Brain Function and Diseases, School
+of Life Sciences, University of Science and Technology of
+China, Hefei 230027, China
 
-exhibiting comparable delta-phase locking values (Figures 3A–3D). However,
-whereas SC neurons showed preferred
-firing during delta wave troughs (corresponding to UP states, assessed by
-cortical multiunit activity), AC neurons
-showed a broad delta-phase distribution (Figures 3E and 3F). The narrow
-delta-phase distribution of SC neurons
-suggested an enhanced probability of coordinated spiking across this population,
-which was confirmed by a SWS-dependent increase in their spike time synchrony (a short-latency cross-correlation
-measure; see Experimental Procedures),
-compared to AC neurons (Figures 3G–3I and S3). Because sensory processing is known to be suppressed during sleep, this
-finding suggested that SC neuronal synchrony participates in
-this suppression by inhibiting thalamus. To explore whether
-this participation can extend to sensory processing during
-wake, we performed exploratory behavioral experiments
-requiring animals to detect a sensory stimulus (Kahn et al.,
-2012). We found that SC neurons were more likely to reduce their
-activity in the attentional phase of this visual detection task
+2
 
-compared to AC neurons (Figure S4). Together, these findings
-show selective participation of SC neurons in modulating sensory processing in both sleep and attentional states, suggesting
-that their arousal-dependent modulation determines their functional impact.
-Optogenetics-Assisted Circuit Dissection of TRN
-Neurons Reveals Connectivity-Based Subnetwork
-Architecture
-Because dorsal TRN projects to both sensory and limbic thalamus (Figure S5), we asked whether functional attributes of SC
-and AC neurons were related to patterns of connectivity with
-thalamic targets. To enable selective targeting of the TRN, we
-used mice that expressed Cre recombinase (Cre) under the vesicular g-aminobutyric acid transporter (VGAT) promoter (Vong
-et al., 2011). VGAT-Cre animals enabled selective expression
-of transgenes in the TRN, but not nearby thalamic nuclei, which
-do not contain VGAT-positive neurons. This was achieved by
-injecting adeno-associated viruses (AAVs) containing doublefloxed cassettes, stereotactically into the TRN (Figures S5A–
-S5F). To enable targeting of TRN neurons that project to specific
-thalamic nuclei, we used lentiviruses. These viruses exhibited
-two important attributes that resulted in connectivity-specific
-TRN neuronal tagging. First, because they were pseudotyped
-with a chimeric envelope protein composed of the extracellular
-and transmembrane domains of rabies virus glycoprotein (RG)
-and the cytoplasmic domain of vesicular stomatitis virus G protein (VSV-G) (see Experimental Procedures), they were taken up
-by axonal terminals in the thalamic target of interest and retrogradely transported. Second, these viruses were engineered to
-harbor double-floxed cassettes and, therefore, only resulted in
-the expression of transgenes in the TRN when injected in
-VGAT-Cre mice (Figures S5H–S5O). Using this strategy, we engineered retrograde lentiviruses (RG-LVs) with double-floxed
-cassettes containing the light-activated ion channel channelrhodopsin-2 (ChR2) (Boyden et al., 2005; Fenno et al., 2011) and injected them into either sensory visual or anterior limbic thalamus
-of VGAT-Cre mice (Figures 4A and 4B). We performed extracellular recordings from optogenetically identified TRN neurons in
-three visual- and two anterior-injected mice while animals performed a visual detection task and in posttask sleep (Figures
-4C and 4E). We identified visual thalamic-projecting or anterior
-complex-projecting neurons by their short-latency response to
-10 ms pulses of blue laser (5–10 ms onset; Figures 4D and 4F).
-Visual-projecting neurons also showed a 30–50 ms latency
-response to visual stimulation (Figures 4D and 4F). Electrode positions were additionally confirmed by postmortem histology
-(Figures 4G and 4H).
-We found that visual-projecting TRN neurons were functionally
-different from limbic-projecting ones. Specifically, visual-connected neurons were mostly SC (Figure 5A), whereas limbic-projecting neurons were AC (Figures 5B and 5C). Visual-projecting
-neurons exhibited significantly higher phase locking to spindles
-than limbic-projecting neurons (Figure 5D). Consistent with a
-role for visual-projecting TRN in state-dependent control of visual processing, these neurons exhibited elevated pairwise
-spike time synchrony in SWS, whereas limbic-projecting neurons did not (Figure 5E).
+Auditory Research Laboratory, School of Life Sciences,
+University of Science and Technology of China,
+Hefei 230027, China
 
-To investigate the participation of these subnetworks in information processing beyond sleep, we trained mice on a visual
-detection task that required attentional engagement. The task
-required the animal to correctly detect a visual stimulus
-(500 ms) and subsequently move toward it, obtaining food
-from a reward site positioned underneath the stimulus location.
-A white noise auditory stimulus signaled the ability to initiate a
-trial. A trial was successfully initiated when the mouse broke
-an infrared beam continuously for 500–700 ms, ensuring proper
-head orientation during visual stimulus presentation. To minimize
-impulsive poking, rewards were only made available for a period
-of 15 s following successful initiation (Figure 5F). The absence of
-a correlation between initiation time and latency to collect reward
-as well as elevated latency during catch trials confirmed timely
-and specific response to visual stimulus presentation (Figures
-S6A–S6C). We found a robust and specific reduction in firing
-rate for visual-projecting TRN neurons following trial initiation,
-but no significant modulation of limbic-projecting TRN neurons
-during the task (Figure 5G). This result is consistent with the
-engagement of visual TRN subnetwork in state-dependent sensory visual processing. Furthermore, because the modulation
-occurred in the period prior to stimulus presentation, it suggested the participation of these neurons in attentional states,
-where visual thalamic inhibition may be transiently reduced to
-augment subsequent sensory processing.
-Temporally Precise TRN Activation Diminishes
-Performance on the Visual Detection Task
-To investigate whether the observed TRN neuronal firing rate
-changes were causal for visual detection task performance, we
-employed optogenetic manipulations. First, we injected a Credependent AAV (serotype 2)-expressing channelrhodopsin into
-the TRN of VGAT-Cre mice, which resulted in selective TRN
-expression (Figure 6A). Because visual TRN neurons exhibited
-reduction in firing rate between task initiation and stimulus presentation, we used optogenetic activation to offset this reduction. Our investigations showed that pulse trains of >40 Hz (4–
-5 mW, 200 mm fiber [140–180 mW/mm]) result in sustained elevation of TRN neuronal firing rates and a concomitant reduction in
-their thalamic targets (Figure 6B). We therefore used pulse trains
-of 50 Hz frequency, pulse width 2 ms (duty cycle, 10%), to
-achieve a broad elevation of TRN firing rates throughout the initiation as well as stimulus presentation period (task stimulation).
-We found that this optogenetic stimulation regime resulted in a
-robust prolongation of latencies to collect reward in all mice
-examined (Figures 6C, 6E, S6D, and S6E; Movie S1). This suggested that enhancing TRN neuronal firing rate during the window of elevated attentional demands was detrimental to
-behavior, supporting the notion that a sharp drop in a subset
-of TRN neuronal firing rates was important for optimal performance. To test whether the optogenetic effect was a result of
-diminished stimulus perception, we delivered a laser stimulation
-train of similar length that started upon stimulus presentation but
-avoided the initiation period (Figure 6B). We found that this control stimulation did not impact performance on the task. Furthermore, in support of the specificity of the optogenetic effect to the
-initiation period, we found that pulse trains of only 500 ms limited
-to the postinitiation window resulted in diminished task
-Cell 158, 808–821, August 14, 2014 ª2014 Elsevier Inc. 811
+3
 
-(legend on next page)
+Department of Physiology, Binzhou Medical University,
+Yantai 264003, China
 
-812 Cell 158, 808–821, August 14, 2014 ª2014 Elsevier Inc.
+4
 
-performance (Figures S6D and S6E). Also consistent with the
-notion that TRN stimulation did not interfere with stimulus
-perception, we found that this stimulation did not change the
-overall error rates in the task (Figures S6D and S6E).
-Temporally Precise TRN Inhibition Enhances Attentional
-Performance
-The negative impact of TRN stimulation on task performance
-was consistent with the requirement for a subset of its neurons
-to reduce their firing rate during the attentional window. To fully
-test the causality of these physiological observations in the
-context of the task, we used eNpHR3.0 (Deisseroth and Schnitzer, 2013; Tye et al., 2011), a light-activated ClÀ pump that is
-known to hyperpolarize neurons and inhibit spiking, to determine
-whether further reducing TRN firing rate would improve performance. To increase the likelihood of observing a behavioral
-modulation, we subjected mice to mild sleep deprivation (1–
-3 hr, at the beginning of their rest phase), which resulted in
-slightly diminished task performance evident by prolonged latencies (p < 0.05, rank sum test). Consistent with a causal role
-for TRN neurons in optimal task performance, we found that optogenetic inhibition of these neurons resulted in improved performance in all mice examined (Figures 6F–6H, S6F, and S6G;
-Movie S2).
-To test whether these effects were subnetwork specific, we
-performed bidirectional optogenetic manipulations in retrogradely labeled TRN neuronal populations during the task
-(Figure 6I). We retrogradely labeled visual-connected and
-limbic-connected TRN neurons with either ChR2 or eNpHR3.0.
-We found that ChR2-mediated activation of the visual-projecting
-TRN during the attentional window of the visual detection task
-diminished performance, whereas its inhibition augmented performance. In contrast, neither activation nor inhibition of limbicprojecting TRN impacted performance (Figure 6J), consistent
-with the observation that these neurons are not significantly
-modulated during that phase of the task (Figure 5). These data
-also suggest that earlier results obtained with bidirectional manipulations of the TRN may be fully explained by effects on sensory-projecting neurons, a population that overlaps with the SC
-neurons identified earlier in this study. Our findings are unlikely to
-be explained by differences in optogenetic targeting because
-comparable proportions of TRN neurons were tagged in these
-two preparations (anterior projecting, 31 out of 100; visual projecting, 52 out of 190). In addition, there was no impact on error
+Department of Otolaryngology - Head and Neck Surgery,
+Wayne State University School of Medicine, Detroit,
+MI 48201, USA
 
-rates for any of these manipulations. Because the observed effects could be explained by neither sensory nor motor deficits,
-we suggest that they are likely cognitive. Also, because they
-occurred during the stimulus expectation period of the task,
-they are consistent with the involvement of TRN neurons in attentional states.
-DISCUSSION
-A major attribute of cognitive function is the ability to flexibly
-switch between processing different types of information. Broad
-shifts in arousal states offer an opportunity to examine how the
-brain switches from external stimulus processing during wake
-to internal memory processing during sleep. By regulating the interactions within thalamo-cortical networks, the TRN has been
-hypothesized to play an important role in cognitive function (Zikopoulos and Barbas, 2012). However, the precise nature of
-this regulation has been difficult to discern given the relative
-inaccessibility of TRN to physiological recordings. As such,
-and in the absence of concrete experimental data, the TRN
-has traditionally been viewed as a monolithic structure, providing
-uniform inhibition to thalamic nuclei (Crick, 1984; Llina´s and Steriade, 2006). In such a regime, it is unclear how the brain would be
-able to selectively control the interactions between functionally
-segregated thalamic nuclei and their cortical targets.
-In this study, we have systematically examined the functional
-architecture of the TRN in the freely behaving mouse. We found
-that the TRN is composed of functionally segregated subnetworks defined by anatomical connectivity. Sensory-projecting
-TRN regulates sensory processing in a state-dependent
-manner, whereas limbic-projecting TRN exhibits little activity
-during quiescent states, perhaps enabling the engagement of
-its thalamic target in offline processing associated with other
-limbic circuits (e.g., hippocampal reactivation). Additionally,
-inhibiting sensory-projecting TRN neurons during attentional
-states results in enhanced performance on a visual discrimination task, identifying this subnetwork as a possible target for
-cognitive enhancement (evident by reduced latency for sensory
-detection). Overall, our data show that the functional architecture of TRN subnetworks may have essential roles in mediating
-the impact of arousal states on higher-level cognitive function
-(Koch, 1993) and that it may be utilized in state-dependent
-switching between sensory transmission and offline processing
-(Figure 7).
+123
 
-Figure 2. Functional Segregation of TRN Subnetworks in SWS
-(A) Two simultaneously recorded TRN neurons with time-varying firing rates that are positively and negatively correlated with cortical spindle power.
-(B) Bimodal distribution (Hartigan’s dip test, p < 10À5) of this correlation across the data set (n = 195 TRN neurons, 7 mice). Gray represents the undetermined
-group (Experimental Procedures).
-(C) Example of a detected EEG spindle.
-(D) Peri-event time histogram (PETH) triggered by the onset of cortical spindles showing elevated firing rate of a positively correlated neuron (determined by
-analysis similar to A) during spindle events.
-(E) This is significant across that population (p < 10À8, rank sum test).
-(F) Two positively correlated (to spindle power, as in A) TRN neuronal spike trains in relation to a spindle event.
-(G) Spindle-phase histograms of two TRN neurons (red indicates negatively correlated; blue indicates positively correlated to spindle power, as in A). Note the
-higher phase locking for the positive-correlated neuron in this example.
-(H) Tendency for higher spindle-phase locking in these neurons as a group (weighted mean ± SEM; rank sum test, p = 0.05 at the point of maximum modulation).
-(I) Negatively correlated neurons are wake active (p < 0.01, rank sum test), whereas positively correlated neurons are state indifferent (p < 0.0001).
-See also Figure S2 and Table S1.
+Keywords Medial geniculate body Á Brain slice Á
+Rebound depolarization Á T-type calcium channel Á HCN
+channel Á GIRK channel Á Resting membrane potential
 
-Cell 158, 808–821, August 14, 2014 ª2014 Elsevier Inc. 813
+Introduction
+Neuronal rebound depolarization (RD) is a voltage
+response to the offset from hyperpolarization of the
+membrane potential [1, 2] and often results in the firing of
+action potentials when sufficiently robust. RD can be
+evoked by inhibitory synaptic stimuli in vivo [3] or
+hyperpolarizing current injection in vitro [4, 5]. In the
+central auditory system, RD has been recorded in the
+inferior colliculus [6], superior paraolivary nucleus [7, 8],
+thalamic reticular nucleus [9] and medial geniculate body
+(MGB) [10, 11]. RD has important functional implications
+in auditory information-processing. In the superior
+paraolivary nucleus, RD is known to be involved in
+encoding sound rhythms [7]. In the inferior colliculus, RD
+has been proposed to play an important role in encoding
+features of sounds, including duration and temporal
+selectivity [12, 13].
+The MGB is an important nucleus of the auditory thalamus. In the rat MGB, 99% of the neurons are glutamatergic [14, 15] and receive inhibitory inputs mainly from
+the inferior colliculus and the thalamic reticular nucleus
+[16–20]. The inhibitory inputs are distributed across the
+dorsal and ventral parts of the MGB and evoke inhibitory
+postsynaptic potentials [16, 21] which can hyperpolarize an
+MGB neuron sufficiently to produce a robust RD [22–24].
+Although RD is a prominent feature of MGB neurons [4,
+5], its detailed physiological characteristics have not been
+described. The purpose of the present study was to
 
-Figure 3. Enhanced Synchrony of SC Neurons during SWS
-(A) During SWS, SC neuronal spiking occurs near
-cortical delta wave troughs.
-(B and C) Spike delta-phase histogram of a SC
-neuron shows reduction of firing near the delta
-wave peaks.
-(D) As a population, SC neurons exhibit comparable delta-phase locking to AC neurons (shaded
-area denotes the group SEM), shown in the depth
-of their spike-phase modulation (SPM).
-(E) Delta wave peak-aligned PETH of the SC
-population (blue trace) shows stronger phase
-alignment to cortical delta oscillations than the AC
-population (red trace). Shaded area is SEM.
-(F) Finding in (E) is further supported by plotting the
-histogram of the phase values (relative to delta
-wave peak) at which significantly modulated
-neurons exhibit minimum spike count. These distributions are significantly different (two-sample
-Kolmogorov-Smirnov test, p < 0.03). Note the
-peak in the SC neuron histogram, showing that
-these neurons exhibit little spiking around the
-peaks of delta oscillations.
-(G) Example of spike time synchrony between two
-SC neurons (shaded area indicates À50 and 50 ms
-centered at zero lag) showing increased synchrony in SWS.
-(H) Spike time synchrony (converted to Z score
-related to baseline) seen at the ensemble level
-(examples from four mice). Note the consistent
-overall elevation of spike time synchrony among
-SC units (mouse 1, n = 8; mouse 5, n = 7; mouse 6,
-n = 5; and mouse 7, n = 9) during SWS compared
-to wakefulness.
-(I) Group analysis of these ensembles (SC: n = 13
-ensembles from 4 mice, upper panel; AC: n = 9
-ensembles from 4 mice, lower panel) shows an
-increase in SC subnetwork synchrony during
-SWS. Color bar indicates Z score. p values were
-obtained from signed-rank tests.
-See also Figure S3.
+X.-X. Wang et al.: Characterization of Rebound Depolarization in Neurons
 
-Functionally Distinct TRN Subnetworks
-Our initial recordings were in the dorso-rostral part of the
-mouse TRN (Figure 1), where reticular neurons are known to
-project to anterior (Cornwall et al., 1990) as well as visual sen814 Cell 158, 808–821, August 14, 2014 ª2014 Elsevier Inc.
+characterize RD using the whole-cell patch-clamp recording technique in brain slices.
 
-sory nuclei (Kimura et al., 2012) (Figure S5). In agreement with previous
-recordings in cats (Steriade et al.,
-1986), we found that many TRN neurons
-increased their firing rate with elevation
-in cortical spindle power. Our subsequent finding that visual sensory TRN
-neurons are likely to exhibit this attribute
-as well as phase lock to spindles is
-consistent with recordings from the
-somatosensory TRN in freely behaving
-rats (Marks and Roffwarg, 1993). The
-finding of a separate subpopulation of
-TRN neurons (AC) is unexpected, and
-its link to limbic processing might have been previously missed
-because earlier studies did not target limbic-projecting sectors
-of the TRN. In contrast to sensory-projecting TRN neurons,
-these neurons exhibited broad modulation by arousal state
-
-Figure 4. Optogenetic Tagging of TRN Neurons Based on Their Thalamic Targets
-(A) Cartoon depiction of optogenetic tagging of visually connected TRN neurons in mice. A RG-LV containing a Cre-dependent ChR2-EYFP is injected into the
-visual thalamus of a VGAT-Cre mouse. Two to 4 weeks later, ChR2 is robustly expressed in visually connected TRN.
-(B) Tagging of anterior complex-connected TRN, a similar procedure as in (A).
-(C) Sections showing extracellular recording targets for visually connected TRN (n = 3 mice).
-(D) Peri-stimulus time histograms (PSTHs) from two visual-tagged TRN neurons, showing optogenetic drive with short-latency responses (top) and visual drive
-with longer-latency responses (bottom).
-(E and F) Similar depictions as in (C) and (D) but for anterior complex-projecting neurons.
-(G) Example brain sections showing electrolytic lesions of electrode tips for visually connected TRN preparation. Confocal image on the right shows electrode tips
-(white asterisk) near neurons expressing ChR2-EYFP (yellow arrowheads).
-(H) Similar figures to (G) but for anterior complex-tagged TRN neurons.
-
-as seen in cortical (Vyazovskiy et al., 2009) and thalamocortical neurons (Weyand et al., 2001). Functional divergence
-of sensory and limbic TRN subnetworks was further evident
-during behavior in the visual detection task, where sensory
-neurons showed a sharp reduction in firing rate following task
-initiation (Figure 5), whereas limbic neurons did not. Interestingly, limbic-projecting neurons had comparable firing rates
-to AC neurons recorded in the first data set (Table S2 versus
-Table S1). However, visual-projecting neurons had different
-firing rates than SC neurons recorded earlier in the study.
-This may have been related to visual-projecting neurons being
-recorded from more caudal parts of the TRN (Figure 1 versus
-Figure 4).
-
-The Impact of TRN on Cognitive Function
-The reduction in firing rate observed for sensory TRN neurons
-during the task window in which attentional demands were highest suggests the engagement of these neurons in attentional
-state modulation. It is important to note that this modulation is
-probably distinct from the role of TRN in selective attention
-shown by studies in primates (McAlonan et al., 2008), which
-have revealed a correlation between neural responses and
-task accuracy, rather than speed. Our task has examined TRN
-involvement in the behavioral state preceding stimulus detection. Because mice perform this task with high accuracy, their
-variability in performance is seen mostly in latency, which is likely
-to reflect variability in attentional state (a form of arousal), rather
-Cell 158, 808–821, August 14, 2014 ª2014 Elsevier Inc. 815
-
-Figure 5. Intact TRN Microcircuit Dissection Connects Form to Function
-(A and B) (A) Visual-tagged neurons are positively correlated to cortical spindle power in SWS (p < 10À8, signed-rank test), but (B) anterior-tagged neurons are
-negatively correlated (p = 0.006).
-(C) Anterior-tagged neurons are wake active, whereas visual-tagged neurons are state indifferent.
-(D) Visual-tagged neurons show stronger phase locking to spindle oscillations (p < 0.001, rank sum test at the trough). Shaded area is SEM.
-
-(legend continued on next page)
-
-816 Cell 158, 808–821, August 14, 2014 ª2014 Elsevier Inc.
-
-than selective attention. Our physiological results as well as optogenetic manipulations corroborate this notion, demonstrating
-that a reduction in sensory TRN firing rates is required for optimal
-task performance. Because neither a sensory nor motor effect
-was observed in these studies, we interpret these findings to
-reveal a permissive cognitive role for TRN in attentional states.
-This interpretation is consistent with the role of state-dependent
-cortical dynamics in accumulation of evidence required for decision making (Brunton et al., 2013; Kubanek et al., 2013).
-The involvement of TRN in cognitive function offers a unique
-perspective on connecting a number of concepts in neuroscience that had previously been studied separately. For example,
-whereas our study examined the participation of TRN microcircuits in sleep and attentional states separately, the subnetwork
-architecture of TRN may allow for flexible switching between
-processing of external input and internal constructs in cognitive
-tasks, facilitating selective thalamo-cortical network engagement (Roth et al., 2009). Interestingly, recent experiments in humans have shown that rapid changes in arousal measures, such
-as pupil diameter, predict successful performance on cognitive
-tasks requiring the use of external information to update internal
-beliefs (Nassar et al., 2012). Given the state-dependent modulation of TRN neurons, these microcircuits may offer a mechanistic
-link between subtle changes in arousal and cognitive performance. In addition, these subnetworks offer a mammalian
-example of how the same neurons can switch their functionality
-in a behaviorally relevant manner, a long-recognized attribute of
-small circuits in model systems (Bargmann and Marder, 2013).
-Our findings also offer a unique perspective on cognitive
-dysfunction, which appears to be central to a number of neurodevelopmental and neuropsychiatric disorders (Coe et al., 2012; Stefansson et al., 2014). Although inhibitory circuits have long-been
-recognized to be disrupted in several of these disorders, the focus
-has been on cortical interneurons (Gonzalez-Burgos and Lewis,
-2012). Dissecting TRN microcircuit architecture and examining
-its participation in cognitive function are first steps in understanding how its dysfunction may contribute to brain disorders. Given
-the role of thalamus in regulating cortical states, it would not be surprising that its inhibitory dysfunction contributes to a number of
-brain disorders (Barch and Ceaser, 2012; Fitzgerald et al., 2000).
-Spindle-Related Microcircuitry
-Our findings that TRN neurons associated with spindle oscillations influence thalamic sensory processing in a state-dependent fashion provide a mechanism for the link between spindles
-and sleep stability (Dang-Vu et al., 2010; Wimmer et al., 2012). In
-addition, they link sensory processing in sleep to that during
-attentional states, which, to our knowledge, has never been
-
-explicitly demonstrated. Spindle-associated TRN microcircuits,
-controlling sensory processing across states of vigilance, may
-explain the long-recognized association between spindles and
-cognitive performance (Fogel and Smith, 2011) and may relate
-to the association between spindles and cognitive dysfunction
-in schizophrenia (Ferrarelli et al., 2010; Keshavan et al., 2011).
-Relevance to Offline Processing
-Could our findings be placed in a larger context of hippocampalthalamo-cortical interaction underlying online behavior versus
-offline memory processing? We think yes. The hippocampus
-sends monosynaptic input to cingulate and retrosplenial
-cortices, areas that are connected to the anterior thalamic complex. Damage to any of these structures is known to result in
-spatial memory deficits (Rolls, 2013). As such, limbic TRN activity may be permissive to offline hippocampal-thalamo-cortical
-interactions evident by reduced firing rate of these neurons during SWS (Figure 5). The elevated firing of these neurons during
-active wakefulness may set a higher inhibitory tone in the anterior
-complex during behavioral arousal. The role of this inhibition in
-shaping online processing of these neurons, and their engagement in behavior, is an open but intriguing question.
-The role of hippocampus and associated limbic circuitry in
-memory processing extends well beyond sleep because hippocampal-cortical interactions are required for basic cognitive tasks
-requiring online encoding and retrieval of memories (Preston and
-Eichenbaum, 2013). Recent findings of default mode network
-engagement in these tasks suggest large network functional organization (Ward et al., 2014), in which thalamic modulation of cortical
-dynamics may be necessary. The role of TRN in these large-scale
-functional interactions will undoubtedly be an exciting area of
-investigation, with broad basic and translational implications.
-EXPERIMENTAL PROCEDURES
+Materials and Methods
 Animals
-Seven 4- to 6-month-old male mice in a C57Bl6/J background were used
-for the first data set (Figures 1, 2, and 3). Three VGAT-Cre mice were used
-for visual thalamic optogenetic tagging, and two mice were used for anterior
-thalamic optogenetic tagging (Figures 4 and 5). Four VGAT-Cre mice were
-used for the optogenetic-activation experiments, and four others were used
-for the optogenetic inhibition (Figure 6). A total of seven VGAT-Cre mice
-were used for histology experiments (Figure S1). All research involving mice
-has been conducted according to the Institutional Animal Care and Use Committee (IACUC) guidelines at Massachusetts Institute of Technology. All procedures were approved by the IACUC.
-Electrophysiological Recording
-Following recovery, each animal was connected to two 16-channel preamplifier headstages or a single, custom-made 32-channel preamplifier headstage
+Wistar rats (aged 15–22 days, male or female) were used. All
+procedures were approved by the Animal Care and Use
+Committee at the University of Science and Technology of
+China. Slices containing the MGB were prepared using a
+procedure similar to that described previously [21, 25].
+Briefly, the rat was decapitated and the brain was rapidly
+removed and submerged in ice-cold artificial cerebrospinal
+fluid (ACSF) containing (in mmol/L) 129 NaCl, 3 KCl, 1.2
+KH2PO4, 1.3 MgSO4, 20 NaHCO3, 2.4 CaCl2, 3 HEPES, and
+10 D-glucose at pH 7.3–7.4 (osmolarity: 300–310 mOsm/
+kg). The ACSF was continuously bubbled with 95% O2 and
+5% CO2. The caudal portion of the cerebrum, embracing the
+right and left hemispheres, was separated by two coronal cuts
+in the midbrain and the forebrain. The brain was sectioned in
+the horizontal plane into 300-lm slices using a vibrating
+microtome (DTK-1000, Dosaka, Kyoto, Japan). The slices
+were immersed in oxygenated ACSF in a holding chamber
+for at least 1 h at 28 °C before electrophysiological
+recording.
+Whole-Cell Patch-Clamp Recording
+Slices containing the MGB were transferred from the holding chamber to a recording chamber (TC-344B, Middlesex
+County, MA), in which oxygenated ACSF at 34 °C was
+circulated at 3 mL/min. MGB neurons were visualized under
+an upright microscope (FN1; Nikon, Tokyo, Japan) equipped
+with a digital CCD camera using a 409 water-immersion
+objective (FN1, Nikon) and infrared-differential interference
 
-(E) Visual-, but not anterior-, tagged neurons exhibit enhanced pairwise spike time synchrony in SWS (p values, signed-rank test; numbers of axes denote
-Z scores).
-(F) Visual detection task design ensures control over psychophysical parameters. The mouse is informed of a new trial by a white noise stimulus emitted from two
-side speakers. To initiate a trial, the mouse is required to hold its snout in a nose poke for a period of 0.5–0.7 s, ensuring that when the 0.5 s stimulus is presented at
-one of the reward nose pokes, the head is in the correct orientation to see it. The rotating disk ensures that the reward sites are only available following the
-stimulus, minimizing impulsive poking behavior.
-(G) Only visual-tagged neurons show a reduction in firing rate (group mean ± SEM; p < 0.001, rank sum test) during the attentional window of the visual detection
-task (yellow bar indicates stimulus).
-See also Table S2.
+Fig. 1 A Schematic of a horizontal slice containing the MGB, B,
+C Two sample MGB neurons viewed under a differential interference
+contrast microscope (B) and a representative example of RD showing
+how its amplitude, latency, and area were measured (C). R, rostral; L,
 
-Cell 158, 808–821, August 14, 2014 ª2014 Elsevier Inc. 817
+17
 
-(legend on next page)
+optics (Fig. 1B). For whole-cell patch-clamp recording, we
+used an HEKA EPC-9 amplifier and PatchMaster software
+(HEKA Electronics, Lambrecht (Pfalz), Germany). Signals
+were filtered at 2.9 kHz and digitized at 10 kHz. Electrodes
+for whole-cell patch-clamp recording were prepared
+from borosilicate capillaries with a two-stage vertical puller
+(PC-10, Narishige, Tokyo, Japan). The electrode was filled
+with internal solution containing (in mmol/L): 130 K-gluconate, 2 MgCl2, 5 KCl, 0.6 EGTA, 10 HEPES, 2 Mg-ATP,
+and 0.3 Na-GTP. The pH was adjusted to 7.2–7.4 with KOH
+(1 mol/L) and the osmolarity was 280–300 mOsm/kg. The
+resistance of patch electrodes was 4–6 MX. The liquid
+junction potential was calculated at *15 mV and was not
+corrected. RD was evoked by a hyperpolarizing step current
+in current-clamp recording mode. Unless otherwise indicated, tetrodotoxin (TTX; 1 lmol/L) was added to the bath to
+eliminate rebound spikes and facilitate the measurement of
+RD properties. The location of neurons under recording
+relative to MGB divisions was visually identified by referring to the Paxinos and Watson atlas (4th edition).
+Pharmacology
+Mibefradil was prepared at a stock concentration of
+3 mmol/L and stored at -20 °C. It was used within
+3 months and diluted to a final concentration from 3 to
+10 lmol/L on use. When NiCl2 (100 lmol/L) was applied,
+KH2PO4 was not added to the ACSF to prevent precipitation. BaCl2 (100 mmol/L), NiCl2 (100 mmol/L), baclofen
+(3 mmol/L), Tertiapin-Q (200 lmol/L), TTX (1 mmol/L),
+and 4-ethylphenylamino-1,2-dimethyl-6-methylaminopyrimidinium chloride (ZD7288; 50 mmol/L) were prepared
+as stock solutions (91000) and diluted in ACSF on use. All
+drugs were from Sigma-Aldrich Inc., (St. Louis, MO),
+except TTX (Hebei Aquatic Science and Technology
+Development Co., Qinhuangdao, China) and Tertiapin-Q
+(Tocris Cookson, Bristol, UK).
 
-818 Cell 158, 808–821, August 14, 2014 ª2014 Elsevier Inc.
+lateral; MGB, medial geniculate body; Hip, hippocampus; Rec, site of
+patch clamp recording; TTX, tetrodotoxin; RD, rebound
+depolarization.
 
-redishlab.neuroscience.umn.edu/mclust/MClust.html), based on spike amplitudes and energies on the two electrodes of each stereotrode. Units were
-separated by hand, and cross-correlation and autocorrelation analyses were
-used to confirm unit separation.
+123
 
-Figure 7. Cartoon Depiction of State-Dependent Thalamic Inhibition
-During active wakefulness, inhibition in sensory and limbic thalamic nuclei is
-balanced. As the brain transitions to SWS, synchrony among sensory TRN
-neurons results in enhanced inhibition of sensory thalamic nuclei contributing
-to gating of external input. The reduction in firing rate of limbic-connected
-neurons is likely to result in reduced inhibition in limbic thalamus, perhaps
-facilitating offline processing. During attentional states, sensory neuronal firing
-rate is reduced, contributing to enhanced sensory thalamic engagement in
-processing of external stimuli. Although limbic thalamic neurons do not show
-an overall change in firing rate during these states, individual neurons may
-participate in shaping limbic processing during these states.
+18
 
-(Neuralynx). All data were recorded using a Neuralynx DigiLynx recording system. Signals from each stereotrode were amplified, filtered between 0.1 Hz
-and 9 kHz, and digitized at approximately 30 kHz. Local field potentials
-(LFPs) were collected from a single channel on each stereotrode. The LFP
-and EEG traces were amplified and filtered between 0.1 Hz and 30 kHz. The
-EEG was acquired as a referential signal between the ipsilateral frontal lead
-(at approximately anteroposterior [A/P], +0.5 mm; mediolateral [M/L],
-0.5 mm; and dorsoventral [D/V], 0.1–0.2 mm, directed at cingulate) and cerebellar reference. For experiments involving the tagging of visual neurons, the
-EEG was a referential signal between primary visual cortex and the cerebellum.
-Stereotrodes were slowly lowered (over several days) in 125–250 mm steps.
-Spike sorting was performed offline using the MClust toolbox (http://
+Data Analysis
+Quantitative characterization of the RD properties amplitude, area, peak latency, and rise slope was similar to that
+described previously (Fig. 1C) [6, 7]. The RD amplitude
+was defined as the peak voltage over the resting membrane
+potential and the latency as the time from the release of
+hyperpolarization to the peak of RD. All the amplitudes over
+the resting membrane potential were defined as the RD area
+(Fig. 1C). The rise slope of the RD was measured between
+10% and 90% of the peak amplitude. All analyses and figures were made using Clampfit 10.0 (Axon, Sunnyvale, CA)
+and OriginPro 8.0 (Origin Lab, Northampton, MA). All data
+are presented as mean ± SE. Student’s t test (paired, onetailed) was used for analysis of the effects of adjusting the
+resting membrane potential. One-way or two-way repeated
+measures analysis of variance (RM-ANOVA) with Bonferroni correction was used to analyze differences within
+groups. If two-way RM-ANOVA resulted in a significant
+main effect or a significant interaction, a one-way RMANOVA with Bonferroni correction was performed for
+pairwise comparisons. P \ 0.05 was considered statistically
+significant. Pearson’s correlation was used to determine
+whether the correlation between RD properties and another
+variable was significant.
 
-Virus Injections
-For anatomical-tracing experiments, AAV-hSyn-DIO-EGFP (serotype 2) was
-injected at multiple volumes (200 nl–1 ml) into thalamus of VGAT-Cre animals
-(A/P, À0.6 to À1.0 mm; M/L, 0.9 mm; and D/V, À3.5 mm) unilaterally. Animals
-were allowed to recover for at least 3 weeks for optimal virus expression, after
-which they were prepared for histological experiments.
-For optogenetic manipulation experiments, AAV-EF1a-DIO-ChR2-EYFP
-and AAV-EF1a-DIO-eNpHR3.0-EYFP (all serotype 2) were used. These viruses
-were produced by the vector core at University of North Carolina, Chapel Hill,
-with titers around 1012 VG/ml. Viruses (250–350 nl) were injected bilaterally into
-TRN of VGAT-Cre mice (A/P, À0.6 mm; ±M/L, 0.9 mm; and D/V, À3.5 mm)
-using a quintessential stereotactic injector (Stoelting; #53311). Mice were allowed to recover for 2–4 weeks following injection to allow for virus expression.
-For retrograde histological tracing and optogenetic-tagging experiments (Figures 5 and S5), pseudotyped RG-LVs were used. Visually connected TRN neurons were labeled through virus injections (0.5–0.8 ml) into visual thalamus (AP,
-À2.1 mm; ML, 2 mm; and DV, 2.5 mm), whereas anterior thalamic-connected
-TRN neurons were targeted through injections into the anterior complex
-(AP, À0.7 mm; ML, 0.65 mm; and DV, À2.6 mm). RG-LV contained the EF1a
-promoter, followed by a double-flox cassette in which the floxed gene (in
-reverse orientation) was EGFP, channelrhodopsin (ChR2), or halorhodopsin
-(eNpHR3.0) and was followed by the woodchuck posttranscriptional regulatory element (WPRE). All vectors were modified from the original lentivector
-pFCGW. For production of the viral vector, the expression plasmid along
-with two helper plasmids, D8.9 and FuG-B2 (a chimeric envelope protein
-composed of the extracellular and transmembrane domains of RG and the
-cytoplasmic domain of VSV-G; pCAGGS-FuG-B2 [a gift from Kazuto Kobayashi, Fukushima Medical University, Fukushima]), were transfected into human
-embryonic kidney 293T cells with Lipofectamine 2000 (Invitrogen). Viral particles were collected from the cell culture medium, pelleted by ultracentrifugation at 65,000 3 g (m/s2) for 2.5 hr, resuspended in PBS, washed, and
-concentrated using Amicon Ultra 4. Titers were between 108 and 109 VG/ml.
-Mice were allowed 4–6 weeks of recovery following surgery to allow for retrograde virus expression.
-Online Optogenetic Tagging of TRN Units
-A fiber-optic patch cord (Doric Lenses) delivered light from a 473 nm laser
-(Opto Engine) to the fiber-optic connector on the animal’s implant. Prior to
+Neurosci. Bull. February, 2016, 32(1):16–26
 
-Figure 6. Bidirectional Manipulation of Cognitive Performance by Selective TRN Targeting
-(A) Schematic showing strategy for rendering the TRN optically sensitive. The TRN of a VGAT-Cre mouse is bilaterally injected with an AAV containing a doublefloxed optogenetic molecule cassette (in this example ChR2-EYFP), which is flipped into frame only in Cre-expressing neurons. Because thalamic relay nuclei are
-largely devoid of VGAT-expressing neurons (except for LGN, which is sufficiently far away from the injection site), ChR2-EYFP expression is limited to the TRN. A
-similar strategy is used for eNpHR3.0-EYFP experiments (F–H).
-(B) Left: two PSTHs of a TRN unit and a thalamic unit in response to a 50 Hz laser stimulus (2 ms pulse duration, 1 s duration), showing broad elevation in spiking for
-the TRN unit and broad suppression of spiking in the thalamic unit. Right panel is a timeline of optogenetic stimulation regimes in relation to task phases. The same
-strategy is adopted for optogenetic inhibition.
-(C and D) Examples of a selective TRN stimulation session carried out during all task phases (C) or avoiding the initiation phase, but of similar length, ‘‘control
-stimulation’’ (D). Note the increased number of long-latency trials in the task stimulation but not the control one: black circle indicates left correct trial, black
-square indicates right correct trial, red circle indicates left incorrect trial, red square indicates right incorrect trial, and green cross indicates catch trials; laser trials
-are highlighted in blue.
-(E) Cumulative distribution of trial latencies (to collect reward) from individual mice, showing diminished performance following TRN activation during the task in all
-four mice.
-(F and G) Example sessions for eNpHR3.0-mediated TRN inhibition as in (C) and (D).
-(H) Cumulative distribution of trial latencies from individual mice in response to TRN inhibition in the task, showing the opposite behavioral effect to stimulation.
-(I) Setup for subnetwork-specific optogenetic manipulations.
-(J) Optogenetic activation and inhibition of TRN subnetwork projecting to visual thalamus diminish and enhance performance, respectively, whereas similar
-manipulations of the anterior-projecting TRN have an opposite but nonsignificant effect (n = 6 sessions, two mice for each manipulation; p values were obtained
-from signed-rank tests). Error bars are SEM.
-See also Figure S6 and Movies S1 and S2.
+certain range. With a hyperpolarizing current 205 ms in
+duration, the normalized RD amplitude gradually increased
+from 54.71 ± 15.08% to 96.78 ± 2.64% (Pearson:
+r = -0.79, n = 18, P \ 0.01) and the normalized RD area
+from 48.45 ± 10.91% to 85.53 ± 3.01% (Pearson:
+r = -0.74, n = 18, P \ 0.01) as the current magnitude
+increased from -40 to -300 pA (Fig. 3A, C, and E). In
+contrast, the normalized RD latency decreased from
+274.60 ± 26.37% to 123.87 ± 7.51% (Pearson: r = 0.61,
+n = 18, P \ 0.01) (Fig. 3A, C, and E). When the injected
+current was -40 pA, the normalized RD amplitude gradually increased from 3.57 ± 1.11% to 94.03 ± 6.35%
+(Pearson: r = 0.91, n = 34, P \ 0.01) and the normalized
+RD area from 0.10 ± 1.47% to 95.68 ± 11.13% (Pearson:
+r = 0.92, n = 34, P \ 0.01) as the current duration
+increased from 25 to 685 ms (Fig. 3B, D, and E). In contrast, the normalized RD latency decreased from
+455.39 ± 61.00%
+to
+202.84 ± 14.23%
+(Pearson:
+r = -0.84, n = 34, P \ 0.01) (Fig. 3B, D, and E). However, the amplitude, area and latency reached a plateau
+when the magnitude or duration of hyperpolarization was
+large enough (Fig. 3C–E). Under these experimental conditions, most MGB neurons (76.43%) had RD with
+amplitudes ranging from 25 to 35 mV (Fig. 2C).
+RD Was Blocked by Ni21 or Mibefradil
 
-Cell 158, 808–821, August 14, 2014 ª2014 Elsevier Inc. 819
+Results
+The Strength of RD was Proportional
+to the Magnitude and Duration
+of Hyperpolarization
+The neurons from which we recorded were from the ventral
+and dorsal parts of the MGB (elliptical region in Fig. 1A).
+None of the neurons with a stable resting membrane potential
+(Vrest; more negative than -52 mV) fired spontaneously.
+There was no significant difference in the Vrest between neurons in the ventral and dorsal MGB (dorsal:
+-59.06 ± 0.56 mV, n = 36; ventral: -58.41 ± 0.74 mV,
+n = 22, P [ 0.05), which is consistent with the findings of
+Bartlett and Smith [5]. Action potentials were evoked by a
+robust RD (Fig. 2A). In most cases, an MGB neuron exhibited
+various patterns of rebound discharge ranging from a single
+spike to complex firing following strong hyperpolarization
+(Fig. 2A). These spikes were eliminated by 1 lmol/L TTX
+and only five neurons (3.18%, 5/157 cells) in the presence of
+TTX still showed a rebound spike, which was presumably a
+high-threshold activated Ca2? spike (Fig. 2B) [10].
+We quantitatively characterized RD in response to
+hyperpolarizing currents of various magnitudes and durations and found that the strength of RD was proportional to
+the magnitude and duration of hyperpolarization within a
 
-connecting to the animal, laser power was measured and titrated to $10 mW
-using a neutral density filter (Thorlabs). Power at the tip of the implanted fiber
-was $50% of this value, based on measurements prior to surgery. Thus, there
-was 4–5 mW of power at the fiber tip or 140–180 mW/mm for a 200 mm fiber. An
-analog stimulus generator was used to control laser pulses of 10 ms duration
-and 0.01 Hz frequency. See Extended Experimental Procedures for more
-information.
-SUPPLEMENTAL INFORMATION
-Supplemental Information includes Extended Experimental Procedures, six
-figures, two tables, and two movies and can be found with this article online
-at http://dx.doi.org/10.1016/j.cell.2014.06.025.
-AUTHOR CONTRIBUTIONS
-M.M.H. conceived and designed all aspects of the study and collected data.
-M.M.H. and Z.C. analyzed the electrophysiological and behavioral data. Z.C.
-developed computational methods for data analysis. R.D.W. and P.M.B.
-developed the attentional task. R.D.W. collected data for the optogenetic
-tagging experiments. S.Z. and F.W. provided retrograde viruses. B.Z. developed and adapted quantitative structural connectivity methods and provided
-input on their inclusion in the manuscript. E.N.B. provided input and oversight
-on statistical analysis. M.A.W. supervised the study. M.M.H. wrote the paper
-with input from M.A.W.
-ACKNOWLEDGMENTS
-We thank L. Acsady and T. Fellin for helpful comments, as well as all members
-of the M.A.W. laboratory. M.M.H. is supported by an NIH pathway to independence career award (K99 NS 078115) from the NINDS and a NARSAD Young
-Investigator Award. Z.C. is supported by an NSF-CRCNS grant (award IIS1307645) and an Early Career Award (Mathematical Biosciences Institute).
-B.Z. is supported by grants from NIMH (R01MH101209 and R01MH057414)
-and NSF (CELEST and SBE-0354378). F.W. is supported by NIH grants
-(R01NS077986 and DP1MH103908). E.N.B. and M.A.W. are supported by a
-transformative R01 award (TR01-GM10498). M.A.W. is additionally supported
-by NIH grant R01-MH061976.
-Received: March 5, 2014
-Revised: May 22, 2014
-Accepted: June 6, 2014
-Published: August 14, 2014
-REFERENCES
-Barch, D.M., and Ceaser, A. (2012). Cognition in schizophrenia: core psychological and neural mechanisms. Trends Cogn. Sci. 16, 27–34.
-Bargmann, C.I., and Marder, E. (2013). From the connectome to brain function.
-Nat. Methods 10, 483–490.
+123
 
-Buzsa´ki, G. (2010). Neural syntax: cell assemblies, synapsembles, and
-readers. Neuron 68, 362–385.
-Cardin, J.A., Carle´n, M., Meletis, K., Knoblich, U., Zhang, F., Deisseroth, K.,
-Tsai, L.H., and Moore, C.I. (2009). Driving fast-spiking cells induces gamma
-rhythm and controls sensory responses. Nature 459, 663–667.
-Coe, B.P., Girirajan, S., and Eichler, E.E. (2012). The genetic variability and
-commonality of neurodevelopmental disease. Am. J. Med. Genet. C. Semin.
-Med. Genet. 160C, 118–129.
-Contreras, D., Curro´ Dossi, R., and Steriade, M. (1993). Electrophysiological
-properties of cat reticular thalamic neurones in vivo. J. Physiol. 470, 273–294.
-Cornwall, J., Cooper, J.D., and Phillipson, O.T. (1990). Projections to the rostral
-reticular thalamic nucleus in the rat. Exp. Brain Res. 80, 157–171.
-Crick, F. (1984). Function of the thalamic reticular complex: the searchlight hypothesis. Proc. Natl. Acad. Sci. USA 81, 4586–4590.
-Cueni, L., Canepari, M., Luja´n, R., Emmenegger, Y., Watanabe, M., Bond, C.T.,
-Franken, P., Adelman, J.P., and Lu¨thi, A. (2008). T-type Ca2+ channels, SK2
-channels and SERCAs gate sleep-related oscillations in thalamic dendrites.
-Nat. Neurosci. 11, 683–692.
-Dang-Vu, T.T., McKinney, S.M., Buxton, O.M., Solet, J.M., and Ellenbogen,
-J.M. (2010). Spontaneous brain rhythms predict sleep stability in the face of
-noise. Curr. Biol. 20, R626–R627.
-Deisseroth, K., and Schnitzer, M.J. (2013). Engineering approaches to illuminating brain structure and dynamics. Neuron 80, 568–577.
-Desimone, R., and Duncan, J. (1995). Neural mechanisms of selective visual
-attention. Annu. Rev. Neurosci. 18, 193–222.
-Diekelmann, S., and Born, J. (2010). The memory function of sleep. Nat. Rev.
-Neurosci. 11, 114–126.
-Eschenko, O., Mo¨lle, M., Born, J., and Sara, S.J. (2006). Elevated sleep spindle
-density after learning or after retrieval in rats. J. Neurosci. 26, 12914–12920.
-Espinosa, F., Torres-Vega, M.A., Marks, G.A., and Joho, R.H. (2008). Ablation
-of Kv3.1 and Kv3.3 potassium channels disrupts thalamocortical oscillations
-in vitro and in vivo. J. Neurosci. 28, 5570–5581.
-Fenno, L., Yizhar, O., and Deisseroth, K. (2011). The development and application of optogenetics. Annu. Rev. Neurosci. 34, 389–412.
-Ferrarelli, F., Peterson, M.J., Sarasso, S., Riedner, B.A., Murphy, M.J., Benca,
-R.M., Bria, P., Kalin, N.H., and Tononi, G. (2010). Thalamic dysfunction in
-schizophrenia suggested by whole-night deficits in slow and fast spindles.
-Am. J. Psychiatry 167, 1339–1348.
-Fitzgerald, K.D., Moore, G.J., Paulson, L.A., Stewart, C.M., and Rosenberg,
-D.R. (2000). Proton spectroscopic imaging of the thalamus in treatment-naive
-pediatric obsessive-compulsive disorder. Biol. Psychiatry 47, 174–182.
-Fogel, S.M., and Smith, C.T. (2011). The function of the sleep spindle: a physiological index of intelligence and a mechanism for sleep-dependent memory
-consolidation. Neurosci. Biobehav. Rev. 35, 1154–1165.
+To confirm the ionic basis of RD in MGB neurons, we
+tested the actions of Ni2? and Mibefradil, blockers of lowvoltage-activated (T-type) Ca2? channels. Ni2? almost
+eliminated RD as shown by the dramatic drop in RD
+amplitude (29.24 ± 1.04 vs 3.68 ± 0.67 mV, n = 10,
+P \ 0.01), the drop in RD area (2.23 ± 0.17 vs
+0.49 ± 0.12 mV*s, n = 10, P \ 0.01) and the increase in
+RD latency (80.55 ± 8.32 vs 286.77 ± 33.12 ms, n = 10,
+P \ 0.01) following its application (Fig. 4A, B).
+Mibefradil, a specific blocker of T-type Ca2? channels,
+had a similar inhibitory effect on RD as shown by the drop in
+amplitude (30.24 ± 1.06 vs 6.22 ± 1.03 mV, n = 16,
+P \ 0.01) and area (2.96 ± 0.21 vs 0.69 ± 0.10 mV*s,
+n = 16, P \ 0.01), and the increase in latency
+(143.76 ± 14.17 vs 283.86 ± 29.66 ms, n = 16, P \ 0.01)
+following its application (Fig. 4C, D). The blocking effects
+of Ni2? and Mibefradil indicated that the RD in MGB
+neurons is carried by T-type Ca2? channels.
+RD Was Depressed by ZD7288
+We showed that 50 lmol/L ZD7288 blocked the hyperpolarization-activated cyclic nucleotide-gated (HCN)
+channels in MGB neurons (Fig. S1). The blockade of HCN
+channels depressed the RD (Fig. 5A). With a hyperpolarizing current at -80 pA, ZD7288 decreased the RD
 
-Bazhenov, M., Timofeev, I., Steriade, M., and Sejnowski, T. (2000). Spikingbursting activity in the thalamic reticular nucleus initiates sequences of spindle
-oscillations in thalamic networks. J. Neurophysiol. 84, 1076–1087.
+X.-X. Wang et al.: Characterization of Rebound Depolarization in Neurons
 
-Fox, M.D., Snyder, A.Z., Vincent, J.L., Corbetta, M., Van Essen, D.C., and
-Raichle, M.E. (2005). The human brain is intrinsically organized into dynamic,
-anticorrelated functional networks. Proc. Natl. Acad. Sci. USA 102, 9673–
-9678.
+19
 
-Boyden, E.S., Zhang, F., Bamberg, E., Nagel, G., and Deisseroth, K. (2005).
-Millisecond-timescale, genetically targeted optical control of neural activity.
-Nat. Neurosci. 8, 1263–1268.
+Fig. 2 Robust RD was evoked from most MGB neurons. A Left
+panels; sample traces of the RD recorded from an MGB neuron in
+response to a series of hyperpolarizing currents with durations from
+65 to 565 ms (20 ms/step). Note that the RD was robust enough to
+trigger rebound firing in the absence of TTX. Arrowheads indicate
+representative firing patterns that are expanded in the right panels.
 
-Gardner, R.J., Hughes, S.W., and Jones, M.W. (2013). Differential spike timing
-and phase dynamics of reticular thalamic and prefrontal cortical neuronal populations during sleep spindles. J. Neurosci. 33, 18469–18480.
+B Sample traces of RD recorded from another MGB neuron showing
+that TTX did not completely block the rebound firing in a rare
+circumstance. RD was evoked by a 500-ms hyperpolarizing current at
+-80 pA. C Amplitude distribution of RD (n = 157) in response to a
+500-ms hyperpolarizing current at -100 pA (n = 89) or to a 200-ms
+current at -140 pA (n = 68).
 
-Briggs, F., Mangun, G.R., and Usrey, W.M. (2013). Attention enhances synaptic
-efficacy and the signal-to-noise ratio in neural circuits. Nature 499, 476–480.
+amplitude from 97.41 ± 1.10% to 48.60 ± 9.53% (P \
+0.01), decreased the area from 94.21 ± 1.52% to 56.29 ±
+11.14% (P \ 0.01), decreased the rise slope from
+104.21 ± 5.75% to 63.29 ± 13.66% (P \ 0.05), and
+increased the latency to the peak from 108.71 ± 1.80% to
+361.35 ± 45.91% (P \ 0.01) (n = 25, Fig. 5B).
+The blockade of HCN channels also hyperpolarized the
+Vrest (-57.92 ± 0.71 vs -63.38 ± 1.03 mV, n = 25, P \
+0.01) (Fig. 5D) and increased the input resistance
+(372.94 ± 20.05 vs 435.15 ± 30.86 MX, n = 25, P \
+0.05) (Figs. 5E and S2A). Because the ZD7288-induced
+depression of the RD was significantly correlated with the
+ZD7288-induced hyperpolarization of Vrest (Fig. S3A–C),
+we investigated whether RD was suppressed by the
+hyperpolarized Vrest. We found that the regulatory effects
+of ZD7288 on RD properties (except the latency) were
+reversed when the otherwise hyperpolarized membrane
+potential by ZD7288 was adjusted back to the control level
+by injecting positive current (Fig. 5A, C). Our data indicated that HCN channels regulate RD properties mainly
+through changing the Vrest.
 
-Gonzalez-Burgos, G., and Lewis, D.A. (2012). NMDA receptor hypofunction,
-parvalbumin-positive neurons, and cortical gamma oscillations in schizophrenia. Schizophr. Bull. 38, 950–957.
+(Fig. 6D) and increased the input resistance from
+394.94 ± 29.95 to 466.04 ± 50.33 MX (n = 18, P \
+0.01) (Figs. 6E and S3B) in MGB neurons. Since RD was
+sensitive to the Vrest (Fig. 5C), we then investigated the role
+of Kir channels in the regulation of RD.
+We found that blockade of Kir channels by Ba2? significantly changed the properties of RD in MGB neurons
+(Fig. 6A and B). With a hyperpolarizing current at -80
+pA, application of Ba2? decreased the amplitude (98.29 ±
+1.49% vs 90.45 ± 1.72%, P \ 0.01) and the latency to the
+peak (106.14 ± 1.38% vs 81.11 ± 3.10%, P \ 0.01), but
+increased the area (93.47 ± 3.07% vs 106.71 ± 4.55%,
+P \ 0.05) and the rise slope (92.02 ± 2.26% vs 203.37 ±
+23.67%, P \ 0.01) (n = 27, Fig. 6B). Moreover, the area,
+rise slope and latency of RD were significantly correlated
+with Ba2?-induced depolarization of the Vrest (Fig. S4A–
+C).
+We found that the regulatory effects of Ba2? on the
+amplitude and rise slope of RD were reversed if the
+otherwise depolarized membrane potential was adjusted
+back to the control level by injecting a negative current
+(Fig. 6A, C). However, the area and the latency to the peak
+of RD did not fully recover when the membrane potential
+was adjusted back to the control level.
 
-Brunton, B.W., Botvinick, M.M., and Brody, C.D. (2013). Rats and humans can
-optimally accumulate evidence for decision-making. Science 340, 95–98.
-Buckner, R.L., and Krienen, F.M. (2013). The evolution of distributed association networks in the human brain. Trends Cogn. Sci. 17, 648–665.
+RD Was Regulated by Ba21
+Inwardly rectifying potassium (Kir) channels play an
+important role in maintaining the normal Vrest of neurons
+[26]. Ba2? at micromolar concentrations is a relatively
+specific blocker of Kir channels [27, 28]. We found that
+100 lmol/L Ba2? depolarized the Vrest from
+-58.66 ± 0.62 to -54.12 ± 0.66 mV (n = 31, P \ 0.01)
 
-Hahn, T.T., McFarland, J.M., Berberich, S., Sakmann, B., and Mehta, M.R.
-(2012). Spontaneous persistent activity in entorhinal cortex modulates cortico-hippocampal interaction in vivo. Nat. Neurosci. 15, 1531–1538.
+Activation of G-Protein-Gated Kir Channels
+Depressed the RD
+We then investigated the role of G-protein-gated Kir
+(GIRK) channels, a subfamily of Kir channels, in RD. The
 
-Buschman, T.J., and Miller, E.K. (2007). Top-down versus bottom-up control
-of attention in the prefrontal and posterior parietal cortices. Science 315,
-1860–1862.
+123
 
-Halassa, M.M., Siegle, J.H., Ritt, J.T., Ting, J.T., Feng, G., and Moore, C.I.
-(2011). Selective optical drive of thalamic reticular nucleus generates thalamic
-bursts and cortical spindles. Nat. Neurosci. 14, 1118–1120.
+20
 
-820 Cell 158, 808–821, August 14, 2014 ª2014 Elsevier Inc.
+Neurosci. Bull. February, 2016, 32(1):16–26
 
-Huguenard, J.R., and McCormick, D.A. (2007). Thalamic synchrony and dynamic regulation of global forebrain oscillations. Trends Neurosci. 30,
-350–356.
+Fig. 3 Properties of RD in
+response to hyperpolarizing
+currents of various durations
+and strengths. A Voltage
+responses recorded from an
+MGB neuron to a series of
+200-ms hyperpolarizing currents
+of various strengths from -20
+to -140 pA at -20 pA/step.
+Arrow indicates a graded RD
+induced by the current at -40
+pA. B Responses from the same
+neuron as in A to a series of
+hyperpolarizing currents at -40
+pA of various durations from
+165 to 665 ms. Note that the RD
+amplitude only slightly
+increased with current durations
+longer than 365 ms (arrow).
+C Typical properties of RD
+recorded from an MGB neuron
+as a function of the strength of
+the hyperpolarizing current with
+a constant duration (205 ms).
+D Typical properties of RD
+recorded from an MGB neuron
+as a function of the duration of
+the hyperpolarizing current with
+a constant magnitude (-100
+pA). E Average values for
+normalized properties of RD as
+a function of the magnitude and
+duration of the hyperpolarizing
+current (n = 7). The
+measurements are normalized to
+those of the RD evoked by a
+605-ms current at -200 pA.
 
-Roth, J.K., Johnson, M.K., Raye, C.L., and Constable, R.T. (2009). Similar and
-dissociable mechanisms for attention to internal versus external information.
-Neuroimage 48, 601–608.
+c-aminobutyric acid B (GABAB) receptor, which is
+expressed abundantly in MGB neurons [26, 29], activates
+GIRK channels through the intracellular G-protein pathway
+[30]. We found that the GABAB receptor agonist baclofen
+drastically depressed RD (Fig. 7). With a hyperpolarizing
+current at -120 pA, baclofen decreased the amplitude
+(96.73 ± 1.22% vs 10.68 ± 5.75%, P \ 0.01), the area
+(93.87 ± 4.41% vs 7.53 ± 3.21%, P \ 0.01) and the rise
+slope (94.34 ± 4.23% vs 8.46 ± 3.86%, P \ 0.01).
+Baclofen also increased the latency to peak
+(104.88 ± 1.61% vs 361.45 ± 52.48%, P \ 0.01)
+(n = 10, Fig. 7B). These effects were reversed to a large
+extent by Tertiapin-Q (200 nmol/L), a GIRK channel
+blocker, indicating that the activation of GIRK channels
+depresses RD (Fig. 7).
 
-Issa, E.B., and Wang, X. (2011). Altered neural responses to sounds in primate
-primary auditory cortex during slow-wave sleep. J. Neurosci. 31, 2965–2973.
+123
 
-Royer, S., Zemelman, B.V., Losonczy, A., Kim, J., Chance, F., Magee, J.C.,
-and Buzsa´ki, G. (2012). Control of timing, rate and bursts of hippocampal place
-cells by dendritic and somatic inhibition. Nat. Neurosci. 15, 769–775.
+Discussion
+In the present study, we demonstrated that RD in the MGB
+is robust and is carried by T-type Ca2? channels (Figs. 2,
+4). The magnitude, time course, and kinetics of RD were
+proportional in strength to the magnitude and duration of
+hyperpolarization (Fig. 3). Novel findings are that HCN
+channels (Fig. 5), and likely GIRK channels (Fig. 7), regulate RD mainly by changing the Vrest.
+RD in MGB Neurons is Carried by T-type Ca21
+Channels
+We demonstrated that RD in MGB neurons is mediated by
+T-type Ca2? channels because RD was almost completely
 
-Ji, D., and Wilson, M.A. (2007). Coordinated memory replay in the visual cortex
-and hippocampus during sleep. Nat. Neurosci. 10, 100–107.
-Jones, E.G. (1981). Functional subdivision and synaptic organization of the
-mammalian thalamus. Int. Rev. Physiol. 25, 173–245.
-Jones, E.G. (2002). Thalamic organization and function after Cajal. Prog. Brain
-Res. 136, 333–357.
-Kahn, J.B., Ward, R.D., Kahn, L.W., Rudy, N.M., Kandel, E.R., Balsam, P.D.,
-and Simpson, E.H. (2012). Medial prefrontal lesions in mice impair sustained
-attention but spare maintenance of information in working memory. Learn.
-Mem. 19, 513–517.
-Karlsson, M.P., and Frank, L.M. (2009). Awake replay of remote experiences in
-the hippocampus. Nat. Neurosci. 12, 913–918.
-Keshavan, M.S., Montrose, D.M., Miewald, J.M., and Jindal, R.D. (2011). Sleep
-correlates of cognition in early course psychotic disorders. Schizophr. Res.
-131, 231–234.
-Kimura, A., Yokoi, I., Imbe, H., Donishi, T., and Kaneoke, Y. (2012). Distinctions
-in burst spiking between thalamic reticular nucleus cells projecting to the dorsal lateral geniculate and lateral posterior nuclei in the anesthetized rat. Neuroscience 226, 208–226.
-Koch, C. (1993). Computational approaches to cognition: the bottom-up view.
-Curr. Opin. Neurobiol. 3, 203–208.
-Kubanek, J., Snyder, L.H., Brunton, B.W., Brody, C.D., and Schalk, G. (2013).
-A low-frequency oscillatory neural signal in humans encodes a developing decision variable. Neuroimage 83, 795–808.
-Livingstone, M.S., and Hubel, D.H. (1981). Effects of sleep and arousal on the
-processing of visual information in the cat. Nature 291, 554–561.
+X.-X. Wang et al.: Characterization of Rebound Depolarization in Neurons
 
-Saalmann, Y.B., Pinsk, M.A., Wang, L., Li, X., and Kastner, S. (2012). The pulvinar regulates information transmission between cortical areas based on
-attention demands. Science 337, 753–756.
-Spreng, R.N., Stevens, W.D., Chamberlain, J.P., Gilmore, A.W., and Schacter,
-D.L. (2010). Default network activity, coupled with the frontoparietal control
-network, supports goal-directed cognition. Neuroimage 53, 303–317.
-Stefansson, H., Meyer-Lindenberg, A., Steinberg, S., Magnusdottir, B.,
-Morgen, K., Arnarsdottir, S., Bjornsdottir, G., Walters, G.B., Jonsdottir, G.A.,
-Doyle, O.M., et al. (2014). CNVs conferring risk of autism or schizophrenia
-affect cognition in controls. Nature 505, 361–366.
-Steriade, M., and Llina´s, R.R. (1988). The functional states of the thalamus and
-the associated neuronal interplay. Physiol. Rev. 68, 649–742.
-Steriade, M., Domich, L., and Oakson, G. (1986). Reticularis thalami neurons
-revisited: activity changes during shifts in states of vigilance. J. Neurosci. 6,
-68–81.
-Steriade, M., Nun˜ez, A., and Amzica, F. (1993). A novel slow (< 1 Hz) oscillation
-of neocortical neurons in vivo: depolarizing and hyperpolarizing components.
-J. Neurosci. 13, 3252–3265.
-Tye, K.M., Prakash, R., Kim, S.Y., Fenno, L.E., Grosenick, L., Zarabi, H.,
-Thompson, K.R., Gradinaru, V., Ramakrishnan, C., and Deisseroth, K.
-(2011). Amygdala circuitry mediating reversible and bidirectional control of
-anxiety. Nature 471, 358–362.
+21
 
-Llina´s, R.R., and Steriade, M. (2006). Bursting of thalamic neurons and states
-of vigilance. J. Neurophysiol. 95, 3297–3308.
+Fig. 4 RD in MGB neurons
+was sensitive to blockers of
+T-type Ca2? channels.
+A Sample traces of RD recorded
+from an MGB neuron and
+B group data for RD properties
+(n = 10) before (Ctrl) and after
+addition of Ni2?. C Sample
+traces of RD recorded from
+another MGB neuron and
+D group data for RD properties
+(n = 16) before (Ctrl) and after
+addition of Mibefradil. RD was
+evoked by a series of
+hyperpolarizing currents at
+various strengths from -20 to
+-140 pA at -20 pA/step and
+with a constant duration of
+200 ms. Vertical bars indicate
+standard error.
 
-Vaingankar, V., Sanchez Soto, C., Wang, X., Sommer, F.T., and Hirsch, J.A.
-(2012). Neurons in the thalamic reticular nucleus are selective for diverse
-and complex visual features. Front. Integr. Neurosci. 6, 118.
+Fig. 5 Inhibitory effects of the HCN channel blocker ZD7288
+(50 lmol/L) on RD. A Sample traces of RD recorded from an
+MGB neuron. B, C Group data (n = 25) for the normalized
+properties of RD (normalized to the values evoked at -100 pA) (B) in
+response to a series of hyperpolarizing currents (range: -20 to -100
+pA at -20 pA/step; duration: 500 ms), and those of the RD (n = 5)
+(normalized to the values evoked at -120 pA) in response to a
 
-Magnin, M., Rey, M., Bastuji, H., Guillemant, P., Mauguie`re, F., and GarciaLarrea, L. (2010). Thalamic deactivation at sleep onset precedes that of the cerebral cortex in humans. Proc. Natl. Acad. Sci. USA 107, 3829–3833.
+hyperpolarizing current at -100 pA (C) in the presence and the
+absence (Ctrl) of ZD7288. D, E Application of ZD7288 also
+hyperpolarized the Vrest (D) and decreased the Rin (E). Vrest indicated
+below the traces. Iin represents the injected current compensating for
+the shifted Vrest by ZD7288. **P \ 0.01, *P \ 0.05, NS P [ 0.05.
+Vertical bars indicate standard error. Vrest, resting membrane potential; Rin, input resistance.
 
-Vong, L., Ye, C., Yang, Z., Choi, B., Chua, S., Jr., and Lowell, B.B. (2011). Leptin action on GABAergic neurons prevents obesity and reduces inhibitory tone
-to POMC neurons. Neuron 71, 142–154.
+123
 
-Marks, G.A., and Roffwarg, H.P. (1993). Spontaneous activity in the thalamic
-reticular nucleus during the sleep/wake cycle of the freely-moving rat. Brain
-Res. 623, 241–248.
+22
 
-Vyazovskiy, V.V., Olcese, U., Lazimy, Y.M., Faraguna, U., Esser, S.K., Williams, J.C., Cirelli, C., and Tononi, G. (2009). Cortical firing and sleep homeostasis. Neuron 63, 865–878.
+Neurosci. Bull. February, 2016, 32(1):16–26
 
-Marlinski, V., Sirota, M.G., and Beloozerova, I.N. (2012). Differential gating of
-thalamocortical signals by reticular nucleus of thalamus during locomotion.
-J. Neurosci. 32, 15823–15836.
-McAlonan, K., Cavanaugh, J., and Wurtz, R.H. (2008). Guarding the gateway to
-cortex with attention in visual thalamus. Nature 456, 391–394.
-Miller, E.K., and Buschman, T.J. (2013). Cortical circuits for the control of
-attention. Curr. Opin. Neurobiol. 23, 216–222.
-Nassar, M.R., Rumsey, K.M., Wilson, R.C., Parikh, K., Heasly, B., and Gold, J.I.
-(2012). Rational regulation of learning dynamics by pupil-linked arousal systems. Nat. Neurosci. 15, 1040–1046.
-Pinault, D. (2004). The thalamic reticular nucleus: structure, function and
-concept. Brain Res. Brain Res. Rev. 46, 1–31.
+Fig. 6 Regulatory effects of the Kir channel blocker Ba2?
+(100 lmol/L) on RD. A–C Sample traces of RD recorded from an
+MGB neuron (A), group data (n = 27) for normalized properties of
+RD (normalized to the values evoked at -100 pA) (B) in response to
+a series of hyperpolarizing currents (range: -20 to -100 pA at -20
+pA/step; duration: 500 ms) and those of RD (n = 9) (normalized to
 
-Ward, A.M., Schultz, A.P., Huijbers, W., Van Dijk, K.R., Hedden, T., and Sperling, R.A. (2014). The parahippocampal gyrus links the default-mode cortical
-network with the medial temporal lobe memory system. Hum. Brain Mapp.
-35, 1061–1073.
-Weyand, T.G., Boudreaux, M., and Guido, W. (2001). Burst and tonic response
-modes in thalamic neurons during sleep and wakefulness. J. Neurophysiol. 85,
-1107–1118.
-Wimmer, R.D., Astori, S., Bond, C.T., Rovo´, Z., Chatton, J.Y., Adelman, J.P.,
-Franken, P., and Lu¨thi, A. (2012). Sustaining sleep spindles through enhanced
-SK2-channel activity consolidates sleep and elevates arousal threshold.
-J. Neurosci. 32, 13917–13928.
+the values evoked at -140 pA) in response to a hyperpolarizing
+current at -100 pA (C) in the presence and absence (Ctrl) of Ba2?. D,
+E Application of Ba2? also depolarized the Vrest (D) and increased the
+Rin (E). Vrest indicated above the traces. Iin represents the injected
+current to compensate for the shifted Vrest by Ba2?. **P \ 0.01,
+*P \ 0.05, NS P [ 0.05. Vertical bars indicate standard error.
 
-Preston, A.R., and Eichenbaum, H. (2013). Interplay of hippocampus and prefrontal cortex in memory. Curr. Biol. 23, R764–R773.
+Fig. 7 Activation of GIRK channels depressed RD. A, B Sample
+traces recorded from an MGB neuron (A) and group data for RD
+properties (n = 10) showing that baclofen (1.5 lmol/L) depressed
+RD, but failed to do so when co-applied with Tertiapin-Q (200 nmol/
+L). The RD traces in (A) were evoked by two hyperpolarizing
+currents at -60 pA and -140 pA for 500 ms. The RD in (B) was
 
-Yu, X.J., Xu, X.X., He, S., and He, J. (2009). Change detection by thalamic reticular neurons. Nat. Neurosci. 12, 1165–1170.
+evoked by a 500-ms hyperpolarizing current at -120 pA; the
+measurements of its properties were normalized to those of RD
+evoked at -140 pA. **P \ 0.01, *P \ 0.05, NS P [ 0.05. Vertical
+bars indicate standard error. Bac, baclofen; GIRK channel, G-proteingated inwardly-rectifying K? channel; Ter-Q, Tertiapin-Q.
 
-Rolls, E.T. (2013). Limbic systems for emotion and for memory, but no single
-limbic system. Cortex. Published online December 24, 2013. http://dx.doi.
-org/10.1016/j.cortex.2013.12.005.
+123
 
-Zikopoulos, B., and Barbas, H. (2012). Pathways for emotions and attention
-converge on the thalamic reticular nucleus in primates. J. Neurosci. 32,
-5338–5350.
+X.-X. Wang et al.: Characterization of Rebound Depolarization in Neurons
 
-Cell 158, 808–821, August 14, 2014 ª2014 Elsevier Inc. 821
+blocked by Ni2? or Mibefradil, blockers of T-type Ca2?
+channels (Fig. 4). This finding is consistent with previous
+studies in other brain areas, including the hippocampus
+[31], inferior colliculus [6], cerebellum [32, 33], and
+superior paraolivary nucleus [7, 8]. The detailed mechanism underlying RD generation is associated with the
+unique kinetics of T-type Ca2? channels (Fig. 8). When an
+MGB neuron is at the Vrest, a large portion of T-type Ca2?
+channels are in an inactivated state [34–36]. When a neuron is conditioned by a hyperpolarizing current, these
+channels are de-inactivated and ready for activation. Following the offset of hyperpolarization, the recovery of the
+membrane potential from the hyperpolarized state to the
+resting state activates T-type Ca2? channels to cause a
+depolarizing overshoot above the Vrest, namely RD.
+The characteristic profiles of RD in the MGB are shaped
+by the kinetics, expression, and development of T-type
+Ca2? channels. First, a hyperpolarizing current with a
+longer duration and larger magnitude de-inactivated more
+T-type Ca2? channels. As a result, the RD was proportional
+to the duration and magnitude of the hyperpolarizing current (Fig. 3). Second, RD was robust with a mean amplitude
+of 29.81 mV and an area of 2.68 mV*s in the presence of
+2.4 mmol/L extracellular Ca2? (Fig. 4C, D). At this Ca2?
+concentration, the membrane potential can be brought
+to about -40 mV, which is sufficient to induce rebound
+spikes. The robustness of RD could partly be attributed to
+the high density of expression of T-type Ca2? channels in
+the soma and dendrites of thalamic relay neurons [37–39].
+Third, RD can be recorded in most MGB neurons in young
+animals (P15–22). The prevalence of RD is in agreement
+
+Fig. 8 Schematic showing how HCN channels and Kir channels
+mediate RD. Activation of HCN channels allows influx and activation
+of Kir channels (including GIRK channels) allows efflux of cations,
+which results in a depolarized or hyperpolarized membrane potential
+(Vrest). When Vrest is normal or depolarized, T-type Ca2? channels are
+inactivated and are de-inactivated by a hyperpolarizing current. The
+
+23
+
+with the notion that functional heterogeneous T-type Ca2?
+channels are found in terms of pharmacological sensitivities
+and kinetic profiles in animals by P14 [40, 41].
+HCN Channels Regulate RD Mainly by Changing
+the Resting Membrane Potential
+HCN channels have a high level of distribution in different
+types of neurons in the MGB [42, 43]. Because of masking
+interference from Kir channels, we seldom recorded the sag
+phenomenon in MGB neurons. Our data demonstrated that
+HCN channels play an important role in the generation of
+RD in MGB neurons, which is consistent with previous
+studies in other brain regions, such as the hippocampus and
+superior paraolivary nucleus [7, 31]. We further showed
+that HCN channels regulate RD by changing the Vrest,
+because blockade of these channels hyperpolarized the Vrest
+to depress RD (Fig. 5C).
+The increase in membrane resistance by blocking HCN
+channels (Fig. 5E) enhanced the efficiency of the hyperpolarization. Although more T-type Ca2? channels were
+de-inactivated when the HCN channels were blocked, the
+hyperpolarization of the Vrest (offset of hyperpolarization)
+impeded the activation of T-type Ca2? channels (Fig. 8).
+Besides the effects of the hyperpolarized Vrest, the
+increased input resistance did not induce a significant
+facilitation of RD (Fig. 5C), indicating that the increase in
+input resistance has little effect on RD under our
+conditions.
+It is worth noting that there is an interaction between
+HCN channels and T-type Ca2? channels. Activation of
+
+offset of the hyperpolarization activates T-type Ca2? channels to
+generate RD. When the Vrest is hyperpolarized, T-type Ca2? channels
+are de-inactivated. The channels remain de-inactivated in the
+presence of and following offset of the hyperpolarizing current and
+RD is thus depressed. Dashed horizontal line indicates normal Vrest.
+
+123
+
+24
+
+HCN channels depolarizes the membrane potential to
+facilitate the activation of T-type Ca2? channels. In turn,
+the increase of intracellular Ca2? induced by T-Ca2?
+channels can increase the level of the cyclic adenosine
+monophosphate to upregulate the activation of HCN
+channels [44, 45]. This interaction plays a physiological
+role in the generation of burst firing in single thalamocortical neurons and the oscillatory activity of neuronal networks in the thalamus [45–50].
+
+Kir Channels Regulate RD by Changing the Resting
+Membrane Potential
+We showed that Kir channels play an important role in
+maintaining the membrane potential in MGB neurons
+(Fig. 6D), which is consistent with previous studies [11,
+51]. We suggest that the activation of Kir channels regulates
+RD by both hyperpolarizing the Vrest and decreasing the
+input resistance in MGB neurons. Our results showed that
+blockade of Kir channels by Ba2? depolarized the Vrest and
+relatively facilitated the RD in MGB neurons (Fig. 6B).
+Adjusting the depolarized Vrest to the control level did not
+completely recover the increased RD, indicating that the
+increased membrane resistance was also involved in the
+facilitation of RD in MGB neurons (Fig. 6C). Increased
+input resistance de-inactivated more T-type Ca2? channels
+and the depolarized Vrest activated more of them, which
+manifested as a facilitation of the RD (Fig. 8).
+There is a high level of expression of GIRK channels,
+which are one of the subfamilies of Kir channels, in MGB
+neurons [52–54]. Activation of GIRK channels using the
+GABAB receptor agonist baclofen suppressed RD
+(Fig. 7). Since the GABAB receptor is a G proteincoupled receptor, its activation by baclofen triggers a
+cascade of signals targeting a number of downstream
+receptors or channels, including the GIRK channel. Our
+results showed that the inhibitory effects of baclofen on
+RD were not completely reversed by blocking GIRK
+channels (Fig. 7B), suggesting that the activation of
+GIRK channels contributes to the suppression of RD but
+there are other possibilities. For example, GABAB
+receptors may mediate cyclic adenosine monophosphate
+synthesis to reduce the HCN current [55].
+In light of the role of GIRK channels in modulating RD
+properties, other factors that regulate the activity of GIRK
+channels may also affect RD. Studies have shown that
+acidification, intracellular phosphatidylinositol 4,5-bisphosphate, and the concentration of Na? and Mg2? directly
+influence the activation of GIRK channels [56–58].
+Neurotransmitters,
+such
+as
+acetylcholine
+and
+5-hydroxytryptamine, may modulate RD by activating
+GIRK channels [59, 60].
+
+123
+
+Neurosci. Bull. February, 2016, 32(1):16–26
+
+Functional Implications of RD in the MGB
+RD, as a particular form of the postsynaptic membrane
+potential response to inhibitory presynaptic inputs, can
+transform inhibitory synaptic inputs into excitatory outputs.
+The MGB plays an important role in gating the transmission of auditory information [3, 61–63] and one of the
+obligatory functions of MGB neurons is integrating excitatory and inhibitory signals from the inferior colliculus
+and auditory cortex [19, 64, 65]. Thus, RD is important for
+MGB neurons to integrate information. Moreover, RD
+causes a strong Ca2? influx, which gates a series of
+downstream Ca2?-dependent activities [66, 67], such as the
+activation of Ca2?-activated K? channels.
+As noted above, a robust RD means activation of
+abundant T-type Ca2? channels, which can depolarize the
+membrane potential. Sufficient depolarization activates
+voltage-dependent Na? channels and is expressed as
+rebound burst firing. RD and rebound burst firing in MGB
+neurons are involved in the relay and processing auditory
+information. First, burst firing acts as an effective relay and
+amplifying signal in vivo [68–71]. Burst firing performs
+better signal detection [70, 72], effectively relays auditory
+information in a non-linear input–output manner, regulates
+the frequency selectivity of MGB neurons [70, 73, 74], and
+may be involved in the generation of oscillations [75, 76].
+Second, RD and rebound spikes may be directly responsible for neuronal off-responses [8, 77, 78], which are
+shown by MGB neurons [79, 80]. Although the physiological implications of off-responses are unknown, they
+may be associated with the direction of motion of a sound
+source, gap detection, and the temporal integration of
+duration information [8, 81, 82]. Thus, the regulatory
+mechanism of RD in the present study may provide a hint
+as to how intracellular signals modulate neuronal information processing in MGB neurons.
+Acknowledgments This work was supported by the National Basic
+Research Development Program of China (2011CB504506 and
+2012CB932502), the National Natural Science Foundation of China
+(81570915, 81371503 and 31170965) and the Open Fund from CAS
+Key Laboratory of Brain Function and Diseases, China (2012-3).
+
+References
+1. Grenier F, Timofeev I, Steriade M. Leading role of thalamic over
+cortical neurons during postinhibitory rebound excitation. Proc
+Natl Acad Sci U S A 1998, 95: 13929–13934.
+2. Zheng N, Raman IM. Ca currents activated by spontaneous firing
+and synaptic disinhibition in neurons of the cerebellar nuclei.
+J Neurosci 2009, 29: 9826–9838.
+3. Yu YQ, Xiong Y, Chan YS, He J. Corticofugal gating of auditory
+information in the thalamus: an in vivo intracellular recording
+study. J Neurosci 2004, 24: 3060–3069.
+
+X.-X. Wang et al.: Characterization of Rebound Depolarization in Neurons
+4. Hu B, Mooney DM. Burst firing induces a slow after hyperpolarization in rat auditory thalamus. Neurosci Lett 2005, 375:
+162–164.
+5. Bartlett EL, Smith PH. Anatomic, intrinsic, and synaptic properties of dorsal and ventral division neurons in rat medial
+geniculate body. J Neurophysiol 1999, 81: 1999–2016.
+6. Sun H, Wu SH. Physiological characteristics of postinhibitory
+rebound depolarization in neurons of the rat’s dorsal cortex of the
+inferior colliculus studied in vitro. Brain Res 2008, 1226: 70–81.
+7. Felix RA, 2nd, Fridberger A, Leijon S, Berrebi AS, Magnusson
+AK. Sound rhythms are encoded by postinhibitory rebound
+spiking in the superior paraolivary nucleus. J Neurosci 2011, 31:
+12566–12578.
+8. Kopp-Scheinpflug C, Tozer AJ, Robinson SW, Tempel BL,
+Hennig MH, Forsythe ID. The sound of silence: ionic mechanisms encoding sound termination. Neuron 2011, 71: 911–925.
+9. Wang X, Yu G, Hou X, Zhou J, Yang B, Zhang L. Rebound
+bursts in GABAergic neurons of the thalamic reticular nucleus in
+postnatal mice. Physiol Res 2010, 59: 273–280.
+10. Tennigkeit F, Schwarz DW, Puil E. Modulation of bursts and
+high-threshold calcium spikes in neurons of rat auditory thalamus. Neuroscience 1998, 83: 1063–1073.
+11. Tennigkeit F, Schwarz DW, Puil E. GABA(B) receptor activation
+changes membrane and filter properties of auditory thalamic
+neurons. Hear Res 1998, 122: 18–24.
+12. Large EW, Crawford JD. Auditory temporal computation: interval selectivity based on post-inhibitory rebound. J Comput
+Neurosci 2002, 13: 125–142.
+13. Casseday JH, Ehrlich D, Covey E. Neural tuning for sound
+duration: role of inhibitory mechanisms in the inferior colliculus.
+Science 1994, 264: 847–850.
+14. Arcelli P, Frassoni C, Regondi MC, De Biasi S, Spreafico R.
+GABAergic neurons in mammalian thalamus: a marker of thalamic complexity? Brain Res Bull 1997, 42: 27–37.
+15. Winer JA, Larue DT. Evolution of GABAergic circuitry in the
+mammalian medial geniculate body. Proc Natl Acad Sci U S A
+1996, 93: 3083–3087.
+16. Zhang Z, Liu CH, Yu YQ, Fujimoto K, Chan YS, He J. Corticofugal projection inhibits the auditory thalamus through the
+thalamic reticular nucleus. J Neurophysiol 2008, 99: 2938–2945.
+17. Saint Marie RL, Stanforth DA, Jubelier EM. Substrate for rapid
+feedforward inhibition of the auditory forebrain. Brain Res 1997,
+765: 173–176.
+18. Lee CC, Sherman SM. Topography and physiology of ascending
+streams in the auditory tectothalamic pathway. Proc Natl Acad
+Sci U S A 2010, 107: 372–377.
+19. Kimura A, Donishi T, Okamoto K, Tamai Y. Topography of
+projections from the primary and non-primary auditory cortical
+areas to the medial geniculate body and thalamic reticular nucleus
+in the rat. Neuroscience 2005, 135: 1325–1342.
+20. Winer JA, Saint Marie RL, Larue DT, Oliver DL. GABAergic
+feedforward projections from the inferior colliculus to the medial
+geniculate body. Proc Natl Acad Sci U S A 1996, 93: 8005–8010.
+21. Peruzzi D, Bartlett E, Smith PH, Oliver DL. A monosynaptic
+GABAergic input from the inferior colliculus to the medial
+geniculate body in rat. J Neurosci 1997, 17: 3766–3777.
+22. Yu YQ, Xiong Y, Chan YS, He J. In vivo intracellular responses
+of the medial geniculate neurones to acoustic stimuli in anaesthetized guinea pigs. J Physiol 2004, 560: 191–205.
+23. Ulrich D, Huguenard JR. GABA(A)-receptor-mediated rebound
+burst firing and burst shunting in thalamus. J Neurophysiol 1997,
+78: 1748–1751.
+24. Schwarz DW, Tennigkeit F, Adam T, Finlayson P, Puil E.
+Membrane properties that shape the auditory code in three nuclei
+of the central nervous system. J Otolaryngol 1998, 27: 311–317.
+
+25
+
+25. Luo B, Wang HT, Su YY, Wu SH, Chen L. Activation of
+presynaptic GABAB receptors modulates GABAergic and glutamatergic inputs to the medial geniculate body. Hear Res 2011,
+280: 157–165.
+26. Hibino H, Inanobe A, Furutani K, Murakami S, Findlay I, Kurachi Y. Inwardly rectifying potassium channels: their structure,
+function, and physiological roles. Physiol Rev 2010, 90:
+291–366.
+27. Quayle JM, McCarron JG, Brayden JE, Nelson MT. Inward
+rectifier K? currents in smooth muscle cells from rat resistancesized cerebral arteries. Am J Physiol 1993, 265: C1363–1370.
+28. Franchini L, Levi G, Visentin S. Inwardly rectifying K? channels
+influence Ca2? entry due to nucleotide receptor activation in
+microglia. Cell Calcium 2004, 35: 449–459.
+29. Margeta-Mitrovic M, Mitrovic I, Riley RC, Jan LY, Basbaum AI.
+Immunohistochemical localization of GABA(B) receptors in the
+rat central nervous system. J Comp Neurol 1999, 405: 299–321.
+30. Padgett CL, Slesinger PA. GABAB receptor coupling to G-proteins and ion channels. Adv Pharmacol 2010, 58: 123–147.
+31. Surges R, Sarvari M, Steffens M, Els T. Characterization of
+rebound depolarization in hippocampal neurons. Biochem Biophys Res Commun 2006, 348: 1343–1349.
+32. Molineux ML, Mehaffey WH, Tadayonnejad R, Anderson D,
+Tennent AF, Turner RW. Ionic factors governing rebound burst
+phenotype in rat deep cerebellar neurons. J Neurophysiol 2008,
+100: 2684–2701.
+33. Tadayonnejad R, Anderson D, Molineux ML, Mehaffey WH,
+Jayasuriya K, Turner RW. Rebound discharge in deep cerebellar
+nuclear neurons in vitro. Cerebellum 2010, 9: 352–374.
+34. Perez-Reyes E. Molecular physiology of low-voltage-activated
+T-type calcium channels. Physiol Rev 2003, 83: 117–161.
+35. Carbone E, Lux HD. A low voltage-activated calcium conductance in embryonic chick sensory neurons. Biophys J 1984, 46:
+413–418.
+36. Huguenard JR. Low-threshold calcium currents in central nervous
+system neurons. Annu Rev Physiol 1996, 58: 329–348.
+37. Destexhe A, Neubig M, Ulrich D, Huguenard J. Dendritic lowthreshold calcium currents in thalamic relay cells. J Neurosci
+1998, 18: 3574–3588.
+38. Munsch T, Budde T, Pape HC. Voltage-activated intracellular
+calcium transients in thalamic relay cells and interneurons.
+Neuroreport 1997, 8: 2411–2418.
+39. Errington AC, Renger JJ, Uebele VN, Crunelli V. State-dependent firing determines intrinsic dendritic Ca2? signaling in thalamocortical neurons. J Neurosci 2010, 30: 14843–14853.
+40. Yunker AM, McEnery MW. Low-voltage-activated (‘‘T-Type’’)
+calcium channels in review. J Bioenerg Biomembr 2003, 35:
+533–575.
+41. Tarasenko AN, Kostyuk PG, Eremin AV, Isaev DS. Two types of
+low-voltage-activated Ca2? channels in neurones of rat
+laterodorsal thalamic nucleus. J Physiol 1997, 499 (Pt 1): 77–86.
+42. Notomi T, Shigemoto R. Immunohistochemical localization of Ih
+channel subunits, HCN1-4, in the rat brain. J Comp Neurol 2004,
+471: 241–276.
+43. Moosmang S, Biel M, Hofmann F, Ludwig A. Differential distribution of four hyperpolarization-activated cation channels in
+mouse brain. Biol Chem 1999, 380: 975–980.
+44. Luthi A, McCormick DA. Modulation of a pacemaker current
+through Ca(2?)-induced stimulation of cAMP production. Nat
+Neurosci 1999, 2: 634–641.
+45. McCormick DA, Bal T. Sleep and arousal: thalamocortical
+mechanisms. Annu Rev Neurosci 1997, 20: 185–215.
+46. Pape HC. Queer current and pacemaker: the hyperpolarizationactivated cation current in neurons. Annu Rev Physiol 1996, 58:
+299–327.
+
+123
+
+26
+47. Steriade M, McCormick DA, Sejnowski TJ. Thalamocortical
+oscillations in the sleeping and aroused brain. Science 1993, 262:
+679–685.
+48. McCormick DA, Pape HC. Properties of a hyperpolarizationactivated cation current and its role in rhythmic oscillation in
+thalamic relay neurones. J Physiol 1990, 431: 291–318.
+49. Bal T, McCormick DA. What stops synchronized thalamocortical
+oscillations? Neuron 1996, 17: 297–308.
+50. McCormick DA, Huguenard JR. A model of the electrophysiological properties of thalamocortical relay neurons. J Neurophysiol 1992, 68: 1384–1400.
+51. Sutor B, Hablitz JJ. Influence of barium on rectification in rat
+neocortical neurons. Neurosci Lett 1993, 157: 62–66.
+52. Fernandez-Alacid L, Watanabe M, Molnar E, Wickman K, Lujan
+R. Developmental regulation of G protein-gated inwardly-rectifying K? (GIRK/Kir3) channel subunits in the brain. Eur J
+Neurosci 2011, 34: 1724–1736.
+53. Karschin C, Schreibmayer W, Dascal N, Lester H, Davidson N,
+Karschin A. Distribution and localization of a G protein-coupled
+inwardly rectifying K? channel in the rat. FEBS Lett 1994, 348:
+139–144.
+54. Ponce A, Bueno E, Kentros C, Vega-Saenz de Miera E, Chow A,
+Hillman D, et al. G-protein-gated inward rectifier K? channel
+proteins (GIRK1) are present in the soma and dendrites as well as
+in nerve terminals of specific neurons in the brain. J Neurosci
+1996, 16: 1990–2001.
+55. Frere SG, Luthi A. Pacemaker channels in mouse thalamocortical
+neurones are regulated by distinct pathways of cAMP synthesis.
+J Physiol 2004, 554: 111–125.
+56. Mao J, Li L, McManus M, Wu J, Cui N, Jiang C. Molecular
+determinants for activation of G-protein-coupled inward rectifier
+K? (GIRK) channels by extracellular acidosis. J Biol Chem 2002,
+277: 46166–46171.
+57. Mao J, Wu J, Chen F, Wang X, Jiang C. Inhibition of G-proteincoupled inward rectifying K? channels by intracellular acidosis.
+J Biol Chem 2003, 278: 7091–7098.
+58. Whorton MR, MacKinnon R. Crystal structure of the mammalian
+GIRK2 K? channel and gating regulation by G-proteins, PIP2,
+and sodium. Cell 2011, 147: 199–208.
+59. Mark MD, Herlitze S. G-protein mediated gating of inward-rectifier K? channels. Eur J Biochem 2000, 267: 5830–5836.
+60. Andrade R, Malenka RC, Nicoll RA. A G protein couples serotonin and GABAB receptors to the same channels in hippocampus. Science 1986, 234: 1261–1265.
+61. Zhang Y, Suga N. Corticofugal amplification of subcortical
+responses to single tone stimuli in the mustached bat. J Neurophysiol 1997, 78: 3489–3492.
+62. Suga N, Gao E, Zhang Y, Ma X, Olsen JF. The corticofugal
+system for hearing: recent progress. Proc Natl Acad Sci U S A
+2000, 97: 11807–11814.
+63. He J. Corticofugal modulation of the auditory thalamus. Exp.
+Brain. Res. 2003, 153: 579–590.
+64. Calford MB, Aitkin LM. Ascending projections to the medial
+geniculate body of the cat: evidence for multiple, parallel auditory pathways through thalamus. J Neurosci 1983, 3: 2365–2380.
+
+123
+
+Neurosci. Bull. February, 2016, 32(1):16–26
+65. Conley M, Kupersmith AC, Diamond IT. The organization of
+projections from subdivisions of the auditory cortex and thalamus
+to the auditory sector of the thalamic reticular nucleus in Galago.
+Eur J Neurosci 1991, 3: 1089–1103.
+66. Cueni L, Canepari M, Lujan R, Emmenegger Y, Watanabe M,
+Bond CT, et al. T-type Ca2? channels, SK2 channels and SERCAs gate sleep-related oscillations in thalamic dendrites. Nat
+Neurosci 2008, 11: 683–692.
+67. Feng S, He Z, Li H, Wang Y. Ca(2?) signaling initiated by
+canonical transient receptor potential channels in dendritic
+development. Neurosci Bull 2015, 31: 351–356.
+68. He J, Hu B. Differential distribution of burst and single-spike
+responses in auditory thalamus. J Neurophysiol 2002, 88:
+2152–2156.
+69. Swadlow HA, Gusev AG. The impact of ‘bursting’ thalamic
+impulses at a neocortical synapse. Nat Neurosci 2001, 4:
+402–408.
+70. Sherman SM. Tonic and burst firing: dual modes of thalamocortical relay. Trends Neurosci 2001, 24: 122–126.
+71. Fu ZY, Mei HX, Cheng L, Bai J, Tang J, Jen PH, et al. Local
+neuronal circuits that may shape the discharge patterns of inferior
+collicular neurons. Neurosci Bull 2013, 29: 541–552.
+72. Guido W, Lu SM, Sherman SM. Relative contributions of burst
+and tonic responses to the receptive field properties of lateral
+geniculate neurons in the cat. J Neurophysiol 1992, 68:
+2199–2211.
+73. Cotillon-Williams N, Huetz C, Hennevin E, Edeline JM. Tonotopic control of auditory thalamus frequency tuning by reticular
+thalamic neurons. J Neurophysiol 2008, 99: 1137–1151.
+74. Massaux A, Dutrieux G, Cotillon-Williams N, Manunta Y,
+Edeline JM. Auditory thalamus bursts in anesthetized and nonanesthetized states: contribution to functional properties. J Neurophysiol 2004, 91: 2117–2134.
+75. He J. Slow oscillation in non-lemniscal auditory thalamus.
+J. Neurosci. 2003, 23: 8281–8290.
+76. Wallenstein GV. Simulation of GABAB-receptor-mediated K?
+current in thalamocortical relay neurons: tonic firing, bursting,
+and oscillations. Biol Cybern 1994, 71: 271–280.
+77. Takahashi H, Nakao M, Kaga K. Cortical mapping of auditoryevoked offset responses in rats. Neuroreport 2004, 15: 1565–1569.
+78. Phillips DP, Hall SE, Boehnke SE. Central auditory onset
+responses, and temporal asymmetries in auditory perception.
+Hear Res 2002, 167: 192–205.
+79. Aitkin LM, Prain SM. Medial geniculate body: unit responses in
+the awake cat. J Neurophysiol 1974, 37: 512–521.
+80. He J. On and off pathways segregated at the auditory thalamus of
+the guinea pig. J Neurosci 2001, 21: 8672–8679.
+81. Toronchuk JM, Stumpf E, Cynader MS. Auditory cortex neurons
+sensitive to correlates of auditory motion: underlying mechanisms. Exp. Brain Res. 1992, 88: 169–180.
+82. He J, Hashikawa T, Ojima H, Kinouchi Y. Temporal integration
+and duration tuning in the dorsal zone of cat auditory cortex.
+J Neurosci 1997, 17: 2615–2625.
 
 
