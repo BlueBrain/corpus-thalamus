@@ -19,5 +19,21 @@
             "nifext_41": "Thalamocortical cell"
         },
         "version": "1"
+    },
+    {
+        "annotId": "f8d52c88-f05e-11e5-9704-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "localizer": {
+            "location": 10685,
+            "text": "There was no significant difference in the Vrest between neurons\nin the ventral and dorsal MGB (dorsal:\n-59.06 \u00b1 0.56 mV, n = 36;",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1007/s12264-015-0006-5",
+        "tags": {},
+        "version": "1"
     }
 ]
