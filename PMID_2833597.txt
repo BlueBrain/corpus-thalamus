@@ -1,0 +1,1182 @@
+147
+
+J. Phy8iol. (1987), 392, pp. 147-165
+With 9 text-ftgure8
+Printed in Great Britain
+
+ACTIONS OF ACETYLCHOLINE IN THE GUINEA-PIG AND CAT
+MEDIAL AND LATERAL GENICULATE NUCLEI, IN VITRO
+By DAVID A. McCORMICK* AND DAVID A. PRINCE
+From the Department of Neurology, Stanford University School of Medicine,
+Stanford, CA 94305, U.S.A.
+
+(Received 27 November 1986)
+SUMMARY
+
+1. The mechanisms of action of acetylcholine (ACh) in the medial (m.g.n.) and
+dorsal lateral geniculate (l.g.n.d.) nuclei were investigated using intracellular recordings techniques in guinea-pig and cat in vitro thalamic slices.
+2. Application of ACh to neurones in guinea-pig geniculate nuclei resulted in a
+hyperpolarization in all neurones followed by a slow depolarization in 52 % of l.g.n.d.
+and 46 % of m.g.n. neurones. Neither the hyperpolarization nor the slow depolarization were eliminated by blockade of synaptic transmission and both were activated
+by acetyl-fl-methylcholine and DL-muscarine and blocked by scopolamine, indicating
+that these responses are mediated by direct activation of muscarinic receptors on the
+cells studied.
+3. The ACh-induced hyperpolarization was associated with an increase in apparent
+input conductance (Gi) of 4-13 nS. The reversal potential of the ACh-induced
+hyperpolarization varied in a Nernstian manner with changes in extracellular [K+]
+and was greatly reduced by bath application of the K+ antagonist Ba2+ or intracellular injection of Cs+. These findings show that the muscarinic hyperpolarization
+is mediated by an increase in K+ conductance.
+4. The ACh-induced slow depolarization was associated with a decrease in GC of
+2-15 nS, had an extrapolated reversal potential near EK, and was sensitive to [K+]0,
+indicating that this response is due to a decrease in K+ conductance.
+5. In contrast to effects on guinea-pig geniculate neurones, applications of ACh to
+cat l.g.n.d. and m.g.n. cells resulted in a rapid depolarization in nearly all cells,
+followed in some neurones by a hyperpolarization and/or a slow depolarization. The
+rapid excitatory response was associated with an increase in membrane conductance,
+had an estimated reversal potential of -49 to -4 mV and may be mediated by
+nicotinic receptors. The hyperpolarization and slow depolarization were similar to
+those of the guinea-pig in that they were associated with an increase and decrease,
+respectively, of Gi, and were mediated by muscarinic receptors.
+6. The muscarinic hyperpolarization interacted with the intrinsic properties of the
+thalamic neurones to inhibit single-spike activity while promoting the occurrence of
+burst discharges. The muscarinic slow depolarization had the opposite effect; it
+* Present address: Section of Neuroanatomy, Yale University School of Medicine, 333 Cedar
+Street, New Haven, CT 06510, U.S.A.
+
+148
+
+D. A. McCORMICK AND D. A. PRINCE
+
+brought the membrane potential into the range where burst firing was blocked and
+single-spike firing predominated. Depending upon the membrane potential, the rapid
+excitatory response of cat geniculate neurones could activate either a burst or a train
+of action potentials. These results further illustrate the mechanisms by which the
+ascending cholinergic system may influence the transfer of neuronal information
+through the thalamus.
+INTRODUCTION
+
+Ascending neurotransmitter systems of the brain stem have long been implicated
+in the control of integrative activities of thalamic neurones (Moruzzi & Magoun,
+1949; Steriade, 1970; Foote, Maciewicz & Mordes, 1974; Dingledine & Kelly, 1977;
+Singer, 1977; Rogawski & Aghajanian, 1980). One putative neurotransmitter of
+these ascending reticular systems is acetylcholine (ACh) (Dingledine & Kelly, 1977;
+Singer, 1977; Francesconi, Muller & Singer, 1984; Kayama, Tagaki & Ogawa, 1986).
+Immunohistochemical identification of the rate-limiting ACh synthesizing enzyme,
+choline acetyltransferase (Chat), and histological stains for the ACh degradative
+enzyme, acetylcholine esterase, reveal that parts of the thalamus receive a dense
+cholinergic innervation (Kimura, McGeer, Peng & McGeer, 1981; Mesulam, Mufson,
+Wainer & Levey, 1983; de Lima, Montero & Singer, 1985; Woolf & Butcher, 1986).
+The origins of this cholinergic projection are not completely known, although the
+pedunculopontine and lateral dorsal tegmental brain-stem nuclei are at least one
+source (Mesulam et al. 1983; Woolf & Butcher, 1986). Recent electron microscopic
+examination of fibres immunoreactive for Chat in the cat lateral geniculate and
+perigeniculate nuclei show that these fibres form synaptic contacts with the dendrites
+of both putative geniculocortical relay cells, and putative GABAergic neurones (de
+Lima et al. 1985; Stichel & Singer, 1985). Both nicotinic and muscarinic cholinoceptors have been demonstrated in the medial and lateral geniculate nuclei by
+autoradiography (Rotter, Birdsall, Burgen, Field, Hulme & Aisman, 1979; Clarke,
+Schwartz, Paul, Pert & Pert, 1985).
+lontophoretic applications of ACh to cat medial geniculate neurones in vivo cause
+both inhibition and excitation (Tebecis, 1972), while applications to cat lateral
+geniculate neurones typically cause only excitation (Phillis, 1971; Krnjevic', 1974;
+Sillito, Kemp & Berardi, 1983; Eysel, Pape & Van Schayck, 1986). The ionic mechanisms of these actions of ACh in the geniculate nuclei are unknown. In other regions
+of the nervous system, cholinergic excitation has been associated with a decrease in
+specialized K+ conductances (Krnjevic, 1974; Adams & Brown, 1982; Benardo &
+Prince, 1982; Halliwell, 1986; Madison, Lancaster & Nicoll, 1987) or an increase in
+cation conductance (McCormick & Prince, 1986a, 1987), while cholinergic inhibition
+can be mediated either directly through an increase in K+ conductance (Krnjevic,
+1974; McCormick & Prince, 1986b) or indirectly as a consequence of cholinergic
+excitation of neighbouring inhibitory interneurones (Benardo & Prince, 1982;
+McCormick & Prince, 1986a).
+In the present study, we investigated the mechanisms of cholinergic inhibition and
+excitation in the guinea-pig and cat medial and lateral geniculate nuclei and show
+that they result from alterations in at least three distinct membrane ionic conductances.
+
+GENICULATE ACTIONS OF ACh
+
+149
+
+METHODS
+
+Techniques for preparation of thalamic slices for intracellular recordings were similar to those
+published previously (Jahnsen & Llinas, 1984a). Male or female albino guinea-pigs (200-300 g), or
+cats (2-12 months old) were deeply anaesthetized withl sodium pentobarbitone (i.P. 30 mg/kg for
+guinea-pigs; i.v. 30 mg/kg for cats) and decapitated. A unilateral block of tissue which contained
+both the medial and lateral geniculate nuclei of one side was removed and placed in physiological
+saline at a temperature of 5 'C. All thalamic slices were prepared on a vibratome (Lancer Corporation) as 350-500 ,um coronal sections and placed in an interface-type recording chamber where
+bath temperature was maintained at 36 +1 'C. Cat geniculate slices were maintained at 33-34 'C
+to increase viability. The composition of the bathing medium was (in mM): NaCl, 126; KCl, 2-5;
+NaH2PO4, 1-25; MgSO4, 2; CaCl2, 2; NaHCO3, 26; glucose, 10, unless otherwise noted. When
+Mn2+ or Ba2+ was included in the bathing solution, phosphate and sulphate were omitted to prevent
+precipitation. The bathing medium was saturated with 95% 02, 5 % CO2 and the pH was buffered
+to 7-4. All slices were allowed to adapt within the recording chamber for at least 2 h before recording
+commenced.
+Intracellular recordings were obtained from neurones located in the dorsal division of the l.g.n.
+(layer A or Al in the cat) and from the ventral division of the m.g.n. with bevelled microelectrodes
+(125-175 MCI) filled with 4 M-potassium acetate. Bridge balance was continuously monitored and
+adjusted. Only data from those neurones which had stable resting membrane potentials negative
+to -55 mV and which generated overshooting action potentials were accepted for analysis. ACh
+or other agonists (5-10 mm in micropipette) were applied by the pressure-pulse technique in which
+a brief (10-20 ms; 207-345 kPa: 30-50 pounds per in2) pulse of nitrogen was applied to the rear of
+a broken microelectrode (tip diameter of 2-5 ,um) containing the agonist dissolved in the bathing
+medium. The volume of the resulting application was between 5 and 15 pl as estimated from the
+diameter of the ejected droplet. Typically, the entry point of the drug-applying electrode was
+within 50 pm of the recording electrode. The former was lowered in steps of 25-50 ,um to find the
+region where application of the agonist elicited the largest response. For agents which are not
+readily inactivated (e.g. DL-muscarine, 1 mM), application to the surface of the slice was found to
+be sufficient to evoke large responses.
+When the bathing medium was changed during the course of recording from a single neurone
+(e.g. to one containing 0-5 mM-Ca2+, 4-8 mM-Mn2+ to block synaptic transmission), the agonistcontaining pipette was filled with the second solution.
+Local synaptic events within the guinea-pig l.g.n.d. were evoked by stimuli delivered through a
+concentric stimulation electrode placed either in the white matter just outside the l.g.n.d., or, more
+typically, within the nucleus itself in close proximity to the intracellular recording electrode. Data
+were recorded on magnetic tape (0-5000 Hz) and on a strip chart recorder for subsequent analysis.
+All drugs were obtained from Sigma.
+RESULTS
+
+Actions of ACh in the guinea-pig l.g.n.d. and m.g.n.
+Stable intracellular recordings were obtained from 179 lateral geniculate (l.g.n.d.)
+and 18 medial geniculate (m.g.n.) neurones in the guinea-pig thalamic slice. A
+representative sample of fifty of these neurones had an average input resistance (Ri)
+of 51 + 19 MQl (mean + S.D.), resting membrane potential (Vm) of -65 + 7 mV and
+action potential amplitude of 79 + 7 mV, in agreement with previous results (Jahnsen
+& Llinas, 1984a).
+Application of ACh to guinea-pig m.g.n. or l.g.n.d. neurones resulted in a hyperpolarization in all cells followed by a slow depolarization in 52 % of l.g.n.d. cells
+and 46% of m.g.n. cells (Figs 1 and 2). In addition to these two responses, a small
+number of l.g.n.d. neurones (see Table 1) also displayed a fast, initial depolarizing
+response to ACh. The relative rarity of the rapidly depolarizing response and its
+
+D. A. McCORMICK AND D. A. PRINCE
+
+150
+
+C Wash
+
+B Scopolamine
+
+A Normal
+
+ACh
+
+ACh
+
+ACh
+
+IO s
+
+Fig. 1. Acetylcholine causes a hyperpolarization and slow excitation in the guinea-pig
+geniculate nuclei through the activation of muscarinic receptors. A, application of ACh at
+upward arrow to an l.g.n.d. neurone depolarized with intracellular injection of d.c. to near
+firing threshold (-55 mV). B, a second application of ACh to the neurone of A after a
+brief local application of scopolamine (10 UM in micropipette) elicits only a small fast
+depolarization. C, partial recovery of the hyperpolarizing and depolarizing response in the
+cell of A after wash-out of the scopolamine. In this and all subsequent Figures, action
+potential amplitudes have been truncated in Figure preparation. Hyperpolarizing conductance test pulses (0-10-0{5 nA; 120 ms) were delivered at a rate of 1 Hz.
+C
+
+A
+
+inHL
+
+-f
+
+Vm
+
+m
+
+_
+
+MCh
+D
+
+B
+
+MCh
+
+nA
+_
+~~~~~~~~10.5
+/-
+
+Vm
+
+mvm
+
+W !L-MCh
+
+10s
+
+MCh
+
+Fig. 2. Effects of the muscarinic agonist acetyl-,8-methylcholine (MCh) in the guinea-pig
+medial and lateral geniculate nuclei. A, application of MCh to an l.g.n.d. neurone after
+depolarization to near firing threshold (-57 mV). B, manually adjusting the injected
+current so as to maintain a relatively constant Vm value (manual voltage clamp) reveals
+that MCh evokes an apparent increase in input conductance (same neurone as in A).
+C, application of MCh to another l.g.n.d. neurone manually depolarized to near firing
+threshold (-50 mV). D, manual voltage clamp of the slow depolarization (same neurone
+as in C).
+
+tendency to desensitize made it difficult to study adequately. However, this response
+to ACh was quite robust in cat m.g.n. and l.g.n.d. neurones and is described in more
+detail below.
+In other regions of the nervous system, cholinergic inhibition and slow excitation
+have been associated with the activation of muscarinic receptors (Krnjevic, 1974).
+The ACh-induced hyperpolarization and slow depolarization of guinea-pig l.g.n.d.
+and m.g.n. neurones also appear to be mediated through muscarinic receptors since
+both responses were completely blocked by local application of the muscarinic
+antagonist scopolamine (10 ,tM in micropipette; n = 3; Fig. 1 B) or could be activated
+
+GENICULATE ACTIONS OF ACh
+A
+
+151
+
+Normal
+
+MCh
+B
+
+TTX
+
+MCh
+
+C
+
+D
+
+10 mv
+100 ms
+
+X
+
+Mn 2+, low Ca2+ 41111!II
+
+E
+
+li Ii
+
+f1>1 Irllrl(<t rT7
+MCh
+
+10 mv
+-d.c.
+
+Fig. 3. Muscarinic hyperpolarization and slow depolarization are direct effects on the
+neurone studied. A and B, application of MCh to an l.g.n.d. neurone depolarized to near
+firing threshold (-53 mV) before and after synaptic transmission is blocked (cf. C and
+D - response to orthodromic stimulus) with local application of tetrodotoxin (TTX; 10
+/M). E, application of MCh to another neurone, also depolarized to near firing threshold
+(-61 mV), after prolonged exposure (2-5 h) to bathing medium containing 0 5 mM-Ca2+
+and 5 mM-Mn2+ which completely blocked synaptic transmission (not shown).
+
+by application of the muscarinic agonists acetyl-,/-methylcholine (MCh) (Fig. 2) or
+DL-muscarine (not shown).
+The hyperpolarizing response of guinea-pig neurones to ACh or MCh had an onset
+latency of 35-230 ms (n = 11). By manually adjusting the steady current injected
+through the recordinig electrode it was possible to maintain a relatively constant
+membrane potential (manual voltage clamp); under these conditions ACh or MCh
+application resulted in a peak increase in apparent input conductance (Gi) of 4-13
+nS (n = 12) (Fig. 2B). Similar methods indicated that the ACh- or MCh-induced slow
+depolarization was associated with a decrease in Gi which peaked at 2-15 nS (n = 10)
+
+(Fig. 2D).
+Block of synaptic transmission
+To test if the hyperpolarizing and slow depolarizing responses to ACh or MCh were
+mediated by direct activation of muscarinic receptors, synaptic transmission was
+
+152
+
+D. A. McCORMICK AND D. A. PRINCE
+
+eliminated either by local application of the Na+ channel blocker tetrodotoxin (TTX;
+10 /uM; n = 4) or by reducing [Ca2+]0 to 0 5 mm and adding 4-8 mM-Mn2+ (n = 10) to
+the bathing medium. Both manipulations completely blocked stimulus-evoked synaptic transmission but failed to block the ACh- or MCh-induced hyperpolarization
+(n = 14) or slow depolarization (n = 7) (Fig. 3). Such results indicate that these two
+actions of ACh or MCh are direct and are not dependent on either release of other
+neurotransmitters or entry of Ca2+ into the neurones from the extracellular space.
+A
+
+B
+-70
+
+mV
+-67
+
+nt,
+
+~~~~~~~~~~E-80
+(U~~~~~~~~~~~~~~~~~0
+
+-79
+
+-793
+
+-
+
+--
+
+CU
+U,
+
+-1021J
+MCh
+
+-9
+
+mV -10
+
+5 s
+
+2-5
+
+5*0
+
+7-5
+
+[K+]o (mM)
+
+Fig. 4. Reversal potential of muscarinic hyperpolarization is sensitive to [K+]0. A, application of MCh to this l.g.n.d. neurone at different membrane potentials indicated at left
+of each segment. Bathing solution contained 5 0 mM-K+ to which 2 mM-Cs+ was added to
+help prevent anomalous rectification in the hyperpolarizing direction (Halliwell & Adams,
+1982). B, group data illustrating the sensitivity of the reversal potential of the muscarinic
+hyperpolarization to [K+]0. The dashed line represents the slope (60 mV/tenfold change)
+predicted by the Nernst equation for a pure potassium conductance. The data points are
+mean + S.E.
+
+Ionic mechanisma of muscarinic hyperpolarization
+In order to determine the reversal potential of the muscarinic hyperpolarization,
+we applied ACh or MCh to neurones depolarized or hyperpolarized to various Vm
+values with the intracellular injection of d.c. (e.g. Figs 4 and 6). The muscarinic
+hyperpolarization was largest at depolarized, and smallest at hyperpolarized, Vm
+values (Fig. 4A). In perfusion solutions containing 2-5 or 5 0 mM-K+, it was difficult
+to reverse this response due in part to substantial decreases in Ri during currentinduced hyperpolarizations. In these cases, the reversal potential of the responses
+was estimated by extrapolation (e.g. see Fig. 6). Addition of low concentrations of
+Cs+ (2-3 mM) to the bathing medium suppressed this voltage-dependent decrease in
+Ri (Halliwell & Adams, 1982) without substantially affecting the muscarinic hyperpolarization. Under these conditions the muscarinic hyperpolarization could be
+readily reversed (Fig. 4A). The extrapolated reversal potential of the ACh- or MChinduced hyperpolarization in normal solutions was - 89-2 + 11-6 mV (n = 13) in 5
+mM-extracellular K+, which agrees with the directly determined reversal potential in
+solutions containing 2 mM-Cs+ and 5 mM-K+ (- 84-5 + 4-2 mV; n = 3) (Fig. 4A).
+
+GENICULATE ACTIONS OF ACh
+
+153
+
+A
+300 IM-Ba2+
+
+Normal
+
+Wash
+
+--¢>---------tLM
+ACh
+
+WS
+ACh
+
+ACh
+
+B
+Normal
+
+Intracellular caesium acetate
+
+t
+ACh
+
+ACh
+C
+
+Recovery
+
+t
+ACh
+
+_ _ _j_ 20 mV
+15 ms
+
+D
+
+Intracellular potassium acetate
+
+Normal
+
+t
+
+ACh
+
+t
+
+Recovery
+
+'}2¢-
+
+ACh
+
+1;0 mV
+
+ACh
+
+5s
+
+Fig. 5. Extracellular barium and intracellular caesium antagonize the ACh-induced hyperpolarization. A, application of ACh to an m.g.n. neurone (Vm= -52 mV) before
+(normal), during (300 ,uM-Ba2+), and after wash-out (wash) of 300 gM-Ba2+. B, application
+of ACh to an l.g.n.d. neurone depolarized to near firing threshold (-54 mV) before
+(normal), immediately after (intracellular caesium acetate), and after recovery (recovery)
+from intracellular injection of caesium acetate. C, spontaneous action potentials occurring
+during the three conditions of B. D, application of ACh to an l.g.n.d. neurone (depolarized
+to -50 mV) before (normal), immediately after (intracellular potassium acetate) and
+after recovery from intracellular injection of potassium acetate. Time and voltage calibration in D for traces of A, B and D.
+
+Muscarinic hyperpolarizations in cells obtained in 2-5 mM-K' had extrapolated reversal potentials of -101 4 + 8-5 mV (n = 11; see Fig. 6) while those of cells obtained
+in 7'5 mM-K+ reversed at - 72'8 + 5-7 mV (n = 4). These reversal potentials yield an
+estimated change in the equilibrium potential of ACh-induced hyperpolarization
+(EACh) of 62 mV per tenfold change in [K+]0 (Fig. 4B), which is very close to that
+predicted by the Nernst equation (60 mV per tenfold change in [K+].). Changes in
+[K+]O from 2'5 to 7'5 mm resulted in a positive shift of the reversal potential of the
+hyperpolarizing response of 32-5 + 7-8 mV in single neurones (n = 5), confirming the
+above results. In one cell which was held during a change back to 2'5 mM-[K+]0, the
+original reversal potential was again attained.
+
+Effects of extracellular Ba2+ and intracellular Cs+
+To examine further the hypothesis that the ACh- or MCh-induced hyperpolarization is due to an increase in membrane potassium conductance (gK+), we tested the
+
+154
+
+D. A. McCORMICK AND D. A. PRINCE
+
+effects of extracellular Ba2+ and intracellular Cs+ on this response, since both of these
+ions have been shown to reduce gK+ values (Krnjevic', Pumain & Renaud, 1971;
+Constanti, Adams & Brown, 1981; Puil & Werman, 1981).
+Perfusion of the slices with solutions containg Ba2+ (300-500 ,tM) greatly reduced
+(n = 3) or blocked (n = 4) the muscarinic hyperpolarization (Fig. 5A) and increased
+the apparent input resistance (Ri). These changes were fully reversible upon reperfusion with normal solution (Fig. 5A, wash). Similarly, intracellular iontophoresis
+of caesium acetate (0 15-0-5 nA for 15-30 s) greatly increased the duration of the
+action potential (Fig. 5C, middle trace), increased Ri, and reduced the ACh-induced
+hyperpolarization by an average of 68 + 18 % (n = 12) (Fig. 5B, intracellular caesium
+acetate). During the 1-3 min following intracellular Cs+ iontophoresis, the spike
+duration and Ri slowly returned to near their initial values. Application of ACh after
+apparent recovery from the effect of internal Cs+ again caused the typical hyperpolarizing response (Fig. 5B, recovery). To test whether these effects were due to the
+intracellular injection of Cs+ or to an effect of depolarization alone, we repeated the
+experiment in an additional ten cells using 4 M-potassium-acetate-filled microelectrodes. Intracellular injection of current (0 5-0-8 nA, 20-30 s) had either no effect
+(Fig. 5D) or caused only a slight reduction (average of 16+ 18 %) of the ACh-induced
+hyperpolarization. The difference in reduction of the ACh-induced hyperpolarization
+in caesium-acetate-filled neurones and those filled with potassium acetate is statistically significant (t = 6-4, d.f. = 20, P < 0-001). These results confirm the hypothesis that the ACh-induced hyperpolarization is due to an increase in K+ conductance.
+Ionic mechanisms of the cholinergic slow depolarization
+The ACh or MCh-induced slow depolarization was largest at depolarized Vm values
+and had an extrapolated reversal potential of -100-4 + 11-9 mV (n = 5) in 2-5 mm[K+]O, a value close to that for the muscarinic hyperpolarization in the same cells
+(-93-7 + 8-5 mV) (Fig. 6). Given the close correspondence of these reversal potentials
+and the fact that the muscarinic hyperpolarization results from an increase in gK+
+implies that the muscarinic slow depolarization may result from a decrease in gK+.
+Indeed, changing the concentration of extracellular K+ in the bathing medium from
+1-0 to 7-5 mm while testing the response to MCh at membrane potentials around
+-60 mV decreased the amplitude of the MCh-induced hyperpolarization by an
+average of 57-1 +9 % (n = 8) and the slow depolarization by 47-7 + 16-5 % (n = 6)
+(Fig. 7). Changing extracellular [K+] from 7-5 to 1 0 mm had the opposite effect: the
+hyperpolarization response was increased in amplitude (89 + 34-2 %; n = 7) as was
+the slow depolarizing response (68 + 20-4 %; n = 5) (Fig. 7).
+
+Effects of ACh in cat l.g.n.d. and m.g.n.
+Extracellular studies of the actions of ACh in the cat l.g.n.d. in vivo uniformly
+indicate that ACh has an almost exclusively excitatory action on relay neurones
+(Phillis, 1971; Krnjevic, 1974; Sillito et al. 1983; Eysel et al. 1986). In the cat m.g.n.,
+however, ACh can cause both inhibition and excitation (Tebecis, 1972). Furthermore,
+some of these excitatory responses in both nuclei are reportedly particularly rapid in
+onset and offset, and are associated with increases in spike firing frequencies often
+
+155
+
+GENICULATE ACTIONS OF ACh
+B
+
+A
+
+8
+
+mV
+-57
+*
+
+-113
+i.-'~
+
+-67
+L
+
+a~
+
+-
+
+/mm.
+
+-75
+
+V(mV)
+
+E
+
+4
+2
+
+-115
+
+T
+
+II
+
+l
+-106
+
+-55
+
+-75
+
+-85
+
+~-
+
+C
+
+0
+
+a)
+
+l1
+
+-95
+
+m
+
+V
+
+MCh
+
+Fig. 6. Extrapolated reversal potential of the muscarminc slow depolarization is similar to
+that of the muscarinic hyperpolarization. A, application of MCh to this l.g.n.d. neurone
+at different membrane potentials. B, plot of the response amplitude versus the membrane
+potential at which MCh was applied for the cell in A. *, depolarization: 0, hyperpolarization ([K+]o = 2-5 mM).
+A
+1
+
+B
+
+0mM-K'
+
+10
+
+1.0
+
+-75
+
+7.5
+
+-1O0
+
+E28*
+
+a,
+
+;X
+
+I
+2
+
+aV
+
+75 mM-K
+
+2
+10 mV
+
+MCh
+
+MCh
+20 s
+
+-
+
+r.
+
+Hyper
+
+r ~
+
+Depol
+
+Hyper
+
+Depol
+
+Fig. 7. Influence of [K+]. shifts on the response of guinea-pig l.g.n.d. neurones to MCh. A,
+effect of changing [K+]. from 1-0 to 7-5 mm and back to 1-0 mm on the amplitude of the
+hyperpolarizing and slow depolarizing response to MCh in a guinea-pig l.g.n.d. neurone
+(Vm = -61 mV). B, group data obtained as for the cell in A showing the effect of changing
+[K+]o from 1 0 to 7-5 mm and from 7-5 to 1-0 mm on the peak amplitude of the MCh-induced
+hyperpolarizing (hyper) and slow depolarizing (depol) responses. Plotted data are mean
++S.E. Asterisks indicate a sigificant change in response amplitude (P < 0001) after the
+indicated change in [K+]O.
+
+exceeding those found with similar applications of glutamate (e.g. Sillito et al. 1983).
+Our results in the guinea-pig would therefore appear to be at least in part contradictory to these findings. One possible explanation for this discrepancy would be
+species differences. We therefore investigated the actions of ACh in the cat medial
+and lateral geniculate nuclei.
+
+156
+
+D. A. McCORMICK AND D. A. PRINCE
+TA m 1TT1IJTITITI P11T1T111111
+
+11111 I!
+
+B
+
+lTTT HTTTlfITffl-TI-ITTT
+
+o5 nA
+
+T
+
+ACh
+
+ACh
+D
+
+C
+
+~~~~1
+
+~ ~ ~ 77
+
++
+
+55s
+
+ACh
+E
+
+4
+MCh
+
+10O mV
+lOs
+
+F
+
+'I'llI
+IISL
+
+iS
+
+1L
+~~~~~~~~~~~~~~~~~Ir, 1Ii
+
+111111
+
+I
+
+H PI,
+ACh
+
+5s
+
+DMPP
+
+DMPP
+
+M.0l mv
+s
+
+Fig. 8. Actions of ACh in the cat lateral and medial geniculate nuclei. A, application of
+ACh to a cat l.g.n.d. neurone in layer A (Vm = -64 mV). B, manual voltage clamp of the
+slow depolarizing component (second arrow-head) of the response to ACh in the neurone
+in A. C, application of ACh to another cat lamina A l.g.n.d. neurone depolarized with
+intracellular injection of d.c. to near firing threshold (-60 mV). D, application of the
+muscarinic agonist MCh to the neurone of C. E, application of ACh to a cat m.g.n. neurone.
+F, application of the nicotinic agonist DMPP to the m.g.n. neurone of E. In all pairs, the
+top trace is the injected current and the bottom trace is the membrane potential. Current
+calibration in E and F as in D.
+
+Cholinergic agonists were applied to neurones obtained from cat l.g.n.d. (layers A
+or Al; n = 43) or m.g.n. (n = 14) slices. These cells had stable resting Vm values of
+-66+7 mV, action potential amplitudes of 81+7 mV, and an average Ri of
+43 + 24 MQ. Nearly all cat l.g.n.d. and m.g.n. neurones exhibited a robust lowthreshold Ca2` spike, as reported in vivo (Steriade & Deschenes, 1984).
+Applications of ACh to cat l.g.n.d. and m.g.n. neurones resulted in three separate
+responses: a rapid depolarization, followed in some cells by a hyperpolarization,
+followed in some cells by a slow depolarization (Fig. 8). The percentages of occurrence
+of each response in the l.g.n.d. and m.g.n. for both the cat and guinea-pig are
+presented in Table 1. Antidromic activation of l.g.n.d. neurones by stimulation of
+
+GENICULATE ACTIONS OF ACh
+
+157
+
+TABLE 1
+
+Response to cholinergic agonist
+Structure and compound
+Guinea-pig l.g.n.d.
+ACh
+MCh or musCarine
+Guinea-pig m.g.n.
+ACh
+MCh or muscarine
+Cat l.g.n.d.
+ACh
+MCh
+DMPP
+Cat m.g.n.
+ACh
+MCh
+DMPP or nicotine
+
+Fast depolarization
+
+Slow
+
+depolarization
+
+Hyperpolarization
+
+6/37 (16%)
+0/136 (0%)
+
+16/31 (52%)
+55/103 (53%)
+
+37/37 (100%)
+136/136 (100%)
+
+0/17 (0%)
+
+6/13 (46%)
+
+17/17 (100%)
+8/8 (100%)
+
+30/32 (94%)
+0/12 (0%)
+
+18/29 (62%)
+10/12 (83%)
+
+8/31 (26%)
+6/12 (50%)
+0/6 (0%)
+
+0/8 (0%)
+
+3/8 (38%)
+
+6/6 (100%)
+6/6 (100%)
+0/9 (0%)
+5/5 (100%)
+
+3/5 (60%)
+4/9 (44%)
+
+5/5 (100%)
+9/9 (100%)
+0/5 (0%)
+
+fibres in the optic radiation (n = 4) or intracellular injection of the fluorescent dye
+Lucifer Yellow CH (n = 5) showed that these responses were generated by thalamocortical relay neurones. We did not obtain recordings from a large enough sample
+of morphologically identified neurones to correlate type of ACh response with the
+different classes of lateral geniculate neurones.
+The rapid depolarization to ACh occurred in nearly all cells in the cat l.g.n.d.
+(n = 30/32) and m.g.n. (n = 6/6) with an onset latency that could be as short as the
+delay imposed by the ACh application system (i.e. approximately 10 ms). The hyperpolarization to ACh or MCh was prevalent in m.g.n. neurones (n = 14/14; Fig. 8E),
+but could also occur in some l.g.n.d. neurones (n = 14/43; Fig. 8D) although even
+then only weakly. The slow depolarization occurred with about equal frequency in
+both nuclei (Table 1). By using manual voltage-clamp techniques, or by setting the
+membrane potential to the peak voltage deviation generated during the response, it
+was possible to show that the ACh-induced rapid depolarization and hyperpolarization were associated with increases in Gi (not shown), while the slow depolarization
+was assocated with a decrease in Gi (Fig. 8B and D).
+Previous extracellular studies have indicated that the actions of ACh in the cat
+geniculate nuclei are mediated by both muscarinic and nicotinic receptors (Phillis,
+1971; Krnjevic, 1974). To test this possibility, we applied the muscarinic agonist
+MCh or the nicotinic agonists DMPP (1,1-dimethylpiperazinium) or nicotine to both
+m.g.n. and l.g.n.d. neurones. Application of MCh resulted in either the hyperpolarizing response and associated increase in Gi, the slow depolarizing response and a
+decrease in Gi, or both (Fig. 8D). These results indicate that the hyperpolariz;ng and
+slow depolarizing actions of ACh are mediated at least in part by the activation of
+muscarinic receptors.
+Applications of the nicotinic agonists, nicotine or DMPP, resulted in a slow depolarization associated with a substantial increase in Gi (Fig. 8 F). Furthermore, after
+the application of nicotine, the fast excitatory response to ACh, but not the hyperpolarizing or slow depolarizing responses, was substantially decreased (not shown).
+
+158
+
+D. A. McCORMICK AND D. A. PRINCE
+
+The slow time course of the depolarizations induced by nicotine and DMPP contrasts
+with the rapidity of the ACh-induced fast depolarizations and is a well-known
+characteristic of these nicotinic agonists (Brown, Halliwell & Scholfield, 1971).
+These results indicate that the application of ACh to cat geniculate neurones can
+activate both nicotinic and muscarinic receptors. Activation of the nicotinic receptors
+causes a rapid depolarization, similar to that found in some other parts of the central
+and peripheral nervous system (Takeuchi & Takeuchi, 1960; Dennis, Harris, &
+Kuffler, 1971; Krnjevic, 1974; McCormick & Prince, 1987), and activation of muscarinic receptors causes both hyperpolarizing and slow depolarizing responses, as in
+guinea-pig geniculate nuclei.
+
+Extrapolated reversal potentials of cat l.g.n.d. and m.g.n. cholinergic responses
+The ACh-induced rapid depolarization was largest at hyperpolarized Vm values,
+smallest at depolarized Vm values, and had an extrapolated reversal potential of
+between -36 and -49 mV. However, these extrapolated reversal potentials are
+probably substantially more negative than the real reversal potential due to severe
+non-linearities in Ri over the range of Vm values tested. To try and circumvent this
+problem, the equilibrium potential was also estimated by the manual voltage clamp
+technique during applications of DMPP and the equation: reversal potential =
+clamp potential + clamp current/AGi (Fig. 8F; Ginsborg, 1967). Using this approach,
+the estimated reversal potential of this depolarizing response ranged from -4 to
+-30 mV and averaged -18-9+8-9 mV (n = 6).
+Applications of MCh to m.g.n. neurones held at different membrane potentials
+indicated that the hyperpolarizing response had an average extrapolated reversal
+potential of -97 + 6-1 mV (n = 4; [K+]o = 2-5 mM), similar to that of the muscarinic
+hyperpolarization in the guinea-pig. The reversal potential of the slow depolarization
+in the cat was not ascertained.
+
+Effects of cholinergic responses on neuronal firing pattern
+Thalamic cells have two basic modes of action potential generation: single-spike
+firing, which occurs at membrane potentials depolarized to approximately -55 mV,
+and burst firing which occurs at membrane potentials negative to approximately
+-65 mV (Jahnsen & Llinas, 1984a, b; Deschenes & Steriade, 1986). When Vm is
+between -55 and -65 mV, the cells are subthreshold; excitatory inputs will not
+generate action potentials unless they depolarize Vm out of this range. The burst
+firing characteristic of thalamic neurones is due to the presence of a low-threshold
+Ca2+ current, which is also known as the t-current (Jahnsen & Llinas, 1984a, b;
+Nowycky, Fox & Tsien, 1985; Deschenes & Steriade, 1986). This Ca2+ current is
+totally inactivated at membrane potentials positive to approximately -65 mV, and
+therefore is only active at relatively hyperpolarized membrane potentials. The possibility that the ACh-induced effects on potassium conductance may interact with
+the different firing modes of thalamic neurones was tested by applying MCh or ACh
+during either the injection of depolarizing current pulses or activation of excitatory
+synaptic inputs.
+When geniculate neurones were depolarized to near firing threshold (e.g. -50 to
+-61 mV), depolarizing current pulses gave rise to single action potentials with no
+
+GENICULATE ACTIONS OF ACh
+
+159
+
+A
+
+-61 mV
+
+d.c.
+
+d.c.
+
+-75 mV
+l MCh
+
+c|
+
+e
+
+C
+
+20 mV
+
+-82 mV
+Ch
+M
+
+\5 s
+
+~~~ ~d.cu40 mV
+
+100 ms
+
+Fig. 9. Effects of muscarinic hyperpolarization and slow depolarization on the response
+of a guinea-pig l.g.n.d. neurone to a depolarizing current pulse. Responses to three
+applications of MCh are illustrated when the membrane potential was held with d.c. at
+levels indicated to left of each segment. The cell was in the single-spike firing mode (A),
+the burst firing mode (C), and in between (B). Sample traces are expanded for detail as
+indicated. The effect of mimicking the MCh-induced change in Vm with the intracellular
+injection of current is indicated by d.c. This particular neurone was in the burst firing
+mode when the membrane potential was around -80 mV. A more typical membrane
+potential for this type of activity would be between -70 and -75 mV. See text for details.
+
+burst discharges (Fig. 9A a). Under these circumstances, the ACh-induced increase in
+potassium conductance inhibits the single spike firing and partially de-inactivates
+the low-threshold Ca2+ current which subsequently generates a small depolarization
+(Fig. 9A b). The muscarinic slow depolarization, on the other hand, dramatically
+increases the number of action potentials generated by the current pulse (Fig. 9A d).
+Hyperpolarizing or depolarizing the membrane potential to a similar extent with the
+intracellular injection of d.c. yielded similar results (Fig. 9A c and e - d.c. controls),
+indicating that these effects are due in large part to the MCh-induced alterations
+in Vm.
+When the membrane potential of the cell was such that the depolarizing current
+
+160
+
+D. A. McCORMICK AND D. A. PRINCE
+
+pulse caused neither single action potentials nor bursts (-75 mV; Fig. 9 Ba), application of ACh initially hyperpolarized the membrane potential and increased the
+amplitude of the low-threshold Ca21 current so that it became suprathreshold and
+generated a burst discharge (Fig. 9Bb). This hyperpolarization was followed by a
+slow depolarization which either completely (Fig. 9Bd), or partially (Fig. 9Cd),
+decreased the low-threshold Ca21 current. Again, these effects of MCh were similar to
+those brought about by changes in Vm induced by intracellular injection of d.c.
+(Fig. 9Bc and e - traces labelled d.c.).
+Application of MCh to neurones hyperpolarized well into the range of the burst
+firing mode (Fig. 9Ca), resulted in a hyperpolarization and increase in membrane
+conductance which either caused a delay to the onset, or complete inhibition, of the
+burst discharge (Fig. 9 C b). These effects appear to be due to the increase in Gi during
+the hyperpolarizing response, since similar hyperpolarizations with intracellular injection of d.c. did not inhibit the burst discharge (Fig. 9Cc). The slow depolarizing
+response again was very effective at inhibiting burst activity (Fig. 9Cd). These results
+indicate that many of the effects of cholinergic agents on the neuronal firing pattern
+of geniculate neurones can be explained by the resulting alterations in Vm, although
+additional effects can also occur through changes in Gi.
+DISCUSSION
+
+The results of this study indicate that in the medial and lateral geniculate nuclei,
+ACh can cause at least three different responses: fast nicotinic excitation, slow
+muscarinic excitation, and muscarinic inhibition. Furthermore, these three responses
+occur with varying frequencies not only between these two geniculate nuclei, but also
+between various species of animals (e.g. Table 1). Indeed, we have recently found
+that application of ACh to l.g.n.d. neurones of albino rats results in the slow depolarization only; fast depolarizations or hyperpolarizations are only rarely seen
+(McCormick & Prince, 1986c).
+The cholinergic slow depolarizing response appears to be the only common response
+between all nuclei in all three species tested. The nicotinic excitatory response is
+especially prevalent in cat, but not guinea-pig or rat, l.g.n.d. and m.g.n. The AChinduced hyperpolarization, on the other hand, is prevalent in guinea-pig, but not cat
+or rat, l.g.n.d. Preliminary results indicate that these differences are not due to the
+use of albino guinea-pigs and rats, since application of ACh to l.g.n.d. neurones
+obtained from non-albino guinea-pigs resulted in responses identical to those reported
+here for albino guinea-pigs (D. A. McCormick & D. A. Prince, unpublished observations). The reason for these species differences is unknown. Although we have
+studied presumptive geniculocortical relay cells in all species, it may not be entirely
+appropriate to compare the relay cells of lamina A and Al of the cat with those of
+the l.g.n.d. of the guinea-pig or rat. Further work is required before these species
+differences are fully understood.
+Previous extracellular in vivo recordings in the cat l.g.n.d. and m.g.n. revealed that
+geniculate neurones respond to iontophoretic applications of ACh with three different
+types of response: (1) excitation which was rapid in both onset and offset; (2) slow
+excitation which was delayed in both onset and offset; and (3) inhibition. Pharma-
+
+GENICULATE ACTIONS OF ACh
+
+161
+cological studies indicated that these three responses were mediated by both nicotinic and muscarinic receptors (Phillis, 1971; Krnjevic', 1974). Our results suggest
+that nicotinic receptors are responsible for the rapid excitatory actions of ACh, while
+the inhibitory and slow excitatory actions are mediated by muscarinic receptors.
+
+Mechanisms of ACh actions in the m.g.n. and l.g.n.d.
+ACh-induced rapid depolarization. The fast depolarizing action of ACh in cat
+geniculate neurones appears to be mediated by an increase in membrane conductance
+due to activation of nicotinic receptors. The projected reversal potential of this fast
+depolarization is similar to that found in the peripheral nervous system (Dennis et al.
+1971) and skeletal muscle (Takeuchi & Takeuchi, 1960) where ACh is known to cause
+an increase in membrane cation conductance. This result therefore suggests that the
+rapid excitatory action of ACh in the cat geniculate nuclei is also due to activation
+of a cation conductance, although this feature of cholinergic responses awaits further
+study. In the guinea-pig we have recently shown that neurones in the epithalamic
+nucleus, the medial habenula, respond to ACh with a fast, nicotinic depolarization,
+very similar to that reported here (McCormick & Prince, 1987).
+ACh-induced hyperpolarization. Our data indicate that the muscarinic hyperpolarization of guinea-pig m.g.n. and l.g.n.d. neurones is due to the activation of a
+potassium conductance, similar to that which we have reported in the guinea-pig
+nucleus reticularis of the thalamus (McCormick & Prince, 1986b) and that which
+occurs in the rat nucleus parabrachialis of the brain stem (North, 1986), and also
+which occurs in many parts of the vertebrate peripheral nervous system (reviewed by
+North, 1986). The similarity in the extrapolated reversal potentials of the MChinduced hyperpolarization of the cat m.g.n. neurones and guinea-pig geniculate
+neurones suggests an identity of mechanisms between the two species.
+The hyperpolarizing action of ACh is not only proficient at inhibiting ongoing
+single-spike activity, but also has the ability to remove inactivation of the lowthreshold Ca2+ current and thereby increase the probability of the occurrence of
+burst discharges (e.g. see Fig. 9, -61 and -75 mV).
+ACh-induced slow depolarization. In other parts of the central and peripheral
+nervous system, ACh-induced slow depolarizations result from the suppression of up
+to three different types of potassium conductances and associated currents: a voltagedependent K+ conductance (Adams & Brown, 1982; Benardo & Prince, 1982;
+Halliwell & Adams, 1982; Halliwell, 1986); a voltage-independent potassium conductance (Benardo & Prince, 1982; Morita, North & Tokimasa, 1982; Madison et al.
+1987); and a calcium-activated K+ conductance (Benardo & Prince, 1982;
+McCormick & Prince, 1986a; Madison et al. 1987; see North, 1986). Given the
+persistence of the ACh-induced slow depolarization of geniculate neurones in the
+presence of Mn2+, low Ca2+, and the ability of MCh to generate responses even at
+negative membrane potentials (e.g. -95 mV, Fig. 6), the most parsimonious explanation is that this response is due to, at least in part, the suppression of a voltageindependent resting K+ current. However, it is possible that ACh-induced slow
+depolarizations of geniculate neurones result entirely from the suppression of a
+voltage-dependent K+ current (i.e. M-current) which is located remotely in the
+dendritic tree where Vm is not easily changed with a microelectrode located in the
+6
+
+PHY 392
+
+162
+
+D. A. McCORMICK AND D. A. PRINCE
+
+soma. Our data do not rule out the possible contribution of Ca2+-activated or voltagedependent currents (e.g. after-hyperpolarization currents or M-current) and further
+investigations are required to determine the presence and possible modulation of
+these currents by ACh in geniculate neurones. The slow depolarizing response inhibited the occurrence of burst discharges and promoted the occurrence of singlespike firing, an action exactly opposite to the hyperpolarizing response.
+
+Possible involvement of ACh in the ascending control of arousal
+Electrophysiological recording (Steriade, Oakson & Ropert, 1982), stimulation
+(Moruzzi & Magoun, 1949; Symmes & Anderson, 1967; Satinsky, 1968; Doty, Wilson,
+Bartlett, & Pecci-Saavedra, 1973; Foote et al. 1974; Kitsikis & Steriade, 1981;
+Ahlsen, Lindstr6m, & Lo, 1984; Francesconi et al. 1984) and lesion (Watson, Heilman,
+Miller & King, 1974) experiments (also see reviews by Steriade, 1970; Singer, 1977;
+Burke & Cole, 1978) have indicated the presence of an ascending brain-stem system
+which has the ability to control the level of neuronal excitability in both the thalamus
+and cerebral cortex. The possibility that the brain-stem influences may be mediated,
+at least in part, by the activation of ACh-releasing neurones has been suggested by a
+number of investigators (Singer, 1977; Steriade & Deschenes, 1984; Sherman &
+Koch, 1986). lontophoretic application of ACh to lateral geniculate neurones results
+in a facilitation of the transfer of visual information similar to that produced by
+brain-stem stimulation. In some cases it has been possible to block both the facilitating effects of ACh iontophoresis and brain-stem stimulation with the local iontophoretic application or systemic administration of the muscarinic antagonists
+atropine or scopolamine (Francesconi et al. 1984; Deschenes et al. 1986; Kayama
+et al. 1986).
+Our results indicate some of the mechanisms by which ACh can modulate the
+transfer of sensory information through the geniculate nuclei. The ACh-induced slow
+depolarization of relay neurones is especially proficient in moving the membrane
+potential out of the burst firing range towards the range of single-spike firing (e.g.
+Fig. 9). Such a shift in membrane potential and firing mode occurs upon arousal from
+synchronized sleep (Livingstone & Hubel, 1981; Hirsch, Fourment & Marc, 1983;
+McCarley, Benoit & Barrionuevo, 1983), and also is known to greatly enhance the
+transfer of visual information through the cat l.g.n. (Coenen & Vendrik, 1972;
+Bartlett, Doty, Pecci-Saavedra & Wilson, 1973; Livingstone & Hubel, 1981). However, given that ACh can cause not only slow excitation, but also fast excitation and
+inhibition in the geniculate nuclei, its role in the regulation of thalamic activity may
+be more complicated than previously thought.
+We thank Dr R. Malenka for comments on the manuscript and J. Kadis for technical assistance.
+This study was supported by NIH grants NS 12151, NS 06477 (D.A.P.) and NS 07331 (D.A.M.)
+and the Morris and Pimley Research Funds.
+REFERENCES
+
+ADAMS, P. R. & BROWN, D. A. (1982). Synaptic inhibition of the M-current: slow excitatory postsynaptic potential mechanism in bullfrog sympathetic neurones. Journal of Physiology 332,
+263-272.
+
+GENICULATE ACTIONS OF ACh
+
+163
+
+AHLSEN, G., LINDSTR6M, S. & Lo, F-S. (1984). Inhibition from the brain stem of inhibitory
+interneurones of the cat's dorsal lateral geniculate nucleus. Journal of Physiology 347, 593609.
+BARTLETT, J. R., DOTY, R. W., PECCI-SAAVEDRA, J. & WILSON, P. D. (1973). Mesencephalic control
+of lateral geniculate nucleus in primates. III. Modifications with state of alertness. Experimental
+Brain Research 18, 214-224.
+BENARDO, L. S. & PRINCE, D. A. (1982). Ionic mechanisms of cholinergic excitation of mammalian
+hippocampal pyramidal cells. Brain Research 249, 333-344.
+BROWN, D. A., HALLIWELL, J. V. & SCHOLFIELD, C. N. (1971). Uptake of nicotine and extracellular
+space markers by isolated rat ganglia in relation to receptor activation. British Journal of
+
+Pharmacology 42, 100-113.
+BURKE, W. & COLE, A. W. (1978). Extraretinal influences on the lateral geniculate nucleus. Review
+of Physiological and Biochemical Pharmacology 80, 105-166.
+CLARKE, P. B. S., SCHWARTZ, R. D., PAUL, S. M., PERT, C. B. & PERT, A. (1985). Nicotine binding
+in rat brain: Autoradiographic comparison of [3H]acetylcholine, [3H]nicotine, and [261I]alpha-
+
+bungarotoxin. Journal of Neuroscience 5, 1307-1315.
+CONSTANTI, A., ADAMS, P. R. & BROWN, D. A. (1981). Why do barium ions imitate acetylcholine?
+Brain Research 206, 244-250.
+COENEN, A. M. L. & VENDRIK, A. J. H. (1972). Determination of the transfer ratio of cat's geniculate neurons through quasi-intracellular recordings and the relation with the level of arousal.
+Experimental Brain Research 14, 227-242.
+DE LIMA, A. D., MONTERO, V. M. & SINGER, W. (1985). The cholinergic innervation of the visual
+thalamus: an EM immunocytochemical study. Experimental Brain Research 59, 206-212.
+DENNIS, M. J., HARRIS, A. J. & KUFFLER, S. W. (1971). Synaptic transmission and its duplication
+by focally applied acetylcholine in parasympathetic neurones in the heart of the frog. Proceedings
+of the Royal Society B 177, 509-539.
+DESCHERNES, M., Hu, B. & STERIADE, M. (1986). The effect of mesencephalic reticular stimulation
+of relay neurons of the dorsal lateral geniculate. Society for Neuroscience Abstracts 12, 854.
+DINGLEDINE, R. & KELLY, J. S. (1977). Brain stem stimulation and the acetylcholine-evoked
+inhibition of neurones in the feline nucleus reticularis thalami. Journal of Physiology 271, 135154.
+DOTY, R. W., WILSON, P. D., BARTLETT, J. R. & PECCI-SAAVEDRA, J. (1973). Mesencephalic
+control of lateral geniculate nucleus in primates. I. Electrophysiology. Experimental Brain
+Research 18, 189-203.
+EYSEL, U. T., PAPE, H-C. & VAN SCHAYCK, R. (1986). Excitatory and differential disinhibitory
+actions of acetylcholine in the lateral geniculate nucleus of cat. Journal of Physiology 370,
+233-254.
+FOOTE, W. E., MACIEWICZ, R. J. & MORDES, J. P. (1974). Effect of midbrain raphe and lateral
+mesencephalic stimulation on spontaneous and evoked activity in the lateral geniculate of the
+cat. Experimental Brain Research 19, 124-130.
+FRANCESCONI, W., MULLER, C. M. & SINGER, W. (1984). Acetylcholine mediates the effects of
+mesencephalic reticular formation stimulation in the dorsal geniculate nucleus of the cat. Neuroscience Letters Supplement 18, S309.
+GINSBORG, B. L. (1967). Ion movements in junctional transmission. Pharmacological Reviews 19,
+289-316.
+HALLIWELL, J. V. (1986). M-current in human neocortical neurones. Neuroscience Letters 67,
+1-6.
+HALLIWELL, J. V. & ADAMS, P. R. (1982). Voltage-clamp analysis of muscarinic excitation in
+hippocampal neurons. Brain Research 250, 71-92.
+HIRSCH, J. C., FOURMENT, A. & MARC, M. E. (1983). Sleep-related variations of membrane potential
+in the lateral geniculate body relay neurones of the cat. Brain Research 259, 308-312.
+JAHNSEN, H. & LLINAS, R. (1984a). Electrophysiological properties of guinea-pig thalamic
+neurones: an in vitro study. Journal of Physiology 349, 205-226.
+JAHNSEN, H. & LLINAS, R. (1984 b). Ionic basis for the electroresponsiveness and oscillatory
+properties of guinea-pig thalamic neurones in vitro. Journal of Physiology 349, 227-247.
+KAYAMA, Y., TAKAGI, M. & OGAWA, T. (1986). Cholinergic influence of the laterodorsal tegmental
+nucleus on neuronal activity in the rat lateral geniculate nucleus. Journal of Neurophysiology 56,
+1297-1309.
+6-2
+
+164
+
+D. A. McCORMICK AND D. A. PRINCE
+
+KIMURA, H., MCGEER, P. I., PENG, J. H. & MCGEER, E. G. (1981). The central cholinergic system
+studied by choline acetyltransferase immunohistochemistry in the cat. Journal of Comparative
+Neurology 200, 151-201.
+KITSIKIS, A. & STERIADE, M. (1981). Immediate behavioural effects of kainic acid injections into
+the midbrain reticular core. Behavioral Brain Research 3, 361-380.
+KRNJEviC, K. (1974). Chemical nature of synaptic transmission in vertebrates. Physiological
+Reviews 54, 418-540.
+KRNJEVIC, K., PUMAIN, R. & RENAUD, L. (1971). Effects of Ba2+ and tetraethylammonium on
+cortical neurones. Journal of Physiology 215, 223-245.
+LIVINGSTONE, M. S. & HUBEL, D. H. (1981). Effects of sleep and arousal on the processing of visual
+information in the cat. Nature 291, 554-561.
+MCCARLEY, R. W., BENOIT, 0. & BARRIONUEVO, G. (1983). Lateral geniculate nucleus unitary
+discharge in sleep and waking: state- and rate-specific aspects. Journal of Neurophysiology 50,
+798-818.
+MCCORMICK, D. A. & PRINCE, D. A. (1986a). Mechanisms of action of acetylcholine in the guineapig cerebral cortex, in vitro. Journal of Physiology 375, 169-194.
+MCCORMICK, D. A. & PRINCE, D. A. (1986b). Acetylcholine induces burst firing in thalamic reticular
+neurones by activating a potassium conductance. Nature 319, 402-405.
+MCCORMICK, D. A. & PRINCE, D. A. (1986c). Mechanisms of ascending control of thalamic neuronal
+activities: acetylcholine and norepinephrine. Society for Neuroscience Abstracts 12, 903.
+MCCORMICK, D. A. & PRINCE, D. A. (1987). Acetylcholine causes rapid nicotinic excitation in the
+medial habenular nucleus of the guinea pig, in vitro. Journal of Neuroscience 7, 742-752.
+MADISON, D. V., LANCASTER, B. & NICOLL, R. A. (1987). Voltage clamp analysis of cholinergic slow
+excitation in the hippocampus, in vitro. Journal of Neuroscience. 7, 733-741.
+MESULAM, M-M., MUFSON, E. J., WAINER, B. H. & LEVEY, A. I. (1983). Central cholinergic
+pathways in the rat: An overview based on an alternative nomenclature (Chl-Ch 6). Neuroscience 4,
+1185-1201.
+MORITA, K., NORTH, R. A. & TOKIMASA, T. (1982). Muscarinic agonists inactivate potassium
+conductance of guinea pig myenteric neurones. Journal of Physiology 333, 125-139.
+MORUZZI, G. & MAGOUN, H. W. (1949). Brain stem reticular formation and activation of the EEG.
+Electroencephalography and Clinical Neurophysiology 1, 455-473.
+NORTH, R. A. (1986). Muscarinic receptors and membrane ionic conductances. Trends in Pharmacological Sciences Supplement. Subtypes of Muscarinic Receptors II, 19-22.
+NOWYCKY, M. C., Fox, A. P. & TSIEN, R. W. (1985). Three types of neuronal calcium channel with
+different calcium agonist sensitivity. Nature 316, 440-443.
+PHILLIS, J. W. (1971). The pharmacology of thalamic and geniculate neurons. International Review
+of Neurobiology 14, 1-48.
+PUIL, E. & WERMAN, R. (1981). Internal cesium ions block various K conductances in spinal
+motoneurons. Canadian Journal of Physiology and Pharmacology 59, 1280-1284.
+ROGAWSKI, M. A. & AGHAJANIAN, G. K. (1980). Modulation of lateral geniculate neurone excitability by noradrenaline microiontophoresis or coeruleus stimulation. Nature 287, 731-734.
+ROTTER, R., BIRDSALL, N. J. M., BURGIEN, A. S. V., FIELD, P. M., HULME, E. C. & AISMAN, G.
+(1979). Muscarinic receptors in the central nervous system of the rat. I. Technique for autoradiographic localization of the binding of [3H]propylbenzilylcholine mustard and its distribution in forebrain. Brain Research Reviews 1, 141-165.
+SATINSKY, D. (1968). Reticular influences in lateral geniculate activity. Electroencephalography and
+Clinical Neurophysiology 25, 543-549.
+SHERMAN, S. M. & KOCH, C. (1986). The control of retinogeniculate transmission in the mammalian
+lateral geniculate nucleus. Experimental Brain Research 63, 1-20.
+SILLITO, A. M., KEMP, J. A. & BERARDI, N. (1983). The cholinergic influence on the function of the
+cat dorsal lateral geniculate nucleus (dLGN). Brain Research 280, 299-307.
+SINGER, W. (1977). Control of thalamic transmission by corticofugal and ascending reticular
+pathways in the visual system. Physiological Reviews 57, 386-420.
+STERIADE, M. (1970). Ascending control of thalamic and cortical responsiveness. International
+Review of Neurobiology 12, 87-144.
+STERIADE, M. & DESCHENES, M. (1984). The thalamus as a neuronal oscillator. Brain Research
+Reviews 8, 1-63.
+
+GENICULATE ACTIONS OF ACh
+
+165
+
+STERIADE, M., OAKSON, G. & ROPERT, N. (1982). Firing rates and patterns of midbrain reticular
+neurons during steady and transitional states of the sleep-waking cycle. Experimental Brain
+Research 46, 37-51.
+STICHEL, C. C. & SINGER, W. (1985). Organization and morphological characteristics of choline
+acetyltransferase-containing fibers in the visual thalamus and striate cortex of the cat. Neuroscience Letters 53, 155-160.
+SYMMES, D. & ANDERSON, K. V. (1967). Reticular modulation of higher auditory centers in monkey.
+Experimental Neurology 18, 161-176.
+TAKEUCHI, A. & TAKEUCHI, N. (1960). On the permeability of end-plate membrane during the
+action of transmitter. Journal of Physiology 154, 52-67.
+TEBECIS, A. K. (1972). Cholinergic and non-cholinergic transmission in the medial geniculate
+nucleus of the cat. Journal of Physiology 226, 153-172.
+WATSON, R. T., HEILMAN, K. M., MILLER, B. D. & KING, F. A. (1974). Neglect after mesencephalic
+reticular formation lesions. Neurology 24, 294-298.
+WOOLF, N. J. & BUTCHER, L. L. (1986). Cholinergic systems in the rat brain: III. Projections from
+the pontomesencephalic tegmentum to the thalamus, tectum, basal ganglia, and basal forebrain.
+Brain Research Bulletin 16, 603-637.
+
+
