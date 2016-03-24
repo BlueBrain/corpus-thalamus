@@ -636,12 +636,12 @@
                 "requiredTags": [
                     {
                         "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
+                        "name": "Thalamic reticular nucleus cell",
                         "rootId": "sao1813327414"
                     },
                     {
                         "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current",
+                        "name": "Low threshold calcium T-current",
                         "rootId": "nifext_8054"
                     }
                 ]
