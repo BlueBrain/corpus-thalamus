@@ -672,7 +672,7 @@
             {
                 "description": {
                     "depVar": {
-                        "typeId": "BBP-030001",
+                        "typeId": "BBP-030003",
                         "values": {
                             "type": "compounded",
                             "valueLst": [
@@ -718,12 +718,12 @@
                 "requiredTags": [
                     {
                         "id": "NIFCELL:sao1813327414",
-                        "name": "Thalamic reticular nucleus cell",
+                        "name": "Cell",
                         "rootId": "sao1813327414"
                     },
                     {
                         "id": "NIFMOL:nifext_8054",
-                        "name": "Inward rectifier (h-type) current",
+                        "name": "Transmembrane ionic current",
                         "rootId": "nifext_8054"
                     }
                 ]
