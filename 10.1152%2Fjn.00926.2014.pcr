@@ -44,7 +44,7 @@
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "sao1813327414",
+                        "id": "NIFCELL:sao1813327414",
                         "name": "Cell",
                         "rootId": "sao1813327414"
                     }
@@ -135,7 +135,7 @@
                 "id": "f7e8c5ec-eced-11e5-b708-64006a4c56ef",
                 "relationship": {
                     "entity1": {
-                        "id": "birnlex_2300",
+                        "id": "NIFINV:birnlex_2300",
                         "name": "Computational model"
                     },
                     "entity2": "None",
@@ -143,12 +143,12 @@
                 },
                 "requiredTags": [
                     {
-                        "id": "sao1813327414",
+                        "id": "NIFCELL:sao1813327414",
                         "name": "Cell",
                         "rootId": "sao1813327414"
                     },
                     {
-                        "id": "nifext_8054",
+                        "id": "NIFMOL:nifext_8054",
                         "name": "Transmembrane ionic current",
                         "rootId": "nifext_8054"
                     }
@@ -217,7 +217,7 @@
                 "id": "f9cd3a46-ed10-11e5-b708-64006a4c56ef",
                 "relationship": {
                     "entity1": {
-                        "id": "birnlex_2300",
+                        "id": "NIFINV:birnlex_2300",
                         "name": "Computational model"
                     },
                     "entity2": "None",
@@ -225,12 +225,12 @@
                 },
                 "requiredTags": [
                     {
-                        "id": "sao1813327414",
+                        "id": "NIFCELL:sao1813327414",
                         "name": "Cell",
                         "rootId": "sao1813327414"
                     },
                     {
-                        "id": "nifext_8054",
+                        "id": "NIFMOL:nifext_8054",
                         "name": "Transmembrane ionic current",
                         "rootId": "nifext_8054"
                     }
@@ -299,7 +299,7 @@
                 "id": "f7145738-ed12-11e5-b708-64006a4c56ef",
                 "relationship": {
                     "entity1": {
-                        "id": "birnlex_2300",
+                        "id": "NIFINV:birnlex_2300",
                         "name": "Computational model"
                     },
                     "entity2": "None",
@@ -307,12 +307,12 @@
                 },
                 "requiredTags": [
                     {
-                        "id": "sao1813327414",
+                        "id": "NIFCELL:sao1813327414",
                         "name": "Cell",
                         "rootId": "sao1813327414"
                     },
                     {
-                        "id": "nifext_8054",
+                        "id": "NIFMOL:nifext_8054",
                         "name": "Transmembrane ionic current",
                         "rootId": "nifext_8054"
                     }
@@ -381,7 +381,7 @@
                 "id": "125ff222-ed13-11e5-b708-64006a4c56ef",
                 "relationship": {
                     "entity1": {
-                        "id": "birnlex_2300",
+                        "id": "NIFINV:birnlex_2300",
                         "name": "Computational model"
                     },
                     "entity2": "None",
@@ -389,12 +389,12 @@
                 },
                 "requiredTags": [
                     {
-                        "id": "sao1813327414",
+                        "id": "NIFCELL:sao1813327414",
                         "name": "Cell",
                         "rootId": "sao1813327414"
                     },
                     {
-                        "id": "nifext_8054",
+                        "id": "NIFMOL:nifext_8054",
                         "name": "Transmembrane ionic current",
                         "rootId": "nifext_8054"
                     }
@@ -463,7 +463,7 @@
                 "id": "58b63026-ed11-11e5-b708-64006a4c56ef",
                 "relationship": {
                     "entity1": {
-                        "id": "birnlex_2300",
+                        "id": "NIFINV:birnlex_2300",
                         "name": "Computational model"
                     },
                     "entity2": "None",
@@ -471,12 +471,12 @@
                 },
                 "requiredTags": [
                     {
-                        "id": "sao1813327414",
+                        "id": "NIFCELL:sao1813327414",
                         "name": "Cell",
                         "rootId": "sao1813327414"
                     },
                     {
-                        "id": "nifext_8054",
+                        "id": "NIFMOL:nifext_8054",
                         "name": "Transmembrane ionic current",
                         "rootId": "nifext_8054"
                     }
@@ -545,7 +545,7 @@
                 "id": "6ea87a7e-ed11-11e5-b708-64006a4c56ef",
                 "relationship": {
                     "entity1": {
-                        "id": "birnlex_2300",
+                        "id": "NIFINV:birnlex_2300",
                         "name": "Computational model"
                     },
                     "entity2": "None",
@@ -553,13 +553,13 @@
                 },
                 "requiredTags": [
                     {
-                        "id": "sao1813327414",
-                        "name": "Cell",
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamic reticular nucleus cell",
                         "rootId": "sao1813327414"
                     },
                     {
-                        "id": "nifext_8054",
-                        "name": "Transmembrane ionic current",
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Leak ionic current",
                         "rootId": "nifext_8054"
                     }
                 ]
@@ -627,7 +627,7 @@
                 "id": "8608f1c0-ed12-11e5-b708-64006a4c56ef",
                 "relationship": {
                     "entity1": {
-                        "id": "birnlex_2300",
+                        "id": "NIFINV:birnlex_2300",
                         "name": "Computational model"
                     },
                     "entity2": "None",
@@ -635,12 +635,12 @@
                 },
                 "requiredTags": [
                     {
-                        "id": "sao1813327414",
+                        "id": "NIFCELL:sao1813327414",
                         "name": "Cell",
                         "rootId": "sao1813327414"
                     },
                     {
-                        "id": "nifext_8054",
+                        "id": "NIFMOL:nifext_8054",
                         "name": "Transmembrane ionic current",
                         "rootId": "nifext_8054"
                     }
@@ -709,7 +709,7 @@
                 "id": "b7f49f36-ed12-11e5-b708-64006a4c56ef",
                 "relationship": {
                     "entity1": {
-                        "id": "birnlex_2300",
+                        "id": "NIFINV:birnlex_2300",
                         "name": "Computational model"
                     },
                     "entity2": "None",
@@ -717,12 +717,12 @@
                 },
                 "requiredTags": [
                     {
-                        "id": "sao1813327414",
+                        "id": "NIFCELL:sao1813327414",
                         "name": "Cell",
                         "rootId": "sao1813327414"
                     },
                     {
-                        "id": "nifext_8054",
+                        "id": "NIFMOL:nifext_8054",
                         "name": "Transmembrane ionic current",
                         "rootId": "nifext_8054"
                     }
