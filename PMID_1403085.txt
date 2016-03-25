@@ -1,0 +1,1707 @@
+The Journal
+
+of Neuroscience,
+
+October
+
+1992,
+
+fZ(10):
+
+38043817
+
+A Novel T-type Current Underlies Prolonged Ca*+-dependent Burst
+Firing in GABAergic Neurons of Rat Thalamic Reticular Nucleus
+J. R. Huguenard
+Department
+
+and D. A. Prince
+
+of Neurology
+
+and Neurological
+
+Sciences,
+
+Stanford University
+
+The inhibitory GABAergic
+projection
+of thalamic nucleus reticularis (nRt) neurons onto thalamocortical
+relay cells (TCs)
+is important in generating
+the normal thalamocortical
+rhythmicity of slow wave sleep, and may be a key element in the
+production
+of abnormal
+rhythms associated
+with absence
+epilepsy.
+Both TCs and nRt cells can generate
+prominent
+Ca*+-dependent
+low-threshold
+spikes, which evoke bursts
+of Na+-dependent
+fast spikes, and are influential
+in rhythm
+generation.
+Substantial
+differences
+in the pattern of burst
+firing in TCs versus nRt neurons led us to hypothesize
+that
+there are distinct forms of transient Ca*+ current (/,) underlying burst discharges
+in these two cell types. Using wholecell voltage-clamp
+recordings,
+we analyzed IT in acutely isolated TCs and nRt neurons and found three key differences
+in biophysical
+properties.
+(1) The transient
+Ca*+ current in
+nRt neurons inactivated
+much more slowly than 1, in TCs.
+This slow current is thus termed /,,. (2) The rate of inactivation for /,, was nearly voltage independent.
+(3) Whole-cell
+ITS amplitude
+was increased
+when Ba*+ was substituted
+for
+Ca*+ as the charge carrier. In addition,
+activation
+kinetics
+were slower for /,, and the activation
+range was depolarized
+compared
+to that for /,. Other properties
+of /,, and 1, were
+similar, including
+steady-state
+inactivation
+and sensitivities
+to blockade
+by divalent cations, amiloride,
+and antiepileptic
+drugs. Our findings demonstrate
+that subtypes
+of transient
+Ca? current are present in two different classes of thalamic
+neurons.
+The properties
+of I,, lead to generation
+of longduration calcium-dependent
+spike bursts in nRt cells. The
+resultant prolonged
+periods of GABA release onto TCs would
+play a critical role in maintaining
+rhythmicity
+by inducing TC
+hyperpolarization
+and promoting
+generation
+of low-threshold calcium spikes within relay nuclei.
+
+Certain oscillatory rhythms within the cerebral cortex are a
+consequenceof both thalamocortical circuitry and intrinsic
+properties of thalamic neurons (Steriade and Llinls, 1988; Ribary et al., 1991). The thalamus is intimately involved in generation of the rhythmic high-voltage, 7-l 4 Hz spindlesobserved
+in the EEG during certain phasesof sleep.‘Early evidence of
+this wasprovided by Morison and Bassett(1945), who showed
+Received Jan. 29, 1992; revised Apr. 14, 1992; accepted Apr, 22, 1992.
+We thank Richard Tsien and Istvan Mody for helpful discussions and critical
+reading of the manuscript. Edward Brooks and Isabel Parada provided invaluable
+technical assistance. This work was supported by NIH Grants NS06477 and
+NS12 15 1 from the NINDS, and by the Morris and Pimley Research Funds.
+Correspondence
+should be addressed to J. R. Huguenard, Department
+of Neurology and Neurological
+Sciences, Room M016, Stanford University
+Medical
+Center, Stanford, CA 94305.
+Copyright 0 1992 Society for Neuroscience
+0270-6474/92/123804-14$05.00/O
+
+Medical Center, Stanford, California 94305
+
+that after corticotomy spindleactivity could still be recorded in
+the thalamus. A key element in rhythm generation within the
+thalamus is the GABAergic nucleusreticularis (nRt) that is reciprocally connectedto thalamocortical relay neurons(TCs) of
+dorsal thalamic nuclei and also receives collateral excitatory
+connectionsfrom corticothalamic fibers(Jones, 1985).Through
+a seriesof in vivo experiments, Steriade, Deschenes,and colleagueshave identified nRt as a key site in the generation of
+spindle rhythms. During periods of sleepassociatedwith EEG
+synchronization, spindlesare absentin anterior thalamic nuclei
+that are devoid of connectionswith nRt (Mulle et al., 1985)and
+in relay nuclei that have been disconnectedfrom nRt by transection(Steriadeet al., 1985).On the other hand, spindlespersist
+in nRt after it has been isolated from other thalamic nuclei
+(Steriadeet al., 1987),when suchactivity is absentin relay nuclei
+and in the cortex. These findings implicate the thalamus, and
+especially nRt, as important rhythm generation sites.
+Intrinsic firing properties of nRt cells are an important factor
+in promoting rhythm generation. Neurons in nRt are characterized by two basic firing patterns (Domich et al., 1986; McCormick and Prince, 1986; Mulle et al., 1986; Steriade et al.,
+1986; Llinas and Geijo-Barrientos, 1988;Spreaficoet al., 1988),
+similar to those in TCs (Descheneset al., 1982; Llinas and
+Jahnsen, 1982). In both cell types, regular repetitive firing is the
+normal responseto excitatory inputs under conditions where
+the resting membrane potential is relatively depolarized. However, with membrane hyperpolarization, the sameinputs produce Ca2+-dependentlow-threshold spikes(LTSs) that can trigger several fast Naf spikes. In TCs, the LTS is mediated by a
+transient Ca*+ current (T-current, Zr; Coulter et al., 1989a;Crunelli et al., 1989; Hernbndez-Cruz and Pape, 1989; Suzuki and
+Rogawski, 1989), and presumably the sameor a similar conductancemechanismunderliesLTS generationin nRt cells.Since
+the LTS in nRt is blocked by Cd*+ (Avanzini et al., 1989) but
+persistsin the presenceof the Naf channel blocker QX-3 14
+(Mulle et al., 1986),it isprobably mediated by a similar transient
+Ca*+ current. Interestingly, however, the LTSs and burst-firing
+patterns in nRt cellsare fundamentally different from their counterparts in TCs. Extracellular recordingsin chronically implanted unanesthetizedanimalsclearly demonstratethat TCs exhibit
+monophasic spike bursts consistingof 2-10 spikeswith an averageduration of 8 msec(Domich et al., 1986). In contrast, nRt
+cells recorded under the sameconditions fire bursts consisting
+of two phases,an early high-frequency “core” burst lasting 50100 msec, and a late phase of tonic firing that can last for
+hundreds of milliseconds(Domich et al., 1986; Steriade et al.,
+1986). While little is known about the mechanismsunderlying
+the tonic firing phase,the core burst is presumablymediated by
+an LTS. In fact, in vivo intracellular recordingsreveal that LTSs
+
+The Journal
+
+in nRt cells are considerably longer than those in TCs (Mulle
+et al., 1986; Shosaku et al., 1989). Although an extended barrage
+of EPSPs onto nRt neurons can contribute to elongated LTS
+bursts under some circumstances, including spindle activity,
+long bursts also can be induced by intracellular current injection,
+indicating that nRt cells have intrinsic mechanisms for producing such activity. The prolonged Ca2+-dependent bursts in
+the GABAergic neurons of nRt presumably evoke either long
+trains of IPSPs or large IPSPs (due to rapid release of large
+amounts of GABA) in TCs. In either case,activation of GABA,
+receptor-mediated events would be favored since these are
+thought to require the releaseof largeamounts of GABA (Dutar
+and Nicoll, 1988). The resulting Cl-- and K+-mediated hyperpolarization, and subsequentdeinactivation of IT, may be a
+critical factor in rhythm initiation and/or maintenance.
+Here we present results of a voltage-clamp study in acutely
+isolated neurons of rat nRt showing that these cells possessa
+transient Ca2+current with unique properties. Unlike the transient (low-voltage-activated or T-type) current observed in a
+number of preparationsincluding relay neurons,ITSin nRt neurons displays slow and voltage-independent inactivation kinetics. Thus, nRt cellscan generatelonger-duration LTSs and spike
+bursts that result in a sustainedreleaseof GABA onto TCs.
+Portions
+
+of these results have been published
+
+in preliminary
+
+form (Huguenard and Prince, 1991).
+Materials and Methods
+Tissuesliceandisolatedcellpreparation.
+Sprague-Dawley rats (postnatal
+days 7-12) were deeply anesthetized with pentobarbital(50
+mg/kg) and
+decapitated, and the brain was rapidly removed and placed in chilled
+oxygenated Ringer’s solution. Coronal slices with a thickness of 400 pm
+were then cut on a vibratome. For current-clamp recordings, slices were
+placed in interface-type chamber and perfused with normal Ringer’s
+solution (see below) eauilibrated with 95% 0,. 5% CO, at 34°C.
+Neurons of the ventrobasal complex (VB) and nRt were isolated from
+slices via an enzymatic dissociation procedure that has been previously
+described (Kay and Wong, 1986; Coulter et al., 1989a). In slices from
+the most anterior coronal sections containing nRt, the nucleus was
+relatively wide, and it was possible to resect it from adjacent ventrolateral nucleus and the internal capsule. The nRt sections were crescent
+shaped rather than rectangular as in VB, but otherwise the dissociation
+technique was identical for the two nuclei. The voltage-clamp data
+presented here represent results from 43 nRt and 56 VB neurons.
+Histoloav. For anti-GABA staining of nuclear sections (see Fia. 2A.B).
+the followmg procedure was used. Ai 8-d-old rat pup was deeply anes:
+thetized with sodium pentobarbital (50 mg/kg), followed immediately
+by a transcardiac perfusion with 50 ml of 0.9% NaCl and 200 ml of
+freshly prepared 4% paraformaldehyde, 0.3% glutaraldehyde in 0.1 M
+phosphate buffer. The brain was removed and stored overnight at 4°C
+in the same fixative. The next day, the brain was transferred to PBS
+and slices of 500 urn were cut usina a vibratome. The VB and nRt
+thalamic nuclei were then dissected f;om the slices in the same manner
+in which they are prepared for the dissociation procedure. The tissue
+was embedded in agar, and serial vibratome sections with a nominal
+thickness of 50 pm were cut. The sections were then processed for
+immunocytochemistry
+using a rabbit anti-GABA serum (Incstar Co.)
+as follows. Free-floating sections were incubated in 95% EtOH for 3
+min. followed bv several rinses in PBS. incubation in blocking solution
+for 1 hr (5% no&nal goat serum, 0.3% T&on-X
+in 0.1 M PBS), and
+finally by incubation in the primary antiserum at a dilution of 1:6000
+for 16 hr at 4°C. Sections were then rinsed several times both before
+and after a 1 hr incubation in the biotinylated secondary antibody. After
+several rinses in PBS, the sections were incubated for 45 min in the
+avidin-biotin-peroxidase
+complex, reacted with diaminobenzidine
+solution in Tris buffer with 0.002% H,O,, and finally mounted on slides,
+dried, and coverslipped.
+For the isolated cells, the above procedure was slightly modified. Petri
+dishes containing isolated cells were fixed for 30 min in 4% paraformaldehyde, 0.3% glutaraldehyde, followed by two 10 min rinses in PBS
+
+of Neuroscience,
+
+October
+
+1992,
+
+12(10)
+
+3805
+
+and then 1 hr of incubation in a blocking solution of 3% normal goat
+serum, 0.1% Triton-X in PBS. After rinsing in PBS, cells were exposed
+to the 1” antibody, rat anti-GABA (Incstar; 1:6000), for 12 hr at 4°C
+rinsed twice in PBS, and exposed for 45 min to the biotinylated 2”
+antibody. Following two more rinses in PBS, the tissue was incubated
+for 45 min in the avidin-biocytin-peroxidase
+complex. Finally the cells
+were rinsed with 50 mM Tris buffer, incubated with diaminobenzidine
+solution in Tris buffer with 0.002% H,O,, rinsed again in Tris buffer,
+and mounted using glycerol.
+To identify the neurons in whole-cell recordings from the slice, 0.5%
+biocytin was included in the intracellular patch pipette solution. Following recording, the slices were immediately fixed and processed using
+published histochemical procedures (Tseng et al., 199 1).
+Solutions and drugs. The concentration of solutions used for recording
+I, in isolated cells was (in mM), for intracellular pipette solution, 110
+Tris PO, dibasic, 28 Tris base, 11 ethyleneglycol-bis-(fi-aminoethylether)-N,N,N’,N’-tetraacetic acid (EGTA), 2 MgCl,, 0.5 CaCl,, 4 Na, ATP,
+pH 7.3; and for extracellular solution, 155 tetraethylammonium
+Cl
+(TEA). 3 CaCl,. 10 N-2-hvdroxvethvlninerazine-N-2-ethanesulfonic
+acid
+(HEPES), with’pH 7.4. Transient Ca-2+acurrents were quite stable under
+these recording conditions; however, the sustained Ca2+ current tended
+to run down unless an ATP regeneration system (see Forscher and
+Oxford, 1985) was included in the intracellular solution. This resulted
+in much more stable sustained Ca*+ current amplitude, so it was possible
+to test reliably for reversible drug-dependent effects on this current as
+well. In all cases, drug effects were compared to temporally proximate
+controls to detect any remaining change in currents due to drift or
+rundown. Drugs were applied via an extracellular perfusion system consisting of an assembly of several parallel tubes (Yellen, 1982) that could
+be repositioned to effect complete solution changes in less than 1 sec.
+Chemicals were obtained from Sigma (St. Louis, MO), except w-conotoxin GVIA (w-CgTx; Peninsula Labs, Belmont, CA) and dihydropyridines (compliments of Dr Alexander Scriabine, Miles Labs, West Haven, CT). All experiments were performed at room temperature (2325°C) to promote long-term survival (in some cases, >2 hr) of isolated
+cells in the recording chamber.
+For whole-cell recording in the slice, the following solutions were used
+(in mM): extracellular Ringer’s solution, 122 NaCl, 26 NaHCO,, 1.2
+NaH,PO,, 2 MgCl,, 2 CaCl,, 3 KCl, 10 glucose; intracellular solution,
+135 K-gluconate, 1 MgCl,, 1 CaCl,, 11 EGTA, 10 HEPES, pH 7.3.
+Datacollection and analysis. Current-clamp recordings were obtained
+via blind whole-cell recordinas (Blanton et al., 1989: Otis et al., 1991)
+in thalamic slices using an Axopatch amplifier. Access resistance was
+on the order to 10-20 MB. For voltage-clamp experiments in isolated
+cells, whole-cell recordings (Hamill et al., 198 1) were obtained with
+electrodes fabricated from medium-wall borosilicate glass (KG-33, Garner Glass, Claremont, CA). Typical electrode resistance was 5-6 MB in
+the bath, with access resistance in the range of 7-12 MQ. Recordings
+were obtained with a List EPC-7 amplifier, and series resistance compensation (~80%) was routinely utilized. Currents were leak subtracted,
+using a P/4 protocol, and digitally sampled using an INDEC Basic-23
+system. Nonlinear simplex routines were used to obtain best-fitted
+Boltzmann (Eq. 1) and m2h (Eq. 2) curves. A 9 mV liquid junction
+potential was subtracted from all command potentials. Cell capacitance
+was determined by integrating the current response to a 5 mV hyperpolarization and then dividing the resultant charge by the change in
+voltage.
+The voltage protocols that were used for the pharmacological tests
+(see Figs. 8,9; Table 2) were designed to isolate T-current and L-current.
+Depolarizations to -40 mV from a holding potential of - 100 mV
+activate only T-current, since this is below the activation threshold for
+Z, and IN (Fox et al., 1987), while depolarizations to + 10 mV from a
+holding potential of -50 mV should activate both Z, and IN. However,
+thalamic cells possess little N-current (see Figs. 3, 8, 9; see also Coulter
+et al., 1989a), and so this protocol activates essentially IL, since both IT
+and ITS are inactivated at this holding potential (see Fig. 4).
+I
+
+.
+
+Results
+
+LTSs in TCs and nRt cells
+Differences in LTS properties betweenTCs and nRt neuronsin
+both cat and rat have beendescribed(Mulle et al., 1986;Shosaku
+et al., 1989). However, it appearsfrom the results of these in
+viva experiments that variations are due in part to synaptic
+
+n
+
+Figure 1. Ca*+-dependent burst responses obtained in representative cells of nRt and VB. Top, Voltage recordings obtained with depolarizations
+from resting potential in representative nRt neurons (left; rest = -82 mV, input resistance, 170 Ma, input capacitance, 69 pF) and VB neurons
+
+The Journal
+
+of Neuroscience,
+
+October
+
+1992,
+
+I,?(1 0) 3807
+
+Figure 2. Isolation of VB and nRt neurons from rat. A:Top left, Schematic depiction of coronal slice containing both VB (light shading)and nRt
+(darkshading),and tissuechunksthat werestainedwith an anti-GABA antibody. Top right, Thin crescents
+werecut from lateralthalamusand
+carefullytrimmedto containonly nRt. In practice,moreanteriorcoronalsliceswereusedto providewidernRt sections.Darkly stainingnetworks
+of neuronswereobservedin nRt. Bottom,VB sections
+wereconservativelytrimmedto excludenRt andthen subdividedinto cubicsections.
+These
+sectionscontainedvery few stainedsomata,but an extensivenetworkof GABAergicfibersand clearlydemonstrated
+barreloids(Jones,1985).B,
+Higher-magnification
+imagesof the sectionsin A. Top, nRt sectionscontainednumerousround, darkly stainingsomataconnectedby a network
+of fibers.Bottom,A smallstainedcell is seenin the lowerright corner,but this sectionof VB wasalmostentirely devoidof GABA-positive cells.
+However,numerousdark-stainingfibersareseen.C, Isolatedneuronsobtainedfrom VB and nRt retaintheir immunohistochemical
+properties.
+Top,Cellsisolatedfrom nRt possessed
+roundedsomata,andusuallytwo majordendrites,andweredarkly staining.Bottom,VB neuronsoftenhad
+triangularsomataand did not stainpositivelyfor the presence
+of GABA. Very occasionallysmallmonopolaror bipolardark-stainingcellswere
+obtained(bottomright).
+actions. For example, during rhythmic LTS bursting in rat nRt
+neurons, membrane hyperpolarization uncovers repetitive excitatory postsynaptic potentials that occur during the rhythmic
+depolarizations in TCs (Shosakuet al., 1989). In order to compare LTS morphology directly within the two nuclei and to
+support the suggestionthat the some of the differencesare dependent on intrinsic membraneproperties,we obtained currentclamp recordings in preparations containing both nRt and VB
+within the sameslice. Examples of the LTSs in each cell type
+are shown in Figure 1. In each cell type, depolarizing intracellular current pulsesdelivered from the resting potential (-72
+to -82 mV) evoked responsesconsisting of a burst of action
+potentials riding on a slow underlying LTS. These bursts had
+distinctive and stereotypedproperties. For example, in nRt cells
+(Fig. 1, top left), the LTS was prolonged so that six or seven
+high-frequency (> 250 Hz) Na+ spikesweregeneratedat its crest.
+
+In contrast, the LTSs in the relay neurons of VB (Fig. 1, top
+right) were shorter in duration and evoked only 1 or 2 Na+
+spikes.The remainder of this report focuseson differencesin
+the underlying transient Caz+ currents that contribute to the
+distinct burst characteristics in these two cell types.
+Iderbjication of nRt cells
+We compared transient Ca2+current properties of nRt and the
+prototypical TCs of VB in each animal. Since these nuclei are
+adjacent, the following measureswere used to ensurethat isolated cellswere derived from the desirednucleus.First, in a few
+experimentsthe subdivided nuclear sectionswere testedfor the
+presenceof GABA using standard immunohistochemical procedures.As expected, the tissuechunks isolated from nRt (Fig.
+2A, top right) contained many GABA-positive neurons connectedvia a densenetwork of darkly stainingfibers, more clearly
+
+t
+(right; rest= - 72 mV, input resistance,125MQ; capacitance,113pF). Both cell typesexhibit stereotypedburstresponses,
+but nRt burstscontain
+more spikes that arise from a longer-duration LTS. Recording solution was potassium gluconate with 0.5% (w/v) biocytin. After recording, the
+slice was processed and visualized with dark-field microscopy and is shown in the photomicrograph at the bottom(magnification, 200x). The
+photomicrograph is a montage of two adjacent sections in register, as necessitated by the fact that the resectioning procedure resulted in the main
+soma sections of the VB and nRt being located in adjacent 80 pm sections.
+
+3808
+
+Huguenard
+
+and Prince * Long-lasting
+
+1, in Thalamic
+
+Reticular
+
+Neurons
+
+nRf
+
+A
+
+-40 mV
+
+r’---““--‘-“..
+
+VB
+
+-10 mV
+
+-60 mV
+K
+
+-30 mV
+
+F
+
+-------------m-
+
+---------------
+
+r
+---------------
+
+b
+
++lO
+
+mV
+
+4.
+-J
+:
+60 ma
+
+II r
+
+c
+
+Is/-
+
+C
+
+mV
+
+1
+
+t
+0
+
+B
+
++lO
+
+-20 mV
+
+ii0
+
+450 mV
+
+-10 mV
+
+60 ms
+
+COMMAND
+POTENTIAL (mW
+do
+-20
+0
++20
+
+60 ms
+
++40
+
+-60
+
+COMMAND
+-a
+
+POTENTIAL (mv)
+-20
+0
+
++20
+
++w
+
+Figure 3. Calcium currents from nRt versus VB neurons. A, Currents evoked at the indicated command potentials from holding potentials (V,,,d
+of - 100 mV and - 50 mV. The larger and more complete inactivating current in eachcaseis that obtainedwith I’,,,,, of - 100mV. B, Voltageinactivatedcurrents.Differencecurrentsobtainedfor eachpair of currentsfrom A. In nRt cells,a transientinward currentis detectableat -40
+mV and becomes
+largerwith strongerdepolarizations,
+but the rate of inactivationis relatively constant.In contrast,the transientcurrent in VB
+cellsis detectableat -50 mV, andthe rateof decaybecomes
+fasterwith increased
+depolarization.C, Z-V curvesfor Z* Opencircles(0) arepeak
+inwardcurrent,solidcircles(0) are the voltage-inactivatedcurrent(asin Z?),and opentriangles(0) are the late noninactivatingcurrentobtained
+with depolarizedV,,,,. The currentinactivatedby voltagepeaksat -30 mV in VB neuronscomparedto - 10mV in nRt.
+
+seenin Figure 2B (top). The round somata in nRt were very
+darkly stained. In contrast, VB sections contained very few
+GABA-positive cells(seeJones, 1985; Harris and Hendrickson,
+1987); rather, a diffuse projection of fine, darkly staining fibers,
+which delineated the barreloids (Jones, 1985) was observed in
+the somatosensoryVB (Fig. 2A, bottom). GABA-positive cells
+were rare (Fig. 2A, bottom), small, and normally monopolar or
+bipolar in appearance(e.g., small monopolar cell in the lower
+right corner of Fig. 2B, bottom).
+Thalamic neuronscould be immunocytochemically identified
+even after isolation. Cells acutely dissociated from nRt were
+intensely stained (Fig. 2C, top), generally had round somata,
+and possessed
+one or two major dendrites. Only rare GABApositive cellswere found in preparations isolatedfrom VB (Fig.
+
+2C, bottom right), although small (~2 Mm), dark puncta, possibly representingsevered terminals from GABAergic nRt cell
+projections, were observed on the surfaceof the triangular somata of VB neurons. We were unsuccessfulin obtaining unambiguousimmunostaining following patch-clamp recordings.
+However, given the relatively clean separation of nuclei, demonstrated by the above immunohistochemical control experiments, we are confident that the results presentedhere reflect
+the properties of two different and relatively homogeneouspopulations of neurons.
+Caz+ currents in nRt versusVB cells
+We applied whole-cell clamp techniquesto acutely isolatedneurons, maintained under conditions where Ca2+currents are se-
+
+The Journal of Neuroscience,
+
+A
+
+October
+
+1992, 72(10)
+
+3809
+
+B
+1 second
+
+c
+
+3omv-A
+
+-ill::
+
+‘I
+0.8
+
+h,
+
+0.60.4 -
+
+120 ms
+
+-120
+
+-100
+
+HOLDING
+
+-60
+
+POTENTIAL
+
+-60
+
+-40
+
+(mV)
+
+Figure 4. Steady-state
+inactivationof Z, in nRt cells.A, Currentsobtainedwith depolarizations
+to -30 mV from differentholdingpotentials.At
+
+the top, the voltageprotocol is depicted:the holdingpotentialwasset to the indicatedholdingpotentialsfor 1 set, followedby a 10 msec
+hyperpolarizationto - 110mV that precededthe depolarizingcommandto -30 mV. The truces (bottom) arethe currentsobtainedin the interval
+betweenthe arrows in the indicatedprotocol; largestcurrentswereobtainedwith the mosthyperpolarizedpotentials.B, Normalizedcurrent
+amplitudeplotted versusholdingpotentialto obtain the h, curve for six differentnRt cells.The shadedcircles arefrom the cell in A, and the
+continuous curve is the best-fittedBoltzmannfunctionwith V;, = -80 mV andk = 5.3 mV-I. The discontinuous line is the Boltzmannfunction
+describingthe averageh, curve for IT in VB neuronswith K, = - 81 mV andk = 4.4 mV- I.
+lectively expressed,to determine whether someof the physiological differencesbetween relay neuronsand cellsof nRt could
+be due to differencesin Ca2+channels.When patch electrodes
+were filled with Tris-phosphate and the extracellular medium
+contained TEA with 3 mM CaCl,, all voltage-dependent currents evoked between -80 and +30 mV were Ca2+dependent
+asjudged by complete blockade with 1 mM extracellular Cd*+
+or 0.1 mM La3+(seebelow). The addition of TTX to the bathing
+solution produced no alteration in Ca2+current, demonstrating
+that, in contrast to hippocampalneurons(Takahashiet al., 1989)
+no Ca2+flux occurs through Na+ channelsin thalamic cells.
+In many ways, the inward Ca*+ currents of nRt cells were
+similar to thosein TCs. Small depolarizations, in the membrane
+potential (V,) range of - 30 to -40 mV, evoked rapidly activating CaZ+ currents that completely inactivated with maintained depolarization (Fig. 3A). There wasno detectablecurrent
+when the samedepolarizing commandswere applied with the
+holding potential reduced from - 1OOmVto - 50 mV. Thus, in
+nRt neurons,asin TCs, Z, is largely inactivated at normal resting
+potentials. Although a T-type current was present in each cell
+type, there were significant differencesbetween IT in nRt cells
+and TCs. At command potentials of -30 and -40 mV, the Z,
+was completely inactivated within about 110 msecin VB cells,
+compared to nearly 220 msecin nRt (Fig. 3B). In addition, the
+rate ofZTinactivation in VB cellswasvoltage dependent(Coulter
+et al., 1989a), such that the time constant of current decay
+becameshorter with stronger depolarizations (right traces, Fig.
+3B). By contrast, the rate of decay of T-current in nRt cellswas
+insensitive to membrane potential. Also, in nRt both the apparent activation threshold (-40 mV; Fig. 3C) and the potential
+at which the current attained peak amplitude (- 10 mV) were
+more depolarized than in VB cells (-50 mV and -30 mV,
+respectively). Finally, peak IT amplitude was larger in VB cells
+(280 f 23 pA, y1= 26) than in those of nRt (131 +- 15 pA, n
+
+= 23; two-tailed t test, p < 0.001). The differences in peak
+amplitude cannot be accounted for by cell size, sincemembrane
+area, as estimated by whole-cell capacitance,was not different
+between VB and nRt cells (16.7 f 1.1 pF, iz = 21, vs 17.1 +_
+1.2 pF, n = 19, respectively).
+In a subpopulation of nRt cells (16 out of 43) the kinetic
+properties of the transient Ca*+ current were indistinguishable
+from those of IT as seenin VB cells. It is possiblethat these
+results either were from a true subpopulation of nRt cells, or
+were due to contamination from nearby TCs, resulting from
+incomplete microdissection. With preparations obtained from
+the most anterior sectionsof thalamus, where it was possible
+to isolate nRt more completely, only cells with the slow Tcurrent were obtained. However, there are anatomical data
+(Spreafico et al., 1988) that support the existenceof more than
+one subtype of nRt cell. Therefore, it remains a distinct possibility that there is heterogeneity of IT within nRt. Interestingly,
+the two forms of Z, were mutually exclusive, that is, within a
+given cell only one type of transient Ca*+ current existed.
+of I,
+There are somesimilarities between ITSdescribedhere and the
+N-type current (IN) asdescribedin sensoryneurons (Fox et al.,
+1987) especially in terms of inactivation rate. However, there
+are clear distinctions between Zr and IN regarding the voltage
+dependenciesof both activation and inactivation. IN is activated
+by large depolarizations in the range of -20 mV to -t-30 mV,
+whereasZ, is activated between -70 and -30 mV (Fox et al.,
+1987).On the other hand, IT is steady-stateinactivated between
+- 100 and -60 mV while IN is inactivated between - 100 and
+- 30 mV. In a set of experiments designedto identify and characterize Z,, and differentiate it from Z,, we studied the voltage
+dependenceof activation and inactivation in nRt cellsand compared theseproperties to those of Z, in VB neurons.
+Steady-state
+
+inactivation
+
+3810
+
+Huguenard
+
+and
+
+Prince.
+
+Long-lasting
+
+1, in Thalamic
+
+Reticular
+
+Neurons
+
+I
+
+12 ms
+
+P
+
+0
+
+L
+-80
+
+8
+
+1
+
+a
+
+-70
+
+1
+
+’
+
+-60
+
+1
+
+*
+
+-60
+
+COMMAND
+
+10
+
+1.1
+
+-40
+
+-30
+
+-20
+
+POTENTIAL (mV)
+
+Figure5. Activation curve for IT in nRt cells. A, IT was activated with 30 msec depolarizations from - 100 mV to various potentials, and tail
+currents were obtained upon return to -80 mV. The insetdepicts currents obtained with the same protocol in a VB neuron. B, Normalized tail
+current amplitude for five different nRt cells (A is from A, measured at the latency indicated by the arrow)versus command potential. The continuous
+curve is the best-fitted squared Boltzmann curve with K, = -49 mV and k = -6.5 mV-I, and the discontinuous
+curve is the average activation
+curve for VB neurons with P’, = -59 mV and k = -5.2 mV-I.
+Voltage-dependentactivation of I,
+Since calcium currents are not characterized by a true reversal
+potential, it is not practical to obtain normalized activation
+curves by plotting conductance(current divided by driving force)
+versus voltage. An alternate approach is to step depolarize to
+command potentials in the activation range for ITSand, at a
+fixed latency near peak current, repolarize to a hyperpolarized
+potential outside the activation range, and then measuretail
+current amplitude. The currents thus obtained reflect the channels activated during the depolarization, and sincethe tail potential is fixed, currents can be normalized to maximum and
+plotted versus command potential to generate an activation
+curve. To study ITSin nRt cells, 30 msecdepolarizing commands
+were applied and tail currents were obtained at -80 mV (Fig.
+54). The most depolarized commands produced nearly overlapping tail currents, indicating that activation was at or near
+saturation. With further depolarizations, tail currents were contaminated by IL, so it was not possibleto obtain maximal activation of ITSin isolation. In Figure 5B, upright triangles represent normalized tail current amplitude for the cell in Figure
+5A, and the continuous line is the best-fitted squaredBoltzmann
+curve (Eq. l), with k = -8.4 mV-I, K,?= -49 mV, and N =
+2. The activation of ITSwas nearly complete at -20 mV, which
+further differentiates it from IN. Activation of Z=in VB cells,
+measuredwith the sameprotocol, occurred at significantly less
+depolarized levels (Fig. 5A, inset; B, discontinuous line; Table
+
+Steady-stateinactivation was investigated with standardprotocols. The holding potential was set to -60 mV, and depolarizations to - 30 mV were repeatedat regular intervals (10 set).
+A 1 set prepulseat potentials in the rangeof - 110 to -40 mV
+precededeach depolarization. ITSwas largestwith the most hyper-polarizedprepotentials and becamesmallerasthe prepotentials were made lessnegative (Fig. 4A). The rate of decay of ITS
+was not affected by the amplitude of the current, providing
+evidencethat a singlepopulation of channelsunderliesthe wholecell current. Current amplitude, normalized to maximum, is
+plotted as the shadedcircles in the h, curve in Figure 4B. The
+solid line is the best-fitted Boltzmann function
+-=Z
+Zmax
+
+l + exp(kkv~,*~)
+i
+
+N2
+
+(l)
+
+i
+
+with k = 5.3 mV-r, V, = -80 mV, I,,,,, = 164 pA, and n = 1.
+Normalized data from five other nRt cells are also included in
+Figure 4B. The discontinuous line is the average Boltzmann
+curve for steady-stateinactivation of IT in VB cells, and is quite
+similar to the nRt data. Group data verified that V, is not
+different between the two cell types, but showedthat the slope
+is slightly steeperfor IT than for ITS(Table 1). Thus, by this
+criterion, ITSis much more similar to IT than to IN.
+Table
+
+1.
+
+Steady-state
+
+inactivation
+
+Activation
+nRt
+
+VI,, (mv)
+Slope (mV-I)
+
+and activation
+
+parameters
+
+Inactivation
+nRt
+
+(m,)
+
+-50 k 2.3 (6)*
+-7.4 + 1.1 (6)
+
+for ZTa versus
+
+VB
+-59 k 1.7 (30)
+-5.2 +- 0.5 (30)
+
+IT
+
+(h,)
+
+-78 f 0.7 (20)
+5.0 k 0.2 (20)*
+
+Currents were evoked using the protocols given in the methods. Values are results of best-fitted
+with n = 2 for activation and n = 1 for inactivation.
+* Two tailed t test, p < 0.05 compared to VB.
+
+Numbers
+
+of cells are given in parentheses.
+
+VB
+-81 k 1.2(25)
+4.4 + 0.2 (20)
+curves to equation
+
+1
+
+The Journal
+
+0
+-23
+
+0
+
+mV
+
+110 ms
+
+of Neuroscience,
+
+October
+
+I
+
+I
+
+I
+
+0.5
+
+1.0
+
+1.5
+
+1992,
+
+12(10)
+
+3811
+
+1
+2.0
+
+RECOVERY PERIOD (set)
+
+D
+800
+
+1
+
+1
+
+-
+
+COMvli~D
+-100
+
+I
+
+/t
+
+'I
+
+1
+
+.
+
+1
+
+I
+
+JO
+
+-60
+-40
+-20
+POTENTIAL (mv)
+
+Figure 6. Voltage-dependent kinetics for Zr activation and inactivation in nRt neurons. A, Representative traces with overlaid m*hHodgkinHuxley fitted curves.In the inset,semilog graphs are shown for both the current traces and the fitted curves. Fitting parameters at -48, -41, and
+-23 mV were 10, 6.6, and 3.7 msec for r, and 100, 97, and 89 msec for TV B, Recovery from inactivation for IT. The holding potential was set
+to -40 mV, and 50 mV hyperpolarizations of incrementing duration were applied. IT peak amplitude was measured upon return to -40 mV. The
+recovery curve followed a monoexponential time course, best fitted with a time constant of 570 msec. C, Voltage dependence of 7,. Opencircles
+(0) are from the results of least-squares fitted curves as in A (5-11 cells at each point). Solid circles(0; n = 4) are from fitted exponential decay
+curves of tail currents (see Fig. 5) obtained at different potentials. T, was determined as 2 x rtll,. The discontinuous
+line is r, for Zr in VB cells.
+Error barsare SEM. D, Voltage dependence of rh. Solidcircles(left axis; n = 4-6) are from recovery from inactivation as in B, while opencircles
+(right axis:n = 5-l 1) are rates of inactivation from fitted current traces as in A. Note differences in vertical scale. Voltage dependence of r1 for VB
+is indicated by the discontinuous
+line.
+1). Because some inactivation
+occurs during the depolarizing
+command step, tail current amplitudes do not directly provide
+the activation curve, especially for Z, sinceit decaysrapidly in
+comparison to the step duration. Even taking this into account,
+Z, activated with a lower threshold and wascompletely activated
+at lessdepolarized potentials when compared to Z,,.
+
+Voltage-dependentkinetics of Z,,
+As demonstrated in Figure 3, one of the major differencesbetween IT and Z,, is the rate of inactivation. To examine further
+the voltage dependenceof activation and inactivation rates for
+Z,,, transient Ca*+currents, isolatedasin the methodsof Figure
+3B, were fitted with the following curve (basedon Hodgkin and
+Huxley, 1952):
+I,=[1
+
+- exp(-:)I
+
+x exp(-k)
+
+x Z,,
+
+(2)
+
+where t is time, T/,is the inactivation time constant, T, is the
+activation time constant, and Z, is an amplitude scalingfactor.
+Evoked current decay curves, plotted on a semiloggraph, were
+parallel (Fig. 64 inset), indicating that the inactivation time
+constant, rh, was nearly independent of membranepotential in
+the range of -60 to -20 mV (open symbols, Fig. 60). This
+contrasts sharply with the values for VB neurons (Fig. 60, discontinuous line), which are highly voltage dependent,decreasing
+from 60 to 30 msec in the samevoltage range. The time- and
+voltage-dependent process of recovery from inactivation (or
+deinactivation), which controls the return of availability of
+channels subsequentto inactivation and is thus an important
+factor in determining the rate of repetitive LTS generation in
+TCs (Llinas and Jahnsen,1982; Coulter et al., 1989a),wasquite
+slow for Z,,, with a time constant near 600 msec at -90 mV
+(Fig. B;D, solid symbols) compared to 350 msec for Z, in VB
+cells. Activation time constants (open circles, Fig. 6C) were
+
+3812
+
+Huguenard
+
+and Prince
+
+l
+
+Long-lasting
+
+IT in Thalamic
+
+Reticular
+
+Neurons
+
+nRt
+
+A
+
+VB
+
+Ba
+d
+J
+
+60 ms
+
+E
+
+“Ba
+
+C
+
+COMMAND
+-60
+
+-40
+
+POTENTIAL (mV>
+-20
+0
++20
++40
+
+D
+
+COMMAND
+-60
+
+-40
+
+POTENTIAL (mv)
+-20
+
+0
+
++20
+
++40
+
+Figure
+7. Barium as a charge carrier for Zr and I,,. A, Voltage-inactivated current in an nRt cell with 3 mM Ca2+ or 3 mM Ba2+ as the charge
+carrier. In these cells, the current was larger with Ba*+ than Ca *+. The currents traces were obtained as in Figure 3B. B, In VB neurons, with
+depolarizations positive to -50 mV, I, was smaller with Ba2+ than with Ca2+. C and D, I-V curves for the voltage-inactivated current in nRt
+and VB.
+
+from current tracesfitted to Equation 2 asin Figure
+6A, and deactivation rate was obtained by fitting a single exponential decay curve to the tail currents. SinceZ,, inactivation
+is relatively slow (Fig. 60), the rapid tail currents at hyperpolarized potentials represent reversal of the activation process
+(deactivation) rather than inactivation, and assumingm% kinetics, the time constant of deactivation (Fig. 6C, solid circles)
+was estimated as two times the tail current time constant (Ray
+and Wong, 1987). The values of 7, for VB neurons are given
+as the discontinuous curve in Figure 6C. In both cell types
+activation kinetics are characterized by a bell-shapedvoltage
+dependence,with time constant values ranging from 2 to 15
+msec. However, the peak af the curve is shifted by approximately +20 mV in nRt cells,sothat in the LTS generationrange
+of -60 to -40 mV, activation is approximately twice as fast
+in VB compared to nRt.
+
+determined
+
+Barium as a charge carrier for I,
+For many L- or high-voltage-activated (HVA) type Ca*+ channels, BP+ is a more permeant charge carrier than Caz+, so
+
+currents are significantly larger when Ba*+ is used(Fedulova et
+al., 1985;Carboneand Lux, 1987a,b,Fox et al., 1987).However,
+for T-currents, peak amplitude tends to be either comparable
+or slightly smaller when Ca*+ is replaced with Ba*+ (Fedulova
+et al., 1985; Carbone and Lux, 1987a,b; Fox et al., 1987). In
+nRt cells, substitution of 3 mM [Ba*+lo for [Ca*+], resulted in
+significantly larger ZTs(Fig. 7A, Table 2). At all potentials between -40 and 0 mV, ZBawas greater than I,, but there was
+little changein the kinetics of the current. In contrast, the transient current in VB cells was reduced by Ba*+ at potentials
+between -40 and 0 mV, and was slightly enhancedat - 50 mV
+(Fig. 78). In addition, the rate of IT. decay in VB cells was
+increasedin BaZ+(Fig. 7B). Since ZTdecay rate is voltage dependent(i.e., becomesfaster with depolarization), thesefindings
+are consistent with an presumedreduction in the transmembrane electric field resulting from lesseffective screeningcharge
+(Frankenhaeuserand Hodgkin, 1957) produced by Ba2+compared to Ca2+.The screeningcharge difference would result in
+reduction in current amplitude by reducing the steady-state
+availability of ZTchannels(seeFig. 6), and in fact the steady-
+
+The Journal of Neuroscience,
+
+nRt
+
+October
+
+1992, 72(10)
+
+3813
+
+VB
+
+Cadmium
+0.2 mM
+40ms
+
++
+%/r,
+
+Amiloride
+0.5 mM
+
+-1
+
+Figure 8. Pharmacology of I, in thalamic neurons. T-currents were evoked by depolarizing to -40 from - 100 mV, while L-currents were evoked
+by depolarizing from - 50 to + 10 mV. An asterisk (*) marks currents obtained while drugs were applied. Where two control traces are present
+(CdZ+ and amiloride), one was obtained after drug application. Calibration for T-current in top left panel applies for all T-currents, while for Lcurrents 200 pA is the vertical calibration.
+
+nRt
+
+Figure 9. Continued Ic, pharmacology with w-CgTx, MPS, and lanthanum. The protocols and calibration
+
+bars are the same as in Figure 8.
+
+3814
+
+Huguenard
+
+and
+
+Prince
+
+* Long-lasting
+
+1, in Thalamic
+
+Reticular
+
+Neurons
+
+Table 2. Ca*+ current pharmacology in nRt versus VB neurons
+T-current
+
+L-current
+
+nRt
+Cd2+ > 0 . 2 mM
+NiZ+, 0.1 mM
+Ni*+ > 0 .2 mM
+La”, 0.1 mh4
+Amiloride,
+0.5 mM
+w-CgTx,
+0.5 /.LM
+Ba2+, 3 mM
+MPS, 3 mM
+Bay E9736, 1 PM
+Bay K8644,
+1 WM
+
+39
+66
+46
+3.3
+59
+102
+150
+47
+99
+114
+
+VB
+Ifr.
+*
+k
++
++
++
++
+f
+k
+?
+
+2.0
+6.4
+6.4
+0.8
+13
+4.8
+14
+0.7
+1.4
+5.2
+
+(3)
+(2)
+(2)*
+(2)
+(2)
+(3)
+(7)***
+(2)
+(4)
+(5)
+
+35
+57
+34
+1.0
+62
+98
+66
+48
+100
+102
+
+nRt
++
+f
+f
+f
+k
+k
+k
+*
+*
+*
+
+1.5 (5)
+3.3 (4)
+1.9 (4)
+1.2 (3)
+2.6 (3)
+2.8 (2)
+6.4 (5)
+1.2 (4)
+0 (2)
+2.8 (2)
+
+3.0
+82
+66
+4.5
+96
+82
+100
+71
+88
+139
+
+VB
+t-t
+*
+zk
+k
++
+?z
+f
++
++
+
+0.2 (3)j”j.j.
+5.7 (2)
+6.4 (2)
+2.1 (2)
+2.8 (2)
+12 (3)
+11 (7)T
+1.4(2)jq
+3.4 (4)T
+12(5)
+
+3.6
+84
+64
+3.3
+99
+82
+106
+76
+85
+164
+
+f
+f
+f
+2
+k
+k
+&
++;
+k
+-t
+
+1.7
+2.5
+4.2
+0.8
+1.1
+2.0
+9.1
+3.2
+7.1
+24
+
+(5)~t
+(4)jj-t
+(4)tj-f
+(3)
+(3)Ti-t
+(2)-f
+(3)tt
+(4)jj-f
+(2)
+(2)
+
+Currents were evoked using the protocols given in the methods. Values are peak current amplitude expressed as a
+percentage of control, and represent average * SEM. Numbers of cells are given in parentheses. Two tailed t-test: *p <
+0.05; ***p< 0.001, compared to VB; tp i 0.05, j-tp < 0.01, j-/$ < 0.001 compared to T-current within the same cell
+type.
+
+state inactivation curve was shifted by -6.6 f 0.9 mV (n = 7)
+in the presenceof BaZ+. However, maximum IT amplitude was
+still smaller with Ba*+ compared to Ca2+,even when all command potentials were hyperpolarized to compensate for this
+shift (not shown;n = 3). Therefore, Z,, haspermeationproperties
+that are more similar to Z, than to IT- Thesedifferencesin wholecell current may be due to various single-channelmechanisms
+including higher channel conductanceor altered kinetic parameters such as higher open probability or open duration.
+Pharmacology of I, in nRt versus VB cells
+Apart from the kinetic differencesdiscussedabove, ITSin nRt
+cells is similar to Z, in relay neurons since both are transient,
+low-voltage-activated currents, but ITSalso shows some similarity to the “N’‘-current, sinceZ, activates at a higher threshold
+than Z,, but showsslow inactivation (Fox et al., 1987).However,
+a number of pharmacologicaldifferenceswere presentbetween
+Z, and the slower currents (I, and I,; Fox et al., 1987)activated
+with stronger depolarizations, which allows a clear differentiation between theseseparateconductances.For example, Z, and
+IL are sensitive to blockade by Cd2+(Fox et al., 1987),but both
+Z, and ITSwere relatively sparedby concentrations of Cd2+that
+eliminated Z, in thalamic neurons(Fig. 8, Table 2). On the other
+hand, Ni*+ (100-200 PM), which is a somewhatselectiveblocker
+of Z,, produced similar reductions in ZTr,yet had smaller effects
+on Z, (Fig. 8). Therefore, Z,, is more similar to Z, than to Z, in
+terms of its sensitivity to divalent blockers. Another agent that
+can be used to differentiate between various Ca2+ currents is
+amiloride (Tang et al., 1988). At a concentration of 0.5 mM, it
+reversibly blocked both Z, and I,,, but had little effect on IL in
+either cell type (Fig. 8).
+One of the hallmarks of N-current is sensitivity to w-CgTx.
+This cone snail peptide toxin (Olivera et al., 1985) producesa
+potent and irreversible block of N-type calcium current, and
+may inhibit IL aswell (McCleskey et al., 1987). To differentiate
+further between IT and IN, the applications of 0.5 PM w-CgTx
+were tested and found to result in a rapid, partial, and irreversible block of Z, in both nRt and VB cells (Fig. 9), while Z,
+and ITSwere unaffected in both cell types. Succinimide anticonvulsants produce a relatively selectiveblockade of Z, in VB cells
+(Coulter et al., 1989b, 1990), and we therefore tested the effects
+of one such agent on Ca2+currents in nRt. Methylphenylsuc-
+
+cinimide (MPS; 3 mM; Fig. 9) reduced both Z, and Z,, by approximately 50% (Table 2), while Z, was reduced by only 25%.
+Dihydropyridines, which are somewhatselective in their effects
+on Z, (Fox et al., 1987; Takahashi and Akaike, 1991) were
+relatively ineffective in depressingthe transient currents in thalamic cells.Nimodipine (Bay E9736; nominally 1 PM) produced
+smallreversible reductions in L-current in both cell types (Table
+2), while sparing I,. The small reductions (lo-15%) in “L”currents by either dihydropyridines or w-CgTx are similar to
+the incomplete blockade seenin cerebellar Purkinje cells and
+hippocampal CA1 neurons (Regan et al., 1991). The calcium
+channel agonist Bay K8644 enhancedIL but not Z, in VB cells
+(Table 2). However, its effectswere slightly lessselective in nRt
+cells, where, in addition to the augmentation of IL, Bay K8644
+produced a slight enhancement of ITS(114% of control; Table
+2).
+In isolated nRt cells, ITSwas quite stable, like IT in VB cells,
+and unlike IL, which washesout during prolonged recording.
+With the inclusion of the ATP regeneration system (seeMaterials and Methods) in the pipette solution, Z, becamelesslabile.
+However, the amplitude of IL did typically increaseto a maximal
+level during the first 5-10 min of recording and then gradually
+wash out for the remainder of the experiment, while both ITS
+and Z, maintained a fairly constant peak amplitude throughout
+the recording. A further similarity between the two forms of IT
+was that both were apparently insensitive to Ca*+-dependent
+inactivation. While IT is relatively insensitive to intracellular
+Ca*+ concentration (Carbone and Lux, 1987a), HVA currents
+are reducedby either elevated [Ca2+],(Carboneand Lux, 1987a)
+or reduced Ca2+-bufferingcapacity (Meyers and Barker, 1989).
+Both IT and I,, persistedduring recordings made with [Caz+li
+elevated to 0.5 PM, while IL waseither greatly reducedor absent
+(n = 6). To summarize, the pharmacology and metabolic properties of ITSare very similar to IT and quite distinct from those
+of Z, and I,.
+Discussion
+Identity of I,
+BecauseITSwas larger in Ba*+ than Caz+and inactivated slowly
+and in a voltage-independent manner, we considered that it
+might be the sameas the N-current seenin chick dorsal root
+ganglion (DRG) cells (Fox et al., 1987). However, nearly every
+
+The Journal
+
+test that we applied demonstrated that ITSwas a distinct current.
+Whereas Z, is blocked by w-CgTx and Cd2+ (Fox et al., 1987)
+Z,, was much less affected. The gating of ITSand IN is also different
+in that the voltage range of activation of IN is broader and more
+depolarized than for I,,, and steady-state inactivation of ITS
+occurs at more negative potentials. Both Z, and IN appear to
+depend on intracellular factors that “wash out” during wholecell recordings made without ATP in the patch electrode solution (Fedulova et al., 1985; Forscher and Oxford, 1985; Meyers
+and Barker, 1989; Ryu and Randic, 1990), and HVA currents
+are decreased when intracellular Ca*+ buffering is reduced (Carbone and Lux, 1987a,b; Meyers and Barker, 1989). By contrast,
+ITSwas quite stable (like IT) during whole-cell recordings even
+with elevated [Ca*+],. We conclude that ITS is not the same as
+IN in the traditional sense. Furthermore, I,, is different from
+two other voltage-gated CaZ+ currents, I, (Carbone and Lux,
+1987a; Fox et al., 1987) and IP (Llinas et al., 1989) in that these
+currents are activated at higher thresholds and are only very
+slowly inactivating.
+On the other hand, there were similarities between IT in relay
+neurons and Z,, in neurons of the nRt. Both currents were selectively blocked by Ni2+, amiloride, and MPS and were resistant to w-CgTx and dihydropyridines.
+In addition, steady-state
+inactivation properties were similar. However, I,, was not identical to Z, in that there were differences in voltage-dependent
+activation, voltage-dependent inactivation rate, and Ba2+:Ca2+
+permeability ratio. The voltage insensitivity of inactivation of
+ITSstands in striking contrast to the voltage dependency of inactivation of macroscopic T-currents in cells from a diverse
+group of other preparations (rat and chick DRG: Carbone and
+Lux, 1987a,b; Fox et al., 1987; rat somatosensory thalamus:
+Coulter et al., 1989a; rat cerebellum: Kaneda et al., 1990; rat
+hippocampus: Takahashi et al., 199 1; guinea pig olfactory cortex: Constanti et al., 1985; rat sensorimotor cortex: Sayer et al.,
+1990; neuroblastoma cells from mouse and man: Narahashi et
+al., 1987; Carbone et al., 1990; fibroblasts: Chen and Hess, 1990;
+pituitary gonadotrophs: Mason and Sikdar, 1989; canine cardiac
+Purkinje cells: Hirano et al., 1989; guinea pig ventricular cells:
+Droogmans and Nilius, 1989). Furthermore, in experiments
+where permeation properties for IT have been analyzed, Ba is
+either equally or less effective as a charge carrier than Ca (Bossu
+et al., 1985; Fedulova et al., 1985; Carbone and Lux, 1987a,b,
+Fox et al., 1987; Tsien et al., 1987; Droogmans and Nilius,
+1989; Hirano et al., 1989; Carbone et al., 1990; Takahashi et
+al., 199 1; but see Yoshii et al., 1988). These differences justify
+designation of the transient Ca2+ current in nRt as a new subtype
+of T-current that we have termed I,,.
+The elucidation of the molecular mechanisms underlying the
+macroscopic differences in ITSand IT will require single-channel
+recordings. The inactivation rate of single T-channels is voltage
+independent (Carbone and Lux, 1987b; Droogmans and Nilius,
+1989; Chen and Hess, 1990), and the voltage-dependent decay
+of ensemble macroscopic current is actually the result of a voltage-dependent channel opening step and a voltage-dependent
+single-channel burst duration. The lack of voltage-dependent
+macroscopic inactivation suggests that there are fundamental
+differences in the gating properties of I,, compared to I,.
+Functional implications
+The unique properties of ITS have important consequences for
+thalamic function. Because the rate of ITS inactivation is slow
+(Th = 90 msec) and voltage independent, the resulting LTS, which
+
+of Neuroscience,
+
+October
+
+1992,
+
+12(10)
+
+3815
+
+serves as the generator potential for bursts of Na+ spikes, is less
+self-limiting than in relay neurons, where the depolarization
+induced by the LTS speeds inactivation of T-current. Thus,
+spike bursts are relatively prolonged in nRt cells, and as a consequence large IPSPs with prominent K+-mediated GABA,
+components will be produced in TCs. Intracellular recordings
+in TCs have shown that deinactivation of T-channels requires
+prolonged hyperpolarization (- 100 ms; Jahnsen and Llinh:
+1984; Coulter et al., 1989a). Therefore, these large IPSPs, especially the K+-mediated components, would facilitate rebound
+LTSs. Because of the reciprocal connections with cortex and
+nRt, bursts in excitatory efferents from TCs to nRt and cortex
+that result from such LTS generation can promote a reverberatory rhythm. Therefore, burst firing in nRt, mediated by I,,,
+may be a critical factor in initiating intrathalamic and thalamocortical oscillations. Succinimide anticonvulsants,
+which
+block Z, in VB neurons (Coulter et al., 1989b, 1990), are also
+effective in reducing ITSin nRt. These two cellular actions may
+contribute to the clinical efficacy of these agents in petit ma1
+epilepsy. Since burst firing in nRt is thought to be critical for
+thalamocortical synchronization, reduction in burst firing through
+blockade of I,, would be expected to have antiepileptic effects.
+The results of in vivo experiments support of this hypothesis.
+Ethosuximide, a compound in the succinimide class, reduces
+burst firing frequency and increases tonic firing in nRt at the
+cellular level, while at the same time reducing both intrathalamic
+and thalamocortical synchronization at the circuit level (Pellegrini et al., 1989).
+The smaller amplitude of I,, and higher voltage for activation
+might reduce the likelihood of obtaining an LTS in nRt cells
+compared to TCs; however, input resistance tends to be higher
+in nRt neurons (McCormick
+and Prince, 1986) than in TCs,
+and this may counter both effects. The rate of deinactivation of
+I,, is relatively slow (time constant - 600 msec at -90 mV,
+23°C; Fig. 60). If we assume a temperature coefficient of 3
+(Coulter et al., 1989a), the resultant time constant would be
+approximately 135 msec at 37°C. This would be sufficiently
+rapid to allow significant (52-65%) recovery of ZTr within the
+intraspindle frequency (7-10 Hz), and thus maintain a prolonged rhythm.
+Since the rate of activation of ITS is somewhat slower than
+that for I, (Fig. 6C), the current will peak later in nRt cells than
+in TCs. This may partially explain the acceleration in spike
+frequency within the early portions of nRt bursts seen in vivo
+(Domich et al., 1986; Pellegrini et al., 1989), since maximal
+frequency should occur near the time of peak I,, activation. The
+slowing of spike frequency observed late in the burst in vivo
+(Domich et al., 1986) is probably due to the slow inactivation
+of ITS. This same burst pattern (early acceleration followed by
+late deceleration) can also be observed in vitro, although this is
+not clearly shown in the compressed time base of Figure 1.
+Interestingly, since ITSactivates at more depolarized levels than
+Z, (Fig. 5B), in the absence of confounding differences in other
+ionic conductances, the threshold for LTSs should then be relatively depolarized in nRt.
+One prediction from these findings (see Fig. 7) is that BaZ+
+substitution for Ca*+ should produce conditions whereby burst
+firing is selectively promoted in nRt compared to relay nuclei
+within thalamic slices because ITSwould be enhanced while Z,
+is inhibited. This effect would be somewhat complicated by the
+effects of Ba z+ on CaZ+ channel inactivation (Fedulova et al.,
+1985; Carbone and Lux, 1987a; Meyers and Barker, 1989) and
+
+3818
+
+Huguenard
+
+and
+
+Prince
+
+* Long-lasting
+
+1, in Thalamic
+
+Reticular
+
+Neurons
+
+K+ channel blockade (Kmjevic
+et al., 1971). However, given
+the marked enhancement
+of ITS by Ba*+ (-200%
+increase; see
+Fig. 7), cell-specific differences should still be apparent.
+The results of this comparison
+of T-current
+in nRt and VB
+provide further evidence supporting the hypothesis that neurons
+with different functional roles within a circuit are likely to have
+different biophysical
+properties, determined
+at least in part by
+quantitative
+and/or qualitative differences in voltage-dependent
+ion channels. For example, many interneurons
+in the hippocampus and neocortex are capable of firing at higher frequencies
+than pyramidal
+cells (Schwartzkroin
+and Mathers, 1978; McCormick et al., 1985), an observation
+that can be explained in
+part by both the lack of A-current
+(Hamill et al., 1991) and
+Ca*+-dependent
+afterpotentials
+(McCormick
+et al., 1985) in intemeurons. Deciphering
+the functional implications
+of the large
+numbers of diverse channel subtypes described in recent studies
+(e.g., K+: Rudy, 1988; Reinhart et al., 1989; Stiiihmer
+et al.,
+1989; Na+: Noda et al., 1986; Auld et al., 1988; Trimmer
+and
+Agnew, 1989; Ca*+: Miller,
+1987; Hui et al., 1991; Snutch et
+al., 199 1) may seem an overwhelming
+task. However, data such
+as those presented here suggest that, when other variables such
+as the neurons’ receptor subtypes, transmitter
+phenotype, and
+position in the circuit are taken into account, even subtle differences between channel species can be shown to have a clear
+functional role within the rich fabric of the brain.
+
+References
+Auld VJ, Goldin AL, Krafte DS, Marshall J, Dunn JM, Catterall WA,
+Lester HA, Davidson N, Dunn RJ (1988) A rat brain Na+ channel
+o( subunit with novel gating properties. Neuron 1:44946 1.
+Avanzini G, deCurtis M, Panzica F, Spreafico R (1989) Intrinsic properties of nucleus reticularis thalami neurones of the rat studied in
+vitro. J Physiol (Lond) 416:111-122.
+Blanton MG. Lo Turco JJ. Krieestein AR (1989) Whole cell recordine
+from neurons in slices of re&lian and mammalian cerebral cortex.
+J Neurosci Methods 30:203-2 10.
+Bossu JL, Feltz A, Thomann JM (1985) Depolarization elicits two
+distinct calcium currents in vertebrate sensory neurons. Pfluegers Arch
+403:360-368.
+Carbone E, Lux HD (1987a) Kinetics and selectivity of a low-voltageactivated calcium current in chick and rat sensory neurones. J Physiol
+(Lond) 386:547-570.
+Carbone E, Lux HD (1987b) Single low-voltage-activated
+calcium
+channels in chick and rat sensory neurones. J Physiol (Lond) 386:
+571-601.
+Carbone E, Sher E, Clementi F (1990) Ca Currents in human neuroblastoma IMR32 cells: kinetics, permeability and pharmacology.
+Pfluegers Arch 416:170-179.
+Chen C, Hess P (1990) Mechanism of gating of T-type calcium channels. J Gen Physiol 96:603-630.
+Constanti A, Galvan M, Franz P, Sim JA (1985) Calcium-dependent
+inward currents in voltage-clamped guinea-pig olfactory cortex neurones. Pfluegers Arch 404:259-265. Coulter DA. Hueuenard JR. Prince DA (1989a) Calcium currents in
+rat thalamocoAica1 relay neurones: kinetic properties of the transient,
+low-threshold current. J Physiol (Lond) 414:587-604.
+Coulter DA, Huguenard JR, Prince DA (1989b) Characterization of
+ethosuximide reduction of low-threshold calcium current in thalamic
+neurons. Ann Neurol 25:582-593.
+Coulter DA, Huguenard JR, Prince DA (1990) Differential effects of
+petit ma1 anticonvulsants and convulsants on thalamic neurones: calcium current reduction. Br J Pharmacol 1003800-806.
+Crunelli V, Lightowler S, Pollard CE (1989) A T-type Ca2+ current
+underlies low-threshold Ca2+ potentials in cells of the cat and rat
+lateral geniculate nucleus. J Physiol (Lond) 413:543-56 1.
+Deschenes M, Roy JP, Steriade M (1982) Thalamic bursting mechanism: a slow inward current revealed by membrane hyperpolarization. Brain Res 239:289-293.
+Domich L, Oakson G, Steriade M (1986) Thalamic burst patterns in
+
+the naturally sleeping cat: a comparison between cortically projecting
+and reticularis neurones. J Physiol (Lond) 379:429-449.
+Droogmans G, Nilius B (1989) Kinetic properties of the cardiac Ttype calcium channel in the guinea-pig. J Physiol (Lond) 419:627650.
+Dutar P, Nicoll RA (1988) A physiological role for GABA, receptors
+in the central nervous system. Nature 332: 156-l 58.
+Fedulova SA, Kostyuk PG, Veselovsky NS (1985) Two types of calcium channels in the somatic membrane of new-born rat-dorsal root
+gandian neurones. J Phvsiol (Land) 359:431446.
+Fo&&er P, Oxford GS (1985) Modulation of calcium channels by
+norepinephrine in internally dialyzed avian sensory neurons. J Gen
+Physiol 85:743-763.
+Fox AP, Nowycky MC, Tsien RW (1987) Kinetic and pharmacological
+properties distinguishing three types of calcium currents in chick sensory neurons. J Physiol (Lond) 394: 149-l 72.
+Frankenhaeuser B, Hodgkin AL (1957) The action of calcium on the
+electrical properties of squid axons. J Physiol (Lond) 137:2 18-244.
+Hamill OP, Marty A, Neher E, Sakmann B, Sigworth FJ (198 1) Improved patch-clamp techniques for high-resolution current recording
+from cells and cell-free membrane patches. Pfluegers Arch 391:85100.
+Hamill OP, Huguenard JR, Prince DA (199 1) Patch clamp studies of
+voltage gated currents in identified neurons of the rat cerebral cortex.
+Cereb Cortex 1:48-6 1.
+Harris RM. Hendrickson AE (1987)
+\
+, Local circuit neurons in the rat
+ventrobasal thalamus-a GABA immunocytochemical
+study. Neuroscience 21~229-236.
+Hemandez-Cruz A, Pape H-C (1989) Identification of two calcium
+currents in acutely dissociated neurons from the rat lateral geniculate
+nucleus. J Neurophysiol 61:270-1283.
+Hirano Y, Fozzard HA, January CT (1989) Characteristics of L- and
+T-type Ca2+ currents in canine cardiac Purkinje cells. Am J Physiol
+256:H1428-H1492.
+Hodgkin AL, Huxley A F (1952) A quantitative description of memb&e current and its application to conduction and excitation in
+nerve. J Phvsiol (Land) 117:500-544.
+Huguenard JR, Prince DA (199 1) An unconventional transient Ca
+current in GABA-ergic neurons of rat thalamic reticular nucleus. Sot
+Neurosci Abstr 171342.
+Hui A, Ellinor PT, Krizanova 0, Wang J-J, Diebold RJ, Schwartz A
+(199 1) Molecular cloning of multiple subtypes of a novel rat brain
+isoform of the (Y,subunit of the voltage-dependent calcium channel.
+Neuron 7~35-44
+Jahnsen H, Llinas R (1984) Electrophysiological properties of guineapig thalamic neurones: an in vitro study. J Physiol (Lond) 349:205226.
+Jones EG (1985) The thalamus. New York: Plenum.
+Kaneda M, Wakamori M, Ito C, Akaike N (1990) Low-threshold
+calcium current in isolated Purkinje cell bodies of rat cerebellum, J
+Neurophysiol 63: 1046-l 05 1.
+Kay AR, Wong RKS (1986) Isolation of neurons suitable for patchclamping from adult mammalian central nervous systems. J Neurosci
+Methods 16:227-238.
+Kay AR, Wong RKS (1987) Calcium current activation kinetics in
+isolated pyramidal neurones of the CA1 region of the mature guineapig. J Physiol (Lond) 392:603-6 16.
+Krnjevic K, Pumain R, Renaud L (197 1) Effects of Ba*+ and tetraethylammonium on cortical neuron&. J Physiol (Lond) 2 15:223-245.
+Llinls RR. Geiio-Banientos
+E (1988) In vitro studies of mammalian
+thalamic and”reticularis thalami neurons. In: Cellular thalamic mechanisms (Bentivoglio M, Spreafico R, eds), pp 23-33. Amsterdam:
+Excerpta Medica.
+Llinbs R, Jahnsen H ( 1982) Electrophysiology of mammalian thalamic
+neurones in vitro. Nature 297:406408.
+Llinh R, Sugimori M, Lin J-W, Cherksey B (1989) Blocking and
+isolation of a calcium channel from neurons in mammals and cephalopods utilizing a toxin fraction (FIX) from funnel-web spider poison. Proc Nat1 Acad Sci USA 86:‘1689-1693.
+Mason WT. Sikdar SK (1989) Characteristics of voltaee-eated CaZ+
+currents in ovine gonadotrophs. J Physiol (Lond) 415:36?-39 1.
+McCleskey EW, Fox AP, Feldman DH, Cruz LJ, Olivera BM, Tsien
+RW, Yoshikami D (1987) Omega-conotoxin: direct and persistent
+blockade of specific types of calcium channels in neurons but not
+muscle. Proc Nat1 Acad Sci USA 84:4327--133 1.
+
+The Journal of Neuroscience,
+
+McCormick DA, Prince DA (1986) Acetylcholine induces burst firing
+in thalamic reticular neurones by activating a potassium conductance.
+Nature 3 19:402-405.
+McCormick DA, Connors BW, Lighthall JW, Prince DA (1985) Comparative electrophysiology of pyramidal and sparsely spiny stellate
+neurons of the neocortex. J Neurophysiol54:782-805.
+Meyers DE, Barker JL (1989) Whole-cell patch-clamp analysis of voltage-dependent calcium conductances in cultured embryonic rat hippocampal neurons. J Neurophysiol61:467-477.
+Miller RJ (1987) Multiple calcium channels and neuronal function.
+Science 235~46-52.
+Morison RS, Bassett DL (1945) Electrical activity of the thalamus and
+basal ganglia in decorticate cats. J Neurophysiol 8:309-314.
+Mulle C, Steriade M, Deschenes M (1985) Absence of spindle oscillation in the cat anterior thalamic nuclei. Brain Res 334:2 169-2 17 1.
+Mulle C, Madariaga A, Deschenes M (1986) Morphology and electrophysiological properties of reticularis thalami neurons in cat: in
+vivo study of a thalamic pacemaker. J Neurosci 6: 134-145.
+Narahashi T, Tsunoo A, Ace M (1987) Characterization of two types
+of calcium channels in mouse neuroblastoma cells. J Physiol (Lond)
+383:23 l-249.
+Noda M, Ikeda T, Kayano T, Suzuki H, Takeshima H, Kurasaki M,
+Takahashi H. Numa S (1986) Existence of distinct sodium channel
+messenger RNAs in rat brain: Nature 320: 188-l 92.
+Olivera BM, Gray WR, Zeikus R, McIntosh JM, Varga J, Rivier J, de
+Santos V, Cruz LJ (1985) Peptide neurotoxins form fish-hunting
+cone snails. Science 230: 1338-l 343.
+Otis TS, Staley KJ, Mody I (199 1) Inhibitory activity in mammalian
+brain slices generated by spontaneous release. Brain Res 545:142150.
+Pellegrini A, Dossi RC, Dal Pos F, Ermani M, Zanotto L, Testa G
+( 1989) Ethosuximide alters intrathalamic and thalamocortical synchronizing mechanisms: a possible explanation of its antiabsence effect. Brain Res 497~344-360.
+Regan LJ, Sah DWY, Bean BP (1991) Ca*+ channels in rat central
+and peripheral neurons: high-threshold current resistant to dihydropyridines and w-conotoxin. Neuron 6:69-280.
+Reinhart PH, Chung S, Levitan IB (1989) A family of calcium-dependent potassium channels from rat brain. Neuron 2: 103 l-l 04 1.
+Ribary U, Ioannides AA, Singh KD, Hasson R, Bolton JPR, Lado F,
+Mogilner A, Llinas R (199 1) Magnetic field tomography of coherent
+thalamocortical 40-Hz oscillations in humans. Proc Nat1 Acad Sci
+USA 88:11037-l 1041.
+Rudy B (1988) Diversity and ubiquity of K channels. Neuroscience
+25~729-749.
+Ryu PD, Randic M (1990) Low- and high-voltage-activated calcium
+currents in rat spinal dorsal horn neurons. J Neurophysiol 63:273285.
+Sayer RJ, Schwindt PC, Crill WE (1990) High- and low-threshold
+calcium currents in neurons acutely isolated from rat sensorimotor
+cortex. Neurosci Lett 120: 175-l 78.
+Schwartzkroin PA, Mathers LH (1978) Physiological and morphological identification of a nonpyramidal hippocampal cell type. Brain
+Res 157:1-10.
+
+October
+
+1992, 12(10)
+
+3817
+
+Shosaku A, Kayama Y, Sumitomo I, Sugitani M, Iwama K (1989)
+Analysis of recurrent inhibitory circuit in rat thalamus: neurophysiology of the thalamic reticular nucleus. Prog Neurobiol 32:77-102.
+Snutch TP, Tomlinson WJ, Leonard JP, Gilbert M (1991) Distinct
+calcium channels are generated by alternative splicing and are differentially expressed in the mammalian CNS. Neuron 7:45-57.
+Spreatico R, de Curtis M, Frassoni C, Avanzini G (1988) Electrophysiological characteristics of morphologically identified reticular
+thalamic neurons from rat slices. Neuroscience 27:629-638.
+Steriade M, Llinh RR (1988) The functional states of the thalamus
+and the associated neuronal interplay. Physiol Rev 68:649-742.
+Steriade M, Deschenes M, Domich L, Mulle C (1985) Abolition of
+spindle oscillations in thalamic neurons disconnected from nucleus
+reticularis thalami. J Neurophysiol 54:1473-1497.
+Steriade M, Domich L, Oakson G (1986) Reticularis thalami neurons
+revisited: activity changes during shifts in states of vigilance. J Neurosci 6:68-8 1.
+Steriade M, Domich L, Oakson G, Deschenes M (1987) The deafferented reticular thalamic nucleus generates spindle rhythmicity. J Neurophysiol 57:260-273.
+Sttihmer W, Ruppersberg JP, Schriiter KH, Sakmann B, Stocker M,
+Giese KP, Perschke A, Baumann A, Pongs 0 (1989) Molecular basis
+of functional diversity of voltage-gated potassium channels in mammalian brain. EMBO J 8:3235-3244.
+Suzuki S, Rogawski MA (1989) T-type calcium channels mediate the
+transition between tonic and phasic firing in thalamic neurons. Proc
+Nat1 Acad Sci USA 86~7228-7232.
+Takahashi K, Akaike N (1991) Calcium antagonist effects on lowthreshold (T-type) calcium current in rat isolated hippocampal CA1
+pyramidal neurons. J Pharmacol Exp Ther 256: 169-l 75.
+Takahashi K, Wakamori M, Akaike N (1989) Hippocampal CA1
+pyramidal cells of rats have four voltage-dependent calcium conductances. Neurosci Lett 104:229-234.
+Takahashi K, Uno S, Akaike N (1991) Kinetic properties of T-type
+Ca2+ currents in isolated rat hippocampal CA1 pyramidal neurons.
+J Neurophysiol 65:148-l 55.
+Tang C-M, Presser F, Morad M (1988) Amiloride selectively blocks
+the low threshold (T) calcium channel. Science 240:2 13-2 15.
+Trimmer JS, Agnew WS (1989) Molecular diversity of voltage-sensitive Na channels. Annu Rev Physiol 5 1:40 14 18.
+Tseng G-F, Parada I, Prince DA (1991) Double labelling with rhodamine beads and biocytin: a technique for studying corticospinal
+and other projection neurons in vitro. J Neurosci Methods 37: 12 l131.
+Tsien RW, Hess P, Nilius B (1987) Cardiac calcium currents at the
+level of single channels. Experientia 43:1169-l 172.
+Yellen G (1982) Single Ca2+-activated nonselective cation channels
+in neuroblastoma. Nature 296:357-359.
+Yoshii M, Tsunoo A, Narahashi T (1988) Gating and permeation
+properties of two types of calcium channels in neuroblastoma cells.
+Biophys J 54:885-895.
+
+
