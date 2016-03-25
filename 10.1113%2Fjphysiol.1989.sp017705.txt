@@ -1,0 +1,1142 @@
+587
+
+Journal of Physiology (1989), 414, pp. 587-604
+With 8 text-figures
+Printed in Great Britain
+
+CALCIUM CURRENTS IN RAT THALAMOCORTICAL RELAY
+NEURONES: KINETIC PROPERTIES OF THE TRANSIENT,
+LOW-THRESHOLD CURRENT
+BY DOUGLAS A. COULTER, JOHN R. HUGUENARD*
+AND DAVID A. PRINCE
+From the Department of Neurology, Stanford University Medical Center,
+Stanford, CA 94305, USA
+
+(Received 13 December 1988)
+SUMMARY
+
+1. Calcium currents were recorded with whole-cell voltage-clamp procedures in
+relay neurones of the rat thalamus which had been acutely isolated by an enzymatic
+dissociation procedure.
+2. Low-threshold and high-threshold Ca2+ currents were elicited by depolarizing
+voltage steps from holding potentials more negative than -60 mV. A transient
+current, analogous to the T-current in sensory neurones, was activated at low
+threshold near -65 mV and was completely inactivating at command steps up to
+-35 mV. Voltage steps to more depolarized levels activated a high-threshold current
+that inactivated slowly and incompletely during a 200 ms step depolarization.
+3. The high-threshold current contained both non-inactivating and slowly
+inactivating components which were insensitive and sensitive to holding potential,
+respectively.
+4. A 'T-type' current was prominent in relay neurones, in both absolute terms
+(350 pA peak current average) and in relation to high-threshold currents. The
+average ratio of maximum transient to maximum sustained current was greater
+than 2.
+5. T-current could be modelled in a manner analogous to that employed for the
+fast Na+ current underlying action potential generation, using the m3h format. The
+rate of activation of T-current was voltage dependent, with a time constant (T.)
+varying between 8 and 2 ms at command potentials of -60 to -10 mV at 23 'C. The
+rate of inactivation was also voltage dependent, and the time constant Th varied
+between 50 and 20 ms over the same voltage range. With command potentials more
+positive than -35 mV, the inactivation of Ca2+ current could no longer be fitted by
+a single exponential.
+6. Steady-state inactivation of T-current could be well fitted by a Boltzman
+equation with slope factor of 6-3 and half-inactivated voltage of - 83-5 mV.
+7. Recovery from inactivation of T-current was not exponential. The major
+component of recovery (70-80 % of total) was not very voltage sensitive at potentials
+more negative than -90 mV, with Tr of 251 ms at -92 mV and 23 'C, compared to
+*
+
+To whom all correspondence and reprint requests should be addressed.
+
+588
+D. A. COULTER, J. R. HUG UENARD AND D. A. PRINCE
+225 ms at -112 mV. A smaller, voltage-sensitive component accounted for the
+remainder of recovery.
+8. All kinetic properties, including rates of activation, inactivation, and recovery
+from inactivation, as well as the amplitude of T-current, were temperature sensitive
+with Q10 (temperature coefficient) values of greater than 2-5.
+9. These properties of the T-current are such that its activation is necessary and
+sufficient to cause the generation of low-threshold calcium spikes in thalamic relay
+neurones, although other ionic conductances may modulate such events.
+INTRODUCTION
+
+A prominent burst-firing response is one of the characteristic properties of
+thalamic relay neurones, as revealed by in vivo intracellular recordings in cat
+(Deschenes, Roy & Steriade, 1982; Deschenes, Paradis, Roy & Steriade, 1984) as well
+as in vitro studies in thalamic slices of guinea-pig (Jahnsen & Llinas, 1984a, b) and
+rat (Crunelli, Kelly, Leresche & Pirchio, 1987). The burst is characterized by a lowthreshold spike (LTS) which can be evoked either by depolarizing current injection
+or orthodromic synaptic excitation when the resting membrane potential is more
+negative than approximately -60 mV. The LTS is a Ca2"-dependent, slow (2050 ms), 10-30 mV envelope of depolarization that can in turn trigger multiple Na'dependent action potentials.
+Although the Ca2"-dependent LTS plays a significant role in determining the spike
+firing pattern of neurones in a number of brain areas including thalamus (Jahnsen &
+Llinas, 1984b), inferior olive (Llina's & Yarom, 1981), pontine reticular formation
+(Greene, Haas & McCarley, 1986), habenula (Wilcox, Gutnick & Christoph, 1988),
+and some neocortical areas (Friedman & Gutnick, 1987), the characteristics of the
+underlying transient Ca2+ current have not been examined. The LTS burst-firing
+mechanism is particularly important in determining the response characteristics of
+thalamocortical relay neurones (Deschenes, et al. 1984; Jahnsen & Llina's, 1984a).
+Rhythmic burst firing in these cells is correlated with behavioural states such as
+slow-wave sleep (reviewed in Steriade & Llinas, 1988) and may be important in
+generating pathological thalamocortical rhythms such as spike-wave discharges in
+petit mal epilepsy (Coulter, Huguenard & Prince, 1989).
+There are a number of ionic conductances present in relay neurones (Jahnsen &
+Llinas, 1984b) that may contribute to the generation of the LTS, including (1) a lowthreshold Ca2+ current activated by depolarization from hyperpolarized potentials,
+(2) a persistent, tetrodotoxin-sensitive, low-threshold Na+ conductance activated
+by depolarization, and (3) an anomalous rectifier current activated by hyperpolarization. However, the Ca2+-dependent component appears to be the major
+factor in generating the LTS, since removal of extracellular Ca2+ or the addition of
+Ca2+ channel blockers such as Cd2' abolish the LTS, while the latter is unaffected by
+tetrodotoxin which blocks Na+ currents (Jahnsen & Llinas, 1984b). Several types of
+neuronal Ca2+ currents have been identified in sensory neurones of the rat and chick
+dorsal root ganglion (Carbone & Lux, 1984; Nowycky, Fox & Tsien, 1985) and the
+activation properties of one of these, the low-threshold or 'T' current, are such that
+it may be implicated in the generation of the LTS. We have undertaken a voltage-
+
+TRANSIENT Ca IN THALAMIC RELA Y NEURONES
+
+589
+
+clamp study to characterize the Ca2" currents in thalamic relay neurones acutely
+isolated from non-embryonic tissue (Kay & Wong, 1986). The somatosensory
+ventrobasal complex (VB) of the rat was chosen as the source of thalamic neurones
+because in rodents this set of nuclei contains a nearly pure population of relay cells;
+there are less than 1 % interneurones (Jones, 1985; Harris & Hendrickson, 1987). The
+major focus of this report is on the voltage-dependent properties of the low-threshold
+transient (T-type) current in these cells.
+METHODS
+
+Preparation and enzymatic isolation procedure
+Since interneurones might be selectively spared during the trauma of the dissociation procedure
+described below, we initially used an antibody to glutamic acid decarboxylase (GAD), kindly
+provided by Dr Donald Schmechel, and standard immunocytochemical techniques to assess the
+numbers of GABA(y-aminobutyric acid)ergic neurones in our dissociated neuronal preparation.
+Only rare cells obtained from VB in isolation reacted positively for the presence of GAD (not
+shown), and these were easily distinguished from the larger relay neurones.
+All experiments were carried out using cells isolated from 2- to 25-day-old Wistar rats.
+Dissociation methods were modified from those of Kay & Wong (1986). Pregnant rats were
+obtained at 18 days gestation from Simonsen Laboratories (Gilroy, CA, USA) and were housed in
+our animal facility. Rat pups were anaesthetized with pentobarbitone, decapitated, and the brains
+removed and placed in cold saline (4 TC) for 1-2 min. The brain was then blocked and sectioned in
+the coronal plane using a Lancer vibratome (St Louis, MO, USA). Slices (500 ,tm) that contained
+the ventrobasal (VB) complex were dissected by scalpel cuts to isolate the thalamus. VB was
+identified as a crescent-shaped area, demarcated on its lateral and ventral borders by the external
+medullary lamina, medial lemniscus and reticular nucleus. In the youngest animals, where
+myelination was less complete, VB was identified by comparing living slices with an atlas made
+from Nissl stains of comparably aged animals. Thalamic slices were then incubated for 45-90 min
+in an oxygenated PIPES-buffered saline (see Solutions) containing trypsin (Type XI, 8 mg/10 ml).
+After enzymatic treatment, the slices were washed in trypsin-free PIPES saline, and VB was
+isolated with scalpel cuts. Once isolated, each VB section was divided in half, triturated with firepolished Pasteur pipettes, and plated onto 35 mm plastic Petri dishes (Lux tissue culture dishes,
+Miles Scientific, Naperville, IL, USA). Isolated relay neurones were somewhat variable in
+appearance but a majority had relatively large somata (15-25 Itm), and several thick (2-3 Itm)
+dendrites extending for up to 80 ,tm from the soma. These neurones survived for up to 12 h
+following isolation.
+Solutions
+A PIPES-buffered saline was used in all steps prior to recording currents. It consisted of (in mM):
+NaCl, 120; KCl, 5; MgCl2, 1; CaCl2, 1; glucose, 25; piperazine-NN'-bis(2-ethanesulphonic acid)
+(PIPES), 20; and the pH was adjusted to 7-0 with NaOH (Kay & Wong, 1986). For whole-cell
+recording of Ca21 currents the following solutions were used. Intracellular solution (mM): Tris-PO4
+(dibasic), 110; Tris base, 28; EGTA, 11; MgC12, 2; CaCl2, 0 5; Na2 ATP, 4; pH 7-3. Extracellular
+solution (mM): NaCl, 155; KCl, 3; MgCl2, 1; CaCl2, 3; tetrodotoxin, 0-0005; HEPES, 10; and pH
+adjusted to 7-4 with NaOH. All chemicals were obtained from Sigma (St Louis, MO, USA).
+
+Electrophysiological recordings
+Isolated relay neurones were voltage clamped using the whole-cell configuration of the patch
+clamp (Hamill, Marty, Neher, Sakmann & Sigworth, 1981). Electrodes were pulled from thickwalled borosilicate glass (H15/10/181, Jencons Ltd, Leighton Buzzard) on a List L/M-3P-A
+(Medical Systems, Great Neck, NY, USA) puller using a two-step procedure. When filled with
+intracellular Tris-PO4 solution, electrode resistances were 5-8 MQ. An 8 mV liquid junction
+potential was measured between the intracellular and extracellular solutions (see Hagiwara &
+Ohmori, 1982), and this correction was applied post facto to all command potentials. Current
+recordings were obtained with either the List EPC-7 (Medical Systems) or the Axopatch 1A
+
+590
+
+D. A. COULTER, J. R. HUGUENARD AND D. A. PRINCE
+
+amplifier (Axon Instruments, Burlingame, CA, USA). In either case, series resistance compensation
+was used to eliminate 90 % of the voltage error due to the passage of current through the patch
+pipette. Access resistance was normally in the range of 6-10 MQ. Inward Ca2+ currents were always
+less than 1 nA with a resulting maximum series resistance error smaller than 1 mV, when
+compensated by 90 %.
+A modified subtraction technique (based on Bezanilla & Armstrong, 1977) was used to remove
+interference from linear leak and capacitative currents. Several scaled hyperpolarizing leak pulses
+were applied from a reduced holding potential (-50 mV) before the holding potential was
+increased to conditioning potential (normally -100 mV) for 1 s preceding the command step.
+Stimuli were normally applied at < 0-1 Hz. These protocols allowed Ca2+ currents to be recorded
+in relay neurones for up to 75 min. Ca2+ current records obtained by linear leak subtraction were
+indistinguishable from those in experiments where the leak and capacitative currents were
+obtained by applying the normal stimulation protocol to a neurone bathed in normal extracellular
+saline with 0-5 mM-CdCl2 added to block Ca2+ currents.
+Voltage-clamp control was judged by several criteria, including (1) smooth voltage-dependent
+current activation, (2) lack of excessive delay in onset of current, and (3) onset and offset kinetics
+that were dependent on voltage but not on the amplitude of current (see Results). Only cells in
+which adequate clamp conditions were obtained using these criteria were included in this kinetic
+study. Isopotentiality of neuronal membrane was assured by testing the exponentiality of the
+capacitative transient (Kay & Wong, 1987).
+Most experiments were performed at room temperature (22-24 'C) since survival of isolated cells
+was prolonged under these conditions. For experiments where temperature dependence was
+determined, the chamber which encased the Petri dishes was warmed by a feedback-controlled
+resistive heater. Bath temperature was monitored with a small thermocouple placed in the
+chamber within 100 1um of the neurone under study.
+Data storage and analysis
+Data were sampled on line in either unsubtracted or leak-subtracted form using a DEC 11-73
+based computer equipped with the Cheshire interface (Indec Systems, Sunnyvale, CA, USA)
+running under BASIC-23. Currents and command voltages were also recorded in pulse code
+modulated form (Neurocorder, Neurodata, NY, USA) and stored on videotape for back-up
+purposes. For kinetic fits to current records, an iterative approach was used in which the
+parameters were adjusted by means of the analog inputs on the Cheshire interface. This method
+was found to provide a rapid means of fitting onsets and exponential decays with up to two
+components. A non-linear least-squares fitting routine (Schreiner, Kramer, Krischer & Langsam,
+1985) was used to verify these results in representative traces; the fits obtained by these two
+methods were not significantly different (see Results) in the rate constants or amplitudes of the
+various components.
+RESULTS
+
+Ca2+ currents in relay neuroses
+Dissociated relay neurones were similar to several other types of isolated central
+neurones in that they were normally truncated at the level of the primary or
+secondary dendrites, and had very low input conductance when measured in the
+whole-cell clamp mode (Numann & Wong, 1984; Huguenard & Alger, 1986; Kay &
+Wong, 1987), normally less than 1 nS. Inward currents could often be recorded, even
+in unsubtracted traces. With the use of the appropriate solutions, Ca2+ currents were
+readily obtained. When depolarizing step commands were applied from a holding
+potential of -100 mV, Ca2+ current components with different onset and decay
+kinetics were seen at various command potentials (Fig. 1). Small depolarizations to
+between -60 and -40 mV resulted in a rapidly activating inward current that
+completely inactivated within a 200 ms depolarization. The rate of current decay
+became more rapid with increasing depolarizations within this voltage range. With
+
+TRANSIENT ICa IN THALAMIC RELA Y NEURONES
+
+591
+
+stronger depolarizations (more positive than -40 mV) the current was incompletely
+inactivating during the depolarization, and the rate of current decay became slower
+(e.g. compare currents at -20 through to 0 mV command steps in Fig. 1). These
+transient and sustained currents and the I-V relationships for the different
+components shown in Fig. 2 are similar to those seen in sensory neurones (Fox,
+
+v
+
+-70
+-10
+
+20
+
+-60
+
+~0!
+
+30
+
+-50
+
+\00~ ~ ~_30
+
+0
+
+-40
+
+40
+
+-20
+200 pA
+100 ms
+
+Fig. 1. Thalamic calcium currents. Leak-subtracted traces are shown for step
+depolarizations to the indicated command potentials (mV) from a holding potential of
+-100 mV. The maximum isolated transient current is obtained at -40 mV (*); with
+more depolarized commands a persistent component is seen, which becomes maximal near
+0 mV (**). When the holding potential was reduced to -30 mV, the transient components
+of the current disappeared, but the persistent component remained at almost the same
+level. For example, the current obtained with depolarization to + 10 mV from reduced
+holding potential, Vd, is shown at the arrowhead (middle column). The voltage protocol
+(V) is indicated above the first column and the current traces (I) below.
+
+Nowycky & Tsien, 1987; Carbone & Lux, 1987). The transient component was
+prominent in the low-threshold range, with an activation threshold near -60 mV
+and a peak near -25 mV (Fig. 2). There was also a smaller high-threshold transient
+component activated at commands more positive than -10 mV, which was usually
+less than 25 % of the amplitude of the low-threshold transient component. The lowthreshold transient component appears analogous to the type I current characterized
+in neuroblastoma (Narahashi, Tsunoo & Yoshii, 1987) or low-voltage-activated
+current in sensory neurones (Carbone & Lux, 1984), which has also been termed the
+T-current (Nowycky et al. 1985; Fox et al. 1987). The higher threshold component of
+
+D. A. COULTER, J. R. HUGUENARD AND D. A. PRINCE
+the transient current has properties similar to the N-current of Fox et al. (1987), in
+that the rate of inactivation is relatively voltage independent, with a time constant
+of 90-100 ms in the voltage range of -30 to + 30 mV. The 'N' type of inactivating
+current of thalamic cells was different from that in sensory neurones since it made a
+relatively small contribution to the total high-threshold current. The final Ca2+592
+
+Command potential (mV)
+-80
+
+-60
+Ak
+
+A
+
+-40
+A
+
+20
+
+-20
+
+40
+
+A
+
+-200
+
+A'\
+
+-500
+-600
+Ca2, current (pA)
+Fig. 2. Current-voltage relationship for the traces in Fig. 1. Peak (0), sustained (A, 200 ms
+latency), and transient (-, difference between peak and sustained) current amplitudes
+are shown. In this cell, maximum transient current was 348 pA and maximum sustained
+current was 403 pA. The amplitude of sustained currents obtained with reduced VhOld
+(-30 mV, *) is only slightly less than that obtained with the more hyperpolarized VhOld.
+The point indicated by the arrow-head is the amplitude for the corresponding trace in
+Fig. 1.
+
+dependent component is the sustained, high-voltage-activated, or L-current, which
+was activated at a threshold near -40 mV and peaked at command potentials near
+0 mV (Fig. 2, A). As in sensory neurones (Carbone & Lux, 1984; Nowycky et al. 1985)
+and neuroblastoma (Narahashi et at. 1987), the L-current was relatively insensitive
+to steady-state inactivation; steady-state currents of similar amplitudes were
+obtained from holding potentials of -30 and -100 mV (Fig. 2, *).
+All components of inward current were clearly Ca2+ dependent. The maximum
+peak, steady-state, and transient currents were increased by 36±3, 28+5 and
+45+15% (mean+s.E.M., n = 3), respectively, when [Ca2+]0 was raised from 3 to
+11 mm. Under these conditions, the command potentials at which maximum currents
+were reached were shifted in the positive direction by 7-10 mV, as expected from the
+increase in divalent screening charge (Frankenhaeuser & Hodgkin, 1957; Hille,
+1968). Substitution of equimolar Ba2+ for Ca2+ resulted in comparable 'T' currents,
+while high-threshold currents were increased in amplitude and exhibited slower
+inactivation kinetics. In the presence of 0 5 mM-Cd2+ or 0 1 mM-La3+, both transient
+
+TRANSIENT ICa IN THALAMIC RELA Y NEURONES
+
+593
+
+and persistent current components were blocked or reduced to 1-10 % of control
+levels, while 20 ,uM-Cd2+ selectively blocked high-threshold currents and 100 ,tM-Ni2+
+selectively reduced 'T' current (not shown), as in sensory neurones (Fox et al. 1987).
+Inward current traces were not contaminated by concomitant activation of K+
+conductances since replacement of extracellular Na+ and K+ with tetraethylammonium chloride did not alter the currents (not shown).
+With command steps positive to -35 mV, a slow time course (Tinactivation ; 50 ms, see Fig. 1) tail
+current was activated which was not Ca2+ dependent. In cells with large depolarization-activated
+Ca2+ currents which were blocked by 0 5 mM-Cd2 , the tail current was either not affected or only
+slightly reduced. This tail current bears some resemblance to I. seen in hippocampal neurones (Kay
+& Wong, 1987). Since all depolarization-activated currents were blocked by Cd2+ we presume that
+activation of the conductance underlying I. does not interfere with the isolation of 'Ca at
+depolarized potentials.
+
+A characteristic feature of Ca2+ currents recorded in relay neurones was a large
+low-threshold transient or 'T-type' current component, both in absolute terms and
+relative to the size of other components. Based on the similarities in voltage
+dependence, Ba2+ permeation and sensitivity to Ni2+ and Cd2+, we have adopted the
+nomenclature of Fox et al. (1987) and will refer to the low-threshold transient current
+as T-current. The cell in Fig. 2 had over 300 pA of T-current and a ratio near 1:1 for
+maximum inactivating to maximum sustained current (I S); in many cells this ratio
+was much greater than unity. After allowing 4-5 min for the intracellular perfusate
+to reach equilibrium, both transient and sustained components of Ca2+ current were
+relatively stable during the remaining period of recording (typically 15-30 min in
+this series of experiments). Therefore, the high ratio of I: S was not due to differential
+run-down of the L-current, which was effectively maintained at a stable amplitude
+by the inclusion of ATP in the pipette solution. It has been suggested that highthreshold Ca2+ channels are localized in the dendrites (Jahnsen & Llinas, 1984b), and
+since the dendrites are significantly truncated by the dissociation, it could be argued
+that isolated cells would have a less prominent high-threshold component. However,
+we found no apparent correlation between the remaining dendritic area and the
+amplitude of the L-current in a given dissociated neurone. For example, some cells
+with multiple primary and some secondary dendrites had small L-currents, while
+others which were truncated at the level of primary dendrites had large L-currents.
+In a group of forty-nine cells, the maximum inactivating current (always recorded
+near -20 mV) was 350 + 27 pA, the maximum sustained current was 284 + 25 pA,
+with a overall average ratio (I:S) of 1-23:1 (Fig. 3A). The average ratio within
+individual relay neurones was 2-62 + 067 (Fig. 3B). The discrepancy between these
+two ratios may be due to different subpopulations of relay neurones that possess
+varying relative sizes of inactivating (mainly T with a small contribution from N) vs.
+sustained (L) currents. Anatomical subclasses of relay neurones in VB are known (see
+Jones, 1985) which could, in theory, have different physiological properties, as is true
+in the dorsal lateral geniculate nucleus (Crunelli, Leresche & Parnavelas, 1987).
+Although relay neurones possess both low- and high-threshold Ca2+ conductances,
+it is the prominent low-threshold current that underlies some of their unique
+physiological behaviour (Steriade & Llina's, 1988). We therefore examined the
+voltage-dependent kinetic properties of the T-current in some detail.
+
+594
+
+D. A. COULTER, J. R. HUGUENARD AND D. A. PRINCE
+A
+
+8
+7
+6
+
+5
+a)
+:aL
+U-
+
+3
+
+2
+1
+
+0
+0
+
+100
+
+0
+
+1
+
+200 300 400 500 600 700
+Maximum current amplitude (pA)
+
+800
+
+900
+
+B
+13-
+
+12
+11
+10
+
+-
+
+9-
+
+8
+
+-
+
+a)C-)
+
+7.-
+
+03
+
+6-
+
+LL
+
+4321-
+
+03
+2
+4
+5
+6
+7
+Ca2+ current ratio (transient/sustained)
+Fig. 3. Ca2+ current magnitudes in isolated relay neurones. A, histogram of peak current
+amplitude for forty-nine neurones. Maximum amplitudes for transient (_) and the
+sustained (_) currents were obtained from I-V curves as in Fig. 2. B, histogram of ratios
+of peak transient to peak sustained current within neurones.
+
+Kinetics of activation and inactivation of T-current in relay neurones
+Since the T-current displays a number of properties similar to those of the fast Na+
+current underlying the action potential (Hodgkin & Huxley, 1952), we applied a
+similar model to the analysis of its voltage-dependent kinetics. The time course of the
+onset of T-current was sigmoidal in that there was a clear delay or 'foot' on the rising
+phase of the current. We applied different models to describe the time course of
+current onset, according to the following general equation:
+
+ICa = [I -exp (-t/Tm)]N exp (-t/lr)Ih),
+
+((1)
+
+TRANSIENT Ica IN THALAMIC RELA Y NEURONES
+
+595
+
+where Tm is the time constant of activation, N is a whole number between 1 and 4,
+Th is the time constant of inactivation, and loo is the current level that would be
+reached in the absence of inactivation (Hodgkin & Huxley, 1952). The best fit was
+obtained with an N = 3 (mi3); m or M2 produced too little delay and M4 resulted in
+excessive delay (Fig. 4). With command potentials more negative than -35 mV, the
+B
+
+A
+
+m2h
+
+m1 h
+
+Res.
+
+Res.
+
+D
+
+C
+
+m4h
+
+m3h
+
+100 pA
+
+Res.
+
+_Res.
+
+__8ms
+
+Fig. 4. Activation kinetics of T-current in relay neurone. The current trace used for the
+fits was obtained from the average of twenty depolarizations to -42 mV from a holding
+potential of - 102 mV, using a P/16 subtraction procedure. A sigmoidal onset phase of
+the T-current is clearly apparent. Curve fits were obtained by eye for various models
+including m'h, m2h, m3h and m4h. The residual (Res.) difference between the data and the
+fitted curve is shown for each model. The m3h model obtains the best fit for the onset rate
+of the T-current. The parameters were as follows: A (extrapolated initial current
+amplitude) = -340 pA and TA = 26-0 ms for all models; Tm was 3-8, 2-4, 2-1 and 1-9 ms
+for m'h-m4h, respectively. Non-linear least-squares parameters for the m3h fit were:
+A = -337 pA, Th = -25-6 ms and Tm = -2-08 ms.
+
+inactivation phase was well described by a single-exponential decay process. With
+more positive commands, however, the time course of decay became more
+complicated, with best fit assuming two or more components. The confidence in the
+fit of such complicated waveforms is necessarily lower than for simple fits, so the
+most reliable information on voltage-dependent kinetics is obtained in the lowthreshold range where T-current is activated in isolation, i.e. more negative than
+-35 mV.
+Both activation and inactivation of T-current were voltage dependent, becoming
+faster with depolarization, such that the duration and latency to peak become
+shorter with increasing depolarizations (Fig. 5A and B). The activation (m) phase was
+smoothly voltage dependent, with values for Tm gradually varying from 8 to 2 ms in
+the voltage range -60 to -10 mV at 23 °C (Fig. 5C). The decay (h) phase was also
+voltage dependent, with values for Th varying between 50 and 20 ms, in the same
+voltage range (Fig. 5D). At potentials more positive than -40 mV, the voltage
+dependence appeared to decrease, although the above-mentioned inability to obtain
+reliable curve fits at these potentials made it difficult to quantify this effect reliably.
+
+D. A. COULTER, J. R. HUGUENARD AND D. A. PRINCE
+
+596
+
+The activation process was smoothly voltage dependent (Fig. 6C) and could be
+described by a Boltzman equation of the following form:
+
+(2)
+Pca = Pca/{l +exp [(V1'- V)/k]}N,
+where Pca is the maximum permeability, VI is the potential at which the permeability
+is half-maximal, V is the command potential, k is the slope factor, and N is a power
+B
+
+A
+__
+
+32
+
+_ 28
+24-
+
+0.
+165
+
+c-J
+
+12-66 -62
+
+20 ms
+D
+
+C
+
+-38
+
+60 -
+
+9-
+
+7
+~~~~~~~50
+~~~~~~~~~~4010
+
+~~~
+
+8
+61-
+
+10
+
+7
+
+E 30
+1
+20 1-
+
+32-
+
+-58 -54 -50 -46 -42
+Command potential (mV)
+
+11
+1
+
+10
+
+-~~~~~~~~~~11
+
+1
+
+-70
+
+-10
+-50
+-30
+Command potential (mV)
+
+-70
+
+-10
+-30
+-50
+Command potential (mV)
+
+Fig. 5. Voltage-dependent kinetics of T-current. A, T-current responses to small (3 mV)
+increments in command potential in the range -60 to -33 mV. With increasing
+depolarization, the currents become larger with faster onset and decay. B, peak latencies
+for experiment shown in part A. C, voltage dependence of the time constant of activation
+(Tm) of T-current. D, voltage dependence of the time constant of inactivation (TJ) of
+T-current. The numbers adjacent to the data points in parts C and D are the number of
+neurones from which kinetic fits were made. Error bars are one S.E.M.
+
+factor of 3. The activation function was determined by dividing the extrapolated
+zero-time current (from the m3h fits) by the constant-field equation (Goldman, 1943;
+Hodgkin & Katz, 1949; see Kay & Wong, 1987). Threshold for activation was near
+-65 mV, and the current was half-maximally activated at -52 mV.
+
+Steady-state inactivation of T-current in relay neuroses
+As current-clamp recordings have revealed (Jahnsen & Llinas, 1984a; Deschenes
+et al. 1984), the conductance underlying the low-threshold spike in relay neurones is
+inactivated at resting membrane potentials near -60 mV. To examine the
+corresponding property of the T-current in more detail, steady-state inactivation
+
+597
+
+TRANSIENT ICa IN THALAMIC RELA Y NEURONES
+
+was determined by applying 1 s conditioning pulses at various potentials followed by
+test pulses to -42 mV (Fig. 6A). Fractional current (normalized to the maximum
+current) was fitted with the following equation:
+
+(3)
+
+I/Imax = 1/{1 +exp [(V-V)/k]}.
+
+Best fit for averaged fractional steady-state inactivation was obtained with V12 = 83-5
+and k = 6-3 (Fig. 6 C). At potentials more positive than -60 mV, less than 3 % of the
+C
+
+A
+
+B
+
+1.0
+
+1.0
+
+0.8
+
+0.8
+
+10
+
+0-0*6
+
+0.4
+
+32
+
+min~~2
+
+0
+
+.
+
+0.2 -u
+-1 20
+
+i
+
+0.2
+-40
+-60
+-80
+-100
+Membrane potential (mV)
+
+-20
+
+Fig. 6. Voltage dependence of steady-state inactivation and activation of T-current. A,
+test depolarizations to -42 mV were preceded by 1 s conditioning steps at various
+membrane potentials between -112 and -62 mV. B, currents obtained with holding
+potentials of -102, -92, -82, -72 and -62 mV are normalized to peak current
+amplitude. Activation and inactivation kinetics were independent of the amplitude of the
+current. C, average fractional inactivation (h., n = 12) and activation (ma, n = 14). The
+continuous smooth curve is the best-fit Boltzman function for steady-state inactivation
+with 14 = - 83-5 mV and k = 6-3. For activation the best fit (m , dotted line) was obtained
+with Ii = -63 mV and k = 7-8. Also shown is the mo, curve (dashed line). Initial current
+amplitudes were determined from mah fits and converted to activation by dividing by the
+constant-field equation. Error bars represent 1 S.E.M.
+
+total T-current is available for activation, and hyperpolarizations beyond -100 mV
+are required to completely remove inactivation. The existence of multiple
+components which might contribute to the low-threshold Ca2+ current would be
+indicated by changes in the time course of activation or inactivation with different
+conditioning potentials, assuming these separate components had different kinetic
+properties and different steady-state inactivation. Responses obtained at a command
+potential of -42 mV from various holding potentials are shown in Fig. 6A. The
+equivalent onset and offset kinetics of the superimposed currents (Fig. 6B) provides
+evidence for a single current component underlying the low-threshold burst response.
+In isolated relay neurones, T-current kinetics at a given command potential were
+consistently independent of current amplitude, indicating adequate voltage-clamp
+control in these experiments. When the activation curve (ml ) is superimposed on the
+steady-state inactivation curve (Fig. 6 C), there is a small amount of overlap
+
+598
+
+D. A. COULTER, J. R. HUGUENARD AND D. A. PRINCE
+
+indicating existence of a tonically activated or 'window' current in the range of -55
+to -70 mV. Since activation is modeled by M3, voltage dependence of m is obtained
+as the cube root of the current activation curve, and this is also shown in Fig. 6C as
+the m., curve.
+A
+
+:
+
+I
+
+100 mV
+80 pA
+100 ms
+B
+
+C
+
+1*0r
+
+'aaa))
+
+0.3
+
+0.8
+0
+
+0)
+C
+
+0
+
+10
+
+0.6
+
+4c 0.
+cD
+X2 0-32
+
+0
+
+0.4
+
+,-.Ilo
+
+0-8
+X 0.-
+
+L0
+
+0.2
+
+LL
+
+n.n
+v- v*..I
+
+0
+
+100
+
+200
+
+300
+
+Recovery time (ms)
+
+400
+
+0
+
+300
+100
+200
+Recovery time (ms)
+
+400
+
+Fig. 7. Recovery from inactivation of T-current at -92 mV. A, a conditioning command
+step of 200 ms to -42 mV is followed by a test step at increasing latencies. These
+responses are the averages obtained with two identical protocols in the same cell. B,
+fractional recovery of T-current. C, semilogarithmic plot of recovery of inactivated
+current. Recovery is linear on a semilogarithmic axis indicating monoexponential decay
+in the time period between 50 and 400 ms. The individual data points in B and C are from
+two individual protocols from which the average data in A were obtained. The smooth
+curves are the non-linear least-squares fit function with
+of 243 ms and an initial
+amplitude (at 0 recovery time) of 0-07.
+r
+
+Recovery from inactivation of T-current in relay neuroses
+The frequency at which low-threshold spikes can be elicited is dependent on the
+process of recovery from inactivation or deinactivation (Jahnsen & Llinas, 1984a)
+which determines the relative refractory period. The recovery process proceeds
+relatively slowly at -92 mV and 23 TC, with a time constant near 230 ms (Fig. 7).
+Recovery after 50 ms can be fitted by a single exponential (Fig. 7B and C) that is
+relatively insensitive to voltage. The time constant of recovery (Tr) was 251 + 10-8 ms
+(N= 21) at -92 mV compared to 225+20-5 ms (N= 11) at -112mV (P > 005,
+two-tailed t test). However, there was an early phase of more rapid recovery which
+accounted for approximately 20 % of the total recovery process at -92 mV. While
+
+TRANSIENT ICa IN THALAMIC RELA Y NEURONES
+
+599
+
+slow recovery (latencies greater than 50 ms) can be well fitted by an exponential
+process, a non-zero intercept is evident when the best-fit curves are extrapolated
+back to zero recovery time (Fig. 7). Although Tr was not significantly different at
+potentials of -92 and -112 mV, the extrapolated zero-time fractional recoveries
+were (P < 0 05), with values of 0-19 +0-025 (N = 21) and 0-33 +0-058 (N = 12) for
+recovery at -92 and -112 mV, respectively. Hence recovery at early ( < 50 ms)
+latencies was much more sensitive to recovery potential than at later times.
+A
+
+B
+
+2.8
+0
+
+Z 2.4
+
+3%
+*
+
+*...
+
+Temperaturmplitude (PA)
+
+D. 2.01.6~~~0
+
+1-20
+(D
+
+E
+~~
+80
+
+5Om~~j
+
+0.8-
+
+Tm(Mls)
+
+0.4-
+
+PA~~~~~
+25 ms
+0.0.1
+
+24
+
+I
+
+26
+
+28
+
+30
+
+Temperature
+
+32
+
+(0C)
+
+34
+
+Fig. 8. Temperature dependence of activation and inactivation. A, T-currents obtained
+with command potential of -42 mV from a Vhol1 of -102 mV at two temperatures. Each
+current trace is the average of five individual traces. The smooth curves represent the best
+fit to m3h kinetics. At 23-5 0C the current is smaller and slower compared to the current
+obtained at 28 'C. Fit parameters were Tm = 2-5 and 1-5 Ms, Th = 33-1 and 18-7 ms, and
+amplitude = 540 and 760 pA at 23-5 'C and 28 'C, respectively. B, in a different neurone,
+repeated pulses to -42 mV were applied every 30 s while the temperature was gradually
+increased over a period of 9 min. Curve fits were obtained for each trace, and the different
+fit parameters are shown in a semilogarithmic plot vs. bath temperature. Least-squares
+slopes yielded Q10 values of 3-1, 3-1 and 5-0 for amplitude (extrapolated zero-time
+amplitude), kh (I/TA) and km (1/Tm) respectively.
+
+Temperature dependence of kinetic properties of T-current in relay neurones
+In myocytes (Cavalie, McDonald, Pelzer & Trautwein, 1985), neuroblastoma
+(Narahashi et al. 1987) and invertebrate neurones (Kostyuk, Krishtal & Pidoplichko,
+1981; Lux & Brown, 1984; Byerly, Chase & Stimers, 1984), Ca2+ currents are known
+to be highly temperature sensitive. In order to extrapolate the results of the present
+study (performed at room temperature) to the properties of T-current at body
+temperature, we have characterized the temperature dependence of the various
+kinetic parameters of the current.
+
+600
+
+D. A. COULTER, J. R. HUGUENARD AND D. A. PRINCE
+
+In some experiments we were able to change bath temperature while maintaining
+stable whole-cell clamp. Under these conditions the Q10 for the various parameters of
+the Hodgkin-Huxley type model could be accurately determined within single
+neurones. Both activation (Tm) and inactivation (rh) time constants, as well as the
+amplitude of the T-current were highly temperature dependent. The time course of
+the T-current at increasing temperatures could be well fitted with the m3h model by
+changing only the time constants and amplitudes (Fig. 8A). Within the range of
+24-34 TC, the temperature dependence is monophasic (Fig. 8B) and Q10 values were
+determined for each rate constant and amplitude from the slope of the semilogarithmic function vs. temperature. This experiment was repeated in four cells
+with the following values obtained for Q10 km = 3-55 + 0-65, kh = 2-80 + 0-27, and
+amplitude = 3-30 + 0-82. The rate of deinactivation was also highly temperature
+dependent; rr was near 140 ms at -92 mV and 30 C (not shown), yielding an
+estimated Q10 of 2-5 for the recovery process. The survival of isolated neurones was
+markedly reduced under conditions of elevated temperature and we were not able to
+extend the experimental conditions to include body temperatures, but the voltagedependent parameters describing the T-current at 37 TC may be obtained by
+extrapolation (see below).
+DISCUSSION
+
+In this report we have examined the properties of the low-threshold, transient Ca2+
+current in acutely dissociated mammalian central neurones. We find that several
+properties of this current are analogous to those of the T- or low-voltage-activated
+current observed in sensory neurones. Similarities include voltage dependence of
+activation and inactivation, permeation of Ba2+ comparable to Ca2 , sensitivity to
+blockade by Ni2' and relative lack of sensitivity to blockade by Cd21.
+These results are in reasonable agreement with those recently obtained with
+switched-clamp techniques in rat and cat thalamic slices (Crunelli, Lightowler &
+Pollard, 1989). The only major differences are a somewhat slower inactivation rate
+and steeper voltage-dependent activation in slice neurones, which may be related to
+differences in voltage control in the more intact, less electrotonically compact cells
+in the slice, or pecularities of enzyme -treated acutely-isolated thalamic cells. Also,
+part of the discrepancy may be due to concentration of Ca2+ used in our experiments
+(3 mM), which is higher than that in the above slice study (1 mM) or in cerebrospinal
+fluid and the extracellular space of the brain (- 2 mm). The increased concentration
+of divalent cations would increase the screening charge (Frankenhaeuser & Hodgkin,
+1957; Hille, 1968), and therefore shift the voltage dependence of the gating
+parameters for Ca2+ currents. Because the [Ca2+]. used in our experiments is
+approximately 1-5 times normal, the voltage-dependent of all kinetic properties
+under physiological conditions (2 mM-Ca2+) would be approximately 3-4 mV less
+negative than reported here.
+From our analysis of the kinetic parameters of the 'T-type' current, we conclude
+that this current underlies the low-threshold Ca2+ spike in thalamic relay neurones.
+The voltage activation range begins around -65 mV and is half-activated near
+-50 mV. This steep voltage dependence, along with the voltage-dependent nature
+of the rate of activation, combine to ensure the genesis of the regenerative low-
+
+TRANSIENT ICa IN THALAMIC RELA Y NEURONES
+601
+threshold spike. Small depolarizations into the threshold range of the T-current
+activate, with relatively slow time course, a small percentage of the total available
+channels. This leads to further depolarization, which activates more channels at a
+faster rate, and this process then continues to produce the LTS, by analogy with
+generation of Na+-dependent high-threshold spikes.
+Of course, other ionic conductances are activated in the same voltage range, and
+may reduce or enhance the LTS through hyperpolarizing or depolarizing influences.
+For example, a persistent Na+ current is present in relay neurones (Jahnsen & Llinas,
+1984b), which enhances the LTS by exerting a depolarizing influence. On the other
+hand, the Ca2+ that enters during the LTS will activate Ca2+-dependent K+
+conductances (Deschenes et al. 1984; Jahnsen & Llinas, 1984b) which would tend to
+inhibit the LTS and/or contribute to its termination. A separate repolarizing
+mechanism for the LTS is probably not necessary, however, because the rate of
+inactivation of the T-current would be sufficiently rapid to cause termination of the
+LTS; since Q10 is greater than 2-5, rh would be in the range of 6-15 ms at 37 'C. This
+differs from the Na'-dependent action potential in squid axon where the delayed
+rectifier current is required to terminate the spike (Hodgkin & Huxley, 1952), but
+compares with fast spike generation in myelinated axons which are lacking K+
+channels and repolarize through inactivation of Na' channels (Chiu, Ritchie, Rogart
+& Stagg, 1979).
+The contribution of other types of Ca2+ channels to LTS generation must be minor.
+The maximum depolarization in the envelope of the LTS is near -35 mV (Deschenes
+et al. 1982; Jahnsen & Llinas, 1984 a), and this is in the voltage range where only the
+low-threshold or T-current is activated. Current waveforms in this range can be well
+fitted with a single decay process providing evidence for a single component of
+current. Further support for this conclusion is obtained from the steady-state
+activation protocols in which the waveform does not change with holding potential.
+Therefore, T-current is sufficient for the activation of the LTS. The fact that it is
+necessary is deduced from the steady-state inactivation data. Any contribution of
+the high-threshold current inactivating current (N-current, Fox et al. 1987) would
+not require as much hyperpolarization to remove inactivation, since this current is
+half-inactivated at -70 mV. The fact that there is little or no activation of LTS at
+membrane potentials more positive than -65 mV argues against contributions from
+an N-type component. Also, the N-component does not activate until potentials are
+above -30 mV (Fox et al. 1987), outside the range for LTS activation. However,
+when the LTS reaches threshold for activation of Na+-dependent action potentials,
+the other components of Ca2+ current will be activated to 'inject' additional Ca2+
+into the cell where it can induce secondary effects such as activation of Ca21dependent after-potentials (Deschenes et al. 1984; Jahnsen & Llinas, 1984 b). This
+might be especially important for dendritic function in relay cells since the highthreshold Ca2+ conductance is thought to be localized there (Jahnsen & Llinas,
+1984b).
+The steady-state inactivation data (Fig. 6) are in general agreement with the
+findings of Jahnsen & Llinas (1984 a). Our results would be consistent with inability
+to obtain an LTS at holding potentials less negative than -60 mV. However, from
+data such as those of Fig. 6, we assume that T-channels should become increasingly
+
+D. A. COULTER, J. R. HUGUENARD AND D. A. PRINCE
+available at potentials up to -100 mV. The fact that current-clamp experiments fail
+to show increasing LTS amplitude or rate of rise with hyperpolarizations beyond
+-75 mV might be due to the concomitant activation of anomalous rectifier current
+by stronger hyperpolarizations. This current would tend to shunt the T-current and
+reduce that amplitude of the LTS. Additionally, deinactivation of transient
+potassium current (A-current, Thompson, 1977; Jahnsen & Llinas, 1984b) would be
+enhanced by the hyperpolarization and this may also retard the development of the
+LTS.
+Recovery from inactivation of T-current in thalamic relay neurones is not a
+monophasic process. While a large component of the recovery process proceeds with
+a Tr of 250 ms at -92 mV, there is also an initial rapid recovery which accounts for
+less than half of the total. With a Q10 of 2-5, Tr would be expected to be around 80 ms
+at 37 TC, and this is consistent with the deinactivation time course of LTS in vitro
+which is complete within 300 ms (Jahnsen & Llinars, 1984a). This is in contrast to
+chick sensory neurones where Tr is approximately threefold slower (Carbone & Lux,
+1987), and rat sensory neurones where recovery is biphasic with a fast component of
+hundreds of milliseconds and a slower component with Tr greater than 1 s (Bossu &
+Feltz, 1986).
+As recently emphasized by Steriade & Llinas (1988), three factors contribute to
+thalamocortical synchronization during quiet sleep: (1) the intrinsic properties of
+thalamic neurones, (2) a synaptic network that includes nucleus reticularis, and (3)
+the influence of brain stem reticular formation areas which project to the thalamus.
+The Ca2+-dependent low-threshold spike is one of the intrinsic properties that is
+characteristic of thalamic neurones. Because T-current activation is necessary and
+sufficient for the generation of the LTS, modulation of this specific conductance
+would be expected to produce significant behavioural effects on sleep and arousal. A
+preliminary report suggests that endogenous neurotransmitters or neuromodulators
+can affect thalamic T-current, independent of their effects on membrane potential
+(Geijo-Barrientos & Llinas, 1988). Selective effects on T-current may also be
+produced by exogenous agents (Tang, Presser & Morad, 1988), including drugs used
+in the treatment of petit mal epilepsy (Coulter et al. 1989). These findings raise
+interesting questions about the potential role of thalamic neuronal T-current in
+pathophysiological processes and the effects of modulation of this important
+conductance by endogenous or exogenous substances.
+
+602
+
+We thank Richard Aldrich for helpful discussions, and Hilarey Feeser, Jay Kadis and Edward
+Brooks for technical support. This work was supported by National Institutes of Health Grants
+NS06477, NS12151, and NS07280 from the NINCDS, and the Morris and Pimley Research Funds.
+
+REFERENCES
+
+BEZANILLA, F. & ARMSTRONG, C. M. (1977). Inactivation of the sodium channel. I. Sodium current
+experiments. Journal of General Physiology 70, 549-566.
+Bossu, J.-L. & FELTZ, A. (1986). Inactivation of the low-threshold transient calcium current in rat
+sensory neurones: evidence for a dual process. Journal of Physiology 376, 341-357.
+BYERLY, L., CHASE, P. B. & STIMERS, J. R. (1984). Calcium current activation kinetics in neurones
+of the snail Lymnaea stagnalis. Journal of Physiology 348, 187-207.
+
+TRANSIENT ICa IN THALAMIC RELA Y NEURONES
+
+603
+
+CARBONE, E. & Lux, H. D. (1984). A low voltage-activated, fully inactivating Ca channel in
+vertebrate sensory neurones. Nature 310, 501-502.
+CARBONE, E. & Lux, H. D. (1987). Kinetics and selectivity of a low-voltage-activated calcium
+current in chick and rat sensory neurones. Journal of Physiology 386, 547-570.
+CAVALIE1, A., MCDONALD, T. F., PELZER, D. & TRAUTWEIN, W. (1985). Temperature-induced
+transitory and steady-state changes in the calcium current of guinea-pig ventricular myocytes.
+Pflugers Archiv 405, 294-296.
+CHIU, S. Y., RITCHIE, J. M., ROGART, R. B. & STAGG, D. (1979). A quantitative description of
+membrane currents in rabbit myelinated nerve. Journal of Physiology 292, 149-166.
+COULTER, D. A., HUGUENARD, J. R. & PRINCE, D. A. (1989). Specific petit mal anticonvulsants
+reduce calcium currents in thalamic neurons. Neuroscience Letters 98, 74-78.
+CRUNELLI, V., KELLY, J. S., LERESCHE, N. & PIRCHIO, M. (1987). The ventral and dorsal lateral
+geniculate nucleus of the rat: intracellular recordings in vitro. Journal of Physiology 384,
+587-601.
+CRUNELLI, V., LERESCHE, N. & PARNAVELAS, J. G. (1987). Membrane properties of morphologically
+identified X and Y cells in the lateral geniculate nucleus of the cat in vitro. Journal of Physiology
+390, 243-256.
+CRUNELLI, V., LIGHTOWLER, S. & POLLARD, C. (1989). A T-type calcium current underlies the lowthreshold calcium potential in cells of the cat and rat lateral geniculate nucleus. Journal of
+Physiology (in the Press).
+DESCHfENES, M., PARADIS, M., Roy, J. P. & STERIADE, M. (1984). Electrophysiology of neurons of
+lateral thalamic nuclei in cat: Resting properties and burst discharges. Journal of Neurophysiology
+51, 1196-1219.
+DESCHFINES, M., Roy, J. P. & STERIADE, M. (1982). Thalamic bursting mechanism: an inward slow
+current revealed by membrane hyperpolarization. Brain Research 239, 289-293.
+Fox, A. P., NOWYCKY, M. C. & TSIEN, R. W. (1987). Kinetic and pharmacological properties
+distinguishing three types of calcium currents in chick sensory neurones. Journal of Physiology
+394, 149-172.
+FRANKENHAEUSER, B. & HODGKIN, A. L. (1957). The action of calcium on the electrical properties
+of squid axons. Journal of Physiology 137, 218-244.
+FRIEDMAN, A. & GUTNICK, M. J. (1987). Low-threshold calcium electrogenesis in neocortical
+neurons. Neuroscience Letters 81, 117-122.
+GEIJo-BARRIENTOS, E. & LLINAS, R. (1988). Dopamine and haloperidol modify low threshold
+calcium spike and transient calcium current in guinea pig thalamic neurons in vitro. Society for
+Neuroscience Abstracts 14, 932.
+GOLDMAN, D. E. (1943). Potential, impedance and rectification in membranes. Journal of General
+Physiology 27, 37-60.
+GREENE, R. W., HAAS, H. L. & MCCARLEY, R. W. (1986). A low threshold calcium spike mediates
+firing pattern alterations in pontine reticular neurones. Science 234, 738-740.
+HAGIWARA, S. & OHMORI, H. (1982). Studies of calcium channels in rat clonal pituitary cells with
+patch electrode voltage-clamp. Journal of Physiology 331, 231-252.
+HAMILL, 0. P., MARTY, A., NEHER, E., SAKMANN, B. & SIGWORTH, F. J. (1981). Improved patchclamp techniques for high-resolution current recording from cells and cell-free membrane
+patches. Pfligers Archiv 391, 85-100.
+HARRIS, R. M. & HENDRICKSON, A. E. (1987). Local circuit neurons in the rat ventrobasal
+thalamus - a GABA immunocytochemical study. Neuroscience 21, 229-236.
+HILLE, B. (1968). Charges and potentials at the nerve surface. Journal of General Physiology 51,
+221-236.
+HODGKIN, A. L. & HUXLEY, A. F. (1952). A quantitative description of membrane current and its
+application to conduction and excitation in nerve. Journal of Physiology 117, 500-544.
+HODGKIN, A. L. & KATZ, B. (1949). The effect of sodium ions on the electrical activity of the giant
+axon of the squid. Journal of Physiology 108, 37-77.
+HUGUENARD, J. R. & ALGER, B. E. (1986). Whole-cell voltage-clamp study of the fading of GABAactivated currents in acutely dissociated hippocampal neurons. Journal of Neurophysiology 56,
+1-18.
+JAHNSEN, H. & LLINA'S, R. (1984a). Electrophysiological properties of guinea-pig thalamic
+neurones: an in vitro study. Journal of Physiology 349, 205-226.
+
+604
+
+D. A. COULTER, J. R. HUGUENARD AND D. A. PRINCE
+
+JAHNSEN, H. & LLINAs, R. (1984b). Ionic basis for the electroresponsiveness and oscillatory
+properties of guinea-pig thalamic neurones in vitro. Journal of Physiology 349, 227-247.
+JONES, E. G. (1985). The Thalamus. New York: Plenum Press.
+KAY, A. R. & WONG, R. K. S. (1986). Isolation of neurons suitable for patch-clamping from adult
+mammalian central nervous systems. Journal of Neuroscience Methods 16, 227-238.
+KAY, A. R. & WONG, R. K. S. (1987). Calcium current activation kinetics in isolated pyramidal
+neurons of the CAI region of the mature guinea-pig hippocampus. Journal of Physiology 392,
+603-616.
+KOSTYUK, P. G., KRISHTAL, 0. A. & PIDOPLICHKO, V. I. (1981). Calcium inward current and
+related charge movements in the membrane of snail neurones. Journal of Physiology 310,
+403-421.
+LLINA'S, R. & YAROM, Y. (1981). Properties and distribution of ionic conductances generating
+electroresponsiveness of mammalian inferior olivary neurones in vitro. Journal of Physiology 315,
+569-584.
+Lux, H. D. & BROWN, A. M. (1984). Patch and whole cell calcium currents recorded simultaneously
+in snail neurons. Journal of General Physiology 83, 727-750.
+NARAHASHI, T., TsuNoo, A. & YOSHII, M. (1987). Characterization of two types of calcium channels
+in mouse neuroblastoma cells. Journal of Physiology 383, 231-249.
+NOWYCKY, M. C., Fox, A. P. & TSIEN, R. W. (1985). Three types of neuronal calcium channel with
+different calcium agonist sensitivity. Nature 316, 440-443.
+NUMANN, R. E. & WONG, R. K. S. (1984). Voltage-clamp study on GABA response desensitization
+in single pyramidal cells dissociated from the hippocampus of adult guinea pigs. Neuroscience
+Letters 47, 289-294.
+SCHREINER, W., KRAMER, M., KRISCHER, S. & LANGSAM, Y. (1985). Nonlinear least-squares fitting.
+PC Technical Journal 3, 170-181.
+STERIADE, M. & LLINA'S, R. R. (1988). The functional states of the thalamus and the associated
+neuronal interplay. Physiological Reviews 68, 649-742.
+TANG, C.-M., PRESSER, F. & MORAD, M. (1988). Amiloride selectively blocks the low threshold (T)
+calcium channel. Science 240, 213-215.
+THOMPSON, S. H. (1977). Three pharmacologically distinct potassium channels in molluscan
+neurones. Journal of Physiology 265, 465-488.
+WILCOX, K. S., GUTNICK, M. J. & CHRISTOPH, G. R. (1988). Electrophysiological properties of
+neurons in the lateral habenula nucleus: an in vitro study. Journal of Neurophysiology 59,
+212-225.
+
+
