@@ -321,8 +321,8 @@
                 "id": "b2575ed4-f289-11e5-b804-64006a4c56ef",
                 "relationship": {
                     "entity1": {
-                        "id": "NIFMOL:nifext_8055",
-                        "name": "Sodium current"
+                        "id": "NIFINV:birnlex_2304",
+                        "name": "Ionic current model"
                     },
                     "entity2": "None",
                     "type": "point"
@@ -330,12 +330,12 @@
                 "requiredTags": [
                     {
                         "id": "NIFMOL:nifext_8055",
-                        "name": "Sodium current",
+                        "name": "Sodium leak current",
                         "rootId": "nifext_8054"
                     },
                     {
                         "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
+                        "name": "Thalamus ventroposterior nucleus principal neuron",
                         "rootId": "sao1813327414"
                     }
                 ]
