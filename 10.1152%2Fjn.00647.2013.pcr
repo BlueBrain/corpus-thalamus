@@ -813,5 +813,21 @@
         "pubId": "10.1152/jn.00647.2013",
         "tags": {},
         "version": "1"
+    },
+    {
+        "annotId": "3573dcfe-f28d-11e5-a844-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "localizer": {
+            "location": 21967,
+            "text": "delayed rectifier potassium current",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1152/jn.00647.2013",
+        "tags": {},
+        "version": "1"
     }
 ]
