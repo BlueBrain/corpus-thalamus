@@ -56,6 +56,52 @@
                         "rootId": "sao1813327414"
                     }
                 ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-121006",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "min",
+                                    "type": "simple",
+                                    "unit": "um",
+                                    "values": [
+                                        2
+                                    ]
+                                },
+                                {
+                                    "statistic": "max",
+                                    "type": "simple",
+                                    "unit": "um",
+                                    "values": [
+                                        3
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "experimentProperties": [],
+                "id": "45127f28-f29f-11e5-b16a-64006a4c56ef",
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFORG:birnlex_254",
+                        "name": "Wistar Rat"
+                    },
+                    "entity2": "None",
+                    "type": "point"
+                },
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus relay cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
             }
         ],
         "pubId": "10.1113/jphysiol.1989.sp017705",
