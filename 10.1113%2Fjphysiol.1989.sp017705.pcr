@@ -10,9 +10,65 @@
             "text": "Isolated relay neurones were somewhat variable in\nappearance but a majority had relatively large somata (15-25 Itm), and several thick (2-3 Itm)\ndendrites extending for up to 80 ,tm from the soma.",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131002",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "min",
+                                    "type": "simple",
+                                    "unit": "um",
+                                    "values": [
+                                        15
+                                    ]
+                                },
+                                {
+                                    "statistic": "max",
+                                    "type": "simple",
+                                    "unit": "um",
+                                    "values": [
+                                        25
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "experimentProperties": [
+                    {
+                        "name": "Age",
+                        "unit": "d",
+                        "value": "2-25"
+                    }
+                ],
+                "id": "e2ce67ec-f29d-11e5-a844-64006a4c56ef",
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFGA:birnlex_1116",
+                        "name": "Ventral posterior nucleus"
+                    },
+                    "entity2": "None",
+                    "type": "point"
+                },
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus relay cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
         "pubId": "10.1113/jphysiol.1989.sp017705",
-        "tags": {},
+        "tags": {
+            "NIFGA:birnlex_1116": "Ventral posterior nucleus",
+            "NIFORG:birnlex_254": "Wistar Rat"
+        },
         "version": "1"
     }
 ]
