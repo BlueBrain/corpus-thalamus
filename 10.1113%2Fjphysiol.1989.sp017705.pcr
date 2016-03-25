@@ -39,13 +39,7 @@
                     },
                     "type": "pointValue"
                 },
-                "experimentProperties": [
-                    {
-                        "name": "Age",
-                        "unit": "d",
-                        "value": "2-25"
-                    }
-                ],
+                "experimentProperties": [],
                 "id": "e2ce67ec-f29d-11e5-a844-64006a4c56ef",
                 "relationship": {
                     "entity1": {
