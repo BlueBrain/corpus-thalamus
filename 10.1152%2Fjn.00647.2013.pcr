@@ -1,568 +1,18 @@
 [
     {
-        "annotId": "4bda3e60-c59d-11e5-b8a7-3417ebb8f5ca",
+        "annotId": "b2ee2efe-eacf-11e5-8a4b-c869cd917532",
         "authors": [
-            "iavarone",
-            "oreilly"
+            "iavarone"
         ],
         "comment": "",
         "localizer": {
-            "location": 13965,
-            "text": "g \u17ee Kir is the maximum Kir conductance and E K is the equilibrium\npotential for potassium (\u03ea99 mV)",
+            "location": 26914,
+            "text": "y Kir2 channel mRNA expressed in the thalamus\rcorresponds to Kir2.2 (Karschin et al. 1996).",
             "type": "text"
-        },
-        "parameters": [
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-011001",
-                        "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "mV",
-                            "values": [
-                                -99.0
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "experimentProperties": [],
-                "id": "ceabc188-f289-11e5-b804-64006a4c56ef",
-                "relationship": {
-                    "entity1": {
-                        "id": "NIFORG:birnlex_167",
-                        "name": "Mouse"
-                    },
-                    "entity2": "None",
-                    "type": "point"
-                },
-                "requiredTags": [
-                    {
-                        "id": "NIFMOL:nifext_8056",
-                        "name": "Potassium current",
-                        "rootId": "nifext_8054"
-                    },
-                    {
-                        "id": "NIFCELL:sao1813327414",
-                        "name": "Thalamus ventroposterior nucleus principal neuron",
-                        "rootId": "sao1813327414"
-                    }
-                ]
-            }
-        ],
-        "pubId": "10.1152/jn.00647.2013",
-        "tags": {
-            "birnlex_167": "Mouse",
-            "birnlex_2300": "Computational model",
-            "nlx_151691": "Thalamus ventroposterior nucleus principal neuron"
-        },
-        "version": "1"
-    },
-    {
-        "annotId": "af685448-c59e-11e5-b8a7-3417ebb8f5ca",
-        "authors": [
-            "iavarone"
-        ],
-        "comment": "Equations for I_h, original from guinea pig (McCormick & Huguenard, 1992), activation parameters from mice, Q_10 = 4 (Santoro et al., 2000). E_h = -43 mV\n",
-        "localizer": {
-            "equation": null,
-            "no": "(3) and (4)",
-            "type": "equation"
-        },
-        "parameters": [
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-030003",
-                        "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "S/cm^2",
-                            "values": [
-                                2.2e-05
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "experimentProperties": [],
-                "id": "ceabca2a-f289-11e5-b804-64006a4c56ef",
-                "relationship": {
-                    "entity1": {
-                        "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current"
-                    },
-                    "entity2": "None",
-                    "type": "point"
-                },
-                "requiredTags": [
-                    {
-                        "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current",
-                        "rootId": "nifext_8054"
-                    },
-                    {
-                        "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
-                        "rootId": "sao1813327414"
-                    }
-                ]
-            }
-        ],
-        "pubId": "10.1152/jn.00647.2013",
-        "tags": {
-            "birnlex_167": "Mouse",
-            "birnlex_2304": "Ionic current model",
-            "birnlex_297": "Guinea pig"
-        },
-        "version": "1"
-    },
-    {
-        "annotId": "c3af1a82-c5a7-11e5-b8a7-3417ebb8f5ca",
-        "authors": [
-            "iavarone"
-        ],
-        "comment": "Sodium persistend current, from mesencephalic trgeminal sensory neurons rats. (m*h). Q_10 = 3",
-        "localizer": {
-            "equation": null,
-            "no": "(7) and (8) and (9)",
-            "type": "equation"
-        },
-        "parameters": [
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-011001",
-                        "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "mV",
-                            "values": [
-                                45.0
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "experimentProperties": [],
-                "id": "ceabce58-f289-11e5-b804-64006a4c56ef",
-                "relationship": {
-                    "entity1": {
-                        "id": "NIFMOL:nifext_8055",
-                        "name": "Sodium current"
-                    },
-                    "entity2": "None",
-                    "type": "point"
-                },
-                "requiredTags": [
-                    {
-                        "id": "NIFMOL:nifext_8055",
-                        "name": "Sodium current",
-                        "rootId": "nifext_8054"
-                    },
-                    {
-                        "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
-                        "rootId": "sao1813327414"
-                    }
-                ]
-            },
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-030003",
-                        "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "S/cm^2",
-                            "values": [
-                                5.5e-06
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "experimentProperties": [],
-                "id": "ceabd39e-f289-11e5-b804-64006a4c56ef",
-                "relationship": {
-                    "entity1": {
-                        "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current"
-                    },
-                    "entity2": "None",
-                    "type": "point"
-                },
-                "requiredTags": [
-                    {
-                        "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current",
-                        "rootId": "nifext_8054"
-                    },
-                    {
-                        "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
-                        "rootId": "sao1813327414"
-                    }
-                ]
-            }
-        ],
-        "pubId": "10.1152/jn.00647.2013",
-        "tags": {},
-        "version": "1"
-    },
-    {
-        "annotId": "5f2579ba-ea73-11e5-9eb7-c869cd917532",
-        "authors": [
-            "iavarone"
-        ],
-        "comment": "Model of IT current, original from Huguenard & McCormick (1992), implemented by Destexhe (ModelDB, no. 279). Activation curve shifted +6 mV, -2 mV activatione voltage dependence and kinetics. Q10 = 2.5.",
-        "localizer": {
-            "equation": null,
-            "no": "12-20",
-            "type": "equation"
         },
         "parameters": [],
         "pubId": "10.1152/jn.00647.2013",
-        "tags": {
-            "birnlex_167": "Mouse",
-            "birnlex_2304": "Ionic current model",
-            "nlx_151691": "Thalamus ventroposterior nucleus principal neuron"
-        },
-        "version": "1"
-    },
-    {
-        "annotId": "23747f92-ea75-11e5-a4df-c869cd917532",
-        "authors": [
-            "iavarone"
-        ],
-        "comment": "Q10 = 2.8",
-        "localizer": {
-            "location": 21184,
-            "text": "IA and the leak currents from the study of McCormick and Huguenard",
-            "type": "text"
-        },
-        "parameters": [
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-030003",
-                        "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "S/cm^2",
-                            "values": [
-                                0.0055
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "experimentProperties": [],
-                "id": "ceabdac4-f289-11e5-b804-64006a4c56ef",
-                "relationship": {
-                    "entity1": {
-                        "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current"
-                    },
-                    "entity2": "None",
-                    "type": "point"
-                },
-                "requiredTags": [
-                    {
-                        "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current",
-                        "rootId": "nifext_8054"
-                    },
-                    {
-                        "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
-                        "rootId": "sao1813327414"
-                    }
-                ]
-            }
-        ],
-        "pubId": "10.1152/jn.00647.2013",
-        "tags": {
-            "birnlex_160": "Rat",
-            "birnlex_2304": "Ionic current model",
-            "nlx_organ_109041": "Young rat"
-        },
-        "version": "1"
-    },
-    {
-        "annotId": "01e86e00-ea76-11e5-ab47-c869cd917532",
-        "authors": [
-            "iavarone",
-            "oreilly"
-        ],
-        "comment": "",
-        "localizer": {
-            "location": 21451,
-            "text": "The reversal potential for the sodium leak current",
-            "type": "text"
-        },
-        "parameters": [
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-011001",
-                        "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "mV",
-                            "values": [
-                                0.0
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "experimentProperties": [],
-                "id": "b2575ed4-f289-11e5-b804-64006a4c56ef",
-                "relationship": {
-                    "entity1": {
-                        "id": "NIFINV:birnlex_2304",
-                        "name": "Ionic current model"
-                    },
-                    "entity2": "None",
-                    "type": "point"
-                },
-                "requiredTags": [
-                    {
-                        "id": "NIFMOL:nifext_8055",
-                        "name": "Sodium leak current",
-                        "rootId": "nifext_8054"
-                    },
-                    {
-                        "id": "NIFCELL:sao1813327414",
-                        "name": "Thalamus ventroposterior nucleus principal neuron",
-                        "rootId": "sao1813327414"
-                    }
-                ]
-            },
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-030003",
-                        "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "s/cm^2",
-                            "values": [
-                                3e-06
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "experimentProperties": [],
-                "id": "b25766f4-f289-11e5-b804-64006a4c56ef",
-                "relationship": {
-                    "entity1": {
-                        "id": "NIFINV:birnlex_2304",
-                        "name": "Ionic current model"
-                    },
-                    "entity2": "None",
-                    "type": "point"
-                },
-                "requiredTags": [
-                    {
-                        "id": "NIFMOL:nifext_8054",
-                        "name": "Sodium leak current",
-                        "rootId": "nifext_8054"
-                    },
-                    {
-                        "id": "NIFCELL:sao1813327414",
-                        "name": "Thalamus ventroposterior nucleus principal neuron",
-                        "rootId": "sao1813327414"
-                    }
-                ]
-            }
-        ],
-        "pubId": "10.1152/jn.00647.2013",
-        "tags": {
-            "birnlex_167": "Mouse",
-            "birnlex_2304": "Ionic current model",
-            "nlx_151691": "Thalamus ventroposterior nucleus principal neuron"
-        },
-        "version": "1"
-    },
-    {
-        "annotId": "9091d010-ea76-11e5-a1a8-c869cd917532",
-        "authors": [
-            "iavarone"
-        ],
-        "comment": "From Destexhe et al. (1998). Global depolirizing shift of 10-15 mV. ",
-        "localizer": {
-            "location": 21926,
-            "text": "Fast transiente sodium current ",
-            "type": "text"
-        },
-        "parameters": [
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-030003",
-                        "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "S/cm^2",
-                            "values": [
-                                0.01
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "experimentProperties": [],
-                "id": "ceabe9c4-f289-11e5-b804-64006a4c56ef",
-                "relationship": {
-                    "entity1": {
-                        "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current"
-                    },
-                    "entity2": "None",
-                    "type": "point"
-                },
-                "requiredTags": [
-                    {
-                        "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current",
-                        "rootId": "nifext_8054"
-                    },
-                    {
-                        "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
-                        "rootId": "sao1813327414"
-                    }
-                ]
-            }
-        ],
-        "pubId": "10.1152/jn.00647.2013",
-        "tags": {
-            "birnlex_167": "Mouse",
-            "birnlex_2304": "Ionic current model",
-            "nlx_151691": "Thalamus ventroposterior nucleus principal neuron"
-        },
-        "version": "1"
-    },
-    {
-        "annotId": "f4b70da8-ea76-11e5-a3b7-c869cd917532",
-        "authors": [
-            "iavarone"
-        ],
-        "comment": "",
-        "localizer": {
-            "location": 21967,
-            "text": "delayed rectifier potassium current",
-            "type": "text"
-        },
-        "parameters": [
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-030003",
-                        "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "S/cm^2",
-                            "values": [
-                                0.002
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "experimentProperties": [],
-                "id": "ceabefb4-f289-11e5-b804-64006a4c56ef",
-                "relationship": {
-                    "entity1": {
-                        "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current"
-                    },
-                    "entity2": "None",
-                    "type": "point"
-                },
-                "requiredTags": [
-                    {
-                        "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current",
-                        "rootId": "nifext_8054"
-                    },
-                    {
-                        "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
-                        "rootId": "sao1813327414"
-                    }
-                ]
-            }
-        ],
-        "pubId": "10.1152/jn.00647.2013",
-        "tags": {
-            "birnlex_167": "Mouse",
-            "birnlex_2304": "Ionic current model",
-            "nlx_151691": "Thalamus ventroposterior nucleus principal neuron"
-        },
-        "version": "1"
-    },
-    {
-        "annotId": "8c4a1c38-eacb-11e5-a3fb-c869cd917532",
-        "authors": [
-            "iavarone"
-        ],
-        "comment": "IL from McCormick & Huguenard (1992), referring to Kay and Wong (1987)",
-        "localizer": {
-            "location": 22467,
-            "text": "The high-threshold calcium current IL",
-            "type": "text"
-        },
-        "parameters": [
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-030003",
-                        "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "cm/s",
-                            "values": [
-                                0.0001
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "experimentProperties": [],
-                "id": "ceabf4a0-f289-11e5-b804-64006a4c56ef",
-                "relationship": {
-                    "entity1": {
-                        "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current"
-                    },
-                    "entity2": "None",
-                    "type": "point"
-                },
-                "requiredTags": [
-                    {
-                        "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current",
-                        "rootId": "nifext_8054"
-                    },
-                    {
-                        "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
-                        "rootId": "sao1813327414"
-                    }
-                ]
-            }
-        ],
-        "pubId": "10.1152/jn.00647.2013",
-        "tags": {
-            "birnlex_2304": "Ionic current model",
-            "birnlex_297": "Guinea pig",
-            "nifext_156": "Hippocampal pyramidal cell"
-        },
+        "tags": {},
         "version": "1"
     },
     {
@@ -676,6 +126,66 @@
         "version": "1"
     },
     {
+        "annotId": "4bda3e60-c59d-11e5-b8a7-3417ebb8f5ca",
+        "authors": [
+            "iavarone",
+            "oreilly"
+        ],
+        "comment": "",
+        "localizer": {
+            "location": 13965,
+            "text": "g \u17ee Kir is the maximum Kir conductance and E K is the equilibrium\npotential for potassium (\u03ea99 mV)",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-011001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                -99.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "experimentProperties": [],
+                "id": "ceabc188-f289-11e5-b804-64006a4c56ef",
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFORG:birnlex_167",
+                        "name": "Mouse"
+                    },
+                    "entity2": "None",
+                    "type": "point"
+                },
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8056",
+                        "name": "Potassium current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus ventroposterior nucleus principal neuron",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1152/jn.00647.2013",
+        "tags": {
+            "birnlex_167": "Mouse",
+            "birnlex_2300": "Computational model",
+            "nlx_151691": "Thalamus ventroposterior nucleus principal neuron"
+        },
+        "version": "1"
+    },
+    {
         "annotId": "4055abf6-eacd-11e5-9c0d-c869cd917532",
         "authors": [
             "iavarone"
@@ -690,6 +200,222 @@
         "pubId": "10.1152/jn.00647.2013",
         "tags": {
             "nlx_cell_20081203": "Thalamus geniculate nucleus (lateral) principal neuron"
+        },
+        "version": "1"
+    },
+    {
+        "annotId": "f4b70da8-ea76-11e5-a3b7-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "localizer": {
+            "location": 21967,
+            "text": "delayed rectifier potassium current",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "S/cm^2",
+                            "values": [
+                                0.002
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "experimentProperties": [],
+                "id": "ceabefb4-f289-11e5-b804-64006a4c56ef",
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Transmembrane ionic current"
+                    },
+                    "entity2": "None",
+                    "type": "point"
+                },
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Transmembrane ionic current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1152/jn.00647.2013",
+        "tags": {
+            "birnlex_167": "Mouse",
+            "birnlex_2304": "Ionic current model",
+            "nlx_151691": "Thalamus ventroposterior nucleus principal neuron"
+        },
+        "version": "1"
+    },
+    {
+        "annotId": "01e86e00-ea76-11e5-ab47-c869cd917532",
+        "authors": [
+            "iavarone",
+            "oreilly"
+        ],
+        "comment": "",
+        "localizer": {
+            "location": 21451,
+            "text": "The reversal potential for the sodium leak current",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-011001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                0.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "experimentProperties": [],
+                "id": "b2575ed4-f289-11e5-b804-64006a4c56ef",
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFINV:birnlex_2304",
+                        "name": "Ionic current model"
+                    },
+                    "entity2": "None",
+                    "type": "point"
+                },
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8055",
+                        "name": "Sodium leak current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus ventroposterior nucleus principal neuron",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "s/cm^2",
+                            "values": [
+                                3e-06
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "experimentProperties": [],
+                "id": "b25766f4-f289-11e5-b804-64006a4c56ef",
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFINV:birnlex_2304",
+                        "name": "Ionic current model"
+                    },
+                    "entity2": "None",
+                    "type": "point"
+                },
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Sodium leak current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus ventroposterior nucleus principal neuron",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1152/jn.00647.2013",
+        "tags": {
+            "birnlex_167": "Mouse",
+            "birnlex_2304": "Ionic current model",
+            "nlx_151691": "Thalamus ventroposterior nucleus principal neuron"
+        },
+        "version": "1"
+    },
+    {
+        "annotId": "8c4a1c38-eacb-11e5-a3fb-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "IL from McCormick & Huguenard (1992), referring to Kay and Wong (1987)",
+        "localizer": {
+            "location": 22467,
+            "text": "The high-threshold calcium current IL",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "cm/s",
+                            "values": [
+                                0.0001
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "experimentProperties": [],
+                "id": "ceabf4a0-f289-11e5-b804-64006a4c56ef",
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Transmembrane ionic current"
+                    },
+                    "entity2": "None",
+                    "type": "point"
+                },
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Transmembrane ionic current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1152/jn.00647.2013",
+        "tags": {
+            "birnlex_2304": "Ionic current model",
+            "birnlex_297": "Guinea pig",
+            "nifext_156": "Hippocampal pyramidal cell"
         },
         "version": "1"
     },
@@ -744,19 +470,121 @@
         "version": "1"
     },
     {
-        "annotId": "b2ee2efe-eacf-11e5-8a4b-c869cd917532",
+        "annotId": "23747f92-ea75-11e5-a4df-c869cd917532",
         "authors": [
             "iavarone"
         ],
-        "comment": "",
+        "comment": "Q10 = 2.8",
         "localizer": {
-            "location": 26914,
-            "text": "y Kir2 channel mRNA expressed in the thalamus\rcorresponds to Kir2.2 (Karschin et al. 1996).",
+            "location": 21184,
+            "text": "IA and the leak currents from the study of McCormick and Huguenard",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "S/cm^2",
+                            "values": [
+                                0.0055
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "experimentProperties": [],
+                "id": "ceabdac4-f289-11e5-b804-64006a4c56ef",
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Transmembrane ionic current"
+                    },
+                    "entity2": "None",
+                    "type": "point"
+                },
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Transmembrane ionic current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
         "pubId": "10.1152/jn.00647.2013",
-        "tags": {},
+        "tags": {
+            "birnlex_160": "Rat",
+            "birnlex_2304": "Ionic current model",
+            "nlx_organ_109041": "Young rat"
+        },
+        "version": "1"
+    },
+    {
+        "annotId": "9091d010-ea76-11e5-a1a8-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "From Destexhe et al. (1998). Global depolirizing shift of 10-15 mV. ",
+        "localizer": {
+            "location": 21926,
+            "text": "Fast transiente sodium current ",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "S/cm^2",
+                            "values": [
+                                0.01
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "experimentProperties": [],
+                "id": "ceabe9c4-f289-11e5-b804-64006a4c56ef",
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Transmembrane ionic current"
+                    },
+                    "entity2": "None",
+                    "type": "point"
+                },
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Transmembrane ionic current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1152/jn.00647.2013",
+        "tags": {
+            "birnlex_167": "Mouse",
+            "birnlex_2304": "Ionic current model",
+            "nlx_151691": "Thalamus ventroposterior nucleus principal neuron"
+        },
         "version": "1"
     },
     {
@@ -815,19 +643,175 @@
         "version": "1"
     },
     {
-        "annotId": "3573dcfe-f28d-11e5-a844-64006a4c56ef",
+        "annotId": "5f2579ba-ea73-11e5-9eb7-c869cd917532",
         "authors": [
-            "oreilly"
+            "iavarone"
         ],
-        "comment": "",
+        "comment": "Model of IT current, original from Huguenard & McCormick (1992), implemented by Destexhe (ModelDB, no. 279). Activation curve shifted +6 mV, -2 mV activatione voltage dependence and kinetics. Q10 = 2.5.",
         "localizer": {
-            "location": 21967,
-            "text": "delayed rectifier potassium current",
-            "type": "text"
+            "equation": null,
+            "no": "12-20",
+            "type": "equation"
         },
         "parameters": [],
         "pubId": "10.1152/jn.00647.2013",
+        "tags": {
+            "birnlex_167": "Mouse",
+            "birnlex_2304": "Ionic current model",
+            "nlx_151691": "Thalamus ventroposterior nucleus principal neuron"
+        },
+        "version": "1"
+    },
+    {
+        "annotId": "c3af1a82-c5a7-11e5-b8a7-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "Sodium persistend current, from mesencephalic trgeminal sensory neurons rats. (m*h). Q_10 = 3",
+        "localizer": {
+            "equation": null,
+            "no": "(7) and (8) and (9)",
+            "type": "equation"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-011001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                45.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "experimentProperties": [],
+                "id": "ceabce58-f289-11e5-b804-64006a4c56ef",
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFMOL:nifext_8055",
+                        "name": "Sodium current"
+                    },
+                    "entity2": "None",
+                    "type": "point"
+                },
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8055",
+                        "name": "Sodium current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "S/cm^2",
+                            "values": [
+                                5.5e-06
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "experimentProperties": [],
+                "id": "ceabd39e-f289-11e5-b804-64006a4c56ef",
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Transmembrane ionic current"
+                    },
+                    "entity2": "None",
+                    "type": "point"
+                },
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Transmembrane ionic current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1152/jn.00647.2013",
         "tags": {},
+        "version": "1"
+    },
+    {
+        "annotId": "af685448-c59e-11e5-b8a7-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "Equations for I_h, original from guinea pig (McCormick & Huguenard, 1992), activation parameters from mice, Q_10 = 4 (Santoro et al., 2000). E_h = -43 mV\n",
+        "localizer": {
+            "equation": null,
+            "no": "(3) and (4)",
+            "type": "equation"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "S/cm^2",
+                            "values": [
+                                2.2e-05
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "experimentProperties": [],
+                "id": "ceabca2a-f289-11e5-b804-64006a4c56ef",
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Transmembrane ionic current"
+                    },
+                    "entity2": "None",
+                    "type": "point"
+                },
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Transmembrane ionic current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1152/jn.00647.2013",
+        "tags": {
+            "birnlex_167": "Mouse",
+            "birnlex_2304": "Ionic current model",
+            "birnlex_297": "Guinea pig"
+        },
         "version": "1"
     }
 ]
