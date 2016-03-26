@@ -337,5 +337,24 @@
             "NIFORG:birnlex_254": "Wistar Rat"
         },
         "version": "1"
+    },
+    {
+        "annotId": "465dd7aa-f381-11e5-bc81-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "3",
+            "type": "figure"
+        },
+        "parameters": [],
+        "pubId": "10.1113/jphysiol.1989.sp017705",
+        "tags": {
+            "NIFGA:birnlex_1116": "Ventral posterior nucleus",
+            "NIFORG:birnlex_254": "Wistar Rat"
+        },
+        "version": "1"
     }
 ]
