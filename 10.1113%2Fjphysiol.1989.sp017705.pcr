@@ -213,5 +213,25 @@
             "NIFORG:birnlex_254": "Wistar Rat"
         },
         "version": "1"
+    },
+    {
+        "annotId": "a5a94c10-f379-11e5-bdf6-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 12064,
+            "text": "Most experiments were performed at room temperature (22-24 'C)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1113/jphysiol.1989.sp017705",
+        "tags": {
+            "NIFGA:birnlex_1116": "Ventral posterior nucleus",
+            "NIFORG:birnlex_254": "Wistar Rat"
+        },
+        "version": "1"
     }
 ]
