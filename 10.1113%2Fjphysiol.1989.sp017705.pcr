@@ -121,14 +121,6 @@
                 },
                 "id": "5c50f372-f29f-11e5-b16a-64006a4c56ef",
                 "isExperimentProperty": false,
-                "relationship": {
-                    "entity1": {
-                        "id": "NIFORG:birnlex_254",
-                        "name": "Wistar Rat"
-                    },
-                    "entity2": "None",
-                    "type": "point"
-                },
                 "requiredTags": [
                     {
                         "id": "NIFCELL:sao1813327414",
