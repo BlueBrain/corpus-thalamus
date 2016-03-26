@@ -140,7 +140,20 @@
             "oreilly"
         ],
         "comment": "Age of rats used for the experiment.",
-        "experimentProperties": [],
+        "experimentProperties": [
+            {
+                "instanceId": "87b0c180-f378-11e5-b9da-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            },
+            {
+                "instanceId": "849d81a8-f379-11e5-bdf6-64006a4c56ef",
+                "paramTypeId": "BBP-002003"
+            },
+            {
+                "instanceId": "c8c5c46c-f379-11e5-bdf6-64006a4c56ef",
+                "paramTypeId": "BBP-002002"
+            }
+        ],
         "localizer": {
             "location": 7184,
             "text": "2- to 25-day-old",
