@@ -42,14 +42,6 @@
                 },
                 "id": "e2ce67ec-f29d-11e5-a844-64006a4c56ef",
                 "isExperimentProperty": false,
-                "relationship": {
-                    "entity1": {
-                        "id": "NIFGA:birnlex_1116",
-                        "name": "Ventral posterior nucleus"
-                    },
-                    "entity2": "None",
-                    "type": "point"
-                },
                 "requiredTags": [
                     {
                         "id": "NIFCELL:sao1813327414",
