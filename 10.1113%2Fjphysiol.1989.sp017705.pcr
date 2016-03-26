@@ -226,7 +226,40 @@
             "text": "Most experiments were performed at room temperature (22-24 'C)",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002002",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "min",
+                                    "type": "simple",
+                                    "unit": "degC",
+                                    "values": [
+                                        22
+                                    ]
+                                },
+                                {
+                                    "statistic": "max",
+                                    "type": "simple",
+                                    "unit": "degC",
+                                    "values": [
+                                        24
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "c8c5c46c-f379-11e5-bdf6-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": []
+            }
+        ],
         "pubId": "10.1113/jphysiol.1989.sp017705",
         "tags": {
             "NIFGA:birnlex_1116": "Ventral posterior nucleus",
