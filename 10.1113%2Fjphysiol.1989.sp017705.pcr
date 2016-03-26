@@ -1,5 +1,77 @@
 [
     {
+        "annotId": "3ebde850-f381-11e5-bc81-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "2",
+            "type": "figure"
+        },
+        "parameters": [],
+        "pubId": "10.1113/jphysiol.1989.sp017705",
+        "tags": {
+            "NIFGA:birnlex_1116": "Ventral posterior nucleus",
+            "NIFORG:birnlex_254": "Wistar Rat"
+        },
+        "version": "1"
+    },
+    {
+        "annotId": "23f982e8-f379-11e5-afca-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "87b0c180-f378-11e5-b9da-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            },
+            {
+                "instanceId": "849d81a8-f379-11e5-bdf6-64006a4c56ef",
+                "paramTypeId": "BBP-002003"
+            },
+            {
+                "instanceId": "c8c5c46c-f379-11e5-bdf6-64006a4c56ef",
+                "paramTypeId": "BBP-002002"
+            }
+        ],
+        "localizer": {
+            "location": 9980,
+            "text": "8 mV liquid junction\npotential was measured between the intracellular and extracellular solutions",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                8
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "849d81a8-f379-11e5-bdf6-64006a4c56ef",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "10.1113/jphysiol.1989.sp017705",
+        "tags": {
+            "NIFGA:birnlex_1116": "Ventral posterior nucleus",
+            "NIFORG:birnlex_254": "Wistar Rat"
+        },
+        "version": "1"
+    },
+    {
         "annotId": "f9d88dd8-f29c-11e5-a844-64006a4c56ef",
         "authors": [
             "oreilly"
@@ -201,59 +273,6 @@
         "version": "1"
     },
     {
-        "annotId": "23f982e8-f379-11e5-afca-64006a4c56ef",
-        "authors": [
-            "oreilly"
-        ],
-        "comment": "",
-        "experimentProperties": [
-            {
-                "instanceId": "87b0c180-f378-11e5-b9da-64006a4c56ef",
-                "paramTypeId": "BBP-002001"
-            },
-            {
-                "instanceId": "849d81a8-f379-11e5-bdf6-64006a4c56ef",
-                "paramTypeId": "BBP-002003"
-            },
-            {
-                "instanceId": "c8c5c46c-f379-11e5-bdf6-64006a4c56ef",
-                "paramTypeId": "BBP-002002"
-            }
-        ],
-        "localizer": {
-            "location": 9980,
-            "text": "8 mV liquid junction\npotential was measured between the intracellular and extracellular solutions",
-            "type": "text"
-        },
-        "parameters": [
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-002003",
-                        "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "mV",
-                            "values": [
-                                8
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "849d81a8-f379-11e5-bdf6-64006a4c56ef",
-                "isExperimentProperty": true,
-                "requiredTags": []
-            }
-        ],
-        "pubId": "10.1113/jphysiol.1989.sp017705",
-        "tags": {
-            "NIFGA:birnlex_1116": "Ventral posterior nucleus",
-            "NIFORG:birnlex_254": "Wistar Rat"
-        },
-        "version": "1"
-    },
-    {
         "annotId": "a5a94c10-f379-11e5-bdf6-64006a4c56ef",
         "authors": [
             "oreilly"
@@ -312,44 +331,6 @@
                 "requiredTags": []
             }
         ],
-        "pubId": "10.1113/jphysiol.1989.sp017705",
-        "tags": {
-            "NIFGA:birnlex_1116": "Ventral posterior nucleus",
-            "NIFORG:birnlex_254": "Wistar Rat"
-        },
-        "version": "1"
-    },
-    {
-        "annotId": "3ebde850-f381-11e5-bc81-64006a4c56ef",
-        "authors": [
-            "oreilly"
-        ],
-        "comment": "",
-        "experimentProperties": [],
-        "localizer": {
-            "no": "2",
-            "type": "figure"
-        },
-        "parameters": [],
-        "pubId": "10.1113/jphysiol.1989.sp017705",
-        "tags": {
-            "NIFGA:birnlex_1116": "Ventral posterior nucleus",
-            "NIFORG:birnlex_254": "Wistar Rat"
-        },
-        "version": "1"
-    },
-    {
-        "annotId": "465dd7aa-f381-11e5-bc81-64006a4c56ef",
-        "authors": [
-            "oreilly"
-        ],
-        "comment": "",
-        "experimentProperties": [],
-        "localizer": {
-            "no": "3",
-            "type": "figure"
-        },
-        "parameters": [],
         "pubId": "10.1113/jphysiol.1989.sp017705",
         "tags": {
             "NIFGA:birnlex_1116": "Ventral posterior nucleus",
