@@ -208,14 +208,6 @@
                     "type": "pointValue"
                 },
                 "id": "f9cd3a46-ed10-11e5-b708-64006a4c56ef",
-                "relationship": {
-                    "entity1": {
-                        "id": "NIFINV:birnlex_2300",
-                        "name": "Computational model"
-                    },
-                    "entity2": "None",
-                    "type": "point"
-                },
                 "requiredTags": [
                     {
                         "id": "NIFCELL:sao1813327414",
