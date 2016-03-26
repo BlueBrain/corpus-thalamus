@@ -5,6 +5,7 @@
             "oreilly"
         ],
         "comment": "",
+        "experimentProperties": [],
         "localizer": {
             "location": 8585,
             "text": "Isolated relay neurones were somewhat variable in\nappearance but a majority had relatively large somata (15-25 Itm), and several thick (2-3 Itm)\ndendrites extending for up to 80 ,tm from the soma.",
@@ -39,8 +40,8 @@
                     },
                     "type": "pointValue"
                 },
-                "experimentProperties": [],
                 "id": "e2ce67ec-f29d-11e5-a844-64006a4c56ef",
+                "isExperimentProperty": false,
                 "relationship": {
                     "entity1": {
                         "id": "NIFGA:birnlex_1116",
@@ -85,8 +86,8 @@
                     },
                     "type": "pointValue"
                 },
-                "experimentProperties": [],
                 "id": "45127f28-f29f-11e5-b16a-64006a4c56ef",
+                "isExperimentProperty": false,
                 "relationship": {
                     "entity1": {
                         "id": "NIFORG:birnlex_254",
@@ -118,8 +119,8 @@
                     },
                     "type": "pointValue"
                 },
-                "experimentProperties": [],
                 "id": "5c50f372-f29f-11e5-b16a-64006a4c56ef",
+                "isExperimentProperty": false,
                 "relationship": {
                     "entity1": {
                         "id": "NIFORG:birnlex_254",
@@ -135,6 +136,59 @@
                         "rootId": "sao1813327414"
                     }
                 ]
+            }
+        ],
+        "pubId": "10.1113/jphysiol.1989.sp017705",
+        "tags": {
+            "NIFGA:birnlex_1116": "Ventral posterior nucleus",
+            "NIFORG:birnlex_254": "Wistar Rat"
+        },
+        "version": "1"
+    },
+    {
+        "annotId": "4b7cd410-f378-11e5-b9da-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Age of rats used for the experiment.",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 7184,
+            "text": "2- to 25-day-old",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002001",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "min",
+                                    "type": "simple",
+                                    "unit": "d",
+                                    "values": [
+                                        2
+                                    ]
+                                },
+                                {
+                                    "statistic": "max",
+                                    "type": "simple",
+                                    "unit": "d",
+                                    "values": [
+                                        25
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "87b0c180-f378-11e5-b9da-64006a4c56ef",
+                "isExperimentProperty": true,
+                "requiredTags": []
             }
         ],
         "pubId": "10.1113/jphysiol.1989.sp017705",
