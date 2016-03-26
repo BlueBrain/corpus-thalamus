@@ -5,6 +5,7 @@
             "oreilly"
         ],
         "comment": "",
+        "experimentProperties": [],
         "localizer": {
             "no": "1",
             "noCol": null,
@@ -27,7 +28,6 @@
                     },
                     "type": "pointValue"
                 },
-                "experimentProperties": [],
                 "id": "d0b5a2fa-ec67-11e5-9a54-64006a4c56ef",
                 "relationship": {
                     "entity1": {
@@ -66,6 +66,7 @@
             "oreilly"
         ],
         "comment": "",
+        "experimentProperties": [],
         "localizer": {
             "location": 8202,
             "text": "the TRN is strategically situated to\ninfluence the flow of information passing through the thalamus\nand may enhance or suppress thalamic responsiveness, depending\non the relative timing of afferent inputs and TRN activation.",
@@ -88,6 +89,7 @@
             "oreilly"
         ],
         "comment": "Leak conductance of a mouse TC cell.",
+        "experimentProperties": [],
         "localizer": {
             "no": "2",
             "noCol": "2",
@@ -131,7 +133,6 @@
                     },
                     "type": "pointValue"
                 },
-                "experimentProperties": [],
                 "id": "f7e8c5ec-eced-11e5-b708-64006a4c56ef",
                 "relationship": {
                     "entity1": {
@@ -170,6 +171,7 @@
             "oreilly"
         ],
         "comment": "Leak equilibrium potential of a mouse TC cell.",
+        "experimentProperties": [],
         "localizer": {
             "no": "2",
             "noCol": "2",
@@ -213,7 +215,6 @@
                     },
                     "type": "pointValue"
                 },
-                "experimentProperties": [],
                 "id": "f9cd3a46-ed10-11e5-b708-64006a4c56ef",
                 "relationship": {
                     "entity1": {
@@ -252,6 +253,7 @@
             "oreilly"
         ],
         "comment": "T-current amplitude of a mouse TC cell.",
+        "experimentProperties": [],
         "localizer": {
             "no": "2",
             "noCol": "2",
@@ -295,7 +297,6 @@
                     },
                     "type": "pointValue"
                 },
-                "experimentProperties": [],
                 "id": "f7145738-ed12-11e5-b708-64006a4c56ef",
                 "relationship": {
                     "entity1": {
@@ -334,6 +335,7 @@
             "oreilly"
         ],
         "comment": "H-current amplitude of a mouse TC cell.",
+        "experimentProperties": [],
         "localizer": {
             "no": "2",
             "noCol": "2",
@@ -377,16 +379,7 @@
                     },
                     "type": "pointValue"
                 },
-                "experimentProperties": [],
                 "id": "125ff222-ed13-11e5-b708-64006a4c56ef",
-                "relationship": {
-                    "entity1": {
-                        "id": "NIFINV:birnlex_2300",
-                        "name": "Computational model"
-                    },
-                    "entity2": "None",
-                    "type": "point"
-                },
                 "requiredTags": [
                     {
                         "id": "NIFCELL:sao1813327414",
@@ -416,6 +409,7 @@
             "oreilly"
         ],
         "comment": "Leak conductance of a mouse TRN cell.",
+        "experimentProperties": [],
         "localizer": {
             "no": "2",
             "noCol": "2",
@@ -459,7 +453,6 @@
                     },
                     "type": "pointValue"
                 },
-                "experimentProperties": [],
                 "id": "58b63026-ed11-11e5-b708-64006a4c56ef",
                 "relationship": {
                     "entity1": {
@@ -498,6 +491,7 @@
             "oreilly"
         ],
         "comment": "Leak equilibrium potential of a mouse TRN cell.",
+        "experimentProperties": [],
         "localizer": {
             "no": "2",
             "noCol": "2",
@@ -541,7 +535,6 @@
                     },
                     "type": "pointValue"
                 },
-                "experimentProperties": [],
                 "id": "6ea87a7e-ed11-11e5-b708-64006a4c56ef",
                 "relationship": {
                     "entity1": {
@@ -580,6 +573,7 @@
             "oreilly"
         ],
         "comment": "T-current amplitude of a mouse TRN cell.",
+        "experimentProperties": [],
         "localizer": {
             "no": "2",
             "noCol": "2",
@@ -623,7 +617,6 @@
                     },
                     "type": "pointValue"
                 },
-                "experimentProperties": [],
                 "id": "8608f1c0-ed12-11e5-b708-64006a4c56ef",
                 "relationship": {
                     "entity1": {
@@ -662,6 +655,7 @@
             "oreilly"
         ],
         "comment": "H-current amplitude of a mouse TRN cell.",
+        "experimentProperties": [],
         "localizer": {
             "no": "2",
             "noCol": "2",
@@ -705,7 +699,6 @@
                     },
                     "type": "pointValue"
                 },
-                "experimentProperties": [],
                 "id": "b7f49f36-ed12-11e5-b708-64006a4c56ef",
                 "relationship": {
                     "entity1": {
