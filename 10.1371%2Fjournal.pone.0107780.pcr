@@ -14,11 +14,11 @@
             {
                 "description": {
                     "depVar": {
-                        "typeId": "BBP-101000",
+                        "typeId": "BBP-090001",
                         "values": {
                             "statistic": "raw",
                             "type": "simple",
-                            "unit": "dimensionless",
+                            "unit": "mV",
                             "values": [
                                 23
                             ]
@@ -28,7 +28,18 @@
                 },
                 "id": "56fd161a-f599-11e5-8639-64006a4c56ef",
                 "isExperimentProperty": false,
-                "requiredTags": []
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    },
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Transmembrane ionic current",
+                        "rootId": "nifext_8054"
+                    }
+                ]
             }
         ],
         "pubId": "10.1371/journal.pone.0107780",
