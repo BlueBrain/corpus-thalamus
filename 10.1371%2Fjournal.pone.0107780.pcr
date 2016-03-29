@@ -31,12 +31,12 @@
                 "requiredTags": [
                     {
                         "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
+                        "name": "Neocortex Martinotti cell",
                         "rootId": "sao1813327414"
                     },
                     {
                         "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current",
+                        "name": "Sodium transient slow current",
                         "rootId": "nifext_8054"
                     }
                 ]
