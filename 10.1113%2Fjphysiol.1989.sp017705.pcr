@@ -46,26 +46,33 @@
             }
         ],
         "pubId": "10.1113/jphysiol.1989.sp017705",
-        "tags": {
-            "NIFGA:birnlex_1116": "Ventral posterior nucleus",
-            "NIFORG:birnlex_254": "Wistar Rat"
-        },
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_1116",
+                "name": "Ventral posterior nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            }
+        ],
         "version": "1"
     },
     {
         "annotId": "f9d88dd8-f29c-11e5-a844-64006a4c56ef",
         "authors": [
-            "oreilly"
+            "oreilly",
+            "iavarone"
         ],
         "comment": "",
         "experimentProperties": [
             {
-                "instanceId": "87b0c180-f378-11e5-b9da-64006a4c56ef",
-                "paramTypeId": "BBP-002001"
-            },
-            {
                 "instanceId": "849d81a8-f379-11e5-bdf6-64006a4c56ef",
                 "paramTypeId": "BBP-002003"
+            },
+            {
+                "instanceId": "87b0c180-f378-11e5-b9da-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
             },
             {
                 "instanceId": "c8c5c46c-f379-11e5-bdf6-64006a4c56ef",
@@ -181,10 +188,16 @@
             }
         ],
         "pubId": "10.1113/jphysiol.1989.sp017705",
-        "tags": {
-            "NIFGA:birnlex_1116": "Ventral posterior nucleus",
-            "NIFORG:birnlex_254": "Wistar Rat"
-        },
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_1116",
+                "name": "Ventral posterior nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            }
+        ],
         "version": "1"
     },
     {
@@ -247,10 +260,16 @@
             }
         ],
         "pubId": "10.1113/jphysiol.1989.sp017705",
-        "tags": {
-            "NIFGA:birnlex_1116": "Ventral posterior nucleus",
-            "NIFORG:birnlex_254": "Wistar Rat"
-        },
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_1116",
+                "name": "Ventral posterior nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            }
+        ],
         "version": "1"
     },
     {
@@ -313,10 +332,16 @@
             }
         ],
         "pubId": "10.1113/jphysiol.1989.sp017705",
-        "tags": {
-            "NIFGA:birnlex_1116": "Ventral posterior nucleus",
-            "NIFORG:birnlex_254": "Wistar Rat"
-        },
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_1116",
+                "name": "Ventral posterior nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            }
+        ],
         "version": "1"
     }
 ]
