@@ -10,9 +10,42 @@
             "no": "test",
             "type": "figure"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-101000",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "dimensionless",
+                            "values": [
+                                23
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "56fd161a-f599-11e5-8639-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": []
+            }
+        ],
         "pubId": "10.1371/journal.pone.0107780",
-        "tags": [],
+        "tags": [
+            {
+                "id": "NIFMOL:birnlex_15",
+                "name": "Macromolecule"
+            },
+            {
+                "id": "PATO:0000001",
+                "name": "PATO quality"
+            },
+            {
+                "id": ":nlx_63400",
+                "name": "Resource"
+            }
+        ],
         "version": "1"
     }
 ]
