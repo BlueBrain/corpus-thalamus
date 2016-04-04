@@ -1,0 +1,1545 @@
+Resource
+
+Reconstruction and Simulation of Neocortical Microcircuitry
+
+Graphical Abstract
+
+Authors
+Henry Markram, Eilif Muller, Srikanth Ramaswamy, Michael W. Reimann, ..., Javier DeFelipe, Sean L. Hill, Idan Segev, Felix Schu¨ rmann
+
+Correspondence
+henry.markram@epﬂ.ch
+
+In Brief
+A digital reconstruction and simulation of the anatomy and physiology of neocortical microcircuitry reproduces an array of in vitro and in vivo experiments without parameter tuning and suggests that cellular and synaptic mechanisms can dynamically reconﬁgure the state of the network to support diverse information processing strategies.
+
+Highlights
+d The Blue Brain Project digitally reconstructs and simulates a part of neocortex
+d Interdependencies allow dense in silico reconstruction from sparse experimental data
+d Simulations reproduce in vitro and in vivo experiments without parameter tuning
+d The neocortex reconﬁgures to support diverse information processing strategies
+
+Markram et al., 2015, Cell 163, 456–492 October 8, 2015 ª2015 Elsevier Inc. http://dx.doi.org/10.1016/j.cell.2015.09.029
+
+Resource
+
+Reconstruction and Simulation
+of Neocortical Microcircuitry
+Henry Markram,1,2,19,* Eilif Muller,1,19 Srikanth Ramaswamy,1,19 Michael W. Reimann,1,19 Marwan Abdellah,1 Carlos Aguado Sanchez,1 Anastasia Ailamaki,16 Lidia Alonso-Nanclares,6,7 Nicolas Antille,1 Selim Arsever,1 Guy Antoine Atenekeng Kahou,1 Thomas K. Berger,2 Ahmet Bilgili,1 Nenad Buncic,1 Athanassia Chalimourda,1 Giuseppe Chindemi,1 Jean-Denis Courcol,1 Fabien Delalondre,1 Vincent Delattre,2 Shaul Druckmann,4,5 Raphael Dumusc,1 James Dynes,1 Stefan Eilemann,1 Eyal Gal,4 Michael Emiel Gevaert,1 Jean-Pierre Ghobril,2 Albert Gidon,3 Joe W. Graham,1 Anirudh Gupta,2 Valentin Haenel,1 Etay Hay,3,4 Thomas Heinis,1,16,17 Juan B. Hernando,8 Michael Hines,12 Lida Kanari,1 Daniel Keller,1 John Kenyon,1 Georges Khazen,1 Yihwa Kim,1 James G. King,1 Zoltan Kisvarday,13 Pramod Kumbhar,1 Se´ bastien Lasserre,1,15 Jean-Vincent Le Be´ ,2 Bruno R.C. Magalha˜ es,1 Angel Mercha´ n-Pe´ rez,6,7 Julie Meystre,2 Benjamin Roy Morrice,1 Jeffrey Muller,1 Alberto Mun˜ oz-Ce´ spedes,6,7 Shruti Muralidhar,2 Keerthan Muthurasa,1 Daniel Nachbaur,1 Taylor H. Newton,1 Max Nolte,1 Aleksandr Ovcharenko,1 Juan Palacios,1 Luis Pastor,9 Rodrigo Perin,2 Rajnish Ranjan,1,2 Imad Riachi,1 Jose´ -Rodrigo Rodrı´guez,6,7 Juan Luis Riquelme,1 Christian Ro¨ ssert,1 Konstantinos Sfyrakis,1 Ying Shi,1,2 Julian C. Shillcock,1 Gilad Silberberg,18 Ricardo Silva,1 Farhan Tauheed,1,16 Martin Telefont,1 Maria Toledo-Rodriguez,14 Thomas Tra¨ nkler,1 Werner Van Geit,1 Jafet Villafranca Dı´az,1 Richard Walker,1 Yun Wang,10,11 Stefano M. Zaninetta,1 Javier DeFelipe,6,7,20 Sean L. Hill,1,20 Idan Segev,3,4,20 and Felix Schu¨ rmann1,20 1Blue Brain Project, E´ cole polytechnique fe´ de´ rale de Lausanne (EPFL) Biotech Campus, 1202 Geneva, Switzerland 2Laboratory of Neural Microcircuitry, Brain Mind Institute, EPFL, 1015 Lausanne, Switzerland 3Department of Neurobiology, Alexander Silberman Institute of Life Sciences, The Hebrew University of Jerusalem, Jerusalem 91904, Israel 4The Edmond and Lily Safra Center for Brain Sciences, The Hebrew University of Jerusalem, Jerusalem 91904, Israel 5Janelia Farm Research Campus, Howard Hughes Medical Institute, Ashburn, VA 20147, USA 6Laboratorio Cajal de Circuitos Corticales, Centro de Tecnolog´ıa Biome´ dica, Universidad Polite´ cnica de Madrid, 28223 Madrid, Spain 7Instituto Cajal (CSIC) and CIBERNED, 28002 Madrid, Spain 8CeSViMa, Centro de Supercomputacio´ n y Visualizacio´ n de Madrid, Universidad Polite´ cnica de Madrid, 28223 Madrid, Spain 9Modeling and Virtual Reality Group, Universidad Rey Juan Carlos, 28933 Mo´ stoles, Madrid, Spain 10Key Laboratory of Visual Science and National Ministry of Health, School of Optometry and Opthalmology, Wenzhou Medical College,
+Wenzhou 325003, China 11Caritas St. Elizabeth’s Medical Center, Genesys Research Institute, Tufts University, Boston, MA 02111, USA 12Department of Neurobiology, Yale University, New Haven, CT 06510 USA 13MTA-Debreceni Egyetem, Neuroscience Research Group, 4032 Debrecen, Hungary 14School of Life Sciences, University of Nottingham, Nottingham NG7 2UH, United Kingdom 15Laboratoire d’informatique et de visualisation, EPFL, 1015 Lausanne, Switzerland 16Data-Intensive Applications and Systems Lab, EPFL, 1015 Lausanne, Switzerland 17Imperial College London, London SW7 2AZ, UK 18Department of Neuroscience, Karolinska Institutet, Stockholm 17177, Sweden 19Co-ﬁrst author 20Co-senior author
+*Correspondence: henry.markram@epﬂ.ch
+http://dx.doi.org/10.1016/j.cell.2015.09.029
+
+SUMMARY
+We present a ﬁrst-draft digital reconstruction of the microcircuitry of somatosensory cortex of juvenile rat. The reconstruction uses cellular and synaptic organizing principles to algorithmically reconstruct detailed anatomy and physiology from sparse experimental data. An objective anatomical method deﬁnes a neocortical volume of 0.29 ± 0.01 mm3 containing $31,000 neurons, and patch-clamp studies identify 55 layer-speciﬁc morphological and 207 morphoelectrical neuron subtypes. When digitally reconstructed neurons are positioned in the volume and synapse formation is restricted to biological bouton densities and numbers of synapses per connection,
+
+their overlapping arbors form $8 million connections with $37 million synapses. Simulations reproduce an array of in vitro and in vivo experiments without parameter tuning. Additionally, we ﬁnd a spectrum of network states with a sharp transition from synchronous to asynchronous activity, modulated by physiological mechanisms. The spectrum of network states, dynamically reconﬁgured around this transition, supports diverse information processing strategies.
+INTRODUCTION
+Since Santiago Ramo´ n y Cajal’s seminal work on the neocortex (DeFelipe and Jones, 1988; Ramo´ n y Cajal, 1909, 1911), a vast number of studies have attempted to unravel its multiple levels
+
+456 Cell 163, 456–492, October 8, 2015 ª2015 Elsevier Inc.
+
+of anatomical organization (types of neurons, synaptic connections, layering, afferent and efferent projections within and between neocortical regions, etc.) and functional properties (neuronal response characteristics, synaptic responses and plasticity, receptive ﬁelds, functional neocortical columns, emergent activity maps, interactions between neocortical regions, etc.). However, there are still large gaps in our knowledge, especially concerning the anatomical and physiological organization of the neocortex at the cellular and synaptic levels.
+Speciﬁcally, while neurons have been classiﬁed in terms of their electrophysiological behaviors (Connors and Gutnick, 1990; Kasper et al., 1994; McCormick et al., 1985), expression of different calcium-binding proteins and neuropeptides (Celio, 1986; DeFelipe, 1993; Gonchar and Burkhalter, 1997; Kawaguchi and Kubota, 1997; Toledo-Rodriguez et al., 2005) and morphological features (Kisva´ rday et al., 1985; Larkman, 1991a; Tama´ s et al., 1998; Wang et al., 2002), there is still no consensus on an objective and comprehensive classiﬁcation of neuron types. Although the distribution of protein and genetic markers for different neurons (Grange et al., 2014; Hendry et al., 1989; Kawaguchi and Kubota, 1997; Meyer et al., 2002; Toledo-Rodriguez et al., 2004) and the relative proportions of some morphologically and electrically classiﬁed neurons (Beaulieu and Colonnier, 1983; Cauli et al., 1997; Hendry et al., 1984; Meyer et al., 2010a; Rudy et al., 2011) have been described, we lack a comprehensive view of the number of each type of neuron in each layer. Since the advent of paired recording techniques, several studies have characterized the anatomical and physiological properties of synaptic connections between some types of neurons (Cobb et al., 1997; Feldmeyer et al., 1999; Frick et al., 2008; Gupta et al., 2000; Mason et al., 1991; Reyes et al., 1998; Thomson et al., 1993), but a large proportion have yet to be studied. Although labeling with retrograde and anterograde tracers and trans-synaptic viral vectors, imaging with array tomography, and saturated reconstruction with electron microscopy have made it possible to begin mapping preand postsynaptic neurons for individual neocortical neurons (Boyd and Matsubara, 1991; Callaway, 2008; Glenn et al., 1982; Kasthuri et al., 2015; Killackey et al., 1983; Micheva and Smith, 2007; Micheva et al., 2010; Wickersham et al., 2007), we know neither the numbers and types of the pre- and postsynaptic neurons associated with any speciﬁc neuron type nor the numbers and locations of the synapses that they form with their immediate neighbors.
+At a functional level, there have been many investigations of emergent behavior in neocortical slices (Cunningham et al., 2004; Mao et al., 2001; McCormick et al., 2003; Sanchez-Vives and McCormick, 2000; Yuste et al., 1997), correlated activity (Hasenstaub et al., 2005; Livingstone, 1996; Salinas and Sejnowski, 2001; Shu et al., 2003; Silberberg et al., 2004; Singer, 1993), and the functional impact of individual neurons across cortical layers (Sakata and Harris, 2009; Schroeder and Foxe, 2002; Silva et al., 1991; Steriade et al., 1993), as well as in vivo activity in somatosensory and other cortical areas (Chen et al., 2015; Klausberger et al., 2003; Leinekugel et al., 2002; Luczak et al., 2007; Reyes-Puerta et al., 2015; Wilson et al., 2012), However, we still lack an understanding of the cellular and synaptic mechanisms and the role of the different layers in the simplest
+
+of behaviors, such as correlated and uncorrelated single-neuron activity and, more generally, synchronous and asynchronous population activity. For example, it is known that different types of neurons are connected through synapses with different dynamics and strengths, strategically positioned at different locations on the neurons’ dendrites, somata, and axons, but the functional signiﬁcance of this organization remains unclear. Computational approaches that abstract away this level of biological detail have not been able to explain the functional significance of such intricate cellular and synaptic organization. Although future experimental research will undoubtedly advance our knowledge, it is debatable whether experimental mapping alone can provide enough data to answer these questions.
+Here, we present a complementary algorithmic approach that reconstructs neuronal microcircuitry across all layers using available sparse data and that leverages biological principles and interdependencies between datasets to predict missing biological data. As a test case, we digitally reconstructed a small volume of tissue from layers 1 to 6 of the hind-limb somatosensory cortex of 2-week-old Wistar (Han) rat. This model system was chosen not only because it is one of the most comprehensively characterized in the neocortex, but also because experimental data on its cellular and synaptic organization are readily available and validation experiments are relatively easy to perform. In brief, we recorded and digitally reconstructed neurons from in vitro brain slices and classiﬁed the neurons in terms of well-established morphological types (m-types; Figure 1A), positioned the neurons in a digital volume of objectively deﬁned dimensions according to experimentally based estimates of their layer speciﬁc densities (Figure 1B), and reconstructed the connectivity between the neurons (Figure 1C). Neurons were then classiﬁed into electrical types (e-types), using an extended version of the classiﬁcation proposed in the Petilla convention (Ascoli et al., 2008), and models were produced that captured the characteristic electrical behavior of each type. (Figure 1D); similarly, synapses were modeled to capture the characteristic synaptic dynamics and kinetics of particular synapse types (s-types; Figure 1E). Finally, we constructed a virtual slice and reconstructed thalamic input using experimental data (Figure 1F; Meyer et al., 2010b).
+This approach yielded a ﬁrst-draft digital reconstruction of the microcircuitry, which was validated against a multitude of experimental datasets not used in the reconstruction. The results suggest that it is possible to obtain dense maps of neural microcircuitry without measuring every conceivable biological parameter and point to minimal datasets required, i.e., strategic data. Integrating complementary, albeit sparse, datasets also makes it possible to reconcile discrepancies in the literature, at least partially addressing the problem of data quality and reproducibility. Simulations exploring some of the emergent behaviors of the reconstructed microcircuitry reproduce a number of previous in vitro and in vivo ﬁndings and provide insights into the design and functioning of neocortical microcircuitry. The experimental data, the digital reconstruction, and the simulation results are available at the Neocortical Microcircuit Collaboration Portal (NMC Portal; https://bbp.epﬂ.ch/nmc-portal; see Ramaswamy et al., 2015).
+
+Cell 163, 456–492, October 8, 2015 ª2015 Elsevier Inc. 457
+
+A Morphological diversity of neurons:
+(a) m-types, (b) cloning
+ab
+
+B Microcircuit anatomy: (a) Microcircuit dimensions, C Reconstructing
+
+(b) m-type distribution, and morphology selection
+
+microcircuit connectivity
+
+ab
+
+D Electrical diversity of neurons:
+e-types
+
+A N AT O M Y
+
+PHYSIOLOGY
+
+E Synaptic diversity:
+s-types
+
+F Reconstructing virtual tissue volumes for
+in silico experimentation
+
+Figure 1. Workﬂow for Data-Driven Reconstruction of Neocortical Microcircuitry (A) Morphological diversity of neurons. (a) Identify the morphological diversity in the neocortical microcircuit (m-types). (b) Repair and then clone the various mtypes with statistical variations to enrich the number of exemplars. (B) Microcircuit anatomy. (a) Deﬁne the spatial dimensions of a unitary microcircuit. (b) Assemble individual neurons in 3D space according to the frequency of occurrence of each m-type per layer, selecting the appropriate m-type instance that satisﬁes laminar constraints on the axonal and dendritic distribution. (C) Reconstructing microcircuit connectivity. Derive the number and location of synaptic contacts formed between all neurons in the microcircuit, based on a series of synaptic connectivity rules. (D) Electrical diversity of neurons. Map and model the electrical types (e-types) of each m-type to account for the observed diversity of morpho-electrical subtypes (me-types). (E) Synaptic diversity of neurons. Map and model the diversity of synaptic types (s-types) observed between pre-post combinations of me-types, according to rules derived from synaptic physiology. (F) Reconstructing virtual tissue volumes. Apply the above strategy to reconstruct deﬁned circuit volumes (microcircuits, slices, mesocircuits) for in silico experiments; insert synapses formed by thalamocortical ﬁbers for stimulation experiments.
+
+RESULTS
+Neuron-type Nomenclature Neurons differ in terms of their location in the brain, morphology, electrical properties, projections, and the genes and proteins that they express (for reviews, see Harris and Shepherd, 2015; Markram et al., 2004). The combination of these properties implies an immense diversity of neuron types. Given the lack of sufﬁcient data for other dimensions, the neuronal classiﬁcation used for this ﬁrst-draft digital reconstruction considered only layer, local morphology, and electrophysiology. Naming of morphological types was based on the most common names used over the past century (Connors and Gutnick, 1990; DeFelipe, 1993; DeFelipe et al., 2013; Douglas and Martin, 2004;
+
+Faire´ n et al., 1984; Hestrin and Armstrong, 1996; Kawaguchi and Kubota, 1997; Kisva´ rday et al., 1985; Oberlaender et al., 2012; Somogyi et al., 1982, 1998; Svoboda et al., 1997; Szabadics et al., 2006), extended with a layer preﬁx (e.g., Layer_Morphology, L5_MC for layer 5 Martinotti cells). Electrical types, based on the Petilla convention (Ascoli et al., 2008), were treated as subtypes, (e.g., L5_MC_NAC for the non-accommodating subtype; see Experimental Procedures). When whole-brain axonal tracing data for a sufﬁcient number of projecting neurons becomes available (e.g., L5_TTPC_CP and L5_TTPC_CT to represent cortico-pontine and cortico-tectal subtypes; Hallman et al., 1988; Wang and McCormick, 1993; for a review, see Ramaswamy and Markram, 2015), the proposed classiﬁcation can be extended to include projection subtypes. Similarly, when there
+
+458 Cell 163, 456–492, October 8, 2015 ª2015 Elsevier Inc.
+
+Figure 2. Table of Neocortical Neuronal Morphologies Exemplar 3D reconstructions of 55 m-types. Morphologies in L2 and L3 are not separated. Axon in blue, dendrites in red. Full morphologies are not always shown. See also Figure S1 for average arbor densities of each m-type and Figure S2 for objective classiﬁcation of m-types and details of the morphology cloning process. See also Movie S1A.
+
+are sufﬁcient single-cell gene and protein expression data to systematically identify cells, it can be extended to include molecular subtypes. The abbreviations used for each m-type are provided in Figure 2. A mapping between the nomenclature used in this study and alternative names present in the literature is provided in Table 1.
+Morphological Diversity of Neocortical Neurons We recorded and labeled >14,000 neurons from all six layers in the somatosensory cortex of P14 male Wistar (Han) rats, using patch-clamp electrodes in in vitro slices. Of these neurons, 2,052 were sufﬁciently well stained to allow expert classiﬁcation into m-types, based on well-established characteristic features of their dendritic and axonal arbors, a procedure initiated by early neuroanatomists and still in use today (Faire´ n et al., 1984; Karagiannis et al., 2009; Karube et al., 2004; Kawaguchi and Kubota, 1997; Kisva´ rday et al., 1985; Larkman, 1991a; Perrenoud et al., 2013; Peters and Kaiserman-Abramof, 1970; Ramo´ n y Cajal, 1909, 1911; Somogyi et al., 1982, 1998; Wang et al., 2004; Yuste, 2005). We were able to digitally reconstruct a subset of 1,009 of these neurons. This allowed validation of the expert classiﬁcation using an objective method (see below) based on clustering of characteristic features and provided the initial pool of digital neuron models needed to reconstruct the microcircuitry. In a few cases, we had no morphological reconstructions for rare m-types known to be present in the microcircuitry (L5_BP, L5_ChC, L6_NGC; Ola´ h et al., 2007; Szabadics et al., 2006). These were represented using exemplars of the same morphology from neighboring layers. Although L6 horizontal and
+
+sub-plate pyramidal cells (L6_HPC and L6_SPC) were present in the dataset and have also been reported in the literature (Ghosh and Shatz, 1993; Hevner et al., 2001), the quality of the stains was not sufﬁcient for reliable reconstruction. These morphologies are not represented in the ﬁrst draft.
+Aggregating morphological reconstructions and reports in the literature, we distinguished 55 m-types (65 if layers 2/3 are considered separately and 67 if L6_HPC and L6_SPC are also considered; Figure 2). Inhibitory types are mostly distinguished by axonal features and excitatory types by dendritic features (for reviews, see Markram et al., 2004; Ramaswamy and Markram, 2015; Spruston, 2008). Figure S1 shows overlays of multiple exemplars of each of the 55 major m-types, and Figures S2A and S2B illustrate the objective classiﬁcation. While in some cases, it might have been possible to introduce a ﬁner separation between m-types, this would have limited the size of the samples for individual types, reducing the reliability of the classiﬁcation.
+The same inhibitory types were present in all layers except layer 1, which contained a unique set of inhibitory neuron types. Pyramidal cell morphologies varied across layers (Figure 2, right) and also with depth within layer, as illustrated by the diversity of L23_PCs (Figure 2, upper-right). The number of pyramidal cell types, as deﬁned by their local morphology, increased from upper to lower layers. Several types of interneurons (e.g., LBC and DBC) had axonal arbors that tended to descend to deeper layers when they were in upper layers and to ascend to upper layers when they were in deeper layers. Consistent with this trend, one type of pyramidal cell (L6_IPC) also had inverted axonal arbors.
+
+Cell 163, 456–492, October 8, 2015 ª2015 Elsevier Inc. 459
+
+460 Cell 163, 456–492, October 8, 2015 ª2015 Elsevier Inc.
+
+Table 1. Relation of Interneuron Classes to Classiﬁcation Schemes Found in the Literature
+
+Morphological Neurogliaform
+
+Type
+
+Cell (NGC)
+
+Small Basket Cell (SBC)
+
+Double Bouquet
+
+Large Basket
+
+Cell (DBC)
+
+Bipolar Cell (BP) Martinotti Cell (MC) Bitufted Cell (BTC) Cell (LBC)
+
+Nest Basket Cell (NBC)
+
+Chandelier Cell (ChC)
+
+Other
+
+Dwarf cell,
+
+morphological button-type cell
+
+classiﬁcations
+
+Clutch cell
+
+Bitufted cell/ interneuron, horse-tail cell
+
+Bitufted cell/ interneuron
+
+Bitufted cell/ interneuron
+
+Bitufted interneuron
+
+Common basket cell, typical basket cell
+
+Willow cell, arcade cell, shaft-biased cell, atypical basket cell
+
+Axo-axonic cell
+
+Predominantly CB (À), expressed PV (À), Ca2+-binding CR (À) proteins
+and peptides
+
+NPY (+), VIP (À), SOM (À)
+
+CB (++), NPY (+), CB (+), NPY (À), CB (À), NPY (À), CB (++), NPY (++), CB (++), PV (À), VIP (+++), PV (À), VIP (+++), PV (À), VIP (+++), PV (À), VIP (À), PV (À), CR (À) SOM (++) CR (+) SOM (++) CR (++) SOM (++) CR (À) SOM (+++) CR (++)
+
+NPY (+), VIP (+), SOM (++)
+
+CB (++), NPY (+), CB (++), NPY (+), CB (+), NPY (À), PV (+++), VIP (+), PV (+++), VIP (+), PV (À), VIP (À), CR (+) SOM (À) CR (++) SOM (À) CR (À) SOM (À)
+
+Electrical types
+
+bNAC (7%), cNAC (79%), cSTUT (7%), cAC (7%)
+
+bNAC (36%), cAC (36%), dNAC (29%)
+
+bAC cAC (9%), (9%), bIR cIR (37%), (18%), bNAC cNAC (9%), (9%) bSTUT (9%)
+
+bAC (7%), bIR (14%), bNAC (29%)
+
+cAC (29%), cNAC (14%), dSTUT (7%)
+
+bAC (37%), bIR (11%), bSTUT (4%), cAC (37%)
+
+cNAC (3%), cSTUT (3%), dNAC (3%)
+
+bAC (17%), cAC (67%), cNAC (17%)
+
+bAC (6%), cAC (12%), cIR (6%)
+
+cNAC (17%), dNAC (17%), dSTUT (24%)
+
+bAC (6%), bIR (6%), bSTUT (13%), cAC (20%)
+
+cIR (7%), cNAC (20%), cSTUT (20%), dSTUT (7%)
+
+cAC (38%), cNAC (38%), dNAC (25%)
+
+Other
+
+Non-fast spiking,
+
+electrical
+
+late spiking
+
+classiﬁcations
+
+Fast spiking, nonaccommodating, non-adapting
+
+Irregular spiking, regular spiking non-pyramidal, adapting
+
+Late spiking, regular spiking non-pyramidal, adapting
+
+Regular spiking non-pyramidal, burst spiking non-pyramidal, low threshold spiking
+
+Regular spiking non-pyramidal, adapting, burst spiking non-pyramidal
+
+Fast spiking, nonaccommodating, non-adapting
+
+Fast spiking, nonaccommodating, non-adapting
+
+Fast spiking, late spiking, non-adapting
+
+The terms used in this paper are in the ﬁrst row, followed by other common names in the literature. Interneurons can be categorized according to which primary marker they express (calciumbinding proteins: parvalbumin [PV], calbindin [CB], and calretinin [CR]; neuropeptides: somatostatin [SOM], vasoactive intestinal polypeptide [VIP], neuropeptide Y [NPY], and cholecystokinin [CCK]). The mapping to serotonergic receptors (5HT3AR) is not included since this was not assayed in the RT-PCR. We assign several possible electrical types to each morphological type, based on the Petilla convention, and show other names frequently used in the literature. See Figure 4 for deﬁnitions of electrical types.
+
+Figure 3. Neuron Densities and Composition and Microcircuit Dimensions. (A) Neuron densities and numbers. Vertical thicknesses as determined by transitions in neuronal somata size and density in NeuN stained slices (six animals; mean ± SD). Neuron densities and numbers (six animals; mean ± SD). (B) Neuron fractions. Confocal block imaging of dual immunohistochemical labeling. DAPI labels all cells (blue). NeuN labels all neurons (green), GABA labels all GABAergic cells including glia (red), dual GABA and NeuN labels only GABAergic neurons (green). Bars to the right show fractions of excitatory (red) and inhibitory (blue) neurons in each layer. (C) m-type composition. Fractions of inhibitory (left) and excitatory (right) m-types per layer (n = 2052). (D) Dimensions. The horizontal dimension was deﬁned as the smallest circle required to attain maximal dendritic volume at a central minicolumn (brown, top); cutoff radius, 95% of the plateau volume (r = 210 mm, middle). To allow tiling, the circle was transformed into a hexagon, preserving the area. For m-type acronyms, see Figure 2. See also Figure S3 for details on morphology placement and Figure S4 for validation of the composition. See also Movie S1B.
+
+Using multiple exemplars obtained from different animals for each m-type, we developed a repair process to recover arbors cut during the slicing process, which was validated using in vivo reconstructed neurons (see Experimental Procedures; Anwar et al., 2009). To generate an even larger pool of unique morphologies, we cloned multiple exemplars of each m-type (Figures S2C–S2F), jittering branch angles, and section lengths in the clones (see Experimental Procedures). The morphometric properties of the resulting population were validated against distributions of features obtained from reconstructed neurons (see Experimental Procedures). This approach allowed us to establish a dataset of neuronal morphologies (see Movie S1A) that respects biological variability. Software applications for repairing and cloning in vitro neuron morphologies and for automated classiﬁcation of neurons into the 55 m-types are available through the NMC Portal.
+Reconstructing Neuron Densities, Ratios, and Composition Reconstruction began by specifying the dimensions of the microcircuit, the fractions of excitatory and inhibitory neurons, the proportions of each m-type, and the number of neurons of each
+
+m-type. The height of the neocortex and heights of each layer were measured experimentally in six animals, yielding an average overall height of 2,082 ± 80 microns (mean ± SD; n = 6; Figure 3A). Layer thicknesses were determined experimentally by measuring the location of transitions in cell densities and soma sizes in NeuN-stained tissue blocks (see Experimental Procedures). Fractions of excitatory and inhibitory neurons per layer (E-I fractions) were established by counting cells stained for DAPI (all cells), NeuN (all neurons), and GABA (all inhibitory neurons) in tissue blocks (Figure 3B; see Experimental Procedures). Overall, excitatory and inhibitory neurons represented 87% ± 1% and 13% ± 1% of the population, respectively, with a trend toward higher fractions of excitatory neurons in deeper layers (Figure 3B).
+The m-type composition for all excitatory and all inhibitory neurons in each layer was obtained from the relative frequencies of each m-type in the experimental dataset of 2,052 classiﬁed neurons mentioned earlier (Figure 3C; see Experimental Procedures). It is not possible to exclude sampling bias in this dataset. However, since E-I fractions were obtained in an unbiased manner, any bias is restricted to the proportions of m-types within the excitatory and inhibitory neurons and does not affect the overall E-I balance.
+
+Cell 163, 456–492, October 8, 2015 ª2015 Elsevier Inc. 461
+
+The E-I fractions and m-type composition determined in this way are broadly consistent with previous reports (DeFelipe et al., 2002; Lefort et al., 2009). For example, it is well established that $50% of inhibitory interneurons are basket cells (i.e., LBCs and NBCs—predominantly parvalbumin-positive cells; SBCs— predominantly vasoactive intestinal peptide (VIP)-positive cells; we found $53%, see below), that Martinotti cells (i.e., predominantly somatostatin-positive cells; we found $22%, see below) are frequent in all layers except L1, and that bitufted and bipolar cells (i.e., many of the calbindin and calretinin-positive cells) and double bouquet cells (i.e., many of the VIP-positive cells) are both found in layers 2–6. Other inhibitory interneuron types are also found in L2–L6 but less frequently (Kawaguchi and Kubota, 1997; Krimer et al., 2005; Meyer et al., 2011; Ola´ h et al., 2007; Sancesario et al., 1998; Somogyi et al., 1998; for a review, see Markram et al., 2004). Previously published neuron densities could not be used because they varied by a factor of two (40,000–80,000 neurons/mm3; Beaulieu, 1993; Cragg, 1967; DeFelipe et al., 2002; Keller and Carlson, 1999; Peters, 1987) and are too low to account for the number of synapses in the microcircuit (see below, ‘‘Digital Reconstruction of Connectivity’’). We therefore performed new experiments, counting cells in NeuN-stained tissue blocks. The experiments yielded a mean cell density of 108,662 ± 2,754 neurons/mm3 (mean ± SEM, n = 6; see Experimental Procedures), comparable to observations in rat barrel cortex (Meyer et al., 2010a). Neuron densities were highest in L4 (Figure 3A), consistent with previous studies (Meyer et al., 2010a).
+Since hind-limb somatosensory cortex, unlike barrel cortex, has no anatomically deﬁned horizontal columnar organization (Horton and Adams, 2005; Markram, 2008), we chose to deﬁne the radius of the microcircuit by placing reconstructed neurons in a cylindrical volume and determining the minimal radius where the density of dendrites saturates at the center (Figure 3D; 95% of the plateau value obtained at a radius of 210 mm; see Experimental Procedures). We chose dendrites, as opposed to axons, because they only arborize locally. This convention, which yields a minimal radius that reﬂects saturated dendritic density along the central axis, could allow comparisons between microcircuits in different brain regions. It yields a radius similar to the horizontal extent of the dendrites of the largest neuron in the microcircuit (i.e., the L5_TTPC; for a review, see Ramaswamy and Markram, 2015) and is comparable with the dimensions of the barrels in the rodent barrel cortex (Meyer et al., 2010b; Wimmer et al., 2010). To allow tiling of multiple microcircuits while minimizing edge effects, the volume of the microcircuit was deﬁned as a hexagonal prism (Figure 3D, bottom) with a cross-sectional area equal to that of the circle with the radius deﬁned above and a height determined by the combined height of the layers.
+With these densities, m-type composition, and circuit dimensions, we calculated the number of each m-type in each layer and in the whole microcircuit. To approximate inter-individual variation in layer dimensions and neuronal densities, we digitally reconstructed separate microcircuits corresponding to layer heights and densities measured in ﬁve animals (Bio1–Bio5). The ﬁve reconstructions had an average of 31,375 ± 2,251 neurons (mean ± SD, n = 5), with the number of neurons increasing in each layer from L1 to L6. We then constructed an additional
+
+microcircuit using the averaged data (BioM). To assess the variation introduced by the digital reconstruction process (stochastic variations in m-type composition, selection and positioning of model neurons, and synaptic connectivity [see below]), we reconstructed seven instances of each microcircuit (i.e., seven reconstructions each from Bio1–Bio5 and seven from BioM; 42 in total).
+Positioning Morphologically Reconstructed Neurons After establishing the dimensions of the microcircuit and the number of neurons belonging to each m-type in each layer, it was necessary to position each neuron in the digital reconstruction. Consistent with reports of weak minicolumnar organization in rodents, (Mountcastle, 1998), neurons were arranged in 310 minicolumns at horizontal positions drawn from 2D Gaussians around the center of each minicolumn, thus relaxing the strictness of the minicolumnar organization (see Experimental Procedures). The positions of the neurons along the vertical axis of the minicolumn were randomly chosen within each layer, using a space-ﬁlling algorithm to ensure that somata did not overlap (see Experimental Procedures).
+Once the positions of the neurons were established, a second algorithm randomly selected a suitable morphology for each position from the top 8% of morphologies, scored by their match to typical patterns of arborization within and across layers (Figure S3; see Experimental Procedures). These patterns were manually annotated on each reconstructed neuron, based on the depth of the recorded neuron within each layer and crosslayer arborization patterns described in the literature (see Experimental Procedures and NMC Portal). Figure S4A illustrates the microcircuit at this stage of reconstruction (see also Movie S1B). The total lengths of axons and dendrites in the average microcircuit were 350 ± 4 m and 215 ± 3 m (mean ± SD, n = 7), respectively.
+Biological accuracy at this stage of the reconstruction was validated against two experimental datasets that had not been used thus far. The ﬁrst tissue-level dataset provides in vitro immunohistochemical staining of 30 mm sections for seven markers (calcium-binding proteins and neuropeptides) commonly used to label inhibitory interneurons (Figure S4B). The second cellular-level dataset provides estimated probabilities that the genes for these markers are expressed in speciﬁc m-types (Toledo-Rodriguez et al., 2005; Wang et al., 2002, 2004). We used the second dataset to add the markers to the model neurons. We then performed in silico immunohistochemical staining of the whole reconstructed tissue for each marker separately and compared the in silico stains against immunohistochemical stains from the ﬁrst dataset. Although gene expression data are noisy and genes do not translate equally to protein levels, we found a reasonable correspondence between the numbers of neurons at different depths stained for speciﬁc markers in the in silico and the in vitro stains (regression, r = 0.65; Figure S4C). Furthermore, the layer-dependent pattern of in silico stained cells was consistent with previous staining experiments in this brain region (Ascoli et al., 2008; Conde´ et al., 1994; DeFelipe, 1993; Dumitriu et al., 2007; Gentet et al., 2010, 2012; Gonchar and Burkhalter, 1997; Gonchar et al., 2007; Kawaguchi and Kondo, 2002; Kawaguchi and Kubota, 1993,
+
+462 Cell 163, 456–492, October 8, 2015 ª2015 Elsevier Inc.
+
+A e-types
+
+cAC
+(continuous Accommodating)
+
+cSTUT
+(continuous Stuttering)
+
+B
+
+dNAC
+
+bAC
+(burst Accommodating)
+
+bSTUT
+(burst Stuttering)
+
+37% L23 NBC
+
+cNAC
+(continuous Non-accommodating)
+
+dSTUT
+(delayed Stuttering)
+
+bNAC
+(burst Non-accommodating)
+
+cIR
+(continuous Irregular)
+
+dNAC
+(delayed Non-accommodating)
+
+bIR
+(burst Irregular)
+
+cAD
+(continuous Adapting)
+20 mV 200 ms
+
+25% cAC
+
+me-types
+cNAC 31%
+1.5% bNAC
+
+bAC 5%
+1.5% cIR
+
+C me-combinations
+
+m-type e-type fraction for each m-type
+
+LL11NNLLLLLLLGG222LL2LL22L2LL33321311CC332L31LL2NND3HSDSBC34LL4--43MDSGBBPBPBAAAASThSBAACCCCCCCCCCCCCCSPP LLLLLL5L665LLL56LTLL5LLLLLLLLTLLLTLLLLLT5L64UU644LS5LL656T45646554645P6PTLLLN6NNSDN6N45DDNSSBPCTTTCCBBBLLLCCP546IMMMGGGBBBBBBPBPPBPBPBBBCTTThhhBBBCLLCCCCCCCCCCCCCCCCCCCCCCCCCCCCC214PPP1
+
+100% 80 60 40 20 0
+
+cdbSSScdbTTTcNNNbcUUUAAAAIATTTCCCCCR cbAIDR
+
+e-type
+
+Figure 4. Table of Morpho-Electrical Neuron Types (A) e-types. Diverse ﬁring patterns in response to depolarizing step current injections in neocortical neurons. c, continuous; d, delayed; b, bursting. AC, accommodating; NAC, non-accommodating; STUT, stuttering, IR, irregular; AD, adapting. (B) An exemplar neuron (L23NBC) with a diversity of e-types. Percentages indicate the relative frequency of e-type occurrence. (C) Fractions of e-types (11 e-types) recorded experimentally in each of the 55 m-types, making up 207 me-types. Solid lines indicate layer boundaries. See Table 1 for relation of e-types to other classiﬁcations in the literature.
+
+1997; McGarry et al., 2010; O’Connor et al., 2009; Packer and Yuste, 2011; Santana et al., 2013; see also NMC portal). The observed correspondence would be unlikely in the presence of major errors in neuron densities, m-type composition, or positioning of reconstructed neurons. However, the biological data are highly variable, and the validation of the inhibitory m-type composition used only a small proportion of markers reported in the literature. The reconstruction should thus be considered as a ﬁrst draft, to be reﬁned as it is challenged with additional markers.
+Morpho-Electrical Composition We applied a standardized battery of stimulation protocols (Le Be´ et al., 2007; Wang et al., 2002, 2004) to >3,900 neurons from all layers, recording and analyzing their responses. The neurons were classiﬁed using quantiﬁed features of the neuronal response to step current pulses, according to the criteria established by the Petilla convention (Ascoli et al., 2008; Figure 4A, top), with the exception of stuttering cells, which were considered as a separate class (see Druckmann et al., 2013). Since no signiﬁcant bursting behavior was observed in excitatory m-types from animals of the age used in this study, all excitatory m-types were classiﬁed as continuous adapting (cAD) neurons (Figure 4A, bottom). Using this feature-based
+
+classiﬁcation scheme, we identiﬁed 11 e-types (10 inhibitory e-types and 1 excitatory e-type) (Figure 4A; see Experimental Procedures). Objective clustering of the same features produced a similar classiﬁcation, validating the original classiﬁcation scheme (Druckmann et al., 2013). The fact that the e-types identiﬁed in this way have characteristic ion channel proﬁles provides further evidence for their distinctive identity (Khazen et al., 2012; Toledo-Rodriguez et al., 2004).
+Most inhibitory m-types expressed multiple e-types (Figure 4B), consistent with previous observations (Ascoli et al., 2008; Cauli et al., 2000; Nelson, 2002; Toledo-Rodriguez et al., 2005). Combining m- and e-types yielded 207 morpho-electrical types (me-types), providing an integrated view of the morphoelectrical diversity of the microcircuit (Figure 4C). A dataset of 511 morphologically and electrically classiﬁed inhibitory neurons was used to determine the relative proportion of e-types for each inhibitory m-type (in a layer-dependent manner for m-types with sufﬁcient samples and otherwise in a layer-independent manner; Figure 4C, color map; see Experimental Procedures). The relative proportions were combined with neuron densities to calculate the number of neurons for each me-type in each layer. The resulting diversity and spatial distribution of inhibitory e-types is illustrated in Figure 5A. This integrated view of the microcircuitry reveals that, at this age, the most common inhibitory
+
+Cell 163, 456–492, October 8, 2015 ª2015 Elsevier Inc. 463
+
+Figure 5. Layer-Dependent Distribution of Inhibitory e-Types (A) In silico ‘‘brainbow’’ staining of a random selection of inhibitory morphologies, colored by e-type. (B) Layer-wise distribution of inhibitory e-types (n = 35 reconstructions; mean ± SD). See Figure 4 for deﬁnitions of e-types.
+
+e-type is cAC, followed by cNAC and dNAC, and that stuttering and irregular e-types (cSTUT, bSTUT, dSTUT, cIR, and bIR) are relatively rare (Figure 5B). Inhibitory e-types with regular ﬁring patterns (cAC, bAC, cNAC, bNAC, and dNAC) occur more frequently in superﬁcial layers, whereas e-types with irregular ﬁring patterns (cSTUT, bSTUT, dSTUT, cIR, bIR) are more common in deep layers (Figure 5B).
+Digital Reconstruction of Connectivity We developed an algorithmic approach to reconstruct synaptic connectivity between neurons in a companion study (Reimann et al., 2015). The approach is based on ﬁve rules of connectivity described in the Experimental Procedures and validated in Reimann et al. (2015). We implemented these rules in four stages that yield plausible multi-synapse connections, consistent with the rules and constrained by experimental bouton densities (Figure 6A).
+The algorithm predicts the characteristics of multi-synapse connections between pairs of neurons that belong to speciﬁc m-types (Figure 6B). We have previously shown that these predictions faithfully reproduce detailed anatomical data on connectivity between L5 thick-tufted PCs (number of synapses and locations; Ramaswamy et al., 2012) and for a number of
+
+other connection types (synapse locations; Hill et al., 2012). We now show that they reproduce the connectivity (numbers and locations) of all connection types that have been studied experimentally (see NMC Portal). For example, the anatomy of in silico synaptic connections between L5 Martinotti cells and L5 thicktufted PCs (Figure S5) compares well with available experimental data (Silberberg and Markram, 2007). The algorithm provides detailed anatomical predictions for connection properties, which it has not yet been possible to measure experimentally (e.g., numbers of source and target cells and synapses) (Figure S5). The reconstruction also allows studies of neurons involved in polysynaptic pathways (see NMC Portal) forming known motifs (Honey et al., 2007; Perin et al., 2011; Silberberg, 2008; Sporns and Ko¨ tter, 2004).
+The algorithm yields 1,941 biologically plausible multi-synapse connection types (out of a theoretical 3,025) that are consistent with the connectivity principles described above. Figure 7 shows the predicted average number of synapses formed by each potentially viable connection type (Figure 7A) as well as their predicted average connection probabilities (Figure 7B). The predicted number of synapses/connection is 4.5 ± 0.1 (3.6 for excitatory connections, 13.9 for inhibitory connections; n = 35). We also predict 27,625 types of connection between neurons of different me-types (see NMC Portal). On average, each neuron innervates 255 ± 13 other neurons belonging to 32% ± 1% of m-types, forming an average of 1,145 ± 75 synapses per neuron present in the microcircuit (Figure S6A; mean ± SD, across the 35 Bio1-5 reconstructions; all neurons sampled). As a population, the neurons belonging to a given m-type innervate 63% ± 6% of the m-types in the microcircuit. The individual reconstructions (Bio1-5) yield an average of 638 ± 74 million appositions and 36.7 ± 4.2 million synapses (27.0 ± 2.9 million excitatory and 9.7 ± 1.5 million inhibitory). Taken together, the neurons of the microcircuit form 8.1 ± 0.9 million connections. Figure 7C and Table S1 provide a ﬁrst view of the connectivity between neurons of the neocortical microcircuit. Analyzing these data, we ﬁnd that, at this age, the fraction of excitatory synapses (red) increases from L1 to L6 (Figure S6B). At later ages, this trend may change as axons
+
+464 Cell 163, 456–492, October 8, 2015 ª2015 Elsevier Inc.
+
+Figure 6. Reconstructing Connectivity (A) Four-step algorithm to convert putative axo-dendritic appositions into functional synapses. (1) Axonal appositions. For an exemplar L23SBC (left, soma and dendrites in black, axon in blue), connectivity based on all axo-dendritic appositions (in red) is characterized by an extremely wide distribution of synapses per connection and almost 100% connection probability (right, pooled data from efferent connections to L23PCs of n = 100 L23SBCs). (Inset) A selected axon collateral with all appositions. (2) After general pruning. For the same exemplar, L23SBC, randomly removing a fraction of appositions removes the right side of the distribution of synapses per connection (right). (3) After multi-synapse pruning. Removing connections formed by too few appositions prunes the left side of the distribution of synapses (right) but leaves short inter-bouton intervals. (4) After plasticity pruning. The last step randomly removes more connections (right), leading to correct inter-bouton-intervals and connection probabilities. (B) Examples of in silico multi-synapse connections resulting after the four-step apposition to synapse conversion algorithm. The pre- and postsynaptic m-types forming the synaptic connection are indicated. The presynaptic neuron is shown in yellow, postsynaptic neuron in black, and synaptic contacts as red circles.
+
+mature and reach higher layers. Pooling all excitatory and inhibitory cells in each layer reveals that recurrent excitation increases with cortical depth while recurrent inhibition is weak in all layers, that descending interlaminar projections are stronger than
+
+ascending projections, and that intralaminar inhibition is weakest in layer 4 (Figure S6C).
+The seven statistical instantiations of the mean microcircuit (BioM) yield 636 ± 10 million appositions and 36.5 ± 0.5 million
+
+Cell 163, 456–492, October 8, 2015 ª2015 Elsevier Inc. 465
+
+L1DAC L1NGC-DA L1NGC-SA
+L1HAC L1LAC L1SAC L23PC L23MC L23BTC L23DBC L23BP L23NGC L23LBC L23NBC L23SBC L23ChC
+L4PC L4SP L4SS L4MC L4BTC L4DBC L4BP L4NGC L4LBC L4NBC L4SBC L4ChC L5TTPC1 L5TTPC2 L5UTPC L5STPC L5MC L5BTC L5DBC L5BP L5NGC L5LBC L5NBC L5SBC L5ChC L6TPCL1 L6TPCL4 L6UTPC L6IPC L6BPC L6MC L6BTC L6DBC L6BP L6NGC L6LBC L6NBC L6SBC L6ChC
+
+Presynaptic m-type Connection probability
+
+L1DAC L1NGC-DA L1NGC-SA
+L1HAC L1LAC L1SAC L23PC L23MC L23BTC L23DBC L23BP L23NGC L23LBC L23NBC L23SBC L23ChC
+L4PC L4SP L4SS L4MC L4BTC L4DBC L4BP L4NGC L4LBC L4NBC L4SBC L4ChC L5TTPC1 L5TTPC2 L5UTPC L5STPC L5MC L5BTC L5DBC L5BP L5NGC L5LBC L5NBC L5SBC L5ChC L6TPCL1 L6TPCL4 L6UTPC L6IPC L6BPC L6MC L6BTC L6DBC L6BP L6NGC L6LBC L6NBC L6SBC L6ChC
+
+Presynaptic m-type Mean number of synapses per connection
+
+A L1DAC L1NGC-DA L1NGC-SA L1HAC L1LAC L1SAC L23PC L23MC L23BTC L23DBC L23BP L23NGC L23LBC L23NBC L23SBC L23ChC L4PC L4SP L4SS L4MC L4BTC L4DBC L4BP L4NGC L4LBC L4NBC L4SBC L4ChC L5TTPC1 L5TTPC2 L5UTPC L5STPC L5MC L5BTC L5DBC L5BP L5NGC L5LBC L5NBC L5SBC L5ChC L6TPCL1 L6TPCL4 L6UTPC L6IPC L6BPC L6MC L6BTC L6DBC L6BP L6NGC L6LBC L6NBC L6SBC L6ChC
+B L1DAC L1NGC-DA L1NGC-SA L1HAC L1LAC L1SAC L23PC L23MC L23BTC L23DBC L23BP L23NGC L23LBC L23NBC L23SBC L23ChC L4PC L4SP L4SS L4MC L4BTC L4DBC L4BP L4NGC L4LBC L4NBC L4SBC L4ChC L5TTPC1 L5TTPC2 L5UTPC L5STPC L5MC L5BTC L5DBC L5BP L5NGC L5LBC L5NBC L5SBC L5ChC L6TPCL1 L6TPCL4 L6UTPC L6IPC L6BPC L6MC L6BTC L6DBC L6BP L6NGC L6LBC L6NBC L6SBC L6ChC
+
+Postsynaptic m-type Postsynaptic m-type
+
+25
+C
+20
+
+Total number of synapses between presynaptic and postsynaptic m-types
+
+L1NGC-SA L1HAC L1DLAC L1SLAC L23PC L23MC
+
+L1NGC-DA
+L1DAC L6ChC L6SBC
+L6NBC L6LBC
+L6NLLG66BLDC6PBBCTLC6MC
+
+15
+
+10 L6BPC
+
+5 L6IPC
+
+0 L6UTPC
+
+30%
+
+L6TPC_L4
+
+L6TPC_L1
+20 L5LC5LhS5CBNLCB5LCBL5CNGLC5BP
+
+10
+
+L23LB2LT32LCD32BBL3CPN2L3G2LLLC32B2N3C3SBCBChCC
+L4PC
+L4SP L4SS L4SLB4NLC4BLLCB4LCNL4G4BLCDPL44BBMCTCC
+
+L5LM5CLB5TDCBC L5STPC L5UTPC L5TTPC2
+
+L4ChC L5TTPC1
+
+0
+
+Figure 7. Predicted Synapse Numbers and Connection Probabilities (A) Synapses per connection. A matrix of the average synapses per connection for multi-synapse connections formed between the 55 m-types (1,941 biologically viable connection types). (B) Connection probabilities. A matrix of average connection probabilities within 100 mm. (C) The connectome of the reconstructed microcircuit grouped by m-type (i.e., 1,941 m-type pathways). Colors group m-types by layer. Thickness of ribbon proportional to the number of synapses; inner ring segments, outputs (axons); outer ring segments, inputs (dendrites). See also Figure S5 for anatomical details of an exemplary pathway; Figure S6 and Table S1 for more details of synaptic innervation strength; and Figure S20 for a comparison of the predicted connectome to a recent EM study. See also Movie S1C.
+
+synapses (25.8 ± 0.4 million excitatory and 10.6 ± 0.2 million inhibitory; n = 7; Table S1 and Movie S1C). The lower variability of the statistical instantiations compared to the individual reconstructions (Bio1–Bio5; Table S1) indicates that the variation across digital reconstructions falls well within the bounds of biological variability.
+From the space remaining on dendrites after accounting for predicted intrinsic connectivity (assuming 1.1 synapses/mm; Datwani et al., 2002; Kawaguchi et al., 2006; Larkman, 1991b), we predict that afferent ﬁbers from beyond the microcircuit (extrinsic synapses) form a further 147 ± 4 million synapses (mean ± SD; n = 35) (Figures S6D and S6E). The total
+
+predicted number of synapses in the microcircuit is thus 184 ± 6 million (mean ± SD; n = 35), of which only 20% ± 2% of synapses are formed by neurons belonging to the microcircuit (i.e., intrinsic synapses), consistent with previous estimates in neocortex (Stepanyants et al., 2009). In a parallel electron microscopy study in which we determined average synapse density (0.63 ± 0.1/mm3; mean ± SD; n = 25) and calculated the number of synapses in a comparable volume of the neocortex, we obtained 182 ± 6 million synapses. On the assumption that the average number of synapses/connection is the same for afferent ﬁbers as for excitatory connections within the microcircuit (3.6 ± 0.04 synapses/connection; n = 35), we predict that
+
+466 Cell 163, 456–492, October 8, 2015 ª2015 Elsevier Inc.
+
+the microcircuit contains $41 million mostly en passant afferent ﬁbers.
+The reconstructed microcircuitry reproduces numerous other experimental ﬁndings that were not used in the reconstruction process, described in a companion paper (Reimann et al., 2015). Nevertheless, it is clear that the predicted connectivity is a ﬁrst draft that will be challenged and reﬁned as experimental studies discover exceptions to the connectivity rules used here.
+Reconstructing Neuronal Physiology A series of algorithms and an automated workﬂow were developed to conﬁgure NEURON models to reproduce the electrophysiology of each me-type, (Druckmann et al., 2007, 2011; Hay et al., 2011) (see Experimental Procedures). In brief, we selected a morphologically reconstructed neuron and distributed Hodgkin-Huxley (HH)-type models of 13 known classes of ion channels (Figure S7) along the neuronal arbors (Figure 8A). Salient features were extracted from electrophysiological traces of e-type responses to step current pulses and data on backpropagating action potentials (Figure 8B; Larkum et al., 2001; Nevian et al., 2007). A multi-objective optimization algorithm (Druckmann et al., 2007) computed the vector of ion channel conductance densities that best reproduced features such as spike amplitudes and widths, spike frequency, and changes in frequency, and the resulting vector was transplanted into all neurons belonging to the m-type. Neurons in the resulting pool of models were challenged with a separate battery of stimuli not used to ﬁt the vector of ion channel conductances. We then selected those that fell within observed distributions of features ($40% of models accepted; Figure 8C). This workﬂow provided a generic high-throughput method for modeling the electrical behavior of a potentially unlimited number of neurons of any e-type (Figure 8D). We automated the workﬂow to model all 207 me-types (Figure 8E), generating a pool of 121,231 unique neuron models. Exemplars can be downloaded from the NMC portal together with NEURON models of each m-type with all of their intrinsic synapses (see Movie S2). Morpho-electrical variation in the ensemble of model neurons was comparable to the biological variation observed experimentally. The quality of the ﬁnal selection was quantiﬁed by comparing model and biological neurons in terms of their median z-scores for all electrical features (Figure 8E; see Experimental Procedures).
+The generalization power of these models has been demonstrated previously (Druckmann et al., 2011). As a further test, we compared dendritic attenuation of synaptic potentials in the models against past experiments (Berger et al., 2001; Nevian et al., 2007). While attenuation along basal dendrites (Figure S8; space constant, 40.0 ± 0.1 mm) was consistent with these results (Nevian et al., 2007), the reconstruction displayed stronger attenuation along apical dendrites (Figure S8; 174.3 ± 0.4 mm) than previously reported (273 mm; Berger et al., 2001). However, the data in the literature were obtained from adult animals whose apical dendrites have larger diameters (Zhu, 2000) than those of the animals used in this study. In a subset of model neurons whose apical dendrites had similar diameters to those of adult animals (Zhu, 2000), attenuation was similar (Figure S8, B2, dark blue).
+
+In most cases, transplantation of the vector of conductances to variants within the same inhibitory m-type preserved target physiology ($80% of models accepted), which was often maintained, even when conductances were transplanted to other inhibitory m-types ($60% of models accepted). This suggests that, in animals of the age used in the experiments, electrical behavior is relatively independent of the speciﬁc neuron morphologies.
+Reconstructing Synaptic Physiology To predict the physiology of the $36 million synapses in the reconstruction, we integrated published paired-recording data and reported synaptic properties (conductances, postsynaptic potentials [EPSPs/IPSPs], latencies, rise and decay times, failures, release probabilities, etc.; see Experimental Procedures and NMC portal).
+Neocortical synapses display known forms of short-term dynamics, which we used to classify synaptic connections as facilitating (E1 and I1), depressing (E2 and I2), or pseudo-linear (E3 and I3) s-types (Figures 9A and 9B) (Beierlein et al., 2003; Reyes and Sakmann, 1999; Reyes et al., 1998; Thomson and Lamy, 2007; Thomson et al., 1996; Wang et al., 2006). The s-types of speciﬁc connections were determined from the combination of their pre- and postsynaptic me-types (Ali et al., 2007; Bannister and Thomson, 2007; Beierlein and Connors, 2002; Feldmeyer et al., 2002; Frick et al., 2007; Gupta et al., 2000; Markram et al., 1998; Reyes et al., 1998; Somogyi et al., 1998; Thomson et al., 1993). Based on the available experimental data, we identiﬁed ﬁve rules to predict s-types for broad classes of connections: (1) pyramidal-to-pyramidal connections are always depressing (E2) (Feldmeyer et al., 1999; Frick et al., 2007, 2008; Gupta et al., 2000; Maffei et al., 2004; Markram et al., 1998; Mason et al., 1991; Mercer et al., 2005; Reyes et al., 1998; Thomson and Bannister, 1998; Thomson et al., 1993), (2) pyramidal-to-interneuron connections are also depressing (E2) (Angulo et al., 1999; Blatow et al., 2003; Holmgren et al., 2003; Markram et al., 1998; Reyes et al., 1998; Silberberg and Markram, 2007; Thomson and Deuchars, 1997; Wang et al., 2002), except for connections onto Martinotti, bitufted and other interneuron types displaying spike frequency accommodation, which are facilitating (E1) (Kapfer et al., 2007; Markram et al., 1998; Reyes et al., 1998; Rozov et al., 2001; Silberberg and Markram, 2007), (3) facilitation from inhibitory neurons is around two times stronger than from excitatory neurons (Gupta et al., 2000; Silberberg and Markram, 2007), (4) synaptic dynamics are preserved across layers for all me-type-speciﬁc connections, and (5) any remaining connections belong to the most common s-type (type 2; E2 or I2).
+Since physiological characterization of all 27,625 unique metype-to-me-type connections is not feasible, s-types in which experimental data were missing were speciﬁed using the rules above. Parameters for the synaptic dynamics of individual synapses were drawn from experimental distributions. In this manner, we generated a complete, albeit sparsely characterized, map of synaptic dynamics (Figure 9C). Stochasticity of synaptic transmission was modeled by extending a previously reported model (Fuhrmann et al., 2002). As an independent validation of the modeled synaptic dynamics, we compared the
+
+Cell 163, 456–492, October 8, 2015 ª2015 Elsevier Inc. 467
+
+A Morphology and Ion channel models
+Ih
+
+B Feature extraction
+1
+5 2
+
+Na+
+K+ ...
+C Quality assurance
+Rejected
+
+Feature value
+
+3 1. Mean frequency (Hz) 2. AP height (mV) 3. AHP depth (mv) 4 4. Voltage base (mV) 5. First ISI length (ms)
+Exemplar features 40
+0
+-40
+-80 1 234 5 Features
+5
+
+Rejected
+
+Normalized feature score (in SD)
+
+Accepted
+
+Accepted
+0 ...
+
+AAHPPhdeiegpthth ISI loBgurslstopneo.
+
+D e-type models
+cAC
+bAC cNAC
+bNAC dNAC cSTUT bSTUT dSTUT
+cIR bIR cAD
+
+m-type
+
+E Generalization and model quality
+Exemplar L1DAC
+L1NGC-DA L1NGC-SA
+L1HAC L1LAC L1SAC L23PC L23MC L23BTC L23DBC L23BP L23NGC L23LBC L23NBC L23SBC L23ChC
+L4PC L4SP L4SS L4MC L4BTC L4DBC L4BP L4NGC L4LBC L4NBC L4SBC L4ChC L5TTPC1 L5TTPC2 L5UTPC L5STPC L5MC L5BTC L5DBC L5BP L5NGC L5LBC L5NBC L5SBC L5ChC L6TPCL1 L6TPCL4 3 L6UTPC L6IPC L6BPC L6MC 2 L6BTC L6DBC L6BP L6NGC 1 L6LBC L6NBC L6SBC L6ChC 0
+
+e-type
+
+cAD
+
+Median z-score
+cAC bAC cNAC bNAC dNAC cSTUT bSTUT dSTUT cIR bIR L23 PC L4PC L5PC L6PC
+
+Figure 8. Workﬂow for High-Throughput Reconstruction of Morpho-Electrical Behaviors (A) Morphology and ion channel models. Selection of exemplar morphology, ion channel models, and their distribution on soma, dendrites, and axon. (B) Feature extraction. Selection of experimental traces from a population of recorded cells as targets for ﬁtting. Extraction of voltage and spiking features from experiments. (C) Quality assurance. Multi-objective optimization of the vector of ion channel conductance densities to match the statistics of the extracted biological features in the model. Screen out models with electrical features that do not match the statistics for equivalent features in biological recordings. (D) Models of e-types. Shows the 11 e-types modeled. (E) Generalization and model quality. Generalization of the vector of ion channel conductance densities to other exemplars of the same m-type; application of a standardized set of measurement protocols to each model neuron to determine generalization; quality scores for accepted models (median z-score). See also Figure S7 for properties of modeled ion channels and Figure S8 for dendritic properties.
+
+coefﬁcient of variation (c.v.) of ﬁrst PSPs against reported experimental data (r = 0.8; Figure 9D; Gupta et al., 2000; Markram et al., 1998; Wang et al., 2006).
+We then applied unitary synaptic conductances obtained in previous experiments that also measured somatic postsynaptic potentials (PSP) between speciﬁc pairs of m-types and compared the resulting in silico PSPs with the corresponding
+
+in vitro PSPs (Figure 10A). The in silico PSPs were systematically lower. Since the neuron models and the numbers and locations of synapses between pairs of m-types had been validated, we hypothesized that the reported synaptic conductances had been underestimated, because of inadequate compensation for space-clamp errors (Feldmeyer et al., 2002; Gupta et al., 2000; Rinaldi et al., 2008). To quantify the underestimate,
+
+468 Cell 163, 456–492, October 8, 2015 ª2015 Elsevier Inc.
+
+A
+Post Vm
+
+0.2 mV 20 mV
+200 ms
+
+B I1 - Inhibitory, facilitating
+U = 0.016 ± 0.01 D = 45 ± 21 ms F = 376 ± 253 ms
+0.4 mV 200 ms
+
+E1 - Excitatory, facilitating
+U = 0.09 ± 0.12 D = 138 ± 211 ms F = 670 ± 830 ms
+
+*
+
+* ** * **Post
+
+** **
+
+Pre
+
+Pre Vm
+D
+1.6
+1.2
+
+c.v. of first PSP amplitude
+
+r = 0.8
+
+E1
+
+I2 - Inhibitory, depressing
+U = 0.25 ± 0.13 D = 706 ± 405 ms F = 21 ± 9 ms
+
+E2 - Excitatory, depressing
+U = 0.5 ± 0.03 D = 671 ± 17 ms F = 17 ± 5 ms
+
+I3 - Inhibitory, pseudo-linear
+U = 0.32 ± 0.14 D = 144 ± 80 ms F = 62 ± 31 ms
+
+E2 - Excitatory, pseudo-linear
+U = 0.29 ± 0.03 D = 329 ± 53 ms F = 326 ± 66 ms
+
+C
+SBC
+cAC
+I1
+
+Map of synapse types
+
+NBC/LBC ChC DBC SBC L1
+SS int.
+bAC cAC bNAC dNAC bAC cAC dNAC
+
+NBC/LBC
+
+SBC
+
+cNAC dSTUT cSTUT bSTUT cNAC bNAC
+
+BP MC
+
+BTC
+
+PC
+
+bAC cAC cNAC bIR
+
+NGC
+cAC cSTUTcNAC bNAC
+
+E2 I2 Afferent synapse types to PCs
+
+I3
+
+Experimentally measured Extrapolated
+
+In silico c.v. of first PSP amplitude
+
+0.8
+I3 0.4 E3 I2 E2
+
+I1
+
+0 0 0.4 0.8 1.2
+c.v. of first PSP amplitude In vitro
+
+Efferent synapse types from PCs E1 E2
+
+E3
+
+NBC/LBC MC
+
+NBC/LBC
+
+DBC
+
+SS PC
+
+cAC cIR bAC bIR cNAC
+
+bSTUT dNAC bNAC cSTUT bAC cAC
+
+L6 PC
+
+1.6 BP
+cAC
+
+DBC
+cAC
+
+BTC
+cAC
+
+SBC BP
+
+BTC NGC ChC L1
+
+int.
+
+cAC cNAC bNAC bAC cAC cNAC bIR
+
+Figure 9. Reconstructing Dynamic Synaptic Transmission. (A) In silico synaptic connection. Experimental protocol recreated in silico to obtain the frequency dependence of synaptic transmission between pairs of neurons. A presynaptic L4NBC (black pipette) was stimulated with a 30 Hz pulse train to evoke eight APs + 1 ‘‘recovery’’ AP (bottom trace), resulting in inhibitory depressing responses (top traces) in the postsynaptic L4SS (blue pipette); 30 individual trials in gray, average in blue. The connection was mediated by 12 synaptic contacts (blue stars). (B) Synapse types (s-types). Parameters describing six s-types in the Tsodyks-Markram phenomenological synapse model (see Experimental Procedures). (C) Map of predicted synaptic dynamics. Previously established mapping rules were used to constrain s-types for connections that have not yet been characterized experimentally (see Figure S8), yielding a complete map for all 1,941 m-type-to-m-type connections in the reconstructed microcircuit. (D) Validation. Trial-to-trial variability for different s-types in silico compared to in vitro data. Dots and error bars show mean ± SD of the data; dashed line shows regression ﬁt.
+
+synaptic conductances were adjusted until in silico PSPs matched experimental levels (Figure 10B and Table S2; Angulo et al., 1999; Le Be´ et al., 2007; Feldmeyer et al., 2006; Feldmeyer et al., 1999, 2002; Markram et al., 1997; Silberberg and Markram,
+
+2007). The results suggested that reported conductances are about 3-fold too low for excitatory connections, and 2-fold too low for inhibitory connections (Table S2; Gupta et al., 2000; Rinaldi et al., 2008). Other recent studies also suggest that
+
+Cell 163, 456–492, October 8, 2015 ª2015 Elsevier Inc. 469
+
+A
+
+D LBC
+
+NBC
+
+MC BP BTC DBC
+
+*** ** * * *gsyn
+
+0.27 nS 20 mV 0.4 mV
+3 ms
+
+Pre Vm Post Vm
+
+ChC
+
+SBC
+
+NGC
+
+Perisomatic/AIS targeting interneurons
+0.91 nS
+
+Dendrite targeting interneurons
+Inhibitory quantal conductances
+0.83 nS
+
+Distal dendrite targeting interneurons
+0.75 nS
+
+0.11 nS
+
+0.19 nS
+
+Excitatory quantal conductances
+
+0.43 nS
+
+0.73 nS
+
+0.84 nS 1.5 nS
+
+B 2.5
+2
+
+Internal validation
+
+r = 0.9 10,11,12
+
+13
+
+MC L23PC
+
+In silico PSP amplitude (mV)
+
+1.5 1
+0.5 0 0
+C
+2.5 2
+
+7,8 9 6
+
+2
+
+4,5 3
+
+1
+
+0.5 1 1.5 2 PSP amplitude (mV)
+In vitro
+
+2.5
+
+External validation
+
+r = 0.6
+
+8
+
+E
+
+In silico PSP amplitude (mV)
+
+1.5 7
+
+1
+
+0.5
+
+1 3
+2
+
+6 4
+
+5
+
+0 0 0.5 1 1.5 2 PSP amplitude (mV)
+In vitro
+
+2.5
+
+1.5 0.43 0.83 0.75
+
+Inhibitory Excitatory Quantal conductance
+(nS)
+
+0.25 nS 3 ms
+
+BP BTC DBC NGC
+
+LBC
+
+NBC L5UTPC/ L5TTPC L5STPC
+
+ChC
+
+SBC
+
+Figure 10. Reconstructing Quantal Synaptic Conductances. (A) Unitary synaptic responses. A single AP was evoked in a presynaptic L1HAC (black pipette and trace). The postsynaptic potential was recorded at the soma of a L23PC (blue pipette; 30 individual trials in gray, average in blue); synaptic conductance was recorded simultaneously in the dendrite (green pipette and trace). (B) Validation. Comparison of in silico PSP amplitudes to in vitro characterized connections (n = 9; mean ± SD; Table S2), explicitly correcting reported conductances for space-clamp errors (see Experimental Procedures). Dots and error bars show mean ± SD of the data; dashed line shows regression ﬁt. (C) Validation. As B for connections that lack conductance estimates (n = 10; mean ± SD; Table S4). Conductances were generalized from B for broad classes of excitatory and inhibitory connections (see Experimental Procedures). (D) Quantal synaptic conductances. In the absence of experimental data for postsynaptic potentials, synaptic conductances were generalized from data for similar connections, allowing the prediction of quantal synaptic conductances for all synapses on a neuron. Simultaneous recording of quantal synaptic conductances in a L5TTPC are shown in colored traces (excitatory, red to pink; inhibitory, green to blue). (E) Predicted map of quantal conductances. Circles indicate connections used in B (black) and C (white) above. Black lines separate excitatory m-types. See also Figure S9 for examples of in silico synaptic patch and staining experiments and Table S2 for corrected conductances. See also Movie S2.
+
+470 Cell 163, 456–492, October 8, 2015 ª2015 Elsevier Inc.
+
+previously reported values are underestimated to a similar degree (Sarid et al., 2007; Williams and Mitchell, 2008).
+For the vast majority of connection types, no experimental data for synaptic conductances were available. Therefore, we computed the average corrected synaptic conductances for broader classes of synaptic connections (e.g., E-E, E-I, I-I, I-E; see Experimental Procedures) and applied these conductances to all speciﬁc connections where data were missing. The resulting amplitudes of in silico PSPs were validated against experimental data for ten connection types not used in determining the conductances (regression, r = 0.6; Figure 10C and Table S2). The derived synaptic dynamics and quantal conductances compared well with previous reports (Feldmeyer et al., 2002; Ramaswamy et al., 2012; Silberberg and Markram, 2007; Thomson and Deuchars, 1997) (see NMC Portal). Using the same method, we generated a ﬁrst prediction of mean synaptic conductances for all 1,941 m-type-to-m-type connections (Figure 10D). Unique quantal synaptic conductances for individual synapses were drawn from truncated normal distributions around these means (Figure 10E; see Experimental Procedures).
+We performed in silico paired recordings of all 1,941 m-typeto-m-type connections in the average microcircuit (BioM) and found results comparable to previously published paired recordings in vitro (see Figures S9A–S9J for an example; see NMC Portal). Obtaining the anatomical and physiological properties of all the intrinsic synapses formed onto and by any neuron has long been an experimental challenge (Crick, 1979). The reconstruction now allows in silico retrograde staining experiments for any neuron in the microcircuit, providing a detailed view of its presynaptic neurons and their synapses (Figure S9K). In silico anterograde staining for postsynaptic neurons is also possible. Figure S9L illustrates predicted locations of afferent synapses formed onto a L23_PC. Figure S9M shows the mean number of presynaptic (red) and postsynaptic (blue) neurons for excitatory (top) and inhibitory (bottom) m-types. Predicted input-output synapses for all 31,346 neurons in the BioM microcircuit and summary statistics for each of the 55 m-types, 11 e-types, and 207 me-types can be downloaded from the NMC Portal. The portal also provides NEURON models of each m-type, allowing simulation experiments exploring dendritic integration of m-type-speciﬁc synaptic inputs.
+We found that the m-, e-, and s-types of inputs to any particular neuron were always strikingly different from those of its outputs (i.e., inputs and outputs were highly asymmetrical; see NMC Portal). The predicted average total synaptic conductance for single neurons was $1000 nS ($750 nS excitatory and $250 nS inhibitory conductance; based on all synapses in BioM). Predicted average quantal conductance was 0.85 ± 0.44 nS for excitatory synapses (corresponding to $150 AMPA and $20 NMDA receptors; Yoshimura et al., 1999) and 0.84 ± 0.29 nS for inhibitory synapses (corresponding to $40 GABAA receptors; Ling and Benardo, 1999). The average failure rate across all 1,941 m-type-to-m-type connections was 11.1% ± 14.1%. Simulating Spontaneous Activity To simulate reconstructed microcircuits at the level of detail described above, the NEURON simulator was extended to run on supercomputers (Figure S10; Carnevale and Hines, 2006;
+
+Hines and Carnevale, 1997; Hines et al., 2008a, 2011, 2011; Migliore et al., 2006), and additional functionality was developed to support in silico experimentation (see Experimental Procedures). We then used simulations to investigate the neuronal activity of the reconstructed microcircuitry (Figure 11A) under different conditions. We began by simulating spontaneous activity during tonic depolarization (see Movie S3A), attempting to mimic previous in vitro experiments (see Experimental Procedures). Under these conditions, neurons belonging to all m-types were active and the network exhibited spontaneous slow oscillatory population bursts, initiated in L5, spreading down to L6, and then up to L4 and L2/3 with secondary bursts spreading back to L6 (Figure 11B). Despite apparent global synchrony, the 55 m-types generated diverse patterns of spiking (Figures 11C and 11D).
+To allow comparison with the in vitro experiments, from which the physiological data were obtained, we reconstructed a virtual brain slice (a mesocircuit) that was 230 mm thick and whose width was equivalent to that of seven microcircuits (containing a total of 139,834 neurons) (Figure 12A; see Movie S3B and Experimental Procedures). The virtual slice reproduced the oscillatory bursts ($1 Hz) found in the previous microcircuit simulations (Figure 12B), which are comparable to those found in in vitro experiments (Lo}rincz et al., 2015; Sanchez-Vives and McCormick, 2000).
+In vitro experiments are typically performed at 2 mM [Ca2+]o, while the level of [Ca2+]o in vivo is reported to lie in the range 0.9–1.1 mM (Amzica et al., 2002; Jones and Keep, 1988; Massimini and Amzica, 2001; also see Borst, 2010), increasing in oscillatory cycles to 1.2–1.3 mM during the transition from wakefulness to sleep (Amzica et al., 2002; Heinemann et al., 1977). Although it is not possible to fully mimic in-vivo-like conditions, we nonetheless explored the behavior of the circuit at these lower Ca2+ levels as an approximation of the in vivo condition.
+It is well known that the [Ca2+]o in the extracellular space modulates the probability of neurotransmitter release (Borst, 2010; Ohana and Sakmann, 1998; Rozov et al., 2001). We therefore modiﬁed the probability of release, consistent with experimental data for the speciﬁc sensitivities of different s-types to changes in [Ca2+]o (Gupta et al., 2000; Rozov et al., 2001; Silver et al., 2003; Tsodyks and Markram, 1997) (Figure S11; see Experimental Procedures). We found that, in the low Ca2+ condition, slow oscillatory bursting disappeared and the neuronal activity became asynchronous and irregular (Figure 12C). To validate this in silico ﬁnding, we performed multi-electrode array recordings in vitro (Figure 12D) in high and low Ca2+ conditions (see Experimental Procedures). As predicted by the simulations, we found that the slow oscillatory bursts present in high Ca2+ (Figure 12E) were replaced by asynchronous and irregular activity under low Ca2+ conditions (Figure 12F).
+We then used the virtual slice to explore the behavior of the microcircuitry for a wide range of tonic depolarization and Ca2+ levels. We found a spectrum of network states ranging from one extreme, where neuronal activity was largely synchronous, to another, where it was largely asynchronous (the synchronous-asynchronous [SA] spectrum; Figure S12). The spectrum was observed in virtual slices, constructed from all 35 individual instantiations of the microcircuit (seven for each of Bio1–Bio5) and all seven instantiations of the average microcircuit (BioM).
+
+Cell 163, 456–492, October 8, 2015 ª2015 Elsevier Inc. 471
+
+Figure 11. Simulation of the Reconstructed Microcircuit (A) Simulation of spontaneous activity. Individual neurons at different levels of depolarization in the microcircuit are colored according to a heatmap (blue, hyperpolarized; red, depolarized; white, spike). (B) Rastergrams of randomly selected neurons for each m-type during synchronous bursting. (C) Exemplar voltage traces for each of the 55 m-types during spontaneous activity in the microcircuit (traces truncated at À30 mV). (D) Inter-spike interval (ISI) distributions of each of the 55 m-types for the activity shown in C. See also Figure S10 for an overview of the software ecosystem surrounding the simulation of the microcircuit. See also Movie S3A.
+
+This implies that it is a highly reproducible phenomenon, robust to biological and statistical variations in parameters such as layer thickness, cell density, and composition; speciﬁc synaptic connectivity; and the speciﬁc dimensions of the microcircuit (see Movie S3C).
+We observed that a change in [Ca2+]o of < 1 mM can lead to a transition from the synchronous to the asynchronous state, revealing two distinct activity regimes (Figure S12). The level of [Ca2+]o at the transition varied slightly across the different instantiations of the microcircuit (Bio1–Bio5; Figure S13).
+Since the reconstructed microcircuitry displays synaptically coupled assemblies comparable to those found experimentally (Perin et al., 2011; Reimann et al., 2015), we also analyzed correlations in neuronal activity within these assemblies. Neuronal activity was found to be slightly more correlated within assem-
+
+blies compared to randomly sampled neurons (Figure S14). Near the transition, a fall in [Ca2+]o of just $0.15 mM (Figure S14) led to a sharp decrease in correlated spiking, clearly demar-
+cating a transition in the SA spectrum.
+The mechanism underlying this sharp transition is likely to involve the differential Ca2+ sensitivities of inhibitory and excitatory synapse types. Indeed, we found that changing [Ca2+]o from 2 mM to 1.3 mM alters the ratio between excitatory and
+inhibitory synaptic PSPs by a factor of $3.5, in favor of inhibition (Figure S11). This suggests the existence of a threshold level of Ca2+ beyond which inhibition is insufﬁcient to prevent a super-
+critical state (see below). The ﬁnding that differential sensitivity of s-types to Ca2+
+levels determines the position of the network along the SA
+spectrum suggests that other mechanisms that change the
+
+472 Cell 163, 456–492, October 8, 2015 ª2015 Elsevier Inc.
+
+Figure 12. Predicting and Validating Synchronous and Asynchronous States in Spontaneous Activity
+(A) A spontaneously active virtual slice formed from seven unitary microcircuits (230.9 3 2800 3 2082 mm).
+(B) Rastergram of a random selection of neurons during in silico spontaneous activity under in-vitro-like conditions (somatic depolarization to $90% threshold, ([Ca2+]o = 2.0 mM). Number of neurons displayed per layer is proportional to the total number of neurons per layer. (C) Rastergram of a random selection of neurons during in silico spontaneous activity under in-vivo-like conditions (somatic depolarization to $90% threshold, ([Ca2+]o = 1.0 mM). (D) To assess network activity, 300-mm-thick cortical slices were mounted on a 3D multi-electrode array (MEA) (reconstruction of a layer 5 pyramidal cell overlaid). (E) Experimentally observed spontaneous multi-unit activity under in vitro [Ca2+]o. (F) Experimentally observed spontaneous multi-unit activity under in vivo-like [Ca2+]o. See also Figure S11 for [Ca2+]o sensitivity of synapse types; Figures S12 and S13 for activity along the full spectrum of [Ca2+]o concentrations and its biological
+variability; Figure S14 for synchrony in synaptically clustered neurons along the spectrum; Figure S15 for the effect of selective knockouts on microcircuit activity.
+See Movie S3B for a visualization of B and Movie S3C for C.
+
+excitatory-inhibitory balance may have similar effects. We therefore performed in silico knockout experiments to understand the roles of the different layers, neurons, and connections in control-
+
+ling the position of the microcircuit on the spectrum (Figure S15). We found that blocking activity in the upper layers tended to shift the network toward the synchronous state, while blocking the
+
+Cell 163, 456–492, October 8, 2015 ª2015 Elsevier Inc. 473
+
+deeper layers had the opposite effect (Figure S15A). Similarly, blocking soma-targeting basket cells produced a stronger shift toward the synchronous state than blocking other interneurons, while blocking pyramidal cells caused a shift toward the asynchronous state (Figure S15B). Corresponding differential effects were found when blocking associated inhibitory and excitatory connections (Figure S15C). These effects were observed both at high and low [Ca2+]o. It follows that differential regulation of layers, neurons, and connections plays an important role in controlling the position of the microcircuit along the SA spectrum, independently of [Ca2+]o. Simulating Thalamic Activation of the Microcircuit To examine spatio-temporal patterns of evoked activity, we constructed a mesocircuit consisting of a central microcircuit surrounded by six additional microcircuits. Connectivity was established for the mesocircuit as a whole, with no anatomical borders between microcircuits. An algorithm was developed to approximate input from the thalamus to the central microcircuit in such a way as to satisfy experimental constraints. We used data for the number of incoming ﬁbers, bouton density proﬁles, and the numbers of synapses per connection (to layer 4) for the ventral posteromedial (VPM) thalamic input to the barrel region of somatosensory cortex (Constantinople and Bruno, 2013; Gil et al., 1999; Meyer et al., 2010b). To represent the number of ﬁbers, we instantiated one ﬁber centered in each minicolumn with a horizontal spread (Meyer et al., 2010b). We then used the layer-by-layer bouton density proﬁles (Meyer et al., 2010b) (Figure 13A, left), experimental measurements of the mean number of synapses per thalamic connection in layer 4 (Amitai, 2001; Gil et al., 1999), and the multi-synapse principle (see above and Experimental Procedures) to predict the synapses that each thalamic ﬁber forms onto different m-types (Figure 13A, right). The reconstruction reproduced the number of synapses formed on L4PCs (Figure 13B) (Amitai, 2001; Gil et al., 1999) and predicted, for example, an average of $12 synapses on L5 pyramidal neurons (Figure 13B), more than for L4PCs. Overall, we predicted that each thalamic ﬁber innervates 903 ± 66 neurons (mean ± SD; n = 100 ﬁbers; Figure 13C; 775 ± 57 excitatory and 83 ± 11 inhibitory neurons) with an average of 8.1 ± 4.2 synapses/connection. In total, we found that thalamic ﬁbers form $2 million synapses in the central microcircuit ($1% of synapses across all layers; see Meyer et al., 2010b).
+Thalamocortical synaptic transmission was modeled using in vitro data on synaptic dynamics (Figure 13D, left; Amitai, 2001; Gil et al., 1999) and the generalized excitatory-to-excitatory conductances derived above (i.e., similar to L4_EXC, E2 s-type; see Experimental Procedures). Ca2+ dependency was modeled as for other excitatory connections. The resulting synaptic transmission was validated by comparing in silico PSPs in L4 and L5 PCs in low-Ca2+ conditions against previous in vivo reports (Bruno and Sakmann, 2006; Constantinople and Bruno, 2013; Figure 13E). Distributions of PSPs in L4 and L5 PCs in high-Ca2+ conditions were also predicted (Figure 13D, right).
+With [Ca2+]o at 1.25 mM and moderate depolarization (in-vivolike conditions), the main response to stimulation of thalamic ﬁbers was in L4 to L6 (Figure S16A). Examination of the spiking activity of a random selection of neurons, covering all 55 m-types, showed that most m-types in these layers re-
+
+sponded to the stimulus (Figure S16B). To investigate the effects of a graded stimulus, we used a single synchronous spike to activate a progressively increasing number of ﬁbers innervating the center of the mesocircuit. With [Ca2+]o at 2.0 mM and zero depolarization (in-vitro-like conditions), activating four or more ﬁbers evoked a stereotypical high-amplitude PSTH response (>80 Hz, Figure 14A), similar to previous in vitro observations (Beierlein et al., 2002). In contrast, stimulation under in-vivolike conditions produced graded responses, with 20–30 Hz oscillations emerging in the lower layers, particularly in L6, when higher numbers of ﬁbers were stimulated (Figure 14B). While under in-vitro-like conditions, stimulating as few as four thalamic ﬁbers produced all-or-none behavior, indicative of a regenerative state that spread across the whole mesocircuit (Figure 14C), under in-vivo-like conditions, the activity remained localized (Figure 14D).
+With increasing Ca2+ levels, the stimulus response curves measured during the ﬁrst 10 ms of thalamic stimulation shifted from a linear to a sharp sigmoidal shape (Figure 14E). Analysis of the velocity of spread revealed a qualitative difference between the synchronous and asynchronous regimes. In the synchronous regime, the spread of activity accelerated over time, while in the asynchronous regime, it was constant until the amplitude of the activity fell to zero (Figure 14F). This suggests that, in the synchronous regime, inhibition cannot act fast enough to curb the excitation and prevent uncontrolled spreading activity. Correlated activity is maximal in the regenerative regime and minimal in the non-regenerative regime (Figure S14), suggesting a dynamic range for correlations to emerge during information processing under in-vivo-like conditions. Taken together, the simulations predict that, at the average [Ca2+]o reported in the awake state (Jones and Keep, 1988; Massimini and Amzica, 2001; Westerink et al., 1988), the neocortex will exhibit graded and spatially restricted activation, a prerequisite for the emergence of functional maps with high spatial resolution.
+At a level of tonic depolarization where the network is spontaneously active in both the regenerative and non-regenerative regimes, we observed a spectrum of oscillations with lower frequencies ($1 Hz) in the regenerative regime and higher frequencies in the non-regenerative regime ($10–20 Hz; data not shown). Maximum power was observed in layers 5–6 in the regenerative regime and in layers 2–3 in the non-regenerative regime (data not shown). This suggests that shifts along the SA spectrum contribute to the spectra of oscillatory frequencies observed in spontaneously active neocortex (see also Tan et al., 2014).
+To establish a more complete demarcation between different activity regimes, we performed a series of simulations systematically exploring network state at varying levels of [Ca2+]o and depolarization. An analysis of average ﬁring rates demarcated the boundary between evoked and spontaneous activity (Figure 15A). The boundary between spontaneous regenerative and non-regenerative regimes was demarcated by the presence or absence of spontaneous bursting activity (Figure 15B). The transition between the evoked regenerative and nonregenerative regimes was determined by an analysis of the amplitude of the response to stimuli at the edge of the mesocircuit (Figure 15C). The combination of these activity maps demarcates four distinct activity regimes: evoked regenerative
+
+474 Cell 163, 456–492, October 8, 2015 ª2015 Elsevier Inc.
+
+A Thalamocortical innervation
+
+B
+
+I 700
+
+500
+
+Count
+
+300 II/III
+100 0
+D
+IV
+
+L4 exc.
+L5 exc. in vitro
+
+C
+14 12 10
+
+Count
+
+8
+
+6
+
+4
+
+2
+
+5 10 15 20 25 Synapses/connection
+
+30
+
+0
+
+700
+
+800
+
+900
+
+1000
+
+1100
+
+No. of efferent neurons per thalamic fiber
+
+In vitro-like
+70
+
+L4 exc. L5 exc.
+
+50
+
+Count
+
+V
+E
+VI
+
+30 1 mV 100 ms 10
+0
+In vivo-like
+45
+35
+
+24 68 PSP amplitude (mV)
+
+10
+
+L4 exc. in vivo * * L5 exc. in vivo
+
+25
+
+Count
+
+15
+
+5
+0 0.5 1 1.5 2 PSP amplitude (mV)
+Figure 13. Reconstructing Thalamocortical Input (A) Bouton and synapse proﬁles. (Left) The distribution of boutons across the depth of the microcircuit (orange line, Meyer et al., 2010b) assuming one afferent ﬁber from ventral posteromedial (VPM) thalamic nucleus per minicolumn, overlaid on randomly chosen neurons. (Right) The resulting synapses formed (green) with synapses formed by a single ﬁber (red). (B) Distribution of the number of synapses per connection formed by the population of thalamic ﬁbers onto L4 and L5 excitatory neurons. L4 distribution is compared against in vitro data (dashed red line; Gil et al., 1999). Horizontal bar: mean ± SD. (C) Postsynaptic neurons. Distribution of the number of postsynaptic neurons innervated by individual thalamic ﬁbers. (D) In-vitro-like conditions. (Left) Synaptic dynamics of thalamocortical connections to L4 excitatory cells (gray, 30 trials; blue, average; [Ca2+]o = 2.0 mM). (Right) Distribution of PSP amplitudes of thalamocortical connections to L4 and L5 excitatory cells ([Ca2+]o = 2.0 mM, horizontal bar, mean ± SD). (E) In vivo-like conditions. (Left) Synaptic dynamics of thalamocortical connections to L4 excitatory cells (gray, 30 trials; blue, average; [Ca2+]o = 1.3 mM). (Right) Distribution of PSP amplitudes of thalamocortical connections to L4 and L5 excitatory cells ([Ca2+]o = 1.3 mM, horizontal bar, mean ± SD). L4 and L5 distributions are compared against in vivo data (L4, dashed red line, left; Bruno and Sakmann, 2006; L5, star dashed red line; Constantinople and Bruno, 2011). See also Figure S11 for [Ca2+]o sensitivity of synapse types.
+
+(ER), spontaneous regenerative (SR), evoked non-regenerative (EN), and spontaneous non-regenerative (SN) (Figure 15D).
+Reproducibility of Emergent Properties The reconstructed microcircuitry is based on biological data from a large number of different animals and, in some cases,
+
+from different neocortical regions that together provide statistical distributions for layer heights, neuron densities, cellular composition, and morphological and electrophysiological diversity within and across types of neuron and reﬂect the diversity of synaptic anatomy and physiology observed in biological experiments. The reconstruction process stochastically creates
+
+Cell 163, 456–492, October 8, 2015 ª2015 Elsevier Inc. 475
+
+A B C D EF
+
+Figure 14. Activity Evoked by Thalamic Input (A) In-vitro-like stimulus-dependent evoked activity. Raster plots (top) and PSTHs (bottom) of the response to stimulation of varying number of thalamic ﬁbers under in vitro-like conditions (somatic depolarization to $60% threshold, [Ca2+]o = 2.0 mM). (B) In-vivo-like stimulus-dependent evoked activity. Same as in A for in-vivo-like conditions (somatic depolarization to $100% threshold, [Ca2+]o = 1.25 mM). Stimulation times and number of ﬁbers stimulated are shown below. (C) In-vitro-like activity propagation. A mesocircuit under in vitro-like conditions (no somatic depolarization, [Ca2+]o = 2.0 mM) stimulated with single synchronous spikes to each of 16 thalamic ﬁbers at the center of the central microcircuit. The mesocircuit at L4 is depicted from above at different times after stimulation. Neuronal somata are rendered with a heat color map indicating level of depolarization. (D) In-vivo-like activity propagation. Same as in D but under in vivo-like conditions (somatic depolarization to $100% threshold, [Ca2+]o = 1.25 mM). (E) Stimulus response curves for various levels of Ca2+ and somatic depolarization to $85% threshold. Response amplitude determined as the peak response for the central ten minicolumns in the ﬁrst 10 ms of the response. (F) Propagation of the wave front with time in response to thalamic stimulation (at t = 0), measured as the half-maximum of a one-sided Gaussian ﬁt to the wave front. Exponential ﬁt for the regenerative activity and linear ﬁt for nonregenerative activity (conditions as in C and D, respectively). In the non-regenerative regime, the amplitude of the wave front was zero at 25 ms. See also Figure S16 for stimulus responses of individual m-types.
+
+instantiations of the digital microcircuit that respect these distributions. We have previously shown that detailed synaptic physiology is largely invariant across different instantiations of the digital microcircuit (Ramaswamy et al., 2012) and that emergent parameters such as the distributions of the locations of synapses formed by different presynaptic neurons are also largely invariant (Hill et al., 2012).
+To further assess the reproducibility of the reconstruction as a whole, we measured the variance of a range of its emergent anatomical and physiological properties (i.e., properties not directly speciﬁed by the data). The anatomical properties measured from seven instantiations of each microcircuit (seven instantiations of BioM and seven each for Bio1–Bio5) included total number of appositions and synapses, convergence and divergence of connectivity for each m-type, numbers of excitatory and inhibitory synapses and connections, mean numbers and types of presynaptic neurons innervating neurons belonging
+
+to different m-types, and numbers of intra-and inter-laminar synapses and connections. In each case, we found low variance compared to the mean (see Figure S17 for a sample; see Table S1 for selected values; see also NMC Portal). To gain a deeper understanding of the physiological variability of the digital reconstruction, we examined trial-to-trial variability in the spiking activity of individual neurons and variability across neurons of the same type, as well as variability across layers and across digital reconstructions individualized with data from ﬁve different animals (Bio1–Bio5). Cell responses to a single thalamic stimulation, roughly comparable to a single whisker deﬂection (stimulation of a cluster of 60 minicolumns), displayed varying degrees of trial-to-trial variability (Figure 16A). Since the digital reconstruction implements biologically grounded stochastic mechanisms for synaptic transmission, spontaneous release, and some ion channels, this was expected. However, each cell-type also displayed a characteristic delay to ﬁrst spike response. In some cases, the distribution of single-neuron responses was similar to that of the population (Figure 16B, left),
+
+476 Cell 163, 456–492, October 8, 2015 ª2015 Elsevier Inc.
+
+A Figure 15. The Regime Map
+Characterization of spontaneous and evoked activity under different levels of depolarization and [Ca2+]o. (A) Average spontaneous ﬁring rates. White line indicates interpolated transition between evoked and spontaneous regimes. (B) Presence of spontaneous bursting activity. White line indicates transition between spontaneous regenerative (SR) and non-regenerative (NR) activity. (C) Map of evoked regenerative (ER) and non-regenerative activity determined by the amplitude of the response to stimuli at the edge of the mesocircuit in relation to the initial response at the center. White line indicates the transition between the ER and NR regimes. Blue-green region is extrapolated to be NR. (D) Schematic map of showing the four activity regimes. Evoked regenerative, ER; spontaneous regenerative, SR; evoked non-regenerative, EN; spontaneous non-regenerative, SN.
+B while in others it was markedly different (Figure 16B, right). For both excitatory and inhibitory neurons, variance in response times decreased with cortical depth (Figure 16C). In all layers, trial-to-trial variability was lower than the variability between individual neurons of the same type in single trials. Responses from neurons of the same m-type, in digital reconstructions based on data from individual animals (Bio1–Bio5), displayed higher variability across reconstructions than in different instantiations of the average microcircuit (BioM) (for an example, see Figure 16D, left). To isolate the source of this inter-individual variability, we began by re-examining the SA spectra for the reconstructions at different levels of Ca2+. We found that they all displayed the spectrum but that the precise level of Ca2+ at the transition between the synchronous and
+C asynchronous state was slightly different for each reconstruction, ranging from 1.23 to 1.31 mM [Ca2+]o (Figure S13). We therefore repeated the simulations, setting the Ca2+ level such that each reconstruction was shifted to the same point along the spectrum relative to the transition. Under these normalized conditions, the variance in the responses of speciﬁc m-types across reconstructions decreased strikingly (Figure 16D, right). Figure 16E summarizes the different sources of variability for all neurons in L4 and L5. Taken together, these results demonstrate the ability of the digital reconstruction to accommodate physiological variability while maintaining reproducibility and are evidence of its potential to generate useful biological insights. To further test this potential, we attempted to replicate results from an array of recent in vivo studies.
+D
+Reproducing In Vivo Findings The digital reconstructions described above aimed to recreate the anatomy and physiology of an isolated slice of neocortical tissue, but not speciﬁcally to replicate any particular in vivo experiment. Nonetheless, we tested the ability of the digital reconstruction to replicate such experiments. We selected a set of recent in vivo studies in which a reasonable replication of the stimulation and analysis protocols was technically feasible. We then selected an arbitrary instantiation of BioM and used this model for all tests. In each case, we maintained the model’s original parameters, without introducing modiﬁcations to ﬁt previously reported results—a ‘‘zero tweak’’ strategy. All simulations were performed near the transition from the synchronous to the asynchronous state.
+Cell 163, 456–492, October 8, 2015 ª2015 Elsevier Inc. 477
+
+A
+1
+
+L23_PC
+
+Trial Trial ... ...
+
+200
+L4_PC 1
+
+200
+tstim 50 ms
+C
+Excitatory m-types
+200
+
+1 0.5 0 1 0.5 0
+D
+40 30
+
+100 20 10
+
+SD of delay to first spike (ms)
+
+0 II/III IV V VI Inhibitory m-types
+200
+100
+0 I II/III IV V VI
+
+0
+50 40 30 20 10
+0
+
+Layer
+
+Bio1 Bio2 Bio3 Bio4 Bio5
+
+Bio1 Bio2 Bio3 Bio4 Bio5
+
+P(spike)
+
+P(spike)
+
+Count
+
+B
+120
+80
+40
+
+L23_PC
+Exemplar neuron All neurons
+
+300
+
+200
+
+100
+
+L4_PC
+
+0 40 80 Delay to first spike
+
+0 40 80 Delay to first spike
+
+[Ca2+] = 1.25 o
+
+L4_SP [Ca2+] normalized
+o
+
+E
+
+IV
+
+L6_SBC
+
+[Ca2+]o = 1.25
+
+[Ca2+]o normalized
+
+Bio1 Bio2 Bio3 Bio4 Bio5
+
+60 40 20
+0
+80
+
+V
+
+40
+
+0
+
+(nNorCCeiirruTmrcc.ri)ouuiialnttssss
+
+Bio1 Bio2 Bio3 Bio4 Bio5
+
+Microcircuit dataset
+
+Sources of variability
+
+Figure 16. Reliability of Microcircuit Responses (A) Raster plot of the spiking activity of an exemplary L23PC (top) and an exemplary L4PC (bottom) in response to simulated thalamocortical stimulation with 60 ﬁbers. The ﬁrst spike after the stimulus in each of 200 trials is indicated in red, other spikes in black. The blue line indicates the probability that the neuron ﬁres a spike in a 5 ms bin. (B) Histograms of the response delay (delay of the ﬁrst spike after stimulus presentation) for L23PCs (left) and L4PCs (right). (Black) For 200 trials of 25 randomly chosen neurons of the indicated type. (Red) For 200 trials of the neurons indicated in A. (C) Standard deviation of the response delay of neurons in different layers across trials. Red line indicates the median of neurons, blue boxes the 25th and 75th percentiles, and whiskers the full data spread. (Top) Excitatory neurons; (bottom) inhibitory neurons. (D) Standard deviation of the response delay across trials of neurons when placed in microcircuits constructed from different biological datasets (Bio1–Bio5). (Top) Of ﬁve L4SPs. (Bottom) Of ﬁve L6SBCs. (Left) Under simulated extracellular Ca2+ concentration of 1.25 mM. (Right) When the calcium concentration was set to a value on the border between regenerative and non-regenerative activity for that particular microcircuit. Boxes and whiskers as in C. (E) Comparison of the different sources of variability. (Left to right) Inter-trial variability (same neuron in same microcircuit across trials); neuronal variability (same trial in same microcircuit across neurons of a given m-type); inter-circuit variability (same neuron in different microcircuit); inter-circuit variability under normalized Ca2+ concentrations. (Top) In layer IV; (bottom) in layer V. Boxes and whiskers as in C. See also Figure S17 for the anatomical variability of microcircuits.
+
+Neuronal Responses to Single-Whisker Deﬂection Many in vivo studies of evoked neuronal activity have reported that basal activity is sparse in all cell types, that the response characteristics of individually recorded neurons display celltype-speciﬁc diversity, and that response latencies are cell type and layer speciﬁc (Constantinople and Bruno, 2013; Reyes-Puerta et al., 2015). To test the ability of the reconstruction to reproduce these ﬁndings, we attempted to replicate some of the experiments reported in a recent study by ReyesPuerta et al. (2015), in which the authors recorded and analyzed neuronal responses to a single-whisker deﬂection in the barrel cortex of anaesthetized adult rats. We approximated the stimulus as a single pulse in 60 reconstructed thalamic ﬁbers projecting to the center of the digital microcircuit. As shown in Figure 17A1, the response to the stimulation displays cell-typespeciﬁc diversity that compares reasonably well with the results reported in Figure 3A of the Reyes-Puerta et al. study (ReyesPuerta et al., 2015), with the exception of the OFF response, which is not as prominent. The general distribution of responses for excitatory and inhibitory cells is also comparable (Figure 17A2 in silico versus Figure 3B in vivo), though again with fewer OFF
+
+responses. As in Reyes-Puerta et al. (Reyes-Puerta et al., 2015), most responses occurred within 10–20 ms of the stimulus and were generally led by inhibitory cells and, more speciﬁcally, by inhibitory cells in L4 and L5 (Figure 17A3 in silico versus Figure 4B1 in vivo). Anti-correlated Inhibitory Activity Cancels Out Highly Correlated Excitatory Activity Many previous studies have struggled to explain the uncorrelated neuronal spiking activity that is often observed in vivo (Celikel et al., 2004; Mazurek and Shadlen, 2002), with some suggesting that it is the result of poorly correlated excitatory activity (as expected if excitatory neurons generate a rate code), while others argue that correlations in excitatory activity are cancelled out by anti-correlated inhibition (Beierlein et al., 2000; Okun and Lampl, 2008). A model developed to address this issue by Renart et al. (2010) shows that it is indeed theoretically feasible for anti-correlated inhibitory activity to cancel out highly correlated excitatory activity (see their Figure 3). To test this hypothesis, we therefore analyzed whether this phenomenon was evident during spontaneous activity in the digital reconstruction. Although the digital reconstruction was not speciﬁcally
+
+478 Cell 163, 456–492, October 8, 2015 ª2015 Elsevier Inc.
+
+A1 A2
+
+A3
+
+B1 B2 B3
+
+Figure 17. Cell-Type Responses In Vivo and E-I Balance (A1) Cellular response types to simulated single-whisker deﬂection. Each subplot represents the activity of an individual cell, containing the raster plot aligned to simulated whisker deﬂection and the PSTH. Upon simulated whisker deﬂection, neurons increased their ﬁring rate (ON cells), showed no change in ﬁring rate (NR cells), or decreased their ﬁring rate (OFF cells). (A2) Comparison of mean ﬁring rates before and after whisker deﬂection plotted in logarithmic scale (2630 excitatory and 550 inhibitory neurons). Empty symbols represent neurons showing no signiﬁcantly different activity in both periods (NR cells), and ﬁlled symbols represent neurons showing signiﬁcantly different (p < 0.05) activity (ON and OFF cells). (A3) Mean ﬁrst-spike latencies of inhibitory (INH) and excitatory (EXC) neurons to simulated whisker deﬂection, deﬁned by ﬁrst spike occurrence within 30 ms after stimulation, mean over 200 trials, for all 31,346 neurons in the stimulated column. Each box plot represents median, interquartile, and range of latencies; crosses represent outliers (2.5 times interquartile range). (B1) Raster (top) of the spontaneous spiking activity of 500 excitatory (red) and inhibitory (blue) neurons under in-vivo-like conditions (100% depolarization and [Ca2+]o = 1.25 mM). Bottom curves show tracking of instantaneous population-averaged activities (transformed to z-scores, bin size 3 ms). Average ﬁring rates of E and I cells were 1.09 ± 1.0 Hz and 6.00 ± 8.95 Hz, respectively (n = 1,000; mean ± SD). (B2) Histogram of spike-spike correlations (black, count window 50 ms) and of jittered spike trains (gray, jitter ± 500 ms). (B3) Population-averaged cross-correlograms of the somatic membrane current, when cells are held at the reversal potential of inhibition (blue) or of excitation (red) in both cells, or at one potential for one cell and at the other potential for the other cell (magenta). The black curve is for pairs at resting potential. See also Figure S18 for details of E-I balance.
+
+designed to produce this phenomenon, it nonetheless generated excitatory conductances in single neurons that were highly correlated but effectively cancelled out by anti-correlated inhibitory conductances (Figure 17B).
+Deeper investigation revealed that spiking is correlated with momentary imbalances between excitatory and inhibitory conductances lasting <10 ms and that the timing of spikes can be predicted from the difference in the E and I conductances (Figure 17B). We also found that the precision with which these imbalances drive spiking falls dramatically as the network state shifts away from the transition in either direction. When it
+
+shifts toward the synchronous state, the correlation is strong but broad, resulting in a temporally imprecise increase in spiking more suitable for a rate code. When it shifts toward the asynchronous regime, the correlation is sharp but too weak to effectively drive spiking, a regime more suitable for a population code based on a high degree of correlated activity (Figure S18). Temporally Sequential Structure during Spontaneous Activity of L5 Neurons The search for precise temporal structures in brain activity, such as synﬁre chains, motifs, repeated spike patterns, etc., has a
+
+Cell 163, 456–492, October 8, 2015 ª2015 Elsevier Inc. 479
+
+A1
+Neuron 1
+2
+3
+t3 – t1
+A3
+104
+
+Spike triplets in the activated state (Luczak et al. 2007)
+
+Soloists & Choristers in the activated state (Okun et al. 2015)
+
+Triplet probability (Hz2) Spikes per second Spikes per second PSTH [Hz]
+
+t2 – t1 !
+
+A2
+150
+
+B1
+73
+
+40 20
+0
+
+5s
+
+t2 – t1 (ms)
+
+B2 35
+30 25 20 15 10
+5 0
+
+stPR
+
+-150 -150
+A4
+1
+
+t3 – t1 (ms)
+
+0 150
+
+Original Shuffling b/n neurons Shuffling in time
+
+35 30 25 20 15 10
+5 0
+
+shuffled sTPR shuffled
+data 0123
+
+Triplet probability (Hz)
+
+t2 – t1; t3 – t1 (ms)
+
+-104
+-48 48 Latency2 – Latency1 (ms) Latency3 – Latency1 (ms)
+
+Soloists (< 0.5)
+
+0 0 100 200 300
+Time from activated state onset (ms)
+
+B3
+
+−400 −200 0 200 Time (ms)
+
+400
+
+L6IPC L6BPC
+
+L5SBC L5NBC L5LBC
+L5MC
+
+L6MC L6LBC
+
+Others
+L6SBC L6NBC
+
+L5TTPC2
+
+L5TTPC1
+
+Others
+
+L5UTPC
+
+L5STPC L6TPCL1
+
+L6BPC
+
+L6TPCL4
+
+L6IPC
+
+L6UTPC
+
+Choristers (> 2.0)
+
+Figure 18. Triplet Structure and Diverse Population Coupling Precisely repeating triplet structures can be predicted from individual neural latencies under synchronous stimulation (20 thalamic ﬁbers, [Ca2+]o = 1.25 mM; cf. Luczak et al., 2007, Figure 5).
+(A1) Schematic depicting the structure of a spike triplet for a triad of neurons. (A2) Count matrix for a representative neuron triad. Black box indicates region
+containing precisely repeating triplets. White square signiﬁes mode. (A3) Correlation between neural latency differences and triplet structures. (A4) Precisely
+repeating triplet probability peaks shortly after onset of activated state. This peak is signiﬁcant when compared with two null hypotheses (independent Poisson
+model, blue curve; common excitability model, red curve). Dashed lines show standard deviation. (B1) Time course of population ﬁring rate just below the transition to the synchronous regime (microcircuit ‘‘Bio5,’’ [Ca2+]o = 1.27 mM). (B2) (Top) Spike-triggered average of population activity (stPR) for four representative neurons in layers V and VI. (Bottom) Same as above but after shufﬂing (see Okun et al., 2015; cf.
+Figures 1E and 1G). (Inset) Distribution of the population-coupling coefﬁcient before and after shufﬂing (see Okun et al., 2015). (B3) Relative fractions of m-types of
+soloists (population coupling < 0.5) and choristers (> 2.0). See also Figure S19 for results under lower [Ca2+]o.
+
+long history. These patterns are thought to reﬂect ‘‘stereotypical organized sequential spread of activation through local cortical networks,’’ as demonstrated recently (Luczak et al., 2007). Luczak et al. (2007) found a temporally sequential structure during spontaneous activity of L5 neurons in vivo in the somatosensory cortex (Luczak et al., 2007). In particular, they found that, after the onset of an UP state, trios of neurons generated spike motifs (triplets) with a precisely deﬁned temporal relationship between spikes that could not be explained by random correlations during high-frequency spiking (see their Figure 5). A similar analysis of the evoked response to thalamic stimulation of L5 neurons in the digital reconstruction found the same repeating triplet structures as observed in vivo (Figure 18A). A second in silico experiment further into the asynchronous regime (i.e., at lower Ca2+ levels; 1.0 mM) showed no evidence of triplet structures (Figures S19A–S19C), supporting our prediction that, in the highly asynchronous regime, it is difﬁcult for single neurons to track ﬁne temporal structure in network activity unless the population of
+
+presynaptic neurons becomes highly synchronized, for example, by external input. Soloists versus Choristers A recent study showed that some neurons in a network display spiking activity that is tightly correlated with the average activity of the population of neurons in the network (choristers), while others display a diversity of spiking patterns whose correlation with that of the population is smaller than expected by chance (soloists), suggesting that they actively avoid correlating with the rest of the population (Okun et al., 2015). We simulated the spontaneous activity of a single microcircuit in the asynchronous state but close to the transition to synchronous state for 800 s (Figure 18B1; see also Figure S19D) and analyzed the spiking activity of every individual neuron in L5 and L6 with respect to the spiking of all others. Replication of the analysis in Okun et al. (2015) yielded comparable results, although the proportion of choristers appears to be somewhat higher in the digital reconstruction (Figure 18B2 in silico versus Figures 1E and 1G in vivo).
+
+480 Cell 163, 456–492, October 8, 2015 ª2015 Elsevier Inc.
+
+We found that soloists are predominantly interneurons, while choristers are mainly pyramidal neurons (Figure 18B3). Pyramidal cells can be found on both extremes; they tend to be soloists when their spontaneous ﬁring rate is high, the ratio of excitatory to inhibitory synaptic innervation is high, and most of the innervating synapses are close to their somata (data not shown).
+Shifting the network further into the synchronous regime leads to an increase in the number of choristers, consistent with general recruitment of all neurons and a rate-based response. On the other hand, shifting the network further into the asynchronous regime results in a loss of both choristers and soloists during spontaneous activity (data not shown). This ﬁnding supports our prediction that, when the network is far into the asynchronous regime, single neurons cannot easily sense and respond to ﬁne temporal structure in network activity.
+Functional Implications These replications of in vivo studies suggest that the digital reconstruction can yield physiologically relevant insights. We therefore went on to address two issues that it has not been possible to address experimentally, either in vitro or in vivo.
+In a ﬁrst experiment, we investigated the ability of single L5 pyramidal neurons to discriminate between spatially segregated inputs. As previously, we used stimuli that approximated a whisker deﬂection (Figure 19A). To measure how far apart the stimuli needed to be for single neurons of the microcircuit to discriminate between them, we progressively increased the spatial separation between the stimuli and measured the response of L5 pyramidal cells in terms of rate (represented by the number of spikes emitted) and timing (represented by the latency to ﬁrst response). Analysis of the difference between responses yielded a measure of latency- and rate-based discrimination. Figure 19B1 shows the responses of a single, arbitrarily selected neuron to stimuli applied at locations separated by 150 mm. In this case, latency- and rate-based discrimination are both signiﬁcant (Figures 19B2 and 19B3). Exploration of the discriminatory power of L5 pyramidal neurons with different separations between the stimuli and at different levels of Ca2+ (Figures 19C1 and 19D1) showed that many neurons discriminate between inputs separated by 150 mm or more and that a few can discriminate between stimuli with separations as small as 50 mm (i.e., approximately two minicolumns apart). In general, timing-based discrimination is much stronger than rate-based discrimination (Figures 19C2 and 19D2). Interestingly, at all separations, discrimination is strongest at Ca2+ levels close to the transition between the synchronous and asynchronous regimes (Figure 19D).
+Unexpectedly, we noticed a spatial asymmetry in the discriminatory power of the neurons (Figures 19C1 and 19C2, shaded background). To test the reproducibility of the phenomenon, we repeated the simulation using instantiations of Bio1–Bio5 that we already knew to be highly variable (see Figure S17 and Table S1). All reconstructions showed asymmetry, but the speciﬁc degree and pattern of asymmetry was different in each case (Figure 19E1, four instantiations shown). We therefore hypothesized that the asymmetry reﬂects local variations in connectivity arising from the statistical instantiation of the digital microcircuit, ampliﬁed by edge effects. To test this hypothesis,
+
+we repeated the discrimination experiment with a mesocircuit constructed as previously described ([Ca2+]o 1.25 mM, separation 150 mm, see shaded background in Figures 19C1 and 19C2), taking the same microcircuit used in the previous experiment (Figures 19C1 and 19C2) as its central microcircuit (Figure 19E2, white hexagon). Under these conditions, the asymmetry was markedly reduced. We also found strong variation in overall discrimination power across the different instantiations (Figure 19E1).
+In the ﬁnal series of simulations, we explored the relationship between the size of the network and its emergent properties, the emergence of the transition between the synchronous and asynchronous states, and the emergence of spontaneous spatio-temporal patterns for different sized networks (10– 1,000 minicolumns). In reconstructions smaller than the anatomically deﬁned microcircuit, the transition occurred at high levels of Ca2+ and fell sharply with increasing size of the reconstruction, reaching a plateau in reconstructions larger than $300 minicolumns (i.e., the size of the anatomically deﬁned microcircuit; Figures 20A and 20B). Even in reconstructions as large as 1,000 minicolumns, the spectrum of states did not exhibit any further qualitative change (Figure 20B). Figures 20C and 20D show the emergence of spontaneous clustered activity as the network increases in size. We found that, in smaller reconstructions, the time course of spontaneous ﬁring rates in different clusters of $10 minicolumns was very similar and became progressively dissimilar as the reconstructions increased in size (Figure 20D). The between-cluster correlation coefﬁcient decreased exponentially with increasing distance between clusters, also plateauing at distances comparable to the diameter of the anatomically deﬁned microcircuit ($202 mm; Figure 20E). As a related measure, we also examined the trend in correlated activity within a central set of $50 minicolumns as the surrounding network increased in size. We found that, in larger networks, the correlation fell exponentially, bottoming out in microcircuits of $300 minicolumns and larger (r = $0.4; Figure 20F).
+DISCUSSION
+This paper presents a ﬁrst-draft digital reconstruction of neocortical microcircuitry that integrates experimental measurements of neuronal morphologies, layer heights, neuronal densities, ratios of excitatory to inhibitory neurons, morphological and electro-morphological composition, and electrophysiology, as well as synaptic anatomy and physiology (see ‘‘Reconstruction Data’’ and Table S3). It has been validated against a spectrum of separate anatomical and physiological measurements not used in the reconstruction (see ‘‘Validation Data’’ and Table S3). The reconstruction provides predictions of a wide range of anatomical and physiological properties of the neocortical microcircuitry (Box 1). Simulation of the reconstruction shows a spectrum of emergent network activity states with a sharp transition from synchronous to asynchronous states. At this particular point along the spectrum, digital reconstructions reproduce a number of ﬁndings from in vivo studies, allowing deeper investigation of their underlying cellular and synaptic mechanisms. They also enable experiments that have not so far been possible either in vitro or in vivo. Investigation of the
+
+Cell 163, 456–492, October 8, 2015 ª2015 Elsevier Inc. 481
+
+A B1 C1
+
+B2 B3 C2
+
+D
+
+E1 E2
+
+Figure 19. Spatial Resolution (A) The ability of L5PCs in the microcircuit to discriminate between inputs given by bundles of ten thalamic ﬁbers was examined. The stimuli were centered on locations offset from the center of the circuit to the left or right. (Top) Spatial extent of the synapses activated by ten thalamic ﬁbers in the microcircuit. (B1) Raster plot of spiking activity of a neuron in response to ten repetitions of spatially constrained stimuli at different locations (1 s of pulses at 20 Hz). Black arrows on top indicate individual pulses. (B2) Histogram of the delay to the ﬁrst spike after the start of stimulus presentation of the neurons in B1. The difference in delay is statistically signiﬁcant (p < 0.001, Wilcoxon rank sum test). (B3) Histogram of the number of spikes during stimulus presentation (gray window in B1). Differences in spike counts were statistically signiﬁcant. (C1) Mean discrimination strength. Àlog10 of the p value as in B2 of L5PCs at different locations is indicated as color coded. Red and blue stars indicate the centers of the two stimuli to discriminate. Black dots indicate locations of individual L5PCs with a discrimination strength >2 (p < 0.01). Each row indicates a different extracellular Ca2+ concentration. (C2) Same, for the discrimination power based on spike count as in B3. (D) Fraction of L5PCs with a discrimination power >2 (light red) and >3 (dark red) for different conditions shown in C. Asterisks indicate instances in which the number of neurons with separation strength >2 is larger than can be explained as false positives (*p < 0.05; ***p < 0.001). (E1) Discrimination power for a stimulus separation of 150 mm at 1.25 mM [Ca2+]o for four microcircuits based on biological datasets Bio2–Bio5. (E2) Discrimination based on response delay and spike count when the same microcircuit was embedded in six surrounding microcircuits.
+
+size of network required to reproduce key functional properties of the microcircuit shows that it is roughly equivalent to the volume of neocortical tissue used as the basis for the reconstruction. This is evidence that a network of this size is the minimum functional unit required for neocortical information processing.
+Validity of the Digital Reconstruction The reconstruction certainly includes errors due to mistakes and gaps in experimental datasets and incomplete understanding of
+
+biological principles. For instance, additional cell type markers would improve the accuracy of the morphological composition, saturated EM reconstructions could be used to further validate the derived connectivity, more experiments reporting combined voltage and current measurements for synaptic responses will strengthen conclusions on quantal conductances and connection-speciﬁc synaptic dynamics, and further characterization of the sensitivity of different synapses to [Ca2+]o may allow more accurate demarcation of the transitions between different
+
+482 Cell 163, 456–492, October 8, 2015 ª2015 Elsevier Inc.
+
+A [Ca2+]o 1.35 mM
+100
+
+1.3 mM
+
+1.25 mM
+
+B
+2.0
+
+1.8
+
+Non regenerative state Regenerative state Interpolated transition
+
+[Ca2+]o (mM)
+
+Circuit Size (minicolumns) Hz
+
+1.6
+
+300
+
+I II/III IV
+V
+
+1000
+
+VI
+30
+
+0 0 1 2 30 1 2 30 1 2 3 Time (s)
+
+1.4
+1.2
+0 50 100 150 200 250 300 1000 Circuit Size (minicolumns)
+
+~~
+
+C
+6.0
+
+Circuit Size (minicolumns) 50 300 1000
+
+D
+
+t1
+
+t2
+
+4.8 t1 3.6
+
+2.5 Hz
+t1 t2 250 ms
+
+2.4 t2
+
+t1 t2
+
+Circuit Size (minicolumns) 1000 300 50
+
+Firing rate [Hz]
+
+1.2
+
+E 0.7
+0.6
+
+50
+
+F
+0.6
+
+Correlation of firing rates between minicolumn clusters
+
+0.5
+
+0.4 100
+
+0.3 200
+
+0.2
+
+300 400
+
+1000
+
+0.1
+
+0
+
+Correlation r
+
+0.5 0.4 0.3 0.2 0.1
+
+r center
+r all
+
+-0.1 0 100 200 300 400 500 600 700 800
+Distance between minicolumn clusters (
+
+0.0 0
+
+200 400 600 800 1000 Circuit size (minicolumns)
+
+Figure 20. Emergence (A) Transition between regenerative and nonregenerative regimes as a function of circuit size and calcium concentration. Panels of raster plots (top) and PSTHs (bottom) of spontaneous activity are shown for a selection of circuit sizes and calcium concentrations (100% depolarization). (B) Overview of a broad range of circuit sizes and calcium concentrations as in A. Red crosses and green dots indicate regenerative and non-regenerative circuit behavior, respectively, as assessed by visual inspection. Black curve depicts interpolated transition between regenerative and nonregenerative regimes. (C) Spatial proﬁle of instantaneous ﬁring rates for circuits of increasing size. Mean instantaneous ﬁring rates were estimated for contiguous groupings (clusters) of approximately ten minicolumns using a K-means algorithm. Six spatial ﬁring rate proﬁles are shown, generated by interpolating these rate estimates (see Experimental Procedures) at two selected times for three circuit sizes. Colored circles show ﬁve exemplary cluster centers. (D) Time traces of ﬁring rates for selected clusters. Firing rate time courses are shown for the clusters in C in corresponding color for all three circuit sizes. Dashed boxes indicate the times, t1 and t2, at which spatial proﬁles are compared in C. (E) Pairwise cross-correlation coefﬁcients of cluster ﬁring rate time courses for all cluster combinations versus inter-cluster separation for varying circuit sizes (50 to 1,000 minicolumns). Pair-wise correlation decays exponentially with distance (blue dashed line shows exponential ﬁt to 1,000 minicolumn circuit dataset, space constant l = 202 mm). (F) Mean pairwise cluster correlation coefﬁcients versus circuit size for each circuit’s centermost ﬁve clusters (red circles) and for all clusters (blue circles). Error bars indicate SD. Dashed curves indicate exponential ﬁts to respective data.
+
+activity states and may allow a more precise determination of the role played by each neuron and synapse type in maintaining and shifting regimes. For example, a recent EM study found evidence for a higher number of synapses per connection than predicted by a naive interpretation of Peters’ rule (Kasthuri et al., 2015). Applying the same analysis to the digital reconstruction produced comparable ﬁndings (Figure S20 in silico versus Figures 7D, 7F, and S6B in Kasthuri et al., 2015). These properties emerge in the digital reconstruction as a consequence of preferential pruning of connections with low numbers of synapses (Reimann et al., 2015).
+The validation tests conducted at multiple stages of the reconstruction process reduce the risk that errors could lead to major inaccuracies in the reconstruction or in simulations of its emergent behavior. For example, validation of electrical neuron models against independent data insulates the emergent behavior of the network from the impact of our limited knowledge of ion channel kinetics and distributions. More generally, the reconstruction passed multiple tests broadly validating
+
+its underlying anatomy and physiology. For instance, major errors in cell morphology, densities, composition, and connectivity would make it difﬁcult to reproduce the types of neuronal assemblies discovered in 12-patch experiments, the numbers of GABAergic synapses on pyramidal somata, protein staining patterns, layer-wise synapse densities, connection probabilities, bouton densities, and distributions, etc. (see Table S3). These properties lie well within experimentally reported ranges. The reproducibility of observations and predictions in multiple reconstructions using data from different animals and incorporating statistical variations provide evidence that they are robust.
+Although the reconstruction is, to our knowledge, the most detailed to date, it omits many important details of microcircuit structure and function, such as gap junctions, receptors, glia, vasculature, neuromodulation, plasticity, and homeostasis. Furthermore, it represents a snapshot of just one brain region, in one strain of male rat, at a young age. This limits the generality of the conclusions that can be drawn. For instance, in
+
+Cell 163, 456–492, October 8, 2015 ª2015 Elsevier Inc. 483
+
+Box 1. Microcircuit Predictions
+1. The cellular composition of the microcircuit 2. Total lengths of dendrites and local axons 3. Increase in neuronal diversity with cortical depth 4. Total number of appositions and synapses 5. Total number of connections and connection types 6. Number of connections and synapses per connection between different neuron types 7. Number of connections and synapses formed by incoming ﬁbers 8. Increase in the E-I neuronal fraction with cortical depth 9. All input and output synapses for all neuron types 10. Quantal synaptic conductances for all intrinsic synapses 11. Total excitatory and inhibitory conductances for all neuron types 12. Number and combination of pre- and postsynaptic neurons for all neuron types 13. Detailed synaptic physiology for connections between all neuron pairs 14. E-I ratios within and across layers 15. A spectrum of network states ranging from synchronous to asynchronous activity 16. Extracellular calcium regulates the network state through differential effects on synaptic dynamics 17. Role of layers, neuron, and connection types in modulating network states 18. The in vivo phenomena examined only emerge near the transition between synchronous and asynchronous states
+
+animals of the age used for the study, dendritic morphologies have already matured to adult levels (Larkman, 1991a; Romand et al., 2011), but the ascending axons may not be fully represented and are certainly not completely mature (Romand et al., 2011). However, studies at a greater level of biological detail (e.g., including glia, receptors, and signaling pathways) and investigations of different brain regions in animals of different ages, gender, and species, as well as in disease models can use the reconstruction as a reference point. Findings consistent with the reconstruction would indicate the sufﬁciency of the principles of organization used in the reconstruction process; discrepancies may point to new principles. For example, if application of the connectivity algorithm to another brain region or to animals at a different age or belonging to a different species failed to yield results consistent with experimental ﬁndings, this would point to speciﬁc variations in the connectivity rules.
+Failure in validation could also indicate errors in experimental data. For instance, the reconstruction indicated that cell densities from a dozen previous studies were all too low to account for spine and synapse densities, suggesting new experiments, which veriﬁed this prediction. The reconstruction also revealed that many experiments underestimate synaptic conductances and suggests that in vitro experiments that do not account for calcium level in the bath may misinterpret the relevance of their ﬁndings for in vivo conditions. These examples illustrate how the reconstruction process does not take experimental data at face value but uses complementary, related datasets to constrain the use as parameters, wherever possible.
+Functional Implications Simulations of the spontaneous and evoked activity that accounted for the differential sensitivity to Ca2+ of different types of synapses and that explored changes in Ca2+ levels revealed
+
+a spectrum of activity states ranging from synchronous to asynchronous behavior. Varying the Ca2+ level profoundly changes the overall E-I balance and hence the position of the network along the spectrum, leading to a sharp transition between activity regimes. These in silico predictions were veriﬁed by new in vitro experiments.
+Further simulations showed that the level of Ca2+, where the transition occurred, varies across digital reconstructions that use data from different animals and that this accounts for a signiﬁcant proportion of the variance in neuronal spiking and the spatial resolution of the network. We also found that a small adjustment in Ca2+ levels ($0.05 mM) in individual reconstructions signiﬁcantly reduces their physiological variability. These simulations provide an example of how variations in individual neuroanatomy may lead to functional differences.
+Inspired by this ﬁnding, we performed further simulations, which demonstrated that activating or inhibiting speciﬁc layers, neurons, and synaptic connections also shifts the network along the spectrum. While it is well known from previous theoretical ﬁndings that changing E-I balance changes the state of the network (Brunel, 2000; van Vreeswijk and Sompolinsky, 1996), the simulations further suggest that any mechanism that differentially changes the synaptic dynamics of different types of synapses (e.g., through neuromodulation; for reviews, see Lee and Dan, 2012; Zagha and McCormick, 2014) could alter the boundaries between activity regimes in complex ways. We speculate that other emergent properties, such as UP and DOWN states with two meta-stable ﬁxed points, as observed in vivo (Steriade et al., 1993), which are not reproduced by the digital reconstruction, may require thalamocortical interactions (Hughes et al., 2002), cortico-cortical interactions (Timofeev et al., 2000), intrinsic oscillators (Lo}rincz et al., 2015; Sanchez-Vives and McCormick, 2000), or neuromodulation (Constantinople and Bruno, 2011; Lo}rincz et al., 2015; Sigalas et al., 2015). Modulation of cellular or synaptic
+
+484 Cell 163, 456–492, October 8, 2015 ª2015 Elsevier Inc.
+
+physiology may therefore serve as mechanisms to dynamically reconﬁgure the network to satisfy different computational requirements.
+Reproducing In Vivo Findings Although the digital reconstruction was largely based on in vitro data and was not designed to reproduce any particular experiment or to capture complex in vivo conditions, it yielded results that were qualitatively comparable to a number of major in vivo ﬁndings and made predictions beyond what was possible in these experiments, without tweaking any of the model parameters.
+For example, the digital reconstruction made it possible to address a long-standing question concerning the mechanisms underlying the uncorrelated activity frequently observed in in vivo experiments (Haider et al., 2006). Previous theoretical work has shown that uncorrelated activity could be the result of tightly correlated excitatory conductances that are effectively cancelled out by anti-correlated inhibitory conductances (Renart et al., 2010; van Vreeswijk and Sompolinsky, 1996). Our simulations, using a model not speciﬁcally designed to address this question, conﬁrm this effect as an emergent property of the network. The simulations further suggest that cortical activity in vivo approaches a critical transition along the synchronous asynchronous spectrum, beyond which regenerative activity leads to neuronal avalanches (see also Beggs and Plenz, 2003). Around this transition, spiking activity is highly correlated with ﬁne temporal structure in synaptic input, reﬂected in brief moments of imbalance between excitatory and inhibitory conductances. Maximal discrimination between spatially segregated inputs, the generation of ﬁne temporal structures such as triplets, and soloist-like and chorister-like behavior all emerge close to the transition. A recent study has experimentally characterized the plasticity mechanisms for maintaining the network close to this transition (Delattre et al., 2015).
+Reproducing these in vivo ﬁndings was surprising because the digital reconstruction was based on data and architectural principles obtained from the immature rat somatosensory cortex, while many of the in vivo ﬁndings came from different neocortical regions in adult animals, sometimes belonging to other species. The fact that the reconstruction reproduces these phenomena suggests that they arise from fundamental properties of the neocortical microcircuit.
+Concluding Remarks This study demonstrates that it is possible, in principle, to reconstruct an integrated view of the structure and function of neocortical microcircuitry, using sparse, complementary datasets to predict biological parameters that have not been measured experimentally. Although the current digital reconstruction can already be used to gain insights into the way the microcircuitry operates, it is only a ﬁrst step. To facilitate integration of new experimental data and challenges to the principles on which it is based, we have created a public web resource, which provides access to experimental data, models, and tools used in the reconstruction (The Neocortical Microcircuit Collaboration [NMC] Portal, https://bbp.epﬂ.ch/nmc-portal; Ramaswamy et al., 2015). This will allow the community to integrate their
+
+own data, perform their own analyses, and test their own hypotheses.
+EXPERIMENTAL PROCEDURES
+A detailed description is available in the Supplemental Experimental Procedures.
+Data Acquisition Neuron Morphology Neuron morphologies were obtained from digital 3D reconstructions of biocytin-stained neurons from juvenile rat hind-limb somatosensory cortex, following whole-cell patch-clamp recordings in 300-mm-thick brain slices (Markram et al., 1997). In some of the reconstructed neurons, bouton locations were annotated on the axon (Wang et al., 2002). Reconstruction used the Neurolucida system (MicroBrightField). Neuron Electrophysiology Neurons were stimulated with a set of previously described protocols (Le Be´ et al., 2007; Wang et al., 2002, 2004). A subset of these stimuli was used to generate neuron models; a different subset was used to validate the models. Synaptic Anatomy Data on the anatomy of synaptic connections were collected from previous studies in which synaptically coupled neurons were digitally reconstructed, and putative synapses were identiﬁed using criteria identiﬁable in light microscopy and validated using EM. In brief, putative synapses were identiﬁed at appositions between arbors, where a bouton was also present on the axon of the presynaptic neuron (Markram et al., 1997). Synaptic Physiology Presynaptic neurons were stimulated with a set of previously described protocols (Gupta et al., 2000; Markram et al., 1998; Tsodyks and Markram, 1997; Wang et al., 2002, 2006). The synaptic parameters required to model the synapses were obtained by ﬁtting the responses against the TsodyksMarkram model for dynamic synaptic transmission (Fuhrmann et al., 2002; Tsodyks and Markram, 1997). Tissue Immunohistochemistry Standard immunohistochemical methods were used to label markers of cell types (Lefort et al., 2009). Stained cells were counted under light microscopy. Layer boundaries and densities per layer were computed on slices using optical dissectors on NeuN-stained tissue (West and Gundersen, 1990; Williams and Rakic, 1988) and Stereo Investigator software (StereoInvestigator 7.0, MicroBright Field). Data for each cortical layer (I, II, III, IV, Va, Vb, VI) were collected from different animals (n = 5). Final values for neuronal densities and layer thicknesses were corrected for shrinkage. E/I ratios were determined by soma counting in confocal microscopy imaging of dual NeuN- and GABAstained tissue. Electron Microscopy Serial EM stacks were obtained for blocks of neocortical tissue, as previously described (Denk and Horstmann, 2004). Multi-electrode Array Experiments A 3D multi-electrode array with 60 pyramidal platinum electrodes (Qwane Bioscience SA) was used to obtain extracellular recordings from neurons in slices, as previously described (Delattre et al., 2015; Rinaldi et al., 2008). Experimental data analysis was performed in Matlab (The MathWorks) with custom scripts. Extra-cellular spikes were detected when the recorded signal crossed a dynamic threshold. Manipulating [Ca2+]o Extracellular Ca2+ concentration ([Ca2+]o) was changed by bath perfusion with artiﬁcial extracellular ﬂuid containing a modiﬁed [Ca2+]o. Bath changing times were minimized by employing a pipette to remove the recording chamber solution prior to changing the subsequent solution.
+Reconstruction Process Digital Neuron Morphologies Following 3D reconstruction, the cut ends of neuronal morphologies were restored using a repair algorithm (Anwar et al., 2009). Neuronal arbors
+
+Cell 163, 456–492, October 8, 2015 ª2015 Elsevier Inc. 485
+
+were digitally unraveled to compensate for tortuosity caused by shrinkage, and neuron morphologies were cloned (see Supplemental Experimental Procedures). Electrical Neuron Models Multicompartmental conductance-based models of neurons were generated using up to 13 active ion channel types and a model of intracellular Ca2+ dynamics. Axon initial segments (AIS), somata, basal dendrites, and apical dendrites were separated. Interneurons contained only one dendritic region. Each region received a separate set of channels (see NMC portal, https:// bbp.epﬂ.ch/nmc-portal; Ramaswamy et al., 2015). Of the axon, only the AIS was simulated. Each AIS was represented by two ﬁxed-length sections, each with a length of 30 mm. AIS diameters were obtained from the reconstructed morphology used for model ﬁtting. Action potentials detected in the AIS were sent to the postsynaptic synapses with a delay corresponding to the axonal length, assuming an axonal velocity of 0.3 m/s. Neuron models were ﬁtted using a feature-based multi-objective optimization method, as previously described (Druckmann et al., 2007). The Microcircuit Volume Layer thicknesses and the diameter of the microcircuit were used to construct a virtual hexagonal prism (see main text). A virtual slice was generated from a 1 3 7 mosaic of microcircuits as a sheet (230.9 3 2800 mm). A meso-circuit was also generated. The meso-circuit consisted of a single microcircuit surrounded by additional microcircuits on all faces. Cellular Composition Cell density measurements and experimentally determined fractions of m- and me-types were used to generate the position of each cell in the volume of tissue, using E:I ratios to correct for sampling bias. Each cell was assigned the optimal morphology for its location in the volume (see Supplemental Experimental Procedures). Synaptic Anatomy Locations of synapses were derived using an algorithm described in the companion article (Reimann et al., 2015). The algorithm eliminates appositions that do not comply with the multi-synapse and plasticity reserve rules and ensures compatibility with observed biological bouton densities. Synaptic Physiology Excitatory synaptic transmission was modeled using both AMPA and NMDA receptor kinetics (Fuhrmann et al., 2002; Ha¨ usser and Roth, 1997; Markram et al., 1998; Ramaswamy et al., 2012; Tsodyks and Markram, 1997). Inhibitory synaptic transmission was modeled with a combination of GABAA and GABAB receptor kinetics (Gupta et al., 2000; Khazipov et al., 1995; De Koninck and Mody, 1997; Mott et al., 1999). Stochastic synaptic transmission was implemented as a two-state Markov model of dynamic synaptic release, a stochastic implementation of the Tsodyks-Markram dynamic synapse model (Fuhrmann et al., 2002; Tsodyks and Markram, 1997). Biological parameter ranges for the four model parameters were taken from experimental values for synaptic connections between speciﬁc m- and me-types or between larger categories of pre- and postsynaptic neurons (see Figure 9). Spontaneous miniature PSCs were modeled by implementing an independent Poisson process for each individual synapse that triggered release at rates (lspont) determined by the experimental data (Ling and Benardo, 1999; Simkus and Stricker, 2002). Thalamic Innervation Thalamic input was reconstructed using experimental data for ventro-posterior medial (VPM) axon bouton density proﬁles in rat barrel cortex (Meyer et al., 2010b), synapses per connection, and approximate numbers of incoming ﬁbers. Synapse locations were determined using a variant of the connectome algorithm (Reimann et al., 2015; see Supplemental Experimental Procedures). Synapses were assigned to incoming ﬁbers based on a Gaussian probability centered around each ﬁber.
+Simulation Microcircuit Simulation The reconstructed microcircuit was simulated using the NEURON simulation package, augmented for execution on the supercomputer (Hines and Carnevale, 1997; Hines et al., 2008a, 2008b), together with additional custom tools to handle the setup and conﬁguration of the microcircuit and the output of results.
+
+In Silico Experiments Depolarization was achieved by simulating current injection at the neuron soma. Currents were expressed as percent of ﬁrst spike threshold for each neuron. Changes in [Ca2+]o were simulated by changing the use parameter of synaptic transmission according to three curves for speciﬁc m-types (see Figure S15). Neuronal in silico knockout experiments were performed by hyperpolarizing the target population with somatic current injection (À100% threshold). Thalamic ﬁber stimulations were performed on circular clusters of minicolumns. The methods used to replicate previous in vivo experiments are described in the Supplemental Experimental Procedures. Data Analysis Anatomical and physiological data analysis were performed using a custom suite of Python-based tools operating on a Linux cluster (Supplemental Experimental Procedures). The same analysis as described in Kasthuri et al. (2015) was applied to compare results between a saturated EM reconstruction and the digital reconstruction that we generated (see Figure S20). PSPs were measured at the somata or dendrites of randomly selected pairs of neurons (30 trials). PSTHs were computed from all neurons in the circuit and were normalized by neuron number and time bin to express the average instantaneous ﬁring rate. Mean spike-spike correlations were calculated as the histogram of intervals between all spike times of two different cells (bin size 1 ms). Evoked regenerative activity was deﬁned as activity in which peak activity (PSTH) within 100 ms after stimulus of the outermost 20 minicolumns exceeded 30 Hz and 70% of the activity of the 20 central minicolumns in the 10 ms after stimulus. Spike rasters show spike events at the locations within the layers where they occurred (for clarity, only a fraction of spikes are plotted). Supercomputing Reconstruction and simulation workﬂows, such as neuron model optimization, circuit reconstruction, and network simulation, were executed on supercomputers. The systems used included an IBM Blue Gene/L (until 2009), a CADMOS 4-rack IBM Blue Gene/P (until 2013), a CADMOS 1-rack IBM Blue Gene/Q (until 2014), and the Blue Brain IV operated by the Swiss National Supercomputing Center (CSCS) on behalf of the Blue Brain Project, ranked the 100th most powerful supercomputing system (Top500, June 2015). Blue Brain IV includes a 4-rack IBM Blue Gene/Q, IBM Blue Gene Active Storage, and a 40-node Linux cluster for post-processing, analysis, and visualization, fully interconnected using Inﬁniband technology and a GPFS ﬁle system with 4.2 Petabyte raw storage (Schu¨ rmann et al., 2014). Visualization Large circuits and simulations in high resolution were visualized using a custom-developed tool, RTNeuron (Hernando et al., 2012). High-quality, static images of small neural circuits, individual neurons, and synaptic spines and boutons were created using Maya 3D animation software (Autodesk, San Rafael, California, USA). Software Development Data integration and post processing as well as reconstruction, simulation, analysis, and visualization of neuronal network models used >30 software applications, integrated into automated and semi-automated workﬂows. Development was supported by a comprehensive development environment based on best practices for version control (git), code review (gerrit), and continuous building, testing, packaging, and deployment (Jenkins).
+SUPPLEMENTAL INFORMATION
+Supplemental Information includes Supplemental Experimental Procedures, 20 ﬁgures, six tables, and three movies and can be found with this article online at http://dx.doi.org/10.1016/j.cell.2015.09.029.
+AUTHOR CONTRIBUTIONS
+H.M. conceived and led the study. F.S., S.L.H., I.S., and J.D. co-led the study. H.M. planned and supervised experiments, data integration, strategies and algorithms, model building, in silico experiments, and analysis. F.S. planned and supervised the development of algorithms, software and workﬂows, computing infrastructure, and technical integration. E.M., S.R., M.W.R., and S.L.H. drove and co-supervised the integration of the data, tools, models,
+
+486 Cell 163, 456–492, October 8, 2015 ª2015 Elsevier Inc.
+
+simulations, and analyses. H.M., S.R., E.M., and M.W.R. wrote the manuscript. R.W. edited the manuscript. A detailed listing of author contributions is available in the Supplemental Information.
+ACKNOWLEDGMENTS
+The work was supported by funding from the EPFL to the Laboratory of Neural Microcircuitry (LNMC) and funding from the ETH Domain for the Blue Brain Project (BBP). Additional support was provided by funding for the Human Brain Project from the European Union Seventh Framework Program (FP7/20072013) under grant agreement no. 604102 (HBP). Further funding came from The Gatsby Charitable Foundation; the Cajal Blue Brain Project, Ministerio de Economia y Competitividad Spanish Ministry of Education and Science; and an EPFL-Hebrew University Collaborative Grant. In the years 2005– 2009, the Blue Gene/L system was funded by the EPFL. Financial support for the subsequent CADMOS Blue Gene/P and Blue Gene/Q systems was provided by the Canton of Geneva, Canton of Vaud, Hans Wilsdorf Foundation, Louis-Jeantet Foundation, University of Geneva, University of Lausanne, and E´ cole Polytechnique Fe´ de´ rale de Lausanne. The BlueBrain IV BlueGene/Q system is ﬁnanced by ETH Board Funding to the Blue Brain Project as a National Research Infrastructure and hosted at the Swiss National Supercomputing Center (CSCS). A large proportion of the data used in this study was generated at the Weizmann Institute for Science, Israel between 1996 and 2002 through the support of Thomas McKenna from the Ofﬁce of Naval Research, USA.
+We further acknowledge: Georges Abou-Jaoude´ for generating the ﬁrst Blue Brain visualizations and inspirational discussions on visualization; Shadi Akiki for contributions to circuit building and analysis; Katia Antoniello for reconstructions; Haroon Anwar for contributions to morphology repair; Ricardo Auhing for contributions to databasing; Christiane Debono for administrative support; Raphael Holzer for development of Igor programs; Luca Gambazzi for contributions to ion channel and morphology databasing; Sonia Garcia for experiment support and reconstructions; Marc-Oliver Gewaltig for feedback on the modeling; the late Philip Goodman for multiple contributions over the years, starting with the ﬁrst Beowulf computer cluster for brain simulation and for his statistical analyses of gene expression; Rony Hatteland for contributions to morphology cloning; David Horrigan for helpful discussions; Asif Jan for contributions to databasing; James Kozloski for contributions to touch detection; Tara Mahfoud for helpful discussions; Thomas McColgan for contributions to morphology repair; Ruben Moor for contributions to feature extraction; Charles Peck for contributions to touch detection; Jose M. (Chema) Pen˜ a for contributions to segmentation; Sandrine Romand for data on the maturation of pyramidal cells; Niklas Schmu¨ cker for contributions to the cell building process; Mohit Srivastava for contributions to morphological reconstructions; Garik Suess for contributions to the simulation; Anirudh Vij for contributions to the analysis software; Barthelemy von Haller for contributions on software and workﬂows for analysis; Anna Traussnig for contributions to circuit analysis; Tahir Uddin for contributions to morphological reconstructions; Alex Thomson for her pioneering work on synaptically coupled neurons that inspired our work, for many years of discussion and feedback, for detailed comments on early versions of the manuscript, and for continuous encouragement; the many other colleagues at IBM for stimulating discussions over the years since 2005; Bert Sakmann for his invaluable guidance, critical feedback, and discussions at the start of this study in 1994; and Kamila Markram for helpful discussions, limitless encouragement, support, and patience.
+Received: December 16, 2014 Revised: May 4, 2015 Accepted: September 11, 2015 Published: October 8, 2015
+REFERENCES
+Ali, A.B., Bannister, A.P., and Thomson, A.M. (2007). Robust correlations between action potential duration and the properties of synaptic connections in layer 4 interneurones in neocortical slices from juvenile rats and adult rat and cat. J. Physiol. 580, 149–169.
+
+Amitai, Y. (2001). Thalamocortical synaptic connections: efﬁcacy, modulation, inhibition and plasticity. Rev. Neurosci. 12, 159–173.
+Amzica, F., Massimini, M., and Manfridi, A. (2002). Spatial buffering during slow and paroxysmal sleep oscillations in cortical networks of glial cells in vivo. J. Neurosci. 22, 1042–1053.
+Angulo, M.C., Rossier, J., and Audinat, E. (1999). Postsynaptic glutamate receptors and integrative properties of fast-spiking interneurons in the rat neocortex. J. Neurophysiol. 82, 1295–1302.
+Anwar, H., Riachi, I., Hill, S., Schurmann, F., and Markram, H. (2009). An approach to capturing neuron morphological diversity. In Computational Modeling Methods for Neuroscientists (The MIT Press), pp. 211–231.
+Ascoli, G.A., Alonso-Nanclares, L., Anderson, S.A., Barrionuevo, G., Benavides-Piccione, R., Burkhalter, A., Buzsa´ ki, G., Cauli, B., Defelipe, J., Faire´ n, A., et al.; Petilla Interneuron Nomenclature Group (2008). Petilla terminology: nomenclature of features of GABAergic interneurons of the cerebral cortex. Nat. Rev. Neurosci. 9, 557–568.
+Bannister, A.P., and Thomson, A.M. (2007). Dynamic properties of excitatory synaptic connections involving layer 4 pyramidal cells in adult rat and cat neocortex. Cereb. Cortex 17, 2190–2203.
+Beaulieu, C. (1993). Numerical data on neocortical neurons in adult rat, with special reference to the GABA population. Brain Res. 609, 284–292.
+Beaulieu, C., and Colonnier, M. (1983). The number of neurons in the different laminae of the binocular and monocular regions of area 17 in the cat, Canada. J. Comp. Neurol. 217, 337–344.
+Beggs, J.M., and Plenz, D. (2003). Neuronal avalanches in neocortical circuits. J. Neurosci. 23, 11167–11177.
+Beierlein, M., and Connors, B.W. (2002). Short-term dynamics of thalamocortical and intracortical synapses onto layer 6 neurons in neocortex. J. Neurophysiol. 88, 1924–1932.
+Beierlein, M., Gibson, J.R., and Connors, B.W. (2000). A network of electrically coupled interneurons drives synchronized inhibition in neocortex. Nat. Neurosci. 3, 904–910.
+Beierlein, M., Fall, C.P., Rinzel, J., and Yuste, R. (2002). Thalamocortical bursts trigger recurrent activity in neocortical networks: layer 4 as a frequencydependent gate. J. Neurosci. 22, 9885–9894.
+Beierlein, M., Gibson, J.R., and Connors, B.W. (2003). Two dynamically distinct inhibitory networks in layer 4 of the neocortex. J. Neurophysiol. 90, 2987–3000.
+Berger, T., Larkum, M.E., and Lu¨ scher, H.-R. (2001). High I(h) channel density in the distal apical dendrite of layer V pyramidal cells increases bidirectional attenuation of EPSPs. J. Neurophysiol. 85, 855–868.
+Blatow, M., Rozov, A., Katona, I., Hormuzdi, S.G., Meyer, A.H., Whittington, M.A., Caputi, A., and Monyer, H. (2003). A novel network of multipolar bursting interneurons generates theta frequency oscillations in neocortex. Neuron 38, 805–817.
+Borst, J.G.G. (2010). The low synaptic release probability in vivo. Trends Neurosci. 33, 259–266.
+Boyd, J., and Matsubara, J. (1991). Intrinsic connections in cat visual cortex: a combined anterograde and retrograde tracing study. Brain Res. 560, 207–215.
+Brunel, N. (2000). Dynamics of sparsely connected networks of excitatory and inhibitory spiking neurons. J. Comput. Neurosci. 8, 183–208.
+Bruno, R.M., and Sakmann, B. (2006). Cortex is driven by weak but synchronously active thalamocortical synapses. Science 312, 1622–1627.
+Callaway, E.M. (2008). Transneuronal circuit tracing with neurotropic viruses. Curr. Opin. Neurobiol. 18, 617–623.
+Carnevale, N.T., and Hines, M.L. (2006). The NEURON Book (New York, NY, USA: Cambridge University Press).
+Cauli, B., Audinat, E., Lambolez, B., Angulo, M.C., Ropert, N., Tsuzuki, K., Hestrin, S., and Rossier, J. (1997). Molecular and physiological diversity of cortical nonpyramidal cells. J. Neurosci. 17, 3894–3906.
+
+Cell 163, 456–492, October 8, 2015 ª2015 Elsevier Inc. 487
+
+Cauli, B., Porter, J.T., Tsuzuki, K., Lambolez, B., Rossier, J., Quenet, B., and Audinat, E. (2000). Classiﬁcation of fusiform neocortical interneurons based on unsupervised clustering. Proc. Natl. Acad. Sci. USA 97, 6144–6149.
+Celikel, T., Szostak, V.A., and Feldman, D.E. (2004). Modulation of spike timing by sensory deprivation during induction of cortical map plasticity. Nat. Neurosci. 7, 534–541.
+Celio, M.R. (1986). Parvalbumin in most gamma-aminobutyric acid-containing neurons of the rat cerebral cortex. Science 231, 995–997.
+Chen, N., Sugihara, H., and Sur, M. (2015). An acetylcholine-activated microcircuit drives temporal dynamics of cortical activity. Nat. Neurosci. 18, 892–902.
+Cobb, S.R., Halasy, K., Vida, I., Nyı´ri, G., Tama´ s, G., Buhl, E.H., and Somogyi, P. (1997). Synaptic effects of identiﬁed interneurons innervating both interneurons and pyramidal cells in the rat hippocampus. Neuroscience 79, 629–648.
+Conde´ , F., Lund, J.S., Jacobowitz, D.M., Baimbridge, K.G., and Lewis, D.A. (1994). Local circuit neurons immunoreactive for calretinin, calbindin D-28k or parvalbumin in monkey prefrontal cortex: distribution and morphology. J. Comp. Neurol. 341, 95–116.
+Connors, B.W., and Gutnick, M.J. (1990). Intrinsic ﬁring patterns of diverse neocortical neurons. Trends Neurosci. 13, 99–104.
+Constantinople, C.M., and Bruno, R.M. (2011). Effects and mechanisms of wakefulness on local cortical networks. Neuron 69, 1061–1068.
+Constantinople, C.M., and Bruno, R.M. (2013). Deep cortical layers are activated directly by thalamus. Science 340, 1591–1594.
+Cragg, B.G. (1967). The density of synapses and neurones in the motor and visual areas of the cerebral cortex. J. Anat. 101, 639–654.
+Crick, F.H. (1979). Thinking about the brain. Sci. Am. 241, 219–232.
+Cunningham, M.O., Whittington, M.A., Bibbig, A., Roopun, A., LeBeau, F.E.N., Vogt, A., Monyer, H., Buhl, E.H., and Traub, R.D. (2004). A role for fast rhythmic bursting neurons in cortical gamma oscillations in vitro. Proc. Natl. Acad. Sci. USA 101, 7152–7157.
+Datwani, A., Iwasato, T., Itohara, S., and Erzurumlu, R.S. (2002). NMDA receptor-dependent pattern transfer from afferents to postsynaptic cells and dendritic differentiation in the barrel cortex. Mol. Cell. Neurosci. 21, 477–492.
+De Koninck, Y., and Mody, I. (1997). Endogenous GABA activates smallconductance K+ channels underlying slow IPSCs in rat hippocampal neurons. J. Neurophysiol. 77, 2202–2208.
+DeFelipe, J. (1993). Neocortical neuronal diversity: chemical heterogeneity revealed by colocalization studies of classic neurotransmitters, neuropeptides, calcium-binding proteins, and cell surface molecules. Cereb. Cortex 3, 273–289.
+DeFelipe, J., and Jones, E.G. (1988). Cajal on the Cerebral Cortex: An Annotated Translation of the Complete Writings (Oxford University Press).
+DeFelipe, J., Alonso-Nanclares, L., and Arellano, J.I. (2002). Microstructure of the neocortex: comparative aspects. J. Neurocytol. 31, 299–316.
+DeFelipe, J., Lo´ pez-Cruz, P.L., Benavides-Piccione, R., Bielza, C., Larran˜ aga, P., Anderson, S., Burkhalter, A., Cauli, B., Faire´ n, A., Feldmeyer, D., et al. (2013). New insights into the classiﬁcation and nomenclature of cortical GABAergic interneurons. Nat. Rev. Neurosci. 14, 202–216.
+Delattre, V., Keller, D., Perich, M., Markram, H., and Muller, E.B. (2015). Network-timing-dependent plasticity. Front. Cell. Neurosci. 9, 220.
+Denk, W., and Horstmann, H. (2004). Serial block-face scanning electron microscopy to reconstruct three-dimensional tissue nanostructure. PLoS Biol. 2, e329.
+Douglas, R.J., and Martin, K.A.C. (2004). Neuronal circuits of the neocortex. Annu. Rev. Neurosci. 27, 419–451.
+Druckmann, S., Banitt, Y., Gidon, A., Schu¨ rmann, F., Markram, H., and Segev, I. (2007). A novel multiple objective optimization framework for constraining conductance-based neuron models by experimental data. Front. Neurosci. 1, 7–18.
+
+Druckmann, S., Berger, T.K., Schu¨ rmann, F., Hill, S., Markram, H., and Segev, I. (2011). Effective stimuli for constructing reliable neuron models. PLoS Comput. Biol. 7, e1002133.
+Druckmann, S., Hill, S., Schu¨ rmann, F., Markram, H., and Segev, I. (2013). A hierarchical structure of cortical interneuron electrical diversity revealed by automated statistical analysis. Cereb. Cortex 23, 2994–3006.
+Dumitriu, D., Cossart, R., Huang, J., and Yuste, R. (2007). Correlation between axonal morphologies and synaptic input kinetics of interneurons from mouse visual cortex. Cereb. Cortex 17, 81–91.
+Faire´ n, A., DeFelipe, J., and Regidor, J. (1984). Nonpyramidal neurons: general account. In Cerebral Cortex, Volume 1, Cellular Components of the Cerebral Cortex, A. Peters and E.G. Jones, eds. (Plenum Press), pp. 201–253.
+Feldmeyer, D., Egger, V., Lubke, J., and Sakmann, B. (1999). Reliable synaptic connections between pairs of excitatory layer 4 neurones within a single ‘barrel’ of developing rat somatosensory cortex. J. Physiol. 521, 169–190.
+Feldmeyer, D., Lu¨ bke, J., Silver, R.A., and Sakmann, B. (2002). Synaptic connections between layer 4 spiny neurone-layer 2/3 pyramidal cell pairs in juvenile rat barrel cortex: physiology and anatomy of interlaminar signalling within a cortical column. J. Physiol. 538, 803–822.
+Feldmeyer, D., Lu¨ bke, J., and Sakmann, B. (2006). Efﬁcacy and connectivity of intracolumnar pairs of layer 2/3 pyramidal cells in the barrel cortex of juvenile rats. J. Physiol. 575, 583–602.
+Frick, A., Feldmeyer, D., and Sakmann, B. (2007). Postnatal development of synaptic transmission in local networks of L5A pyramidal neurons in rat somatosensory cortex. J. Physiol. 585, 103–116.
+Frick, A., Feldmeyer, D., Helmstaedter, M., and Sakmann, B. (2008). Monosynaptic connections between pairs of L5A pyramidal neurons in columns of juvenile rat somatosensory cortex. Cereb. Cortex 18, 397–406.
+Fuhrmann, G., Segev, I., Markram, H., and Tsodyks, M. (2002). Coding of temporal information by activity-dependent synapses. J. Neurophysiol. 87, 140–148.
+Gentet, L.J., Avermann, M., Matyas, F., Staiger, J.F., and Petersen, C.C.H. (2010). Membrane potential dynamics of GABAergic neurons in the barrel cortex of behaving mice. Neuron 65, 422–435.
+Gentet, L.J., Kremer, Y., Taniguchi, H., Huang, Z.J., Staiger, J.F., and Petersen, C.C.H. (2012). Unique functional properties of somatostatin-expressing GABAergic neurons in mouse barrel cortex. Nat. Neurosci. 15, 607–612.
+Ghosh, A., and Shatz, C.J. (1993). A role for subplate neurons in the patterning of connections from thalamus to neocortex. Development 117, 1031–1047.
+Gil, Z., Connors, B.W., and Amitai, Y. (1999). Efﬁcacy of thalamocortical and intracortical synaptic connections: quanta, innervation, and reliability. Neuron 23, 385–397.
+Glenn, L.L., Hada, J., Roy, J.P., Descheˆ nes, M., and Steriade, M. (1982). Anterograde tracer and ﬁeld potential analysis of the neocortical layer I projection from nucleus ventralis medialis of the thalamus in cat. Neuroscience 7, 1861–1877.
+Gonchar, Y., and Burkhalter, A. (1997). Three distinct families of GABAergic neurons in rat visual cortex. Cereb. Cortex 7, 347–358.
+Gonchar, Y., Wang, Q., Burkhalter, A., Gonchar, Y., Wang, Q., and Burkhalter, A. (2007). Multiple distinct subtypes of GABAergic neurons in mouse visual cortex identiﬁed by triple immunostaining. Front. Neuroanat. 1, 3.
+Grange, P., Bohland, J.W., Okaty, B.W., Sugino, K., Bokil, H., Nelson, S.B., Ng, L., Hawrylycz, M., and Mitra, P.P. (2014). Cell-type-based model explaining coexpression patterns of genes in the brain. Proc. Natl. Acad. Sci. USA 111, 5397–5402.
+Gupta, A., Wang, Y., and Markram, H. (2000). Organizing principles for a diversity of GABAergic interneurons and synapses in the neocortex. Science 287, 273–278.
+Haider, B., Duque, A., Hasenstaub, A.R., and McCormick, D.A. (2006). Neocortical network activity in vivo is generated through a dynamic balance of excitation and inhibition. J. Neurosci. 26, 4535–4545.
+
+488 Cell 163, 456–492, October 8, 2015 ª2015 Elsevier Inc.
+
+Hallman, L.E., Schoﬁeld, B.R., and Lin, C.-S. (1988). Dendritic morphology and axon collaterals of corticotectal, corticopontine, and callosal neurons in layer V of primary visual cortex of the hooded rat. J. Comp. Neurol. 272, 149–160.
+Harris, K.D., and Shepherd, G.M.G. (2015). The neocortical circuit: themes and variations. Nat. Neurosci. 18, 170–181.
+Hasenstaub, A., Shu, Y., Haider, B., Kraushaar, U., Duque, A., and McCormick, D.A. (2005). Inhibitory postsynaptic potentials carry synchronized frequency information in active cortical networks. Neuron 47, 423–435.
+Ha¨ usser, M., and Roth, A. (1997). Estimating the time course of the excitatory synaptic conductance in neocortical pyramidal cells using a novel voltage jump method. J. Neurosci. 17, 7606–7625.
+Hay, E., Hill, S., Schu¨ rmann, F., Markram, H., and Segev, I. (2011). Models of neocortical layer 5b pyramidal cells capturing a wide range of dendritic and perisomatic active properties. PLoS Comput. Biol. 7, e1002107.
+Heinemann, U., Lux, H.D., and Gutnick, M.J. (1977). Extracellular free calcium and potassium during paroxsmal activity in the cerebral cortex of the cat. Exp. Brain Res. 27, 237–243.
+Hendry, S.H., Jones, E.G., and Emson, P.C. (1984). Morphology, distribution, and synaptic relations of somatostatin- and neuropeptide Y-immunoreactive neurons in rat and monkey neocortex. J. Neurosci. 4, 2497–2517.
+Hendry, S.H.C., Jones, E.G., Emson, P.C., Lawson, D.E.M., Heizmann, C.W., and Streit, P. (1989). Two classes of cortical GABA neurons deﬁned by differential calcium binding protein immunoreactivities. Exp. Brain Res. 76, 467–472.
+Hernando, J., Schu¨ rmann, F., and Pastor, L. (2012). Towards real-time visualization of detailed neural tissue models: View frustum culling for parallel rendering. BioVis, 25–32.
+Hestrin, S., and Armstrong, W.E. (1996). Morphology and physiology of cortical neurons in layer I. J. Neurosci. 16, 5290–5300.
+Hevner, R.F., Shi, L., Justice, N., Hsueh, Y., Sheng, M., Smiga, S., Bulfone, A., Gofﬁnet, A.M., Campagnoni, A.T., and Rubenstein, J.L.R. (2001). Tbr1 regulates differentiation of the preplate and layer 6. Neuron 29, 353–366.
+Hill, S.L., Wang, Y., Riachi, I., Schu¨ rmann, F., and Markram, H. (2012). Statistical connectivity provides a sufﬁcient foundation for speciﬁc functional connectivity in neocortical neural microcircuits. Proc. Natl. Acad. Sci. USA 109, E2885–E2894.
+Hines, M.L., and Carnevale, N.T. (1997). The NEURON simulation environment. Neural Comput. 9, 1179–1209.
+Hines, M.L., Markram, H., and Schu¨ rmann, F. (2008a). Fully implicit parallel simulation of single neurons. J. Comput. Neurosci. 25, 439–448.
+Hines, M.L., Eichner, H., and Schu¨ rmann, F. (2008b). Neuron splitting in compute-bound parallel network simulations enables runtime scaling with twice as many processors. J. Comput. Neurosci. 25, 203–210.
+Hines, M., Kumar, S., and Schu¨ rmann, F. (2011). Comparison of neuronal spike exchange methods on a Blue Gene/P supercomputer. Front. Comput. Neurosci. 5, 49.
+Holmgren, C., Harkany, T., Svennenfors, B., and Zilberter, Y. (2003). Pyramidal cell communication within local networks in layer 2/3 of rat neocortex. J. Physiol. 551, 139–153.
+Honey, C.J., Ko¨ tter, R., Breakspear, M., and Sporns, O. (2007). Network structure of cerebral cortex shapes functional connectivity on multiple time scales. Proc. Natl. Acad. Sci. USA 104, 10240–10245.
+Horton, J.C., and Adams, D.L. (2005). The cortical column: a structure without a function. Philos. Trans. R. Soc. Lond. B. Biol. Sci. 360, 837–862.
+Hughes, S.W., Cope, D.W., Blethyn, K.L., and Crunelli, V. (2002). Cellular mechanisms of the slow (<1 Hz) oscillation in thalamocortical neurons in vitro. Neuron 33, 947–958.
+Jones, H.C., and Keep, R.F. (1988). Brain ﬂuid calcium concentration and response to acute hypercalcaemia during development in the rat. J. Physiol. 402, 579–593.
+
+Kapfer, C., Glickfeld, L.L., Atallah, B.V., and Scanziani, M. (2007). Supralinear increase of recurrent inhibition during sparse activity in the somatosensory cortex. Nat. Neurosci. 10, 743–753.
+Karagiannis, A., Gallopin, T., Da´ vid, C., Battaglia, D., Geoffroy, H., Rossier, J., Hillman, E.M.C., Staiger, J.F., and Cauli, B. (2009). Classiﬁcation of NPY-expressing neocortical interneurons. J. Neurosci. 29, 3642–3659.
+Karube, F., Kubota, Y., and Kawaguchi, Y. (2004). Axon branching and synaptic bouton phenotypes in GABAergic nonpyramidal cell subtypes. J. Neurosci. 24, 2853–2865.
+Kasper, E.M., Larkman, A.U., Lu¨ bke, J., and Blakemore, C. (1994). Pyramidal neurons in layer 5 of the rat visual cortex. II. Development of electrophysiological properties. J. Comp. Neurol. 339, 475–494.
+Kasthuri, N., Hayworth, K.J., Berger, D.R., Schalek, R.L., Conchello, J.A., Knowles-Barley, S., Lee, D., Va´ zquez-Reina, A., Kaynig, V., Jones, T.R., et al. (2015). Saturated Reconstruction of a Volume of Neocortex. Cell 162, 648–661.
+Kawaguchi, Y., and Kondo, S. (2002). Parvalbumin, somatostatin and cholecystokinin as chemical markers for speciﬁc GABAergic interneuron types in the rat frontal cortex. J. Neurocytol. 31, 277–287.
+Kawaguchi, Y., and Kubota, Y. (1993). Correlation of physiological subgroupings of nonpyramidal cells with parvalbumin- and calbindinD28k-immunoreactive neurons in layer V of rat frontal cortex. J. Neurophysiol. 70, 387–396.
+Kawaguchi, Y., and Kubota, Y. (1997). GABAergic cell subtypes and their synaptic connections in rat frontal cortex. Cereb. Cortex 7, 476–486.
+Kawaguchi, Y., Karube, F., and Kubota, Y. (2006). Dendritic branch typing and spine expression patterns in cortical nonpyramidal cells. Cereb. Cortex 16, 696–711.
+Keller, A., and Carlson, G.C. (1999). Neonatal whisker clipping alters intracortical, but not thalamocortical projections, in rat barrel cortex. J. Comp. Neurol. 412, 83–94.
+Khazen, G., Hill, S.L., Schu¨ rmann, F., and Markram, H. (2012). Combinatorial expression rules of ion channel genes in juvenile rat (Rattus norvegicus) neocortical neurons. PLoS ONE 7, e34786.
+Khazipov, R., Congar, P., and Ben-Ari, Y. (1995). Hippocampal CA1 lacunosum-moleculare interneurons: modulation of monosynaptic GABAergic IPSCs by presynaptic GABAB receptors. J. Neurophysiol. 74, 2126–2137.
+Killackey, H.P., Gould, H.J., 3rd, Cusick, C.G., Pons, T.P., and Kaas, J.H. (1983). The relation of corpus callosum connections to architectonic ﬁelds and body surface maps in sensorimotor cortex of new and old world monkeys. J. Comp. Neurol. 219, 384–419.
+Kisva´ rday, Z.F., Martin, K.A., Whitteridge, D., and Somogyi, P. (1985). Synaptic connections of intracellularly ﬁlled clutch cells: a type of small basket cell in the visual cortex of the cat. J. Comp. Neurol. 241, 111–137.
+Klausberger, T., Magill, P.J., Ma´ rton, L.F., Roberts, J.D.B., Cobden, P.M., Buzsa´ ki, G., and Somogyi, P. (2003). Brain-state- and cell-type-speciﬁc ﬁring of hippocampal interneurons in vivo. Nature 421, 844–848.
+Le Be´ , J.-V., Silberberg, G., Wang, Y., and Markram, H. (2007). Morphological, electrophysiological, and synaptic properties of corticocallosal pyramidal cells in the neonatal rat neocortex. Cereb. Cortex 17, 2204–2213.
+Krimer, L.S., Zaitsev, A.V., Czanner, G., Kro¨ ner, S., Gonza´ lez-Burgos, G., Povysheva, N.V., Iyengar, S., Barrionuevo, G., and Lewis, D.A. (2005). Cluster analysis-based physiological classiﬁcation and morphological properties of inhibitory neurons in layers 2-3 of monkey dorsolateral prefrontal cortex. J. Neurophysiol. 94, 3009–3022.
+Larkman, A.U. (1991a). Dendritic morphology of pyramidal neurones of the visual cortex of the rat: I. Branching patterns. J. Comp. Neurol. 306, 307–319.
+Larkman, A.U. (1991b). Dendritic morphology of pyramidal neurones of the visual cortex of the rat: III. Spine distributions. J. Comp. Neurol. 306, 332–343.
+Larkum, M.E., Zhu, J.J., and Sakmann, B. (2001). Dendritic mechanisms underlying the coupling of the dendritic with the axonal action potential initiation zone of adult rat layer 5 pyramidal neurons. J. Physiol. 533, 447–466.
+
+Cell 163, 456–492, October 8, 2015 ª2015 Elsevier Inc. 489
+
+Lee, S.-H., and Dan, Y. (2012). Neuromodulation of brain states. Neuron 76, 209–222.
+Lefort, S., Tomm, C., Floyd Sarria, J.-C., and Petersen, C.C.H. (2009). The excitatory neuronal network of the C2 barrel column in mouse primary somatosensory cortex. Neuron 61, 301–316.
+Leinekugel, X., Khazipov, R., Cannon, R., Hirase, H., Ben-Ari, Y., and Buzsa´ ki, G. (2002). Correlated bursts of activity in the neonatal hippocampus in vivo. Science 296, 2049–2052.
+Ling, D.S., and Benardo, L.S. (1999). Restrictions on inhibitory circuits contribute to limited recruitment of fast inhibition in rat neocortical pyramidal cells. J. Neurophysiol. 82, 1793–1807.
+Livingstone, M.S. (1996). Oscillatory ﬁring and interneuronal correlations in squirrel monkey striate cortex. J. Neurophysiol. 75, 2467–2485.
+Lo}rincz, M.L., Gunner, D., Bao, Y., Connelly, W.M., Isaac, J.T.R., Hughes, S.W., and Crunelli, V. (2015). A distinct class of slow ($0.2-2 Hz) intrinsically bursting layer 5 pyramidal neurons determines UP/DOWN state dynamics in the neocortex. J. Neurosci. 35, 5442–5458.
+Luczak, A., Bartho´ , P., Marguet, S.L., Buzsa´ ki, G., and Harris, K.D. (2007). Sequential structure of neocortical spontaneous activity in vivo. Proc. Natl. Acad. Sci. USA 104, 347–352.
+Maffei, A., Nelson, S.B., and Turrigiano, G.G. (2004). Selective reconﬁguration of layer 4 visual cortical circuitry by visual deprivation. Nat. Neurosci. 7, 1353– 1359.
+Mao, B.-Q., Hamzei-Sichani, F., Aronov, D., Froemke, R.C., and Yuste, R. (2001). Dynamics of spontaneous activity in neocortical slices. Neuron 32, 883–898.
+Markram, H. (2008). Fixing the location and dimensions of functional neocortical columns. HFSP J. 2, 132–135.
+Markram, H., Lu¨ bke, J., Frotscher, M., Roth, A., and Sakmann, B. (1997). Physiology and anatomy of synaptic connections between thick tufted pyramidal neurones in the developing rat neocortex. J. Physiol. 500, 409–440.
+Markram, H., Wang, Y., and Tsodyks, M. (1998). Differential signaling via the same axon of neocortical pyramidal neurons. Proc. Natl. Acad. Sci. USA 95, 5323–5328.
+Markram, H., Toledo-Rodriguez, M., Wang, Y., Gupta, A., Silberberg, G., and Wu, C. (2004). Interneurons of the neocortical inhibitory system. Nat. Rev. Neurosci. 5, 793–807.
+Mason, A., Nicoll, A., and Stratford, K. (1991). Synaptic transmission between individual pyramidal neurons of the rat visual cortex in vitro. J. Neurosci. 11, 72–84.
+Massimini, M., and Amzica, F. (2001). Extracellular calcium ﬂuctuations and intracellular potentials in the cortex during the slow sleep oscillation. J. Neurophysiol. 85, 1346–1350.
+Mazurek, M.E., and Shadlen, M.N. (2002). Limits to the temporal ﬁdelity of cortical spike rate signals. Nat. Neurosci. 5, 463–471.
+McCormick, D.A., Connors, B.W., Lighthall, J.W., and Prince, D.A. (1985). Comparative electrophysiology of pyramidal and sparsely spiny stellate neurons of the neocortex. J. Neurophysiol. 54, 782–806.
+McCormick, D.A., Shu, Y., Hasenstaub, A., Sanchez-Vives, M., Badoual, M., and Bal, T. (2003). Persistent cortical activity: mechanisms of generation and effects on neuronal excitability. Cereb. Cortex 13, 1219–1231.
+McGarry, L.M., Packer, A.M., Fino, E., Nikolenko, V., Sippy, T., and Yuste, R. (2010). Quantitative classiﬁcation of somatostatin-positive neocortical interneurons identiﬁes three interneuron subtypes. Front. Neural Circuits 4, 12.
+Mercer, A., West, D.C., Morris, O.T., Kirchhecker, S., Kerkhoff, J.E., and Thomson, A.M. (2005). Excitatory connections made by presynaptic corticocortical pyramidal cells in layer 6 of the neocortex. Cereb. Cortex 15, 1485– 1496.
+Meyer, A.H., Katona, I., Blatow, M., Rozov, A., and Monyer, H. (2002). In vivo labeling of parvalbumin-positive interneurons and analysis of electrical coupling in identiﬁed neurons. J. Neurosci. 22, 7055–7064.
+
+Meyer, H.S., Wimmer, V.C., Oberlaender, M., de Kock, C.P.J., Sakmann, B., and Helmstaedter, M. (2010a). Number and laminar distribution of neurons in a thalamocortical projection column of rat vibrissal cortex. Cereb. Cortex 20, 2277–2286.
+Meyer, H.S., Wimmer, V.C., Hemberger, M., Bruno, R.M., de Kock, C.P., Frick, A., Sakmann, B., and Helmstaedter, M. (2010b). Cell type-speciﬁc thalamic innervation in a column of rat vibrissal cortex. Cereb. Cortex 20, 2287–2303.
+Meyer, H.S., Schwarz, D., Wimmer, V.C., Schmitt, A.C., Kerr, J.N.D., Sakmann, B., and Helmstaedter, M. (2011). Inhibitory interneurons in a cortical column form hot zones of inhibition in layers 2 and 5A. Proc. Natl. Acad. Sci. USA 108, 16807–16812.
+Micheva, K.D., and Smith, S.J. (2007). Array tomography: a new tool for imaging the molecular architecture and ultrastructure of neural circuits. Neuron 55, 25–36.
+Micheva, K.D., Busse, B., Weiler, N.C., O’Rourke, N., and Smith, S.J. (2010). Single-synapse analysis of a diverse synapse population: proteomic imaging methods and markers. Neuron 68, 639–653.
+Migliore, M., Cannia, C., Lytton, W.W., Markram, H., and Hines, M.L. (2006). Parallel network simulations with NEURON. J. Comput. Neurosci. 21, 119–129.
+Mott, D.D., Li, Q., Okazaki, M.M., Turner, D.A., and Lewis, D.V. (1999). GABABreceptor-mediated currents in interneurons of the dentate-hilus border. J. Neurophysiol. 82, 1438–1450.
+Mountcastle, V.B. (1998). Perceptual neuroscience: The cerebral cortex (Harvard University Press).
+Nelson, S. (2002). Cortical microcircuits: diverse or canonical? Neuron 36, 19–27.
+Nevian, T., Larkum, M.E., Polsky, A., and Schiller, J. (2007). Properties of basal dendrites of layer 5 pyramidal neurons: a direct patch-clamp recording study. Nat. Neurosci. 10, 206–214.
+O’Connor, D.H., Huber, D., and Svoboda, K. (2009). Reverse engineering the mouse brain. Nature 461, 923–929.
+Oberlaender, M., de Kock, C.P.J., Bruno, R.M., Ramirez, A., Meyer, H.S., Dercksen, V.J., Helmstaedter, M., and Sakmann, B. (2012). Cell type-speciﬁc three-dimensional structure of thalamocortical circuits in a column of rat vibrissal cortex. Cereb. Cortex 22, 2375–2391.
+Ohana, O., and Sakmann, B. (1998). Transmitter release modulation in nerve terminals of rat neocortical pyramidal cells by intracellular calcium buffers. J. Physiol. 513, 135–148.
+Okun, M., and Lampl, I. (2008). Instantaneous correlation of excitation and inhibition during ongoing and sensory-evoked activities. Nat. Neurosci. 11, 535–537.
+Okun, M., Steinmetz, N.A., Cossell, L., Iacaruso, M.F., Ko, H., Bartho´ , P., Moore, T., Hofer, S.B., Mrsic-Flogel, T.D., Carandini, M., and Harris, K.D. (2015). Diverse coupling of neurons to populations in sensory cortex. Nature 521, 511–515.
+Ola´ h, S., Komlo´ si, G., Szabadics, J., Varga, C., To´ th, E., Barzo´ , P., and Tama´ s, G. (2007). Output of neurogliaform cells to various neuron types in the human and rat cerebral cortex. Front. Neural Circuits 1, 4.
+Packer, A.M., and Yuste, R. (2011). Dense, unspeciﬁc connectivity of neocortical parvalbumin-positive interneurons: a canonical microcircuit for inhibition? J. Neurosci. 31, 13260–13271.
+Perin, R., Berger, T.K., and Markram, H. (2011). A synaptic organizing principle for cortical neuronal groups. Proc. Natl. Acad. Sci. USA 108, 5419–5424.
+Perrenoud, Q., Rossier, J., Geoffroy, H., Vitalis, T., and Gallopin, T. (2013). Diversity of GABAergic interneurons in layer VIa and VIb of mouse barrel cortex. Cereb. Cortex 23, 423–441.
+Peters, A. (1987). Number of Neurons and Synapses in Primary Visual Cortex. In Cerebral Cortex, E.G. Jones and A. Peters, eds. (Springer), pp. 267–294.
+Peters, A., and Kaiserman-Abramof, I.R. (1970). The small pyramidal neuron of the rat cerebral cortex. The perikaryon, dendrites and spines. Am. J. Anat. 127, 321–355.
+
+490 Cell 163, 456–492, October 8, 2015 ª2015 Elsevier Inc.
+
+Ramaswamy, S., and Markram, H. (2015). Anatomy and physiology of the thick-tufted layer 5 pyramidal neuron. Front. Cell. Neurosci. 9, 233.
+Ramaswamy, S., Hill, S.L., King, J.G., Schu¨ rmann, F., Wang, Y., and Markram, H. (2012). Intrinsic morphological diversity of thick-tufted layer 5 pyramidal neurons ensures robust and invariant properties of in silico synaptic connections. J. Physiol. 590, 737–752.
+Ramaswamy, S., Courcol, J.-D., Abdellah, M., Adaszewski, S., Antille, N., Arsever, S., Guy Antoine, A.K., Bilgili, A., Brukau, Y., Chalimourda, A., et al. (2015). The neocortical Microcircuit collaboration portal: A resource for rat somatosensory cortex. Front. Neural Circuits 9, 44.
+Ramo´ n y Cajal, S. (1909, 1911). Histologie du Systeme Nerveux de l’Homme et des Vertebres. L. Azoulay, trans. Maloine, Paris.
+Reimann, M.W., Muller, E.B., Ramaswamy, S., and Markram, H. (2015). An algorithm to predict the connectome of neural microcircuits. Front. Comput. Neurosci. 9, 28.
+Renart, A., de la Rocha, J., Bartho, P., Hollender, L., Parga, N., Reyes, A., and Harris, K.D. (2010). The asynchronous state in cortical circuits. Science 327, 587–590.
+Reyes, A., and Sakmann, B. (1999). Developmental switch in the short-term modiﬁcation of unitary EPSPs evoked in layer 2/3 and layer 5 pyramidal neurons of rat neocortex. J. Neurosci. 19, 3827–3835.
+Reyes, A., Lujan, R., Rozov, A., Burnashev, N., Somogyi, P., and Sakmann, B. (1998). Target-cell-speciﬁc facilitation and depression in neocortical circuits. Nat. Neurosci. 1, 279–285.
+Reyes-Puerta, V., Sun, J.-J., Kim, S., Kilb, W., and Luhmann, H.J. (2015). Laminar and Columnar Structure of Sensory-Evoked Multineuronal Spike Sequences in Adult Rat Barrel Cortex In Vivo. Cereb. Cortex 25, 2001–2021.
+Rinaldi, T., Silberberg, G., and Markram, H. (2008). Hyperconnectivity of local neocortical microcircuitry induced by prenatal exposure to valproic acid. Cereb. Cortex 18, 763–770.
+Romand, S., Wang, Y., Toledo-Rodriguez, M., and Markram, H. (2011). Morphological development of thick-tufted layer v pyramidal cells in the rat somatosensory cortex. Front. Neuroanat. 5, 5.
+Rozov, A., Burnashev, N., Sakmann, B., and Neher, E. (2001). Transmitter release modulation by intracellular Ca2+ buffers in facilitating and depressing nerve terminals of pyramidal cells in layer 2/3 of the rat neocortex indicates a target cell-speciﬁc difference in presynaptic calcium dynamics. J. Physiol. 531, 807–826.
+Rudy, B., Fishell, G., Lee, S., and Hjerling-Lefﬂer, J. (2011). Three groups of interneurons account for nearly 100% of neocortical GABAergic neurons. Dev. Neurobiol. 71, 45–61.
+Sakata, S., and Harris, K.D. (2009). Laminar structure of spontaneous and sensory-evoked population activity in auditory cortex. Neuron 64, 404–418.
+Salinas, E., and Sejnowski, T.J. (2001). Correlated neuronal activity and the ﬂow of neural information. Nat. Rev. Neurosci. 2, 539–550.
+Sancesario, G., Pisani, A., D’Angelo, V., Calabresi, P., and Bernardi, G. (1998). Morphological and functional study of dwarf neurons in the rat striatum. Eur. J. Neurosci. 10, 3575–3583.
+Sanchez-Vives, M.V., and McCormick, D.A. (2000). Cellular and network mechanisms of rhythmic recurrent activity in neocortex. Nat. Neurosci. 3, 1027–1034.
+Santana, R., McGarry, L.M., Bielza, C., Larran˜ aga, P., and Yuste, R. (2013). Classiﬁcation of neocortical interneurons using afﬁnity propagation. Front. Neural Circuits 7, 185.
+Sarid, L., Bruno, R., Sakmann, B., Segev, I., and Feldmeyer, D. (2007). Modeling a layer 4-to-layer 2/3 module of a single column in rat neocortex: interweaving in vitro and in vivo experimental observations. Proc. Natl. Acad. Sci. USA 104, 16353–16358.
+Schroeder, C.E., and Foxe, J.J. (2002). The timing and laminar proﬁle of converging inputs to multisensory areas of the macaque neocortex. Brain Res. Cogn. Brain Res. 14, 187–198.
+
+Schu¨ rmann, F., Delalondre, F., Kumbhar, P.S., Biddiscombe, J., Gila, M., Tacchella, D., Curioni, A., Metzler, B., Morjan, P., Fenkes, J., et al. (2014). Rebasing I/O for Scientiﬁc Computing: Leveraging Storage Class Memory in an IBM BlueGene/Q Supercomputer (Leipzig, Germany: Springer International Publishing Switzerland), pp. 331–347.
+Shu, Y., Hasenstaub, A., and McCormick, D.A. (2003). Turning on and off recurrent balanced cortical activity. Nature 423, 288–293.
+Sigalas, C., Rigas, P., Tsakanikas, P., and Skaliora, I. (2015). High-Afﬁnity Nicotinic Receptors Modulate Spontaneous Cortical Up States In Vitro. J. Neurosci. 35, 11196–11208.
+Silberberg, G. (2008). Polysynaptic subcircuits in the neocortex: spatial and temporal diversity. Curr. Opin. Neurobiol. 18, 332–337.
+Silberberg, G., and Markram, H. (2007). Disynaptic inhibition between neocortical pyramidal cells mediated by Martinotti cells. Neuron 53, 735–746.
+Silberberg, G., Wu, C., and Markram, H. (2004). Synaptic dynamics control the timing of neuronal excitation in the activated neocortical microcircuit. J. Physiol. 556, 19–27.
+Silva, L.R., Amitai, Y., and Connors, B.W. (1991). Intrinsic oscillations of neocortex generated by layer 5 pyramidal neurons. Science 251, 432–435.
+Silver, R.A., Lubke, J., Sakmann, B., and Feldmeyer, D. (2003). High-probability uniquantal transmission at excitatory synapses in barrel cortex. Science 302, 1981–1984.
+Simkus, C.R.L., and Stricker, C. (2002). Properties of mEPSCs recorded in layer II neurones of rat barrel cortex. J. Physiol. 545, 509–520.
+Singer, W. (1993). Synchronization of cortical activity and its putative role in information processing and learning. Annu. Rev. Physiol. 55, 349–374.
+Somogyi, P., Freund, T.F., and Cowey, A. (1982). The axo-axonic interneuron in the cerebral cortex of the rat, cat and monkey. Neuroscience 7, 2577–2607.
+Somogyi, P., Tama´ s, G., Lujan, R., and Buhl, E.H. (1998). Salient features of synaptic organisation in the cerebral cortex. Brain Res. Brain Res. Rev. 26, 113–135.
+Sporns, O., and Ko¨ tter, R. (2004). Motifs in brain networks. PLoS Biol. 2, e369.
+Spruston, N. (2008). Pyramidal neurons: dendritic structure and synaptic integration. Nat. Rev. Neurosci. 9, 206–221.
+Stepanyants, A., Martinez, L.M., Ferecsko´ , A.S., and Kisva´ rday, Z.F. (2009). The fractions of short- and long-range connections in the visual cortex. Proc. Natl. Acad. Sci. USA 106, 3555–3560.
+Steriade, M., Nun˜ ez, A., and Amzica, F. (1993). A novel slow (< 1 Hz) oscillation of neocortical neurons in vivo: depolarizing and hyperpolarizing components. J. Neurosci. 13, 3252–3265.
+Svoboda, K., Denk, W., Kleinfeld, D., and Tank, D.W. (1997). In vivo dendritic calcium dynamics in neocortical pyramidal neurons. Nature 385, 161–165.
+Szabadics, J., Varga, C., Molna´ r, G., Ola´ h, S., Barzo´ , P., and Tama´ s, G. (2006). Excitatory effect of GABAergic axo-axonic cells in cortical microcircuits. Science 311, 233–235.
+Tama´ s, G., Somogyi, P., and Buhl, E.H. (1998). Differentially interconnected networks of GABAergic interneurons in the visual cortex of the cat. J. Neurosci. 18, 4255–4270.
+Tan, A.Y.Y., Chen, Y., Scholl, B., Seidemann, E., and Priebe, N.J. (2014). Sensory stimulation shifts visual cortex from synchronous to asynchronous states. Nature 509, 226–229.
+Thomson, A.M., and Bannister, A.P. (1998). Postsynaptic pyramidal target selection by descending layer III pyramidal axons: dual intracellular recordings and biocytin ﬁlling in slices of rat neocortex. Neuroscience 84, 669–683.
+Thomson, A.M., and Deuchars, J. (1997). Synaptic interactions in neocortical local circuits: dual intracellular recordings in vitro. Cereb. Cortex 7, 510–522.
+Thomson, A.M., and Lamy, C. (2007). Functional maps of neocortical local circuitry. Front. Neurosci 1, 19–42.
+Thomson, A.M., Deuchars, J., and West, D.C. (1993). Large, deep layer pyramid-pyramid single axon EPSPs in slices of rat motor cortex display paired pulse and frequency-dependent depression, mediated presynaptically
+
+Cell 163, 456–492, October 8, 2015 ª2015 Elsevier Inc. 491
+
+and self-facilitation, mediated postsynaptically. J. Neurophysiol. 70, 2354– 2369.
+Thomson, A.M., West, D.C., Hahn, J., and Deuchars, J. (1996). Single axon IPSPs elicited in pyramidal cells by three classes of interneurones in slices of rat neocortex. J. Physiol. 496, 81–102.
+Timofeev, I., Grenier, F., Bazhenov, M., Sejnowski, T.J., and Steriade, M. (2000). Origin of slow cortical oscillations in deafferented cortical slabs. Cereb. Cortex 10, 1185–1199.
+Toledo-Rodriguez, M., Blumenfeld, B., Wu, C., Luo, J., Attali, B., Goodman, P., and Markram, H. (2004). Correlation maps allow neuronal electrical properties to be predicted from single-cell gene expression proﬁles in rat neocortex. Cereb. Cortex 14, 1310–1327.
+Toledo-Rodriguez, M., Goodman, P., Illic, M., Wu, C., and Markram, H. (2005). Neuropeptide and calcium-binding protein gene expression proﬁles predict neuronal anatomical type in the juvenile rat. J. Physiol. 567, 401–413.
+Tsodyks, M.V., and Markram, H. (1997). The neural code between neocortical pyramidal neurons depends on neurotransmitter release probability. Proc. Natl. Acad. Sci. USA 94, 719–723.
+van Vreeswijk, C., and Sompolinsky, H. (1996). Chaos in neuronal networks with balanced excitatory and inhibitory activity. Science 274, 1724–1726.
+Wang, Z., and McCormick, D.A. (1993). Control of ﬁring mode of corticotectal and corticopontine layer V burst-generating neurons by norepinephrine, acetylcholine, and 1S,3R-ACPD. J. Neurosci. 13, 2199–2216.
+Wang, Y., Gupta, A., Toledo-Rodriguez, M., Wu, C.Z., and Markram, H. (2002). Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex. Cereb. Cortex 12, 395–410.
+Wang, Y., Toledo-Rodriguez, M., Gupta, A., Wu, C., Silberberg, G., Luo, J., and Markram, H. (2004). Anatomical, physiological and molecular properties of Martinotti cells in the somatosensory cortex of the juvenile rat. J. Physiol. 561, 65–90.
+Wang, Y., Markram, H., Goodman, P.H., Berger, T.K., Ma, J., and GoldmanRakic, P.S. (2006). Heterogeneity in the pyramidal network of the medial prefrontal cortex. Nat. Neurosci. 9, 534–542.
+
+West, M.J., and Gundersen, H.J. (1990). Unbiased stereological estimation of the number of neurons in the human hippocampus. J. Comp. Neurol. 296, 1–22.
+Westerink, B.H.C., Hofsteede, H.M., Damsma, G., and de Vries, J.B. (1988). The signiﬁcance of extracellular calcium for the release of dopamine, acetylcholine and amino acids in conscious rats, evaluated by brain microdialysis. Naunyn Schmiedebergs Arch. Pharmacol. 337, 373–378.
+Wickersham, I.R., Finke, S., Conzelmann, K.-K., and Callaway, E.M. (2007). Retrograde neuronal tracing with a deletion-mutant rabies virus. Nat. Methods 4, 47–49.
+Williams, S.R., and Mitchell, S.J. (2008). Direct measurement of somatic voltage clamp errors in central neurons. Nat. Neurosci. 11, 790–798.
+Williams, R.W., and Rakic, P. (1988). Three-dimensional counting: an accurate and direct method to estimate numbers of cells in sectioned material. J. Comp. Neurol. 278, 344–352.
+Wilson, N.R., Runyan, C.A., Wang, F.L., and Sur, M. (2012). Division and subtraction by distinct cortical inhibitory networks in vivo. Nature 488, 343–348.
+Wimmer, V.C., Bruno, R.M., de Kock, C.P.J., Kuner, T., and Sakmann, B. (2010). Dimensions of a projection column and architecture of VPM and POm axons in rat vibrissal cortex. Cereb. Cortex 20, 2265–2276.
+Yoshimura, Y., Kimura, F., and Tsumoto, T. (1999). Estimation of single channel conductance underlying synaptic transmission between pyramidal cells in the visual cortex. Neuroscience 88, 347–352.
+Yuste, R. (2005). Origin and classiﬁcation of neocortical interneurons. Neuron 48, 524–527.
+Yuste, R., Tank, D.W., and Kleinfeld, D. (1997). Functional study of the rat cortical microcircuitry with voltage-sensitive dye imaging of neocortical slices. Cereb. Cortex 7, 546–558.
+Zagha, E., and McCormick, D.A. (2014). Neural control of brain state. Curr. Opin. Neurobiol. 29, 178–186.
+Zhu, J.J. (2000). Maturation of layer 5 neocortical pyramidal neurons: amplifying salient layer 1 and layer 4 inputs by Ca2+ action potentials in adult rat tuft dendrites. J. Physiol. 526, 571–587.
+
+492 Cell 163, 456–492, October 8, 2015 ª2015 Elsevier Inc.
+
+
