@@ -62,5 +62,44 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "ead4056e-fa54-11e5-b687-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "bca92aa2-fa54-11e5-b687-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "location": 11122,
+            "text": "Measurements\nof these responses revealed that input resistance\n(55 \u0003 19M\u0002; n \u0004 94), resting membrane potential (\u000560 \u0003 4\nmV; n \u0004 67), and spike amplitude (64 \u0003 7mV; n \u0004 80) ",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1152/jn.01163.2002",
+        "tags": [
+            {
+                "id": "NIFORG:nlx_organ_20081201",
+                "name": "Long Evans Rat"
+            },
+            {
+                "id": "UBERON:0002983",
+                "name": "lateral posterior nucleus of thalamus"
+            },
+            {
+                "id": "NIFORG:nlx_organ_20081201",
+                "name": "Long Evans Rat"
+            },
+            {
+                "id": "UBERON:0002983",
+                "name": "lateral posterior nucleus of thalamus"
+            }
+        ],
+        "version": "1"
     }
 ]
