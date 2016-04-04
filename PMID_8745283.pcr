@@ -364,10 +364,6 @@
                 "name": "Thalamus interneuron small"
             },
             {
-                "id": "NIFCELL:nifext_41",
-                "name": "Thalamocortical cell"
-            },
-            {
                 "id": "NIFORG:birnlex_254",
                 "name": "Wistar Rat"
             },
@@ -382,10 +378,6 @@
             {
                 "id": "NIFCELL:nifext_46",
                 "name": "Thalamus interneuron small"
-            },
-            {
-                "id": "NIFCELL:nifext_41",
-                "name": "Thalamocortical cell"
             }
         ],
         "version": "1"
