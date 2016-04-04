@@ -67,8 +67,12 @@
                 "name": "Rat"
             },
             {
-                "id": "NIFGA:birnlex_1670",
-                "name": "Medial geniculate body"
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFGA:birnlex_1608",
+                "name": "Dorsal nucleus of medial geniculate body"
             }
         ],
         "version": "1"
