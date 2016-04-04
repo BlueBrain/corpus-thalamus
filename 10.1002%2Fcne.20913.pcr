@@ -209,5 +209,31 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "a2d3ee50-fa4a-11e5-b687-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "There appear to be a mistake in the text, with input resistance specified on the mOhm (milli Ohm) instead of in MOhm (mega Ohm). We annotated the parameter as being in MOhm.",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 27133,
+            "text": "as were their input\nresistances (82.6 \u0005 49.6 m\u0003 vs. 55.2 \u0005 31 m\u0003,",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1002/cne.20913",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
+        "version": "1"
     }
 ]
