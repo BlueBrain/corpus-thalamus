@@ -4,7 +4,7 @@
         "authors": [
             "oreilly"
         ],
-        "comment": "Note: We did not tag the paralaminar nucleus in this annotation because we want the parameter defined to be unambiguously associated with the MGB. We created another annotation (fb962780-fa48-11e5-b687-64006a4c56ef) specifying the parameters associated with the paralaminar nucleus (and not the MGB).",
+        "comment": "Note: We did not tag the paralaminar nucleus in this annotation because we wanted the parameter defined here to be unambiguously associated with the MGB. We created another annotation (fb962780-fa48-11e5-b687-64006a4c56ef) specifying the parameters associated with the paralaminar nucleus (and not the MGB).",
         "experimentProperties": [],
         "localizer": {
             "location": 25663,
