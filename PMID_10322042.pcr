@@ -303,6 +303,10 @@
             {
                 "id": "NIFCELL:nifext_41",
                 "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFGA:birnlex_845",
+                "name": "Ventral nucleus of medial geniculate body"
             }
         ],
         "version": "1"
