@@ -5,7 +5,12 @@
             "oreilly"
         ],
         "comment": "",
-        "experimentProperties": [],
+        "experimentProperties": [
+            {
+                "instanceId": "bca92aa2-fa54-11e5-b687-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
         "localizer": {
             "location": 5239,
             "text": "from postnatal day 18\u201347",
@@ -46,7 +51,16 @@
             }
         ],
         "pubId": "10.1152/jn.01163.2002",
-        "tags": [],
+        "tags": [
+            {
+                "id": "NIFORG:nlx_organ_20081201",
+                "name": "Long Evans Rat"
+            },
+            {
+                "id": "UBERON:0002983",
+                "name": "lateral posterior nucleus of thalamus"
+            }
+        ],
         "version": "1"
     }
 ]
