@@ -1,0 +1,2221 @@
+4398
+
+Journal of Physiology (1996), 490.1, pp.129-147
+
+Electrophysiological and morphological properties of
+interneurones in the rat dorsal lateral geniculate nucleus
+in vitro
+Stephen R. Williams, Jonathan P. Turner, Caroline M. Anderson
+and Vincenzo Crunelli
+Department of Physiology, University of Wales
+Cardiff CFJ ISS, UK
+1.
+
+2.
+
+3.
+
+4.
+
+5.
+
+6.
+
+7.
+
+8.
+
+Cardiff, Museum Avenue,
+
+Intracellular recordings were made from putative interneurones (n = 24) and thalamocortical
+(TC) projection neurones (n = 45) in slice preparations of the rat dorsal lateral geniculate
+nucleus (dLGN) in order to compare the electrophysiological properties of these neuronal
+types.
+Intracellular injection of biocytin to electrophysiologically identified neurones (n = 34)
+revealed the morphology of putative interneurones (n = 4) to be similar to class B and that
+of TC neurones (n = 30) to be similar to class A Golgi-impregnated neurones.
+Interneurones had resting membrane potentials (-52 mV) relatively positive to those of TC
+neurones (-63 mV), shorter time constants (36-8 and 58-2 ms, respectively), but similar
+steady-state input resistances (164 and 180 MQ, respectively). Steady-state voltage-current
+relationships were nearly linear in interneurones, but highly non-linear in TC neurones.
+The structure of action potential firing evoked at the break of hyperpolarizing voltage
+transients was dependent upon neuronal type. Interneurones fired a single action potential
+or a burst of action potentials with a maximum frequency of < 130 Hz, whilst TC neurones
+fired a high frequency burst with a minimum frequency of >250 Hz. In addition, welldefined burst firing of action potentials in response to depolarizing voltage excursions, from
+membrane potentials negative to -65 mV, could be evoked in TC neurones, but not in
+interneurones.
+The directly evoked action potentials of interneurones were characterized by an initial slow
+pre-potential preceding the fast upstroke of the action potential. The amplitude and width
+of interneurones' action potentials were smaller than those of TC neurones and the
+amplitude and duration of the single action potential after-hyperpolarization were greater
+in interneurones. Both interneurones and TC neurones fired action potentials repetitively in
+response to suprathreshold voltage excursions, with interneurones demonstrating a greater
+degree of spike-frequency adaptation. Following a train of action potentials, interneurones
+and TC neurones generated a slow after-hyperpolarizing potential: in interneurones but not
+TC neurones this potential was followed by a slow depolarizing potential.
+An intrinsic, subthreshold membrane potential oscillatory activity with a mean frequency
+of -8 Hz was observed in interneurones.
+Electrical stimulation of the optic tract evoked in interneurones apparently pure EPSPs,
+pure IPSPs or a mixture of EPSPs and IPSPs. EPSPs were found to be biphasic and
+mediated by the activation of non-N-methyl-D-aspartate (NMDA) and NMDA excitatory
+amino acid receptors. IPSPs and the response to the iontophoretic application of GABA
+were found to reverse between -65 and -70 mV. The application of GABAB receptor
+agonists failed to affect the membrane properties of six of seven interneurones tested. In
+addition spontaneous EPSPs and IPSPs were recorded in interneurones.
+These results demonstrate that the electrophysiological properties of putative interneurones
+are distinct from those of TC neurones of the rat dLGN. The implications of these findings
+for the control of visual responsiveness of TC neurones are discussed.
+
+129
+
+S. R. Williams and others
+
+130
+The receptive field properties
+projection neurones of the dorsal
+(dLGN) and the transfer ratio
+
+of thalamocortical
+
+lateral geniculate
+of retinal
+
+(TC)
+
+nucleus
+
+input
+
+to
+
+TC
+
+output is known to be modulated by inhibitory
+processes (Sillito & Kemp, 1983; Berardi & Morrone, 1984;
+Heggelund & Hartveit, 1990; Norton & Godwin, 1992). The
+basis of such inhibition is thought to be the generation of
+
+neurone
+
+GABA-mediated inhibitory postsynaptic potentials (IPSPs)
+evoked in a feed-forward manner through the activation
+dLGN interneurones (Lindstrom, 1982; Crunelli,
+Jassik-Gerschenfeld, Leresche & Pirchio 1988;
+
+of
+
+Haby,
+
+Soltesz,
+
+Lightowler, Leresche & Crunelli, 1989) and in a feed-back
+manner through peri-geniculate nucleus (PGN) neurones
+(Hale, Sefton, Baur & Cottee, 1982; Lindstrom,
+driven by the output of TC neurones (Ahlsen & Lindstrom,
+1982). However, the precise contribution of these sources
+the inhibition of TC neurones is poorly understood (but
+Jones & Sillito (1994) for the involvement of the PGN).
+1982),
+
+to
+
+see
+
+The direct retinal input to interneurones
+
+(Hamos,
+
+Van Horn,
+
+Raczkowski, Uhlrich & Sherman, 1985; Humphrey
+Weller, 1988), Ihe monosynaptic axonal output connections
+of interneurones to sites proximal to the soma
+neurones (Montero, 1987) and the possible involvement
+dendro-dendritic inhibition provided by interneurones
+(Hamos et al. 1985) suggest that interneurones are ideally
+placed for the modulation of geniculo-cortical information
+transfer. Indeed in the rat and cat dLGN, IPSPs evoked
+
+&
+
+of
+
+TC
+
+of
+
+by
+
+interneurones have been shown to inhibit the generation
+action potentials in TC neurones (Crunelli et at.
+Soltesz et al. 1989). Although data are available concerning
+the membrane properties of cat dLGN interneurones
+(McCormick & Pape, 1988) and dissociated rat interneurones
+(Pape, Budd, Mager & Kisvardy, 1994), little is
+about the mode and pattern of action potential generation,
+the nature of the excitatory input to, or the presence
+nature of the inhibition of, these neurones. These data
+critically important in an examination of the
+
+of
+
+1988;
+
+known
+
+and
+are
+
+role
+
+interneurones in the modulation
+neurone output.
+
+Using an in vitro preparation
+that interneurones may be
+
+of the rat
+
+pattern
+
+dLGN,
+
+intracellular
+
+properties, firing
+
+of
+
+of
+
+TC
+
+we report
+
+electrophysiologically
+
+anatomically identified following
+
+biocytin. The membrane
+
+of the
+
+and
+
+injection
+
+pattern
+
+of
+
+and
+
+synaptic responsiveness of interneurones revealed by
+experiments suggest a new level of physiological complexity
+within the circuitry of the dLGN. Preliminary reports
+some of the results presented here have been
+(Williams, Turner & Crunelli, 1994; Williams, Anderson
+Crunelli, 1995a).
+
+these
+
+of
+
+published
+&
+
+METHODS
+Slicing and recording
+
+procedures
+
+The preparation and maintenance
+were
+
+similar
+
+to
+
+those
+
+Leresche & Pirchio,
+
+of brain slices
+
+described
+
+1987).
+
+Male
+
+previously
+
+Wistar rats
+
+of the
+
+rat
+
+dLGN
+
+(Crunelli,
+(150-200 g)
+
+Kelly,
+were
+
+J Physiol. 490.1
+
+decapitated and a block of tissue containing the dLGN was
+separated from the rest of the brain by two cuts made parallel to
+the plane of the optic tract. The tissue block was stuck to the stage
+of a Vibroslice (Campden Instruments), bathed in a continuously
+aerated (95% 02, 5% C02) cold (< 1 °C) medium containing (mM):
+NaCl, 134; NaHCO3, 16; KCI, 5; KH2PO4, 1P25; MgSO4, 5; CaCl2,
+2; and glucose, 10; and were sliced at a thickness of 400-500 tm.
+The slices were transferred to a storage bath, submerged in the
+same medium at room temperature, where they remained viable
+for transfer to the recording chamber. A single brain slice was then
+transferred to the recording chamber of an interface-type bath,
+and perfused with the same medium, warmed to a temperature of
+35 + 1
+for at least 30 min. Thirty minutes before recording
+commenced the perfusion medium was replaced with one of
+similar composition, but containing 2 mm KCl and 1 mm MgSO4.
+Intracellular sharp electrode recordings were made with glass
+microelecetrodes (GC 120F, Clark Electromedical Instruments,
+Pangbourne, Reading, UK) filled with 1 M potassium acetate or
+2% biocytin dissolved in 1 M potassium acetate (resistance,
+80-120 M2). Potentials were recorded with an Axoclamp-2A
+amplifier (Axon Instruments), configured in bridge-balance mode,
+and stored on a Biologic DAT recorder (Intracel, Royston, Herts,
+UK). Data were subsequently filtered (DC to 1-30 kHz) and
+digitally sampled. Results were analysed with a microcomputer
+running pCLAMP software (Axon Instruments). Postsynaptic
+potentials were evoked with the use of a bipolar tungsten electrode
+placed amongst, and parallel to, the fibres of the optic tract. Using
+low frequency (0 05-0 1 Hz) electrical stimulation (20-50 ,us,
+1-20 V) excitatory postsynaptic potentials (EPSPs) and/or IPSPs
+were generated in approximately 50% of TC neurones tested.
+Numerical results are expressed in the text as means +S.E.M. and
+statistical significance was tested (a =5%) using Student's t test.
+An independently mounted, multibarrelled micropipette (4-6 ,um
+tip diameter) was used to eject iontophoretically GABA (1M,
+pH 5), while a barrel containing 1M NaCl was used for automatic
+current balancing. Retaining current was applied to the GABAcontaining barrel when necessary. All other drugs were dissolved
+in and applied via the perfusion medium. Drugs were obtained
+from the following sources: 6-cyano-7-nitroquinoxaline-2,3-dione
+(CNQX) and DL-2-amino-5-phosphonovaleric acid (DL-AP5),
+Tocris Cookson, Bristol, UK; GABA, (±)-baclofen and y-hydroxybutyric acid, Sigma; 1-(4-amino-phenyl)-4-methyl-7,8-methylenedioxy-5H-2,3-benzodiazepine (GYKI 52466) was kindly donated
+by Dr Istvan Tarnawa, Institute for Drug Research, Budapest,
+Hungary.
+Dye injection and anatomical procedures
+Intracellular dye-filling of neurones with biocytin was
+accomplished without the need of an ejection protocol, since
+preliminary experiments had shown that recordings of duration
+greater than 10 min allowed the subsequent recovery of well-filled
+neurones. When using biocytin-filled electrodes, we typically
+recorded from a maximum of three neurones in each slice and the
+approximate location of neurones was marked on drawings of
+brain slices. At the end of recording, the brain slice was
+maintained for at least1 h, before transfer to a fixative solution
+(4% paraformaldehyde in 0-1M phosphate-buffered saline (PBS),
+pH 7 4). Slices were maintained in the fixative for 8-14 h and then
+transferred to 0-1M PBS, embedded in agar and re-sectioned at
+50/um. To quench background peroxidase activity and
+permeabilize the tissue, sections were incubated with 0 3% H202
+in PBS with 0 4% Triton X-100 (Sigma) for 30 min, rinsed to
+clear the H202 and then incubated for a further 2 h with an
+
+°C,
+
+Interneurones of the dLGN
+
+J Physiol. 490.1
+
+avidin-biotin-horseradish peroxidase complex (Elite ABC kit,
+Vector Labs, Peterborough, UK) in 0 4% Triton X-100 PBS. This
+step was followed by a 5-10 min wash in 1% cobalt chloride
+(BDH, Lutterworth, UK) in 0-02 M Tris buffer (Sigma), in order to
+intensify the subsequent reaction and produce a blue/black
+product. To visualize the filled neurones, sections were reacted
+with 0-1 M diaminobenzidine tetrahydrochloride (Sigma) in 0-1 M
+Tris buffer (pH 7f2 at 25 °C) and 0'02% H202. Sections were then
+rinsed in PBS and arranged on slides using a gelatine mounting
+solution. After air-drying the mounted sections were dehydrated
+in 10% incremental concentrations of alcohol (50-100%), defatted
+in xylene and mounted in DPX (Aldrich, Gillingham, UK).
+The morphology of neurones was examined using a light
+microscope and measurements of somal and dendritic area were
+made from camera lucida reconstructions made at x 1300 and
+x 200, respectively. Somal and dendritic areas were calculated
+according to the methods of Spreafico, Schmechel & Rustioni
+(1983) where the area (A) is calculated from the formula A = 7rab,
+where a and b are the minimum and maximum somal/dendritic
+radii. This method assumes the somal/dendritic fields to be
+elliptical when a and b are different or more circular as a
+approaches b. Final, illustrated camera lucida reconstructions were
+made at a magnification of x 625 or x 800. Measurements were not
+corrected for tissue shrinkage.
+
+RESULTS
+Previous morphological evidence has indicated that
+neurones of the rat dLGN may be divided into two groups
+termed class A and B (Grossman, Liberman & Webster,
+1973; Gabbot, Somogyi, Stewart & Hamori, 1986). Class B
+neurones are known to be both GABA positive and express
+glutamic acid decarboxylase immunoreactivity and so have
+been suggested to be local circuit inhibitory interneurones
+(Ohara, Liberman, Hunt & Wu, 1983; Gabbot et al. 1986),
+whilst class A neurones are suggested to be TC neurones
+(Grossman et al. 1973; Ohara et al. 1983; Gabbot et al.
+1986). During the course of our evolving study of the
+electrophysiological properties of rat dLGN neurones we
+have recorded two populations of neurones, with distinct
+electrophysiological properties. A previous study utilizing
+combined electrophysiological and morphological analysis
+(Crunelli et al. 1987) has described the properties of rat
+dLGN neurones that were morphologically similar to class A
+neurones and exhibited electrophysiological properties
+similar to morphologically identified TC neurones from the
+thalamus of other species (Jahnsen & Llina's, 1984;
+McCormick & Pape, 1988). Isolated recordings of presumed
+interneurones of the rat dLGN (Leresche, Lightowler,
+Soltesz, Jassik-Gershenfeld & Crunelli, 1991) have indicated
+that their membrane properties are similar to those of
+morphologically identified interneurones of the cat dLGN
+(McCormick & Pape, 1988). We utilized the classification
+system of McCormick & Pape (1988) to identify interneurones, and from our observations have extended it to
+produce a set of criteria that allowed the differentiation
+between the electrophysiological properties of interneurones
+and TC neurones. The distinguishing properties were: (i) the
+shape of steady-state voltage-current relationships, (ii) the
+
+131
+
+shape of single action potentials and their fast after-hyperpolarizing potentials, (iii) the pattern of tonic action
+potential firing, (iv) the presence of a post-train slow afterdepolarizing potential, (v) the structure and frequency of
+action potential firing evoked at the break of hyperpolarizing voltage excursions and (vi) the presence of
+-8 Hz subthreshold oscillatory activity. These criteria
+together with correlated morphological analysis have
+allowed us to identify unambiguously interneurones and
+TC neurones. The three neurones that appeared to have
+electrophysiological properties transitional between these
+two groups were excluded from our analysis. Our results,
+therefore, describe the comparative electrophysiological and
+morphological properties of interneurones and TC
+neurones; their distinct properties are described below and
+summarized in Fig. 1.
+The experiments described in this paper are based on
+recordings made from sixty-nine neurones: of these twentyfour were physiologically classified as putative interneurones
+and forty-five as putative TC neurones. These figures do not
+faithfully reflect the ratio of TC neurone to interneurone
+recorded, as putative interneurones were collected during
+our evolving studies of rat dLGN neurones recorded under
+identical conditions to those reported here. The results
+obtained from the other TC neurones of this data base have
+appeared elsewhere (Turner, Leresche, Guyon, Soltesz &
+Crunelli, 1994; Williams, Turner & Crunelli, 1995). Taken
+together, the percentage of putative interneurones of the
+total number of rat dLGN neurones reported is 16%.
+
+Morphological properties
+The intracellular injection of biocytin allowed the
+examination of neuronal morphology, in thirty-four wellfilled of forty injected neurones. Of these, four were
+classified as putative interneurones and thirty as presumed
+TC neurones by their morphological properties (Grossman,
+Liberman & Webster, 1973). Occasionally putative interneurones and TC neurones were recorded from the same
+slice preparation (Fig. 1), allowing a direct comparison
+between neurones of the same animal. Putative interneurones had small fusiform somata with a mean area of
+1702 + 15-7 #sm2 (n = 4). Each neurone had two principle
+dendrites originating from opposite poles of the soma, so
+that the neurones had a bipolar shape that was oriented in
+the dorso-ventral plane (Figs 1 and 2). In one case, two
+additional lower calibre primary dendrites emerged from
+the cell body, although the low calibre of these dendrites did
+not detract from the predominant bipolar appearance of the
+neurone. Primary dendrites branched dichotomously; these
+and higher order dendrites possessed short formations that
+terminated in grape-like structures (Figs 1 and 2). Primary
+and daughter dendritic branches gave rise to fine calibre,
+varicose branches that bifurcated and often ended in
+beaded formations (Figs 1 and 2). The total dendritic field
+area was 0-129 + 0-027 mm2; however, since the secondary
+dendrites of an interneurone (Fig. 2) exited from the tissue
+
+S. R. WillioaMts and others
+
+132
+
+sections, this parameter underestimates the total
+dendritic field area. We were not able to identify
+unambiguously the axons of putative interneurones: since
+some dendrites exhibited an axon-like appearance, it may
+be possible that such neurites represent the axonal
+projections of interneurones. Although one injection of
+biocytin to a presumed interneurone failed to reveal its full
+morphology, we were able to visualize a primary dendritic
+tree that was similar to those of the other interneurones
+(not illustrated).
+Presumed TC neurones were found to have more spherical
+somata (Figs 1 and 2), with an average area of
+270-9 + 12-0 ,um2 (n = 30), which was significantly greater
+than that of putative interneurones (P < 0 05, T= 2 97).
+A variable number of primary dendrites (3 to 10;
+mean = 6 0), which typically branched dichotomously,
+emerged from somata and gave rise to daughter dendrites
+that further branched to form 2nd to 7th order terminal
+dendrites (mean = 5, n = 88). The calibre of terminal
+dendrites did not appreciably differ from those of
+
+J Physiol. 490.1
+
+secondary dendrites. In all cases dendrites were radially
+oriented, with a mean dendritic area of 0 101 + 0 07 mm2
+(n = 30). The primary dendrites of presumed TC neurones
+did not carry any specializations, while the secondary and
+higher order branches possessed stud-like appendages or
+spines (Figs 1 and 2). Presumed axons, identified by their
+low calibre and branchless appearance, were filled in -50 %
+of TC neurones (Figs 1 and 2). The course of the axons
+could be traced for some neurones; the axons were found to
+project towards the dorso-medial quadrant of the brain
+slice, where the nucleus reticularis thalami (NRT) would be
+located if included in the brain slice. We were not able to
+identify axonal branching or terminal arborization of axons
+within the dLGN.
+The electrophysiological properties of the neurones that
+were not filled with biocytin were found to be similar to
+those of filled interneurones or TC neurones, indicating
+that these electrophysiological features represent an
+unequivocal method for the identification of interneurones
+and TC neurones. We have, therefore, omitted the prefix
+
+Class A
+
+I 20 mV
+
+-60 mV
+I 0-4 nA
+
+-1
+
+las~
+~
+~ ~ ~~~~~~~~~ls
+
+1Class B
+
+-54 mV
+
+200 ms
+
+t1
+Figure 1. Electrophysiological and morphological features of an interneurone and two TC
+neurones recorded from the same slice preparation
+Intracellular voltage records from a class A TC neurone demonstrates the resting potential, the
+rectification properties and the high frequency rebound firing driven by a low threshold Ca2+ potential,
+typical of this class of neurone. In comparison, the recording of a class B interneurone indicates the
+relatively positive resting potential, the minimal rectification and the weak rebound firing driven by a
+small amplitude, transient depolarizing potential. Traces beneath voltage records represent current
+injection. The morphology of these neurones is shown in camera lucida reconstructions (x 625). The small
+oblique arrow indicates the point where the axonal projection turns towards the NRT. In voltage records
+action potential amplitude has been truncated for clarity.
+
+B
+
+J Physiol.490.1
+
+133
+
+Interneurones cgf the dLGN
+
+presumed or putative from a description of
+throughout the remaining sections of the paper.
+
+neurones exhibited
+prominent rectification in both the depolarized and hyperpolarized direction. However, in 21% of interneurones a
+depolarizing sag was apparent during the course of large
+amplitude hyperpolarizing (>25 mV) voltage excursions;
+the degree of this time-dependent rectification was, in all
+cases, not as great as that for TC neurones (Fig. 2A and C).
+The construction of voltage-current relationships in interneurones at holding potentials separated by 10 mV,
+achieved by tonic injection of current through the
+recording electrode, indicated the presence of steady
+rectification. These procedures yielded a decrease in input
+resistance of 33 + 10 MQ per 10 mV negative shift in the
+holding potential (n = 3). The time constant of
+interneurones (36-8 + 3-8 ms, n = 24), calculated by the
+fitting of a mono-exponential function to small (< 10 mV)
+
+current relationships, whilst those of TC
+
+neurones
+
+Membrane properties
+The resting potential of interneurones (-52 + 1 mV,
+n = 24) was found to be significantly (P < 0 05, T = 9 09)
+more positive than that of TC neurones (-63 + 1 mV,
+n = 30). Of our sample, 13% of interneurones were found
+to fire action potentials spontaneously, when no current
+was injected through the recording electrode. The input
+resistance of interneurones (164 + 15 MQ, n = 13),
+calculated by taking the maximal slope of steady-state
+voltage-current relationships, was not significantly
+different (P > 0 05, T = 0 74) from that of TC neurones
+(180 + 15 MQ, n = 19). The shape of these relationships
+was, however, found to differ between the two groups (Fig.
+2): interneurones demonstrated relatively linear voltageA
+
+B
+
+Interneurone
+
+V (mV) r -40
+I
+
+. _
+
+~~~~~2 mV
+.~~~0
+
+(n A)
+
+-0.2
+
+0.1
+
+.
+
+-01
+
+_ms
+
+-80
+
+~~~~
+~~50,um
+
+i
+
+.*
+
+>
+
+--100
+
+D
+
+C
+neurone
+
+TO
+
+V (mV) --40
+
+L.e..@
+S.'s'
+
+I (nA)
+
+-0 4
+
+-022
+
+0.6 nA
+
+02
+
+:1
+--80
+
+.*
+
+o.
+
+400
+
+ms
+
+--100
+
+Figure 2. Voltage-current relationships of
+
+a
+
+50 um
+
+morphologically identified interneurone and TC
+
+neurone
+
+Families of voltage and current records (single traces) used for the construction of voltage-current
+relationships illustrated in the centre of the figure; the holding potential was set to -60 mV in both
+neurones by the tonic passage of current through the recording electrode. The shape of these relationships,
+measured at steady state for the interneurone (A) and the TC neurone (C) are clearly different, with the
+TC neurone exhibiting prominant rectification in the depolarized and hyperpolarized direction. The
+morphology of these neurones is shown in the camera lucida reconstructions (x 800) (B and D). The small
+oblique arrow in D indicates the axon of the TC neurone. The amplitude of action potentials has been
+truncated for clarity.
+
+134
+
+J Phy8iol. 490.1
+
+S. R. Williams and others
+
+hyperpolarizing voltage excursions, was found to be
+significantly (P < 0 05, T = 2 59) shorter than that of TC
+neurones (58'2 + 6-9 ms, n = 30).
+
+Single action potential properties
+The properties of action potentials of interneurones and
+TC neurones were found to be different. Action potentials
+were evoked by the passage of positive current through
+the recording electrode for between 0-2 and 1-5 s; in each
+neurone action potentials of the greatest and smallest
+amplitude were measured. The amplitude of action
+potentials generated by TC neurones (60-5 + 1-3 mV,
+n = 30), when measured from firing threshold, was found
+to be significantly (P < 0 05, T = 3 296) greater than
+that of interneurones (53-6 + 1P7 mV, n = 30) (Fig. 3A).
+The duration of action potentials of TC neurones
+(0 54 + 0-02 ms, n = 30) was significantly (P < 0 05,
+T = 2 356) broader than those of interneurones
+(0-48 + 0-02, n = 30) when measured at half-height, but
+not when measured at their base (1P0 + 0 03, n = 30, and
+0 93 + 0 04, n= 30, respectively; P> 0 05, T=1P627).
+The shape of the rising phase of the action potentials and
+
+A
+
+Interneurone
+
+the fast after-hyperpolarizing potential (fAHP) differed
+between the two groups. The fast rising phase of action
+potentials generated by interneurones was preceded by a
+slow ramp pre-potential (Fig. 3B) that was not present in
+TC neurones. Single action potentials were followed by a
+fAHP; the amplitude (14-95 + 0 57 mV, n = 15) and
+duration (73-83 + 9-33 ms, n = 14) of these potentials in
+interneurones were significantly greater (P < 0 05,
+T= 6-231, and P< 0 05, T= 3 379, respectively) than
+those of TC neurones (10-53 + 0X42 mV, n = 15 and
+40X27 + 3 4 ms, n = 14, respectively; Fig. 3A and B).
+Repetitive firing properties
+The action potential firing pattern of interneurones and TC
+neurones were found to be voltage dependent (Fig. 4A and
+B). In response to positive current steps imposed from
+holding potentials positive to -60 mV, both groups of
+neurones demonstrated a tonic firing pattern (Figs 4 and 5).
+Analysis of the structure of the firing pattern of
+interneurones revealed the presence of a slow and
+pronounced spike-frequency adaptation (Fig. 5A), while
+the spike-frequency adaptation of TC neurones (Fig. 5B)
+Overlay
+
+TC neurone
+
+1-5 ms
+
+B
+
+Interneurone
+
+TC neurone
+
+I 20 mV
+
+20 ms
+
+Figure 3. The shape, amplitude and after-hyperpolarization of single action potentials of
+interneurones are different from those of TC neurones
+A, the amplitude and width of interneuronal action potential were found to be smaller than those of TC
+neurones. Action potential amplitude was measured from firing threshold and width at half-height. B, the
+amplitude and duration of interneuronal after-hyperpolarizing potentials were greater than those of TC
+neurones. The rising phase of interneuronal action potentials was characterized by a slow pre-potential
+(B), which is shown at a faster time base in A. Note that the records in A and B are drawn from different
+neurones.
+
+Interneurones of the dLGN
+
+J Physiol. 490.1
+
+occurred more rapidly, as indicated by plots of the
+instantaneous firing frequency against injected current
+(Fig. 5A and B). The kinetics of spike-frequency adaptation
+estimated from these relationships indicates that TC
+neurones have reached a steady state at the 5th interspike
+interval (ISI), whilst the firing frequency of interneurones
+is still adapting. As a percentage, the reduction in the
+firing frequency between the 1st and 5th ISI was 41 % for
+TC neurones (n = 5) compared with 21 % for interneurones
+(n = 5). The instantaneous firing frequency of interneurones and TC neurones at the 1st, 5th and 30th ISIs
+was found to be linearly related to the amplitude of the
+injected current (Fig. 5); at the 1st ISI, TC neurones
+responded at a frequency of 53-9 + 12-2 Hz per 0 1 nA
+(n = 5), whilst interneurones fired with a frequency of
+42-1 + 8-4 Hz per 0 1 nA (n = 5). A considerable degree of
+variation was found in the firing frequency of TC neurones
+when measured at the first ISI (compare upper and lower
+graphs in Fig. 5B), a result that reflects a variation in the
+degree of rectification in the depolarized direction observed
+between TO neurones (not illustrated).
+A
+
+135
+
+The firing patterns of interneurones and TC neurones were
+transformed when evoked from more negative holding
+potentials. The degree of spike-frequency adaptation of
+interneurones was found to be enhanced when action
+potentials were evoked from increasingly negative holding
+potentials (Fig. 4A). In TC neurones positive current steps
+imposed from holding potentials negative to -65 mV
+evoked a clear and isolated burst discharge that was
+imposed upon a transient depolarizing potential (Fig. 4B).
+Such transient depolarizing potentials have been described
+for TC neurones as low threshold Ca2+ potentials (Deschenes,
+Paradis, Roy & Steriade, 1984; Jahnsen & Llinas, 1984;
+Crunelli et al. 1987; Crunelli, Lightowler & Pollard, 1989).
+It is important to note that a well-defined burst of action
+potentials was not generated by interneurones in response
+to positive voltage excursions. The increased degree of
+spike-frequency adaptation when action potentials were
+evoked from holding potentials negative to -60 mV in
+interneurones suggests that a transient depolarizing
+potential evoked close to firing threshold may augment the
+firing frequency over the first few action potentials of a
+
+Interneurone
+
+-50 mV
+
+-70 mV
+-80 mV
+
+B
+
+TC neurone
+
+-50 mV
+-70 mV
+
+-85 mV
+-
+
+.0-4 nA
+
+400 ms
+
+Figure 4. The pattern of action potential output is voltage dependent in TO neurones and
+interneurones
+The action potential output evoked by injection of steps of positive current from holding potentials
+positive to -60 mV indicates that both neurones have the ability to generate action potentials repetitively.
+From potentials more negative than -65 mV, TC neurones (B), but not interneurones (A) were found to
+generate a burst discharge of action potentials that were isolated from any subsequent tonic firing. The
+degree of spike-frequency adaptation throughout the train of action potentials in interneurones was,
+however, found to be increased at more negative holding potentials (A). Note in the middle trace A the
+short delay to action potential firing. The amplitude of action potentials has been truncated for clarity.
+
+J Physiol. 490.1
+
+S. R. Williams and others
+
+136
+
+train (Fig. 4B). These data, however, clearly illustrate
+that when action potentials are evoked from holding
+potentials positive to -60 mV, interneurones, but not TC
+neurones, exhibit a slow and pronounced spike-frequency
+adaptation.
+A
+
+80
+
+Following a train of action potentials a slow after-hyperpolarizing potential (sAHP) was observed in both
+interneurones and TC neurones (Fig. 6). The amplitude of
+these potentials was found to be related to the number of
+action potentials generated during the train (Fig. 6). In
+
+Interneurone
+
+-
+
+A,
+
+60 i
+
+0 22 nA
+
+I
+A
+
+C.)
+a)a, 40
+
+-
+
+AZ
+A'
+
+tA
+
+A~ "
+
+i'
+
+° *
+
+LL
+
+&
+
+0 22 nA
+
+00 13
+
+20 -
+
+0U
+
+VV1
+
+0-18
+
+00
+
+0
+
+Figure 5. The patterns of spikefrequency adaptation are different
+between interneurones and TC
+
+A
+
+A
+
+Lr
+
+W
+
+005
+10
+
+20
+
+30
+
+40
+
+50
+
+i
+
+v
+
+013
+
+Event (ISI)
+100 ISI
+
+1
+
+Rn -
+
+ISI 5
+
+I
+
+u 60a.)
+cr 40a)
+
+009
+
+"lb/
+
+b/
+
+/I
+
+///l'K
+
+ISI 30
+
+LL
+
+20
+0 .0 5
+
+0-
+
+0
+
+01
+
+03
+
+02
+
+Current (nA)
+
+B
+
+TC neurone
+200 -
+
+ISI 1
+160 -
+
+0 36 nA
+
+I
+>1
+
+20-4
+
+ISI 5
+
+C)
+a)
+
+cr 80-
+
+ISI 30
+
+a,
+
+LL
+
+40 o
+
+028
+
+*
+
+0-1
+
+200
+
+02
+
+03
+
+04
+
+-
+
+0 20
+
+ISI
+
+1
+
+160
+>120
+
+r9/O. ()
+
+015
+
+cr80
+
+irYfr
+
+40 -.
+20 mV
+
+30
+ISI
+0
+40
+1
+
+300 ms
+0*10
+
+0.1
+
+0-3
+Current (nA)
+02
+
+04
+
+-
+
+neurones
+
+A, the pattern of spike-frequency
+adaptation of a representative
+interneurone is shown from the
+voltage traces and the instantaneous
+frequency event graph; note the slow
+and pronounced adaptation pattern.
+The lower graph illustrates the linear
+relationship between the injected
+current and the instantaneous firing
+frequency measured at the 1st, 5th
+and 30th interspike interval (ISI). The
+current-discharge relationship was
+constructed from a holding potential
+of -54 mV. B, a representative TC
+neurone shows a pattern typified by
+fast spike-frequency adaptation over
+the first few action potentials of the
+train. The relationship between
+injected current and instantaneous
+frequency measured at thelst, 5th
+and 30th ISI was found to be linear.
+Note that the upper graph is a
+representation of the voltage-traces
+illustrated; holding potential,
+-55 mV. The lower graph constructed
+from another TC neurone illustrates,
+by comparison, a much steeper
+relationship between injected current
+and instantaneous firing frequency,
+measured at the 1st ISI; holding
+potential, -57 mV. For each currentdischarge relationship data were fitted
+by 1st order regression analysis. The
+values of injected current are
+illustrated at the side of the voltage
+traces. The amplitude of action
+potentials in A and B has been
+truncated for clarity.
+
+Interneurones of the dLGN
+
+J Physiol. 490.-1
+
+interneurones, but not in TC neurones, the time course of
+the sAHP was truncated and the potential replaced by a
+slow after-depolarizing potential (sADP) that lasted for up
+to 15 s following intense firing (Fig. 6A b). At the
+maximum amplitude of the sADP the firing of action
+potentials (not illustrated) or subthreshold oscillations of
+the membrane potential were consistently observed (Fig.
+6Aa and A b). In common with the sAHP, the sADP
+appeared to be related to the number of action potentials
+generated in the preceding train (Fig. 6A). The relative
+magnitude of the sAHP and sADP was found to vary
+between interneurones, but in each interneurone examined
+both potentials were observed. A similar sADP was not
+
+137
+
+observed in TC neurones even following intense action
+potential firing and so the sADP was considered to be one
+of the defining electrophysiological features of rat dLGN
+interneurones.
+Burst firing
+In each TC neurone examined burst firing was evoked at
+the break of hyperpolarizing voltage transients. During the
+construction of voltage-current relationships we measured
+the instantaneous firing frequency of the burst, at the first
+ISI, and found it to be linearly related to the amplitude of
+the preceding voltage deviation, measured at steady state
+(r = 0-585, P < 0 05; Fig. 7B and C). In each TC neurone
+
+A a
+Interneurone
+
+015 nA
+
+07 s
+b
+
+20 mV
+
+030 nA
+
+;/!
+
+B
+
+1.2 s
+
+TC neurone
+
+120s
+e4
+
+................
+
+015 nA
+
+022 nA
+07 s
+
+Figure 6. Interneurones but not TC neurones express a post-train slow after-depolarization
+A a, following a train of action potentials interneurones were found to generate a slow after-hyperpolarization, the amplitude of which was related to the number of action potentials of the train. This
+potential was followed by a slow after-depolarization, which increased in amplitude and duration (A b)
+with the increasing number of action potentials of the train. B, a representative TC neurone exhibits only
+a post-train slow after-hyperpolarization, which in common with that of interneurones was related to the
+number of action potentials of the train. No evidence of a slow after-depolarization was detected. The
+amplitude of positive current steps is marked below or at the side of the voltage records. The membrane
+potential at which these activities were evoked was -54 mV for the interneurone and -56 mV for the TC
+neurone. The amplitude of action potentials has been truncated for clarity.
+
+138
+
+S. R. Williams and others
+
+such activity had a frequency greater than 250 Hz, with a
+mean frequency of 401 + 6 Hz. In contrast, the burst firing
+of interneurones, quantified using the same protocol, was
+found to be characterized by a lower frequency of action
+potential output, with a maximal frequency of less than
+130 Hz and a mean frequency of 40 + 5 Hz (Fig. 7A and
+C). In common with TC neurones the frequency of rebound
+firing of interneurones was related in a linear manner to
+the magnitude of the preceding voltage deviation (r = 0 39,
+P < 0 05) (Fig. 7C). In interneurones rebound firing was
+often characterized by the firing of a single action potential
+and occasionally it was possible to observe in isolation a
+transient depolarizing potential that resembled the low
+threshold Ca2P potential of TC neurones (Fig. 7A and B).
+The voltage range over which rebound firing could be
+evoked at the break of hyperpolarizing voltage excursions
+
+A
+
+J Physiol. 490.1
+
+was found to be different between groups. Rebound firing
+could be evoked in interneurones when the holding potential
+was set at or more positive to -60 mV (Fig. 2), whilst in TC
+neurones rebound firing could be evoked from membrane
+potentials more positive than -65 mV (Figs 3 and 5).
+Subthreshold oscillation
+Membrane potential oscillations were observed in interneurones (Fig. 8). Oscillatory activity was apparent in each
+interneurone examined, and was expressed over a voltage
+range positive to -55 mV. The activity had clear
+periodicity as demonstrated by the autocorrelation analysis
+of 1 s long segments of voltage traces (Fig. 8, insets). We
+found the mean frequency of this oscillation for five
+neurones to be 7-7 + 0 5 Hz (measured at -44 mV). When
+the membrane potential of interneurones was depolarized
+to firing threshold, interneurones, but not TC neurones,
+
+Interneurone
+
+-50 mv
+
+B
+
+Figure 7. The frequency and structure of rebound burst
+firing is different between interneurones and TC neurones
+At the break of hyperpolarizing voltage deviations, both
+interneurones and TC neurones generated rebound burst firing.
+A, representative recording of an interneurone demonstrates
+that the burst firing is driven by a transient depolarizing
+potential, which gives rise to one or two action potentials.
+B, in comparison the rebound firing of a TC neurone was more
+powerful: a low threshold Ca2+ potential led to the firing of
+between 3 and 5 action potentials, which are shown as insets at
+a faster time base. C, using the results from a number of such
+experiments, the frequency of rebound firing (measured as the
+instantaneous frequency of the first interspike interval) has
+been plotted against the amplitude of the preceding voltage
+deviations, measured at steady state for TC neurones (0) and
+interneurones (0); these measures were found to be linearly
+related. The data have been fitted by first order regression
+(continuous line) and the dashed lines indicate the 95%
+confidence limits. The amplitude of action potentials has been
+truncated for clarity.
+
+TC neurone
+
+-60 mV200 m
+
+500-
+
+C
+
+0 0
+
+400 N
+
+I. 300_
+
+:.:4
+*
+
+TC ne urones
+
+0
+
+C.)
+C
+0)
+
+2 200-
+
+Interneurones
+
+IL
+0o
+
+100
+
+0
+
+000~~
+_-
+
+10
+
+,
+
+-0
+
+p
+
+O00O
+
+___0
+____
+
+o
+
+O O
+
+0
+
+30
+40
+Voltage deviation (mV)
+20
+
+50
+
+J Physiol. 490.1
+
+Interneurones of the dLGN
+
+showed an initial period of tonic firing followed by
+sequences of clustered action potentials intermixed with
+rhythmic membrane potential oscillations (Fig. 8). This
+activity profile allowed us to investigate the voltage
+dependence of the oscillatory activity of interneurones, and
+indicated that the amplitude and frequency of oscillatory
+activity, in all cases, increased upon membrane potential
+depolarization (Fig. 8). The intrinsic nature of oscillatory
+activity was demonstrated by its resistance to the coapplication of the excitatory amino acid (EAA) receptor
+antagonists GYKI 52466 (100 ,CM) or CNQX (10 /uM) and
+DL-AP5 (100 ISM) (Turner, Leresche, Guyon, Soltesz &
+Crunelli, 1994). Indeed application of these antagonists
+increased the periodicity of the oscillation (not illustrated),
+
+139
+
+presumably by removing contaminating activity due to
+EPSPs and IPSPs that introduced irregularity in the
+oscillation (see Fig. 11).
+
+Synaptic potentials
+EPSPs and IPSPs were evoked in interneurones (Figs 9
+and 10) and TC neurones (not illustrated) by electrical
+stimulation of the optic tract. The nature of the
+postsynaptic potentials evoked in interneurones was found
+to be variable; in three of six interneurones apparently
+pure EPSPs were evoked (Fig. 9). Such potentials had a fast
+rising phase with a decay that could not be fitted by a
+mono-exponential function indicating the presence of a
+slow smaller amplitude component, when EPSPs were
+evoked from holding potentials positive to -65 mV (Fig. 9).
+
+400 ms
+-36 mV
+
+0-30 nA
+
+-38 mV
+
+0-15 nA
+
+Figure 8. Interneurones exhibit subthreshold
+oscillatory activity
+Interneurones generated subthreshold oscillations within a
+frequency range of -8 Hz. The periodicity of this activity
+is illustrated by the autocorrelation functions (insets above
+the upper four voltage traces) for 1 s long segments of the
+voltage trace obtained at different holding potentials. Note
+that the degree of periodicity increases upon membrane
+potential depolarization. In the lower two voltage records
+the hyperpolarizing voltage deviations are generated by
+the delivery of 0 1 nA square current pulses. Note that
+near firing threshold a single action potential imposed on a
+transient depolarizing potential is evoked at the break of
+hyperpolarizing voltage excursions. The holding potential
+is shown at the left and magnitude of injected current at
+the right of voltage traces. The amplitude of action
+potentials has been truncated for clarity.
+
+-41 mV
+
+a/
+*05 nA
+
+-43 mViwAA,L))L A
+
+,A\/UA
+
+-46 mV
+
+0.0 nA
+
+k-W
+
+*0-07 nA
+m
+
+500 ims
+
+-53 mV
+
+-0-14 nA
+
+J Physiol.490.1
+
+S. R. Williams and others
+
+140
+
+When evoked from membrane potentials negative to
+-65 mV, however, the contribution of the slow component
+of the EPSPs was found to be reduced (Fig. 9); indeed, in
+many cases, the decay phase of the fast EPSP component
+could be well fitted by a mono-exponential function. In
+each interneurone examined, a single action potential was
+imposed upon the fast component of the EPSPs when the
+peak amplitude reached firing threshold (Fig. 9). In
+contrast, the stimulus-evoked action potential output of TC
+neurones was more complex; at holding potentials negative
+to -65 mV EPSPs drove the burst firing of action
+potentials via the activation of low threshold Ca2+
+potentials (Deschenes et al. 1984; Jahnsen & Llinas, 1984;
+Turner et al. 1994), while at holding potentials positive to
+-60 mV EPSPs, typically, drove the firing of a single
+action potential. The differences in the output pattern of
+interneurones and TC neurones were not due to differing
+amplitudes of EPSPs (see Turner et al. 1994).
+
+A
+
+Previous investigations of the sensory input to rat and cat
+TC neurones have indicated the involvement of NMDA and
+non-NMDA EAA receptors (Scharfman, Lu, Guido, Adams
+& Sherman, 1990; Leresche, 1992; Turner et al. 1994). In
+interneurones the bath application of the non-NMDA
+receptor antagonist CNQX (10 /LM, n = 2) abolished the
+fast component of the EPSP (Fig. 9B). In the presence of
+CNQX the remaining EPSP had a relatively smaller
+amplitude and slower time to peak (Fig. 9B), and was
+sensitive to the NMDA receptor antagonist DL-AP5
+(100 /SM; Fig. 9C). Following application of DL-AP5, a low
+amplitude (<4 mV), slowly rising synaptic potential
+remained (Fig. 9). Since the pharmacological profile of this
+potential was not investigated, it remains to be established
+if this slow EPSP is generated by the activation of other
+receptors, or if it is a residual product of the lack of full
+antagonism of NMDA and non-NMDA receptors (see
+Turner et al. 1994).
+
+B
+
+Control
+
+CNOX (10 /M)
+
+-60 mV
+I 20 mV
+-65
+
+-80 -J
+
+D
+
+c
+CNQX
+
++
+
+AP5
+
+Superposition
+
+(100.um)
+
+-50 mV
+
+200 ms
+
+30 ms
+
+I10 mV
+
+-65
+
+-75 mV
+
+30 ms
+
+-80~
+
+Figure 9. EPSPs of interneurones are mediated by the activation of NMDA and non-NMDA
+receptors
+A, the voltage-dependent profile of control EPSPs evoked by the electrical stimulation of the optic tract is
+shown at two different time bases. B, the bath application of the non-NMDA receptor antagonist CNQX
+(10 /M) reduced the amplitude of the fast EPSP at all potential levels, leaving a lower amplitude, more
+slowly rising component that did not reach the threshold for the generation of action potentials. C, the
+additional application of the NMDA receptor antagonist DL-AP5 (100 AM) led to a further decrement in
+the amplitude of the EPSP leaving a low amplitude (< 4 mV) EPSP with a very slow rise time, which
+failed to evoke action potentials even when generated at -50 mV. D, the superposition of the EPSPs
+recorded at a level of -75 mV at a fast time base more clearly illustrates the effects of the antagonists.
+The amplitude of action potentials has been truncated for clarity.
+
+J
+
+Physiol. 490.1
+
+Interneurones of the dLGN
+
+A
+
+141
+
+B
+-45 mv
+
+-47 mV
+
+120 mV
+
+10 mV
+-65
+
+-67
+
+VA4
+
+-.-
+
+5s
+
+50 ms
+
+-85
+
+-75
+
+GABA
+
+OT
+
+C
+
+__>
+
+1r
+
+I
+
+Baclofen (80 piM)
+
+-60 mV
+
+g
+
+m
+
+1
+
+1
+
+F
+
+F
+
+Interneurone
+-111111 iiiiiiijillillilill 111111 111111111fl il :11111111
+
+1:1111111iiiiiiiiiiiiiMilli 111:11,11i,11,11;,1111,11,11M
+
+fM IIM7 'T , -nT
+
+M7. MTM-MMM
+
+2 min
+
+Baclofen (80 FM)
+
+120 mV
+
+-63 mV
+Jil! l
+
+TC neurone
+
+li111111 li ii 1
+
+lit 11111li li i illil I1
+
+0 4 nA
+
+YT 1[I, lli.EfV1JTT
+ii i 111II 11111lll
+:iilJiiiiiI
+IlllTllmll
+
+Figure 10. Interneurones are powerfully inhibited by the activation of GABAA, but not GABAB
+receptors
+A, electrical stimulation of the optic tract evoked an IPSP in this interneurone, which reversed in polarity
+between -65 and -70 mV. B, the iontophoretic application of GABA (70 nA) to the environment of a
+different interneurone led to a membrane potential hyperpolarization accompanied by a decrease in
+apparent input resistance: the polarity of this response was found to reverse between -65 and -70 mV.
+C, the bath application of the GABAB receptor agonist baclofen (80 gM) to this interneurone led to a small
+membrane potential hyperpolarization accompanied by a decrease in apparent input resistance, which
+persisted when the membrane potential was set to the control level during the passage of positive current
+through the recording electrode. Note that this was the only interneurone in which baclofen had any
+effect. The lower records illustrate the typical effects of baclofen (80 FM) on the membrane properties of a
+TC neurone recorded from the same brain slice. Note that the magnitude of the baclofen-elicited
+membrane potential hyperpolarization and decrease in apparent input resistance are greater than those of
+the interneurone. In the continuous voltage traces downward deflections represent electrotonic potentials
+evoked by the repeated delivery of constant current pulses. In the recording made from the interneurone,
+upward deflections represent the firing of action potentials in response to positive current pulses and in
+the TC neurones upward deflections represent the generation of low threshold Ca2+ potentials and action
+potentials evoked at the break of hyperpolarizing electrotonic potentials. The amplitude of these
+deflections has been truncated by the frequency response of the chart recorder.
+
+142
+
+J
+
+S. R. Williams and others
+
+In addition to stimulus-evoked EPSPs, spontaneous EPSPs
+were recorded from all interneurones (Fig. 2A) and in
+-30% of TC neurones (not illustrated). The structure of
+this activity was found to be different between the two
+groups. In interneurones an almost continuous barrage of
+spontaneous EPSPs was observed throughout the recording
+period (Fig. 2A), whilst spontaneous EPSPs of TC neurones
+were observed in clusters, the individual elements of which
+were often observed to summate. Spontaneous EPSPs were
+found to be predominantly mediated by the activation of
+non-NMDA receptors as the application of CNQX (10 /M)
+greatly reduced the amplitude of these synaptic potentials.
+The presence of NMDA receptor-mediated spontaneous
+EPSPs cannot, however, be excluded as the slow rise time
+and low amplitude of such events could have hampered their
+detection.
+In other interneurones the pattern of stimulus-evoked
+activity was dominated by inhibition (n =3; Fig. lOA).
+IPSPs were found to reverse in polarity between -65 and
+-70 mV, in a similar manner to responses to the iontophoretic application of GABA (n = 2) to the environment of
+other interneurones (Fig. lOB). The potency of the
+inhibition produced by either electrical stimulation or
+iontophoretic application of GABA was demonstrated by
+the silencing of on-going action potential firing (not
+illustrated). In order to compare the differential effects of
+the activation of GABAA and GABAB receptors, we applied
+by bath perfusion the selective GABAB receptor agonists
+baclofen (at concentrations up to 100 /M; n = 4; Crunelli et
+al. 1988) and y-hydroxybutyrate (GHB; 1-3 mM; n = 3;
+Williams, Turner & Crunelli, 1995b). In the majority of
+interneurones these agonists had no effect on either the
+
+membrane potential or apparent input resistance. However,
+in one interneurone (Fig. lOC) the application of baclofen
+(80 AM) led to a small membrane potential hyperpolarization
+(7 mV) and decrease in apparent input resistance. This
+effect was, however, relatively weak in comparison with the
+effects of the same concentration of baclofen on the
+membrane potential and apparent input resistance of a TC
+neurone recorded from the same preparation (Fig. 1 OC).
+
+Spontaneously occurring IPSPs were recorded from
+interneurones (Fig. 11) and TC neurones (not illustrated).
+These IPSPs were found to be intermixed with spontaneous
+EPSPs and subthresold oscillatory activity of interneurones,
+but they could be clearly identified by their reversal
+potential of between -65 and -70 mV (Fig. 11). The
+presence of spontaneous IPSPs suggests that interneurones
+are subject to a tonic level of inhibition when maintained in
+brain slices in vitro. The similar reversal potential of
+spontaneous and stimulus-evoked IPSPs suggests the
+activation of a common type of receptor.
+
+DISCUSSION
+The main conclusions of this investigation are that (i) two
+populations of neurones, termed interneurones and TC
+neurones, with distinct electroresponsiveness and morphological properties, can be distinguished in the rat dLGN;
+(ii) interneurones possess characteristic electrophysiological
+features that include the shape of single action potentials
+and their fAHP, the presence of a slow and pronounced
+spike-frequency adaptation, the presence of post-train
+sADPs, the generation of subthreshold oscillatory activity
+with a frequency of -8 Hz, the low frequency firing at the
+
+-47 mV
+
+5 mv
+-52
+
+500
+
+-65
+
+PhysioL 490.1
+
+ms
+
+pl_
+
+-85 '%"Y
+
+Figure 11. Interneurones are subject to tonic inhibition
+Spontaneous IPSPs were recorded from an interneurone at different holding potentials, achieved by the
+tonic passage of current though the recording electrode (-47 mV is the resting potential). The IPSPs
+appear to reverse in polarity at holding potentials between -65 and -70 mV. In the upper voltage record
+IPSPs are intermixed with the intrinsic subthreshold oscillatory activity of this interneurone; in the lower
+records the individual IPSPs are distinguishable.
+
+J Physiol. 490.1
+
+Interneurones of the dLGN
+
+break of hyperpolarizing voltage excursions and the nearly
+linear nature of voltage-current relationships; and (iii) there
+are interneurone to interneurone inhibitory interactions in
+the rat dLGN.
+
+Comparative anatomical properties
+By comparison with the results of Golgi impregnation
+(Grossman et al. 1973; Gabbot et al. 1986) and HRP
+injection studies (Crunelli et al. 1987), the morphology of
+biocytin-injected neurones was classified as class A (TC
+neurones) and class B (putative interneurones). The dorsoventral dendritic orientation of interneurones and the
+radial fields of TC neurones are in accordance with previous
+studies and may contribute to the their respective
+rectangular and circular receptive field properties (Fukuda,
+Sumitomo, Sugitani & Iwama, 1979). In the present study
+the recording of neurones of different morphologies and
+electrophysiological responsiveness in single brain slices
+clearly indicates a heterogeneous population of neurones in
+the rat dLGN. Although we encountered subtle morphological differences between neurones classified as belonging
+to the same group we have found no evidence for a finer
+classification system of TC neurones.
+
+Comparative electrophysiological properties
+Passive properties
+The passive membrane properties of interneurones and TC
+neurones were found to be different. The resting potentials
+of interneurones were significantly more positive and the
+time constants shorter than those of TC neurones. As the
+same methods, and occasionally the same electrode, were
+used to record interneurones and TC neurones a comparison
+between neuronal type should be valid. A degree of caution
+should, however, be considered when interpreting these data,
+as the influence of background synaptic activity (Bernander,
+Douglas, Martin & Koch, 1991) and the degree of neuronal
+damage, and so the generation of a somal shunt (Staley,
+Otis & Mody, 1992), are thought to affect such measurements.
+Indeed these points are important as interneurones were
+found to have smaller somal areas and a greater degree of
+spontaneous synaptic activity than TC neurones.
+
+Rectification properties
+The rectification properties of interneurones were found to
+be distinct from those of TC neurones: voltage-current
+relationships of interneurones lacked the prominent
+rectification properties of TC neurones that are expressed in
+both the depolarized and hyperpolarized direction. The
+rectifiation of the voltage-current relationship of TC
+neurones in the depolarized direction is thought to be
+mediated by slowly inactivating K+ currents (Huguenard &
+Prince, 1991). These slowly inactivating K+ currents in
+concert with a more transient IA-like current act to delay
+the onset of action potential firing (Huguenard & Prince,
+1991). The lack of a substantial delay to firing in
+interneurones and the absence of rectification in the
+depolarized direction suggests a minimal expresson of these
+
+143
+
+currents. However, the brief delay to firing in interneurones, when action potentials were evoked from holding
+potentials negative to -60 mV, is indicative of the presence
+of fast transient outward K+ currents, e.g. IA. These data
+suggest that interneurones should fire briskly in response to
+afferent activity, as indicated by recordings of identified cat
+dLGN interneurones in vivo (Humphrey & Weller, 1988).
+The rectification of the voltage-current relationship of TC
+neurones in the hyperpolarized direction is thought to be
+generated by the activation of a slow, mixed cation current,
+Ih (McCormick & Pape, 1990) and a fast K+-mediated
+current (Pollard & Crunelli, 1988). A similar slow
+rectification was expressed in some interneurones; although
+the magnitude of such rectification was not as great as that
+of TC neurones, this parameter cannot be used to classify
+neuronal type. In addition to time-dependent rectification
+we observed the presence of steady rectification of interneurones, which led to a greater apparent input resistance at
+potentials close to firing threshold. These data indicate that
+although interneurones have nearly linear voltage-current
+relationships the effects of excitatory and inhibitory inputs
+will be greater at subthreshold membrane potentials.
+
+Burst firing
+At the break of hyperpolarizing voltage excursions, interneurones and TC neurones were found to generate a
+transient depolarizing potential that was crowned by the
+firing of action potentials; the frequency of such firing was,
+however, significantly slower in interneurones. The voltage
+range over which such activity could be generated was also
+different between groups, suggesting that the voltagedependence of the current(s) that underlie(s) the transient
+depolarizing potentials are different. Previous analysis has
+indicated that the transient depolarizing potentials of TC
+neurones are generated by a low threshold Ca2+ current, IT'
+that is available for activation at potentials negative to
+--65 mV (Crunelli et al. 1989). A recent investigation has
+revealed that interneurones, dissociated from the rat
+dLGN, also express an IT-like current. The steady-state
+activation and inactivation curves of this current were,
+however, found to be shifted by - 10 mV positive to that of
+TC neurones (Pape et al. 1994). Such a difference in the
+voltage dependence of IT between neurones may explain
+the different voltage range over which we observed
+transient depolarizing potentials and burst firing between
+neuronal type. In dissociated interneurones the expression
+of IT in current clamp recordings was found to be masked
+by the activation of an IA-like current (Pape et al. 1994). It
+is not clear to what extent such a mechanism operates in
+interneurones maintained in more intact preparations, as
+rebound firing has been observed from recordings of
+putative thalamic interneurones of the guinea-pig (Jahnsen
+& Llinas, 1984) and morphologically identified interneurones of the cat dLGN (McCormick & Pape, 1988). The
+measurement of I, and IA and an analysis of the effects of
+pharmacological blockade of IA are therefore required for a
+full interpretation of this behaviour.
+
+144
+
+S. R. Williams and others
+
+Subthreshold oscillations
+Interneurones were found to express intrinsic (-8 Hz),
+subthreshold membrane potential oscillatory activity. These
+activities did not resemble the well-characterized low
+frequency (<4 Hz; McCormick & Pape, 1990; Leresche et al.
+1991; Steriade, Curro Dossi & Nunez, 1991; Williams et al.
+1995b) and high frequency (> 20 Hz; Steriade, Curro Dossi,
+Pare & Oakson, 1991) oscillatory activities of TC neurones,
+but were similar to the subthreshold oscillatory activity
+expressed by cortical stellate neurones (Klink & Alonso,
+1993). The ionic basis of the oscillatory activity of cortical
+stellate neurones has been shown to be mediated by the
+activation of a persistent Na+ current and a K+ current
+activated at subthreshold membrane potentials (Klink &
+Alonso, 1993). Although we did not investigate the ionic
+basis of the oscillatory activity of interneurones, the
+similarity in the electrophysiological behaviour of thalamic
+interneurones and cortical stellate neurones, in terms of
+their rectification properties, discharge patterns and in
+particular the presence of a slow depolarizing ramp prepotential preceding the fast upstroke of the single action
+potentials, suggests that the oscillatory activity of dLGN
+interneurones may be generated by a similar set of
+membrane currents as those of stellate neurones. We
+cannot, however, rule out the possibility that the subthreshold oscillatory activity of interneurones is mediated
+by a different mechanism involving, for example, the
+activation of low and high threshold Ca currents.
+The membrane potential oscillatory activity of interneurones may drive a similar frequency of action potential
+output, leading to the generation of IPSPs in interneurones
+and TC neurones. In our preparations we recorded
+spontaneous IPSPs from interneurones and TC neurones.
+Previous investigations of TC neurones recorded in vitro
+(Leresche, 1992) and in vivo (Steriade, Deschenes, Domich
+& Mulle, 1985) have reported spontaneous IPSPs; indeed in
+vivo the frequency of spontaneous IPSPs was found to be
+centred at -10 Hz, when the main thalamic nuclei were
+functionally disconnected from the NRT (Steriade et at.
+1985). The function of the oscillatory activity of
+interneurones may be to drive an output of TC neurones
+within a similar frequency range. Such an interpretation
+has been made for the control of the output of pyramidal
+neurones of the hippocampus, where spontaneous IPSPs,
+occurring within the frequency range of 40 Hz, have been
+shown to drive the output of pyramidal neurones within a
+similar frequency range (Whittington, Traub & Jefferys,
+1995). The results of field recordings made from the dLGN
+of unanaesthetized cats, have indicated the presence of
+oscillatory activity with a frequency of -10 Hz (Chatila,
+Milleret, Rougeul & Buser, 1993). The similarity between
+this frequency and the frequency of subthreshold activity
+of dLGN interneurones suggests that intereurones may be
+involved in the synchronization of such a rhythm.
+
+J
+
+Physiol. 490.1
+
+Action potential firing pattern
+Interneurones, but not TC neurones, demonstrated discharge
+patterns marked by a slow and pronounced spike-frequency
+adaptation. Previous findings have indicated the discharge
+pattern of interneurones of the cat dLGN recorded in vitro
+and in vivo to be dominated by spike-frequency adaptation
+(Humphrey & Weller, 1988; McCormick & Pape, 1988). Cat
+dLGN interneurones, in contrast to those recorded here,
+were, however, found to discharge at very high frequencies
+(McCormick, Pape, Kisvardy & Eysel, 1992). The discharge
+pattern of rat and cat dLGN interneurones may, therefore,
+be different in terms of peak firing frequency, but not in the
+structure of discharge patterns. These data indicate that
+from holding potentials positive to -60 mV the output of
+interneurones and TC neurones will be similar to transient
+afferent inputs but become progressively dissimilar to more
+sustained inputs. We suggest that the spike-frequency
+adaptation of interneurones contributes to the formation of
+the lagged responses (Humphrey & Weller, 1988; Heggelund
+& Hartveit 1990) of some dLGN TC neurones. The lag period
+is known to be formed, in the majority, by GABAA receptormediated inhibition (Heggelund & Hartveit, 1990) and is
+thought to involve intra-geniculate circuits, but not inputs
+from the PGN (Humphrey & Weller, 1988). As the
+interneurones reported here were found to be driven by the
+activation of non-NMDA and NMDA receptors, to have a
+fast onset to action potential firing and to display prominent
+spike-frequency adaptation, it is possible that through the
+course of a retinal input the rate of firing decreases, leading
+to a reduction in the temporal summation of IPSPs
+(generated by the axonal output of interneurones) in
+postsynaptic TC neurones. This mechanism may create a
+greater degree of inhibition at the onset of retinal input that
+is relatively amplified in lagged TC neurones, as the input to
+these units is known to be mediated, preferentially, by the
+activation of NMDA receptors (Heggelund & Hartveit, 1990).
+Factors such as the voltage dependence and the rise and
+decay times of NMDA receptor-mediated EPSPs may be
+critical in the differential effects of inhibition in lagged and
+non-lagged neurones (Heggelund & Hartveit, 1990).
+Following a train of action potentials both interneurones
+and TC neurones generated a sAHP; the time course of the
+sAHP in interneurones was, however, truncated and the
+potential replaced by a sADP, which in many cases had
+action potentials and/or subthreshold oscillations imposed
+upon it. This sADP may function to maintain the discharge
+of interneurones following the termination of afferent
+input, and by the generation of postsynaptic inhibition of
+TC neurones add to the effects of the sAHP in these
+neurones. These mechanisms may contribute to the
+limitation of following frequency of TC neurones. It is,
+therefore, of interest that blockade of GABAA receptormediated inhibition leads to an increased output of X-type
+TC neurones in response to stimuli of increasing temporal
+frequency (Berardi & Morrone, 1984).
+
+J.
+
+Physiol. 490.1
+
+Interneurones of the dLGN
+
+Excitation and inhibition of interneurones
+EPSPs and IPSPs were generated in interneurones by low
+frequency electrical stimulation of the optic tract; the
+contribution made by EPSPs and IPSPs to the complex
+synaptic response was found to be variable, as reported for
+TC neurones (Crunelli et al. 1988). EPSPs generated in
+interneurones were found to be bi-phasic and mediated by
+the activation of non-NMDA and NMDA receptors, as has
+been shown for EPSPs and excitatory postsynaptic
+currents evoked in TC neurones (Scharfman et al. 1990;
+Leresche, 1992; Turner et al. 1994). The pharmacological
+profile of stimulus-evoked IPSPs was not directly
+investigated, but we suggest that inhibition is mediated
+predominantly by the activation of GABAA receptors since
+(i) IPSPs and the responses to the iontophoretic application
+of GABA were found to reverse at membrane potentials
+between -65 and -70 mV, (ii) the rise time, duration and
+reversal potential of IPSPs in interneurones were found to
+be similar to GABAA receptor-mediated IPSPs evoked in
+rat dLGN TC neurones by optic tract stimulation (Crunelli
+et al. 1988), and (iii) the bath application of the GABAB
+receptor agonists were, with the exception of one neurone,
+found to have no effects on the membrane potential or
+apparent input resistance of interneurones. The absence of
+GABAB receptor-mediated IPSPs and the low sensitivity to
+selective GABAB agonists is in contrast to that of TC
+neurones (Crunelli et al. 1988; Soltesz et al. 1989; Williams
+et al. 1995b), and suggest that interneurones express a
+relatively low number of GABAB receptors.
+These data demonstrate that stimulation of the optic tract
+may reliably bring interneurones to firing threshold, and so
+indicate that feed-forward IPSPs evoked in TC neurones
+are generated at least in part through the axonal output of
+dLGN interneurones. We cannot, however, exclude the
+possibility that feed-forward IPSPs evoked in TC neurones
+are mediated, in part, by the dendritic elements of
+interneurones that are known to enter into and form a
+triadic arrangement with optic tract terminals and TC
+neurone dendrites (Grossman et al. 1973; Hamos et al.
+1985). Our observations that interneurones are also subject
+to stimulus-evoked inhibition indicate that the activities of
+interneurones are controlled by inhibitory influences. The
+cellular origin of this inhibition may be from fellow
+interneurones of the dLGN, as brain slices were prepared in
+a manner that excluded the NRT and so the pathway
+underlying feed-back inhibition (Hale et al. 1982;
+Lindstrom, 1982). Whilst it is possible that IPSPs were
+generated by the direct depolarization of the axons of NRT
+neurones, the low voltage of electrical stimuli and the
+position of stimulating electrodes in the most lateral
+margin of the optic tract suggests that current spread to
+the axons of NRT neurones is unlikely. We therefore,
+suggest that evoked IPSPs were generated by other dLGN
+interneurones. In addition to stimulus-evoked inhibition,
+interneurones were subject to spontaneous IPSPs. The
+
+145
+
+source of spontaneous IPSPs cannot be critically analysed,
+and so they may be generated by the activities of other
+interneurones, or axons of NRT neurones. No anatomical
+or electrophysiological evidence gained from the rat visual
+thalamus is available to describes a pathway from the NRT
+to dLGN interneurones. In the cat unequivocal anatomical
+evidence for the existence of such pathway is also lacking
+(Cucchiaro, Uhlrich & Sherman, 1992), but electrophysiological evidence suggests such a pathway exists
+(Ahlsen, Lindstrom & Lo, 1985). The site(s) of origin of
+spontaneous IPSPs cannot fully be described until further
+investigations are conducted.
+The functional consequences of the inhibition of interneurones are difficult to interpret. Previous investigations,
+however, have demonstrated that the magnitude of
+stimulus-evoked GABAB receptor-mediated IPSPs may be
+enhanced following the antagonism of GABAA receptors
+(Crunelli et al. 1988; Soltesz et al. 1989). One interpretation
+of these effects is that an antagonism of the GABAA
+receptor-mediated inhibition of interneurones leads to an
+increased action potential output of these neurones
+(Crunelli et al. 1988; Soltesz et al. 1989). The presence of
+interneurones that receive stimulus-evoked excitation and
+GABAA receptor-mediated inhibition provide evidence in
+favour of such a hypothesis. However, as we have not tested
+the effects of GABAA receptor antagonists on the evoked
+activity of interneurones we may only speculate that the
+action potential output of these neurones would be
+increased by the antagonism of GABAA receptors.
+Nevertheless, the present data suggest that the nature of
+the inhibition of TC neurones of the dLGN is dependent
+upon the network properties of the nucleus. The nature of
+inhibition of TC neurones and the mechanisms by which
+the inhibition of interneurones is removed physiologically
+may be of importance to the function of the dLGN.
+
+AHLSEN, G. & LINDSTROM, S. (1982). Excitation of perigeniculate
+neurones via axon collaterals of principle cells. Brain Research 236,
+477-481.
+
+AHLSEN, G., LINDSTROM, S. & Lo, F. S. (1985). Interaction between
+inhibitory pathways to principle cells in the lateral geniculate
+
+nucleus of the cat. Experimental Brain Research 58, 134-143.
+BERARDI, N. & MORRONE, M. C. (1984). The role of gamma-aminobutyric acid mediated inhibition in the response properties of cat
+lateral geniculate nucleus neurones. Journal of Physiology 377,
+505-523.
+BERNANDER, 0., DOUGLAS, R. J., MARTIN, K. A. C. & KOCH, C. (1991).
+Synaptic background activity influences spatiotemporal integration
+in single pyramidal cells. Proceedings of the National Academy of
+Sciences of the USA 88, 11569-11573.
+CHATILA, M., MILLERET, C., ROUGEUL, A. & BUSER, P. (1993). Alpha
+rhythm in the cat thalamus. Comptes Rendus de l'Academie des
+Sciences, serie III, Science de la Vie 316, 51-58.
+CRUNELLI, V., KELLY, J. S., LERESCHE, N. & PIRCHIO, M. (1987). The
+ventral and dorsal lateral geniculate nucleus of the rat: intracellular
+recordings in vitro. Journal of Physiology 384, 587-601.
+
+146
+
+S. R. Williams and others
+
+CRUNELLI, V., HABY, M., JASSIK-GERSCHENFELD, D., LERESCHE, N. &
+PIRCHIO, M. (1988). Cl- and K+ -dependent inhibitory postsynaptic
+
+potentials
+
+evoked by interneurones of the rat lateral geniculate
+nucleus. Journal of Physiology 399, 153-176.
+CRUNELLI, V., LIGHTOWLER, S. & POLLARD, C. E. (1989). A T-type
+Ca2+ current underlies low-threshold Ca2+ potentials in cells of the
+cat and rat lateral geniculate nucleus. Journal of Physiology 413,
+543-561.
+CUCCHIARO, J. B., UHLRICH, D. J. & SHERMAN, S. M. (1991).
+Electron-microscopic analysis of synaptic input from the
+perigeniculate nucleus to the A-laminae of the lateral geniculate
+nucleus in cats. Journal of Comparative Neurology 319, 316-336.
+DESCHENES, M., PARADIS, M., ROY, J. P. & STERIADE, M. (1984).
+Electrophysiology of neurons of lateral thalamic nuclei in cat:
+resting properties and burst discharges. Journal of Neurophysiology
+
+51,1196-1219.
+
+FUKUDA, Y., SUMITOMO, I., SUGITANI, M. & IWAMA, K. (1979).
+Receptive-field properties of cells in the dorsal part of the albino
+rat's lateral geniculate nucleus. Japanese Journal of Physiology 29,
+
+283-307.
+GABBOT, P. L.
+
+A., SOMOGYI, J., STEWART, M. G. & HAMORI, J. (1986).
+GABA-immunoreactive neurons in the dorsal lateral geniculate
+nucleus of the rat: characterisation by combined Golgiimpregnation' and immunocytochemistry. Experimental Brain
+Research 61, 311-322.
+GROSSMAN, A., LIBERMAN, A. R. & WEBSTER, K. E. (1973). A Golgi
+study of the rat lateral geniculate nucleus. Journal of Comparative
+Neurology 150, 441-446.
+HALE, P. T., SEFTON, A. J., BAUR, L. A. & COTTEE, L. J. (1982).
+Interrelations of the rat's thalamic reticular and dorsal lateral
+geniculate nuclei. Experimental Brain Research 45, 217-229.
+HAMOS, J. E., VAN HORN, S. C., RACZKOWSKI, D., UHLRICH, D. J. &
+SHERMAN, S. M. (1985). Synaptic connectivity of a local circuit
+neurone in lateral geniculate nucleus of the cat. Nature 317,
+618-621.
+
+HEGGELUND, P. & HARTVEIT, E. (1990). Neurotransmitter receptors
+
+mediating excitatory input to cells in the cat lateral geniculate
+Lagged cells. Journal of Neurophysiology 63,
+
+nucleus. I.
+1347-1372.
+
+HUGUENARD, J. R. & PRINCE, D. A. (1991). Slow inactivation of a
+TEA-sensitive K current in acutely isolated rat thalamic neurons.
+Journal of Neurophysiology 66, 1316-1328.
+HUMPHREY, A. L. & WELLER, R. E. (1988). Structural correlates of
+functionally distinct X-cells in the lateral geniculate nucleus of the
+cat. Journal of Comparative Neurology 268, 448-468.
+JAHNSEN, H. & LLINAS R. (1984). Electrophysiological properties of
+guinea-pig thalamic neurones: an in vitro study. Journal of
+Physiology 349, 205-226.
+JONES, H. E. & SILLITO, A. M. (1994). Responses of cells in the dorsal
+lateral geniculate nucleus (LGN) during inactivation of the
+perigeniculate nucleus. Neuroscience Abstracts 20, 61.12.
+KLINK, R. & ALONSO, A. (1993). Ionic mechanisms for the
+subthreshold oscillations and differential electroresponsiveness of
+medial entorhinal cortex layer II neurons. Journal of
+Neurophysiology 70, 144-157.
+LERESCHE, N. (1992). Synaptic currents in thalamo-cortical neurons
+of the rat lateral geniculate nucleus. European Journal of
+Neuroscience 4, 595-602.
+
+LERESCHE, N., LIGHTOWLER, S., SOLTESZ, I., JASSIK-GERSCHENFELD,
+D. & CRUNELLI, V. (1991). Low-frequency oscillatory activities
+intrinsic to rat and cat thalamocortical cells. Journal of Physiology
+
+441,155-174.
+
+J~Phy8iol. 490.1
+
+LINDSTROM, S. (1982). Synaptic organization of inhibitory pathways
+
+to principle cells in the lateral geniculate nucleus of the cat. Brain
+Research 234, 447-453.
+MCCORMICK, D. A. & PAPE, H.-C. (1988). Acetylcholine inhibits
+identified interneurons in the cat lateral geniculate nucleus. Nature
+334, 246-248.
+MCCORMICK, D. A. & PAPE, H.-C. (1990). Properties of a hyperpolarization-activated cation current and its role in rhythmic
+oscillations in thalamic relay neurones. Journal of Physiology 431,
+291-342.
+MCCORMICK, D. A., PAPE, H.-C., KISVARDY, Z. & EYSEL, U. T. (1992).
+Electrophysiological and pharmacological properties of LGNd
+interneurons. Neuroscience Abstracts 18, 101.1.
+MONTERO, V. M. (1987). Ultrastructural identification of synaptic
+terminals from the axon of type 3 interneurons in the cat lateral
+geniculate nucleus. Journal of Comparative Neurology 264,
+268-283.
+NORTON, T. T. & GODWIN, D. W. (1992). Inhibitory GABAergic control
+of visual signals at the lateral geniculate nucleus. Progress in Brain
+Research 90, 193-217.
+PAPE, H. C., BUDDE, T., MAGER, R. & KISVARDAY, Z. F. (1994).
+Prevention of Ca2+-mediated action potentials in GABAergic local
+circuit neurones of rat thalamus by a transient K+ current. Journal
+of Physiology 478, 403-422.
+POLLARD, C. E. & CRUNELLI, V. (1988). Intrinsic membrane currents
+in projection cells of the cat and rat lateral geniculate nucleus.
+Neuroscience Letters S32, 29.
+OHARA, P. T., LIBERMAN, A. R., HUNT, S. P. & WU, J.-Y. (1983).
+Neural elements containing glutamic acid decarboxylase (GAD) in
+the dorsal lateral geniculate nucleus of the rat: immunohistochemical studies by light and electron microscopy. Neuroscience
+8, 189-211.
+SCHARFMAN, H. E., LU, S.-M., GUIDO, W., ADAMS, P. R. & SHERMAN,
+S. M. (1990). N-methyl-D-aspartate (NMDA) receptors contribute to
+EPSPs of cat lateral geniculate neurons recorded in thalamic slices.
+Proceedings of the National Academy of Sciences of the USA 87,
+4548-4552.
+SILLITO, A. M. & KEMP, J. A. (1983). The influence of GABAergic
+inhibitory processes on the receptive field structure of X and Y cells
+in the cat dorsal lateral geniculate nucleus (dLGN). Brain Research
+277, 63-77.
+SOLTESZ, I., LIGHTOWLER, S., LERESCHE, N. & CRUNELLI, V. (1989).
+On the properties and origin of the GABAB inhibitory postsynaptic
+potential recorded in morphologically identified projection cells of
+the cat dorsal lateral geniculate nucleus. Neuroscience 33, 23-33.
+SPREAFICO, R., SCHMECHEL, D. E. & RUSTIONI, A. (1983). Cortical
+relay neurones and interneurones in the N. ventralis posterolateralis
+of cats: a horseradish peroxidase, electron-microscope, Golgi and
+immunocytochemical study. Journal of Neuroscience 9, 491-509.
+STALEY, K. J., OTIS, T. S. & MODY, I. (1992). Membrane properties of
+dentate gyrus granule cells - comparison of sharp microelectrodes
+and whole-cell recordings. Journal of Neurophysiology 67,
+1346-1358.
+STERIADE, M., CURRO DOSSI, R., PARE, D. & OAKSON, G. (1991). Fast
+oscillations (20-40 Hz) in thalamocortical systems and their
+potentiation by mesopontine chloinergic nuclei in the cat.
+Proceedings of the National Academy of Sciences of the USA 88,
+4396-4400.
+STERIADE, M., CURRO DOSSI, R. & NUNEZ, A. (1991). Network
+modulation of a slow intrinsic oscillation of cat thalamocortical
+neurons implicated in sleep delta waves: cortical induced
+synchronization and brainstem cholinergic suppression. Journal of
+Neuroscience 11, 3200-3217.
+
+J Physiol.490.1
+
+Interneurones of the dLGN
+
+STERIADE, M., DESCHENES, M., DOMICH, L. & MULLE, C. (1985).
+Abolition of spindle oscillations in thalamic neurons disconnected
+from nucleus reticularis thalami. Journal of Neurophysiology 54,
+1473-1497.
+TURNER, J. P., LERESCHE, N., GUYON, A., SOLTESZ, I. & CRUNELLI, V.
+(1994). Sensory input and burst firing output of rat and cat
+thalamocortical cells: the role of NMDA and non-NMDA receptors.
+Journal of Physiology 480, 281-295.
+WHITTINGTON, M. A., TRAUB, R. D. & JEFFERYS, J. G. R. (1995).
+Synchronized oscillations in interneuron networks driven by
+metabotropic glutamate receptor activation. Nature 373, 612-615.
+WILLIAMS, S. R., ANDERSON, C. M. & CRUNELLI, V. (1995a).
+Electrophysiological and morphological properties of local circuit
+interneurones of the rat dorsal lateral geniculate nucleus in vitro.
+Journal of Physiology 483.P, 58P.
+WILLIAMS, S. R., TURNER, J. P. & CRUNELLI, V. (1994).
+Pharmacological and electrophysiological properties of local circuit
+interneurones in brain slices of the rat dorsal lateral geniculate
+nucleus. Neuroscience Abstracts 20, 10.9.
+WILLIAMS, S. R., TURNER, J. P. & CRUNELLI, V. (1995b). Gammahydroxybutyrate promotes oscillatory activity of rat and cat
+thalamocortical neurons by a tonic GABAB receptor-mediated
+hyperpola'ization. Neuroscience 66, 133-143.
+.
+
+Acknowledgements
+We would like to thank Mr Tim Gould for help with anatomical
+recovery and the manufacture of iontophoresis electrodes, Mr Bob
+Jones for photography, Dr Andy Schering for his advice on
+anatomical techniques and Dr Pedro Lowenstein for the use of
+equipment. The support of the Wellcome Trust (grant 37089) is
+gratefully acknowledged. S.R.W. was supported by a Wellcome
+Prize Studentship.
+
+Received 17 March 1995; accepted 5 July 1995.
+
+147
+
+
