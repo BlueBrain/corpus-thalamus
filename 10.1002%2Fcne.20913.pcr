@@ -11,9 +11,69 @@
             "text": "Stable intracellular recordings from cells in\nparalaminar nuclei could last for several hours, and resting\nmembrane potentials (\u201365 \u0005 6.7 mV) were not significantly\ndifferent from those of cells in MGV and MGD that\nwe previously reported (\u201362.2 \u0005 8.8 mV).",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-010002",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "mV",
+                                    "values": [
+                                        -62.2
+                                    ]
+                                },
+                                {
+                                    "statistic": "sd",
+                                    "type": "simple",
+                                    "unit": "mV",
+                                    "values": [
+                                        8.8
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "f10b879c-fa48-11e5-b687-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamocortical cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
         "pubId": "10.1002/cne.20913",
-        "tags": [],
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1276",
+                "name": "Paralaminar part of medial dorsal nucleus"
+            },
+            {
+                "id": "NIFGA:birnlex_1608",
+                "name": "Dorsal nucleus of medial geniculate body"
+            },
+            {
+                "id": "NIFGA:birnlex_845",
+                "name": "Ventral nucleus of medial geniculate body"
+            },
+            {
+                "id": "NIFGA:birnlex_1670",
+                "name": "Medial geniculate body"
+            }
+        ],
         "version": "1"
     }
 ]
