@@ -388,5 +388,32 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "e2c2dd38-fa5d-11e5-94de-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "2",
+            "noCol": "3",
+            "noRow": "7",
+            "type": "table"
+        },
+        "parameters": [],
+        "pubId": "PMID_10322042",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            }
+        ],
+        "version": "1"
     }
 ]
