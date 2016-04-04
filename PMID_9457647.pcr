@@ -71,5 +71,32 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "ab365436-fa3e-11e5-bf38-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "2",
+            "noCol": "2 [Total]",
+            "noRow": "4 [AP threshold]",
+            "type": "table"
+        },
+        "parameters": [],
+        "pubId": "PMID_9457647",
+        "tags": [
+            {
+                "id": "NCBITaxon:9685",
+                "name": "Felis catus"
+            },
+            {
+                "id": "NIFGA:birnlex_1116",
+                "name": "Ventral posterior nucleus"
+            }
+        ],
+        "version": "1"
     }
 ]
