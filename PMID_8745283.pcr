@@ -32,5 +32,47 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "762c9d8e-fa59-11e5-b687-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 21140,
+            "text": "The resting potential of interneurones (-52 + 1 mV, n = 24) was found to be significantly (P < 0 05, T= 9 09) more positive than that of TC neurones (-63 + 1 mV, n = 30).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_8745283",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "PATO:0000384",
+                "name": "male"
+            },
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "PATO:0000384",
+                "name": "male"
+            },
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            }
+        ],
+        "version": "1"
     }
 ]
