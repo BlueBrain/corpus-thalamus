@@ -154,7 +154,54 @@
             "text": "The input\nresistance of interneurones (164 + 15 MQ, n = 13),\ncalculated by taking the maximal slope of steady-state\nvoltage-current relationships, was not significantly\ndifferent (P > 0 05, T= 0 74) from that of TC neurones\n(180 + 15 MQ, n = 19).",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-990018",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "MOhm",
+                                    "values": [
+                                        164
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "MOhm",
+                                    "values": [
+                                        15
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        13
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "24614cf6-fa5a-11e5-b687-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus interneuron small",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
         "pubId": "PMID_8745283",
         "tags": [
             {
