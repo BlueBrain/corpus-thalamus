@@ -140,5 +140,35 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "12b5b7a4-fa4a-11e5-b687-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 27133,
+            "text": "as were their input\nresistances (82.6 \u0005 49.6 m\u0003",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1002/cne.20913",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1276",
+                "name": "Paralaminar part of medial dorsal nucleus"
+            }
+        ],
+        "version": "1"
     }
 ]
