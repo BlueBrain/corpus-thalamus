@@ -1,0 +1,2641 @@
+6864
+
+Journal of Physiology (1997), 505.3, pp.707-726
+
+Morphology and membrane properties of neurones in the cat
+ventrobasal thalamus in vitro
+Jonathan P. Turner, Caroline M. Anderson, Stephen R. Williams
+and Vincenzo Crunelli *
+Physiology Unit, School of Molecular and Medical Biosciences, University of Wales Cardiff
+Museum Avenue, Cardiff CF1 1SS, UK
+1.
+
+2.
+
+3.
+
+The morphological (n = 66) and electrophysiological (n = 41) properties of eighty-six
+thalamocortical (TC) neurones and those of one interneurone in the cat ventrobasal (VB)
+thalamus were examined using an in vitro slice preparation. The resting membrane potential
+for thirty-seven TC neurones was -61P9 + 0 7 mV, with thirteen neurones exhibiting delta
+oscillation with and without DC injection.
+The voltage-current relationships of TC neurones were highly non-linear, with a mean peak
+input resistance of 254-4 MQ and a mean steady-state input resistance of 80-6 MQ. between
+-60 and -75 mV. At potentials more positive than -60 mV, outward rectification led to a
+mean steady-state input resistance of 13-3 MQ. At potentials more negative than -75 mV,
+there was inward rectification, consisting of a fast component leading to a mean peak input
+resistance of 14-5 MQ, and a slow time-dependent component leading to a mean steadystate input resistance of 10-6 MQ2.
+Above -60 mV, three types of firing were exhibited by TC neurones. The first was an
+accelerating pattern associated with little spike broadening and a late component in the
+spike after-hyperpolarization. The second was an accommodating or intermittent pattern
+associated with spike broadening, while the third was a burst-suppressed pattern of firing
+also associated with spike broadening, but with broader spikes of a smaller amplitude. All
+TC neurones evoked high frequency (310-520 Hz) burst firing mediated by a low threshold
+
+Ca2+ potential.
+4. Morphologically TC neurones were divided into two groups: Type I (n = 31 neurones) which
+had larger soma, dendritic arbors that occupied more space, thicker primary dendrites and
+daughter dendrites that followed a more direct course than Type II (n = 35). The only
+electrophysiological differences were that Type I neurones (n = 16) had smaller peak input
+and outward rectification resistance and spike after-hyperpolarization, but greater peak
+inward rectification resistance, and exhibited delta oscillation less often than Type II
+
+(n= 13).
+5.
+
+6.
+
+7.
+
+The morphologically identified interneurone exhibited no outward rectification, only
+moderate inward rectification, and no high frequency firing associated with the offset of
+negative current steps below -55 mV. This interneurone had a regular accommodating firing
+pattern, but the spike after-hyperpolarization had a late component, unlike the
+accommodating firing in TC neurones.
+Therefore, the differentiation of TC neuronal types in the cat VB thalamus based on their
+morphology was reflected by differences in peak input resistance, outward rectification and
+spike after-hyperpolarization, which could be accounted for by their difference in soma size.
+More importantly, the firing pattern of the majority of TC neurones in the cat VB thalamus
+were different from those of TC neurones in other sensory thalamic nuclei.
+Thalamocortical neurones in the cat VB thalamus were also clearly distinguishable from the
+interneurone based on the presence of their prominent outward rectification, peak inward
+rectification and robust low threshold Ca2' potentials.
+*
+
+To whom correspondence should be addressed.
+
+707
+
+708
+
+J P Turner, C. M. Anderson, S. R. Williams and V Crunelli
+
+The ventrobasal (VB) thalamus, the primary somatosensory
+region of the thalamus, consists of the ventral posterior
+medial (VPM) and ventral posterior lateral (VPL) nuclei,
+and contains small and large thalamocortical (TC) neurones
+projecting to layers 1 and 2 and layers 4 and 5 of the
+somatosensory cortex, respectively (Penny, Itoh & Diamond,
+1982; Rausell & Avendanjo, 1985), and local circuit
+interneurones (Spreafico, Schmechel, Ellis & Rustioni,
+1983a; Yen, Conley & Jones, 1985). A large number of in
+
+vivo and in vitro studies has also investigated the electrical
+behaviour of VB neurones with respect to its role in
+somatosensory processing (Salt, 1986; Gottshalt, VahleHinz & Hicks, 1989), sleep rhythms (Steriade, Jones &
+Llinas, 1990) and absence epilepsy (Prince & Farrell, 1969;
+Huguenard & Prince, 1994), and, in particular, this nuclear
+complex is one of the main thalamic sites to record activity
+associated with delta waves during slow wave sleep
+(Steriade & Contreras, 1995) and with the spike and wave
+discharge of absence epilepsy (Avoli & Gloor, 1982; Vergnes,
+Marescaux & Depaulis, 1990). However, no systematic
+analysis of the subthreshold membrane properties and firing
+patterns of TC neurones and interneurones in the VB has
+been carried out so far, and, in view of recent findings, it
+would be inappropriate to deduce this information by a
+simple process of analogy from similar neuronal types in
+other thalamic nuclear groups. In fact, although the original
+electrophysiological studies on the membrane properties of
+TC neurones had indicated a large degree of similarity
+across nuclei and species (Jahnsen & Llina's, 1984a,b;
+Deschenes, Paradis, Roy & Steriade, 1984; Jones, 1985),
+clear differences have also been highlighted by recent
+investigations. In particular, intracellular recording in vivo
+has indicated that there are differences between intralaminar and sensory thalamic nuclear groups (Steriade,
+Curro-Dossi & Contreras, 1993), and the inward rectifying
+current 'h has been shown to be absent from TC neurones of
+the dorsal medial geniculate nucleus (Hu, 1995), unlike the
+ventral medial geniculate nucleus and other thalamic nuclei
+(McCormick & Pape, 1990; Hu, 1995). In addition, within
+each thalamic nucleus, electrophysiological analysis using
+intracellular current clamp recordings in vitro has shown
+that TC neurones and interneurones are distinguishable on
+the basis of their membrane properties (Jahnsen & Llina's,
+1984a; Deschenes et al. 1984; Pape & McCormick, 1995;
+Williams, Turner, Anderson & Crunelli, 1996), although in
+the dorsal lateral geniculate nucleus (dLGN) this distinction
+between TC neurones and interneurones is less clear under
+voltage clamp conditions, since it merely reflects the
+differences in the size and/or the voltage dependence of
+some of their intrinsic ionic conductances (Pape, Budde,
+Alager & Kisvarday, 1994).
+The aim of the present study, therefore, was to examine the
+membrane and firing properties of neurones in the cat VB
+thalamus and, by ascertaining their morphology, to
+compare these properties for small and large TC neurones.
+The findings presented here, and in the accompanying
+
+J Physiol. 505.3
+
+papers (Williams, T6th, Turner, Hughes & Crunelli, 1997 a;
+Williams, Turner, Hughes & Crunelli, 1997 b), clearly
+indicate the presence of important differences and similarities
+with other thalamic nuclei and between large and small TC
+neurones within the VB. Some of these results have been
+published in preliminary form (Turner, Anderson &
+Crunelli, 1994).
+
+METHODS
+Preparation of cat VB thalamic slices
+Young adult male and female cats (1-1P5 kg) were deeply
+anaesthetized with a mixture of 02 and NO2 (2: 1) and 1 %
+halothane. The top of the skull was exposed, a wide craniotomy
+performed and the meninges were removed. The animals were
+killed by a coronal cut at the level of the inferior colliculus, and,
+following transection of the optic tracts, the brain was removed and
+submerged in ice-cold (1-4 0C) oxygenated (95% 02-5% C02)
+modified Krebs medium containing (mM): KCl, 5; KH2P04, 1 25;
+MgSO4, 5; CaC12, 1; NaHCO3, 16; glucose, 10; sucrose, 250. The
+brain was bisected along the mid-line and each half was trimmed
+dorsally, laterally and rostrally to generate a block of tissue
+containing the whole thalamus. Each block was then affixed,
+ventral surface uppermost, to the cutting stage of a Vibroslice
+(Campden Instruments) with cyanoacrylate adhesive and trimmed
+until the ventral surface of the VB was visible, at the level of the
+anterior commisure (see plate 148 of Berman & Jones, 1982).
+Horizontal sections 500 /um thick were then cut and slices of VB
+thalamus prepared by excising the more lateral regions of the main
+thalamic field corresponding to the VPL and VPM thalamic nuclei
+plus the adjacent nucleus reticularis thalami and internal capsule
+(see plates 144-148 of Berman & Jones, 1982; see also pp. 292-293
+of Spreafico, Whitsel, Rustioni & McKenna, 1983 b). The
+preparation of slices was stopped once the ventral surface of the
+dLGN was reached (see plate 143 of Berman & Jones, 1982), as the
+presence of the VB thalamus was no longer certain. These slices
+were then placed in a storage chamber containing a continuously
+oxygenated (95% 02-5% C02) Krebs medium, in which 134 mm
+NaCl replaced the sucrose, and maintained at room temperature
+(20-22 0C).
+Recording procedures
+Slices were left in the storage chamber for at least 1 h before being
+transferred to a recording chamber where they were perfused with
+a continuously oxygenated (95% 02-5% C02) medium of similar
+composition, but with 1 mm MgSO4 plus 2 mm CaC12 replacing the
+5 mM MgSO4 plus 1 mm CaCl2, respectively. This medium also
+contained the excitatory amino acid antagonists D,L-2-amino-5phosphonovaleric acid (APV, 100 /,M), 6-cyano-7-nitroquinoxaline2,3-dione (CNQX, 20 ,UM), 1-(4-aminophenyl)-4-methyl-7,8methylenedioxy-5H-2,3-benzodiazepine (GYKI 52466, 100 ,uM)
+and (5R,10S)4+)-5-methyl-10,1 1 -dihydro-5H-dibenzo[a,d]-cyclohepten-5,10-imine hydrogen malate (MK 801, 10 uM), and the
+inhibitory amino acid antagonists bicuculline methiodide (50 UM)
+and 3-aminopropyl-(diethoxymethyl)-phosphonic acid (CGP 35348,
+500 /M) so that synaptic transmission mediated by ionotropic
+L-glutamate, GABAA and GABAB receptors would not influence the
+properties of recorded neurones. Slices were maintained at a
+temperature of 35 + 1 0C, and left for a further 1 h before
+recording commenced.
+In order to obtain full voltage-current plots and firing patterns
+using the current clamp technique, thin-walled glass micro-
+
+J Physiol. 505.3
+
+Properties of ventrobasal thalamic neuron es
+
+electrodes (GC 120TF; Clark Electromedical Instruments) filled
+xwith 1 M potassium acetate (30-60 MQ2) were used. Biocytin (2%)
+wras included in the intracellular recording solution, so that impaled
+neurones could be subsequently identified. Preliminary intracellular
+recordings made with standard walled glass (GC 120F, Clark
+Electromedical Instruments) filled with 1 M potassium acetate
+(70-100 MQ) were excluded on the grounds that the pronounced
+inward and outward rectification of the recorded VB TC neurones
+may, in part, have been the result of electrode artifacts in some
+cases. Note, however, that the interneurone was recorded using a
+standard walled glass microelectrode. Upon amplification with the
+Axoclamp-2A, voltage and current records were stored on a
+Biologic DAT recorder and later analysed with pCLAMIP software,
+having been digitized at 1-100 kHz via a DigiData 1200 interface.
+
+Identification of neuronal types
+The criteria for the identification of TC and interneurones were
+similar to those described previously for the dLGN (Crunelli, Kelly,
+Leresche & Pirchio, 1987 a; Crunelli, Leresche & Parnavelas, 1987 b;
+Pape & McCormick, 1995; Williams et al. 1996). Thus, the TC
+neurones were characterized using two features of their membrane
+properties. The first was a robust low threshold CaP+ potential
+(LTCP) which could be evoked by the injection of either positive or
+negative current steps, when the membrane potential was held
+more negative than -65 mV. The second was the biphasic inward
+rectification of the voltage-current relationship at membrane
+potentials more negative than -75 mV, with a characteristic timedependent depolarizing 'sag' of the membrane potential, and the
+outward rectification at inembrane potentials more positive than
+-55 mV. The validity of this method was confirmed following the
+recovery of these neurones for histological analysis, since they all
+had morphologies similar to those identified in previous anatomical
+studies (Spreafico et al. 1983a; Yen et al. 1985; Nomura, Nishikawa
+&Yokota, 1992).
+Analysis of membrane properties
+The parameters of the voltage-current relationship used in this
+study were determined from voltage responses to current steps over
+the range -90 to -40 mV. In order to avoid the generation of a
+LTCP by positive current steps during the determination of the
+voltage-current relationship or the appearance of delta oscillation,
+the membrane potential of most neurones was depolarized by DC
+injection until the LTCP was no longer evoked by positive current
+steps. The voltage responses were then measured at their peak
+
+709
+
+deflection during, and at the apparent steady-state 10 ms before
+the offset of, the current steps. Once the two curves for the peak
+(Fig. 1, open circles) and steady-state (Fig. 1, filled circles)
+voltage-current relationship had been constructed, the slope
+resistance was measured by fitting regression lines to the regions of
+interest (Fig. 1). The voltage limits (Fig. 1, points 3 and 4) for the
+steep region of peak input resistance were determined from the
+points at which the peak voltage-current relationship deviated
+from the regression line (Fig. 1, line 1) fitted to the steep region.
+Biocytin injection and anatomical procedures
+The injection of biocytin into neurones was accomplished without
+using an ejection protocol (Williams et al. 1996). The location of
+each filled neurone was recorded on outline drawings of the brain
+slice. Two neurones per slice were routinely filled, separated by
+sufficient space to allow subsequent unequivocal identification of
+their dendritic field and appendages during morphological analysis.
+The histological processing was performed as described previously
+(Williams et al. 1996). The morphology of the stained neurones was
+examined using light microscopy and measurements of somal and
+dendritic area were made from camera lucida reconstructions made
+at x 1300 and x 200, respectively. Somal and dendritic areas were
+calculated according to the methods described by Spreafico et al.
+(1983a) where the area (A) is calculated from A = nab, where a and
+b are the minimum and maximum radii, respectively. Dendritic
+field density analysis was performed by counting the number of
+dendritic branches every 20 ,m, using the method of Sholl (1953).
+Illustrated TC neurone reconstructions were made at a magnification
+of x 625 and the interneurone reconstruction at x 1300.
+Statistics and drug sources
+Quantitative results are expressed in the text and figures as
+means + S.E.M. or means with the range in parentheses, depending
+on whether the data were normally distributed or not
+(Kolmogorov-Smirnov test, SigmaStat). Significance was tested
+using either Student's t test or the paired t test, depending on the
+experimental design, if the data were normally distributed, or the
+MIann-XVhitney U test if they were not. CNQX and APV were
+purchased from Tocris Cookson; MK 801 was from RBI and
+bicuculline methiodide from Sigma. CGP 35348 was a kind gift
+from Dr W. Froestl (Ciba-Geigy, Switzerland) and GYKI 52466 a
+kind gift from Dr I. Tarnawa (Institute for Drug Research,
+Budapest).
+
+MEMBRANE
+POTENTIAL (mV)
+
+Figure 1. Analysis of the subthreshold membrane
+properties of TC neurones
+A, typical voltage-current relationships of a VB TC neurone.
+One curve was obtained by measuring the peak voltage
+deflection during injection of positive and negative current
+steps and represents the peak voltage-current relationship
+(0); the other curve was obtained by measuring the voltage
+deflection at the apparent steady-state, 10 ms before the offset
+of the current steps, and represents the steady-state
+voltage-current relationship (0). 1 and 2, peak and steadystate input resistances, respectively. 3 and 4, upper and lower
+voltage limits, respectively, of the steep region of the peak
+voltage-current relationship. 5 and 6, peak and steady-state
+inward rectification resistances, respectively. 7, steady-state
+outward rectification resistance.
+
+r- -30
+7
+
+--40
+--50
+
+3
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+--60
+
+-
+
+6~~~~~
+
+i
+
+-
+
+--70
+
+-4
+
+-
+
+- -80
+-
+
+-90
+
+L -100
+TI
+-
+
+1.0
+
+-0.5
+
+0.0
+
+0.5
+
+INJECTED CURRENT (nA)
+
+1.0
+
+J P Turner, C. M. Anderson, S. R. Williams and V Crunelli
+
+710
+
+RESULTS
+Intracellular recordings were obtained from a total of
+eighty-seven neurones in the cat VB thalamus. From these
+recordings, forty-one neurones were selected since only
+these contained all the electrophysiological data sufficient to
+construct the database for the TC neurones in this study. Of
+these forty-one neurones, twenty-nine could be visualized
+sufficiently well following histological processing and,
+without exception, these neurones were identified as being
+TC neurones. These twenty-nine neurones therefore
+represent the database of neurones for which we had
+complete electrophysiological and morphological data. A
+further thirty-seven TC neurones were sufficiently well-
+
+filled for morphological analysis to be performed, although
+their electrophysiological data were incomplete. Only for
+one recovered neurone with properties similar to VB
+interneurones was the complete set of electrophysiological
+data available. The locations of all the recorded neurones
+were within the boundaries of the VB thalamus (Fig. 2). No
+attempt was made to distinguish the shell (nociceptive and
+wide dynamic range units) and core (low threshold
+mechanoreceptive) regions, since a previous study had
+indicated no difference in the morphology of the neuronal
+types found in these regions (Spreafico et al. 1983a; Yen et
+al. 1985; Nomura et al. 1992).
+
+0
+
+0-5
+
+1*0
+
+1-5
+
+A
+LIA
+
+0
+
+J Physiol. 505.3
+
+L
+2 mm
+
+Figure 2. Location, in the cat VB thalamus, of the morphologically identified neurones with
+complete set of electrophysiological data
+Diagramatic representations of the distinguishable territories in the cat ventral thalamus (see Berman &
+Jones, 1982; Spreafico et al. 1983b) illustrate the position of the forty-one TC neurones (0) and the one
+interneurone (A) for which a complete set of electrophysiological data was available. Values above each
+drawing are the levels (in mm) at which sections were taken during the preparation of the brain slices and
+correspond to those of Spreafico et al. (1983b). Neurones were recorded from both core and shell regions,
+and the VPL nucleus, which make up the central and lateral part of the VB thalamus, respectively.
+Abbreviations: CM, centre median nucleus; FTC, central tegmental field; IC, internal capsule; MGN,
+medial geniculate nucleus; MGNM, medial geniculate nucleus medial magnocellular region; NRT, nucleus
+reticularis thalami; PA, pretectal area; PAC, paracentral nucleus; POM, medial posterior complex; POL,
+lateral posterior complex; VA, ventral anterior nucleus; VL, ventral lateral nucleus; VM, ventral medial
+nucleus; VPL, ventral posteriolateral nucleus; VPM, ventral posteriomedial nucleus. A, anterior; L, lateral.
+
+Properties of ventrobasal thalamic neurones
+
+J Physiol. 505.3
+
+711
+
+B
+
+A
+
+o
+
+N.
+
+b
+
+b
+
+J~~~~
+
+~ ~~~~~~~~~~~~~~~
+
+Figure 3. Morphological classification of TC neurones in the cat VB thalamus
+A, camera lucida reconstructions of biocytin-injected TC neurones classified as Type I (a), Type II a (b) and
+Type JIb (c). The calibration bar (50 /um) in Ac also applies to A a and b. Ba, photomicrographs of the
+dendritic field to illustrate the higher order branching to the periphery (upper panel) and the direct course
+taken by the dendrites (lower panel) of the Type I neurone in Aa. Bb, photomicrograph of the lower left
+quadrant of the dendritic field of the Type IIla neurone in Ab illustrating the tortuous course of distal
+dendrites with multiple bifurcations proximal to the soma. Bc, photomicrograph showing the course and
+structure of the dendrites of the Type II b neurone in Ac. The calibration bar (50 ,tm) in Bb applies also to
+Ba and c.
+
+J P Turner, C. M. Anderson, S. R. Williams and V Crunelli
+
+712
+
+J Physiol. 505.3
+
+Table 1. Morphological parameters of TO neurones from the cat VB thalamus
+
+(#m2)
+
+Dendritic
+field area
+(mm2)
+
+Type I (n = 31)
+
+554
+
+0'147 + 0 007
+
+(0-081-0-228)
+
+Type II (n = 35)
+
+(259-1090)
+378 + 16d
+
+Soma area
+
+Type Ila (n = 7)
+Type JIb (n = 28)
+
+0101 + 0004d
+(0-065-0-174)
+0'095 + 0 008c
+(0-068-0-121)
+0-102 + 0.005d
+(0-065-0-174)
+
+(210-598)
+395a
+(261-592)
+374 + 18d
+(210-598)
+
+Primary dendrite parameters
+Diameter
+Cesm)
+
+Length
+(Um)
+
+6-3
+
+4-5
+
+(4-11)
+
+(3-1-7-9)
+3.ld
+(1P8-5-0)
+
+15-7 + 0 7
+(7 5-25 3)
+17-1
+(9 4-36 7)
+22-7 + 3.2a
+(14-5-36-7)
+15-6 + 0.9e
+(9 4-29 3)
+
+Number
+
+5-8
+(3-9)
+5.la
+(4-6)
+6-0
+(3-9)
+
+3'0 + 0-4b
+(1-8-5-0)
+3-1 + 02d
+
+(1P8-4-8)
+
+Values expressed as means only indicate that the data were not normally distributed. ap< 0.05,
+with Type I. ep= 005 compared with Type IIa
+(Mann-Whitney U test).
+
+bp< 0.005, cp= 0'001, dp< 0.001 compared
+
+The classification of neurones in the cat VB
+thalamus
+
+luxuriant and extensive dendritic arborization, as described
+by Spreafico et al. (1983a).
+
+Three types of neurone were identified qualitatively in this
+study using criteria developed from previous descriptions of
+their dendritic morphology (Spreafico et al. 1983a; Yen et al.
+1985): two classes of TC neurones, and a local circuit
+interneurone. The TC neurones were divided into two
+groups since the dendritic fields of Type I (n = 31),
+compared with those of Type II (n = 35), were typically
+less spatially compact, had a less tortuous course, the
+terminal dendritic branch points occurred further from the
+soma, and the diameter of the primary dendrites was
+greater, than for Type II (n = 35). No other primary
+dendritic characteristics were used, including the previously
+described 'tufting' and 'bifurcating' patterns of primary
+dendritic division (Yen et al. 1985), since tufting was rarely
+observed. The interneurone had a small round soma with a
+
+The morphology of TC neurones
+
+15
+
+-
+
+z C
+< Z
+ry Li 10
+m o
+
+-
+
+I)
+
+Somatic and primary dendritic features of TC neurones.
+The soma of Type I TC neurones were generally polygonal
+in shape, and occasionally were 'hairy' in appearance, while
+those of Type II were smaller (Table 1), more spherical and
+had a smooth appearance (Fig. 3Aa and Ba), as described
+previously (Spreafico et al. 1983; Yen et al. 1985). This
+second group was split into two subtypes based on the
+length of the proximal dendrites (Table 1): Type IIa and
+Type II b. Type II a (n = 7) possessed at least four large
+primary dendrites (Fig. 3Ab), usually arising from opposing
+quadrants, which branched profusely and matched the
+previous description of 'small round' neurones (Spreafico et
+al. 1983), while Type IIb (n = 28) had shorter primary
+dendrites (Table 1) which branched much less profusely
+
+.*
+
+Ix >-
+
+o055
+
+Z) ay
+<00
+0 tY
+. LLJ
+0 L
+z
+
+0-
+
+0
+
+50
+
+100
+
+150
+
+DISTANCE FROM SOMA
+
+200
+
+250
+
+(AM)
+
+Figure 4. Dendritic branches in Type I and Type II TC neurones
+The graph shows the significantly greater number of daughter dendritc branches per primary dendrite at a
+distance of between 160 and 180 ,usm from the soma for seven Type I (O) compared with six Type 11 (0) TC
+neurones. Bars represent the S.E.M. *P < 0 05, Student's t test.
+
+J
+
+J Pliysiol. 505.3
+Phy8iol. 505.3
+
+Properties of ventrobasal tihalamic neurones71
+
+713
+
+B~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.C
+
+D
+
+&~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~.........
+
+Figure
+5
+Dendritic appendages~~~~~~~~~~~~~~~~~~~~~~~~~~..
+asscitedwih.Cn.rnesinth cat. YB thalamus.......
+A photomicrograph of a Type I neurone
+shox~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ing
+appendages around primary secondary and tertiary~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~3
+branch pointsand
+how their density increases towards the periphery. B, photomicrograph
+from
+thesame~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~........
+Type I neuroneas
+in A shows how the dendrites appear 'hairy' along their course, and of~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~.....
+the
+presence
+small round studs close to the dendritic surface. G, in another Type I neurone, appendages
+appear
+at~~~~~~~~~~~~~~...
+secondary and tertiary branch points on these smooth dendrites, but exhibit a more pronounced stalk...
+D, photomicrograph
+of a Type I TC neurone whose finer calibre dendrites follow a directare~~~~~~~~~~~~~~~~
+path and
+devoid of appendages. E, photomicrograph showing appendages on the distal dendrites
+II~~~~~~~~~~~~~~~~~~~~~~~~......
+of
+Type
+a
+
+neurones.Tcalibration
+he
+bar in D (20 ~ ~ ~ ~ ~ ~ ~ ~ ~ ~sm) applies also to A-C
+E.~~~.........
+and
+
+714
+
+J P Turner, C. M. Anderson, S. R. Williams and V Crunelli
+
+(Fig. 3Ac). The primary dendrites of Type I TC neurones
+were of similar length to Type IIb but shorter than
+Type II a, and of larger diameter than both Type II
+subtypes. The secondary dendrites of Type I TC neurones
+showed little change in calibre compared with those of
+Type II, which were finer than their primaries (Table 1).
+Distal dendritic features of TC neurones. The dendritic
+fields of Type I TC neurones were larger than that of
+Type II (Table 1), and the distal dendritric morphology of
+
+Type I neurones (Fig. 3A) was characterized by being less
+spatially compact with dendritic calibre being maintained,
+following bifurcation, over a larger part of the dendritic field
+compared with that of Type II. In addition, the terminal
+branch point of Type I TC neurones occurred more distally
+than Type II, so that the distal dendrites made up a smaller
+proportion of total dendritic length, and so Type I neurones
+had a larger number of dendritic branches per dendritic
+arbor at 160-180 jum from the soma (Fig. 4).
+
+A
+
+B
+
+J: Phy8iol. 505.3
+
+C
+
+Figure 6. Morphology of an interneurone from the cat VB thalamus
+A, camera lucida reconstruction showing the full extent of the dendritic/axonal arborization of a VB
+interneurone within the 500 jum thick slice. Calibration bar, 100 jum. B, photomicrograph showing the lack
+of large diameter dendrites and the soma surrounded by an abundance of fine, tortuous appendages.
+Calibration bar, 50 jum. C, photomicrograph illustrating the profusion of short stud-like protrusions along
+the dendritic length and the varicosed nature of the axon. Calibration bar, 20 ,um.
+
+J Physiol. 505.3
+
+Propertie8 of ventrobasal thalamic neurones
+
+715
+
+Table 2. Summary of the subthreshold electrophysiological properties of TC neurones from the cat
+VB thalamus
+-Osc
+(n= 28)
+
+Total
+(n=41)
+No. oscillations
+
+Resting Vm
+
+(mV)
+
+AP threshold
+Peak Ri,
+
+(mV)
+(MQ)
+
+Steady-state Ri,
+
+(MQ.)
+
+Upper Rin limit
+Lower Rin limit
+Peak IR slope resistance
+
+(mV)
+(mV)
+(MQ)
+
+Steady-state IR slope resistance
+
+3
+
+5
+
+(18.8%)
+
+(38-5%)
+
+-63-2 + 1.2a
+(n=14)
+-43-2 + 0-6
+
+-61-2 + 1t4a
+(n=11)
+-42-1 + 0-8
+3724C
+(111 2-995-3)
+
+-42-4 + 0 4
+
+254.4b
+(48 9-995 3)
+(n= 40)
+80*6b
+
+-62-6 + 0-8
+-42-6 + 0-6
+1887 b
+(48-9-511 6)
+(n=27)
+
+75.2b
+(31-0-238-7)
+
+(n=40)
+
+(n=27)
+
+-59-8 + 0 4
+-75-5 + 1P3
+14-5
+(8&2-37 8)
+10-6
+(4-1-24-2)
+
+-60-3 + 0-6
+-75-4 + 1-8
+5-2
+(8 2-37 8)
+9-6
+(4-1-24-2)
+0 40 + 0 03
+
+13-3 + 1 11
+
+12-2 + 0 9
+
+-59-4 + 1 3a
+(n=9)
+-41P9 + 0-6
+390.9c
+(126-2-995-3)
+91-9
+(40-4-193-0)
+
+134n1b
+(48 9-269 8)
+(n=15)
+66.5b
+(31 0-139-5)
+
+105-4
+(35 3-238 7)
+
+(n=15)
+-58-6 + 0 7
+-75-5 + 0 9
+13-1
+(10-3-18-0)
+
+12.7c
+(7 4-23 0)
+
+(n =28)
+(MQ2)
+
+Type II
+(n= 13)
+
+13
+
+IR regression sloped
+
+Steady-state OR slope resistance
+
+Type I
+(n= 16)
+
+(31 7%)
+-61-9 + 0o7a
+(n=37)
+
+(31P0-238-7)
+
+(MQ.)
+
++Osc
+(n= 13)
+
+15-8 + 2-9
+
+-59-8 + 0 7
+-75-1 + 1 1
+17-5
+(8 2-37 8)
+9.9
+(4 1-19-7)
+0-41 + 0 04
+(n =13)
+10-5 + 1-2
+
+-59 4 + 0-6
+-74-5 + 0 9
+
+12.5c
+(8-8-17-9)
+
+11P7
+(4 4-24 2)
+0 35 + 0-06
+(n =8)
+16-2 + 2.4c
+
+Values expressed as means only (range in parentheses) indicate that the data were not normally distributed.
+Osc, oscillation. Vm, membrane potential; AP, action potential; Rin, input resistance; IR and OR, inward
+and outward rectification, respectively. a Some neurones exhibited delta oscillation in the absence of injected
+DC. b One neurone exhibited bistability in the voltage-current relationship. cp < 0-05 (student's t test or
+Mann-Whitney U test). The regression slopes for the relationship between the amplitude of the
+
+depolarizing sag versus the peak voltage response during negative current steps.
+
+The dendritic paths of Type I TC neurones varied from
+those which were tortuous yet quite direct (Fig. 3Aa and b),
+to a completely straight course (Fig. 5D), coincident with a
+finer dendritic calibre and smooth appearance. In contrast,
+Type II were typified by a sinuous path with tortuous
+twists, providing the appearance of a 'knot' of dendrites
+
+(Fig. 3Ba, Bb, Ca and Cb) as daughters emerged at oblique
+angles.
+For both Type I and II TC neurones with tortuous dendritic
+paths, stud-like appendages were observed singly or in
+clusters, proximal to primary, secondary or tertiary branch
+points (Fig. 5A-C and E). Those Type I TC neurones with
+tortuous dendritic paths also had short hair-like protrusions,
+which increased in density towards the periphery of the
+dendritic field, and which, in a few cases, were also present
+on the soma, lending these neurones their hairy appearance
+(Fig. 3Aa). In contrast, Type I TC neurones with smooth
+straight dendrites had no appendages at all (Fig. 5D).
+
+The morphology of an interneurone
+The putative interneurones had a small round soma (area,
+2348 #Mm2), and four identifiable principle dendrites (Fig. 6).
+At each primary dendritic branch point, there was a
+
+profusion of secondary dendritic processes, forming an
+extensive dendritic field (area, 0-254 mm2), whose total
+volume was probably truncated by the brain slicing
+procedure. Along the length of each dendrite there were
+many stud-like protrusions with thin thread-like appendages
+arising at regular intervals. These appendages bifurcated
+repeatedly forming a dense network (Fig. 6B), with each
+fibre exhibiting varicosities along their entire length
+
+(Fig. 6C).
+The membrane properties of TC neurones
+Resting membrane potential and delta oscillation. A
+mean stable resting membrane potential of -61-9 + 0 7 mV
+was measured for thirty-seven of the forty-one TC neurones
+studied (Table 2). The four remaining TC neurones had nonstable membrane potentials in the absence of injected DC,
+owing to the-presence of delta (or pacemaker) oscillation
+(frequency range, 1-4 Hz), as demonstrated in other thalamic
+nuclei both in vitro and in vivo (McCormick & Pape, 1990;
+Leresche, Lightowler, Soltesz, Jassik-Gerschenfeld &
+Crunelli, 1991; Nunez, Amzica & Steriade 1992). Nine of
+the thirty-seven TC neurones with stable resting membrane
+potentials also exhibited delta oscillation when either
+positive or negative DC was injected (Fig. 7A), so that 32 %
+
+J P Turner, C. M. Anderson, S. R. Williams and V Crunelli
+
+716
+
+of all TC neurones exhibited delta oscillation (Table 2). In
+addition, TC neurones exhibiting delta oscillation had
+significantly greater mean peak input resistance than those
+that did not show oscillation (Table 2), suggesting that the
+TC neurones with larger peak input resistances are more
+likely to exhibit delta oscillation.
+
+Voltage-current relationship. The voltage-current
+relationship (determined at a membrane potential of
+-57-4 + 04 mV) was highly non-linear for all TC neurones
+(Fig. 8), and characterized by a steep region with the
+highest peak input resistance between -59-8 + 0 4 and
+-75*4 + 1-3 mV (Table 2). The mean peak input resistance
+over this region was 254-3 MQ, (48-9-995-3 MQl) and the
+
+distribution of these values was skewed towards the higher
+values (Fig. 7B). These peak input resistance values were
+not correlated to resting membrane potential (r = 0 14,
+P > 0 1,
+n = 37),
+suggesting that the subthreshold
+conductances responsible for the peak input resistance are
+not involved in determining resting membrane potential.
+The examination of voltage responses to negative current
+steps in this membrane potential range has been used to
+establish the passive membrane properties of TC neurones
+(Bloomfield, Hamos & Sherman, 1987; Crunelli et al. 1987 b;
+Williams et al. 1996). In this membrane potential range
+there was also a clear depolarizing sag of the voltage
+response to negative current steps for all TC neurones, even
+for those with lower input resistance (as the one shown in
+
+A_-56
+2.4nA
+
+mV
+
+40
+|mV
+-50
+2.0nA
+
+-70
+
+-50]1
+-70
+
+1.2nA
+
+-70 0.4nA
+500ms
+-65
+
+O.OnA
+
+B
+z
+8
+
+-
+
+6
+
+-
+
+C)
+
+4
+
+-
+
+IW
+
+2
+
+-
+
+O
+
+:D
+z
+
+0
+o
+z
+
+0-
+
+0
+
+200
+
+400
+
+J Physiol. 505.3
+
+600
+
+800
+
+1000
+
+1200
+
+PEAK INPUT RESISTANCE (MD)
+Figure 7. Delta oscillation and input resistance of TC neurones from the cat VB thalamus
+A, voltage records illustrating the nature of the delta oscillation, and the voltage range over which this
+activity occurs. The uppermost and lowermost records are at the stable membrane potentials below and
+above which, respectively, changes in injected DC elicit the types of voltage fluctuations illustrated by the
+intermediate traces. The second trace down illustrates how membrane potential moves in and out of the
+oscillation envelope at its uppermost extreme. The frequency of the delta oscillations in the third and fourth
+traces down are 1-4 and 1-2 Hz, respectively. The injected DC values are below, and the voltage values to
+the left of, each trace. The amplitude of the action potentials has been truncated for clarity. B, distribution
+histogram for the peak input resistance values with fitted Gaussian curve. Filled and open columns indicate
+neurones capable or incapable of producing delta oscillations, respectively.
+
+J Physiol. 505.3
+
+Properties of ventrobasal thalamic neurones
+
+Fig. 8Aa), so that the mean steady-state input resistance
+was 80-6 MQ2 (n = 40) (Table 2). Therefore, none of these
+neurones had membrane properties that could be considered
+passive in the -60 to -75 mV range, and analysis of the
+electrotonic structure of these TC neurones was not
+performed. For TC neurones with higher input resistance,
+voltage responses in this range were characterized either by
+non-monoexponential change of the membrane potential
+(Fig. 8Ab, inset) or by a multiphasic response (Fig. 8Ac,
+inset). Thus, there was a more dynamic voltage response to
+injected current, characterized by the peak of the voltage
+response, and hence the peak input resistance, being time
+dependent over a period of several hundred milliseconds
+(Fig. 8Ac and d). In addition, this behaviour resulted in an
+increased non-linearity in the voltage-current relationship
+for TC neurones of the cat VB thalamus (Fig. 8Ba-d), in
+comparison to those previously reported for other thalamic
+nuclei (Bloomfield et al. 1987; Crunelli et al. 1987a,b;
+Williams et al. 1996), such that one neurone exhibited
+apparent membrane bistability (Fig. 8Bd), where two
+voltage responses of differing amplitude could be evoked by
+a current step of the same amplitude (Fig. 8Ad). A detailed
+investigation of these phenomena is presented in the
+accompanying paper (Williams et al. 1997 a).
+
+Inward rectification. The inward rectification consisted of
+two distinct phases. The initial phase occurred within the
+first 100-500 ms of current injection, and was characterized
+by a non-linear increase in the voltage response with respect
+to injected current (Fig. 8), so that over the rectified range
+below -80 mV the mean peak input resistance was 14 5 MQ2
+(8f2-37'8 MQ) (Table 2). This peak inward rectification
+resistance was found to be inversely correlated to the peak
+input resistance of the steep region of the voltage-current
+relationship (r = 0-387, P < 0 05, n = 40), indicating that
+TC neurones with the more dynamic voltage responses in
+the steep region of the voltage-current relationship exhibit
+more peak inward rectification. Subsequent to this, there
+was a slow time-dependent rectification apparent as a
+depolarizing sag of the membrane potential between
+500-2000 ms, which led to a mean steady-state input
+resistance of 10-6 MQ2 (4-1-24-2 MQL) (Table 2). This steadystate inward rectification resistance was not correlated to
+the peak input resistance (r = 0 075, P > 0-1, n = 40).
+There was, however, a positive correlation between the size
+of the depolarizing sag and the peak of the voltage response
+for each of the non-oscillating neurones (P < 0-05-0-01,
+n = 28) (Table 2). A detailed analysis of the properties of
+inward rectification in TC neurones of the cat VB thalamus
+is presented in the accompanying paper (Williams et al.
+
+1997 b).
+Outward rectification and action potential threshold.
+The voltage responses to positive current steps peaked
+either within the first 100 ms followed by a hyperpolarizing
+sag of the membrane potential (Fig. 8Ab), or at the end of
+the step following a slow depolarizing ramp (Fig. 8Ad), or
+reflected a combination of the two (Fig. 8Aa and c). These
+
+717
+
+responses showed a pronounced outward rectification in the
+voltage-current relationship, with an input resistance of
+13-3 + 1 1 MQ2. As the membrane potential approached
+action potential threshold, there was an increase in small
+amplitude voltage perturbations, indicative of the interaction
+of voltage-dependent conductances in the range of voltage
+just subthreshold. The threshold for action potential firing
+was -42 4 + 0 4 mV for all forty-one TC neurones, with the
+individual values being positively correlated to the peak
+input resistance (r = 0-324, P < 005, n =41), but not to
+the outward rectification resistance (r= 0169, P> 01,
+n = 41), suggesting that the subthreshold conductances
+responsible for the peak input resistance, but not outward
+rectification, influence firing threshold.
+
+LTCP and associated burst firing. Characteristically,
+LTCPs were evoked in all forty-one TC neurones at the
+offset of negative current steps during the determination of
+the voltage-current relationships. The mean maximum
+number of action potentials evoked by the LTCP in each TC
+neurone was seven (3-12), with an interspike frequency for
+the first interspike interval of 414 Hz (317-507 Hz). This
+interspike frequency was correlated to the overall number
+of spikes in the burst (r = 0f331, P < 0 05, n = 41)
+(Fig. 9Ba-d), but not to the membrane potential prior to the
+offset of the current step (r= 0'074, P> 01, n= 41). In
+addition, the first spike in the burst was always the largest
+in amplitude, with the second spike the smallest (see, for
+example, the dramatic decrease in amplitude for the neurone
+in Fig. 9Ab) and each subsequent spike showing some
+recovery of spike amplitude towards that of the first
+(Fig. 9Aa-d). Note also that, while the higher input
+resistance of the neurone in Fig. 9Ab (compared with Aa)
+could have been responsible for the larger number of action
+potentials in the bursts, for the neurones in Fig. 9Ac and d
+with the much higher input resistance there was a smaller
+number of action potentials. The large number of action
+potentials and their characteristic decrease in amplitude
+could represent a peculiarity of the cat VB thalamus
+compared with other thalamic nuclei.
+Firing patterns. The pattern of action potential discharge
+evoked in TC neurones of the cat VB thalamus by positive
+current steps from a membrane potential of -60 mV was
+highly variable, but could be classified into three categories
+(Fig. 1OA and B). The first type, accelerating, was
+characterized by a regular accelerating firing pattern (n = 4)
+at a relatively low frequency between 20-70 Hz (Fig. IOA).
+The second type was characterized by a marked decrease
+in spike frequency (n = 24), with firing either being
+accommodating (i.e. regular firing at an initial frequency
+of 90-140 Hz, then decreasing to 20-60 Hz), or being
+intermittent (i.e. an initial period of firing at a frequency of
+80-200 Hz, followed by irregular periods of firing with a
+frequency up to 80 Hz). The third group, burst-suppressed
+firing, was characterized by an initial burst of action
+potentials at 60-270 Hz, associated with an attenuation of
+spike amplitude, followed by a period of quiescence or
+
+J P Turner, C. M. Anderson, S. R. Williams and V Crunelli
+
+718
+Aa
+
+Ba
+
+J Physiol.505.3
+
+- -30
+MEMBRANE
+POTENTIAL (mV)
+-
+
+-40
+
+IAnA
+0
+
+I
+
+0
+
+-60
+IlM
+- -70
+
+_oi
+
+- -80
+-60 m
+mV
+
+I.-
+
+0OOms
+
+--
+
+1l.0
+
+b
+
+-0.5
+
+-
+
+-90
+
+-
+
+-100
+
+0.0
+0.5
+CURRENT (nA)
+
+1.0
+
+b
+
+L -'
+
+-'1
+
+EN
+
+I1
+nA
+
+.!! o!
+A A-
+
+--
+
+11 B
+M-MIAM
+8 NV
+-r
+
+'.4
+
+-4
+
+I--1;-MAU
+-58
+mV
+
+__
+
+It I
+
+I
+
+L
+
+S
+
+l
+
+-W
+
+I 10
+
+mV
+I
+
+- 1.0
+
+500ms
+
+-0.5
+
+0.0
+
+0.5
+
+1.0
+
+0.5
+
+1.0
+
+0.0
+0.5
+CURRENT (nA)
+
+1.0
+
+CURRENT (nA)
+
+C
+
+C
+
+Lmg
+nA
+
+1.
+
+---
+
+-
+
+I-.
+
+0
+
+0
+
+f
+
+-1.0
+
+-0.'5
+
+0.0
+
+CURRENT (nA)
+
+d
+
+d
+-4_
+
+11~~~~~~~~~~~~~~~~~~~
+_1 -~~~~~~ _----i
+
+nA
+
+.
+
+I
+
+:.--
+
+....
+
+m
+
+,
+
+6-==AgE~~~-57 -_
+mVVU
+
+I0
+
+mV
+- 1.0
+500ms
+
+Figure 8. For legend see facing page.
+
+-0.5
+
+Properties of ventrobasal thalamic neurones
+
+J Physiol. 505.3
+A
+
+719
+
+B a ,_
+
+a
+
+I O.5nA
+
+J
+
+J
+
+600
+
+-
+
+500
+
+-
+
+LU
+
+400 -
+
+Z
+
+300
+
+7
+
+-
+
+_-z
+
+I
+
+200 100 -
+
+w
+
+2OmV
+
+l10 12
+
+I
+
+-63
+
+-65
+
+-68
+
+"
+
+0
+
+2
+
+4
+
+6
+
+INTERSPIKE INTERVAL
+
+b ,_
+
+b
+I
+
+LU
+
+600
+
+-
+
+400
+
+-
+
+500
+
+-
+
+200
+200
+
+-j
+
+-C
+
+z.
+tYD
+Z m
+
+Lo-
+
+0
+
+2
+
+4
+
+6
+
+10
+
+12
+
+INTERSPIKE INTERVAL
+
+C
+
+c
+
+_
+
+600 500-
+
+tAJ
+
+400
+
+>
+
+-
+
+300
+
+X- Z
+Oz
+Of
+
+00200
+
+LiJ
+Cy
+
+1003
+
+Ea
+
+0
+
+2
+
+.
+4
+
+.
+6
+
+.
+10 12
+
+INTERSPIKE INTERVAL
+
+B00
+o
+
+d
+
+d
+
+I
+
+JI
+
+0.5nA
+0
+
+-
+
+v
+
+v
+
+0
+
+L>0
+
+=)w
+
+2OmV
+
+400
+
+-
+
+Z
+200
+100
+
+Ew
+
+-60
+
+72
+
+-7
+
+7
+
+-2
+
+II
+
+0
+
+2
+
+4
+
+6
+
+I__
+
+10 12
+
+INTERSPIKE INTERVAL
+
+Figure 9. LTCP and burst firing properties of TC neurones from the cat VB thalamus
+Aa-d, voltage traces illustrating the LTCPs and the associated burst of action potentials generated at the offset of the 2 s
+negative current step from the same TC neurones as in Fig. 9Aa-d, respectively. In each case, the first spike in the burst is
+the largest in amplitude, with the second spike the smallest and each subsequent spike showing some recovery of spike
+amplitude towards that of the first. The membrane potential just prior to each current step offset is shown to the left of each
+trace. Ba-d, the graphs show the inverse relationship between LTCP-evoked action potential interspike frequency and the
+interspike interval for the bursts indicated by the symbols above the traces in Aa-d.
+Figure 8. V-I relationships of four representative TC neurones from the cat VB thalamus
+Aa-d, the overlay of voltage responses (lower traces) of four TC neurones to current steps (upper traces). The insets are an overlay
+of selected voltage responses (lower inset) to the low amplitude (0-01-0-10 nA) current steps (upper inset). Note that, while the TC
+neurone in Aa has voltage responses of conventional electrotonic structure, and a -relatively linear relationship to the current
+injection (see inset), those in Ab-d possess a highly non-linear relationship between injected current and the amplitude and time
+to peak of the voltage response, particularly for the neurones illustrated in Ac and d (see insets). In Ad, the arrows mark the two
+voltage responses that could be obtained by the same current step. Calibration bars in the insets represents 1 nA, 10 mV and
+200 ms. The amplitude of the action potentials has been truncated for clarity. Ba-d, the voltage-current relationships determined
+at the times indicated by the corresponding symbols in Aa-d (0, peak; 0, steady state). Note that in Bb and c the abrupt
+deviations from a smooth sigmoid voltage-current relationship measured in the steady state (apparent over the range of
+membrane potential between -60 and -75 mV) result from the presence of a LTCP at the time of measurement (see voltage
+records in Ab and c). The peak input resistance in the steep region of the voltage-current relationship is indicated in each plot.
+
+720
+
+J: Physiol.505.3
+
+J P Turner, C. M. Anderson, S. R. Williams and V Crunelli
+
+intermittent attenuated action potentials (n = 13). The first
+action potential of the burst evoked during this type of
+firing was characteristically smaller in amplitude in
+comparison to the second action potential (Figs lOAb and
+l l D inset) (Table 3). In addition, the first action potential of
+burst-suppressed firing had a slower rise time compared
+with the second, but the decay was faster. All but the
+accelerating type of firing were associated with marked
+spike broadening (Fig. 10C). These different firing patterns
+were observed in sequential recordings from the same slice.
+
+Single action potential properties. There was a clear
+division between accelerating and accommodating/intermittent firing (Fig. 10), for which single action potentials
+could be evoked (Fig. 1 lA-C), and burst-suppressed firing,
+for which action potentials always occurred in bursts
+(Fig. 1 lD). For the accelerating and accommodating/intermittent firing patterns,' action potential amplitudes were
+very similar, and were significantly larger than those of the
+Ab
+
+Aa ACCELERATING
+
+-56
+mV
+
+burst-suppressed firing. However, the action potentials of
+all firing types had similar rise times, except the first
+action potential of burst-suppressed firing (Table 3). In
+addition, the action potentials associated with accelerating
+firing patterns had a faster decay than those of the other
+types, so that the mean half-width of the action potential of
+the accelerating firing was smaller than that of the
+accommodating/intermittent firing, which in turn was
+smaller than that of the burst-suppressed pattern.
+The after-hyperpolarizations of the action potentials for
+accelerating and accommodating/intermittent firing types
+were of similar amplitude, although those for the accelerating
+type had a slower time to peak and decay, owing to the
+presence of a late component (Fig. 1lA-C) (Table 3). The first
+but not the second action potential for the burst-suppressed
+firing had an after-hyperpolarization that was larger in
+amplitude than that of the other types, but both had a time
+to peak comparable to that of the accommodating type.
+
+C
+
+B 150100
+
+-
+
+50
+
+-
+
+_
+
++ 1.OOnA
+
+0
+
+ACCOMMODATING
+
+20
+
+40
+
+60 80
+
+150
+N
+
+I 100
+
+50
+
+-
+
+-53 4r
+
+z
+
++0.6OnA
+
+Li
+
+mv
+-
+
+w
+
+I
+
+0
+
+LiJ
+
+0
+
+m
+
+ELu 150
+
+INTERM ITTENT
+
+(L
+
+100
+
+zLj
+
+50
+
+(/n
+
+-55
++ 1 .OOnA
+
+1
+;0
+
+BURST-SUPPRESSED
+
+150
+100
+
+20
+
+20
+
+40
+
+60 80
+
+. i
+40 60 80
+
+-
+
+oR
+0
+
+-57
+
+_
+
++0.7OnA
+
+5OOms
+
+200ms
+0
+
+20 40 60 80
+
+INTERSPIKE INTERVAL
+
+Ims
+
+Figure 10. Firing patterns of TC neurones from the cat VB thalamus
+Aa and b, firing patterns of TC neurones generated in response to positive current steps from membrane
+potentials more positive than -60 mV. Note that, unlike the burst firing evoked by the LTCP, the
+amplitude of the second spike is always similar to, or greater than, that of the first, and that a LTCP can be
+evoked at the offset of the positive current step (see trace accommodating, Aa). The initial membrane
+potential is shown to the left of each trace and the amplitude of the current step beneath each trace in Aa.
+The action potential amplitude has been truncated for clarity in Aa, but not in Ab. B, the relationship
+between interspike frequency and interspike interval number illustrates the features of these firing types
+(see text for details). C, the overlay of the first, third and tenth action potentials from the corresponding
+traces in Ab, except for the burst-suppressed type, where the first, second, third and tenth are illustrated.
+Note the marked increase in spike duration for all but the accelerating firing pattern.
+
+J Physiol. 505.3
+
+Properties of ventrobasal thalamic neurones
+
+Since burst-suppressed action potentials occurred at a
+frequency greater than 50 Hz, the after-hyperpolarization
+decay was very short.
+
+The correlation of membrane properties with
+morphology
+The somal area and the peak input resistance were inversely
+correlated for all twenty-nine TC neurones (r = 362,
+P < 0 05, n = 29), as would be predicted if the peak input
+resistance were a passive membrane property, but while
+Type I neurones showed this inverse correlation (r = 0-585,
+P< 0 05, n= 16), Type II did not (r= 0O181, P> 0 1,
+n = 13). This could be explained by the non-linear
+behaviour of the voltage responses in the -60 to -75 mV
+range over which peak input resistance was measured.
+Therefore, as Type II TC neurones have higher peak input
+resistances than Type I (Table 2) and exhibited more nonlinear behaviour over this range, the measured peak input
+A
+
+ACCELERATING
+
+B
+
+721
+
+resistance probably deviates more from the passive
+membrane input resistance.
+
+All differences in the subthreshold properties of the
+morphologically identified TC neurones were consistent with
+an underlying difference in the peak input resistance.
+Certainly, the larger outward rectification resistance for
+Type II TC neurones, compared with Type I (Table 2), was
+consistent with a higher peak input resistance, if the
+underlying leakage resistance was also higher. However, the
+reason for the smaller peak inward rectification resistance of
+Type II TC neurones was less clear, but in view of the later
+time to peak of the voltage responses of these neurones,
+more of the slow time-dependent inward rectification
+probably contributed to the peak of the voltage responses.
+Indeed, the steady-state inward rectification resistance for
+Type II TC neurones was slightly larger than that for
+Type I (Table 2).
+
+ACCOMMODATING
+
+C
+
+INTERMITTENT
+
+-41 .2mV
+
+D
+
+BURST-SUPPRESSED
+
+E
+
+INTERNEURONE
+
+1st
+I 20
+mV
+
+20
+mv
+
+-42.5mV
+
+lms
+
+lOins
+
+Figure 11. Types of action potential generated by TC neurones and an interneurone from the cat
+VB thalamus
+A-D, the different types of action potential waveforms associated with the different firing patterns of TC
+neurones, as indicated. E, the action potential waveform generated from an interneurone. The insets
+illustrate the action potential waveforms at higher resolution. In D, the inset to the left of the trace
+illustrates the first action potential waveform in the burst, and the inset to the right an overlay of the
+remaining three action potential waveforms with the first superimposed as the dotted line. The mean
+action potential threshold is shown at the start of each record. Note the prominent biphasic afterhyperpolarization of the action potential in the interneurone and in the accelerating TC neurone firing
+type, in comparison to the monophasic after-hyperpolarization of the accommodating, intermittent and
+burst-suppressed firing types (see Table 3).
+
+J P Turner, C. M. Anderson, S. R. Williams and V Crunelli
+
+722
+
+A
+
+-~~~~~~~~~~~~~~~~~~~~~
+
+B
+
+^-
+
+-
+
+MEMBRANE
+POTENTIAL
+
+J Physiol. 505.3
+
+-40
+
+(mV)
+
+I
+A A
+
+-
+
+0
+
+.0.
+
+-m_
+
+-60
+
+-70
+-55
+
+mv
+
+-80
+
+1
+
+-90
+
+0rmV
+
+-100
+I
+
+200ms
+
+-0.4
+
+-0.2
+
+-0.3
+
+-0.1
+
+0.0
+
+0.1
+
+INJECTED CURRENT (nA)
+
+C
+| 0.2nA
+-50
+
+5OOms
+
+-52
+
+=
+-59
+
+-57
+
+D
+
+-55
+
+-62
+
+Ea
+, 150
+
+-
+
+o - 0.06nA * - 0.25nA
+* - 0.08nA A - 0.3OnA
+v - 0.12nA * - 0.4OnA
+v - 0.16nA 0 - O0SOnA
+o - 0 .20nA
+
+I
+
++0.50
+
+Z
+
+100 -I
+
+CY,z ioo
++0.30
+
+L- vS
+
+Lii
+
+lY
+a-.
+
++0.20
+
+^,0
+
+-
+
+Cy
+
+z
+
+'
+
+O
+
+i
+
++0.12
+
+ICI
+
+-
+
+z
+
+0
+
+20 30 40 50
+INTERSPIKE INTERVAL
+
+10
+
+60
+
+b
+
+N150
+
+-
+
+I.-
+
+Lii
+
+-
+
+100
+
+LL
+
+w
+
+-
+
+*
+v
+
+z
+
++0.086
+
+o
+
+50
+
+ISI 1
+ISI 2
+ISI 3
+
+-
+
+lSI
+
+o
+
+-
+
+lSI 10
+
+*
+
+-
+
+A
+
+-
+
+ISI 20
+ISI 30
+
+5
+
+a:
+
++0.04
+
+200ms
+
+102nA
+
+0z
+
+0.0
+
+0.2 0.3 0.4 0.5
+INJECTED CURRENT (nA)
+
+0.1
+
+0.6
+
+Figure 12. Membrane properties of an interneurone from the cat VB thalamus
+A, the overlay of voltage responses (lower traces) of a cat VB interneurone to the current steps (upper
+traces) illustrated above. B, the voltage-current relationships determined at the times indicated by the
+corresponding symbols in A (0, peak; 0, steady state). C, the voltage traces illustrate the generation of a
+low frequency burst of action potentials at the offset of the negative current steps, and its dependence on
+membrane potential. The membrane potential at the onset and offset of the current pulse are shown to the
+left of, and below, each trace, respectively. D, firing patterns generated in response to positive current steps
+(lower traces). The amplitude of the action potentials has been truncated for clarity, the injected current is
+denoted to the left of each trace, and the holding potential is the same as in A (-55 mV). Ea, the
+relationship between interspike frequency and interspike interval number for a series of injected currents,
+
+Properties of ventrobasal thalamic neurones
+
+J Physiol. 505.3
+
+723
+
+Table 3. Summary of the action potential properties of TC neurones and an interneurone from the cat VB thalamus
+Firing type
+TC neurones
+
+Accelerating
+(n = 4)
+
+AP amplitude
+10-90% rise time
+10-90% decay time
+Half-width
+AHP amplitude
+AHP time to peak
+Fast
+
+(mV)
+(ms)
+(ms)
+(ms)
+(mV)
+
+(ms)
+Slow
+(ms)
+AHP decay time
+(ms)
+No. per morphological type
+TypeI
+TypeII
+
+Accommodating
+& intermittent
+(n = 24)
+
+58-8 + 4-18
+58&9 + 1P15
+0'19 + 0-014
+0-21 + 0 007
+0-35b (0 28-0 38) 0 47 + 0-017
+0 37 + 0 016c
+0'50 + 0-017
+-13'2 + 0-98
+-13-4 + 0-38
+
+Interneurone
+
+Burst-suppressed
+
+Accomodating
+
+(n = 13)
+1st spike
+2nd spike
+
+(n = 1)
+
+49.3 + 1p85d,e 53-1 + 1P54bj
+0-28 + 0*016d,f 0-22 + 0 0091
+0 53 + 0,042e
+0'57 + 0.055a,e,i
+0-65 + 0 046's 0-61 + 0.048a,e
+-15 0 + 0.76a
+-13-4 + 0 73'
+
+74 0
+0-13
+0-26
+0-26
+-13-2
+
+1'6 + 0-29
+3-7 + 0 98'
+
+1P4 + 0-06
+
+1P6 + 0*12g
+
+1*6 + 0O19g
+
+0 74
+
+31P6 + 1.81d
+
+16 5 + 0 87
+
+6 4 + 054d,h
+
+84 (4*4-21,3)d,g
+
+275-7
+
+4
+0
+
+9
+8
+
+22'7
+5
+5
+
+Action potential and after-hyperpolarization (AHP) amplitude were measured from threshold. Afterhyperpolarization time to peak was measured from action potential peak time, and decay time was
+measured between 10 and 90% of after-hyperpolarization amplitude. For comparisons with
+accommodating firing type ap < 0.05, bp < 0.01, cp < 0.005 and dp< 0.001 (Student's t test or
+Mann-Whitney U test). For comparisons with accelerating firing type ep< 0.05, fP< 0 01, gP< 0 005
+and hp< 0.001 (Student's t test or Mann-Whitney U test). For comparison of the second spike with the
+first spike for burst-suppressed firing type iP < 0.005 and JP < 0 001 (Student's paired t test or
+Mann-Whitney U test).
+
+With respect to action potential firing, the accommodating/
+intermittent and burst-suppressed patterns were fairly
+equally distributed between the morphological TC neurone
+types, but the accelerating pattern was only associated with
+Type I (Table 3). There were no differences in the single
+action potential properties between morphological type,
+apart from the amplitude of the action potential afterhyperpolarization, which was smaller for Type I (12-1 +
+0 4 mV) than for Type II (15-1 ± 04 mV; P < 0 05, Students
+t test), consistent with the lower outward rectification
+resistance observed for Type I. Therefore, the only clear
+distinguishing feature of the membrane properties of
+morphologically identified TC neurones from the cat VB
+thalamus was the higher peak input resistance of Type II
+neurones, and this was reflected by the larger number of
+these neurones exhibiting delta oscillation (Table 2).
+
+The membrane properties of an interneurone
+The morphologically identified interneurone had a resting
+membane otenial f -5 mV,and
+memranetime
+membranep
+-55imatedmV,m
+constant
+of f614ms
+fromandthe vtagmembra
+voltage responses
+61P4oniins, estimated
+
+to -0 01 nA step. The voltage-current relationship for this
+interneurone exhibited a lack of outward rectification above
+-60 mV, and only moderate inward rectification below
+-70 mV (Fig. 12B), so that the peak input resistance
+between -47 to -57 mV was 205X8 MQ, and between -80
+to -95 mV was 130-6 MQl. In addition, there was some
+further time-dependent depolarizing sag of the voltage
+response (Fig. 12A and C), so that the steady-state input
+resistance was 56-7 Mfl between -75 and -85 mV (Fig. 12B).
+Low frequency (3-6 Hz) burst firing was only observed at
+the offset of negative current steps from holding potentials
+more positive than -55 mV, while at more negative
+potentials only a single action potential could be generated
+
+(Fig. 12C).
+In response to positive current steps, this interneurone was
+able to generate action potentials when the membrane
+potential reached a threshold of -42-5 mV, at frequencies
+of
+betweenbcmng
+5 and mor
+150 Hz,
+frequency accommodation
+p with
+int spike
+astae
+foft
+modation beco-ming more prominent as the amplitude of the
+current step increased (Fig. 12D and Ea). The relationship
+l
+
+showing the marked interspike frequency accommodation at higher injected currents. Eb, the relationship
+between interspike frequency and injected current for a series of interspike intervals (ISI), showing the
+non-linear increase in interspike frequency for low interspike interval values with increasing injected
+current.
+
+724
+
+J P Turner, C. M. Anderson, S. R. Williams and V Crunelli
+
+between spike frequency and injected current was
+approximately linear from 0 to 0-25 nA, for all interspike
+interval frequencies. However, at injected currents of
+0 3-0 5 nA, there was a non-linear increase in the interspike
+frequency for the first to fifth interspike intervals (Fig. 1 2Eb).
+The single action potentials of the interneurone were
+narrower and greater in amplitude than those of TC neurones
+(Table 3), and had a biphasic after-hyperpolarization
+(Fig. 1 E), with comparable amplitudes to, but much greater
+times to peak than, those of TC neurones.
+
+DISCUSSION
+The main conclusions of this investigation are as follows.
+(1) The voltage-current relationship for TC neurones from
+the cat VB thalamus was highly non-linear with a steep
+region of peak input resistance between -60 and -75 mV,
+with some neurones also exhibiting a time-dependent
+increase in voltage response, which accentuated this nonlinearity. (2) The action potential characteristics and
+discharge pattern of these TC neurones varied from an
+accelerating to a highly accommodating/intermittent or
+burst-suppressed firing, and were different from those
+observed in other sensory thalamic nuclei above -60 mV.
+However, all morphologically identified TC neurones evoked
+burst firing mediated by a LTCP. (3) Morphologically
+distinct TC neurones were identified, and differed in their
+subthreshold membrane properties, with a greater number
+of the smaller Type II neurones exhibiting delta oscillation,
+probably due to their higher peak input resistances. (4) The
+morphologically identified interneurone had a more linear
+voltage-current relationship, with almost no outward
+rectification and a smaller inward rectification, and lacked
+the high frequency action potential firing associated with a
+LTCP.
+
+The morphology of TC neurones from the cat VB
+thalamus
+The division of TC neurones in the cat VB thalamus into
+Type I and Type II was based on the qualitative differences
+in dendritic morphology, and is reflected by the quantitative
+analysis showing a small but significant difference in the
+distal part of the dendritic arbor, 160-180 #sm from the
+soma. Since this dendritic region receives the majority of
+the corticothalamic input (Ralston, 1991; Liu, Honda &
+Jones, 1995), this difference may be of relevance in thalamocortical processing. It has been suggested that the differences
+in the dendritic architecture of TC neurones are due to
+scaling (Kniffki, Pawlak & Vahle-Hinz, 1993), and that
+there are no overall quantitative differences (Havton &
+Ohara, 1994; Ohara, Ralston & Havton, 1995). However,
+use of small samples and the intracellular filling of only low
+threshold mechanoreceptor-activated units may have
+introduced a bias in these studies. Indeed, while two types
+of TC neurone have been identified in approximately equal
+numbers following the retrograde transport of horseradish
+peroxidase (HRP) injected into the cortex, only four of the
+
+J: Phy8iol. 505.3
+
+nineteen TC neurones filled following intracellular HRP
+injection in vivo were Type II neurones (Yen et al. 1985).
+Therefore, the approximately equal number of Type I and
+Type II neurones and the presence of dendritic appendages
+indicate that ours is a representative sample of the TC
+neuronal population in the cat VB thalamus, consistent with
+the observations of Spreafico et al. (1983a) and Yen et al.
+
+(1985).
+The subthreshold electrophysiology of TC neurones
+from cat VB thalamus
+In this study the clear defining feature of all the morphologically identified TC neurones, but not of the interneurone,
+was the presence of the LTCP, which has been found to be a
+characteristic of all TC neurones of the mammalian thalamus
+studied so far (Jahnsen & Llinas, 1984a; Deschenes et al.
+1984; Crunelli et al. 1987a,b; Hu, 1995; Pape & McCormick,
+1995; Williams et al. 1996). The voltage-current relationship
+of these TC neurones, however, are highly non-linear, and
+the membrane properties in the -60 to -75 mV range of
+this relationship are not passive, in contrast to previous
+results in TC neurones of other thalamic nuclei (Bloomfield et
+al. 1987; Crunelli et al. 1987a,b; Hu, 1995). It is probable
+that the properties associated with this region in some TC
+neurones, whereby the amplitude of voltage responses
+increases in a time-dependent manner, further accentuates
+this non-linearity. As demonstrated in the accompanying
+paper (Williams et al. 1997a) the cause of this phenomenon
+in TC neurones of the cat and rat VB thalamus and dLGN is
+the expression of the 'window' component of IT.
+The firing patterns of TC neurones from cat VB
+thalamus
+The majority of TC neurones from the cat VB thalamus has
+markedly different firing properties to those of TC
+neurones in other sensory thalamic nuclei. Perhaps only
+those neurones with regular accelerating or moderately
+accommodating firing patterns could be considered similar
+to those recorded intracellularly in vitro in the cat and rat
+dLGN (Crunelli et al. 1987a,b; McCormick, 1991; Williams
+et al. 1996), and guinea-pig thalamus (Jahnsen & Llinas,
+1984a), since these studies revealed remarkable regular
+firing patterns. Indeed, in TC neurones of the rat VB
+thalamus, tonic firing is delayed and is much more irregular
+than that observed in the dLGN (see Fig. 1 in Huguenard &
+Prince, 1991), indicating that this difference in the firing
+patterns is a characteristic of the VB thalamus across
+species. Since the outward rectification observed in TC
+neurones of the VB thalamus is greater than that reported
+for other sensory thalamic nuclei in vitro (Jahnsen & Llinas,
+1984a,b; Cruneili et al. 1987a,b; McCormick, 1991;
+Williams et al. 1996), the voltage-dependent conductances
+active in the range around spike threshold could be
+determining this difference in firing properties. The more
+regular firing patterns observed in vivo in the cat VB
+thalamus (Deschenes et al. 1984) may result from the
+neuromodulators released by brainstem afferent activity,
+since these substances reduce the spike-frequency accom-
+
+J Physiol. 505.3
+
+Properties of ventrobasal thalamic neurones
+
+modation of action potential firing observed in vitro (see
+McCormick, 1992).
+
+Morphology and electrophysiology: implications for
+somatosensory physiology
+The electrophysiological differences between the morphological types of TC neurone in the cat VB thalamus probably
+all resulted from the greater peak input resistance of
+Type II neurones, and led to a greater predisposition to
+delta oscillation in Type II. During aroused or awake states,
+when afferent input and membrane conductance are high
+and membrane potential is depolarized, these differences
+would have little overall impact on physiological function.
+Indeed, it is more likely that the functional differences are
+dependent upon dendritic and synaptic organization, since
+the difference between transient and sustained responses of
+TC neurones in the VB thalamus to sensory stimuli (Yen et
+al. 1985) is the strong GABAergic inhibition controlling
+transient responses (Gottschalt et al. 1989). However, during
+states when afferent input and membrane conductance are
+low and membrane potential is hyperpolarized such as slow
+wave sleep (Hirsch, Fourment & Marc, 1982), and during
+pathological states such as absence epilepsy and the central
+pain syndromes where burst firing is observed (Jeanmonod,
+Magnin & Morel 1996), the impact of these differences
+would be greater. In addition, since the small TC neurones
+in the VB thalamus project to the superficial layers of the
+somatosensory cortex (Penny et al. 1982; Rausell &
+Avendanio, 1985), the greater predisposition of the smaller
+Type II TC neurones to exhibit delta oscillation could be
+important in the synchronization of thalamocortical
+networks via these connections either through their intrinsic
+activity or that driven synaptically.
+
+AvOLI, M. & GLOOR, P. (1982). Role of the thalamus in generalized
+penicillin epilepsy: observations on decorticate cats. Experimental
+Neurology 77, 386-402.
+BERMAN, A. L. & JONES, E. G. (1982). The Thalamus and Basal
+Telencephalon of the Cat. A Cytoarchitectonic Atlas with Stereotaxic
+Coordinates. University of Wisconsin Press, Madison.
+BLOOMFIELD, S. A., HAMOS, J. E. & SHERMAN, S. M. (1987). Passive
+cable properties and morphological correlates of neurones in the
+lateral geniculate nucleus of the cat. Journal of Physiology 383,
+653-692.
+CRUNELLI, V., KELLY, J. S., LERESCHE, N. & PIRCHIO, M. (1987a).
+The ventral and dorsal lateral geniculate nucleus of the rat: intracellular recordings in vitro. Journal of Physiology 384, 587-601.
+CRUNELLI, V., LERESCHE, N. & PARNAVELAS, J. G. (1987 b). Membrane
+properties of morphologically identified X and Y cells in the lateral
+geniculate nucleus of the cat in vitro. Journal of Physiology 390,
+243-256.
+DESCHENES, M., PARADIS, M., Roy, J. P. & STERIADE, M. (1984).
+Electrophysiology of neurons in lateral thalamic nuclei in cat:
+resting properties and burst discharges. Journal of Neurophysiology
+51,1196-1219.
+
+725
+
+GOTTSCHALT, K.-M., VAHLE-HINZ, C. & HICKS, T. P. (1989). Electrophysiological and morphological studies on mechanisms of inputoutput transformations in single neurones of the somatosensory
+thalamus. In Somatosensory integration in the thalamus, ed. MACCHI,
+G., RuSTIONI, A. & SPREAFICO, R., pp. 199-216. Elsevier Science
+Publishers, Amsterdam.
+HAVTON, L. A. & OHARA, P. T. (1994). Cell body and dendrites tree
+size of intracellularly labelled thalamocortical projection neurons in
+the ventrobasal complex of cat. Brain Research 651, 76-84.
+HIRSCH, J. C., FOURMENT, A. & MARC, M. E. (1983). Sleep-related
+variations of the membrane potential in the lateral geniculate
+neurons in vitro. Brain Research 259, 308-312.
+Hu, B. (1995). Cellular basis of temporal synaptic signalling: an in
+vitro electrophysiological study in rat auditory thalamus. Journal of
+Physiology 483, 167-182.
+HUGUENARD, J. R. & PRINCE D. A. (1991). Slow inactivation of a
+TEA-sensitive K+ current in acutely isolated rat thalamic relay
+neurones. Journal of Neurophysiology 99, 1316-1328.
+HUGUENARD, J. R. & PRINCE D. A. (1994). Intrathalamic rhythmicity
+studied in vitro: nominal T-current modulation causes robust antioscillatory effects. Journal of Neuroscience 14, 5485-5502.
+JAHNSEN, H. & LLINAS, R. (1984a). Electrophysiological properties of
+guinea-pig thalamic neurones: an in vitro study. Journal of
+Physiology 349, 205-226.
+JAHNSEN, H. & LLINAS, R. (1984b). Ionic basis for the electroresponsiveness and oscillatory properties of guinea-pig thalamic
+neurones in vitro. Journal of Physiology 349, 227-247.
+JEANMONOD, D., MAGNIN, M. & MOREL, A. (1996). Low-threshold
+calcium spike burst in the human thalamus: Common physiopathology for sensory, motor and limbic positive symptoms. Brain
+119, 363-375.
+JONES, E. G. (1985). The Thalamus. Plenum Press, New York.
+KNIFFKI, K.-D., PAWLAK, M. & VAHLE-HINZ, C. (1993). Scaling
+behavior of the dendritic branches of thalamic neurones. Fractals 1,
+171-178.
+LERESCHE, N., LIGHTOWLER, S., SOLTESZ, I., JASSIK-GERSCHENFELD,
+D. & CRUNELLI, V. (1991). Low-frequency oscillatory activities
+intrinsic to rat and cat thalamocortical cell. Journal of Physiology
+441, 155-174.
+LIu, X.-B., HONDA, C. N. & JONES, E. G. (1995). Distribution of four
+types of synapse on physiologically identified relay neurons in the
+ventral posterior thalamic nucleus of the cat. Journal of
+Comparative Neurology 352, 69-91.
+MCCORMICK, D. A. (1991). Functional properties of a slowly
+inactivating potassium current in guinea pig dorsal lateral
+geniculate relay neurones. Journal of Neurophysiology 66,
+1176-1189.
+MCCORMICK, D. A. (1992). Neurotransmitter action in the thalamus
+and cerebral cortex. Journal of Clinical Neurophysiology 9,
+212-223.
+MCCORMICK, D. A. & PAPE, H.-C. (1990). Properties of a hyperpolarization-activated cation current and its role in rhythmic
+oscillation in thalamic relay neurones. Journal of Physiology 431,
+291-318.
+NOMURA, T., NISTHIKAWA, N. & YOKOTA, T. (1992). Intracellular HRP
+study of nociceptive neurons within the ventrobasal complex of the
+cat thalamus. Brain Research 570, 323-332.
+NUNEZ, A., AMZICA, F. & STERIADE, M. (1992). Intrinsic and
+synaptically generated delta (1-4 Hz) rhythms in the dorsal lateral
+geniculate neurons and their modulation by light-induced fast
+(30-70 Hz) events. Neuroscience 51, 269-284.
+
+726
+
+7 P
+
+Turner, C. M. Anderson, S. R. Williams and V Crunelli
+
+OHARA, P. T., RALSTON, H. J. III & HAVTON, L. A. (1995).
+Architecture of individual dendrites from intracellularly labelled
+thalamocortical projection neurons in the ventral posterolateral and
+ventral posteromedial nuclei of cat. Journal of Comparative
+Neurology 358, 563-572.
+PAPE, H.-C., BUDDE, T. MAGER, R. & KISVARDAY, Z. F. (1994).
+Prevention of Ca2+-mediated action potentials in GABAergic local
+circuit neurones of rat thalamus by a transient K+ current. Journal
+of Physiology 478, 403-422.
+PAPE, H.-C. & MCCORMICK, D. A. (1995). Electrophysiological and
+pharmacological properties of interneurons in the cat dorsal lateral
+geniculate nucleus. Neuroscience 68, 1105-1125.
+PENNY, G. R., ITOH, K. & DIAMOND, I. T. (1982). Cells of different
+sizes in the ventral nuclei project to different layers of the somatic
+cortex in the cat. Brain Research 242, 55-65.
+PRINCE, D. A. & FARRELL D. (1969). 'Centrencephalic' spike-wave
+discharges following parenteral penicillin injection in the cat.
+Neurology 19, 309-310.
+RALSTON, H. J. III (1991).. Local circuitry of the somatosenory
+thalamus in the processing of sensory information. Progress in
+Brain Research 87, 13-28.
+RAUSELL, E. & AVENDANO, C. (1985). Thalamocortical neurones
+projecting to superficial and deep layers in parietal, frontal and
+prefrontal regions in the cat. Brain Research 347, 159-165.
+SALT, T. E. (1986). Mediation of thalamic sensory input by both
+NMDA receptors and non- NMDA receptors. Nature 322, 263-265.
+SHOLL, D. A. (1953). Dendritic organization in the neurons of the
+visual and motor cortices of the cat. Journal of Anatomy 87,
+387-406.
+SPREAFICO, R., SCHMECHEL, D. E., ELLIS, L. C. JR & RuSTIONI, A.
+(1983a). Cortical relay neurons and interneurones in the n. ventralis
+posterolateralis of the cat: a horseradish peroxidase, electronmicroscopic, Golgi and immunocytochemical study. Neuroscience 9,
+491-509.
+SPREAFICO, R., WHITSEL, B. L., RuSTIONI, A. & McKENNA, T. M.
+(1983 b). The organization of nucleus ventralis posterolateralis (VPL)
+of the cat and its relationship to the forelimb representation in
+cerebral cortex area SI. In Somatosensory Integration in the
+Thalamus, ed. MACCHI, G., RuSTIONI, A. & SPREAFICO, R.,
+pp. 287-307. Elsevier Science Publishers, Amsterdam.
+STERIADE, M. & CONTRERAS, D. (1995). Relations between cortical
+and thalamic cellular events during transitions from sleep patterns
+to paroxysmal activity. Journal of Neuroscience 15, 623-642.
+STERIADE, M., CURR6-DossI, R. & CONTRERAS, D. (1993). Electrophysiological properties of intralaminar thalamocortical cells
+discharging rhythmic (A40 Hz) spike-bursts at -1000 Hz during
+waking and rapid eye movement sleep. Neuroscience 56, 1-9.
+STERIADE, M., JONES, E. G. & LLINA'S, R. (1985). Thalamic
+Oscillations and Signalling. Plenum Press, New York.
+TURNER, J. P., ANDERSON, C. M. & CRUNELLI, V. (1994). Electrophysiological and morphological properties of cat ventrobasal
+thalamic neurones in vitro. Society for Neuroscience Abstracts 20,
+55.1.
+VERGNES, M., MARESCAUX, C. & DEPAULIS, A. (1990). Mapping of
+spontaneous spike an wave discharges in Wistar rats with genetic
+generalized non-convulsive epilepsy. Brain Research 593, 87-91.
+WILLIAMS, S. R., T6TH, T. I., TURNER, J. P., HUGHES, S. W. &
+CRUNELLI, V. (1997a). The 'window' component of the low
+threshold Ca2+ current produces input signal amplification and
+bistability in cat and rat thalamocortical neurones. Journal of
+Physiology 505, 689-705.
+
+J Physiol. 505.3
+
+WILLIAMS, S. R., TURNER, J. P., ANDERSON, C. M. & CRUNELLI, V.
+(1996). Electrophysiological and morphological properties of
+interneurones in the rat dorsal lateral geniculate nucleus in vitro.
+Journal of Physiology 490, 129-147.
+WILLIAMS, S. R., TURNER, J. P., HUGHES, S. W. & CRUNELLI, V.
+(1997 b). On the nature of anomalous rectification in thalamocortical
+neurones of the cat ventrobasal thalamus in vitro. Journal of
+Physiology 505, 727-747.
+YEN, C.-T., CONLEY, M. & JONES, E. G. (1985). Morphological and
+functional types of neurons in cat ventral posterior thalamic nucleus.
+Journal of Neuroscience 5, 1316-1338.
+
+Acknowledgements
+We would like to thank Dr Roberto Spreafico for his advice on
+classification of neuronal types, Tim Gould for his help with the
+anatomical recovery and analysis, and Bob Jones for photography.
+The support of The Wellcome Trust (grant no. 37089) is gratefully
+acknowledged. S.R.W. was a Wellcome Prize Student.
+Authors' present addresses
+J. P. Turner: Department of Visual Science, Institute of
+Opthalmology, London EC1V 9EL, UK.
+C. M. Anderson: Department of Physiology, University of
+Birmingham, Birmingham B15 2TL, UK.
+S. R. Williams: Reed Neurological Research Center, UCLA School
+of Medicine, Los Angeles CA 90024, USA.
+Author's email address
+V. Cruneli: crunelli@cardiff.ac.uk
+Received 28 April 1997; accepted 12 August 1997.
+
+
