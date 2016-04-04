@@ -222,7 +222,46 @@
             "text": "as were their input\nresistances (82.6 \u0005 49.6 m\u0003 vs. 55.2 \u0005 31 m\u0003,",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-990018",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "MOhm",
+                                    "values": [
+                                        55.2
+                                    ]
+                                },
+                                {
+                                    "statistic": "sd",
+                                    "type": "simple",
+                                    "unit": "MOhm",
+                                    "values": [
+                                        31
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "ce1a252a-fa4a-11e5-b687-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamocortical cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
         "pubId": "10.1002/cne.20913",
         "tags": [
             {
@@ -232,6 +271,18 @@
             {
                 "id": "NIFORG:birnlex_160",
                 "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1670",
+                "name": "Medial geniculate body"
+            },
+            {
+                "id": "NIFGA:birnlex_1608",
+                "name": "Dorsal nucleus of medial geniculate body"
+            },
+            {
+                "id": "NIFGA:birnlex_845",
+                "name": "Ventral nucleus of medial geniculate body"
             }
         ],
         "version": "1"
