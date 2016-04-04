@@ -13,7 +13,24 @@
         },
         "parameters": [],
         "pubId": "PMID_8745283",
-        "tags": [],
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "PATO:0000384",
+                "name": "male"
+            },
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus interneuron small"
+            }
+        ],
         "version": "1"
     }
 ]
