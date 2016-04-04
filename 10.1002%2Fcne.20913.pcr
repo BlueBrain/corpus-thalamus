@@ -71,5 +71,35 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "fb962780-fa48-11e5-b687-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 25663,
+            "text": "Stable intracellular recordings from cells in\nparalaminar nuclei could last for several hours, and resting\nmembrane potentials (\u201365 \u0005 6.7 mV)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1002/cne.20913",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1276",
+                "name": "Paralaminar part of medial dorsal nucleus"
+            }
+        ],
+        "version": "1"
     }
 ]
