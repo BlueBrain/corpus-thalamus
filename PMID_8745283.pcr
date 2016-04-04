@@ -141,5 +141,55 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "ea59774a-fa59-11e5-b687-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 21462,
+            "text": "The input\nresistance of interneurones (164 + 15 MQ, n = 13),\ncalculated by taking the maximal slope of steady-state\nvoltage-current relationships, was not significantly\ndifferent (P > 0 05, T= 0 74) from that of TC neurones\n(180 + 15 MQ, n = 19).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_8745283",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "PATO:0000384",
+                "name": "male"
+            },
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "PATO:0000384",
+                "name": "male"
+            },
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus interneuron small"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            }
+        ],
+        "version": "1"
     }
 ]
