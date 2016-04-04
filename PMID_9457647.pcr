@@ -1,0 +1,28 @@
+[
+    {
+        "annotId": "cbe35af0-fa3c-11e5-bf38-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 30126,
+            "text": "The\nresting\nmembrane\npotential\nfor\nthirty-seven\nTC\nneurones\nwas\n-61P9\n+\n0\n7\nmV,",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9457647",
+        "tags": [
+            {
+                "id": "NCBITaxon:9685",
+                "name": "Felis catus"
+            },
+            {
+                "id": "NIFGA:birnlex_1116",
+                "name": "Ventral posterior nucleus"
+            }
+        ],
+        "version": "1"
+    }
+]
