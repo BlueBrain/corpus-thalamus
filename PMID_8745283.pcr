@@ -284,5 +284,63 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "48c3b070-fa5a-11e5-b687-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 20930,
+            "text": "The time constant of\ninterneurones (36-8 + 3-8 ms, n = 24), calculated by the\nfitting of a mono-exponential function",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_8745283",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "PATO:0000384",
+                "name": "male"
+            },
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus interneuron small"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "PATO:0000384",
+                "name": "male"
+            },
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus interneuron small"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            }
+        ],
+        "version": "1"
     }
 ]
