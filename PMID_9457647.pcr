@@ -85,7 +85,54 @@
             "noRow": "4 [AP threshold]",
             "type": "table"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-012000",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "mV",
+                                    "values": [
+                                        -42.4
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "mV",
+                                    "values": [
+                                        0.4
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        41
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "3c8eff2a-fa42-11e5-a474-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamocortical cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
         "pubId": "PMID_9457647",
         "tags": [
             {
