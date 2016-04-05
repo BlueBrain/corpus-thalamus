@@ -1,0 +1,470 @@
+[
+    {
+        "annotId": "f6010b2e-fa5b-11e5-b687-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "2",
+            "noCol": "2",
+            "noRow": "3",
+            "type": "table"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-010002",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "mV",
+                                    "values": [
+                                        -64.7
+                                    ]
+                                },
+                                {
+                                    "statistic": "sd",
+                                    "type": "simple",
+                                    "unit": "mV",
+                                    "values": [
+                                        6.4
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        25
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "9a38964e-fa5c-11e5-b687-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamocortical cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "PMID_10322042",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFGA:birnlex_1608",
+                "name": "Dorsal nucleus of medial geniculate body"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "b4ca0222-fa5c-11e5-b687-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "2",
+            "noCol": "3",
+            "noRow": "3",
+            "type": "table"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-010002",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "mV",
+                                    "values": [
+                                        -64.3
+                                    ]
+                                },
+                                {
+                                    "statistic": "sd",
+                                    "type": "simple",
+                                    "unit": "mV",
+                                    "values": [
+                                        4.9
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        31
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "eb940fe6-fa5c-11e5-b687-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamocortical cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "PMID_10322042",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFGA:birnlex_845",
+                "name": "Ventral nucleus of medial geniculate body"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "f21ed4d6-fa5c-11e5-b687-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "2",
+            "noCol": "2",
+            "noRow": "4",
+            "type": "table"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-990018",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "MOhm",
+                                    "values": [
+                                        68
+                                    ]
+                                },
+                                {
+                                    "statistic": "sd",
+                                    "type": "simple",
+                                    "unit": "MOhm",
+                                    "values": [
+                                        29
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        25
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "1078ca7c-fa5d-11e5-b687-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamocortical cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "PMID_10322042",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFGA:birnlex_1608",
+                "name": "Dorsal nucleus of medial geniculate body"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "153af940-fa5d-11e5-b687-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "2",
+            "noCol": "3",
+            "noRow": "4",
+            "type": "table"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-990018",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "MOhm",
+                                    "values": [
+                                        61
+                                    ]
+                                },
+                                {
+                                    "statistic": "sd",
+                                    "type": "simple",
+                                    "unit": "MOhm",
+                                    "values": [
+                                        31
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        31
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "2db9dfcc-fa5d-11e5-b687-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamocortical cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "PMID_10322042",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFGA:birnlex_845",
+                "name": "Ventral nucleus of medial geniculate body"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "4fc76a62-fa5d-11e5-b687-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "2",
+            "noCol": "2",
+            "noRow": "7",
+            "type": "table"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-141002",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "Hz",
+                                    "values": [
+                                        338
+                                    ]
+                                },
+                                {
+                                    "statistic": "sd",
+                                    "type": "simple",
+                                    "unit": "Hz",
+                                    "values": [
+                                        51
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        25
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "dfbbc7f8-fa5d-11e5-94de-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamocortical cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "PMID_10322042",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFGA:birnlex_1608",
+                "name": "Dorsal nucleus of medial geniculate body"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "e2c2dd38-fa5d-11e5-94de-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "2",
+            "noCol": "3",
+            "noRow": "7",
+            "type": "table"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-141002",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "Hz",
+                                    "values": [
+                                        365
+                                    ]
+                                },
+                                {
+                                    "statistic": "sd",
+                                    "type": "simple",
+                                    "unit": "Hz",
+                                    "values": [
+                                        86
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        31
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "ff5d8dd0-fa5d-11e5-94de-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamocortical cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "PMID_10322042",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFGA:birnlex_845",
+                "name": "Ventral nucleus of medial geniculate body"
+            }
+        ],
+        "version": "1"
+    }
+]

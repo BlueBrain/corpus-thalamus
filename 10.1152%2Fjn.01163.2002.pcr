@@ -1,0 +1,244 @@
+[
+    {
+        "annotId": "a83db042-fa54-11e5-b687-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "bca92aa2-fa54-11e5-b687-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "location": 5239,
+            "text": "from postnatal day 18\u201347",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002001",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "min",
+                                    "type": "simple",
+                                    "unit": "d",
+                                    "values": [
+                                        18
+                                    ]
+                                },
+                                {
+                                    "statistic": "max",
+                                    "type": "simple",
+                                    "unit": "d",
+                                    "values": [
+                                        47
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "bca92aa2-fa54-11e5-b687-64006a4c56ef",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "10.1152/jn.01163.2002",
+        "tags": [
+            {
+                "id": "NIFORG:nlx_organ_20081201",
+                "name": "Long Evans Rat"
+            },
+            {
+                "id": "UBERON:0002983",
+                "name": "lateral posterior nucleus of thalamus"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "ead4056e-fa54-11e5-b687-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "bca92aa2-fa54-11e5-b687-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "location": 11122,
+            "text": "Measurements\nof these responses revealed that input resistance\n(55 \u0003 19M\u0002; n \u0004 94), resting membrane potential (\u000560 \u0003 4\nmV; n \u0004 67), and spike amplitude (64 \u0003 7mV; n \u0004 80) ",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-990018",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "MOhm",
+                                    "values": [
+                                        55
+                                    ]
+                                },
+                                {
+                                    "statistic": "sd",
+                                    "type": "simple",
+                                    "unit": "MOhm",
+                                    "values": [
+                                        19
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        94
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "4a95e79c-fa55-11e5-b687-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamocortical cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-010002",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "mV",
+                                    "values": [
+                                        -60
+                                    ]
+                                },
+                                {
+                                    "statistic": "sd",
+                                    "type": "simple",
+                                    "unit": "mV",
+                                    "values": [
+                                        4
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        67
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "6e5b81f0-fa55-11e5-b687-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamocortical cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-990205",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "mV",
+                                    "values": [
+                                        64
+                                    ]
+                                },
+                                {
+                                    "statistic": "sd",
+                                    "type": "simple",
+                                    "unit": "mV",
+                                    "values": [
+                                        7
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        80
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "9a649926-fa55-11e5-b687-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamocortical cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1152/jn.01163.2002",
+        "tags": [
+            {
+                "id": "NIFORG:nlx_organ_20081201",
+                "name": "Long Evans Rat"
+            },
+            {
+                "id": "UBERON:0002983",
+                "name": "lateral posterior nucleus of thalamus"
+            },
+            {
+                "id": "NIFORG:nlx_organ_20081201",
+                "name": "Long Evans Rat"
+            },
+            {
+                "id": "UBERON:0002983",
+                "name": "lateral posterior nucleus of thalamus"
+            }
+        ],
+        "version": "1"
+    }
+]
