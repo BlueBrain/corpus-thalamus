@@ -5,6 +5,7 @@
             "oreilly"
         ],
         "comment": "Resting membrane potential for the dorsal part of the MGB. See annotation f8d52c88-f05e-11e5-9704-64006a4c56ef for the dorsal part.",
+        "experimentProperties": [],
         "localizer": {
             "location": 10685,
             "text": "There was no significant difference in the Vrest between neurons\nin the ventral and dorsal MGB (dorsal:\n-59.06 \u00b1 0.56 mV, n = 36; ventral: -58.41 \u00b1 0.74 mV,\nn = 22, P[0.05)",
@@ -47,11 +48,11 @@
                     },
                     "type": "pointValue"
                 },
-                "experimentProperties": [],
                 "id": "eb75982e-f05f-11e5-9704-64006a4c56ef",
+                "isExperimentProperty": false,
                 "relationship": {
                     "entity1": {
-                        "id": "birnlex_845",
+                        "id": "NIFGA:birnlex_845",
                         "name": "Ventral nucleus of medial geniculate body"
                     },
                     "entity2": "None",
@@ -59,19 +60,28 @@
                 },
                 "requiredTags": [
                     {
-                        "id": "sao1813327414",
-                        "name": "Cell",
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
                     }
                 ]
             }
         ],
         "pubId": "10.1007/s12264-015-0006-5",
-        "tags": {
-            "birnlex_254": "Wistar Rat",
-            "birnlex_845": "Ventral nucleus of medial geniculate body",
-            "nifext_41": "Thalamocortical cell"
-        },
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFGA:birnlex_845",
+                "name": "Ventral nucleus of medial geniculate body"
+            },
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            }
+        ],
         "version": "1"
     },
     {
@@ -80,6 +90,7 @@
             "oreilly"
         ],
         "comment": "Resting membrane potential for the dorsal part of the MGB. See annotation f59ceb0c-f05c-11e5-887e-64006a4c56ef for the ventral part.",
+        "experimentProperties": [],
         "localizer": {
             "location": 10685,
             "text": "There was no significant difference in the Vrest between neurons\nin the ventral and dorsal MGB (dorsal:\n-59.06 \u00b1 0.56 mV, n = 36;",
@@ -122,11 +133,11 @@
                     },
                     "type": "pointValue"
                 },
-                "experimentProperties": [],
                 "id": "7d4cc3e0-f05f-11e5-9704-64006a4c56ef",
+                "isExperimentProperty": false,
                 "relationship": {
                     "entity1": {
-                        "id": "birnlex_1608",
+                        "id": "NIFGA:birnlex_1608",
                         "name": "Dorsal nucleus of medial geniculate body"
                     },
                     "entity2": "None",
@@ -134,19 +145,28 @@
                 },
                 "requiredTags": [
                     {
-                        "id": "sao1813327414",
-                        "name": "Cell",
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
                     }
                 ]
             }
         ],
         "pubId": "10.1007/s12264-015-0006-5",
-        "tags": {
-            "birnlex_1608": "Dorsal nucleus of medial geniculate body",
-            "birnlex_254": "Wistar Rat",
-            "nifext_41": "Thalamocortical cell"
-        },
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_1608",
+                "name": "Dorsal nucleus of medial geniculate body"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            }
+        ],
         "version": "1"
     }
 ]
