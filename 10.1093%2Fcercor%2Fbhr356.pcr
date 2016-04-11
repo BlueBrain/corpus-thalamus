@@ -380,7 +380,34 @@
             "text": "Two of the 5 anterior POm neurons and all the 5 posterior POm neurons sent axon collaterals to the striatum",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-110000",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": []
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "274c8102-ffde-11e5-a94f-c869cd917532",
+                "isExperimentProperty": false,
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFGA:birnlex_939",
+                        "name": "Posterior nucleus of thalamus"
+                    },
+                    "entity2": {
+                        "id": "UBERON:0002435",
+                        "name": "striatum"
+                    },
+                    "type": "directed"
+                },
+                "requiredTags": []
+            }
+        ],
         "pubId": "10.1093/cercor/bhr356",
         "tags": [
             {
