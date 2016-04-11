@@ -457,26 +457,27 @@
     {
         "annotId": "f5d23d2c-ef33-11e5-aea6-c869cd917532",
         "authors": [
-            "iavarone"
+            "iavarone",
+            "oreilly"
         ],
         "comment": "Eq potential Ca2+ = 120 mV",
         "experimentProperties": [],
         "localizer": {
             "location": 26247,
-            "text": "were modeled with a reversal potential of 120 mV and a permeability of 0.7 \udbff\udc10m/s. \u0000",
+            "text": "were modeled with a reversal potential of 120 mV and a permeability of 0.7 \udbff\udc10m/s. \n",
             "type": "text"
         },
         "parameters": [
             {
                 "description": {
                     "depVar": {
-                        "typeId": "BBP-030003",
+                        "typeId": "BBP-011001",
                         "values": {
                             "statistic": "raw",
                             "type": "simple",
-                            "unit": "um/s",
+                            "unit": "mV",
                             "values": [
-                                0.7
+                                120
                             ]
                         }
                     },
@@ -487,12 +488,12 @@
                 "requiredTags": [
                     {
                         "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current",
+                        "name": "Low threshold calcium T-current",
                         "rootId": "nifext_8054"
                     },
                     {
                         "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
+                        "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
                     }
                 ]
