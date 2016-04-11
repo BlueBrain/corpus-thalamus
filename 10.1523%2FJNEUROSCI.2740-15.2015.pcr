@@ -58,7 +58,8 @@
     {
         "annotId": "e6914b74-ed2a-11e5-b291-3417ebb8f5ca",
         "authors": [
-            "iavarone"
+            "iavarone",
+            "oreilly"
         ],
         "comment": "",
         "experimentProperties": [],
@@ -88,7 +89,7 @@
                 "requiredTags": [
                     {
                         "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
+                        "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
                     }
                 ]
