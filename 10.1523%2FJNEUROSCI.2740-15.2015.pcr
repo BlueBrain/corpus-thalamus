@@ -171,7 +171,12 @@
             "oreilly"
         ],
         "comment": "Liquid junction potential 12 mV",
-        "experimentProperties": [],
+        "experimentProperties": [
+            {
+                "instanceId": "eca1d35c-fff5-11e5-b628-64006a4c56ef",
+                "paramTypeId": "BBP-002003"
+            }
+        ],
         "localizer": {
             "location": 24207,
             "text": "where a liquid junction potential of 12 mV",
