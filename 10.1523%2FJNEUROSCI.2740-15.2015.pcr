@@ -365,13 +365,14 @@
     {
         "annotId": "9276a74a-ef33-11e5-a345-c869cd917532",
         "authors": [
-            "iavarone"
+            "iavarone",
+            "oreilly"
         ],
         "comment": "",
         "experimentProperties": [],
         "localizer": {
             "location": 26148,
-            "text": "had a reversal potential",
+            "text": "had a reversal potential of 45 mV and peak conductance of 150\n\u0002s/cm2.",
             "type": "text"
         },
         "parameters": [
