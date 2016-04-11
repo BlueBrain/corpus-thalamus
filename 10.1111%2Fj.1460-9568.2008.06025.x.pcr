@@ -1,0 +1,38 @@
+[
+    {
+        "annotId": "e77955fa-ffe7-11e5-aefd-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "2",
+            "type": "figure"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-100000",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "dimensionless",
+                            "values": [
+                                4
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "0dc1bee8-ffe8-11e5-9118-c869cd917532",
+                "isExperimentProperty": false,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "10.1111/j.1460-9568.2008.06025.x",
+        "tags": [],
+        "version": "1"
+    }
+]
