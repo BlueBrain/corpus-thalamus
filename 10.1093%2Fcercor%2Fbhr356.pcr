@@ -397,5 +397,62 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "d8e317a8-ffdd-11e5-a484-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 30935,
+            "text": "all the reconstructed POm neurons sent numerous axon fibers to the S1 cortex including the FL and HL cortices ",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-110000",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": []
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "0338ad92-ffde-11e5-9ef9-c869cd917532",
+                "isExperimentProperty": false,
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFGA:birnlex_939",
+                        "name": "Posterior nucleus of thalamus"
+                    },
+                    "entity2": {
+                        "id": "NIFGA:nlx_143551",
+                        "name": "Primary somatosensory cortex"
+                    },
+                    "type": "directed"
+                },
+                "requiredTags": []
+            }
+        ],
+        "pubId": "10.1093/cercor/bhr356",
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_939",
+                "name": "Posterior nucleus of thalamus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:nlx_143551",
+                "name": "Primary somatosensory cortex"
+            }
+        ],
+        "version": "1"
     }
 ]
