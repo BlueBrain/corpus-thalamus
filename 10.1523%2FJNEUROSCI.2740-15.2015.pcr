@@ -826,7 +826,8 @@
     {
         "annotId": "e01c3f70-ef34-11e5-8f1e-c869cd917532",
         "authors": [
-            "iavarone"
+            "iavarone",
+            "oreilly"
         ],
         "comment": "",
         "experimentProperties": [],
@@ -856,12 +857,12 @@
                 "requiredTags": [
                     {
                         "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current",
+                        "name": "Sodium transient fast current",
                         "rootId": "nifext_8054"
                     },
                     {
                         "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
+                        "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
                     }
                 ]
