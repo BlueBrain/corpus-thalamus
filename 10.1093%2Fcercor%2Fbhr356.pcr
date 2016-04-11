@@ -154,5 +154,32 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "2436e39c-ffdb-11e5-9d90-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "Soma and dendrites dimensions of PO neurons",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "1",
+            "noCol": null,
+            "noRow": "2",
+            "type": "table"
+        },
+        "parameters": [],
+        "pubId": "10.1093/cercor/bhr356",
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_939",
+                "name": "Posterior nucleus of thalamus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
+        "version": "1"
     }
 ]
