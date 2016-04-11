@@ -889,13 +889,14 @@
     {
         "annotId": "0f3075a2-ef36-11e5-a75f-c869cd917532",
         "authors": [
-            "iavarone"
+            "iavarone",
+            "oreilly"
         ],
         "comment": "Resting membrane potential dendrites, TC and TRN cells in order",
         "experimentProperties": [],
         "localizer": {
             "location": 29670,
-            "text": "In both cell types, the mean dendritic resting membrane potential was significantly more depolarized than at the soma ",
+            "text": "In both cell types,\nthe mean dendritic resting membrane potential was significantly\nmore depolarized than at the soma (TC: S, 73.8 \u0007 1.2 mV; D,\n71.3\u00071.1 mV; n\u000520; p\u00050.0019, paired t test; Fig. 3C; TRN:\nS, 69.4 \u0007 0.6 mV; D,  65.5 \u0007 0.5 mV; n \u0005 35; p \u0003 0.0001,\npaired t test; Fig. 2B).",
             "type": "text"
         },
         "parameters": [],
@@ -912,6 +913,10 @@
             {
                 "id": "NIFGA:birnlex_1721",
                 "name": "Thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
             },
             {
                 "id": "NIFCELL:nifext_41",
