@@ -608,12 +608,12 @@
                 "requiredTags": [
                     {
                         "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current",
+                        "name": "Calcium activated nonspecific cation current",
                         "rootId": "nifext_8054"
                     },
                     {
                         "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
+                        "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
                     }
                 ]
