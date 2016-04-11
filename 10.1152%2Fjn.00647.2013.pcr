@@ -19,13 +19,14 @@
     {
         "annotId": "6cff695e-eacc-11e5-a59e-c869cd917532",
         "authors": [
-            "iavarone"
+            "iavarone",
+            "oreilly"
         ],
         "comment": "Parameters from Traub et al., 2003, implemented by Lazarewicz & Traub in ModelDB (no. 20756). Correction factor of 10^-6. Parameter for IKCa.",
         "experimentProperties": [],
         "localizer": {
             "location": 22740,
-            "text": "the calcium-activated potassium conductances",
+            "text": "the calcium-activated potassium conductances IKCa and\nIKAHP were incorporated into the model by using parameters from\nTraub et al. (2003) as implemented by Lazarewicz and Traub in\nModelDB (https://senselab.med.yale.edu/modeldb/, accession no.\n20756) with a correction factor of 10\u00056 to convert their arbitrary units\nof calcium concentration to millimoles per liter. Maximum conductances\nof 1.0 \u0006 10\u00054 and 1.5 \u0006 10\u00055 S/cm2 were used for IKCa and\nIKAHP, respectively.",
             "type": "text"
         },
         "parameters": [
