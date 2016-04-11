@@ -286,5 +286,23 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "0cff9da2-ffdd-11e5-95d6-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "1",
+            "noCol": "2",
+            "noRow": "5",
+            "type": "table"
+        },
+        "parameters": [],
+        "pubId": "10.1093/cercor/bhr356",
+        "tags": [],
+        "version": "1"
     }
 ]
