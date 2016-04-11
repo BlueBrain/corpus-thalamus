@@ -13,7 +13,12 @@
         },
         "parameters": [],
         "pubId": "10.1152/jn.00647.2013",
-        "tags": [],
+        "tags": [
+            {
+                "id": "nlx_151691",
+                "name": "Thalamus ventroposterior nucleus principal neuron"
+            }
+        ],
         "version": "1"
     },
     {
@@ -62,7 +67,12 @@
             }
         ],
         "pubId": "10.1152/jn.00647.2013",
-        "tags": [],
+        "tags": [
+            {
+                "id": "nlx_151691",
+                "name": "Thalamus ventroposterior nucleus principal neuron"
+            }
+        ],
         "version": "1"
     },
     {
@@ -111,7 +121,12 @@
             }
         ],
         "pubId": "10.1152/jn.00647.2013",
-        "tags": [],
+        "tags": [
+            {
+                "id": "nlx_151691",
+                "name": "Thalamus ventroposterior nucleus principal neuron"
+            }
+        ],
         "version": "1"
     },
     {
@@ -194,6 +209,10 @@
             {
                 "id": "NIFCELL:nlx_cell_20081203",
                 "name": "Thalamus geniculate nucleus (lateral) principal neuron"
+            },
+            {
+                "id": "nlx_151691",
+                "name": "Thalamus ventroposterior nucleus principal neuron"
             }
         ],
         "version": "1"
@@ -440,6 +459,10 @@
             {
                 "id": "NIFCELL:nifext_156",
                 "name": "Hippocampal pyramidal cell"
+            },
+            {
+                "id": "nlx_151691",
+                "name": "Thalamus ventroposterior nucleus principal neuron"
             }
         ],
         "version": "1"
@@ -492,7 +515,12 @@
             }
         ],
         "pubId": "10.1152/jn.00647.2013",
-        "tags": [],
+        "tags": [
+            {
+                "id": "nlx_151691",
+                "name": "Thalamus ventroposterior nucleus principal neuron"
+            }
+        ],
         "version": "1"
     },
     {
@@ -560,6 +588,10 @@
             {
                 "id": "NIFINV:birnlex_2304",
                 "name": "Ionic current model"
+            },
+            {
+                "id": "nlx_151691",
+                "name": "Thalamus ventroposterior nucleus principal neuron"
             }
         ],
         "version": "1"
@@ -686,7 +718,12 @@
             }
         ],
         "pubId": "10.1152/jn.00647.2013",
-        "tags": [],
+        "tags": [
+            {
+                "id": "nlx_151691",
+                "name": "Thalamus ventroposterior nucleus principal neuron"
+            }
+        ],
         "version": "1"
     },
     {
@@ -810,7 +847,12 @@
             }
         ],
         "pubId": "10.1152/jn.00647.2013",
-        "tags": [],
+        "tags": [
+            {
+                "id": "nlx_151691",
+                "name": "Thalamus ventroposterior nucleus principal neuron"
+            }
+        ],
         "version": "1"
     },
     {
@@ -878,6 +920,10 @@
             {
                 "id": "NIFINV:birnlex_2304",
                 "name": "Ionic current model"
+            },
+            {
+                "id": "nlx_151691",
+                "name": "Thalamus ventroposterior nucleus principal neuron"
             }
         ],
         "version": "1"
