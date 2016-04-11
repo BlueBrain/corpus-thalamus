@@ -164,7 +164,7 @@
         "experimentProperties": [],
         "localizer": {
             "no": "1",
-            "noCol": "None",
+            "noCol": null,
             "noRow": "2",
             "type": "table"
         },
@@ -198,6 +198,72 @@
                     "type": "pointValue"
                 },
                 "id": "0c4c7aa8-ffdc-11e5-8102-c869cd917532",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1093/cercor/bhr356",
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_939",
+                "name": "Posterior nucleus of thalamus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "5b7cd6f8-ffdc-11e5-8868-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "Anterior POm neurons.\nDifferences in latero-medial spread of PO neuron dendrites. These reflect morphological and immunolabeling differences (calbindin) in the antero-postero direction.\n",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "1",
+            "noCol": "1",
+            "noRow": "5",
+            "type": "table"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-121005",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "um",
+                                    "values": [
+                                        329
+                                    ]
+                                },
+                                {
+                                    "statistic": "sd",
+                                    "type": "simple",
+                                    "unit": "um",
+                                    "values": [
+                                        31
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "04451ab6-ffdd-11e5-a99f-c869cd917532",
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
