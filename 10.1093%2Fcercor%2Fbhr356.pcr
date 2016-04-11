@@ -24,5 +24,39 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "60032d42-ffaa-11e5-a10b-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 4042,
+            "text": "S1 cortex is known to receive the projection from many thalamic nuclei such as the ventral medial nucleus, intralaminar nuclei, and posterior nuclei (PO)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1093/cercor/bhr356",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "UBERON:0000431",
+                "name": "ventral medial complex of thalamus"
+            },
+            {
+                "id": "NIFGA:birnlex_939",
+                "name": "Posterior nucleus of thalamus"
+            },
+            {
+                "id": "NIFGA:birnlex_1530",
+                "name": "Intralaminar nuclear group"
+            }
+        ],
+        "version": "1"
     }
 ]
