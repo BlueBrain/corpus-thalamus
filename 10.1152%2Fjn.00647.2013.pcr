@@ -104,23 +104,15 @@
                 },
                 "id": "ceac006c-f289-11e5-b804-64006a4c56ef",
                 "isExperimentProperty": false,
-                "relationship": {
-                    "entity1": {
-                        "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current"
-                    },
-                    "entity2": "None",
-                    "type": "point"
-                },
                 "requiredTags": [
                     {
                         "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current",
+                        "name": "Slow calcium-dependent AHP potassium current",
                         "rootId": "nifext_8054"
                     },
                     {
                         "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
+                        "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
                     }
                 ]
