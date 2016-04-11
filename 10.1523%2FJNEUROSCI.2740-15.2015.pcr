@@ -464,7 +464,7 @@
         "experimentProperties": [],
         "localizer": {
             "location": 26247,
-            "text": "were modeled with a reversal potential of 120 mV and a permeability of 0.7 \udbff\udc10m/s. \n\n",
+            "text": "were modeled with a reversal potential of 120 mV and a permeability of 0.7 \udbff\udc10m/s. \n\n\u0000",
             "type": "text"
         },
         "parameters": [
@@ -484,6 +484,36 @@
                     "type": "pointValue"
                 },
                 "id": "e47c81f4-ffdc-11e5-8b78-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Low threshold calcium T-current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamocortical cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-035003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "um/s",
+                            "values": [
+                                0.7
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "1ae86a9a-fff2-11e5-b628-64006a4c56ef",
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
