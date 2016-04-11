@@ -577,13 +577,14 @@
     {
         "annotId": "32b897cc-ef34-11e5-8016-c869cd917532",
         "authors": [
-            "iavarone"
+            "iavarone",
+            "oreilly"
         ],
         "comment": "Ca-activated cationic current, reversal potential = -20 mV",
         "experimentProperties": [],
         "localizer": {
-            "location": 26337,
-            "text": "had a conductance of 250",
+            "location": 26328,
+            "text": "The gCAN had a conductance\nof 250\u0002S/cm2",
             "type": "text"
         },
         "parameters": [
@@ -631,6 +632,10 @@
             {
                 "id": "NIFORG:birnlex_160",
                 "name": "Rat"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
             }
         ],
         "version": "1"
