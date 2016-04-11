@@ -32,7 +32,8 @@
     {
         "annotId": "0ec14d5c-ed2a-11e5-b291-3417ebb8f5ca",
         "authors": [
-            "iavarone"
+            "iavarone",
+            "oreilly"
         ],
         "comment": "Physical length of reticular neurons = 400 um",
         "experimentProperties": [],
@@ -41,7 +42,33 @@
             "text": "TRN (400\u0002m) neuron\ndendrites",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-121005",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "um",
+                            "values": [
+                                400
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "e5898bd0-fff2-11e5-b628-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamic reticular nucleus cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
         "pubId": "10.1523/JNEUROSCI.2740-15.2015",
         "tags": [
             {
