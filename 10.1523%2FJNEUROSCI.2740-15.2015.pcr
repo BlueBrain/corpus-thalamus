@@ -464,7 +464,7 @@
         "experimentProperties": [],
         "localizer": {
             "location": 26247,
-            "text": "were modeled with a reversal potential of 120 mV and a permeability of 0.7 \udbff\udc10m/s. \n",
+            "text": "were modeled with a reversal potential of 120 mV and a permeability of 0.7 \udbff\udc10m/s. \n\n",
             "type": "text"
         },
         "parameters": [
@@ -506,12 +506,12 @@
                 "name": "Computational model"
             },
             {
-                "id": "NIFCELL:nifext_46",
-                "name": "Thalamus geniculate nucleus (lateral) interneuron"
-            },
-            {
                 "id": "NIFORG:birnlex_160",
                 "name": "Rat"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
             }
         ],
         "version": "1"
