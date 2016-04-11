@@ -396,12 +396,12 @@
                 "requiredTags": [
                     {
                         "id": "NIFMOL:nifext_8056",
-                        "name": "Potassium current",
+                        "name": "Inward rectifier (h-type) current",
                         "rootId": "nifext_8054"
                     },
                     {
                         "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
+                        "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
                     }
                 ]
