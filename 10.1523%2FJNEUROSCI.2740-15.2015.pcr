@@ -273,13 +273,14 @@
     {
         "annotId": "0bf43278-ef33-11e5-8073-c869cd917532",
         "authors": [
-            "iavarone"
+            "iavarone",
+            "oreilly"
         ],
         "comment": "",
         "experimentProperties": [],
         "localizer": {
             "location": 26014,
-            "text": "our final model comprised the following: gLEAK was modeled",
+            "text": "our final model comprised the following: gLEAK was modeled\nwith a reversal potential of 79mV and conductance of 150\u0002s/cm2,",
             "type": "text"
         },
         "parameters": [
