@@ -1303,13 +1303,14 @@
     {
         "annotId": "100ddd86-eff7-11e5-8d17-c869cd917532",
         "authors": [
-            "iavarone"
+            "iavarone",
+            "oreilly"
         ],
         "comment": "",
         "experimentProperties": [],
         "localizer": {
-            "location": 78466,
-            "text": "Uniform distribution of ",
+            "location": 69309,
+            "text": "Uniform distribution of\nT-type Ca2\u0002 channel conductance ( gT) produced model voltage\nresponses in soma and dendrites most similar to those seen in\ndual patch-clamp recordings",
             "type": "text"
         },
         "parameters": [],
@@ -1322,6 +1323,10 @@
             {
                 "id": "NIFORG:birnlex_160",
                 "name": "Rat"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
             },
             {
                 "id": "NIFCELL:nifext_41",
