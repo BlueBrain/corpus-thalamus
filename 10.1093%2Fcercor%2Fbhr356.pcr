@@ -58,5 +58,31 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "174db15c-ffab-11e5-b814-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 5123,
+            "text": "The PO is a heterogenous nucleus in mammalian brain and divided into lateral, intermediate, and medial subdivisions (Jones 2007). Of the 3 subdivisions, only the medial subdivision,",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1093/cercor/bhr356",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFGA:birnlex_939",
+                "name": "Posterior nucleus of thalamus"
+            }
+        ],
+        "version": "1"
     }
 ]
