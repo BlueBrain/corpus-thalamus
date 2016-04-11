@@ -1,1 +1,1322 @@
-[{"localizer": {"location": 17366, "type": "text", "text": "mean physical lengths of TC (160\u0002m)"}, "version": "1", "authors": ["iavarone"], "pubId": "10.1523/JNEUROSCI.2740-15.2015", "parameters": [], "annotId": "d6436d2a-ed29-11e5-b291-3417ebb8f5ca", "comment": "", "tags": {"birnlex_160": "Rat", "nifext_41": "Thalamocortical cell", "nifext_46": "Thalamus geniculate nucleus (lateral) interneuron"}}, {"localizer": {"location": 17407, "type": "text", "text": "TRN (400\u0002m) neuron\ndendrites"}, "version": "1", "authors": ["iavarone"], "pubId": "10.1523/JNEUROSCI.2740-15.2015", "parameters": [], "annotId": "0ec14d5c-ed2a-11e5-b291-3417ebb8f5ca", "comment": "Physical length of reticular neurons = 400 um", "tags": {"birnlex_160": "Rat", "nifext_46": "Thalamus geniculate nucleus (lateral) interneuron"}}, {"localizer": {"location": 23171, "type": "text", "text": "Ri of 170 \u0004 \u0002 cm and for Cm\nof 0.7 \u0002F/cm2"}, "version": "1", "authors": ["iavarone"], "pubId": "10.1523/JNEUROSCI.2740-15.2015", "parameters": [{"unit": "ohm*cm", "value": 170.0, "id": "BBP-00006"}, {"unit": "uF/cm^2", "value": 0.7, "id": "BBP-00004"}], "annotId": "e6914b74-ed2a-11e5-b291-3417ebb8f5ca", "comment": "", "tags": {"birnlex_160": "Rat", "nifext_41": "Thalamocortical cell", "nifext_46": "Thalamus geniculate nucleus (lateral) interneuron"}}, {"localizer": {"location": 24207, "type": "text", "text": "where a liquid junction potential of 12 mV"}, "version": "1", "authors": ["iavarone"], "pubId": "10.1523/JNEUROSCI.2740-15.2015", "parameters": [], "annotId": "4b1866e0-ed2b-11e5-b291-3417ebb8f5ca", "comment": "Liquid junction potential 12 mV", "tags": {"birnlex_160": "Rat", "nifext_41": "Thalamocortical cell", "nifext_46": "Thalamus geniculate nucleus (lateral) interneuron"}}, {"localizer": {"location": 23703, "type": "text", "text": "The data were, however, found to be best fit with an invariant channel density, a finding that is consistent with previous in vitro findings (Williams and Stuart, 2000)."}, "version": "1", "authors": ["iavarone"], "pubId": "10.1523/JNEUROSCI.2740-15.2015", "parameters": [], "annotId": "a0e25bf6-eed9-11e5-8a23-c869cd917532", "comment": "", "tags": {"birnlex_160": "Rat", "nifext_46": "Thalamus geniculate nucleus (lateral) interneuron"}}, {"localizer": {"location": 24401, "type": "text", "text": "Variations in somatodendritic T-type conductance distribution were tested. When channels were restricted to the soma and/or proximal dendrites"}, "version": "1", "authors": ["iavarone"], "pubId": "10.1523/JNEUROSCI.2740-15.2015", "parameters": [], "annotId": "30892498-ef32-11e5-9e02-c869cd917532", "comment": "", "tags": {"birnlex_160": "Rat", "nifext_46": "Thalamus geniculate nucleus (lateral) interneuron"}}, {"localizer": {"location": 24986, "type": "text", "text": "simple Ca2\udbff\udc00 extrusion mechanism was inserted.\u0000"}, "version": "1", "authors": ["iavarone"], "pubId": "10.1523/JNEUROSCI.2740-15.2015", "parameters": [{"unit": "ms", "value": 5.0, "id": "BBP-00068"}], "annotId": "6a04955c-ef32-11e5-825d-c869cd917532", "comment": "Ca2+ steady state concentration: 200 nM", "tags": {"birnlex_160": "Rat", "nifext_46": "Thalamus geniculate nucleus (lateral) interneuron"}}, {"localizer": {"location": 26014, "type": "text", "text": "our final model comprised the following: gLEAK was modeled"}, "version": "1", "authors": ["iavarone"], "pubId": "10.1523/JNEUROSCI.2740-15.2015", "parameters": [{"unit": "mV", "value": -79.0, "id": "BBP-00007"}, {"unit": "uS/cm^2", "value": 150.0, "id": "BBP-00009"}], "annotId": "0bf43278-ef33-11e5-8073-c869cd917532", "comment": "", "tags": {"birnlex_160": "Rat", "birnlex_2300": "Computational model", "nifext_46": "Thalamus geniculate nucleus (lateral) interneuron"}}, {"localizer": {"location": 26148, "type": "text", "text": "had a reversal potential"}, "version": "1", "authors": ["iavarone"], "pubId": "10.1523/JNEUROSCI.2740-15.2015", "parameters": [{"unit": "mV", "value": -45.0, "id": "BBP-00007"}, {"unit": "uS/cm^2", "value": 150.0, "id": "BBP-00012"}], "annotId": "9276a74a-ef33-11e5-a345-c869cd917532", "comment": "", "tags": {"birnlex_160": "Rat", "birnlex_2300": "Computational model", "nifext_46": "Thalamus geniculate nucleus (lateral) interneuron"}}, {"localizer": {"location": 26247, "type": "text", "text": "were modeled with a reversal potential of 120 mV and a permeability of 0.7 \udbff\udc10m/s. \u0000"}, "version": "1", "authors": ["iavarone"], "pubId": "10.1523/JNEUROSCI.2740-15.2015", "parameters": [{"unit": "um/s", "value": 0.7, "id": "BBP-00012"}], "annotId": "f5d23d2c-ef33-11e5-aea6-c869cd917532", "comment": "Eq potential Ca2+ = 120 mV", "tags": {"birnlex_160": "Rat", "birnlex_2300": "Computational model", "nifext_46": "Thalamus geniculate nucleus (lateral) interneuron"}}, {"localizer": {"location": 26337, "type": "text", "text": "had a conductance of 250"}, "version": "1", "authors": ["iavarone"], "pubId": "10.1523/JNEUROSCI.2740-15.2015", "parameters": [{"unit": "uS/cm^2", "value": 250.0, "id": "BBP-00012"}], "annotId": "32b897cc-ef34-11e5-8016-c869cd917532", "comment": "Ca-activated cationic current, reversal potential = -20 mV", "tags": {"birnlex_160": "Rat", "birnlex_2300": "Computational model", "nifext_46": "Thalamus geniculate nucleus (lateral) interneuron"}}, {"localizer": {"location": 26404, "type": "text", "text": "The gKIR and the fast voltage-gated potassium channel"}, "version": "1", "authors": ["iavarone"], "pubId": "10.1523/JNEUROSCI.2740-15.2015", "parameters": [{"unit": "us/cm^2", "value": 20.0, "id": "BBP-00012"}, {"unit": "mV", "value": -100.0, "id": "BBP-00007"}], "annotId": "64cf9fe4-ef34-11e5-80e7-c869cd917532", "comment": "Kir current parameters", "tags": {"birnlex_160": "Rat", "birnlex_2300": "Computational model", "nifext_46": "Thalamus geniculate nucleus (lateral) interneuron"}}, {"localizer": {"location": 26404, "type": "text", "text": "The gKIR and the fast voltage-gated potassium channel"}, "version": "1", "authors": ["iavarone"], "pubId": "10.1523/JNEUROSCI.2740-15.2015", "parameters": [{"unit": "mS/cm^2", "value": 50.0, "id": "BBP-00012"}, {"unit": "mV", "value": -100.0, "id": "BBP-00007"}], "annotId": "8e3edae6-ef34-11e5-ba5d-c869cd917532", "comment": "Fast potassium current parameters", "tags": {"birnlex_160": "Rat", "birnlex_2300": "Computational model", "nifext_46": "Thalamus geniculate nucleus (lateral) interneuron"}}, {"localizer": {"location": 26587, "type": "text", "text": "The gNa had conductance of 50 mS/cm2 and reversal potential of 50 mV"}, "version": "1", "authors": ["iavarone"], "pubId": "10.1523/JNEUROSCI.2740-15.2015", "parameters": [{"unit": "mS/cm^2", "value": 50.0, "id": "BBP-00012"}, {"unit": "mV", "value": 50.0, "id": "BBP-00008"}], "annotId": "e01c3f70-ef34-11e5-8f1e-c869cd917532", "comment": "", "tags": {"birnlex_160": "Rat", "birnlex_2300": "Computational model", "nifext_46": "Thalamus geniculate nucleus (lateral) interneuron"}}, {"localizer": {"location": 29670, "type": "text", "text": "In both cell types, the mean dendritic resting membrane potential was significantly more depolarized than at the soma "}, "version": "1", "authors": ["iavarone"], "pubId": "10.1523/JNEUROSCI.2740-15.2015", "parameters": [], "annotId": "0f3075a2-ef36-11e5-a75f-c869cd917532", "comment": "Resting membrane potential dendrites, TC and TRN cells in order", "tags": {"birnlex_160": "Rat", "nifext_41": "Thalamocortical cell", "birnlex_1721": "Thalamic reticular nucleus", "nifext_46": "Thalamus geniculate nucleus (lateral) interneuron"}}, {"localizer": {"location": 31499, "type": "text", "text": "voltage transfer between dendrites and soma (VDD\u00a1VSD) was much less efficient"}, "version": "1", "authors": ["iavarone"], "pubId": "10.1523/JNEUROSCI.2740-15.2015", "parameters": [], "annotId": "ac253818-ef63-11e5-9716-c869cd917532", "comment": "", "tags": {}}, {"localizer": {"location": 33011, "type": "text", "text": "current transmis- sion, calculated as the ratio of current arriving at the soma to that injected into the dendrite, was highly efficient "}, "version": "1", "authors": ["iavarone"], "pubId": "10.1523/JNEUROSCI.2740-15.2015", "parameters": [], "annotId": "bb291140-ef63-11e5-b7fb-c869cd917532", "comment": "", "tags": {}}, {"localizer": {"location": 43324, "type": "text", "text": "time constants of 35.0 "}, "version": "1", "authors": ["iavarone"], "pubId": "10.1523/JNEUROSCI.2740-15.2015", "parameters": [{"unit": "ms", "value": 35.0, "id": "BBP-00068"}], "annotId": "0aedb890-ef65-11e5-a8b2-c869cd917532", "comment": "", "tags": {"birnlex_160": "Rat", "nifext_41": "Thalamocortical cell", "nifext_46": "Thalamus geniculate nucleus (lateral) interneuron"}}, {"localizer": {"location": 43324, "type": "text", "text": "time constants "}, "version": "1", "authors": ["iavarone"], "pubId": "10.1523/JNEUROSCI.2740-15.2015", "parameters": [{"unit": "ms", "value": 12.6, "id": "BBP-00068"}], "annotId": "31f32286-ef65-11e5-9e6d-c869cd917532", "comment": "", "tags": {"birnlex_160": "Rat", "birnlex_1721": "Thalamic reticular nucleus", "nifext_46": "Thalamus geniculate nucleus (lateral) interneuron"}}, {"localizer": {"location": 47216, "type": "text", "text": "he predominantly expressed channel isoform is HCN-2,"}, "version": "1", "authors": ["iavarone"], "pubId": "10.1523/JNEUROSCI.2740-15.2015", "parameters": [], "annotId": "c2100440-ef65-11e5-b2c2-c869cd917532", "comment": "", "tags": {"birnlex_160": "Rat", "nifext_41": "Thalamocortical cell", "birnlex_1721": "Thalamic reticular nucleus", "nifext_46": "Thalamus geniculate nucleus (lateral) interneuron"}}, {"localizer": {"location": 56065, "type": "text", "text": "major T-type Ca2\udbff\udc00 channel subunit ex- pression \udac0\udc00"}, "version": "1", "authors": ["iavarone"], "pubId": "10.1523/JNEUROSCI.2740-15.2015", "parameters": [], "annotId": "2a11cc6e-eff3-11e5-818d-c869cd917532", "comment": "", "tags": {"birnlex_160": "Rat", "nifext_41": "Thalamocortical cell", "birnlex_1721": "Thalamic reticular nucleus", "nifext_46": "Thalamus geniculate nucleus (lateral) interneuron"}}, {"localizer": {"location": 57398, "type": "text", "text": "LTSD showed minimal reduction in amplitude relative to their somatic counterparts "}, "version": "1", "authors": ["iavarone"], "pubId": "10.1523/JNEUROSCI.2740-15.2015", "parameters": [], "annotId": "0919decc-eff4-11e5-9224-c869cd917532", "comment": "", "tags": {"birnlex_160": "Rat", "nifext_41": "Thalamocortical cell", "nifext_46": "Thalamus geniculate nucleus (lateral) interneuron"}}, {"localizer": {"location": 58057, "type": "text", "text": "in TRN neurons, we found that LTSD increased in amplitude relative to LTSS with increasing distance from the soma"}, "version": "1", "authors": ["iavarone"], "pubId": "10.1523/JNEUROSCI.2740-15.2015", "parameters": [], "annotId": "42165554-eff4-11e5-a39f-c869cd917532", "comment": "", "tags": {"birnlex_160": "Rat", "birnlex_1721": "Thalamic reticular nucleus", "nifext_46": "Thalamus geniculate nucleus (lateral) interneuron"}}, {"localizer": {"location": 59449, "type": "text", "text": "when evoked by dendritic current injection, a pro- nounced distance-dependent difference in the threshold"}, "version": "1", "authors": ["iavarone"], "pubId": "10.1523/JNEUROSCI.2740-15.2015", "parameters": [], "annotId": "acc93fc6-eff4-11e5-9568-c869cd917532", "comment": "", "tags": {"birnlex_160": "Rat", "nifext_41": "Thalamocortical cell", "birnlex_1721": "Thalamic reticular nucleus", "nifext_46": "Thalamus geniculate nucleus (lateral) interneuron"}}, {"localizer": {"location": 83158, "type": "text", "text": "we conclude that LTS cannot be initi- ated in dendrites, and to trigger an LTS, dendritic input must be sufficient to depolarize the soma to LTS threshold."}, "version": "1", "authors": ["iavarone"], "pubId": "10.1523/JNEUROSCI.2740-15.2015", "parameters": [], "annotId": "89963966-eff5-11e5-b76c-c869cd917532", "comment": "", "tags": {"birnlex_160": "Rat", "nifext_41": "Thalamocortical cell", "birnlex_1721": "Thalamic reticular nucleus", "nifext_46": "Thalamus geniculate nucleus (lateral) interneuron"}}, {"localizer": {"location": 78466, "type": "text", "text": "Uniform distribution of "}, "version": "1", "authors": ["iavarone"], "pubId": "10.1523/JNEUROSCI.2740-15.2015", "parameters": [], "annotId": "100ddd86-eff7-11e5-8d17-c869cd917532", "comment": "", "tags": {"birnlex_160": "Rat", "nifext_41": "Thalamocortical cell", "nifext_46": "Thalamus geniculate nucleus (lateral) interneuron"}}, {"localizer": {"location": 69789, "type": "text", "text": "was relatively narrow, and the optimal value "}, "version": "1", "authors": ["iavarone"], "pubId": "10.1523/JNEUROSCI.2740-15.2015", "parameters": [{"unit": "S/cm^2", "value": 7e-05, "id": "BBP-00012"}], "annotId": "6018bec2-f022-11e5-ab76-c869cd917532", "comment": "", "tags": {"birnlex_160": "Rat", "birnlex_2300": "Computational model", "nifext_41": "Thalamocortical cell", "nifext_46": "Thalamus geniculate nucleus (lateral) interneuron"}}]
+[
+    {
+        "annotId": "d6436d2a-ed29-11e5-b291-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 17366,
+            "text": "mean physical lengths of TC (160\u0002m)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "0ec14d5c-ed2a-11e5-b291-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "Physical length of reticular neurons = 400 um",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 17407,
+            "text": "TRN (400\u0002m) neuron\ndendrites",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "e6914b74-ed2a-11e5-b291-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 23171,
+            "text": "Ri of 170 \u0004 \u0002 cm and for Cm\nof 0.7 \u0002F/cm2",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-022000",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "ohm*cm",
+                            "values": [
+                                170.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "e47c65ac-ffdc-11e5-8b78-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-040001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "uF/cm^2",
+                            "values": [
+                                0.7
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "e47c6aca-ffdc-11e5-8b78-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "4b1866e0-ed2b-11e5-b291-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "Liquid junction potential 12 mV",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 24207,
+            "text": "where a liquid junction potential of 12 mV",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "a0e25bf6-eed9-11e5-8a23-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 23703,
+            "text": "The data were, however, found to be best fit with an invariant channel density, a finding that is consistent with previous in vitro findings (Williams and Stuart, 2000).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "30892498-ef32-11e5-9e02-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 24401,
+            "text": "Variations in somatodendritic T-type conductance distribution were tested. When channels were restricted to the soma and/or proximal dendrites",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "6a04955c-ef32-11e5-825d-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "Ca2+ steady state concentration: 200 nM",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 24986,
+            "text": "simple Ca2\udbff\udc00 extrusion mechanism was inserted.\u0000",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-080004",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "ms",
+                            "values": [
+                                5.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "e47c702e-ffdc-11e5-8b78-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "0bf43278-ef33-11e5-8073-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 26014,
+            "text": "our final model comprised the following: gLEAK was modeled",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-011001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                -79.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "e47c731c-ffdc-11e5-8b78-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8056",
+                        "name": "Potassium current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "uS/cm^2",
+                            "values": [
+                                150.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "e47c772c-ffdc-11e5-8b78-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "BBP_nlx_0001",
+                        "name": "Leak ionic current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            },
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "9276a74a-ef33-11e5-a345-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 26148,
+            "text": "had a reversal potential",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-011001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                -45.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "e47c7a1a-ffdc-11e5-8b78-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8056",
+                        "name": "Potassium current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "uS/cm^2",
+                            "values": [
+                                150.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "e47c7e0c-ffdc-11e5-8b78-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Transmembrane ionic current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            },
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "f5d23d2c-ef33-11e5-aea6-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "Eq potential Ca2+ = 120 mV",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 26247,
+            "text": "were modeled with a reversal potential of 120 mV and a permeability of 0.7 \udbff\udc10m/s. \u0000",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "um/s",
+                            "values": [
+                                0.7
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "e47c81f4-ffdc-11e5-8b78-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Transmembrane ionic current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            },
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "32b897cc-ef34-11e5-8016-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "Ca-activated cationic current, reversal potential = -20 mV",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 26337,
+            "text": "had a conductance of 250",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "uS/cm^2",
+                            "values": [
+                                250.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "e47c87ee-ffdc-11e5-8b78-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Transmembrane ionic current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            },
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "64cf9fe4-ef34-11e5-80e7-c869cd917532",
+        "authors": [
+            "iavarone",
+            "oreilly"
+        ],
+        "comment": "Kir current parameters",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 26404,
+            "text": "The gKIR and the\nfast voltage-gated potassium channel ( gKf) had conductances of 20 \u0002s/\ncm2 and 50 mS/cm2, respectively. Both potassium channels had reversal\npotentials of 100 mV.",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "us/cm^2",
+                            "values": [
+                                20.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "93c5d328-ffdc-11e5-8b78-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Transmembrane ionic current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-011001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                -100.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "93c5d85a-ffdc-11e5-8b78-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8056",
+                        "name": "Potassium current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            },
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "8e3edae6-ef34-11e5-ba5d-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "Fast potassium current parameters",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 26404,
+            "text": "The gKIR and the fast voltage-gated potassium channel",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mS/cm^2",
+                            "values": [
+                                50.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "e47c93ba-ffdc-11e5-8b78-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Transmembrane ionic current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-011001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                -100.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "e47c95c2-ffdc-11e5-8b78-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8056",
+                        "name": "Potassium current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            },
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "e01c3f70-ef34-11e5-8f1e-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 26587,
+            "text": "The gNa had conductance of 50 mS/cm2 and reversal potential of 50 mV",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mS/cm^2",
+                            "values": [
+                                50.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "e47c9a72-ffdc-11e5-8b78-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Transmembrane ionic current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-011001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                50.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "e47c9c7a-ffdc-11e5-8b78-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8055",
+                        "name": "Sodium current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            },
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "0f3075a2-ef36-11e5-a75f-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "Resting membrane potential dendrites, TC and TRN cells in order",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 29670,
+            "text": "In both cell types, the mean dendritic resting membrane potential was significantly more depolarized than at the soma ",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1721",
+                "name": "Thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "ac253818-ef63-11e5-9716-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 31499,
+            "text": "voltage transfer between dendrites and soma (VDD\u00a1VSD) was much less efficient",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [],
+        "version": "1"
+    },
+    {
+        "annotId": "bb291140-ef63-11e5-b7fb-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 33011,
+            "text": "current transmis- sion, calculated as the ratio of current arriving at the soma to that injected into the dendrite, was highly efficient ",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [],
+        "version": "1"
+    },
+    {
+        "annotId": "0aedb890-ef65-11e5-a8b2-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 43324,
+            "text": "time constants of 35.0 ",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-080004",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "ms",
+                            "values": [
+                                35.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "e47ca15c-ffdc-11e5-8b78-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "31f32286-ef65-11e5-9e6d-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 43324,
+            "text": "time constants ",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-080004",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "ms",
+                            "values": [
+                                12.6
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "e47ca422-ffdc-11e5-8b78-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1721",
+                "name": "Thalamic reticular nucleus"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "c2100440-ef65-11e5-b2c2-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 47216,
+            "text": "he predominantly expressed channel isoform is HCN-2,",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1721",
+                "name": "Thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "2a11cc6e-eff3-11e5-818d-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 56065,
+            "text": "major T-type Ca2\udbff\udc00 channel subunit ex- pression \udac0\udc00",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1721",
+                "name": "Thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "0919decc-eff4-11e5-9224-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 57398,
+            "text": "LTSD showed minimal reduction in amplitude relative to their somatic counterparts ",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "42165554-eff4-11e5-a39f-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 58057,
+            "text": "in TRN neurons, we found that LTSD increased in amplitude relative to LTSS with increasing distance from the soma",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1721",
+                "name": "Thalamic reticular nucleus"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "acc93fc6-eff4-11e5-9568-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 59449,
+            "text": "when evoked by dendritic current injection, a pro- nounced distance-dependent difference in the threshold",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1721",
+                "name": "Thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "89963966-eff5-11e5-b76c-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 83158,
+            "text": "we conclude that LTS cannot be initi- ated in dendrites, and to trigger an LTS, dendritic input must be sufficient to depolarize the soma to LTS threshold.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1721",
+                "name": "Thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "100ddd86-eff7-11e5-8d17-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 78466,
+            "text": "Uniform distribution of ",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "6018bec2-f022-11e5-ab76-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 69789,
+            "text": "was relatively narrow, and the optimal value ",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "S/cm^2",
+                            "values": [
+                                7e-05
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "e47cae04-ffdc-11e5-8b78-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Transmembrane ionic current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            },
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            }
+        ],
+        "version": "1"
+    }
+]
