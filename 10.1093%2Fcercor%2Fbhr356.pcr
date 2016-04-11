@@ -164,11 +164,50 @@
         "experimentProperties": [],
         "localizer": {
             "no": "1",
-            "noCol": null,
+            "noCol": "None",
             "noRow": "2",
             "type": "table"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-121004",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "min",
+                                    "type": "simple",
+                                    "unit": "um^2",
+                                    "values": [
+                                        111
+                                    ]
+                                },
+                                {
+                                    "statistic": "max",
+                                    "type": "simple",
+                                    "unit": "um^2",
+                                    "values": [
+                                        257
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "0c4c7aa8-ffdc-11e5-8102-c869cd917532",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
         "pubId": "10.1093/cercor/bhr356",
         "tags": [
             {
