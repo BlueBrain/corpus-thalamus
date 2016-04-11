@@ -1,5 +1,35 @@
 [
     {
+        "annotId": "32c1696c-ffae-11e5-9eea-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 18285,
+            "text": "POm was more immunoreactive for CB than the anterior region, although the border between them was not straightforward.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1093/cercor/bhr356",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFMOL:nlx_mol_1006006",
+                "name": "Calbindin 28K"
+            },
+            {
+                "id": "NIFGA:birnlex_939",
+                "name": "Posterior nucleus of thalamus"
+            }
+        ],
+        "version": "1"
+    },
+    {
         "annotId": "d8732d6e-ffa9-11e5-936f-c869cd917532",
         "authors": [
             "iavarone"
@@ -88,66 +118,6 @@
         "parameters": [],
         "pubId": "10.1093/cercor/bhr356",
         "tags": [
-            {
-                "id": "NIFGA:birnlex_939",
-                "name": "Posterior nucleus of thalamus"
-            }
-        ],
-        "version": "1"
-    },
-    {
-        "annotId": "c9f94636-ffab-11e5-b635-c869cd917532",
-        "authors": [
-            "iavarone"
-        ],
-        "comment": "",
-        "experimentProperties": [],
-        "localizer": {
-            "location": 7795,
-            "text": "calbindin D28k (CB) immunoreactivity in the rat thalamus and showed that CB-immunopositive cell bodies are more sparsely distributed in the anterior part than in the posterior part of the POm ",
-            "type": "text"
-        },
-        "parameters": [],
-        "pubId": "10.1093/cercor/bhr356",
-        "tags": [
-            {
-                "id": "NIFORG:birnlex_160",
-                "name": "Rat"
-            },
-            {
-                "id": "NIFGA:birnlex_939",
-                "name": "Posterior nucleus of thalamus"
-            },
-            {
-                "id": "NIFMOL:nlx_mol_1006006",
-                "name": "Calbindin 28K"
-            }
-        ],
-        "version": "1"
-    },
-    {
-        "annotId": "32c1696c-ffae-11e5-9eea-c869cd917532",
-        "authors": [
-            "iavarone"
-        ],
-        "comment": "",
-        "experimentProperties": [],
-        "localizer": {
-            "location": 18285,
-            "text": "POm was more immunoreactive for CB than the anterior region, although the border between them was not straightforward.",
-            "type": "text"
-        },
-        "parameters": [],
-        "pubId": "10.1093/cercor/bhr356",
-        "tags": [
-            {
-                "id": "NIFORG:birnlex_160",
-                "name": "Rat"
-            },
-            {
-                "id": "NIFMOL:nlx_mol_1006006",
-                "name": "Calbindin 28K"
-            },
             {
                 "id": "NIFGA:birnlex_939",
                 "name": "Posterior nucleus of thalamus"
