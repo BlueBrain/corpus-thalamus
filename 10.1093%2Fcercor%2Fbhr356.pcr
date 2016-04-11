@@ -94,5 +94,35 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "c9f94636-ffab-11e5-b635-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 7795,
+            "text": "calbindin D28k (CB) immunoreactivity in the rat thalamus and showed that CB-immunopositive cell bodies are more sparsely distributed in the anterior part than in the posterior part of the POm ",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1093/cercor/bhr356",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_939",
+                "name": "Posterior nucleus of thalamus"
+            },
+            {
+                "id": "NIFMOL:nlx_mol_1006006",
+                "name": "Calbindin 28K"
+            }
+        ],
+        "version": "1"
     }
 ]
