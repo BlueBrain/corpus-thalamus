@@ -167,7 +167,8 @@
     {
         "annotId": "4b1866e0-ed2b-11e5-b291-3417ebb8f5ca",
         "authors": [
-            "iavarone"
+            "iavarone",
+            "oreilly"
         ],
         "comment": "Liquid junction potential 12 mV",
         "experimentProperties": [],
@@ -176,7 +177,27 @@
             "text": "where a liquid junction potential of 12 mV",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                12
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "eca1d35c-fff5-11e5-b628-64006a4c56ef",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
         "pubId": "10.1523/JNEUROSCI.2740-15.2015",
         "tags": [
             {
