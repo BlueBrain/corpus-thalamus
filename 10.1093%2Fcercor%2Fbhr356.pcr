@@ -84,5 +84,31 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "6a68a9b4-ffab-11e5-be98-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 6789,
+            "text": "axon fibers of single VPM/VPL neurons terminate massively in the L4 barrel core of a cortical column and to a lesser extent in L5b and L6 beneath the barrel",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1093/cercor/bhr356",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFGA:birnlex_939",
+                "name": "Posterior nucleus of thalamus"
+            }
+        ],
+        "version": "1"
     }
 ]
