@@ -1142,13 +1142,14 @@
     {
         "annotId": "0919decc-eff4-11e5-9224-c869cd917532",
         "authors": [
-            "iavarone"
+            "iavarone",
+            "oreilly"
         ],
         "comment": "",
         "experimentProperties": [],
         "localizer": {
             "location": 57398,
-            "text": "LTSD showed minimal reduction in amplitude relative to their somatic counterparts ",
+            "text": "LTSD showed minimal\nreduction in amplitude relative to their somatic counterparts\n(0.72\u20131.00, 0.89 \u0007 0.01, n \u0005 28; Fig. 6A,C)",
             "type": "text"
         },
         "parameters": [],
@@ -1161,6 +1162,10 @@
             {
                 "id": "NIFORG:birnlex_160",
                 "name": "Rat"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
             },
             {
                 "id": "NIFCELL:nifext_41",
