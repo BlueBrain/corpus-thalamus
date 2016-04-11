@@ -292,7 +292,7 @@
         "authors": [
             "iavarone"
         ],
-        "comment": "",
+        "comment": "Posterior POm neurons.\nDifferences in latero-medial spread of PO neuron dendrites. These reflect morphological and immunolabeling differences (calbindin) in the antero-postero direction.",
         "experimentProperties": [],
         "localizer": {
             "no": "1",
@@ -300,7 +300,40 @@
             "noRow": "5",
             "type": "table"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-121005",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "um",
+                                    "values": [
+                                        450
+                                    ]
+                                },
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "um",
+                                    "values": [
+                                        29
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "40f1230c-ffdd-11e5-a183-c869cd917532",
+                "isExperimentProperty": false,
+                "requiredTags": []
+            }
+        ],
         "pubId": "10.1093/cercor/bhr356",
         "tags": [],
         "version": "1"
