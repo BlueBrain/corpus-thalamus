@@ -1366,13 +1366,14 @@
     {
         "annotId": "6018bec2-f022-11e5-ab76-c869cd917532",
         "authors": [
-            "iavarone"
+            "iavarone",
+            "oreilly"
         ],
         "comment": "",
         "experimentProperties": [],
         "localizer": {
-            "location": 69789,
-            "text": "was relatively narrow, and the optimal value ",
+            "location": 69677,
+            "text": "the range of uniformly distributed gT\ndensities capable of reproducing the voltage signals we recorded\nin vitro was relatively narrow, and the optimal value ( gT, 7 \u0011\n10\t5 cm/s)",
             "type": "text"
         },
         "parameters": [
@@ -1396,12 +1397,12 @@
                 "requiredTags": [
                     {
                         "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current",
+                        "name": "Low threshold calcium T-current",
                         "rootId": "nifext_8054"
                     },
                     {
                         "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
+                        "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
                     }
                 ]
@@ -1420,6 +1421,10 @@
             {
                 "id": "NIFORG:birnlex_160",
                 "name": "Rat"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
             },
             {
                 "id": "NIFCELL:nifext_41",
