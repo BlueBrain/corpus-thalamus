@@ -124,5 +124,35 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "53ce076e-ffae-11e5-9cc1-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 18453,
+            "text": "the POm was divided into 2 parts: 1) anterior weakly CB-immunopositive part, and 2) posterior moderately CB-positive part ",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1093/cercor/bhr356",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_939",
+                "name": "Posterior nucleus of thalamus"
+            },
+            {
+                "id": "NIFMOL:nlx_mol_1006006",
+                "name": "Calbindin 28K"
+            }
+        ],
+        "version": "1"
     }
 ]
