@@ -673,13 +673,14 @@
     {
         "annotId": "8e3edae6-ef34-11e5-ba5d-c869cd917532",
         "authors": [
-            "iavarone"
+            "iavarone",
+            "oreilly"
         ],
         "comment": "Fast potassium current parameters",
         "experimentProperties": [],
         "localizer": {
             "location": 26404,
-            "text": "The gKIR and the fast voltage-gated potassium channel",
+            "text": "The gKIR and the\nfast voltage-gated potassium channel ( gKf) had conductances of 20 \u0002s/\ncm2 and 50 mS/cm2, respectively. Both potassium channels had reversal\npotentials of 100 mV.",
             "type": "text"
         },
         "parameters": [
