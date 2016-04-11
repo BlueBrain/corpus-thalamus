@@ -1,0 +1,28 @@
+[
+    {
+        "annotId": "d8732d6e-ffa9-11e5-936f-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 2454,
+            "text": "POm is functionally segregated into anterior and posterior parts",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1093/cercor/bhr356",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFGA:birnlex_939",
+                "name": "Posterior nucleus of thalamus"
+            }
+        ],
+        "version": "1"
+    }
+]
