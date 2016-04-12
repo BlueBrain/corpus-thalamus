@@ -890,6 +890,10 @@
             {
                 "id": "NIFGA:nlx_143551",
                 "name": "Primary somatosensory cortex"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
             }
         ],
         "version": "1"
