@@ -964,6 +964,10 @@
             {
                 "id": "NIFGA:nlx_anat_090811",
                 "name": "Neocortex layer 5"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
             }
         ],
         "version": "1"
