@@ -8,7 +8,7 @@
         "experimentProperties": [],
         "localizer": {
             "no": "1",
-            "noCol": "None",
+            "noCol": null,
             "noRow": "2",
             "type": "table"
         },
@@ -1067,6 +1067,83 @@
             {
                 "id": "NIFCELL:nifext_41",
                 "name": "Thalamocortical cell"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "cb176822-009b-11e6-a267-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 41987,
+            "text": "When the anterior POm neurons sent axon collaterals to the M1, auditory, or insular cortex, the main target layers were not L1 but L2--5",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-110000",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": []
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "08279ae6-009c-11e6-b1a6-c869cd917532",
+                "isExperimentProperty": false,
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFGA:birnlex_939",
+                        "name": "Posterior nucleus of thalamus"
+                    },
+                    "entity2": {
+                        "id": "UBERON:0034891",
+                        "name": "insular cortex"
+                    },
+                    "type": "directed"
+                },
+                "requiredTags": []
+            }
+        ],
+        "pubId": "10.1093/cercor/bhr356",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFGA:birnlex_939",
+                "name": "Posterior nucleus of thalamus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "UBERON:0001393",
+                "name": "auditory cortex"
+            },
+            {
+                "id": "UBERON:0001384",
+                "name": "primary motor cortex"
+            },
+            {
+                "id": "UBERON:0034891",
+                "name": "insular cortex"
+            },
+            {
+                "id": "NIFGA:nlx_anat_090808",
+                "name": "Neocortex layer 2"
+            },
+            {
+                "id": "NIFGA:nlx_anat_090811",
+                "name": "Neocortex layer 5"
             }
         ],
         "version": "1"
