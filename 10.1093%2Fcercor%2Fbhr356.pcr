@@ -127,6 +127,10 @@
             {
                 "id": "NIFORG:birnlex_160",
                 "name": "Rat"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
             }
         ],
         "version": "1"
