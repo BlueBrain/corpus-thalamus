@@ -546,6 +546,32 @@
                     "type": "directed"
                 },
                 "requiredTags": []
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-110000",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": []
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "bd8a9302-006c-11e6-8a41-c869cd917532",
+                "isExperimentProperty": false,
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFGA:birnlex_939",
+                        "name": "Posterior nucleus of thalamus"
+                    },
+                    "entity2": {
+                        "id": "UBERON:0034891",
+                        "name": "insular cortex"
+                    },
+                    "type": "directed"
+                },
+                "requiredTags": []
             }
         ],
         "pubId": "10.1093/cercor/bhr356",
