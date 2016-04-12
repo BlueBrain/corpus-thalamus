@@ -5,6 +5,7 @@
             "iavarone"
         ],
         "comment": "",
+        "experimentProperties": [],
         "localizer": {
             "location": 26914,
             "text": "y Kir2 channel mRNA expressed in the thalamus\rcorresponds to Kir2.2 (Karschin et al. 1996).",
@@ -12,18 +13,29 @@
         },
         "parameters": [],
         "pubId": "10.1152/jn.00647.2013",
-        "tags": {},
+        "tags": [
+            {
+                "id": "nlx_151691",
+                "name": "Thalamus ventroposterior nucleus principal neuron"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
         "version": "1"
     },
     {
         "annotId": "6cff695e-eacc-11e5-a59e-c869cd917532",
         "authors": [
-            "iavarone"
+            "iavarone",
+            "oreilly"
         ],
         "comment": "Parameters from Traub et al., 2003, implemented by Lazarewicz & Traub in ModelDB (no. 20756). Correction factor of 10^-6. Parameter for IKCa.",
+        "experimentProperties": [],
         "localizer": {
             "location": 22740,
-            "text": "the calcium-activated potassium conductances",
+            "text": "the calcium-activated potassium conductances IKCa and\nIKAHP were incorporated into the model by using parameters from\nTraub et al. (2003) as implemented by Lazarewicz and Traub in\nModelDB (https://senselab.med.yale.edu/modeldb/, accession no.\n20756) with a correction factor of 10\u00056 to convert their arbitrary units\nof calcium concentration to millimoles per liter. Maximum conductances\nof 1.0 \u0006 10\u00054 and 1.5 \u0006 10\u00055 S/cm2 were used for IKCa and\nIKAHP, respectively.",
             "type": "text"
         },
         "parameters": [
@@ -42,43 +54,46 @@
                     },
                     "type": "pointValue"
                 },
-                "experimentProperties": [],
                 "id": "ceabfa86-f289-11e5-b804-64006a4c56ef",
-                "relationship": {
-                    "entity1": {
-                        "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current"
-                    },
-                    "entity2": "None",
-                    "type": "point"
-                },
+                "isExperimentProperty": false,
                 "requiredTags": [
                     {
                         "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current",
+                        "name": "Calcium-dependent potassium current",
                         "rootId": "nifext_8054"
                     },
                     {
                         "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
+                        "name": "Thalamus ventroposterior nucleus principal neuron",
                         "rootId": "sao1813327414"
                     }
                 ]
             }
         ],
         "pubId": "10.1152/jn.00647.2013",
-        "tags": {},
+        "tags": [
+            {
+                "id": "nlx_151691",
+                "name": "Thalamus ventroposterior nucleus principal neuron"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
         "version": "1"
     },
     {
         "annotId": "e372ca68-eacc-11e5-97b3-c869cd917532",
         "authors": [
-            "iavarone"
+            "iavarone",
+            "oreilly"
         ],
         "comment": "Parameters for IAHP",
+        "experimentProperties": [],
         "localizer": {
-            "location": 22741,
-            "text": "he calcium-activated potassium conductances",
+            "location": 22740,
+            "text": "the calcium-activated potassium conductances IKCa and\nIKAHP were incorporated into the model by using parameters from\nTraub et al. (2003) as implemented by Lazarewicz and Traub in\nModelDB (https://senselab.med.yale.edu/modeldb/, accession no.\n20756) with a correction factor of 10\u00056 to convert their arbitrary units\nof calcium concentration to millimoles per liter. Maximum conductances\nof 1.0 \u0006 10\u00054 and 1.5 \u0006 10\u00055 S/cm2 were used for IKCa and\nIKAHP, respectively.",
             "type": "text"
         },
         "parameters": [
@@ -97,32 +112,33 @@
                     },
                     "type": "pointValue"
                 },
-                "experimentProperties": [],
                 "id": "ceac006c-f289-11e5-b804-64006a4c56ef",
-                "relationship": {
-                    "entity1": {
-                        "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current"
-                    },
-                    "entity2": "None",
-                    "type": "point"
-                },
+                "isExperimentProperty": false,
                 "requiredTags": [
                     {
                         "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current",
+                        "name": "Slow calcium-dependent AHP potassium current",
                         "rootId": "nifext_8054"
                     },
                     {
                         "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
+                        "name": "Thalamus ventroposterior nucleus principal neuron",
                         "rootId": "sao1813327414"
                     }
                 ]
             }
         ],
         "pubId": "10.1152/jn.00647.2013",
-        "tags": {},
+        "tags": [
+            {
+                "id": "nlx_151691",
+                "name": "Thalamus ventroposterior nucleus principal neuron"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
         "version": "1"
     },
     {
@@ -132,6 +148,7 @@
             "oreilly"
         ],
         "comment": "",
+        "experimentProperties": [],
         "localizer": {
             "location": 13965,
             "text": "g \u17ee Kir is the maximum Kir conductance and E K is the equilibrium\npotential for potassium (\u03ea99 mV)",
@@ -153,16 +170,8 @@
                     },
                     "type": "pointValue"
                 },
-                "experimentProperties": [],
                 "id": "ceabc188-f289-11e5-b804-64006a4c56ef",
-                "relationship": {
-                    "entity1": {
-                        "id": "NIFORG:birnlex_167",
-                        "name": "Mouse"
-                    },
-                    "entity2": "None",
-                    "type": "point"
-                },
+                "isExperimentProperty": false,
                 "requiredTags": [
                     {
                         "id": "NIFMOL:nifext_8056",
@@ -178,11 +187,20 @@
             }
         ],
         "pubId": "10.1152/jn.00647.2013",
-        "tags": {
-            "birnlex_167": "Mouse",
-            "birnlex_2300": "Computational model",
-            "nlx_151691": "Thalamus ventroposterior nucleus principal neuron"
-        },
+        "tags": [
+            {
+                "id": "nlx_151691",
+                "name": "Thalamus ventroposterior nucleus principal neuron"
+            },
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
         "version": "1"
     },
     {
@@ -191,6 +209,7 @@
             "iavarone"
         ],
         "comment": "Calcium dynamics from McCormick & Huguenard, referring to model in Traub (1982) Ca-activated K currents dependent on IL, not IT",
+        "experimentProperties": [],
         "localizer": {
             "location": 23250,
             "text": "dependent on calcium concentration changes",
@@ -198,9 +217,20 @@
         },
         "parameters": [],
         "pubId": "10.1152/jn.00647.2013",
-        "tags": {
-            "nlx_cell_20081203": "Thalamus geniculate nucleus (lateral) principal neuron"
-        },
+        "tags": [
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus geniculate nucleus (lateral) principal neuron"
+            },
+            {
+                "id": "nlx_151691",
+                "name": "Thalamus ventroposterior nucleus principal neuron"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
         "version": "1"
     },
     {
@@ -209,6 +239,7 @@
             "iavarone"
         ],
         "comment": "",
+        "experimentProperties": [],
         "localizer": {
             "location": 21967,
             "text": "delayed rectifier potassium current",
@@ -230,8 +261,8 @@
                     },
                     "type": "pointValue"
                 },
-                "experimentProperties": [],
                 "id": "ceabefb4-f289-11e5-b804-64006a4c56ef",
+                "isExperimentProperty": false,
                 "relationship": {
                     "entity1": {
                         "id": "NIFMOL:nifext_8054",
@@ -255,11 +286,20 @@
             }
         ],
         "pubId": "10.1152/jn.00647.2013",
-        "tags": {
-            "birnlex_167": "Mouse",
-            "birnlex_2304": "Ionic current model",
-            "nlx_151691": "Thalamus ventroposterior nucleus principal neuron"
-        },
+        "tags": [
+            {
+                "id": "nlx_151691",
+                "name": "Thalamus ventroposterior nucleus principal neuron"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFINV:birnlex_2304",
+                "name": "Ionic current model"
+            }
+        ],
         "version": "1"
     },
     {
@@ -269,9 +309,10 @@
             "oreilly"
         ],
         "comment": "",
+        "experimentProperties": [],
         "localizer": {
             "location": 21451,
-            "text": "The reversal potential for the sodium leak current",
+            "text": "The reversal potential for the sodium leak current (INaleak) was\nset at 0 mV",
             "type": "text"
         },
         "parameters": [
@@ -290,8 +331,8 @@
                     },
                     "type": "pointValue"
                 },
-                "experimentProperties": [],
                 "id": "b2575ed4-f289-11e5-b804-64006a4c56ef",
+                "isExperimentProperty": false,
                 "relationship": {
                     "entity1": {
                         "id": "NIFINV:birnlex_2304",
@@ -328,8 +369,8 @@
                     },
                     "type": "pointValue"
                 },
-                "experimentProperties": [],
                 "id": "b25766f4-f289-11e5-b804-64006a4c56ef",
+                "isExperimentProperty": false,
                 "relationship": {
                     "entity1": {
                         "id": "NIFINV:birnlex_2304",
@@ -353,11 +394,20 @@
             }
         ],
         "pubId": "10.1152/jn.00647.2013",
-        "tags": {
-            "birnlex_167": "Mouse",
-            "birnlex_2304": "Ionic current model",
-            "nlx_151691": "Thalamus ventroposterior nucleus principal neuron"
-        },
+        "tags": [
+            {
+                "id": "nlx_151691",
+                "name": "Thalamus ventroposterior nucleus principal neuron"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFINV:birnlex_2304",
+                "name": "Ionic current model"
+            }
+        ],
         "version": "1"
     },
     {
@@ -366,6 +416,7 @@
             "iavarone"
         ],
         "comment": "IL from McCormick & Huguenard (1992), referring to Kay and Wong (1987)",
+        "experimentProperties": [],
         "localizer": {
             "location": 22467,
             "text": "The high-threshold calcium current IL",
@@ -387,8 +438,8 @@
                     },
                     "type": "pointValue"
                 },
-                "experimentProperties": [],
                 "id": "ceabf4a0-f289-11e5-b804-64006a4c56ef",
+                "isExperimentProperty": false,
                 "relationship": {
                     "entity1": {
                         "id": "NIFMOL:nifext_8054",
@@ -412,11 +463,28 @@
             }
         ],
         "pubId": "10.1152/jn.00647.2013",
-        "tags": {
-            "birnlex_2304": "Ionic current model",
-            "birnlex_297": "Guinea pig",
-            "nifext_156": "Hippocampal pyramidal cell"
-        },
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_297",
+                "name": "Guinea pig"
+            },
+            {
+                "id": "NIFINV:birnlex_2304",
+                "name": "Ionic current model"
+            },
+            {
+                "id": "NIFCELL:nifext_156",
+                "name": "Hippocampal pyramidal cell"
+            },
+            {
+                "id": "nlx_151691",
+                "name": "Thalamus ventroposterior nucleus principal neuron"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
         "version": "1"
     },
     {
@@ -425,6 +493,7 @@
             "iavarone"
         ],
         "comment": "",
+        "experimentProperties": [],
         "localizer": {
             "location": 24568,
             "text": "IKir, we initially used a protocol of hyperpolarizing pulses in whole cell voltage clamp and ",
@@ -446,8 +515,8 @@
                     },
                     "type": "pointValue"
                 },
-                "experimentProperties": [],
                 "id": "ceac04cc-f289-11e5-b804-64006a4c56ef",
+                "isExperimentProperty": false,
                 "relationship": {
                     "entity1": {
                         "id": "NIFCELL:sao1813327414",
@@ -466,7 +535,16 @@
             }
         ],
         "pubId": "10.1152/jn.00647.2013",
-        "tags": {},
+        "tags": [
+            {
+                "id": "nlx_151691",
+                "name": "Thalamus ventroposterior nucleus principal neuron"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
         "version": "1"
     },
     {
@@ -475,6 +553,7 @@
             "iavarone"
         ],
         "comment": "Q10 = 2.8",
+        "experimentProperties": [],
         "localizer": {
             "location": 21184,
             "text": "IA and the leak currents from the study of McCormick and Huguenard",
@@ -496,8 +575,8 @@
                     },
                     "type": "pointValue"
                 },
-                "experimentProperties": [],
                 "id": "ceabdac4-f289-11e5-b804-64006a4c56ef",
+                "isExperimentProperty": false,
                 "relationship": {
                     "entity1": {
                         "id": "NIFMOL:nifext_8054",
@@ -521,11 +600,28 @@
             }
         ],
         "pubId": "10.1152/jn.00647.2013",
-        "tags": {
-            "birnlex_160": "Rat",
-            "birnlex_2304": "Ionic current model",
-            "nlx_organ_109041": "Young rat"
-        },
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Young rat"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFINV:birnlex_2304",
+                "name": "Ionic current model"
+            },
+            {
+                "id": "nlx_151691",
+                "name": "Thalamus ventroposterior nucleus principal neuron"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
         "version": "1"
     },
     {
@@ -534,6 +630,7 @@
             "iavarone"
         ],
         "comment": "From Destexhe et al. (1998). Global depolirizing shift of 10-15 mV. ",
+        "experimentProperties": [],
         "localizer": {
             "location": 21926,
             "text": "Fast transiente sodium current ",
@@ -555,8 +652,8 @@
                     },
                     "type": "pointValue"
                 },
-                "experimentProperties": [],
                 "id": "ceabe9c4-f289-11e5-b804-64006a4c56ef",
+                "isExperimentProperty": false,
                 "relationship": {
                     "entity1": {
                         "id": "NIFMOL:nifext_8054",
@@ -580,11 +677,20 @@
             }
         ],
         "pubId": "10.1152/jn.00647.2013",
-        "tags": {
-            "birnlex_167": "Mouse",
-            "birnlex_2304": "Ionic current model",
-            "nlx_151691": "Thalamus ventroposterior nucleus principal neuron"
-        },
+        "tags": [
+            {
+                "id": "nlx_151691",
+                "name": "Thalamus ventroposterior nucleus principal neuron"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFINV:birnlex_2304",
+                "name": "Ionic current model"
+            }
+        ],
         "version": "1"
     },
     {
@@ -593,6 +699,7 @@
             "iavarone"
         ],
         "comment": "Leak potassium current",
+        "experimentProperties": [],
         "localizer": {
             "location": 34147,
             "text": " were adjusted to match the slope and the extrapolated reversal potential",
@@ -614,8 +721,8 @@
                     },
                     "type": "pointValue"
                 },
-                "experimentProperties": [],
                 "id": "ceac0b7a-f289-11e5-b804-64006a4c56ef",
+                "isExperimentProperty": false,
                 "relationship": {
                     "entity1": {
                         "id": "NIFMOL:nifext_8054",
@@ -639,7 +746,16 @@
             }
         ],
         "pubId": "10.1152/jn.00647.2013",
-        "tags": {},
+        "tags": [
+            {
+                "id": "nlx_151691",
+                "name": "Thalamus ventroposterior nucleus principal neuron"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
         "version": "1"
     },
     {
@@ -648,6 +764,7 @@
             "iavarone"
         ],
         "comment": "Model of IT current, original from Huguenard & McCormick (1992), implemented by Destexhe (ModelDB, no. 279). Activation curve shifted +6 mV, -2 mV activatione voltage dependence and kinetics. Q10 = 2.5.",
+        "experimentProperties": [],
         "localizer": {
             "equation": null,
             "no": "12-20",
@@ -655,11 +772,20 @@
         },
         "parameters": [],
         "pubId": "10.1152/jn.00647.2013",
-        "tags": {
-            "birnlex_167": "Mouse",
-            "birnlex_2304": "Ionic current model",
-            "nlx_151691": "Thalamus ventroposterior nucleus principal neuron"
-        },
+        "tags": [
+            {
+                "id": "nlx_151691",
+                "name": "Thalamus ventroposterior nucleus principal neuron"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFINV:birnlex_2304",
+                "name": "Ionic current model"
+            }
+        ],
         "version": "1"
     },
     {
@@ -668,6 +794,7 @@
             "iavarone"
         ],
         "comment": "Sodium persistend current, from mesencephalic trgeminal sensory neurons rats. (m*h). Q_10 = 3",
+        "experimentProperties": [],
         "localizer": {
             "equation": null,
             "no": "(7) and (8) and (9)",
@@ -689,8 +816,8 @@
                     },
                     "type": "pointValue"
                 },
-                "experimentProperties": [],
                 "id": "ceabce58-f289-11e5-b804-64006a4c56ef",
+                "isExperimentProperty": false,
                 "relationship": {
                     "entity1": {
                         "id": "NIFMOL:nifext_8055",
@@ -727,8 +854,8 @@
                     },
                     "type": "pointValue"
                 },
-                "experimentProperties": [],
                 "id": "ceabd39e-f289-11e5-b804-64006a4c56ef",
+                "isExperimentProperty": false,
                 "relationship": {
                     "entity1": {
                         "id": "NIFMOL:nifext_8054",
@@ -752,7 +879,16 @@
             }
         ],
         "pubId": "10.1152/jn.00647.2013",
-        "tags": {},
+        "tags": [
+            {
+                "id": "nlx_151691",
+                "name": "Thalamus ventroposterior nucleus principal neuron"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
         "version": "1"
     },
     {
@@ -761,6 +897,7 @@
             "iavarone"
         ],
         "comment": "Equations for I_h, original from guinea pig (McCormick & Huguenard, 1992), activation parameters from mice, Q_10 = 4 (Santoro et al., 2000). E_h = -43 mV\n",
+        "experimentProperties": [],
         "localizer": {
             "equation": null,
             "no": "(3) and (4)",
@@ -782,8 +919,8 @@
                     },
                     "type": "pointValue"
                 },
-                "experimentProperties": [],
                 "id": "ceabca2a-f289-11e5-b804-64006a4c56ef",
+                "isExperimentProperty": false,
                 "relationship": {
                     "entity1": {
                         "id": "NIFMOL:nifext_8054",
@@ -807,11 +944,24 @@
             }
         ],
         "pubId": "10.1152/jn.00647.2013",
-        "tags": {
-            "birnlex_167": "Mouse",
-            "birnlex_2304": "Ionic current model",
-            "birnlex_297": "Guinea pig"
-        },
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_297",
+                "name": "Guinea pig"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFINV:birnlex_2304",
+                "name": "Ionic current model"
+            },
+            {
+                "id": "nlx_151691",
+                "name": "Thalamus ventroposterior nucleus principal neuron"
+            }
+        ],
         "version": "1"
     }
 ]
