@@ -1229,5 +1229,35 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "b2fa5052-009d-11e6-9a88-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "Some \"matrix\" neurons characteristics",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 55251,
+            "text": " fibers to middle layers (mainly L4) of the cerebral cortex. In contrast, matrix neurons are distributed throughout the thalamic nuclei, produce CB and project preferentially to the superficial layer (L1) of the cortex.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1093/cercor/bhr356",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFGA:nlx_anat_090807",
+                "name": "Neocortex layer 1"
+            },
+            {
+                "id": "NIFMOL:nlx_mol_1006006",
+                "name": "Calbindin 28K"
+            }
+        ],
+        "version": "1"
     }
 ]
