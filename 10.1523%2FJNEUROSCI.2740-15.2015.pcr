@@ -88,8 +88,13 @@
             "iavarone",
             "oreilly"
         ],
-        "comment": "",
-        "experimentProperties": [],
+        "comment": "Passive properties of thalamocortical relay cells.",
+        "experimentProperties": [
+            {
+                "instanceId": "eca1d35c-fff5-11e5-b628-64006a4c56ef",
+                "paramTypeId": "BBP-002003"
+            }
+        ],
         "localizer": {
             "location": 23171,
             "text": "Ri of 170 \u0004 \u0002 cm and for Cm\nof 0.7 \u0002F/cm2",
