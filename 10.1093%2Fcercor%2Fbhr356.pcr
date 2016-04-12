@@ -692,6 +692,10 @@
             {
                 "id": "NIFORG:birnlex_167",
                 "name": "Mouse"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
             }
         ],
         "version": "1"
