@@ -923,5 +923,83 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "3305c38a-009b-11e6-8328-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "Posterior POm neurons",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 40672,
+            "text": "posterior neurons projected 3.9--38.9% (24.7 \u00b1 13.6%) of varicosities to L5 in the S1 cortex.",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-110001",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        0.247
+                                    ]
+                                },
+                                {
+                                    "statistic": "sd",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        0.136
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "6adc49c8-009b-11e6-b4c5-c869cd917532",
+                "isExperimentProperty": false,
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFGA:birnlex_939",
+                        "name": "Posterior nucleus of thalamus"
+                    },
+                    "entity2": {
+                        "id": "NIFGA:nlx_anat_090811",
+                        "name": "Neocortex layer 5"
+                    },
+                    "type": "directed"
+                },
+                "requiredTags": []
+            }
+        ],
+        "pubId": "10.1093/cercor/bhr356",
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_939",
+                "name": "Posterior nucleus of thalamus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:nlx_anat_090811",
+                "name": "Neocortex layer 5"
+            },
+            {
+                "id": "NIFGA:nlx_143551",
+                "name": "Primary somatosensory cortex"
+            }
+        ],
+        "version": "1"
     }
 ]
