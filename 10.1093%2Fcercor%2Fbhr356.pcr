@@ -355,6 +355,10 @@
             {
                 "id": "UBERON:0002435",
                 "name": "striatum"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
             }
         ],
         "version": "1"
