@@ -689,5 +689,35 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "0641d54a-006f-11e6-b109-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 40257,
+            "text": "In the S1 cortex, 6.1--38.5% (mean \u00b1 SD = 20.6 \u00b1 14.6%) of axon varicosities of anterior POm neurons 2--5 were distributed in L1, whereas 40.0--91.7% (64.1 \u00b1 19.4%) of varicosities of posterior POm neurons 6--10 were in L1",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1093/cercor/bhr356",
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_939",
+                "name": "Posterior nucleus of thalamus"
+            },
+            {
+                "id": "NIFGA:nlx_anat_090807",
+                "name": "Neocortex layer 1"
+            },
+            {
+                "id": "NIFGA:nlx_143551",
+                "name": "Primary somatosensory cortex"
+            }
+        ],
+        "version": "1"
     }
 ]
