@@ -520,6 +520,32 @@
                     "type": "directed"
                 },
                 "requiredTags": []
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-110000",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": []
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "b5cf75f6-006c-11e6-9bf3-c869cd917532",
+                "isExperimentProperty": false,
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFGA:birnlex_939",
+                        "name": "Posterior nucleus of thalamus"
+                    },
+                    "entity2": {
+                        "id": "UBERON:0008934",
+                        "name": "secondary somatosensory cortex"
+                    },
+                    "type": "directed"
+                },
+                "requiredTags": []
             }
         ],
         "pubId": "10.1093/cercor/bhr356",
