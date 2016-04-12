@@ -791,9 +791,10 @@
     {
         "annotId": "c3af1a82-c5a7-11e5-b8a7-3417ebb8f5ca",
         "authors": [
-            "iavarone"
+            "iavarone",
+            "oreilly"
         ],
-        "comment": "Sodium persistend current, from mesencephalic trgeminal sensory neurons rats. (m*h). Q_10 = 3",
+        "comment": "Sodium persistend current, from mesencephalic tregeminal sensory neurons rats. (m*h). Q_10 = 3",
         "experimentProperties": [],
         "localizer": {
             "equation": null,
