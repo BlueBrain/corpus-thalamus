@@ -1346,5 +1346,31 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "9bee15c0-009e-11e6-855c-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 57530,
+            "text": "L2/3 pyramidal neurons project axons to L5 pyramidal neurons within the S1 cortex (Kaneko et al. 2000; Cho et al. 2004; Hooks et al. 2011) or to other cortical areas",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1093/cercor/bhr356",
+        "tags": [
+            {
+                "id": "NIFCELL:sao816233655",
+                "name": "Neocortex pyramidal cell layer 2/3"
+            },
+            {
+                "id": "NIFGA:nlx_anat_090811",
+                "name": "Neocortex layer 5"
+            }
+        ],
+        "version": "1"
     }
 ]
