@@ -628,5 +628,66 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "e9ac77cc-006d-11e6-8af0-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 35646,
+            "text": "VGluT2 is mainly utilized by the axon terminals of subcortical excitatory neurons",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-110000",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": []
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "3c781064-006e-11e6-9dec-c869cd917532",
+                "isExperimentProperty": false,
+                "relationship": {
+                    "entity1": {
+                        "id": "UBERON:0000454",
+                        "name": "cerebral subcortex"
+                    },
+                    "entity2": {
+                        "id": "NIFGA:birnlex_939",
+                        "name": "Posterior nucleus of thalamus"
+                    },
+                    "type": "directed"
+                },
+                "requiredTags": []
+            }
+        ],
+        "pubId": "10.1093/cercor/bhr356",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_939",
+                "name": "Posterior nucleus of thalamus"
+            },
+            {
+                "id": "NIFMOL:nlx_mol_1006009",
+                "name": "Vesicular glutamate transporter 2"
+            },
+            {
+                "id": "UBERON:0000454",
+                "name": "cerebral subcortex"
+            }
+        ],
+        "version": "1"
     }
 ]
