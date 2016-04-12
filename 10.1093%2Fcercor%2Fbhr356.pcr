@@ -1226,6 +1226,10 @@
             {
                 "id": "NIFGA:nlx_anat_090810",
                 "name": "Neocortex layer 4"
+            },
+            {
+                "id": "NIFORG:birnlex_227",
+                "name": "Primate"
             }
         ],
         "version": "1"
