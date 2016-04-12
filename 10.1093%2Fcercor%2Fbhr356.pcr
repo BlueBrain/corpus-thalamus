@@ -1103,8 +1103,8 @@
                         "name": "Posterior nucleus of thalamus"
                     },
                     "entity2": {
-                        "id": "UBERON:0034891",
-                        "name": "insular cortex"
+                        "id": "NIFGA:nlx_anat_090808",
+                        "name": "Neocortex layer 2"
                     },
                     "type": "directed"
                 },
