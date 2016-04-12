@@ -282,6 +282,10 @@
             {
                 "id": "NIFGA:birnlex_939",
                 "name": "Posterior nucleus of thalamus"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
             }
         ],
         "version": "1"
