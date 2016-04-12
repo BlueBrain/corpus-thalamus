@@ -1199,5 +1199,35 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "68ae0624-009d-11e6-90bf-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "Some \"core\" neurons characteristics",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 55147,
+            "text": "Core neurons are found principally in primary sensory thalamic nuclei, express parvalbumin and send axon fibers to middle layers (mainly L4)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1093/cercor/bhr356",
+        "tags": [
+            {
+                "id": "NIFMOL:nifext_6",
+                "name": "Parvalbumin"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFGA:nlx_anat_090810",
+                "name": "Neocortex layer 4"
+            }
+        ],
+        "version": "1"
     }
 ]
