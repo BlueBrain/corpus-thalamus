@@ -571,6 +571,10 @@
             {
                 "id": "UBERON:0001393",
                 "name": "auditory cortex"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
             }
         ],
         "version": "1"
