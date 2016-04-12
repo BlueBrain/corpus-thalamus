@@ -1109,6 +1109,32 @@
                     "type": "directed"
                 },
                 "requiredTags": []
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-110000",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": []
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "3407513a-009c-11e6-990e-c869cd917532",
+                "isExperimentProperty": false,
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFGA:birnlex_939",
+                        "name": "Posterior nucleus of thalamus"
+                    },
+                    "entity2": {
+                        "id": "NIFGA:nlx_anat_090811",
+                        "name": "Neocortex layer 5"
+                    },
+                    "type": "directed"
+                },
+                "requiredTags": []
             }
         ],
         "pubId": "10.1093/cercor/bhr356",
