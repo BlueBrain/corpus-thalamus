@@ -481,5 +481,74 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "d6278edc-006b-11e6-8992-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 31372,
+            "text": "all the 10 POm neurons formed another axonal arborization in the primary motor (M1), secondary motor (M2), secondary somatosensory (S2), insular, auditory, or ectorhinal cortices.",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-110000",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": []
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "899ee1c2-006c-11e6-9740-c869cd917532",
+                "isExperimentProperty": false,
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFGA:birnlex_939",
+                        "name": "Posterior nucleus of thalamus"
+                    },
+                    "entity2": {
+                        "id": "UBERON:0001384",
+                        "name": "primary motor cortex"
+                    },
+                    "type": "directed"
+                },
+                "requiredTags": []
+            }
+        ],
+        "pubId": "10.1093/cercor/bhr356",
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_939",
+                "name": "Posterior nucleus of thalamus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "UBERON:0001384",
+                "name": "primary motor cortex"
+            },
+            {
+                "id": "UBERON:0008934",
+                "name": "secondary somatosensory cortex"
+            },
+            {
+                "id": "UBERON:0034891",
+                "name": "insular cortex"
+            },
+            {
+                "id": "UBERON:0001393",
+                "name": "auditory cortex"
+            }
+        ],
+        "version": "1"
     }
 ]
