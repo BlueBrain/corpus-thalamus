@@ -1411,6 +1411,32 @@
                     "type": "directed"
                 },
                 "requiredTags": []
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-110000",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": []
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "ef5f5a3e-009e-11e6-8cb6-c869cd917532",
+                "isExperimentProperty": false,
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFGA:nlx_anat_090811",
+                        "name": "Neocortex layer 5"
+                    },
+                    "entity2": {
+                        "id": "UBERON:0002435",
+                        "name": "striatum"
+                    },
+                    "type": "directed"
+                },
+                "requiredTags": []
             }
         ],
         "pubId": "10.1093/cercor/bhr356",
