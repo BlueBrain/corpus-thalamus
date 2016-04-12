@@ -1372,5 +1372,62 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "cb95f3d8-009e-11e6-92fb-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 57700,
+            "text": "L5 pyramidal neurons send the processed information to various subcortical regions, including the striatum (Mercier et al. 1990) and the POm of the thalamus",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-110000",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": []
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "d97962b6-009e-11e6-aacd-c869cd917532",
+                "isExperimentProperty": false,
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFGA:nlx_anat_090811",
+                        "name": "Neocortex layer 5"
+                    },
+                    "entity2": {
+                        "id": "NIFGA:birnlex_939",
+                        "name": "Posterior nucleus of thalamus"
+                    },
+                    "type": "directed"
+                },
+                "requiredTags": []
+            }
+        ],
+        "pubId": "10.1093/cercor/bhr356",
+        "tags": [
+            {
+                "id": "NIFGA:nlx_anat_090811",
+                "name": "Neocortex layer 5"
+            },
+            {
+                "id": "UBERON:0002435",
+                "name": "striatum"
+            },
+            {
+                "id": "NIFGA:birnlex_939",
+                "name": "Posterior nucleus of thalamus"
+            }
+        ],
+        "version": "1"
     }
 ]
