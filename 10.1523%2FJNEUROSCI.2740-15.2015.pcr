@@ -688,7 +688,7 @@
                         "values": {
                             "statistic": "raw",
                             "type": "simple",
-                            "unit": "us/cm^2",
+                            "unit": "uS/cm^2",
                             "values": [
                                 20.0
                             ]
