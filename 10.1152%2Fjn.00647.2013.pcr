@@ -619,8 +619,8 @@
                 "isExperimentProperty": false,
                 "relationship": {
                     "entity1": {
-                        "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current"
+                        "id": "nlx_151691",
+                        "name": "Thalamus ventroposterior nucleus principal neuron"
                     },
                     "entity2": "None",
                     "type": "point"
@@ -628,7 +628,7 @@
                 "requiredTags": [
                     {
                         "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current",
+                        "name": "Sodium transient fast current",
                         "rootId": "nifext_8054"
                     },
                     {
