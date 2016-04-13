@@ -265,8 +265,8 @@
                 "isExperimentProperty": false,
                 "relationship": {
                     "entity1": {
-                        "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current"
+                        "id": "nlx_151691",
+                        "name": "Thalamus ventroposterior nucleus principal neuron"
                     },
                     "entity2": "None",
                     "type": "point"
@@ -274,12 +274,12 @@
                 "requiredTags": [
                     {
                         "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current",
+                        "name": "Potassium delayed rectifier",
                         "rootId": "nifext_8054"
                     },
                     {
                         "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
+                        "name": "Thalamus ventroposterior nucleus principal neuron",
                         "rootId": "sao1813327414"
                     }
                 ]
