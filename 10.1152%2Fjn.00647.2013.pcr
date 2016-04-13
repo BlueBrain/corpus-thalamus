@@ -353,44 +353,6 @@
                         "rootId": "sao1813327414"
                     }
                 ]
-            },
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-030003",
-                        "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "s/cm^2",
-                            "values": [
-                                3e-06
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "b25766f4-f289-11e5-b804-64006a4c56ef",
-                "isExperimentProperty": false,
-                "relationship": {
-                    "entity1": {
-                        "id": "NIFINV:birnlex_2304",
-                        "name": "Ionic current model"
-                    },
-                    "entity2": "None",
-                    "type": "point"
-                },
-                "requiredTags": [
-                    {
-                        "id": "NIFMOL:nifext_8054",
-                        "name": "Sodium leak current",
-                        "rootId": "nifext_8054"
-                    },
-                    {
-                        "id": "NIFCELL:sao1813327414",
-                        "name": "Thalamus ventroposterior nucleus principal neuron",
-                        "rootId": "sao1813327414"
-                    }
-                ]
             }
         ],
         "pubId": "10.1152/jn.00647.2013",
@@ -413,7 +375,8 @@
     {
         "annotId": "8c4a1c38-eacb-11e5-a3fb-c869cd917532",
         "authors": [
-            "iavarone"
+            "iavarone",
+            "oreilly"
         ],
         "comment": "IL from McCormick & Huguenard (1992), referring to Kay and Wong (1987)",
         "experimentProperties": [],
@@ -426,7 +389,7 @@
             {
                 "description": {
                     "depVar": {
-                        "typeId": "BBP-030003",
+                        "typeId": "BBP-035003",
                         "values": {
                             "statistic": "raw",
                             "type": "simple",
@@ -442,8 +405,8 @@
                 "isExperimentProperty": false,
                 "relationship": {
                     "entity1": {
-                        "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current"
+                        "id": "NIFORG:birnlex_297",
+                        "name": "Guinea pig"
                     },
                     "entity2": "None",
                     "type": "point"
@@ -451,12 +414,12 @@
                 "requiredTags": [
                     {
                         "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current",
+                        "name": "Slow high threshold calcium current",
                         "rootId": "nifext_8054"
                     },
                     {
                         "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
+                        "name": "Thalamus ventroposterior nucleus principal neuron",
                         "rootId": "sao1813327414"
                     }
                 ]
@@ -791,9 +754,10 @@
     {
         "annotId": "c3af1a82-c5a7-11e5-b8a7-3417ebb8f5ca",
         "authors": [
-            "iavarone"
+            "iavarone",
+            "oreilly"
         ],
-        "comment": "Sodium persistend current, from mesencephalic trgeminal sensory neurons rats. (m*h). Q_10 = 3",
+        "comment": "Sodium persistend current, from mesencephalic tregeminal sensory neurons rats. (m*h). Q_10 = 3",
         "experimentProperties": [],
         "localizer": {
             "equation": null,
@@ -960,6 +924,79 @@
             {
                 "id": "nlx_151691",
                 "name": "Thalamus ventroposterior nucleus principal neuron"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "85e762ea-017f-11e6-a407-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 34121,
+            "text": "INaleak (3.0 \u0006 10\u00056 S/cm2)",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "S/cm**2",
+                            "values": [
+                                3e-06
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "b0dfe922-017f-11e6-a407-64006a4c56ef",
+                "isExperimentProperty": false,
+                "relationship": {
+                    "entity1": {
+                        "id": "nlx_151691",
+                        "name": "Thalamus ventroposterior nucleus principal neuron"
+                    },
+                    "entity2": "None",
+                    "type": "point"
+                },
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Sodium leak current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus ventroposterior nucleus principal neuron",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1152/jn.00647.2013",
+        "tags": [
+            {
+                "id": "nlx_151691",
+                "name": "Thalamus ventroposterior nucleus principal neuron"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "nlx_151691",
+                "name": "Thalamus ventroposterior nucleus principal neuron"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
             }
         ],
         "version": "1"
