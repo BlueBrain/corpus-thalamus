@@ -965,5 +965,39 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "85e762ea-017f-11e6-a407-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 34121,
+            "text": "INaleak (3.0 \u0006 10\u00056 S/cm2)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1152/jn.00647.2013",
+        "tags": [
+            {
+                "id": "nlx_151691",
+                "name": "Thalamus ventroposterior nucleus principal neuron"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "nlx_151691",
+                "name": "Thalamus ventroposterior nucleus principal neuron"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
     }
 ]
