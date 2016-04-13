@@ -376,7 +376,7 @@
             {
                 "description": {
                     "depVar": {
-                        "typeId": "BBP-030001",
+                        "typeId": "BBP-030003",
                         "values": {
                             "statistic": "raw",
                             "type": "simple",
@@ -392,8 +392,8 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "BBP_nlx_0001",
-                        "name": "Potassium leak current",
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Leak ionic current",
                         "rootId": "nifext_8054"
                     },
                     {
