@@ -887,8 +887,8 @@
                 "isExperimentProperty": false,
                 "relationship": {
                     "entity1": {
-                        "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current"
+                        "id": "NIFORG:birnlex_297",
+                        "name": "Guinea pig"
                     },
                     "entity2": "None",
                     "type": "point"
@@ -896,12 +896,12 @@
                 "requiredTags": [
                     {
                         "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current",
+                        "name": "Inward rectifier (h-type) current",
                         "rootId": "nifext_8054"
                     },
                     {
                         "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
+                        "name": "Thalamus ventroposterior nucleus principal neuron",
                         "rootId": "sao1813327414"
                     }
                 ]
