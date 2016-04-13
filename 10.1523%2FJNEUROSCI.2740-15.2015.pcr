@@ -393,7 +393,7 @@
                 "requiredTags": [
                     {
                         "id": "BBP_nlx_0001",
-                        "name": "Leak ionic current",
+                        "name": "Potassium leak current",
                         "rootId": "nifext_8054"
                     },
                     {
