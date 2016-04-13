@@ -978,7 +978,46 @@
             "text": "INaleak (3.0 \u0006 10\u00056 S/cm2)",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "S/cm**2",
+                            "values": [
+                                3.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "b0dfe922-017f-11e6-a407-64006a4c56ef",
+                "isExperimentProperty": false,
+                "relationship": {
+                    "entity1": {
+                        "id": "nlx_151691",
+                        "name": "Thalamus ventroposterior nucleus principal neuron"
+                    },
+                    "entity2": "None",
+                    "type": "point"
+                },
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Transmembrane ionic current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
         "pubId": "10.1152/jn.00647.2013",
         "tags": [
             {
