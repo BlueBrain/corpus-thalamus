@@ -950,7 +950,7 @@
                             "type": "simple",
                             "unit": "S/cm**2",
                             "values": [
-                                3.0
+                                3e-06
                             ]
                         }
                     },
