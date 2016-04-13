@@ -1,58 +1,5 @@
 [
     {
-        "annotId": "b308f270-cb1f-11e5-b518-64006a4c56ef",
-        "authors": [
-            "oreilly"
-        ],
-        "comment": "",
-        "experimentProperties": [],
-        "localizer": {
-            "no": "1",
-            "noCol": null,
-            "noRow": "2",
-            "type": "table"
-        },
-        "parameters": [
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-030001",
-                        "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "nS",
-                            "values": [
-                                3.263
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "d0b5a2fa-ec67-11e5-9a54-64006a4c56ef",
-                "requiredTags": [
-                    {
-                        "id": "BBP_nlx_0001",
-                        "name": "Leak ionic current",
-                        "rootId": "nifext_8054"
-                    },
-                    {
-                        "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
-                        "rootId": "sao1813327414"
-                    }
-                ]
-            }
-        ],
-        "pubId": "10.1152/jn.00926.2014",
-        "tags": {
-            "birnlex_2300": "Computational model",
-            "birnlex_2313": "Neural circuit model",
-            "nifext_41": "Thalamocortical cell",
-            "nlx_52865": "Modelling"
-        },
-        "version": "1"
-    },
-    {
         "annotId": "f0df4120-ca6c-11e5-aefd-64006a4c56ef",
         "authors": [
             "oreilly"
@@ -66,317 +13,28 @@
         },
         "parameters": [],
         "pubId": "10.1152/jn.00926.2014",
-        "tags": {
-            "birnlex_1721": "Thalamic reticular nucleus",
-            "birnlex_2300": "Computational model",
-            "birnlex_2313": "Neural circuit model",
-            "birnlex_954": "Thalamus",
-            "nlx_52865": "Modelling"
-        },
-        "version": "1"
-    },
-    {
-        "annotId": "f0cd4b9c-ec67-11e5-9a54-64006a4c56ef",
-        "authors": [
-            "oreilly"
-        ],
-        "comment": "Leak conductance of a mouse TC cell.",
-        "experimentProperties": [],
-        "localizer": {
-            "no": "2",
-            "noCol": "2",
-            "noRow": "2",
-            "type": "table"
-        },
-        "parameters": [
+        "tags": [
             {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-030003",
-                        "values": {
-                            "type": "compounded",
-                            "valueLst": [
-                                {
-                                    "statistic": "mean",
-                                    "type": "simple",
-                                    "unit": "nS",
-                                    "values": [
-                                        3.09
-                                    ]
-                                },
-                                {
-                                    "statistic": "sd",
-                                    "type": "simple",
-                                    "unit": "nS",
-                                    "values": [
-                                        0.91
-                                    ]
-                                },
-                                {
-                                    "statistic": "N",
-                                    "type": "simple",
-                                    "unit": "dimensionless",
-                                    "values": [
-                                        10
-                                    ]
-                                }
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "f7e8c5ec-eced-11e5-b708-64006a4c56ef",
-                "relationship": {
-                    "entity1": {
-                        "id": "NIFINV:birnlex_2300",
-                        "name": "Computational model"
-                    },
-                    "entity2": "None",
-                    "type": "point"
-                },
-                "requiredTags": [
-                    {
-                        "id": "NIFCELL:sao1813327414",
-                        "name": "Thalamus relay cell",
-                        "rootId": "sao1813327414"
-                    },
-                    {
-                        "id": "NIFMOL:nifext_8054",
-                        "name": "Leak ionic current",
-                        "rootId": "nifext_8054"
-                    }
-                ]
+                "id": "NIFGA:birnlex_1721",
+                "name": "Thalamic reticular nucleus"
+            },
+            {
+                "id": "nlx_52865",
+                "name": "Modelling"
+            },
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            },
+            {
+                "id": "NIFGA:birnlex_954",
+                "name": "Thalamus"
+            },
+            {
+                "id": "NIFINV:birnlex_2313",
+                "name": "Neural circuit model"
             }
         ],
-        "pubId": "10.1152/jn.00926.2014",
-        "tags": {
-            "birnlex_2300": "Computational model",
-            "birnlex_2313": "Neural circuit model",
-            "nifext_41": "Thalamocortical cell",
-            "nlx_52865": "Modelling"
-        },
-        "version": "1"
-    },
-    {
-        "annotId": "6361001e-ecee-11e5-b708-64006a4c56ef",
-        "authors": [
-            "oreilly"
-        ],
-        "comment": "Leak equilibrium potential of a mouse TC cell.",
-        "experimentProperties": [],
-        "localizer": {
-            "no": "2",
-            "noCol": "2",
-            "noRow": "3",
-            "type": "table"
-        },
-        "parameters": [
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-011001",
-                        "values": {
-                            "type": "compounded",
-                            "valueLst": [
-                                {
-                                    "statistic": "mean",
-                                    "type": "simple",
-                                    "unit": "mV",
-                                    "values": [
-                                        -57.4
-                                    ]
-                                },
-                                {
-                                    "statistic": "sd",
-                                    "type": "simple",
-                                    "unit": "mV",
-                                    "values": [
-                                        9.0
-                                    ]
-                                },
-                                {
-                                    "statistic": "N",
-                                    "type": "simple",
-                                    "unit": "dimensionless",
-                                    "values": [
-                                        10
-                                    ]
-                                }
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "f9cd3a46-ed10-11e5-b708-64006a4c56ef",
-                "requiredTags": [
-                    {
-                        "id": "NIFCELL:sao1813327414",
-                        "name": "Thalamus relay cell",
-                        "rootId": "sao1813327414"
-                    },
-                    {
-                        "id": "NIFMOL:nifext_8054",
-                        "name": "Leak ionic current",
-                        "rootId": "nifext_8054"
-                    }
-                ]
-            }
-        ],
-        "pubId": "10.1152/jn.00926.2014",
-        "tags": {
-            "birnlex_2300": "Computational model",
-            "birnlex_2313": "Neural circuit model",
-            "nifext_41": "Thalamocortical cell",
-            "nlx_52865": "Modelling"
-        },
-        "version": "1"
-    },
-    {
-        "annotId": "71b9d726-ecee-11e5-b708-64006a4c56ef",
-        "authors": [
-            "oreilly"
-        ],
-        "comment": "T-current amplitude of a mouse TC cell.",
-        "experimentProperties": [],
-        "localizer": {
-            "no": "2",
-            "noCol": "2",
-            "noRow": "4",
-            "type": "table"
-        },
-        "parameters": [
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-030003",
-                        "values": {
-                            "type": "compounded",
-                            "valueLst": [
-                                {
-                                    "statistic": "mean",
-                                    "type": "simple",
-                                    "unit": "nS",
-                                    "values": [
-                                        49.1
-                                    ]
-                                },
-                                {
-                                    "statistic": "sd",
-                                    "type": "simple",
-                                    "unit": "nS",
-                                    "values": [
-                                        11.0
-                                    ]
-                                },
-                                {
-                                    "statistic": "N",
-                                    "type": "simple",
-                                    "unit": "dimensionless",
-                                    "values": [
-                                        10
-                                    ]
-                                }
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "f7145738-ed12-11e5-b708-64006a4c56ef",
-                "requiredTags": [
-                    {
-                        "id": "NIFCELL:sao1813327414",
-                        "name": "Thalamus relay cell",
-                        "rootId": "sao1813327414"
-                    },
-                    {
-                        "id": "NIFMOL:nifext_8054",
-                        "name": "Low threshold calcium T-current",
-                        "rootId": "nifext_8054"
-                    }
-                ]
-            }
-        ],
-        "pubId": "10.1152/jn.00926.2014",
-        "tags": {
-            "birnlex_2300": "Computational model",
-            "birnlex_2313": "Neural circuit model",
-            "nifext_41": "Thalamocortical cell",
-            "nlx_52865": "Modelling"
-        },
-        "version": "1"
-    },
-    {
-        "annotId": "812bbff8-ecee-11e5-b708-64006a4c56ef",
-        "authors": [
-            "oreilly"
-        ],
-        "comment": "H-current amplitude of a mouse TC cell.",
-        "experimentProperties": [],
-        "localizer": {
-            "no": "2",
-            "noCol": "2",
-            "noRow": "5",
-            "type": "table"
-        },
-        "parameters": [
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-030003",
-                        "values": {
-                            "type": "compounded",
-                            "valueLst": [
-                                {
-                                    "statistic": "mean",
-                                    "type": "simple",
-                                    "unit": "nS",
-                                    "values": [
-                                        0.94
-                                    ]
-                                },
-                                {
-                                    "statistic": "sd",
-                                    "type": "simple",
-                                    "unit": "nS",
-                                    "values": [
-                                        0.57
-                                    ]
-                                },
-                                {
-                                    "statistic": "N",
-                                    "type": "simple",
-                                    "unit": "dimensionless",
-                                    "values": [
-                                        10
-                                    ]
-                                }
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "125ff222-ed13-11e5-b708-64006a4c56ef",
-                "requiredTags": [
-                    {
-                        "id": "NIFCELL:sao1813327414",
-                        "name": "Thalamus relay cell",
-                        "rootId": "sao1813327414"
-                    },
-                    {
-                        "id": "NIFMOL:nifext_8054",
-                        "name": "Inward rectifier (h-type) current",
-                        "rootId": "nifext_8054"
-                    }
-                ]
-            }
-        ],
-        "pubId": "10.1152/jn.00926.2014",
-        "tags": {
-            "birnlex_2300": "Computational model",
-            "birnlex_2313": "Neural circuit model",
-            "nifext_41": "Thalamocortical cell",
-            "nlx_52865": "Modelling"
-        },
         "version": "1"
     },
     {
@@ -430,6 +88,7 @@
                     "type": "pointValue"
                 },
                 "id": "58b63026-ed11-11e5-b708-64006a4c56ef",
+                "isExperimentProperty": false,
                 "relationship": {
                     "entity1": {
                         "id": "NIFINV:birnlex_2300",
@@ -453,12 +112,24 @@
             }
         ],
         "pubId": "10.1152/jn.00926.2014",
-        "tags": {
-            "birnlex_2300": "Computational model",
-            "birnlex_2313": "Neural circuit model",
-            "nifext_45": "Thalamus reticular nucleus cell",
-            "nlx_52865": "Modelling"
-        },
+        "tags": [
+            {
+                "id": "nlx_52865",
+                "name": "Modelling"
+            },
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamus reticular nucleus cell"
+            },
+            {
+                "id": "NIFINV:birnlex_2313",
+                "name": "Neural circuit model"
+            }
+        ],
         "version": "1"
     },
     {
@@ -512,6 +183,7 @@
                     "type": "pointValue"
                 },
                 "id": "6ea87a7e-ed11-11e5-b708-64006a4c56ef",
+                "isExperimentProperty": false,
                 "relationship": {
                     "entity1": {
                         "id": "NIFINV:birnlex_2300",
@@ -535,12 +207,24 @@
             }
         ],
         "pubId": "10.1152/jn.00926.2014",
-        "tags": {
-            "birnlex_2300": "Computational model",
-            "birnlex_2313": "Neural circuit model",
-            "nifext_45": "Thalamus reticular nucleus cell",
-            "nlx_52865": "Modelling"
-        },
+        "tags": [
+            {
+                "id": "nlx_52865",
+                "name": "Modelling"
+            },
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamus reticular nucleus cell"
+            },
+            {
+                "id": "NIFINV:birnlex_2313",
+                "name": "Neural circuit model"
+            }
+        ],
         "version": "1"
     },
     {
@@ -594,6 +278,7 @@
                     "type": "pointValue"
                 },
                 "id": "8608f1c0-ed12-11e5-b708-64006a4c56ef",
+                "isExperimentProperty": false,
                 "relationship": {
                     "entity1": {
                         "id": "NIFINV:birnlex_2300",
@@ -617,12 +302,24 @@
             }
         ],
         "pubId": "10.1152/jn.00926.2014",
-        "tags": {
-            "birnlex_2300": "Computational model",
-            "birnlex_2313": "Neural circuit model",
-            "nifext_45": "Thalamus reticular nucleus cell",
-            "nlx_52865": "Modelling"
-        },
+        "tags": [
+            {
+                "id": "nlx_52865",
+                "name": "Modelling"
+            },
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamus reticular nucleus cell"
+            },
+            {
+                "id": "NIFINV:birnlex_2313",
+                "name": "Neural circuit model"
+            }
+        ],
         "version": "1"
     },
     {
@@ -676,6 +373,7 @@
                     "type": "pointValue"
                 },
                 "id": "b7f49f36-ed12-11e5-b708-64006a4c56ef",
+                "isExperimentProperty": false,
                 "relationship": {
                     "entity1": {
                         "id": "NIFINV:birnlex_2300",
@@ -699,12 +397,380 @@
             }
         ],
         "pubId": "10.1152/jn.00926.2014",
-        "tags": {
-            "birnlex_2300": "Computational model",
-            "birnlex_2313": "Neural circuit model",
-            "nifext_45": "Thalamus reticular nucleus cell",
-            "nlx_52865": "Modelling"
+        "tags": [
+            {
+                "id": "nlx_52865",
+                "name": "Modelling"
+            },
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamus reticular nucleus cell"
+            },
+            {
+                "id": "NIFINV:birnlex_2313",
+                "name": "Neural circuit model"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "f0cd4b9c-ec67-11e5-9a54-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Leak conductance of a mouse TC cell.",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "2",
+            "noCol": "2",
+            "noRow": "2",
+            "type": "table"
         },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "nS",
+                                    "values": [
+                                        3.09
+                                    ]
+                                },
+                                {
+                                    "statistic": "sd",
+                                    "type": "simple",
+                                    "unit": "nS",
+                                    "values": [
+                                        0.91
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        10
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "f7e8c5ec-eced-11e5-b708-64006a4c56ef",
+                "isExperimentProperty": false,
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFINV:birnlex_2300",
+                        "name": "Computational model"
+                    },
+                    "entity2": "None",
+                    "type": "point"
+                },
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus relay cell",
+                        "rootId": "sao1813327414"
+                    },
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Leak ionic current",
+                        "rootId": "nifext_8054"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1152/jn.00926.2014",
+        "tags": [
+            {
+                "id": "nlx_52865",
+                "name": "Modelling"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            },
+            {
+                "id": "NIFINV:birnlex_2313",
+                "name": "Neural circuit model"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "6361001e-ecee-11e5-b708-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Leak equilibrium potential of a mouse TC cell.",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "2",
+            "noCol": "2",
+            "noRow": "3",
+            "type": "table"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-011001",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "mV",
+                                    "values": [
+                                        -57.4
+                                    ]
+                                },
+                                {
+                                    "statistic": "sd",
+                                    "type": "simple",
+                                    "unit": "mV",
+                                    "values": [
+                                        9.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        10
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "f9cd3a46-ed10-11e5-b708-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus relay cell",
+                        "rootId": "sao1813327414"
+                    },
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Leak ionic current",
+                        "rootId": "nifext_8054"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1152/jn.00926.2014",
+        "tags": [
+            {
+                "id": "nlx_52865",
+                "name": "Modelling"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            },
+            {
+                "id": "NIFINV:birnlex_2313",
+                "name": "Neural circuit model"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "71b9d726-ecee-11e5-b708-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "T-current amplitude of a mouse TC cell.",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "2",
+            "noCol": "2",
+            "noRow": "4",
+            "type": "table"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "nS",
+                                    "values": [
+                                        49.1
+                                    ]
+                                },
+                                {
+                                    "statistic": "sd",
+                                    "type": "simple",
+                                    "unit": "nS",
+                                    "values": [
+                                        11.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        10
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "f7145738-ed12-11e5-b708-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus relay cell",
+                        "rootId": "sao1813327414"
+                    },
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Low threshold calcium T-current",
+                        "rootId": "nifext_8054"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1152/jn.00926.2014",
+        "tags": [
+            {
+                "id": "nlx_52865",
+                "name": "Modelling"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            },
+            {
+                "id": "NIFINV:birnlex_2313",
+                "name": "Neural circuit model"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "812bbff8-ecee-11e5-b708-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "H-current amplitude of a mouse TC cell.",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "2",
+            "noCol": "2",
+            "noRow": "5",
+            "type": "table"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "nS",
+                                    "values": [
+                                        0.94
+                                    ]
+                                },
+                                {
+                                    "statistic": "sd",
+                                    "type": "simple",
+                                    "unit": "nS",
+                                    "values": [
+                                        0.57
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        10
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "125ff222-ed13-11e5-b708-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus relay cell",
+                        "rootId": "sao1813327414"
+                    },
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Inward rectifier (h-type) current",
+                        "rootId": "nifext_8054"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1152/jn.00926.2014",
+        "tags": [
+            {
+                "id": "nlx_52865",
+                "name": "Modelling"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            },
+            {
+                "id": "NIFINV:birnlex_2313",
+                "name": "Neural circuit model"
+            }
+        ],
         "version": "1"
     }
 ]
