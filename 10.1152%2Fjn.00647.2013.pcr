@@ -353,44 +353,6 @@
                         "rootId": "sao1813327414"
                     }
                 ]
-            },
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-030003",
-                        "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "s/cm^2",
-                            "values": [
-                                3e-06
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "b25766f4-f289-11e5-b804-64006a4c56ef",
-                "isExperimentProperty": false,
-                "relationship": {
-                    "entity1": {
-                        "id": "NIFINV:birnlex_2304",
-                        "name": "Ionic current model"
-                    },
-                    "entity2": "None",
-                    "type": "point"
-                },
-                "requiredTags": [
-                    {
-                        "id": "NIFMOL:nifext_8054",
-                        "name": "Sodium leak current",
-                        "rootId": "nifext_8054"
-                    },
-                    {
-                        "id": "NIFCELL:sao1813327414",
-                        "name": "Thalamus ventroposterior nucleus principal neuron",
-                        "rootId": "sao1813327414"
-                    }
-                ]
             }
         ],
         "pubId": "10.1152/jn.00647.2013",
