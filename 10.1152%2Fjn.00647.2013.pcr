@@ -969,12 +969,12 @@
                 "requiredTags": [
                     {
                         "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current",
+                        "name": "Sodium leak current",
                         "rootId": "nifext_8054"
                     },
                     {
                         "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
+                        "name": "Thalamus ventroposterior nucleus principal neuron",
                         "rootId": "sao1813327414"
                     }
                 ]
