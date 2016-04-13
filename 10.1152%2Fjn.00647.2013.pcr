@@ -413,7 +413,8 @@
     {
         "annotId": "8c4a1c38-eacb-11e5-a3fb-c869cd917532",
         "authors": [
-            "iavarone"
+            "iavarone",
+            "oreilly"
         ],
         "comment": "IL from McCormick & Huguenard (1992), referring to Kay and Wong (1987)",
         "experimentProperties": [],
@@ -426,7 +427,7 @@
             {
                 "description": {
                     "depVar": {
-                        "typeId": "BBP-030003",
+                        "typeId": "BBP-035003",
                         "values": {
                             "statistic": "raw",
                             "type": "simple",
@@ -442,8 +443,8 @@
                 "isExperimentProperty": false,
                 "relationship": {
                     "entity1": {
-                        "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current"
+                        "id": "NIFORG:birnlex_297",
+                        "name": "Guinea pig"
                     },
                     "entity2": "None",
                     "type": "point"
