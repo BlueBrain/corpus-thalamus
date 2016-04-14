@@ -1,0 +1,459 @@
+J Physiol 565.3 (2005) pp 765–781
+A model of thalamocortical relay cells
+
+765
+
+Paul A. Rhodes and Rodolfo Llina´s
+Department of Physiology and Neuroscience, New York University Medical School, 550 1st Avenue, New York, NY 10016, USA
+
+It is well established that the main intrinsic electrophysiological properties of thalamocortical relay cells, production of a low threshold burst upon release from hyperpolarized potential and production of a train of single spikes following stimulation from depolarized potentials, can be readily modelled using a single compartment. There is, however, another less well explored intrinsic electrophysiological characteristic of relay cells for which models have not yet accounted: at somatic potentials near spike threshold, relay cells produce a fast ragged high threshold oscillation in somatic voltage. Optical [Ca2+] imaging and pharmacological tests indicate that this oscillation correlates with a high threshold Ca2+ current in the dendrites. Here we present the development of a new compartment model of the thalamic relay cell guided by the simultaneous constraints that it must produce the familiar regular spiking relay mode and low threshold rebound bursts which characterize these cells, as well as the less-studied fast oscillation occurring at near-threshold somatic potentials. We arrive at a model cell which is capable of the production of isolated high threshold Ca2+ spikes in distal branch segments, driven by a rapidly inactivating intermediate threshold Ca2+ channel. Further, the model produces the low threshold spike behaviour of the relay cell without requiring high T-current density in the distal dendritic segments. The results thus support a new picture of the dendritic tree of relay cells which may have implications for the manner in which thalamic relay cells integrate descending input from the cortex.
+(Resubmitted 29 June 2004; accepted after revision 20 December 2004; ﬁrst published online 21 December 2004) Corresponding author P. A. Rhodes: Department of Physiology and Neuroscience, NYU Medical School, 550 1st Avenue, New York, NY 10016, USA. Email: paul@rhodesholdings.net
+
+The relay cells of the thalamus occupy a pivotal position in the architecture of vertebrate brains, serving both as the primary relay of sensory information from the periphery to the cortex and as an interactive hub of communication between cortical areas (Sherman & Guillery, 2001). Further, in addition to this relay role, it is widely recognized that thalamic nuclei are engaged in constant two-way interplay with a corresponding cortical area, receiving many more descending than ascending inputs (Jones, 1985), and that this interplay is integral to the functioning of the cortex itself. Thus, characterization of the manner in which the relay cells integrate ascending and descending input is requisite for the understanding of thalamocortical function.
+The electrophysiological properties of relay cells from a somatic intracellular perspective demonstrated rebound postanodal exaltation (Anderson et al. 1964) following release from a hyperpolarization. The calcium dependent spike properties responsible for this rebound response and their role in neuronal oscillation was descovered later on in thalamic slices (Llina´s & Jahnsen, 1982; Jahnsen and Llina´s 1984a,b) and were also observed in vivo (Desche`nes et al. 1982). In fact, the production of a low threshold T-current-driven burst upon release from hyperpolarized
+
+potential and the production of a train of single spikes following stimulation from depolarized potentials is now well established. The aforementioned two modes of intrinsic response can be readily modelled using a single somatic compartment with an appropriate set of voltage and calcium concentration-gated currents (Huguenard & McCormick, 1992; McCormick & Huguenard, 1992), or with a small set of coupled differential equations (Rose & Hindmarsh, 1985). However, both ascending and descending inputs to thalamic relay cells arrive on the dendritic tree, and so the study of synaptic integration in model cells requires simulations incorporating the electrically active properties of the dendritic tree. A ﬁrst step in this regard was achieved by Crunelli (Antal et al. 1996) and Destexhe, Huguenard and coworkers (Destexhe et al. 1998) with relay cell models including a dendritic tree which incorporated dendritic T-current densities. In the latter work, a comparison of T-current densities in recordings from acutely dissociated and intact cells led to the inference that a higher density of T-current exists in the dendrites than in the soma. The high distal T-current density featured in this model has in turn been the foundation for a number of recent conjectures about relay cell responses to
+
+C The Physiological Society 2004
+
+DOI: 10.1113/jphysiol.2004.070888
+
+766
+
+P. A. Rhodes and R. Llina´ s
+
+J Physiol 565.3
+
+synaptic inputs upon the distal dendrites (Zhan et al. 2000).
+There is, however, another less well explored intrinsic electrophysiological characteristic of relay cells for which models have not yet accounted: at somatic potentials near spike threshold, relay cells produce a waxing and waning rapid high threshold oscillation observable at the soma (Pedroarena & Llina´s, 1997). Optical [Ca2+] imaging and pharmacological tests indicate that this oscillation correlates with a high threshold current in the dendrites, the properties of which have not been characterized. These ﬁndings relate to earlier pharmacological and electrophysiological evidence implying the presence of a dendritic high threshold inactivating Ca2+ current, as revealed by high threshold spikes occurring in the presence of the A-type K+ channel blocker 4-aminopyramidine (4-AP; Jahnsen & Llina´s, 1984b).
+Here we present the development of a new model of the thalamic relay cell. Its construction has been guided by the simultaneous constraints that it must produce the familiar regular spiking relay mode and low threshold rebound bursts which characterize these cells, as well as the less-studied oscillation occurring at near-threshold somatic potentials. We arrive at a model cell which is capable of the production of isolated high threshold Ca2+
+
+spikes in distal branch segments, driven by a rapidly inactivating intermediate threshold channel. Further, the model produces the low threshold spike behaviour of the relay cell without requiring high T-current density in the distal dendritic segments. Thus, it presents an alternative picture of the dendritic tree of relay cells, in which fast high threshold Ca2+ events occur in distal dendritic branches, while slower low threshold spikes are primarily driven by T-current located in the somatic and proximal dendritic membrane. Some of these results have been previously presented in abstract form (Rhodes & Llina´s, 2003).
+Methods
+Morphology
+Initial simulations were performed using a simpliﬁed dendritic morphology, so that the main elements of the model could be explored more rapidly than is possible with a fully delineated compartment model dendritic tree. Using a study of relay cells of the cat lateral geniculate nucleus (Bloomﬁeld & Sherman, 1987), a simpliﬁed compartment model relay cell was constructed, with eight branches and 56 compartments (Fig. 1). Final simulations were performed on a relay cell reconstructed
+
+Figure 1. Model relay cell morphology A, to speed the initial exploration of alternative channel distributions, a ﬁrst set of simulations was performed on a simpliﬁed and idealized model with 8 branches (left), each branch with 3 levels and 7 segments. A 7-segment axon was appended, so that this simpliﬁed model contained 64 compartments in all. The tertiary segments averaged length 120 mm and diameter 0.7 mm, consistent with measured values for the terminal branches which comprise most of the dendritic tree of relay cells. B, candidate channel distributions developed with the simpliﬁed cell were then transferred to a compartment model developed from a reconstructed relay cell from cat lateral geniculate nucleus reconstructed by Alain Destexhe and John Huguenard (Destexhe et al. 1998; Huguenard et al. 1991) using the Neurolucida digital reconstruction system and generously made available to the public (see the website of Alain Destexhe, http://www.cnl.salk.edu/∼alain/). In our model, compartments were delineated by branch points. In addition to the 11 dendritic branches of this cell, an axon was appended at the soma, consisting of 7 segments of 50 mm length and 1 mm diameter. This image is the 2-dimensional projection of a 3-dimensionally reconstructed cell, so many compartments are foreshortened. The full compartment model consisted of 219 compartments and, when fully laden with dendritic ion channels and Ca2+ buffering systems, required approximately 7 min to run 200 ms of neuronal activity on an Athlon 2100 + based PC.
+C The Physiological Society 2004
+
+J Physiol 565.3
+
+A model of thalamocortical relay cells
+
+767
+
+using the NeuroLucida digital system used by Alain Destexhe and John Huguenard (cf. Destexhe et al. 1998) and generously made available to the public. For details of the compartment structure see the website of Alain Destexhe (http://cns.iaf.cnrs-gif.fr/main.html). The reconstructed model cell included 11 branches. To create a compartment model, individual compartments were delineated by branch points, subject to the constraint that no compartment could be longer than 100 µm, i.e. segments > 100 µm in length were subdivided into two segments. To improve the realism of the somatic ﬁring mechanism, a seven-segment axon was appended to the soma (each segment 50 µm in length and 1 µm in diameter). The model neurone thus deﬁned comprised 219 individual segments, with dendritic membrane area 39 000 µm2. All ﬁgures provided in the Results below were produced with this more detailed compartment model cell.
+Passive electronic characteristics
+For relay cells, the passive compartment modelling parameters of membrane resistance (Rm), membrane capacitance (Cm), and cytoplasmic resistivity (Ri) have to be indirectly inferred from the response to small current injections at the soma, since dual patch measurements of soma and distal dendrites required for direct attenuation measurements have not been reported. We speciﬁed Rm = 50 000 cm2, Ri = 150 cm, Cm = 1 µF cm−2 and a leak driving force reversing at −64 mV, passive parameters similar to those used by Destexhe et al. (1998; Rm = 27 000 cm2, Ri = 173 cm, Cm = 0.9 µF cm−2 and leak battery −69.85 mV), and typical of those ascertained for cortical pyramidal cells (Trevelyan & Jack, 2002). The resulting somatic input resistance was 19 M , with this measurement made following introduction of somatic and dendritic ion channel conductance densities in the completed model, as detailed below. This falls within but towards the lower end of the range of input resistances obtained from a broad sample of relay cells in vitro (Table 1 in Jahnsen & Llina´s, 1984a), and suggests that the reconstruction provided by Destexhe and Huguenard was of a fairly large cell (www.cnl.salk.edu/∼alain/). The somatic input time constant, τ in, measured during relaxation to resting voltage following a small depolarizing step, was approximately 19 ms, and resting membrane potential was about −70.5 mV.
+Relay cells are distinguished by a particularly large complement of currents active at rest, including the low threshold (T-type) calcium channel (Jahnsen & Llina´s, 1984b), a low threshold inactivating K+ current, IA (Jahnsen & Llina´s, 1984b), and the hyperpolarizationactivated mixed cation current, Ih (McCormick & Pape, 1990; McCormick & Huguenard, 1992). As a result, the response to small hyperpolarizing and depolarizing current pulses, and therefore measured values of Rin and τ in, are shaped by membrane current in addition to passive
+C The Physiological Society 2004
+
+membrane properties. To examine this effect, we switched off the currents active near rest. In these conditions, resting membrane potential increased from −69.5 to −60.5 mV, and Rin and τ in increased approximately 5-fold, to 105 M and 120 ms, respectively.
+A small (up to ± 0.35 nA) DC bias current was required to establish voltage equilibrium at the soma. The non-uniform current density distributions between soma and dendrites of currents active near rest resulted in a small (several millivolts) standing gradient of voltage at rest between the soma and distal dendrites.
+Somatic action potentials and ﬁring threshold
+When compared to cortical pyramidal cells, the AP threshold in relay cells occurs at a more positive membrane voltage, just above −40 mV (e.g. Jahnsen & Llina´s, 1984a) versus −53 mV in cortical cells (cf. McCormick et al. 1985). To ensure that the model relay cell reﬂected the high threshold for AP initiation measured in vitro, the voltage dependence of activation and inactivation of the Na+ channel model (see below) was shifted 15 mV to the right along the voltage axis. The delayed rectiﬁer, KDR, was shifted about 11 mV to the right. With these adjustments, the model relay cell action potential threshold was −38 mV (see Fig. 3) upon current step application from −60 mV holding potential, similar to that noted in vitro. This rightward shift in Na+ and KDR voltage gating was also necessary because the presence of suboscillation at somatic potentials of −48 to −45 mV of course establishes that there must be a subthreshold regime above −50 mV. The hypothesized shift of gating to the right with respect to the currents reported in voltage clamp (e.g. Huguenard & McCormick, 1992) may suggest that some aspect of the voltage clamp measurement process causes a leftward shift of activation, as can occur for example with alteration of the phosphorylation–dephosphorylation state of the Na+ channel (Catteral, 2000). We introduced densities of Na+ and KDR conductance in the soma, axon and segments abutting the soma so that the AP shape parameters noted in vitro were approximated by the simulated cell. The precise allocation of Na+ channels driving the somatic AP as between soma and axon hillock was not material to the results.
+T-channel distribution and kinetics
+All models of relay cells heretofore reported (e.g. McCormick & Huguenard, 1992; Antal et al. 1996; Destexhe et al. 1998) have incorporated a low threshold inactivating Ca2+ conductance, the T-current (CaT), which drives the low threshold spike characteristic of this cell type (Anderson et al. 1964; Jahnsen & Llina´s, 1984a,b; Desche`nes et al. 1982). The kinetics of CaT we used were taken from that described by Huguenard & McCormick (1992). We found it necessary to shift
+
+768
+
+P. A. Rhodes and R. Llina´ s
+
+J Physiol 565.3
+
+activation by 5 mV to the right along the voltage axis to prevent excessive CaT active at rest. Without that shift, a hyperpolarizing step from −60 mV showed an unphysiological deﬂection in the voltage response due to inactivation of the CaT current present at rest (unpublished observations). Because the differing phosphorylation states of channels arising in different experimental preparations can result in 5–15 mV shifts of channel gating along the voltage axis, when using current kinetics from a collection of experimental studies it is plausible to shift model current voltage dependencies by 5–10 mV relative to one another to achieve the interaction between currents observed in current clamp mode.
+In a prior model of relay cells, Destexhe et al. (1998) argued for a primarily distal distribution of CaT current, in part because of their observation that in dissociated (versus intact) cells CaT current density per unit membrane area was low. However, more recently Destexhe & Sejnowski (2003) have noted that relay cell models with proximal dendritic T-current distribution produce low threshold spikes, consistent with the ﬁndings of Zhou et al. (1997) and of Williams & Stuart (2000). These groups patched relay cell dendrites to about 50 µm from the soma. Williams & Stuart (2000) found CaT conductance density rising approximately 2-fold from the soma to the proximal stems and then rapidly falling off by 40 µm from the soma. To take into account experimental measurements of dendritic and somatic T-current density, our model incorporates a conductance density of 2 mS cm−2 in the soma, rising to 8 mS cm−2 in the proximal branches and falling off to 1 mS cm−2 in the distal branches. Thus the present model has a mainly proximal dendritic CaT distribution. The production of rebound bursts demonstrate that with proximal dendritic CaT channels low threshold spikes and rebound bursts are readily produced.
+A rapidly inactivating intermediate threshold Ca2+ channel in distal dendrites
+Prior relay cell simulations have not incorporated dendritic high threshold Ca2+ current, though electrophyiological evidence indicates that such a current is present (Jahnsen & Llina´s, 1984b, pp. 237–239) and that a high threshold current underlies the rapid oscillation (Pedroarena & Llina´s, 1997). Though this current has not yet been isolated and characterized kinetically, the emergence of oscillations at somatic voltages above −48 mV but below spike threshold suggests it activates at somewhat more hyperpolarized levels than a conventional high threshold (L- or N-type) current, hence it may be termed an ‘intermediate’ threshold Ca2+ current.
+An intermediate threshold current with rapid inactivation and voltage threshold somewhat more hyperpolarized than typical high threshold currents has been reported by Magistretti et al. (2000) in entorhinal
+
+cells. To enable activation beginning around −48 mV, we shifted the V2 (voltage at which the value of the activation variable is 0.5) of activation of the current of Magistretti et al. (2000) slightly to the left, to −33 mV. The current found by Magistretti et al. (2000) has an inactivation time constant of 20 ms at room temperature, consistent with an inactivation time constant of approximately 7 ms at body temperature (at Q10 = 2.5), which is well suited to produce repetitive events with the peak-to-peak time of 20 ms characteristic of the oscillations (see Fig. 6). We adopted the Magistretti current, as modiﬁed, as a candidate current to underlie the rapid oscillations seen in relay cells.
+Any mechanism which successfully accounts for the near-threshold oscillation must confront the following consistency problem: during the falling phase of a low-threshold spike (LTS), voltage can be at the near-threshold depolarized level. The preliminary simulations incorporating the oscillation mechanism proposed above produced an unphysiological ripple during the LTS falling phase (unpublished observations). We reasoned that a solution could be the addition of a slowly activating component to the activation kinetics of the intermediate threshold current, consistent with the observation that often it appears to take a little while for the rapid threshold oscillation to ‘kick in’ as somatic potential is raised (R. Llina´s, unpublished observations). Accordingly, we included a slowly activating component to the kinetics of the inactivating dendritic Ca2+ current (kinetics in Table 1). Now the falling phase of the LTS was no longer contaminated by a rapid oscillation because during the LTS insufﬁcient time was spent at the depolarized level for the slow activation process of the high threshold channel (provisionally assigned a time constant of 1 s). Whatever physiological mechanism underlies the emergence of high threshold oscillations in relay cells around −46 mV, it must satisfy the constraint that as the LTS repolarizes and voltage descends through −45 mV an oscillation does not occur.
+Ih, IC, IAHP and KA
+It has been established through both electrophysiological and pharmacological manipulations that relay cells incorporate a fast transient K+ current (IA; Jahnsen & Llina´s, 1984b), a fast Ca2+-gated K+ current, the C-current (KCa), and a hyperpolarization-gated current composed of a mixture of K+, Na+ and Ca2+ ions, Ih (McCormick & Pape, 1990). Kinetics for IA and Ih were taken from the study of Huguenard & McCormick (1992), and for KCa from Traub et al. (1991), and are summarized in Table 1 and plotted in Fig. 2. Because the effect of Ba2+ on the repolarization of the LTS suggests the presence of a slower Ca2+-gated current (Jahnsen & Llina´s, 1984b), ImAHP, was included, though its role and distribution was not material here. We considered the addition of
+
+C The Physiological Society 2004
+
+J Physiol 565.3
+
+A model of thalamocortical relay cells
+
+769
+
+a slower inactivating current, the K2 current discussed by Huguenard & McCormick (1992), but found it was not necessary to obtain the present results, so it was not included.
+Calcium concentration
+Because of the incorporation of Ca2+-gated K+ channels, KCa, it was necessary to explicitly model the Ca2+ concentration relevant to channel gating. For purposes of this model we chose to gate the currents with [Ca2+]. Two buffers were utilized, one fast and one slow, the kinetics of which are provided in Table 1. In addition, free Ca2+ was ejected from the cytoplasm by membrane pumps of ﬁxed density per unit membrane area.
+Kinetic formulae for the ion channels used in this study are provided in Table 1, with the equilibrium values of inactivation and activation depicted graphically to enable comparison with experimentally measured values in Fig. 2. The ﬁnal ion channel conductance distribution for the model cell is provided in Table 2.
+Results
+We sought a model thalamic relay cell which both displayed the regular spiking and low threshold burst output modes and incorporated the waxing and waning rapid oscillation in somatic voltage which arises in vitro as somatic voltage approaches ﬁring threshold. To guide the distribution of ion channel conductance densities, a sequence of experimental constraints obtained from published in vitro records was imposed, as follows. (1) Somatic and perisomatic Na+ and KDR conductance densities were introduced so that the threshold, height, rate of rise and width of the simulated somatic action potential were consistent with the relay cell action potential. (2) The model was required to match the responses to depolarizing current steps from a range of holding potentials: from −80 mV a burst was produced, followed by a train of regular spikes, at −70 mV a transitional response was sometimes seen, with a single spike followed by a long pause and then a train of single spikes, and ﬁnally at −60 mV a small current step produced a passive response, with increasing step magnitudes driving a non-accomodating train of single spikes at increasingly high rates, the relay mode. (3) The model was required to reproduce the characteristics of low threshold spikes following release from hyperpolarization, including its graded magnitude with increase in the magnitude and duration of hyperpolarizing current. (4) The effects of TTX, Cd2+ and Ni2+ upon the LTS seen in vitro, either separately or in combination, were compared to the results of the simulation when corresponding currents were shut off.
+C The Physiological Society 2004
+
+(5) With all the foregoing response properties in place, an additional ionic mechanism was sought which would allow the simulation to display the progressive development of the rapid high threshold oscillation seen at the soma as somatic potential is incremented above −50 mV. (6) Finally, the effects of TTX, Cd2+ or Ni2+ upon the rapid oscillation observed in vitro were required to be consistent with the simulation results when the corresponding simulated currents were shut off.
+The model neurone ultimately sought had to satisfy all these constraints simultaneously. Conductance density distributions were iteratively varied and the ﬁt between the model and in vitro records, across all these paradigms, was rechecked, channel densities readjusted, and the process iteratively repeated. Initially, adjustments to achieve improved performance in one response worsened performance in another, and so simulations imposing different stimuli were done and redone in rotation, making successive adjustments in channel density distributions. In this manner we were incrementally led to a model cell which allowed all the experimental measurements to be reproduced. The performance of the ﬁnal relay cell model ultimately resulting from this process and its comparison with records obtained from relay cells in vitro will now be presented.
+Response to current steps from a range
+of holding potentials
+The fundamental intrinsic characteristics of thalamic relay cells have been deﬁned by the spectrum of responses they produce to current steps initiated from differing holding voltages (Jahnsen & Llina´s, 1984a). Thus, from hyperpolarized holding potentials (−80 mV) depolarizing input triggers a burst, whereas from depolarized levels input drives a train of non-accomodating single spikes. Both these deﬁning modes of relay cell response can be produced by single compartment simulations (McCormick & Huguenard, 1992). In addition, in vitro there are two intermediate types of responses which also should be reﬂected in the simulation: (1) from intermediate levels of holding voltage or with small currents applied at depolarized holding potential, a passive or near-passive response can be elicited; and (2) from intermediate holding potentials (−70 mV) an input step can cause an initial spike followed by a long pause, 100 ms or more, following which there abruptly commences a train of regular non-accomodating somatic spikes (Fig. 3 top, 2nd trace). This second transitional behaviour has not been reported in prior models.
+Figure 3 displays the response of the model relay cell to somatic current steps from a range of levels of holding potential. In four regimes of holding voltage and input current magnitude, the model cell produced an output similar to the typical responses of relay cells
+
+770
+
+P. A. Rhodes and R. Llina´ s
+
+J Physiol 565.3
+
+Table 1. Ion channel kinetics
+
+Channel
+
+Property
+
+INa α = 320.0 × (V − (−29.9))/[1 − exp(−(V − (−29.9))/4.0)] β = 280.0 × (V − (−2.9))/(exp((V − (−2.9))/5.0) − 1) m8 = α/(α + β) τ m = 1/(α + β) h8 = 1.0/(1.0 + exp((V − (−37))/6.0)) α = 24.0 × (V − (−22))/(1.0 − exp((−V − (−22.0))/5.0)) β = −9.1 × (V − (−47))/(1.0 − exp((V − (−47.0))/5.0)) τ h = 1/(α + β) gNa = gmax,Na × m3 × h
+IKDR Dendritic α = −16.0 × (V − (−19.9))/(exp(−(V − (−19.9))/5.0) − 1.0) β = 250.0 · 1.5 · exp (− (V − (−35.0))/40.0) For the channel in the soma, the equations for α and β as function of voltage are both shifed to the right (i.e. along the voltage axis) 5 mV m8 = α/(α + β) τ m = 1/(α + β) gKDR = gmax,KDR × m
+IA m8 = 1.0/(1.0 + exp(−(V − (−60))/8.5)) τ m = 0.67 h8 = 1.0/(1.0 + exp((V − (−78))/6.0)) if (V ≥ −63), τ h = 7.0 if (V < −63) τ h = 0.33/(exp((V − (−46))/(5) + exp(−(V − (−238))/37.5)) gA = gmax,A × m × h
+IKca m8 = 1.0/(1.0 + exp(−(V − (−30.0))/5.0)) τ m = 2.5 gKCa = gmax,KCa × m × ([Ca2+] − 0.05 µM)/2.5 µM provided the Ca2+-gating term can never exceed 1.0
+
+ImAHP ICa ICaQ
+IT
+
+m8 = 0, when V < −44 m8 = min(1,(V − −44)/15), when V > −44 τ m = 20 gKCa = gmax,AHP × m8 × ([Ca2+] − 0.05 µM)/[([Ca2+] − 0.05 µM) +0.25 µM]
+m8 = 1.0/(1.0 + exp((V − (−19.0))/8.0)) τ m = 0.6 +3.0/[exp (−(V − (−19.0))/(24.0)) + exp((V − (−19.0))/(24.0))] h8 = 1.0/(1.0 + exp((V − (−42.0))/8.0)) τ h = 200.0 gCa = gmax,Ca × m2 × h × (100.0/(100.0 + [Ca2+])
+m8 = 1.0/(1.0 + exp(−(V − (−33.0))/4.5)) τ m = 0.05 +0.5/[exp(−(V − (−33.0))/13.5) + exp((V − (−33.0))/13.5)] m8,slow = 1.0/(1.0 + exp(−(V − (−48.0))/5.0)) τ slow = 1000.0 h8 = 1.0/(1.0 + exp(V − (−52.0)/6.0)) τ h = 0.5 + 14.0/[exp(−(V − (−52.0))/18.0) + exp((V − (−52.0))/18.0)] gCaQ = gmax,CaQ × m × mslow × h
+m8 = 1.0/(1.0 + exp(−(V − (−63))/6.2)) τ m = 0.2 +9.4/[exp((V − (−63))/(18.6)) + exp(−(V − (−63))/(18.6))] h8 = 1.0/(1.0 + exp((V − (−80))/4.0)) τ h = 4.2 + 11.6 × exp(−(V − (−61.5))/45.0) gCaT = gmax,CaT × m3 × h
+
+(Continued)
+
+C The Physiological Society 2004
+
+J Physiol 565.3
+
+A model of thalamocortical relay cells
+
+Table 1. Continued
+
+Channel
+
+Property
+
+Ih m8 = 1.0/(1.0 + exp((V − (−75.0))/5.5)) τ m = 100.0/(exp(−(V − (−75.0))/(11.0)) + exp((V − (−75.0))/(11.0))) provided that if τ m < 5, τ m = 5.0 gh = gmax,h × m
+Calcium concentration dynamics within each compartment were the sum of three contributions, as follows. (1) Inﬂux due to Ca2+ ﬂux through ion channels:
+E Ca = [(gCa + gCaT + gCaN)(E Ca − V )(106/9.647 × 104)/2.0]/Volume,
+with current in µM s−1. (2) Net increase in [Ca2+] due to release from the bound state with a fast endogenous fully mixed buffer:
+d[B]/dt = 400 × [B − Ca2+] − 400 × [B] × [Ca2+],
+
+where total (bound and unbound) buffer concentration was 120 µM. (3) Extrusion through the membrane via a Ca2+ pump:
+Ipump = −375 × 10−15 × (Area/Volume) × ([Ca2+]/[Ca2+] + 0.5 µM),
+with area and volume in µM. The rate of change of [Ca2+] was the sum of inﬂux into the compartment through ion channels, ﬂux out of the bound state of the endogenous buffer, and ﬂux out the membrane via the pump:
+d[Ca2+]/dt = d[B]/dt + I[Ca2+] + Ipump. ECa, reversal potential of Ca2+ current (+60 mV); Volume, volume of the compartment; d[B], concentration of free endogenous buffer; [B − Ca], concentration of bound buffer; Area, compartment area; currents are µM s−1; concentrations in µM.
+
+771
+
+in vitro. The burst produced from hyperpolarized holding potential rode on a large triangular depolarizing potential and included one or more somatic spikes, the number emitted depending in part on Na+ channel threshold and T-channel conductance density (results not shown). In the model relay cell the low threshold burst was primarily driven by proximal T-channel current.
+Response upon release from a range
+of hyperpolarizing steps of differing
+depths and durations
+In vitro, the deﬁning characteristic of the burst mode of ﬁring of relay cells is the production of a burst upon release from hyperpolarizing input, the ‘postinhibitory exhaltation’ (Anderson et al. 1964; Desche`nes et al. 1982; Llina´s & Jahnsen, 1982). This response property is thought to be central to the interrelationship of the relay cells with the inhibitory input they receive from the overlying reticular nucleus of the thalamus (cf. Steriade et al. 1997). A systematic relationship can be observed in vitro between the depth and duration of hyperpolarizing input and the rebound current generated, implying that correspondence between the magnitude of the rebound current corresponds to the degree of de-inactivation of the T-current (Jahnsen & Llina´s, 1984a,b).
+
+The density of somatic and proximal dendritic T-current was adjusted to reﬂect the observed relationship between the LTS and the duration and depth of the hyperpolarizing step, to maintain correspondence between characteristics of the LTS produced in vitro with that in the simulated relay cell (Fig. 4). With short (20 ms) hyperpolarizing steps in vitro no rebound burst is seen, while intermediate duration steps (40 ms) elicited a rebound current producing a triangular somatic depolarization which does not reach Na+ ﬁring threshold in the soma and consequently elicits no somatic spikes. Longer steps (>50 ms) produce a larger LTS and one or more spikes, followed by a large after-depolarization and often concluded with a slow after-hyperpolarization (AHP), indicating the activation of K+ currents by the LTS. These characteristics of the sensitivity of the LTS to hyperpolarizing step duration seen in vitro were reﬂected in the responses of the simulated relay cell (Fig. 4A, right).
+As with the increase in duration, increasing the depth of hyperpolarization from which rebound occurred (with duration of the hyperpolarizing pulse ﬁxed) increases the deinactivation of the T-current which drives the LTS (Jahnsen & Llina´s, 1984a). In vitro a series of long hyperpolarizing pulses of increasing depth result in a ﬁnely graded series of low threshold rebound responses,
+
+C The Physiological Society 2004
+
+772
+
+P. A. Rhodes and R. Llina´ s
+
+J Physiol 565.3
+
+Table 2. Ion channel conductance density distribution in the model relay cell
+
+Location
+
+Na KDR KA KCa KmAHP Ih CaL CaQ CaT
+
+Soma
+
+300 60
+
+21
+
+0
+
+0.03 4
+
+0
+
+2
+
+Abutting soma
+
+50 10
+
+21
+
+0.4 0.03 0 0
+
+2
+
+Proximal dendrites
+
+53
+
+54
+
+1.6 0.03 0 0
+
+8
+
+Intermediate dendrites
+
+53
+
+52
+
+0.8 0.03 0 0
+
+4
+
+Distal segments
+
+4 2.4 5 1.5 0.2 0.03 0 2
+
+1
+
+Hot distal segments
+
+4 10
+
+58
+
+0.2 0.03 0 24 1
+
+Initial segment
+
+400 40
+
+20
+
+0
+
+0
+
+00
+
+0
+
+Axon
+
+200 40
+
+20
+
+0
+
+0
+
+00
+
+0
+
+their magnitude increasing steadily with hyperpolarizing
+depth to a maximum achieved when depth reached approximately −90 mV. The shallower depolarizations elicited small triangular somatic depolarizations, which steadily grew until their peak reached somatic Na+
+channel threshold, whereupon one or more somatic
+
+APs were triggered. This progression was reﬂected in the simulated cell (Fig. 4). The foregoing results, taken together, suggest that the dependence of the rebound LTS on the duration and depth of depolarization of the simulated cell corresponded to that seen in vitro. Given the presumed importance of rebound from inhibitory
+
+Figure 2. Voltage dependence of the time constants and the equilibrium values of inactivation and activation for the ion channel currents Kinetic formulae for the ion channels used in this study are provided in Table 1. The equilibrium values of activation and, where applicable, inactivation variables, along with the time constants of approach to equilibrium, are plotted for each channel as a function of voltage. Blue lines refer to the inactivation variable (plotted above) or its time constant (plotted immediately below for each channel); red lines refer to the activation variable and green to the activation variable exceeded 1.
+C The Physiological Society 2004
+
+J Physiol 565.3
+
+A model of thalamocortical relay cells
+
+773
+
+input in the role of relay cells, the correspondence in response to various inhibitory inputs differing in strength and duration displayed by this model cell suggests its appropriateness for incorporation into circuit models of thalamocortical function.
+Response from release of hyperpolarization in TTX, Cd2+ and Ni2+
+In vitro experiments in the presence of the Na+ channel blocker TTX established that neither the fast transient Na+ current nor a persistent Na+ current (which has not been included in our model) is involved in generation of the low threshold spike. To conﬁrm that the LTS in the simulated relay cell was Na+ current independent, the effect of TTX was mimicked by elimination of Na+ currents throughout the model cell. As observed in vitro
+
+(Jahnsen & Llina´s, 1984a), the simulated response upon
+release from hyperpolarization in TTX was a triangular
+depolarizing envelope of similar size and duration to that
+of the control LTS (Fig. 5A). This indicates that, as in vitro, in the simulation Na+ currents do not contribute to the envelope of the LTS and, further, that Na+ current is not
+substantially involved in initiating the depolarization
+which proceeds upon break from hyperpolarization.
+Rather, in the simulation, that depolarization was driven
+by Ih and CaT (McCormick & Pape, 1990) as noted in prior modelling studies (McCormick & Huguenard, 1992).
+Application of low levels (<0.2 mm) of Cd2+ in vitro
+does not impair the rebound burst, suggesting that it does not depend upon high threshold Ca2+ channels. We conﬁrmed that shutting off the L- and Q-type Ca2+
+channels in the simulation had no effect on the rebound LTS, indicating that the high threshold Ca2+ channels
+
+Figure 3. The response to current steps from a range of somatic potentials, in vitro and in the model cell Published records obtained in vitro (Jahnsen & Llina´ s, 1984a,b; reproduced with permission) are provided on the left, and are compared with the simulated response on the right. A, from hyperpolarized holding potential (−80 mV), a 1.4 nS current step triggered a low threshold spike, with depolarizing envelope, somatic ﬁring at the apex, and repolarizing shoulder. Thus the model produced the other quintessential intrinsic characteristic of relay cells, namely a low threshold spike, upon activation from a hyperpolarized state. Note that the T-channel density distribution was concentrated in the proximal dendritic segments (see Methods); production of the LTS did not depend upon distal dendritic T-channels. B, when a current step is applied at intermediate holding potentials in vitro, there is often a initial spike, then a pause, followed by a regular train of single spikes. To our knowledge, this intermediate phenomenon has not been displayed in previous relay cell models. In the simulated relay cell developed here, a 2.0 nA step applied from a holding potential of −70 mV produced an initial spike and large ADP (arrow), followed by a quiescent period, giving way to a train of regular non-accomodating single spikes. Thus, the present model reﬂected the spike/pause/regular train regime of input/output sometimes seen in relay cells in vitro. C, at higher holding potentials (here −60 mV) a small current step caused a quasi-passive response, in which the currents activitated remained subthreshold. The model relay cell exhibited this intermediate quasi-passive response regime. D, from −60 mV a larger current step (1.4 nA) drives a train of regularly spaced non-decrementing single spikes. Action potential threshold was about −39 mV, with an amplitude of 75 mV from threshold. When input was applied at this holding potential, the emitted spike rate was an approximately linear function of current step amplitude over a range of output rates.
+C The Physiological Society 2004
+
+774
+
+P. A. Rhodes and R. Llina´ s
+
+J Physiol 565.3
+
+present in our model were not involved in its generation
+(Fig. 5B).
+As a ﬁnal test of the ionic dependencies of the rebound,
+in addition to the elimination of the high threshold
+channels the T-channels were shut off as well. The response following substitution of Ca2+ with Co2+ in the external
+medium in vitro (Fig. 5C, left) was compared to that in the relay cell following elimination of all Ca2+ channels (and consequently of Ca2+-gated K+ channel activity).
+This established that in the simulation, as in vitro, the burst
+was primarily driven by T-current.
+
+Comparison of the in vitro traces in Figs 4 and 5 illustrates the experimentally observed variability in the spike count of rebound bursts. In the simulations, rebound burst depolarizing envelope amplitude and so the number of somatic spikes produced was correlated with the density of CaT conductance in the soma and periosomatic dendrites (Fig. 5). We hypothesize that the number of spikes per burst can be controlled in part by the density of available CaT conductance in and around the cell body, and note that the modulation of that parameter may provide a means of dynamically regulating the number of spikes
+
+Figure 4. Low threshold spike in response to release from hyperpolarization Published records obtained in vitro (Jahnsen & Llina´ s, 1984a,b, unless otherwise noted) are provided on the left, and compared with the simulated response on the right. A, a series of responses to release from hyperpolarizing current steps. As the depth of hyperpolarization increases, the degree of deinactivation of the T-current located near the soma increases, and accordingly the LTS produced upon release from hyperpolarizing current increases incrementally. Initially a triangular depolarization of several milliseconds in duration, as the hyperpolarization deepens the low-threshold spike grows in magnitude triggering the several fast Na+ spikes that constitute the burst. This deﬁning property of the LTS mechanism, characterized in relay cells from all thalamic areas (Jahnsen & Llina´ s, 1984a), was reproduced by the relay cell model. B, the gradual recovery of the low threshold spike as time between hyperpolarizing steps was increased, from a triangular broad depolarization insufﬁcient to trigger somatic Na+ spikes to a full stereotyped burst, seen in vitro, was reﬂected in the simulation.
+C The Physiological Society 2004
+
+J Physiol 565.3
+
+A model of thalamocortical relay cells
+
+775
+
+produced in a rebound burst, and so its impact on synaptic targets.
+Ih was included in this model cell with a modest (0.02 mS cm−2) uniform distribution, and produced a noticeable sag from the deeper levels of hyperpolarizing steps. However, its elimination did not greatly diminish the LTS. We did not examine the effects of Ih in shaping and enhancing the LTS in detail, nor did we study the consequences of modulation of Ih (and membrane leak) or of somatic versus dendritic loci of Ih current density.
+
+Production of a gamma oscillation in somatic voltage
+at depolarized somatic potentials
+When somatic voltage nears action potential threshold in vitro, the somatic voltage becomes progressively unstable, beginning to oscillate in a ragged fashion at a fast rate (40–50 Hz; Pedroarena & Llina´s, 1997). As voltage is incremented further, these gamma oscillations, as they may be termed, may become larger in amplitude and more regular in period. The waveform can appear to
+
+Figure 5. Ion current components of the rebound LTS Published in vitro records (left; reproduced from Jahnsen & Llina´ s, 1984b) examining the pharmacological dependencies of the rebound burst are compared with simulated responses (right). A, the LTS is not dependent upon the Na+ channel. The effect of TTX in vitro on the rebound from hyperpolarization was mimicked by elimination of Na+ currents throughout the model cell. The simulated response upon release from hyperpolarization, like the corresponding in vitro response, was a triangular depolarizing envelope of similar size and duration to the control LTS, establishing that neither somatic nor dendritic Na+ current drives the LTS. The simulations here incorporated a higher concentration of somatic CaT conductance density than those in Fig. 3 and therefore showed a stronger rebound and more spikes in the rebound burst, reﬂecting a variability evident in in vitro records. B, the high threshold L- and Q-type channels incorporated into the simulation were shut off, with little discernable difference in the simulated LTS rebound, demonstrating that in the simulation high threshold channels were not involved in driving the rebound burst. The action potential was truncated here. C, response in the absence of Ca2+ currents. Substitution of Co2+ for Ca2+ in vitro (left) was compared with the effect of blocking all channels in the simulation. Comparison with the traces in B suggests that in the simulation the LTS response was eliminated, conﬁrming that in both settings the T-current is the depolarizing current responsible for this event.
+C The Physiological Society 2004
+
+776
+
+P. A. Rhodes and R. Llina´ s
+
+J Physiol 565.3
+
+wax and wane, becoming more regular and larger, then collapsing into ragged small amplitude disturbance, and thereafter regathering coherence and amplitude (Fig. 6A). This phenomenon (Pedroarena & Llina´s, 1997), which has recently been observed in other components of the thalamocortical loop (cf. Discussion), has not been displayed by existing models of thalamic relay cells, and producing a model cell which accounted for it (along with the familiar relay and LTS behaviour) motivated this work.
+The solution we found was the introduction of a quickly inactivating intermediate threshold Ca2+ conductance in the tertiary segments of some (15–30%) of the dendritic branches referred to below as ‘hot’ branches. To enable
+
+it to arise near but below action potential threshold, it activated just above −48 mV, below threshold for the Na+ channel in the model cell but well above the range where CaT was completely inactivated. To facilitate production of brief dendritic Ca2+ spikes consistent with the fast period of the somatic oscillation, a fast inactivation process was included. While novel to relay cells, a Ca2+ current with these characteristics has been reported in entorhinal pyramids (Magistretti et al. 2000); whether it exists in some distal branches of relay cells, as proposed here, remains to be conﬁrmed.
+The mechanism underlying the gamma oscillation worked as follows: as depolarization in the soma reached approximately −48 mV, dendritic depolarization reached
+
+Figure 6. The emergence of a subthreshold somatic oscillation at depolarized somatic potentials A, in vitro (from Pedroarena & Llina´ s, 1997) at −66 mV holding potential the somatic voltage trace is ﬂat. As holding potential is brought closer to threshold, a subthreshold ragged oscillatory activity, up to 5 mV peak-to-trough, appears. B, in the simulation, starting from a holding potential of −52 mV, removing the clamp and substituting a ﬁxed DC bias voltage at different levels leads to disparate results. At 0.1 nA, potential falls to −66 mV. At 0.3 and 0.4 mV, potential builds up to −47 mV and somatic voltage begins, over a period of several hundred milliseconds, to display a subthreshold oscillation. At this holding voltage all-or-none spikes occur in the hot dendritic distal branches without the mutual interaction needed to entrain coherence. The result is the small choppy and ragged voltage bumps at the soma, reﬂecting the beginning of distal dendritic excitation. The period of time for the oscillation to kick in is due to the slowly activating component of the proposed Q-current used in the simulation (see Methods). Scale bar applies to B and C. C, at slightly higher DC bias, with average voltage approximately −45 mV, the somatic oscillation becomes somewhat larger, about 5 mV. Voltage in an active end segment (red) reﬂects isolated dendritic spikes of 50 mV amplitude driven by dendritic IQ, which together with similar spiking in several other distal branches drives the somatic voltage trace. At −45 mV the distal events occur more readily and more branches initiate. In this regime, the somatic trace appears to drift between a raggedly bumpy state, during which the dendritic events occur at disjointed times, and a more oscillatory appearance, wherein the same number of distal branches are ﬁring but now line up in phase, and so have a much bigger impact on the soma. Note that the timing of the dendritic event leads the oscillation in the soma. Note also the waxing and waning appearance of somatic oscillation.
+C The Physiological Society 2004
+
+J Physiol 565.3
+
+A model of thalamocortical relay cells
+
+777
+
+activation threshold for the intermediate threshold Ca2+ current. This inﬂux caused some of the hot distal segments to commence production of a train of regenerative Ca2+ spikes, starting with the end segments with the highest Ca2+ channel density and local input impedance. These regenerative spikes illuminated the entire segment in which they initiated, spread into a sister segment, but often remained isolated in the distal branch (Llina´s, 1975; Rhodes, 1999). The dendritic spikes were fast for Ca2+-driven events, as a result of the rapidly inactivating characteristics of the current employed. A high density of KCa and KDR incorporated into the hot segments further sped the repolarization of these isolated spikes. Their brief width and fast repolarization allowed a peak-to-peak time of 15–30 ms (cf. Fig. 6).
+Each such dendritic branch spike caused a small depolarization of somatic voltage some 1–2 mV in amplitude. The varying diameters and lengths of these segments, and their correspondingly differing input resistances, caused different segments to have differing threshold and to ﬁre at different times, so that initially the summation was haphazard, and a ragged and small resulting perturbation could be observed at the soma (Fig. 7). As somatic voltage was increased a few millivolts above initial threshold for these distal spikes, more segments reached their threshold and begin to ﬁre, and the magnitude and regularity of the resultant somatic oscillation could increase. The period of these distal isolated dendritic spikes controlled the rate of the somatic oscillation.
+
+The dendritic events underlying the waxing
+and waning of the gamma oscillation
+In vitro the somatic oscillation is occasionally observed to wax and wane, going through periods of the order of 100 ms when the amplitude is smaller and its phase irregular, thereafter recovering both amplitude and regularity (Pedroarena & Llina´s, 1997). The simulated relay cell produced this phenomenon in two ways, as follows. First, the isolated spiking amongst several branches may drift in and out of phase. When out of phase, their composite effect at the soma cancels and so is smaller and ragged, whereas when ﬁring in several distal branches drifts into phase their combined effect at the soma sums, with the amplitude and regularity of the somatic oscillation improving (Fig. 7). In the subthreshold regime this entrainment is not tight, and as the distal branch spikes drift back out of phase the somatic voltage oscillation, and the waxing and waning sometimes characteristic of the oscillation in vitro, ensues. Second, the amplitude of one or more of the distal spikes could itself fade, and later recover (Fig. 8), with a resultant waning and waxing of the amplitude of the somatic oscillation.
+These observations suggest that the characteristics of the gamma oscillation correspond to the existence of a spiking current in a subset of the distal branches. In the simulations, as a higher percentage of distal branches were made capable of supporting spikes, the somatic oscillation became larger (5 mV or more) and more regular (cf. comparison of oscillation amplitude in Figs 6 and 7).
+
+Figure 7. The relationship of dendritic spikes to the gamma oscillation A, voltage in one of the hot distal terminal dendritic segments is plotted in red. In this case the dendritic event was about 40 mV in amplitude peak to trough, and leads the oscillation in the soma. Note also the waxing and waning appearance of somatic oscillation in this trace, and that the dendritic event collapsed promply upon cessation of somatic current step injection (at arrows), indicating the dependence of the dendritic spiking upon sustained somatic depolarization. B, this simulation was identical to that in A except that there was a re-randomized distribution of hot distal branches. Voltage in several of the active distal dendritic branches is plotted (coloured traces match location in inset). Note that the drift in (arrows) and out of entrainment is reﬂected in the amplitude of the somatic trace (white). Only 3 out of 6 branches exhibiting high threshold spiking are shown.
+C The Physiological Society 2004
+
+778
+
+P. A. Rhodes and R. Llina´ s
+
+J Physiol 565.3
+
+The effect of TTX, Ni2+ and Cd2+
+on the gamma oscillation
+The ionic basis underlying the oscillation arising at near-threshold voltages was determined in vitro by application of blockers of Na+ and high threshold channels. We applied these perturbations to the model cell by turning off the respective currents, and conﬁrmed the same ionic dependencies. Thus, when TTX was applied the oscillations were not affected (Fig. 8), demonstrating that they are neither materially facilitated by a window current in somatic Na+ nor produced by transient dendritic Na+ spikes, and that in this cell type gamma oscillation does not involve the persistent Na+ current. Since the oscillation is produced in a depolarized state, T-current is not likely to be involved in its production; in the simulation, shutting off T-channels had no effect upon the oscillation (result not shown). However, when Cd2+ was added to the bath in vitro the ripple was eliminated, indicating that it is produced by a high threshold Ca2+ channel (Pedroarena & Llina´s, 1997). The elimination of high threshold channel conductance in the simulation completely eliminated the distal dendritic events and the gamma oscillation (Fig. 8), conﬁrming that the same pharmacological sensitivities found in vitro were exhibited by the model cell.
+
+Discussion
+A new simulation of the thalamic relay cell is presented which displays a range of the electrophysiological characteristics observed in vitro, including the responses to current steps from different holding potentials, the characteristics of the LTS, and the rapid oscillation which emerges at high somatic potentials. Thus, the simulated relay cell at once displays the relay mode, the rebound burst mode and the gamma oscillation. The model differs from some previous work in that the T-current driving the low threshold spike is centred in the proximal dendrites and soma, whereas distal dendritic branches exhibit quasi-isolated spikes generated by a rapidly inactivating intermediate threshold dendritic current activating at somatic potentials near ﬁring threshold.
+Alternative mechanisms for production of a ragged
+waxing and waning subthreshold oscillation
+Before arriving at the solution described above, we ﬁrst attempted to identify a solution with uniform dendritic distribution, varying the density of the current and seeking progressive onset of a ragged subthreshold oscillation at high somatic voltage. However, with uniformly distributed
+
+Figure 8. Ionic current mechanisms driving the rapid oscillation in vitro and in the simulation A, the oscillation which emerges in relay cells at depolarized holding potentials was insentitive to TTX in vitro, demonstrating that they are neither materially facilitated by a window current in somatic Na+ nor produced by transient dendritic Na+ spikes, and further argues against involvement of the persistent Na+ current. However, the addition of the Ca2+ channel blocker Cd2+ to the bath completely eliminated the rapid oscillation. Reproduced from Pedroarena & Llina´ s (1997). B, the mechanisms underlying production of the oscillation in the simulated relay cell reﬂected the same ion current dependency. TTX had little effect (middle panel). Note that the dendritic spike height, rate of rise, and width were similar in TTX to those in control conditions, conﬁrming that the dendritic spikes were not boosted by Na+ channels, but rather primarily driven by the inactivating high threshold channel introduced there. In the simulation, as in vitro, the oscillation was negligibly affected when [Ca2+]-gated K+ channels were turned off.
+C The Physiological Society 2004
+
+J Physiol 565.3
+
+A model of thalamocortical relay cells
+
+779
+
+intermediate threshold conductance, at any channel conductance density at which a dendritic spike occurred the tree ﬁred as a whole, and when that occurred full somatic spiking, not subthreshold oscillation, followed. When a modest density (2 mS cm−2) of L-type high threshold Ca2+ conductance was introduced in the dendrites, the model cell behaviour did not qualitatively change (not shown). Thus, while for parsimony dendritic CaL was omitted in the model, the present results clearly do not exclude its presence.
+A solution in which the currents generating the oscillation were primarily in the soma was also sought. By including conventional non-inactivating L-type high threshold current along with an opposing K+ current in the soma, we found it was possible to produce a rapid high threshold oscillation. To prevent full action potentials in the soma, a somatic delayed rectiﬁer was included at a high density, so that the repolarizing current could ‘catch’ the somatic Ca2+ spike before it fulﬁlled, enabling a subthreshold oscillation to result. However, whenever the currents driving the oscillation were concentrated in the somatic membrane the oscillation produced was metronomically regular and smooth, never the ragged, waxing and waning phenomenon seen in vitro (Pedroarena & Llina´s, 1997; their Fig. 3). For this reason, we ruled out a somatically centred current as the primary generator of the oscillation.
+A possible classiﬁcation of alternative mechanisms
+for subthreshold oscillation
+In the model relay cell (as with relay cells in vitro) the frequency of the subthreshold oscillation was not strongly dependent upon somatic voltage. Rather, in the model the oscillation period corresponded to the time course of isolated dendritic branch spikes, which was largely independent of somatic voltage. The time course of the dendritic spikes was instead controlled by the inactivation time constant of the dendritic intermediate threshold Ca2+ channel, along with the activation–deactivation kinetics of the dendritic delayed rectiﬁer and of the fast [Ca2+]-gated K+ current, which together quickly repolarize the dendritic spike. Alteration of these parameters thus could change oscillation frequency. In contrast, in the subthreshold oscillations observed, for example, in prefrontal neurones (Llina´s et al. 1991) the frequency of subthreshold oscillations and somatic voltage are correlated with a linear relationship. In exploring alternative mechanisms for the relay cell, we found that when somatic depolarizing current was the primary driver the subthreshold oscillation was both more regular (i.e. not ragged) and that its frequency was correlated with injected current and hence average somatic potential (P. Rhodes and R. Llina´s, unpublished results). Though outside the scope of the present work, this observation suggests a
+
+possible means of classiﬁcation whereby the existence or absence of a correlation between somatic potential and oscillation frequency is associated with whether the generation mechanism for subthreshold oscillation is somatic or dendritic, respectively.
+Summary and implications of the present model for
+the integration of distal dendritic synaptic inputs
+The present work furnishes a model relay cell which accounts for the gamma oscillation in somatic voltage produced at high subthreshold levels of somatic potential (Pedroarena & Llina´s, 1997), while still producing the regular spiking relay mode and low threshold rebound burst behaviour characteristic of previous relay cell models. The model predicts the presence of regenerative events in distal branches driven by a rapidly inactivating intermediate threshold Ca2+ current and, should it prove accurate, will have implications for the integration of spatiotemporal patterns of distal synaptic input. While an examination of the effects of simulated distal and proximal synaptic input on the model relay cell is beyond the scope of the present work, some observations can be noted. First, descending synaptic input from layer VI pyramidal cells impinge upon the distal dendrites of relay cells (cf. Sherman & Guillery, 2001) and therefore the hypothesized regenerative events would play a role in shaping the responsiveness of relay cells to descending cortical input. Conceivably, asynchronous depolarizing drive could inactivate the distal inactivating intermediate threshold Ca2+ current, while rhythmic synchronous arriving EPSPs could readily trigger spikes, particularly if they arrive at a frequency consistent with the cycle time of the distal spikes. This resonance could be further enhanced by an out-of-phase fast IPSP arriving to reinforce the active repolarization of the dendritic spike, thus contributing to a faster and more complete recovery from inactivation of the spike-generating Ca2+ current. We are led to consider the relay cell as having resonance properties which could make it capable of being selectively responsive to coherent descending input to a subset of its distal branches. The implications of this sort of cortico-thalamic high frequency resonance have been hypothesized to include the automatic sharpening and resolution of cortical object representations (Llina´s et al. 1990; Sillito et al. 1994) in the face of competing inputs, often described as ‘binding’.
+Gamma oscillations in other cells
+in the cortico-thalamic loop
+The fast membrane oscillations occurring at high somatic potential are not unique to thalamic relay cells. They appear in a recent report (Bannister et al. 2002) on the intrinsic physiology of neocortical layer IV stellate (cf. their Fig. 3) and layer VI pyramidal cells (Bannister et al. 2002), have been noted in cortical layer IV
+
+C The Physiological Society 2004
+
+780
+
+P. A. Rhodes and R. Llina´ s
+
+J Physiol 565.3
+
+interneurones (Llina´s et al. 1991) and very recently were reported in striatal interneurones (Braci et al. 2003). Thomson et al. (2002) desribe fast (80–100 Hz) subthreshold oscillations in parvalbumin-positive interneurones and suggest that they may foster the generation of trains of action potentials at that rate. Pinault (1992) has reported a voltage-dependent 40 Hz oscillation in nucleus reticularis thalami (NRT) cells. Though in interneurones the oscillations thus far appear to be due to Na+ rather than Ca2+ currents, the similarities in somatic voltage traces in these cell types suggests the possibility that in each case the coordination of distal dendritic spikes plays a role. If this phenomenon occurs in layer IV stellate cells and layer IV interneurones, both of which receive relay cell input, along with the layer IV cell which conveys descending input from the cortical column back to the relay cell distal segments, it is inviting to ask whether some emergent coordination results. Might the thalamocorticothalamic and perhaps the corticostriatocortical loops operate as tuners, sensitive to coherent activity at preferred frequencies? Such a resonance may be ampliﬁed by, and indeed will depend upon, a matching of time kinetics with other physiological components of the circuit, such as the currents which control the repolarization and recovery following somatic ﬁring. Further, the resonance could be enhanced by frequency selectivity in synaptic efﬁcacy, and indeed a frequency dependence of average EPSP amplitude has been observed in the descending input impinging upon relay distal branches from layer VI (Pedroarena & Llina´s, 2001). The hypothesis that the thalamocortical and corticostriatal loops incorporate elements which are suited to frequency resonance invites further study of the input/output characteristics of other key elements of the thalamocortical and corticostriatal circuits, particularly of the presently little-understood layer VI cells which convey the feedback from cortex to the relay cells.
+Finally, it remains to address how the individual cellular and synaptic components of the thalamocortical circuit function together when they are assembled into an interacting circuit. We suspect that achievement of a detailed understanding of the thalamocortical loop will require both new experimental methods capable of monitoring many elements of a thalamocortical column in action along with simulations synthesizing physiologically faithful models of the components into an operating circuit which may then be compared side-by-side with such experimental results. The present relay cell model is intended to offer a building block towards that purpose. Needless to say, much experimental work remains before we can conclude the accuracy of the thalamic relay cell model proposed here, or therefore its implications regarding the interaction between relay cell dendritic electro-responsiveness and the patterning of descending input.
+
+References
+Anderson P, Brooks CMcC, Eccles JC & Sears TA (1964). The ventro-basal nucleus of the thalamus: potential ﬁelds, synaptic transmission, and excitability of both presynaptic and post-synaptic components. J Physiol 174, 348–369.
+Antal K, Emri Z, To´ th TI & Crunelli V (1996). Model of a thalamocortical neurone with dendritic voltage-gated ion channels. Neuroreport 7, 2655–2658.
+Bannister NJ, Nelson JC & Jack JJB (2002). Excitatory inputs to spiny cells in layers 4 and 6 of cat striate cortex. Phil Trans R Soc Lond B 357, 1793–1808.
+Bloomﬁeld SA & Sherman SM (1987). Passive cable properties and morphological correlates of neurones in the lateral geniculate nucleus of the cat. J Physiol 383, 653–692.
+Braci E, Centonze D, Giorgio B & Calabresi P (2003). Voltage-dependent membrane potential oscillations of rat striatal fast-spiking interneurons. J Physiol 549, 121–130.
+Catterall WA (2000). Structure and regulation of voltage-gated Ca2+ channels. Ann Rev Cell Dev Biol 16, 521–555.
+Desche`nes M, Roy JP & Steriade M (1982). Thalamic bursting mechanism: an inward slow current revealed by membrane hyperpolarization. Brain Res 239, 289–293.
+Destexhe A, Neubig M, Ulrich D & Huguenard JR (1998). Dendritic low-threshold calcium currents in thalamic relay cells. J Neurosci 18, 3574–3588.
+Destexhe A & Sejnowski TJ (2003). Interactions between membrane conductances underlying thalamocortical slow-wave oscillations. Physiol Rev 83, 1401–1453.
+Huguenard JR, Coulter DA & Prince DA (1991). A fast transient potassium current in thalamic relay neurons: kinetics of activation and inactivation. J Neurophysiol 66, 1304–1315.
+Huguenard JR & McCormick DA (1992). Simulation of the currents involved in rhythmic oscillations in thalamic relay neurons. J Neurophysiol 68, 1373–1383.
+Jahnsen H & Llina´s R (1984a). Electrophysiological properties of guinea-pig thalamic neurones: an in vitro study. J Physiol 349, 205–226.
+Jahnsen H & Llina´s R (1984b). Ionic basis for the electroresponsiveness and oscillatory properties of guinea-pig thalamic neurones in vitro. J Physiol 349, 227–247.
+Jones EG (1985). The Thalamus. Plenum, New York. Llina´s R (1975). The electro-responsive characteristics of the
+dendrites of central neurons. Llina´s R (1990). In Fidia Research Foundation Neuroscience
+Award Lectures, ed. Changeux J-P, Llina´s R R, Purves D & Bloom F. pp. 1–10. Raven Press, New York. Llina´s R & Jahnsen H (1982). Electrophysiology of mammalian thalamic neurones in vitro. Nature 297, 406–408. Llina´s RR, Grace AA & Yarom Y (1991). In vitro neurons in mammalian cortical layer 4 exhibit intrinsic oscillatory activity in the 10- to 50-Hz frequency range. Proc Natl Acad Sci U S A 88, 897–901. McCormick DA, Connors BW, Lighthall JW & Prince DA (1985). Comparative electrophysiology of pyramidal and sparsely spiny stellate neurons of the neocortex. J Neurophysiol 54, 782–806.
+
+C The Physiological Society 2004
+
+J Physiol 565.3
+
+A model of thalamocortical relay cells
+
+781
+
+McCormick DA & Huguenard JR (1992). A model of the electrophysiological properties of thalamocortical relay neurons. J Neurophysiol 68, 1384–1410.
+McCormick DA & Pape HC (1990). Noradrenergic and serotonergic modulation of a hyperpolarization-activated cation current in thalamic relay neurones. J Physiol 431, 319–342.
+Magistretti J, Brevi S & de Curtis M (2000). A blocker-resistant, fast-decaying, intermediate-threshold calcium current in paleocortical pyramidal neurons. Eur J Neurosci 12, 2376–2386.
+Pedroarena CM & Llina´s R (1997). Dendritic calcium conductances generate high-frequency oscillation in thalamocortical neurons. Proc Nat Acad Sci U S A 94, 724–728.
+Pedroarena CM & Llina´s R (2001). Interactions of synaptic and intrinsic electroresponsiveness determine corticothalamic activation dynamics. Thalam Rel Syst 1, 3–14.
+Pinault D & Desche`nes M (1992). Voltage-dependent 40-Hz oscillations in rat reticular thalamic neurons in vivo. Neurosci 51, 245–258.
+Rhodes PA (1999). The functional implications of active dendrites in pyramidal cells. In Cerebral Cortex, vol. 13, pp. 139–201. Pergamon Press, New York.
+Rhodes PA & Llina´s R (2003). A new model for thalamic relay cells. Program no. 171.3, 2003 Abstract Viewer/Itinerary Planner. Society for Neuroscience, Washington (online).
+Rose RM & Hindmarsh JL (1985). A model of a thalamic neuron. Proc R Soc London B 225, 161–193.
+
+Sherman M & Guillery R (2001). Exploring the Thalamus. Academic Press, San Diego.
+Sillito AM, Jones HE, Gerstein GL & West DC (1994). Feature-linked synchronization of thalamic relay cell ﬁring induced by feedback from the visual cortex. Nature 369, 479–482.
+Steriade M, Jones EG & McCormick DA (1997). Thalamus. Elsevier, Amsterdam.
+Thomson AM, Bannister AP, Mercer A & Morris OT (2002). Target and temporal pattern selection at neocortical synapses. Philos Trans R Soc Lond B 357, 1781–1791.
+Traub RD, Wong RK, Miles R & Michelson H (1991). A model of a CA3 hippocampal pyramidal neuron incorporating voltage-clamp data on intrinsic conductances. J Neurophysiol 66, 635–650.
+Trevelyan AJ & Jack JJB (2002). Detailed passive cable models of layer 2/3 pyramidal cells in rat visual cortex at different temperatures. J Physiol 539, 623–636.
+Williams SR & Stuart GJ (2000). Action potential backpropagations and the somato-dendritic distribution of ion channels in thalamocortical neurons. J Neurosci 20, 1307–1317.
+Zhan XJ, Cox CL & Sherman SM (2000). Denditic depolarization efﬁciently attenuates low-threshold calcium spikes in thalamic relay cells. J Neurosci 20, 3909–3914.
+Zhou Q, Godwin DW, O’Malley DM & Adams PR (1997). Visualization of calcium inﬂux through channels that shape the burst and tonic ﬁring modes of thalamic relay cells. J Neurophysiol 77, 2816–2825.
+
+C The Physiological Society 2004
+
+
