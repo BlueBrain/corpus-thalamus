@@ -130,5 +130,31 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "c7e09b22-02d7-11e6-93a1-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 10676,
+            "text": "The resulting somatic input resistance was 19 M",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1113/jphysiol.2004.070888",
+        "tags": [
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
+            },
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            }
+        ],
+        "version": "1"
     }
 ]
