@@ -539,7 +539,16 @@
             }
         ],
         "pubId": "PMID_9570789",
-        "tags": [],
+        "tags": [
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            }
+        ],
         "version": "1"
     }
 ]
