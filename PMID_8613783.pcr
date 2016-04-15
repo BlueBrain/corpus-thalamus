@@ -1,0 +1,63 @@
+[
+    {
+        "annotId": "e7579aae-02ec-11e6-93a1-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 10177,
+            "text": "The Na+ and\nK+ currents responsible for fast action potentials were inserted in the\nsoma, and their kinetics was taken from a model of hippocampal pyra-\nmidal cells (Traub and Miles, 1991), assuming a resting potential of -67\nmV in their equations, maximal conductances of & = 100 mS/cm\u2019\nand & = 80 mS/cm*, and reversal potentials of E,, = 50 mV and E, =\n- 100 mV",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mS/cm^2",
+                            "values": [
+                                100
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "5e727d34-02ed-11e6-93a1-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Sodium transient fast current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamic reticular nucleus cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "PMID_8613783",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            }
+        ],
+        "version": "1"
+    }
+]
