@@ -513,7 +513,8 @@
     {
         "annotId": "23747f92-ea75-11e5-a4df-c869cd917532",
         "authors": [
-            "iavarone"
+            "iavarone",
+            "oreilly"
         ],
         "comment": "Q10 = 2.8",
         "experimentProperties": [],
@@ -522,46 +523,7 @@
             "text": "IA and the leak currents from the study of McCormick and Huguenard",
             "type": "text"
         },
-        "parameters": [
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-030003",
-                        "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "S/cm^2",
-                            "values": [
-                                0.0055
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "ceabdac4-f289-11e5-b804-64006a4c56ef",
-                "isExperimentProperty": false,
-                "relationship": {
-                    "entity1": {
-                        "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current"
-                    },
-                    "entity2": "None",
-                    "type": "point"
-                },
-                "requiredTags": [
-                    {
-                        "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current",
-                        "rootId": "nifext_8054"
-                    },
-                    {
-                        "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
-                        "rootId": "sao1813327414"
-                    }
-                ]
-            }
-        ],
+        "parameters": [],
         "pubId": "10.1152/jn.00647.2013",
         "tags": [
             {
