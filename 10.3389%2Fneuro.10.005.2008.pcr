@@ -1,0 +1,63 @@
+[
+    {
+        "annotId": "c35e442e-02f4-11e6-93a1-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 12072,
+            "text": "maximal conductance gNa = 0 1 S/cm2 .\nand gK = 0 1 S/cm2 . , and reversal potentials of ENa = 50 mV and\nEK = \u2212100 mV.",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "S/cm^2",
+                            "values": [
+                                0.1
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "4d53fc8c-02f5-11e6-93a1-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Sodium transient fast current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus relay cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.3389/neuro.10.005.2008",
+        "tags": [
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            },
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
+            },
+            {
+                "id": "NIFORG:birnlex_613",
+                "name": "Felis catus domesticus"
+            }
+        ],
+        "version": "1"
+    }
+]
