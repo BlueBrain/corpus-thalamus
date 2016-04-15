@@ -149,5 +149,61 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "0b370896-02ee-11e6-93a1-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 23136,
+            "text": "The capacitance was\nmeasured by dividing the integrated charge by the voltage step.\nThis resulted in a specific capacitance of -0.5 kF/cm\u2019,",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-040001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "uF/cm^2",
+                            "values": [
+                                0.5
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "282517cc-02ee-11e6-93a1-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamic reticular nucleus cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "PMID_8613783",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "NIFGA:birnlex_1116",
+                "name": "Ventral posterior nucleus"
+            }
+        ],
+        "version": "1"
     }
 ]
