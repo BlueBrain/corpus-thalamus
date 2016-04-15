@@ -316,7 +316,8 @@
     {
         "annotId": "ecef6cec-939a-11e5-a73c-64006a4c56ef",
         "authors": [
-            "oreilly"
+            "oreilly",
+            "iavarone"
         ],
         "comment": "gL = 0.0379 mS/cm^2",
         "experimentProperties": [],
@@ -339,6 +340,10 @@
             {
                 "id": "NIFORG:birnlex_160",
                 "name": "Rat"
+            },
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
             }
         ],
         "version": "1"
