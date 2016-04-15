@@ -513,7 +513,8 @@
     {
         "annotId": "23747f92-ea75-11e5-a4df-c869cd917532",
         "authors": [
-            "iavarone"
+            "iavarone",
+            "oreilly"
         ],
         "comment": "Q10 = 2.8",
         "experimentProperties": [],
@@ -522,46 +523,7 @@
             "text": "IA and the leak currents from the study of McCormick and Huguenard",
             "type": "text"
         },
-        "parameters": [
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-030003",
-                        "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "S/cm^2",
-                            "values": [
-                                0.0055
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "ceabdac4-f289-11e5-b804-64006a4c56ef",
-                "isExperimentProperty": false,
-                "relationship": {
-                    "entity1": {
-                        "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current"
-                    },
-                    "entity2": "None",
-                    "type": "point"
-                },
-                "requiredTags": [
-                    {
-                        "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current",
-                        "rootId": "nifext_8054"
-                    },
-                    {
-                        "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
-                        "rootId": "sao1813327414"
-                    }
-                ]
-            }
-        ],
+        "parameters": [],
         "pubId": "10.1152/jn.00647.2013",
         "tags": [
             {
@@ -590,7 +552,8 @@
     {
         "annotId": "9091d010-ea76-11e5-a1a8-c869cd917532",
         "authors": [
-            "iavarone"
+            "iavarone",
+            "oreilly"
         ],
         "comment": "From Destexhe et al. (1998). Global depolirizing shift of 10-15 mV. ",
         "experimentProperties": [],
@@ -633,7 +596,7 @@
                     },
                     {
                         "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
+                        "name": "Thalamus ventroposterior nucleus principal neuron",
                         "rootId": "sao1813327414"
                     }
                 ]
@@ -822,8 +785,8 @@
                 "isExperimentProperty": false,
                 "relationship": {
                     "entity1": {
-                        "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current"
+                        "id": "nlx_151691",
+                        "name": "Thalamus ventroposterior nucleus principal neuron"
                     },
                     "entity2": "None",
                     "type": "point"
@@ -831,12 +794,12 @@
                 "requiredTags": [
                     {
                         "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current",
+                        "name": "Sodium pesistent current",
                         "rootId": "nifext_8054"
                     },
                     {
                         "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
+                        "name": "Thalamus ventroposterior nucleus principal neuron",
                         "rootId": "sao1813327414"
                     }
                 ]
@@ -976,6 +939,79 @@
                         "id": "NIFCELL:sao1813327414",
                         "name": "Thalamus ventroposterior nucleus principal neuron",
                         "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1152/jn.00647.2013",
+        "tags": [
+            {
+                "id": "nlx_151691",
+                "name": "Thalamus ventroposterior nucleus principal neuron"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "nlx_151691",
+                "name": "Thalamus ventroposterior nucleus principal neuron"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "945825fe-02f0-11e6-ad29-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 35479,
+            "text": "The maximum conductance for IA ( \u0002gA \b 5.5 \u0006 10\u00053 S/cm2)",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "S/cm^2",
+                            "values": [
+                                0.0055
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "baa995d0-02f0-11e6-ad29-64006a4c56ef",
+                "isExperimentProperty": false,
+                "relationship": {
+                    "entity1": {
+                        "id": "nlx_151691",
+                        "name": "Thalamus ventroposterior nucleus principal neuron"
+                    },
+                    "entity2": "None",
+                    "type": "point"
+                },
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus ventroposterior nucleus principal neuron",
+                        "rootId": "sao1813327414"
+                    },
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "A current",
+                        "rootId": "nifext_8054"
                     }
                 ]
             }
