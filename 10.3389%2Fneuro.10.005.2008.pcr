@@ -101,6 +101,36 @@
                         "rootId": "sao1813327414"
                     }
                 ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-011001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                -100
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "b3bbd4b8-02f5-11e6-93a1-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Potassium delayed rectifier",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus relay cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
             }
         ],
         "pubId": "10.3389/neuro.10.005.2008",
