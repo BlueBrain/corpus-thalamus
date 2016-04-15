@@ -541,8 +541,8 @@
         "experimentProperties": [],
         "localizer": {
             "no": "2",
-            "noCol": "2 (Na current)",
-            "noRow": "2 (soma), 4 (prox. dendrites), 6 dist. dendrites , 8 (AIS), 9 (axon) ",
+            "noCol": null,
+            "noRow": "1",
             "type": "table"
         },
         "parameters": [
@@ -567,6 +567,36 @@
                     {
                         "id": "NIFMOL:nifext_8054",
                         "name": "Sodium transient fast current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus relay cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mS/cm^2",
+                            "values": [
+                                60
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "3c1e1edc-02de-11e6-93a1-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Potassium delayed rectifier",
                         "rootId": "nifext_8054"
                     },
                     {
