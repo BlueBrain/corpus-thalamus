@@ -308,5 +308,31 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "c9a6959a-02d9-11e6-93a1-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 15102,
+            "text": "phosphorylation states of channels arising in different\nexperimental preparations can result in 5\u201315 mV shifts of\nchannel gating along the voltage axis, when using current\nkinetics from a collection of experimental studies it is\nplausible to shift model current voltage dependencies by\n5\u201310 mV relative to one another to achieve the interaction\nbetween currents observed in current clamp mode.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1113/jphysiol.2004.070888",
+        "tags": [
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            },
+            {
+                "id": "PATO:0002262",
+                "name": "phosphorylation"
+            }
+        ],
+        "version": "1"
     }
 ]
