@@ -204,7 +204,8 @@
     {
         "annotId": "9a203604-939a-11e5-a73c-64006a4c56ef",
         "authors": [
-            "oreilly"
+            "oreilly",
+            "iavarone"
         ],
         "comment": "Cm = 0.878 uF/cm^2",
         "experimentProperties": [],
@@ -234,7 +235,7 @@
                 "requiredTags": [
                     {
                         "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
+                        "name": "Thalamus relay cell",
                         "rootId": "sao1813327414"
                     }
                 ]
