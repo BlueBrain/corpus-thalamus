@@ -156,5 +156,57 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "fa8a8aa6-02d7-11e6-93a1-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 11175,
+            "text": "The somatic input time constant, \u03c4 in , measured during\nrelaxation to resting voltage following a small depolarizing\nstep, was approximately 19 ms",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-080004",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "ms",
+                            "values": [
+                                19
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "1e83f780-02d8-11e6-93a1-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus relay cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1113/jphysiol.2004.070888",
+        "tags": [
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
+            },
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            }
+        ],
+        "version": "1"
     }
 ]
