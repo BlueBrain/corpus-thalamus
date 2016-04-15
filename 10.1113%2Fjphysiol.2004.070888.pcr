@@ -695,6 +695,36 @@
                         "rootId": "sao1813327414"
                     }
                 ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mS/cm^2",
+                            "values": [
+                                0.03
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "3e8c9756-02df-11e6-93a1-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Inward rectifier (h-type) current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus relay cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
             }
         ],
         "pubId": "10.1113/jphysiol.2004.070888",
