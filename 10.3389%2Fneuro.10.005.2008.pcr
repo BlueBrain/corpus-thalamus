@@ -45,13 +45,13 @@
             {
                 "description": {
                     "depVar": {
-                        "typeId": "BBP-030003",
+                        "typeId": "BBP-011001",
                         "values": {
                             "statistic": "raw",
                             "type": "simple",
-                            "unit": "S/cm^2",
+                            "unit": "mV",
                             "values": [
-                                0.1
+                                50
                             ]
                         }
                     },
@@ -62,7 +62,7 @@
                 "requiredTags": [
                     {
                         "id": "NIFMOL:nifext_8054",
-                        "name": "Potassium delayed rectifier",
+                        "name": "Sodium transient fast current",
                         "rootId": "nifext_8054"
                     },
                     {
