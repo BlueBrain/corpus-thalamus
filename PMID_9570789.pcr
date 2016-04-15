@@ -463,5 +463,53 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "421068c4-02e6-11e6-93a1-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 10750,
+            "text": "nd reversal\npotentials of E Na \u03ed 50 mV and E K \u03ed \u03ea100 mV",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-011001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                50
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "57862d4c-02e6-11e6-93a1-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Sodium transient fast current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus relay cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "PMID_9570789",
+        "tags": [],
+        "version": "1"
     }
 ]
