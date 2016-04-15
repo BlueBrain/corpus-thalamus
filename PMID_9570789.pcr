@@ -385,7 +385,38 @@
             "text": "e Na \u03e9 and K \u03e9 currents responsible for fast action poten-\ntials, they were inserted in the soma, and their kinetics were taken from\na model of hippocampal pyramidal cells (Traub and Miles, 1991), assum-\ning a resting potential of V T \u03ed \u03ea52 mV in their equations, maximal\nconductances of g \u17ee Na \u03ed 100 mS/cm 2 and g \u17ee K \u03ed 100 mS/cm 2 , and reversal\npotentials of E Na \u03ed 50 mV and E K \u03ed \u03ea100 mV",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mS/cm^2",
+                            "values": [
+                                100
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "28d746ac-02e6-11e6-93a1-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Sodium transient fast current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus relay cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
         "pubId": "PMID_9570789",
         "tags": [
             {
