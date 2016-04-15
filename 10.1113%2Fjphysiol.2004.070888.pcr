@@ -541,7 +541,7 @@
         "experimentProperties": [],
         "localizer": {
             "no": "2",
-            "noCol": null,
+            "noCol": "None",
             "noRow": "1",
             "type": "table"
         },
@@ -597,6 +597,36 @@
                     {
                         "id": "NIFMOL:nifext_8054",
                         "name": "Potassium delayed rectifier",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus relay cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mS/cm^2",
+                            "values": [
+                                2
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "5d3394e4-02de-11e6-93a1-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "A current",
                         "rootId": "nifext_8054"
                     },
                     {
