@@ -352,7 +352,8 @@
     {
         "annotId": "0d16b174-939b-11e5-a73c-64006a4c56ef",
         "authors": [
-            "oreilly"
+            "oreilly",
+            "iavarone"
         ],
         "comment": "EL = -69.85 mV",
         "experimentProperties": [],
@@ -361,7 +362,38 @@
             "text": "E L \\u03ed \\u03ea69.85 mV",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-011001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                -69.85
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "586be7c2-02e8-11e6-93a1-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Leak ionic current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus relay cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
         "pubId": "PMID_9570789",
         "tags": [
             {
