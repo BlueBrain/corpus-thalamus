@@ -474,5 +474,62 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "c72d9dfc-02db-11e6-93a1-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "Calcium current underling fast near-threshold high frequency oscillations",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 17661,
+            "text": "To enable activation beginning around \u221248 mV, we\nshifted the V2 (voltage at which the value of the activation\nvariable is 0.5) of activation of the current of Magistretti\net al. (2000) slightly to the left, to \u221233 mV",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-090001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                -33
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "2615abca-02dc-11e6-93a1-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Calcium current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus relay cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1113/jphysiol.2004.070888",
+        "tags": [
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
+            },
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            }
+        ],
+        "version": "1"
     }
 ]
