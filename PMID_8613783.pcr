@@ -385,5 +385,66 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "7b7d155e-02ef-11e6-93a1-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 29625,
+            "text": "Only the density of T-channels had to be\nadjusted accordingly: for a uniform density, the best fit was ob-\ntained with 0.045 mS/cm\u2019",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mS/cm^2",
+                            "values": [
+                                0.045
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "b105a04c-02ef-11e6-93a1-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Low threshold calcium T-current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamic reticular nucleus cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "PMID_8613783",
+        "tags": [
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            }
+        ],
+        "version": "1"
     }
 ]
