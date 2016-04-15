@@ -334,5 +334,62 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "3d0795de-02da-11e6-93a1-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "T-current max. conductance in the soma.",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 16231,
+            "text": "To take into account experimental measurements\nof dendritic and somatic T-current density, our model\nincorporates a conductance density of 2 mS cm\u22122",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mS/cm^2",
+                            "values": [
+                                2
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "9a277cf2-02da-11e6-93a1-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Low threshold calcium T-current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus relay cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1113/jphysiol.2004.070888",
+        "tags": [
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            },
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
+            }
+        ],
+        "version": "1"
     }
 ]
