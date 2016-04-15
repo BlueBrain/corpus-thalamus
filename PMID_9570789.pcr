@@ -1,1 +1,406 @@
-[{"pubId": "PMID_9570789", "tags": {"birnlex_1116": "Ventral posterior nucleus", "birnlex_160": "Rat", "nifext_41": "Thalamocortical cell"}, "localizer": {"type": "text", "location": 21877, "text": "the total membrane area of the\\ncell was 23,980.5 \\u242e m 2"}, "version": "1", "comment": "total membrane area = 23,980.5 um", "annotId": "b2bea280-9396-11e5-a683-64006a4c56ef", "parameters": [{"id": "BBP-00003", "value": "23908.5", "unit": "um^2"}], "authors": ["oreilly"]}, {"pubId": "PMID_9570789", "tags": {"birnlex_1116": "Ventral posterior nucleus", "birnlex_160": "Rat", "nifext_41": "Thalamocortical cell"}, "localizer": {"type": "text", "location": 21934, "text": "including 2625 \\u242e m 2 for the soma"}, "version": "1", "comment": "total soma area = 2625 um", "annotId": "dc9717cc-9396-11e5-a683-64006a4c56ef", "parameters": [{"id": "BBP-00005", "value": "2625.0", "unit": "um^2"}], "authors": ["oreilly"]}, {"pubId": "PMID_9570789", "tags": {"birnlex_1116": "Ventral posterior nucleus", "birnlex_160": "Rat", "nifext_41": "Thalamocortical cell"}, "localizer": {"type": "text", "location": 21960, "text": "the soma, which\\nwas \\u03f320 \\u201325 \\u242e m in diameter"}, "version": "1", "comment": "diameter of the soma = 20-25 um", "annotId": "120d25e0-9397-11e5-a683-64006a4c56ef", "parameters": [], "authors": ["oreilly"]}, {"pubId": "PMID_9570789", "tags": {"birnlex_1116": "Ventral posterior nucleus", "birnlex_160": "Rat", "nifext_41": "Thalamocortical cell"}, "localizer": {"type": "text", "location": 21819, "text": "11 primary dendrites"}, "version": "1", "comment": "Number of primary dendrites in TC cell = 11 ", "annotId": "54f0400c-9399-11e5-aec7-64006a4c56ef", "parameters": [], "authors": ["oreilly"]}, {"pubId": "PMID_9570789", "tags": {"birnlex_1116": "Ventral posterior nucleus", "birnlex_160": "Rat", "nifext_41": "Thalamocortical cell"}, "localizer": {"type": "text", "location": 21822, "text": "primary dendrites,\\nhaving a total length of 7095 \\u242e m"}, "version": "1", "comment": "total length of primary dendrites = 7090 um", "annotId": "7f0ccb30-9399-11e5-aec7-64006a4c56ef", "parameters": [], "authors": ["oreilly"]}, {"pubId": "PMID_9570789", "tags": {"birnlex_1116": "Ventral posterior nucleus", "birnlex_160": "Rat", "nifext_41": "Thalamocortical cell"}, "localizer": {"type": "text", "location": 23612, "text": "C m \\u03ed 0.878 \\u242e F/cm 2"}, "version": "1", "comment": "Cm = 0.878 uF/cm^2", "annotId": "9a203604-939a-11e5-a73c-64006a4c56ef", "parameters": [{"id": "BBP-00004", "value": "0.878", "unit": "uF/cm^2"}], "authors": ["oreilly"]}, {"pubId": "PMID_9570789", "tags": {"birnlex_1116": "Ventral posterior nucleus", "birnlex_160": "Rat", "nifext_41": "Thalamocortical cell"}, "localizer": {"type": "text", "location": 23635, "text": "R a\\n\\u03ed 173 \\u2340cm"}, "version": "1", "comment": "Ra = 173 Ohm*cm ", "annotId": "d50f331e-939a-11e5-a73c-64006a4c56ef", "parameters": [{"id": "BBP-00006", "value": "173.0", "unit": "Ohm*cm"}], "authors": ["oreilly"]}, {"pubId": "PMID_9570789", "tags": {"birnlex_1116": "Ventral posterior nucleus", "birnlex_160": "Rat", "nifext_41": "Thalamocortical cell"}, "localizer": {"type": "text", "location": 23652, "text": "g L \\u03ed 0.0379 mS/cm 2"}, "version": "1", "comment": "gL = 0.0379 mS/cm^2", "annotId": "ecef6cec-939a-11e5-a73c-64006a4c56ef", "parameters": [], "authors": ["oreilly"]}, {"pubId": "PMID_9570789", "tags": {"birnlex_1116": "Ventral posterior nucleus", "birnlex_160": "Rat", "nifext_41": "Thalamocortical cell"}, "localizer": {"type": "text", "location": 23674, "text": "E L \\u03ed \\u03ea69.85 mV"}, "version": "1", "comment": "EL = -69.85 mV", "annotId": "0d16b174-939b-11e5-a73c-64006a4c56ef", "parameters": [], "authors": ["oreilly"]}]
+[
+    {
+        "annotId": "b2bea280-9396-11e5-a683-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "total membrane area = 23,980.5 um",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 21877,
+            "text": "the total membrane area of the\\ncell was 23,980.5 \\u242e m 2",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-121003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "um^2",
+                            "values": [
+                                "23908.5"
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "7d176e5a-02e5-11e6-93a1-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "PMID_9570789",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFGA:birnlex_1116",
+                "name": "Ventral posterior nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "dc9717cc-9396-11e5-a683-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "total soma area = 2625 um",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 21934,
+            "text": "including 2625 \\u242e m 2 for the soma",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-121004",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "um^2",
+                            "values": [
+                                "2625.0"
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "7d177346-02e5-11e6-93a1-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "PMID_9570789",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFGA:birnlex_1116",
+                "name": "Ventral posterior nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "120d25e0-9397-11e5-a683-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "diameter of the soma = 20-25 um",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 21960,
+            "text": "the soma, which\\nwas \\u03f320 \\u201325 \\u242e m in diameter",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9570789",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFGA:birnlex_1116",
+                "name": "Ventral posterior nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "54f0400c-9399-11e5-aec7-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Number of primary dendrites in TC cell = 11 ",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 21819,
+            "text": "11 primary dendrites",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9570789",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFGA:birnlex_1116",
+                "name": "Ventral posterior nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "7f0ccb30-9399-11e5-aec7-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "total length of primary dendrites = 7090 um",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 21822,
+            "text": "primary dendrites,\\nhaving a total length of 7095 \\u242e m",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9570789",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFGA:birnlex_1116",
+                "name": "Ventral posterior nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "9a203604-939a-11e5-a73c-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Cm = 0.878 uF/cm^2",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 23612,
+            "text": "C m \\u03ed 0.878 \\u242e F/cm 2",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-040001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "uF/cm^2",
+                            "values": [
+                                "0.878"
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "7d177b0c-02e5-11e6-93a1-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "PMID_9570789",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFGA:birnlex_1116",
+                "name": "Ventral posterior nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "d50f331e-939a-11e5-a73c-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Ra = 173 Ohm*cm ",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 23635,
+            "text": "R a\\n\\u03ed 173 \\u2340cm",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-022000",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "Ohm*cm",
+                            "values": [
+                                "173.0"
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "7d177f4e-02e5-11e6-93a1-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "PMID_9570789",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFGA:birnlex_1116",
+                "name": "Ventral posterior nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "ecef6cec-939a-11e5-a73c-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "gL = 0.0379 mS/cm^2",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 23652,
+            "text": "g L \\u03ed 0.0379 mS/cm 2",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9570789",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFGA:birnlex_1116",
+                "name": "Ventral posterior nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "0d16b174-939b-11e5-a73c-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "EL = -69.85 mV",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 23674,
+            "text": "E L \\u03ed \\u03ea69.85 mV",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9570789",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFGA:birnlex_1116",
+                "name": "Ventral posterior nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "6b9625ea-02e5-11e6-93a1-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 10422,
+            "text": "e Na \u03e9 and K \u03e9 currents responsible for fast action poten-\ntials, they were inserted in the soma, and their kinetics were taken from\na model of hippocampal pyramidal cells (Traub and Miles, 1991), assum-\ning a resting potential of V T \u03ed \u03ea52 mV in their equations, maximal\nconductances of g \u17ee Na \u03ed 100 mS/cm 2 and g \u17ee K \u03ed 100 mS/cm 2 , and reversal\npotentials of E Na \u03ed 50 mV and E K \u03ed \u03ea100 mV",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9570789",
+        "tags": [
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1116",
+                "name": "Ventral posterior nucleus"
+            }
+        ],
+        "version": "1"
+    }
+]
