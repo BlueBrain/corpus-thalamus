@@ -1001,5 +1001,39 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "945825fe-02f0-11e6-ad29-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 35479,
+            "text": "The maximum conductance for IA ( \u0002gA \b 5.5 \u0006 10\u00053 S/cm2)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1152/jn.00647.2013",
+        "tags": [
+            {
+                "id": "nlx_151691",
+                "name": "Thalamus ventroposterior nucleus principal neuron"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "nlx_151691",
+                "name": "Thalamus ventroposterior nucleus principal neuron"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
     }
 ]
