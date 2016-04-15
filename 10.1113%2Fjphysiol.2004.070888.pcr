@@ -537,11 +537,11 @@
         "authors": [
             "iavarone"
         ],
-        "comment": "Values at the soma, apart from I_AHP (proximal dendrites).",
+        "comment": "Values at the soma, apart from I_AHP (proximal dendrites) and CaQ (hot distal segments)",
         "experimentProperties": [],
         "localizer": {
             "no": "2",
-            "noCol": "None",
+            "noCol": "1-10",
             "noRow": "1",
             "type": "table"
         },
