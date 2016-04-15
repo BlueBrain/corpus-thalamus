@@ -448,5 +448,31 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "c77e7b60-02da-11e6-93a1-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "T-current max. conductance distal dendrites.",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 16442,
+            "text": "falling off to 1 mS cm\u22122 in the distal branches.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1113/jphysiol.2004.070888",
+        "tags": [
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
+            },
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            }
+        ],
+        "version": "1"
     }
 ]
