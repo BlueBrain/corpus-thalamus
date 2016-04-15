@@ -1043,12 +1043,12 @@
                 "requiredTags": [
                     {
                         "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
+                        "name": "Thalamus ventroposterior nucleus principal neuron",
                         "rootId": "sao1813327414"
                     },
                     {
                         "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current",
+                        "name": "A current",
                         "rootId": "nifext_8054"
                     }
                 ]
