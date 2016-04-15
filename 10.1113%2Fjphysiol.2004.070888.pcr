@@ -1,0 +1,54 @@
+[
+    {
+        "annotId": "71c4be72-02d6-11e6-93a1-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 10342,
+            "text": "We specified\nR m = 50 000 cm 2 , R i = 150 cm, C m = 1 \u03bcF cm \u22122\nand a leak driving force reversing at \u221264 mV",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-021000",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "ohm*cm^2",
+                            "values": [
+                                50000
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "3fcef38c-02d7-11e6-93a1-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus relay cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1113/jphysiol.2004.070888",
+        "tags": [
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            },
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
+            }
+        ],
+        "version": "1"
+    }
+]
