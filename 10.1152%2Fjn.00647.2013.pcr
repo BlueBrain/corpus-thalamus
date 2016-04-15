@@ -590,7 +590,8 @@
     {
         "annotId": "9091d010-ea76-11e5-a1a8-c869cd917532",
         "authors": [
-            "iavarone"
+            "iavarone",
+            "oreilly"
         ],
         "comment": "From Destexhe et al. (1998). Global depolirizing shift of 10-15 mV. ",
         "experimentProperties": [],
@@ -633,7 +634,7 @@
                     },
                     {
                         "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
+                        "name": "Thalamus ventroposterior nucleus principal neuron",
                         "rootId": "sao1813327414"
                     }
                 ]
