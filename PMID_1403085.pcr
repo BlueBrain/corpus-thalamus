@@ -448,6 +448,52 @@
                         "rootId": "sao1813327414"
                     }
                 ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-040001",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "pF",
+                                    "values": [
+                                        17.1
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "pF",
+                                    "values": [
+                                        1.2
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        19
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "fa348348-04af-11e6-ba8a-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamic reticular nucleus cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
             }
         ],
         "pubId": "PMID_1403085",
