@@ -1,1 +1,22 @@
-[]
+[
+    {
+        "annotId": "52afbf40-04bc-11e6-b795-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "height": 0.012091898428053138,
+            "noPage": 1,
+            "type": "position",
+            "width": 0.14285714285714285,
+            "x": 0.23699421965317918,
+            "y": 0.8180169286577993
+        },
+        "parameters": [],
+        "pubId": "10.1038/367069a0",
+        "tags": [],
+        "version": "1"
+    }
+]
