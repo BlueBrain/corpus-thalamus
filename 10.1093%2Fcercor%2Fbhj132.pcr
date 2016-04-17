@@ -1,1 +1,19 @@
-[]
+[
+    {
+        "annotId": "905de09e-04b5-11e6-ba8a-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "The peak conductance densities for the Na+ current and delayed rectifier current were chosen to be 500 and 100 pS/lm2, respectively, and the peak conductance density for the non-inactivating K+ current was chosen to be 5 pS/lm2.",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 16812,
+            "text": "current were chosen to be 500 and 100 pS/lm2, respectively, and the\npeak conductance density for the non-inactivating K+ current was\nchosen to be 5 pS/lm2.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1093/cercor/bhj132",
+        "tags": [],
+        "version": "1"
+    }
+]
