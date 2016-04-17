@@ -14,9 +14,34 @@
             "x": 0.23699421965317918,
             "y": 0.8180169286577993
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "week",
+                            "values": [
+                                2
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "6c0c71fe-04bc-11e6-b795-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": []
+            }
+        ],
         "pubId": "10.1038/367069a0",
-        "tags": [],
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            }
+        ],
         "version": "1"
     }
 ]
