@@ -84,7 +84,38 @@
             "text": "Also, in nRt both the apparent\nactivation threshold (-40 mV; Fig. 3C) and the potential\nat which the current attained peak amplitude (- 10 mV) were\nmore depolarized than in VB cells (-50 mV and -30 mV,\nrespectively)",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-014001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                -40
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "ce1cfda4-04ae-11e6-ba8a-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamic reticular nucleus cell",
+                        "rootId": "sao1813327414"
+                    },
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Low threshold calcium T-current",
+                        "rootId": "nifext_8054"
+                    }
+                ]
+            }
+        ],
         "pubId": "PMID_1403085",
         "tags": [
             {
