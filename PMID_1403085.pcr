@@ -384,5 +384,52 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "c95f65da-04af-11e6-ba8a-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "0aa1bc00-04ab-11e6-92ed-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "location": 25789,
+            "text": "whole-cell capacitance, was not different\nbetween VB and nRt cells (16.7 f 1.1 pF, iz = 21, vs 17.1 +_\n1.2 pF, n = 19, respectively)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_1403085",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1116",
+                "name": "Ventral posterior nucleus"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1116",
+                "name": "Ventral posterior nucleus"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            }
+        ],
+        "version": "1"
     }
 ]
