@@ -402,7 +402,54 @@
             "text": "whole-cell capacitance, was not different\nbetween VB and nRt cells (16.7 f 1.1 pF, iz = 21, vs 17.1 +_\n1.2 pF, n = 19, respectively)",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-040001",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "pF",
+                                    "values": [
+                                        16.7
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "pF",
+                                    "values": [
+                                        1.1
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        21
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "e3b0f99e-04af-11e6-ba8a-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamocortical cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
         "pubId": "PMID_1403085",
         "tags": [
             {
