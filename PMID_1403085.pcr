@@ -144,6 +144,36 @@
                         "rootId": "nifext_8054"
                     }
                 ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-013001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                -10
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "fa96187a-04ae-11e6-ba8a-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamic reticular nucleus cell",
+                        "rootId": "sao1813327414"
+                    },
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Low threshold calcium T-current",
+                        "rootId": "nifext_8054"
+                    }
+                ]
             }
         ],
         "pubId": "PMID_1403085",
