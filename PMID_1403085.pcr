@@ -5,7 +5,12 @@
             "oreilly"
         ],
         "comment": "",
-        "experimentProperties": [],
+        "experimentProperties": [
+            {
+                "instanceId": "0aa1bc00-04ab-11e6-92ed-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
         "localizer": {
             "location": 7858,
             "text": "Sprague-Dawley rats (postnatal\ndays 7-12)",
