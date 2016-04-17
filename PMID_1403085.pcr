@@ -66,5 +66,52 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "dbd49530-04ac-11e6-92ed-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "0aa1bc00-04ab-11e6-92ed-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "location": 25316,
+            "text": "Also, in nRt both the apparent\nactivation threshold (-40 mV; Fig. 3C) and the potential\nat which the current attained peak amplitude (- 10 mV) were\nmore depolarized than in VB cells (-50 mV and -30 mV,\nrespectively)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_1403085",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1116",
+                "name": "Ventral posterior nucleus"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1116",
+                "name": "Ventral posterior nucleus"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            }
+        ],
+        "version": "1"
     }
 ]
