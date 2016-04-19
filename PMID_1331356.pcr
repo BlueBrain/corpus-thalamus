@@ -63,7 +63,33 @@
             "text": "s an input capacitance of 0.29 nF. This value is within the range of input capacitances for feline tha-",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-040001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "um/cm^2",
+                            "values": [
+                                1
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "7d71a238-05ec-11e6-86a6-c869cd917532",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
         "pubId": "PMID_1331356",
         "tags": [
             {
