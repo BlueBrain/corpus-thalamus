@@ -1,1 +1,84 @@
-[{"pubId": "PMID_1331356", "tags": {"nifext_41": "Thalamocortical cell", "birnlex_113": "Cat"}, "localizer": {"type": "text", "location": 11848, "text": "total membrane area in this model was assumed to be\\n29,000 pm2, which is in the range of feline thalamocortical\\nrelay\\ncells (Bloomfield\\net al. 1987)"}, "version": "1", "comment": "membrane area = 29000 um^2", "annotId": "9f3b551a-9395-11e5-a683-64006a4c56ef", "parameters": [], "authors": ["oreilly"]}, {"pubId": "PMID_1331356", "tags": {"birnlex_297": "Guinea pig", "nifext_41": "Thalamocortical cell"}, "localizer": {"type": "text", "location": 16013, "text": "-63 mV"}, "version": "1", "comment": "", "annotId": "7a5a441c-939b-11e5-a73c-64006a4c56ef", "parameters": [], "authors": ["oreilly"]}]
+[
+    {
+        "annotId": "9f3b551a-9395-11e5-a683-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "membrane area = 29000 um^2",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 11848,
+            "text": "total membrane area in this model was assumed to be\\n29,000 pm2, which is in the range of feline thalamocortical\\nrelay\\ncells (Bloomfield\\net al. 1987)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_1331356",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_113",
+                "name": "Cat"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "7a5a441c-939b-11e5-a73c-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 16013,
+            "text": "-63 mV",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_1331356",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFORG:birnlex_297",
+                "name": "Guinea pig"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "20d4b2a6-05ec-11e6-8855-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 12031,
+            "text": "s an input capacitance of 0.29 nF. This value is within the range of input capacitances for feline tha-",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_1331356",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFORG:birnlex_113",
+                "name": "Domestic cat"
+            },
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            }
+        ],
+        "version": "1"
+    }
+]
