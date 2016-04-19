@@ -106,5 +106,31 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "b76cdb6c-05ec-11e6-a95c-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 12697,
+            "text": "and Pape 1990a).\rThe temperature used in the present model was set to 35.5 \u201cC, because this is the temperature at which the intracellular record- ings from thalamocortical relay cells maintained in slices were",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_1331356",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            }
+        ],
+        "version": "1"
     }
 ]
