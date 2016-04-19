@@ -1,1 +1,36 @@
-[]
+[
+    {
+        "annotId": "7b9a6934-061a-11e6-b1eb-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 60144,
+            "text": "\rThe morphology used in all simulations was based on a realistic, 3D reconstruction of a mouse IN ",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1371/journal.pone.0107780",
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus interneuron small"
+            },
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
+    }
+]
