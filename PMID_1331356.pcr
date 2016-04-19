@@ -172,7 +172,7 @@
         "experimentProperties": [],
         "localizer": {
             "no": "2-6",
-            "noCol": null,
+            "noCol": "None",
             "noRow": "5-6",
             "type": "table"
         },
@@ -203,6 +203,36 @@
                     {
                         "id": "NIFCELL:sao1813327414",
                         "name": "Thalamocortical cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "S/cm^2",
+                            "values": [
+                                0.0021
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "a4d4b8a6-05ee-11e6-86bf-c869cd917532",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Potassium current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
                         "rootId": "sao1813327414"
                     }
                 ]
