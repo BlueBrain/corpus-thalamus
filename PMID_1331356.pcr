@@ -2,7 +2,8 @@
     {
         "annotId": "9f3b551a-9395-11e5-a683-64006a4c56ef",
         "authors": [
-            "oreilly"
+            "oreilly",
+            "iavarone"
         ],
         "comment": "membrane area = 29000 um^2",
         "experimentProperties": [],
@@ -21,6 +22,10 @@
             {
                 "id": "NIFCELL:nifext_41",
                 "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
             }
         ],
         "version": "1"
