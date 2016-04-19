@@ -598,29 +598,6 @@
                         "rootId": "sao1813327414"
                     }
                 ]
-            },
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-021000",
-                        "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "dimensionless",
-                            "values": []
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "ec5b8af4-061d-11e6-ab89-c869cd917532",
-                "isExperimentProperty": false,
-                "requiredTags": [
-                    {
-                        "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
-                        "rootId": "sao1813327414"
-                    }
-                ]
             }
         ],
         "pubId": "10.1371/journal.pone.0107780",
