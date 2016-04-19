@@ -735,5 +735,71 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "5d843940-061e-11e6-9190-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "Second parametrization, conductances NaT and Kdr in dendrites",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "1",
+            "noCol": "4",
+            "noRow": "9-10",
+            "type": "table"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "S/cm^2",
+                            "values": [
+                                0.0063
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "881fd208-061e-11e6-be2d-c869cd917532",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Sodium transient fast current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1371/journal.pone.0107780",
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus interneuron small"
+            },
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            }
+        ],
+        "version": "1"
     }
 ]
