@@ -204,5 +204,66 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "18b96b36-061c-11e6-b997-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "FIrst model parametrization, sodium and Kdr conductances in the soma",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "1",
+            "noCol": "3",
+            "noRow": "1-8",
+            "type": "table"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-010002",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                63
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "6dcab76c-061c-11e6-9305-c869cd917532",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1371/journal.pone.0107780",
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus interneuron small"
+            },
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            }
+        ],
+        "version": "1"
     }
 ]
