@@ -28,7 +28,8 @@
     {
         "annotId": "7a5a441c-939b-11e5-a73c-64006a4c56ef",
         "authors": [
-            "oreilly"
+            "oreilly",
+            "iavarone"
         ],
         "comment": "",
         "experimentProperties": [],
@@ -47,6 +48,10 @@
             {
                 "id": "NIFORG:birnlex_297",
                 "name": "Guinea pig"
+            },
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
             }
         ],
         "version": "1"
@@ -192,7 +197,7 @@
         "experimentProperties": [],
         "localizer": {
             "no": "2-6",
-            "noCol": "None",
+            "noCol": null,
             "noRow": "5-6",
             "type": "table"
         },
