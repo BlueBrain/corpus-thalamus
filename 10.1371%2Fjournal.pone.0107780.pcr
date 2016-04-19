@@ -293,6 +293,31 @@
                         "rootId": "sao1813327414"
                     }
                 ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-021000",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "kOhm*cm^2",
+                            "values": [
+                                22
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "c597267a-061c-11e6-adf9-c869cd917532",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
             }
         ],
         "pubId": "10.1371/journal.pone.0107780",
