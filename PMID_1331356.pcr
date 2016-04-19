@@ -119,7 +119,27 @@
             "text": "and Pape 1990a).\rThe temperature used in the present model was set to 35.5 \u201cC, because this is the temperature at which the intracellular record- ings from thalamocortical relay cells maintained in slices were",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002002",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "dimensionless",
+                            "values": [
+                                32.5
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "e8cb6dca-05ee-11e6-af93-c869cd917532",
+                "isExperimentProperty": false,
+                "requiredTags": []
+            }
+        ],
         "pubId": "PMID_1331356",
         "tags": [
             {
@@ -172,7 +192,7 @@
         "experimentProperties": [],
         "localizer": {
             "no": "2-6",
-            "noCol": "None",
+            "noCol": null,
             "noRow": "5-6",
             "type": "table"
         },
