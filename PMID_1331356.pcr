@@ -108,6 +108,10 @@
             {
                 "id": "NIFINV:birnlex_2300",
                 "name": "Computational model"
+            },
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
             }
         ],
         "version": "1"
