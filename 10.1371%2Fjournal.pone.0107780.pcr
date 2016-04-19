@@ -683,6 +683,36 @@
                         "rootId": "sao1813327414"
                     }
                 ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "S/cm^2",
+                            "values": [
+                                0.4
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "566ad6e6-061e-11e6-867d-c869cd917532",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Potassium delayed rectifier",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
             }
         ],
         "pubId": "10.1371/journal.pone.0107780",
