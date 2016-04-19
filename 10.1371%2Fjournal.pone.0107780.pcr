@@ -148,5 +148,61 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "b79918ba-061b-11e6-b372-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 60542,
+            "text": "mean somatodendritic diameter was about 0:5mm.",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-121006",
+                        "values": {
+                            "statistic": "mean",
+                            "type": "simple",
+                            "unit": "um",
+                            "values": [
+                                0.5
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "d30283e6-061b-11e6-bc3f-c869cd917532",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1371/journal.pone.0107780",
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus interneuron small"
+            }
+        ],
+        "version": "1"
     }
 ]
