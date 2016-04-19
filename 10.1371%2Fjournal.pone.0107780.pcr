@@ -509,5 +509,66 @@
         "pubId": "10.1371/journal.pone.0107780",
         "tags": [],
         "version": "1"
+    },
+    {
+        "annotId": "851af56e-061d-11e6-a88c-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "Second parametrization, conductances value in the soma",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "1",
+            "noCol": "4",
+            "noRow": "2-8",
+            "type": "table"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-010002",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                -69
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "ad0a2c52-061d-11e6-94e6-c869cd917532",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1371/journal.pone.0107780",
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus interneuron small"
+            },
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            }
+        ],
+        "version": "1"
     }
 ]
