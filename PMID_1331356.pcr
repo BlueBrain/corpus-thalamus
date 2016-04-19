@@ -132,5 +132,35 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "0ef8ba7a-05ed-11e6-80a8-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 14825,
+            "text": "ntracellular recordings from guinea pig and cat dorsal lateral geniculate nucleus (LGNd) neurons illustrated here were ob- tained with the in vitro slice technique during the performance of experiments for previously published studies (McCormick 199 1,",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_1331356",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFORG:birnlex_113",
+                "name": "Domestic cat"
+            },
+            {
+                "id": "NIFORG:birnlex_297",
+                "name": "Guinea pig"
+            }
+        ],
+        "version": "1"
     }
 ]
