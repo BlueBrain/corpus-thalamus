@@ -1,0 +1,103 @@
+[
+    {
+        "annotId": "52afbf40-04bc-11e6-b795-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "height": 0.012091898428053138,
+            "noPage": 1,
+            "type": "position",
+            "width": 0.14285714285714285,
+            "x": 0.23699421965317918,
+            "y": 0.8180169286577993
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "week",
+                            "values": [
+                                2
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "6c0c71fe-04bc-11e6-b795-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "10.1038/367069a0",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "f4e623d0-04bc-11e6-b795-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "height": 0.04050785973397819,
+            "noPage": 1,
+            "type": "position",
+            "width": 0.4318744838976053,
+            "x": 0.5144508670520231,
+            "y": 0.3639661426844015
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "pS/um**2",
+                            "values": [
+                                40
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "a9378396-04be-11e6-b795-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Sodium current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Neocortex pyramidal cell layer 5",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1038/367069a0",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            }
+        ],
+        "version": "1"
+    }
+]

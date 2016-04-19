@@ -1,0 +1,803 @@
+[
+    {
+        "annotId": "71c4be72-02d6-11e6-93a1-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "Passive properties of realistic TC model",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 10342,
+            "text": "We specified\nR m = 50 000 cm 2 , R i = 150 cm, C m = 1 \u03bcF cm \u22122\nand a leak driving force reversing at \u221264 mV",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-021000",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "ohm*cm^2",
+                            "values": [
+                                50000
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "3fcef38c-02d7-11e6-93a1-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus relay cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-022000",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "ohm*cm",
+                            "values": [
+                                150
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "71eef114-02d7-11e6-93a1-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus relay cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-040001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "uF/cm^2",
+                            "values": [
+                                1
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "869fd664-02d7-11e6-93a1-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus relay cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-011001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                -64
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "b5affb8c-02d7-11e6-93a1-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Leak ionic current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus relay cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1113/jphysiol.2004.070888",
+        "tags": [
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            },
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "c7e09b22-02d7-11e6-93a1-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 10676,
+            "text": "The resulting somatic input resistance was 19 M",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1113/jphysiol.2004.070888",
+        "tags": [
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
+            },
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "fa8a8aa6-02d7-11e6-93a1-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 11175,
+            "text": "The somatic input time constant, \u03c4 in , measured during\nrelaxation to resting voltage following a small depolarizing\nstep, was approximately 19 ms",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-080004",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "ms",
+                            "values": [
+                                19
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "1e83f780-02d8-11e6-93a1-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus relay cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1113/jphysiol.2004.070888",
+        "tags": [
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
+            },
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "1f9ece4c-02d8-11e6-93a1-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 11326,
+            "text": "resting membrane\npotential was about \u221270.5 mV",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-010002",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                -70.5
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "3248fe00-02d8-11e6-93a1-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus relay cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1113/jphysiol.2004.070888",
+        "tags": [
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
+            },
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "56c06fb0-02d9-11e6-93a1-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 12624,
+            "text": "AP\nthreshold in relay cells occurs at a more positivemembrane\nvoltage, just above \u221240 mV",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-012000",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                -40
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "6d9484ba-02d9-11e6-93a1-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus relay cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1113/jphysiol.2004.070888",
+        "tags": [
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "c9a6959a-02d9-11e6-93a1-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 15102,
+            "text": "phosphorylation states of channels arising in different\nexperimental preparations can result in 5\u201315 mV shifts of\nchannel gating along the voltage axis, when using current\nkinetics from a collection of experimental studies it is\nplausible to shift model current voltage dependencies by\n5\u201310 mV relative to one another to achieve the interaction\nbetween currents observed in current clamp mode.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1113/jphysiol.2004.070888",
+        "tags": [
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            },
+            {
+                "id": "PATO:0002262",
+                "name": "phosphorylation"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "3d0795de-02da-11e6-93a1-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "T-current max. conductance in the soma.",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 16231,
+            "text": "To take into account experimental measurements\nof dendritic and somatic T-current density, our model\nincorporates a conductance density of 2 mS cm\u22122",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mS/cm^2",
+                            "values": [
+                                2
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "9a277cf2-02da-11e6-93a1-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Low threshold calcium T-current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus relay cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1113/jphysiol.2004.070888",
+        "tags": [
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            },
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "9aaeb0be-02da-11e6-93a1-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "T-current max. conductance in proximal branches",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 16393,
+            "text": "rising to 8mS cm\u22122 in the proximal branches",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mS/cm^2",
+                            "values": [
+                                8
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "c46ea706-02da-11e6-93a1-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Low threshold calcium T-current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus relay cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1113/jphysiol.2004.070888",
+        "tags": [
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
+            },
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "c77e7b60-02da-11e6-93a1-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "T-current max. conductance distal dendrites.",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 16442,
+            "text": "falling off to 1 mS cm\u22122 in the distal branches.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1113/jphysiol.2004.070888",
+        "tags": [
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
+            },
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "c72d9dfc-02db-11e6-93a1-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "Calcium current underling fast near-threshold high frequency oscillations (Q/P-type).",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 17661,
+            "text": "To enable activation beginning around \u221248 mV, we\nshifted the V2 (voltage at which the value of the activation\nvariable is 0.5) of activation of the current of Magistretti\net al. (2000) slightly to the left, to \u221233 mV",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-090001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                -33
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "2615abca-02dc-11e6-93a1-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Calcium current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus relay cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1113/jphysiol.2004.070888",
+        "tags": [
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
+            },
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "7aabe8de-02dc-11e6-93a1-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "Values at the soma, apart from I_AHP (proximal dendrites) and CaQ (hot distal segments)",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "2",
+            "noCol": "1-10",
+            "noRow": "1",
+            "type": "table"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mS/cm^2",
+                            "values": [
+                                300
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "389f0aec-02dd-11e6-93a1-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Sodium transient fast current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus relay cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mS/cm^2",
+                            "values": [
+                                60
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "3c1e1edc-02de-11e6-93a1-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Potassium delayed rectifier",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus relay cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mS/cm^2",
+                            "values": [
+                                2
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "5d3394e4-02de-11e6-93a1-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "A current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus relay cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mS/cm^2",
+                            "values": [
+                                1
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "edc981f8-02de-11e6-93a1-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Calcium-dependent potassium current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus relay cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mS/cm^2",
+                            "values": [
+                                1.6
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "2b7631e0-02df-11e6-93a1-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Slow calcium-dependent AHP potassium current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus relay cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mS/cm^2",
+                            "values": [
+                                0.03
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "3e8c9756-02df-11e6-93a1-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Inward rectifier (h-type) current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus relay cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mS/cm^2",
+                            "values": [
+                                4
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "60fb753c-02df-11e6-93a1-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Slow high threshold calcium current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus relay cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mS/cm^2",
+                            "values": [
+                                24
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "c979412a-02df-11e6-93a1-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "q- and p-type calcium current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus relay cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1113/jphysiol.2004.070888",
+        "tags": [
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            },
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
+            }
+        ],
+        "version": "1"
+    }
+]

@@ -1,1 +1,115 @@
-[]
+[
+    {
+        "annotId": "905de09e-04b5-11e6-ba8a-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "The peak conductance densities for the Na+ current and delayed rectifier current were chosen to be 500 and 100 pS/lm2, respectively, and the peak conductance density for the non-inactivating K+ current was chosen to be 5 pS/lm2.",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 16812,
+            "text": "current were chosen to be 500 and 100 pS/lm2, respectively, and the\npeak conductance density for the non-inactivating K+ current was\nchosen to be 5 pS/lm2.",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "pS/um**2",
+                            "values": [
+                                500
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "7aed1710-04b6-11e6-ba8a-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    },
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Sodium current",
+                        "rootId": "nifext_8054"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "pS/um**2",
+                            "values": [
+                                100
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "8c99fb5e-04b6-11e6-ba8a-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    },
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Potassium delayed rectifier",
+                        "rootId": "nifext_8054"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "pS/um**2",
+                            "values": [
+                                5
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "8c66b990-04b8-11e6-ba8a-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    },
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "I A, slow",
+                        "rootId": "nifext_8054"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1093/cercor/bhj132",
+        "tags": [
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            }
+        ],
+        "version": "1"
+    }
+]

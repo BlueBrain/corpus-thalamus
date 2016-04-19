@@ -1,0 +1,1494 @@
+Journal of Physiology (1993), 468, pp. 669-691
+With 12 figures
+Printed in Great Britain
+
+669
+
+MECHANISMS OF OSCILLATORY ACTIVITY IN GUINEA-PIG
+NUCLEUS RETICULARIS THALAMI IN VITRO: A MAMMALIAN
+PACEMAKER
+BY THIERRY BAL AND DAVID A. McCORMICK
+From the Section of Neurobiology, Sterling Hall of Medicine C303, Yale University
+Medical School, 333 Cedar Street, New Haven, CT 06510, USA
+
+(Received 3 September 1992)
+SUMMARY
+
+1. The ionic mechanisms of rhythmic burst firing and single spike, tonic
+discharge were investigated with extracellular and intracellular recordings of single
+neurones in the guinea-pig nucleus reticularis thalami (NRT) maintained as a slice
+in vitro.
+2. Activation of cortical/thalamic afferents to NRT neurones resulted in a short
+latency burst of action potentials which could be followed by a rhythmic sequence
+of oscillatory burst firing. Intracellularly, this oscillatory activity was associated
+with an alternating sequence of low threshold Ca2" spikes separated by afterhyperpolarizing potentials. Intracellular injection of short duration hyperpolarizing
+current pulses resulted in a similar sequence of oscillatory burst firing, suggesting
+that this activity is an intrinsic property of NRT cells. The frequency of rhythmic
+burst firing was highly voltage and temperature dependent and was between
+7-12 Hz at -65 to -60 mV at 38 'C. In addition, at depolarized membrane
+potentials, oscillatory burst firing was typically followed by a prolonged tail of
+single spike activity.
+3. Application of the Na+ channel poison tetrodotoxin blocked the generation of
+fast action potentials, but left intact the rhythmic sequence of low threshc.ld Ca2"
+spikes separated by after-hyperpolarizing potentials (AHPs). The reversal potential
+of the AHPs was -94 mV, suggesting that it was mediated by an increase in K+
+conductance. Extracellular application of tetraethylammonium or apamin, or
+intracellular injection of Cs' or the Ca2" chelating agent EGTA, blocked the Ca2"
+spike AHP, indicating that it is mediated by a Ca2"-activated K+ current.
+4. Block of the AHP resulted in the marked enhancement of a slow afterdepolarizing potential (ADP). The slow ADP occurred only following the generation
+of low threshold Ca2" spikes. Replacement of extracellular Ca2" with Mg2+ or Sr21
+resulted in an abolition of the slow ADP. In addition, the increase in [Mg2+].
+resulted in an abolition of the low threshold Ca2+ spike. In contrast, replacement of
+extracellular Ca2+ with Ba2' did not abolish the slow ADP. These results indicate
+that the ADP can be activated by either Ca2+ or Ba2+, but not by Mg2+ or Sr2".
+5. Replacement of extracellular Na+ with choline+ did not abolish the slow ADP,
+while replacement with N-methyl-D-glucamine+ did, indicating that the slow ADP
+MS 1747
+
+670
+
+T. BAL AND D. A. McCORMICK
+
+can be supported by choline+, but not by N-methyl-D-glucamine'. Neither
+chemical affected the low threshold Ca2" spike. These results are consistent with the
+slow ADP being mediated by a Ca2"-activated non-selective cation (CAN) current.
+6. Application of maximal doses of noradrenaline resulted in a shift to highly
+regular single spike activity at 30-40 Hz at 38 °C, while maximal doses of serotonin
+or the glutamate metabotropic receptor agonist IS,3R-1-aminocyclopentane-1,3dicarboxylic acid (ACPD) resulted in peak firing frequencies of 55-65 Hz at 38 'C.
+Intracellularly, this shift to tonic firing was associated with depolarization of the
+membrane and a decrease in apparent input conductance.
+7. Application of tetrodotoxin during tonic, single spike activity induced by
+serotonin resulted in abolition of Na+ spikes and a hyperpolarization of the
+membrane potential of 3-6 mV, indicating that the persistent Na+ current
+contributes substantially to the determination of the frequency of action potential
+discharge during this mode of activity.
+8. We suggest that nucleus reticularis neurones possess three distinct modes of
+oscillatory activity: (1) slow (0 5-7 Hz) rhythmic burst firing at hyperpolarized
+membrane potentials resulting from the interaction of the low threshold Ca2+
+current and a Ca2+-activated K+ current; (2) rhythmic burst firing in the frequency
+range of spindle waves (7-12 Hz) followed by a tonic 'tail' of single spike activity
+resulting from the interaction of the low threshold Ca2+ current and an apaminsensitive, Ca2+-activated K+ current and the activation of a Ca2+-activated nonselective cation (CAN) current; and (3) tonic, 30-60 Hz single spike activity which
+appears during maximal block of resting, leak K+ current by 5-HT, noradrenaline
+or ACPD and which results from an new equilibrium between the currents involved
+in action potential generation and the persistent Na+ current.
+INTRODUCTION
+
+The nucleus reticularis thalami (NRT) forms a shell that surrounds much of the
+dorsal and lateral extent of the dorsal thalamus (Jones, 1985). It is composed of
+GABAergic neurones and projects heavily to nearly every nucleus of the thalamus,
+and innervates relay cells (Houser, Vaughn, Barber & Roberts, 1980; Steriade,
+Parent & Hada, 1984; Yen, Conley, Hendry & Jones, 1985). Thalamocortical and
+corticothalamic fibres densely innervate the NRT with axon collaterals as the
+parent axons transverse this structure (Ohara & Lieberman, 1981, 1985; Harris,
+1987). In addition, neurones in the NRT are also innervated by noradrenergic fibres
+from the locus coeruleus (see Asanuma, 1992), serotoninergic fibres from the raphe
+(Wilson & Hendrickson, 1988; Lavoie & Parent, 1991), cholinergic fibres from the
+brainstem and basal forebrain cholinergic groups (Hallanger, Levey, Lee, Rye &
+Wainer, 1987; Levey, Hallanger & Wainer, 1987; Steriade, Parent, Pare & Smith,
+1987 b; Asanuma, 1989), and GABAergic fibres from the basal forebrain, substantia
+nigra reticulata, and the external field of the globus pallidus (Asanuma, 1989;
+Asanuma & Porter, 1990; Pare, Hazrati, Parent & Steriade, 1990; Hazrati &
+Parent, 1991). Local axon collaterals within the NRT, as well as dendrodendritic
+synapses in the cat and primate, serve as an additional source of GABAergic
+innervation of these neurones (see Deschenes, Madariaga-Domich & Steriade, 1985;
+
+NRT RHYTHMIC BURST FIRING
+
+671
+
+Yen et al. 1985; Shosaku, Kayama, Sumitomo, Sugitani & Iwama, 1989).
+In vivo, NRT cells display two distinct modes of action potential generation:
+rhythmic burst firing during periods of synchronized electroencephalogram
+activity such as during slow wave sleep (Mulle, Madariaga & Deschenes, 1986;
+Steriade, Domich & Oakson, 1986) and absence seizures (Buzs'aki, Bickford,
+Ponomareff, Thal, Mandel & Gage, 1988) and single spike firing during wakefulness
+or rapid-eye-movement sleep (Mukhametov, Rizolatti & Seitun, 1970 a;
+Mukhametov, Rizzolatti & Tradardi, 1970 b; Steriade et al. 1986). Spontaneous
+rhythmic burst firing during slow-wave sleep in the NRT often occurs during the
+generation of 'spindle' waves in which 1-2 s duration epochs of rhythmic, high
+frequency (250-500 Hz) bursts of action potentials are generated at an interburst
+frequency of between 7 and 14 Hz (see Steriade & Deschenes, 1984). Similarly,
+activation of corticothalamic afferents during periods of drowsiness, anaesthesia, or
+slow-wave sleep also result in the appearance of rhythmic burst firing in NRT
+neurones in the frequency range of spindle oscillations (e.g. Mulle et al. 1986).
+Intracellular recordings in vivo indicate that this activity is generated through the
+interaction of the arrival of barrages of excitatory postsynaptic potentials,
+presumably from bursting relay neurones and the low threshold Ca2" spike of NRT
+cells (Mulle et al. 1986; Shosaku et al. 1989). Although the relative importance of
+synaptic and intrinsic properties of NRT cells to the generation of spindle
+oscillations are not yet clear, isolation of the NRT from all cortical and thalamic
+inputs has been reported to leave a nucleus in which the ability to generate spindlelike oscillations, either spontaneously or in response to electrical stimulation of the
+cut corticothalamic fibres, remains intact (Steriade, Domich & Oakson, 1987 a). This
+result implies that the NRT contains within it the neural mechanisms required to
+generate rhythmic spindle-like oscillations. Indeed, intracellular recordings in
+guinea-pig NRT neurones maintained in vitro have revealed these cells to have the
+intrinsic ability to generate rhythmic low threshold Ca2"-spike mediated bursts of
+action potentials (Avanzini, de Curtis, Panzica & Spreafico, 1989; McCormick &
+Wang, 1991), an oscillatory activity which has been proposed to arise from the
+interaction of the low threshold Ca2+ current and a Ca2+-activated K+ current
+(Avanzini et al. 1989).
+The transition from slow-wave sleep to the waking state is associated with an
+abolition of rhythmic burst firing and the appearance of tonic, single spike activity
+in NRT neurones (Steriade et al. 1986). In behaving animals, this tonic activity
+often occurs as periods of highly regular discharge in the frequency range of
+30-60 Hz (Mukhametov et al. 1970 b; Marczynski, Burns, Livezey, Vimal & Chen,
+1984). Recently, Pinault & Deschenes (1992 a, b) have proposed that this activity
+arises from an interaction of the intrinsic membrane properties of NRT cells and
+the actions of modulatory neurotransmitters, particularly noradrenaline and
+acetylcholine, which are known to have potent excitatory and inhibitory effects,
+respectively, on these cells (McCormick & Prince, 1986; McCormick & Wang, 1991).
+In the present report we investigate the ionic mechanisms by which NRT
+neurones generate rhythmic burst firing in the frequency range of spindle waves
+and tonic, single spike activity in the 30-80 Hz range.
+
+672
+
+T. BAL AND D. A. McCORMICK
+METHODS
+
+Methods for preparation of thalamic slices and recording from NRT neurones are similar to
+those published previously (McCormick & Wang, 1991). Male or female adult, Hartley guineapigs were deeply anaesthetized with sodium pentobarbitone (35 mg/kg i.P.) and killed by
+decapitation. The region of brain containing the reticular thalamic nucleus was removed, placed
+in cold (5°C) bathing solution, and sectioned as 400jum thick slices on a Vibratome (Pelco, Irvine,
+CA, USA). Thalamic slices were placed in an interface-style recording chamber (Fine Science
+Tools, Foster City, CA, USA) and allowed to recover for at least 2 h before recording commenced.
+The bathing medium contained (mM): NaCl, 124; KCl, 2-5; MgSO4, 1-2; NaPO4, 1P25; CaCl2, 2;
+NaHCO3, 26; dextrose, 10 and was aerated with 95 % 02-5 % CO2 to a final pH of 7-4. Recordings
+were made with the slices typically at the temperature of 35-5°C, unless otherwise indicated.
+Agonists were dissolved in the bathing medium and were applied with the pressure-pulse
+technique in which a brief pulse of pressure (10-100 ms; 200-350 kPa) to a broken micropipette
+(tip diameter 2-10 #sm) was used to extrude volumes of 2-20 pl. Antagonists were typically
+applied through addition to the bathing medium. Extracellular single unit recordings were
+obtained with tungsten microelectrodes (Frederick Haer Corporation, Brunswick, ME, USA),
+while intracellular recordings were obtained with microelectrodes formed on a Sutter
+Instruments (Novato, CA, USA) P-80/PC micropipette puller, filled with 4 M potassium acetate,
+and bevelled to a final resistance of 70-100 MCI. Bevelled electrodes with a relatively high
+resistance were found to be necessary to obtain high quality intracellular recordings from NRT
+cells without substantial damage to the neurone.
+The NRT of the guinea-pig was readily visible in the dissecting microscope or to the unaided
+eye during the course of the experiments. Immunohistochemical staining for the GABA
+synthetic enzyme glutamic acid decarboxylase has previously been performed to confirm our
+localization of this nucleus in this recording situation (McCormick & Prince, 1986).
+Extracellular single unit recordings were displayed on a chart recorder (Gould Instruments,
+Cleveland, OH, USA) by conversion of the data to an average spike frequency histogram through
+a comparator, counter and digital-to-analog converter (e.g. Fig. 10). Each occurrence of an action
+potential is reflected as a step increment in pen position on the chart recorder. After a pre-set
+time period (typically 2 s) the counter was reset. Therefore the height of each bin is
+representative of the average firing rate during that time period.
+RESULTS
+
+Intracellular recordings were obtained from ninety-three neurones and
+extracellular recordings from twenty-nine neurones in the guinea-pig nucleus
+reticularis thalami. Extracellular recordings from neurones in the guinea pig NRT
+revealed that these cells typically are either silent or discharging in a tonic, single
+spike manner. Electrical stimulation of the axons lateral to the NRT, which
+contains the corticothalamic tract, resulted in a burst of action potentials in NRT
+cells followed by a cessation of activity for about 1 s. This silent period could be
+followed by a sequence of 1-10 high frequency (250-400 Hz) burst discharges, which
+occurred at a rate of 3-7 Hz at 35 °C (Fig. 1A). Intracellular recordings of this
+activity revealed that it was associated with a fast EPSP-mediated burst of action
+potentials, as reported previously (Mulle et al. 1986; de Curtis, Spreafico &
+Avanzini, 1989), followed by a hyperpolarization and a subsequent rhythmic
+sequence of low threshold Ca2"-spike mediated bursts and after-hyperpolarizations
+(Fig. 1B). Hyperpolarization of the neurone blocked the oscillatory activity and did
+not reveal any underlying synaptic events which may generate this activity
+(except for the initial EPSP), suggesting that it may be an intrinsic oscillation (not
+
+shown).
+
+NRT RHYTHMIC BURST FIRING
+
+673
+
+Intracellular injection of hyperpolarizing and depolarizing current pulses into
+NRT cells revealed the generation of action potentials in two distinct modes:
+rebound rhythmic burst firing and tonic, single spike activity (Fig. 2). As with
+synaptic activation, rebound rhythmic burst firing was associated with the
+A
+
+Extracellular
+
+B
+
+Intracellular
+
+is
+
+1 s
+
+Fig. 1. Rhythmic response of nucleus reticularis cells to orthodromic activation. A,
+electrical stimulation of afferents lateral to the NRT results in a burst of action potentials
+followed by an inhibitory pause, followed by rhythmic burst firing in a guinea-pig NRT
+cell recorded extracellularly. B, intracellular recording of this activity revealed that the
+burst of action potentials is associated with a large excitatory postsynaptic potential
+followed by a hyperpolarization of the membrane potential and the rhythmic appearance
+of low threshold Ca2" spike-mediated bursts of action potentials and burst afterhyperpolarizations (spike threshold is -55 mV).
+
+rhythmic occurrence of low threshold Ca2" spikes and after-hyperpolarizations
+(Fig. 2A), with the number of action potentials occurring during each high
+frequency burst discharge gradually decreasing and giving way to a tonic 'tail' of
+single spike activity (Fig. 2A). Depolarization of NRT cells from resting membrane
+potential resulted in the occurrence of single spike activity with a threshold firing
+rate of around 10 Hz, with little evidence of spike frequency adaptation (Fig. 2C).
+In contrast to relay neurones in the lateral geniculate nuclei, the transition
+between rhythmic burst firing and single spike activity could occur with
+depolarization of the membrane potential of only a few millivolts, a finding which
+may result from the depolarized level of T-current (transient-current) activation in
+these cells (Huguenard & Prince, 1992). This is well illustrated with the injection of
+triangular current pulses (Fig. 2E). Here, during the rising phase of the current
+pulse, NRT cells generate first a rhythmic sequence of burst discharges followed by
+single spike activity, which is then itself followed by the transition to single spike
+activity only after an additional few millivolts of depolarization (Fig. 2E).
+Changes in the baseline membrane potential of NRT cells through the
+intracellular injection of current resulted in repeatable and typical changes in the
+
+T. BAL AND D. A. McCORMICK
+
+674
+
+pattern of activity generated following the offset of a hyperpolarizing current
+pulse. For example, in the cell illustrated in Fig. 3A, injection of a hyperpolarizing
+current pulse at -70 mV results in two rebound burst discharges with an interburst
+frequency of 2-4 Hz. Depolarization of the neurone to -67 and -64 mV results in a
+A
+
+Rebound oscillations
+
+B
+
+C
+
+Tonic firing
+
+D
+
+E
+
+0-5 nA
+
+-70 mV
+
+J20 mV
+200 ms
+
+Fig. 2. Rebound oscillatory and tonic firing properties of NRT cells. A, injection of a
+hyperpolarizing current pulse at -68 mV results in a rebound period of rhythmic burst
+firing followed by tonic, single spike activity. B, expansion of two of the rhythmic bursts
+in A for detail. C, depolarization of a NRT cell results in highly regular single spike
+activity at 12 Hz. D, expanded portions of C shown for detail. E, intracellular injection of a
+triangular current pulse illustrates the voltage dependence of the different firing modes of
+NRT cells. All time scale bars are 200 ms and voltage scale bars are 20 mV. A-D are from
+the same neurone.
+
+substantial increase in both the number of bursts generated and the interburst
+frequency. Additional depolarization to -61 mV increased the interburst frequency
+to approximately 11-15 Hz and enhanced the occurrence of a prolonged tail of
+single spike activity following rhythmic burst firing (Fig. 3A, -61 mV).
+Interestingly, as the tonic tail of single spike activity failed, a depolarizing
+potential occurred in the temporally correct position for the generation of the next
+action potential (Fig. 3A, -61 and -64 mV). Although the ionic basis of this
+depolarizing potential has not been investigated, we suggest that it may have a
+significant contribution from the low threshold Ca2" current and result from the deinactivation of a portion of this current by the single spike after-hyperpolarization
+(AHP). This finding indicates that the low threshold Ca2` current may contribute
+significantly to single spike activity, although this hypothesis remains to be tested.
+
+NRT RHYTHMIC BURST FIRING6
+
+675
+
+The intrinsic nature of the oscillatory burst firing is indicated by the lack of
+rhythmic synaptic potentials upon hyperpolarization, the sensitivity of the
+frequency of oscillation on the membrane potential of the cell (Fig. 3A), and the
+effects of block of voltage-dependent Na+ channels with tetrodotoxin (Fig. 3B and
+
+_61 mV
+
+-67
+
+1
+
+1
+
+_
+
+B
+
+Control
+
+C
+
+Tetrodotoxin
+
+200 ms
+
+1 20 mrV
+05 nA
+
+Fig. 3. Voltage dependence of rhythmic burst firing followed by tonic activity. A, injection
+of a hyperpolarizing current pulse into a guinea-pig NRT cell at -61 mV results in a
+rebound sequence of rhythmic bursts at approximately 11-15 Hz followed by a tonic tail of
+single spike activity. Note the subthreshold depolarizing potential which follows this tonic
+activity (arrow). Hyperpolarization of the cell to -64 mV reduces the tonic tail of activity
+and reveals rhythmic burst firing at 7-11 Hz. Hyperpolarization of the cell to -67 and
+-70 mV further reduces the sequence of activity and slows the frequency of rhythmic
+burst firing. B, intracellular injection of a hyperpolarizing current pulse results in a
+rebound oscillatory burst sequence followed by short period of single spike activity. C, local
+application of tetrodotoxin (10 /AM in micropipette) results in an abolition of the fast spikes
+and reveals the underlying sequence of low threshold Ca2" spikes. A and B-C are recorded
+from two different cells.
+
+C). Local application of tetrodotoxin (10 /SM in micropipette) resulted in the
+abolition of Na+ action potentials and revealed the underlying low threshold Ca2"
+spikes (Fig. 3B and C). These Ca2" spikes were often associated with a preservation
+of the after-hyperpolarization which occurs in between each Ca2` spike (Fig. 3 C;
+n = 10), although in some neurones this after-hyperpolarization was reduced by
+application of tetrodotoxin (n = 7). The latter finding indicates that the Na+dependent action potentials contribute to the after-hyperpolarization either
+
+T. BAL AND D. A. McCORMICK
+
+676
+
+through the additional entry of Ca21 into the cell (such as through high threshold
+Ca21 channels), or through the release of inhibitory neurotransmitters, such as
+GABA, which may then also contribute to the AHP.
+0-1 mM picrotoxin
+
+B a
+
+Control
+
+A a
+
+20 mV
+
+100 ms
+b
+
+bj
+
+C
+
+A
+
+-85 mv
+
+GABA
+
+GABA
+
+C a 0-1 mM picrotoxin
+
+D a
+
+b
+-59 MV
+
+5
+
+picrotoxin
++
+1 mM saclofen
+
+01 mM
+
+b
+_
+
+GABA
+
+100 ms
+--~
+
+GABJ 20 mV
+5s
+
+Fig. 4. Lack of effect of block of GABAA- or GABAB-mediated responses on rebound,
+rhythmic burst firing in NRT cells. A a, injection of a hyperpolarizing current pulse at
+-64 mV results in a rhythmic sequence of two burst discharges. Prolonged (A b) or brief
+(Ac) application of GABA results in a hyperpolarizing response and an increase in
+membrane conductance, which reverses around -74 mV. B, bath application of picrotoxin
+(100 FM) does not affect rebound rhythmic burst firing (Ba), and transforms the GABA
+response to one typical for activation of GABAB receptors, in which the reversal potential
+is around -85 mV in this cell. C, injection of a hyperpolarizing current pulse at -65 mV
+results in a rhythmic sequence of burst firing in a cell obtained in 100 /M picrotoxin while
+application of GABA results in a hyperpolarization. Local application of the GABAB
+antagonist 2-hydroxy-saclofen blocks the response to GABA, but does not affect rhythmic
+burst firing in this cell. Same cells before and after antagonist application.
+
+To test the possible involvement of activation of GABAergic receptors in the
+generation of rhythmic burst firing, we applied the GABAA antagonist picrotoxin
+(100 ,/M in bath) and the GABAB antagonist 2-hydroxy-saclofen (1 mm in
+micropipette) to NRT cells. The effectiveness of these antagonists in blocking
+GABAA and GABAB receptors was examined by testing the effects of application of
+GABA on the recorded cell. In normal cells application of GABA resulted in a
+hyperpolarization and a marked increase in membrane conductance (Fig. 4A b).
+Eliciting this response at different membrane potentials revealed a reversal
+potential of around -74 mV (Fig. 4A c; n = 3). Bath application of picrotoxin
+
+NRT RHYTHMIC BURST FIRING
+
+677
+
+resulted in a shift in the GABA response reversai potential to -85 mV (Fig. 4Bc)
+and a marked reduction of the increase in membrane conductance (Fig. 4Bb), and
+had no effect on the rhythmic burst of action potentials generated in this cell (cf.
+A
+
+|~~~~~~~1
+nAB
+
+,
+
+^
+WE
+
+h A
+
+A
+
+Af
+
+a.
+
+A
+
+-97 mV
+
+97II
+
+~~~I'~L~~~J
+
+'+
+
+-120
+
+AIGABA
+-100
+-80
+V (mV)
+
+-60
+
+20 mV
+200 ms
+
+Fig. 5. Reversal potential of the burst after-hyperpolarization. A, injection of a
+hyperpolarizing current pulse results in a rhythmic sequence of two low threshold Ca2"
+spikes separated by an after-hyperpolarization. The reversal potential of the afterhyperpolarization was examined by injecting a hyperpolarizing current pulse at the peak
+of the after-hyperpolarization and comparing the resulting deviation in membrane
+potential with that obtained by injection of the same current pulse during the lack of an
+after-hyperpolarization. In this cell, the AHP (arrows) reversed from hyperpolarizing (top
+two traces) to depolarizing (bottom traces) at about -97 mV (third set of traces from top).
+B, plot of the group data reveals an average reversal potential of -94 mV. The reversal
+potential for short latency responses to GABA (-75 mV) is shown for comparison.
+
+Fig. 4A a and Ba). Similarly, cells obtained in the presence of picrotoxin responded
+with normal sequences of rhythmic burst firing to the injection of a hyperpolarizing
+current pulse (Fig. 4Ca; n = 7). Local application of the GABAB antagonist 2hydroxy-saclofen blocked the residual response of these cells to GABA (Fig. 5Cb
+and Db; n = 2) but did not disrupt the rhythmic burst firing (cf. Fig. 4Ca and Da).
+These results indicate that activation of GABAA and GABAB receptors do not
+contribute critically to the rhythmic burst firing recorded in the present
+experimental situation.
+
+Ionic basis of burst after-hyperpolarization
+Previous investigations of after-burst hyperpolarizations in thalamic neurones
+have revealed that there are at least two prominent mechanisms for their
+generation: activation of a Ca2"-activated K+ current (McCormick & Prince, 1988)
+or deactivation and activation of a hyperpolarization-activated cation current
+
+678
+
+T. BAL AND D. A. McCORMICK
+
+(McCormick & Pape, 1990). If the burst AHP is a Ca2"-activated K+ current, then it
+should reverse to a depolarization at EK, should be associated with a conductance
+increase, and should be blocked by blockers of K+ currents (e.g. internal Cs+,
+external tetraethylammonium or apamin) (see Rudy, 1988; Castle, Haylett &
+Jenkinson, 1989).
+Intracellular injection of a short duration (10-20 ms) hyperpolarizing current
+pulse at the peak of the AHP revealed that this after-hyperpolarization is
+associated with an increase in apparent membrane conductance, suggesting that it
+is mediated by the opening of some type of ionic channels (not shown).
+Examination of the reversal potential of the low threshold Ca2" spike AHP
+revealed that it reversed to an after-depolarization at an average membrane
+potential of -95 mV (± 2; n = 5; Fig. 5), which is close to the equilibrium potential
+for K+ in 2-5 mm [K+]. (McCormick & Prince, 1986), suggesting that the increase in
+membrane conductance is largely specific for K+ ions. The occurrence of this K+
+conductance following a low threshold Ca2" spike suggests that it may be Ca2+
+activated. Indeed, increasing the buffering of [Ca2+], by including the Ca2+ chelating
+agent ethyleneglycol-bis-(fl-aminoethyl ether)N,N,N7,N7-tetraacetic acid (EGTA) in
+the recording micropipette resulted in the disappearance of the burst AHP and the
+appearance of a pronounced slow after-depolarization (Fig. 6A; n = 20). Block of
+fast action potentials with tetrodotoxin revealed a large slow after-depolarization
+underlying this event (not shown).
+Further evidence that a Ca2+-activated K+ current underlies the generation of
+the burst-AHP was obtained by examining the effects of intracellular injection of
+the K+ channel blocking agent Cs+, bath application of either tetraethylammonium
+(TEA) or the bee venom toxin apamin. Intracellular recording of NRT neurones
+with caesium acetate microelectrodes resulted in the disappearance of after-burst
+hyperpolarizations and their replacement with a prolonged after-depolarization
+(Fig. 6B; n = 4; within-cell comparison). Application of tetrodotoxin (10 /M)
+blocked Na+-dependent action potential generation but not the slow afterdepolarization, indicating that this event is intrinsic to NRT cells (Fig. 6B).
+Similarly, bath application of TEA (5-20 mM; n = 3) after the block of action
+potentials with tetrodotoxin also resulted in the slowing of the falling phase of the
+low threshold Caa2+ spike, a reduction in the membrane potential reached by the
+after-hyperpolarization, and the appearance of a large slow after-depolarization in
+single cells (Fig. 6C). However, even in the presence of 10 mm TEA, each low
+threshold Ca2+ spike was associated with a small after-hyperpolarization (Fig. 6C,
+TEA). Removal of TEA from the bathing medium reinstated the normal low
+threshold Ca2+ spike and after-hyperpolarization (Fig. 6C, wash).
+Apamin is reported to block potently a particular subtype of Ca2+-activated K+
+current and the underlying channels (reviewed in Castle et al. 1989). Local
+application of apamin (100 nm in micropipette; n = 19) resulted in a complete
+abolition of the Ca2+ spike after-hyperpolarization and resulted in the appearance of
+a prolonged after-depolarization (Fig. 6D). These effects of apamin were practically
+irreversible and prolonged (hours) washing with normal solution failed to reinstate
+the after-hyperpolarization, as reported previously (Avanzini et al. 1989).
+These results indicate that the after-hyperpolarization occurring following the
+
+NRT RHYTHMIC BURST FIRING
+
+679
+
+Control
+
+EGTA
+
+Overlay
+
+Cs' early
+
+Cs' late
+
+Cs'
+
+Control
+
+TEA
+
+Wash
+
+Control
+
+Apamin
+Late
+
+Overlay
+
+A
+
+D
+
++
+
+TTX
+
+Early
+20 mV
+250 ms
+
+Fig. 6. Pharmacological properties of the burst after-hyperpolarization. A, buffering of
+intracellular Ca2` blocks the burst after-hyperpolarization. Recording of cells with
+microelectrodes which contain a high concentration of EGTA (04 M EGTA +1 M
+potassium acetate) results in an abolition of the burst after-hyperpolarization, a dramatic
+increase in action potential discharge rate during the burst, and the appearance of a tonic
+tail of activity (pre-pulse membrane potential (Vm) = -63 mV). B, recording NRT
+neurones with microelectrodes filled with 4 M caesium acetate results in an abolition of the
+burst after-hyperpolarization and the appearance of a large and prolonged afterdepolarization (Vm = -65 mV). Local application of TTX (10 /M) abolishes the action
+potentials and reveals the underlying slow after-depolarization. C, bath application of
+tetraethylammonium (TEA; 10 mm) results in the appearance of a large slow afterdepolarization, and the reduction of the negative value of the membrane potential
+obtained after the low threshold Ca2` spike, although a burst after-hyperpolarization is
+still evident. These effects are reversible upon removal of TEA (wash; Vm = -68 mV). D,
+local application of apamin (100 nm in micropipette) results in a complete block of the
+after-hyperpolarization and the appearance of the slow after-depolarization
+(Vm = -63 mV). Action potentials blocked in C and D with local application of
+tetrodotoxin. Cells in A,B, C and D are from different experiments.
+
+generation of a Ca2` spike represents a Ca2+-activated K+ current. The
+hyperpolarization-activated (h)-current (McCormick & Pape, 1990) does not appear
+to make a critical contribution in NRT cells, since complete block of this current
+with local or bath application of Cs+ (2 mm in bath; 20 mm in micropipette; n = 4)
+did not alter or block rhythmic burst firing (not shown).
+
+680
+
+T. BAL AND D. A. McCORMICK
+
+Ionic basis of the after-depolarization
+The ionic mechanisms involved in the generation of the after-depolarization
+which occurs after block of Ca2+-activated K+ currents was investigated in
+neurones after the block of voltage-dependent Na+ currents with local applications
+A
+
+Control
+
+Choline chloride
+
+Wash
+
+B
+
+Control
+
+NMDG
+
+Wash
+
+J20 mV
+250 ms
+
+Fig. 7. Ionic basis of the slow after-depolarization. A, substitution of choline chloride for
+NaCl and choline bicarbonate for sodium bicarbonate in the bathing medium has little
+effect on the slow after-depolarization (prepulse Vm = -63 mV). B, in contrast,
+substitution of N-methyl-D-glucamine chloride for NaCl results in a selective block of the
+slow ADP (Vm = -60 mV). This effect is reversible. Two controls are shown in B. The
+continuous trace is a voltage pulse which matches that in NMDG, while the dotted line is
+one which matches that obtained during wash. Data obtained after application of
+tetrodotoxin (10 uM in micropipette) and apamin (100 nm in micropipette) to facilitate the
+study of the ADP. Data for A and B obtained from two seperate cells.
+
+of tetrodotoxin (10 AM) and the Ca2"-activated K+ current with apamin (100 nm in
+micropipette). Under these circumstances, injection of hyperpolarizing current
+pulses were followed by a slow after-depolarization, as reported above (Figs 7 and
+8). The possibility that this slow after-depolarization may be generated by a
+calcium-activated non-selective cation current (CAN-current; Partridge &
+Swandulla, 1988) was investigated with ion substitution experiments.
+Substitution of choline chloride for NaCl and choline bicarbonate for sodium
+bicarbonate in equimolar concentrations in the bathing medium resulted in little
+effect on the slow after-depolarization (Fig. 7A; n = 6), while substituting Nmethyl-D-glucamine chloride for NaCl resulted in an abolition of the slow ADP
+while leaving the low threshold Ca2" spike intact (Fig. 7B; n = 6). Replacement of
+CaCl2 in the bathing medium with BaCl2 resulted in a marked enhancement of the
+low threshold Ca21 spike, presumably owing to the block of K+ currents and
+increased mobility of Ba21 through T-channels (see Kostyuk, 1989), but did not
+block the slow ADP (Fig. 8A; n = 3). In contrast, replacement of CaCl2 with SrCl2
+also resulted in an enhancement of the low threshold Ca21 spike, but in association
+with a complete block of the slow ADP (Fig. 8B; n = 4).
+
+NRT RHYTHMIC BURST FIRING
+
+681
+
+In the experiment illustrated in Fig. 8C, CaCl2 was replaced with BaCl2, resulting
+in an enhancement of the low threshold Ca21 spike and without block of the slow
+ADP. Replacement of BaCl2 with MgCl2 resulted initially in a reduction of the
+amplitude and rate of rise of the low threshold Ca21 spike, and a complete block of
+the slow ADP. Further washing-in of the MgCl2 resulted in a complete block of both
+A
+
+Control
+
+Ba2+
+
+Overlay
+
+B
+
+Control
+
+Sr2+
+
+Overlay
+20 mV
+
+C a
+Ca2+ -
+
+b
+
+Cnrols
+
+250 ms
+
+Mg2l early
+
+Mg2t late
+
+Ba2
+Wash Ba2+
+
+L.ate
+
+Early
+
+Wash Ca2+
+
+20 mV
+
+250 ms
+Fig. 8. Ionic mechanisms involved in activation of the slow ADP. A, replacement of CaCl2
+with BaCl2 results in an increase in apparent input resistance (compensated for by
+reduction of the amplitude of the current pulse), an increase in the membrane time
+constant, an increase in the low threshold Ca2" spike, and did not abolish the slow ADP
+(pre-pulse Vm= -67 mV). B, in contrast, replacement of CaCl2 with SrCl2 results in a
+complete abolition of the slow ADP and an enhancement of the low threshold Ca21 spike
+(Vm = -65 mV). Ca, replacement of CaCl2 with BaCl2 again does not abolish the slow ADP,
+although replacement of BaCl2 with MgCI2 does abolish the slow ADP, followed by an
+abolition of the low threshold Ca21 spike. These effects are reversible (Cb; Vm = -72 mV).
+Data obtained after application of tetrodotoxin (10 /SM in micropipette) and apamin
+(100 nM in micropipette).
+
+the low threshold Ca2" spike and the slow ADP (n = 3). These effects of Mg2' and
+Ba21 were reversible (Fig. 8Cb).
+Together these results suggest that the slow ADP is mediated by a Ca2+-activated
+
+non-selective cation current which is able to be carried by both Na+ and choline+ but
+not by N-methyl-D-glucamine' and which can be activated by both Ca2' and Ba21
+but not by Sr21 or Mg2+.
+
+Ionic basis of tonic firing in NRT cells
+Extracellular recordings of NRT cells revealed that application of 5-HT (500 /SM
+in micropipette), noradrenaline (NA) (500 /M in micropipette) or IS,3R-1aminocyclopentane-1,3-dicarboxylic acid (ACPD; 500 uM in micropipette) resulted
+in marked excitation and the generation of tonic firing, as reported previously
+(McCormick & Wang, 1991). Interestingly, repeated application of any of these
+three substances resulted in a maximal firing frequency which, after being obtained,
+
+T. BAL AND D. A. McCORMICK
+
+682
+
+could not be exceeded by additional application of the same agonist (e.g. Fig. 9D).
+This 'ceiling effect' was not due, however, to an inability of the cell to discharge
+tonically at higher frequencies, since additional applications of glutamate resulted
+in large increases in spike frequency (Fig. 9D). At 35 °C, the maximal frequency of
+firing which could be brought about by NA was 20-30 Hz (n = 3), while at 38 °C it
+60 Hz
+~~~~~~~~~~~30
+
+A
+
+_tt
+
+ttT
+
+NA
+
+5-HTNA
+
+t
+
+NA
+
+NA 60 s
+
+B
+
+:50 Hz
+O
+
+I
+
+t
+
+NA 5-HT
+_
+_
+
+5-HT
+C
+i
+
+APOD
+
+60 s
+
+5-HT
+i
+
+350 Hz
+
+_ - 10~ ~ ~ ~ ~ ~ -
+
+ACPD
+
+5-HT ACPD
+
+60 s
+
+:160 Hz
+
+D
+
+i120
+j80
+|
+
+ACPD
+
+_
+
+Glu
+
+-40
+
+|~~~~~
+tttittittt
+
+JO
+
+60 s
+
+Glu
+
+1 s
+
+Fig. 9. Frequency limitation and non-additivity of tonic firing responses to NA, 5-HT
+and ACPD. A, application of NA (500 FM in micropipette) results in an increase in single
+spike discharge to approximately 40 Hz. Maximal application of 5-HT (500wM in
+micropipette) results in a tonic discharge which becomes steady around 70 Hz.
+Application of NA at this point has no additional effect, indicating occlusion. As the
+response to 5-HT recovers, the response to NA reappears. B, in contrast, maximal
+application of NA, although reducing the response to 5-HT, does not completely occlude
+it. C, application of the glutamate metabotropic agonist ACPD (500 FM in micropipette)
+results in a peak increase in firing rate of approximately 50 Hz. Application of 5-HT and
+ACPD together result in a similar increase in firing rate. D, maximal application of
+ACPD results in a firing rate of approximately 50 Hz, which is not the maximal firing
+rate capable of being generated by the cell, since application of glutamate results in large
+increases in firing rate up to 160 Hz (original recording shown at right for detail).
+Guinea-pig NRT cell recorded at 38 'C.
+
+was 35-40 Hz (n = 3). In contrast, both 5-HT (n = 24) and ACPD (n = 11) resulted
+in higher maximal firing frequencies of 40-70 Hz at 38 'C. The possibility that
+these agents may occlude one another owing to convergence of postsynaptic effector
+mechanisms was tested by examining the effects of maximal activation of one
+response on the others. Maximal activation of the serotonin response was found to
+block the response to NA and ACPD (Fig. 9A and C) while maximal activation of
+the NA response strongly reduced, but did not completely block the response to
+either 5-HT or ACPD (Fig. 9B). The possibility that a persistent Na+ current may
+
+NRT RHYTHMIC BURST FIRING
+
+683
+
+contribute to the 5-HT-induced tonic depolarization was tested through the local
+application of tetrodotoxin (10 ,UM in micropipette). Local application of
+tetrodotoxin resulted in a cessation of action potential generation followed by a
+5-6 mV hyperpolarization of the membrane potential (Fig. 10), presumably
+resulting from block of the persistent Na+ current. Interestingly, during the
+
+A
+
+a
+
+~
+5-HT
+
+b_w
+
+3
+
+~
+
+5-HT
+
+40 Hz
+
+j200
+
+TTX
+
+4IEWphI|
+___
+
+~
+
+5 mV
+
+~~~~~~~~~~~~~~1
+
+0 s
+
+20 s
+B
+
+>
+
+5 mV
+
+200 ms
+
+Fig. 10. Intracellular phenomena associated with the serotonin-induced tonic firing. A a
+and A b, application of a maximal does of 5-HT results in depolarization of the membrane
+potential (Aa), an increase in membrane oscillation (not shown), and tonic firing which
+remains steady at approximately 45 Hz (A b; Vm prior to 5-HT = -58 mV). Block of
+voltage-dependent Na+ channels with local application of tetrodotoxin (10 FM in
+micropipette) results in abolition of action potentials, followed by abolition of rhythmic
+oscillations (shown in B for detail) and hyperpolarization of the membrane potential.
+
+application of tetrodotoxin, oscillations in the membrane potential were revealed
+(Fig. lOB). Similar oscillations in the membrane potential were also observed in
+normal cells during hyperpolarization below firing threshold (not shown). The
+eventual block of these oscillations by tetrodotoxin (Fig. lOB, right trace) indicates
+that they probably originate from a mixture of intrinisic membrane events and
+synaptic potentials, although this requires further investigation.
+Application of the inhibitory amino acid GABA during tonic discharge induced
+by 5-HT or NA could reduce the firing frequency or inhibit all single spike activity
+(not shown). Cessation of the GABA application rapidly reinstated tonic discharge
+back to the original firing rate, while reinstatement of the GABA application again
+silenced neuronal activity (not shown). In this manner, application of GABA could
+'sculpt' the firing rate of NRT cells with the maximal baseline firing rate being
+around 30-60 Hz.
+
+Pinault & Deschenes (1992a) have recently suggested that NRT cells may have
+an intrinsic propensity to fire at 30-60 Hz. However, in vitro, NRT cells respond to
+5-HT, NA, and ACPD with a steady increase in firing rate covering all frequencies
+between approximately 5 and 60 Hz (Fig. 9). To examine the possible tendency to
+
+684
+
+T. BAL AND D. A. McCORMICK
+
+discharge at particular frequencies, we injected prolonged depolarizing current
+pulses (0-5-2 s) of varying amplitude into NRT cells and formed frequency versus
+current and frequency versus time plots (Fig. 11). Intracellular injection of constant
+current pulses into NRT cells were found to result in the generation of sustained
+A
+
+B
+N
+I
+
+400
+
+1 ~~~~~
+
+o; 300
+
+ts1 nA
+
+20
+na 200
+
+0r
+-
+
+VONVOW vvv
+
+A
+
+0.065
+0 280
+
+100
+
+M
+
+\- 0170
+
+-
+
+<:
+
+60
+
+1111~VVIV~A-0*095
+
+0
+C
+
+40
+
+N
+
+'0~-1 45
+
+JZ;N ~~0-095
+
+20 | a
+
+i
+
+cc
+
+0
+
+0*045
+
+0
+
+10 mV
+100 ms
+700
+600
+500
+C 400
+:E 300
+cc 200
+100
+
+0 065
+
+200 400
+Time (ms)
+
+600
+
+_120
+
+N
+
+N
+
+_
+
+I
+
+I
+
+0,
+
+D
+
+0 ~~~0135
+
+0}
+a,
+0:
+
+80
+
+_
+40-
+
+a)
+CL<_
+<
+
+3
+Current injection (nA)
+1
+
+2
+
+O _
+
+0
+
+0.1 02
+03 0-4
+Current injection (nA)
+
+Fig. 11. Frequency versus current firing properties of NRT cells. A, examples of the
+response of a NRT cell to the intracellular injection of prolonged depolarizing current
+pulses of different magnitudes (Vm = -56 mV). B, frequency of firing versus time plots for
+frequency ranges of 0-400 and 0-70 Hz. Action potential discharge is associated with a
+slowing of firing in the first two interspike intervals followed by highly regular and
+maintained activity. C, plot of frequency versus current for the first interspike interval for
+five different cells reveal relatively linear relationships and the ability to fire at frequencies
+up to 500-700 Hz. D, detailed examination of the frequency versus current response curve
+at frequencies below 100 Hz for two cells reveals a threshold of approximately 10 Hz and
+no clear tendency to fire at any particular frequency.
+
+trains of action potentials in which the frequency of firing slowed down over the
+first few interspike intervals to a steady state (Fig. 11A and B). Examination of the
+frequency versus current injected (f-I) plot for either the first interspike interval
+(Fig. tIC and D; n =8) or for steady state (not shown) did not reveal any
+particular frequency between 10 and 400 Hz which was preferred by the NRT cells.
+Thus, small increases in the amount of injected current resulted in increases in
+firing rate in a linear manner, without the non-linearities predicted if these cells
+'preferred' particular frequencies of activity (Fig. lID).
+
+NRT RHYTHMIC BURST FIRING
+
+685
+
+DISCUSSION
+
+The nucleus reticularis of the thalamus appears to be the 'pacemaker' of certain
+forms of slow oscillation in the thalamus, particularly spindle waves (reviewed in
+Steriade & Deschenes, 1984). Spindle waves are 1-3 s periods of 7-14 Hz oscillation
+which occur during light slow wave sleep with a marked periodicity of once every
+5-10 s. Our results indicate that NRT neurones possess the ionic currents necessary
+to generate intrinsic rhythmic sequences or high frequency burst discharges in the
+frequency range of spindle waves (7-12 Hz) at body temperature. This sequence of
+oscillations appears to be mediated in large part through the activation of a low
+threshold Ca2" spike, which generates a high frequency burst of Na+- and K+dependent action potentials, followed by an after-hyperpolarization mediated by
+an apamin-sensitive Ca2"-activated K+ current (Fig. 12; see also Avanzini et al.
+1989). This rhythmic burst firing may occur for two to eight cycles, presumably
+depending upon the amplitude of the Ca2"-activated K+ current and its interaction
+with the T-current (IT). The intrinsic ability of NET cells to generate rhythmic
+burst discharges may allow these cells to make a critical contribution to the
+generation of spindle waves in the thalamus. However, intracellular recordings
+from NRT cells in vivo during spontaneous spindle wave generation, or during
+rhythmic oscillation induced by single shock stimulation of cortical or thalamic
+inputs, reveal a significant contribution of excitatory synaptic potentials to the
+action potential discharge patterns of NRT cells (Mulle et al. 1986; Shosaku et al.
+1989). Strong hyperpolarization of NRT cells during these events indicate that a
+barrage of EPSPs, presumably resulting from a burst of action potentials in one or
+more relay cells, results in the activation of additional depolarizing currents in
+NRT cells, such as IT, and a subsequent burst discharge. We are then left with the
+question of whether spindle oscillations are generated as an intrinsic property of
+NRT cells or as synaptic events generated through their interaction with thalamic
+relay cells. Since surgical isolation of the NRT from the rest of the thalamus is
+reported to leave the NRT with the ability to generate spindle-like oscillations
+(Steriade et al. 1987a) and EPSPs of presumed thalamic origin occur in NET cells
+during each cycle of the spindle wave, it would appear that both processes are
+involved. We propose the following scenario as one possible mechanism of spindle
+wave generation. The coincident burst firing of some critical number of NRT cells,
+either intrinsically or in response to cortical or thalamic input, results in the
+hyperpolarization of both these NRT cells (through a Ca2+-activated K+ current)
+and an anatomically connected population of relay cells (through GABAergic
+inhibition). As these periods of hyperpolarization lessen, the NRT cells, and a
+subset of relay cells, will generate an intrinsic burst of action potentials through the
+activation of IT (see Andersen & Andersson, 1968; Steriade & Deschenes, 1984).
+Which cells will generate these bursts first will depend upon the kinetics and depth
+of the Ca2+-activated K+ current in the NRT cells and the inhibitory postsynaptic
+potential in the relay cells. If one or more of the relay cells which are inhibited
+bursts before the NRT cell, then the NRT cell will be depolarized by a barrage of
+one to five EPSPs arriving at 250-400 Hz depending on the number of spikes in the
+relay cell burst and the convergence of bursting relay cells to the NRT neurone.
+
+686
+
+T. BAL AND D. A. McoORMICK
+
+This barrage of EPSPs will in turn activate the low threshold Ca2" current in the
+NRT, the amount of which is available being determined by the duration and depth
+of after-hyperpolarization occurring after the last burst discharge. The activation
+ofIT will further enhance the depolarization resulting from the EPSPs, and result
+in a burst of action potentials in the NRT cells, which will begin the cycle again by
+hyperpolarizing the relay cells. Alternatively, the NRT cells may burst intrinsically
+before the arrival of thalamic EPSPs. In this circumstance the synaptic potentials
+will then facilitate the low threshold Ca2" spike in the generation of action potentials
+and the occurrence of the two together will determine the depth and duration of
+the subsequent after-hyperpolarization in the NRT cell and the depth and duration
+of the inhibition of the connected relay cells. Together, both of these processes will
+subsequently determine the frequency and strength of oscillation.
+If none of the relay cells contacting a particular NRT cell fire during one phase of
+the spindle wave, then the NRT cell may still generate a rebound burst of action
+potentials at approximately the correct interval, owing to the activation of the low
+threshold Ca2" spike by the relaxation of the after-hyperpolarization. In this
+manner, the ability ofNRT cells to generate rhythmic burst dischargesallowsfora
+'safety mechanism' in which the rhythmic oscillation may continue even in the
+lack of rebound response from thalamic relay cells. Thus, we view the rhythmic
+firing of NRT cells during the generation of spindle waves as a mixture of intrinsic
+oscillatory properties and circuitous interactions between these cells and their
+anatomically connected relay cells. Both of these mechanisms of oscillation appear
+to have a similar resonant frequency (7-14 Hz), ensuring that even failure of the
+relay component of the oscillation will leave intact an oscillation in the NRT cell of
+a similar amplitude and time course.
+Spindle waves in naturally sleeping cats, in contrast to those recorded in
+barbiturate-anaesthetized animals, are associated with the appearance of a
+prolonged tonic 'tail' of action potential activity in NET cells after each sequence of
+rhythmic burst firing (Domich, Oakson & Steriade, 1986). In the present study we
+have shown that NET cells are capable of generating a tonic tail of single spike
+activity after the generation of rhythmic low threshold Ca21 spikes and that this
+tonic tail may be mediated by a slow after-depolarization, which itself may be
+generated through a Ca2+-activated non-selective cation (CAN) current. Calciumactivated non-selective cation currents have been reported in some invertebrate
+neurones that are known to generate intrinsic and periodic bursts of action
+potentials (reviewed in Partridge & Swandulla, 1988). We propose that in NRT
+cells, the rhythmic occurrence of low threshold Ca21 spikes and their associated
+bursts of fast action potentials results in increases in [Ca21]i which not only triggers
+a Ca2+-activated K+ current, but may also gradually activate ICAN. As this cation
+current is activated, it depolarizes the cell towards single spike firing threshold and
+counteracts the hyperpolarizing influence of the Ca2+-activated K+ current. The
+loss of the postburst AHP results in a decrease in removal of inactivation of IT,
+thereby resulting in an eventual failure of rebound low threshold Ca2+ spikes.
+Subsequently, the slow after-depolarization dominates the membrane potential
+and the cell discharges in a tonic manner.
+
+NRT RHYTHMIC BURST FIRING
+
+687
+
+Origin of tonic activity in NRT cells
+Awakening from sleep is associated with an abolition of rhythmic burst firing in
+the NRT and the appearance of tonic, single spike activity, presumably through
+tonic depolarization of the membrane potential of NRT cells (e.g. Hirsch,
+A a
+
+/Na/K /Ca
+\'/T
+
+J JA
+
+B
+
+a
+
+/VVVVAA)i
+
+III
+
+k
+
+K/l,
+
+CAN
+
+-jmv
+200 ms 5-HT
+
+'Rhythmic
+bursts
+
+b
+
+5-HT => I/K,L
+
+otenal
+
+'K
+
+/K,Ca .
+
+'Nqa
+
+200 ms
+
+b
+
+INA
+
+Acti
+
+-
+
+ACPD
+
+1
+
+20mv
+
+200 ms
+
+30-60 Hz firing
+
+/K
+
+t/Na,p
+
+Action
+c
+
+Ptentials
+
+/NCa
+
+/CAN
+'CAN
+
+Tonic firing
+
+Fig. 12. Idealized scheme of the ionic basis of rhythmic burst and tonic firing in NRT cells.
+Removal of a hyperpolarizing current pulse results in a low threshold Ca2" spike, which
+activates a high frequency burst of action potentials mediated by the transient Na+
+current INa and various K+ currents, collectively referred to as IK. In addition, the fast
+Na+ spikes also are likely to activate high threshold Ca2" currents, here referred to as Ic.
+The entry of Ca2" results in the activation of Ca2"-activated K+ current (IK,c) and
+therefore an after-hyperpolarization. The depth and duration of this afterhyperpolarization determines the amplitude of the subsequent low threshold Ca2+ spike,
+which is activated by the relaxation of the after-hyperpolarization. In addition to
+activating a Ca2+-activated K+ current, the entry of Ca2+ into the cell is also proposed to
+activate a Ca2+-activated non-selective cation current (ICAN) which results in a slow afterdepolarization and the generation of tonic discharge at the end of the oscillatory burst
+firing (A a and A b). Activation of serotoninergic, noradrenergic or glutamate metabotropic
+receptors results in a tonic depolarization of the cell, in part through the reduction of a
+resting 'leak' potassium conductance IKL which results in single spike activity in the
+frequency range of 30-60 Hz. The frequency of this tonic activity is proposed to be
+determined in large part by the interaction of the persistent Na+ current (INa p) and the
+currents involved in action potential generation (Ba and Bb).
+
+Fourment & Marc, 1983; Steriade et al. 1986; see Steriade, Jones & Llinas, 1990). Of
+the numerous systems innervating the NRT, the cortical and thalamic inputs are
+known to exert an excitatory influence through excitatory amino acid receptors (de
+Curtis et al. 1989), the noradrenergic and serotoninergic inputs may tonically
+depolarize NRT cells through block of a K+ current through activation of a, and
+5-HT2 receptors (Kayama, Negi, Sugitani & Iwama, 1982; McCormick & Wang,
+1991), the cholinergic inputs may inhibit single spike activity through an increase
+in K+ conductance through M2 receptors (McCormick & Prince, 1986), and the
+
+688
+
+T. BAL AND D. A. McCORMICK
+
+GABAergic inputs may inhibit neuronal activity through GABAA and GABAB
+receptors (Fig. 5). Therefore, the depolarization of NRT cells that is associated with
+the transition from the sleeping to the waking and attentive state would represent
+a balance of all of these influences (and probably others) and the intrinsic properties
+of NRT cells. Here we have shown that maximal activation of serotoninergic,
+noradrenergic, or glutamate metabotropic receptors on NRT cells in the absence of
+other transmitter actions results in the depolarization of these cells, increased
+activation of a persistent Na+ current and the generation of 30-60 Hz tonic firing.
+This tonic firing may then be 'gated' on and off through the activation of
+GABAergic receptors. Similarly, Pinault & Deschenes (1992a,b) have recently
+described the presence of 'clock-like' firing of NRT neurones at frequencies between
+25 and 60 Hz (centred around 40 Hz) in urethane anaesthetized rats. This activity
+is critically dependent upon noradrenergic influences, since lesions of the locus
+coeruleus or application of a, antagonists silences the tonically firing NRT cells.
+However, in addition, cooling of the cerebral cortex reduced the frequency of tonic
+activity while reduction of GABAergic transmission with the GABAA antagonist
+bicuculline or muscarinic transmission with scopolamine increases the rate of action
+potential discharge, indicating that this activity is under the influence of a number
+of convergent systems (Pinault & Deschenes, 1992 a, b).
+In summary, we suggest that NRT cells generate action potentials in three basic
+modes: at hyperpolarized membrane potentials, NRT cells may generate rhythmic
+bursts at relatively slow frequencies (e.g. 0-5-7 Hz; Fig. 3); at slightly more
+depolarized levels, NRT cells oscillate at higher frequencies (7-14 Hz) and generate
+rhythmic burst sequences followed by tonic single spike activity (Figs 3 and 12);
+while at still more depolarized levels, activity is dominated by the occurrence of
+highly regular, tonic activity (Fig. 12), the frequency of which is determined by the
+mixture of intrinsic ionic currents and convergence of neurotransmitter actions.
+The presence of these three different modes of action potential generation may
+allow NRT neurones to participate actively in the generation of the basic
+oscillatory rhythms seen in the forebrain: delta waves (0 5-4 Hz) during deep slowwave sleep; spindle waves (7-14 Hz) during light slow-wave sleep; and gamma
+waves (30-60 Hz) during awake and attentive behaviour. Which of these different
+modes of activity is generated is determined through a co-ordinated modulation of
+thalamocortical systems by the ionic and cellular actions of the ascending and
+descending neurotransmitter systems, such that during periods of deep slow wave
+sleep the lack of activity in ascending noradrenergic, serotoninergic and cholinergic
+systems allows NRT, thalamic relay, and some cortical neurones to relax into the
+generation of slow (0 5-4 Hz) rhythmic burst firing (see also Steriade, Curro Dossi &
+Nunez, 1991), while small increases in activity in these ascending systems may
+depolarize NRT and thalamic relay cells into the 'spindle-oscillation' mode of light,
+synchronized electroencephalogram sleep. Further increases in activity in these
+ascending systems may induce a state of readiness in thalamocortical networks
+which includes the increased propensity for the transmission and processing of
+sensory information and the generation of 40 Hz oscillations (Steriade & McCarley,
+1990 for review; McCormick, 1992). During these various changes in state of
+
+NRT RHYTHMIC BURST FIRING
+
+689
+
+activity in thalamocortical networks, we, and others (Crick, 1984; Steriade &
+Deschenes, 1984; Steriade & Llinas, 1988; Asanuma, 1989; Pinault & Deschenes,
+1992a,b) envision the properties and connectivity of the NRT as ideal for the
+coordination of correlated activity in the forebrain; a hypothesis which requires
+detailed investigation.
+Note added in proof. We have recently reported the occurrence of spindle waves in slices of Ferret
+LGNd and perigeniculate nucleus maintained in vitro (M. von Krosigt, T. Bal and D.A.
+McCormick, 1993. (Science, in the Press)). Perigeniculate neurons generate rhythmic bursts of
+low threshold Ca2" spikes during these oscillations in similarity with those reported here although
+they are often activated by excitatory postsynaptic potentials arriving from the LGNd.
+
+We thank Marcus von Krosigk and Zhong Wang for valuable comments on this manuscript.
+This research was supported by the National Institute of Health, the Klingenstein Fund and the
+Sloan Foundation.
+REFERENCES
+
+ANDERSEN, P. & ANDERSSON, S. A. (1968). Physiological Basis of the Alpha Rhythm. AppletonCentury-Crofts, New York.
+ASANUMA, C. (1989). Axonal arborizations of a magnocellular basal nucleus input and their relation
+to the neurons in the thalamic reticular nucleus of rats. Proceedings of the National Academy of
+Sciences of the USA 86, 4746-4750.
+ASANUMA, C. (1992). Noradrenergic innervation of the thalamic reticular nucleus: A light and
+electron microscopic immunohistochemical study in rats. Journal of Comparative Neurology 319,
+299-311.
+ASANUMA, C. & PORTER, L.L. (1990) Light and electron microscopic evidence for a GABAergic
+projection from the caudal basal forebrain to the thalamic reticular nucleus in rats. Journal of
+Comparative Neurology 302, 159-172.
+AVANZINI, G., DE CURTIS, M., PANZICA, F. & SPREAFICO, R. (1989). Intrinsic properties of nucleus
+reticularis thalami neurones of the rat studied in vitro. Journal of Physiology 416, 111-122.
+BuzSAKI, G., BICKFORD, R. G., PONOMAREFF, G., THAL, L. J., MANDEL, R. & GAGE, F. H. (1988).
+Nucleus basalis and thalamic control of neocortical activity in the freely moving rat. Journal of
+Neuroscience 8, 4007-4026.
+CASTLE, N. A., HAYLETT, D. G. & JENKINSON, D. H. (1989). Toxins in the characterization of
+potassium channels. Trends in Neurosciences 12, 59-65.
+CRICK, F. (1984). Function of the thalamic reticular complex: The searchlight hypothesis.
+Proceedings of the National Academy of Sciences of the USA 81, 4586-4590.
+DE CURTIS, M., SPREAFICO, R. & AVANZINI, G. (1989). Excitatory amino acids mediate responses
+elicited in vitro by stimulation of cortical afferents to reticularis thalami neurons of the rat.
+Neuroscience 33, 275-283.
+DESCHENES, M., MADARIAGA-DoMICH, A. & STERIADE, M. (1985). Dendrodendritic synapses in cat
+reticularis thalami nucleus: a structural basis for thalamic spindle synchronization. Brain
+Research 334, 169-171.
+DoMICH, L., OAKSON, G. & STERIADE, M. (1986). Thalamic burst patterns in the naturally sleeping
+cat: A comparison between cortically projecting and reticularis neurones. Journal of Physiology
+379,429-449.
+HALLANGER, A. E., LEVEY, A. I., LEE, H. J., RYE, D. B. & WAINER, B. H. (1987). The origins of
+cholinergic and other subcortical afferents to the thalamus in the rat. Journal of Comparative
+Neurology 262, 105-124.
+HARRIS, R. M. (1987). Axon collaterals in the thalamic reticular nucleus from thalamocortical
+neurons in the rat ventrobasal thalamus. Journal of Comparative Neurology 258, 397-406.
+HAZRATI, L.-N. & PARENT, A. (1991). Projection from the external pallidum to the reticular
+thalamic nucleus in the squirrel monkey. Brain Research 550, 142-146.
+
+690
+
+T. BAL AND D. A. McCORMICK
+
+HIRSCH, J. C., FOURMENT, A. & MARC, M. E. (1983). Sleep-related variations of membrane potential
+in the lateral geniculate body relay neurons of the cat. Brain Research 259, 308-312.
+HOUSER, C. R., VAUGHN, J. E., BARBER, R. P. & ROBERTS, E. (1980). GABA neurons are the major
+cell type of the nucleus reticularis thalami. Brain Research 200, 341-354.
+HUGUENARD, J. R. & PRINCE, D. A. (1992). A novel T-type current underlies prolonged Ca2`dependent burst firing in GABAergic neurons of the rat thalamic reticular nucleus. Journal of
+Neuroscience 12, 3804-3817.
+JONES, E. G. (1985). The Thalamus. Plenum Press, New York.
+KAYAMA, Y., NEGI, T., SUGITANI, M. & IWAMA, K. (1982). Effects of locus coeruleus stimulation on
+neuronal activities of dorsal lateral geniculate nucleus and perigeniculate reticular nucleus of the
+rat. Neuroscience 7, 655-666.
+KOSTYUK, P. G. (1989). Diversity of calcium ion channels in cellular membranes. Neuroscience 28,
+253-261.
+LAVOIE, B. & PARENT, A. (1991). Serotoninergic innervation of the thalamus in primate: An
+immunohistochemical study. Journal of Comparative Neurology 312, 1-18.
+LEVEY, A. I., HALLANGER, A. E. & WAINER, B. H. (1987 a). Cholinergic nucleus basalis neurons may
+influence the cortex via the thalamus. Neuroscience Letters 10, 7-13.
+MCCORMICK, D. A. (1992). Neurotransmitter actions in the thalamus and cerebral cortex and their
+role in neuromodulation of thalamocortical activity. Progress in Neurobiology 39, 337-388
+MCCORMICK, D. A. & PAPE, H.-C. (1990). Properties of a hyperpolarization-activated cation current
+and its role in rhythmic oscillation in thalamic relay neurons. Journal of Physiology 431, 291-318.
+MCCORMICK, D. A. & PRINCE, D. A. (1986). Acetylcholine induces burst firing in thalamic reticular
+neurones by activating a potassium conductance. Nature 319, 402-405.
+MCCORMICK, D. A. & PRINCE, D. A. (1988). Noradrenergic modulation of firing pattern in guinea pig
+and cat thalamic neurons, in vitro. Journal of Neurophysiology 59, 978-996.
+MCCORMICK, D. A. & WANG, Z. (1991). Serotonin and noradrenaline excite GABAergic neurones of
+the guinea-pig and cat nucleus reticularis thalami. Journal of Physiology 442, 235-255.
+MARCZYNSKI, T. J., BURNS, L. L., LIVEZEY, G. T., VIMAL, R. L. P. & CHEN, E. (1984). Sleep and
+purposive behavior: Inverse deviations from randomness of neuronal firing patterns in the feline
+thalamus. A new form of homeostasis? Brain Research 298, 75-90.
+MUKRAMETOV, L. M., RIZZOLATrI, G. & SEITUN, A. (1970). An analysis of the spontaneous activity
+of lateral geniculate neurons and of optic tract fibers in freely moving cats. Archives Italiennes de
+Biologie 108, 325-347.
+MUKHAMETOV, L. M., RIZZOLATTI, G. & TRADARDI, V. (1970). Spontaneous activity of neurones of
+nucleus reticularis thalami in freely moving cats. Journal of Physiology 210, 651-667.
+MULLE, C., MADARIAGA, A. & DESCHE'NES, M. (1986). Morphology and electrophysiological
+properties of reticularis thalami neurons in cat: in vivo study of a thalamic pacemaker. Journal of
+Neuroscience 6, 2134-2145.
+OHARA, P. T. & LIEBERMAN, A. R. (1981). Thalamic reticular nucleus: anatomical evidence that
+cortico-reticular axons establish monosynaptic contact with reticulo-geniculate projection cells.
+Brain Research 207, 153-156.
+OHARA, P. T. & LIEBERMAN, A. R. (1985). The thalamic reticular nucleus of the adult rat:
+experimental anatomical studies. Journal of Neurocytology 14, 365-41 1.
+PARE', D., HAZRATI, L.-N., PARENT, A. & STERIADE, M. (1990). Substantia nigra pars reticulata
+projects to the reticular thalamic nucleus of the cat: a morphological and electrophysiological
+study. Brain Research 535, 139-146.
+PARTRIDGE, L. D. & SWANDULLA, D. (1988). Calcium-activated non-specific cation channels. Trends
+in Neurosciences 11, 69-72.
+PINAULT, D. & DESCHE'NES, M. (1992 a). Voltage dependent 40-Hz oscillations in rat reticular
+thalamic neurons in vivo. Neuroscience 51, 245-258.
+PINAULT, D. & DESCHENES, M. (1992 b). Control of 40-Hz firing of reticular thalamic cells by
+neurotransmitters. Neuroscience 51, 259-268.
+RUDY, B. (1988). Diversity and ubiquity of K channels. Neuroscience 25, 729-749.
+
+NRT RHYTHMIC BURST FIRING
+
+691
+
+SHOSAKU, A., KAYAMA, Y., SUMITOMO, I., SUGITANI, M. & IWAMA, K. (1989). Analysis of recurrent
+inhibitory circuit in rat thalamus: Neurophysiology of the thalamic reticular nucleus. Progress in
+Neurobiology 32, 77-102.
+STERIADE, M., CURRO DoSSi, R. & NUNEZ, A. (1991). Network modulation of a slow intrinsic
+oscillation of cat thalamocortical neurons implicated in sleep delta waves: cortical potentiation
+and brainstem suppression. Journal of Neuroscience 11, 3200-3217.
+STERIADE, M. & DESCHENES, M. (1984). The thalamus as a neuronal oscillator. Brain Research
+Reviews 8, 1-63.
+STERIADE, M., DOMICI, L. & OAKSON, G. (1986). Reticularis thalami neurons revisited: Activity
+changes during shifts in states of vigilance. Journal of Neuroscience 6, 68-81.
+STERIADE, M., DoMICH, L. & OAKSON, G. (1987 a). The deafferented reticular thalamic nucleus
+generates spindle rhythmicity. Journal of Neurophysiology 57, 260-273.
+STERIADE, M., JONES, E. G. & LLINA'S, R. R. (1990). Thalamic O8cillations and Signaling. John Wiley
+and Sons, New York.
+STERIADE, M. & LLINA'S, R. R. (1988). The functional states of the thalamus and the associated
+neuronal interplay. Physiological Reviews 68, 649-742.
+STERIADE, M. & MCCARLEY, R. W. (1990). Brainstem Control of Wakefullness and Sleep. Plenum
+Press, New York.
+STERIADE, M., PARENT, A. & HADA, J. (1984). Thalamic projections of nucleus reticularis thalami of
+cat: a study using retrograde transpprt of horseradish peroxidase and double fluorescent tracers.
+Journal of Comparative Neurology 229, 531-547.
+STERIADE, M., PARENT, A., PARE', D. & SMITH, Y. (1987 b). Cholinergic and non-cholinergic neurons
+of cat basal forebrain project to reticular and mediodorsal thalamic nuclei. Brain Research 408,
+373-376.
+WILSON, J. R. & HENDRICKSON, A. E. (1988). Serotonergic axons in the monkey's lateral geniculate
+nucleus. Visual Neuroscience 1, 125-133.
+YEN, C. T., CONLEY, M., HENDRY, S. H. C. & JONES, E. G. (1985). The morphology of physiologically
+identified GABAergic neurons in the somatic sensory part of the thalamic reticular nucleus in the
+cat. Journal of Neuroscience 5, 2254-2268.
+
+

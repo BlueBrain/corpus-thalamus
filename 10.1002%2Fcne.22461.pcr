@@ -1,1 +1,428 @@
-[{"comment": "Relay cells express more CaV3.1. In Talley et al. (1999) data from rats, mRNA expression. ", "tags": {"birnlex_1595": "Dorsal nucleus of lateral geniculate body", "birnlex_160": "Rat", "birnlex_167": "Mouse", "nifext_41": "Thalamocortical cell"}, "localizer": {"text": "T-type VGCC a1 subunits\n(Cav3.1/a1G, Cav3.2/a1H, and Cav3.3/a1I), the\na1G subunit is highly expressed in the thalamus (Talley\net al., 1999).", "type": "text", "location": 3432}, "annotId": "58e83aba-d012-11e5-875e-3417ebb8f5ca", "version": "1", "parameters": [], "pubId": "10.1002/cne.22461", "authors": ["iavarone"]}, {"comment": "", "tags": {"birnlex_167": "Mouse", "nifext_46": "Thalamus geniculate nucleus (lateral) interneuron", "nlx_152236": "Electron microscopy immunolabeling protocol", "nifext_41": "Thalamocortical cell"}, "localizer": {"text": "Any dendritic profiles containing flattened\nand pleomorphic synaptic vesicles were identified\nas interneuron processes. Somatic profiles were identified\nas interneurons if they have a small somatic diameter\nwith nuclear infoldings (Jones, 2007).", "type": "text", "location": 16033}, "annotId": "3b274a16-d017-11e5-875e-3417ebb8f5ca", "version": "1", "parameters": [], "pubId": "10.1002/cne.22461", "authors": ["iavarone"]}, {"comment": "", "tags": {"birnlex_1595": "Dorsal nucleus of lateral geniculate body", "birnlex_167": "Mouse"}, "localizer": {"text": "uniform distribution of the a1G subunit over the somato- dendritic plasma membrane", "type": "text", "location": 7373}, "annotId": "d27cbc52-f510-11e5-95e8-c869cd917532", "version": "1", "parameters": [], "pubId": "10.1002/cne.22461", "authors": ["iavarone"]}, {"comment": "", "tags": {"birnlex_1595": "Dorsal nucleus of lateral geniculate body", "birnlex_167": "Mouse", "nifext_46": "Thalamus geniculate nucleus (lateral) interneuron"}, "localizer": {"text": "Any dendritic profiles containing flat- tened and pleomorphic synaptic vesicles were identified as interneuron processes", "type": "text", "location": 16033}, "annotId": "ad83fa5a-f512-11e5-8fa7-c869cd917532", "version": "1", "parameters": [], "pubId": "10.1002/cne.22461", "authors": ["iavarone"]}, {"comment": "", "tags": {"birnlex_1595": "Dorsal nucleus of lateral geniculate body", "birnlex_167": "Mouse", "nifext_41": "Thalamocortical cell"}, "localizer": {"text": "Large terminals containing round synaptic vesicles and pale mitochondria were identified as retinogeniculate terminals", "type": "text", "location": 16955}, "annotId": "0e209876-f513-11e5-a3cc-c869cd917532", "version": "1", "parameters": [], "pubId": "10.1002/cne.22461", "authors": ["iavarone"]}, {"comment": "", "tags": {"birnlex_1595": "Dorsal nucleus of lateral geniculate body", "birnlex_167": "Mouse", "nifext_41": "Thalamocortical cell"}, "localizer": {"text": "small terminals containing round synaptic vesicles and dark mitochondria were identified as corticogeniculate terminals ", "type": "text", "location": 17083}, "annotId": "3f6bf01a-f513-11e5-b33e-c869cd917532", "version": "1", "parameters": [], "pubId": "10.1002/cne.22461", "authors": ["iavarone"]}, {"comment": "", "tags": {"birnlex_1595": "Dorsal nucleus of lateral geniculate body", "birnlex_167": "Mouse", "nifext_41": "Thalamocortical cell"}, "localizer": {"text": "mmunogold particles for a1G were observed in small- and large-caliber dendrites as well as in the somata", "type": "text", "location": 23425}, "annotId": "70756a90-f515-11e5-a372-c869cd917532", "version": "1", "parameters": [], "pubId": "10.1002/cne.22461", "authors": ["iavarone"]}, {"comment": "", "tags": {"birnlex_1595": "Dorsal nucleus of lateral geniculate body", "birnlex_167": "Mouse", "nifext_41": "Thalamocortical cell"}, "localizer": {"text": "No correlation between the dendritic diameter and the immunogold lin- ear density was detected (Fig. 6A, r 1\u20444 \u00030.209, P 1\u20444 0.286, n 1\u20444 28). Similarly, there was no significant differ- ence in the immunogold density between the somatic (0.194 6 0.004 particle/lm, n 1\u20444 3) and dendritic (0.182 6 0.012 particle/lm, n 1\u20444 28) compartments ", "type": "text", "location": 28855}, "annotId": "af189dc0-f516-11e5-a1b5-c869cd917532", "version": "1", "parameters": [], "pubId": "10.1002/cne.22461", "authors": ["iavarone"]}, {"comment": "", "tags": {"birnlex_1595": "Dorsal nucleus of lateral geniculate body", "birnlex_167": "Mouse", "nifext_41": "Thalamocortical cell"}, "localizer": {"text": "he average immunogold densities were 3.34 6 0.96 (range 0.00\u20137.25, n 1\u20444 9) particles/lm2 and 3.13 6 0.26 (range 1.76\u20133.89, n 1\u20444 6) particles/lm2 in the perisynaptic and extrasynaptic areas, respectively, and were not significantly different ", "type": "text", "location": 33145}, "annotId": "90aba9c8-f517-11e5-b568-c869cd917532", "version": "1", "parameters": [], "pubId": "10.1002/cne.22461", "authors": ["iavarone"]}, {"comment": "", "tags": {"birnlex_1595": "Dorsal nucleus of lateral geniculate body", "birnlex_167": "Mouse", "nifext_46": "Thalamus geniculate nucleus (lateral) interneuron", "nifext_41": "Thalamocortical cell"}, "localizer": {"text": "The quantitative analysis revealed 3.3-fold higher labeling density in the plasma membrane of the relay cell dendrite when compared to the interneuron dendrite", "type": "text", "location": 34588}, "annotId": "e29beae8-f517-11e5-81b9-c869cd917532", "version": "1", "parameters": [], "pubId": "10.1002/cne.22461", "authors": ["iavarone"]}, {"comment": "", "tags": {"birnlex_1595": "Dorsal nucleus of lateral geniculate body", "birnlex_167": "Mouse", "nifext_41": "Thalamocortical cell"}, "localizer": {"text": "The dendrites of principal relay neurons receive the gluta- matergic afferents in a compartmentalized manner, with the sensory input generally contacting the proximal part of the relay cell dendrite and the cortical input preferentially con- tacting the distal part", "type": "text", "location": 41939}, "annotId": "b8f6a146-f518-11e5-9747-c869cd917532", "version": "1", "parameters": [], "pubId": "10.1002/cne.22461", "authors": ["iavarone"]}, {"comment": "Single channel conductance for T channels", "tags": {"sao1846985919": "Calcium Channel"}, "localizer": {"text": "Assuming the single channel con- ductance of T-type channel as 7.5 pS", "type": "text", "location": 45310}, "annotId": "4187d138-f519-11e5-b060-c869cd917532", "version": "1", "parameters": [{"id": "BBP-00012", "value": 7.5, "unit": "pS"}], "pubId": "10.1002/cne.22461", "authors": ["iavarone"]}, {"comment": "", "tags": {"birnlex_1595": "Dorsal nucleus of lateral geniculate body", "birnlex_167": "Mouse", "sao1846985919": "Calcium Channel", "nifext_41": "Thalamocortical cell"}, "localizer": {"text": "a1G molecules potentiates T-type cal- cium current amplitude in the thalamocortical neurons", "type": "text", "location": 51173}, "annotId": "42ec1f58-f51a-11e5-aa26-c869cd917532", "version": "1", "parameters": [], "pubId": "10.1002/cne.22461", "authors": ["iavarone"]}]
+[
+    {
+        "annotId": "58e83aba-d012-11e5-875e-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "Relay cells express more CaV3.1. In Talley et al. (1999) data from rats, mRNA expression. ",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 3432,
+            "text": "T-type VGCC a1 subunits\n(Cav3.1/a1G, Cav3.2/a1H, and Cav3.3/a1I), the\na1G subunit is highly expressed in the thalamus (Talley\net al., 1999).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1002/cne.22461",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "3b274a16-d017-11e5-875e-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 16033,
+            "text": "Any dendritic profiles containing flattened\nand pleomorphic synaptic vesicles were identified\nas interneuron processes. Somatic profiles were identified\nas interneurons if they have a small somatic diameter\nwith nuclear infoldings (Jones, 2007).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1002/cne.22461",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "nlx_152236",
+                "name": "Electron microscopy immunolabeling protocol"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "d27cbc52-f510-11e5-95e8-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 7373,
+            "text": "uniform distribution of the a1G subunit over the somato- dendritic plasma membrane",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1002/cne.22461",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "ad83fa5a-f512-11e5-8fa7-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 16033,
+            "text": "Any dendritic profiles containing flat- tened and pleomorphic synaptic vesicles were identified as interneuron processes",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1002/cne.22461",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "0e209876-f513-11e5-a3cc-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 16955,
+            "text": "Large terminals containing round synaptic vesicles and pale mitochondria were identified as retinogeniculate terminals",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1002/cne.22461",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "3f6bf01a-f513-11e5-b33e-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 17083,
+            "text": "small terminals containing round synaptic vesicles and dark mitochondria were identified as corticogeniculate terminals ",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1002/cne.22461",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "70756a90-f515-11e5-a372-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 23425,
+            "text": "mmunogold particles for a1G were observed in small- and large-caliber dendrites as well as in the somata",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1002/cne.22461",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "af189dc0-f516-11e5-a1b5-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 28855,
+            "text": "No correlation between the dendritic diameter and the immunogold lin- ear density was detected (Fig. 6A, r 1\u20444 \u00030.209, P 1\u20444 0.286, n 1\u20444 28). Similarly, there was no significant differ- ence in the immunogold density between the somatic (0.194 6 0.004 particle/lm, n 1\u20444 3) and dendritic (0.182 6 0.012 particle/lm, n 1\u20444 28) compartments ",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1002/cne.22461",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "90aba9c8-f517-11e5-b568-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 33145,
+            "text": "he average immunogold densities were 3.34 6 0.96 (range 0.00\u20137.25, n 1\u20444 9) particles/lm2 and 3.13 6 0.26 (range 1.76\u20133.89, n 1\u20444 6) particles/lm2 in the perisynaptic and extrasynaptic areas, respectively, and were not significantly different ",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1002/cne.22461",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "e29beae8-f517-11e5-81b9-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 34588,
+            "text": "The quantitative analysis revealed 3.3-fold higher labeling density in the plasma membrane of the relay cell dendrite when compared to the interneuron dendrite",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1002/cne.22461",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "b8f6a146-f518-11e5-9747-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 41939,
+            "text": "The dendrites of principal relay neurons receive the gluta- matergic afferents in a compartmentalized manner, with the sensory input generally contacting the proximal part of the relay cell dendrite and the cortical input preferentially con- tacting the distal part",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1002/cne.22461",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "4187d138-f519-11e5-b060-c869cd917532",
+        "authors": [
+            "iavarone",
+            "oreilly"
+        ],
+        "comment": "Single channel conductance for T channels",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 45310,
+            "text": "Assuming the single channel con- ductance of T-type channel as 7.5 pS",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "pS",
+                            "values": [
+                                7.5
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "0765c448-02f1-11e6-ad29-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Low threshold calcium T-current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamocortical cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1002/cne.22461",
+        "tags": [
+            {
+                "id": "NIFMOL:sao1797800540",
+                "name": "Calcium Channel"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "42ec1f58-f51a-11e5-aa26-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 51173,
+            "text": "a1G molecules potentiates T-type cal- cium current amplitude in the thalamocortical neurons",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1002/cne.22461",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFMOL:sao1797800540",
+                "name": "Calcium Channel"
+            },
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            }
+        ],
+        "version": "1"
+    }
+]

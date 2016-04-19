@@ -1,0 +1,528 @@
+[
+    {
+        "annotId": "87c5ad0a-04aa-11e6-92ed-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "0aa1bc00-04ab-11e6-92ed-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "location": 7858,
+            "text": "Sprague-Dawley rats (postnatal\ndays 7-12)",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002001",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "min",
+                                    "type": "simple",
+                                    "unit": "d",
+                                    "values": [
+                                        7
+                                    ]
+                                },
+                                {
+                                    "statistic": "max",
+                                    "type": "simple",
+                                    "unit": "d",
+                                    "values": [
+                                        12
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "0aa1bc00-04ab-11e6-92ed-64006a4c56ef",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "PMID_1403085",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1116",
+                "name": "Ventral posterior nucleus"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "dbd49530-04ac-11e6-92ed-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "0aa1bc00-04ab-11e6-92ed-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "location": 25316,
+            "text": "Also, in nRt both the apparent\nactivation threshold (-40 mV; Fig. 3C) and the potential\nat which the current attained peak amplitude (- 10 mV) were\nmore depolarized than in VB cells (-50 mV and -30 mV,\nrespectively)",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-014001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                -40
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "ce1cfda4-04ae-11e6-ba8a-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamic reticular nucleus cell",
+                        "rootId": "sao1813327414"
+                    },
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Low threshold calcium T-current",
+                        "rootId": "nifext_8054"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-014001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                -50
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "e507488a-04ae-11e6-ba8a-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamocortical cell",
+                        "rootId": "sao1813327414"
+                    },
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Low threshold calcium T-current",
+                        "rootId": "nifext_8054"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-013001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                -10
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "fa96187a-04ae-11e6-ba8a-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamic reticular nucleus cell",
+                        "rootId": "sao1813327414"
+                    },
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Low threshold calcium T-current",
+                        "rootId": "nifext_8054"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-013001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                -30
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "102cf258-04af-11e6-ba8a-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamocortical cell",
+                        "rootId": "sao1813327414"
+                    },
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Low threshold calcium T-current",
+                        "rootId": "nifext_8054"
+                    }
+                ]
+            }
+        ],
+        "pubId": "PMID_1403085",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1116",
+                "name": "Ventral posterior nucleus"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1116",
+                "name": "Ventral posterior nucleus"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "23278986-04af-11e6-ba8a-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "0aa1bc00-04ab-11e6-92ed-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "location": 25542,
+            "text": "peak IT amplitude was larger in VB cells\n(280 f 23 pA, y1 = 26) than in those of nRt (131 +- 15 pA, n\n= 23; two-tailed t test, p < 0.001).",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-071001",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "pA",
+                                    "values": [
+                                        280
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "pA",
+                                    "values": [
+                                        23
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        26
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "964aa2f4-04af-11e6-ba8a-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamocortical cell",
+                        "rootId": "sao1813327414"
+                    },
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Low threshold calcium T-current",
+                        "rootId": "nifext_8054"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-071001",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "pA",
+                                    "values": [
+                                        131
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "pA",
+                                    "values": [
+                                        15
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        23
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "b8f581f2-04af-11e6-ba8a-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamic reticular nucleus cell",
+                        "rootId": "sao1813327414"
+                    },
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Low threshold calcium T-current",
+                        "rootId": "nifext_8054"
+                    }
+                ]
+            }
+        ],
+        "pubId": "PMID_1403085",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1116",
+                "name": "Ventral posterior nucleus"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1116",
+                "name": "Ventral posterior nucleus"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "c95f65da-04af-11e6-ba8a-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "0aa1bc00-04ab-11e6-92ed-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "location": 25789,
+            "text": "whole-cell capacitance, was not different\nbetween VB and nRt cells (16.7 f 1.1 pF, iz = 21, vs 17.1 +_\n1.2 pF, n = 19, respectively)",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-040001",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "pF",
+                                    "values": [
+                                        16.7
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "pF",
+                                    "values": [
+                                        1.1
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        21
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "e3b0f99e-04af-11e6-ba8a-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamocortical cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-040001",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "pF",
+                                    "values": [
+                                        17.1
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "pF",
+                                    "values": [
+                                        1.2
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        19
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "fa348348-04af-11e6-ba8a-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamic reticular nucleus cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "PMID_1403085",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1116",
+                "name": "Ventral posterior nucleus"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1116",
+                "name": "Ventral posterior nucleus"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            }
+        ],
+        "version": "1"
+    }
+]
