@@ -1,0 +1,19 @@
+[
+    {
+        "annotId": "2c2258b0-07dc-11e6-8742-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Afferent to the thalamus. Acetylcholine hyperpolarize the reticular cells.",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 4027,
+            "text": "Whereas in specific relay nuclei,\nsuch as the dorsolateral geniculate nucleus (DLG),\nand in intralaminar nuclei, such as the parafascicular\nnucleus (PF), ACh may depolarize thalamocortical neurons\ndirectly, it hyperpolarizes the inhibitory neurons in\nthe reticular thalamic nucleus (Rt), with a consequent\ndisinhibition of the thalamocortical cells that brings them\ncloser to their firing threshold (McCormick and Prince,\n1986; Steriade, 2004).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1002/cne.21868",
+        "tags": [],
+        "version": "1"
+    }
+]
