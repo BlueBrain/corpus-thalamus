@@ -13,7 +13,24 @@
         },
         "parameters": [],
         "pubId": "10.1002/cne.21868",
-        "tags": [],
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "NIFGA:nlx_anat_1010",
+                "name": "Afferent role"
+            },
+            {
+                "id": "NIFMOL:sao185580330",
+                "name": "Acetylcholine"
+            }
+        ],
         "version": "1"
     }
 ]
