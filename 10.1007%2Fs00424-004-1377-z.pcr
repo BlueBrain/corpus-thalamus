@@ -1,0 +1,19 @@
+[
+    {
+        "annotId": "ae9d0c74-0af5-11e6-9abd-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Age of rats used for the evaluation of calcium-binding protein expression.",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 20395,
+            "text": "14-\nto 21-day-old rats",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1007/s00424-004-1377-z",
+        "tags": [],
+        "version": "1"
+    }
+]
