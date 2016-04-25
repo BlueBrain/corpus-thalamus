@@ -48,5 +48,27 @@
         "pubId": "10.1007/s00424-004-1377-z",
         "tags": [],
         "version": "1"
+    },
+    {
+        "annotId": "dbcb27d0-0af5-11e6-9abd-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "d9bd213c-0af5-11e6-9abd-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "location": 20472,
+            "text": "overall density of neurons in the dLGN\nof 5,434\u00b1326 cells/mm2",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1007/s00424-004-1377-z",
+        "tags": [],
+        "version": "1"
     }
 ]
