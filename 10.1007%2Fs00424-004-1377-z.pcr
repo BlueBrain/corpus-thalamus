@@ -135,5 +135,44 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "009c137c-0afa-11e6-89e6-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "CB : Calbindin-D28K",
+        "experimentProperties": [
+            {
+                "instanceId": "d9bd213c-0af5-11e6-9abd-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "location": 20721,
+            "text": "In dLGN\nslices, CB-immunoreactive cells were found at a density\nof 183\u00b141 cells/mm2 (n=3), indicating that about 3%\nof neurons in dLGN express CB. Among the CB-positive\nstructures small (soma diameter 8\u201312 lm) bipolar\ncells (Fig. 3A) and, to a much lesser extent, large (soma\ndiameter 15\u201325 lm) multipolar cells could be identified,\nmost likely representing interneurons and relay neurons,\nrespectively [21, 24, 48].",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1007/s00424-004-1377-z",
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFORG:nlx_organ_20081201",
+                "name": "Long Evans Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFORG:nlx_organ_20081201",
+                "name": "Long Evans Rat"
+            }
+        ],
+        "version": "1"
     }
 ]
