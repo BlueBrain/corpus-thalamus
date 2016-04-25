@@ -98,5 +98,31 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "9bd2c7e4-0aac-11e6-8acf-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 5453,
+            "text": "CaV 3.2 and CaV 3.3 are abundant in TRN regions ",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1073/pnas.1320572110",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFMOL:sao940366596",
+                "name": "Ion Channel"
+            }
+        ],
+        "version": "1"
     }
 ]
