@@ -20,5 +20,31 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "e7910cac-0aab-11e6-b95e-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 4849,
+            "text": "In vivo data suggest that TRN neurons are spindle pace- makers, because spindles can be generated in deafferented TRN neurons (6) but disappear in TC regions after disconnection from TRN neurons (7).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1073/pnas.1320572110",
+        "tags": [
+            {
+                "id": "PATO:0000062",
+                "name": "sleep pattern"
+            },
+            {
+                "id": "ERO:0000678",
+                "name": "in vivo electrophysiology recording"
+            }
+        ],
+        "version": "1"
     }
 ]
