@@ -146,5 +146,35 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "9f1c13e6-0aad-11e6-904d-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 10060,
+            "text": "The sleep spindle episodes in both CaV3.1+/+ and CaV3.1\u2212/\u2212 mice exhibited a characteristic waxing-and-waning pattern and typical recurring sequences (Fig. 1A) that met the stereotypical criteria for sleep spindles",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1073/pnas.1320572110",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "ERO:0001337",
+                "name": "electroencephalography"
+            },
+            {
+                "id": "ERO:0000499",
+                "name": "electromyography"
+            }
+        ],
+        "version": "1"
     }
 ]
