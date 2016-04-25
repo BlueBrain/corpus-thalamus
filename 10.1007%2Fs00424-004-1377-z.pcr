@@ -46,7 +46,12 @@
             }
         ],
         "pubId": "10.1007/s00424-004-1377-z",
-        "tags": [],
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            }
+        ],
         "version": "1"
     },
     {
