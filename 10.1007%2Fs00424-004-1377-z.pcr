@@ -98,6 +98,14 @@
                                     "values": [
                                         326
                                     ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        6
+                                    ]
                                 }
                             ]
                         }
