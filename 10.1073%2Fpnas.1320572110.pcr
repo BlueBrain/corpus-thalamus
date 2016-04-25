@@ -176,5 +176,35 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "813aa136-0aae-11e6-a844-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 11612,
+            "text": "Both tonic and burst spikes were observed in CaV3.1+/+ TC cells, whereas only tonic spikes were detected in CaV3.1\u2212/\u2212 TC cells (Fig. 3 A\u2013C)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1073/pnas.1320572110",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "ERO:0000678",
+                "name": "in vivo electrophysiology recording"
+            },
+            {
+                "id": "ERO:0001337",
+                "name": "electroencephalography"
+            }
+        ],
+        "version": "1"
     }
 ]
