@@ -244,6 +244,31 @@
                         "rootId": "sao1813327414"
                     }
                 ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-990304",
+                        "values": {
+                            "statistic": "max",
+                            "type": "simple",
+                            "unit": "ms",
+                            "values": [
+                                4
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "413e6df6-0ad9-11e6-93c5-c869cd917532",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
             }
         ],
         "pubId": "10.1073/pnas.1320572110",
