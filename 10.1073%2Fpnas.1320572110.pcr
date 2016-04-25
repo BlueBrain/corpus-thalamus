@@ -124,5 +124,27 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "e2d09464-0aac-11e6-9651-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 3255,
+            "text": "NREM sleep, which consists of multiple EEG components including slow waves (<1 Hz), delta waves (1\u20134 Hz), and sleep spindles (7\u201314 Hz)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1073/pnas.1320572110",
+        "tags": [
+            {
+                "id": "PATO:0000062",
+                "name": "sleep pattern"
+            }
+        ],
+        "version": "1"
     }
 ]
