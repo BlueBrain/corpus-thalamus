@@ -360,5 +360,78 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "533708c8-0ada-11e6-8a69-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "Firing frequency during nonspindle periods",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 12482,
+            "text": "vs. 0.73 \u00b1 0.16 Hz)",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-141002",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "Hz",
+                                    "values": [
+                                        0.73
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "Hz",
+                                    "values": [
+                                        0.16
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "87aa32a6-0ada-11e6-9317-c869cd917532",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1073/pnas.1320572110",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "ERO:0000678",
+                "name": "in vivo electrophysiology recording"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "ERO:0001337",
+                "name": "electroencephalography"
+            }
+        ],
+        "version": "1"
     }
 ]
