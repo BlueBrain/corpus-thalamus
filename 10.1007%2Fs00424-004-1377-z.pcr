@@ -213,5 +213,44 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "6001200a-0afa-11e6-89e6-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "PV: parvalbumin",
+        "experimentProperties": [
+            {
+                "instanceId": "d9bd213c-0af5-11e6-9abd-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "location": 22096,
+            "text": "Size and shape of PV-positive\ncells were typical of relay neurons (Fig. 3A). Analysis of\nPV expression in dLGN slices and thalamic cell cultures\n(data not shown) indicated that 79\u00b11% (a total of 1687\ncells were counted on seven different slides) of thalamic\ncells and 100% of cultured relay neurons (a total of 49\nrelay neurons were identified in 12 different cultures)\nwere PV positive, respectively.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1007/s00424-004-1377-z",
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFORG:nlx_organ_20081201",
+                "name": "Long Evans Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFORG:nlx_organ_20081201",
+                "name": "Long Evans Rat"
+            }
+        ],
+        "version": "1"
     }
 ]
