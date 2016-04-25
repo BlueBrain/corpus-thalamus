@@ -174,5 +174,44 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "28a9cc60-0afa-11e6-89e6-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "CR-labelled neurons were found at a density of 488\u00b132 cells/mm2 (n=3 slices), indicating that about 9% of dLGN neurons express CR. Size and shape of CR-positive cells were indicative of interneurons (Fig. 3A).\n\nCR: calretinin",
+        "experimentProperties": [
+            {
+                "instanceId": "d9bd213c-0af5-11e6-9abd-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "location": 21275,
+            "text": "CR-labelled\nneurons were found at a density of 488\u00b132 cells/mm2",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1007/s00424-004-1377-z",
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFORG:nlx_organ_20081201",
+                "name": "Long Evans Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFORG:nlx_organ_20081201",
+                "name": "Long Evans Rat"
+            }
+        ],
+        "version": "1"
     }
 ]
