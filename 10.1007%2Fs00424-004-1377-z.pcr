@@ -63,7 +63,7 @@
         "authors": [
             "oreilly"
         ],
-        "comment": "",
+        "comment": "From 60um thick slices",
         "experimentProperties": [
             {
                 "instanceId": "d9bd213c-0af5-11e6-9abd-64006a4c56ef",
@@ -75,7 +75,40 @@
             "text": "overall density of neurons in the dLGN\nof 5,434\u00b1326 cells/mm2",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131001",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "1/mm^2",
+                                    "values": [
+                                        5434
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "1/mm^2",
+                                    "values": [
+                                        326
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "01fbb77a-0af7-11e6-9abd-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": []
+            }
+        ],
         "pubId": "10.1007/s00424-004-1377-z",
         "tags": [
             {
