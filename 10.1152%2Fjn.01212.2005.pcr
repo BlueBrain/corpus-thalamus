@@ -1,0 +1,36 @@
+[
+    {
+        "annotId": "ebc2c5ce-0aed-11e6-a99f-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 1855,
+            "text": "TASK3 and HCN2 channels represent the dominant thalamic isoforms\nand are coexpressed in TC neurons",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1152/jn.01212.2005",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFMOL:nifext_3065",
+                "name": "HCN2"
+            }
+        ],
+        "version": "1"
+    }
+]
