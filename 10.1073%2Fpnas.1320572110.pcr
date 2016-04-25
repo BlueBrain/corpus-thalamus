@@ -46,5 +46,31 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "ff3a0f14-0aab-11e6-a9b5-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 5047,
+            "text": "However, in vitro data suggest that an intact TC-TRN network is a necessity, because spindles are abolished after disconnection of TC and TRN neurons (8).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1073/pnas.1320572110",
+        "tags": [
+            {
+                "id": "PATO:0000062",
+                "name": "sleep pattern"
+            },
+            {
+                "id": "ERO:0001172",
+                "name": "in vitro electrophysiology recording "
+            }
+        ],
+        "version": "1"
     }
 ]
