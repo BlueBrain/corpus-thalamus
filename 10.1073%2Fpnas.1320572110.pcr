@@ -206,5 +206,61 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "fa7da134-0ad8-11e6-a42b-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 11792,
+            "text": "Bursts were identified according to the conventional criteria (21), with a burst defined as a cluster of two or more spikes with interspike intervals of \u22644 ms, in which the first spike in the burst has a preceding interspike interval of >100 ms ",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-990010",
+                        "values": {
+                            "statistic": "min",
+                            "type": "simple",
+                            "unit": "dimensionless",
+                            "values": [
+                                2
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "1ff1cecc-0ad9-11e6-908a-c869cd917532",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1073/pnas.1320572110",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "ERO:0000678",
+                "name": "in vivo electrophysiology recording"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
     }
 ]
