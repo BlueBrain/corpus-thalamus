@@ -121,7 +121,7 @@
         "authors": [
             "oreilly"
         ],
-        "comment": "",
+        "comment": "We do not annotated the +/- 1 mV value because we could not find in the paper if it is a standard deviation or a standard error value.",
         "experimentProperties": [
             {
                 "instanceId": "4aa3da1a-0aee-11e6-a99f-64006a4c56ef",
