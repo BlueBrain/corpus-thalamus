@@ -127,8 +127,8 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:nifext_45",
-                        "name": "Thalamic reticular nucleus cell",
+                        "id": "NIFCELL:nlx_cell_20081203",
+                        "name": "Thalamus relay cell",
                         "rootId": "sao1813327414"
                     }
                 ]
@@ -143,6 +143,10 @@
             {
                 "id": "UBERON:0002733",
                 "name": "intralaminar nuclear group"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
             }
         ],
         "version": "1"
