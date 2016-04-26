@@ -72,5 +72,36 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "c9f375de-0bb4-11e6-843d-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "2",
+            "noCol": "6",
+            "noRow": "10",
+            "type": "table"
+        },
+        "parameters": [],
+        "pubId": "10.1016/j.mcn.2008.07.012",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1721",
+                "name": "Thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            }
+        ],
+        "version": "1"
     }
 ]
