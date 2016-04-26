@@ -1,0 +1,575 @@
+INSIGHTS | P E R S P E C T I V E S
+
+NEUROSCIENCE
+
+It takes the world to understand the brain
+By Z. Josh Huang1 and Liqun Luo2
+
+W
+
+rating, and sharing enormous data sets. And
+genome-wide mapping has identified genetic
+variants that contribute to a wide spectrum
+of human brain disorders.
+To better appreciate the challenges of
+understanding the brain, it is informative
+to compare the brain projects with the first
+large-scale international bioscience collaboration launched in late 1980s—the Human
+Genome Project. The Human Genome Project
+aimed to determine the complete sequence of
+
+e are on the verge of a fundamental leap toward understanding the
+human brain, and the implications
+for health and society are profound. Large-scale brain projects
+have been launched or are being
+planned in multiple continents and countries (1–4). In June, about 50 leading scientists from the United States, Europe, Japan,
+Korea, and China gathered in Suzhou, China (organized by Cold
+Spring Harbor Asia) to discuss
+Brain projects
+the opportunities and challenges
+BRAIN PROJECTS
+in brain research (5). The benefits
+of international coordination and
+U.S. BRAIN Initiative
+collaboration were recognized,
+and the discussions laid a foundation for future meetings aimed at
+fleshing out details related to speJapan Brain/MINDS
+cific goals.
+
+to, thousands of other neurons distributed
+over local and distant brain space, delineating the wiring diagram of these neurons
+(the connectome) alone is an immense challenge. Moreover, the connectome is not a
+static network; both the connectivity pattern
+and connection strengths change across life
+stages and are modified by an individual’s
+experience and learning. Furthermore, mapping the connectome is only one step toward
+understanding the brain—it is the dynamic
+firing of neuronal ensembles and
+their communication across local
+and global networks, which are laysummary
+ered onto the structural framework
+MAJOR GOALS AND FOCUS
+of the connectome, that generate
+perception, cognition, and action.
+•Tools to enable a brain cell census and for
+recording/modulating brain circuit
+activity linked to behavior
+•Multilevel brain data
+•New computational models and theory
+
+FRONTS.
+Neuroscientists
+largely agree that to achieve a deep
+understanding of how the brain
+•Nonhuman primate brain
+processes information and orches•Collaboration between clinicians and
+trates mental functions, substanresearchers toward knowledge-based
+diagnosis and treatment of brain disorders
+COMPLEXITY. The human brain
+tial progress is needed on at least
+is arguably the most complex ensix fronts: (i) identifying the basic
+Europe HBP
+•Big data integration and analysis
+tity in the known universe, and
+components of brain circuits—
+(Human Brain Project)
+•Computational modeling
+this complexity is best reflected
+classes of neurons that share simi•Mouse visual system
+Allen Institute for Brain
+by the fact that the brain strives
+lar properties and perform similar
+•Human cortex
+Science
+•Open, public, shared database and tools
+to understand itself—how its molfunctions (belong to the same cell
+ecules, cells, circuits, and systems
+types); (ii) deciphering the neuKorea Brain Project
+•Systems neuroscience of cognition and
+enable perception, cognition,
+ronal wiring diagrams integrated
+brain disorders
+•Neural circuits and brain imaging
+memory, emotion, thought, lanacross multiple scales, from indiguage, art, and contemplation of
+vidual synapses (microscopic) to
+China Brain
+•Neural circuitry of cognition
+Science Project
+•Brain disorders
+humanity’s place in the natural
+the entire brain (macroscopic); (iii)
+(in planning)
+•Brain-inspired intelligence technologies
+world. Inquiry into the origins
+recording the firing patterns—the
+of mental faculties and disorders
+common vocabulary of neuronal
+Brain Canada
+•Increased brain research funding
+•Collaboration related to brain disorders
+in the brain dates back to antiqcommunication—of large numuity (6). Since the formulation of
+bers of neurons across different
+Taiwan
+•Neurodegeneration
+the neuron doctrine and detailed
+brain regions while an animal or
+•Chronic pain
+structural studies by Ramón y
+human subject performs well-charAustralia
+•Collaboration with U.S. BRAIN
+Cajal more than a century ago (7),
+acterized behavioral or cognitive
+there has been great progress in
+tasks; (iv) manipulating neuronal
+understanding the cellular basis of
+firing patterns with spatiotempobrain organization and function. In the past
+the human genetic blueprint encrypted in ~3
+ral precision so as to establish the causality
+decade, technological advances in multiple
+billion nucleotides organized along 23 chrobetween neuronal activity and circuit funcdisciplines have accelerated that progress.
+mosomes. The genome is a largely static lintion that contributes to behavior; (v) inventNew tools for visualizing, recording, and maear sequence composed of just four discrete
+ing computational tools for integrating and
+nipulating neurons and neural circuits are
+nucleotides; the ~20,500 protein-encoding
+analyzing large and complex data sets; and
+enabling deeper insight into how the brain
+genes constitute 1 to 2% of this sequence. The
+(vi) formulating overarching brain theories
+processes information and guides behavior.
+project provided the foundation for an explothat transcend levels and scales, conceptualAdvances in computer science have exponension of biomedical research.
+ize experimental findings, and predict novel
+tially boosted the capacity for analyzing, cuThe human brain can be considered vastly
+circuit properties that underlie brain funcmore complex in multiple aspects. It contion. In addition, because most experiments
+11
+14
+tains
+~10
+neurons,
+linked
+by
+~10
+synaptic
+are performed in animal models, knowledge
+1
+Cold Spring Harbor Laboratory, Cold Spring Harbor, NY 11724,
+connections. As any one neuron on average
+gleaned from animal experiments must be inUSA. 2HHMI/Department of Biology, Stanford University, Stanford,
+CA 94305, USA. E-mail: huangj@cshl.edu; lluo@stanford.edu
+receives inputs from, and delivers outputs
+tegrated with insights gained from recording,
+
+42
+
+SIX
+
+sciencemag.org SCIENCE
+
+2 OCTOBER 2015 • VOL 350 ISSUE 6256
+
+Published by AAAS
+
+Downloaded from www.sciencemag.org on October 14, 2015
+
+International brain projects discuss how to coordinate efforts
+
+stimulating, and imaging the human brain to
+understand human mental functions and to
+treat brain disorders.
+
+GRAPHIC: C. SMITH/SCIENCE
+
+OVERVIEW OF PROJECTS. The current
+
+brain projects launched or planned in different countries have different emphases
+(see the table and figure). The U.S. BRAIN
+(Brain Research through Advancing Innovative Neurotechnologies) Initiative is now
+in the second year of a 12-year plan. Its initial phase emphasizes developing new tools
+that are expected to catalyze discoveries in
+later phases about neural circuit function
+in health and disease (1, 2). The European
+Union’s Human Brain Project (3), started
+in 2013 and financed by the Future Emerging Technologies Program of the European
+Community, focuses on large-scale computational modeling and building neuroinformatics standards for brain databases,
+and could benefit from data acquired
+from brain projects around the globe. Japan’s Brain/MINDS (Brain Mapping by
+Integrated Neurotechnologies for Disease
+Studies) project (4), launched at the end
+of 2014, features primates—in particular,
+the marmoset, a relatively new genetic
+primate model—for basic research and
+for modeling human brain disorders.
+Brain Canada was announced this year,
+supporting collaborative, multidisciplinary, multi-institutional neuroscience research. Korea also just started its
+brain project on the systems neuroscience
+of cognition and brain disorders, with emphasis on neural circuits and brain imaging. China has yet to officially announce
+its brain project, but discussions are well
+under way, and its scope will likely include neural circuits of cognition, brain
+disorders, and brain-inspired intelligence
+technologies. Nonhuman primate studies
+including the macaque monkey, a longstanding model for neuroscience research,
+are likely to be part of China’s brain project.
+Taiwan is planning a modest-scale brain
+project on neurodegeneration and chronic
+pain, with emphasis on interdisciplinary
+studies and development of novel neurotechnologies. This year, Australia established a collaborative effort with the U.S.
+BRAIN Initiative. In addition to these government-funded brain projects, the Seattlebased, privately funded Allen Institute for
+Brain Science launched a 10-year brain circuit project that intends to create a system
+of publicly shared data and tools to study
+mouse and human visual systems.
+STANDARDIZATION. No single country or
+
+brain project alone is equipped with the
+collective intellectual, technological, financial, and human power needed to achieve
+
+the task of understanding the brain. The
+Suzhou discussions identified several areas
+where the needs for international coordination are particularly acute but likely to be
+high-yielding if particular strengths of the
+different brain projects are leveraged and
+standardization is implemented.
+Take the problem of cell type as an example. The brain consists of a large diversity of
+nerve cell types that serve as working units of
+widely distributed neural networks. Systematic identification and classification of this
+parts list is a prerequisite to mapping the
+wiring diagram, recording and manipulating
+cell type–specific activity, and deciphering
+circuit operations that underlie information
+processing and behavior. The recent convergence of neural developmental studies from
+invertebrates to mammals, as well as genetic
+
+cell types across multiple model organisms,
+including humans, should reveal common
+principles as well as key differences concerning the organization of the brain’s working
+units. With this parts list in hand, scientists
+can systematically establish experimental access to specific cell types, which will greatly
+facilitate and integrate multiple levels of neural circuit studies.
+Coordination and standardization of data
+(not to mention metadata acquisition, curation, and analysis) are more challenging in
+certain domains of neuroscience research
+such as neurophysiology and brain imaging.
+An extreme example is behavior, the final
+output of neural circuit operation and ultimate manifestation of brain function. Because behavior results from the integration
+of sensory inputs, brain states, and cogni-
+
+Funding characteristics
+U.S. BRAIN
+
+Japan Brain/MINDS
+
+Europe HBP
+
+Allen Institute for
+Brain Science
+
+Korea Brain Project
+
+12 years
+
+10 years
+
+10 years
+
+10 years
+
+10 years
+
+$100 million
+per year
+
+$30 million
+per year
+
+€ 1 billion total
+(~$1.1 billion)
+
+$50 to $80 million
+per year
+
+$50 million
+per year
+
+•Centralized at
+Riken Brain
+Science Institute
+•Decentralized
+participation by
+other universities
+and institutes
+
+•Centralized
+•Participating
+groups throughout
+Europe
+
+To ramp up to a
+total of ~$5 billion
+by 2025
+•Set strategic priorities
+•Initially decentralized
+funding of small
+groups of investigators
+•May include larger
+projects at a later phase
+
+and genomic technologies, has made it possible to systematically identify distinct cell
+types. Single-cell transcriptome profiling
+(quantitative determination of the expression levels of all genes) promises to refine
+cell type definition and enhance precision of
+genetic access to individual cell types (using
+genetic tools to label, record, and manipulate
+activity in a cell type–specific manner). Thus,
+the cell type problem is fundamental and
+challenging, yet well-defined and solvable by
+leveraging the collective power of individual
+brain projects.
+What should be standardized in this context? Cell transcriptomes can be acquired
+with a defined format, deposited into a common database, and analyzed similarly to the
+genome data. Data sets on cell location, morphology, and projection patterns (locations
+in the brain where cells send information)
+can also be standardized. Comparisons of
+
+SCIENCE sciencemag.org
+
+•Funded by
+philanthropist
+Paul Allen
+•Recruits funding
+from the U.S.
+National Institutes
+of Health
+
+•Centralized at
+Korean Brain
+Research Institute,
+Institute of
+Brain Science, and
+Korean Institute
+of Science and
+Technology
+
+tive decision-making, and because it manifests as high-dimensional motor output, it
+is inherently complex and variable even in
+highly constrained experimental conditions,
+let alone more naturalistic paradigms. To
+understand the neural basis of behavior, scientists use many different and often highly
+specialized experimental designs to record
+and manipulate neuronal activities in different brain regions while animals or human
+subjects perform tasks of varying sophistication. Thus, not only the behavioral data
+themselves but also simultaneous recording
+and manipulation of neural activity can be
+difficult to standardize. Indeed, the Suzhou
+discussions included vigorous debate as to
+whether it is possible, or even beneficial, to
+standardize a few sets of agreed-upon behavioral paradigms for data acquisition and
+comparison across different labs, and for
+comparison across species.
+2 OCTOBER 2015 • VOL 350 ISSUE 6256
+
+Published by AAAS
+
+43
+
+INSIGHTS | P E R S P E C T I V E S
+
+different nations are needed that offer theofrastructure that makes sharing data among
+retical, computational, and experimental
+the brain projects feasible. But creating such
+courses. Another useful mechanism is to
+a system is a formidable task, and funding
+support sustained programs of exchange stuand personnel requirements are often undents among collaborating research groups
+derestimated. However, the benefits of data
+to learn specific experimental techniques or
+sharing make this an important issue. For
+data analysis tools.
+example, genetic data from human patients
+suffering from brain disorders can be shared
+FUNDING. Even in nations where brain projaround the globe; such data sharing thus
+ects are already ongoing, steady support is
+far has spurred the identification of genetic
+not guaranteed. For example, although the
+variants contributing to disorders such as
+working group of the U.S. BRAIN Initiative
+schizophrenia and autism (8–10). In 2005,
+has made specific, conservative budget recthe International Neuroinformatics Coordiommendations for 12 years, the actual fundnating Facility (INCF) was initiated by the
+ing requires congressional approval each
+Global Science Forum of the Organization
+year and is subject to short-term fluctuations
+for Economic Cooperation and Developof the political process. All brain projects at
+ment to help advance data reuse and represent are organized to primarily fund reproducibility in brain research through the
+search groups within individual countries or
+development of global
+a continent. Thus, innovastandards, best practices,
+tive funding strategies and
+tools, and infrastructure
+mechanisms are needed to
+(11). INCF and other simisupport international collar organizations may be
+laboration. Here, support
+best positioned to support
+from private organizations
+data sharing (as well as
+and philanthropists can
+draw partnerships among
+boost the brain projects.
+scientific, clinical, techniFor example, the Allen Incal, industrial, and fundstitute for Brain Science,
+ing arms).
+launched ~10 years ago,
+Human Connectome Project
+Another need is for
+has generated large data
+resource sharing. For exsets (such as murine gene
+ample, nonhuman primate research is highly
+expression and neuronal projection maps)
+valuable for disease biology but is expensive
+that have benefited the neuroscience commuand time-consuming, with associated ethical
+nity worldwide. Likewise, the Janelia Farm
+issues. Genetic engineering and genetic modResearch Campus of the Howard Hughes
+eling of human brain disorders in nonhuman
+Medical Institute, also established ~10 years
+primate models could greatly benefit from
+ago (focused on information-processing
+coordinating research on shared experimenprinciples in neural circuits and developing
+tal animals. Establishing international prinew tools), has made key contributions to
+mate centers as hubs for such collaborations
+the foundation of brain projects. The Simons
+could move this forward.
+Foundation launched a “Global Brain” collaboration for studies of population neural
+TRAINING. In response to the avalanche of
+data at cellular resolution and advanced stabig data on multiple scales, and in recognitistical modeling, and the Kavli Foundation
+tion of the extraordinary complexity of neuhas supported neuroscience centers and the
+ral circuits endowed with an abundance of
+initial discussion of the U.S. BRAIN project.
+feedback loops, there is a need to expand the
+Strategic collaborations that capitalize on the
+field of theory and computational modelunique expertise of small research groups on
+ing. Computational neuroscience provides a
+the one hand, and the high-throughput, large
+necessary bridge between neurobiology and
+data capacity of private research institutes on
+brain-inspired intelligence. In particular, the
+the other, may achieve milestone advances
+Suzhou discussions noted the importance
+that are not possible by working separately.
+of equipping a new generation of scientists
+Of course, continued and effective engagewith the knowledge and tools of multiple
+ment with the public is critical to gathering
+disciplines for exploring the brain. In parand maintaining support for brain projects.
+ticular, a consensus emerged that analyzing
+and conceptualizing large data sets from
+NEXT STEPS. The most important outcome
+brain projects will require talents that can
+of the Suzhou discussions is the unanimous
+better integrate experimental neuroscience
+agreement and enthusiasm that coordination
+with computational analyses, modeling, and
+of the world’s multiple brain projects is necestheory. To leverage brain projects at the insary and feasible, even though specific impleternational scale, “hybrid” interdisciplinary
+mentation mechanisms remain to be worked
+degree programs and training centers across
+out. In the formative period of genome se44
+
+quencing, a series of meetings including
+those organized by Cold Spring Harbor Laboratory profoundly shaped the foundation and
+international collaboration of the Human
+Genome Project. The success of this project
+has revolutionized biology and medicine and
+has produced exceptionally high returns on
+the investment (12). Unlike this and other
+large-scale national or international physics (e.g., CERN) and engineering programs
+(e.g., space programs), all characterized by
+well-defined goals and more definable strategies, a unique challenge for the brain projects is that the overarching goal may only be
+achieved by solving a large set of multifaceted and interrelated problems in multiple
+organisms (including humans), with highly
+interdisciplinary approaches carried out in
+many laboratories across the globe. There
+are few precedents for such a large-scale and
+highly sophisticated scientific endeavor. We
+envision that the discussions initiated in Suzhou will continue in future meetings as the
+national brain projects evolve. The collective
+success of these projects will be enormous: It
+will yield greater insight into the inner working of the human brain, often considered
+the last frontier of scientific inquiry; help
+to treat devastating brain disorders that are
+major burdens on current and future society;
+inspire brain-like computer design and intelligence technologies; spawn new industries
+and stimulate new economies; build foundational links from science to the humanities;
+and ultimately achieve a deeper understanding of what makes us human. ■
+REF ERENCES AND NOTES
+
+1. L. A. Jorgenson et al., Philos. Trans. R. Soc. London Ser. B
+370, 20140164 (2015).
+2. www.braininitiative.nih.gov/2025/BRAIN2025.pdf
+3. www.humanbrainproject.eu/
+4. http://brainminds.jp/en/overview/organization
+5. Cold Spring Harbor Asia Conference on International
+Brain Projects, 19 to 22 June 2015, Suzhou, China (see the
+supplement).
+6. Hippocrates, On the Sacred Disease (~400 C.E.); http://
+classics.mit.edu/Hippocrates/sacred.html.
+7. S. Ramón y Cajal, Histology of the Nervous System of Man
+and Vertebrates (Oxford Univ. Press, Oxford, 1995; translation of 1911 French version).
+8. Schizophrenia Working Group of the Psychiatric Genomics
+Consortium, Nature 511, 421 (2014).
+9. S. De Rubeis et al., Nature 515, 209 (2014).
+10. I. Iossifov et al., Nature 515, 216 (2014).
+11. www.incf.org
+12. http://battelle.org/docs/default-document-library/economic_impact_of_the_human_genome_project.pdf
+ACKNOWL EDGMENTS
+
+We thank all meeting participants (see the supplement) for
+their contributions to the discussion, and W. Newsome, T.
+Bonhoeffer, W. Koroshetz, S. Hyman, G. Buzsaki, and Y. Fregnac
+for comments. We acknowledge Suzhou Industrial Park for
+generously supporting the meeting.
+SUPPLEMENTARY MATERIALS
+
+www.sciencemag.org/content/350/6256/42/suppl/DC1
+Supplementary Text
+
+10.1126/science.aad4120
+
+sciencemag.org SCIENCE
+
+2 OCTOBER 2015 • VOL 350 ISSUE 6256
+
+Published by AAAS
+
+CREDIT: HUMAN CONNECTOME PROJECT/NIH
+
+SHARING. There is pressing need for an in-
+
+It takes the world to understand the brain
+Z. Josh Huang and Liqun Luo
+Science 350, 42 (2015);
+DOI: 10.1126/science.aad4120
+
+This copy is for your personal, non-commercial use only.
+
+If you wish to distribute this article to others, you can order high-quality copies for your
+colleagues, clients, or customers by clicking here.
+
+The following resources related to this article are available online at
+www.sciencemag.org (this information is current as of October 14, 2015 ):
+Updated information and services, including high-resolution figures, can be found in the online
+version of this article at:
+http://www.sciencemag.org/content/350/6256/42.full.html
+Supporting Online Material can be found at:
+http://www.sciencemag.org/content/suppl/2015/09/30/350.6256.42.DC1.html
+A list of selected additional articles on the Science Web sites related to this article can be
+found at:
+http://www.sciencemag.org/content/350/6256/42.full.html#related
+This article cites 4 articles, 1 of which can be accessed free:
+http://www.sciencemag.org/content/350/6256/42.full.html#ref-list-1
+This article appears in the following subject collections:
+Neuroscience
+http://www.sciencemag.org/cgi/collection/neuroscience
+
+Science (print ISSN 0036-8075; online ISSN 1095-9203) is published weekly, except the last week in December, by the
+American Association for the Advancement of Science, 1200 New York Avenue NW, Washington, DC 20005. Copyright
+2015 by the American Association for the Advancement of Science; all rights reserved. The title Science is a
+registered trademark of AAAS.
+
+Downloaded from www.sciencemag.org on October 14, 2015
+
+Permission to republish or repurpose articles or portions of articles can be obtained by
+following the guidelines here.
+
+
