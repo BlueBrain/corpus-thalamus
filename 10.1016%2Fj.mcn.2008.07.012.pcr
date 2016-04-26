@@ -78,7 +78,7 @@
         "authors": [
             "oreilly"
         ],
-        "comment": "",
+        "comment": "centrolateral nucleus of the intralaminar nuclei",
         "experimentProperties": [],
         "localizer": {
             "no": "2",
@@ -141,12 +141,8 @@
                 "name": "Rat"
             },
             {
-                "id": "NIFGA:birnlex_1721",
-                "name": "Thalamic reticular nucleus"
-            },
-            {
-                "id": "NIFCELL:nifext_45",
-                "name": "Thalamic reticular nucleus cell"
+                "id": "UBERON:0002733",
+                "name": "intralaminar nuclear group"
             }
         ],
         "version": "1"
