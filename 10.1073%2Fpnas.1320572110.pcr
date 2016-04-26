@@ -433,5 +433,74 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "8fed65b4-0b6b-11e6-a7fe-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 18445,
+            "text": "We found no differences between CaV3.1+/+ (n = 12) and CaV3.1\u2212/\u2212 (n = 14) TC neurons in membrane capacitance (141.2 \u00b1 15.6 pF vs. 137.4 \u00b110.5 pF), resting membrane potential (\u221259.11 \u00b1 5.34 mV vs. \u221257.54 \u00b1 6.31 mV), or membrane resistance (219.5 \u00b1 48.2 M\u03a9 vs. 175.4 \u00b1 38.2 M\u03a9).",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-040001",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "pF",
+                                    "values": [
+                                        141.2
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "pF",
+                                    "values": [
+                                        15.6
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "ec5eb640-0b6b-11e6-9ca0-c869cd917532",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamocortical cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1073/pnas.1320572110",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "ERO:0001685",
+                "name": "patch clamp technique"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
     }
 ]
