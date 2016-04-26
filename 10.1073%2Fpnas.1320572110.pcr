@@ -578,5 +578,31 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "c5ebe8c8-0b6d-11e6-b848-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 24670,
+            "text": "CaV3.3 T-type channels abundantly expressed in TRN found ",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1073/pnas.1320572110",
+        "tags": [
+            {
+                "id": "NIFMOL:sao940366596",
+                "name": "Ion Channel"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            }
+        ],
+        "version": "1"
     }
 ]
