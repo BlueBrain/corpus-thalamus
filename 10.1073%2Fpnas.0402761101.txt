@@ -1,0 +1,545 @@
+Prolonged hyperpolarizing potentials precede spindle
+oscillations in the thalamic reticular nucleus
+Pablo Fuentealba, Igor Timofeev, and Mircea Steriade*
+Laboratoire de Neurophysiologie, Faculte´ de Me´decine, Universite´ Laval, QC, Canada G1K 7P4
+Edited by Rodolfo R. Llina´s, New York University Medical Center, New York, NY, and approved May 19, 2004 (received for review April 19, 2004)
+
+The thalamic reticular (RE) nucleus is a key structure in the generation of spindles, a hallmark bioelectrical oscillation during early
+stages of sleep. Intracellular recordings of RE neurons in vivo
+revealed the presence of prolonged hyperpolarizing potentials
+preceding spindles in a subgroup (30%) of neurons. These hyperpolarizations (6 –10 mV) lasted for 200 –300 ms and were present
+just before the onset of spontaneously occurring spindle waves.
+Corticothalamic volleys also were effective in generating such
+hyperpolarizations followed by spindles in RE neurons. A drop of
+up to 40% in the apparent input resistance (Rin) was associated
+with these hyperpolarizing potentials, suggesting an active process rather than disfacilitation. Accordingly, the reversal potential
+was approximately ؊100 mV for both spontaneous and cortically
+elicited hyperpolarizations, consistent with the activation of slow
+K؉ conductances. QX-314 in the recording pipettes decreased both
+the amplitude and incidence of prolonged hyperpolarizations,
+suggesting the participation of G protein-dependent K؉ currents in
+the generation of hyperpolarizations. Simultaneous extracellular
+and intracellular recordings in the RE nucleus demonstrated that
+some RE neurons discharged during the hyperpolarizations and,
+thus, may be implicated in their generation. The prolonged hyperpolarizations preceding spindles may play a role in the transition
+from tonic to bursting firing of RE neurons within a range of
+membrane potential (؊60 to ؊65 mV) at which they set favorable
+conditions for the generation of low-threshold spike bursts that
+initiate spindle sequences. These data are further arguments for
+the generation of spindles within the thalamic RE nucleus.
+
+S
+
+pindles (7–15 Hz) are a hallmark oscillation during early
+sleep states. During the past two decades, a series of studies
+have demonstrated that spindles are generated within the thalamic reticular (RE) nucleus, which is uniquely composed of
+neurons using ␥-aminobutyric acid (GABA) as neurotransmitter. Spindles are transferred to the cerebral cortex through the
+interactions between RE and thalamocortical neurons. Thus,
+experimental evidence has shown that spindles are abolished in
+thalamocortical systems after lesions of RE neurons or transections separating them from thalamocortical neurons (1) but
+survive in the RE nucleus deafferented from the dorsal thalamus
+and cerebral cortex (2). Computational studies agreed with the
+initiation of spindle rhythmicity in the isolated RE nucleus (3–5)
+and suggested that, at relatively hyperpolarized levels of membrane potential (Vm), as is the case during slow-wave sleep, the
+inhibitory postsynaptic potentials (IPSPs) between RE neurons
+can be reversed, and GABAA-mediated depolarizing potentials
+can generate persistent spatio-temporal patterns in the RE
+nucleus (6). The transfer of spindles from the RE nucleus, which
+is devoid of cortical projections, to the cerebral cortex is caused
+by RE cells’ interactions with thalamocortical neurons (7–9).
+The mechanisms underlying spindle initiation in the RE
+nucleus are not completely elucidated. Our hypothesis (2)
+predicted that hyperpolarization of RE cells’ dendrites through
+dendrodendritic synapses of GABAergic RE neurons (10, 11)
+would deinactivate a low-threshold Ca2ϩ conductance, triggering
+a Ca2ϩ spike followed by GABA exocytosis and hyperpolarization in postsynaptic RE cells’ dendrites. The hyperpolarization
+in synaptically coupled dendrites was thought to initiate spindle
+9816 –9821 ͉ PNAS ͉ June 29, 2004 ͉ vol. 101 ͉ no. 26
+
+oscillation and to spread it to adjacent elements. In essence, any
+idea aiming at explaining the genesis of spindles in the isolated
+network of RE neurons implicates the possibility that active RE
+neurons would hyperpolarize adjacent neurons and create an
+avalanche spread of the oscillation within the nucleus, with
+ultimate implication of target thalamocortical neurons. The
+source for activating a set of RE neurons that would hyperpolarize adjacent and͞or more distant RE neurons may be any
+excitatory synaptic drive acting on these cells but primarily the
+neocortex, which is known for being particularly potent in
+triggering (12) and synchronizing (13) spindles.
+In the present experiments, by using intracellular recordings in
+vivo in the rostrolateral sector of the cat RE nucleus, we show the
+presence of spontaneous as well as cortically elicited prolonged
+hyperpolarizing potentials (PHPs) leading to the onset of spindle
+oscillations in a sample (30%) of RE neurons. These hyperpolarizations were associated with a decrease in the apparent input
+resistance (Rin), thus suggesting an active inhibition rather than
+disfacilitation. Extracellularly recorded RE neurons in the vicinity
+of the intracellularly recorded neurons showed that their firing was
+temporally related with the hyperpolarization leading to spindles.
+We propose that the prolonged hyperpolarizations are part of the
+mechanisms that initiate spindles within the RE nucleus.
+Methods
+Preparation. Experiments were performed on adult cats (2.5–3.5
+
+kg), anesthetized with pentobarbital (25 mg͞kg, i.p.). When the
+cats showed ocular and electroencephalogram (EEG) signs of
+deep anesthesia, the animals were paralyzed with gallamine
+triethiodide and artificially ventilated with control of the endtidal CO2 concentration at Ϸ3.5%. Body temperature was
+maintained at 36–38°C. The depth of anesthesia was monitored
+continuously by EEG, and additional doses of anesthetics were
+administered at the slightest tendency toward activated (lowvoltage and fast EEG) rhythms. At the end of experiments,
+animals were given a lethal dose of pentobarbital (50 mg͞kg).
+Recordings and Stimulation. Current–clamp intracellular recordings from thalamic RE and relay neurons were performed with
+glass micropipettes [direct current (DC) resistance, 30–60 M⍀].
+To avoid breaking of recording micropipettes, the cortex and
+white matter overlying the head of the caudate nucleus were
+removed by suction. The pipettes entered Ϸ3 mm through the
+caudate nucleus to reach the rostral pole or the rostrolateral
+sector of the thalamic RE nucleus. Pipettes generally were filled
+with 3 M solution of K-acetate and, in some experiments, with
+50 mM of QX-314 (Sigma). The stability of intracellular recordings was ensured by cisternal drainage, bilateral pneumothorax,
+hip suspension, and filling the hole over the thalamus with 4%
+
+This paper was submitted directly (Track II) to the PNAS office.
+Abbreviations: RE, thalamic reticular; Rin, apparent input resistance; GABA, ␥-aminobutyric
+acid; Vm, membrane potential; EEG, electroencephalogram; LTS, low-threshold spike; EPSP,
+excitatory postsynaptic potential; Vrev, reversal potential; PHP, prolonged hyperpolarizing
+potential; DC, direct current.
+*To whom correspondence should be addressed. E-mail: mircea.steriade@phs.ulaval.ca.
+© 2004 by The National Academy of Sciences of the USA
+
+www.pnas.org͞cgi͞doi͞10.1073͞pnas.0402761101
+
+agar solution. A high-impedance amplifier with active bridge
+circuitry was used to record and inject current inside the cells.
+Most intracellular recordings included in the database lasted for
+periods longer than 30 min.
+For simultaneous extracellular unit recordings, tungsten electrodes (10–15 M⍀; Frederick Haer, Bowdoinham, WA) were
+inserted through the caudate nucleus, 0.5–1 mm rostrolateral to
+the intracellular recording micropipette. RE neurons were recognized by their long (Ͼ50-ms) and typical accelerando–
+decelerando spike bursts in both intracellular and extracellular
+recordings (see Figs. 1 A and 5B).
+Electrical stimulation of corticothalamic fibers was performed
+by descending one or two bipolar stimulating electrodes to the
+internal capsule and applying current pulses (200 ␮s, 500–1,000
+␮A, 0.5–1 Hz).
+The Rin was estimated as follows. Synaptic responses evoked
+by stimulation of cortical areas or corticothalamic fibers were
+recorded under different levels of membrane polarization obtained by current injection through the pipette (from Ϫ1 to ϩ 1
+nA steady current). I–V curves were built by plotting the holding
+Vm against different levels of DC injected. Plots were made for
+multiple time intervals, generally in increments of 10 ms, before
+and after stimulation onset. For each plot, a linear function was
+fitted whose slope was considered to be the apparent Rin for that
+particular time interval (see Fig. 1C).
+Data Analysis. All data analysis was performed with IGOR PRO 4.0
+
+(WaveMetrics, Lake Oswego, OR). Values are expressed as
+mean Ϯ SD, and t tests were used to assess statistical differences,
+when necessary. Differences were considered as significant at
+P Ͻ 0.05.
+Results
+were able to generate spontaneously low-threshold spikes (LTSs)
+without current injection. The neuron depicted in Fig. 1A was
+recorded at a Vm of Ϫ79 mV and generated prolonged spike bursts
+(Ͼ50 ms; Fig. 1 A Inset) that occurred during spindle waves.
+A subgroup of the recorded RE neurons (32%; 10 of 31)
+displayed PHPs preceding spontaneously occurring spindle oscillations. One of those neurons is illustrated in Fig. 1 A and shows
+simultaneous occurrence of spindles in the EEG and intracellular
+recording. The neuron displayed prolonged hyperpolarizations
+before every single spindle sequence. Generally, however, hyperpolarizations preceded spindles in only Ϸ60% of cases (see below,
+Fig. 3D). The initial phase of the hyperpolarization was rather
+constant, but the late part was variable, because rebound activity in
+the network was evident as depolarizing events with different
+amplitudes in the intracellular recording (Fig. 1 A, arrowhead in
+superimposition). The activation of the hyperpolarization could be
+well fitted with a single exponential function (time constant, ␶ ϭ 36
+ms) and its duration was Ϸ300 ms (Fig. 1 A). The average ␶ for the
+activation of the hyperpolarization was 42 Ϯ 4.8 ms (n ϭ 5) and the
+duration was 200–300 ms (n ϭ 10).
+The hyperpolarizations favored the occurrence of bursting behavior in RE cells. The neuron in Fig. 1B was slightly depolarized
+with positive current injection through the pipette to induce continuous, tonic firing. This discharge pattern was present until the
+onset of spindle waves, when spontaneous membrane hyperpolarization was followed by robust bursting discharges. Therefore,
+hyperpolarization was able to switch the neuronal firing pattern
+from tonic to bursting, because it likely deinactivated the Ca2ϩdependent T-current (14–17) so that incoming inputs, probably
+excitatory postsynaptic potentials (EPSPs) of cortical or dorsal
+thalamic origin, could elicit LTSs. Then, the hyperpolarization is a
+mechanism for switching discharge patterns in RE neurons from
+tonic to bursting (Fig. 1B), thus contributing to generation of
+Fuentealba et al.
+
+Fig. 1. PHPs precede spontaneous and evoked spindle oscillations. Barbiturate
+anesthesia is depicted in this and all subsequent figures. (A Upper) EEG from
+motor cortex (area 4) and intracellular recording of RE neuron from the rostral
+pole of the nucleus. (Inset) Typical LTS burst of RE cell is expanded. (Lower Left)
+Superimposition of PHPs (n ϭ 5) shows constant activation phase followed by
+irregular late phase, frequently leading to rebound activities (arrowhead).
+(Lower Right) Averaged PHPs (n ϭ 20). Activation phase (first 100 ms) was fitted
+with a monoexponential function (␶ ϭ 36 ms). (B Left) Another RE neuron
+depolarized by steady current injection (ϩ0.5 nA) and displaying spontaneous
+PHPs. PHPs hyperpolarized Vm to Ϫ72 mV, where LTSs could be generated and
+spindles initiated. (Right) Expanded epochs showing PHPs. Arrowheads point to
+the onset of LTS responses. Traces are displaced for clarity. (C Left) Superimposed
+traces (n ϭ 3) showing responses to stimulation of cortical area 4 (same neuron as
+in A). In all cases a sequence of EPSP-PHP-spindle was generated. (Upper Right)
+Average (n ϭ 10) of early responses to cortical stimuli applied at resting Vm.
+(Lower Right) Time evolution of Rin during PHP. Each point represents the slope
+of linear fitting to the Vm–DC relation calculated for each time point in the
+graphic. In this and subsequent figures, asterisks mark PHPs.
+
+spindling. Plotting the amount of hyperpolarization necessary to
+reach the threshold of postinhibitory rebound spike bursts indicated
+that hyperpolarization is effective in controlling the transition from
+tonic to bursting discharges within a narrow band of Vm (Ϫ60 to
+Ϫ65 mV; data not shown).
+Previous studies have shown that electrical stimulation of
+appropriate neocortical areas or corticothalamic fibers is effecPNAS ͉ June 29, 2004 ͉ vol. 101 ͉ no. 26 ͉ 9817
+
+NEUROSCIENCE
+
+Spindle Oscillations May Be Preceded by Prolonged Hyperpolarizations in RE Cells. The intracellularly recorded RE neurons (n ϭ 31)
+
+Fig. 3. QX-314 decreased both the amplitude and incidence of PHPs. (A) RE
+neuron recorded under QX-314 (50 mM). During the first 5 min (control),
+spikes and PHP displayed normal amplitudes, which decreased after 45 min
+(QX-314). (B) Superimposed PHPs (n ϭ 6) from the neuron illustrated in A, in
+both conditions. (C) Averages (n ϭ 10) from PHPs at the beginning (control)
+and toward the end (QX-314) of the recording. (D) Amplitude and incidence
+of PHPs for both conditions. **, P Ͻ 0.05.
+Fig. 2. Voltage dependency of spontaneous PHPs is consistent with a Kϩ
+conductance. RE neuron displaying PHP and held at different Vm values by
+current injection in the pipette is shown. (A and B) A shows spindles and B
+shows expanded PHPs for the same periods. Values of injected current are
+indicated in B. (C) Estimation of the Vrev for spontaneous (Left) and evoked
+(Right) PHP for various neurons (n ϭ 5 in each plot). Solid line represents a
+linear fitting that predicts Vrevs of Ϫ103 mV and Ϫ101 mV for spontaneous and
+evoked PHPs, respectively.
+
+tive in generating spindle oscillations (12, 18). The same type of
+electrical stimulation also was able to induce hyperpolarizations
+preceding spindles in all tested neurons (n ϭ 5). In such cases,
+an initial EPSP preceded a prolonged hyperpolarization, which
+was followed by spindles (Fig. 1C). Averaged responses to
+corticothalamic stimulation demonstrated similar durations and
+amplitudes for spontaneous and evoked hyperpolarizations (Fig.
+1, compare panels A and C). Recent in vitro data also indicate
+that focal stimulation of cortical layer VI produces di- or
+polysynaptic inhibitory currents in RE neurons (19).
+During the prolonged hyperpolarizations, the apparent Rin of
+RE neurons could drop by 40% (32 Ϯ 12%, n ϭ 5; Fig. 1C Lower
+Right), suggesting it to be the result of active inhibition processes
+rather than disfacilitation in the network.
+Voltage Dependency of Prolonged Hyperpolarizations. To determine
+the voltage dependence of hyperpolarizations, different levels of
+Vm were attained in intracellular recordings by injecting steady
+current through the recording pipette. For each of such levels,
+the amplitude of hyperpolarizations was measured at the holding
+Vm. Fig. 2 shows a representative example where a RE neuron
+was studied by this procedure. Fig. 2 A displays the spindles that
+follow the spontaneous hyperpolarizations, marked by asterisks,
+whereas Fig. 2B shows expanded traces for hyperpolarizations at
+9818 ͉ www.pnas.org͞cgi͞doi͞10.1073͞pnas.0402761101
+
+different Vms. The hyperpolarization displayed higher amplitude
+as Vm was depolarized, which is consistent with the activation of
+inhibitory conductances. At more negative values of the Vm, the
+hyperpolarization became progressively smaller until it was
+virtually abolished around Ϫ100 mV to Ϫ105 mV (Fig. 2 A–C).
+The reversal potential (Vrev) was estimated by the extrapolation
+of a linear fitting to the I–V curve (Fig. 2C). Even though there
+was large variability in the voltage dependency of hyperpolarizations among different RE neurons, the Vrev remained similar
+in most cases (Vrev ϭ Ϫ103 Ϯ 4. 6 mV; n ϭ 5), a value similar
+to the expected Vrev for Kϩ in these cells (20, 21). Similar to the
+case of spontaneously occurring hyperpolarizations, the voltage
+dependency of evoked ones proved to be consistent with the
+activation of Kϩ conductances: such hyperpolarizations reversed
+at similar Vm values compared with spontaneously occurring
+ones (Vrev ϭ Ϫ101 Ϯ 2.7 mV; n ϭ 5) (Fig. 2C).
+Ionic Basis of Prolonged Hyperpolarizations. To elucidate some
+
+aspects of the ionic bases of prolonged hyperpolarizations,
+intracellular recordings were performed with the inclusion of
+QX-314 (50 mM) in the pipette. QX-314 is a blocker of multiple
+membrane conductances, including some Kϩ currents (see Discussion). In the three neurons recorded under QX-314, in which
+hyperpolarizations preceding spindles could be detected, both
+the amplitude and incidence of hyperpolarizations were decreased. During the initial period of recording (2–5 min), RE
+neurons displayed full action potentials coincident with spindle
+waves preceded by hyperpolarizations (Fig. 3A, control). As time
+elapsed (15–60 min), QX-314 blocked Naϩ currents and, thus,
+decreased the spikes’ amplitudes during spindles (Fig. 3A, QX314). Not only the action potentials but also the preceding
+hyperpolarizations were affected, showing decreased amplitudes
+Fuentealba et al.
+
+fluctuations, it displayed depolarizing potentials, likely EPSPs (Fig.
+4B) that occasionally led to the action potentials that preceded the
+hyperpolarization (see Fig. 4A). Electrical stimulation of corticothalamic fibers was effective in mimicking the spontaneous behavior as, on stimulation, EPSPs were evoked, followed by hyperpolarization and subsequent spindling (Fig. 4C).
+The occurrence of spontaneous hyperpolarizations heralded
+Ϸ60% of spindles recorded in RE neurons (Fig. 4D). However,
+in two RE neurons, such hyperpolarizations could be detected
+preceding every single spindle (see Fig. 1). On the other hand,
+evoked spindles always were preceded by hyperpolarizations
+(Fig. 4D) when corticothalamic fibers (Fig. 4C) or cortical areas
+(Fig. 1C) were stimulated. Only half of hyperpolarizations
+preceding spindles were initiated by an EPSP (Fig. 4D), suggesting that corticothalamic inputs are important for the generation of such hyperpolarizations but not obligatory.
+
+Fig. 4. Cortically evoked EPSP may precede PHPs. (A) RE neuron depolarized by
+steady current injection (ϩ0.3 nA) displayed single, tonic spikes preceding PHPs.
+(Left) Intracellular spindle. (Right) Three superimposed PHPs expanded. (B) Spontaneous fluctuations in Vm showed an EPSP (underlying single spike, as in A) when
+the cell was slightly hyperpolarized. (C) Corticothalamic stimulation could mimic
+the spontaneous sequence EPSP-PHP-spindle. (D) Summary for the recorded RE
+neurons displaying PHPs (n ϭ 10). Bars on the left indicate the proportion of
+spindles in each neuron that displayed PHPs (PHP; 57.2 Ϯ 16.7%), and bars on the
+right depict the fraction of those PHPs preceded by putative EPSPs (EPSP; 31.6 Ϯ
+18.4%). For each cell, the fraction was calculated from 30 to 50 spindle oscillations. Note that evoked spindles are always preceded by PHPs and EPSPs.
+
+(Fig. 3A, QX-314). Rebound activity occurring during the late
+part of hyperpolarizations also was affected by QX-314, displaying decreased incidence (Fig. 3B). Averages (n ϭ 10) of hyperpolarizations selected from initial (Fig. 3C, control) and late
+(Fig. 3C, QX-314) periods of recordings with QX-314 showed a
+2-fold decrease in amplitude of hyperpolarizations preceding
+spontaneous spindles (Fig. 3D).
+Prolonged Hyperpolarizations May Be Preceded by Cortically Elicited
+EPSPs. RE neurons occasionally fired single spikes just before the
+
+onset of prolonged hyperpolarizations. In Fig. 4A, a RE neuron was
+depolarized by current injection (ϩ0.3 nA) and discharged tonic
+spikes just before the onset of the PHP preceding spindles. When
+the same neuron was slightly hyperpolarized, because of membrane
+Fuentealba et al.
+
+cerebral cortex as a probable source for the generation of
+hyperpolarizations (see Figs. 1C and 4C), their direct origin
+within the RE nucleus remained to be determined because both
+thalamic and cortical inputs to RE neurons are glutamatergic,
+therefore excitatory in nature. To support the hypothesis of
+intra-RE origin of these PHPs, three pairs of simultaneous
+extracellular and intracellular recordings could be performed in
+the RE nucleus, to study local activities within the RE network
+during the hyperpolarizations preceding spindle oscillations.
+One of such paired recordings is depicted in Fig. 5, showing the
+intracellular activity of one RE neuron and extracellular activities of at least two RE units. In most cases, at least one
+extracellularly recorded unit fired before the onset of the
+intracellular spindles, the discharge being temporally related
+with the prolonged hyperpolarization heralding the spindle
+sequence in the intracellularly recorded neuron (Fig. 5 A and B).
+The hyperpolarizations preceding the first three spindle sequences in Fig. 5A were temporally associated with firing of one
+extracellularly recorded unit (a), whereas the last hyperpolarization was accompanied by firing of the second extracellularly
+recorded unit (b). These events are expanded in Fig. 5B.
+Autocorrelograms for action potentials showed that intracellular and both extracellular units presented oscillatory activity in
+the range of spindle activities (7–14 Hz), as seen by clear
+presence of secondary peaks at Ϯ 110 ms (Ϸ9 Hz, Fig. 5C). The
+crosscorrelation for spikes showed that both extracellularly
+recorded units fired in phase, usually one of them (b) preceding
+the firing of the other (a) (Fig. 5D). However, both units
+generally preceded the activity in the intracellular recording
+(Fig. 5C). Consistent with extracellular discharges preceding
+those in the intracellular recording, the extracellular recordings
+showed spiking activity at the beginning and throughout the
+prolonged hyperpolarizations (Fig. 5D). Therefore, the latter
+were correlated with action potential discharges in nearby
+and͞or distant locations in the RE nucleus, suggesting that these
+potentials may be locally generated within the RE network.
+Discussion
+We demonstrated the presence of a prolonged hyperpolarization
+that precedes spindle oscillations in one third of RE neurons.
+These hyperpolarizations (i) were detected in spontaneous spindle waves but also were induced by activation of corticothalamic
+projections, in which case they were preceded by EPSPs; (ii) were
+associated with decreased neuronal Rin, displayed Vrev around
+Ϫ100 mV, and were sensitive to intracellular QX-314, suggesting
+the implication of G protein-dependent Kϩ currents; (iii) may act
+as a switch between tonic and bursting discharge modes in RE
+neurons; and (iv) could have a local direct presynaptic origin,
+because of the discharges of other RE neurons.
+PNAS ͉ June 29, 2004 ͉ vol. 101 ͉ no. 26 ͉ 9819
+
+NEUROSCIENCE
+
+Network Operations in the RE Nucleus During Hyperpolarizations
+Preceding Spindles. Although the present evidence pointed to the
+
+Fig. 5. Distant RE neurons discharge during PHPs. (A) Simultaneous recording of intracellular (intra-cell) and extracellular (multi-unit) activities in the RE
+nucleus. Extracellular electrode was located Ϸ1 mm anterior to the intracellular electrode. Note the presence of two units in the extracellular recording
+(a and b). (B) Expanded traces from epochs in A, indicated by arrows. (Left) The
+first spindle sequence in A for both intra- and extracellular recordings. Note
+discharge of one unit (a) during PHP, preceding spindles. (Right) The last
+spindle sequence in A. Note the second unit (b) firing during PHP. Bottom
+traces depict typical accelerando– decelerando bursts for both units, which
+identify them as RE neurons. (C) Autocorrelograms and crosscorrelograms of
+action potentials for intracellular and extracellular recordings. Bin size is 1 ms
+and 5 ms for autocorrelograms and crosscorrelograms, respectively. (D) Five
+superimposed traces showing PHPs (Left) and correlated discharge in both
+units (Right) for the same period. Time 0 was set at the peak of depolarizing
+potentials preceding PHPs. Bin size is 10 ms.
+
+Both spontaneously occurring and evoked hyperpolarizations
+produced a significant drop in the Rin of RE neurons, suggesting the
+involvement of active conductances. Therefore, disfacilitation, like
+that occurring in cortical (22) and thalamic (23) neurons during the
+slow oscillation in natural sleep or anesthesia, can be discarded as
+a possible mechanism underlying the prolonged hyperpolarizations
+leading to spindles in RE neurons. The Vrev (around Ϫ100 mV) of
+RE neurons’ hyperpolarization suggests the activation of Kϩ conductances (20, 21). The Vrev for GABAA-mediated inhibitory
+postsynaptic potentials in RE cells was estimated at Ϫ70 mV (6, 24,
+25). At that range of Vm, the hyperpolarization preceding spindles
+displayed significant amplitude, thus discarding the role of
+GABAA-mediated inhibitory postsynaptic potentials in their generation. Moreover, the I–V relation for this hyperpolarization was
+linear for a large range of Vm values (Ϫ100 mV to Ϫ50 mV),
+implying a very small contribution, if any, of GABAA-mediated
+9820 ͉ www.pnas.org͞cgi͞doi͞10.1073͞pnas.0402761101
+
+potentials at Vm more depolarized than Ϫ70 mV. QX-314 in the
+pipette decreased both their amplitude and incidence, consistent
+with the activation of Kϩ conductances during the prolonged
+hyperpolarizations. QX-314 affects a wide range of membrane
+conductances, including the blockade of fast and persistent Naϩ
+currents (26), low- and high-voltage activated Ca2ϩ currents (27),
+Kϩ currents (28, 29), and hyperpolarization-activated currents (30).
+It is unlikely that depolarizing (Ca2ϩ and Naϩ) currents are
+implicated in the genesis of the prolonged hyperpolarizations. On
+the other hand, it has been shown that QX-314 also blocks G
+protein-activated, inwardly rectifying Kϩ channels (31). This opens
+the possibility that the prolonged hyperpolarization in RE neurons
+is an inhibitory potential activated by G protein coupled to second
+messenger cascades (32). Candidates for such an effect are GABAB
+receptors (21) as well as peptidergic receptors for somatostatin (33)
+and neuropeptide Y (34), which are expressed by RE neurons (35,
+36) and may initiate second-messenger cascades that end up in the
+activation of G protein-activated, inwardly rectifying Kϩ channels
+(32, 37, 38). The case of GABAB receptors might be controversial,
+because in vitro experiments have shown that young rodents express
+very little GABAB postsynaptic responses in RE neurons (21).
+However, those experiments did not assess a critical point, that is,
+how much GABAB conductance is activated during thalamic
+oscillations when large populations of neurons fire in synchrony (13,
+18). And experiments in ferret slices have shown that GABAB
+responses to glutamate applied in the perigeniculate sector of the
+RE nucleus are not so small, as the rebound spike bursts were
+blocked by an antagonist of GABAB receptors (39). Therefore, the
+possibility that the RE nucleus expresses a significant GABAB
+response during spindle oscillations cannot be discarded. Because
+we cannot determine the precise ionic bases of prolonged hyperpolarizations preceding spindles in RE neurons, we suggest that at
+least some of the above-mentioned receptors for GABA, somatostatin, and neuropeptide Y may trigger these hyperpolarizations.
+Experimental evidence and computational models have
+shown that soma and dendrites of RE neurons are electrically
+compartmentalized (40) and, because the RE cells’ soma must
+be strongly hyperpolarized to generate LTSs (41), the T-current
+is located in dendrites (16, 40). A similar reasoning suggests that
+the hyperpolarizations preceding spindles may have a dendritic
+origin because, in some cases, strong soma depolarization did not
+increase their amplitude but abolished them, leaving instead a
+low-frequency discharge period (data not shown). Indeed, G
+protein-activated, inwardly rectifying Kϩ channels (31) may
+mediate dendritic hyperpolarizations (34).
+The simultaneous intra- and extracellular recordings in the
+present experiments demonstrated that some RE neurons fire
+spike bursts that were temporally related to the hyperpolarizations in adjacent neurons. These data suggest that some
+hyperpolarizations leading to spindles are generated within the
+RE nucleus. Because corticothalamic excitatory volleys also
+could elicit such hyperpolarizations and knowing the propensity of cortex to evoke spindling (12, 13, 18), we propose that
+firing in some cortical neuronal pools may excite RE neurons,
+generating EPSPs and, in some cases, LTSs crowned by spike
+bursts, which would generate prolonged hyperpolarizations in
+adjacent and͞or distant RE neurons. There is indeed evidence
+for both dendrodendritic (10, 11) and axoaxonic synapses
+(42), which mediate inhibitory interactions in the RE nucleus
+(25, 39).
+In sum, the present demonstration of prolonged hyperpolarizations leading to spindles and generated locally in the RE
+nucleus is in keeping with the proposal that spindles are initiated
+in the pacemaking RE nucleus (2, 7, 43).
+This work was supported by Grants MT-3689, MOP-36545, and MOP37862 from the Canadian Institutes for Health Research and by the
+Human Frontier Science Program.
+Fuentealba et al.
+
+20.
+21.
+22.
+23.
+24.
+25.
+26.
+27.
+28.
+29.
+30.
+31.
+32.
+33.
+34.
+35.
+36.
+37.
+38.
+39.
+40.
+41.
+42.
+43.
+
+Huguenard, J. R. & Prince, D. A. (1994) J. Neurosci. 14, 5485–5502.
+Ulrich, D. & Huguenard, J. R. (1996) J. Physiol. (London) 493, 845–854.
+Steriade, M., Timofeev, I. & Grenier, F. (2001) J. Neurophysiol. 85, 1969–1985.
+Contreras, D., Timofeev, I. & Steriade, M. (1996) J. Physiol. (London) 494,
+251–264.
+Zhang, S. J., Huguenard, J. R. & Prince, D. A. (1997) J. Neurophysiol. 78,
+2280–2286.
+Shu, Y. & McCormick, D. A. (2002). J. Neurophysiol. 87, 2571–2576.
+Crill, W. E. (1996) Annu. Rev. Physiol. 58, 349–362.
+Talbot, M. J. & Sayer, R. J. (1996) J. Neurophysiol. 76, 2120–2124.
+Svoboda, K., Denk, W., Kleinfeld, D. & Tank, D. W. (1997) Nature 385,
+161–165.
+Pare´, D. & Lang, E. J. (1998) Eur. J. Neurosci. 10, 3164–3170.
+Perkins, K. L. & Wong, R. K. (1995) J. Neurophysiol. 73, 911–915.
+Andrade, R. (1991) Eur. J. Pharmacol. 199, 259–262.
+Hille, B. (1994) Trends Neurosci. 17, 531–536.
+Sun, Q. Q., Huguenard, J. R. & Prince, D. A. (2002) J. Neurosci. 22, 5374–5386.
+Sun, Q. Q., Huguenard, J. R. & Prince, D. A. (2001) J. Physiol. (London) 531,
+67–79.
+Graybiel, A. M. & Elde, R. P. (1983) J. Neurosci. 3, 1408–1321.
+Bendotti, C., Hohmann, C., Forloni, G., Reeves, R., Coyle, J. T. & OsterGranite, M. L. (1990) Dev. Brain Res. 53, 26–39.
+Dolphin, A. C. (1998) J. Physiol. (London) 506, 3–11.
+Yamada, M., Inanobe, A. & Kurachi, Y. (1998) Pharmacol. Rev. 50, 723–760.
+Sanchez-Vives, M. V., Bal, T. & McCormick, D. A. (1997) J. Neurosci. 17,
+8894–8908.
+Destexhe, A., Contreras, D., Steriade, M., Sejnowski, T. J. & Huguenard, J. R.
+(1996) J. Neurosci. 16, 169–185.
+Mulle, C, Madariaga, A. & Descheˆnes, M. (1986) J. Neurosci. 16, 2134–2145.
+Pinault, D., Smith, Y. & Descheˆnes, M. (1997) J. Neurosci. 17, 3215–3233.
+Steriade, M., Jones, E. G. & Llina´s, R. R. (1990) Thalamic Oscillations and
+Signaling (Wiley Interscience, New York).
+
+NEUROSCIENCE
+
+1. Steriade, M., Descheˆnes, M., Domich, L. & Mulle, C. (1985) J. Neurophysiol.
+54, 1473–1497.
+2. Steriade, M., Domich, L., Oakson, G. & Descheˆnes, M. (1987) J. Neurophysiol.
+57, 260–273.
+3. Wang, X. J. & Rinzel, J. (1993) Neuroscience 53, 899–904.
+4. Destexhe, A., Contreras, D., Sejnowski, T. J. & Steriade, M. (1994) J. Neurophysiol. 72, 802–818.
+5. Bazhenov, M., Timofeev, I., Steriade, M. & Sejnowski, T. J. (2000) J. Neurophysiol. 84, 1076–1087.
+6. Bazhenov, M., Timofeev, I., Steriade, M. & Sejnowski, T. J. (1999) Nat.
+Neurosci. 2, 168–174.
+7. Steriade, M., McCormick, D. A. & Sejnowski, T. J. (1993) Science 262,
+679–685.
+8. Von Krosigk, M., Bal, T. & McCormick, D. A. (1993) Science 261, 361–364.
+9. Bal, T., von Krosigk, M. & McCormick, D. A. (1995) J. Physiol. (London) 483,
+665–685.
+10. Yen, C. T., Conley, M., Hendry, S. H. C. & Jones, E. G. (1985) J. Neurosci. 5,
+2254–2268.
+11. Descheˆnes, M., Madariaga-Domich, A. & Steriade, M. (1985) Brain Res. 334,
+165–168.
+12. Steriade, M., Wyzinski, P. & Apostol, V. (1972) in Corticothalamic Projections
+and Sensorimotor Activities, eds. Frigyesi, T. L., Rinvik, E. & Yahr, M. D.
+(Raven, New York), pp. 221–272.
+13. Contreras, D., Destexhe, A., Sejnowski, T. J. & Steriade, M. (1996) Science 274,
+771–774.
+14. Llina´s, R. R. (1988) Science 242, 1654–1664.
+15. Llina´s, R. R. & Geijo-Barrientos, E. (1988) in Cellular Thalamic Mechanisms,
+eds. Bentivoglio, M. & Spreafico, R. (Elsevier, Amsterdam), pp. 23–33.
+16. Huguenard, J. R. (1996) Annu. Rev. Physiol. 58, 329–348.
+17. Gentet, L. J. & Ulrich, D. (2003) J. Physiol. (London) 546, 801–811.
+18. Contreras, D. & Steriade, M. (1996) J. Physiol. (London) 490, 159–179.
+19. Zhang, L. & Jones, E. G. (2004) J. Neurophysiol. 91, 759–766.
+
+Fuentealba et al.
+
+PNAS ͉ June 29, 2004 ͉ vol. 101 ͉ no. 26 ͉ 9821
+
+
