@@ -1,0 +1,1019 @@
+Downloaded from rsta.royalsocietypublishing.org on October 30, 2014
+
+Neural field dynamics with local and global
+connectivity and time delay
+Viktor K Jirsa
+Phil. Trans. R. Soc. A 2009 367, doi: 10.1098/rsta.2008.0260, published 28
+March 2009
+
+References
+
+This article cites 36 articles, 3 of which can be accessed free
+
+http://rsta.royalsocietypublishing.org/content/367/1891/1131.ful
+l.html#ref-list-1
+Article cited in:
+http://rsta.royalsocietypublishing.org/content/367/1891/1131.full.html#
+related-urls
+
+Subject collections
+
+Articles on similar topics can be found in the following
+collections
+applied mathematics (151 articles)
+
+Email alerting service
+
+Receive free email alerts when new articles cite this article - sign up
+in the box at the top right-hand corner of the article or click here
+
+To subscribe to Phil. Trans. R. Soc. A go to:
+http://rsta.royalsocietypublishing.org/subscriptions
+
+Downloaded from rsta.royalsocietypublishing.org on October 30, 2014
+
+Phil. Trans. R. Soc. A (2009) 367, 1131–1143
+doi:10.1098/rsta.2008.0260
+Published online 16 February 2009
+
+Neural ﬁeld dynamics with local and global
+connectivity and time delay
+B Y V IKTOR K. J IRSA *
+Theoretical Neuroscience Group, Movement Science Institute, UMR 6233,
+CNRS, 13288 Marseille, France
+Spatially continuous networks with heterogeneous connections are ubiquitous in biological
+systems, in particular neural systems. To understand the mutual effects of locally
+homogeneous and globally heterogeneous connectivity, we investigate the stability of the
+rest-state activity of a neural ﬁeld as a function of its connectivity. The variation of the
+connectivity is operationalized through manipulation of a heterogeneous two-point
+connection embedded into the otherwise homogeneous connectivity matrix, as well as by
+variation of connectivity strength and a ﬁnite transmission speed. The latter results in a
+time delay of communication among individual brain areas. We demonstrate that the local
+connectivity generates the well-known power-law behaviour of the electroencephalographic power spectrum with an exponent close to K2, whereas the global connections
+generate a more characteristic line spectrum. These spectral characteristics are routinely
+observed in large-scale topographies of the human brain.
+Keywords: neural ﬁeld; connectivity; power-law behaviour; rest state; delay;
+transmission speed
+
+1. Introduction
+Large-scale neural network models are thought to be involved in the
+implementation of cognitive function of the brain (Bressler 1995, 2002, 2003;
+Bullmore et al. 1996; Mesulam 1998; Mountcastle 1998; McIntosh 2000; Bressler &
+Kelso 2001; Jirsa 2004; Bressler & Tognoli 2006; Bressler & McIntosh 2007). In
+particular, peripheral areas are more functionally differentiated, whereas the
+ensuing cognitive integration appears to require more global network activations.
+The properties of the global network dynamics will then naturally depend on the
+large-scale, i.e. global, connectivity of the network components, as well as their
+local connectivity and dynamics (Sporns & Tononi 2002, 2007; Sporns 2003;
+Jirsa 2004; Beggs et al. 2007). So far, theoretical efforts have focused almost
+exclusively on the study of networks with discretely connected nodes and
+complicated connectivity, but simple local dynamics, in which all neural activity is
+lumped into a single neural mass (Lopes da Silva et al. 1974; Freeman 1975; van
+Rotterdam et al. 1982; Tagamets & Horwitz 1998; David & Friston 2003; Jirsa &
+Ding 2004; Campbell et al. 2006; see Ermentrout (1998) and Jirsa (2004)
+for reviews).
+*viktor.jirsa@univmed.fr
+
+1131
+
+This journal is q 2009 The Royal Society
+
+Downloaded from rsta.royalsocietypublishing.org on October 30, 2014
+
+1132
+
+V. K. Jirsa
+
+As an additional complication, large-scale brain networks will be affected by
+time delays via signal transmission along the connecting pathways. The time
+delays may reach up to 200 ms (Nunez 1995) for the human brain, which is on a
+similar time scale as human brain function and hence is not negligible. The
+space–time structure of the couplings, i.e. coupling strength between areas (space)
+and the time delay via transmission between areas (time), has speciﬁcally been
+shown to contribute to the emergence of spontaneous coherent ﬂuctuations in the
+resting brain (Ghosh et al. 2008a,b). Here, the authors used a biologically realistic
+primate connectivity matrix with time delays. The individual network nodes were
+neural population oscillators embedded into a network resting in its equilibrium
+state. Under the inﬂuence of noise, the network dynamics intermittently exhibited
+damped wave propagation, which was associated with the spatiotemporal waves
+observed in human brain imaging studies. The authors demonstrated that
+spatiotemporal correlations observed in functional magnetic resonance imaging
+are captured by the network model only when time delays are taken into account.
+These correlations reﬂect correlated oscillatory activity on ultra-slow scales, less
+than 0.1 Hz. On faster time scales, 10–500 ms, the neural activity displays
+irregular, though characteristic, rhythms captured by electroencephalography
+(EEG) and magnetoencephalography (MEG). Although the modelling study by
+Ghosh et al. (2008a,b) explains the generation of these rhythms and the dominant
+peaks in the power spectra, it entirely lacks the ubiquitous characteristic powerlaw behaviour of spectral power (see Buzsaki (2006) for a range of exponents).
+A possible explanation for the absence of this feature is the implementation of
+single neural oscillators as the network nodes rather than the more realistic
+spatially expanded neural ﬁelds of population activity. Neural ﬁelds describe the
+temporal change of neural activity on a local spatial scale, typically within a brain
+area (Wilson & Cowan 1972; Wilson et al. 1973; Amari 1977; Bressloff & Coombes
+1997; Atay & Hutt 2005; Hutt & Atay 2005; see Ermentrout (1998), Jirsa (2004)
+and Coombes (2005) for reviews). These approaches use a translationally
+invariant, so-called homogeneous, connectivity and also take time delays into
+consideration, which, however, given the small spatial extent of a brain area
+(as compared to the whole brain), play a smaller role.
+When considering large-scale brain dynamics as in the resting brain activity,
+or generally for all cognitive function, theoretical and analytical means must be
+developed that are speciﬁcally targeted to the properties of large-scale network
+dynamics integrating local and global contributions. Existing attempts so far
+include neural ﬁeld theories that approximate the large-scale components of the
+connectivity matrix as translationally invariant and exponentially decaying over
+space, but on a larger spatial scale than biologically realistic (Nunez 1974;
+Wright & Liley 1995; Jirsa & Haken 1996; Jirsa et al. 1997; Robinson et al. 1997;
+Breakspear 2004). These approaches have been successful in capturing various
+phenomena of large-scale brain dynamics, including characteristic EEG power
+spectra (Nunez 1974; Robinson et al. 1997), epilepsy (Breakspear et al. 2006) and
+MEG activity during sensorimotor coordination (Jirsa & Haken 1996; Jirsa et al.
+1997). No systematic investigation, however, has been performed so far to test
+the validity of the translationally invariant approximation. There are only a few
+recent studies exploring the effects of global connecting pathways upon the local
+dynamics of coupled brain areas (see Jirsa & Kelso 2000; Qubbaj & Jirsa 2007).
+In the current paper, we wish to focus upon the contributions of the local
+Phil. Trans. R. Soc. A (2009)
+
+Downloaded from rsta.royalsocietypublishing.org on October 30, 2014
+
+Neural ﬁeld dynamics
+
+1133
+
+connectivity to the large-scale dynamics of the entire network, in particular on
+its effects captured by the power spectrum. To do so, we identify a convenient
+mathematical representation for the network dynamics with a locally invariant
+(homogeneous) and globally variant (heterogeneous) architecture via a onedimensional spatiotemporally continuous integro-differential ﬁeld equation with
+space-dependent delay (following Jirsa & Kelso 2000; Qubbaj & Jirsa 2007). We
+demonstrate that the local connections contribute to the generation of spectral
+power-law behaviour with an exponent of K2, whereas the global connectivity is
+involved in the generation of the characteristic frequency peaks.
+2. Mathematical basis of neural ﬁeld dynamics
+Let j(x,t) be the neural ﬁeld capturing the population activity at time point t
+and position x. The dynamics of the neural ﬁeld can then be described by the
+following integro-differential equation:
+ð
+_
+jðx; tÞ ZKe jðx; tÞ C Whom ðjx K yjÞS ½jðy; tKjx K yj=cÞ dy
+G
+
+ð
+C
+G
+
+Whet ðx; yÞS ½jðy; tKjx Kyj=vÞ dy;
+
+ð2:1Þ
+
+where 1/eO02R represents the intrinsic time scale. The dot indicates the ﬁrst
+time derivative. The spatial domain of the neural ﬁeld is denoted by G, where
+x 2 GZ[0,L] and L is the spatial length of the neural ﬁeld. The homogeneous
+connectivity function, Whom(jxKyj), is translationally invariant. If the
+connectivity function does not have such properties, then we call it heterogeneous, Whet(x,y)sWhet(jxKyj). The parameters c and v are the propagation
+velocities through the homogeneous and heterogeneous connections, respectively.
+(a ) Local homogeneous connectivity is translationally invariant
+For the moment, consider only the homogeneous connectivity term. By using
+the properties of delta functions, the system can be written as follows:
+ð
+ðN
+_
+jðx; tÞ ZKejðx; tÞ C dy Whom ðjx K yjÞ
+dT dðT Kt C jx K yj=cÞS ½jðy; TÞ:
+G
+
+KN
+
+ð2:2Þ
+By using the Green’s function method (Nunez 1995; Jirsa & Haken 1996; Jirsa
+et al. 1997), we write (2.2) as
+ð
+ðN
+_
+jðx; tÞ ZKejðx; tÞ C dy
+dT Gðx Ky; tKTÞS ½jðy; TÞ;
+ð2:3Þ
+G
+
+KN
+
+where G(xKy, tKT )ZWhom(jxKyj)d(tKTCjxKyj/c). Using Fourier transformations, G(xKy, tKT ) can be written as
+ðN
+ð
+1 N
+Gðx K y; tKTÞ Z
+dk
+duG~ ðk; uÞ expðikðx KyÞK iuðtKTÞÞ ð2:4Þ
+2p KN
+KN
+Phil. Trans. R. Soc. A (2009)
+
+Downloaded from rsta.royalsocietypublishing.org on October 30, 2014
+
+1134
+
+V. K. Jirsa
+
+and it follows for equation (2.3) that
+
+ ðN
+ðN
+1 v
+Ce
+dk
+du expðikx KiutÞJðk; uÞ
+2p vt
+KN
+KN
+ðN
+ðN
+ðN
+ð
+1
+~ uÞ
+Z
+dy dT
+dk
+du expðikðx KyÞKiuðtKTÞÞ Gðk;
+ð2pÞ2 G
+0
+KN
+KN
+ðN
+ðN
+0
+~ 0 ; u 0 Þ;
+dk
+du 0 expðik 0 yKiu 0 TÞSðk
+!
+KN
+
+ð2:5Þ
+
+KN
+
+where J(k,u), G~ ðk; uÞ and S~ ðk; uÞ are the Fourier transformations of the
+functions j(x,t), G(x,t), and S(x,t), respectively. Apply the time derivative and
+rearrange the terms to obtain
+ðN
+ðN
+dk
+du ðeKiuÞ expðik x KiutÞJðk; uÞ
+KN
+
+KN
+
+ðN
+ðN
+ð
+ðN
+1 N
+0
+~ 0 ; u0 Þ
+~
+Z
+dk
+du expðik x KiutÞGðk; uÞ
+dk
+du 0Sðk
+2p KN
+KN
+KN
+KN
+ð
+ðN
+! dy expðiyðk 0 KkÞÞ dT expðKiTðu 0 KuÞÞ:
+
+ð2:6Þ
+
+0
+
+G
+
+The last two integrals on the right-hand side (r.h.s.) are equivalent to 2pdðk 0 KkÞ
+and 2pdðu 0 KuÞ, respectively. Hence, equation (2.6) reduces to
+ðN
+ðN
+dk
+duðeKi uÞexpðikx K iutÞJðk; uÞ
+KN
+
+KN
+
+ðN
+
+ðN
+
+Z 2p
+
+dk
+KN
+
+du expðikx K iutÞG~ ðk; uÞS~ ðk; uÞ;
+
+ð2:7Þ
+
+KN
+
+or simply
+ðeK iuÞJðk; uÞ Z 2pG~ ðk; uÞ S~ ðk; uÞ:
+
+ð2:8Þ
+
+For concreteness, we compute G~ ðk; uÞ for the often used exponentially decaying
+connectivity function (Nunez 1974; Jirsa & Haken 1996; Jirsa et al. 1997):
+Whom ðjx K yjÞ Z
+
+1 KjxKyj=s
+;
+e
+2s
+
+ð2:9Þ
+
+where s represents the spatial width of the distribution. Then we obtain
+ð
+ðN
+1 L=2
+G~ ðk; uÞ Z
+dx
+dt Gðx; tÞ expðKikx C iutÞ
+2p KL=2
+KN
+Z
+
+1
+ð1 C isu=cÞ
+;
+2p ½ð1 C isu=cÞ2 C ðskÞ2 
+
+where xZxKy and tZtKT.
+Phil. Trans. R. Soc. A (2009)
+
+ð2:10Þ
+
+Downloaded from rsta.royalsocietypublishing.org on October 30, 2014
+
+1135
+
+Neural ﬁeld dynamics
+
+For short-range interactions, s/L, the dispersion relation G~ ðk; uÞ can be
+approximated as
+1
+ð1 C isu=cÞ
+1
+G~ ðk; uÞ Z
+z ð1K isu=cKs2 k 2 C/Þ;
+2
+2
+2p ½ð1 C isu=cÞ C ðskÞ  2p
+
+ð2:11Þ
+
+giving rise to a diffusion term s2k 2 for the lower orders of the expansion. Higher
+orders are indicated by the dots. The nearest-neighbour diffusive interaction is
+more evident when we return to the space–time domain and rewrite (2.1) as
+ð
+v2
+_
+jðx; tÞ ZKejðx; tÞ C D 2 jðx; tÞ C Whet ðx; yÞS ½jðy; tKjx K yj=vÞ dy; ð2:12Þ
+vx
+G
+where we absorbed the expression (1Cs/c) in the constants e; DZ s2 =ð1C is=cÞ
+and Whet. If the homogeneous interactions are of longer range, then higher orders
+of the spatial derivatives will be involved, resulting in terms as present in the
+Swift–Hohenberg equation (including a fourth-order spatial derivative; Swift &
+Hohenberg 1977). The latter is known to give rise to self-sustained spatial patterns
+that are thought to be involved in working memory.
+(b ) Neural ﬁelds with locally homogeneous and heterogeneous connectivity
+Assume the heterogeneous two-point connection, Whet(x,y), as follows:
+Whet ðx; yÞ Z
+
+2
+X
+
+mij dðx K xi ÞdðyK xj Þ;
+
+i sj;
+
+ð2:13Þ
+
+i;jZ1
+
+where mij 2R represents the coupling strength through the heterogeneous
+connection. Now, we can write equation (2.1) as
+ð
+_ tÞ ZKe jðx; tÞ C Whom ðjx KyjÞS ½jðy; tKjx Kyj=cÞ dy
+jðx;
+G
+
+C
+
+2
+X
+
+mij dðx K xi ÞS ½jðxj ; tKjx K xj j=vÞ:
+
+ð2:14Þ
+
+i;jZ1
+
+Our main interest is the study of the stability of the rest state of a cortical
+architecture with local and global connectivity. Hence we consider the linear
+stability of the ﬁxed point solution j0(x) with j_ 0 ðxÞZ 0. We perform a mode
+expansion of j(x,t) into a set of spatial basis functions {fk(x)},
+jðx; tÞ Z j0 ðxÞ C
+
+N
+X
+
+fk ðxÞxk ðtÞ;
+
+ð2:15Þ
+
+kZ0
+
+and ff†k ðxÞg is the adjoint set satisfying the biorthogonality condition
+ðL
+f†k ðxÞfl ðxÞ dx Z dkl ;
+
+ð2:16Þ
+
+0
+
+where dkl is the Kronecker delta function. In (2.15) xk(t) is the time-dependent
+amplitude related to the spatial basis function fk(x). Linearizing around j0(x),
+Phil. Trans. R. Soc. A (2009)
+
+Downloaded from rsta.royalsocietypublishing.org on October 30, 2014
+
+1136
+
+V. K. Jirsa
+
+Figure 1. One-dimensional continuous neural ﬁeld. The activity of the neural ﬁeld is described by
+j(x,t). Projections from x 1 to x 2, represented by f12(x,X )Zm12d(xKx 1)d(XKx 2), and vice versa,
+introduce a heterogeneity into the connectivity. Adapted from Qubbaj & Jirsa (2007). Copyright
+2007 by the American Physical Society.
+
+and using (2.15) in (2.14), we obtain
+N
+N ð
+X
+X
+dyWhom ðjx KyjÞfk ðyÞxk ðtKjx K yj=cÞ
+ðvt C eÞxk ðtÞfk ðxÞ Z
+kZ0
+
+kZ0
+
+C
+
+N X
+2
+X
+
+m~ij dðx K xi Þxk ðtKjx K xj j=vÞfk ðxj Þ:
+
+ð2:17Þ
+
+kZ0 i;jZ1
+
+Multiplying both sides by f†l ðxÞ and integrating over the whole space, we obtain
+ð
+N ð
+X
+ðvt C eÞxl ðtÞ Z
+dy dxWhom ðjx KyjÞf†l ðxÞfk ðyÞxk ðtKjx Kyj=cÞ
+kZ0 G
+
+C
+
+G
+
+N X
+2
+X
+
+mij f†l ðxi Þfk ðxj Þxk ðtKd=vÞ;
+
+ð2:18Þ
+
+kZ0 i;jZ1
+
+with dZjx 2Kx 1j. If we use the results given in (2.12), we can rewrite (2.14) as
+2
+2
+X
+_ tÞ ZKejðx; tÞ C D v jðx; tÞ C
+jðx;
+mij dðx K xi Þjðxj ; tKjx K xj j=vÞ: ð2:19Þ
+vx 2
+i;jZ1
+
+Equation (2.19) describes the linearized dynamics of the neural ﬁeld’s
+equilibrium state in the presence of local homogeneous and global heterogeneous
+pathways, and for sufﬁciently short local path length s. An illustration of its
+architecture is shown in ﬁgure 1.
+
+3. Neural ﬁelds with local diffusion and global two-point
+heterogeneous connections
+Consider a diffusively coupled neural ﬁeld with a heterogeneous connection at
+two points of the ﬁeld. Then the neural ﬁeld dynamics is determined by equation
+(2.19). If we set DZ0, the system reduces to that of two coupled oscillators
+described by the following delay differential equation:
+x_ i ðtÞ ZKe xi ðtÞ C mij xj ðtKtÞ;
+Phil. Trans. R. Soc. A (2009)
+
+ð3:1Þ
+
+Downloaded from rsta.royalsocietypublishing.org on October 30, 2014
+
+1137
+
+Neural ﬁeld dynamics
+6
+5
+4
+3
+2
+1
+
+U
+
+SU
+
+SU
+
+0
+5
+
+S
+0
+
+S
+
+5
+
+U
+0
+–5 –5
+
+Figure 2. Stability surface for the system of two coupled oscillators with delay at eZ0.1. The
+surface deﬁnes the minimal delay value as a function of the coupling strengths of the two
+heterogeneous connections. The region denoted by S shows the stable regions while U shows the
+regions where the system is always unstable. SU shows the regions where the system is unstable
+above the critical surface and stable below it.
+
+with i,jZ1,2, isj. The time-dependent amplitude of the i th oscillator is deﬁned
+by x i2R and the discrete time delay by t 2RC
+0 . Letting BZ(mij) be the coupling
+matrix, the system can be written in the vector/matrix form as
+_ ZKe xðtÞ C BxðtKtÞ:
+xðtÞ
+
+ð3:2Þ
+
+K1
+Following Jirsa & Ding (2004), we can decompose B according
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ to BZE LE,
+where L is the Jordan form with eigenvalues bZG m12 m21 and matrix E
+contains the corresponding eigenvectors e^. Multiplying (3.2) from the left with
+E we obtain
+_ ZKe ExðtÞ C LExðtK tÞ:
+E xðtÞ
+ð3:3Þ
+
+If we set the eigenmodes to uðtÞZ e^xðtÞ, equation (3.3) reduces to a decoupled
+representation of the dynamics of the system in terms of the eigenmodes as follows:
+_ ZKe uðtÞ C buðtKtÞ:
+uðtÞ
+
+ð3:4Þ
+
+The stability properties of the above one-dimensional delay differential equation
+have been widely studied. Assuming a solution of the form u(t)Zelt, l2C, the
+stability condition is determined by the following characteristic equation:
+H ðlÞ Z l C eKbe Klt Z 0:
+
+ð3:5Þ
+
+Notice that any solution of (3.4) satisfying Re[l]!0 is stable and when Re[l]
+becomes positive the system destabilizes. On the critical surface parametrized by
+e, m12, m21 and t, the solution l of the characteristic equation is purely imaginary,
+i.e., lZIm[l]Ziu, u 2RC
+0 . This surface represents the boundary at which the
+system changes stability and is shown in ﬁgure 2. A stability change through
+Re[l]ZN is impossible (Datko 1978), hence every instability must occur at the
+surface deﬁned by lZiu.
+Phil. Trans. R. Soc. A (2009)
+
+Downloaded from rsta.royalsocietypublishing.org on October 30, 2014
+
+1138
+
+V. K. Jirsa
+
+Using the characteristic polynomial H(l) for lZiu with some algebra we can
+show that
+
+
+dRe½l
+vH =vt
+u2
+O 0; l Z iu;
+ð3:6Þ
+ZKRe
+Z
+dt
+vH =vl
+jKj2
+where KZbtCeiut. The above result implies that, as t increases across the
+critical surface from below, the equilibrium state always destabilizes and remains
+unstable for all larger t.
+The example of two coupled oscillators, DZ0, represents the extreme case
+where only global interactions are present. To study the interplay between the
+local and global modes in the system with local diffusive coupling, we need to
+consider Ds0. Note that D must be sufﬁciently large to have an effect. In turn,
+this contributes signiﬁcantly to the large-scale dynamics of the system, for which
+we assume the following ansatz:
+ðN
+0
+jðx; tÞ Z
+xk 0 ðtÞ eik x dk 0 :
+ð3:7Þ
+KN
+
+Linearize (2.19) and insert (3.7) to obtain
+ð
+ð
+_xk 0 ðtÞ eik 0 x dk 0 Z ðKe KDk 02 Þxk 0 ðtÞ eik 0 x dk 0
+
+C
+
+2
+X
+
+ð
+
+0
+
+mij dðx K xi Þxk 0 ðtKjx K xj j=vÞeik xj dk 0 :
+
+ð3:8Þ
+
+i; jZ1
+
+Multiplying both sides by eKikx and integrating over space, we obtain
+ð
+2
+X
+0
+Kikxi
+_xk ðtÞ Z ðKe KDk 2 Þxk ðtÞ C
+mij e
+eik xj xk 0 ðtKtÞ dk 0 ;
+
+ð3:9Þ
+
+i; jZ1
+
+Ð
+0
+where we have made use of the fact that eiðk KkÞx dx Z dðk 0 KkÞ. To study the
+stability of (3.9), let us consider the simplest example where one mode will
+account for most of the dynamics of the system, i.e., j(x,t)Zxk(t) eik xCc.c.,
+where c.c. denotes the complex conjugate. Hence, (3.9) reduces to
+1
+x_ k ðtÞ Z ðKe KDk 2 Þxk ðtÞ C ðm12 eikd C m21 e Kikd Þxk ðtK tÞ
+2
+Z ðKe KDk 2 Þxk ðtÞ C Pxk ðtK tÞ;
+
+ð3:10Þ
+
+where PZP1CiP2, P1 Z ð1=2Þðm12 C m21 Þ cosðkdÞ, P2 Z ð1=2Þðm12 K m21 Þ sinðkdÞ
+and dZjx 2Kx 1jZx 2Kx 1, x 2Ox 1. The characteristic equation of (3.10) is
+l Z ðKe KDk 2 Þ C ðP1 C iP2 Þ e Klt :
+
+ð3:11Þ
+
+Equation (3.11) characterizes the dynamics and provides the conditions for an
+instability of the system due to a heterogeneous connection with delay. Jirsa and
+colleagues (Jirsa & Ding 2004; Qubbaj & Jirsa 2007) discussed a similar
+characteristic equation with eCDk 2Z1 and obtained the critical stability surface
+for the parameters P1, P2 and t. To get an insight into the essential nature of the
+Phil. Trans. R. Soc. A (2009)
+
+Downloaded from rsta.royalsocietypublishing.org on October 30, 2014
+
+1139
+
+Neural ﬁeld dynamics
+(a) 2
+0
+–2
+–4
+(b) 2
+1
+0
+–1
+
+0
+
+0.2
+
+0.4
+
+0.6
+
+0.8
+
+1.0
+
+1.2
+
+1.4
+
+Figure 3. Dependence of frequency on the wavenumber k. (a) The dispersion relation shows the
+dependence of u on k. Solid lines indicate available frequencies, dotted lines indicate unavailable
+ones. (b) The intersection of Dk 2Ce and m cos(kd ) in equation (3.13) identiﬁes the frequency and
+wavenumber at the instability for cos(ut)Z1. At kZk cO0, a new spatial mode becomes unstable.
+Modes with higher mode numbers remain stable. Dashed curve, m cos(kd ), mO0; dotted curve,
+m cos(kd ), m!0; solid curve, Dk 2Ce.
+
+characteristic equation (3.11) and the effect of diffusion on the stability surface,
+we will discuss the fully symmetric case, m12Zm21Zm. The approach generalizes
+for any combination of m12 and m21 (see also Jirsa & Ding 2004; Qubbaj & Jirsa
+2007). Then the characteristic equation (3.11) reduces to
+l Z ðKe KDk 2 Þ C m cosðkdÞe Klt :
+
+ð3:12Þ
+
+Separating real and imaginary parts, with lZiu as earlier, we obtain
+Dk 2 C e Z m cosðkdÞ cosðutÞ;
+
+ð3:13Þ
+
+u ZKm cosðkdÞ sinðutÞ:
+
+ð3:14Þ
+
+Both equations must be satisﬁed for an instability to exist. Squaring and summing
+the two right-hand sides of (3.13) and (3.14), we obtain the dispersion relation
+u2Zm2 cos2(kd )K(Dk 2Ce)2, which is plotted in ﬁgure 3a. For increasing
+wavenumber k, fewer frequencies u are available, since u2 becomes negative.
+The smaller the diffusion constant D is, the more frequencies will be available.
+Consider equation (3.13), which is plotted in ﬁgure 3b for the critical value utZ0
+(at which jcos(ut)j%1 is the largest). There will be an intersection of the two
+curves that gives the value of k of the destabilizing mode. It is evident from
+ﬁgure 3b that the uniform mode, kZ0, is the mode closest to the instability for
+mO0 with DO0 and eO0. If there are multiple intersections (depending on the
+time delay t and other parameters), a discrete line spectrum will be possible.
+Modes with increasing wavenumber have an increasingly smaller degree of
+instability, when the vertical distance in ﬁgure 3b between mt cos(kd ) and Dk 2Ce
+increases. Since the degree of stability scales monotonically with the distance
+between these curves, our reasoning holds. In other words, modes with larger
+wavenumber k are more strongly damped.
+Phil. Trans. R. Soc. A (2009)
+
+Downloaded from rsta.royalsocietypublishing.org on October 30, 2014
+
+1140
+
+V. K. Jirsa
+1
+
+power
+
+10 –2
+
+10 –4
+
+10 –6
+
+10 –8
+1
+
+10
+102
+frequency (Hz)
+
+103
+
+Figure 4. Power spectra of neural ﬁeld dynamics. Neural ﬁeld dynamics with purely homogeneous
+(dashed-dotted line), purely heterogeneous (dashed line) and both homogeneous and heterogeneous
+(full line), i.e. mixed, connections have been numerically integrated in the presence of white noise.
+A spectral peak occurs for purely heterogeneous and mixed connectivity. A 1/f 2 behaviour of the
+spectra is seen for purely homogeneous and mixed connectivity. Here, we show the results of
+simulations with m12ZKm21, where the spectral peak is most prevalent. The dotted line shows a
+slope of K2.
+
+We illustrate these effects in a simulation of equation (2.12) with white
+noise. The parameters are chosen such that the equilibrium state of the neural
+ﬁeld is stable, but close to instability. As a consequence, the ﬂuctuations
+continually kick the system out of its equilibrium, which then exhibits a
+characteristic transient dynamics back to equilibrium. The global ﬁeld power, i.e.,
+the spatial integral over the power spectra of the neural ﬁeld, is plotted in ﬁgure 4
+for various conﬁgurations of connectivity. In all cases there is a 1/f 2 behaviour of
+the spectra for higher frequencies. However, the neural ﬁelds with homogeneous
+connectivity show enhanced power in the low-frequency regions, which is not the
+case for the purely heterogeneously connected network. The discrete spectral peak
+in ﬁgure 4 is a consequence of the interactions between the two heterogeneously
+coupled regions. To allow for a comparison with experimental data, we show the
+power spectrum of human rest-state EEG in ﬁgure 5. The data have been obtained
+from a single electrode located in the centre of the scalp (Cz) during a 4 min
+recording session with eyes closed. The power spectrum shows power-law
+behaviour with an exponent of slightly less than K2 over a large frequency
+range with a spectral peak in the so-called alpha range, approximately 8–12 Hz.
+4. Conclusions
+In this paper, we discussed a key issue in the ﬁeld of biologically realistic largescale networks, that is, the interplay between local and global architectures
+leading to a large-scale network dynamics. To gain insight into the interplay
+between local and global architectural components, we operationalized the global
+connectivity by a two-point connection with a ﬁnite transmission speed. In real
+Phil. Trans. R. Soc. A (2009)
+
+Downloaded from rsta.royalsocietypublishing.org on October 30, 2014
+
+1141
+
+Neural ﬁeld dynamics
+10
+
+log |power|
+
+0
+–10
+–20
+–30
+–6
+
+–4
+
+–2
+
+0
+2
+4
+log f (frequency (Hz))
+
+6
+
+8
+
+Figure 5. Human EEG power spectrum of the rest state. One representative power spectrum of a
+single electrode (Cz) is shown, which displays power-law behaviour with an exponent close to K2.
+A spectral peak is found at around 8–12 Hz known as alpha rhythm. The data have been collected
+during 4 min with eyes closed. Sampling frequency was 1 kHz. The dotted line shows a slope of K2.
+
+networks, obviously more complicated connectivity prevails, resulting in a rich
+spatiotemporal brain dynamics on multiple scales (see Ghosh et al. (2008b) for a
+detailed modelling study with realistic primate connectivity). Evidently the
+resulting power spectra will also be a function of the degree of complexity of the
+large-scale connectivity skeleton. For this reason, our simplistic architecture and
+neural ﬁeld dynamics may serve only as a toy model to discuss the interplay
+between local homogeneous and global heterogeneous brain connectivity effects.
+As a consequence, the details of the dynamic effects of certain parameter changes
+should not be thought of as representative for the fully connected brain.
+For instance, our toy model of a two-point connection in a neural ﬁeld shows
+oscillatory instabilities for m12ZKm21 (see ﬁgure 4), which corresponds to a link
+with an excitatory terminal on one end and an inhibitory terminal on the other.
+Such a conﬁguration is not biologically realized, since all large-scale pathways
+have excitatory terminals. For purely excitatory ﬁbres, m12, m21O0, the ﬁrst
+instability is mostly non-oscillatory, as we showed in the previous section and in
+ﬁgure 3. Higher instabilities include oscillatory dynamics of non-uniform spatial
+modes, but occur when the spatially uniform mode, kZ0, is already unstable.
+Still they are visible in the presence of noise, when the neural ﬁeld returns to its
+stable rest state, but less prevalent. Although, it is evident that an arbitrary
+connectivity matrix can be constructed from the linear sum of two-point
+connections, an understanding of how the connectivity inﬂuences the network
+dynamics remains to be developed. It is in this sense that our discussion of a
+two-point connection and network dynamics should be seen as illustrative.
+However, it does shed light on the following aspect of large-scale brain dynamics:
+a heterogeneous large-scale connectivity provides the skeleton for a set of neural
+populations connected via pathways with transmission delays. It can be as simple
+as presented here, i.e. a two-point connection, or as biologically realistic
+(and complicated) as in Ghosh et al. (2008b). When the neural populations at
+the nodes of the network are expanded from a point in space to a neural ﬁeld with
+local short-range connectivity in space, then this expansion in space will enhance
+the 1/f 2 behaviour in the power spectrum, as we showed here. Since this
+Phil. Trans. R. Soc. A (2009)
+
+Downloaded from rsta.royalsocietypublishing.org on October 30, 2014
+
+1142
+
+V. K. Jirsa
+
+characteristic is in the ﬁrst place independent of the details of the local connectivity
+(as long as the rest state remains stable), the power-law behaviour with an exponent
+close to K2 will be ubiquitous.
+This research was funded by the grants Brain NRG JSM22002082, ATIP (CNRS) and the CNRS
+programme Neuroinformatics. We wish to thank Murad Qubbaj for preparing ﬁgure 2.
+
+References
+Amari, S. 1977 Dynamics of pattern formation in lateral-inhibition type neural ﬁelds. Biol. Cybern.
+27, 77–87. (doi:10.1007/BF00337259)
+Atay, F. M. & Hutt, A. 2005 Stability and bifurcations in neural ﬁelds with ﬁnite propagation speed
+and general connectivity. SIAM J. Appl. Math. 65, 644–666. (doi:10.1137/S0036139903430884)
+Beggs, J. M., Klukas, J. & Chen, W. 2007 Connectivity and dynamics in local cortical networks.
+In Brain connectivity handbook. Berlin, Germany: Springer
+Breakspear, M. 2004 Dynamic connectivity in neural systems: theoretical and empirical
+considerations. Neuroinformatics 2, 205–226. (doi:10.1385/NI:2:2:205)
+Breakspear, M., Roberts, J. A., Terry, J. R., Rodrigues, S., Mahant, N. & Robinson, P. A. A. 2006
+Unifying explanation of primary generalized seizures through nonlinear brain modeling and
+bifurcation analysis. Cereb. Cortex 16, 1296–1313. (doi:10.1093/cercor/bhj072)
+Bressler, S. L. 1995 Large-scale cortical networks and cognition. Brain Res. Rev. 20, 288–304.
+(doi:10.1016/0165-0173(94)00016-I)
+Bressler, S. L. 2002 Understanding cognition through large-scale cortical networks. Curr. Dir.
+Psychol. Sci. 11, 58–61. (doi:10.1111/1467-8721.00168)
+Bressler, S. L. 2003 Cortical coordination dynamics and the disorganization syndrome in
+schizophrenia. Neuropsychopharmacology 28, S35–S39.
+Bressler, S. L. & Kelso, J. A. S. 2001 Cortical coordination dynamics and cognition. Trends Cogn.
+Sci. 5, 26–36. (doi:10.1016/S1364-6613(00)01564-3)
+Bressler, S. L. & McIntosh, A. R. 2007 The role of neural context in large-scale neurocognitive
+network operations. In Brain connectivity handbook. Berlin, Germany: Springer
+Bressler, S. L. & Tognoli, E. 2006 Operational principles of neurocognitive networks. Int.
+J. Psychophysiol. 60, 139–148. (doi:10.1016/j.ijpsycho.2005.12.008)
+Bressloff, P. C. & Coombes, S. 1997 Physics of the extended neuron. Int. J. Mod. Phys. B 11,
+2343–2392. (doi:10.1142/S0217979297001209)
+Bullmore, E. T., Rabe-Hesketh, S., Morris, R. G., Williams, S. C., Gregory, L., Gray, J. A. &
+Brammer, M. J. 1996 Functional magnetic resonance image analysis of a large-scale
+neurocognitive network. Neuroimage 4, 16–33. (doi:10.1006/nimg.1996.0026)
+Buzsaki, G. 2006 Rhythms of the brain. Oxford, UK: Oxford University Press.
+Campbell, S. A., Ncube, I. & Wu, J. 2006 Multistability and stable asynchronous periodic
+oscillations in a multiple-delayed neural system. Physica D 214, 101–119. (doi:10.1016/j.physd.
+2005.12.008)
+Coombes, S. 2005 Waves, bumps, and patterns in neural ﬁeld theories. Biol. Cybern. 93, 91–108.
+(doi:10.1007/s00422-005-0574-y)
+Datko, R. 1978 A procedure for determination of the exponential stability of certain differentialdifference equations. Q. Appl. Math. 36, 279–292.
+David, O. & Friston, K. J. 2003 A neural mass model for MEG/EEG: coupling and neuronal
+dynamics. Neuroimage 20, 1743–1755. (doi:10.1016/j.neuroimage.2003.07.015)
+Ermentrout, B. 1998 Neural networks as spatio-temporal pattern-forming systems. Rep. Prog.
+Phys. 61, 353–430. (doi:10.1088/0034-4885/61/4/002)
+Freeman, W. J. 1975 Mass action in the nervous system. New York, NY: Academic Press.
+Ghosh, A., Rho, Y., McIntosh, A. R., Ko¨tter, R. & Jirsa, V. K. 2008a Noise during rest enables the
+exploration of the brain’s dynamic repertoire. PLoS Comput. Biol. 4(10), e1000196. (doi:10.
+1371/journal.pcbi.1000196)
+Phil. Trans. R. Soc. A (2009)
+
+Downloaded from rsta.royalsocietypublishing.org on October 30, 2014
+
+Neural ﬁeld dynamics
+
+1143
+
+Ghosh, A., Rho, Y., McIntosh, A. R., Ko¨tter, R. & Jirsa, V. K. 2008b Cortical network dynamics
+with time delays reveals functional connectivity in the resting brain. Cogn. Neurodyn. 2,
+115–120. (doi:10.1007/s11571-008-9044-2)
+Hutt, A. & Atay, F. M. 2005 Analysis of nonlocal neural ﬁelds for both general and gammadistributed connectivities. Physica D 203, 30–54. (doi:10.1016/j.physd.2005.03.002)
+Jirsa, V. K. 2004 Connectivity and dynamics of neural information processing. Neuroinformatics 2,
+183–204. (doi:10.1385/NI:2:2:183)
+Jirsa, V. K. & Ding, M. 2004 Will a large complex system with time delays be stable? Phys. Rev.
+Lett. 93, 1–4. (doi:10.1103/PhysRevLett.93.070602)
+Jirsa, V. K. & Haken, H. 1996 Field theory of electromagnetic brain activity. Phys. Rev. Lett. 77,
+960–963. (doi:10.1103/PhysRevLett.77.960)
+Jirsa, V. K. & Haken, H. 1997 A derivation of a macroscopic ﬁeld theory of the brain from
+the quasi-microscopic neural dynamics. Physica D 99, 503–526. (doi:10.1016/S01672789(96)00166-2)
+Jirsa, V. K. & Kelso, J. A. S. 2000 Spatiotemporal pattern formation in continuous systems
+with heterogeneous connection topologies. Phys. Rev. E 62, 8462–8465. (doi:10.1103/PhysRevE.
+62.8462)
+Lopes da Silva, F. H., Hoeks, A., Smits, H. & Zetterberg, L. H. 1974 Model of brain rhythmic
+activity. The alpha-rhythm of the thalamus. Kybernetik 15, 27–37. (doi:10.1007/BF00270757)
+McIntosh, A. R. 2000 Towards a network theory of cognition. Neural Netw. 13, 861–876. (doi:10.
+1016/S0893-6080(00)00059-9)
+Mesulam, M. M. 1998 From sensation to cognition. Ann. Neurol. 28, 597–613. (doi:10.1002/ana.
+410280502)
+Mountcastle, V. B. 1998 Perceptual neuroscience: the cerebral cortex. Cambridge, MA: Harvard
+University Press.
+Nunez, P. L. 1974 The brain wave equation: a model for EEG. Math. Biosci. 21, 279–297. (doi:10.
+1016/0025-5564(74)90020-0)
+Nunez, P. 1995 Neocortical dynamics and human EEG rhythms. New York, NY: Oxford University
+Press.
+Qubbaj, M. & Jirsa, V. 2007 Neural ﬁeld dynamics with heterogeneous connection topology. Phys.
+Rev. Lett. 93, 238 102. (doi:10.1103/PhysRevLett.98.238102)
+Robinson, P. A., Rennie, C. A. & Wright, J. J. 1997 Propagation and stability of waves of electrical
+activity in the cerebral cortex. Phys. Rev. E 56, 826–840. (doi:10.1103/PhysRevE.56.826)
+Sporns, O. 2003 Complex neural dynamics. In Coordination dynamics: issues and trends. Berlin,
+Germany: Springer
+Sporns, O. & Tononi, G. 2002 Classes of network connectivity and dynamics. Complexity 7, 28–38.
+(doi:10.1002/cplx.10015)
+Sporns O. & Tononi, G. 2007 Structural determinants of functional brain dynamics. In Brain
+connectivity handbook. Berlin, Germany: Springer
+Swift, J. & Hohenberg, P. C. 1977 Hydrodynamic ﬂuctuations at the convective instability. Phys.
+Rev. A 15, 319–328. (doi:10.1103/PhysRevA.15.319)
+Tagamets, M. A. & Horwitz, B. 1998 Integrating electrophysiological and anatomical experimental
+data to create a large-scale model that simulates a delayed match-to-sample human brain
+imaging study. Cereb. Cortex 8, 310–320. (doi:10.1093/cercor/8.4.310)
+van Rotterdam, A., Lopes da Silva, F. H., van den Ende, J., Viergever, M. A. & Hermans, A. J.
+1982 A model of the spatio-temporal characteristics of the alpha rhythm. Bull. Math. Biol. 44,
+283–305.
+Wilson, H. R. & Cowan, J. D. 1972 Excitatory and inhibitory interactions in localized populations
+of model neurons. Biophys. J. 12, 1–24. (doi:10.1016/S0006-3495(72)86068-5)
+Wilson, H. R. & Cowan, J. D. 1973 A mathematical theory of the functional dynamics of cortical
+and thalamic nervous tissue. Kybernetic 13, 55–80. (doi:10.1007/BF00288786)
+Wright, J. J. & Liley, D. T. J. 1995 Simulation of electrocortical waves. Biol. Cybern. 72, 347–356.
+(doi:10.1007/BF00202790)
+
+Phil. Trans. R. Soc. A (2009)
+
+
