@@ -1,0 +1,1787 @@
+LETTER
+
+doi:10.1038/nature15398
+
+Thalamic control of sensory selection
+in divided attention
+Ralf D. Wimmer1*, L. Ian Schmitt1*, Thomas J. Davidson2, Miho Nakajima1, Karl Deisseroth2,3,4 & Michael M. Halassa1,5,6
+
+was higher in cross-modal trials (n 5 4 mice, P , 0.05, bootstrap comparison; see Extended Data Fig. 2 for single-mouse examples and fixed
+lapse rate analysis). This difference persisted even when the conflicting
+auditory stimulus was randomly but systematically removed (Fig. 1e
+and Extended Data Fig. 3), suggesting that diminished visual perception
+under cross-modal conditions is a result of expectation (top-down)
+
+b
+Attend to
+vision
+
+LGN
+Brown noise
+
+V1
+Low visual gain
+
+LGN
+Blue noise
+Anticipation
+500–700 ms
+
+Cueing
+
+d
+
+c
+
+Accuracy (%)
+
+Error fraction (%)
+
+e
+Visual only
+Cross-modal
+
+80
+
+100
+80
+60
+40
+
+Aud. selection
+
+Ignore light
+
+Attend to
+audition
+
+V1
+
+Vis. selection
+
+Divided attention
+
+Presentation
+100–500 ms
+
+f
+
+Reversal learning
+Dist. present
+Dist. absent
+
+Dist. present
+Dist. omitted
+
+50
+
+40
+
+40
+
+80
+
+0
+
+40
+
+80
+
+0
+
+di
+
+tio
+
+n
+
+on
+
+0
+
+Visual stimulus intensity (%)
+
+Au
+
+si
+
+70
+
+50
+
+60
+
+40
+
+g
+60
+
+70
+
+20
+0
+
+Response
+Median: 1,675 ms
+
+Detection threshold
+(% stimulus intensity)
+V
+C isua
+ro l
+s o
+Di s-m nly
+st o
+Di . om dal
+st it
+. p te
+re d
+se
+nt
+
+High visual gain
+
+Ignore sound
+
+a
+
+Vi
+
+How the brain selects appropriate sensory inputs and suppresses
+distractors is unknown. Given the well-established role of the
+prefrontal cortex (PFC) in executive function1, its interactions with
+sensory cortical areas during attention have been hypothesized to
+control sensory selection2–5. To test this idea and, more generally,
+dissect the circuits underlying sensory selection, we developed a
+cross-modal divided-attention task in mice that allowed genetic
+access to this cognitive process. By optogenetically perturbing
+PFC function in a temporally precise window, the ability of mice
+to select appropriately between conflicting visual and auditory
+stimuli was diminished. Equivalent sensory thalamocortical
+manipulations showed that behaviour was causally dependent on
+PFC interactions with the sensory thalamus, not sensory cortex.
+Consistent with this notion, we found neurons of the visual thalamic reticular nucleus (visTRN) to exhibit PFC-dependent changes
+in firing rate predictive of the modality selected. visTRN activity
+was causal to performance as confirmed by bidirectional optogenetic manipulations of this subnetwork. Using a combination
+of electrophysiology and intracellular chloride photometry, we
+demonstrated that visTRN dynamically controls visual thalamic
+gain through feedforward inhibition. Our experiments introduce
+a new subcortical model of sensory selection, in which the PFC
+biases thalamic reticular subnetworks to control thalamic sensory
+gain, selecting appropriate inputs for further processing.
+To dissect the circuit basis of sensory selection, we sought a
+behaviour capable of dividing attention across modalities in the freely
+behaving mouse. Building on the rich history of visual neuroscience6–8,
+we focused our investigations on visual processing under conditions in
+which vision was behaviourally selected or suppressed (Fig. 1a). As
+such, we developed and validated a two-alternative forced-choice task
+in which mice selected between conflicting visual and auditory stimuli
+on a trial-by-trial basis. Stimuli indicated the location where a mouse
+had to nose poke to obtain a reward. Trial availability and target
+modality were signalled through binaurally emitted noise. For some
+mice, brown noise (10-kHz low-pass-filtered white noise) signalled a
+visual target (Fig. 1b, top) whereas blue noise (11-kHz high-passfiltered white noise) signalled an auditory target (Fig. 1b, bottom).
+Cueing was counterbalanced across mice, with no effect on performance noted. By design, the task was asymmetric, with a visual detection
+component (flash from a light-emitting diode (LED) appearing to the
+right or left) and an auditory discrimination component (upsweep,
+10–14 kHz; downsweep, 16–12 kHz). Multiple quality control metrics
+ensured that mice performed this task using the biasing cues (brown
+and blue noise) rather than low-level alternating strategies (Extended
+Data Fig. 1). Performance on the two modalities was balanced (n 5 15
+mice, Fig. 1c).
+Comparing visual detection under cross-modal and visual-only conditions suggested divided attention between vision and audition in the
+cross-modal task (Fig. 1d). Specifically, the visual detection threshold
+
+40
+
+80
+
+Figure 1 | Cross-modal divided attention in the mouse. a, Hypothesized
+control of visual gain under cross-modal conditions (LGN, lateral geniculate
+nucleus; V1, primary visual cortex). b, Task design. A mouse is simultaneously
+informed about trial availability and the nature of the target stimulus
+through binaurally delivered noise. In this schematic, brown noise denotes
+‘attend to vision’ and blue noise denotes ‘attend to audition’. Following a
+variable anticipation, during which the mouse is required to hold its snout in a
+centrally located poke, conflicting auditory and visual stimuli are presented.
+By design, the task is asymmetric, having a visual detection component
+(presence or absence of light at the reward location) and an auditory
+discrimination component (upsweep, turn left; downsweep, turn right).
+c, Mice exhibited comparable performance on visual and auditory trials
+(mean 6 s.e.m., n 5 15 mice). d, Visual detection performance in cross-modal
+trials compared to visual-only trials (n 5 4 mice, $421 trials per condition).
+Note that both detection threshold and peak performance were lower in the
+cross-modal condition. e, Eliminating the auditory distractor in the crossmodal condition did not affect the visual detection psychometric function
+(n 5 4 mice, $211 trials per condition). f, When mice were not differentially
+cued but instead ignored the auditory stimulus by learning that it was not
+rewarded over a full session (reversal learning), visual detection threshold did
+not change (n 5 6 mice, $242 trials per condition). g, Visual detection
+threshold (bootstrap computed) of the pertinent psychometric functions in
+d–f. Error bars in d–g are 95% confidence intervals and therefore non-overlap
+denotes significance of P , 0.05. Aud., auditory; dist., distractor; vis., visual.
+
+1
+
+New York University Neuroscience Institute, Department of Neuroscience and Physiology, New York University Langone Medical Center, New York, New York 10016, USA. 2Department of Bioengineering,
+Stanford University, Stanford, California 94305, USA. 3Cracking the Neural Code Program, Stanford University, Stanford, California 94305, USA. 4Department of Psychiatry and Behavioral Sciences,
+Stanford University, Stanford, California 94305, USA. 5Department of Psychiatry, New York University Langone Medical Center, New York, New York 10016, USA. 6Center for Neural Science, New York
+University, New York, New York 10003, USA.
+*These authors contributed equally to this work.
+2 9 O C T O B E R 2 0 1 5 | VO L 5 2 6 | N AT U R E | 7 0 5
+G2015
+
+Macmillan Publishers Limited. All rights reserved
+
+RESEARCH LETTER
+rather than sensory interference (bottom-up). Conversely, when mice
+selected targets based on reward history, detection threshold was unaffected (Fig. 1f, n 5 6 mice). Selective suppression of the visual detection threshold in cross-modal trials was observed in both the raw
+(Fig. 1d, e) and the fitted (Fig. 1g) data. Together, these findings suggest
+that a cued, trial-by-trial task design is required for investigating sensory
+selection in divided attention.
+Given the known role of PFC in top-down control of sensory processing and that our psychophysical measurements revealed top-down
+engagement in the cross-modal task, we asked whether cross-modal
+performance was PFC dependent. We targeted the prelimbic cortex
+because of its known homology to primate dorsolateral PFC9. We used
+the VGAT-ChR2 mouse to perturb PFC function in a temporally
+precise manner. In this mouse, the light-activated ion channel channelrhodopsin-2 (ChR2) is expressed under the vesicular GABA (caminobutyric acid) transporter promoter (VGAT)10. Optogenetic
+drive in this mouse is known to exert intensity- and durationdependent inhibition of excitatory neural activity11,12. Using this
+approach, we observed behavioural disruption only when the PFC
+activity was perturbed during stimulus anticipation (Fig. 2a, n 5 4
+
+Baseline
+
+Attend to vision
+
+PFC disruption
+
+*
+
+60
+
+*
+
+Attend to audition
+
+Prefrontal cortex
+NS
+NS NS
+NS
+
+Errors (%)
+
+PFC
+40
+
+α: 54%49%, P = 0.42
+λ: 77%74%,
+70 P = 0.71
+60
+
+20
+
+50
+
+0
+
+40
+
+VGAT-ChR2
+
+Anticipation
+
+Visual-only task
+
+b 80
+Correct (%)
+
+a
+
+Presentation
+
+0
+
+20
+
+40
+
+60
+
+Control
+Laser
+80 100
+
+Visual stimulus intensity (%)
+
+c
+
+d
+Visual cortex
+NS
+NS NS
+
+Visual
+cortex
+
+Errors (%)
+
+60
+
+NS
+
+* *
+
+40
+20
+
+Visual-only task
+80 α: 50%70%, P < 0.01
+λ: 76%74%,
+P = 0.62
+70
+60
+50
+40
+
+0
+
+VGAT-ChR2
+
+Correct (%)
+
+Visual cortex disruption
+
+Anticipation
+
+Presentation
+
+0
+
+20
+
+40
+
+60
+
+Control
+Laser
+80 100
+
+Visual stimulus intensity (%)
+Non-supported model
+
+PFC
+Visual
+thalamus
+Visual
+cortex
+Direct top-down
+cortico-cortical modulation
+
+f
+
+Visual thalamus
+
+60
+
+*
+*** **
+
+g
+
+Revised model
+
+*
+*** *
+
+PFC
+Visual
+thalamus
+
+Errors (%)
+
+e
+
+40
+
+20
+
+Visual
+cortex
+
+0
+Anticipation
+
+Presentation
+
+Top-down thalamic modulation
+and subsequent cortical amplification
+
+Figure 2 | Evidence for top-down thalamic modulation in divided attention.
+a, Disrupting PFC activity by delivering blue laser pulses (50 Hz, 18 ms, 90%
+duty cycle) impaired task performance at 100% stimulus intensity equally
+on both modalities only when manipulation was performed during stimulus
+anticipation (n 5 4 mice, *P , 0.05, Wilcoxon rank-sum test). b, The effect
+was related to the cross-modal nature of the task, not its difficulty, as PFC
+inhibition did not affect performance on a visual-only task. c, Disruption of
+primary visual cortex during stimulus presentation impaired performance on
+visual trials (n 5 4 mice). d, The effect in c was related to task difficulty, as
+the visual detection threshold increased in a visual-only task. e, The data in
+a and c do not support a causal role for PFC interactions with primary visual
+cortex in performance. f, Perturbing visual thalamic function in a manner
+similar to cortical perturbations in VGAT-ChR2 mice preferentially
+diminished performance on visual trials during both anticipation and presentation of target stimuli (n 5 12 sessions from 3 mice, *P , 0.05, **P , 0.01,
+***P , 0.001, Wilcoxon rank-sum test). g, The finding in f supports a
+model in which PFC activity influences thalamic sensory processing. Bar
+graphs represent mean 6 s.e.m. Error bars for psychometric curves
+are 95% confidence intervals. NS, not significant; a, detection threshold;
+l, lapse rate.
+
+mice). This effect was dependent on the cross-modal nature of the
+task, as perturbing PFC activity in a visual-only task had no effect
+on performance regardless of task difficulty (Fig. 2b, n 5 3 mice,
+$246 trials per condition).
+We reasoned that the PFC might be exerting its effect on performance by biasing sensory circuits towards target stimulus processing and
+distractor suppression. Several studies have suggested that this topdown bias is exerted at the level of the sensory cortex4,13. We did not
+find this to be the case in our task; perturbing visual cortical activity
+diminished visual performance only during stimulus presentation
+(Fig. 2c). This effect, unlike that of the PFC, was not cross-modal task
+specific, as it increased the detection threshold in a visual-only task
+(Fig. 2d, n 5 3 mice, $239 trials per condition, P , 0.01, bootstrap
+comparison). An analogous manipulation of auditory cortex resulted
+in a qualitatively similar effect on performance, but with a larger effect
+size (Extended Data Fig. 4a, n 5 4 mice, **P , 0.01, Wilcoxon ranksum test), probably owing to the auditory cortical requirement for
+stimulus discrimination14. Together, these findings support the role
+of sensory cortical areas in stimulus amplification and discrimination,
+but are inconsistent with their being a locus for top-down bias of
+sensory processing. Moreover, optogenetic perturbations of frontal
+regions that project directly to visual and auditory cortices such as
+the anterior cingulate cortex (ACC) and the lateral orbitofrontal cortex
+(OFC) did not affect cross-modal performance (Extended Data Fig. 4b,
+c, n 5 8 sessions, 2 mice). In contrast, localized viral injection of AAVhSyn-DIO-ChR2 into the prelimbic cortex of mice in which Cre
+recombinase is expressed in inhibitory neurons (VGAT-Cre), followed
+by optical manipulation, disrupted performance (Extended Data
+Fig. 4d–h).
+Having shown that direct prefrontal–sensory cortical interaction is
+unlikely to account for top-down control of visual processing
+(Fig. 2e), we sought to find the locus of attentional modulation
+observed in the cross-modal task (Fig. 1c). The sensory thalamus
+has been implicated in attentional modulation in primates15–17, raising
+the possibility that it could be a locus of top-down sensory bias. Using
+a similar VGAT-ChR2 strategy, we found that optogenetic perturbation of the visual thalamus (lateral geniculate nucleus; LGN) during
+either stimulus anticipation or presentation impaired cross-modal
+performance (Fig. 2f, n 5 12 sessions, 3 mice). This suggested that
+top-down bias of visual detection may be based in the thalamus
+(Fig. 2g). Visual thalamic manipulation resulted in worsening performance on both auditory and visual trials, implicating intrathalamic
+interactions in this behavioural effect. Intrathalamic interactions are
+mediated by a shell of GABAergic neurons surrounding thalamic
+nuclei known as the thalamic reticular nucleus (TRN)18. TRN neurons have been hypothesized to control the gain of thalamic output
+in a behaviourally relevant manner19,20. As such, we asked whether
+the TRN could be a locus of top-down modulation of the sensory
+thalamus.
+To investigate the role of the TRN in visual gain control in divided
+attention, we used an intersectional genetic/connectivity strategy to
+label inhibitory (VGAT-positive) neurons that project to the LGN with
+retrograde lentiviruses20 (Fig. 3a and Extended Data Fig. 5a, b) and
+optogenetically tagged them during extracellular recordings in freely
+behaving mice (Extended Data Fig. 5c–f).
+During cross-modal performance, we observed bidirectional modulation of visTRN neurons consistent with their hypothesized role in
+behaviourally relevant sensory gain control. Specifically, during
+‘attend to vision’ trials, firing rates of these neurons were reduced. In
+contrast, their rates were elevated during ‘attend to audition’ trials
+(Fig. 3b (example), Fig. 3c (population; n 5 138 cells) and Extended
+Data Fig. 6). Attentional modulation by the visTRN was eliminated by
+optogenetic PFC disruption (Fig. 3d, e, n 5 56 cells). Although PFC
+disruption diminished performance, the effects on visTRN firing rates
+were not simply a covariant of inaccurate performance (Extended Data
+Fig. 7). In contrast to naturally occurring error trials, during which
+
+7 0 6 | N AT U R E | VO L 5 2 6 | 2 9 O C T O B E R 2 0 1 5
+G2015
+
+Macmillan Publishers Limited. All rights reserved
+
+LETTER RESEARCH
+a
+
+Attend to audition
+
+Attend to vision
+
+b
+
+Attend to vision
+
+b
+
+Attend to audition
+
+50
+
+0.4
+0.2
+0
+−0.2
+−0.4
+n = 138
+
+visTRN recording
+
+ChR2
+
+50
+40
+30
+20
+10
+0
+
+Attend to aud.
+
+*
+** *
+
+Anticipation
+
+0.8
+
+0
+−0.2
+−0.4
+n = 56
+−0.4 −0.2 0 0.2 0.4
+log(Δ firing rate), attend to vis.
+
+g
+
+NS
+NS
+
+**
+**
+
+NS
+
+50
+40
+30
+20
+10
+0
+
+eNpHR3.0
+
+Anticipation
+
+**
+
+NS
+
+*
+
+Presentation
+
+Figure 3 | PFC-dependent visTRN modulation suggests PFC–TRN
+functional coupling is required for visual gain control. a, Intersectional
+tagging of visTRN neurons based on connectivity and genetic identity. Inset,
+maximum projection of ten 1-mm confocal images. Cells were labelled with
+ChR2–eYFP and stained with anti-GFP. eYFP, enhanced yellow fluorescent
+protein; GFP, green fluorescent protein. b, Raster of two visTRN neurons
+triggered on task initiation. Note the reduction of firing rate between the first
+trigger (trial initiation) and the second one (stimulus presentation) during the
+‘attend to vision’ condition, but the opposite during the ‘attend to audition’
+condition. Red dotted lines indicate triggers. Fading grey boxes denote the jitter
+of the anticipatory period. c, Group analysis of b, showing a scatter plot of
+responses from visTRN neurons (n 5 138 cells from 4 animals, P , 0.005,
+Wilcoxon rank-sum test performed over all cells). The orange crosshair
+indicates mean 6 95% confidence interval. d, PFC activity was disrupted
+during stimulus anticipation to examine the effect on visTRN activity. e, PFC
+disruption diminished visTRN modulation of attention. f, g, Behavioural
+performance is causally dependent on visTRN modulation of attention.
+f, Optogenetic activation of retrograde-tagged visTRN neurons resulted in
+performance diminishing on visual trials (mean 6 s.e.m., n 5 12 sessions from
+3 mice, *P , 0.05, **P , 0.01, ***P , 0.001, Wilcoxon rank-sum test),
+consistent with this manipulation lowering visual gain. g, In contrast,
+optogenetic inhibition of visTRN neurons preferentially diminished
+performance on auditory trials, consistent with inappropriate visual gain
+increase (n 5 12 sessions from 3 mice).
+
+diminished visTRN firing rate modulation was observed in both
+‘attend to vision’ and ‘attend to audition’ trials, PFC disruption had
+a greater effect on ‘attend to audition’ trials. This result may highlight a
+role of the PFC in distractor suppression.
+To examine whether the physiological effects observed in the
+visTRN were causal to behaviour, we manipulated this subnetwork
+bidirectionally. Although activating the visTRN resulted in similar
+effects to driving LGN inhibition in VGAT-ChR2 mice (Fig. 3f,
+n 5 12 sessions, 3 mice), the effect size was smaller, probably reflecting
+the weaker nature of the genetic manipulation (Extended Data Fig. 8).
+This result supports the notion that elevated visTRN firing reduces
+visual thalamic gain. In contrast, inhibiting visTRN function using the
+light-activated Cl– pump eNpHR3.0 diminished performance on
+‘attend to audition’ trials, suggesting it inappropriately enhanced
+visual thalamic gain when it needed to be suppressed (Fig. 3g,
+n 5 12 sessions, 3 mice).
+
+2
+
+5
+
+0
+
+0.1
+
+0.2
+
+−0.1
+
+potential
+
+P < 0.001
+
+0
+
+1.6
+1
+0.8
+0
+
+−1
+−1
+
+0
+
+1
+
+2
+
+0
+
+n = 161
+0
+
+0.5
+
+log(firing rate), attend to vision
+
+0.1
+
+0.2
+
+Time (s)
+
+e Visual evoked
+
+Evoked
+
+P < 0.01
+
+n = 161
+
+0
+
+Time (s)
+
+d
+
+Anticipation
+
+10
+
+0
+−0.1
+
+Bregma –2.06 mm
+
+c
+
+0.2
+
+*
+
+Presentation
+
+0
+0.4
+Time (s)
+
+Normalized anticipation
+PFC disruption
+0.4 P = 0.63
+
+Errors (%)
+
+Errors (%)
+
+Attend to vis.
+
+−0.4
+
+1
+
+1.5
+
+2
+
+600 μV
+
+PFC disruption
+
+0
+
+1 mm
+
+e
+
+P < 0.005
+
+Baseline
+
+0.8
+
+log(firing rate), attend to aud.
+
+0
+0.4
+Time (s)
+
+d
+
+Normalized anticipation
+
+−0.4 −0.2 0 0.2 0.4
+log(Δ firing rate), attend to vis.
+
+f
+
+−0.4
+
+log(Δ firing rate), attend to aud.
+
+log(Δ firing rate), attend to aud.
+
+c
+
+0
+
+15
+
+Attend to vis.
+Attend to aud.
+
+0.5 s
+0.8
+
+P < 0.01
+
+0.4
+
+0
+
+0
+
+−360 −720
+
+60 μV
+
+25
+
+Cumulative fraction
+
+20
+
+Firing rate (Hz)
+
+Firing rate (Hz)
+
+75
+40
+
+LGN
+
+100 μm
+
+6 trials
+
+100
+
+60
+1 mm
+
+Contra
+
+10 trials
+
+Ipsi
+
+a
+
+0.25 s
+
+Peak amplitude (μV)
+
+Figure 4 | Direct evidence for visual thalamic gain modulation in divided
+attention. a, Cartoon depiction of multi-electrode targeting of the LGN at
+2.06 mm posterior to Bregma in freely behaving mice. b, An example of
+differential modulation of a single LGN cell spiking under the two anticipatory
+task conditions. Note that contralateral eye stimulation (with respect to
+recording electrodes) resulted in more robust visual drive. Moreover, the cell
+discharged more spikes during anticipation and presentation when attention
+was directed towards vision. Contra, contralateral; Ipsi, ipsilateral. c, d, Group
+analysis of the phenomenon in b (n 5 161 cells from 4 mice, Wilcoxon ranksum test). e, Similarly, enhanced visual responses were observed at the level of
+visual evoked potentials. Top left, example visual evoked potential (VEP);
+bottom left, cumulative distribution of VEP amplitudes, showing higher values
+for ‘attend to vision’ trials (P , 0.01, Kolmogorov–Smirnov test). Right, average
+VEP from 4 mice (684 visual trials and 633 auditory trials from 29 sessions;
+dashed line indicates baseline potential). Shaded errors are 95% confidence
+intervals. Orange blocks denote visual stimulus presentation.
+
+To determine whether modulation of visTRN firing rate affected
+visual processing, we investigated LGN spiking in response to
+well-controlled visual stimuli. We implanted mice with multielectrode arrays targeted to the LGN (Fig. 4a). To minimize trial-totrial variability related to slight changes in head and eye position, we
+changed the position of visual stimuli from wall-mounted to headmounted LEDs. LGN neurons showed enhanced baseline and evoked
+activity when attention was directed to vision (Fig. 4b (example),
+Fig. 4c, d, (population, n 5 161 cells, 4 mice)), consistent with baseline
+and evoked neuroimaging results observed in human LGN21.
+Differences in evoked responses were also observed in the visual
+evoked potential (Fig. 4e, n 5 684 visual trials and n 5 633 auditory
+trials, 4 mice). These physiological effects were not observed during
+error trials (Extended Data Fig. 9).
+Suppression of LGN spiking in ‘attend to audition’ trials could be a
+result of direct feedforward inhibition or reduction in feedforward
+excitation. In contrast to many extrareticular inhibitory inputs22, the
+visTRN is known to exert direct feedforward inhibition on LGN neurons23 (Fig. 5a). As such, we sought to measure LGN inhibition
+directly. To do so, we leveraged a recently developed technique known
+as fibre photometry, which has been used to measure bulk changes of
+intracellular Ca21 concentration ([Ca21]i) (ref. 24). We modified two
+aspects of conventional photometry to allow interrogation of intracellular Cl– concentration ([Cl–]i), a proxy for synaptic inhibition and
+an otherwise inaccessible measure. First was the genetic labelling of
+neurons with the Cl– indicator SuperClomeleon25. This fluorescence
+resonance energy transfer (FRET) indicator contains cyan fluorescent
+2 9 O C T O B E R 2 0 1 5 | VO L 5 2 6 | N AT U R E | 7 0 7
+
+G2015
+
+Macmillan Publishers Limited. All rights reserved
+
+RESEARCH LETTER
+
+TRN
+
+GABA
+
+Cl–
+
+Photodetector
+
+a
+
+b
+430 nm
+source
+Photodetector
+465
+
+430
+
+Extrareticular
+
+CFP YFP
+LGN
+
+d
+
+SuperClomeleon
+
+ITR
+
+hSyn
+
+CFP*
+
+Cl-
+
+LGN
+
+Post-synaptic
+
+Cl–
+
+c
+
+530
+
+CFP YFP
+
+LGN
+
+TRN
+
+Presynaptic
+
+465
+
+530 430
+
+YFP*
+
+Cl–
+
+FRET
+
+SuperClomeleon + saline
+SuperClomeleon + THIP
+
+FRET
+
+YFP control + THIP
+
+WPRE pA ITR
+
+3% baseline
+FRET ratio
+
+0
+
+1 mm
+100 μm
+
+10 min
+
+1s
+
+Ipsi
+Contra
+
+0.8
+0.6
+0.4
+0.2
+
+0
+−1
+−2
+−3
+−4
+
+P < 0.01
+
+0
+100
+
+f
+
+Evoked peak (%)
+
+5% baseline
+FRET ratio
+
+5s
+Contra Ipsi
+
+1.0
+Cummulative fraction
+
+0
+
+5% baseline
+FRET ratio
+
+e
+
+90
+Baseline (%)
+
+Baseline
+
+**
+80
+
+TRN inactivation
+
+10% baseline
+FRET ratio
+
+0
+
+Attend to vision
+Attend to audition
+0.2 s
+
+Figure 5 | Measuring bulk intracellular [Cl–] in vivo shows dynamic changes
+in LGN inhibition during behaviour. a, Possible mechanisms for modulation
+of LGN firing rate: extrareticular inputs can change activity by presynaptic
+inhibition of feedforward excitation, whereas visTRN inhibits LGN directly.
+b, FRET photometry setup and schematic of CFP-to-YFP FRET. c, Cloning of
+SuperClomeleon, a FRET-based Cl– indicator, into an adeno-associated virus
+(AAV) followed by in vivo expression in the LGN. hSyn, human synapsin
+promoter; ITR, inverted terminal repeat sequences; pA, polyadenylation signal;
+WPRE, woodchuck hepatitis virus post-transcriptional regulatory element.
+d, Pharmacological confirmation of the technical feasibility of SuperClomeleon
+FRET for GABAA-mediated increase in intracellular [Cl–] by injection of the
+GABAA agonist THIP. Note that the YFP control mice did not show similar
+signals (n 5 3 mice per condition; shaded errors are 95% confidence intervals).
+e, Mice showed stronger visual-evoked SuperClomeleon FRET responses
+for the contralateral eye, as would be predicted (n 5 3 mice, P , 0.05, Wilcoxon
+rank-sum test). Yellow bars mark the display of the light stimuli. f, Left, cartoon
+depiction of photometry in the cross-modal task, during which the visual
+stimulus was signalled through a head-mounted LED as in Fig. 4 (see
+Supplementary Video 1 for illustration); middle, differential visual-evoked
+[Cl–]i LGN responses in relation to the modality anticipated (363 correct visual
+trials and 274 correct auditory trials from 6 mice). Shaded errors are 95%
+confidence intervals. Note that ‘attend to audition’ trials showed an earlier
+increase in [Cl–]i (decreased SuperClomeleon FRET) and the separation
+between the two traces started before stimulus onset, consistent with
+differential anticipatory changes of visTRN activity; right, optogenetic TRN
+inactivation eliminates this differential response (101 correct visual and 82
+correct auditory trials from 3 mice). Orange bars indicate visual stimulus
+presentation and the yellow bar denotes optogenetic TRN inactivation.
+
+protein (CFP) as FRET donor and yellow fluorescent protein (YFP) as
+FRET acceptor. Under conditions of elevated [Cl–]i, YFP is quenched
+and FRET is reduced (Fig. 5b). Second was the light path; we excited
+SuperClomeleon with 430-nm light and collected both CFP and YFP
+emission data to perform subsequent ratiometric measurements offline (Fig. 5b). To use this technology in vivo, we generated a viral
+
+construct
+harbouring
+SuperClomeleon
+(AAV-hSynSuperClomeleon) and injected it into the LGN (Fig. 5c).
+We validated SuperClomeleon FRET as a measure of inhibition
+by two methods. First, we reasoned that pharmacological activation
+of GABAA receptors would increase [Cl–]i and reduce YFP emission.
+Indeed, intraperitoneal injection of the GABAA agonist 4,5,6,7tetrahydroisoxazolo(5,4-c)pyridin-3-ol (THIP, 8 mg kg–1) reduced
+SuperClomeleon FRET in a pharmacokinetically predicted manner26
+(Fig. 5d, n 5 3 mice). Second, we expected visual drive to result in
+inhibition of LGN neurons that balanced excitation. This was
+indeed the case; these signals were larger when visual stimuli were
+delivered to the side contralateral to the recorded LGN than when
+delivered to the ipsilateral side (Fig. 5e, n 5 3 mice). These rapid
+events were not observed in YFP control mice (Extended Data
+Fig. 10a). SuperClomeleon visual transients were sensitive to the
+GABAA receptor antagonist flumazenil in a dose-dependent manner
+(Extended Data Fig. 10b), confirming that these signals reflect
+GABAergic inhibition.
+Having validated chloride photometry, we asked whether changes
+in visual gain associated with sensory selection were explained by
+opposing changes in LGN feedforward inhibition. We found this to
+be the case; visual-evoked chloride photometry showed significantly
+larger responses in ‘attend to audition’ trials than in ‘attend to vision’
+trials (Fig. 5f, n 5 363 visual trials and n 5 274 auditory trials, 6 mice;
+example trials shown in Supplementary Video 1). Signal kinetics in
+these two conditions were distinct: an earlier reduction in FRET ratio
+was seen in auditory selection trials compared to visual selection trials,
+consistent with the differential baseline spiking observed in visTRN
+neurons. Optogenetic visTRN inactivation eliminated this differential
+inhibitory response (Fig. 5f and Extended Data Fig. 10c, n 5 3 mice,
+.82 trials). Overall, our data support the model that thalamic gain
+control can be explained by feedforward inhibition and that the TRN is
+the source of this inhibition. More generally, to our knowledge, this
+experiment constitutes the first measurement of inhibitory dynamics
+in freely behaving animals.
+Seminal studies have shown the thalamus to be more than a cortical
+relay27,28. By providing a mechanistic circuit dissection of thalamic
+involvement in divided attention, we extend these studies in two directions. First, our findings in mice show the generality of thalamic modulation of attention across mammalian brains. Second, we provide a first
+description, with causal circuit dependence, of how prefrontal topdown control changes thalamic inhibitory dynamics to modulate
+sensory gain. The specific involvement of prelimbic cortex in this
+behaviour, which we further demonstrate through combined optogenetics and chloride photometry (Extended Data Fig. 10d), does not
+eliminate the possibility that the OFC and the ACC may be engaged in
+other types of top-down control, potentially via cortico-cortical interactions5. In addition to regulating sensory gain, prelimbic control of
+thalamic inhibition may regulate the degree by which relay nuclei
+participate in large-scale functional interactions17.
+The ability to directly measure [Cl–]i dynamics provided access to a
+critical biological variable: GABAA-mediated synaptic inhibition.
+Although photometry has already been introduced into neuroscience
+for measurement of [Ca21]i in cell bodies and terminals25, FRET-based
+chloride photometry has not been performed previously. In this study,
+developing chloride photometry was essential for establishing a direct
+physiological link between visTRN and LGN spiking (technical discussion in Supplementary Information).
+Thirty years ago, Francis Crick proposed that the TRN functions as a
+‘searchlight’, directing the internal spotlight of attention to thalamocortical circuits that process ongoing behavioural demands19. Owing
+to technical limitations, this transformative model has been difficult to
+test, particularly under conditions where the attentional spotlight shifts.
+Our study combined novel and established technology to provide
+mechanistic details for Crick’s ‘searchlight hypothesis’, thereby contributing to understanding the circuit mechanisms of sensory selection.
+
+7 0 8 | N AT U R E | VO L 5 2 6 | 2 9 O C T O B E R 2 0 1 5
+G2015
+
+Macmillan Publishers Limited. All rights reserved
+
+LETTER RESEARCH
+Online Content Methods, along with any additional Extended Data display items
+and Source Data, are available in the online version of the paper; references unique
+to these sections appear only in the online paper.
+Received 12 April; accepted 18 August 2015.
+Published online 21 October 2015.
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+
+Miller, E. K. & Cohen, J. D. An integrative theory of prefrontal cortex function. Annu.
+Rev. Neurosci. 24, 167–202 (2001).
+Buschman, T. J. & Miller, E. K. Top-down versus bottom-up control of attention in
+the prefrontal and posterior parietal cortices. Science 315, 1860–1862 (2007).
+Fritz, J., Shamma, S., Elhilali, M. & Klein, D. Rapid task-related plasticity of
+spectrotemporal receptive fields in primary auditory cortex. Nature Neurosci. 6,
+1216–1223 (2003).
+Rodgers, C. C. & DeWeese, M. R. Neural correlates of task switching in prefrontal
+cortex and primary auditory cortex in a novel stimulus selection task for rodents.
+Neuron 82, 1157–1170 (2014).
+Zhang, S. et al. Selective attention. Long-range and local circuits for top-down
+modulation of visual cortex processing. Science 345, 660–665 (2014).
+Glickfeld, L. L., Histed, M. H. & Maunsell, J. H. Mouse primary visual cortex is used to
+detect both orientation and contrast changes. J. Neurosci. 33, 19416–19422
+(2013).
+Hubel, D. H. & Wiesel, T. N. Receptive fields, binocular interaction and functional
+architecture in the cat’s visual cortex. J. Physiol. (Lond.) 160, 106–154 (1962).
+Newsome, W. T., Britten, K. H. & Movshon, J. A. Neuronal correlates of a perceptual
+decision. Nature 341, 52–54 (1989).
+Hoover, W. B. & Vertes, R. P. Anatomical analysis of afferent projections to the
+medial prefrontal cortex in the rat. Brain Struct. Funct. 212, 149–179 (2007).
+Vong, L. et al. Leptin action on GABAergic neurons prevents obesity and reduces
+inhibitory tone to POMC neurons. Neuron 71, 142–154 (2011).
+Halassa, M. M. et al. Selective optical drive of thalamic reticular nucleus generates
+thalamic bursts and cortical spindles. Nature Neurosci. 14, 1118–1120 (2011).
+Zhao, S. et al. Cell type–specific channelrhodopsin-2 transgenic mice for
+optogenetic dissection of neural circuitry function. Nature Methods 8, 745–752
+(2011).
+Fritz, J. B., David, S. V., Radtke-Schuller, S., Yin, P. & Shamma, S. A. Adaptive,
+behaviorally gated, persistent encoding of task-relevant auditory information in
+ferret frontal cortex. Nature Neurosci. 13, 1011–1019 (2010).
+Letzkus, J. J. et al. A disinhibitory microcircuit for associative fear learning in the
+auditory cortex. Nature 480, 331–335 (2011).
+McAlonan, K., Cavanaugh, J. & Wurtz, R. H. Guarding the gateway to cortex with
+attention in visual thalamus. Nature 456, 391–394 (2008).
+Purushothaman, G., Marion, R., Li, K. & Casagrande, V. A. Gating and control of
+primary visual cortex by pulvinar. Nature Neurosci. 15, 905–912 (2012).
+Saalmann, Y. B., Pinsk, M. A., Wang, L., Li, X. & Kastner, S. The pulvinar regulates
+information transmission between cortical areas based on attention demands.
+Science 337, 753–756 (2012).
+Pinault, D. The thalamic reticular nucleus: structure, function and concept. Brain
+Res. Brain Res. Rev. 46, 1–31 (2004).
+Crick, F. Function of the thalamic reticular complex: the searchlight hypothesis.
+Proc. Natl Acad. Sci. USA 81, 4586–4590 (1984).
+
+20. Halassa, M. M. et al. State-dependent architecture of thalamic reticular
+subnetworks. Cell 158, 808–821 (2014).
+21. O’Connor, D. H., Fukui, M. M., Pinsk, M. A. & Kastner, S. Attention modulates
+responses in the human lateral geniculate nucleus. Nature Neurosci. 5,
+1203–1209 (2002).
+22. Chen, C. & Regehr, W. G. Presynaptic modulation of the retinogeniculate synapse.
+J. Neurosci. 23, 3130–3135 (2003).
+23. Cox, C. L., Huguenard, J. R. & Prince, D. A. Nucleus reticularis neurons mediate
+diverse inhibitory effects in thalamus. Proc. Natl Acad. Sci. USA 94, 8854–8859
+(1997).
+24. Gunaydin, L. A. et al. Natural neural projection dynamics underlying social
+behavior. Cell 157, 1535–1551 (2014).
+25. Grimley, J. S. et al. Visualization of synaptic inhibition with an optogenetic sensor
+developed by cell-free protein engineering automation. J. Neurosci. 33,
+16297–16309 (2013).
+26. Cremers, T. & Ebert, B. Plasma and CNS concentrations of Gaboxadol in rats
+following subcutaneous administration. Eur. J. Pharmacol. 562, 47–52 (2007).
+27. Casagrande, V. A., Sa´ry, G., Royal, D. & Ruiz, O. On the impact of attention and
+motor planning on the lateral geniculate nucleus. Prog. Brain Res. 149, 11–29
+(2005).
+28. Mitchell, A. S. et al. Advances in understanding mechanisms of thalamic relays in
+cognition and behavior. J. Neurosci. 34, 15340–15346 (2014).
+Supplementary Information is available in the online version of the paper.
+Acknowledgements We thank J. A. Movshon, W. Ma, R. W. Tsien, G. Fishell and
+D. Rinberg for helpful comments on the manuscript and G. J. Augustine for providing us
+with the SuperClomeleon construct and for helpful discussion around its use. The work
+was supported by the Swiss National Science Foundation (P2LAP3 151786) to R.D.W.
+and the Simons Foundation, the Sloan Foundation, the Brain and Behavior Research
+Foundation and the US National Institutes of Health (R00 NS078115) to M.M.H; M.M.H.
+is additionally supported by the Feldstein Medical Foundation, a Klingenstein-Simons
+Fellowship and a Biobehavioral Research Award for Innovative New Scientists
+(BRAINS) R01 (R01 MH107680) from the National Institute of Mental Health.
+Author Contributions M.M.H. conceived and designed all aspects of the study. R.D.W.
+devised the training paradigm for the cross-modal task and L.I.S. performed all
+associated programming. R.D.W. collected electrophysiological data. T.J.D. provided
+fibre photometry training, advice and rig designs; L.I.S. extended the method to
+FRET-based photometry, built the rig and collected data. R.D.W. analysed behavioural
+data and L.I.S. analysed psychophysical, electrophysiological and photometry data.
+M.N. generated the retrograde lentiviruses in-house, performed SuperClomeleon
+cloning into an AAV backbone and acquired confocal images. K.D. provided support for
+fibre photometry training. M.M.H. supervised the experiment, directed the analysis and
+wrote the manuscript. All authors read the final version of the manuscript.
+Author Information Reprints and permissions information is available at
+www.nature.com/reprints. The authors declare no competing financial interests.
+Readers are welcome to comment on the online version of the paper.
+Correspondence and requests for materials should be addressed to M.M.H.
+(michael.halassa@nyumc.org).
+
+2 9 O C TO B E R 2 0 1 5 | VO L 5 2 6 | N AT U R E | 7 0 9
+G2015
+
+Macmillan Publishers Limited. All rights reserved
+
+RESEARCH LETTER
+METHODS
+Animals. VGAT-ChR2 mice were purchased from the Jackson Laboratory and
+maintained on a C57Bl6/J background. VGAT-Cre mice were backcrossed to
+C57Bl6/J mice for at least six generations. For experiments in Fig. 1, a total of
+fifteen animals were trained, ten of which were later used to establish psychometric
+functions (four for divided attention; six for reversal learning). For Fig. 2, four
+VGAT-ChR2 mice were used for disruption of PFC and primary sensory cortices
+and three mice were used for inactivating LGN. In Fig. 3, four VGAT-Cre mice
+were used for electrophysiological recordings from optogenetically identified
+visTRN neurons, of which two were used for combined electrophysiological
+recordings with optogenetic PFC inactivation (Fig. 3c–e). An additional six mice
+were used for optogenetic activation or inhibition of visTRN (three per manipulation) during behaviour (Fig. 3f–g). Four wild-type mice were used for LGN
+recordings (Fig. 4). For fibre photometry experiments (Fig. 5), six mice were
+injected with AAV-hSyn-SuperClomeleon for behavioural and pharmacological
+experiments and three YFP control mice were used. Including all animals used for
+Extended Data figures, a total of 28 male mice, 1.5–6 months old, were trained on
+the cross-modal task. All experimental procedures involving animals were performed according to the guidelines of the Institutional Animal Care and Use
+Committee at the New York University Langone Medical Center and the US
+National Institutes of Health.
+Behavioural training and testing. Behavioural setup. Experiments were conducted in a custom-built trapezoidal testing chamber (base 1, 12 cm; base 2,
+25 cm; height, 25 cm) positioned over a grid floor. The testing chamber contained
+three nose-pokes, each of which consisted of an infrared LED/infrared phototransistor pair (Digikey, Thief River Falls, Minnesota) for response detection.
+Activation of a central nose-poke located on the grid floor, 6 cm away from the
+reward wall, was required for trial initiation. Two headphone speakers
+(Skullcandy, Park City, Utah) embedded in the floor delivered biasing cues binaurally. Two white LEDs (Mouser, El Cajon, California) were mounted 6.5 cm apart
+on the base wall below two additional nose-pokes. Liquid reward consisting of
+10 ml evaporated milk was delivered directly to these wall-mounted nose-pokes via
+a single-syringe pump (New Era Pump Systems, Farmingdale, New York). Access
+to these response nose-pokes was restricted by a rotating, servo-controlled (Tower
+Hobbies, Champaign, Illinois) disc (radius, 7 cm). Rewards could be accessed from
+these nose-pokes only when two holes in the rotating disc were aligned with the
+underlying nose-pokes. Trial logic was controlled by custom software running on
+an Arduino Leonardo microcontroller (Ivrea, Italy).
+Training. Mice were food restricted to 85–90% of their ad libitum body weight
+before training. Training consisted of multiple levels. First, mice were habituated
+to the test box and allowed to collect reward freely. Reward availability was signalled by the rotation of the aforementioned wall-mounted disc. The location of
+reward (left or right poke) was indicated by either a visual or an auditory stimulus.
+For ‘attend to vision’ (visual) trials, the rewarded response poke was indicated
+by illumination of the LED mounted underneath it. In ‘attend to audition’ (auditory) trials, an upsweep (10–14 kHz, 500 ms) indicated a reward on the left and a
+downsweep (16–12 kHz, 500 ms) indicated a reward on the right. To facilitate
+discrimination learning, sweeps were initially presented in a directional manner.
+Trials were given in single-modality blocks of six, with alternating block type
+(that is, six visual trials followed by six auditory trials; Extended Data Fig. 1, top
+row). The stimulus was presented until the animal collected the reward. An individual trial was terminated 20 s after reward collection and a new trial became
+available 5 s later. Second, mice learnt to poke to receive a reward. All other
+parameters remained constant. An incorrect poke had no negative consequence.
+By the end of this training stage, all mice collected at least 20 rewards per
+30-minute session.
+Third, mice were trained to initiate individual trials, allowing for the establishment of a temporal window in which they could anticipate subsequent delivery of
+the stimuli. For successful initiation, mice had to break the infrared beam briefly
+(50 ms) in the initiation poke to trigger stimulus presentation and rotation of the
+wall-mounted disc. Mice were informed about trial availability and modality type
+by brown noise (10-kHz low-pass-filtered white noise, visual trial) or blue noise
+(11-kHz high-pass-filtered white noise, auditory trial) delivered binaurally. At this
+stage, modality types were arranged in a non-conflicting block design (Extended
+Data Fig. 1, top row). Correct poking resulted in reward delivery, whereas incorrect
+poking resulted in immediate termination of the trial by disc rotation, blocking
+access to reward. Rewards were available for 15 s following correct poking, followed by a 5-s intertrial interval (ITI). Incorrect poking was punished with a timeout, which consisted of a 30-s ITI. Mice could not initiate new trials during an ITI.
+To avoid development of side preferences, the target stimulus would appear at the
+same location as it did on the previous trial following an incorrect response. After
+one week of training on this stage, mice successfully associated the target stimuli
+
+G2015
+
+with the appropriate reward location (Extended Data Fig. 1, top row). At this stage,
+directionality of sound stimuli did not affect performance.
+Fourth, mice had to resolve sensory conflict. Auditory and visual target stimuli
+were always presented in a conflicting manner (Extended Data Fig. 1, middle row).
+The brown and blue noise cues indicated the modality to be selected. During
+a session, four different trial types were presented in blocks in repeating order:
+(1) three auditory trials, (2) three visual trials, (3) six conflict trials with an auditory
+target and (4) six conflict trials with a visual target. To prevent modality preferences, an incorrect response resulted in the repetition of the same trial type,
+thereby specifically increasing the block length of the trial types with weak performance. This training stage was introduced to teach mice to attend only to the
+target modality during a conflict trial. Over the course of this training stage
+(1 week), the duration of the target stimuli was successively shortened to 3 s, 1 s
+and 0.5 s. In parallel, the time that mice had to break the infrared barrier in the
+initiation nose-poke was continually increased and randomized to a final range of
+0.5–0.7 s, rendering the precise presentation time of target stimuli unpredictable.
+Once mice performed successfully on conflict trials (Extended Data Fig. 1, middle
+row) the single-modality trials were removed and block length was reduced to
+three trials. This change in the training paradigm was made to facilitate learning of
+the trial-type cueing (brown and blue noise).
+On the fifth and final stage of training, all block structure was removed and trial
+type was randomized (Extended Data Fig. 1, bottom row). We used three measures
+to ensure that mice followed the trial-type cueing and did not employ simple
+alternating strategies. In addition to computing overall accuracy (Extended Data
+Fig. 1, graphs on left), we quantified the number of consecutive correct trials
+(Extended Data Fig. 1, middle column) and calculated the fraction of correct
+modality switches (Extended Data Fig. 1, graphs on right). At this final stage,
+rewards were available for only 5 s.
+Psychophysics. For experiments determining the visual detection psychometric
+function, the ratio between visual and auditory trials was adjusted from the typical
+1/1 to 4/1 to facilitate the acquisition of a larger number of visual trials while
+maintaining the divided-attention nature of the task. In addition, visual stimulus
+duration was shortened to 0.1 s and the light was randomly displayed at one of five
+different intensities (0.15, 0.3, 0.6, 0.9, 1.2 lm). To establish the comparison
+between psychometric functions of visual-only and divided-attention trials
+(Fig. 1c), we trained mice that reached criterion (.70% accuracy) on the crossmodal task to perform a visual-only task. For one week, mice were trained on a
+visual-only task every other day; trials containing only visual target stimuli were
+cued by broadband white noise. Subsequently, visual-only trials were introduced
+into the cross-modal task at a 1/4 ratio and in a random interleaved manner. Mice
+were found to differentially anticipate visual-only and visual target with auditory
+conflict trials (Fig. 1c), whereas they continued to perform equally well on conflict
+trials with an auditory target (Extended Data Fig. 3).
+To separate the effect of anticipating a conflicting stimulus (top-down) from the
+presence or absence of a distracting stimulus itself (bottom-up), we performed two
+experiments. In the first experiment, mice performed the cross-modal task with
+70% conflict trials and 30% in which conflict was expected but auditory distraction
+was removed (Fig. 1d). In the second experiment, mice that had been trained on
+the cross-modal task had the biasing cues replaced with broadband white noise
+and the modality rewarded was changed on a session-by-session basis such that
+mice would deduce it based only on reward history (Fig. 1e).
+Behavioural analysis and determination of visual detection threshold.
+Performance in behavioural tests was assessed based on the fraction of correct
+responses relative to chance level or guess rate (50%, c). The visual detection
+threshold (a) and maximum performance (l) were estimated by fitting performance across stimulation intensities with a logistic function29,30:
+F ðx; a, b, l, cÞ~cz
+
+ð1{c{lÞ
+1zexpð{bðx{aÞÞ
+
+where x corresponds to the five stimulus levels expressed as a percentage of
+maximum stimulus intensity. The fraction of correct trials as a percentage of all
+trials was summed across sessions and the overall performance as a function of
+stimulus intensity was fit using maximum likelihood estimation30 implemented in
+the Palamedes psychophysical toolbox (http://www.palamedestoolbox.org/).
+Estimation of the distribution of the a parameter was made via non-parametric
+bootstrap analysis of curve fits (Fig. 1). To adjust for variable lapse rates (Extended
+Data Fig. 2), the fraction of correct trials was normalized so that the minimum and
+maximum performance rates corresponded to 50% and 100%, respectively31.
+Curve fitting and estimation of the a parameter then proceeded as described above.
+Model selection for the number of psychophysical parameters was based on the
+Akaike information criterion20,32.
+Optogenetics in behaviour. For experiments with optical stimulation (Fig. 2),
+testing conditions were equivalent to the final stage of training. Laser trains of
+
+Macmillan Publishers Limited. All rights reserved
+
+LETTER RESEARCH
+either blue (for ChR2 activation) or yellow (for eNpHR3.0 activation) light consisting of 50-Hz 18-ms pulses (90% duty cycle) at an intensity of 5–6 mW (measured at the tip of the optic fibres) were delivered on every other trial. On laser
+trials, stimulation occurred either during the anticipatory period (0.5–0.7 s) or
+during stimulus presentation (0.5 s). Because behaviour and recording systems
+were automated and stimulus sequence and optogenetic manipulations varied on a
+trial-by-trial basis, researchers were not blinded to the conditions. In the case of
+multiple sequential pharmacological or optogenetic manipulations in the same
+animals, tests were performed in a predefined, pseudorandom order. For comparisons of multiple groups, Kruskal–Wallis one-way analysis of variance was used to
+assess variance across groups before pairwise comparisons. Power analysis based
+on effect size estimates was used to determine sample size required for statistical
+significance with a power of b 5 0.7; more than three samples were required to
+detect significant differences.
+Electrophysiology and optical chloride measurements in behaviour. For combined TRN recordings with optogenetic PFC disruption (Fig. 3d, e), laser trains of
+blue light (as described earlier) were delivered during the anticipatory period on
+every other trial. For electrophysiological recordings of LGN units and fibre photometry measurements, visual stimuli were presented through illumination of
+diffusion-coated wide-angle 3-mm flat-top LED lights (LightHouseLEDS,
+Washington), fixed directly on the head of the mouse and centred 8 mm from
+the eyes. The LEDs mounted on the base wall of the behavioural box were turned
+off in this condition. These changes allowed emitted light to activate ,150u of the
+visual angle when the eye is centred at rest33.
+Viruses. For retrograde optogenetic tagging and TRN manipulation, FuGB2pseudotyped retrograde lentiviruses (RG-LV) were used as described previously20.
+visTRN neurons were labelled through injection (0.4–0.6 ml) of RG-LVEF1a-DIO-ChR2-GFP (for activation) or RG-LV-EF1a-DIO-eNpHR3.0-eYFP
+(for inactivation) into the primary visual thalamus (anterior–posterior (A–P),
+22.1 mm; medial–lateral (M–L), 62 mm; dorsal–ventral (D–V), 2.5 mm) using
+a quintessential stereotactic injector (QSI, Stoelting, Wood Dale, Illinois).
+Coordinates are referenced to Bregma. For combined electrophysiological recordings with optogenetic PFC disruption during behaviour, 0.4 ml AAV2-hSyn-DIOChR2-GFP (titre, 1012 vector core per ml) was injected into the PFC (A–P, 2.6 mm;
+M–L, 60.25 mm; D–V, –1.25 mm). To measure chloride flux in the LGN, the
+transgene SuperClomeleon (gift from G. J. Augustine25) was cloned into the
+AgeI and EcoRI restriction sites of an AAV-hSyn-SSFO-eYFP plasmid to obtain
+AAV-hSyn-SuperClomeleon. The SuperClomeleon recombinant AAV was packaged as serotype 2 (University of North Carolina, Vector core facility; titre, 1012
+vector core per ml) and 0.6–0.7 ml virus was injected into the visual thalamus.
+Following injections, mice were allowed to recover for 2–4 weeks to allow for
+virus expression.
+Optic fibre implant experiments. Mice were anaesthetized using 1% isoflurane
+and mounted on a stereotactic frame. For cortical inactivation experiments, up to
+three pairs of 4–5-mm-long optic fibres (Doric Lenses, Quebec, Canada) were
+inserted bilaterally to target up to three different brain areas per mouse (prelimbic
+cortex, 2.6 mm A–P, 60.25 mm M–L, –1.25 mm D–V; primary visual cortex,
+–3.5 mm A–P, 62.50 mm M–L, –0.50 mm D–V; primary auditory cortex,
+–2.8 mm A–P, 64.00 mm M–L, –2.00 mm D–V; AAC, 0.5 mm A–P, 60.25 mm
+M–L, –1.00 mm D–V; lateral OFC, 2.6 mm A–P, 61.50 mm M–L, –2.00mm D–V;
+primary visual thalamus, –2.1 mm A–P, 62.00 mm M–L, –2.50 mm D–V;
+visTRN, –1.6 mm A–P, 62.20 mm M–L, –3.00 mm D–V). Two or three stainless
+steel screws were implanted into the skull to anchor the implant and were fixed
+with dental cement. Animals were allowed to recover and training resumed one
+week later. For ChR2 activation a 473-nm laser was used and a 561-nm laser was
+used for eNpHR3.0 activation (Omicron-Laserage, Dudenhofen, Germany).
+Drive construction. Custom drive housings were designed using 3D CAD software (SolidWorks, Concord, Massachusetts) and printed in Accura 55 plastic
+(American Precision Prototyping, Tulsa, Oklahoma) as described previously20,34.
+Prior to implantation, each drive was loaded with 8–12 independently movable
+microdrives carrying up to 3 nichrome (12.5 mm) and/or tungsten (25 mm) stereotrodes (California Fine Wire Company, Grove Beach, California). Stereotrodes
+were pinned to custom-designed 32- or 64-channel electrode interface boards
+(EIB; Sunstone Circuits, Mulino, Oregon) along with a common reference wire
+(A-M systems, Carlsborg, Washington). For optogenetic tagging, an optical fibre
+was embedded adjacent to the stereotrode array. In these cases, the optic fibre
+extended 3.5 mm from the base of the drive so that it could be stereotactically
+positioned above the TRN during implantation. Targeting of the TRN or LGN was
+achieved by guiding stereotrodes and optic fibres through a square array of polyimide sleeves attached to the base of the drive body.
+Drive and fibre implantation for optical activity measurements. Prior to surgical implantation, mice were anaesthetized with 1% isoflurane and placed in a
+stereotactic frame. Stainless steel screws were implanted into the skull to provide
+
+G2015
+
+electrical and mechanical stability for the drives. For drive implantations, craniotomies (,3 mm 3 2 mm) were drilled, centred at –2 mm A–P and 2.5 mm M–L
+for TRN recordings (15u angled implantation) and at –2.3 mm A–P and –2.5 mm
+M–L for LGN recordings. The dura mater was carefully removed and drives were
+centred at the craniotomy coordinates using a custom stereotactic arm. Drive
+bodies were slowly lowered into the craniotomy until stereotrode tips were
+,500 mm below the cortical surface and optical fibres were positioned just above
+the TRN (2.5 mm D–V). For fibre-photometry-based optical recording, lowinternal-fluorescence optic fibres (400 mm diameter) (Doric Lenses, Canada) were
+implanted just dorsal to the LGN (–2.2 mm A–P, 2.15 mm M–L and 2.6 mm D–V)
+following virus injection.
+Electrophysiological recordings. After mice had recovered from implantation
+surgery, recordings were made using a Neuralynx multiplexing digital recording
+system (Neuralynx, Bozeman, Montana). Signals were acquired using a 32- or 64channel digital headstage connected to the implanted EIB. Signals from each
+electrode were amplified, filtered between 0.1 Hz and 9 kHz and digitized at
+30 kHz. Local field potential signals were obtained from a single wire per stereotrode. Following implantation, stereotrode sets were incrementally lowered from
+the cortex into the target thalamic structure over the course of 1–2 weeks
+(Extended Data Fig. 5). Spike sorting was performed offline following acquisition
+based on relative spike amplitude and energy within electrode pairs using the
+MClust toolbox (http://redishlab.neuroscience.umn.edu/mclust/MClust.html).
+Following manual clustering, cross-correlation and autocorrelation analyses were
+used to confirm adequate separation.
+Optogenetically tagged visTRN units were identified based on ChR2-mediated
+response to stimulation using a 473-nm analogue-modulated laser (OmicronLaserage, Dudenhofen, Germany)20. Laser light was delivered by a 200-mm optic
+fibre targeted to the TRN (Extended Data Fig. 5) connected to a fibre optic patch
+cord (200-mm core, Doric Lenses, Quebec, Canada). The laser intensity was set at
+,8 mW optical output power measured at the patch cord terminus. Fibres were
+polished before implantation so that the power at the tip was $50% maximum,
+resulting in ,4–5-mW laser light being delivered to the brain. Only neurons that
+showed clear transient responses to laser stimulation were included in the analysis.
+Analysis of firing rate. Changes in firing rate during task performance were
+assessed for 138 identified visTRN neurons recorded from four animals and 119
+LGN neurons in two animals. Peri-event time histograms aligned to trial initiation
+and to stimulus presentation were computed using a 5-ms bin width for individual
+neurons in each recording session4. Separate histograms were created for correct
+and incorrect trials within auditory and visual target stimuli and convolved with a
+Gaussian kernel (8 ms half-width at half-height) to create a spike density function35,36. The average firing rate across trials was determined during the anticipation window before stimulus presentation. The evoked response amplitude was
+estimated by averaging the firing rate within a 100-ms window starting 20 ms after
+stimulus onset. Window duration was chosen based on the latency-to-peak response for point stimuli in the mouse LGN37.
+For normalized rate changes in TRN neurons, firing rates during the attentional
+window in each trial were compared with the baseline firing rate (5-s window, 0.5 s
+before task initiation). Statistical comparison of firing rate changes was used to
+identify neurons with significant task-associated changes in firing rate via nonparametric comparison of firing rate during the attentional window and the baseline period38. The test statistic (W) was calculated based on ranking of all trials (N)
+and comparison was performed using the sign function (sgn):
+
+
+N
+X
+Á: Ã
+ Â À
+sgn x2,j {x1,j Rj 
+W~
+ j
+
+where x1 and x2 were the attentional window and baseline firing rate, respectively,
+and R denotes the rank. The threshold for significance was set at 0.05 and significantly modulated units were defined as neurons in which the test statistic was less
+than the critical value for the sample size (Walpha(0.05)). Comparison of firing rates
+across trial types (for example, visual versus auditory correct) was performed using
+the Wilcoxon rank-sum test. Homogeneity of variance for firing rates across
+conditions was determined using the Fligner–Killeen test of homoscedasticity.
+Analysis of visual evoked potentials. Visual evoked potentials (VEPs) were
+computed from the broadband LGN local field potential (LFP; 0.1 Hz–10 kHz).
+The particular stereotrode used for VEP analysis in behaviour was selected based
+on the amplitude of responses in post-task recordings during which there were
+many more trials included. Task-related VEPs were averaged during correct auditory and visual trials across recording sessions. To determine peak response,
+the lowest negative-potential offsets associated with the visual response39
+(0–250-ms window) were identified on a trial-by-trial basis. Signals from individual trials were smoothed with a 25-ms half-width filter over the response
+window before obtaining the peak offset40.
+
+Macmillan Publishers Limited. All rights reserved
+
+RESEARCH LETTER
+Histology. Mice were euthanized and transcardially perfused with PBS followed
+by 4% paraformaldehyde. Brains were dissected, post-fixed overnight at 4 uC and
+sectioned using a vibratome (LEICA, Buffalo Grove, Illinois).
+For GFP enhancement, immunofluorescent staining was carried out on
+50-mm-thick sections using chicken anti-GFP (1/1,000, GFP-1020, Aves).
+Sections were incubated overnight with primary antibody in PBS-T (10% normal
+goat serum and 0.05% Tween20) at 4 uC. Detection of primary antibodies was
+carried out with Alexa-Fluor-conjugated secondary antibodies (1/1,000, A-11039,
+Invitrogen). All sections were imaged on a Zeiss LSM510 META confocal
+microscope.
+Fibre-photometry-based optical chloride measurements. FRET-based measurement of chloride was performed during behaviour using a custom-designed fibre
+photometry system24. A fibre-coupled LED (Thorlabs, Newton, New Jersey) light
+source, filtered using a 434-nm clean-up filter (MF434-17 Thorlabs, Newton, New
+Jersey), was used for CFP excitation. Excitation light was split via a long-pass
+dichroic mirror (DMLP425, Thorlabs, Newton, New Jersey) and coupled to a
+400-mm, 0.48-NA (pharmacology) optic patch cord (Doric lenses, Canada) linked
+to a 400-mm chronically implanted optical fibre. Excitation and emission light were
+conveyed by a single patch cord linking the fibre photometry system to the
+implanted fibre. SuperClomeleon CFP and YFP emissions25 were separated using
+a single-edge beam splitter (FF511-Di01, Semrock, Rochester, New York). Each
+emission wavelength was independently focused onto a separate femtowatt silicon
+photoreceiver (Newport, Irvine, California) using custom optics (12.7-mm focal
+length plano-convex lens mounted in Thorlabs SM1NR05 lens tube). The light
+signal was digitized and recorded using a TDT signal acquisition system (TuckerDavis Technologies, Alachua, Florida). Signal bandwidth was limited to ,750 Hz
+based on the photoreceiver response characteristics. The fluorescence ratio was
+calculated across the recording period. To minimize the effect of slow fluctuations,
+normalized delta fluorescence (df/F) was calculated for evoked responses relative to
+the baseline fluorescence level before each event (1-s window). Traces were
+smoothed with a convolution filter (50 ms half-width). Peak response (Extended
+Data Fig. 10) was estimated as the minimum over a 500-ms window following
+stimulus onset. For pharmacological activation of GABAA receptors with 4,5,6,7tetrahydroisoxazolo(5,4-c)pyridin-3-ol (THIP), baseline fluorescence was estimated
+over 5 minutes before injection. For visual stimulation, light pulses of 100-ms
+duration were displayed to the ipsi- or contralateral side of the recorded LGN.
+
+G2015
+
+Effects of the GABAA receptor antagonist flumazenil on visual evoked responses
+were quantified by comparing the average peak response from
+5 minutes before injection (baseline) to one within a 5-minute time window around
+the maximal response suppression (maximal drug effect) and at the end of the
+recording session (recovery, at least 100 min after injection). For optogenetic manipulations of frontal cortical structures, smaller-diameter patch cords (200 mm, 0.37
+NA) were used to allow movement and prevent tangling. For these recordings,
+power analysis was performed to determine sample size required to detect significant differences with a power of b 5 0.7 based on the observed differential signal in
+correct auditory and visual trials under baseline conditions. Analysis indicated that
+more than four independent samples would be required to detect a change in these
+differential responses.
+29. Ress, D. & Heeger, D. J. Neuronal correlates of perception in early visual cortex.
+Nature Neurosci. 6, 414–420 (2003).
+30. Levitan, C. A., Ban, Y. H., Stiles, N. R. & Shimojo, S. Rate perception adapts across
+the senses: evidence for a unified timing mechanism. Sci. Rep. 5, 8857 (2015).
+31. Mareschal, I., Calder, A. J., Dadds, M. R. & Clifford, C. W. Gaze categorization under
+uncertainty: psychophysics and modeling. J. Vis. 13, 18 (2013).
+32. Hastie, T., Tibshirani, R. & Friedman, J. The Elements of Statistical Learning: Data
+Mining, Inference and Prediction 2nd edn, Ch. 7 (Springer, 2009).
+33. Wallace, D. J. et al. Rats maintain an overhead binocular field at the expense of
+constant fusion. Nature 498, 65–69 (2013).
+34. Brunetti, P. M. et al. Design and fabrication of ultralight weight, adjustable multielectrode probes for electrophysiological recordings in mice. J. Vis. Exp. 91,
+e51675 (2014).
+35. Fries, P., Neuenschwander, S., Engel, A. K., Goebel, R. & Singer, W. Rapid feature
+selective neuronal synchronization through correlated latency shifting. Nature
+Neurosci. 4, 194–200 (2001).
+36. Szucs, A. Applications of the spike density function in analysis of neuronal firing
+patterns. J. Neurosci. Methods 81, 159–167 (1998).
+37. Piscopo, D. M., El-Danaf, R. N., Huberman, A. D. & Niell, C. M. Diverse visual features
+encoded in mouse lateral geniculate nucleus. J. Neurosci. 33, 4642–4656 (2013).
+38. De Araujo, I. E. et al. Neural ensemble coding of satiety states. Neuron 51, 483–494
+(2006).
+39. Ridder III, W. H. & Nusinowitz, S. The visual evoked potential in the mouse–origins
+and response characteristics. Vision Res. 46, 902–913 (2006).
+40. Izaki, Y., Fujiwara, S. E. & Akema, T. Rat prefrontal response and prestimulation
+local field potential power in vivo. Neuroreport 19, 255–258 (2008).
+
+Macmillan Publishers Limited. All rights reserved
+
+LETTER RESEARCH
+
+Extended Data Figure 1 | Cross-modal task training and performance
+validation. Quantification of performance across training stages for the crossmodal task. The trial sequence for each training stage is indicated on the left.
+Improved performance was observed in the last three days of training relative to
+the first three for each stage. Bar graphs on the left (column 1) show the
+
+G2015
+
+reduction in the error fraction (n 5 15 mice,*P , 0.05, Wilcoxon rank-sum
+test), column 2 shows the number of consecutive correct responses (P-values
+shown, Kolmogorov–Smirnov test) and bar graphs on the right (column 3)
+show the probability of a correct response following a modality shift (*P , 0.05,
+Wilcoxon rank-sum test).
+
+Macmillan Publishers Limited. All rights reserved
+
+RESEARCH LETTER
+
+Extended Data Figure 2 | Effects of cross-modal divided attention in the
+mouse. Top row, single-mouse examples of visual detection performance
+during cross-modal divided attention and reversal learning. Comparison of
+performance under visual-only (black) and cross-modal (green) conditions are
+shown on the left. Although neither condition contained sensory conflict, the
+mere expectation of one increased detection threshold ($124 trials per
+G2015
+
+condition). Detection threshold was not affected by the presence of an auditory
+distractor during reversal learning ($90 trials per condition), as shown on the
+right. Middle and bottom rows, group data normalized to peak performance
+(lapse rate), showing that the effects of divided attention on detection threshold
+were persistent. Bootstrap estimation of visual detection threshold shows a
+similar pattern as data in Fig. 1 (error bars are 95% confidence intervals).
+
+Macmillan Publishers Limited. All rights reserved
+
+LETTER RESEARCH
+
+Extended Data Figure 3 | Comparable performance on trial types and intact
+overall auditory performance despite auditory stimuli being eliminated on a
+subset of ‘attend to vision’ trials. Left, performance was comparable on
+
+G2015
+
+auditory and maximum-intensity visual trials (n 5 4 mice, same as in Fig. 1d).
+Right, mice exhibited comparable overall performance when auditory stimuli
+were eliminated from a subset of ‘attend to vision’ trials.
+
+Macmillan Publishers Limited. All rights reserved
+
+RESEARCH LETTER
+
+Extended Data Figure 4 | Region- and timing-specific effects of optogenetic
+manipulation on cross-modal task performance. a, Optogenetic disruption
+of auditory cortex during target stimulus anticipation disrupted performance
+specifically for auditory trials (n 5 4 mice, **P , 0.01, Wilcoxon rank-sum
+test). Disruption of AAC (b) or lateral OFC (c) in VGAT-ChR2 mice or
+following localized injection of a ChR2-expressing virus did not affect
+performance (n 5 4 mice (2 VGAT-ChR2 and 2 VGAT-Cre), 4 sessions per
+manipulation). d, In contrast, inactivation of prelimbic (PL) cortex led to
+robust reduction in performance in both types of manipulation (n 5 8 mice
+
+G2015
+
+(4 VGAT-ChR2 and 4 VGAT-Cre), *P , 0.05 Wilcoxon rank-sum test).
+e–h, Photobleaching experiment to quantify the spread of laser light. A coronal
+section (e) shows GFP bleaching following two-hour exposure to laser
+stimulation (6 mW, 50 Hz, 90% duty cycle). f–h, Fluorescence intensity
+quantification shows that the extent of light spread is limited to 300 mm around
+the tip of the optic fibre (n 5 3 mice). Ant, anterior; FrA, frontal association
+cortex; lat, lateral; LO, lateral orbitofrontal cortex; med, medial; MO, medial
+orbitofrontal cortex; post, posterior; Stim, stimulation; Sham, sham surgery
+control; VO, ventral orbitofrontal cortex. Scale bar in e, 200 mm.
+
+Macmillan Publishers Limited. All rights reserved
+
+LETTER RESEARCH
+
+Extended Data Figure 5 | Independently adjustable, multi-electrode
+recording of visTRN neurons. a, b, Injection of DIO-ChR2-eYFP retrograde
+lentivirus into LGN labels visTRN neurons but not LGN interneurons. a, The
+histological image is the maximal projection of four 2-mm confocal planes
+showing labelling of visTRN neurons (inset shows a zoom view of cell bodies)
+approximately 1.34 mm posterior to Bregma. b, Image as in a, but from LGN of
+the same animal, approximately 2.46 mm posterior to Bregma (inset shows a
+zoom view of terminals). c, Schematic of independently adjustable multielectrode drive. d, An example of activity recorded from different depths during
+adjustment. Distinct patterns of physiological activity are observed along the
+
+G2015
+
+trajectory in the broadband local field potential signal (0.1 Hz–32 kHz). The
+numbers correspond to different recording sites (marked by the red dots on
+the schematic in c). e, High-pass-filtered signals (600 Hz–10 kHz) showing
+spiking activity, with isolated clustered units showing distinguishable
+waveform characteristics in distinct structures. f, Example peri-event time
+histograms of ChR2-mediated visTRN response. Top, response to laser
+activation (473 nm, ,4 mW, stimulation, 20 ms). Bottom, response to visual
+stimuli (10-ms pulse). Blue and orange blocks indicate laser and visual
+stimulation, respectively.
+
+Macmillan Publishers Limited. All rights reserved
+
+RESEARCH LETTER
+
+Extended Data Figure 6 | Distinct changes in visTRN firing rate during
+natural errors compared to errors due to PFC disruption. a–c, Scatter plots
+showing the change in absolute firing rate for visTRN neurons for correct (a),
+incorrect (b) or disrupted-PFC trials (c). Insets show the cumulative probability
+plot of separation from the unity line (no change). Although correct trials had a
+lower firing rate in ‘attend to vision’ than in ‘attend to audition’ trials (n 5 138,
+
+G2015
+
+P , 0.001 Wilcoxon signed-rank test), this pattern was reversed for incorrect
+trials (n 5 138, P , 0.05, Wilcoxon signed-rank test); this suggests that perhaps
+the animal was attending to the wrong modality. This reversal was not observed
+in trials with PFC disruption (despite mouse performance being at chance
+level).
+
+Macmillan Publishers Limited. All rights reserved
+
+LETTER RESEARCH
+
+Extended Data Figure 7 | The effect of PFC disruption on visTRN activity is
+distinct from naturally occurring errors. a, Scatter plots of response from
+visTRN neurons, comparing the modulation of their firing rate (change from
+baseline) under the two distinct anticipatory conditions. Each sample is a
+single cell. Colours denote significance reached for each cell on a trial-by-trial
+basis (red, visual; blue, auditory; purple, both; rank-sum-test comparison to
+baseline). Note that in correct performance (n 5 138, 4 mice, P , 0.005,
+Wilcoxon signed-rank test), ‘attend to vision’ resulted in a negative shift and
+
+G2015
+
+‘attend to audition’ resulted in a positive shift, consistent with examples shown
+in Fig. 3. During naturally occurring error trials, the modulation is partially
+reversed for both trial types, suggesting that at least a subset of errors are
+the result of attending to the wrong modality. In contrast, PFC disruption
+(n 5 56 cells, 2 mice) resulted in a weaker, non-uniform effect (‘attend to visual’
+trials are less affected). b, Quantification of effects seen in a. N.S., not
+significant.
+
+Macmillan Publishers Limited. All rights reserved
+
+RESEARCH LETTER
+
+Extended Data Figure 8 | The magnitude of behavioural disruption covaries with the strength of optogenetic manipulation of the LGN or visTRN.
+Activation of inhibitory terminals in the LGN with a 90% duty cycle laser
+(Fig. 2) resulted in maximal disruption of cross-modal performance. Activating
+
+G2015
+
+visually labelled TRN with identical stimulation parameters resulted in a
+quantitatively lower behavioural effect. Reducing the duty cycle of visTRN
+stimulation to 10% resulted in no effect on accuracy, as shown previously4.
+
+Macmillan Publishers Limited. All rights reserved
+
+LETTER RESEARCH
+
+Extended Data Figure 9 | Attentional modulation by LGN is not observed
+on error trials. a, b, No significant difference was observed in the average
+firing rate of LGN neurons during stimulus anticipation (P 5 0.63, Wilcoxon
+signed-rank test, n 5 161 cells, 4 mice) or presentation (P 5 0.74, Wilcoxon
+
+G2015
+
+signed-rank test, n 5 161) among trial types when behavioural outcomes were
+incorrect. c, Similar effects were observed for VEPs (visual, n 5 324 trials;
+auditory, n 5 302 trials; 4 mice).
+
+Macmillan Publishers Limited. All rights reserved
+
+RESEARCH LETTER
+
+Extended Data Figure 10 | Light-evoked fast transients from chloride
+photometry measured in the LGN are GABAA-receptor dependent and
+sensitive to visTRN and prelimbic inactivation in the cross-modal task.
+a, Peak SuperClomeleon FRET- and YFP-control responses to light stimuli
+(50 ms, 0.1 Hz) delivered to the eye contralateral to the recorded LGN (n . 90
+trials from 3 mice for SuperClomeleon and from 4 mice for YFP, ***P , 0.001,
+Friedman test). b, Chloride photometry transients are sensitive to the
+GABAA receptor antagonist flumazenil in a dose-dependent manner. Left,
+intraperitoneal injection of 15 mg kg–1 flumazenil resulted in a 90% peak
+reduction of light-evoked chloride photometry responses, which recovered
+over the course of 90–100 min as predicted by flumazenil pharmacokinetics.
+Insets show example traces of single events recorded during baseline, peak
+suppression and recovery. Right, quantification of the maximal suppressive
+effects and recovery of 5 mg kg–1 and 15 mg kg–1 flumazenil on chloride
+
+G2015
+
+photometry responses (n. 90 trials from 3 mice, *P , 0.05, **P , 0.01,
+Friedman test). c, Cumulative distributions of unitary visual-evoked
+SuperClomeleon FRET peaks in response to light stimuli in the cross-modal
+task. Under baseline conditions, ‘attend to audition’ trials exhibited
+significantly larger amplitudes than ‘attend to vision’ trials, consistent with
+average data in Fig. 5f. Optogenetic silencing of visTRN neurons eliminated the
+difference between trial types and resulted in peak amplitudes comparable
+to baseline ‘attend to vision’ trials (n 5 3 mice, P , 0.005 for ‘attend to audition’
+trials vs all other trial types, Kolmogorov–Smirnov statistics with Bonferroni
+correction). d, Combined optogenetic and chloride photometry inactivation
+of different frontal cortical regions in the LGN while mice performed the crossmodal task. Only PL inactivation eliminates differential inhibition between
+visual and auditory trials (n 5 6 mice, ***P , 0.001, Wilcoxon rank-sum test).
+
+Macmillan Publishers Limited. All rights reserved
+
+
