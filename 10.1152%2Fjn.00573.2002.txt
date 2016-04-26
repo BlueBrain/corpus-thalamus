@@ -1,0 +1,1347 @@
+J Neurophysiol 89: 909 –921, 2003;
+10.1152/jn.00573.2002.
+
+Fast Rhythmic Bursting Can Be Induced in Layer 2/3 Cortical
+Neurons by Enhancing Persistent Naϩ Conductance
+or by Blocking BK Channels
+ROGER D. TRAUB,1 EBERHARD H. BUHL,2 TENGIS GLOVELI,2 AND MILES A. WHITTINGTON2
+Departments of Physiology and Pharmacology and Neurology, State University of New York Health Science Center,
+Brooklyn, New York 11203; and 2Division of Biomedical Sciences, The Worsley Building, University of Leeds,
+Leeds LS2 9NQ, United Kingdom
+
+1
+
+Submitted 18 July 2002; accepted in final form 29 October 2002
+
+Traub, Roger D., Eberhard H. Buhl, Tengis Gloveli, and Miles A.
+Whittington. Fast rhythmic bursting can be induced in layer 2/3
+cortical neurons by enhancing persistent Naϩ conductance or
+by blocking BK channels. J Neurophysiol 89: 909 –921, 2003;
+10.1152/jn.00573.2002. Fast rhythmic bursting (or “chattering”) is a
+firing pattern exhibited by selected neocortical neurons in cats in vivo and
+in slices of adult ferret and cat brain. Fast rhythmic bursting (FRB) has
+been recorded in certain superficial and deep principal neurons and in
+aspiny presumed local circuit neurons; it can be evoked by depolarizing
+currents or by sensory stimulation and has been proposed to depend on a
+persistent gNa that causes spike depolarizing afterpotentials. We constructed a multicompartment 11-conductance model of a layer 2/3 pyramidal neuron, containing apical dendritic calcium-mediated electrogenesis; the model can switch between rhythmic spiking (RS) and FRB modes
+of firing, with various parameter changes. FRB in this model is favored
+by enhancing persistent gNa and also by measures that reduce [Ca2ϩ]i or
+that reduce the conductance of gK(C) (a fast voltage- and Ca2ϩ-dependent
+conductance). Axonal excitability plays a critical role in generating fast
+bursts in the model. In vitro experiments in rat layer 2/3 neurons confirmed (as shown previously by others) that RS firing could be switched
+to fast rhythmic bursting, either by buffering [Ca2ϩ]i or by enhancing
+persistent gNa. In addition, our experiments confirmed the model prediction that reducing gKC (with iberiotoxin) would favor FRB. During the
+bursts, fast prepotentials (spikelets) could occur that did not originate in
+apical dendrites and that appear to derive from the axon. We suggest that
+modulator-induced regulation of [Ca2ϩ] dynamics or of BK channel
+conductance, for example via protein kinase A, could play a role in
+determining the firing pattern of neocortical neurons; specifically, such
+modulation could play a role in regulating whether neurons respond to
+strong stimulation with fast rhythmic bursts.
+
+During visually evoked gamma (30 –70 Hz) oscillations in
+cats, recorded extracellularly, single neurons were observed to
+burst at gamma frequency, with high-intraburst firing frequency (Gray 1994). Such a firing pattern, variously called
+“fast rhythmic bursting” (FRB) or “chattering,” was demonstrated in intracellularly recorded cells in superficial cortical
+layers of in vivo cat cortex, some of which were shown to be
+spiny (hence presumably excitatory) neurons (Gray and Mc-
+
+Cormick1996). These latter chattering cells responded to both
+visual stimulation and sufficiently large depolarizing pulses,
+with fast rhythmic bursts. In cat cortex in vivo, deep thalamicprojecting neurons, and also aspiny (presumed inhibitory) neurons, could also exhibit fast rhythmic bursting during depolarizing current pulses of appropriate amplitude (Steriade et al.
+1998); intralaminar thalamocortical neurons in vivo can also
+discharge in this pattern (Steriade et al. 1993). FRB occurs
+intermittently in so-called stuttering cells, which are GABAergic (Gupta et al. 2000). Steriade et al. (1998) further noted
+high-frequency runs of presumed excitatory postsynaptic potentials (EPSPs) in cells capable of FRB, as if some FRB
+neurons were presynaptic to other FRB neurons. An obvious
+question is then: to what extent do FRB neurons contribute to
+the generation of (as opposed to just participation in) gamma
+oscillations? An understanding of the intrinsic mechanisms of
+FRB could be helpful (but clearly is not sufficient) in answering this question.
+Rhythmic bursting, often in the gamma range, has also been
+observed in neocortical slices from adult ferrets (Brumberg et
+al. 2000) and (at somewhat lower frequencies) from cats (Nishimura et al. 2001). Interesting observations of Brumberg et al.
+(2000) included the following. 1) FRB could be evoked by
+metabotropic glutamate receptor activation. [This is interesting
+because metabotropic glutamate receptors are critically involved in gamma oscillations evoked by electrical stimulation;
+additionally, activation of metabotropic glutamate receptors, in
+the CA1 hippocampal region and superficial neocortex in vitro,
+can evoke gamma oscillations (Gillies et al. 2002; Whittington
+et al. 1995, 1997). These receptors might also play a role in
+sensory-activated gamma in vivo]. 2) FRB can also be evoked
+by current pulses, as in vivo. 3) FRB seems to depend on
+generation of a fast spike afterdepolarization (ADP). 4) FRB
+persists in 0 [Ca2ϩ], 2 mM [Mn2ϩ] media. 5) FRB is suppressed by reduction of Naϩ conductances. 6) in contrast, the
+sea anemone toxin ATX II, which appears to enhance persistent Naϩ conductance [at least in soma/dendritic membrane
+(Brand et al. 2000; Mantegazza et al. 1998)], favors FRB.
+Brumberg et al. (2000) suggested that the spike ADP could be
+
+Address for reprint requests: R. D. Traub, Department of Physiology and
+Pharmacology, SUNY Health Science Center, 450 Clarkson Ave., Box 31,
+Brooklyn, NY 11203 (E-mail: roger.traub@downstate.edu).
+
+The costs of publication of this article were defrayed in part by the payment
+of page charges. The article must therefore be hereby marked ‘‘advertisement’’
+in accordance with 18 U.S.C. Section 1734 solely to indicate this fact.
+
+INTRODUCTION
+
+www.jn.org
+
+0022-3077/03 $5.00 Copyright © 2003 The American Physiological Society
+
+909
+
+910
+
+R. D. TRAUB, E. H. BUHL, T. GLOVELI, AND M. A. WHITTINGTON
+ϩ
+
+enhanced by persistent Na conductance, thereby promoting
+FRB; this idea had previously been incorporated into a twocompartment model of Wang (1999), in which persistent gNa
+was located in the dendritic compartment and a fast spikegenerating mechanism in the somatic compartment. Interestingly, Brumberg et al. (2000) noted that when rhythmic spiking
+was converted to fast rhythmic bursting, by prolonged intracellular current injection, the width of action potentials increased, and the maximal rate of fall of the action potentials
+decreased—as if a Kϩ current might have been reduced; these
+authors did not, however, explore which Kϩ current could be
+involved.
+The in vitro study of Nishimura et al. (2001) likewise
+showed that the spike ADP in layer III sensorimotor cortical
+neurons is not blocked by gCa reduction, that the ADP is
+enhanced by intracellular calcium chelation, and that the ADP
+is Naϩ-dependent. Furthermore, replacing extracellular Ca2ϩ
+with Mn2ϩ could convert a rhythmic firing pattern to an FRBlike pattern. Friedman and Gutnick (1989) had previously
+shown that intracellular 1,2-bis(2-aminophenoxy)ethaneN,N,NЈ,NЈ-tetraacetic acid (BAPTA), in neocortical neurons,
+enhanced spike ADPs and could induce bursting that was
+sometimes rhythmic.
+Here, we build on these previous results. We construct a
+detailed model of a layer 2/3 pyramidal neuron that, as a form
+of calibration, replicates recordings of dendritic fast and slow
+Ca2ϩ-dependent spikes, under conditions of steady dendritic
+depolarization. It was discovered (serendipitously) that the
+model would generate fast rhythmic bursting under either of
+two conditions, which could occur exclusively or in combination: 1) when persistent Naϩ conductance is increased (as
+shown previously by others, as noted above); or 2) when a fast
+voltage- and [Ca2ϩ]-dependent conductance, gK(C), is reduced.
+The model also suggests that the spike ADP can result in part
+from decremental antidromic conduction of an axonal spike,
+suggesting another means by which a Naϩ conductance could
+influence FRB, without necessarily involving a persistent Naϩ
+conductance. Experiments in rat neocortical slices show that a
+number of manipulations can convert rhythmic spiking to FRB
+(although at frequencies below 30 Hz, in our experimental
+conditions); such manipulations include the previously known
+(from other preparations) buffering of intracellular [Ca2ϩ], and
+enhancing persistent Naϩ conductance. In addition, FRB could
+be evoked by blocking BK channels (that are presumed to
+mediate gK(C)), even independently of any enhancement of
+persistent Naϩ conductance. The data suggest that at least
+some of the spikes in each burst could originate in the axon
+distal to the initial segment. We further suggest that both
+Naϩ-dependent axonal excitability and also reduction of gK(C)
+are important in FRB.
+
+Model structure was qualitatively
+based on a drawing in Major (1992), his Fig. 3.14, but with a limited
+number of compartments and much greater symmetry than in the real
+neuron. The model (Fig. 1) has eight equivalent basal dendrites, four
+equivalent apical obliques, an apical shaft, and equivalent superficial
+apical branches. There are 68 soma-dendritic compartments and 6
+axonal compartments. The most proximal basal and oblique compartments, along with the two perisomatic apical shaft compartments, are
+called “proximal dendrites”; the outer 24 superficial apical compartments are called “distal dendrites.”
+GEOMETRICAL PARAMETERS. The soma was a cylinder with a
+length of 15 ␮m and radius of 8 ␮m. All dendritic compartments had
+a length of 50 ␮m. The radius of basal and oblique dendrites was 0.5
+␮m. The radius of the apical shaft was 4 ␮m, tapering to 2 ␮m, while
+distal apical branches had a radius of 0.8 ␮m. The surface area of each
+dendritic compartment was taken to be 4␲rl (r ϭ radius, l ϭ length),
+rather than 2␲rl, to allow for the contribution of spines to area. Total
+surface area of the soma/dendrites was 35,940 ␮m2. The most proximal axonal compartment had a length of 25 ␮m and a radius of 0.9
+␮m. The other axonal compartments had a length of 50 ␮m, and a
+radius starting at 0.7 ␮m, tapering to 0.5 ␮m.
+PASSIVE PARAMETERS. Membrane capacitance Cm was 0.9 ␮F/cm2;
+membrane resistivity Rm was 50,000 ⍀-cm2 for soma-dendrites and
+1,000 ⍀-cm2 for the axon, and internal resistivity Ri was 250 ⍀-cm
+for soma-dendrites and 100 ⍀-cm for the axon. Rinput measured at the
+soma, with all active currents blocked, was 69.4 M⍀.
+DYNAMICS OF VOLTAGE AND [CA2ϩ] BEHAVIOR. The equations
+describing dynamics are standard and are here summarized briefly. As
+units, we shall use mV, ms, nF, ␮S, nA. First, the discrete version of
+the cable equation—an approximation to the original partial differential cable equation— describes the evolution of voltage in each compartment k
+OVERALL MODEL STRUCTURE.
+
+METHODS
+
+Simulation methods
+The formal approach to simulating the layer 2/3 cortical pyramidal
+neuron was similar to that used to simulate a CA3 hippocampal
+pyramidal cell (Traub et al. 1994), but most of the details—in cell
+geometry and passive and active parameters—were different. In this
+study, voltages “V ” are transmembrane potentials, in contradistinction to earlier studies (e.g., Traub and Miles 1995; Traub et al. 1994)
+in which “V ” signified “voltage relative to resting potential.”
+J Neurophysiol • VOL
+
+FIG. 1. Compartmental structure of model layer 2/3 pyramidal neuron.
+There are 68 soma-dendritic compartments, with 8 basal dendrites and 4 apical
+oblique dendrites. The axon contains 6 compartments.
+
+89 • FEBRUARY 2003 •
+
+www.jn.org
+
+MECHANISMS OF FAST RHYTHMIC BURSTING
+C k dVk /dt ϭ ¥m␥m,k͑Vm Ϫ Vk͒ Ϫ Iionic,k
+
+(1)
+
+In Eq. 1, Ck is the capacitance of compartment k and Vk the transmembrane voltage. The sum is taken over all compartments m that are
+connected to compartment k. ␥m,k is the conductance (internal) between the respective compartments (with the assumption that the
+extracellular space is isopotential). Iionic,k is the transmembrane ionic
+current for compartment k: one must be careful about the sign of this
+term, as inward currents (which depolarize the membrane) are, by
+convention, negative. For the membrane potential to increase during
+an inward current, we need the minus sign before Iionic,k.
+Iionic,k is in turn the sum of synaptic terms and “intrinsic membrane”
+terms. If, for the sake of simplicity, we now drop the compartment
+subscript k, the synaptic terms will be
+g AMPAV ϩ gGABA͑A͒͑V ϩ 81͒
+
+(2)
+
+In Eq. 2, gAMPA is the (time-dependent) ␣-amino-3-hydroxy-5methyl-4-isoxazolepropionic acid (AMPA) receptor conductance,
+which has a reversal potential of 0 mV, and gGABA(A) is the (timedependent) ␥-aminobutyric acid-A (GABAA) receptor conductance,
+with Ϫ81-mV reversal potential. Other types of synaptic conductance
+were not simulated.
+The intrinsic membrane terms were the various ionic conductances,
+which we now list along with shorthand notation used (in subscripts)
+for distinguishing the conductances from each other. As usual, “g ”
+stands for “conductance,” and we continue to drop the compartmentdesignating subscript k. After each conductance type, we list a reference that defines the kinetics, at least partially, along with comments.
+In some cases, we carried over the formalism used in a previous
+model, because kinetic data are either lacking or else appear too
+complex for use in our model. Further details are listed in the APPENDIX. The conductances are as follows.
+1) Leak, gL. We do not here distinguish between Naϩ and Kϩ
+components.
+2) Transient (inactivating) Naϩ, gNa(F) (“F” for “fast”). Kinetic
+data at 22–24°C are in Martina and Jonas (1997). We sped up the
+kinetics twofold and shifted the rate functions 3.5 mV. To reduce the
+number of parameters, we chose to use the same kinetics for gNa(F) in
+the axon and soma/dendrites. This, in turn, necessitated using sufficiently large axonal gNa(F) density, so that repetitive firing and antidromic spikes could occur; a similar requirement has been noted by
+other authors, especially when soma/dendritic gNa(F) density is limited
+(e.g., Mainen et al. 1995).
+3) Persistent (noninactivating) Naϩ, gNa(P) (“P” for “persistent”)
+(Mittman et al. 1997). Activation is similar to gNa(F) but at a lower
+voltage threshold (French et al. 1990; Kay et al. 1998). Modeling
+(Wang 1999) and experimental data have suggested a role of this
+conductance in fast rhythmic bursting and also subthreshold oscillations (Brumberg et al. 2000; Llina´ s et al. 1991; Nishimura et al. 2001),
+although fast oscillations occur in thalamic relay neurons without this
+current but depending on P/Q calcium current(s) (Pedroarena and
+Llina´ s 1997).
+4) Delayed rectifier Kϩ, gK(DR). Partial kinetic data at 20 –24°C are
+in Martina et al. (1998). We took this conductance to be noninactivating.
+5) Transient inactivating Kϩ, gK(A). We used thalamocortical relay
+cell data (room temperature) of Huguenard and McCormick (1992),
+speeding up the time constants twofold.
+6) A slowly activating and inactivating Kϩ conductance, gK2.
+Kinetics were taken from Huguenard and McCormick (1992) with a
+twofold speed-up of time constants.
+7) A muscarinic receptor-suppressed Kϩ conductance, gK(M). Kinetics were as in previous publications, e.g., Bibbig et al. (2001).
+8) A fast voltage- and [Ca2ϩ]i-dependent Kϩ conductance, gK(C).
+The formalism is the same as used in Traub et al. (1994), with the
+conductance at each time proportional to a voltage-dependent
+J Neurophysiol • VOL
+
+911
+2ϩ
+
+Hodgkin-Huxley-like term and also to a [Ca ]i-dependent term,
+⌫(␹). [Here, ␹ is [Ca2ϩ]i in the respective compartment, in arbitrary
+units, and ⌫(␹) ϭ min (0.004 ϫ ␹, 1.0).] The kinetics of this conductance were different, however, than in previous publications.
+9) A slow [Ca2ϩ]i-dependent Kϩ conductance, gK(AHP) (“AHP”
+for “afterhyperpolarization”). Again, the formalism was as in Traub et
+al. (1994), although with different kinetics.
+10) A low-threshold inactivating Ca2ϩ conductance, gCa(T) (“T”
+for “transient”). Kinetics were taken from thalamocortical relay cell
+data (Huguenard and McCormick 1992), with threefold speed-up of
+the time constants, and using a Hodgkin-Huxley formalism rather than
+the constant field equation.
+11) A high-threshold noninactivating Ca2ϩ conductance, gCa(H)
+(“H” for “high”). Kinetics derive from Kay and Wong (1987) and are
+similar to previous studies (Traub et al. 1994), except for a shift of rate
+functions on the voltage axis. The density of this conductance is
+constrained by the necessity of evoking dendritic Ca2ϩ spikes with
+local current injection (Fig. 2).
+12) “h” conductance (hyperpolarization-activated), gAR (“AR” for
+“anomalous rectifier”). Kinetics were taken from Huguenard and
+McCormick’s (1992) data, obtained at 35.5°C.
+In each compartment and at each time, a particular species of
+conductance will assume a value that is proportional to “g ” (the “total
+conductance” in that compartment) and also is proportional to a
+product of Hodgkin-Huxley variables: mihj, where 0 Յ m, h Յ 1,
+where i is a positive integer, and where j is either 0 (for a noninactivating conductance) or else is 1 (for an inactivating conductance). m
+is called the activation variable, and h is called the inactivation
+variable.
+We can now write down the sum of the intrinsic membrane terms
+that, in each compartment, contribute to Iionic in Eq. 1. By way of
+notation, “gˆ ” denotes the total conductance (of the subscript-designated conductance species) in the respective compartment. The intrinsic membrane current is then
+
+ϩ
+2ϩ
+FIG. 2. Simulation of dendritic Na and Ca
+spikes in response to dendritic current pulse. Response of model neuron to depolarizing current pulses,
+injected into apical dendrite (compartment just proximal to the terminal
+branches); there is a 50-M⍀ (20 nS) shunt at the injection site. A 1.5-nA pulse
+(left) induces a large calcium spike in the dendrite, generating a burst of fast
+spikes in the soma; this is followed by a series of somatic spikes that
+backpropagate (as seen on expanded traces, not shown) to the dendritic site. A
+2.5-nA pulse (right) induces short trains of small fast dendritic spikes (backpropagated from full somatic spikes), interspersed with broader calcium
+spikes, possessing superimposed small fast spikes (inset). Persistent gNa
+blocked (DNa(P) ϭ 0); DK(C) ϭ 1.6.
+
+89 • FEBRUARY 2003 •
+
+www.jn.org
+
+912
+
+R. D. TRAUB, E. H. BUHL, T. GLOVELI, AND M. A. WHITTINGTON
+
+3
+gˆ L͑V ϩ 70͒ ϩ [gˆ Na͑F͒mNa͑F͒
+hNa͑F͒ ϩ gˆ Na͑P͒mNa͑P͒]͑V Ϫ 50͒
+
+gK(C) density, which multiplies the standard values. The scaling
+factors are called, respectively, DNa(P) and DK(C).
+INTEGRATION METHOD. A second-order Taylor series (explicit)
+method was used, as in previous publications (e.g., Traub et al. 1994).
+The integration time step, dt, was 0.004 ms.
+
+4
+4
+ϩ gˆ K͑A͒mK͑A͒
+hK͑A͒ ϩ gˆ K2mK2hK2 ϩ gˆ K͑M͒mK͑M͒
+ϩ ͓gˆ K͑DR͒mK͑DR͒
+
+ϩ gˆ K͑C͒mK͑C͒⌫͑␹͒ ϩ gˆ K͑AHP͒mK͑AHP͒]͑V ϩ 95͒
+2
+2
+hCa͑T͒ ϩ gˆ Ca͑H͒mCa͑H͒
+͔͑V Ϫ 125͒ ϩ gˆ ARmAR͑V ϩ 35͒
+ϩ ͓gˆ Ca͑T͒mCa͑T͒
+
+(3)
+
+The evolution of the m and h variables follows the Hodgkin-Huxley
+first-order differential equations
+dm/dt ϭ ␣m͑1 Ϫ m͒ Ϫ ␤mm;
+
+dh/dt ϭ ␣h͑1 Ϫ h͒ Ϫ ␤hh
+
+(4)
+
+Here, ␣m, ␤m, ␣h, and ␤h are predefined functions of membrane
+potential, or—in the case of the AHP conductance— of ␹ ϭ [Ca2ϩ]i;
+the units are msϪ1. The dynamics defined this way mean that, if
+voltage is fixed, the m and h variables relax toward steady-state
+values, mϱ and hϱ, with respective time constants ␶m and ␶h. The rate
+functions and the steady-state values/time constants are interchangeable through the easily derived relations mϱ ϭ ␣m/(␣m ϩ ␤m), and ␶m
+ϭ 1/(␣m ϩ ␤m), similar relations holding for the h variables. Thus
+specification of the rate functions, or of the steady-values and time
+constants, are equivalent. This information is provided in the APPENDIX. Axonal and soma/dendritic conductances were assumed to possess the same kinetics.
+Calcium dynamics are defined by the same simple scheme, with
+first-order kinetics, used previously (Traub et al. 1994). Calcium
+current across the membrane in each cylindrical compartment is
+assumed to elevate [Ca2ϩ]i in a thin cylindrical shell. Calcium concentration, ␹, in this shell is a signal used, in part, for gating the two
+calcium-dependent K conductances. ␹ declines exponentially with a
+fixed time constant. Thus in each compartment
+d ␹ /dt ϭ Ϫ BICa Ϫ ␹/␶Ca
+
+(5)
+
+␶Ca was taken as 20 ms in dendrites (Sabatini et al. 2002) and 50 ms
+in the soma. B is time-independent but depends on the area of the
+compartment. Because the thickness of the calcium-shell was assumed
+to be the same for each compartment, the B value for each compartment will vary inversely with the surface area of the compartment. Units of ␹ are arbitrary. In some simulations, a “ceiling”
+value of ␹ was imposed, a very rough approximation to the effects
+of buffering [Ca2ϩ]i.
+Preliminary
+simulations were run, with stimulation of the model neuron via current
+pulses or antidromic stimulation (using a 0.4-nA, 0.8-ms depolarizing
+pulse delivered to a distal axonal compartment). Current pulses were
+also delivered to soma and to various compartments in the dendrites,
+sometimes in the presence of an additional leak conductance at the
+stimulated site. Minor adjustments to the rate functions were tested,
+but mainly we wished to find values of the conductance densities that
+would produce somatic action potentials capable of “back-propagating” to the dendrites and also that would produce dendritic calcium
+spikes. Needless to say, the resulting distribution of conductance
+densities is not unique. The conductance densities used in this paper
+are given in the APPENDIX. Note that the density of gNa(F) on the soma
+and proximal dendrites in this model is much higher than its density
+in the remaining parts of the dendrites, a situation in contrast to some
+models (e.g., Mainen et al. 1995); with a maximum density of 400
+mS/cm2 for gNa(F) in the axon (enough to make our model axon
+extremely excitable), increased perisomatic gNa(F) densities were required for a somatic spike to develop.
+Two parameters which were extensively investigated were the
+relative densities of the persistent sodium conductance, and of the C
+type of K conductance. The notation we use for expressing the
+conductance densities in a particular simulation is this: the “standard
+values” of these conductances densities are given in the APPENDIX. In
+each simulation, there is a scaling factor for gNa(P) density and for
+MAIN PARAMETERS VARIED, AND THEIR NOTATION.
+
+J Neurophysiol • VOL
+
+COMPUTING ENGINE. Programs were written in FORTRAN, and
+simulations were either run on a single “wide node” (equivalent to a
+UNIX workstation) of an IBM SP2 parallel computer or else 12
+different simulations (each with a distinct value of some parameter)
+were run simultaneously on the 12 nodes of the parallel machine.
+
+Experimental methods
+Slices (450-␮m-thick) of temporal cortex were obtained from artificial cerebrospinal fluid (ACSF) perfused brains of adult male Wistar
+rats, anesthetized with isoflurane followed by ketamine/xylazine injection. The animal was perfused once all pain reflexes had disappeared. Slices were maintained in an interface chamber and perfused
+with artificial cerebrospinal fluid containing the following (in mM):
+133 NaCl, 18 NaHCO3, 3 KCl, 1.25 NaH2PO4, 10 D-glucose, 1
+MgCl2, 1.7 CaCl2, equilibrated with 95% O2-5% CO2, pH 7.2 at
+35°C. Sharp electrode recordings were taken from layer 2/3 pyramidal
+neurons at the level of soma or apical dendrite.
+Membrane potential recordings
+were obtained from 36 layer 2/3 pyramidal cell somata, 4 fast-spiking
+(presumed interneuronal) neurons, and 12 presumed dendrites (identified by their characteristic attenuated fast spikes, lack of fast spike
+AHP, and easy induction of broad bursts of spikes on depolarization).
+Microelectrodes (resistance 30 –90 M⍀) were filled with 1.5 M potassium acetate or potassium methysulfate alone or in conjunction
+with 0.3 mM of the calcium-chelating agent BAPTA (Sigma, UK).
+Somatic recordings were examined for evidence of rhythmic bursting
+activity after long (Ͼ10 s) periods of tonic depolarizing current
+injection (0.5–1.0 nA) (see Brumberg et al. 2000); fast rhythmic
+bursting was not observed without this depolarization, during experiments with BAPTA. With BAPTA-filled sharp electrode recordings,
+somatic resting membrane potential (RMP) was Ϫ68 Ϯ 4 mV, and
+somatic input resistance was 45 Ϯ 5 M⍀. For presumed dendrites,
+RMP was Ϫ60 Ϯ 8 mV and input resistance was 62 Ϯ 4 M⍀.
+Pharmacological manipulation of rhythmic bursting activity was
+achieved by inclusion, into the extracellular perfusion solution, of the
+NO source S-nitroso-N-acetylpenicillamine (SNAP) (100 ␮M, Tocris,
+UK), to enhance gNa(P) (Hammarstrom and Gage 1999). Phenytoin
+(120 ␮M, Sigma) was used to block gNa(P) (Brumberg et al. 2000).
+Iberiotoxin (IbTx, 50 –100 nM, Sigma) was used to block gK(C)
+(Galvez et al. 1990; Harvey et al. 1995). SNAP effects were manifest
+over a range of initial incubation times (30 min to 2 h); all data
+presented were taken after 2-h incubation, for consistency. IbTx
+effects were seen after 30 min in all cases and lasted for Ն5 h. In each
+case, ionotropic glutamate receptor-mediated EPSPs were blocked
+throughout the experiments, using D(-)-2-amino-5-phophonopentanoic acid, 50 ␮M (D-AP5) and 2,3,dioxo-6-nitro-1,2,3,4-tetrahydrobenzo[f]quinoxaline-7-sulfonamide (NBQX, 20 ␮M), both from Tocris. No prior depolarization steps were required to see rhythmic
+bursting using either SNAP or IbTx (in contrast to BAPTA).
+SHARP ELECTRODE RECORDINGS.
+
+RESULTS
+NAϩ AND CA2ϩ ELECTROGENESIS IN RESPONSE TO DENDRITIC
+DEPOLARIZATION. Injections of depolarizing current pulses
+
+into an apical dendrite of the model evoke either trains of
+small, fast Naϩ action potentials (Fig. 2, left) or else small, fast
+action potentials that are intermixed with (and superimposed
+on) slower high-threshold Ca2ϩ-mediated action potentials
+(Fig. 2, right). Both of these patterns resemble patterns re-
+
+89 • FEBRUARY 2003 •
+
+www.jn.org
+
+MECHANISMS OF FAST RHYTHMIC BURSTING
+
+ported previously in experimental dendritic recordings of layer
+2/3 neocortical pyramidal neurons (Amitai et al. 1993) (and
+also other types of pyramidal cell, e.g., Kamondi et al. 1989).
+In our model, all of the fast spikes—those that are between and
+also those that are superimposed on the slow spikes—are
+initiated perisomatically and backpropagate into the dendrites;
+this is the case both for tonic intrasomatic and for tonic
+intradendritic current injections (data not shown).
+We repeated the simulations of Fig. 2 (1.5- or 2.5-nA current
+pulses into a compartment with a 20-nS shunt) at other locations in the model neuron: just proximal to the site used in Fig.
+2, in the mid-apical shaft, and the soma. In these cases, we did
+not see locally or dendritically generated rhythmic Ca2ϩ
+spikes. The most likely explanation is that the density of
+high-threshold Ca2ϩ conductance is high (in the model) only at
+distal dendritic sites (3 mS/cm2, Table A1), and lower at more
+proximal and somatic sites. Current pulses at the soma could
+induce rhythmic bursting (see also Figs. 4 – 6), but that rhythmic bursting (unlike Fig. 2, right) was not associated with
+dendritic Ca2ϩ spikes: the burst mechanisms are different.
+Patterns of fast and slow dendritic action potentials, similar to
+those of Fig. 2, were elicited in our own experimental recordings,
+examples of which are shown in Fig. 3A. Interestingly, the slowaction potentials occurred at theta (4–12 Hz) frequencies, while
+the fast spikes occurred at gamma (30–70 Hz) frequencies, even
+when slow spikes were also present (Fig. 3, B and C). So far as we
+are aware, the functional significance of the theta frequency slow
+spikes in neocortical neurons is not known.
+
+913
+
+FIG. 4. Appearance of rhythmic bursting and then fast tonic firing with
+increasing somatic depolarization:simulation. Increasing somatic depolarizing
+currents induce bursts of increasing frequency and number of action potentials/
+burst, and eventually high-frequency tonic firing. DNa(P) ϭ 0, DK(C) ϭ 1.3.
+
+IN RESPONSE TO INCREASING SOMATIC DEPOLARIZATION, RHYTHMIC
+
+The
+response of the model neuron to somatic depolarizing currents
+was somewhat different from dendritic depolarizing currents,
+even when persistent gNa was blocked (Fig. 4). As the current
+increased, rhythmic firing—which started as single isolated
+spikes— became associated with spike doublets, and brief
+bursts, with interburst frequencies at ϳ20 to ϳ40 Hz, and
+within-burst spike intervals ϳ5 ms (1.1 nA) to ϳ4 – 4.5 ms (1.5
+nA). Between bursts, there is a hyperpolarization which is
+mostly generated by gK(M), a voltage-dependent Kϩ conductance, and the Kϩ conductance of highest density in the model
+dendrites. [Recall that in previous experiments (Brumberg et
+al. 2000), the between-burst hyperpolarizations were “actively
+generated”.] Still larger depolarizing currents produced highfrequency tonic firing. The overall pattern of behavior is similar to that reported by Steriade et al. (1998). [See also Fig. 3.7
+in Steriade (2001).]
+Figures 5 and 6 provide further information on model behavior, in response to various constant current injections, for
+two parameter sets. The model neuron in Fig. 5 had no persistent gNa, and gK(C) was large. This cell fired rhythmic single
+spikes over the range of somatic current injections 0.15 to 1.05
+nA; firing frequency increased approximately linearly with
+current amplitude. For larger current injections, however, the
+model neuron started to fire spike doublets. A 2-s simulation
+was also run (not shown) in which the injected current was
+ramped slowly from 0.75 to 1.35 nA. Rhythmic single
+spikes switched to single-spike/spike-doublet pairs at about 1.1
+DOUBLETS AND BURSTS DEVELOP, THEN RAPID TONIC FIRING.
+
+ϩ
+2ϩ
+FIG. 3. Experimental recording of dendritic Na and Ca
+spikes. Dendritic response to depolarizing current injection. A: example traces taken from
+a layer 2/3 dendrite in control conditions (i.e., absence of any drug in perfusate
+or pipette solution). Spontaneous, low-amplitude sharp spikes are generated at
+resting membrane potential. Depolarization to –50 mV induces rapid trains of
+small, sharp spikes interspersed with large slow spikes. Further depolarization
+causes additional reduction in sharp spike amplitude, but results in long (Ͼ5 s)
+trains of slow spikes. Scale bars 20 mV, 120 ms. B: strong depolarization
+(ϩ0.5 to ϩ0.7 nA) generates rhythmic trains of slow spikes at theta frequency.
+Example trace shows 1-s epoch of theta activity during injection of ϩ0.5 nA.
+Mean membrane potential was Ϫ42 mV. Below is the autocorrelation for a 3-s
+epoch of activity including the period shown in the example. Scale bars 30 mV,
+100 ms. C: high-pass filtering (cut-off 20 Hz) reveals rhythmicity in bursts of
+fast spikes within the gamma range. Example trace is the high-pass filtered
+component of B. Autocorrelation shows clear rhythmicity at 38 Hz. Scale bars
+10 mV, 120 ms. Note the resemblance of these experimental dendritic recordings with the simulated dendritic traces in Fig. 2.
+
+J Neurophysiol • VOL
+
+89 • FEBRUARY 2003 •
+
+www.jn.org
+
+914
+
+R. D. TRAUB, E. H. BUHL, T. GLOVELI, AND M. A. WHITTINGTON
+
+were seen in other simulations (not shown), either with tonic
+current injection or after antidromic stimulation; in these cases,
+it could be shown (see also Fig. 9) that the somatic spikelet
+originated as a full axonal spike that was decrementally conducted to the soma and that decremented further with propagation into the dendrites; it could be further shown that during
+tonic somatic current injection, when the axon was disconnected from the soma, somatic firing could still be induced, but
+without spikelets (data not shown).
+EXPERIMENTALLY, SNAP INDUCES RHYTHMIC DOUBLETS, SOMETIMES WITH INTERSPERSED SPIKELETS. Bath application of 100
+
+␮M SNAP [a nitric oxide (NO) donor that enhances persistent
+gNa (Hammarstrom and Gage 1999), 5 experiments] resulted in
+occasional spontaneous burst discharges at resting membrane
+potential in all layer II neurons tested after 2 h (RMP Ϫ62 Ϯ
+3 mV, n ϭ 12). Injection of depolarizing current to maintain
+membrane potential at Ϫ55 mV generated repetitive single
+spiking in control conditions (spike frequency 14 Ϯ 4 Hz, n ϭ
+12). After 2-h exposure to SNAP, rhythmic bursting was seen
+at this membrane potential in 8/12 cells tested (Fig. 8A).
+
+FIG. 5. Current-frequency ( fI ) curve for a model neuron that is rhythmic
+spiking (RS) over most of the stimulus range. A: fI curve was approximately
+linear up to a somatic depolarizing current of 1.05 nA. A 1.2-nA current
+evoked singlets alternating with doublets, and 1.35- and 1.5-nA currents
+evoked continuous doublets. B: 2 examples of firing patterns, at points shown
+in the graph in A. DNa(P) ϭ 0, DK(C) ϭ 1.6.
+
+nA, which again switched to just rhythmic doublets at about
+1.2 nA.
+The model neuron in Fig. 6 had the same large gK(C) as for
+Fig. 5, but now persistent gNa was present (DNa(P) ϭ 0.7). This
+model neuron fired spike doublets over the current range of
+0.15 to 0.75 nA (with between-doublet frequency increasing
+linearly with the stimulus). Larger currents produced relatively
+little change in doublet or burst frequency, but there were
+progressively more spikes/burst as the current increased. Within-burst firing frequency for bursts evoked by large currents
+(e.g., Fig. 6B2) ranged from 250 to 323 Hz.
+PERSISTENT GNA FAVORS FAST RHYTHMIC BURSTING IN THE
+MODEL. Other authors have suggested a role of persistent gNa
+
+in fast rhythmic bursting based on both theoretical (Wang
+1999) and experimental (Brumberg et al. 2000) considerations.
+In our model also, persistent gNa favors the occurrence of
+rhythmic bursting, with brief ADPs following the bursts (Fig.
+7). (Nevertheless, as will be shown, persistent gNa is not
+required for fast rhythmic bursting to occur in this model.) The
+simulations in Fig. 7 show an interesting feature: some of the
+spike doublets (middle traces) show a spikelet between the two
+large action potentials (e.g., arrow in Fig. 7B). Similar spikelets
+J Neurophysiol • VOL
+
+FIG. 6. fI curve for a model neuron that generates doublets and bursts. A:
+burst frequency increases linearly from 0.15- to 0.75-nA stimulating currents.
+At stimulating currents of 0.9 nA, the cell switched from doublets to multiplets,
+and then increasing currents produced more spikes/burst, while overall burst
+frequency remained approximately constant. DNa(P) ϭ 0.7, DK(C) ϭ 1.6.
+
+89 • FEBRUARY 2003 •
+
+www.jn.org
+
+MECHANISMS OF FAST RHYTHMIC BURSTING
+
+915
+
+example of the spontaneous behavior above. Only 3/8 dendrites showed any spontaneous membrane potential transients
+at RMP (mean ϭ Ϫ62 Ϯ 8 mV). These transients took the
+form of either single dendritic spikes originating from baseline
+(see Fig. 3), or smaller, brief depolarizations which could
+occasionally precipitate a single dendritic spike (Fig. 8D).
+Dendritic spike width at half-height was 4.2 Ϯ 0.8 ms. Mean
+interspike interval within a burst of partial spikes recorded at
+the soma was 4.9 Ϯ 1.2 ms (204 Hz), suggesting that the bursts
+of partial spikes in SNAP do not arise from repetitive dendritic
+spiking. In addition, even strong depolarization of dendrites did
+not produce spikes at frequencies faster than about 40 Hz (data
+not shown).
+BURSTS OF SOMATIC SPIKELETS IN SNAP COULD PLAUSIBLY ARISE
+FROM AXONAL BURSTS. The simulations in Fig. 9 support the
+
+idea that SNAP-induced spontaneous runs of somatic spikelets
+arise in the axon, rather than in dendrites. [The reader will
+recall that dendritic current injections (Figs. 2 and 3) lead to
+FIG. 7. Increasing persistent gNa favors fast rhythmic bursting:simulation.
+Simulations were performed with high gK(C) density (DK(C) ϭ 1.6). A: as
+persistent gNa density is increased, the firing pattern evolves from rhythmic
+single spikes to rhythmic bursting, with increasing numbers of spikes per burst.
+B: details of action potentials. Note the spikelet in the middle (arrow). In this
+model, such spikelets originate from extra axonal spikes. [Similar spikelets
+leading into action potentials were observed by Draguhn et al. (1998) and
+Schmitz et al. (2001) in low [Ca2ϩ] media and were attributed to decremental
+antidromic invasion.] In addition, in this model (e.g., Fig. 2), tonic stimulation
+of either soma, or of dendrites themselves, leads to spike initiation in the axon,
+not in the dendrites.
+
+Bursting consisted of double spikes occurring at a frequency of
+20 Ϯ 5 Hz (n ϭ 8) with an interspike frequency of 224 Ϯ 12
+Hz (n ϭ 12). Spike doublets were accompanied by an ADP
+during rhythmic bursting. No differences were seen in spike
+widths at half-height for control, single spikes, and the first
+spike in a burst [control width 0.85 Ϯ 0.05 ms (50 events per
+n ϭ 12 cells), during rhythmic bursting 0.85 Ϯ 0.7 ms (50
+events per n ϭ 8 cells)]. There was also no difference between
+the widths of the first and second spikes during a burst [second
+spike width at half-height 0.88 Ϯ 0.06 ms (50 events per n ϭ
+8 cells)]. The maximum hyperpolarization following the first
+spike was significantly reduced when comparing control, single repetitive spikes (Ϫ4.5 Ϯ 0.8 mV from the base of the
+action potential, 50 events per n ϭ 12 cells) with bursts
+(Ϫ3.0 Ϯ 0.2 mV, 50 events per n ϭ 8 cells, P Ͻ 0.05).
+The ADP was clearly evident in all examples of rhythmic
+bursting at Ϫ55 mV (e.g., see Fig. 8, A and B). Both the ADP
+and the rhythmic bursting were prevented by bath application
+of 120 ␮M phenytoin (Fig. 8B); the effects of phenytoin were
+reversible after washout (n ϭ 3). However, in the presence of
+SNAP (phenytoin absent), 4/12 neurons displayed spontaneous
+bursts of action potentials from RMP that were not accompanied by an ADP (e.g., Fig. 8C). In these cases, both full and
+partial somatic spikes were evident (e.g., Fig. 8C, *, cf. Fig.
+7B). Prevention of somatic spiking by injection of depolarizing
+current (ϩ0.8 to ϩ1.2 nA) for Ͼ10 s, or hyperpolarizing
+current (Ϫ0.2 to Ϫ0.5 nA) revealed persisting brief bursts of
+partial spikes. This suggested a nonsomatic origin for these
+events. To establish whether these spikes or partial spikes
+originated in layer II neuronal apical dendrites, we recorded
+from dendrites in SNAP-bathed slices that showed at least one
+J Neurophysiol • VOL
+
+FIG. 8. The NO donor S-nitroso-N-acetylpenicillamine (SNAP, 100 ␮M)
+induces fast rhythmic bursting that is suppressed by phenytoin and that is
+associated with spikelets that appear to derive from axons. A: example 1-s
+traces from layer 2 temporal neocortical neuron. Top: pattern of repetitive
+firing when this neuron was depolarized to an average membrane potential of
+Ϫ55 mV. Bottom: repetitive burst firing in the same neuron 2 h after addition
+of SNAP (100 ␮M) to the bathing medium. Bursting occurred spontaneously
+at resting membrane potential (Ϫ62 mV in this case), but example shows the
+pattern of activity at Ϫ55 mV for comparison with control. B: multiple spikes
+in the presence of SNAP are generated by an afterdepolarization (ADP)
+compared with control. Both bursting and the ADP were abolished by bath
+application of 120 ␮M phenytoin. C: in the presence of SNAP (phenytoin
+absent), spontaneous bursts at resting membrane potentials were often associated with partial spikes. Injection of strong depolarizing current into the cell
+soma through the recording electrode abolished full spikes but brief trains of
+partial spikes remained (top trace). Similarly, hyperpolarization to Ϫ90 mV
+abolished full spikes, while leaving brief trains of partial spikes. D: during
+spontaneous bursting induced by SNAP, dendritic recordings show brief depolarizations, without either full or partial spikes. Injection of ϩ0.1-nA current
+induced single dendritic spikes on the peak of the depolarizations, but not
+bursts. The dendritic spikes, when they occurred, were broader than even pairs
+of spikelets recorded at the soma, suggesting that somatic spikelets were not
+initiated 1:1 by dendritic spikes. (Phenytoin was absent in this experiment.)
+
+89 • FEBRUARY 2003 •
+
+www.jn.org
+
+916
+
+R. D. TRAUB, E. H. BUHL, T. GLOVELI, AND M. A. WHITTINGTON
+
+it. In our model as well (data not shown), progressive blockade
+of gCa converted rhythmic single action potentials to rhythmic
+doublets, and then to rhythmic bursts. These simulations were
+done without persistent gNa, and with a relatively high-density
+of gK(C) (DNa(P) ϭ 0, DK(C) ϭ 1.6).
+These results serve to emphasize that, even though the
+dendrites of layer 2/3 neocortical neurons can generate rhythmic slow (presumably Ca2ϩ-mediated) action potentials (Figs.
+2 and 3), such slow action potentials are probably not required
+for fast rhythmic bursting.
+REDUCING INTRACELLULAR [CA2ϩ] FAVORS SPIKE DOUBLETS AND
+FAST RHYTHMIC BURSTING. We also performed simulations in
+
+FIG. 9. Spontaneous runs of somatic spikelets (as in Fig. 8C) could, in
+principle, result from axonal spike bursts:simulation. A: an 18-ms current pulse
+was passed into the distal axon when the soma was at Ϫ70 mV. The resulting
+burst of axonal action potentials leads to a somatic spike, a large spikelet, and
+a run of smaller spikelets. A broad attenuated action potential is induced in an
+apical branch compartment (just past the 2nd branch point), resembling the
+dendritic potential in Fig. 8D. B: application of the same current stimulus when
+the soma was at Ϫ85 mV led to fewer axonal spikes, and only spikelets at the
+soma. The dendrite displays only a slow potential with superimposed rippling.
+DNa(P) ϭ 1.0, DK(C) ϭ 1.0.
+
+which a fixed ceiling was imposed on [Ca2ϩ]i, whose units, in
+the model, are arbitrary (see METHODS). As this ceiling was
+reduced during repeated injections of the same depolarizing
+current pulse (data not shown), first rhythmic doublets appeared, and then rhythmic bursts. Similar behavior was observed experimentally (data not shown) as BAPTA (0.3 mM)
+entered a layer 2/3 neuron from the recording electrode—
+although BAPTA acts as a buffer of [Ca2ϩ]i rather than imposing an exact ceiling. BAPTA induced rhythmic bursting in
+all regular spiking cells tested (n ϭ 10). The mean interspike
+
+dendritic spikelets, but not—in the model at least—to somatic
+spikelets.] In Fig. 9, we injected small current pulses into the
+model axon, producing brief fast trains of axonal spikes. As
+expected from similar simulations of CA3 pyramidal cells
+(Draguhn et al. 1998), axonal spike trains produced somatic
+spikelets. If the soma was not too hyperpolarized (Fig. 9A), one
+or more full somatic spikes could occur as well (cf. Fig. 8C);
+full somatic spikes did not occur when the soma was sufficiently hyperpolarized (Fig. 9B, cf. Fig. 8C). The backpropagating somatic spike in Fig. 9A led to a broadened, attenuated
+dendritic spike, resembling the experimental dendritic spike of
+Fig. 8D.
+Draguhn et al. (1998) showed that model somatic/dendritic
+Kϩ conductances influence axonal invasion of the soma. Experimentally, Schmitz et al. (2001) showed that somatic membrane potential and Naϩ channel inactivation influence the
+invasion. In the present model (data not shown), gNa(P) also
+influences spike invasion from the axon. For example, if the
+simulation of Fig. 9A is repeated with a 50% increase in gNa(P)
+density, and all other parameters remain the same, then four
+full somatic spikes occur, instead of just one.
+The
+simulation of Fig. 10 shows that an axonal spike can, in
+principle, lead to a spike ADP, even without persistent gNa.
+This phenomenon could contribute to the relatively sharp spike
+ADPs that are sometimes shown in the literature, in neurons
+capable of FRB (e.g., Fig. 3.7B1 in Steriade 2001).
+
+AXONAL SPIKES CAN, IN PRINCIPLE, LEAD TO SPIKE ADPS.
+
+BLOCKING GCA FAVORS SPIKE DOUBLETS AND FAST RHYTHMIC
+BURSTING. Both Brumberg et al. (2000) and Nishimura et al.
+
+(2001) used ionic manipulations to show that blocking gCa not
+only fails to suppress rhythmic bursting, but may even enhance
+J Neurophysiol • VOL
+
+FIG. 10. A fast spike ADP can be generated primarily in the axon, without
+requiring persistent gNa:simulation. The model neuron was stimulated antidromically, with a current pulse to a distal axonal compartment. The broad
+somatic spike (i.e., broad relative to an axonal spike) re-excites the axon,
+generating a “reflected” spike (as shown to occur experimentally in CA3
+hippocampal pyramidal neurons; Traub et al. 1994). The reflected axonal spike
+induces a brief spike ADP in the soma (arrow) [cf. Figs. 7 and 8, and also
+Brumberg et al. (2000) (their Fig. 3A)]. The somatic spike ADP is not
+generated in the apical dendrite: the spike ADP in the distal apical shaft is
+smaller, slower, and peaks later than the somatic ADP, i.e., the dendritic spike
+ADP is backpropagated. Persistent Naϩ conductance is absent in this simulation. DNa(P) ϭ 0.7, DK(C) ϭ 1.6.
+
+89 • FEBRUARY 2003 •
+
+www.jn.org
+
+MECHANISMS OF FAST RHYTHMIC BURSTING
+
+interval during bursts induced in this way was 5 Ϯ 1 ms, and
+burst frequency was 12–24 Hz. Friedman and Gutnick (1989)
+had previously shown a pair of bursts in a neocortical neuron
+injected with EGTA. None of four fast-spiking neurons developed fast rhythmic bursting on BAPTA injection.
+REDUCING GK(C) FAVORS SPIKE DOUBLETS AND FAST RHYTHMIC
+BURSTING. The fact that bursting, in the model and in real
+
+cells becomes more intense with gCa reduction, or with intracellular [Ca2ϩ] reduction, suggests that it is suppression of one
+or more Ca2ϩ-gated Kϩ conductances that underlies fast rhythmic bursting, at least under some conditions. But which one(s)?
+We were not able to induce fast rhythmic bursting in regularspiking model neurons solely by manipulation of the slow AHP
+conductance, gK(AHP) (data not shown). On the other hand,
+simulated reductions of the fast voltage- and Ca2ϩ-gated conductance gK(C) (Kang et al. 1996)—which is fast enough to
+contribute to action potential repolarization in hippocampal
+pyramidal neurons (Shao et al. 1999)— did lead to a transition
+from rhythmic spike to fast rhythmic bursting (Fig. 11A), in a
+pattern similar to that seen with reduction of gCa, or with
+reduction of intracellular [Ca2ϩ]. Spikelets were sometimes
+observed during the course of simulated bursts induced by
+reduction of gK(C).
+Experimentally as well, IbTx (which blocks the BK channels
+that mediate gK(C)), induces fast rhythmic bursting. Bath ap-
+
+917
+
+plication of 50 nM IbTx transformed repetitive spiking at a
+membrane potential of Ϫ55 mV into rhythmic bursting in all
+cells tested (n ϭ 6) (Fig. 11B). Burst frequency was 17 Ϯ 4 Hz
+with a within-burst spike frequency of 170 Ϯ 14 Hz. Differences in the profile of spike bursts were seen between rhythmic
+bursting generated by IbTx and SNAP (see Fig. 8B). In both
+cases multiple spikes were accompanied by an ADP, but with
+IbTx the postspike hyperpolarization was less evident, and
+both first and second spikes in a burst were prolonged compared with controls. Control initial afterhyperpolarization was
+Ϫ4.2 Ϯ 0.8 mV from the base of the action potential, but this
+changed to ϩ0.6 Ϯ 1.0 mV in the presence of IbTx. Control
+repetitive spiking consisted of action potentials with a width at
+half-height of 0.9 Ϯ 0.2 ms and this was prolonged during
+rhythmic bursting to 1.4 Ϯ 0.3 ms. The second spike in a burst
+was further prolonged with a width at half-height of 1.8 Ϯ 0.3
+ms. It is interesting that Brumberg et al. (2000) noted a prolongation of spike width, as rhythmic spiking (RS) cells converted to FRB cells following prolonged current injection.
+The above pattern of changes in action potential profile was
+not seen during repetitive bursting with SNAP. In addition,
+IbTx-induced repetitive bursting was insensitive to 1-h application of 120 ␮M phenytoin (Fig. 11, C and D), which neither
+prevented bursting nor altered IbTx-induced changes in action
+potential profile or ADP (n ϭ 3 experiments). This suggested
+a different mechanism for burst generation in IbTx, unrelated
+to enhanced gNa(P). We tested whether these two mechanisms
+(enhanced gNa(P) versus reduced gK(C)) could be cooperative by
+inducing rhythmic burst firing by bath application of both
+SNAP (100 ␮M) and IbTx (n ϭ 3). In this case, tonic depolarization to Ϫ55 mV induced a slower pattern of bursting
+(15 Ϯ 3 Hz) with a greater number of spikes within each burst
+(range ϭ 2– 6 spikes) (Fig. 11B, bottom). Within-burst spike
+frequency was approximately the same as before (140 –230
+Hz). There was no significant difference in burst frequency
+when comparing SNAP ϩ IbTx with either SNAP alone, or
+with IbTx alone (20 Ϯ 5 and 17 Ϯ 4 Hz, P Ͼ 0.05). There was,
+however, a significant increase in the median number of spikes per
+burst [SNAP alone ϭ 2 (interquartile range, IQR, 1–3), IbTx
+alone ϭ 2 (IQR 1–3), SNAP ϩ IbTx ϭ 4 (IQR 2– 6), P Ͻ 0.05].
+DURING THE COURSE OF A BURST, SOMATIC SPIKES DEVELOP
+INCREASING INFLECTIONS ON THEIR UPSTROKES (AS ALSO
+SHOWN BY BRUMBERG ET AL. (2000), THEIR FIG. 11A). The data so
+
+FIG. 11. Reducing gK(C) density favors fast rhythmic bursting. A: simulation showing the emergence of fast rhythmic bursting as gK(C) is reduced. The
+reduction in conductance density was applied uniformly across compartments.
+Note that persistent Naϩ conductance is absent in these simulations: DNa(P) ϭ
+0 (calibration: 100 ms, 50 mV). B: experimental data from a layer 2 temporal
+cortical neuron. The control trace shows repetitive firing during depolarization
+to Ϫ54 mV. Middle: 21-Hz rhythmic bursting in the same neuron, 30 min after
+bath application of the BK channel blocker iberiotoxin (IbTx, 50 nM). Bottom:
+further addition of SNAP (100 ␮M) leads to slowing of the burst rate, along
+with more spikes per burst (calibration: 100 ms, 50 mV). C: IbTx-induced
+rhythmic bursting persisted Ͼ1 h. Bath application of phenytoin (120 ␮M)
+reduced burst frequency, but failed to abolish bursting (calibration: 100 ms, 50
+mV). D: multiple action potential generation in the presence of IbTx was
+accompanied by an ADP, an increase in spike half-width, and a decrease in
+initial spike afterhyperpolarization. Phenytoin failed to antagonize either the
+ADP or the spike broadening (calibration: 5 ms, 50 mV).
+
+J Neurophysiol • VOL
+
+far suggest that fast membrane processes, on a few-millisecond
+time scale, are critical in allowing fast rhythmic bursting to
+occur. Such fast processes suggest involvement of the axon in
+this unique firing behavior. We noted in simulations that the
+very fast gNa and gK(DR) used in this model led to a high degree
+of axonal excitability. The distal axon, for example, would fire
+two spikes on occasion to the soma’s single spike (e.g., Figs. 9
+and 10); or, during somatic spike triplets, the axon might fire
+five times (data not shown). Some simulations (e.g., Fig. 7B)
+showed spikelets and notched action potentials (cf. Draguhn et
+al. 1998; Schmitz et al. 2001), and spikelets could also be
+observed in experimental recordings (e.g., Fig. 8C). It was
+therefore interesting to notice— both in simulations and in
+confirmatory experiments (cf. Brumberg et al. 2000)—that the
+upstrokes of somatic action potentials became progressively
+more inflected during the course of a burst, consistent with
+axonal initiation of the spikes (data not shown). This axonal
+
+89 • FEBRUARY 2003 •
+
+www.jn.org
+
+918
+
+R. D. TRAUB, E. H. BUHL, T. GLOVELI, AND M. A. WHITTINGTON
+
+initiation was directly confirmed in simulations. The progressively increasing somatic spike inflections probably result from
+increasing soma/dendritic Kϩ conductances and Naϩ channel
+inactivation that develop during the burst.
+DISCUSSION
+
+Intrinsic oscillatory properties at gamma frequency, both
+subthreshold and chattering, in neocortical neurons have been
+suggested to be important in the generation of network gamma
+oscillations in the cortex (Gray and McCormick 1996; Llina´ s et
+al. 1991; Nun˜ ez et al. 1992; Steriade et al. 1998). For this
+reason alone, an understanding of the cellular mechanisms is
+essential. Understanding of cellular mechanisms—specifically,
+which currents are involved in producing particular firing behaviors—is additionally important, because such understanding allows one to make predictions as to how the currents (and
+thus the firing behaviors) might be regulated by the brain in
+vivo. It is noteworthy, for example, that persistent Naϩ conductance can be influenced by NO (Hammarstrom and Gage
+1999), while BK channels are regulated by protein kinase A
+(Dworetzky et al. 1996). Here, we have concentrated on fast
+rhythmic bursting—firing patterns of full action potentials that
+decrement only slightly in amplitude—rather than on subthreshold behavior.
+We have constructed a multi-compartment, multi-conductance model of a layer 2/3 neocortical neuron that uses voltageclamp kinetic data for simulating many of the channel types
+(e.g., Martina et al. 1997). Dendritic electrogenesis in this
+model looks reasonably realistic (Figs. 2 and 3). Contrary to
+our expectations when building this model (which was not
+originally intended to simulate fast rhythmic bursting), the
+model did indeed produce fast rhythmic bursting of a form
+similar to that seen in vivo (Steriade et al. 1998). In addition,
+the model agrees well with experimental data on rhythmic
+doublets and bursts, obtained from adult rat neocortical slices
+with sharp electrodes. It therefore makes sense to examine the
+predictions made by, and interpretations suggested by, this
+model as to the cellular mechanisms of fast rhythmic bursting.
+What the model suggests is that one important set of membrane properties contributing to fast rhythmic bursting may be
+the kinetics of fast Naϩ and fast Kϩ channels, especially in the
+axon. These properties alone (data not shown) allow spike
+ADPs to occur, when the axonal membrane is depolarized, and
+promote a ready tendency to produce spike multiplets. Persistent gNa contributes to this tendency, not only because of its
+limited (in the model, nonexistent) inactivation, but also because of its relatively low activation threshold (French et al.
+1990; Kay et al. 1998). Experimental data reported here [as
+well as previously (Brumberg et al. 2000)] are also consistent
+with a role for persistent gNa in fast rhythmic bursting. In
+addition, the tendency for axonal spike multiplets to invade the
+soma could be regulated, we suggest, in part by gK(C), a fast
+voltage- and calcium-gated conductance. gK(C) is likely present
+in soma and dendrites (Kang et al. 1996); the fact that gCa is
+present in Purkinje cell axons (Callewaert et al. 1996) makes it
+conceivable that gK(C) is present in axons as well, although we
+did not include axonal gK(C) in the model. In the model,
+reduction of soma/dendritic gK(C) could induce fast rhythmic
+bursting (in response to depolarizing stimuli) even in the absence of persistent gNa, as could reducing calcium entry or
+J Neurophysiol • VOL
+
+intracellular calcium concentration. Dendritic depolarizations
+do not appear to contribute in a significant way, at least in the
+model. Experimentally, bath application of the BK channel
+blocker (i.e., gK(C) blocker) IbTx also induced fast rhythmic
+bursting that is resistant to phenytoin, both as the model
+predicts. Presumably, the toxin is acting uniformly on somatic,
+dendritic, and axonal (if such exist) locations of BK channels.
+Both in the model and in the experiment, fast rhythmic
+bursting could be accompanied by somatic spikelets that did
+not originate in apical dendrites and that (in the model, at least)
+could be shown to originate in the axon. These observations are
+also consistent with the hypothesis that axonal excitability
+contributes to fast rhythmic bursting.
+In the model, it is additionally important that there be a
+voltage-dependent (and calcium-independent) Kϩ conductance, of relatively large amplitude and appropriate kinetics, to
+regulate the interburst interval. In our simulations, this role is
+played by “gK(M),” but we have no experimental data concerning the presence or absence of cholinergic regulation of this
+conductance; if no cholinergic regulation turns out to be
+present, it does not influence the basic ideas of the model,
+provided the conductance has appropriate amplitude and
+kinetics.
+Intraburst intervals, both in model and in experiments
+reported here, are often not as short as those seen in other in
+vitro preparations (e.g., Brumberg et al. 2000) or in vivo
+(Gray and McCormick 1996; Steriade et al. 1998). The
+reasons for this are not clear. One possibility in vivo is that
+chattering occurs in the presence of metabotropic activation
+that would tend to reduce leak (and other) Kϩ conductances.
+In addition, both our (isolated) model neurons and experimentally recorded neurons rarely burst at frequencies over
+30 Hz. It should be emphasized, however, that previously
+reported chattering cells may—in response to current injections— discharge bursts in the 10 –30 Hz range (e.g., Figure
+3F of Gray and McCormick 1996). Because of the limited
+intraburst firing frequencies in our data, however, it is
+appropriate to remain cautious as to how, or if, our data
+apply to chattering in vivo.
+If fast rhythmic bursting is of importance for in vivo
+gamma rhythms, one expects that the intrinsic oscillation
+could be gated by inhibitory postsynaptic potentials (IPSPs),
+as well as by intracellular depolarization: such gating is
+characteristic of virtually all in vitro network gamma
+rhythms (Fisahn et al. 1998; Whittington et al. 1995, 1997);
+it is not apparent how tight network synchrony could occur
+without regulation by IPSPs (reviewed in Traub et al. 1999).
+If it is additionally true that axonal properties are critical for
+chattering to occur, as we suggest, then axo-axonic inhibitory neurons would be expected to play an important role in
+network gamma oscillations. Preliminary simulations have
+been performed with a network of RS, FRB, fast-spiking
+(FS) interneurons, and low-threshold spiking (LTS) interneurons (Gibson et al. 1999). In the simulations, some FS
+interneurons inhibit principal cell axon initial segments,
+while others inhibit somata and proximal dendrites; the LTS
+interneurons inhibited dendrites. These simulations confirm
+that model FRB cells can participate in synchronized
+gamma oscillations at frequencies Յ50 Hz.
+
+89 • FEBRUARY 2003 •
+
+www.jn.org
+
+MECHANISMS OF FAST RHYTHMIC BURSTING
+
+919
+
+APPENDIX
+
+Further model parameters
+
+TABLE
+
+A1. Ionic conductance densities (mS/cm2)
+
+Conductance Type
+gNa-transient
+gNa-persistent
+
+Soma
+
+Dendrites
+
+400
+
+187.5
+
+125 & 93.75 (proximal), 6.25
+(remaining)
+DNa(P) ϫ 0.0032 ϫ transient
+value
+93.75 proximal, 0 distal
+30 apical shaft, 2 elsewhere
+DK(C) ϫ 12 soma & proximal,
+0 elsewhere
+0.1
+0.1
+7.5
+0.1
+0.5, except 3.0 distal 3 levels
+0.25
+
+0
+
+gK-delayed rectifier
+gK-transient (“A”)
+gK-Ca- & V-dependent
+(“C”)
+gK-AHP
+gK-“K2”
+gK-“M”
+gCa-low-threshold
+gCa-high-threshold
+Anomalous rectifier
+
+TABLE
+
+Axon
+
+400
+2
+0
+
+125
+30
+
+0
+0.1
+0
+0
+0
+0
+
+0.1
+0.1
+7.5
+0.1
+0.5
+0.25
+
+A2. Ionic conductance kinetic parameters
+Steady-State
+Activation/Inactivation
+
+Conductance Type
+
+Time Constant (ms)
+
+gNa-transient: activation
+
+1/{1 ϩ exp[(ϪV Ϫ 34.5)/10]};
+
+gNa-transient: inactivation
+gNa-persistent: activation
+
+1/{1 ϩ exp[(V ϩ 59.4)/10.7]};
+1/{1 ϩ exp[(ϪV Ϫ 48)/10]};
+
+gK-delayed rectifier: activation
+
+1/{1 ϩ exp[(ϪV Ϫ 29.5)/10]};
+
+gK-transient (“A”): activation
+gK-transient (“A”): inactivation
+
+1/{1 ϩ exp[(ϪV Ϫ 60)/8.5]};
+1/{1 ϩ exp[(V ϩ 78)/6]};
+
+gK-“K2”: activation
+gK-“K2”: inactivation
+gCa-low-threshold: activation
+gCa-low-threshold: inactivation
+
+1/{1
+1/{1
+1/{1
+1/{1
+
+Anomalous rectifier
+
+1/{1 ϩ exp[(V ϩ 75)/5.5]};
+
+ϩ
+ϩ
+ϩ
+ϩ
+
+exp[(ϪV Ϫ 10)/17]};
+exp[(V ϩ 58)/10.6]};
+exp[(ϪV Ϫ 56)/6.2]};
+exp[(V ϩ 80)/4]};
+
+Conductance Type
+
+Forward Rate Function (␣)
+
+gK-Ca- & V-dependent (“C”)
+(voltage-dependent term)
+
+0.053 exp[(V ϩ 50)/11 Ϫ (V ϩ 53.5)/27]
+[V Յ Ϫ10]
+2 exp[(ϪV Ϫ 53.5)/27]
+[V Ն Ϫ10]
+0.02/{1 ϩ exp[(ϪV Ϫ 20)/5]};
+min (10Ϫ4 ␹, 0.01);
+1.6/{1 ϩ exp[Ϫ0.072(V Ϫ 5)]};
+
+gK-“M”
+gK-AHP
+gCa-high-threshold
+
+0.025 ϩ 0.14 exp[(V ϩ 26.5)/10] [V Յ Ϫ26.5]
+0.02 ϩ 0.145 exp[(ϪV Ϫ 26.5)/10)] [V Ն Ϫ26.5]
+0.15 ϩ 1.15/{1 ϩ exp[(V ϩ 33.5)/15]}
+0.025 ϩ 0.14 exp[(V ϩ 40)/10] [V Յ Ϫ40]
+0.02 ϩ 0.145 exp[(ϪV Ϫ 40)/10] [V Ն Ϫ40]
+0.25 ϩ 4.35 exp[(V ϩ 10)/10] [V Յ Ϫ10]
+0.25 ϩ 4.35 exp[(ϪV Ϫ 10)/10] [V Ն Ϫ10]
+0.185 ϩ 0.5/{exp[(V ϩ 35.8)/19.7] ϩ exp[(ϪV Ϫ 79.7)/12.7]}
+0.5/
+[V Յ Ϫ63]
+{exp[(V ϩ 46)/5)] ϩ exp[(ϪV Ϫ 238)/37.5]}
+9.5 [V Ն Ϫ63]
+4.95 ϩ 0.5/{exp[(V Ϫ 81)/25.6] ϩ exp[(ϪV Ϫ 132)/18]}
+60 ϩ 0.5/{exp[(V Ϫ 1.33)/200] ϩ exp[(ϪV Ϫ 130)/7.1]}
+0.204 ϩ 0.333/{exp[(V ϩ 15.8)/18.2] ϩ exp[(ϪV Ϫ 131)/16.7]}
+0.333 exp[(V ϩ 466)/66.6] [V Յ Ϫ81]
+9.32 ϩ 0.333 exp[(ϪV Ϫ 21)/10.5] [V Ն Ϫ81]
+1/[exp(Ϫ14.6 Ϫ 0.086V) ϩ exp(Ϫ1.87 ϩ 0.07V)]
+Backward Rate Function (␤)
+2 exp[(V Ϫ 53.5)/27] Ϫ ␣
+[V Յ Ϫ10]
+0
+[V Ն Ϫ10]
+0.01 exp[(ϪV Ϫ 43)/18]
+0.01
+0.02 (V ϩ 8.9)/{exp[(V ϩ 8.9)/5] Ϫ 1}
+
+Kinetic data are for activation, unless specified otherwise. Membrane potential, V, in mV. [Ca]-dependence of “C” and AHP conductances are described in
+as is description of [Ca] dynamics. “␹” designates [Ca]i, units arbitrary.
+
+METHODS,
+
+J Neurophysiol • VOL
+
+89 • FEBRUARY 2003 •
+
+www.jn.org
+
+920
+
+R. D. TRAUB, E. H. BUHL, T. GLOVELI, AND M. A. WHITTINGTON
+
+We thank A. Bibbig for helpful discussions, and M. Steriade for discussions
+and encouragement.
+This work was supported by National Institute of Neurological Disorders
+and Stroke Grant NS-44133-01 to R. D. Traub, the Wellcome Trust, and the
+Medical Reseach Council (United Kingdom).
+
+REFERENCES
+Amitai Y, Friedman A, Connors BW, and Gutnick MJ. Regenerative
+activity in apical dendrites of pyramidal cells in neocortex. Cereb Cortex 3:
+26 –38, 1993.
+Bibbig A, Faulkner HJ, Whittington M, and Traub RD. Self-organized
+synaptic plasticity contributes to the shaping of ␥ and ␤ oscillations in vitro.
+J Neurosci 21: 9053–9067, 2001.
+Brand S, Seeger T, and Alzheimer C. Enhancement of persistent Naϩ current
+by sea anemone toxin (ATX II) exerts dual action on hippocampal excitability. Eur J Neurosci 12: 2387–2396, 2000.
+Brumberg JC, Nowak LG, and McCormick DA. Ionic mechanisms underlying repetitive high-frequency burst firing in supragranular cortical neurons. J Neurosci 20: 4829 – 4843, 2000.
+Callewaert G, Eilers J, and Konnerth A. Axonal calcium entry during fast
+“sodium” action potentials in rat cerebellar Purkinje neurones. J Physiol
+495: 641– 647, 1996.
+Campbell V, Berrow N, and Dolphin AC. GABAB receptor modulation of
+Ca2ϩ currents in rat sensory neurones by the G protein G0: antisense
+oligonucleiotide studies. J Physiol 470: 1–11, 1993.
+Cardozo DL and Bean BP. Voltage-dependent calcium channels in rat
+midbrain dopamine neurons: modulation by dopamine and GABAB receptors. J Neurophysiol 74: 1137–1148, 1995.
+Draguhn A, Traub RD, Schmitz D, and Jefferys JGR. Electrical coupling
+underlies high-frequency oscillations in the hippocampus in vitro. Nature
+394: 189 –192, 1998.
+Dworetzky SI, Boissard CG, Lum-Ragan JT, McKay MC, Post-Munson
+DJ, Trojnacki JT, Chang CP, and Gribkoff VK. Phenotypic alteration of
+a human (hSlo) channel by hSlo␤ subunit coexpression: changes in blocker
+sensitivity, activation/relaxation and inactivation kinetics, and protein kinase
+A modulation. J Neurosci 16: 4543– 4550, 1996.
+Fisahn A, Pike FG, Buhl EH, and Paulsen O. Cholinergic induction of
+network oscillations at 40 Hz in the hippocampus in vitro. Nature 394:
+186 –189, 1998.
+Friedman A and Gutnick MJ. Intracellular calcium and control of burst
+generation in neurons of guinea-pig neocortex in vitro. Eur J Neurosci 1:
+374 –381, 1989.
+French CR, Sah P, Buckett KJ, and Gage PW. A voltage-dependent
+persistent sodium current in mammalian hippocampal neurons. J Gen
+Physiol 95: 1139 –1157, 1990.
+Galvez A, Gimenez-Gallego G, Reuben JP, Roy-Contancin L, Feigenbaum
+P, Kaczorowski GJ, and Garcia ML. Purification and characterization of
+a unique, potent, peptidyl probe for the high conductance calcium-activated
+potassium channel from venom of the scorpion Buthus tamulus. J Biol Chem
+265: 11083–11090, 1990.
+Gibson JR, Beierlein M, and Connors BW. Two networks of electrically
+coupled inhibitory neurons in neocortex. Nature 402: 75–79, 1999.
+Gillies M, Traub RD, LeBeau, FEN, Davies CH, Gloveli T, Buhl EH, and
+Whittington MA. A model of atropine-resistant theta oscillations in rat
+hippocampal area CA1. J Physiol 543: 779 –793, 2002.
+Gray CM. Synchronous oscillations in neuronal systems: mechanisms and
+functions. J Comput Neurosci 1: 11–38, 1994.
+Gray CM and McCormick DA. Chattering cells: superficial pyramidal neurons contributing to the generation of synchronous oscillations in the visual
+cortex. Science 274: 109 –113, 1996.
+Gupta A, Wang Y, and Markram H. Organizing principles for a diversity of
+GABAergic interneurons and synapses in the neocortex. Science 287: 273–
+278, 2000.
+Hammarstrom AK and Gage PW. Nitric oxide increases persistent sodium
+current in rat hippocampal neurons. J Physiol 520: 451– 461, 1999.
+Harvey AL, Vatanpour H, Rowan EG, Pinkasfeld S, Vita C, Menez A, and
+Martin-Eauclaire MF. Structure-activity studies on scorpion toxins that
+block potassium channels. Toxicon 33: 425– 436, 1995.
+Huguenard JR and McCormick DA. Simulation of the currents involved in
+rhythmic oscillations in thalamic relay neurons. J Neurophysiol 68: 1373–
+1383, 1992.
+J Neurophysiol • VOL
+
+Kamondi A, Acsady L, and Buzs´aki G. Dendritic spikes are enhanced by
+cooperative network activity in the intact hippocampus. J Neurosci 18:
+3819 –3928, 1989.
+Kang J, Huguenard JR, and Prince DA. Development of BK channels in
+neocortical pyramidal neurons. J Neurophysiol 76: 188 –198, 1996.
+Kay AR, Sugimori M, and Llin´as R. Kinetic and stochastic properties of a
+persistent sodium current in mature guinea pig cerebellar Purkinje cells.
+J Neurophysiol 80: 1167–1179, 1998.
+Kay AR and Wong RKS. Calcium current activation kinetics in pyramidal
+neurones of the CA1 region of the mature guinea pig hippocampus.
+J Physiol 392: 603– 616, 1987.
+Llin´as RR, Grace AA, and Yarom Y. In vitro neurons in mammalian cortical
+layer 4 exhibit intrinsic oscillatory activity in the 10- to 50-Hz range. Proc
+Natl Acad Sci USA 88: 897–901, 1991.
+Mainen ZF, Joerges J, Huguenard JR, and Sejnowski TJ. A model of spike
+initiation in neocortical neurons. Neuron 15: 1427–1439, 1995.
+Major G. The Physiology, Morphology and Modelling of Cortical Pyramidal
+Neurones (PhD thesis). Oxford, UK: Oxford Univ., 1992.
+Mantegazza M, Franceschetti S, and Avanzini G. Anemone toxin (ATX
+II)-induced increase in persistent sodium current: effects on the firing properties
+of rat neocortical pyramidal neurones. J Physiol 507: 105–116, 1998.
+Martina M and Jonas P. Functional differences in Naϩ channel gating
+between fast-spiking interneurones and principal neurones of rat hippocampus. J Physiol 505: 593– 603, 1997.
+Martina M, Schultz JH, Ehmke H, Monyer H, and Jonas P. Functional and
+molecular differences between voltage-gated Kϩ channels of fast-spiking
+interneurons and pyramidal neurons of rat hippocampus. J Neurosci 18:
+8111– 8125, 1998.
+McCormick DA and Huguenard JR. A model of the electrophysiological
+properties of thalamocortical relay neurons. J Neurophysiol 68: 1384 –1400,
+1992.
+Mittman T, Linton SM, Schwindt P, and Crill W. Evidence for persistent
+Naϩ current in apical dendrites of rat neocortical neurons from imaging of
+Naϩ-sensitive dye. J Neurophysiol 78: 1188 –1192, 1997.
+Nishimura Y, Asahi M, Saitoh K, Kitagawa H, Kumazawa Y, Itoh K, Lin
+M, Akamine T, Shibuya H, Asahara T, and Yamamoto T. Ionic mechanisms underlying burst firing of layer III sensorimotor cortical neurons of
+the cat: an in vitro slice study. J Neurophysiol 86: 771–781, 2001.
+Nun˜ez A, Amzica F, and Steriade M. Voltage-dependent fast (20 – 40 Hz)
+oscillations in long-axoned neocortical neurons. Neuroscience 51: 7–10,
+1992.
+Pedroarena C and Llin´as R. Dendritic calcium conductances generate highfrequency oscillation in thalamocortical neurons. Proc Natl Acad Sci USA
+94: 724 –728, 1997.
+Sabatini BL, Oertner TG, and Svoboda K. The life cycle of Ca2ϩ ions in
+dendritic spines. Neuron 33: 439 – 452, 2002.
+Schmitz D, Schuchmann S, Fisahn A, Draguhn A, Buhl EH, PetraschParwez RE, Dermietzel R, Heinemann U, and Traub RD. Axo-axonal
+coupling: a novel mechanism for ultrafast neuronal communication. Neuron
+31: 831– 840, 2001.
+Shao LR, Halvorsrud R, Borg-Graham L, and Storm JF. The role of
+BK-type Ca2ϩ-dependent Kϩ channels in spike broadening during repetitive
+firing in rat hippocampal pyramidal cells. J Physiol 521: 135–146, 1999.
+Steriade M. The Intact and Sliced Brain. Cambridge, MA: MIT Press, 2001.
+Steriade M, Amzica F, and Contreras D. Synchronization of fast (30 – 40
+Hz) spontaneous cortical rhythms during brain activation. J Neurosci 16:
+392– 417, 1995.
+Steriade M, Curr´o Dossi R, and Contreras D. Electrophysiological properties of intralaminar thalamocortical cells discharging rhythmic ϳ40 Hz)
+spike-bursts at ϳ1000 Hz during waking and rapid eye movement sleep.
+Neuroscience 56: 1–9, 1993.
+¨ uller
+¨
+Steriade M, Timofeev I, Durm
+N, and Grenier F. Dynamic properties
+of corticothalamic neurons and local cortical interneurons generating fast
+rhythmic (30 – 40 Hz) spike bursts. J Neurophysiol 79: 483– 490, 1998.
+Steriade M, Timofeev I, and Grenier F. Natural waking and sleep states: a
+view from inside neocortical neurons. J Neurophysiol 85: 1969 –1985, 2001.
+Traub RD, Jefferys JGR, Miles R, Whittington MA, and T´oth K. A
+branching dendritic model of a rodent CA3 pyramidal neurone. J Physiol
+481: 79 –95, 1994.
+Traub RD, Jefferys JGR, and Whittington MA. Fast Oscillations in Cortical Circuits. Cambridge, MA: MIT Press, 1999.
+
+89 • FEBRUARY 2003 •
+
+www.jn.org
+
+MECHANISMS OF FAST RHYTHMIC BURSTING
+Traub RD and Miles R. Pyramidal cell-to-inhibitory cell spike transduction
+explicable by active dendritic conductances in inhibitory cell. J Comput
+Neurosci 2: 291–298, 1995.
+Traub RD, Miles R, and Jefferys JGR. Synaptic and intrinsic conductances
+shape picrotoxin-induced synchronized after-discharges in the guinea-pig
+hippocampal slice. J Physiol 461: 525–547, 1993.
+Traub RD, Whittington MA, Buhl EH, Jefferys JGR, and Faulkner HJ. On
+the mechanism of the ␥ 3 ␤ frequency shift in neuronal oscillations induced in
+rat hippocampal slices by tetanic stimulation. J Neurosci 19: 1088–1105, 1999.
+
+J Neurophysiol • VOL
+
+921
+
+Wang X-J. Fast burst firing and short-term synaptic plasticity: a model of
+neocortical chattering neurons. Neuroscience 89: 347–362, 1999.
+Whittington MA, Traub RD, and Jefferys JGR. Synchronized oscillations
+in interneuron networks driven by metabotropic glutamate receptor activation. Nature 373: 612– 615, 1995.
+Whittington MA, Stanford IM, Colling SB, Jefferys JGR, and
+Traub RD. Spatiotemporal patterns of ␥ frequency oscillations tetanically induced in the rat hippocampal slice. J Physiol 502: 591– 607,
+1997.
+
+89 • FEBRUARY 2003 •
+
+www.jn.org
+
+
