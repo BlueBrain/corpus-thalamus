@@ -1,1 +1,20 @@
-[]
+[
+    {
+        "annotId": "d0123714-0c74-11e6-b720-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "A1",
+            "noCol": "2",
+            "noRow": "2",
+            "type": "table"
+        },
+        "parameters": [],
+        "pubId": "10.1152/jn.00573.2002",
+        "tags": [],
+        "version": "1"
+    }
+]
