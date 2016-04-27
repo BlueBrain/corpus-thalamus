@@ -1,0 +1,24 @@
+[
+    {
+        "annotId": "908d9b86-0c8a-11e6-9d1d-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 3061,
+            "text": "CaV3.3\nchannels are required for nRt cell bursting and for synchronized\nrhythmicity in intrathalamic circuits",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1073/pnas.1105115108",
+        "tags": [
+            {
+                "id": "BBP_nlx_0021",
+                "name": "Sleep spindle"
+            }
+        ],
+        "version": "1"
+    }
+]
