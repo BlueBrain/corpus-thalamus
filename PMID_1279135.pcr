@@ -13,7 +13,12 @@
         },
         "parameters": [],
         "pubId": "PMID_1279135",
-        "tags": [],
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            }
+        ],
         "version": "1"
     }
 ]
