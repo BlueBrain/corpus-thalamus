@@ -13,7 +13,16 @@
         },
         "parameters": [],
         "pubId": "PMID_3559675",
-        "tags": [],
+        "tags": [
+            {
+                "id": "BBP_nlx_0021",
+                "name": "Sleep spindle"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            }
+        ],
         "version": "1"
     }
 ]
