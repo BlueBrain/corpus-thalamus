@@ -1,0 +1,1033 @@
+Thehttp://nro.sagepub.com/
+Neuroscientist
+
+Sleep Spindles: Where They Come From, What They Do
+Anita Lüthi
+Neuroscientist 2014 20: 243 originally published online 27 August 2013
+DOI: 10.1177/1073858413500854
+The online version of this article can be found at:
+http://nro.sagepub.com/content/20/3/243
+
+Published by:
+http://www.sagepublications.com
+
+Additional services and information for The Neuroscientist can be found at:
+Email Alerts: http://nro.sagepub.com/cgi/alerts
+Subscriptions: http://nro.sagepub.com/subscriptions
+Reprints: http://www.sagepub.com/journalsReprints.nav
+Permissions: http://www.sagepub.com/journalsPermissions.nav
+
+>> Version of Record - May 14, 2014
+OnlineFirst Version of Record - Aug 27, 2013
+What is This?
+
+Downloaded from nro.sagepub.com at MCGILL UNIVERSITY LIBRARY on November 3, 2014
+
+500854
+
+research-article2013
+
+NROXXX10.1177/1073858413500854The NeuroscientistLüthi
+
+Review
+
+Sleep Spindles: Where They Come From,
+What They Do
+
+The Neuroscientist
+2014, Vol. 20(3) 243­–256
+© The Author(s) 2013
+Reprints and permissions:
+sagepub.com/journalsPermissions.nav
+DOI: 10.1177/1073858413500854
+nro.sagepub.com
+
+Anita Lüthi1
+
+Abstract
+Sleep spindles are extensively studied electroencephalographic rhythms that recur periodically during non–rapid eye
+movement sleep and that are associated with rhythmic discharges of neurons throughout the thalamocortical system.
+Their occurrence thus constrains many aspects of the communication between thalamus and cortex, ranging from
+sensory transmission, to cortical plasticity and learning, to development and disease. I review these functional aspects
+in conjunction with novel findings on the cellular and molecular makeup of spindle-pacemaking circuits. A highlight
+in the search of roles for sleep spindles is the repeated finding that spindles correlate with memory consolidation in
+humans and animals. By illustrating that spindles are at the forefront understanding on how the brain might benefit
+from sleep rhythms, I hope to stimulate further experimentation.
+Keywords
+NREM sleep, EEG, rhythm, voltage-gated calcium channel, inhibition, burst, sensory transmission, learning, CaV3
+channel, cyclic AMP
+
+What Are Sleep Spindle Waves?
+Sleep spindles are brief oscillatory events that appear in
+the human electroencephalogram (EEG) during periods
+of drowsiness and sleep. These brain-generated electrical
+rhythms are prominent EEG hallmarks of non–rapid eye
+movement (NREM) sleep, which makes up for ~80% of
+a normal night’s sleep. Per night, 4 to 5 epochs of ~90
+minutes are spent in NREM sleep. Stage N1 of NREM
+sleep refers to drowsiness, stage N2 to light sleep, and
+stage N3 to deep and restorative sleep. The remaining
+20% consist of rapid eye movement (REM) sleep that is
+well-known for the rapid movements of the eyes and for
+vivid dreaming periods.
+During NREM sleep, the brain generates electrical
+rhythms that are synchronized throughout large cortical
+areas. The NREM sleep EEG shows a continuous power
+spectrum of frequencies, from 0.75 Hz up to tens of
+Hertz, with a broad peak centered at ~0.5 to 4 Hz, indicating a dominance of low-frequency rhythms. Three
+rhythms have a distinct graphical signature on a background of ongoing oscillations and serve as EEG hallmarks of NREM sleep: the K-complexes (0.5-1 Hz), delta
+(δ) rhythms (1-4 Hz), and the sleep spindles, also referred
+to as the sleep sigma (σ) band (10-15 Hz). A single sleep
+spindle lasts ~0.5 to 3 seconds and is recognized based on
+~5 to 20 successive deflections of the human EEG signal
+(Fig. 1A). These deflections reach a maximum at the
+
+middle of the spindle event, gradually increasing before
+(“waxing”) and decreasing thereafter (“waning”), thence
+the name “spindles” (Fig. 1A). Within the consolidated
+NREM sleep epochs lasting ~90 minutes in humans,
+spindles are but brief oscillatory events that recur maximally a few times per minute.
+The neural mechanisms of spindle generation have
+been studied for decades in different mammalian species,
+initially via electrophysiological and computational
+methods, later in combination with molecular and imaging approaches. A surge of interest in spindles sparked in
+the past years in the context of sleep’s implication in
+learning and memory formation (Fogel and Smith 2011;
+Rasch and Born 2013). In humans, spindles are now
+divided into two types that have different frequencies,
+topographic distributions, and putative functional roles,
+as indicated by noninvasive scalp EEG recordings and
+functional imaging techniques (Fogel and Smith 2011;
+Rasch and Born 2013).
+
+1
+
+Department of Fundamental Neurosciences, University of Lausanne,
+Lausanne, Switzerland
+Corresponding Author:
+Anita Lüthi, Department of Fundamental Neurosciences, University of
+Lausanne, Rue du Bugnon 9, CH-1005 Lausanne, Switzerland.
+Email: anita.luthi@unil.ch
+
+Downloaded from nro.sagepub.com at MCGILL UNIVERSITY LIBRARY on November 3, 2014
+
+244	
+
+The Neuroscientist 20(3)
+
+Figure 1.  Sleep spindles and spindle-like rhythms are documented at multiple levels of neuronal circuitry analysis. (A) Electroencephalographic recording of spindles from a sleeping human subject from two corresponding sites on primary somatosensory
+cortex (C3-A2, C4-A1). Note the regular appearance of sleep spindles, evident as grouped electroencephalographic deflections
+occurring at higher frequencies than background (*). K-complexes intertwined with sleep spindles are marked by #. The spindle
+labeled with ** is expanded on the right to illustrate the waxing and waning waveform. Traces were kindly provided by Dr.
+R. Heinzer, Cantonal Hospital of the University of Lausanne, Switzerland. (B) Local field potential recordings from layer 5 of
+primary somatosensory (S1) and auditory (A1) areas in an adult C57Bl/6J mouse during non–rapid eye movement (NREM)
+sleep. Same labeling for *, ** and # as in (A). Spindles were detected based on band-pass filtering of the traces between 10
+and 15 Hz (bottom trace on the right). Traces were kindly provided by Dr. L. Fernandez, University of Lausanne, Switzerland.
+(C) Spontaneous rhythmic multiunit discharges in a mouse brain slice containing thalamic reticular nucleus (TRN) and adjacent
+ventrobasal thalamic complex. Waxing and waning waveform of each grouped discharge is apparent. Expanded portion is taken
+from the area labeled with a small black bar and shown to the right. (D) Intracellular recording of a thalamocortical (TC)
+neuron engaged in spindle-like rhythms in a ferret slice containing the dorsal lateral geniculate nucleus of the thalamus and
+the adjacent perigeniculate nucleus, a carnivore equivalent of the visual TRN (for further information, see Steriade and others
+1993). Note rhythmic occurrence of inhibitory postsynaptic potentials that are occasionally eliciting rebound burst discharge.
+Black bar illustrates portion of the trace that is expanded to the right. Time scale in (D) applies for (A)-(C). (E) Ca2+ imaging
+of proximal dendrites of a TRN cell as it generates repeated burst discharge elicited through somatic current injection. Images
+were acquired at the time of discharge indicated by vertical lines. Imaging was carried out as described in Cueni and others
+(2008). Note the marked increase in Ca2+ levels throughout the imaged dendritic portion and its almost complete decay during
+the interburst phase.
+
+Downloaded from nro.sagepub.com at MCGILL UNIVERSITY LIBRARY on November 3, 2014
+
+245
+
+Lüthi	
+
+Where Do Spindles Come From?
+The earliest reports on spindles go along with the very
+first attempts to monitor brain electricity across the skull
+using galvanometers (Box 1). Since then, the thalamus
+has moved to center stage as the site of origin of spindle
+wave generation. The electrical events underlying spindle
+rhythmicity, and their spread throughout the thalamocortical (TC) system, are now documented at the level of
+EEG and of local field potential recordings in the anesthetized and sleeping brain, from rodent, to carnivore, to
+primate, to human (Fig. 1A and B). Moreover, spindlerelated rhythms can be reproduced in brain slices from
+ferrets and rodents and have been followed from multiunit activity, to single cell discharge, to the flux of specific ions across the membrane (Fig. 1C-E).
+There are three successive phases of spindles that are
+comparable between species and that I review sequentially here: (1) the initiation of spindle generation, (2)
+spindle pacemaking and synchronization, and (3) spindle
+termination. Many important mechanistic aspects of spindle generation have been previously reviewed in detail
+(Beenhakker and Huguenard 2009; McCormick and Bal
+1997; Timofeev and others 2012). I will present wellestablished knowledge briefly referencing key review
+articles, while concentrating on recent insights in more
+detail. I will highlight in particular that spindles occur in
+temporal coordination with other sleep rhythms, and are
+increasingly understood as just one element in what
+appears to be a large-scale grouping of brain rhythms
+throughout the TC and the hippocampal system.
+
+The Thalamic Reticular Nucleus
+The first electrophysiological recordings of TC neurons,
+the principal excitatory neurons of thalamic nuclei projecting to cortex, indicated that rhythmic inhibitory synaptic potentials always occurred in phase with spindle
+wave generation (Purpura 1968). Andersen and Andersson
+(1968) postulated a set of widely disseminated inhibitory
+distributor neurons in thalamus to explain this coordinated inhibition. Based on lesion experiments, Steriade
+and colleagues realized that, rather than a diffusely distributed circuit, a well-defined nucleus encircling the
+thalamus, the thalamic reticular nucleus (TRN), generates this inhibition and thereby acts as a spindle pacemaker (reviewed in Fuentealba and Steriade 2005). The
+TRN forms a thin envelope, ~1 mm in diameter in
+humans, around most of the principal thalamic nuclei and
+covers these like an umbrella along their frontal–caudal
+extent. TRN cells throughout mammalian species appear
+uniform in that they all express the neurotransmitter
+GABA, they possess long and thin dendrites running in
+
+Box 1.
+The historical origins of sleep spindle research. The
+German medical doctor Hans Berger (1873-1941), working
+as a psychiatrist in Jena, had in mind to identify measurable
+parameters about the brain’s psychical energy and about
+mental telepathy. He initially experimented on human
+patients with skull defects to measure brain volume, pulsations of intracranial blood flow, and intracranial temperature.
+Around 1900, he turned to his first recording of the electrical activity of the brain, but then suspended these efforts
+because of the poor data quality, clinical and academic obligations, and medical service during World War I. He picked
+up his scientific work in the 1920s, and, through a decadelong painstaking improvement of galvanometric recordings
+from the human brain, he came up with the first clear
+recordings of rhythmic brain activities. He noted in particular the rhythmic appearance of brief oscillatory events in the
+10-Hz range, which he called alpha waves, and which he
+thought were representing some form of mental activity,
+whereas the faster beta waves (15-20 Hz) represented the
+brain’s metabolic state (Berger 1933). In the last decade of
+his life, great skepticism was brought against his work and
+the significance of Berger’s “Elektrenkephalogramm” was
+not recognized until researchers such as Sir Adrian, Jaspers,
+and Bremer reproduced his findings and further developed
+techniques and animal preparations to record brain electrical activity. Their studies sparked discussions about the electrical signals generating and the cellular mechanisms
+underlying the observed rhythms. Spindle waves soon
+became the focus of these discussions when Adrian noted
+that rhythmic activity observed in cortex during anesthesia
+could be recorded in the white matter, from the cut end of
+fibers from thalamus to cortex (Adrian 1941).The 1950s and
+1960s brought landmark developments within the field of
+thalamic function. Moruzzi and Magoun (1949) identified the
+brainstem reticular activating system as a main wake-promoting structure. Moreover, intracellular recordings from
+thalamic neurons revealed that these neurons experience
+prolonged rhythmic inhibitory synaptic events in phase with
+the oscillatory periods (Purpura 1968), originating from an
+intrathalamic source (Andersen and Andersson 1968). The
+leading researcher at the end of 1900s was Mircea Steriade,
+who, from the 1980s on, demonstrated that thalamic reticular nucleus (TRN) was the pacemaker for sleep spindles and
+responsible for generating rhythmic inhibitory synaptic
+potentials throughout principal thalamic nuclei (reviewed in
+Fuentealba and Steriade 2005). His work on the intact brain
+found even greater acclaim when spindle rhythms could be
+reproduced in brain slice preparations containing the TRN,
+further confirming that they arose from a localized pacemaker element within the brain (reviewed in Steriade and
+others 1993).
+
+parallel to the TRN borders, and most of them express the
+Ca2+-binding protein parvalbumin; nevertheless, cells in
+TRN probably form functionally heterogeneous classes
+
+Downloaded from nro.sagepub.com at MCGILL UNIVERSITY LIBRARY on November 3, 2014
+
+246	
+
+The Neuroscientist 20(3)
+
+that go along with variable soma size, discharge properties, dendritic appendages, and expression of other Ca2+binding proteins (Fig. 2) (Pinault 2004; Scheibel and
+Scheibel 1966). The TRN is subdivided into several, partially overlapping sensory sectors that receive topographically organized sensory information from visual,
+auditory, somatosensory, gustatory, visceral, motor, and
+limbic circuits (Pinault 2004; Zikopoulos and Barbas
+2007). The TRN does not project to cortex, whereas it is
+strongly innervated by descending cortical input arising
+in deep layer 6 from corresponding first-order sensory
+areas, and, at least in monkey, from prefrontal cortex that
+may overlap several sensory domains. The TRN cells target most principal thalamic nuclei in all species and synapse onto excitatory TC cells (reviewed in Fuentealba
+and Steriade 2005; Pinault 2004). Axonal projections
+arborize extensively and penetrate deeply into principal
+thalamus, crossing several nuclei in horizontal dorsal–
+caudal projections (Scheibel and Scheibel 1966) and
+innervating numerous TC neurons through multiple,
+closely spaced (<10 µm) presynaptic boutons
+(Wanaverbecq and others 2008). By providing
+GABAergic inhibitory feedback to specific and nonspecific thalamus, the TRN controls communication between
+thalamic nuclei and across TC loops. By being highly
+responsive to cortical feedback from sensory and higher
+cortical areas, the TRN shapes multiple aspects of sensory transmission, ranging from receptive field organization up to anticipation and attentional modulation of
+sensory perception (reviewed in Pinault 2004;
+Vukadinovic 2011).
+What is the current understanding of how the TRN
+network acts as a pacemaker for spindles? Since the first
+unit recordings from TRN cells in sleeping cats, it became
+clear that the TRN is a very active brain nucleus that discharges at typically at least ~20 Hz throughout all vigilance states, but the exact temporal pattern of discharge
+varies (Mukhametov and others 1970). Thalamic neurons, and TRN cells in particular, undergo substantial
+changes in resting membrane potentials according to the
+state of vigilance of the brain (reviewed in McCormick
+and Bal 1997). When the activity in wake-promoting
+structures ceases, as is the case at sleep onset (Saper and
+others 2010), depolarizing effects of monoaminergic neurotransmitters on TRN are withdrawn and the resting
+membrane potentials falls by 10 to 12 mV from levels
+approximately −50 to less than −60 mV. Whereas regularly timed action potential discharge is elicited from
+depolarized resting membrane potentials (greater than
+−55 mV), TRN cells switch to a drastically different discharge mode once they are resting at approximately −65
+mV or at more hyperpolarized levels. This is because
+membrane hyperpolarization overlaps with the activation
+
+range of a voltage-gated Ca2+ channel, also called lowthreshold Ca2+ channel or T-channel (reviewed in
+Huguenard 1996). T-channels are encoded by a family of
+3 genes, CaV3.1, CaV3.2, and CaV3.3, of which the latter
+two are expressed in TRN (Astori and others 2011). As
+their name says, these channels possess a low activation
+threshold (approximately −60 mV) and provoke triangular-shaped Ca2+ spikes that rapidly, yet transiently, depolarize the neuron to threshold for Na+ action potentials
+(Huguenard 1996). Action potentials riding on top of
+these Ca2+ spikes are then grouped in high-frequency
+bursts of several hundred Hz that are key to TRN’s capacities to pacemake spindles.
+
+The Initiation of Sleep Spindles
+Cells in TRN undoubtedly belong to the most dedicated
+burst-generating neurons in the brain, as exemplified by
+the combination of powerful cellular and synaptic specifications (Fig. 2). The most prevalent T-channel subtype
+of the TRN cells is the CaV3.3 channel that is expressed at
+high densities along TRN dendrites and that makes up for
+~70% of somatically recorded current, with the remaining current being generated by CaV3.2 channels (Astori
+and others 2011). T-channel expression occurs in a gradient that increases with increasing somatodendritic distance and that reaches maximum levels ~100 µm from the
+soma, as indicated through Ca2+ imaging (Crandall and
+others 2010). At more distal sites (>125 µm), the large
+amount of T-channels boosts the burst propensity of these
+dendritic compartments. A burst generated therein propagates to the soma and ensures a massive depolarizing
+drive, explaining the robust Ca2+ spike generated in TRN
+somas that initiates bursts of action potential discharge in
+TRN axons (Destexhe and others 1996). Voltage-gated
+Ca2+ channels of the R-type (Zaman and others 2011) and
+rapid K+ channels of the KV3 gene family (Espinosa and
+others 2008) further sustain the rhythmic burst discharge
+mechanism.
+What are the synaptic mechanisms triggering burst discharge? Low-threshold spikes are easily initiated in distal
+dendritic compartments through glutamatergic stimuli,
+independently of the somatic membrane polarization
+(Crandall and others 2010). At these sites, corticothalamic
+projections predominate and provide one of the most
+important initial triggers for TRN bursting through the
+generation of excitatory postsynaptic potentials (EPSPs)
+(Fig. 3A) (reviewed in Fuentealba and Steriade 2005).
+Cortico-TRN synapses are the most abundant excitatory
+afferents onto TRN cells; these synapses have high levels of α-amino-3-hydroxy-5-methyl-4-isoxazolepropionic
+acid (AMPA)–type ionotropic glutamate receptors at their
+postsynaptic sites and the pronounced frequency
+
+Downloaded from nro.sagepub.com at MCGILL UNIVERSITY LIBRARY on November 3, 2014
+
+247
+
+Lüthi	
+
+Figure 2.  Morphological, ionic, and synaptic properties of thalamic reticular nucleus (TRN) cells that contribute to vigorous
+burst discharge. Reconstructed rat TRN cell labeled with neurobiotin during a juxtacellular recording (for details, see Pinault
+2004 and references therein). Note the multiple thin dendrites emerging from the soma, some of which branch extensively
+and form hairy appendages. The subcellular distribution is indicated for T-channels (orange-brown gradient, with darker colors
+indicating greater expression levels) and for small-conductance type 2 (SK2) channels (green). SK2 channel expression was
+demonstrated up to ~100 µm from the soma. Single dendrites were chosen to illustrate T- and SK2 channel distribution in
+color code. Mechanisms of burst control involving high-voltage-activated Ca2+ channels, Ca2+-induced Ca2+ release (CICR) and
+Ca2+-activated cation channels were described at the somatic level. The axon, emerging from a primary dendrite, expresses
+high levels of Na+ channels (red). Synaptic afferents for which their subcellular localization is known are positioned accordingly.
+Excitatory afferents are labeled with a circle, inhibitory afferents with a line. Cholinergic afferents mediate both excitation and
+inhibition. Insets show a single burst and repetitive burst discharge (for details, see Pinault 2004 and references therein). ACh
+= acetylcholine; TC = thalamocortical; CT = corticothalamic. Reconstructed cell and electrophysiological traces were kindly
+provided by Dr. D. Pinault, INSERM, University of Strasbourg, France.
+
+facilitation of the synapses imposes a powerful excitatory
+drive (reviewed in Fuentealba and Steriade 2005). The
+dominant role of cortico-TRN projections in triggering
+
+burst discharge is important for the temporal coordination
+of spindles with other sleep rhythms (see also subsection
+“The Temporal Organization of Spindles”). Additionally,
+
+Downloaded from nro.sagepub.com at MCGILL UNIVERSITY LIBRARY on November 3, 2014
+
+248	
+
+The Neuroscientist 20(3)
+
+Figure 3.  T-channel-dependent mechanisms of spindle initiation, synchronization and termination. (A-C) Schematic drawings
+of membrane portions from thalamic reticular nucleus (TRN) and thalamocortical (TC) cells with color-coded CaV3 channels
+(orange-yellow), small-conductance type 2 (SK2) channels (green), hyperpolarization-activated cation-nonselective (HCN)
+channels (blue) and cation channels (grey) and associated mechanisms of Ca2+ signaling. Na+ channels are not represented.
+Colored circles and associated color clouds indicate ion flow through channels. Yellow, Ca2+; Green K+; Blue Na+. Membrane
+voltage traces indicate the electrophysiological events associated to these schemes. Traces are from recordings in mouse
+thalamic slices and were kindly provided by Dr. S. Astori, University of Lausanne, Switzerland. (A) Initiation of spindles occurs
+through recruitment of burst discharge via cortical excitatory postsynaptic potentials (EPSPs). (B) Spindle synchronization is
+mediated via reciprocal synaptic interactions between TRN and TC cells through burst inhibitory postsynaptic potentials (IPSPs),
+rebound burst generation in TC cells, and TC–TRN EPSPs. Repetitive burst discharge in TRN cells occurs through CaV3.3–SK2
+channel interplay. (C) Termination of spindles occurs through multiple mechanisms involving Ca2+-mediated alterations of TRN
+and TC cell excitability. (Top) TRN cells undergo a dampening of burst discharge through (left) somatic activation of cation
+channels (via activation of Ca2+ channels and Ca2+-induced Ca2+ release through ryanodine receptors) and through (right)
+dendritic sequestration of Ca2+ via sarco/endoplasmic reticulum Ca2+-ATPases (SERCAs), limiting SK2 channel activation.
+(Bottom) TC cells generate a membrane after depolarization (arrow) through repetitive burst IPSPs, Ca2+-mediated activation of
+adenylate cyclases and consequent up-regulation of HCN channels.
+
+Downloaded from nro.sagepub.com at MCGILL UNIVERSITY LIBRARY on November 3, 2014
+
+249
+
+Lüthi	
+several modulatory synaptic afferents arising in wakepromoting brain areas impinge onto TRN cells that could
+regulate spindle occurrence at periods of NREM sleep termination (Fig. 2) (see, e.g., Sun and others 2013).
+Recently, light-induced activation of channelrhodopsin-2 expressed in mouse TRN cells was used to induce
+putative burst discharge, and such stimuli were occasionally followed by spindle-like rhythms in the EEG during
+NREM sleep states (Halassa and others 2011; Kim and
+others 2012). This shows directly that TRN bursts can
+drive EEG sleep spindles.
+Thalamic reticular nucleus cells provide a strong
+inhibitory output to TC cells via the generation of burst
+inhibitory postsynaptic potentials (burst IPSPs) (Fig.
+3B) that involve synaptic GABAA receptors (reviewed
+in Beenhakker and Huguenard 2009; McCormick and
+Bal 1997) and, through spillover of GABA, extrasynaptically located GABAA receptors (Fig. 3B) (Rovó and
+others 2012) Additionally, extrasynaptic GABAB receptors activated during bursts contribute a sizeable, slow
+component of the burst-mediated hyperpolarization
+(reviewed in Beenhakker and Huguenard 2009). Widely
+used sedative–hypnotic agents for insomnia allosterically strengthen GABAA receptor function and typically boost σ power in the NREM sleep EEG, consistent
+with the important role of these receptors in spindlegenerating networks (reviewed in Winsky-Sommerer
+2009).
+
+sequences of bursts (Fig. 3B), further sustaining rhythmic
+inhibition of TC cells.
+When portions of the cortex are lesioned, the occurrence and synchrony of spindles in thalamus is greatly
+reduced in the remaining areas (reviewed in Steriade
+2006). To conceptualize this cortical control of spindles,
+it is important to remember that once excited, TRN cells
+will produce widespread recruitment of TC cells not only
+in the topographically corresponding section but also in
+nonspecific thalamic areas. As also demonstrated in computational models (Bonjean and others 2011), these will
+in turn excite broad cortical areas.
+Very important for the controlled buildup of spindle
+synchronization are the reciprocal inhibitory interactions
+between TRN cells that are mediated through slowly
+deactivating GABAA receptors. These limit the participation of neighboring TRN cells in synchronized discharge
+through shunting and burst inhibition (reviewed in
+Beenhakker and Huguenard 2009). Additionally, TRN
+cells are assembled in clusters with juxtaposed cell bodies that are connected through electrical synapses built by
+connexin36-containing gap junctions (reviewed in
+Cruikshank and others 2005). Their low-pass filter characteristics allow the low-threshold spikes to spread well
+and augment synchronized burst propensity in coupled
+cells.
+
+The Pacemaking and Synchronization of
+Spindles
+
+Electroencephalographic spindle waves are scalp reflections of synaptic currents generated by cortical neurons.
+How do intrathalamic network reverberations produce
+EEG spindle waves? Thalamocortical cell axons from
+specific and nonspecific nuclei project to cortical recipient areas, making the majority of their synapses in layers
+4 and 5 of sensory cortices, respectively, with additional
+projections to supra- and infragranular layers (Meyer and
+others 2010). When many TC cells burst simultaneously,
+strong and rhythmic feedforward excitatory volleys are
+observed in both sensory and prefrontal cortices that
+entrain ~30% of pyramidal and ~80% of fast-spiking
+interneurons into rhythmic discharges (Peyrache and others 2011). Surprisingly, rhythmic activity is seen with
+only millisecond delays in upper cortical layers, indicating that intracortical circuitry is entrained, and further
+amplifies, the thalamically imposed rhythm (Kandel and
+Buzsáki 1997). The initial waxing phase of EEG spindles
+is likely related to this accruing participation of larger
+cortical cell populations into the rhythms.
+
+Through their divergent projections, single TRN cells
+inhibit multiple TC cells, thereby driving these to
+rebound burst discharge (Fig. 3B). In return, EPSPs generated at TC–TRN synapses reexcite TRN cells. In a
+back-and-forth excitation and inhibition cycle, TRN and
+TC neuron pools interact like two ping-pong players and
+increasingly recruit cells into the synchronized discharge
+(reviewed in Beenhakker and Huguenard 2009;
+McCormick and Bal 1997).
+In TRN dendrites, T-channels are integrated in cooperative ionic assemblies that render burst generation
+repetitive. T-channel activation causes a rapid and homogeneous accumulation of Ca2+ in the interior of TRN dendrites to levels of at least a few micromolar (Fig. 1E)
+(Crandall and others 2010; Cueni and others 2008). These
+Ca2+ levels are high enough to activate Ca2+-dependent
+small-conductance type 2 (SK2) K+ channels that are
+found throughout large portions of proximal TRN dendrites. Low-threshold Ca2+ spikes are thus invariably followed by SK2-channel-mediated afterhyperpolarizations
+(Fig. 3B) (Cueni and others 2008). Through T-channel–
+SK2-channel interplay, TRN cells generate repetitive
+
+The Propagation of Spindles to Cortical Areas
+
+The Termination of Spindles
+Several intrinsic and synaptic mechanisms exist in TRN
+cells that dampen rhythmic burst discharge. Great
+
+Downloaded from nro.sagepub.com at MCGILL UNIVERSITY LIBRARY on November 3, 2014
+
+250	
+
+The Neuroscientist 20(3)
+
+importance has been attributed to lateral inhibition
+between TRN cells that is mediated by GABAergic inhibition, but probably also by peptidergic modulation,
+which ensure that bursting TRN cells limit the participation of their neighbors in synchronized discharge
+(reviewed in Beenhakker and Huguenard 2009).
+Inhibitory inputs also arise from basal ganglia, substantia
+nigra, and pretectal areas (reviewed in Zikopoulos and
+Barbas 2007). Dendrites of TRN cells intertwine into
+small bundles and form dendrodendritic synapses that are
+thought to act as a brake, inhibiting neighboring neurons
+and destabilizing network synchrony (Pinault 2004).
+Other mechanisms of termination are found in intrinsic
+ionic mechanisms that reduce burst propensity in both
+TRN and TC cells as a result of repetitive burst discharge
+and accumulated Ca2+ entry through T-channels (Fig.
+3C). In TC cells, Ca2+-sensitive adenylate cyclases activate gradually once repetitive rebound spikes occur, leading to the synthesis of cAMP and the activation of the
+hyperpolarization-activated cation-nonselective (HCN)
+channels (Lüthi and McCormick 1999). This depolarization reduces the excitability of TC neurons, contributing
+to the breakdown of TC–TRN reverberations. In TRN
+cells, Ca2+-induced Ca2+ release and associated cation
+channel activation at somatic levels, and sarco/endoplasmic reticulum Ca2+-ATPase (SERCA)–mediated sequestration of Ca2+ (Cueni and others 2008) and recruitment
+of Na+-dependent K+ channels (reviewed in Coulon and
+others 2012) in dendrites, attenuate TRN burst firing.
+Finally, asynchronous cortical synaptic activity also contributes to spindle termination (Bonjean and others 2011).
+
+of cortex are also induced in TC and TRN neurons (Crunelli
+and Hughes 2010). The strong feedback control, combined
+with widespread TC projections, ensures spatially coherent
+spreading of spindling over cortical territories (reviewed in
+Steriade 2006). The cortical control of spindles explains
+their link to EEG slow waves, resulting in spike-like waveforms called K-complexes in humans (Fig. 1A). However,
+spindles also occur independently of slow rhythms, occasionally in localized cortical regions (Nir and others 2011).
+In rodents, spindle waves appear throughout NREM sleep
+(Fig. 1B) (Vyazovskiy and others 2004), predominantly at
+periods of NREM sleep termination when low-frequency δ
+power weakens. Well documented is the surge of σ power
+(10-15 Hz) ~30 seconds before NREM–REM sleep transitions that depends on burst discharge in TRN (Astori and
+others 2011; Wimmer and others 2012).
+Interestingly, spindles are also temporally associated
+with hippocampal activity. High-frequency (100-300 Hz)
+sharp-wave ripples (SPWRs) are found in hippocampus
+during quiet wakefulness and NREM sleep and represent
+a reactivation of firing patterns found during exploration,
+probably contributing to the formation of memory traces
+(reviewed in Girardeau and Zugaro 2011). Close temporal associations exist between hippocampal SPWRs and
+cortical spindles mostly in prefrontal but also in sensory
+areas in rats and humans (reviewed in Rasch and Born
+2013). Such observations point to a widely coordinated
+synchronization of major brain memory systems and TC
+rhythms, and embed spindles in the transfer of newly
+acquired hippocampal memory traces to cortex for longterm storage.
+
+The Temporal Organization of Spindles
+
+Human Sleep Spindles
+
+Spindles appear during NREM sleep in temporal coherence with several sleep rhythms that emerge from distinct
+brain areas (reviewed in Steriade 2006). A dominant role in
+the temporal organization of sleep spindles is played by the
+cortical “slow waves” that underlie the low-frequency
+power (<1 Hz) of the NREM sleep EEG. Slow waves arise
+from substantial (>10 mV), rapid and highly synchronized
+fluctuations of the membrane potential of cortical neurons
+between two states, a depolarized “up” state (greater than
+−60 mV) and a hyperpolarized “down” (less than −70 mV)
+state (reviewed in Steriade 2006; Timofeev and others
+2012). The “up” state is accompanied by wake-like repetitive action potential firing in cortical neurons across all
+layers, creating a strong excitatory feedback via corticoTRN synapses (Sanchez-Vives and McCormick 2000).
+Cortical waves thus impose periodically recurring excitation onto TRN and TC cells, thereby triggering intrathalamic network reverberations. Through prolonged
+excitation during “up” states, slow rhythms matching those
+
+Two different types of spindles were already reported in
+early stages of EEG recordings from humans (reviewed in
+Rasch and Born 2013). The slower spindles with a frequency ~12 Hz predominate in frontal cortical areas,
+whereas the faster ones ~14 Hz are found in parietal zones.
+Presurgical depth EEG recordings from epileptic patients
+suggest a sharp border between slow and fast spindles in
+the supplementary motor area (Andrillon and others 2011),
+whereas other experimenters observed more gradual frequency changes along the rostro-caudal axis (Peter-Derex
+and others 2012). The origin of fast and slow spindles is
+not clarified, but is relevant as fast and slow spindles differentially engaged in learning-related brain activity
+(Mölle and others 2011). Functional magnetic resonance
+imaging (fMRI) showed that both spindle types largely, but
+not completely, shared the thalamic areas activated
+(Schabus and others 2007). There were also common activation patterns in anterior cingulate cortex, insula and
+superior temporal gyrus. However, fast spindles overall
+
+Downloaded from nro.sagepub.com at MCGILL UNIVERSITY LIBRARY on November 3, 2014
+
+251
+
+Lüthi	
+showed a broader cortical activation pattern, notably in
+sensori-motor and hippocampal areas. Interestingly, spindle activity during stage N2 of NREM sleep correlated
+with neuronal activation in hippocampus, suggesting that
+TC oscillations drive hippocampus (Andrade and others
+2011; Peter-Derex and others 2012).
+
+What Do Spindles Do?
+
+sleep repeatedly opens time windows for sensory stimuli to
+penetrate into cortex. Considering that spindles often occur
+during cortical up states, it is possible that they represent
+cortically triggered efforts to enhance sensory shutdown
+after a brief period of heightened responsiveness.
+Conversely, properly timed auditory stimuli can enhance
+slow fluctuations in the cortex as they probably boost cortical activity during up states (Ngo and others 2013).
+
+Sensory Transmission
+
+Synaptic Plasticity and Memory
+
+The definition of sleep states involves a reduced responsiveness to sensory inputs. As the TC system is the major
+recipient of sensory afferents, changes in its electrical
+activity will affect the throughput of sensory stimuli.
+Early in vivo studies, some of which carried out by the
+Nobel Prize winner David Hubel, demonstrated that the
+fidelity of retinogeniculate information transfer varied
+with the state of arousal, and is in particular degraded
+during periods of drowsiness and sleep (Livingstone and
+Hubel 1981), when TC neurons are hyperpolarized and
+preferentially discharge in bursts rather than in linearly
+coding tonic trains of action potentials (reviewed in
+McCormick and Bal 1997).
+Spindles are particularly efficient in vetoing sensory
+activation of the cortex and are key elements in the
+reduced sensory responsiveness during sleep. For example, it is harder to wake somebody up while the brain generates spindles than when it does not do so (Yamadori
+1971). Event-related potentials, which are EEG deflections in response to sensory stimuli, are altered in shape
+during NREM sleep, but do so more extensively when
+elicited during a spindle (Cote and others 2000). A recent
+imaging study looking at auditory cortex activation during sounds showed that activation was essentially nil during spindles, but remained substantial during spindle-free
+NREM sleep (Fig. 4) (Dang-Vu and others 2011; Schabus
+and others 2012). The dominant recruitment of inhibition
+throughout cortical layers plausibly contributes to the
+lack of cortical response (Peyrache and others 2011). A
+protective role of sleep spindles was directly demonstrated in mice in which spindle power at periods of exit
+from NREM sleep was intensified through genetic modification of TRN bursting (Wimmer and others 2012).
+These animals showed a higher acoustic arousal threshold when exposed to incremental white noise, suggesting
+that sleep spindles retard the transition from NREM sleep
+to waking.
+Why would the brain use short spindle events to protect
+itself from arousal? Sensory disconnection during sleep
+varies constantly, with recurring periods of sensory
+shutdown and of weakened, but still significant responsiveness closer to the waking state. It seems that NREM
+
+Via the excitation imposed by TC afferents onto cortex,
+spindles induce coordinated firing in cortical circuits. Across
+cortical layers, single action potentials occur time-locked to
+the spindle rhythm, as monitored in local field potential
+recordings (Contreras and others 1997), priming connected
+neurons for spike timing–dependent forms of plasticity.
+Additionally, groups of action potentials discharges at >100
+Hz in cortical neurons may modify synaptic strength in a
+non-Hebbian form of plasticity, that is, independently of the
+temporal correlation between pre- and postsynaptic activity.
+For example, burst-like discharge in cortical layer 5 neurons
+induces a long-term depression of excitatory synapses
+formed by supragranular afferents and a strengthening of
+somatic inhibitory inputs (Birtoli and Ulrich 2004; Kurotani
+and others 2008).
+Spindle-related spike trains recorded in anesthetized
+cat were applied in cellular studies in rat cortical brain
+slices to mimic temporally correlated pre- and postsynaptic activity thought to occur during spindles (Rosanova
+and Ulrich 2005). As a result, a long-term potentiation
+(LTP) at excitatory connections between layer 2/3 and
+layer 5 was observed (Fig. 5A). Interestingly, the detailed
+sequence of interspike interval in the spindle train mattered, as a random shuffling of these or using mean frequency rates (30 Hz) were inferior in inducing LTP. Aside
+from cortex, recent studies have unraveled that rhythmic
+bursting in TRN cells induces LTP at TC–TRN synapses
+(Astori and Lüthi 2013). Spindle rhythms thus drive cortical synchronized discharge and associated long-term synaptic strengthening and override a global down-regulation
+of synapses during low-frequency rhythms in cortex.
+The synaptic potentiation observed by spindles links
+to repeated observations that spindles correlate with
+memory formation and learning capacity in humans.
+Declarative memory tasks involving cued recall of word
+pairs went along with increased spindle density (in number of events per 30 seconds) during the first period of
+N2 NREM sleep, without any changes in sleep structure
+or other frequency bands (Gais and others 2002; Schabus
+and others 2004). Spindle density increased locally
+within brain areas implicated in learning, as documented
+in other training tasks (Fig. 5B) (Johnson and others
+
+Downloaded from nro.sagepub.com at MCGILL UNIVERSITY LIBRARY on November 3, 2014
+
+252	
+
+The Neuroscientist 20(3)
+
+Figure 4.  Annihilation of auditory cortex activation during spindle-containing, but not during spindle-free epochs of non–rapid
+eye movement (NREM) sleep. (A) Schematic of experimental design. Human electroencephalographic trace of NREM sleep with
+spindle-free and spindle-containing episodes. Brief auditory stimuli (300 ms, 400 Hz) were applied at time points indicated by blue
+squares. Electroencephalographic trace was provided by Dr. R. Heinzer, Cantonal University Hospital of Lausanne, Switzerland. (B)
+Functional magnetic resonance imaging (fMRI) of responses to auditory stimuli during three electroencephalographically defined
+states (indicated above the images). Yellow voxels indicate brain areas activated in response to the stimulus. During waking, clear
+responses are evoked in auditory cortex (top) and in brainstem and collicular areas (bottom) involved in sound detection. During
+spindle-free NREM sleep, similar brain areas are activated; see Dang-Vu and others (2011) for explanations as to the difference in
+activation patterns between waking and spindle-free NREM sleep. During spindle-containing NREM sleep epochs, no fMRI signals
+are detectable in cortex and brainstem. Red arrows highlight small activation of inferior collicular areas (enlarged in inset). X and Y
+refer to brain coordinates used for fMRI. Picture adapted from Dang-Vu and others (2011), with permission.
+
+2012). The increase in spindle density correlated linearly
+with the performance improvement. Spindle density also
+correlates positively with learning capacity and intelligence measures (Fig. 5C). Links between spindles and
+memory formation are now documented for rodents
+exposed to associative learning (Eschenko and others
+2006; Mölle and others 2009) and for more sophisticated
+aspects of the learning process in humans (reviewed in
+Rasch and Born 2013).
+
+How could changes in spindle parameters, such as
+their intensity/amplitude or their frequency/occurrence,
+facilitate learning? A combined EEG and fMRI study
+on associative visual memory found that, during
+postlearning sleep, the amplitude of individual spindles
+correlated with neuronal activation in both hippocampus and in higher visual areas (Bergmann and others
+2012). This finding is consistent with observations on
+enhanced temporal coupling between cortical slow
+
+Downloaded from nro.sagepub.com at MCGILL UNIVERSITY LIBRARY on November 3, 2014
+
+253
+
+Lüthi	
+
+Figure 5.  Sleep spindles and their relation to synaptic plasticity, memory, and intelligence. (A) Application of spindle-like
+rhythmic action potential trains in rat somatosensory cortical brain slices induces long-term potentiation. (Left) Stimulation
+train applied to presynaptic afferents (Pre, upper electrode) and to postsynaptic cells (Post, lower electrode) to induce joint
+pre- and postsynaptic activity. The stimulation protocol was repeated 30 times at 0.6 Hz. Right, sample excitatory postsynaptic
+potentials (EPSPs) before (dotted line) and >30 min after (solid line) conditioning protocols. Adapted from Rosanova and Ulrich
+2005, with permission. (B) High-resolution electroencephalographic (EEG) monitoring of posttraining spindle rates in human
+subjects exposed to a brain–computer interface task. Warm and cold colors indicate percentage increases and decreases in
+spindle rates, respectively, relative to the day preceding training. White circle indicates the position of the task electrode used
+for brain–computer interfacing. Note local increases in spindle density consistent with the site of learning. Gray colors indicate
+no change. Adapted with permission from Johnson and others (2012). (C) Linear correlation between total number of spindles
+measured at sites C3 and C4. Spindles were included in the count if the intraspindle frequency was 12 to16 Hz, if the duration
+was >0.5 seconds, and the amplitude reached 10 mV. Every data point represents one participant. Correlation coefficient was
+0.75. Adapted from Fogel and others (2007).
+
+oscillations, spindles, and hippocampal ripples after
+learning (Mölle and others 2009). However, in naturally sleeping rats, prefrontal cortex responded more
+weakly to hippocampal SPWRs during spindle epochs
+than during spindle-free periods (Peyrache and others
+2011), leaving open whether spindle-related proplastic
+effects are related to spindle-ripple coupling. It is also
+important to note that not only spindles but slow wave
+intensity also correlates with declarative learning
+(Rasch and Born 2013), indicating that sleep-related
+learning is a multicomponent process with several sleep
+rhythms involved.
+
+Neuronal Development
+Spindles are accompanied by rhythmic fluctuations of
+intracellular signaling compounds. In TRN cells, Ca2+ concentrations increase during every burst discharge in large
+portions of dendrites and Ca2+ is sequestered through
+SERCAs into the endoplasmic reticulum (Fig. 1E, Fig. 3C).
+Luminal Ca2+ levels regulate major endoplasmic reticulum
+functions in cell physiology, including gene transcription
+and protein synthesis. T-channel-mediated Ca2+ accumulation in the endoplasmic reticulum may hence drive transcriptional activity specifically during spindle rhythmicity.
+
+Downloaded from nro.sagepub.com at MCGILL UNIVERSITY LIBRARY on November 3, 2014
+
+254	
+
+The Neuroscientist 20(3)
+
+Furthermore, in TC cells, rhythmic low-threshold bursts
+lead to waves of cAMP synthesis through activation of
+Ca2+-sensitive adenylate cyclases (Fig. 3C) (Lüthi and
+McCormick 1999), known to be important for synapse
+specification (Gorbunova and Spitzer 2002). Interestingly,
+first signs of organized electrical activity in the developing
+brain of rodents and humans occur as spindle-like, 10-Hz
+rhythms in association with spontaneous muscle twitches in
+limbs (reviewed in Hanganu-Opatz 2010). It is proposed
+that these early brain rhythms act as a template for cortical
+map organization, but whether spindle-associated Ca2+ and
+cAMP signals are relevant for sensory circuit formation
+remains open. Spindle-mediated fluctuations in intracellular signaling perhaps play a role throughout adulthood by
+maintaining and shaping TC connectivity in the mature
+brain in response to ongoing sensory activity and learning.
+
+Conclusions and Perspectives
+Spindles were the first EEG rhythm reported and the first
+network oscillation for which a cellular mechanism was
+elucidated. These oscillations continue to exemplify the
+neuronal structure and significance of rhythms for the
+brain, as indicated by the makeup of oscillatory units, the
+design of circuits engaging in successive synchronization
+and desynchronization and their conditioned recruitment
+by other brain areas. Spindle rhythmogenesis is based on
+an elaborated cooperation between ionic and synaptic
+mechanisms in the pacemaker circuits. Knowledge about
+these is relevant in the continued search of specific drug
+targets that could improve treatment of sleep disorders.
+Spindles separate sleep into distinct phases of sensory
+accessibility, enabling periods of almost complete annihilation of sensory throughput with periods in which sensory information does reach the cortex. At the same time,
+spindles enable epochs of heightened plasticity that fall
+together with the emergence of hippocampal rhythms.
+Therefore, do spindles promote sensory protection to
+ensure the internal processing of information? Do spindles facilitate the association between hippocampal and
+cortical activity that allows the purported transfer from
+short-term to long-term memory sites? How does such a
+function correlate with the dominant recruitment of inhibition in cortex by spindles? From all we can see today,
+spindles seem designed to unify the brain’s diverse structures into a single major processing center, yet more analysis is required to link their impact on cortical units and
+on hippocampal–cortical coordination.
+First efforts to modify spindles specifically are underway. Chronic manipulations, such as those possible with
+genetic interference (Astori and others 2011; Wimmer and
+others 2012), will determine their role in sleep architecture
+and TC connectivity. Acute modification (Halassa and
+others 2011) could be envisaged as a way to test their
+
+implication in learning processes, for example, by combining associative learning in rodents with optogenetic manipulation of spindle occurrence during postlearning sleep.
+These possibilities currently remain overflown with
+questions to be resolved experimentally: Do optogenetic
+stimuli come close to cortically mediated initiation of
+thalamic pacemakers? How should optogenetically elicited spindles be timed relative to the occurrence of other
+rhythms? Is it sufficient to modify spindle occurrence
+independently of other rhythms to facilitate learning?
+What will be the impact of global versus modality-specific TRN stimulation?
+Decreased spindle activity has been presented as a
+hallmark in schizophrenia (Ferrarelli and others 2010),
+and developmental models of schizophrenia in rat
+revealed aberrant timing of spindles relative to cortical
+and hippocampal rhythms (Phillips and others 2012).
+Such sleep disturbances fit well with the idea that abnormal perceptions in schizophrenia are due to impaired corticothalamic communication (Vukadinovic 2011). Novel
+links between spindles and neurological disease may ultimately prompt therapeutic approaches involving directed
+manipulation of sleep rhythms.
+Acknowledgments
+I am grateful to Drs. S. Astori, L. Fernandez, R. Heinzer and D.
+Pinault for providing original datasets for Figures 1-4 and to all
+lab members for their constructive input on the article. I thank
+Drs. J.C. Brumberg, D. Pinault, and D. Ulrich for their insightful comments on the text. Experimental work presented here
+was supported by grants from the Swiss National Science
+Foundation, the Synapsis Foundation, SciEx.
+
+Declaration of Conflicting Interests
+The author(s) declared no potential conflicts of interest with
+respect to the research, authorship, and/or publication of this
+article.
+
+Funding
+The author(s) disclosed receipt of the following financial support for the research, authorship, and/or publication of this article: Swiss National Science Foundation No. 3100A0-129810;
+SciEx; Synapsis Foundation; Etat de Vaud.
+
+References
+Adrian ED. 1941. Afferent discharges to the cerebral cortex
+from peripheral sense organs. J Physiol 100(2):159–91.
+Andersen P, Andersson SA, editors. 1968. Physiological
+basis of the alpha rhythm: New York: Appleton-CenturyCrofts.
+Andrade KC, Spoormaker VI, Dresler M, Wehrle R, Holsboer
+F, Sämann PG, and others. 2011. Sleep spindles and hippocampal functional connectivity in human NREM sleep. J
+Neurosci 31(28):10331–9.
+
+Downloaded from nro.sagepub.com at MCGILL UNIVERSITY LIBRARY on November 3, 2014
+
+255
+
+Lüthi	
+Andrillon T, Nir Y, Staba RJ, Ferrarelli F, Cirelli C, Tononi
+G, and others. 2011. Sleep spindles in humans: insights
+from intracranial EEG and unit recordings. J Neurosci
+31(49):17821–34.
+Astori S, Lüthi A. 2013. Synaptic plasticity at intrathalamic
+connections via CaV3.3 T-type Ca2+ Channels and GluN2BContaining NMDA receptors. J Neurosci 33(2):624–30.
+Astori S, Wimmer RD, Prosser HM, Corti C, Corsi M, Liaudet
+N, and others. 2011. The CaV3.3 calcium channel is the
+major sleep spindle pacemaker in thalamus. Proc Natl Acad
+Sci U S A 108(33):13823–8.
+Beenhakker MP, Huguenard JR. 2009. Neurons that fire
+together also conspire together: is normal sleep circuitry
+hijacked to generate epilepsy? Neuron 62(5):612–32.
+Berger H. 1933. Über das Elektrenkephalogramm des
+Menschen. Sechste Mitteilung. Archiv für Arch Psychiatr
+Nervenkr 99(1):555–74.
+Bergmann TO, Mölle M, Diedrichs J, Born J, Siebner HR.
+2012. Sleep spindle-related reactivation of category-specific cortical regions after learning face-scene associations.
+Neuroimage 59(3):2733–42.
+Birtoli B, Ulrich D. 2004. Firing mode-dependent synaptic
+plasticity in rat neocortical pyramidal neurons. J Neurosci
+24(21):4935–40.
+Bonjean M, Baker T, Lemieux M, Timofeev I, Sejnowski T,
+Bazhenov M. 2011. Corticothalamic feedback controls
+sleep spindle duration in vivo. J Neurosci 31(25):9124–34.
+Contreras D, Destexhe A, Steriade M. 1997. Intracellular and
+computational characterization of the intracortical inhibitory control of synchronized thalamic inputs in vivo. J
+Neurophysiol 78(1):335–50.
+Cote KA, Epps TM, Campbell KB. 2000. The role of the spindle
+in human information processing of high-intensity stimuli
+during sleep. J Sleep Res 9(1):19–26.
+Coulon P, Budde T, Pape H-C. 2012. The sleep relay - the role
+of the thalamus in central and decentral sleep regulation.
+Pflügers Arch 463(1):53–71.
+Crandall SR, Govindaiah G, Cox CL. 2010. Low-threshold
+Ca2+ current amplifies distal dendritic signaling in thalamic
+reticular neurons. J Neurosci 30(46):15419–29.
+Cruikshank SJ, Landisman CE, Mancilla JG, Connors BW.
+2005. Connexon connexions in the thalamocortical system.
+Prog Brain Res 149:41–57.
+Crunelli V, Hughes SW. 2010. The slow (<1 Hz) rhythm of
+non-REM sleep: a dialogue between three cardinal oscillators. Nat Neurosci 13(1):9–17.
+Cueni L, Canepari M, Luján R, Emmenegger Y, Watanabe M,
+Bond CT and others. 2008. T-type Ca2+ channels, SK2
+channels and SERCAs gate sleep-related oscillations in
+thalamic dendrites. Nat Neurosci 11(6):683–92.
+Dang-Vu TT, Bonjean M, Schabus M, Boly M, Darsaud A,
+Desseilles M and others. 2011. Interplay between spontaneous and induced brain activity during human nonrapid eye movement sleep. Proc Natl Acad Sci U S A
+108(37):15438–43.
+Destexhe A, Contreras D, Steriade M, Sejnowski TJ, Huguenard
+JR. 1996. In vivo, in vitro, and computational analysis of
+dendritic calcium currents in thalamic reticular neurons. J
+Neurosci 16(1):169–85.
+
+Eschenko O, Mölle M, Born J, Sara SJ. 2006. Elevated sleep
+spindle density after learning or after retrieval in rats. J
+Neurosci 26(50):12914–20.
+Espinosa F, Torres-Vega MA, Marks GA, Joho RH. 2008.
+Ablation of Kv3.1 and Kv3.3 potassium channels disrupts
+thalamocortical oscillations in vitro and in vivo. J Neurosci
+28(21):5570–81.
+Ferrarelli F, Peterson MJ, Sarasso S, Riedner BA, Murphy MJ,
+Benca RM, and others. 2010. Thalamic dysfunction in
+schizophrenia suggested by whole-night deficits in slow
+and fast spindles. Am J Psychiatry 167(11):1339–48.
+Fogel SM, Nader R, Cote KA, Smith CT. 2007. Sleep spindles
+and learning potential. Behav Neurosci 121(1):1–10.
+Fogel SM, Smith CT. 2011. The function of the sleep spindle:
+A physiological index of intelligence and a mechanism
+for sleep-dependent memory consolidation. Neurosci
+Biobehav Rev 35(5):1154–1165.
+Fuentealba P, Steriade M. 2005. The reticular nucleus revisited:
+intrinsic and network properties of a thalamic pacemaker.
+Prog Neurobiol 75(2):125–41.
+Gais S, Mölle M, Helms K, Born J. 2002. Learning-dependent
+increases in sleep spindle density. J Neurosci 22(15):6830–4.
+Girardeau G, Zugaro M. 2011. Hippocampal ripples and memory consolidation. Curr Opin Neurobiol 21(3):452–9.
+Gorbunova YV, Spitzer NC. 2002. Dynamic interactions of
+cyclic AMP transients and spontaneous Ca2+ spikes. Nature
+418(6893):93–6.
+Halassa MM, Siegle JH, Ritt JT, Ting JT, Feng G, Moore CI.
+2011. Selective optical drive of thalamic reticular nucleus
+generates thalamic bursts and cortical spindles. Nat
+Neurosci 14(9):1118–20.
+Hanganu-Opatz IL. 2010. Between molecules and experience:
+role of early patterns of coordinated activity for the development of cortical maps and sensory abilities. Brain Res
+Rev 64(1):160–76.
+Huguenard JR. 1996. Low-threshold calcium currents in central
+nervous system neurons. Annu Rev Physiol 58:329–48.
+Johnson LA, Blakely T, Hermes D, Hakimian S, Ramsey NF,
+Ojemann JG. 2012. Sleep spindles are locally modulated by
+training on a brain-computer interface. Proc Natl Acad Sci
+U S A 109(45):18583–8.
+Kandel A, Buzsáki G. 1997. Cellular-synaptic generation of
+sleep spindles, spike-and-wave discharges, and evoked
+thalamocortical responses in the neocortex of the rat. J
+Neurosci 17(17):6783–97.
+Kim A, Latchoumane C, Lee S, Kim GB, Cheong E, Augustine
+GJ, and others. 2012. Optogenetically induced sleep spindle rhythms alter sleep architectures in mice. Proc Natl
+Acad Sci U S A 109(50):20673–8.
+Kurotani T, Yamada K, Yoshimura Y, Crair MC, Komatsu
+Y. 2008. State-dependent bidirectional modification of
+somatic inhibition in neocortical pyramidal cells. Neuron
+57(6):905–16.
+Livingstone MS, Hubel D. 1981. Effects of sleep and arousal
+on the processing of visual information in the cat. Nature
+291(5816):554–61.
+Lüthi A, McCormick DA. 1999. Modulation of a pacemaker
+current through Ca2+-induced stimulation of cAMP production. Nat Neurosci 2(7):634–41.
+
+Downloaded from nro.sagepub.com at MCGILL UNIVERSITY LIBRARY on November 3, 2014
+
+256	
+
+The Neuroscientist 20(3)
+
+McCormick DA, Bal T. 1997. Sleep and arousal: thalamocortical mechanisms. Annu Rev Neurosci 20:185–215.
+Meyer HS, Wimmer VC, Hemberger M, Bruno RM, de Kock
+CP, Frick A, and others. 2010. Cell type-specific thalamic
+innervation in a column of rat vibrissal cortex. Cereb
+Cortex 20(10):2287–303.
+Mölle M, Bergmann TO, Marshall L, Born J. 2011. Fast and
+slow spindles during the sleep slow oscillation: disparate
+coalescence and engagement in memory processing. Sleep
+34(10):1411–21.
+Mölle M, Eschenko O, Gais S, Sara SJ, Born J. 2009. The influence of learning on sleep slow oscillations and associated
+spindles and ripples in humans and rats. Eur J Neurosci
+29(5):1071–81.
+Moruzzi G, Magoun HW. 1949. Brain stem reticular formation and activation of the EEG. EEG Clin Neurophysiol
+1(4):455–73.
+Mukhametov LM, Rizzolatti G, Tradardi V. 1970. Spontaneous
+activity of neurones of nucleus reticularis thalami in freely
+moving cats. J Physiol 210(3):651–67.
+Ngo HV, Martinetz T, Born J, Mölle M. 2013. Auditory closedloop stimulation of the sleep slow oscillation enhances
+memory. Neuron 78(3):545–53.
+Nir Y, Staba RJ, Andrillon T, Vyazovskiy VV, Cirelli C, Fried
+I and others. 2011. Regional slow waves and spindles in
+human sleep. Neuron 70(1):153–69.
+Peter-Derex L, Comte JC, Mauguière F, Salin PA. 2012.
+Density and frequency caudo-rostral gradients of sleep
+spindles recorded in the human cortex. Sleep 35(1):69–79.
+Peyrache A, Battaglia FP, Destexhe A. 2011. Inhibition recruitment in prefrontal cortex during sleep spindles and gating of hippocampal inputs. Proc Natl Acad Sci U S A
+108(41):17207–12.
+Phillips KG, Bartsch U, McCarthy AP, Edgar DM, Tricklebank
+MD, Wafford KA, and others. 2012. Decoupling of sleepdependent cortical and hippocampal interactions in a
+neurodevelopmental model of schizophrenia. Neuron
+76(3):526–33.
+Pinault D. 2004. The thalamic reticular nucleus: structure, function and concept. Brain Res Rev 46(1):1–31.
+Purpura DP. 1968. Role of synaptic inhibition in synchronization
+of thalamocortical activity. Prog Brain Res 22:107–122.
+Rasch B, Born J. 2013. About Sleep’s role in memory. Physiol
+Rev 93(2):681–766.
+Rosanova M, Ulrich D. 2005. Pattern-specific associative longterm potentiation induced by a sleep spindle-related spike
+train. J Neurosci 25(41):9398–405.
+Rovó F, Mátyás F, Lüthi A, Acsády L. 2012. Molecular dissection of GABA-A receptor-mediated inhibition in mouse
+thalamocortical cells. FENS Abstract 4.29.
+Sanchez-Vives MV, McCormick DA. 2000. Cellular and network mechanisms of rhythmic recurrent activity in neocortex. Nat Neurosci 3(10):1027–34.
+Saper CB, Fuller PM, Pedersen NP, Lu J, Scammell TE. 2010.
+Sleep state switching. Neuron 68(6):1023–42.
+Schabus M, Dang-Vu TT, Albouy G, Balteau E, Boly M, Carrier
+J, and others. 2007. Hemodynamic cerebral correlates of
+
+sleep spindles during human non-rapid eye movement sleep.
+Proc Natl Acad Sci U S A 104(32):13164–9.
+Schabus M, Dang-Vu TT, Heib DP, Boly M, Desseilles M,
+Vandewalle G, and others. 2012. The fate of incoming
+stimuli during NREM sleep is determined by spindles and
+the phase of the slow oscillation. Front Neurol 3:40.
+Schabus M, Gruber G, Parapatics S, Sauter C, Klosch G,
+Anderer P, and others. 2004. Sleep spindles and their significance for declarative memory consolidation. Sleep
+27(8):1479–85.
+Scheibel ME, Scheibel AB. 1966. The organization of the
+nucleus reticularis thalami: a Golgi study. Brain Res 1(1):
+43–62.
+Steriade M. 2006. Grouping of brain rhythms in corticothalamic
+systems. Neuroscience 137(4):1087–106.
+Steriade M, McCormick DA, Sejnowski TJ. 1993.
+Thalamocortical oscillations in the sleeping and aroused
+brain. Science 262(5134):679–85.
+Sun YG, Pita-Almenar JD, Wu CS, Renger JJ, Uebele VN, Lu
+HC, and others. 2013. Biphasic cholinergic synaptic transmission controls action potential activity in thalamic reticular nucleus neurons. J Neurosci 33(5):2048–59.
+Timofeev I, Bazhenov M, Seigneur J, Sejnowski TJ. 2012.
+Neuronal synchronization and thalamocortical rhythms
+in sleep, wake and epilepsy. In: Noebels JL, Avoli M,
+Rogawski MA, Olsen RW, Delgado-Escueta AV, editors. Jasper’s basic mechanisms of the epilepsies. 4th
+ed. Bethesda, MD: National Center for Biotechnology
+Information. p 157–74.
+Vukadinovic Z. 2011. Sleep abnormalities in schizophrenia
+may suggest impaired trans-thalamic cortico-cortical communication: towards a dynamic model of the illness. Eur J
+Neurosci 34(7):1031–9.
+Vyazovskiy VV, Achermann P, Borbély AA, Tobler I. 2004.
+The dynamics of spindles and EEG slow-wave activity in
+NREM sleep in mice. Arch Ital Biol 142(4):511–23.
+Wanaverbecq N, Bodor AL, Bokor H, Slézia A, Lüthi A,
+Acsády L. 2008. Contrasting the functional properties of
+GABAergic axon terminals with single and multiple synapses in the thalamus. J Neurosci 28(46):11848–61.
+Wimmer RD, Astori S, Bond CT, Rovó Z, Chatton JY, Adelman
+JP, and others. 2012. Sustaining sleep spindles through
+enhanced SK2-channel activity consolidates sleep and elevates arousal threshold. J Neurosci 32(40):13917–28.
+Winsky-Sommerer R. 2009. Role of GABAA receptors in
+physiology and pharmacology of sleep. Eur J Neurosci
+29(9):1779–94.
+Yamadori A. 1971. Role of the spindles in the onset of sleep.
+Kobe J Med Sci 17(3):97–111.
+Zaman T, Lee K, Park C, Paydar A, Choi JH, Cheong E, and
+others. 2011. CaV2.3 channels are critical for oscillatory
+burst discharges in the reticular thalamus and absence epilepsy. Neuron 70(1):95–108.
+Zikopoulos B, Barbas H. 2007. Circuits for multisensory integration and attentional modulation through the prefrontal
+cortex and the thalamic reticular nucleus in primates. Rev
+Neurosci 18(6):417–38.
+
+Downloaded from nro.sagepub.com at MCGILL UNIVERSITY LIBRARY on November 3, 2014
+
+

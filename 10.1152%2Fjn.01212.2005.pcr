@@ -1,0 +1,211 @@
+[
+    {
+        "annotId": "ebc2c5ce-0aed-11e6-a99f-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 1855,
+            "text": "TASK3 and HCN2 channels represent the dominant thalamic isoforms\nand are coexpressed in TC neurons",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1152/jn.01212.2005",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFMOL:nifext_3065",
+                "name": "HCN2"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "364f943c-0aee-11e6-a99f-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 6821,
+            "text": "postnatal days 12-\u201329",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002001",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "min",
+                                    "type": "simple",
+                                    "unit": "d",
+                                    "values": [
+                                        12
+                                    ]
+                                },
+                                {
+                                    "statistic": "max",
+                                    "type": "simple",
+                                    "unit": "d",
+                                    "values": [
+                                        29
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "4aa3da1a-0aee-11e6-a99f-64006a4c56ef",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "10.1152/jn.01212.2005",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFMOL:nifext_3065",
+                "name": "HCN2"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFMOL:nifext_3065",
+                "name": "HCN2"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "52ce4914-0aee-11e6-a99f-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "We do not annotated the +/- 1 mV value because we could not find in the paper if it is a standard deviation or a standard error value.",
+        "experimentProperties": [
+            {
+                "instanceId": "4aa3da1a-0aee-11e6-a99f-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            },
+            {
+                "instanceId": "ebd1d072-0aee-11e6-a99f-64006a4c56ef",
+                "paramTypeId": "BBP-002003"
+            }
+        ],
+        "localizer": {
+            "location": 9435,
+            "text": "A liquid junction potential\nof 8 \u0004 1 mV (n \u0005 6) was taken into account.",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002003",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "mV",
+                                    "values": [
+                                        8
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        6
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "ebd1d072-0aee-11e6-a99f-64006a4c56ef",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "10.1152/jn.01212.2005",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFMOL:nifext_3065",
+                "name": "HCN2"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFMOL:nifext_3065",
+                "name": "HCN2"
+            }
+        ],
+        "version": "1"
+    }
+]

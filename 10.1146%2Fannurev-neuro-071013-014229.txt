@@ -1,0 +1,1540 @@
+NE38CH15-Hirsch
+
+ARI
+
+20 May 2015
+
+ANNUAL
+REVIEWS
+
+Further
+
+17:20
+
+Annu. Rev. Neurosci. 2015.38:309-329. Downloaded from www.annualreviews.org
+Access provided by University of Lausanne on 04/26/16. For personal use only.
+
+Click here for quick links to
+Annual Reviews content online,
+including:
+• Other articles in this volume
+• Top cited articles
+• Top downloaded articles
+• Our comprehensive search
+
+How Inhibitory Circuits in the
+Thalamus Serve Vision
+Judith A. Hirsch,1 Xin Wang,2 Friedrich T. Sommer,3
+and Luis M. Martinez4
+1
+Department of Biological Sciences/Neurobiology, University of Southern California,
+Los Angeles, California 90089-2520; email: jhirsch@usc.edu
+2
+Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla,
+California 92037; email: xinw@salk.edu
+3
+Redwood Center for Theoretical Neuroscience, University of California, Berkeley,
+California 94720-3198; email: fsommer@berkeley.edu
+4
+Instituto de Neurociencias de Alicante, Instituto de Neurociencias of the Spanish Research
+Council and Universidad Miguel Hern´andez, Sant Joan d’Alacant, Alicante 03550, Spain;
+email: luis.m.martinez.otero@gmail.com
+
+Annu. Rev. Neurosci. 2015. 38:309–29
+
+Keywords
+
+The Annual Review of Neuroscience is online at
+neuro.annualreviews.org
+
+interneuron, lateral geniculate, reticular nucleus, whole-cell
+
+This article’s doi:
+10.1146/annurev-neuro-071013-014229
+
+Abstract
+
+Copyright c 2015 by Annual Reviews.
+All rights reserved
+
+Inhibitory neurons dominate the intrinsic circuits in the visual thalamus.
+Interneurons in the lateral geniculate nucleus innervate relay cells and each
+other densely to provide powerful inhibition. The visual sector of the overlying thalamic reticular nucleus receives input from relay cells and supplies
+feedback inhibition to them in return. Together, these two inhibitory circuits inﬂuence all information transmitted from the retina to the primary
+visual cortex. By contrast, relay cells make few local connections. This review explores the role of thalamic inhibition from the dual perspectives of
+feature detection and information theory. For example, we describe how
+inhibition sharpens tuning for spatial and temporal features of the stimulus
+and how it might enhance image perception. We also discuss how inhibitory
+circuits help to reduce redundancy in signals sent downstream and, at the
+same time, are adapted to maximize the amount of information conveyed to
+the cortex.
+
+309
+
+NE38CH15-Hirsch
+
+ARI
+
+20 May 2015
+
+17:20
+
+Contents
+
+Annu. Rev. Neurosci. 2015.38:309-329. Downloaded from www.annualreviews.org
+Access provided by University of Lausanne on 04/26/16. For personal use only.
+
+INTRODUCTION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+OVERVIEW OF RECEPTIVE FIELDS IN THE LATERAL
+GENICULATE NUCLEUS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+PUSH-PULL EXCITATION AND INHIBITION IN VISION . . . . . . . . . . . . . . . . . . .
+Detecting Spatial Features . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Improving Efﬁciency. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Improving Image Perception . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Temporal Processing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+SAME-SIGN AND TONIC INHIBITION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Tonic (Stimulus-Independent) Inhibition . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+CIRCUITS FOR PUSH-PULL OR FOR SAME-SIGN INHIBITION . . . . . . . . . . . . .
+Push . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Pull . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Axodendritic Versus Dendrodendritic Connections for Push-Pull
+Versus Same-Sign Inhibition . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+SYNAPTIC PHYSIOLOGY OF RELAY CELLS VERSUS
+INTERNEURONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+THE THALAMIC RETICULAR NUCLEUS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+BRIEF COMPARISON OF INHIBITORY CIRCUITS
+IN THE LGN AND V1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+310
+311
+312
+312
+313
+313
+314
+316
+316
+317
+317
+317
+318
+318
+321
+322
+
+INTRODUCTION
+Circuits in the visual thalamus and the cortex differ in many ways, but perhaps none as striking as
+the relative weight of inhibitory versus excitatory intrinsic circuits. The excitatory neurons of the
+cortex, spiny stellate and pyramidal cells are densely interconnected with each other (Binzegger
+et al. 2004, Stepanyants et al. 2008). By contrast, the excitatory neurons of the thalamus, relay
+cells, make few intranuclear connections (Bickford et al. 2008); rather, inhibitory neurons
+dominate intrinsic networks (Bickford et al. 1999, Cucchiaro et al. 1991). These inhibitory cells
+divide into two main classes. The ﬁrst and most numerous type is composed of local interneurons
+within the lateral geniculate nucleus (LGN) of the thalamus (Fitzpatrick et al. 1984). These
+receive retinal input (Van Horn et al. 2000) and synapse onto relay cells (Montero 1987, Sherman
+2004) and each other (Pasik et al. 1976) to form a feedforward inhibitory pathway. The second
+class of inhibitory neurons populates the visual sector of the thalamic reticular nucleus (TRN),
+a thin network of interconnected γ-aminobutyric acid (GABA)-ergic neurons that are innervated
+by relay cells and suppress them in return to form a feedback pathway (Cucchiaro et al. 1991,
+Uhlrich et al. 1991). Anatomical evidence reveals little cross-talk between these two inhibitory
+networks (Cucchiaro et al. 1991, Wang et al. 2001), and so they are viewed as independent;
+Figure 1 provides an overview of thalamic connections. This review focuses on the functional
+roles for inhibition in the LGN from the dual perspectives of feature detection and information
+theory. We also provide a brief comparison with counterpart inhibitory circuits in the cortex. The
+principal experimental subject is the cat, with results from primate and murine species described in
+context.
+
+310
+
+Hirsch et al.
+
+NE38CH15-Hirsch
+
+ARI
+
+20 May 2015
+
+17:20
+
+Layer 4
+Cortex
+Layer 6
+
+TRN
+
+Annu. Rev. Neurosci. 2015.38:309-329. Downloaded from www.annualreviews.org
+Access provided by University of Lausanne on 04/26/16. For personal use only.
+
+LGN
+
+Excitatory synapse
+Inhibitory synapse
+
+Retina
+
+Electrical synapse
+Relay cells
+Inhibitory cells
+
+Figure 1
+Block diagram of connections of the visual thalamus. The connections shown hold for all layers of the lateral
+geniculate nucleus (LGN). Populations of interneurons and relay cells are arranged as a grid in the ﬁgure for
+clarity, but they are mixed in situ. TRN, thalamic reticular nucleus.
+
+OVERVIEW OF RECEPTIVE FIELDS IN THE LATERAL
+GENICULATE NUCLEUS
+Relay cells have receptive ﬁelds built from two concentrically arranged subregions, a center and
+a surround, with the opposite preference for stimulus contrast (Hubel 1960), much as in retina
+(Kufﬂer 1953, Wiesel 1959). This pattern is shared by relay cells associated with the form (X
+cell) and motion (Y cell) pathways (Wang et al. 2007) as well as by interneurons (Wang et al.
+2011b). Optimal stimuli, thus, are bright or dark spots shown against a background of the opposite
+luminance polarity. This center-surround organization provides a means to encode local contrast
+borders, which the cortex subsequently links to form contours.
+The thalamus does not merely copy retinal input. Ganglion cells often diverge to target more
+than one relay cell, thus reorganizing the representation of visual space (Hamos et al. 1987, Usrey
+et al. 1999). Moreover, the pattern of excitation that the retina supplies to relay cells and interneurons is complemented by postsynaptic inhibition such that there is a push-pull pattern of response
+to stimuli of the opposite sign (Martinez et al. 2005; Wang et al. 2007, 2011a,b) (Figure 2).
+Speciﬁcally, in On subregions bright light excites whereas dark inhibits and vice versa. Thus,
+“push” is deﬁned as excitation evoked by a stimulus of the preferred sign and “pull’ as inhibition
+elicited by a stimulus of the reverse, or nonpreferred, sign. Push-pull was ﬁrst found in the retina
+(Wiesel 1959), where it is often called cross-over inhibition (Werblin 2010) but is generated de
+novo in the thalamus (Martinez et al. 2014; Wang et al. 2007, 2011b).
+
+www.annualreviews.org • Inhibitory Circuits in the Thalamus
+
+311
+
+NE38CH15-Hirsch
+
+ARI
+
+20 May 2015
+
+a
+
+17:20
+
+Off-center relay cell
+
+Push
+
+Push
+
+Pull
+
+Pull
+
+On subregion
+
+On-center interneuron
+
+Stimulus duration
+
+Push
+
+Push
+
+Pull
+
+Pull
+5 mV
+
+Annu. Rev. Neurosci. 2015.38:309-329. Downloaded from www.annualreviews.org
+Access provided by University of Lausanne on 04/26/16. For personal use only.
+
+b
+
+Off subregion
+
+100 ms
+
+Figure 2
+Push-pull responses of an Off-center relay cell and On-center interneuron. Averaged records (membrane
+voltage) for responses to dark and bright disks ﬂashed in the center (left) and annuli ﬂashed in the surround
+(right) of the receptive ﬁeld of an Off-center relay cell (a) and an On-center interneuron (b). For the stylized
+versions of the receptive ﬁelds, On and Off subregions are shaded with colored gradients. Grayscale icons
+depict stimulus shape and polarity. The relay cell was an (anatomically identiﬁed) X cell, but similar proﬁles
+have been recorded from Y and W cells, and in all layers of the lateral geniculate nucleus (LGN).
+Interneurons can be distinguished from relay cells by the presence of bulbous appendages attached to distal
+dendrites. For a fuller explanation of anatomical criteria used to sort relay cells into X, Y, and W categories,
+see Wang et al. (2007), and to distinguish these from interneurons, see Wang et al. (2011b).
+
+PUSH-PULL EXCITATION AND INHIBITION IN VISION
+Detecting Spatial Features
+Common roles for push-pull in neural circuits include extending the dynamic range of operation
+and restoring linearity of response lost by rectiﬁcation across the synapse (Werblin 2010). In
+vision, push-pull confers additional advantages. First, it improves feature selectivity by producing
+a mutually antagonist relationship between neighboring subregions, as originally described in the
+retina (Kufﬂer 1953, Wiesel 1959). A spot of the preferred luminance contrast (bright or dark)
+that is conﬁned to the center evokes vigorous excitation (push). However, if that same stimulus
+expands to ﬁll the surround, the pull mechanism is recruited to suppress the excitatory response.
+Thus, the geometry of the receptive ﬁeld, coupled with interactions between push and pull across
+subregions, ﬁne-tunes sensitivity to stimulus size and location.
+Note that the strength of the surround varies according to cell type, station in the visual pathway,
+and stimulus regime. For example, the suppressive effect of the surround is greater for X cells than
+for Y cells and more pronounced in the thalamus than in the retina (Bullier & Norton 1979). In
+addition, the surround vanishes in darkness, reappearing as the environment grows lighter (Barlow
+et al. 1957). Furthermore, the receptive ﬁeld center shrinks at high contrasts (Martinez et al. 2014).
+These results are consistent with the view that small centers, complemented by strong surrounds,
+help resolve spatial detail.
+312
+
+Hirsch et al.
+
+NE38CH15-Hirsch
+
+ARI
+
+20 May 2015
+
+17:20
+
+Annu. Rev. Neurosci. 2015.38:309-329. Downloaded from www.annualreviews.org
+Access provided by University of Lausanne on 04/26/16. For personal use only.
+
+Improving Efficiency
+Considered from another vantage point, push-pull mediated antagonism between subregions reduces responses to diffuse or homogeneous patterns. This view is interesting in the context of
+information theory in general, and Barlow’s scheme of efﬁcient coding (Barlow 1961), in particular. The framework of efﬁcient coding holds that early stages of sensory processing reduce
+redundancy in signals sent downstream and is important because it is relevant to the statistical
+structure of the visual environment. In nature, neighboring regions within a given ﬁeld of view
+often have similar luminance values, leading to extensive spatial correlations and substantial redundancy. That is, natural scenes have 1/f statistics; the power spectrum of a given image is skewed
+toward low spatial frequencies (Field 1987, Simoncelli & Olshausen 2001). Furthermore, it has
+long been recognized that the structure of retinal and thalamic receptive ﬁelds can be represented
+as a difference of two Gaussians, one matched to the center and the other to the surround (EnrothCugell & Robson 1966, Marr & Hildreth 1980). This ﬁlter operates on the image to form the
+second spatial derivative of the stimulus and enhances edges (Chandler & Field 2007, Marr &
+Hildreth 1980); the emphasis on the higher frequency components reduces redundancy.
+
+Improving Image Perception
+So far, we have discussed push and pull as if they might be mirror images of one another, but this
+is not the case (Martinez et al. 2005, 2014). The area of the pull exceeds the area of the push for
+relay cells whose receptive ﬁelds lie within the central 10–15◦ of visual space [which corresponds
+to roughly half of the cat’s LGN (Sanderson 1971)]. To understand how this spatial asymmetry
+might aid visual processing, one can think about the larger circuit—speciﬁcally, the convergence
+of ganglion cell axons onto relay cells (Hamos et al. 1987, Usrey et al. 1999, Yeh et al. 2009).
+The consequences of convergence for vision have been explored with a circuit model of the
+LGN (for the X cell population) (Martinez et al. 2014). The model is based on the statistics of
+retinal mosaics (Eglen et al. 2005, W¨assle et al. 1983), physiological measurements of excitation
+and inhibition in the receptive ﬁeld (Martinez et al. 2014), and the stereological observations that
+relay cells outnumber ganglion cells by a factor of ∼2 (Madarasz et al. 1978, Peters & Payne
+1993) and interneurons by a factor of ∼3 (Fitzpatrick et al. 1984). Simulations performed with
+the model suggest that relay cells receive, on average, input from ∼3 different ganglion cells and
+that the pattern of convergence is such that each relay cell samples a slightly different mixture of
+inputs than that its neighbor receives (Martinez et al. 2014). In this way, the visual system not
+only upsamples (there are more relay than ganglion cells) but also interpolates (diverging retinal
+afferents converge on different relay cells) retinal input.
+This rewiring of space confers signiﬁcant advantages. Assuming that the visual information
+each ganglion cell transmits is contaminated by that cell’s own internal noise, convergence could
+improve the signal to noise ratio by averaging across input channels. An analysis with a Bayesian
+decoder (Ruderman & Bialek 1992) supports this view by showing that retinothalamic convergence
+allows the LGN to estimate the position of a point stimulus in noise with far greater precision
+than the retina can achieve (Martinez et al. 2014).
+Furthermore, upsampling and interpolation across the retinogeniculate synapse increase the
+resolution of image representation. This beneﬁt has the potentially harmful disadvantage of introducing image blur. Recall, however, that the pull is larger than the push in the receptive ﬁeld
+center. Thus, a suppressive moat surrounds the region of peak excitation, helping to sharpen neural sensitivity to local differences in luminance. Indeed, simulations with the circuit model show
+that this nested arrangement of push within pull can boost the response to contrast borders and
+www.annualreviews.org • Inhibitory Circuits in the Thalamus
+
+313
+
+NE38CH15-Hirsch
+
+ARI
+
+20 May 2015
+
+17:20
+
+a
+
+Encode
+
+b
+
+Upsample, interpolate
+
+c
+
+Sharpen
+
+Annu. Rev. Neurosci. 2015.38:309-329. Downloaded from www.annualreviews.org
+Access provided by University of Lausanne on 04/26/16. For personal use only.
+
+LGN
+
+Retina
+
+Pull
+
+>
+
+Push
+
+On subregion
+Off subregion
+
+Figure 3
+Image encoding and subsequent thalamic processing. (a) Encoding: Retinal ganglion cells encode visual
+information. The small discs illustrate the receptive ﬁeld centers of three Off relay cells that encode part of
+the photo of the eye above. The retinal representation of the image is noticeably pixelated. (b) Upsampling
+and interpolation: Relay cells outnumber ganglion cells by a ratio of ∼2:1. Retinal axons diverge to innervate
+multiple thalamic relay cells. Each relay cell receives convergent input from neighboring ganglion cells
+organized such that no two thalamic receptive ﬁelds are the same. Image of the eye shows that upsampling
+improves resolution but that interpolation introduces blur. (c) Sharpening: The spatial extent of the pull
+(indicated by reverse shading) in the relay cell’s receptive ﬁeld is larger than that of the push. This arrangement
+boosts contrast borders, improving image quality (to generate the snapshot in panel c, an unsharp mask was
+applied to the image in panel b. LGN, lateral geniculate nucleus.
+
+thereby help to mitigate blur (Martinez et al. 2014). Thus, the thalamus seems to operate much
+like techniques used in digital image processing such as unsharp masking or local contrast enhancement. All told, local circuits in the thalamus have the potential to improve image perception
+without increasing the number of cells at the initial encoding stage. A summary of this process is
+provided in Figure 3.
+The work just discussed is based on studies of cat. In primate, there are about as many relay
+cells as ganglion cells. However, there are more thalamorecipient cells in the monkey cortex
+than in the LGN (Chow et al. 1950), and most of these have center-surround receptive ﬁelds
+(Blasdel & Fitzpatrick 1984, Hubel & Wiesel 1968). Thus, the situation we have described in
+cat may apply to the thalamocortical stage in primate. All told, the combination of upsampling
+and interpolation coupled with border enhancement by inhibition may contribute to resolving a
+long-standing question in cat and human vision: why perceptual acuity is greater than the number
+of retinal photoreceptors predicts (Barlow 1981, Hall & Mitchell 1991, Westheimer 1975).
+
+Temporal Processing
+Neurons respond to changes in luminance contrast and thus signal both stimulus onset and withdrawal. For example, a dark disc ﬂashed in an Off subregion elicits push when the stimulus appears
+and induces pull when it exits; Figure 4a illustrates patterns of push-pull in space (top panel) and
+time (bottom panel). Conversely, introducing and then removing a bright disc to and from the
+314
+
+Hirsch et al.
+
+NE38CH15-Hirsch
+
+ARI
+
+20 May 2015
+
+a
+
+17:20
+
+Push-pull inhibition
+
+b
+
+Same-sign inhibition
+
+Excitation
+
+Annu. Rev. Neurosci. 2015.38:309-329. Downloaded from www.annualreviews.org
+Access provided by University of Lausanne on 04/26/16. For personal use only.
+
+Inhibition
+
+Space
+
+Space
+
+Time
+
+Time
+
+Stimulus
+off
+
+Figure 4
+Spatial and temporal proﬁles of push-pull versus same-sign inhibition for an Off-center relay cell.
+(a) Diagram of push-pull excitation (solid line) and inhibition (dashed line) for an Off-center cell in (top) space
+and (bottom) time, as denoted in the ﬁgure. Icons at left of the traces depict stimulus shape and polarity; the
+vertical arrow under each temporal envelope indicates the time of stimulus withdrawal. (b) Diagram for
+same-sign excitation and inhibition; conventions as in panel a.
+
+same Off subregion evoke a sequence of pull then push (not shown). In this fashion, relay cells select for biphasic (dark to bright or bright to dark) stimuli, thereby forming the temporal derivative
+of the image and reducing redundancy of signals dominated by low spatial frequencies, such as
+natural stimuli (Dan et al. 1996, Olshausen & Field 1996, Simoncelli & Olshausen 2001). Hence,
+the pull promotes efﬁcient coding in time as well as in space.
+Moreover, visual sequences that change from the nonpreferred to the preferred luminance
+contrast are particularly effective in driving relay cells (Alitto et al. 2005, Wang et al. 2007).
+Presumably, the pull enhances neural excitability via mechanisms akin to those that lead to anode
+break excitation (membrane depolarization following the cessation of a strong hyperpolarizing
+pulse) ﬁrst described for the squid axon (Hodgkin & Huxley 1952).
+In the thalamus, sequential push-pull has a special role. Relay cells ﬁre in two modes: tonic
+and burst (Sherman 2001). Neurons typically ﬁre tonic trains of action potentials that track (an
+edited version of ) retinal input patterns (Carandini et al. 2007, Wang et al. 2010); in this mode
+it is thought that virtually every spike is preceded by a retinogeniculate excitatory postsynaptic
+potential (EPSP) (Carandini et al. 2007, Koepsell et al. 2009, Sincich et al. 2007, Wang et al.
+2010). Bursts are rapid trains of action potentials that provide a means of amplifying retinal input
+(Sherman 2001). Bursts ride the crests of currents mediated by T-type calcium channels ( Jahnsen
+& Llinas 1984). These channels are activated at voltages below the threshold for sodium spikes
+but also inactivate quickly and must be strongly hyperpolarized in order to reopen (Huguenard
+& Prince 1992, Jahnsen & Llinas 1984). Thus, burst mode predominates during sleep (Steriade
+et al. 1993), when neuromodulators that hyperpolarize relay cells are released.
+Still, there is no absolute dichotomy between behavioral state and ﬁring pattern; rather, convincing evidence indicates that bursts play a role in vision (Alitto & Usrey 2005, Niell & Stryker
+2010, Sherman 2001). Natural stimulation engages with push-pull inhibition to drive the membrane from tonic to burst mode (Wang et al. 2007), as follows. When the animal moves through
+www.annualreviews.org • Inhibitory Circuits in the Thalamus
+
+315
+
+NE38CH15-Hirsch
+
+ARI
+
+20 May 2015
+
+17:20
+
+Annu. Rev. Neurosci. 2015.38:309-329. Downloaded from www.annualreviews.org
+Access provided by University of Lausanne on 04/26/16. For personal use only.
+
+its environment or scans the terrain, luminance values sometimes remain similar for long periods
+and then abruptly change (Simoncelli & Olshausen 2001) (these temporal correlations are a simple
+consequence of spatial correlations in natural scenes). Thus, in the course of natural viewing, there
+will be times when the receptive ﬁeld is covered by a stimulus of the nonpreferred sign (Denning &
+Reinagel 2005, Lesica & Stanley 2004, Wang et al. 2007). In these cases, the pull can deinactivate
+T-type channels such that when stimulus contrast reverses and retinal input resumes, a burst is
+ﬁred (Wang et al. 2007).
+What can bursts contribute to vision beyond simple ampliﬁcation of the incoming spike train?
+Physiological studies show that bursts, versus tonic trains of spikes, evoke postsynaptic action
+potentials with maximum efﬁcacy (Swadlow & Gusev 2001, Usrey et al. 1998) and help ensure that
+sensory information propagates downstream. Also, from an information theoretic point of view,
+bursts encode information different from that conveyed by tonic activity (Denning & Reinagel
+2005, Lesica et al. 2006) to signal special spatiotemporal features of the stimulus.
+
+SAME-SIGN AND TONIC INHIBITION
+One can think of the pull component of push-pull as opposite-sign inhibition. Accordingly, samesign inhibition is evoked by a stimulus of the preferred luminance contrast (the same stimulus
+polarity that produces excitation). Same-sign inhibition is difﬁcult to study because, unlike pull,
+it cannot be evoked in isolation. Computational models made using recordings of spike trains
+show how same-sign inhibition that lags behind or that outlasts excitation may improve temporal
+precision (Butts et al. 2011, Babadi et al. 2010, Casti et al. 2008), presumably by narrowing the
+window for successful launch of the action potential (sequential push-pull inhibition could serve
+a similar purpose). The spatial and temporal arrangements of same-sign inhibition within the
+receptive ﬁeld are illustrated in Figure 4b.
+Some investigators report a population of relay cells, categorized as lagged, that seem to combine push-pull and same-sign inhibition; these are more frequently X than Y cells (Humphrey &
+Murthy 1999, Mastronarde 1987, Mastronarde et al. 1991, Vigeland et al. 2013). For these cells,
+the same-sign component is strong near the beginning of the response and then attenuates slowly.
+Thus, ﬁring is initially suppressed and does not reach peak rates for tens or even hundreds of
+milliseconds. There is also a range of response timings between classical lagged and nonlagged
+response envelopes (Wolfe & Palmer 1998). One potential role for temporal diversity in response
+timing is to generate direction selectivity in the cortex, as per the Reichardt detector scheme (Saul
+& Humphrey 1990).
+Same-sign inhibition may also be involved in contrast gain control (Sherman 2004). This
+mechanism, which extends the range of neural sensitivity to stimulus contrast, ﬁrst appears in the
+retina (Shapley & Victor 1980, 1981) and is enhanced in the LGN (Kaplan et al. 1987). The idea is
+that as stimulus strength intensiﬁes, inhibition increases more quickly than does excitation. Hence
+the number of spikes evoked by each increment in contrast is reduced at mid to high stimulus
+strengths.
+
+Tonic (Stimulus-Independent) Inhibition
+So far, we have discussed only stimulus-evoked inhibition. There is also evidence for inhibition
+that is generated constitutively. This tonic form of inhibition has been studied most intensively
+in the context of neurological and psychiatric disease, sleep and consciousness, and learning and
+memory (Brickley & Mody 2012). Current evidence suggests that tonic inhibition is mediated by
+extrasynaptic GABA receptors (Brickley & Mody 2012), unlike inhibition driven by sensory input,
+316
+
+Hirsch et al.
+
+NE38CH15-Hirsch
+
+ARI
+
+20 May 2015
+
+17:20
+
+which acts mainly at the synaptic locus. These extrasynaptic receptors have been identiﬁed as the
+targets of various drugs (Brickley & Mody 2012) and anesthetics ( Jia et al. 2008) and thus are of
+therapeutic interest. The role of tonic inhibition in sensory processing per se has received little
+attention, however. Tonic inhibition may set the tone of neural excitability, either by subtly altering
+transmission or by promoting the transition from tonic to burst modes (Bright et al. 2007, Cope
+et al. 2005). Thus, tonic inhibition may inﬂuence the pattern of activity that a given stimulus evokes.
+
+CIRCUITS FOR PUSH-PULL OR FOR SAME-SIGN INHIBITION
+
+Annu. Rev. Neurosci. 2015.38:309-329. Downloaded from www.annualreviews.org
+Access provided by University of Lausanne on 04/26/16. For personal use only.
+
+Push
+The shape of the excitatory component of the thalamic receptive ﬁeld is almost certainly inherited
+from retinal inputs (Koepsell et al. 2009, Levick et al. 1972, Sincich et al. 2009, Usrey et al. 1999,
+Wang et al. 2010). First, it has the same center-surround proﬁle seen in retinal receptive ﬁelds.
+Second, the EPSPs that form the push in vivo resemble those recorded from thalamic brain slices
+following selective stimulation of the optic tract (Chen & Regehr 2000). Third, these EPSPs
+occur at the high rates characteristic of retinal spike trains (Frishman & Levine 1983). Fourth,
+even though relay cells receive substantial cortical feedback, their receptive ﬁeld structure is not
+appreciably changed when V1 is removed or silenced ( Jones & Sillito 1994, Sanderson et al. 1971).
+Last, unitary corticothalamic EPSPs are vanishingly small (Granseth & Lindstrom 2003), and the
+cortical cells that project to the thalamus have very low maintained ﬁring rates (Gilbert 1977).
+
+Pull
+The prime candidate to supply the pull is local interneurons, which themselves have receptive ﬁelds
+with a center-surround structure (they even have push-pull) (Figure 2b). There is also compelling
+physiological evidence that interneurons preferentially select relay cells with the reverse center
+sign (Martinez et al. 2014). For example, it has been possible to record intracellularly from one
+neuron and extracellularly from another with a single patch pipette; the patched cell can be
+classiﬁed with certainty and the identity of the extracellular neuron inferred by the presence or
+absence of bursts in the spike train. Interneuron/relay cell pairs were much more likely to have
+the opposite preference for stimulus contrast than predicted by chance (Martinez et al. 2014).
+Moreover, the receptive ﬁeld centers of the interneurons were larger than those of the partner
+relay cells (Martinez et al. 2014), consistent with the ﬁnding that the circumference of the pull is
+larger than that of the push.
+A priori, the receptive ﬁelds of interneurons should be relatively large if they are to tile visual
+space because these cells are fewer in number than ganglion cells. The origin of the large receptive
+ﬁeld probably results from pooling input from multiple retinal afferents. Ultrastructural studies
+suggest that interneurons are supplied by 2–7 times more retinal boutons than relay cells receive
+(Datskovskaia et al. 2001, Van Horn et al. 2000). Furthermore, recordings from brain slices show
+that all cells in the LGN are contacted by many retinal afferents early in development (Chen &
+Regehr 2000, Seabrook et al. 2013). As the circuit matures, most inputs to relay cells are pruned
+(Chen & Regehr 2000, Seabrook et al. 2013). By contrast, afferent innervation of interneurons
+does not decline over time (Seabrook et al. 2013). Complementary work in vitro indicates that
+relay cells receive input from multiple interneurons (Crunelli et al. 1988, Ziburkus et al. 2003).
+Thus convergence of several interneurons, each with a large receptive ﬁeld, could account for the
+large extent of the pull in relay cells.
+www.annualreviews.org • Inhibitory Circuits in the Thalamus
+
+317
+
+NE38CH15-Hirsch
+
+ARI
+
+20 May 2015
+
+17:20
+
+Axodendritic Versus Dendrodendritic Connections for Push-Pull
+Versus Same-Sign Inhibition
+
+Annu. Rev. Neurosci. 2015.38:309-329. Downloaded from www.annualreviews.org
+Access provided by University of Lausanne on 04/26/16. For personal use only.
+
+Interneurons contact their targets using two very different types of synapse (Guillery 1969b,
+Hamos et al. 1985, Montero 1987, Sherman 2004). One means of communication is through axonal
+(or axon-like) processes that provide boutons called F1 terminals to the somas and dendrites of
+relay cells and other interneurons (Guillery 1969b, Hamos et al. 1985, Montero 1987). F1 boutons
+could contact cells with the opposite center sign to provide push-pull or, just as easily, link cells with
+the same preference for luminance contrast to provide same-sign inhibition. Thus, F1 terminals
+provide a ﬂexible means of distributing feedforward inhibition.
+The second type of synapse that interneurons form with their targets is specialized; in this
+case, the presynaptic compartment is dendritic instead of axonal. Whereas some of these dendrodendritic synapses are made en passant, many are made via dendritic appendages known as F2
+terminals. F2 terminals (Guillery 1969b, Hamos et al. 1985, Montero 1986) are key components
+of triads, structures in which a single retinal bouton synapses with a dendrite of a relay cell as
+well as with a dendrite of an interneuron that, in turn, forms a dendrodendritic synapse with
+the relay cell (Guillery 1969b, Hamos et al. 1985, Szent´agothai et al. 1966). Triads most commonly involve grape-like appendages that cluster near proximal dendrites of X-cells (Hamos et al.
+1985, Sherman 2004), although some triads involve Y cells instead (Dankowski & Bickford 2003,
+Datskovskaia et al. 2001). Hence, the triads are hardwired to provide same-sign inhibition because
+they are engaged by a single, shared retinal input. By contrast, dendrodendritc (or dendrosomatic)
+synapses that are excluded from triads, as is often the case for Y cells (Dankowski & Bickford 2003,
+Datskovskaia et al. 2001) and for interneurons (Ohara & Lieberman 1993, Pasik et al. 1976), could
+contribute either to same-sign or to push-pull inhibition.
+At present, unfortunately, there remains no clear-cut empirical evidence about the physiological
+role of the triads in vision. For example, one might predict that the EPSPs recorded from X relay
+cells would decay more rapidly (e.g., Blitz & Regehr 2005) than those recorded from Y and W
+cells, but this does not seem to be the case ( J. Hirsch, personal observations; see Wang et al.
+2007). Still, dendrodendritic synapses, whether part of triads or not, have unique properties that
+may alter visual function. They provide a means for subthreshold excitation to evoke release of
+GABA (Cox et al. 1998, Pressler & Regehr 2013). Hence dendrites can, in theory, act as individual
+compartments (Bernander et al. 1991, Sherman 2004), supplying inhibition even in the absence
+of ﬁring. On the contrary, activation of F1 terminals requires spikes.
+The pharmacology of F2 terminals is complex, as work with murine brain slices has shown. The
+connection between retinal boutons and F2 terminals includes both ionotropic and metabotropic
+receptors (Crandall & Cox 2012, Govindaiah & Cox 2006, Pressler & Regehr 2013). Metabotropic
+receptors mediate long-lasting EPSPs whose impact may be further extended in space and time
+by means of L-type calcium channels present along the length of the dendrite (Acuna-Goycolea
+et al. 2008, Casale & McCormick 2011, Govindaiah & Cox 2006, Pressler & Regehr 2013). The
+consequences of this lasting source of inhibition for postsynaptic cells have yet to be successfully
+explored in vivo but may contribute to mechanisms of contrast gain control or luminance adaptation (Pressler & Regehr 2013, Sherman 2004). Hypothetical circuits for push-pull and same-sign
+inhibition are illustrated in Figure 5.
+
+SYNAPTIC PHYSIOLOGY OF RELAY CELLS VERSUS
+INTERNEURONS
+Although relay cells and interneurons have receptive ﬁelds with similar structure, their synaptic
+physiology is very different. The intracellular waveforms recorded from these two types of cells
+318
+
+Hirsch et al.
+
+NE38CH15-Hirsch
+
+ARI
+
+20 May 2015
+
+17:20
+
+Push-pull
+
+Same-sign
+F1
+
+F1
+
+On subregion
+Off subregion
+
+LGN
+
+Annu. Rev. Neurosci. 2015.38:309-329. Downloaded from www.annualreviews.org
+Access provided by University of Lausanne on 04/26/16. For personal use only.
+
+F2
+
+Excitatory axon
+Inhibitory axon
+
+Retina
+
+Figure 5
+Hypothetical circuit for push-pull and for same-sign inhibition for an Off-center relay cell. Retinal ganglion
+cells (bottom row) connect with thalamic cells (top row). Neurons are drawn as their receptive ﬁelds. Off and
+On subregions are color-coded, as in the legend; overlaid dashes indicate interneurons. Excitatory axons are
+solid and inhibitory axons are dashed; plus and minus signs in the boutons match the sign of input and F1
+versus F2 terminals are labeled as such. Receptive ﬁelds are partially transparent to help depict spatial
+overlap. Note that unlike push-pull inhibition, same-sign inhibition can be initiated by the same ganglion
+cell that provides excitation to the relay cell and/or by a nearby ganglion cell with the shared preference for
+stimulus polarity. LGN, lateral geniculate nucleus.
+
+are quantitatively distinct and have almost inverted proﬁles (Wang et al. 2011b). For relay cells,
+excitatory stimuli drive trains of single, peaked excitatory postsynaptic currents (EPSCs), but evoke
+graded and smooth depolarizations in interneurons. Conversely, suppressive stimuli evoke smooth
+hyperpolarizations in relay cells and jagged trains of unitary inhibitory postsynaptic currents
+(IPSCs) in interneurons (Figure 6).
+To understand the functional consequences of these differences in intracellular waveform,
+one must consider specializations of the retinogeniculate synapse. Not only do retinal axons
+form unusually large boutons, but these preferentially select the proximal dendrites of relay
+cells (Cucchiaro et al. 1991, Guillery 1969a, Hamos et al. 1985, Van Horn et al. 2000, Wilson
+1989); these synaptic properties explain why retinogeniculate EPSCs are large and rise rapidly.
+Furthermore, relay cells receive only one to a few retinal inputs (Chen & Regehr 2000, Hamos
+et al. 1987, Tavazoie & Reid 2000, Usrey et al. 1999), so the shapes of most individual EPSPs
+remain prominent in the intracellular record, even during strong sensory drive. On the contrary,
+recordings from cortical neurons in vivo indicate that many small inputs blend to form compound
+graded EPSPs (Borg-Graham et al. 1998; Hirsch et al. 1998, 2002; Ferster et al. 1996).
+The shape of the intracellular waveform has consequences for the propagation of information.
+Thalamic spikes lock to the crests of retinogeniculate EPSPs with millisecond precision (Koepsell
+et al. 2009, Usrey et al. 1999); thus they can transmit information encoded in the ﬁne timing
+of retinal spikes (Koepsell et al. 2009, Wang et al. 2010). A smooth pull signal, such as that
+recorded from relay cells, is, in principle, able to hyperpolarize without interfering with the peaky
+structure of the retinogeniculate EPSPs. Indeed, conductance-based models of relay cells show
+that artiﬁcially smoothing the tips of the EPSPs reduces the amount of information encoded at
+www.annualreviews.org • Inhibitory Circuits in the Thalamus
+
+319
+
+NE38CH15-Hirsch
+
+ARI
+
+a
+
+20 May 2015
+
+17:20
+
+b
+
+Recorded membrane currents
+
+Simulated neural responses
+
+Control
+
+Off-center relay cell
+
+Max
+Push
+
+EPSC
+
+100 pA
+
+Altered excitation
+
+Altered inhibition
+
+On-center interneuron
+
+Min
+Push
+
+IPSC
+
+Pull
+200 pA
+
+Annu. Rev. Neurosci. 2015.38:309-329. Downloaded from www.annualreviews.org
+Access provided by University of Lausanne on 04/26/16. For personal use only.
+
+100 ms
+
+Information rate (bit/s)
+
+Pull
+
+1/f stimulus sequence
+
+100 ms
+
+On subregion
+Off subregion
+Stimulus duration
+
+Figure 6
+Shapes of synaptic inputs and the transmission of retinal information to the cortex. (a) Examples of membrane currents recorded from
+an Off-center relay cell (top pair of traces) and an On-center interneuron (bottom pair of traces) in response to stimuli of the opposite sign,
+as indicated by the icons at left. Unitary events recorded from relay cells are excitatory postsynaptic currents (EPSCs) (inset shows
+EPSCs at expanded gain) and from interneurons are inhibitory postsynaptic currents (IPSCs). An example of each type of event is
+circled in gray and labeled; the EPSCs are downward deﬂections that dip rapidly and decay slowly, whereas IPSCs rise rapidly and then
+decay slowly. (b) Simulations of neural responses (membrane voltage) to a stimulus sequence with 1/f statistics. For the top trace,
+excitatory and inhibitory inputs are modeled as in nature [peaked excitatory postsynaptic potentials (EPSPs) and smooth pull] for the
+middle trace EPSPs are smoothed, and for the bottom trace inhibitory postsynaptic potentials (IPSPs) are made unitary. Smoothing
+EPSPs reduces the amount of information transmitted to the cortex but not as severely as modifying the pull.
+
+ﬁne time scales, presumably because smoothing disrupts the mechanism by which thalamic spikes
+lock precisely to retinal inputs. By contrast, modeling the IPSCs to have jagged shapes signiﬁcantly
+reduces the amount of information conveyed across timescales, likely because the sharpened IPSCs
+bite into the crests of the EPSCs, thus preventing the tight temporal coupling between retina and
+thalamus (Figure 6b). Reduced temporal precision translates to reduced information in the spike
+train. Hence, the combination of peaked (versus rounded) EPSPs and smooth (versus jagged)
+inhibition optimizes the amount of information that is transmitted from the eye to the cortex
+(Wang et al. 2011b).
+How is the graded pull signal recorded from relay cells made? The smooth shape of the push
+signal recorded from interneurons might provide a clue. Recall that excitatory synaptic drive
+onto interneurons activates L-type calcium currents. These regenerative depolarizations help to
+propagate retinal input, which often arrives at electrotonically remote dendritic sites (Sherman
+320
+
+Hirsch et al.
+
+Annu. Rev. Neurosci. 2015.38:309-329. Downloaded from www.annualreviews.org
+Access provided by University of Lausanne on 04/26/16. For personal use only.
+
+NE38CH15-Hirsch
+
+ARI
+
+20 May 2015
+
+17:20
+
+2004), to the soma. Thus, L-type currents are likely responsible for the low-passed proﬁle of the
+push in interneurons. Moreover, work in vitro shows that these currents, rather than the EPSP
+itself, drive ﬁring and thereby decouple the timing of input from output spike trains (AcunaGoycolea et al. 2008). Other mechanisms such as ﬁltering of distal retinal inputs by the dendritic
+cable and transduction via metabotropic receptors may also contribute to smoothing the push.
+Last, correlograms constructed from spike trains of retinal afferents and putative interneurons are
+broad and those for relay cells are narrow (Dubin & Cleland 1977), supporting the idea of jitter
+in the feedforward inhibitory pathway.
+All told, even if interneurons share common input from neighboring ganglion cells, the spike
+trains of the coactivated interneurons may be desynchronized. Furthermore, asynchronously arriving inputs from convergent interneurons to the relay cell may blend to provide smooth pull.
+Extratriadic, dendrodendritic connections between cells of the opposite sign may provide a complementary source of graded inhibition. Last, what advantage might the interneurons’ jagged pull
+(which is formed by serial unitary events) provide? Perhaps it can disinhibit relay cells at timescales
+as rapid as the duration of a single inhibitory postsynaptic potential (IPSP).
+
+THE THALAMIC RETICULAR NUCLEUS
+The perigeniculate sector of the TRN represents the ﬁrst stage of feedback in the geniculostriate
+pathway. It receives input from thalamic axons en route to the cortex and projects back to relay
+cells in all layers of the LGN (Cucchiaro et al. 1991, Sillito & Jones 2008, Wang et al. 2001).
+Connections between the TRN and interneurons are rare (Cucchiaro et al. 1991, Wang et al.
+2001), if they occur at all, although reticular cells contact each other via electrical (Landisman
+et al. 2002, Long et al. 2004) and chemical synapses (Cucchiaro et al. 1991, Sanchez-Vives et al.
+1997, Wang et al. 2001).
+Previously, the TRN had been described as playing two different, somewhat contradictory,
+roles. One hypothetical role was to regulate overall levels of excitability (Bonin et al. 2005, Levick
+et al. 1972, So & Shapley 1981). Early recordings from relay cells had revealed a region beyond
+the boundaries of the center and surround in which bright or dark stimuli reduced excitation. This
+remote domain was called the suppressive ﬁeld (Bonin et al. 2005, Levick et al. 1972, Sanderson
+et al. 1971) and was found to survive cortical ablation ( Jones & Sillito 1994, Sanderson et al.
+1971, Xue et al. 1988). Complementary studies suggested that receptive ﬁelds in the TRN were
+larger than those of relay cells and that many reticular neurons were binocular and responded to
+both bright and dark stimuli (Dubin & Cleland 1977, Levick et al. 1972). Taken together, these
+observations suggested that the TRN supplied the suppressive ﬁeld (Bonin et al. 2005, Levick
+et al. 1972, Sanderson et al. 1971). However, recent work shows that the suppressive surround is
+generated by the retina, not by the thalamus (Alitto & Usrey 2008), thereby challenging the early
+idea that the TRN merely exerts a global gain control.
+The second school of thought was that the TRN is involved in spatial attention because the
+nucleus lies between the sensory thalamus and the cortex and is reciprocally connected with both
+of these structures (Bickford et al. 2008, Cucchiaro et al. 1991, Ide 1982). The original idea was
+that attentionally regulated cortical input would excite reticular neurons and that these, in turn,
+would transiently inhibit relay cells and promote bursts, thus amplifying input to the cortex (Crick
+1984). Later experiments modiﬁed the scheme by showing how attention can reduce activity
+in the TRN and thus disinhibit relay cells (McAlonan et al. 2006, 2008). In any event, a role
+in spatial attention is more consistent with selective rather than large and amorphous receptive
+ﬁelds. Anatomical studies support this view, in that there seems to be a topographic mapping
+from the TRN to the LGN (Lam & Sherman 2011, Sillito & Jones 2008, Uhlrich et al. 1991).
+www.annualreviews.org • Inhibitory Circuits in the Thalamus
+
+321
+
+NE38CH15-Hirsch
+
+ARI
+
+20 May 2015
+
+17:20
+
+Although a truly quantitative assessment of the size of reticular receptive ﬁelds is yet to come,
+qualitative descriptions in primate suggest these are spatially discrete (McAlonan et al. 2006, 2008).
+Furthermore, spike-triggered receptive ﬁeld analysis shows that reticular neurons are selective for
+highly complex and localized visual features (Vaingankar et al. 2012).
+Recent observations indicate a new role for the TRN (Vaingankar et al. 2012). Even if reticular
+cells are excited by both dark and bright stimuli, there is often a strong preference for one or the
+other stimulus polarity. Thus, feedback inhibition may sum with feedforward inhibition to prime
+bursts in relay cells, a scenario in which the roles of both inhibitory circuits would interact to serve
+a common purpose.
+
+Annu. Rev. Neurosci. 2015.38:309-329. Downloaded from www.annualreviews.org
+Access provided by University of Lausanne on 04/26/16. For personal use only.
+
+BRIEF COMPARISON OF INHIBITORY CIRCUITS
+IN THE LGN AND V1
+Circuits in the cortex are far more diverse than in the thalamus. This discussion focuses on
+similarities between the LGN and its main target, cortical layer 4, where (in cat) most cells have
+simple receptive ﬁelds (Hirsch & Martinez 2006a,b; Hubel & Wiesel 1962; Martinez et al. 2005).
+As in the LGN, these receptive ﬁelds are built of segregated, neighboring On and Off subregions
+with push-pull (Ferster 1986, Hubel & Wiesel 1962, Jin et al. 2011, Martinez et al. 2005, Reid &
+Alonso 1995). However, within the simple receptive ﬁelds of the cortex, subregions are elongated
+and lie side by side; they are not circular and concentrically arranged, as for the LGN (Hubel &
+Wiesel 1962). This change in geometry forms the basis for orientation selectivity (Ferster et al.
+1996; Hubel & Wiesel 1962; Martinez et al. 2002, 2005; Reid & Alonso 1995), the best known
+emergent cortical property. Most remaining cells in layer 4 have complex receptive ﬁelds in which
+On and Off responses overlap (Hirsch et al. 2002, Hirsch & Martinez 2006a, Hubel & Wiesel
+1962, Martinez et al. 2005, Usrey et al. 2003).
+There are both excitatory and inhibitory simple and complex cells (Azouz et al. 1997, Gilbert
+& Wiesel 1979, Hirsch et al. 2003, Martinez et al. 2005). The inhibitory simple cells could provide
+the pull, analogous to push-pull circuitry in the LGN, and contribute orientation-tuned inhibition
+to their postsynaptic targets (Hirsch et al. 2003, Martinez et al. 2005). Evidence also indicates that
+the inhibitory component of the cortical receptive ﬁeld is larger than the excitatory component
+(Haider et al. 2010), as in the LGN (Martinez et al. 2014). Thus, the same inhibitory mechanisms
+proposed to emphasize contrast borders at the level of the thalamus (Martinez et al. 2014) may
+also operate in the cortex.
+The inhibitory complex cells could provide a source of inhibition insensitive to stimulus
+polarity or orientation and thus be suited to provide gain control (Troyer et al. 1998), somewhat
+analogous to same-sign inhibition in the LGN. Inhibitory neurons in layers that lack direct
+thalamic input have various types of complex receptive ﬁelds and seem tuned for stimulus
+orientation (Azouz et al. 1997, Cardin et al. 2007, Hirsch 2003, Martinez et al. 2005). Some of
+these project to layer 4 (Binzegger et al. 2004, Stepanyants et al. 2008) and thus could provide
+a second source of orientation-selective inhibition. The population of anatomically classiﬁed
+interneurons whose spatial receptive ﬁelds have been mapped quantitatively remains small,
+however. Hence it is unclear whether some morphological types are exclusively simple, complex,
+or otherwise functionally speciﬁc.
+Optogenetic approaches in the mouse suggest that different anatomical families of cortical
+inhibitory interneurons (DeFelipe et al. 2013, Taniguchi et al. 2011) have very different impacts
+on sensory processing (Hangya et al. 2014, Lee et al. 2012, Lovett-Barron & Losonczy 2014,
+Nienborg et al. 2013, Pfeffer et al. 2013). In part, this functional speciﬁcity might correlate with
+the different subcellular targets (i.e., distal versus proximal dendrites, soma, axon hillock) that
+322
+
+Hirsch et al.
+
+Annu. Rev. Neurosci. 2015.38:309-329. Downloaded from www.annualreviews.org
+Access provided by University of Lausanne on 04/26/16. For personal use only.
+
+NE38CH15-Hirsch
+
+ARI
+
+20 May 2015
+
+17:20
+
+a given type of interneuron innervates (DeFelipe et al. 2013). These interneuron-type speciﬁc
+differences in connectivity may be preserved across species (DeFelipe et al. 2013).
+Before comparing studies in mouse to those in cat, however, note that there are not only
+similarities but also substantial differences across species. One striking species difference is the
+murine approximation of the simple receptive ﬁeld, in which the On and Off subregions largely
+overlap (Liu et al. 2009), unlike the segregated arrangement that is a hallmark of the classical
+simple receptive ﬁeld (Martinez et al. 2005, Hubel & Wiesel 1962). In addition, the concept of
+push-pull does not apply to mouse because the inhibitory component of the simple-like ﬁeld is OnOff (Lien & Scanziani 2013, Liu et al. 2009). Accordingly, excitatory cells in the mouse primary
+visual cortex are selective for stimulus orientation, but interneurons, with rare exception, are not
+(Kerlin et al. 2010, Kuhlman et al. 2011, Niell & Stryker 2008, Runyan et al. 2010). Also, murine
+simple-like cells are abundant in all cortical layers rather than restricted to thalamorecipient zones
+(Bonin et al. 2011, Niell & Stryker 2008, Smith & Hausser 2010), an observation that suggests
+substantial differences in cortical wiring among animal models. The extent to which these crossspecies variations in the cortex reﬂect commensurate differences in the thalamus remains an open
+question. A current and future challenge is to develop a framework for meaningful comparisons
+across species.
+
+DISCLOSURE STATEMENT
+The authors are not aware of any afﬁliations, memberships, funding, or ﬁnancial holdings that
+might be perceived as affecting the objectivity of this review.
+
+ACKNOWLEDGMENTS
+We thank Manuel Molano-Mazon,
+´ Cristina Soto Sanchez, and Vishal Vaingankar for their irreplaceable contributions to some of the projects described here. J.A.H. was supported by NIH
+EY09593; F.T.S. was supported by NSF 0855272 and 1219212; and L.M.M. was supported by the
+Spanish Ministry of Economy and Competitiveness BFU2010-22220 and his home institution,
+Instituto de Neurociencias, a “Center of Excellence Severo Ochoa.”
+
+LITERATURE CITED
+Acuna-Goycolea C, Brenowitz SD, Regehr WG. 2008. Active dendritic conductances dynamically regulate
+GABA release from thalamic interneurons. Neuron 57:420–31
+Alitto HJ, Usrey WM. 2005. Dynamic properties of thalamic neurons for vision. Prog. Brain Res. 149:83–90
+Alitto HJ, Usrey WM. 2008. Origin and dynamics of extraclassical suppression in the lateral geniculate nucleus
+of the macaque monkey. Neuron 57:135–46
+Alitto HJ, Weyand TG, Usrey WM. 2005. Distinct properties of stimulus-evoked bursts in the lateral geniculate nucleus. J. Neurosci. 25:514–23
+Azouz R, Gray CM, Nowak LG, McCormick DA. 1997. Physiological properties of inhibitory interneurons
+in cat striate cortex. Cereb. Cortex 7:534–45
+Babadi B, Casti A, Xiao Y, Kaplan E, Paninski L. 2010. A generalized linear model of the impact of direct and
+indirect inputs to the lateral geniculate nucleus. J. Vis. 10:22
+Barlow HB. 1961. The coding of sensory messages. In Current Problems in Animal Behaviour, ed. WH Thorpe,
+OL Zangwill, pp. 330–60. Cambridge, UK: Cambridge Univ. Press
+Barlow HB. 1981. Critical limiting factors in the design of the eye and visual cortex. Proc. R. Soc. B 212:1–34
+Barlow HB, Fitzhugh R, Kufﬂer SW. 1957. Dark adaptation, absolute threshold and Purkinje shift in single
+units of the cat’s retina. J. Physiol. 137:327–37
+www.annualreviews.org • Inhibitory Circuits in the Thalamus
+
+323
+
+ARI
+
+20 May 2015
+
+17:20
+
+Bernander O, Douglas RJ, Martin KA, Koch C. 1991. Synaptic background activity inﬂuences spatiotemporal
+integration in single pyramidal cells. PNAS 88:11569–73
+Bickford ME, Carden WB, Patel NC. 1999. Two types of interneurons in the cat visual thalamus are distinguished by morphology, synaptic connections, and nitric oxide synthase content. J. Comp. Neurol.
+413:83–100
+Bickford ME, Wei H, Eisenback MA, Chomsung RD, Slusarczyk AS, Dankowsi AB. 2008. Synaptic organization of thalamocortical axon collaterals in the perigeniculate nucleus and dorsal lateral geniculate nucleus.
+J. Comp. Neurol. 508:264–85
+Binzegger T, Douglas RJ, Martin KA. 2004. A quantitative map of the circuit of cat primary visual cortex.
+J. Neurosci. 24:8441–53
+Blasdel GG, Fitzpatrick D. 1984. Physiological organization of layer 4 in macaque striate cortex. J. Neurosci.
+4:880–95
+Blitz DM, Regehr WG. 2005. Timing and speciﬁcity of feed-forward inhibition within the LGN. Neuron
+45:917–28
+Bonin V, Histed MH, Yurgenson S, Reid RC. 2011. Local diversity and ﬁne-scale organization of receptive
+ﬁelds in mouse visual cortex. J. Neurosci. 31:18506–21
+Bonin V, Mante V, Carandini M. 2005. The suppressive ﬁeld of neurons in lateral geniculate nucleus.
+J. Neurosci. 25:10844–56
+Borg-Graham LJ, Monier C, Fregnac Y. 1998. Visual input evokes transient and strong shunting inhibition
+in visual cortical neurons. Nature 393:369–73
+Brickley SG, Mody I. 2012. Extrasynaptic GABAA receptors: their function in the CNS and implications for
+disease. Neuron 73:23–34
+Bright DP, Aller MI, Brickley SG. 2007. Synaptic release generates a tonic GABAA receptor-mediated conductance that modulates burst precision in thalamic relay neurons. J. Neurosci. 27:2560–69
+Bullier J, Norton TT. 1979. Comparison of receptive-ﬁeld properties of X and Y ganglion cells with X and Y
+lateral geniculate cells in the cat. J. Neurophysiol. 42:274–91
+Butts DA, Weng C, Jin J, Alonso JM, Paninski L. 2011. Temporal precision in the visual pathway through
+the interplay of excitation and stimulus-driven suppression. J. Neurosci. 31:11313–27
+Carandini M, Horton JC, Sincich LC. 2007. Thalamic ﬁltering of retinal spike trains by postsynaptic summation. J. Vis. 7(20):1–11
+Cardin JA, Palmer LA, Contreras D. 2007. Stimulus feature selectivity in excitatory and inhibitory neurons
+in primary visual cortex. J. Neurosci. 27:10333–44
+Casale AE, McCormick DA. 2011. Active action potential propagation but not initiation in thalamic interneuron dendrites. J. Neurosci. 31:18289–302
+Casti A, Hayot F, Xiao Y, Kaplan E. 2008. A simple model of retina-LGN transmission. J. Comput. Neurosci.
+24:235–52
+Chandler DM, Field DJ. 2007. Estimates of the information content and dimensionality of natural scenes
+from proximity distributions. J. Opt. Soc. Am. A 24:922–41
+Chen C, Regehr WG. 2000. Developmental remodeling of the retinogeniculate synapse. Neuron 28:955–66
+Chow K, Blum JS, Blum RA. 1950. Cell ratios in the thalamo-cortical visual system of Macaca mulatta. J.
+Comp. Neurol. 92:227–39
+Cope DW, Hughes SW, Crunelli V. 2005. GABAA receptor-mediated tonic inhibition in thalamic neurons.
+J. Neurosci. 25:11553–63
+Cox CL, Zhou Q, Sherman SM. 1998. Glutamate locally activates dendritic outputs of thalamic interneurons.
+Nature 394:478–82
+Crandall SR, Cox CL. 2012. Local dendrodendritic inhibition regulates fast synaptic transmission in visual
+thalamus. J. Neurosci. 32:2513–22
+Crick F. 1984. Function of the thalamic reticular complex: the searchlight hypothesis. PNAS 81:4586–90
+Crunelli V, Haby M, Jassik-Gerschenfeld D, Leresche N, Pirchio M. 1988. Cl− - and K+ -dependent inhibitory
+postsynaptic potentials evoked by interneurones of the rat lateral geniculate nucleus. J. Physiol. 399:153–76
+Cucchiaro JB, Uhlrich DJ, Sherman SM. 1991. Electron-microscopic analysis of synaptic input from the
+perigeniculate nucleus to the A-laminae of the lateral geniculate nucleus in cats. J. Comp. Neurol. 310:316–
+36
+
+Annu. Rev. Neurosci. 2015.38:309-329. Downloaded from www.annualreviews.org
+Access provided by University of Lausanne on 04/26/16. For personal use only.
+
+NE38CH15-Hirsch
+
+324
+
+Hirsch et al.
+
+Annu. Rev. Neurosci. 2015.38:309-329. Downloaded from www.annualreviews.org
+Access provided by University of Lausanne on 04/26/16. For personal use only.
+
+NE38CH15-Hirsch
+
+ARI
+
+20 May 2015
+
+17:20
+
+Dan Y, Atick JJ, Reid RC. 1996. Efﬁcient coding of natural scenes in the lateral geniculate nucleus: experimental
+test of a computational theory. J. Neurosci. 16:3351–62
+Dankowski A, Bickford ME. 2003. Inhibitory circuitry involving Y cells and Y retinal terminals in the C
+laminae of the cat dorsal lateral geniculate nucleus. J. Comp. Neurol. 460:368–79
+Datskovskaia A, Carden WB, Bickford ME. 2001. Y retinal terminals contact interneurons in the cat dorsal
+lateral geniculate nucleus. J. Comp. Neurol. 430:85–100
+PL, Benavides-Piccione R, Bielza C, Larranaga
+P, et al. 2013. New insights into the
+DeFelipe J, Lopez-Cruz
+´
+˜
+classiﬁcation and nomenclature of cortical GABAergic interneurons. Nat. Rev. Neurosci. 14:202–16
+Denning KS, Reinagel P. 2005. Visual control of burst priming in the anesthetized lateral geniculate nucleus.
+J. Neurosci. 25:3531–38
+Dubin MW, Cleland BG. 1977. Organization of visual inputs to interneurons of lateral geniculate nucleus of
+the cat. J. Neurophysiol. 40:410–27
+Eglen SJ, Diggle PJ, Troy JB. 2005. Homotypic constraints dominate positioning of on- and off-center beta
+retinal ganglion cells. Vis. Neurosci. 22:859–71
+Enroth-Cugell C, Robson JG. 1966. The contrast sensitivity of retinal ganglion cells of the cat. J. Physiol.
+187:517–52
+Ferster D. 1986. Orientation selectivity of synaptic potentials in neurons of cat primary visual cortex.
+J. Neurosci. 6:1284–301
+Ferster D, Chung S, Wheat H. 1996. Orientation selectivity of thalamic input to simple cells of cat visual
+cortex. Nature 380:249–52
+Field DJ. 1987. Relations between the statistics of natural images and the response properties of cortical cells.
+J. Opt. Soc. Am. A 4:2379–94
+Fitzpatrick D, Penny GR, Schmechel DE. 1984. Glutamic acid decarboxylase-immunoreactive neurons and
+terminals in the lateral geniculate nucleus of the cat. J. Neurosci. 4:1809–29
+Frishman LJ, Levine MW. 1983. Statistics of the maintained discharge of cat retinal ganglion cells. J. Physiol.
+339:475–94
+Gilbert CD. 1977. Laminar differences in receptive ﬁeld properties of cells in cat primary visual cortex.
+J. Physiol. 268:391–421
+Gilbert CD, Wiesel TN. 1979. Morphology and intracortical projections of functionally characterised neurones in the cat visual cortex. Nature 280:120–25
+Govindaiah G, Cox CL. 2006. Metabotropic glutamate receptors differentially regulate GABAergic inhibition
+in thalamus. J. Neurosci. 26:13443–53
+Granseth B, Lindstrom S. 2003. Unitary EPSCs of corticogeniculate ﬁbers in the rat dorsal lateral geniculate
+nucleus in vitro. J. Neurophysiol. 89:2952–60
+Guillery RW. 1969a. The organization of synaptic interconnections in the laminae of the dorsal lateral geniculate nucleus of the cat. Z. Zellforsch. Mikrosk. Anat. 96:1–38
+Guillery RW. 1969b. A quantitative study of synaptic interconnections in the dorsal lateral geniculate nucleus
+of the cat. Z. Zellforsch. Mikrosk. Anat. 96:39–48
+Haider B, Krause MR, Duque A, Yu Y, Touryan J, et al. 2010. Synaptic and network mechanisms of sparse
+and reliable visual cortical activity during nonclassical receptive ﬁeld stimulation. Neuron 65:107–21
+Hall SE, Mitchell DE. 1991. Grating acuity of cats measured with detection and discrimination tasks. Behav.
+Brain Res. 44:1–9
+Hamos JE, Van Horn SC, Raczkowski D, Sherman SM. 1987. Synaptic circuits involving an individual retinogeniculate axon in the cat. J. Comp. Neurol. 259:165–92
+Hamos JE, Van Horn SC, Raczkowski D, Uhlrich DJ, Sherman SM. 1985. Synaptic connectivity of a local
+circuit neurone in lateral geniculate nucleus of the cat. Nature 317:618–21
+Hangya B, Pi HJ, Kvitsiani D, Ranade SP, Kepecs A. 2014. From circuit motifs to computations: mapping
+the behavioral repertoire of cortical interneurons. Curr. Opin. Neurobiol. 26:117–24
+Hirsch JA. 2003. Synaptic physiology and receptive ﬁeld structure in the early visual pathway of the cat. Cereb.
+Cortex 13:63–69
+Hirsch JA, Alonso JM, Reid RC, Martinez LM. 1998. Synaptic integration in striate cortical simple cells.
+J. Neurosci. 18:9517–28
+www.annualreviews.org • Inhibitory Circuits in the Thalamus
+
+325
+
+ARI
+
+20 May 2015
+
+17:20
+
+Hirsch JA, Martinez LM. 2006a. Circuits that build visual cortical receptive ﬁelds. Trends Neurosci. 29:30–39
+Hirsch JA, Martinez LM. 2006b. Laminar processing in the visual cortical column. Curr. Opin. Neurobiol.
+16:377–84
+Hirsch JA, Martinez LM, Alonso JM, Desai K, Pillai C, Pierre C. 2002. Synaptic physiology of the ﬂow of
+information in the cat’s visual cortex in vivo. J. Physiol. 540:335–50
+Hirsch JA, Martinez LM, Pillai C, Alonso JM, Wang Q, Sommer FT. 2003. Functionally distinct inhibitory
+neurons at the ﬁrst stage of visual cortical processing. Nat. Neurosci. 6:1300–8
+Hodgkin AL, Huxley AF. 1952. A quantitative description of membrane current and its application to conduction and excitation in nerve. J. Physiol. 117:500–44
+Hubel DH. 1960. Single unit activity in lateral geniculate body and optic tract of unrestrained cats. J. Physiol.
+150:91–104
+Hubel DH, Wiesel TN. 1962. Receptive ﬁelds, binocular interaction and functional architecture in the cat’s
+visual cortex. J. Physiol. 160:106–54
+Hubel DH, Wiesel TN. 1968. Receptive ﬁelds and functional architecture of monkey striate cortex. J. Physiol.
+195:215–43
+Huguenard J, Prince D. 1992. A novel T-type current underlies prolonged Ca2+ -dependent burst ﬁring in
+GABAergic neurons of rat thalamic reticular nucleus. J. Neurosci. 12:3804–17
+Humphrey AL, Murthy A. 1999. Cell types and response timings in the medial interlaminar nucleus and
+C-layers of the cat lateral geniculate nucleus. Vis. Neurosci. 16:513–25
+Ide LS. 1982. The ﬁne structure of the perigeniculate nucleus in the cat. J. Comp. Neurol. 210:317–34
+Jahnsen H, Llinas R. 1984. Electrophysiological properties of guinea-pig thalamic neurones: an in vitro study.
+J. Physiol. 349:205–26
+Jia F, Yue M, Chandra D, Homanics GE, Goldstein PA, Harrison NL. 2008. Isoﬂurane is a potent modulator
+of extrasynaptic GABAA receptors in the thalamus. J. Pharmacol. Exp. Ther. 324:1127–35
+Jin J, Wang Y, Swadlow HA, Alonso JM. 2011. Population receptive ﬁelds of ON and OFF thalamic inputs
+to an orientation column in visual cortex. Nat. Neurosci. 14:232–38
+Jones HE, Sillito AM. 1994. The length-response properties of cells in the feline perigeniculate nucleus. Eur.
+J. Neurosci. 6:1199–204
+Kaplan E, Purpura K, Shapley RM. 1987. Contrast affects the transmission of visual information through the
+mammalian lateral geniculate nucleus. J. Physiol. 391:267–88
+Kerlin AM, Andermann ML, Berezovskii VK, Reid RC. 2010. Broadly tuned response properties of diverse
+inhibitory neuron subtypes in mouse visual cortex. Neuron 67:858–71
+Koepsell K, Wang X, Vaingankar V, Wei Y, Wang Q, et al. 2009. Retinal oscillations carry visual information
+to cortex. Front. Syst. Neurosci. 3:4
+Kufﬂer SW. 1953. Discharge patterns and functional organization of the mammalian retina. J. Neurophysiol.
+16:37–68
+Kuhlman SJ, Tring E, Trachtenberg JT. 2011. Fast-spiking interneurons have an initial orientation bias that
+is lost with vision. Nat. Neurosci. 14:1121–23
+Lam YW, Sherman SM. 2011. Functional organization of the thalamic input to the thalamic reticular nucleus.
+J. Neurosci. 31:6791–99
+Landisman CE, Long MA, Beierlein M, Deans MR, Paul DL, Connors BW. 2002. Electrical synapses in the
+thalamic reticular nucleus. J. Neurosci. 22:1002–9
+Lee S-H, Kwan AC, Zhang S, Phoumthipphavong V, Flannery JG, et al. 2012. Activation of speciﬁc interneurons improves V1 feature selectivity and visual perception. Nature 488:379–83
+Lesica NA, Stanley GB. 2004. Encoding of natural scene movies by tonic and burst spikes in the lateral
+geniculate nucleus. J. Neurosci. 24:10731–40
+Lesica NA, Weng C, Jin J, Yeh CI, Alonso JM, Stanley GB. 2006. Dynamic encoding of natural luminance
+sequences by LGN bursts. PLOS Biol. 4:e209
+Levick WR, Cleland BG, Dubin MW. 1972. Lateral geniculate neurons of cat: retinal inputs and physiology.
+Invest. Ophthalmol. 11:302–11
+Lien AD, Scanziani M. 2013. Tuned thalamic excitation is ampliﬁed by visual cortical circuits. Nat. Neurosci.
+16:1315–23
+
+Annu. Rev. Neurosci. 2015.38:309-329. Downloaded from www.annualreviews.org
+Access provided by University of Lausanne on 04/26/16. For personal use only.
+
+NE38CH15-Hirsch
+
+326
+
+Hirsch et al.
+
+Annu. Rev. Neurosci. 2015.38:309-329. Downloaded from www.annualreviews.org
+Access provided by University of Lausanne on 04/26/16. For personal use only.
+
+NE38CH15-Hirsch
+
+ARI
+
+20 May 2015
+
+17:20
+
+Liu BH, Li P, Sun YJ, Li YT, Zhang LI, Tao HW. 2009. Intervening inhibition underlies simple-cell receptive
+ﬁeld structure in visual cortex. Nat. Neurosci. 13:89–96
+Long MA, Landisman CE, Connors BW. 2004. Small clusters of electrically coupled neurons generate synchronous rhythms in the thalamic reticular nucleus. J. Neurosci. 24:341–49
+Lovett-Barron M, Losonczy A. 2014. Behavioral consequences of GABAergic neuronal diversity. Curr. Opin.
+Neurobiol. 26:27–33
+Madarasz M, Gerle J, Hajdu F, Somogyi G, Tombol T. 1978. Quantitative histological studies on the lateral
+geniculate nucleus in the cat. II. Cell numbers and densities in the several layers. J. Hirnforsch. 19:159–64
+Marr D, Hildreth E. 1980. Theory of edge detection. Proc. R. Soc. B 207:187–217
+Martinez LM, Alonso JM, Reid RC, Hirsch JA. 2002. Laminar processing of stimulus orientation in cat visual
+cortex. J. Physiol. 540:321–33
+Martinez LM, Molano-Mazon M, Wang X, Sommer FT, Hirsch JA. 2014. Statistical wiring of thalamic
+receptive ﬁelds optimizes spatial sampling of the retinal image. Neuron 81:943–56
+Martinez LM, Wang Q, Reid RC, Pillai C, Alonso JM, et al. 2005. Receptive ﬁeld structure varies with layer
+in the primary visual cortex. Nat. Neurosci. 8:372–79
+Mastronarde DN. 1987. Two classes of single-input X-cells in cat lateral geniculate nucleus. I. Receptive-ﬁeld
+properties and classiﬁcation of cells. J. Neurophysiol. 57:357–80
+Mastronarde DN, Humphrey AL, Saul AB. 1991. Lagged Y cells in the cat lateral geniculate nucleus. Vis.
+Neurosci. 7:191–200
+McAlonan K, Cavanaugh J, Wurtz RH. 2006. Attentional modulation of thalamic reticular neurons. J. Neurosci.
+26:4444–50
+McAlonan K, Cavanaugh J, Wurtz RH. 2008. Guarding the gateway to cortex with attention in visual thalamus.
+Nature 456:391–94
+Montero VM. 1986. Localization of gamma-aminobutyric acid (GABA) in type 3 cells and demonstration of
+their source to F2 terminals in the cat lateral geniculate nucleus: a Golgi-electron-microscopic GABAimmunocytochemical study. J. Comp. Neurol. 254:228–45
+Montero VM. 1987. Ultrastructural identiﬁcation of synaptic terminals from the axon of type 3 interneurons
+in the cat lateral geniculate nucleus. J. Comp. Neurol. 264:268–83
+Niell CM, Stryker MP. 2008. Highly selective receptive ﬁelds in mouse visual cortex. J. Neurosci. 28:7520–36
+Niell CM, Stryker MP. 2010. Modulation of visual responses by behavioral state in mouse visual cortex. Neuron
+65:472–79
+Nienborg H, Hasenstaub A, Nauhaus I, Taniguchi H, Huang ZJ, Callaway EM. 2013. Contrast dependence
+and differential contributions from somatostatin- and parvalbumin-expressing neurons to spatial integration in mouse V1. J. Neurosci. 33:11145–54
+Ohara PT, Lieberman AR. 1993. Some aspects of the synaptic circuitry underlying inhibition in the ventrobasal
+thalamus. J. Neurocytol. 22:815–25
+Olshausen BA, Field DJ. 1996. Natural image statistics and efﬁcient coding. Network 7:333–39
+Pasik P, Pasik T, H´amori J. 1976. Synapses between interneurons in the lateral geniculate nucleus of monkeys.
+Exp. Brain Res. 25:1–13
+Peters A, Payne BR. 1993. Numerical relationships between geniculocortical afferents and pyramidal cell
+modules in cat primary visual cortex. Cereb. Cortex 3:69–78
+Pfeffer CK, Xue M, He M, Huang ZJ, Scanziani M. 2013. Inhibition of inhibition in visual cortex: the logic
+of connections between molecularly distinct interneurons. Nat. Neurosci. 16:1068–76
+Pressler RT, Regehr WG. 2013. Metabotropic glutamate receptors drive global persistent inhibition in the
+visual thalamus. J. Neurosci. 33:2494–506
+Reid RC, Alonso JM. 1995. Speciﬁcity of monosynaptic connections from thalamus to visual cortex. Nature
+378:281–84
+Ruderman DL, Bialek W. 1992. Seeing beyond the Nyquist limit. Neural Comput. 4:682–90
+Runyan CA, Schummers J, Van Wart A, Kuhlman SJ, Wilson NR, et al. 2010. Response features of
+parvalbumin-expressing interneurons suggest precise roles for subtypes of inhibition in visual cortex.
+Neuron 67:847–57
+Sanchez-Vives MV, Bal T, McCormick DA. 1997. Inhibitory interactions between perigeniculate GABAergic
+neurons. J. Neurosci. 17:8894–908
+www.annualreviews.org • Inhibitory Circuits in the Thalamus
+
+327
+
+ARI
+
+20 May 2015
+
+17:20
+
+Sanderson KJ. 1971. Visual ﬁeld projection columns and magniﬁcation factors in the lateral geniculate nucleus
+of the cat. Exp. Brain Res. 13:159–77
+Sanderson KJ, Bishop PO, Darian-Smith I. 1971. The properties of the binocular receptive ﬁelds of lateral
+geniculate neurons. Exp. Brain Res. 13:178–207
+Saul AB, Humphrey AL. 1990. Spatial and temporal response properties of lagged and nonlagged cells in cat
+lateral geniculate nucleus. J. Neurophysiol. 64:206–24
+Seabrook TA, Krahe TE, Govindaiah G, Guido W. 2013. Interneurons in the mouse visual thalamus maintain
+a high degree of retinal convergence throughout postnatal development. Neural Dev. 8:24
+Shapley RM, Victor JD. 1980. The effect of contrast on the non-linear response of the Y cell. J. Physiol.
+302:535–47
+Shapley RM, Victor JD. 1981. How the contrast gain control modiﬁes the frequency responses of cat retinal
+ganglion cells. J. Physiol. 318:161–79
+Sherman SM. 2001. Tonic and burst ﬁring: dual modes of thalamocortical relay. Trends Neurosci. 24:122–26
+Sherman SM. 2004. Interneurons and triadic circuitry of the thalamus. Trends Neurosci. 27:670–75
+Sillito AM, Jones HE. 2008. The role of the thalamic reticular nucleus in visual processing. Thalamus Related
+Syst. 4:1–12
+Simoncelli EP, Olshausen BA. 2001. Natural image statistics and neural representation. Annu. Rev. Neurosci.
+24:1193–216
+Sincich LC, Adams DL, Economides JR, Horton JC. 2007. Transmission of spike trains at the retinogeniculate
+synapse. J. Neurosci. 27:2683–92
+Sincich LC, Horton JC, Sharpee TO. 2009. Preserving information in neural transmission. J. Neurosci.
+29:6207–16
+Smith SL, Hausser M. 2010. Parallel processing of visual space by neighboring neurons in mouse visual cortex.
+Nat. Neurosci. 13:1144–49
+So YT, Shapley R. 1981. Spatial tuning of cells in and around lateral geniculate nucleus of the cat: X and Y
+relay cells and perigeniculate interneurons. J. Neurophysiol. 45:107–20
+Stepanyants A, Hirsch JA, Martinez LM, Kisvarday ZF, Ferecsko AS, Chklovskii DB. 2008. Local potential
+connectivity in cat primary visual cortex. Cereb. Cortex 18:13–28
+Steriade M, McCormick DA, Sejnowski TJ. 1993. Thalamocortical oscillations in the sleeping and aroused
+brain. Science 262:679–85
+Swadlow HA, Gusev AG. 2001. The impact of ‘bursting’ thalamic impulses at a neocortical synapse. Nat.
+Neurosci. 4:402–8
+Szent´agothai J, Hamori J, Tombol T. 1966. Degeneration and electron microscope analysis of the synaptic
+glomeruli in the lateral geniculate body. Exp. Brain Res. 2:283–301
+Taniguchi H, He M, Wu P, Kim S, Paik R, et al. 2011. A resource of Cre driver lines for genetic targeting of
+GABAergic neurons in cerebral cortex. Neuron 71:995–1013
+Tavazoie SF, Reid RC. 2000. Diverse receptive ﬁelds in the lateral geniculate nucleus during thalamocortical
+development. Nat. Neurosci. 3:608–16
+Troyer TW, Krukowski AE, Priebe NJ, Miller KD. 1998. Contrast-invariant orientation tuning in cat visual
+cortex: thalamocortical input tuning and correlation-based intracortical connectivity. J. Neurosci. 18:5908–
+27
+Uhlrich DJ, Cucchiaro JB, Humphrey AL, Sherman SM. 1991. Morphology and axonal projection patterns
+of individual neurons in the cat perigeniculate nucleus. J. Neurophysiol. 65:1528–41
+Usrey WM, Reppas JB, Reid RC. 1998. Paired-spike interactions and synaptic efﬁcacy of retinal inputs to the
+thalamus. Nature 395:384–87
+Usrey WM, Reppas JB, Reid RC. 1999. Speciﬁcity and strength of retinogeniculate connections. J. Neurophysiol. 82:3527–40
+Usrey WM, Sceniak MP, Chapman B. 2003. Receptive ﬁelds and response properties of neurons in layer 4 of
+ferret visual cortex. J. Neurophysiol. 89:1003–15
+Vaingankar V, Soto-Sanchez C, Wang X, Sommer FT, Hirsch JA. 2012. Neurons in the thalamic reticular
+nucleus are selective for diverse and complex visual features. Front. Integr. Neurosci. 6:118
+Van Horn SC, Erisir A, Sherman SM. 2000. Relative distribution of synapses in the A-laminae of the lateral
+geniculate nucleus of the cat. J. Comp. Neurol. 416:509–20
+
+Annu. Rev. Neurosci. 2015.38:309-329. Downloaded from www.annualreviews.org
+Access provided by University of Lausanne on 04/26/16. For personal use only.
+
+NE38CH15-Hirsch
+
+328
+
+Hirsch et al.
+
+Annu. Rev. Neurosci. 2015.38:309-329. Downloaded from www.annualreviews.org
+Access provided by University of Lausanne on 04/26/16. For personal use only.
+
+NE38CH15-Hirsch
+
+ARI
+
+20 May 2015
+
+17:20
+
+Vigeland LE, Contreras D, Palmer LA. 2013. Synaptic mechanisms of temporal diversity in the lateral geniculate nucleus of the thalamus. J. Neurosci. 33:1887–96
+Wang S, Bickford ME, Van Horn SC, Erisir A, Godwin DW, Sherman SM. 2001. Synaptic targets of thalamic
+reticular nucleus terminals in the visual thalamus of the cat. J. Comp. Neurol. 440:321–41
+Wang X, Hirsch JA, Sommer FT. 2010. Recoding of sensory information across the retinothalamic synapse.
+J. Neurosci. 30:13567–77
+Wang X, Sommer FT, Hirsch JA. 2011a. Inhibitory circuits for visual processing in thalamus. Curr. Opin.
+Neurobiol. 21:726–33
+Wang X, Vaingankar V, Sanchez CS, Sommer FT, Hirsch JA. 2011b. Thalamic interneurons and relay cells
+use complementary synaptic mechanisms for visual processing. Nat. Neurosci. 14:224–31
+Wang X, Wei Y, Vaingankar V, Wang Q, Koepsell K, et al. 2007. Feedforward excitation and inhibition evoke
+dual modes of ﬁring in the cat’s visual thalamus during naturalistic viewing. Neuron 55:465–78
+W¨assle H, Peichl L, Boycott BB. 1983. Mosaics and territories of cat retinal ganglion cells. Prog. Brain Res.
+58:183–90
+Werblin FS. 2010. Six different roles for crossover inhibition in the retina: correcting the nonlinearities of
+synaptic transmission. Vis. Neurosci. 27:1–8
+Westheimer G. 1975. Visual acuity and hyperacuity. Invest. Ophthalmol. 14:570–72
+Wiesel TN. 1959. Recording inhibition and excitation in the cat’s retinal ganglion cells with intracellular
+electrodes. Nature 183:264–65
+Wilson J. 1989. Synaptic organization of individual neurons in the macaque lateral geniculate nucleus.
+J. Neurosci. 9:2931–53
+Wolfe J, Palmer LA. 1998. Temporal diversity in the lateral geniculate nucleus of cat. Vis. Neurosci. 15:653–75
+Xue JT, Carney T, Ramoa AS, Freeman RD. 1988. Binocular interaction in the perigeniculate nucleus of the
+cat. Exp. Brain Res. 69:497–508
+Yeh CI, Stoelzel CR, Weng C, Alonso JM. 2009. Functional consequences of neuronal divergence within the
+retinogeniculate pathway. J. Neurophysiol. 101:2166–85
+Ziburkus J, Lo FS, Guido W. 2003. Nature of inhibitory postsynaptic activity in developing relay cells of the
+lateral geniculate nucleus. J. Neurophysiol. 90:1063–70
+
+www.annualreviews.org • Inhibitory Circuits in the Thalamus
+
+329
+
+NE38-FrontMatter
+
+ARI
+
+13 June 2015
+
+10:58
+
+Contents
+
+Annual Review of
+Neuroscience
+Volume 38, 2015
+
+Depression: A Decision-Theoretic Analysis
+Quentin J.M. Huys, Nathaniel D. Daw, and Peter Dayan ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ 1
+
+Annu. Rev. Neurosci. 2015.38:309-329. Downloaded from www.annualreviews.org
+Access provided by University of Lausanne on 04/26/16. For personal use only.
+
+Neuronal and Vascular Interactions
+Benjamin J. Andreone, Baptiste Lacoste, and Chenghua Gu ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣25
+The Genetics of Neuropsychiatric Diseases: Looking
+In and Beyond the Exome
+Erin L. Heinzen, Benjamin M. Neale, Stephen F. Traynelis, Andrew S. Allen,
+and David B. Goldstein ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣47
+Visual Guidance in Control of Grasping
+Peter Janssen and Hansj¨org Scherberger ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣69
+Neurodegenerative Diseases: Expanding the Prion Concept
+Lary C. Walker and Mathias Jucker ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣87
+Neurological Aspects of Human Glycosylation Disorders
+Hudson H. Freeze, Erik A. Eklund, Bobby G. Ng, and Marc C. Patterson ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ 105
+Glutamate Synapses in Human Cognitive Disorders
+Lenora Volk, Shu-Ling Chiu, Kamal Sharma, and Richard L. Huganir ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ 127
+An Integrative Model of the Maturation of Cognitive Control
+Beatriz Luna, Scott Marek, Bart Larsen, Brenden Tervo-Clemmens,
+and Rajpreet Chahal ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ 151
+Long-Range Neural Synchrony in Behavior
+Alexander Z. Harris and Joshua A. Gordon ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ 171
+Plasticity of Cortical Excitatory-Inhibitory Balance
+Robert C. Froemke ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ 195
+The Types of Retinal Ganglion Cells: Current Status and Implications
+for Neuronal Classiﬁcation
+Joshua R. Sanes and Richard H. Masland ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ 221
+Global Order and Local Disorder in Brain Maps
+Gideon Rothschild and Adi Mizrahi ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ 247
+General Cortical and Special Prefrontal Connections: Principles from
+Structure to Function
+Helen Barbas ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ 269
+v
+
+NE38-FrontMatter
+
+ARI
+
+13 June 2015
+
+10:58
+
+Cortical Folding: When, Where, How, and Why?
+Georg F. Striedter, Shyam Srinivasan, and Edwin S. Monuki ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ 291
+How Inhibitory Circuits in the Thalamus Serve Vision
+Judith A. Hirsch, Xin Wang, Friedrich T. Sommer, and Luis M. Martinez ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ 309
+Chemosensory Receptor Speciﬁcity and Regulation
+Ryan P. Dalton and Stavros Lomvardas ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ 331
+Levels of Homology and the Problem of Neocortex
+Jennifer Dugas-Ford and Clifton W. Ragsdale ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ 351
+
+Annu. Rev. Neurosci. 2015.38:309-329. Downloaded from www.annualreviews.org
+Access provided by University of Lausanne on 04/26/16. For personal use only.
+
+New Opportunities in Vasopressin and Oxytocin Research:
+A Perspective from the Amygdala
+Ron Stoop, Chlo´e Hegoburu, and Erwin van den Burg ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ 369
+In Search of a Human Self-Regulation System
+William M. Kelley, Dylan D. Wagner, and Todd F. Heatherton ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ 389
+Cell Types, Circuits, and Receptive Fields in the Mouse Visual Cortex
+Cristopher M. Niell ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ 413
+The Brain’s Default Mode Network
+Marcus E. Raichle ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ 433
+Indexes
+Cumulative Index of Contributing Authors, Volumes 29–38 ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ 449
+Cumulative Index of Article Titles, Volumes 29–38 ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ 454
+Errata
+An online log of corrections to Annual Review of Neuroscience articles may be found at
+http://www.annualreviews.org/errata/neuro
+
+vi
+
+Contents
+
+ANNUAL REVIEWS
+Connect With Our Experts
+
+New From Annual Reviews:
+
+Annual Review of Vision Science
+
+vision.annualreviews.org • Volume 1 • November 2015
+
+Annu. Rev. Neurosci. 2015.38:309-329. Downloaded from www.annualreviews.org
+Access provided by University of Lausanne on 04/26/16. For personal use only.
+
+Co-Editors: J. Anthony Movshon, New York University and Brian A. Wandell, Stanford University
+The Annual Review of Vision Science reviews progress in the visual sciences, a cross-cutting set of disciplines that intersect
+psychology, neuroscience, computer science, cell biology and genetics, and clinical medicine. The journal covers a broad
+range of topics and techniques, including optics, retina, central visual processing, visual perception, eye movements, visual
+development, vision models, computer vision, and the mechanisms of visual disease, dysfunction, and sight restoration. The
+study of vision is central to progress in many areas of science, and this new journal will explore and expose the connections that
+link it to biology, behavior, computation, engineering, and medicine.
+
+FREE online access to Volume 1 will be available until November 2016.
+TABLE OF CONTENTS FOR VOLUME 1:
+
+•	 Adaptive Optics Ophthalmoscopy, Austin Roorda,
+Jacque L. Duncan
+
+•	 Angiogenesis in Eye Disease, Yoshihiko Usui,
+Peter D. Westenskow, Salome Murinello, Michael I. Dorrell,
+Leah Scheppke, Felicitas Bucher, Susumu Sakimoto,
+Liliana P Paris, Edith Aguilar, Martin Friedlander
+•	 Color and the Cone Mosaic, David H. Brainard
+
+•	 Control and Functions of Fixational Eye Movements,
+Michele Rucci, Martina Poletti
+
+•	 Deep Neural Networks A New Framework for Modeling
+Biological Vision and Brain Information Processing,
+Nikolaus Kriegeskorte
+
+•	 Development of Three-Dimensional Perception in Human
+Infants, Anthony M. Norcia, Holly E. Gerhard
+
+•	 Functional Circuitry of the Retina, Jonathan B. Demb,
+Joshua H. Singer
+
+•	 Image Formation in the Living Human Eye, Pablo Artal
+•	 Imaging Glaucoma, Donald C. Hood
+
+•	 Mitochondria and Optic Neuropathy, Janey L. Wiggs
+
+•	 Neuronal Mechanisms of Visual Attention, John Maunsell
+
+•	 Optogenetic Approaches to Restoring Vision, Zhuo-Hua
+Pan, Qi Lu, Anding Bi, Alexander M. Dizhoor, Gary W. Abrams
+
+•	 Organization of the Central Visual Pathways Following Field
+Defects Arising from Congenital, Inherited, and Acquired
+Eye Disease, Antony B. Morland
+•	 Contributions of Retinal Ganglion Cells to Subcortical
+Visual Processing and Behaviors, Onkar S. Dhande,
+Benjamin K. Stafford, Jung-Hwan A. Lim,
+Andrew D. Huberman
+
+•	 Ribbon Synapses and Visual Processing in the Retina,
+Leon Lagnado, Frank Schmitz
+
+•	 The Determination of Rod and Cone Photoreceptor Fate,
+Constance L. Cepko
+•	 A Revised Neural Framework for Face Processing,
+Brad Duchaine, Galit Yovel
+
+•	 Visual Adaptation, Michael A. Webster
+
+•	 Visual Functions of the Thalamus, W. Martin Usrey,
+Henry J. Alitto
+
+•	 Visual Guidance of Smooth Pursuit Eye Movements,
+Stephen Lisberger
+
+•	 Visuomotor Functions in the Frontal Lobe, Jeffrey D. Schall
+•	 What Does Genetics Tell Us About Age-Related
+Macular Degeneration? Felix Grassmann, Thomas Ach,
+Caroline Brandl, Iris M. Heid, Bernhard H.F. Weber
+•	 Zebrafish Models of Retinal Disease, Brian A. Link,
+Ross F. Collery
+
+Access all Annual Reviews journals via your institution at www.annualreviews.org.
+
+ANNUAL REVIEWS | Connect With Our Experts
+Tel: 800.523.8635 (us/can) | Tel: 650.493.4400 | Fax: 650.424.0910 | Email: service@annualreviews.org
+
+

@@ -1,0 +1,713 @@
+Review
+
+TRENDS in Neurosciences Vol.28 No.6 June 2005
+
+INMED/TINS special issue
+
+Excitatory effects of GABA in
+established brain networks
+Alain Marty and Isabel Llano
+Laboratoire de Physiologie Ce´re´brale, Universite´ Paris 5/CNRS, 45 Rue des Saints Pe`res, 75006 Paris, France
+
+Although GABA remains the predominant inhibitory
+neurotransmitter of the brain, there are numerous
+recent examples of excitatory actions of GABA. These
+actions can be classified in two broad categories: phasic
+excitatory effects, as follow single activation of GABAergic afferents, and sustained excitatory effects, as
+follow prolonged activation of GABAA receptors. Evidence reviewed here indicates that, contrary to common
+belief, these effects are not restricted to embryonic or
+neonatal preparations.
+
+Introduction
+Activation of GABAA receptors leads to opening of
+K
+channels that are permeable to HCOK
+3 and Cl . Under
+physiological conditions, the corresponding currents have
+a reversal potential (EGABA) close to the neuronal resting
+potential. In recent years, it has become increasingly clear
+that the resulting effects on the postsynaptic cell can be
+either inhibitory or excitatory. In particular, it has been
+realized that EGABA is developmentally regulated such
+that activation of GABAA receptors is mostly excitatory in
+neonatal brain preparations, but becomes inhibitory later
+in development [1–3]. The excitatory action of GABA early
+in life is presumably important for neuronal development
+and network formation.
+Superimposed on the evolution of GABA action during
+development, there appear to be important differences in the
+effects of this neurotransmitter depending on experimental
+conditions and tissue specificity. Thus, it has been recognized for some time that in dorsal root ganglion neurons, ClK
+homeostasis differs from that in many brain neurons, so that
+in these cells GABAA receptor activation leads to depolarization [1]. In the past few years, GABAA-receptor-induced
+excitation has also been discovered in mature brain
+preparations – such findings are the subject of this review.
+Here, ‘mature’ means that networks are already established
+and fulfill their normal function. However, it is important to
+note that many studies, particularly of brain slices, have
+actually been performed using juvenile preparations.
+Phasic excitatory effects of GABAA receptor activation in
+mature GABAergic synapses
+A recent study of cortical pyramidal cells from three-tofour-week-old rats showed that activation of dendritic
+Corresponding author: Marty, A. (alain.marty@univ-paris5.fr).
+Available online 22 April 2005
+
+GABAergic synapses leads to cell depolarization [4]. If
+activation of such a GABAergic afferent is combined
+within a certain time window (w5–10 ms) with a depolarization mimicking subthreshold glutamate-mediated excitation, action potentials are emitted (Figure 1a,i), showing
+that the GABAergic afferent enhances the cell excitability.
+Interestingly however, a similar depolarization elicited by
+a GABAergic afferent in the somatic domain has the
+opposite effect on cell excitability – that is, it inhibits firing
+(Figure 1a,ii). Depolarization occurs in this system simply
+because the resting potential (wK85 mV) is more negative than EGABA (wK70 mV).
+Thus, even relatively negative EGABA values are
+compatible with excitatory effects of GABAergic afferents.
+In the cortex and amygdala, interneurons have a more
+depolarized EGABA value than pyramidal cells [5] so that,
+in interneurons, strongly excitatory effects of stimulation
+of GABAergic afferents can be expected. The same pattern
+is found in the cerebellum: whereas Purkinje cells of twoto-four-week-old rats have an EGABA value near K85 mV,
+that of interneurons (stellate and basket cells of the
+molecular layer) is near K58 mV [6]. Consequently,
+activation of presynaptic GABAergic afferents leads in
+some interneurons to a postsynaptic spike or to a train of
+spikes (Figure 1b,i). In other interneurons, however,
+activation of presynaptic GABAergic afferents has the
+opposite effect: hyperpolarization and a strong reduction
+of the spike frequency (Figure 1b,ii). Analysis of many
+such experiments reveals that both EGABA and the cell
+resting potential have significant cell-to-cell differences,
+and that the nature of the synaptic response is determined
+by the sign of the difference between the two parameters.
+This system conforms to the simple view that depolarizing
+responses are excitatory, and hyperpolarizing responses
+are inhibitory (although it is important to note that this
+scheme is far from universal; Box 1). The interneuron
+network of the cerebellar molecular layer thus possesses
+both excitatory and inhibitory GABAergic synapses
+simultaneously, and is an interesting preparation for
+studying conditions that control the switch from excitatory to inhibitory.
+In chick nucleus magnocellularis cells, which are
+located in the cochlear nucleus and receive GABAergic
+projections from the superior olivary nucleus, EGABA is
+maintained at a very depolarized level (K25 mV) up to ten
+days after hatching, well after hearing is established [7].
+In this preparation, even though GABA-mediated
+
+www.sciencedirect.com 0166-2236/$ - see front matter Q 2005 Elsevier Ltd. All rights reserved. doi:10.1016/j.tins.2005.04.003
+
+Review
+
+TRENDS in Neurosciences Vol.28 No.6 June 2005
+
+(a)
+(i)
+
+285
+
+(b)
+(i)
+
+100 ms
+20 mV
+
+Dendritic IPSP
+
+IPSP
+
+aEPSP (subthreshold)
+
+(ii)
+
+Pair
+
+5 mV
+20 mV
+10 ms
+
+Vm = –74 mV
+f = 0.9 Hz
+
+Stim.
+
+(ii)
+
+Somatic IPSP
+
+IPSP
+
+aEPSP (suprathreshold)
+
+Pair
+
+Vm = –49 mV
+f = 15 Hz
+
+Stim.
+
+Figure 1. Excitatory versus inhibitory GABAergic synapses in mature brain preparations. (a) Cortical slice. (i) Whereas separate activation of dendritic synapses by an
+inhibitory postsynaptic potential (IPSP) and somatic current injection (aEPSP) both lead to subthreshold depolarization, combination of the two produces an action potential.
+(ii) By contrast, activation of somatic synapses by an IPSP converts a depolarizing somatic current injection from suprathreshold to subthreshold. Reproduced, with
+permission, from Ref. [4]. (b) Cerebellar slice. (i) Stimulation (stim.) of GABAergic synapses leads to a burst of action potentials. (ii) In another cell, a similar stimulation
+inhibits firing. The cell in (i) had a low resting potential (VmZK74 mV) and resting firing frequency (fZ0.9 Hz), whereas that in (ii) had a higher resting potential (VmZK49 mV) and
+resting firing frequency (fZ15 Hz). (a) and (b) respectively represent recordings from pyramidal cells and basket cells; they were obtained with gramicidin perforated-patch
+recording, to preserve intracellular anion homeostasis. Reproduced, with permission, from Ref. [6] q (2003) the Society for Neuroscience.
+
+synaptic potentials are depolarizing, they are not suprathreshold for single stimuli. When a train is given, just one
+spike is generated near the beginning of the train (usually
+in response to the second stimulation). In this sense, the
+GABAergic input can be considered excitatory. However,
+GABA-mediated trains inhibit spikes induced by simultaneous glutamate inputs, and from this point of view they
+are inhibitory [7].
+Activity-driven changes in the sign of GABAergic
+synapses
+The aforementioned examples illustrate the fact that
+apparently modest differences in EGABA can have dramatic functional consequences. This raises the question of
+whether neuronal activity can significantly alter this
+parameter.
+In mature hippocampal pyramidal cells, the effects of
+single stimulations of GABAergic inputs are inhibitory.
+However, if a high-frequency train is delivered, GABAergic synapses become depolarizing (after w1 s) and
+enhance firing. This is accompanied by accumulation of
+
+ClK in neurons, and increased concentration of KC in
+interstitial fluid [8]. New evidence using intracellular ClK
+recording (as measured using the fluorescent probe
+6-methoxy-N-ethylquinolium iodide, MEQ) confirms that
+the intracellular ClK concentration ([ClK]i) rises in CA1
+pyramidal cells during such trains, and suggests a close
+link between ClK accumulation and enhanced excitability
+[9]. In the CA3 region, the activity-driven EGABA shift is
+much faster and larger in interneurons than in pyramidal
+cells [10]. The contrast between the two neuron types
+might be due to differences in surface-to-volume ratio, in
+intracellular carbonic anhydrase activity or in plasma
+membrane ClK transporters. In any case, it is interesting
+that in the hippocampus, high-frequency stimulation
+induces different EGABA changes in interneurons and
+principal cells; these are reminiscent of the different
+EGABA values observed under resting conditions in the
+corresponding neuronal classes of the cortex and
+cerebellum.
+Although the [ClK]i increase measured by Isomura
+et al. [9] was transient, another study indicates that,
+
+Box 1. Defining an excitatory GABA action
+There is sometimes confusion concerning the meaning of the words
+‘excitatory GABA action’. Although a high [ClK]i value makes it easier to
+observe such an action, it has been pointed out many times that a
+depolarizing effect of GABA should not be taken as synonym for an
+excitatory effect. Thus, in the spinal cord GABA depolarizes primary
+afferent nerve terminals, yet inhibits transmission [1]. Likewise, in
+peptidergic terminals, GABA-induced depolarization leads to NaC
+channel inactivation and reduces presynaptic GABA release [30];
+Figure 1b illustrates another example of an inhibitory depolarizing
+response. In a frequently found pattern, a depolarizing GABA-mediated
+potential leads to a sequence of inhibition and excitation. Inhibition lasts
+for the duration of the GABA-mediated conductance, and is due to the
+fact that this conductance tends to clamp the cell potential near the
+equilibrium potential for ClK, which is typically below the spike firing
+threshold (‘shunting inhibition’; e.g. see Ref. [31]).
+www.sciencedirect.com
+
+It is also important to distinguish between the effects of brief GABA
+application, as occurs during single synaptic transmission, and the
+effects of longer application of GABAA receptor agonists. This review
+first focuses on single synaptic effects. They are considered excitatory
+if a single activation of a GABA afferent facilitates (Figure 1a,i) or elicits
+(Figure 1b,ii) spiking of the postsynaptic cell. Effects of longer GABAA
+receptor stimulation, as occurs during application of exogenous
+agonists, are considered later in this review. Even though sustained
+GABAA receptor activation often stops action potential firing, owing to
+shunting inhibition, it can lead to elevation of [Ca2C]i (Figure 3). This
+elevation might serve as a positive signal for many cellular processes,
+but it might also trigger phenomena that can hardly be considered
+excitatory, including inhibition of spike firing following activation of
+Ca2C-dependent KC channels. Thus, postsynaptic elevation of [Ca2C]i
+cannot be taken as a proof for excitatory GABA action.
+
+Review
+
+TRENDS in Neurosciences Vol.28 No.6 June 2005
+
+under certain circumstances, the concentration change
+can be made virtually permanent (on the timescale of a
+standard electrophysiological recording, w30 min). In
+hippocampal cultures and slices, it was recently shown
+that combining stimulation of GABAergic afferents with
+postsynaptic spiking results in a long-term change in
+[ClK]i, provided that the two stimuli are applied repetitively within a time window of w20 ms [11] (Figure 2).
+Pharmacological evidence indicates that the long-term
+EGABA increase requires a postsynaptic increase in
+intracellular Ca2C concentration ([Ca2C]i) following activation of L-type Ca2C channels. The change in EGABA
+amounts to w4 mV following a 30-s-long train of paired
+stimulations at 5 Hz; this would be sufficient to switch the
+sign of a synapse from inhibitory to excitatory. Woodin
+et al. suggest that altered activity of ClK transporters,
+possibly the KC–ClK cotransporter KCC2, is responsible
+for the effect. Consistent with this possibility, sustained
+interictal-like activity in hippocampal CA1 cells downregulates KCC2 mRNA and protein expression [12]. Thus,
+the notion emerges that neuronal activity can change
+EGABA in two ways. First, changes in [ClK]i result from
+sustained or repetitive activation of GABAA receptors;
+these changes are transient and relax with a time
+constant of w1 min [13]. Second, in certain circumstances
+(probably involving an increase in [Ca2C]i in addition to
+that of [ClK]i), the properties of the ClK transporters are
+modified, so that the set-point of the system is altered,
+resulting in long-term changes in EGABA.
+The activity-dependent rise of [ClK]i in the hippocampus is thought to be due to the mixed permeability of
+GABAA-receptor-gated channels for ClK and HCOK
+3 . Each
+(a) (i)
+
+Modifications in [ClK]i during the day–night cycle
+Because GABAergic synapses of mature brain circuits
+operate so close to their switch point, they can be used to
+reverse the operation of a circuit. A few years ago, Wagner
+et al. [17] showed that in the suprachiasmatic nucleus,
+which largely drives the day–night cycle in mammals,
+GABAergic inputs are excitatory during the day and
+inhibitory during the night. They proposed that the signchange occurred because of a shift of EGABA. More recently,
+it was shown that muscimol applications increase [Ca2C]i
+in a larger proportion of suprachiasmatic nucleus cells
+during the day than at night [18].
+Increased [ClK]i in pathological conditions
+As already discussed here, repetitive extracellular stimulation of the hippocampus at a high rate increases [ClK]i
+and consequently renders GABAergic synapses excitatory.
+(b) (i)
+
+2
+
+800
+GPSC amplitude
+
+presynaptic spike induces small entry of ClK and exit of
+K
+HCOK
+3 ; if internal HCO3 concentration is renewed from
+diffusing CO2 by intracellular carbonic anhydrase, the
+system continues to increase [ClK]i [14]. Consistent with
+this view, the enhanced cell firing induced by highfrequency stimulation was blocked by inhibiting intracellular carbonic anhydrase [15]. This effect appears late
+in development [later than postnatal day (P)15 in rat] and
+is due to the expression of a specific subtype of carbonic
+anhydrase, called CAVII, in pyramidal cells [15]. Thus,
+expression of this carbonic anhydrase provides a means to
+obtain excitatory GABAA-receptor-triggered actions that
+differ mechanistically from those obtained early in life by
+direct membrane depolarization [16].
+
+1
+600
+
+400
+1
+
+200
+–10
+
+2
+
+0
+10
+Time (min)
+
+20
+
+GPSC amplitude (normalized)
+
+286
+
+200
+0
+–200
+–400
+–600
+–90 –80 –70 –60 –50 –40 –30
+Holding potential (mV)
+
+1.5
+
+2
+
+1
+
+1.0
+0.5
+1
+
+0.0
+–10
+
+2
+
+0
+10
+Time (min)
+
+20
+
+–75
+–65
+Holding potential (mV)
+
+–55
+
+(ii)
+200
+GPSC amplitude (pA)
+
+GPSC amplitude (pA)
+
+(ii)
+400
+
+2.0
+
+150
+100
+50
+0
+–50
+
+–100
+–85
+
+Figure 2. Long-term change in [ClK]i following concerted presynaptic and postsynaptic stimulation – paired recordings from hippocampal neurons in culture. (a) Pairing
+presynaptic and postsynaptic stimulations (5 Hz for 30 s; stimulation at time 0 indicated by the black arrow) leads to long-lasting enhancement of GABA-mediated
+postsynaptic current (GPSC) amplitudes (i). The peak amplitude of GPSCs reverses at a less-negative potential after the pairing protocol (circles and dotted line) than before
+(diamonds and continuous line), indicating a rise in [ClK]i (ii). (b) If a time interval as short as 75 ms is inserted between presynaptic and postsynaptic stimulations, no effect is
+seen. Inserts in (a,i) and (b,i) represent averaged traces before (1) and after (2) stimulations. Scale bars, 100 pA and 20 ms. Reproduced, with permission, from Ref. [11].
+www.sciencedirect.com
+
+Review
+
+TRENDS in Neurosciences Vol.28 No.6 June 2005
+
+Likewise, in some cells recorded from hippocampal slices
+taken from patients suffering from epilepsy, [ClK]i is
+abnormally elevated, and GABAergic synapses are excitatory [19]. This raises the possibility that elevated [ClK]i
+could be not only the consequence but also the cause of
+bursts of brain activity [20].
+Another pathological situation in which high [ClK]i has
+been documented is ischemia. [ClK]i increase is observed
+after a few minutes of subjecting brain slices to ischemic
+conditions, and GABAergic synapses are thought to then
+become excitatory. This probably has important consequences for subsequent brain damage, because drugs
+interfering with GABA transmission can significantly
+reduce this damage [21].
+Finally, it was recently shown that after prolonged
+constriction of the sciatic nerve (a model of chronic pain),
+[ClK]i is elevated in superficial dorsal horn cells, and that
+applications of exogenous GABA increase [Ca2C]i [22].
+Interestingly, expression of KCC2 appears inhibited in
+dorsal horn neurons of the injured side compared with
+those on the control side, indicating that repetitive painful
+stimuli trans-synaptically increase [ClK]i through an
+action on KCC2.
+Progenitor neuronal cells
+Following the realization that some progenitor cells divide
+and differentiate into neurons in the adult brain, much
+effort has been recently devoted to the characterization of
+these progenitor cells, in particular in the subventricular
+zone. Although these cells are found in adults, they
+resemble neonatal neurons as far as ClK homeostasis is
+concerned. Indeed, neuronal progenitor cells recorded in
+brain slices from adult mice, like those recorded in
+cultures from neonatal rats [23], express GABAA receptors
+and display depolarizing responses to GABA application
+[24]. Because these cells contain GABA, an autocrine
+GABA signaling mechanism was suggested [24,25].
+Furthermore, it was shown that, in the adult mouse,
+application of GABA or bicuculline respectively reduces or
+enhances the speed of migration of neuronal progenitor
+cells [26]. It was suggested that astrocytes modify the
+migration speed by controlling the GABA concentration
+surrounding the neuronal progenitor cells, and that this
+control involves an alteration of [Ca2C]i in the migrating
+cells [26].
+[Ca2C]i rise
+A widely used criterion in studying excitatory GABA
+action is an increase in postsynaptic [Ca2C]i. This effect
+has not so far been described following a single synaptic
+stimulus, and all studies seeking to increase postsynaptic
+[Ca2C]i resort to prolonged activation of GABAA receptors.
+In neonatal preparations, such applications are assumed
+to increase [Ca2C]i because GABA agonists depolarize the
+cells above the activation threshold of voltage-dependent
+Ca2C channels; there is no reason to doubt this interpretation. However, several results indicate that, in more
+mature preparations, more complicated pathways operate. Therefore, care should be taken not to assume that
+postsynaptic [Ca2C]i elevation always reflects postsynaptic excitation (Box 1).
+www.sciencedirect.com
+
+287
+
+Early reports of GABA-induced increases in [Ca2C]i
+were obtained using cultures of neurons (up to several
+weeks old) from cerebellum or hippocampus [27,28]. In the
+first example, the Ca2C responses outlasted GABA
+applications by minutes, long after the expected offset of
+GABAA receptor activation [27]. By contrast, responses to
+glutamate receptor agonists returned quickly upon washout of the agonist. In the second study, the increase in
+[Ca2C]i elicited by a comparatively short (duration of
+w1 s) agonist application recovered much more slowly
+than the GABA-induced current after prolonged GABA
+application, indicating that recovery from desensitization
+utilizes distinct mechanisms for the two responses [28].
+Based on these observations, Segal suggested that the
+coupling between GABAA receptor activation and Ca2C
+response involves slow kinetics, and is more complex than
+depolarization-driven activation of Ca2C channels.
+The exact nature of this link has long remained elusive.
+Very recently however, the issue has been re-addressed in
+interneurons of the cerebellar molecular layer, which
+display a robust Ca2C response to muscimol applications
+at up to P20 [29] (Figure 3a). In these cells, EGABA is on
+average equal to the resting potential, so that a simple
+depolarization-driven Ca2C entry would not have an
+effect. The Ca2C response to muscimol was found to have
+two phases: an early peak that is accompanied by mild cell
+depolarization, and a sustained phase during which the
+cell repolarizes to near the resting level. The early phase
+appears to be linked to a gradual [ClK]i increase, driven by
+the mixed permeability of GABA-activated channels for
+2C
+]i
+ClK and HCOK
+3 [14]. The associated increase in [Ca
+rise is proposed to occur as part of a regulatory volume
+decrease triggered by the increased osmotic tension
+accompanying the [ClK]i rise (Figure 3b). The second
+phase of the Ca2C response includes participation from
+ryanodine-sensitive Ca2C stores and L-type Ca2C
+channels.
+Conclusion and perspectives
+It is an unfortunate, but inescapable, outcome of the
+recent work summarized here that the clean separation
+between positive glutamate and negative GABA has to be
+abandoned. For this reason, the traditional inhibitory
+postsynaptic potential (IPSP) and inhibitory postsynaptic
+current (IPSC) denominations are starting to be replaced
+by GABA-mediated postsynaptic potential (GPSP) and
+GABA-mediated postsynaptic current (GPSC) in some
+publications [6,11]. Thus, it is not enough to determine the
+pharmacology of a synaptic connection to establish its
+physiological role, and much painstaking work lies ahead to
+find out exactly what effect each individual GABAergic
+synapse has on the postsynaptic cell. The same applies
+presumably to glycinergic synapses, which have not been
+discussed here because of lack of space. The work needed
+appears formidable, because it involves in each case several
+tests in different stimulation conditions, and the use of
+various techniques, including gramicidin perforated-patch
+and cell-attached recordings, which are particularly
+demanding and prone to experimental artefacts.
+Another important message of this review is that
+GABAergic synapses operate close to the critical point
+
+Review
+
+288
+
+(a)
+
+TRENDS in Neurosciences Vol.28 No.6 June 2005
+
+understood and further tested in several preparations. It
+will be particularly important to explore the intracellular
+pathways involved in this response, and also the functional consequences of the resulting [Ca2C]i increase.
+
+Muscimol
+
+∆F/Fo (%)
+
+150
+
+100
+
+References
+
+Control
+Cadmium
+
+50
+
+0
+0
+
+5
+
+10
+Time (s)
+
+15
+
+(b)
+100
+
+200 mOsm
+
+∆F/Fo (%)
+
+80
+60
+40
+20
+0
+
+0
+
+5
+
+10
+Time (s)
+
+15
+
+Figure 3. Muscimol-induced and hypo-osmotically-induced increases in [Ca2C]i in
+cerebellar basket cells. (a) Application of the GABAA-receptor-specific agonist
+muscimol leads to a [Ca2C]i rise (measured as the relative increase in fluorescence,
+or DF/Fo ratio, reported by the Ca2C-sensitive dye OG-1) in cerebellar basket cells.
+This is not significantly inhibited by the Ca2C-channel blocker cadmium, indicating
+that onset of the [Ca2C]i rise is not due to activation of voltage-dependent Ca2C
+channels. (b) In another cell, application of a hypo-osmotic solution leads to a
+[Ca2C]i rise. This indicates that osmotic stress induces Ca2C responses. During
+prolonged muscimol application, such stress could be produced by intracellular
+accumulation of ClK. The [Ca2C]i rise in (b) is transient; likewise, that in (a)
+displayed a transient peak followed by a much lower plateau (not shown). The
+difference in timescale between the osmotically-driven signal and that induced by
+muscimol can be explained by the fact that in the latter case, muscimol must induce
+an increase in [ClK]i before the resulting osmotic stress can elevate [Ca2C]i.
+Reproduced, with permission, from Ref. [27].
+
+where the sign of the effects switches over. In fact, a given
+synapse can display inhibitory effects with one protocol
+and excitatory effects with another. Interestingly, relatively minor [ClK]i alterations in the postsynaptic cell can
+operate the sign switch; such alterations might be brought
+about either by physiologically relevant parameters
+(e.g. status of the day–night cycle) or by pathological
+conditions. Thus, GABAergic synapses appear much more
+versatile than previously thought. An important challenge
+for future research will be to understand better the
+cellular mechanisms and functional roles of these fascinating sign changes.
+Finally, an unexpected outcome of recent research in
+this area has been the finding that GABA-induced [Ca2C]i
+rises are not necessarily a consequence of depolarizationtriggered action potential firing. The cellular mechanism
+that is suggested in cerebellar interneurons – osmoticallydriven [Ca2C]i elevation [29] – needs to be better
+www.sciencedirect.com
+
+1 Delpire, E. (2000) Cation–chloride cotransporters in neuronal communication. News Physiol. Sci. 15, 309–311
+2 Ben-Ari, Y. (2002) Excitatory actions of GABA during development:
+the nature of the nurture. Nat. Rev. Neurosci. 3, 728–739
+3 Owens, D.F. and Kriegstein, A.R. (2002) Is there more to GABA than
+synaptic inhibition? Nat. Rev. Neurosci. 3, 715–727
+4 Gulledge, A.T. and Stuart, G.J. (2003) Excitatory actions of GABA in
+the cortex. Neuron 37, 299–309
+5 Martina, M. et al. (2001) Cell-type-specific GABA responses and
+chloride homeostasis in the cortex and amygdala. J. Neurophysiol. 86,
+2887–2895
+6 Chavas, J. and Marty, A. (2003) Coexistence of excitatory and
+inhibitory GABA synapses in the cerebellar interneuron network.
+J. Neurosci. 23, 2019–2031
+7 Lu, T. and Trussell, L.O. (2001) Mixed excitatory and inhibitory
+GABA-mediated transmission in chick cochlear nucleus. J. Physiol.
+535, 125–131
+8 Voipio, J. and Kaila, K. (2000) GABAergic excitation and KC-mediated
+volume transmission in the hippocampus. Prog. Brain Res. 125,
+329–338
+9 Isomura, Y. et al. (2003) Synaptically activated ClK accumulation
+responsible for depolarizing GABAergic responses in mature hippocampal neurons. J. Neurophysiol. 90, 2752–2756
+10 Lamsa, K. and Taira, T. (2003) Use-dependent shift from inhibitory to
+excitatory GABAA receptor action in SP-O interneurons in the rat
+hippocampal CA3 area. J. Neurophysiol. 90, 1983–1995
+11 Woodin, M. et al. (2003) Coincident pre- and postsynaptic activity
+modifies GABAergic synapses by postsynaptic changes in ClK
+transporter activity. Neuron 39, 807–820
+12 Rivera, C. et al. (2004) Mechanism of activity-dependent downregulation of the neuron-specific K–Cl cotransporter KCC2.
+J. Neurosci. 24, 4683–4691
+13 Thompson, S.M. and Ga¨hwiler, B. (1989) Activity-dependent disinhibition. I. Repetitive stimulation reduces IPSP driving force and
+conductance in the hippocampus in ftro. J. Neurophysiol. 61, 501–511
+14 Kaila, K. and Voipio, J. (1987) Postsynaptic fall in intracellular pH
+induced by GABA-activated bicarbonate conductance. Nature 330,
+163–165
+15 Ruusuvuori, E. et al. (2004) Carbonic anhydrase isoform VII acts as a
+molecular switch in the development of synchronous gammafrequency firing of hippocampal CA1 pyramidal cells. J. Neurosci.
+24, 2699–2707
+16 Rivera, C. et al. (2005) Two developmental switches in GABAergic
+signalling: the KC–ClK cotransporter KCC2 and carbonic anhydrase
+CAVII. J. Physiol. 562, 27–36
+17 Wagner, S. et al. (1997) GABA in the mammalian suprachiasmatic
+nucleus and its role in diurnal rhythmicity. Nature 387, 598–603
+18 Ikeda, M. et al. (2003) Developmental and circadian changes in Ca2C
+mobilization mediated by GABAA and NMDA receptors in the
+suprachiasmatic nucleus. Eur. J. Neurosci. 17, 58–70
+19 Cohen, I. et al. (2002) On the origin of interictal activity in human
+temporal lobe epilepsy in ftro. Science 298, 1418–1421
+20 Cohen, I. et al. (2003) Mesial temporal lobe epilepsy: a pathological
+replay of developmental mechanisms? Biol. Cell. 95, 329–333
+21 Schwartz-Bloom, R.D. and Sah, R. (2001) g-aminobutyric acid
+neurotransmission and cerebral ischemia. J. Neurochem. 77, 353–371
+22 Coull, J.A.M. et al. (2003) Trans-synaptic shift in anion gradient in
+spinal lamina I neurons as a mechanism of neuropathic pain. Nature
+424, 938–942
+23 Stewart, R.R. et al. (2002) Neural progenitor cells of the neonatal rat
+anterior subventricular zone express functional GABA(A) receptors.
+J. Neurobiol. 50, 305–322
+24 Wang, D.D. et al. (2003) GABA depolarizes neuronal progenitors of the
+postnatal subventricular zone via GABAA receptor activation.
+J. Physiol. 550, 785–800
+25 Nguyen, L. et al. (2003) Autocrine/paracrine activation of the GABAA
+
+Review
+
+TRENDS in Neurosciences Vol.28 No.6 June 2005
+
+receptor inhibits the proliferation of neurogenic polysialylated neural
+cell adhesion molecule-positive (PSA-NCAMC) precursor cells from
+postnatal striatum. J. Neurosci. 23, 3278–3294
+26 Bolteus, A.J. and Bordey, A. (2004) GABA release and uptake regulate
+neuronal precursor migration in the postnatal subventricular zone.
+J. Neurosci. 24, 7623–7631
+27 Connor, J.A. et al. (1987) Depolarization- and transmitter-induced
+changes in intracellular Ca2C of rat cerebellar granule cells in explant
+cultures. J. Neurosci. 7, 1384–1400
+28 Segal, M. (1993) GABA induces a unique rise of [Ca]i in cultured rat
+hippocampal neurons. Hippocampus 3, 229–238
+
+29 Chavas, J. et al. (2004) Osmotic tension as a possible link between
+GABAA receptor activation and intracellular calcium elevation.
+Neuron 44, 701–713
+30 Zhang, S.J. and Jackson, M.B. (1995) GABAA receptor activation and
+the excitability of nerve terminals in the rat posterior pituitary.
+J. Physiol. 483, 583–595
+31 Gao, X-B. et al. (1998) GABA-dependent firing of glutamate-evoked
+action potentials at AMPA/kainate receptors in developing hypothalamic neurons. J. Neurophysiol. 79, 716–726
+
+Articles of interest in Current Opinion journals
+From monkeys to humans: what do we now know about brain homologies?
+Martin I. Sereno and Roger B.H. Tootell
+Current Opinion in Neurobiology 15, 135–144
+See me, hear me, touch me: multisensory integration in lateral occipital–temporal cortex
+Michael S. Beauchamp
+Current Opinion in Neurobiology 15, 145–153
+Perceptual learning: specificity versus generalization
+Manfred Fahle
+Current Opinion in Neurobiology 15, 154–160
+Reorganization and plasticity in the adult brain during learning of motor skills
+Julien Doyon and Habib Benali
+Current Opinion in Neurobiology 15, 161–167
+The primate hippocampus: ontogeny, early insult and memory
+Jocelyne Bachevalier and Faraneh Vargha-Khadem
+Current Opinion in Neurobiology 15, 168–174
+Directing the mind’s eye: prefrontal, inferior and medial temporal mechanisms for visual working memory
+Charan Ranganath and Mark D’Esposito
+Current Opinion in Neurobiology 15, 175–182
+The frontal lobes and the regulation of mental activity
+Sharon L. Thompson-Schill, Marina Bedny and Robe-rt F. Goldberg
+Current Opinion in Neurobiology 15, 219-224
+www.sciencedirect.com
+
+289
+
+

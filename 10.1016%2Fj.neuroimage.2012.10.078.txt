@@ -1,0 +1,2263 @@
+NeuroImage 66 (2013) 563–576
+
+Contents lists available at SciVerse ScienceDirect
+
+NeuroImage
+journal homepage: www.elsevier.com/locate/ynimg
+
+Dynamic causal modelling of lateral interactions in the visual cortex
+D.A. Pinotsis ⁎, D.S. Schwarzkopf, V. Litvak, G. Rees, G. Barnes, K.J. Friston
+The Wellcome Trust Centre for Neuroimaging, University College London, Queen Square, London WC1N 3BG, UK
+
+a r t i c l e
+
+i n f o
+
+Article history:
+Accepted 25 October 2012
+Available online 2 November 2012
+Keywords:
+Neural ﬁeld theory
+Dynamic causal modelling
+MEG
+Connectivity
+Visual cortex
+Electrophysiology
+
+a b s t r a c t
+This paper presents a dynamic causal model based upon neural ﬁeld models of the Amari type. We consider
+the application of these models to non-invasive data, with a special focus on the mapping from source activity
+on the cortical surface to a single channel. We introduce a neural ﬁeld model based upon the canonical microcircuit (CMC), in which neuronal populations are assigned to different cortical layers. We show that
+DCM can disambiguate between alternative (neural mass and ﬁeld) models of cortical activity. However,
+unlike neural mass models, DCM with neural ﬁelds can address questions about neuronal microcircuitry
+and lateral interactions. This is because they are equipped with interlaminar connections and horizontal
+intra-laminar connections that are patchy in nature. These horizontal or lateral connections can be regarded
+as connecting macrocolumns with similar feature selectivity. Crucially, the spatial parameters governing horizontal connectivity determine the separation (width) of cortical macrocolumns. Thus we can estimate the
+width of macro columns, using non-invasive electromagnetic signals. We illustrate this estimation using dynamic causal models of steady-state or ongoing spectral activity measured using magnetoencephalography
+(MEG) in human visual cortex. Speciﬁcally, we revisit the hypothesis that the size of a macrocolumn is a
+key determinant of neuronal dynamics, particularly the peak gamma frequency. We are able to show a
+correlation, over subjects, between columnar size and peak gamma frequency — that ﬁts comfortably with
+established correlations between peak gamma frequency and the size of visual cortex deﬁned retinotopically.
+We also considered cortical excitability and assessed its relative inﬂuence on observed gamma activity. This
+example highlights the potential utility of dynamic causal modelling and neural ﬁelds in providing quantitative characterisations of spatially extended dynamics on the cortical surface — that are parameterised in
+terms of horizontal connections, implicit in the cortical micro-architecture and its synaptic parameters.
+© 2012 Elsevier Inc. All rights reserved. This is an open access article under the CC BY license
+(http://creativecommons.org/licenses/by/4.0/).
+
+Introduction
+This work combines neural ﬁeld models — that model the activity of
+layers of cells in cortical patches — with a Bayesian framework for
+optimising model parameters — known as Dynamic Causal Modelling
+(DCM). This combination allows one to address questions about lateral
+cortical interactions in terms of optimal models and model parameters.
+DCM has been applied extensively to fMRI and electrophysiological
+data (David et al., 2006; Friston et al., 2003; Penny et al., 2004) and
+has been used recently to model spatiotemporal dynamics on the cortical surface (Pinotsis et al., 2012). Combining generative models with
+Bayesian optimisation techniques enables one to characterise the
+functional architectures that generate empirical data. In this paper, we
+show that DCM can disambiguate between alternative spatiotemporal
+models of cortical activity — using Bayesian model comparison — and
+furnish quantitative explanations of observed responses, in terms of
+the biophysical properties of lateral cortical connections. This work focuses on two classes of biophysical models describing mesoscale brain
+⁎ Corresponding author at: The Wellcome Trust Centre for Neuroimaging, Institute of
+Neurology, Queen Square, London, UK WC1N 3BG, UK. Fax: +44 207 813 1445.
+E-mail address: d.pinotsis@ucl.ac.uk (D.A. Pinotsis).
+
+activity: neural mass and ﬁeld models. Neural ﬁeld models describe
+how hidden neuronal states (such as the average depolarisation of a
+neural population or layer) evolve over both space and time. In
+contrast, neural mass models only characterise dynamics over time,
+under the assumption that all the neurons of a particular population
+are located at (approximately) the same point.
+In previous work (Pinotsis et al., 2012), we considered the relationship between neural mass and ﬁeld models and showed that
+ﬁeld models can be reduced to neural masses by applying shrinkage
+priors to spike propagation times — such that lateral interactions
+were effectively instantaneous. We introduced a DCM that provides
+an explicit model of spatially extended cortical activity that allows
+one to make inferences about key parameters controlling the topographic distribution of cortical activity using LFP data, like the extent
+of lateral cortical connections and the conduction velocity of spike
+propagation. We were able to show that including spatial parameters
+enables one to explain effects that other models — such as neural
+mass models — attribute to variations in temporal parameters, like
+synaptic rate constants. Dynamic causal models based on neural ﬁelds
+enable one to characterise the propagation of activity on the cortex
+and provide a formal understanding of the mechanisms generating
+spatiotemporal responses. In our previous work above, we considered
+
+1053-8119/$ – see front matter © 2012 Elsevier Inc. All rights reserved. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+http://dx.doi.org/10.1016/j.neuroimage.2012.10.078
+
+564
+
+D.A. Pinotsis et al. / NeuroImage 66 (2013) 563–576
+
+model optimisation under the assumption that one could measure local
+signals (local ﬁeld potentials) that are sensitive to all spatial frequencies.
+In this paper, we consider neural ﬁeld models of non-invasive (EEG or
+MEG) data. This development allows one to make inferences about
+the nature of lateral interactions in cortical sources, without spatially
+resolved measurements.
+Spectral responses of neural ﬁelds
+The characterisation of electrophysiological signals depends upon
+models of how they are generated in source space and how the
+resulting (hidden) neuronal states are detected by sensors. At the
+source level we consider a model based upon a canonical microcircuit
+that allows one to separate the sources of forward and backward connections in cortical hierarchies. In terms of the mapping from source
+to sensor space — we use a conventional lead ﬁeld formulation that
+is expanded in terms of spatial basis functions. As in previous work,
+we focus on the modelling of power spectra. There is a long history
+of modelling steady-state (or ongoing) activity spectra, associated
+with neural ﬁelds, usually in models of the whole cortex, e.g., (Jirsa,
+2009). Robinson (2006) has developed a neurophysiologically grounded
+model of corticothalamic activity, which reproduces many properties of
+empirical EEG signals; such as the spectral peaks seen in various sleep
+states and seizure activity. Technically, the spectra summarising the
+response of cortical sources can be deﬁned in terms of transfer functions,
+mapping endogenous neuronal ﬂuctuations to observed responses
+(Freeman, 1972; Nunez, 1995; Robinson et al., 2001; Robinson et
+al., 2003). In Pinotsis and Friston (2011), we derived the transfer
+function — and an expression for the spectral responses — for a source
+described by a classical neural ﬁeld equation, while in Pinotsis et al.
+(2012) we extended our approach to a cortical source that comprises
+multiple layers. This allowed us to model the spectral activity of cortical
+ﬁelds as measured on the cortical surface. Here, we pursue a similar approach and generate the corresponding spectral responses, as measured
+by non-invasive sensors. These predictions are generated in an efﬁcient
+manner that exploits the nature of the mapping from sources to sensors
+in EEG and MEG.
+The resulting scheme can be regarded as inverting or ﬁtting population models of the Amari type, using real data and Bayesian model
+inversion. Previous work in a similar vein includes the use of Kalman
+ﬁlters to develop estimation schemes for both neural mass (Riera et
+al., 2007; Valdes et al., 1999) and neural ﬁeld models of a single
+population (Galka et al., 2008; Schiff and Sauer, 2008). In a related approach, Daunizeau et al. (2009)) replaced the standard dipole source —
+used in neural mass models — with the principal Fourier mode of a
+neural ﬁeld, for the particular case of exponentially decaying synaptic
+density over the cortical surface. Finally (Markounikau et al. (2010)
+used a combination of linear and nonlinear optimisation methods to
+invert a two-layered neural ﬁeld model of voltage-sensitive dye data,
+describing inhibitory and excitatory populations (without conduction
+delays). The neural ﬁeld model considered here has four layers and is
+based on canonical cortical microcircuitry that accounts for several aspects of local cortical computations in theoretical neurobiology. This
+model provides an extension of the well known Jansen and Rit neural
+mass model and incorporates conduction delays associated with the
+propagation of neuronal spikes.
+
+pattern formation, by analysing the steady-state behaviour of underlying ﬁeld equations: for example, Wilson and Cowan developed a treatment of Turing instabilities in the context of neural ﬁelds (Wilson and
+Cowan, 1972). In a similar vein, Grossberg initiated a line of work on
+shunting interactions — via nonlinearly coupled inputs — and considered
+limits as the solutions approached steady state (Grossberg, 1973). At
+about the same time, Amari proved that systems of neural ﬁelds typically
+approach steady-state, in which some parts remain active, thus providing a metaphor for short-term memory.
+From an anatomical viewpoint, the functional specialisation of visual (and auditory) cortex is reﬂected in its patchy or modular organisation — in which local cortical structures share common response
+properties. This organisation may be mediated by a patchy distribution of horizontal intrinsic connections that can extend up to 8 mm,
+linking neurons with similar receptive ﬁelds: see, e.g., Angelucci and
+Bressloff (2006), Burkhalter and Bernardo, (1989), and Wallace and
+Bajwa (1991). The existence of patchy connections in different cortical
+areas (and species) has been established with tracer studies in man, macaque and cat: Burkhalter and Bernardo (1989), Stettler et al. (2002) and
+(Wallace and Bajwa (1991), respectively. It has been shown that such
+connections can have profound implications for neural ﬁeld dynamics:
+see Baker and Cowan (2009). The precise form of such connections
+may be explained by self-organisation under functional and structural
+constraints; for example, minimising the length of myelinated axons to
+offset the cost of transmitting action potentials (Cherniak, 1994; Wen
+and Chklovskii, 2008). Generic constraints of this sort have been used
+to motivate general principles of connectivity; namely, that evolution
+attempts to optimise a trade-off between metabolic cost and topological complexity (Bassett et al., 2010). In short, visual and auditory
+cortices can be characterised by a patchy organisation that is conserved over the cortex and which allows for both convergence and
+divergence of cortical connections. Synaptic densities can then be
+approximated by isotropic distributions with an exponential decay
+over the cortical surface. In this work, we use a combination of
+patchy and isotropic distributions, using connectivity kernels with
+non-central peaks to model sparse intrinsic connections in cortical
+circuits that mediate both local and non-local interactions. In
+other words, we consider models in which neurons receive signals
+both from their immediate neighbours and remote populations
+that share the same functional selectivity (Pinotsis and Friston,
+2011). We focus on the particular problem of identifying the parameters of lateral connections within a bounded cortical patch or manifold,
+as measured at a distance, with an array of non-invasive (MEG or EEG)
+sensors.
+This paper comprises three sections. The ﬁrst reviews a canonical
+neural mass model based on anatomical data and theoretical constraints from the theory of predictive coding. The second section describes a neural ﬁeld model based upon this canonical microcircuitry.
+Our focus here is on equipping the resulting neuronal model with an
+electromagnetic forward model to predict responses in non-invasive
+sensors. In the third section, we use Bayesian model comparison to adjudicate between various formulations of the ensuing neural ﬁeld
+model (DCM) and establish its construct validity by optimising parameters pertaining to GABAergic concentrations, that have been shown to
+correlate with the peak gamma frequency of steady-state activity
+(Muthukumaraswamy et al., 2009).
+
+Lateral interactions and neural ﬁelds
+A canonical model of cortical activity
+Modelling lateral interactions with neural ﬁeld models has a long
+history. Pioneering work was introduced in papers by Amari, Wilson
+and Cowan, Grossberg and colleagues (Amari and Arbib, 1977;
+Amari and Takeuchi, 1978; Grossberg and Levine, 1975; Wilson and
+Cowan, 1973). These developments can be traced back to the work of
+physicists in the 19th century — such as Helmholtz and Mach — on
+visual perception. The ﬁrst neural ﬁeld models considered spontaneous
+
+This section introduces the neuronal ﬁeld model used in subsequent sections on dynamic causal modelling. The particular neuronal
+model of source activity used here is based upon a reﬁnement of conventional (convolution–based) neuronal models that explicitly model
+the neuronal sources of forward and backward connections in cortical
+hierarchies — these are the superﬁcial and deep pyramidal cell
+
+D.A. Pinotsis et al. / NeuroImage 66 (2013) 563–576
+
+populations respectively. We develop the corresponding neural ﬁeld
+model from established neural mass models.
+The canonical microcircuit
+Recent work suggests that superﬁcial layers of visual cortex oscillate
+at gamma frequencies, while deep layers primarily oscillate at lower
+frequencies (Buffalo et al., 2011). Since forward connections originate
+predominately from superﬁcial layers and backward connections
+primarily originate in deep layers, these spectral asymmetries suggest
+that forward connections use faster (gamma) temporal frequencies,
+while backward connections may employ lower (alpha or beta)
+frequencies — a suggestion that has experimental support (Roopun et
+al., 2010). These asymmetries mandate something quite remarkable:
+namely, a synthesis and segregation of forward and backward efferents from afferent input. This segregation can only arise from local
+non-linear neuronal computations that are structured and precisely
+interconnected. Non-linear neuronal transformations are necessary
+to account for the implicit coupling between different frequencies
+and arise from both synaptic mechanisms (e.g. non-linear dendritic
+integration) and population dynamics (e.g. sigmoid activation functions). The canonical microcircuit is a detailed proposal for such a
+laminar-speciﬁc intracortical architecture that describes how information ﬂows through the cortical column. This model is based on
+ﬁndings in the primary visual cortex (Douglas and Martin, 1991)
+but recent work (Lefort et al., 2009; Weiler et al., 2008) indicates that
+similar microcircuits exist in other regions, such as somatosensory
+and motor cortex.
+Douglas and Martin recorded intracellular potentials from cells in
+area 17 of the cat while they stimulated cortical afferents and noticed
+a strong compartmentalisation of the superﬁcial and deep cell
+properties — reﬂected in slow superﬁcial responses and fast input
+layer responses. The authors created a conductance-based model
+that reproduced the evolution of excitation and inhibition through
+the cortical circuit with great precision. This model contained three
+groups of cells: superﬁcial and deep pyramidal cells, and a common
+pool of inhibitory cells. All three pools of neurons receive thalamic
+drive — although the thalamic drive to deep layer cells was weaker
+than the others. All neuronal populations expressed signiﬁcant
+self-connectivity, and interconnected with the other populations.
+This model reproduced the features observed in their electrophysiological recordings — including the latency difference between superﬁcial and deep layer neurons — and has served to establish several
+basic properties that are now believed to be replicated in other cortical areas: ﬁrst, although superﬁcial and deep compartments are
+strongly interconnected, their response properties are also strongly
+segregated. Second, cortex is not under tonic inhibition, rather, both
+excitation and inhibition are generated by afferent thalamic input
+and both shape ongoing cortical responses. Third, the canonical
+microcircuit can amplify thalamic inputs to generate self-sustaining
+activity, while also maintaining a delicate balance between excitation
+and inhibition — so as to prevent runaway excitation.
+Previous computational modelling studies indicate that this circuitry allows the cortex to optimally organise and integrate bottom-up, lateral, and top-down information (Raizada and Grossberg, 2003).
+Douglas and Martin suggest that the rich anatomical connectivity of superﬁcial layer (2/3) pyramidal cells allows them to collect information
+from all relevant top-down, lateral, and bottom-up inputs, and —
+through processing in the dendritic tree — select the most likely interpretation of its subcortical inputs. For a relevant discussion and more
+details on the canonical microcircuit and its potential role in predictive
+coding we refer the reader to Bastos et al. (under review).
+Haeusler and Maass used Hodgkin and Huxley neurons to build a
+realistic microcircuit model and showed that a cortical column —
+whose connectivity conforms to the canonical microcircuit — can
+perform various computations efﬁciently, in relation to a column
+
+565
+
+with random connectivity (Haeusler and Maass, 2007). By collapsing
+two pairs of cell types in the Haeusler and Maass model — while preserving the topology of the connectivity — one obtains the canonical
+microcircuit depicted in Fig. 1: this circuit comprises four populations: excitatory spiny stellate input cells (1), inhibitory interneurons (2), deep excitatory output pyramidal cells (3) and superﬁcial
+excitatory pyramidal cells (4). In what follows, we describe a mathematical model of how the neuronal states of this these populations
+evolve over time. This model provides the basis of our dynamic causal
+model:We ﬁrst deﬁne the vector-valued function
+T
+
+V ¼ ðv1 ; v2 ; v3 ; v4 Þ
+
+ð1Þ
+
+where va(t) denotes the expected depolarisation of the a-th population (a = 1,…,4) at time t. The dynamics of depolarisation are then
+described by the following second-order differential equation:
+2
+V€ þ 2BV_ ¼ −B V þ AB⋅F∘V þ GU
+
+ð2Þ
+
+where U ðt Þ∈R4 is a vector of external inputs (exogenous neuronal
+ﬂuctuations) and A and B are 4 × 4 matrices of synaptic parameters
+controlling the maximum postsynaptic responses for excitatory (me)
+and inhibitory (mi) populations and the rate-constants of postsynaptic ﬁltering (κ1, …, κ4; c.f., decay):
+A ¼ diagðme ; mi ; me ; me Þ
+B ¼ diagðκ 1 ; κ 2 ; κ 3 ; κ 4 Þ
+4
+
+ð3Þ
+
+4
+
+F : R →R is a nonlinear mapping from postsynaptic depolarisation
+to presynaptic ﬁring rates and G : R4 →R4 maps the inputs to the
+motion of hidden neuronal states; namely
+T
+
+G ¼ ðκ 1 me ; 0; 0; 0Þ
+
+ð4Þ
+
+In summary, Eq. (2) expresses the rate of change of expected
+depolarisation in each population as a sum of three terms; the ﬁrst
+is a simple decay, the second is due to presynaptic input from other
+parts of the cortex and the ﬁnal part is due to external inputs U(t).
+Writing out Eq. (2) in component form, we have
+v€ 1 þ 2κ e v_ 1 þ κ 2e v1 ¼ κ 1 me ð−d14 ·σ ðv4 Þ þ d11 ·σ ðv1 Þ−d12 ·σ ðv2 Þ þ U Þ
+v€ 2 þ 2κ i v_ 2 þ κ 2i v2 ¼ κ 2 mi ðd21 ·σ ðv1 Þ þ d22 ·σ ðv2 Þ þ d23 ·σ ðv3 ÞÞ
+2
+v€ 3 þ 2κ e v_ 3 þ κ e v3 ¼ κ 3 me ð−d32 ·σ ðv2 Þ þ d33 ·σ ðv3 ÞÞ
+2
+v€ 4 þ 2κ e v_ 4 þ κ e v4 ¼ κ 4 me ðd41 ·σ ðv1 Þ þ d44 ·σ ðv4 ÞÞ
+
+ð5Þ
+
+where the sigmoid ﬁring rate function is
+σ ðva Þ ¼
+
+1
+1 þ expðr ðη−va ÞÞ
+
+ð6Þ
+
+Here, r and η are parameters that determine the shape of this sigmoid activation function. In particular, r is synaptic gain and η is the
+postsynaptic potential at which the half of the maximum ﬁring rate
+is elicited. In Eq. (5), dab ⋅ σ(vb) is (endogenous) presynaptic input
+to the a-th population from the b-th and corresponds to the mapping
+F ∘ V. This is a sigmoid function σ(vb) of postsynaptic depolarisation in
+the b-th population, multiplied by the intrinsic connection strength
+dab between the two populations (Jansen and Rit, 1995). See Fig. 1
+for a schematic of this model.
+A canonical microcircuit ﬁeld model and its transfer function
+In the case of neural ﬁeld models, we consider spatially extended
+sources occupying bounded manifolds (patches) in different layers
+that lie beneath the cortical surface. In this setting, each population
+
+566
+
+D.A. Pinotsis et al. / NeuroImage 66 (2013) 563–576
+
+Fig. 1. The Canonical Microcircuit (CMC) neural mass model. This ﬁgure shows the evolution equations that specify a CMC mass model of a single source. This model contains four
+populations occupying different cortical layers: the pyramidal cell population of the JR model is here split into two subpopulations allowing a separation of the sources of forward
+and backward connections in cortical hierarchies. As with the JR model, second-order differential equations mediate a linear convolution of presynaptic activity to produce
+postsynaptic depolarisation. This depolarisation gives rise to ﬁring rates within each sub-population that provide inputs to other populations.
+
+now becomes a layer in the cortical sheet. Here, the input U(x,t) is an
+explicit function of both space and time. Furthermore, the 4 × 1 vector
+V ðt Þ∈R4 pertaining to the hidden neuronal states of each layer is replaced by V ðx; t Þ∈R4 ; a vector ﬁeld depending on both time and
+space. The dynamics of cortical sources now conform to
+integrodifferential equations, such as the Wilson-Cowan or Amari
+equations, where coupling is parameterised by matrix-valued coupling kernels — namely, smooth (analytic) connectivity matrices
+that also depend on time and space. These spatial generalisations
+can be summarised in the following equation, which is the analogue
+of Eq. (2) for neural ﬁeld models:
+
+
+À
+Á ′ ′
+′
+′
+V€ ¼ −2BV_ −B V þ AB∬D x−x ; t−t ⋅F∘V x′ ; t ′ dx dt þ G∘U
+2
+
+ð7Þ
+
+where the elements of the connectivity matrix D(x,t) are dab(x,t) =
+kab(x)δ(t − |x|υ). This spatiotemporal matrix corresponds to the
+ﬁrst-order approximation to the composition of the spatial kernels
+K(x) deﬁned below and the temporarily delayed ﬁring rates.
+Eq. (7) can be written as
+
+
+
+À
+À 0
+2
+0Á
+0 Á 0
+V€ þ 2BV_ þ B V ðx; t Þ ¼ AB∫K x−x F∘V x ; t−x−x υ dx þ G∘U ð7’Þ
+where υ is the inverse speed with which spikes propagate along
+connections and interactions among populations — within and
+across macrocolumns — are described by the connectivity kernel
+K = K (i) + K (e). One can see that in the inﬁnite speed limit υ =
+0 the spatial convolution in the above Equation disappears (to within a scaling constant) and we recover the neural mass eq. (5). In this
+limit, the corresponding electrophysiological predictions effectively
+coincide with those generated by a neural mass model. We will
+use prior constraints on the propagation speed below to compare
+ﬁeld and mass variants of the canonical microcircuit (for a fuller
+
+discussion, see Pinotsis et al., 2012). The intrinsic part K (i) is an
+exponentially decaying kernel commonly used in the literature to
+account for excitatory and inhibitory interactions (see e.g. Pinotsis
+et al., 2012), while the extrinsic part of the kernel K (e) was introduced in Grindrod and Pinotsis, (2011) and Pinotsis and Friston
+(2011) to model patchy lateral connections. This kernel is
+characterised by non-central peaks allowing for differences in (and
+estimation of) the range and dispersion of lateral connections,
+summarised in terms of the parameters ha and caa respectively,
+namely
+2
+
+ðiÞ
+
+ði Þ
+
+k
+6 11
+6 kðiÞ
+ðiÞ
+21
+K ¼6
+6 0
+4
+ðiÞ
+k
+2 41
+ðeÞ
+k
+6 11
+6
+0
+ðeÞ
+K ¼6
+6 0
+4
+0
+ðiÞ
+
+−c
+
+k12
+ði Þ
+k22
+ði Þ
+k32
+0
+
+0
+ðiÞ
+k23
+ðiÞ
+k33
+0
+
+0
+ðeÞ
+k22
+0
+0
+
+0
+0
+ðeÞ
+k33
+0
+
+3
+ðiÞ
+k14
+7
+0 7
+7
+0 7
+5
+ðiÞ
+k44
+3
+0
+7
+0 7
+7
+0 7
+5
+ðeÞ
+k44
+
+ð8Þ
+
+kab ¼ 12 aab e ab j j
+
+
+kðaaeÞ ¼ 12 caa e−caa jx−ha j þ e−caa jxþha j
+x
+
+Here, the parameters aab and cab encode the strength (analogous
+to the number of synaptic connections) and extent of intrinsic
+connections between cortical layers. The intrinsic connections can
+be regarded as interlaminar connections within a macrocolumn,
+while the extrinsic (between macrocolumn) connections correspond
+to horizontal connections and connect layers of the same type at a
+distance ha. Later, we will use the extent parameter cab as a measure
+
+D.A. Pinotsis et al. / NeuroImage 66 (2013) 563–576
+
+of the size of cortical macrocolumns: see Fig. 2 for an illustration
+of the spatial parameters and Fig. 3 for a distinction between
+interlaminar and horizontal intra-laminar connections.
+On comparing Eqs. (2) and (7) we notice that presynaptic input to
+the a-th population from the b-th is now expressed in terms of a
+spatiotemporal convolution as opposed to the simple nonlinear
+(sigmoid) mapping of neural mass models. For connectivity kernels
+modelling homogeneous (local) interactions, this convolution gives
+rise to wave equations describing propagation of the presynaptic
+input on the cortical manifold. In essence, Eq. (7) with connectivity
+deﬁned by Eq. (8) deﬁnes a class of neural ﬁeld models that can
+accommodate the intrinsic connectivity rules prescribed by the
+canonical microcircuit.
+As in our earlier work (Pinotsis and Friston, 2011; Pinotsis et al.,
+2012), we assume that the neural ﬁeld deﬁned by Eq. (7) is perturbed
+around a spatially homogeneous steady-state V0 (attained in the
+absence of external or exogenous perturbations)
+
+−1
+
+V0 ¼ B
+
+A⋅F ðV 0 Þ∫K ðxÞdx
+
+567
+
+Superficial pyramidal
+
+Spiny stellate
+
+Inhibitory interneuron
+Deep pyramidal
+
+Fig. 3. Three neighbouring macrocolumns. Each macrocolumn consists of the four subpopulations of Fig. 1 connected to each other with intralaminar (within macrocolumn)
+and interlaminar (between macrocolumns) connections. We later assume that the
+visual cortex is tiled with replications of this cortical circuitry and that individual
+differences in neuroanatomy are reﬂected in gamma frequency activity that can be
+attributed to a variable columnar size (the c parameter of Fig. 2).
+
+ð9Þ
+where U(k,ω) is the two-dimensional Fourier transform of external
+input:
+
+Using linear systems analysis, we now deﬁne the transfer function
+of the ﬁeld model described above by the following relation
+T ðk; ωÞ ¼
+
+P ðk; ωÞ
+U ðk; ωÞ
+
+ð10Þ
+
+Patchy lateral connections in V1
+Distance between columns (h)
+
+U ðk; ωÞ ¼ FT ðU ðx; t ÞÞ
+¼ ∬U ðx; t Þe
+
+−ikxþiωt
+
+ð11Þ
+
+dtdx
+
+and P(k,ω) is the Fourier transform of the perturbations around the
+steady-state solution. Given the transfer function, we can characterise
+the spectral response of the system to any external input, in terms of
+the underlying connectivity kernel, propagation velocities and
+post-synaptic response function. By analogy to a single population,
+substituting V(x,t) = V0 + P(x,t) into Eq. (7) and expanding F ∘ V
+around V0, we obtain a second-order expression for the perturbations
+P(x,t)
+2
+P€ þ 2BP_ ¼ −B P þ AB·Dγ ⊗ P þ GU
+
+ð12Þ
+
+γ ¼ ∂F=∂V
+Here, γ is the gain of the nonlinear mapping between depolarisation
+and ﬁring rate:
+
+(a)
+
+Connectivity kernel
+
+(b)
+
+Intrinsic (interlaminar – within column)
+
+Extrinsic (intralaminar – between column)
+
+(1/c)
+
+(1/c)
+
+γab
+
+8
+rη
+re
+∂σ ðva ¼ 0Þ <
+¼
+¼ ð1 þ erη Þ2
+:
+∂vb
+0
+
+Intrinsic and extrinsic connectivity kernels
+Fig. 2. Connectivity kernel. This kernel describes a combination of patchy but isotropic
+distributions by using connectivity kernels with non-central peaks. It models sparse intrinsic connections in cortical circuits that mediate both local (within macrocolumn)
+and non-local (between macrocolumn) interactions. In other words, neurons talk
+both to their immediate neighbours and receive input from remote populations who
+share the same functional selectivity; see Eq. (8). The insert is a modiﬁed from www.
+ini.uzh.ch/node/23776.
+
+ð13Þ
+
+a≠b
+
+Eqs. (10) and (12) provide the transfer function of our canonical
+microcircuit neural ﬁeld model. Taking the Fourier transform of
+Eq. (12) and substituting into Eq. (10) gives:
+
+−1
+T ðk; ωÞ ¼ −ω2 I4 −2iωB þ B2 −J ðk; ωÞ
+G
+J ðk; ωÞ ¼ ABDðk; ωÞγ
+
+Distance (x)
+
+a¼b
+
+ð14Þ
+
+where J(k,ω) is a 4 × 4 matrix incorporating the synaptic parameters,
+connectivity parameters and gain matrix and D(k,ω) is the Fourier
+transform of the spatiotemporal connectivity. In summary, Eq. (14)
+provides a mathematical model or transfer function mapping from
+exogenous inputs or ﬂuctuations acting upon each neuronal layer
+and the resulting spatiotemporal response in source space. This
+transfer function is speciﬁed completely by synaptic and connectivity
+parameters implicit in the neural ﬁeld model. We next consider the
+mapping from source space to sensor space that completes the
+forward or generative model.
+
+568
+
+D.A. Pinotsis et al. / NeuroImage 66 (2013) 563–576
+2
+
+2
+
+Lðx; φÞ ¼ e−x =2φ , noting that the amplitude is ﬁxed to avoid redunÂ
+Ã
+dancy with the parameters Q˜ ¼ q˜ 1 q˜ 2 q˜ 3 q˜ 4 . This leads to Fourier
+
+A neural ﬁeld DCM
+A generative model for power spectra
+
+coefﬁcients of the form Lðk; φÞ ¼ e−2π
+
+In what follows, we describe the generative or forward mapping
+from external inputs (exogenous ﬂuctuations) to observed spectral
+responses. This allows one to compare the predictions of our model
+with real data and requires a mapping of neuronal states (the
+depolarisation ﬁelds above) to sensors. This mapping is called the
+lead ﬁeld. The lead ﬁeld allows one to infer hidden parameters
+characterising the deployment of sources on the cortical surface,
+even when there is no explicit spatial information in the data, see
+also Robinson et al. (2004). The lead ﬁeld samples particular spatiotemporal frequencies, depending on the sensitivity proﬁle of the sensors used. For example, if the lead ﬁeld has a narrow spatial support
+(e.g., when using LFP electrodes), its spatial Fourier transform will
+be broad and it will be sensitive to a wide range of spatial frequencies.
+Conversely, when the lead ﬁeld sees a large part of the cortical surface
+(e.g., non-invasive EEG sensors), the spatial Fourier transform will be
+narrow and only ﬂuctuations in low spatial frequencies will contribute to the observed cross-spectra.
+In the illustrative examples below we used an adaptive spatial
+ﬁlter or beamformer (Van Veen et al., 1997) to obtain estimates of
+ongoing neuronal activity in primary visual cortex (Schwarzkopf et
+al., 2012). This provides an estimate of electrical cortical activity
+based on a weighted combination of sensors — sometimes referred
+to as a virtual electrode. In other words, we will consider a single
+(virtual) sensor — so that the lead ﬁeld maps from hidden neuronal
+states to a single data channel. We ﬁrst describe the lead ﬁeld and
+its parameterisation in terms of a Fourier basis set and coefﬁcients
+that scale the contribution of neuronal states in each layer. We then
+describe how the predicted spectral response at the sensor depends
+upon the (Fourier transforms) of the lead ﬁeld and the transfer
+function T(k,ω) above that maps external inputs to neuronal states.
+Given the particular form of the lead ﬁeld, we can simplify the expressions for the resulting transfer function from external inputs to spectral responses. This transfer function provides the basis of our
+probabilistic model. In detail:The lead ﬁeld is parameterised by φ as
+a continuous gain function L(x,φ) over the cortical patch that is applied to a mixture of neuronal (depolarisation) states at each point
+on the
+mixture is determined by four coefﬁcients
+Â patch. This
+Ã
+Q˜ ¼ q˜ 1 q˜ 2 q˜ 3 q˜ 4 , while the gain function is parameterised in terms
+of the coefﬁcients L(k,φ) of a spatial Fourier basis set:
+
+
+
+ −2π2 φ2 k2 2
+Ã T
+g ðω; θÞ ¼ ∑ e
+ Q˜ T ðk; ωÞg u ðk; ωÞT ðk; ωÞ Q˜
+
+Lðx; φÞ ¼ ∑ Lðk; φÞe
+
+ikx
+
+k
+
+ð15Þ
+
+2
+
+φ2 k2
+
+and Eq. (19) becomes
+
+k
+
+¼ ∑ q˜ a W a ðk; ωÞ
+
+ð19Þ
+
+a;k
+
+The second equality follows by substituting the transfer function
+T(k,ω) in Eq. (14) into Eq. (19), to express the prediction as a mixture
+of contributions from each population weighted by q˜ a :
+
+2
+ −2π2 φ2 k2
+
+−1
+κ 1 me Sa ðk; ωÞR ðk; ωÞ g u ðk; ωÞ
+W a ðk; ωÞ ¼ e
+
+ð20Þ
+
+The term Sa(k,ω)R −1(k,ω) in (20) expresses the relative contribution of each population to the predictions at source level and depends
+upon the particular form of the connections among these populations.
+It can be seen from Eq. (8), that this ratio depends upon the (Fourier
+transforms of) intrinsic and extrinsic connectivity (see also, Pinotsis
+and Friston, 2011; Pinotsis et al., 2012);
+aab ðcab −iυωÞ
+c2ab −υ2ab ω2 −2iυcab ω þ k2
+"
+#
+−h c
+−
+iυh ω−2ha caa −
+iυh ω þ
+−h c
+þ
+iυh ω−ha caa
+c
+e a aa c −e a
+ðc α þ β Þ e a c α−e a aa c þ e a
+β
+ðeÞ
+Daa ðk; ωÞ ¼ aa
+þ
+2
+2
+2
+−
+−
+2
+þ
+þ
+2
+4k π þ c c
+4k π þ c c
+ðiÞ
+
+Dab ðk; ωÞ ¼
+
+α ¼ cosð2ha kπ Þ;
+þ
+
+c ¼ caa þ iυω;
+
+β ¼ 2kπ sinð2ha kπÞ
+c
+
+−
+
+¼ caa −iυω
+
+(21)
+In particular, R(k,ω) and Sa(k,ω) are given by
+Rðk; ωÞ ¼ −V 14 ðk; ωÞð−V 23 ðk; ωÞ þ Q 2 ðk; ωÞQ 3 ðk; ωÞÞ
+þ Q 4 ðk; ωÞ½−V 23 ðk; ωÞQ 1 ðk; ωÞ þ Q 3 ðk; ωÞð−V 12 ðk; ωÞ þ Q 1 ðk; ωÞQ 2 ðk; ωÞÞ
+S1 ðk; ωÞ ¼ −Q 4 ðk; ωÞð−V 23 ðk; ωÞ þ Q 2 ðk; ωÞQ 3 ðk; ωÞÞ
+ðiÞ
+
+S2 ðk; ωÞ ¼ D21 ðk; ωÞγκ 2 mi Q 3 ðk; ωÞQ 4 ðk; ωÞ
+ðiÞ
+
+ð22Þ
+
+ðiÞ
+
+S3 ðk; ωÞ ¼ −D21 ðk; ωÞD32 ðk; ωÞγ2 κ 2 κ 3 me mi Q 4 ðk; ωÞ
+S4 ðk; ωÞ ¼
+
+ðiÞ
+D41 ðk; ωÞγκ 4 me ð−V 23 ðk; ωÞ
+
+þ Q 2 ðk; ωÞQ 3 ðk; ωÞÞ
+
+where the functions Qa(k,ω) and Vab(k,ω) depend on the Fourier
+(i)
+(e)
+transforms Dab
+(k,ω) and Daa
+(k,ω) as follows:
+
+
+Q a ðk; ωÞ ¼ −κ a 2 þ γ DðaaiÞ ðk; ωÞ þ DðaaeÞ ðk; ωÞ κ a ma þ 2iκ a ω þ ω2
+ði Þ
+
+ðiÞ
+
+ð23Þ
+
+The predicted response at the virtual electrode — for a given set of
+all the neural and lead ﬁeld parameters θ — is obtained by integrating
+over the cortical patch
+
+V ab ðk; ωÞ ¼ Dab ðk; ωÞDba ðk; ωÞγ2 κ a κ b ma mb
+
+À
+Á
+yðt; θÞ ¼ ∫Lðx; φÞ Q
+˜ ⋅V ðx; t Þ dx
+
+These expressions may look complicated but can be obtained in a
+fairly straightforward way from Eq. (19). In summary, the predicted
+spectral response at the sensor is given by:
+
+ð16Þ
+
+which leads to a spectral response of the form
+À
+Á
+Y ðω; θÞ ¼ ∑ Lðk; φÞ Q
+˜ ⋅T ðk; ωÞU ðk; ωÞ
+k
+
+ð17Þ
+
+The predicted spectral response measured by the sensor is therefore
+g ðω; θÞ ¼ Y ðω; θÞY Ã ðω; θÞ
+
+
+
+2
+Ã T
+¼ ∑ Lðk; φÞ Q˜ T ðk; ωÞg u ðk; ωÞT ðk; ωÞ Q˜
+
+ð18Þ
+
+k
+
+where gu(k,ω) = |U(k,ω)|2 is the auto-power spectrum of external
+input. We will consider a gain function with a simple Gaussian form,
+which we parameterise in terms of its dispersion φ such that
+
+
+2
+ −2π2 φ2 k2
+
+−1
+κ 1 me ∑a q˜ a Sa ðk; ωÞR ðk; ωÞ g u ðk; ωÞ
+g ðω; θÞ ¼ ∑ e
+k
+
+ð24Þ
+
+Eq. (24) reﬂects the fact that the predicted spectral responses of
+the system are coupled to its spatial as well as its temporal properties;
+these properties are encoded in the transfer functions Sa(k,ω) and
+R(k,ω) through the underlying connectivity functions Dab(k,ω). In
+turn, these are speciﬁed by the synaptic parameters associated with
+the canonical microcircuit θ ⊂ {mi,me,κi,κe,r,η} and the spatial parameters θ ⊂ {aab,cab,ha,υab} that encode intrinsic and extrinsic connections
+among different layers and neighbouring columns or points on the
+cortical manifold.
+
+D.A. Pinotsis et al. / NeuroImage 66 (2013) 563–576
+
+To complete our speciﬁcation of a generative model, we assume
+that the observed cross-spectra gy are a mixture of predicted spectra,
+channel and Gaussian observation noise
+
+569
+
+Table 1
+Prior expectations of model parameters (The spatial parameters assume the cortical
+patch has a diameter of 25 mm).
+Parameter
+
+Physiological interpretation
+
+Prior mean
+
+g y ðωÞ ¼ g ðω; θÞ þ g n ðω; θÞ þ ε
+
+me, mi
+
+8, 32 (mV)
+
+βu
+ω
+β
+g n ðω; θÞ ¼ α n þ n ;
+ω
+ReðεÞeN ð0; Σðω; λÞÞ
+
+κ1, κ2, κ3, κ4
+a22, a33, a41
+a12, a44, a23, a32
+a11, a14, a21
+cab
+
+Maximum postsynaptic
+depolarisation
+Postsynaptic rate constants
+Amplitude of intrinsic
+connectivity kernels
+
+ð25Þ
+
+ImðεÞeN ð0; Σðω; λÞÞ
+The spectra of the neuronal ﬂuctuations or input gu(ω,θ) are assumed to be spatially white; namely, they do not depend on spatial
+frequency. However both input and noise spectra are modelled as a
+mixture of white and coloured ﬂuctuations over time. In completing
+the model, we have introduced extra free parameters θ ⊂ {αn,αu,βn,βu}
+controlling the spectra of the inputs and channel noise. Eq. (30) provides the basis for our generative model and entails free parameters
+controlling the spectra of the inputs and channel noise as well as
+the amplitude of observation error. Gaussian assumptions about the
+observation error mean that we have a probabilistic mapping from
+all unknown (free) parameters to observed (spectral) data features.
+Inversion of this model means estimating, probabilistically, the free
+parameters given data.
+Model inversion and ﬁtting
+Having prescribed the generative model of our DCM, we can now
+turn to its optimisation via Bayesian techniques. Almost universally,
+the ﬁtting or inversion of Dynamic Causal Models optimises variational
+free-energy. Variational free-energy serves as a bound approximation
+to the log-evidence ln p(gy|M) for a model M. This optimisation is carried out with respect to a variational density q(θ) on the unknown
+model parameters. By construction, the free-energy bound ensures
+that when the variational density maximises free-energy, it approximates the true posterior density over parameters, q(θ) ≈ p(θ|gy, M).
+At the same time, the free-energy approximates the log-evidence
+(log-marginal likelihood of the data). The (approximate) conditional
+density and (approximate) log-evidence are used for inference on
+parameters and models respectively. In other words, one ﬁrst
+compares different models (e.g., with and without particular connections) using their log-evidence and then turns to inferences on parameters, under the model selected. One usually assumes the conditional
+density has a Gaussian form qðθÞ ¼ N ðμ; C Þ. This is known as the
+Laplace assumption. The conditional density is summarised by the
+most likely value of the parameters, μ and their conditional covariance
+C that encodes uncertainty about the estimates and their conditional
+dependencies. A full description of the resulting Variational Laplace
+scheme can be found in Friston et al. (2007).
+The underlying generative model generally admits a unique solution
+during model inversion; this follows from the use of biophysically plausible priors over the biophysical parameters. Table 1 describes the priors
+over synaptic parameters (that are also used in the classical Jansen and
+Rit model) as well as parameters pertaining to the spatial structure of
+cortical sources. These priors are based on the modelling literature.
+Others come from the experimental literature; e.g. the prior for the
+conduction velocity is assumed to be 1.5 m/s (Kandel et al., 2000;
+Steriade et al., 1997). In general, priors are chosen to restrict parameter
+estimates in a physiologically meaningful range. However, it should be
+noted that the precise values of the priors are not important: the inversion scheme has the latitude to accommodate deviations from these
+values to optimise model evidence.
+
+ha
+r, η
+
+a
+b
+
+1/2, 1/2, 1/16, 1/28 (ms−1) a
+3200
+800,800,1600,1600
+9600,4000,4800
+&
+0:6 a≠b
+(mm−1) b
+2 a¼b
+
+Spatial decay of connectivity
+kernels
+Separation between columns
+Parameters of the postsynaptic
+ﬁring rate function
+Inverse conduction speed
+Dispersion of the lead ﬁeld
+Relative layer contributions
+
+υ
+ϕ
+q˜ 1 ; q˜ 2 ; q˜3 ; q˜ 4
+
+4.5 (mm)b
+0.54, 0a
+b
+0.6
+pﬃﬃﬃ s/m
+2=20
+10, 0,10,80
+
+Wendling et al., 2000.
+Kandel et al., 2000.
+
+Results — an empirical illustration and validation
+In previous work (Schwarzkopf et al., 2012), we recorded visually
+induced gamma oscillations in a group of healthy human subjects
+using magnetoencephalography (MEG) and used functional magnetic
+resonance imaging (fMRI) to measure the surface area of central
+primary visual cortex (V1) with standard retinotopic mapping
+techniques (Dale et al., 1999; Sereno et al., 1995). We showed that
+the retinotopically deﬁned surface areas of central V1 and V2 are
+correlated with the peak frequency of visually induced oscillations
+in the MEG gamma band. This led to the proposal that individual differences in macroscopic gamma frequency may be attributed to
+inter-individual variability in the microscopic architecture of visual
+cortex (Schwarzkopf et al., 2012). In this section, we use the neural
+ﬁeld model of the previous section to address this proposal.
+Empirical data and validation
+Here, we used MEG data and beamforming to summarise the spectral
+expression of endogenous activity in the visual cortex of 16 subjects, see
+Fig. 4 and Schwarzkopf et al. (2012). Each participant was stimulated in
+both left and right visual ﬁelds — so we characterised separate sources
+in right and left hemispheres, resulting in 32 data sets. Subjects were
+seated in a MEG system and viewed the stimulus on a projection screen
+in front of them. During the entire recording run, they were required to
+maintain ﬁxation on a small red dot in the centre of the screen. The
+2.5
+
+2
+
+Spectral density
+
+gu ðω; θÞ ¼ α u þ
+
+a
+
+1.5
+
+1
+
+0.5
+
+0
+30
+
+35
+
+40
+
+45
+
+50
+
+55
+
+60
+
+65
+
+70
+
+75
+
+80
+
+Frequency (Hz)
+Fig. 4. Observed MEG spectra from a selection of subjects with different V1 surface
+area. Schwarzkopf et al., 2012 found a strong positive correlation between gamma
+peak frequency (marked with arrows) and V1 surface area. We used a biophysical
+model to investigate whether individual differences in macroscopic gamma frequency
+may reﬂect inter-individual variability in the architecture of visual cortex.
+
+570
+
+D.A. Pinotsis et al. / NeuroImage 66 (2013) 563–576
+
+stimulus was a static, high-contrast, square-wave, vertical grating, which
+measured 4°×4° of visual angle and had a spatial frequency of 3 cycles
+per degree. The grating was presented on a mean luminance uniform
+gray background in the lower visual ﬁeld, such that the corner closest to
+the centre of gaze was horizontally and vertically displaced from the ﬁxation spot by 0.5°. There were 180 trials; on half the grating was shown in
+the lower right quadrant; on the other half, it was shown in the lower left.
+We recorded MEG data using a whole-head CTF axial gradiometer system
+with 275 channels, sampled at 600 Hz. Three electrical coils were placed
+at ﬁducial locations and used to monitor subject head movement.
+Data were analysed using SPM8 (http://www.ﬁl.ion.ucl.ac.uk/spm).
+Recordings were divided into epochs from 1.5 s before stimulus onset
+until 1.5 s after stimulus onset (i.e., the earliest time for stimulus offset
+that preceded the participant's behavioural response). Employing a
+beamforming approach, we estimated induced MEG responses to a
+visual stimulus in a virtual electrode placed in the medial occipital
+cortex, in a location consistent with primary visual cortex. We used an
+LCMV beamformer algorithm (Van Veen et al., 1997) implemented in
+SPM8 to quantify source power in the time window between 0.5 and
+1.5 s after stimulus onset relative to baseline power over one second preceding stimulus onset. Source orientation at each voxel was determined
+using the method of Sekihara et al. (2004). We located peak gamma
+activity in the medial occipital cortex, and at this peak location we used
+the beamformer weights to extract the time series of the virtual electrode.
+Power spectra for frequencies between 30 and 80 Hz during the stimulation and the baseline were calculated using a multitaper spectral
+estimate (Thomson, 1982) using seven discrete prolate spheroidal
+sequences as data tapers. To summarise the peak gamma frequency —
+and the amplitude and bandwidth of the gamma response — we ﬁtted a
+Gaussian function to the percentage power change in each frequency
+bin. A full description of the paradigm, recording and processing can be
+found in Schwarzkopf et al. (2012).
+We modelled these spectral data — using DCM — to address the following questions: (i) Are neural masses or ﬁelds more appropriate for
+explaining these data? (ii) Can differences in the width of cortical columns explain the intersubject differences in gamma frequency?
+(iii) How does cortical excitability relate to the peak gamma frequency? And (iv) what are the important determinants of spectral gamma
+activity? The ﬁrst question illustrates the use of Bayesian model comparison to compare DCMs based on neural ﬁelds and neural masses.
+We will see below that — for the MEG data and generative models considered here — the evidence for neural ﬁeld models is relatively weak,
+which itself is interesting in relation to previous results. However, our
+primary aim was to show how DCM can answer anatomical questions
+about brain topography and architecture; by appealing to neural ﬁeld
+models that embody plausible assumptions about source deployment
+and microcircuitry. We illustrate this point using subject-speciﬁc
+estimates of intrinsic connections from DCM and establish their predictive validity in terms of their ability to predict inter-subject variations in the size of V1 and gamma activity. We consider that the
+visual cortex is tiled with (overlapping) macrocolumns and assume
+that the major inﬂuences on each macrocolumn come from its nearest
+neighbours. We also assume rotational symmetry so that the spatial
+organisation of macro columns can be modelled by the ﬁeld model
+described in the previous section (see Figs. 2 and 3). These connections
+are characterised by parameters describing local synaptic arbours
+(like the strength aab and extent 1/cab of intralaminar connections)
+and the range of horizontal connections (ha). Our objective was to provide a mechanistic link between observed cross-spectral densities and
+local microstructure: we used the spatial decay rate of horizontal
+interlaminar connections cab as an estimate of column width.
+Neural masses or ﬁelds?
+Clearly, the choice of an appropriate model depends upon the question of interest; in particular, neural ﬁelds are appropriate for
+
+addressing questions about the deployment of sources on the cortical
+surface and induced spatial dynamics. However, neural ﬁeld models
+might still be more appropriate from a Bayesian perspective, even if
+the spatial parameters of a neuronal model are not the focus of
+study: In the context of our Bayesian scheme, each model is scored
+using a free energy bound on model-evidence, where better models
+have a higher free energy (assuming free energy is a good approximation to model evidence). The model with the highest evidence implies
+the model has an optimal balance between accuracy and complexity —
+in the sense that the model provides an accurate explanation for the
+data in the simplest way. In our earlier work, we showed that Bayesian
+model selection can distinguish between neural mass and ﬁeld variants
+of the same microcircuitry; where — for LFP data from the rat auditory
+cortex — the neural ﬁeld variant had more evidence. This could be
+explained by the fact that neural ﬁeld models provide an augmented
+repertoire of predictions for dynamics resulting from the propagation
+of activity on the cortical surface. In short, our earlier model comparisons showed that the neural ﬁeld model yields a better ﬁt to the LFP
+data — while accounting for the complexity cost due to its extra free
+parameters.
+Here, we performed a similar analysis, by computing the relative
+log-evidence (using the free energy approximation) for the canonical
+microcircuit model, comparing ﬁeld and mass variants at the group
+level. Synaptic (κ1, me, aab) spatial (υ, cab) and sigmoid (r, η) parameters were optimised, while the remaining parameters in Table 1 including the horizontal distance ha were ﬁxed to physiologically
+plausible values. As with our previous model comparison, the neural
+mass model was formulated as a special (and limiting) case of the
+neural ﬁeld model by shrinking the propagation delays (conduction
+times) times to zero. See Fig. 5 for an example of a model ﬁt to a
+single subject's response, using the neural ﬁeld and mass variants.
+Contrary to our earlier result, we found inconsistent evidence in
+favour of the neural mass model (the log-evidence for the neural
+mass model was on average 2.37 greater than that of the ﬁeld
+model): see Fig. 6 (top panel). In relation to our previous model comparisons, this result highlights the fact that the best model depends
+upon the data analysed. It also underlines the importance of combining a neuronal model with a spatial forward model: although
+both auditory and visual cortices are thought to conform to the
+local homogeneity constraints implicit in neural ﬁeld models, the
+loss of spatial frequency resolution — with non-invasive data —
+might render neural ﬁeld models unnecessary, in relation to neural
+mass models. In brief, model evidence depends crucially upon both
+the chosen models and the particular dataset used for their comparison. Our failure to establish a greater evidence for neural ﬁeld
+models, in the present model comparison, is intuitively sensible
+because non-invasive MEG data have much lower spatial resolution
+than the LFP data we used in the previous model comparison. This
+observation speaks to the potential importance of using spatially
+resolved data to take full advantage of neural ﬁeld models: data
+with high signal to noise ratio and wide brain coverage — such as
+those afforded by ECoG sensors or multi-array grids — can, in principle, disclose a full spectrum of spatiotemporal dynamics at different
+scales. This may be important for an informed (efﬁcient) estimate of
+spatial parameters in neural ﬁeld models. We will illustrate this
+point further in future work.
+To assess conditional dependencies among parameter estimates,
+we computed the mean of posterior correlation matrices across all
+subjects, see Fig. 6 (right) and considered a correlation between a
+particular pair of parameters (one spatial and one neuronal —
+bottom left): the key thing to notice here are the relatively weak
+correlations between posterior estimates of columnar width and
+a23 (the strength of connections from deep pyramidal cells to inhibitory interneurons). We will focus on this connection later when
+assessing the importance of spatial and synaptic parameters in
+predicting peak gamma frequency.
+
+D.A. Pinotsis et al. / NeuroImage 66 (2013) 563–576
+
+A
+
+Neural mass model
+
+1.8
+
+1.6
+
+1.6
+
+1.4
+
+1.4
+
+Spectral density
+
+Spectral density
+
+B
+
+Neural field model
+
+1.8
+
+1.2
+1
+0.8
+0.6
+
+571
+
+1.2
+1
+0.8
+0.6
+
+0.4
+30
+
+35
+
+40
+
+45
+
+50
+
+55
+
+60
+
+65
+
+70
+
+75
+
+0.4
+30
+
+80
+
+Frequency (Hz)
+
+35
+
+40
+
+45
+
+50
+
+55
+
+60
+
+65
+
+70
+
+75
+
+80
+
+Frequency (Hz)
+
+Fig. 5. Example of DCM ﬁts for a single participant. Real data (dashed line) and model predictions (full line) for spectra in the gamma band obtained from the human visual cortex
+during visual stimulation (Schwarzkopf et al., 2012). We observe that the ﬁts of both the ﬁeld and mass models are equally good with no manifest differences.
+
+Finally, we characterised the variations in spectral proﬁle produced by changes in these two parameters about their posterior estimates. Our aim here was not to provide a systematic characterisation
+of the neural ﬁeld model; for this we refer the reader to earlier work
+(Nunez, 1995; Robinson et al., 2001, 2003, 2004; Valdes et al., 1999).
+We just wanted to provide a demonstration of the complicated but
+smooth contribution to spectral responses made by various parameters. It is this contribution that enables us to obtain informed
+estimates of underlying microcircuitry. Note that increasing both
+the spatial and neuronal parameters increases peak gamma frequency. In other words, increasing the spatial extent of local horizontal
+connections and increasing the excitatory drive to inhibitory interneurons increases peak gamma frequency. However, these parameters show (weak) negative conditional correlations. This means it is
+an open question as to which parameter is best able to account for
+changes in peak gamma frequency over subjects.
+
+Can individual differences in peak gamma frequency be attributed to
+wider columns?
+Our conventional analyses (Schwarzkopf et al., 2012), showed a
+strong positive correlation between gamma peak frequency and V1
+surface area. This implies that individual differences in V1 area
+might reﬂect differences in cortical architecture. A larger cortex
+could either comprise a similar number of wider columns or simply
+contain a greater number of columns of constant width, which
+would be consistent with the explanation offered by the model of
+Prothero, (1997). Anatomical evidence suggests that the microarchitecture of V1 in humans resembles a scaled version of macaque
+V1, implying that column width increases with V1 size across
+species (Adams et al., 2007). However, across individuals of the
+same species both the width and number of columns can be highly
+variable (Horton and Hocking, 1996). Crucially, we can resolve this
+
+Relative Log Evidence
+
+2
+0
+-2
+1
+
+-4
+-6
+-8
+
+0.5
+-10
+0.05
+
+2
+
+4
+
+6
+
+8
+
+10
+
+12
+
+14
+
+16
+
+Subjects
+
+Posterior Correlation
+Between 1/cab and d23
+
+0
+0
+
+-0.05
+-0.1
+-0.15
+-0.2
+
+-0.5
+
+-0.25
+g
+
+1/ke
+
+me α 11 α 14 α 12 α 22 α 21 α 23α 33α 41α 32
+
+α 44v
+
+1/cab
+
+-0.3
+-0.35
+-0.4
+
+Fig. 6. (Top panel) Bar chart of relative log evidence for neural mass and ﬁeld models over subjects. The average relative log evidence was 2.37 in favour of the mass models, which is
+considered insufﬁcient for disambiguating between models: only a relative evidence of three (dashed line) constitutes strong evidence a particular model offers a better explanation for the data. Note that in 6 out of 16 individuals evidence in favour of the mass model was greater than three. (Bottom panel) Left: Bar chart of posterior cross-correlations
+between columnar width and the connection strength between deep pyramidal cells and inhibitory interneurons. The average cross-correlation was −0.176. Right: Mean over
+subjects of the posterior cross–correlation matrices for all parameters in our neural ﬁeld model.
+
+572
+
+D.A. Pinotsis et al. / NeuroImage 66 (2013) 563–576
+
+issue directly given the parameterisation of the intrinsic connectivity within the neural ﬁeld model. In our model, the width of a
+macrocolumn, corresponds to the dispersion of horizontal synaptic
+connections 1/cab.
+We found a correlation between columnar width and peak gamma
+frequency that reached trend signiﬁcance (see top panel of Fig. 8).
+Given our previous empirical ﬁnding (that peak gamma frequency
+and V1 surface area are positively correlated) we considered a
+one-tailed test and found Pearson r = 0.271, p = 0.06, (d.f. 30). This
+correlation implies that variability in the observed spectral responses
+in the gamma range can be attributed to individual differences in columnar width. This ﬁnding is more than simply noting that increasing
+the size of a column increases peak gamma frequency under the neural ﬁeld model (see Fig. 7). This is because all the other free parameters of the model were optimised in a subject-speciﬁc fashion. In
+short, the hypothesis that intersubject variations in columnar width
+are associated with peak gamma frequencies was conﬁrmed thereby
+providing a microscopic explanation for the correlation between
+peak gamma frequency and macroscopic (retinotopic) measurements
+of visual cortex anatomy — an explanation based purely on noninvasive MEG data.
+We also found a signiﬁcant positive correlation between columnar
+width and V1 size as measured with retinotopic mapping (see bottom
+panel of Fig. 8, where Pearson r = 0.36, p = 0.02, 30 d.f., — one-tailed
+test). This suggests that subjects with a larger V1 have wider as opposed
+to more macrocolumns. The results in Fig. 8 are consistent with our
+previous empirical ﬁnding of a signiﬁcant correlation between observed
+gamma peak and size of the visual cortex (Schwarzkopf et al., 2012);
+however, the mediation of this correlation can now be associated with
+the organisation underlying cortical circuitry. This highlights the use of
+a generative (mechanistic model) to characterise cortical microstructure
+that would otherwise be hard or impossible to disclose.
+
+Columnar width (mm)
+
+Spectral density
+
+-0.15
+
+2
+1
+0
+
+1.43
+
+30
+2
+1
+0
+30
+2
+1
+0
+30
+2
+1
+0
+30
+2
+1
+0
+30
+2
+1
+0
+30
+4
+2
+0
+30
+5
+0
+
+DP to II Connectivity
+
+50
+
+70
+1.48
+
+50
+
+70
+1.54
+
+50
+
+70
+1.6
+
+50
+
+70
+1.67
+
+50
+
+70
+1.74
+
+50
+
+70
+1.8
+
+50
+
+70
+1.88
+
+30
+
+40
+20
+Log-scaling 0
+30
+
+50
+
+0.15
+
+70
+1.94
+
+50
+
+2
+1
+0
+
+70
+
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+1.5
+1
+0.5
+1.5
+1
+0.5
+2
+1
+0
+
+-1
+588
+
+30
+
+50
+
+70
+
+30
+
+50
+
+70
+
+30
+
+50
+
+70
+
+30
+
+50
+
+70
+
+30
+
+50
+
+70
+
+30
+
+50
+
+70
+
+30
+
+50
+
+70
+
+30
+
+50
+
+70
+
+756
+
+971
+
+1246
+
+1600
+
+2054
+
+2638
+
+3387
+
+1
+
+4350
+
+30
+
+50
+
+70
+
+Log-scaling
+
+Frequency (Hz)
+Fig. 7. Contribution analysis of particular parameters. This ﬁgure shows changes in
+spectral responses elicited by varying the lateral extent of intrinsic connectivity and
+the strength of intrinsic connections between interneurons and deep pyramidal cells
+(over a log-scaling range).
+
+Is gamma activity related to GABAergic connections?
+We next considered the relation of individual differences in
+GABA concentration and peak gamma frequency (Gaetz et al., 2011;
+Muthukumaraswamy et al., 2009,2010) in terms of parameters describing synaptic transmission: Muthukumaraswamy and colleagues
+showed that individual differences in gamma oscillation frequency
+are positively correlated with resting GABA concentration in visual cortex — as measured with magnetic resonance spectroscopy. Furthermore, they showed that fMRI responses are inversely correlated with
+resting GABA and that gamma oscillation frequency is strongly inversely correlated with the magnitude of the BOLD response. These results
+were taken to suggest that the excitation/inhibition balance in visual
+cortex is reﬂected in peak gamma frequencies at rest. We address
+this hypothesis by looking for correlations involving the connections
+to inhibitory interneurons. We found that posterior estimates of the excitatory connections between deep pyramidal cells and inhibitory interneurons correlated negatively with gamma peak using both the
+neural ﬁeld model (Pearson r = −0.37, p =0.02, 30 d.f, two-tailed
+test) and the neural mass model (Pearson r = −0.36, p = 0.04, 30 d.f,
+two-tailed test), see Fig. 9. This conﬁrms the hypothesis that intersubject variation in inhibitory drive in visual cortex is associated with
+characteristic changes in the peak frequency of gamma oscillations —
+and provides a mechanistic link from a synaptic level description to
+spectral behaviour that can be measured noninvasively. In summary,
+signiﬁcant correlations were found between a23 and peak gamma
+frequency and columnar width and V1 size. Also, trend signiﬁcance
+was observed for gamma peak to width correlations.
+What are the important determinants of gamma peak frequency?
+Previous studies suggested two possible causes for the inter-subject
+variability in gamma peak frequency. Muthukumaraswamy et al.
+(2009) suggested that peak gamma frequency is determined by the
+level of inhibition in V1 as described by resting GABA concentration
+measured with MR spectroscopy. In our previous study (Schwarzkopf
+et al., 2012), we found a correlation between V1 size and peak gamma
+frequency and suggested that the size of V1 and associated differences
+in microanatomy could be true determinants of peak gamma frequency.
+This suggests that both GABA concentration and V1 size can inﬂuence
+gamma frequency; however they these factors may or may not be
+causally linked.
+Biophysical parameters estimated using DCM provide an opportunity to investigate alternative explanations of phenotypic differences, like
+gamma peak frequency: our contribution analysis above (Fig. 7) shows
+that the excitatory drive to inhibitory neurons (a23) and macrocolumn
+width could mediate differences in peak gamma frequency. We therefore looked at the correlations over subjects between peak gamma
+frequency (f), V1 surface area and the posterior estimates of these
+parameters. These correlations are summarised in Table 2:
+Interestingly, the partial correlation between a23 and gamma peak
+remained signiﬁcant when controlling for V1 size and width 1/cab
+(r = − 0.332, p = 0.037). This suggests that the correlation between
+gamma peak and V1 inhibition cannot be accounted for completely
+by the spatial parameters (at the microscopic or macroscopic level).
+To elucidate the relationship between key model parameters and
+the phenotypes of V1 size and peak gamma frequency, we used Structural Equation Modelling (SEM) as implemented in SPSS Amos software (IBM). Each candidate model corresponded to a particular
+hypothesis about the causal relationships between peak gamma
+frequency and other variables. The Akaike Information Criterion
+(AIC) was used to compare models, while accounting for differences
+in model complexity.
+Fig. 10 shows models tested and the associated AIC values. To simplify the model space, we assumed that V1 size is determined genetically (or epigenetically) and is not inﬂuenced by peak gamma
+
+D.A. Pinotsis et al. / NeuroImage 66 (2013) 563–576
+
+573
+
+0.2
+0.15
+0.1
+0.05
+0
+
+42
+
+44
+
+46
+
+48
+
+50
+
+52
+
+54
+
+56
+
+58
+
+Posterior mean of
+Columnar width
+
+-0.05
+-0.1
+
+Gamma peak(Hz)
+
+-0.15
+0.25
+0.2
+0.15
+0.1
+0.05
+0
+1000
+-0.05
+
+1200
+
+1400
+
+1600
+
+1800
+
+2000
+
+-0.1
+
+V1 surface(mm2)
+
+-0.15
+
+Fig. 8. (Top panel): We found a correlation between the log scaling of the posterior estimate of columnar width and peak gamma frequency (Pearson r = 0.271, p = 0.06, 30 d.f.,
+one-tailed test). This suggests that increases in peak gamma frequency across subjects can be attributed to a greater columnar width. (Bottom panel) Correlation between the
+log scaling of the posterior estimate of columnar width and V1 surface (Pearson r = 0.36, p = 0.02, 30 d.f., one-tailed test). This result suggests that a larger V1 is constituted by
+bigger macrocolumns. This ﬁnding, together with that reported in the top panel, conﬁrm our earlier empirical ﬁnding that gamma peak and V1 size are correlated. Furthermore,
+our use of an underlying generative (mechanistic) model, offers insight into local cortical microstructure that would be hard (or impossible) to disclose otherwise. Conﬁdence intervals are plotted as dotted lines.
+
+frequency or microscopic parameters. Furthermore, we assumed that
+the peak gamma frequency is determined by the microscopic or
+macroscopic anatomy. Although one could argue that these are
+assumptions are too simplistic — given the circular causality implied
+by experienced dependent plasticity — they are sufﬁcient for our
+
+Gamma peak(Hz)
+
+0.1
+0
+-0.1
+
+42
+
+44
+
+46
+
+48
+
+50
+
+52
+
+54
+
+56
+
+58
+
+52
+
+54
+
+56
+
+58
+
+Neural field model
+
+Posterior estimate of
+Connectivity between DP and II
+
+0.2
+
+illustrative purposes. The key question here is whether peak gamma
+frequency is determined by (macroscopic on microscopic) spatial
+parameters, connectivity parameters or both.
+It can be seen immediately from Fig. 10 that models without the
+a23→ f link (the top row) all have lower evidence (higher AIC) than
+
+-0.2
+-0.3
+-0.4
+-0.5
+-0.6
+-0.7
+-0.8
+
+Gamma peak(Hz)
+
+0
+42
+-0.2
+-0.4
+-0.6
+-0.8
+
+44
+
+46
+
+48
+
+50
+
+Neural mass model
+
+Posterior estimate of
+Connectivity between DP and II
+
+0.2
+
+-1
+Fig. 9. Correlation between the log scaling of the connectivity estimate between pyramidal cells and inhibitory interneurons for the neural ﬁeld (Pearson r = −0.37, p = 0.02, 30 d.f.,
+two-tailed test) and the neural mass model (Pearson r = −0.36, p = 0.04, 30 d.f., two-tailed test). Conﬁdence intervals are plotted as dotted lines.
+
+574
+
+D.A. Pinotsis et al. / NeuroImage 66 (2013) 563–576
+
+Table 2
+Correlations between key model parameters, V1 size and peak gamma frequency (N=32).
+Width
+Width Pearson correlation
+Signiﬁcance
+V1 size Pearson correlation
+Signiﬁcance
+a23 Pearson correlation
+Signiﬁcance
+f Pearson correlation
+Signiﬁcance
+
+V1 size
+
+a23
+
+Table 3
+Predicted and observed correlations (in parentheses) obtained by Structural Equation
+Modelling.
+
+f
+
+1
+.364
+.02
+−.32
+.037
+.271
+.06
+
+V1 size
+Width
+a23
+f
+
+1
+−.099
+.295
+.286
+.056
+
+1
+−.379
+.016
+
+1
+α 23
+
+f
+
+1/cab
+
+AIC = 28.08
+α 23
+
+f
+
+1/cab
+
+AIC = 25.92
+7
+
+V1
+size
+
+1/cab
+AIC = 25.66
+
+−.32 (−.32)
+.2 (.27)
+
+−.38 (−.38)
+
+By exploiting a combination of neural ﬁeld modelling and Bayesian
+inference, we have shown that dynamic causal modelling can answer
+the following sorts of questions: which is the best biophysical model
+for explaining electrophysiological data? What are the important
+determinants of gamma peak frequency — in terms of synaptic parameters and horizontal interactions? Can MEG beamformed data help us
+access local cortical microstructure? And how can we distinguish
+between competing hypotheses about structure-function relationships? We have focused on two classes of biophysical models of brain
+
+α 23
+
+V1
+size
+
+f
+
+1/cab
+
+8
+
+V1
+size
+
+f
+
+1/cab
+AIC = 24.23
+
+α 23
+
+f
+
+6
+
+α 23
+
+V1
+size
+
+f
+
+1/cab
+
+AIC = 24.57
+
+α 23
+
+3
+
+AIC = 28.98
+
+5
+
+V1
+size
+
+1/cab
+
+.36 (.36)
+−.12 (−.1)
+.29 (.29)
+
+f
+
+Discussion and conclusions
+
+AIC = 28.37
+
+4
+
+V1
+size
+
+a23
+
+constrained by the macroscopic (retinotopic) size of V1. This structural
+equation modelling suggests a causal link between wider macrocolumns and an increase in inhibitory drive — a hypothesis which we
+will come back to in the discussion.
+
+2
+
+V1
+size
+
+1/cab
+
+Width
+
+1
+
+models in which peak gamma frequency depends upon the drive to
+inhibitory cells. This is consistent with the signiﬁcant partial correlations we found between a23 and f above. The best model (Model 8)
+captured the correlation structure between the variables very well,
+as can be seen from Table 3 showing the predicted and observed correlations (in parentheses).
+In this model, the correlation between V1 size and peak gamma frequency is mediated by a direct path (reﬂecting the inﬂuences of V1 size
+on peak gamma frequency that can be attributed to variables not considered in these models) and an indirect path through columnar width
+and excitatory connections. In other words, peak gamma frequency is
+mediated proximately by excitatory drive to inhibitory (GABAergic)
+interneurons and the strength of this drive is determined, in part, by
+the size of macrocolumns. In turn, the size of the macro columns is
+
+V1
+size
+
+V1 size
+
+α 23
+
+f
+
+AIC = 27.02
+9
+
+α 23
+
+V1
+size
+
+f
+
+1/cab
+
+α 23
+
+f
+
+AIC = 26.01
+
+Fig. 10. Model space for structural equation modelling. In the winning model — model 8 — the correlation between V1 size and peak gamma frequency is mediated by three links
+involving posterior estimates of columnar width and connection strength.
+
+D.A. Pinotsis et al. / NeuroImage 66 (2013) 563–576
+
+activity; so-called neural ﬁeld and mass models and have considered
+their application to modelling empirical MEG data. Bayesian model
+comparison — using a variational free energy approximation to model
+evidence — suggests neural ﬁeld models provide a better explanation
+of empirical data if, and only if, there is sufﬁcient spatial frequency information in the data. In other words, we found greater evidence for
+neural ﬁeld models in previous analyses of LFP data but failed to ﬁnd
+more evidence for neural ﬁeld models, relative to neural mass models,
+in the current study of MEG (virtual electrode) data. The key distinction between these different modalities is that the LFP data is sensitive
+to a wide range of spatial frequencies and the temporal ﬂuctuations
+that these frequencies contain. In contrast, the lead ﬁelds inherent
+in non-invasive electromagnetic recordings are necessarily broader
+and suppress temporal dynamics that are expressed in high spatial
+frequencies.
+However, the use of neural ﬁeld models may be necessary when
+testing hypotheses that are framed in terms of the spatial parameters
+of neural ﬁelds — like lateral or horizontal connections: we illustrated
+this using a neural ﬁeld DCM to explain inter-subject variations in
+spectral activity in terms of synaptic and connectivity parameters.
+We showed that the posterior estimates of cortical anatomy — in particular columnar width — are associated with the spectral peak in the
+gamma range. Indeed, the estimates of column width made from a
+single time-series estimate in the foveal portion of V1 correlates
+directly with size of V1 as estimate from retinotopic mapping. This
+constitutes a compelling illustration of how non-invasive data can
+provide quantitative estimates of the spatial properties of neural
+sources and explain systematic variations in the dynamics those
+sources generate. We also found correlations, over subjects, between
+the peak gamma frequency and cortical inhibition as parameterised
+by the excitatory drive to inhibitory cell populations. This correlation
+was motivated by previous studies looking at the three way relationship between resting GABA concentrations in visual cortex, characteristic gamma activity and excitability — as measured with evoked
+responses using fMRI (Muthukumaraswamy et al., 2009).
+Implications for visual perception
+While visually induced gamma oscillations have received increasing
+attention and appear to play a role in visual perception (Herrmann et
+al., 2010), it remains unclear what determines the spectral properties
+of an individual's gamma response, and how it relates to underlying
+visual cortex microcircuitry. Characterising individual differences in
+cortical micro-architecture may have important implications for
+research on visual processing. A few studies have claimed to directly
+visualise columnar architecture in human visual cortex (Goodyear
+and Menon, 2001; Goodyear et al., 2002; Yacoub et al., 2008). These
+studies rely on ultra-high ﬁeld fMRI and are technically challenging
+and therefore not available for widespread use. Furthermore, while
+the spatial resolution of these experiments may be sufﬁcient to identify
+cortical columns it may be unable to reliably resolve individual differences in the column width. This limits such investigations to invasive
+optical imaging of intrinsic signals or voltage-sensitive dyes in animal
+models; yet typically animal studies do not focus on individual differences across large groups. A reliable biomarker of columnar architecture — readily measurable with non-invasive techniques — may
+therefore be very useful for investigating individual differences in cortical micro-architecture in human subjects.
+Previous research shows that macroscopic measures of V1 size
+predict visual perceptual ability such as Vernier discrimination
+(Duncan and Boynton, 2003). We recently showed that the size of
+V1 is negatively correlated with the strength of visual illusions,
+where the conscious perception of a visual stimulus is modiﬁed by
+the spatial context in which it is presented (Schwarzkopf et al.,
+2011a, 2011b). We interpreted these results as evidence that local
+contextual interactions in V1 are weaker in individuals with a large
+
+575
+
+V1 area — because they have to be transmitted laterally over greater
+distances. Furthermore, the size of population receptive ﬁelds (pRF) —
+which reﬂect a combination of the size and positional scatter of
+the receptive ﬁelds of single neurons — as well as the extent of contextual interactions beyond the classical receptive ﬁeld — are
+smaller in subjects with a large V1 (Harvey and Dumoulin, 2011).
+This implies a greater tendency to favour local processing in a
+large V1. Consistent with this, orientation discrimination is also superior in individuals with a large V1 (Schwarzkopf et al., 2011a).
+Our results imply that better orientation discrimination could be
+explained by both wider cortical columns and stronger lateral inhibition. This hypothesis is also supported by the empirical work of
+(Edden et al., 2009) who found that GABA concentration correlates
+with both gamma peak frequency and orientation discrimination
+ability; we will focus on this issue in future work.
+In summary, individuals with larger retinotopic visual cortices
+might have weaker contextual interactions and more extended spatial processing. Both these ﬁndings are consistent with a greater dispersion of horizontal connections, inferred on the basis of our DCM
+results. Interestingly, gamma oscillation frequency is also correlated
+with orientation discrimination ability, which suggests that orientation discrimination, V1 size, pRF size, GABA concentration and
+gamma oscillations are all inter-related. We hope to have shown
+how Dynamic Causal Modelling with neural ﬁelds may provide a
+quantitative and mechanistic approach to such correlations among
+cortical structure and function.
+Acknowledgments
+This work was funded by the Wellcome Trust. We thank W. Penny
+and A. Bastos for useful discussions.
+References
+Adams, D.L., Sincich, L.C., Horton, J.C., 2007. Complete pattern of ocular dominance
+columns in human primary visual cortex. J. Neurosci. 27, 10391–10403.
+Amari, S., Arbib, M.A., 1977. Competition and cooperation in neural nets. Syst. Neurosci.
+119–165.
+Amari, S., Takeuchi, A., 1978. Mathematical theory on formation of category detecting
+nerve cells. Biol. Cybern. 29, 127–136.
+Angelucci, A., Bressloff, P.C., 2006. Contribution of feedforward, lateral and feedback
+connections to the classical receptive ﬁeld center and extra-classical receptive
+ﬁeld surround of primate V1. Visual Perception, Part 1, Fundamentals of Vision:
+Low and Mid-Level Processes in Perception, 154, pp. 93–120.
+Baker, T.I., Cowan, J.D., 2009. Spontaneous pattern formation and pinning in the primary visual cortex. J. Physiol. Paris 103, 52–68.
+Bassett, D.S., Greenﬁeld, D.L., Meyer-Lindenberg, A., Weinberger, D.R., Moore, S.W.,
+Bullmore, E.T., 2010. Efﬁcient physical embedding of topologically complex information processing networks in brains and computer circuits. PLoS Comput. Biol.
+6, e1000748.
+Bastos, AM, Usrey, WM, Adams, RA, Mangun, GR, Fries, P and Friston, KJ., (under
+review) Canonical microcircuits for predictive coding.
+Buffalo, E.A., Fries, P., Landman, R., Buschman, T.J., Desimone, R., 2011. Laminar differences in gamma and alpha coherence in the ventral stream. Proc. Natl. Acad. Sci.
+108, 11262.
+Burkhalter, A., Bernardo, K.L., 1989. Organization of corticocortical connections in
+human visual cortex. Proc. Natl. Acad. Sci. U. S. A. 86, 1071.
+Cherniak, C., 1994. Component placement optimization in the brain. J. Neurosci. 14,
+2418–2427.
+Dale, A.M., Fischl, B., Sereno, M.I., 1999. Cortical surface-based analysis. I Segmentation
+and surface reconstruction. NeuroImage 9, 179–194.
+Daunizeau, J., Kiebel, S.J., Friston, K.J., 2009. Dynamic causal modelling of distributed
+electromagnetic responses. NeuroImage 47, 590–601.
+David, O., Kiebel, S.J., Harrison, L.M., Mattout, J., Kilner, J.M., Friston, K.J., 2006. Dynamic
+causal modeling of evoked responses in EEG and MEG. NeuroImage 30, 1255–1272.
+Douglas, R.J., Martin, K.A., 1991. A functional microcircuit for cat visual cortex. J. Physiol. 440, 735.
+Duncan, R.O., Boynton, G.M., 2003. Cortical magniﬁcation within human primary visual
+cortex correlates with acuity thresholds. Neuron 38, 659–671.
+Edden, R.A.E., Muthukumaraswamy, S.D., Freeman, T.C.A., Singh, K.D., 2009. Orientation
+discrimination performance is predicted by GABA concentration and Gamma
+oscillation frequency in human visual cortex. J. Neurosci. 29 (50), 15721–15726.
+Freeman, W.J., 1972. Linear analysis of dynamics of neural masses. Annu. Rev. Biophys.
+Bioeng. 1, 225–256.
+Friston, K.J., Harrison, L., Penny, W., 2003. Dynamic causal modelling. NeuroImage 19,
+1273–1302.
+
+576
+
+D.A. Pinotsis et al. / NeuroImage 66 (2013) 563–576
+
+Friston, K., Mattout, J., Trujillo-Barreto, N., Ashburner, J., Penny, W., 2007. Variational
+free energy and the Laplace approximation. NeuroImage 34, 220–234.
+Gaetz, W., Roberts, T.P.L., Singh, K.D., Muthukumaraswamy, S.D., 2011. Functional and
+structural correlates of the aging brain: relating visual cortex (V1) gamma band responses to age-related structural change. Hum. Brain Mapp.
+Galka, A., Ozaki, T., Muhle, H., Stephani, U., Siniatchkin, M., 2008. A data-driven model
+of the generation of human EEG based on a spatially distributed stochastic wave
+equation. Cogn. Neurodyn. 2, 101–113.
+Goodyear, B.G., Menon, R.S., 2001. Brief visual stimulation allows mapping of ocular
+dominance in visual cortex using fMRI. Hum. Brain Mapp. 14, 210–217.
+Goodyear, B.G., Nicolle, D.A., Menon, R.S., 2002. High resolution fMRI of ocular dominance columns within the visual cortex of human amblyopes. Strabismus 10,
+129–136.
+Grindrod, P., Pinotsis, D.A., 2011. On the spectra of certain integro-differential-delay problems with applications in neurodynamics. Phys. D Nonlinear Phenom. 240, 13–20.
+Grossberg, S., 1973. Contour enhancement, short term memory, and constancies in
+reverberating neural networks. Stud. Appl. Math. 52, 213–257.
+Grossberg, S., Levine, D., 1975. Some developmental and attentional biases in the contrast enhancement and short term memory of recurrent neural networks. J. Theor.
+Biol. 53, 341–380.
+Haeusler, S., Maass, W., 2007. A statistical analysis of information-processing properties of lamina-speciﬁc cortical microcircuit models. Cereb. Cortex 17, 149.
+Harvey, B.M., Dumoulin, S.O., 2011. The relationship between cortical magniﬁcation
+factor and population receptive ﬁeld size in human visual cortex: constancies in
+cortical architecture. J. Neurosci. 31, 13604–13612.
+Herrmann, C.S., Fründ, I., Lenz, D., 2010. Human gamma-band activity: a review on
+cognitive and behavioral correlates and network models. Neurosci. Biobehav.
+Rev. 34, 981–992.
+Horton, J.C., Hocking, D.R., 1996. Intrinsic variability of ocular dominance column
+periodicity in normal macaque monkeys. J. Neurosci. 16, 7228–7239.
+Jansen, B.H., Rit, V.G., 1995. Electroencephalogram and visual evoked potential generation in a mathematical model of coupled cortical columns. Biol. Cybern. 73,
+357–366.
+Jirsa, V.K., 2009. Neural ﬁeld dynamics with local and global connectivity and time
+delay. Philos. Trans. R. Soc. A Math. Phys. Eng. Sci. 367, 1131.
+Kandel, E.R., Schwartz, J.H., Jessell, T.M., 2000. Principles of Neural Science, 4th ed.
+McGraw-Hill, New York.
+Lefort, S., Tomm, C., Floyd Sarria, J.C., Petersen, C.C., 2009. The excitatory neuronal
+network of the C2 barrel column in mouse primary somatosensory cortex. Neuron
+61, 301–316.
+Markounikau, V., Igel, C., Grinvald, A., Jancke, D., Sporns, O., 2010. A dynamic neural
+ﬁeld model of mesoscopic cortical activity captured with voltage-sensitive dye
+imaging. PLoS Comput. Biol. 6.
+Muthukumaraswamy, S.D., Edden, R.A., Jones, D.K., Swettenham, J.B., Singh, K.D., 2009.
+Resting GABA concentration predicts peak gamma frequency and fMRI amplitude
+in response to visual stimulation in humans. Proc. Natl. Acad. Sci. 106, 8356.
+Muthukumaraswamy, S.D., Singh, K.D., Swettenham, J.B., Jones, D.K., 2010. Visual
+gamma oscillations and evoked responses: variability, repeatability and structural
+MRI correlates. NeuroImage 49, 3349–3357.
+Nunez, P.L., 1995. Neocortical Dynamics and Human EEG Rhythms. Oxford University
+Press, USA.
+Penny, W.D., Stephan, K.E., Mechelli, A., Friston, K.J., 2004. Comparing dynamic causal
+models. NeuroImage 22, 1157–1172.
+Pinotsis, D.A., Friston, K.J., 2011. Neural ﬁelds, spectral responses and lateral connections. NeuroImage 55, 39–48.
+Pinotsis, D.A., Moran, R.J., Friston, K.J., 2012. Dynamic causal modeling with neural
+ﬁelds. NeuroImage 59 (2), 1261–1274.
+Prothero, J., 1997. Cortical scaling in mammals: a repeating units model. J. Hirnforsch.
+38, 195.
+
+Raizada, R.D., Grossberg, S., 2003. Towards a theory of the laminar architecture of
+cerebral cortex: computational clues from the visual system. Cereb. Cortex 13, 100.
+Riera, J.J., Jimenez, J.C., Wan, X., Kawashima, R., Ozaki, T., 2007. Nonlinear local
+electrovascular coupling. II: from data to neuronal masses. Hum. Brain Mapp.Hum.
+Brain Mapp. 28, 335–354.
+Robinson, P.A., 2006. Patchy propagators, brain dynamics, and the generation of
+spatially structured gamma oscillations. Phys. Rev. E 73, 041904.
+Robinson, P.A., Loxley, P.N., O'Connor, S.C., Rennie, C.J., 2001. Modal analysis of
+corticothalamic dynamics, electroencephalographic spectra, and evoked potentials. Phys. Rev. E 6304, 041909.
+Robinson, P.A., Rennie, C.J., Rowe, D., O'Connor, S.C., Wright, J.J., Gordon, E., Whitehouse,
+R.W., 2003. Neurophysical modeling of brain dynamics. Neuropsychopharmacology
+28, S74–S79.
+Robinson, P.A., Rennie, C.J., Rowe, D.L., O'Connor, S.C., 2004. Estimation of multiscale
+neurophysiologic parameters by electroencephalographic means. Hum. Brain
+Mapp. 23, 53–72.
+Roopun, A.K., LeBeau, F.E., Rammell, J., Cunningham, M.O., Traub, R.D., Whittington, M.A.,
+2010. Cholinergic neuromodulation controls directed temporal communication in
+neocortex in vitro. Front. Neural. Circuits 4.
+Schiff, S., Sauer, T., 2008. Kalman ﬁlter control of a model of spatiotemporal cortical
+dynamics. BMC Neurosci. 9, O1.
+Schwarzkopf, D.S., Song, C., Rees, G., 2011a. Linking perceptual experience with the
+functional architecture of the visual cortex. J. Vis. 11, 844.
+Schwarzkopf, D.S., Song, C., Rees, G., 2011b. The surface area of human V1 predicts the
+subjective experience of object size. Nat. Neurosci. 14, 28–30.
+Schwarzkopf, D.S., Robertson, D.J., Song, C., Barnes, G.R., Rees, G., 2012. The frequency
+of visually induced gamma-band oscillations depends on the size of early human
+visual cortex. J. Neurosci. 32, 1507–1512.
+Sekihara, K., Nagarajan, S.S., Poeppel, D., Marantz, A., 2004. Asymptotic SNR of scalar
+and vector minimum-variance beamformers for neuromagnetic source reconstruction. IEEE Trans. Biomed. Eng. 51, 1726–1734.
+Sereno, M.I., Dale, A.M., Reppas, J.B., Kwong, K.K., Belliveau, J.W., Brady, T.J., Rosen, B.R.,
+Tootell, R.B., 1995. Borders of multiple visual areas in humans revealed by
+functional magnetic resonance imaging. Science 268, 889–893.
+Steriade, M., Jones, E.G., McCormick, D.A., 1997. Thalamus. Elsevier, Amsterdam.
+Stettler, D.D., Das, A., Bennett, J., Gilbert, C.D., 2002. Lateral connectivity and contextual
+interactions in macaque primary visual cortex. Neuron 36, 739–750.
+Thomson, D.J., 1982. Spectrum estimation and harmonic analysis. Proc. IEEE 70,
+1055–1096.
+Valdes, P.A., Jimenez, J.C., Riera, J., Biscay, R., Ozaki, T., 1999. Nonlinear EEG analysis
+based on a neural mass model. Biol. Cybern. 81, 415–424.
+Van Veen, B.D., Van Drongelen, W., Yuchtman, M., Suzuki, A., 1997. Localization of brain
+electrical activity via linearly constrained minimum variance spatial ﬁltering. IEEE
+Trans. Biomed. Eng. 44, 867–880.
+Wallace, M.N., Bajwa, S., 1991. Patchy intrinsic connections of the ferret primary auditory cortex. Neuroreport 2, 417.
+Weiler, N., Wood, L., Yu, J., Solla, S.A., Shepherd, G.M., 2008. Top-down laminar organization of the excitatory network in motor cortex. Nat. Neurosci. 11, 360–366.
+Wen, Q., Chklovskii, D.B., 2008. A cost–beneﬁt analysis of neuronal morphology.
+J. Neurophysiol. 99, 2320–2328.
+Wendling, F., Bellanger, J.J., Bartolomei, F., Chauvel, P., 2000. Relevance of nonlinear
+lumped-parameter models in the analysis of depth-EEG epileptic signals. Biol.
+Cybern. 83 (4), 367–378.
+Wilson, H.R., Cowan, J.D., 1972. Excitatory and inhibitory interactions in localized
+populations of model neurons. Biophys. J. 12, 1–24.
+Wilson, H.R., Cowan, J.D., 1973. Mathematical theory of functional dynamics of cortical
+and thalamic nervous-tissue. Kybernetik 13, 55–80.
+Yacoub, E., Harel, N., Ugurbil, K., 2008. High-ﬁeld fMRI unveils orientation columns in
+humans. Proc. Natl. Acad. Sci. U. S. A. 105, 10607–10612.
+
+

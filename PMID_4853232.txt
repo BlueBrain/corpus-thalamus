@@ -1,0 +1,1642 @@
+Kybernetik 15, 27--37 (1974)
+9 by Springer-Verlag 1974
+
+Model of Brain Rhythmic Activity
+The Alpha-Rhythm of the Thalamus
+F. H. L o p e s d a Silva, A . H o c k s * , H. Smits, a n d L. H. Z e t t e r b e r g
+Brain Research Department, Institute of Medical Physics, National Health Research Council, T.N.O., Utrecht, The Netherlands and
+Department of Telecommunication Theory, Royal Institute of Technology, Stockholm, Sweden
+Received: August 24, 1973
+
+Abstract
+I. A model of a neuronal network has been set up in a digital
+computer based on histological and biophysical data experimentally
+obtained from the thalamus; the model includes two populations
+of neurons interconnected by means of negative feedback; in the
+model allowance is also made for other sort of interactions.
+2. To test the hypothesis that the alpha-rhythm (8-13 Hz
+rhythmic activity characteristic of the EEG) is a filtered noise signal
+the simulated neuronal network was stimulated by random trains of
+pulses with a Poisson distribution. The density of pulses fired by the
+simulated neurons was computed as well as the oscillations of the
+mean membrane potential of the population of simulated neurons.
+The latter was found to be equivalent to the experimentally obtained
+alpha rhythms.
+3. In order to test the hypothesis that several noise sources are
+responsible for thalamo-corticalcoherences three simulated neuronal
+networks were coupled together using several noise sources as
+secondary inputs. It was shown that although all the networks
+produced simulated alpha signals with identical spectra they could
+have significantly different values of coherence depending on the
+relation between correlated and uncorrelated input signals.
+4. The model Was analysed by means of linear systems analysis
+after introducing the necessary simplifications and approximations.
+In this way it was possible to evaluate the influence of different
+physiological or histological parameters upon the statistical
+properties of the resulting rhythmic activity in an analytical form.
+5. By changing the model parameters it was shown that a
+family of spectral curves could be obtained which simulated the
+development of the EEG as function of age from a predominantly
+low frequency to a clearly rhythmic type of signal. This was shown
+to depend mainly on the feedback coupling parameters.
+
+Introduction
+T h e n e u r a l processes which are r e s p o n s i b l e for the
+g e n e r a t i o n of the e l e c t r o e n c e p h a l o g r a m o r E E G , are
+still far from being p r o p e r l y u n d e r s t o o d . R e s e a r c h
+c a r r i e d o u t with the objective of clarifying those
+processes is o f general i m p o r t a n c e because it a t t e m p t s
+to a n s w e r the f u n d a m e n t a l question of why a n d how
+* A part of this work has been submitted by A. Hoeks to the
+Technical University, Eindhoven in partial fulfilment of a M.Sc. in
+Engineering.
+
+s y n c h r o n y can o c c u r in p o p u l a t i o n s o f neurons.
+F u r t h e r m o r e , this line of research also has a p r a c t i c a l
+side, b e c a u s e it m a y be a s s u m e d that a better u n d e r s t a n d i n g o f the n e u r o p h y s i o l o g y of E E G waves s h o u l d
+l e a d to an i m p r o v e m e n t in the i n t e r p r e t a t i o n of E E G
+d a t a b o t h in clinical a n d p h y s i o l o g i c a l research.
+T h e investigation r e p o r t e d here is an a t t e m p t to
+establish which are the basic m e c h a n i s m s of generation of one of the m o s t c o n s p i c u o u s E E G p h e n o m e n a ,
+the a l p h a - r h y t h m . This s t u d y has been carried out
+p a r t l y from a t h e o r e t i c a l s t a n d p o i n t , b u t also experimentally.
+
+1. The Hypothesis
+S o m e of the e x p e r i m e n t a l results o b t a i n e d in the
+d o g have been the object of a full r e p o r t (Lopes
+d a Silva et al., 1973). T h e y can be s u m m a r i z e d as
+follows: a l p h a - r h y t h m s have been r e c o r d e d from
+cortical a n d t h a l a m i c areas using c h r o n i c indwelling
+electrodes while the eyes o f the dogs were closed.
+T h e a l p h a - r h y t h m s p r e s e n t e d the characteristics of a
+b a n d p a s s filtered noise. A l p h a - r h y t h m s with the s a m e
+p e a k frequency a n d b a n d w i d t h were r e c o r d e d from
+b o t h cortical a n d t h a l a m i c areas. H o w e v e r , c o r r e l a t i o n s
+o r coherences between related cortical areas were
+consistently larger t h a n the t h a l a m o - c o r t i c a l coherences which have so far been o b t a i n e d .
+These results led us to f o r m u l a t e the h y p o t h e s i s
+that a l p h a - r h y t h m s m a y be a s s u m e d to be signals
+g e n e r a t e d by n e u r o n p o p u l a t i o n s with frequency
+selective p r o p e r t i e s , when they are s u b m i t t e d to a
+r a n d o m input. T h u s n e u r a l n e t w o r k s with the s a m e
+design a n d frequency selectivity m a y exist in different
+b r a i n a r e a s (cortical a n d thalamic).
+T h e s e m a y give rise to a l p h a - r h y t h m s with the same
+frequency spectra, b u t with v a r i a b l e coefficients of
+coherence, d e p e n d i n g u p o n the c o r r e l a t i o n o f the
+
+F.H. Lopes da Silva et al. : Model of Brain Activity
+
+28
+
+distinct network's r a n d o m inputs. The characteristics
+of the alpha-rhythm would, therefore, depend upon
+
+LATTICE
+
+- - the frequency selectivity properties of a neuronal
+population,
+the statistical properties of the input to such a
+population and
+-
+
+"TCR"
+
+AND "IN"NEURONS
+relay
+
+ceils
+
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0"0
+
+-
+
+0
+
+0
+
+0 0 l OO l
+
+- - gating mechanisms probably capable of setting
+the mode of activity of the neural networks, i.e. extrinsic
+modulating influences which may be responsible for
+the simultaneous occurrence of alpha-rhythms at
+different sites in the brain.
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0"0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0 ,0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0,0
+
+0,0
+
+o o
+o o
+o'o
+o o
+
+o o
+o.o
+o o
+o .~
+
+0
+
+010
+
+0
+
+0
+
+0
+
+0
+
+I
+
+0
+
+OeO
+
+0
+
+0 lO 0 0
+0 0 0 ~
+
+0
+
+0
+
+0
+
+0 0
+0
+
+0
+0
+
+o o o o# ?,~ o-R %o o
+o.o o.o I o ~ %0 % 0 io.o
+o o o o~o ~ l ~ . % ~ o
+o
+o.o o.o ~.o~,%.~ O, o.o
+
+2. The Model
+In this article, we shall limit ourselves to the
+research carried out to test the hypothesis presented
+above by use of a digital computer simulation of a
+neural network. Our attempt in this direction differs
+from that of others. On the one hand, we did not
+assume self-oscillating networks as have others (cf.
+review Rashevsky, 1971). On the other hand, our
+approach differed from that of Anderson et al. (1966)
+in that
+- - the output of our model was the summed postsynaptic potentials and not the probability of firing
+of neurons,
+
+OF
+
+e' Interneurons
+o'Thalamocortical
+
+0
+
+o o oO oo oOo-y.
+o
+
+oo o o o o'o o o
+
+0
+
+0
+
+0
+
+0
+@
+
+0
+9
+
+0
+
+0
+
+0
+
+0
+
+@
+
+9
+
+0
+
+0
+
+0
+
+0
+
+9
+
+0
+
+0
+
+0
+
+0
+
+9
+
+e'
+
+0
+
+0
+
+0
+
+0
+
+0
+9
+
+9
+
+9
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+9
+
+0
+
+0
+
+0
+
+0
+
+@0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+9
+
+0
+
+II0
+
+0
+9
+
+0
+0
+
+9
+
+0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0
+Fig. 1. The neural network simulated in the digital computer. The
+centripetally oriented arrow indicates the group of TCR neurons (32)
+which influence one IN. The centrifugally oriented arrow indicates
+the group of TCR neurons (12) which are under the influence
+of one IN
+h e ~tl
+
+- - we did not include the phenomenon of postanodal exaltation which has been refuted on good
+physiological grounds (Purpura, 1970) and
+- - we considered the model's output under steadystate conditions with a noise input and therefore not
+transient responses.
+The model was based on histological data from
+the ventro-postero-lateral nucleus of the thalamus
+published by T6mb61 (1967). We used these histological
+data because these results gave the best quantitative
+information concerning any structure capable of
+generating alpha-rhythms which we had at our
+disposal. Two types of neurons were assumed: the
+thalamo-cortical relay cells or TCR neurons, and the
+interneurons IN. The fundamental principle of interaction between T C R and IN neurons was that a T C R
+would excite one or more IN neurons via a recurrent
+collateral of its axon. The latter, in turn, would inhibit
+a group of T C R neurons (negative feedback). To keep
+the structure as simple as possible we did not assume,
+at the start, the possibility of positive feedback (TCR
+axon collaterals exciting other T C R cells), or, of
+direct input to IN cells which probably exists and may
+play an important role as a gating mechanism for
+the occurrence and disappearance of alpha-rhythms.
+
+0
+
+20
+
+40
+
+60
+
+80
+
+I00 msec 120
+
+t
+
+Fig, 2. Examples of schematic excitatory and inhibitory postsynaptic potentials (EPSP and IPSP). The EPSP and IPSP curves
+illustrated were used both in the computer simulations and in the
+systems analysis of the model
+2.1 The Model's Structure
+
+In the model, 144 T C R and 36 interneurons were
+simulated in a doublefolded matrix, i.e. in a matrix
+without boundaries as shown in Fig. 1. Therefore, the
+ratio T C R / I N neurons was 4 which agrees well with
+histological data (3-6 following T6mb61). The basic
+m e m b r a n e properties of the neurons were assumed as
+follows:
+The wave of depolarization and the wave of hyperpolarization corresponding to the excitatory and
+inhibitory post-synaptic potentials (EPSP and IPSP,
+respectively) were simulated as shown in Fig. 2.
+
+F. H. Lopes da Silva et al.: Model of Brain Activity
+
+It was assumed that the intracellular membrane
+potential in the resting state was - 6 0 mV, and that
+this potential could not decrease in the course of
+hyperpolarization below - 80 mV (Vmin).A theoretical
+saturation level was also included so that the intracellular potential should not exceed +30mV(Vs,t).
+In order to compute the membrane potential
+changes as a function of time, we employed simplified
+equations. In all computations, time was discrete in
+samples of 4 msec. In the model, a wave of depolarization was given by the following expression:
+Vi+ 1 =aVi + ni. V1
+
+(1)
+
+where ni" V1 is the combination of n waves of depolarization which are originated in the time unit i
+due to the arrival of n action potentials; a is a constant
+factor, 0 < a < 1 chosen as indicated below.
+The real change is, however, a function of the
+momentary value of the membrane potential:
+Vi+l = a V i +
+
+V~at
+
+hi. V1.
+
+(2)
+
+The constants a and V1 are chosen so that in the case
+where n 1 -- 1 and nj = 0(j > 1), Eq. (2) gives an EPSP
+with the form given in Fig. 2.
+If V1 = 1 mV then a = 0 . 7 , and one wave of depolarization (or equivalent EPSP) lasts about 30 msec.
+In most simulations, we took a = 0.8 and V1 = 1.2 mV.
+It should be realized that a wave of depolarization
+represents approximately one EPSP.
+For the purpose of simulating the wave of hyperpolarization, Eq. (3) was used:
+
+V,+I=bV,+
+
+V.,in-- V~ 6
+V,~
+Y~ ni_~.V~
+j=O
+
+(3)
+
+where b is a constant factor, Vmin is as defined above.
+The parameters V~(j= 0, 1..... 6) are chosen so that
+Eq. (3) gives a good fit to the desired wave form for
+the hyperpolarization (equivalent IPSP). Should b = 0.9
+and the top values of the equivalent IPSP is 8 mV,
+then the duration of the wave is about 100msec.
+For the general case where equivalent EPSPs and
+IPSPs are generated at the same time, Eqs. (2) and (3)
+are combined by linear summation. The remaining
+most important assumptions of the model are the
+following:
+The physiological properties of TCR and IN cells
+were assumed to be identical due to lack of more specific
+knowledge. The firing threshold of both was set at
+6 mV above resting membrane potential. After firing,
+the threshold changed up to the value of V~t and
+decreased exponentially in order to simulate the
+
+29
+
+absolute and relative refractory periods. The absolute
+refractory period lasted one time unit and the threshold
+was reset at the original value within 3 time units.
+It was assumed that one IN would receive effective
+excitatory inputs from around a radius, r r, of about
+150 la. Considering the known extent of the length of
+the dendritic arborization of these cells, which is
+about 250-400 ~t, this appeared to give a reasonable
+approximation admitting a geometric scaling down
+factor of 2 to take into account the effective action
+of the input fibres. Lack of knowledge about the
+number and length of the TCR axon's collaterals
+makes it difficult to determine how many TCR cells
+should project upon one IN. In the model we assumed
+that any IN receives inputs from 32 surrounding
+TCR cells.
+The effective radius, re, of one IN was assumed to
+be 100 ~t. This implies a scaling factor of 2 since that
+the length of the dendrites of the TCR cells is only
+200-250 la and that the precise length of the IN axons
+is not known. In the model any IN projects upon
+12 surrounding TCR cells. Therefore each TCR cell
+receives inputs from 3 IN's considering that the ratio
+between the number of cells TCR/IN is equal to 4.
+We did not put into the model the spatial effects of
+the relative effectiveness of synaptic inputs as a function
+of their place along the somadendritic membrane.
+The model had two main outputs:
+the linear sum, over all cells, of the membrane potential;
+and the density of all action potentials leaving the
+network via the axons of the TCR cells.
+In general, we took as the main output the sum of
+the membrane potential of only the TCR cells since
+these are the dominant components in number and
+size. This signal is the modelled EEG which is, therefore, assumed to be extracellular replica of the membrane potential changes as a function of time.
+The input to the model was fed only to the TCR
+cells- at least in this phase of the research. We assumed
+that the input was a randomly distributed series of
+action potentials. The TCR cells received uncorrelated
+inputs. Reports of spontaneous firing in the central
+nervous system have shown that often these series of
+action potentials possess a Poisson distribution.
+On the basis of the fact that one TCR cell receives
+about 10 extrinsic afferent fibres, we assumed that
+each TCR cell received 200 action potentials per
+second. To choose this value, we thought it useful to
+look for the mean rate of the spontaneous discharge
+occurring in optic tract fibres at rest or in darkness
+since eye closure provides the most conspicuous
+condition for the onset of alpha-rhythms.
+
+F. H. Lopes da Silva et al.: Model of Brain Activity
+
+30
+
+DENSITY DISTRIBUTION
+
+~
+
+-i~
+
+200
+
+.io"
+
+;
+SPECTRUM
+
+I
+
+'
+
+i
+
+'
+
+I
+
+'
+
+i --r-T-r~
+
+v.
+
+i ~
+
+!
+
+,
+
+|
+
+MODEL INPUT (PULSE DENNTY)
+
+AMPL.DISTRIBUTION
+
+-30 7
+A~
+
+-3o"
+
+t
+
+93o"
+
+SPECTRUM
+
+4" ......
+>
+
+0
+
+];Z_
+
+........
+
+_80.1
+
+O
+
+MODEL OUTPUT (MEAN VOL'1AGEOF CELLS)
+
+sec
+
+39Hz
+
+DENSITY DISTRIBUTION
+
+N1
+
+~
+0
+
+P:,.3
+'~254567e
+
+*
+
+SPECTRUM
+Z
+
+<
+
+C
+
+OZ
+
+MODEL OUTPUTIPULSE DENSITY)
+
+6 see
+
+39Nz
+
+Fig. 3a-c. The input a and the two outputs of the model, namely, the summated membrane potential of the TCR neurons b and the series
+of action potentials fired by the TCR neurons c. At the right-hand side the amplitude distributions and the power spectrum of the three
+signals. The power spectrum were computed by means of the Fast Fourier Transformation, and smoothingin the frequencydomain by an
+elliptic window. The frequencyresolution is 1.2 Hz
+In the literature, values around 20 action potentials
+per second and per fibre have been reported for the
+cat (Fuster et al., 1965; Levick and Williams, 1964).
+A value of 20 action potentials per incoming fibre was,
+therefore, chosen for the model. Since the time unit
+in the model was set at 4 msec, we obtain a mean
+value Ix = 0.8 action potentials per unit time and per
+cell. This value was a parameter in our model, and it
+was only assumed that it was not likely that spontaneously active afferent fibres would have much higher
+rates of firing than indicated above.
+
+Our purpose was to use the model in an attempt
+to answer the following question: does the simulated
+thalamic neural network generate a stochastic signal
+with characteristics analogous to alpha-rhythms when
+submitted to an appropriate noise input? Alpharhythms might then be considered as a form of
+filtered noise where the filter would be the thalamic
+network.
+2.I.1. The test of the filtered noise hypothesis. When
+submitted to a noise with the appropriate characteristics, the model produced rhythmic oscillations of
+
+F. H. Lopes da Silva et al. : Model of Brain Activity
+
+31
+
+AMPt..DISTRIBUTION
+
+-30"
+0
+SPECTRUM
+
+301
+I.*l,L.I,
+
+....
+
+|
+
+I
+
+l.l
+
+,.i|i
+
+,il . . I , . . . . . J e | i d i J i . ,
+
+, . lille ilIL..,
+
+ll.r
+
+Jl_
+
+..ll.~Jldll
+
+_80-1
+
+0
+
+/
+
+u
+
+,
+
+u
+
+, ~ - - ~ -
+
+,30"
+
+--r--W-
+
+MODEL OUTPUT (MEAN VOLTAGE OF CELLS)
+
+3'gHz
+
+esex
+
+AMPL.DISTRIBUTION
+
+_io-
+
+l.,,.,,~.rr,r.Frpe,
+
+;
+
+.io-
+
+SPECTRUM
+
+DOG'S ALPHA RHYTHM
+|
+
+I
+
+I
+
+I
+
+I
+
+I
+
+0
+
+I
+
+I
+
+!
+
+I
+
+!
+
+40Hz
+
+Fig. 4. Alpha-rhythm produced by the model and recorded from the occipital cortex of dog under natural conditions. At the right-hand side
+the corresponding amplitude distributions and power spectra (frequency resolution is 0.4 Hz for the natural alpha-rhythm and 1.2 Hz for the
+model's output)
+
+potential analogous to an alpha-rhythm (see Fig. 3b).
+The statistical properties of these oscillatory potentials
+have been characterized by means of power spectra
+and amplitude distributions (see Figs. 3 a-c). In Fig. 4
+an example of dog's alpha-rhythm with corresponding
+amplitude distribution and power spectra is presented
+for comparison.
+It can be seen that, in both cases, the real alpharhythm and the model's "alpha" present a frequency
+of about 9-12 Hz. The simulated alpha-rhythm waxes
+and wanes in amplitude, so that it may assume the
+form of spindles. It should be noted that the amplitude
+distribution is based on only a few seconds of activity
+due to the fact that the model output had to be kept
+as short as possible for technical reasons.
+Without going into details of all simulations
+which have been done we can state that the occurrence
+of an alpha-rhythm, and its frequency and amplitude,
+were mainly dependent on the mean value of the noise
+input (mean rate of incoming action potentials) and
+on the size of the IPSP. The effect of these two parameters is shown in Figs. 5 a, b. In this report we cannot
+deal in detail with the influence of all parameters.
+
+In conclusion, we consider that the simulations
+support the hypothesis that alpha-rhythms are generated by neural networks with the characteristic of a
+filter and a noise input.
+
+2.1.2. The test of the hypothesis that several noise
+sources contribute to thalamic and cortical alpharhythms and are responsible for thalamo-cortical
+coherences. The coherence function between two
+signals, Sl(t) and^S2(t), with estimates of power
+spectra Pa(f) and P2(f) and of crosspower spectrum
+Gt.2(f) is defined as
+](~l : ( f ) I 2
+.}z(f) = P~(f)'P2(f)"
+
+(4)
+
+The two signals may be expressed in the following way:
+St (t) = xl (t) + y(t) and S 2(t) = x 2 (t) + y(t) where x 1(t),
+x2(t) and y(t) are stochastic uncorrelated signals.
+Accordingly the expression for the coherence between
+S~(t) and Sz(t) can be written as follows:
+~2(f) = 1/[-1 § (~'xl(f)/[~
+
++ (Px2(f)/Py(f))
+
++ [~xl (f)" [~x2 (f)/(~y(f))2].
+
+(5)
+
+F. H. Lopes da Silva et al.: Model of Brain Activity
+
+32
+
+OF SIZE
+
+INFLUENCE
+
+OF IPSP.
+IPSPr:-SmV
+
+I PSPr : -i, mV
+>
+E
+
+g~
+6
+
+'
+
+'
+
+OUTPUT
+
+'
+
+~
+
+'
+
+( MEAN VOLTAGE )
+
+'
+
+,1,,~.
+
+.
+
+OF " I N " AND " T C R " -
+
+.
+
+.
+
+o:s
+
+.
+
+.
+
+.
+
+.
+
+,'~,,~.
+
+.
+
+NEURONS.
+O,
+
+i
+
+;
+
+,
+
+,
+
+r
+
+"r-
+
+O'.S
+
+1]0 s e c .
+
+OUTPUT ( N* OF ACTION P O T E N T I A L S )
+INFLUENCE
+.u : 0 . 6 0
+
+, .....
+
+i
+
+'
+
+OF N O I S E
+
+MEAN
+
+r
+
+--r~---
+
+r--T----"
+
+r
+
+r'---'-T-
+
+....
+
+r
+
+1
+
+O.S
+
+1.05ec.
+
+OF " T C R " - N E U R O N S .
+
+RATE.
+
+P U L S E S I TU.
+
+JJ : 0 . 8 0
+
+PULSES/TU.
+
+>
+E
+|..
+
+I-
+
+-4
+
+V
+
+v
+
+v
+
+~ ~,,.,,,,,.--
+
+,., ,,., V
+
+~
+
+vv
+
+O
+
+I'
+'
+
+*
+
+L5
+
+i
+'
+
+i
+
+,.0,,r
+
+'
+
+OUTPUT ( M E A N V O L T A G E )
+
+OF " I N "
+
+.
+
+.
+
+.
+
+.
+
+~
+
+'
+
+'
+
+l'.os,c.
+
+'
+
+AND " T C R " - N E U R O N S .
+
+~~
+
+~-
+
+'
+
+'
+
+'
+
+Es
+
+~-
+
+-'
+
+1:o,=.
+
+o
+
+*
+
+'
+
+......
+
+o'.s
+
+,
+
+i
+
+,'.o**c.
+
+b
+
+OUTPUT ( No OF ACTION POTENTIALS)
+
+OF "TCR"-NEURONS.
+
+Fig. 5a, b. Influence of the size of the IPSP a and of the input noise mean rate b on the two model's outputs: The summated membrane
+potentials of all IN and T C R neurons and the action potentials fired by all T C R neurons, a the model outputs obtained with two different
+I PSP amplitudes (IPSP or top amplitude 4 mV and 8 mV) are shown: note that the rhythmicity of the membrane potentials is m u c h stronger
+in the case of the larger IPSP. The two membrane potentials shown belong to the T C R and to the IN neurons; the former are the largest.
+b the model outputs obtained with two different levels of the mean noise input. Note that there is more rhythmicity in the case the mean
+pulse density is p = 0.80 pulses/time unity (4 msec) corresponding to 20 pulses/see per input synaptic contact and to 10 input contacts per
+T C R neurons
+
+F. H. Lopes da Silva et al.: Model of Brain Activity
+SPECTRA
+
+AND
+
+COHERENCES
+
+T vs, C~
+
+;L
+T
+
+i
+
+i
+
+i
+
+1
+
+|
+
+r
+
+i
+
+T v,~ C~
+
+C1
+
+T
+
+33
+
+i
+
+i
+
+"
+frequency
+
+i
+
+i
+
+'1
+6
+
+u
+
+"~2 .z
+frequency
+
+Fig. 6. Three interconnected alpha-rhythm networks. Network T simulates a central thalamic area; networks C 1 and C2 simulate two cortical
+projection areas. In this simulation the output of the TCR neurons of T furnishes 8 % of the action potentials forming the input of the main
+neurons of network C1. These neurons receive also a superimposed but uncorrelated noise input. Network C2 receives three inputs which are
+superimposed and which furnish the following contributions: 4% from T, 13 % from C j, and 839/oofrom an uncorrelated noise source. For all
+the three networks the mean input is the same and equal to 200 pulses/sec per neuron. At the left-hand side the spectrograms of the alpharhythms generated by networks T, C1, and C2 are represented. The frequency scale is the same as for the coherence function on the right.
+The vertical scale is in arbitrary units. Note that the spectra are practically identical and that all show a peak at the alpha frequency. At the
+right-hand side the coherence between the three models alpha-rhythms are illustrated. Note the large coherence between C~ and C2
+(0.85 at 10 Hz) whereas the maximal coherence between T and C~ is only 0.5 at 12 Hz and that between T and C2 is even only 0.49 at 8.5 Hz.
+The differences between the C 1 - C2 coherences and the T - C~ or T - C2 coherences are statistically significant (p <0.05)
+M e a s u r e m e n t s of coherence between a l p h a - r h y t h m s
+r e c o r d e d from different areas o f the b r a i n have s h o w n
+t h a t the coherences between t h a l a m u s a n d cortex
+have a m e a n value of a b o u t 0.3 whereas the c o h e r e n c e
+between different a r e a s of the cortex m a y reach m e a n
+values o f 0.7 o r 0.8 (Lopes d a Silva e t al., 1973). In
+o r d e r to test w h e t h e r such different values of c o h e r e n c e
+c o u l d be o b t a i n e d by m e a n s of c o u p l i n g different
+n e t w o r k s p r o d u c i n g a l p h a - r h y t h m s in a w a y a n a l o g o u s
+to the p h y s i o l o g i c a l case we have e x a m i n e d the
+c o h e r e n c e between 3 n e t w o r k s a r r a n g e d as i n d i c a t e d
+in Fig. 6. N e t w o r k 1 simulates a central t h a l a m i c a r e a ;
+n e t w o r k s 2 a n d 3 s i m u l a t e two p r o j e c t i o n areas.
+In o r d e r to c o u p l e two n e t w o r k s it is necessary to
+define h o w the o u t p u t of one is used as i n p u t of the
+o t h e r one. O f course the o u t p u t of one n e t w o r k is
+c o n s t i t u t e d by 144 series of a c t i o n p o t e n t i a l s arising
+from 144 T C R cells. These series of a c t i o n p o t e n t i a l s
+s h o u l d form the i n p u t of the 144 cells of the p r o j e c t i o n
+
+models. A basic a s s u m p t i o n of o u r m o d e l is that in
+o r d e r to p r o d u c e a g o o d s i m u l a t i o n of the a l p h a r h y t h m the i n p u t of the n e t w o r k s h o u l d have a certain
+m e a n noise level: 0.8 pulses/time unit (4 msec) p e r
+T C R neuron. T h e o u t p u t of each T C R neuron,
+however, c o n t a i n s a m u c h lower rate of pulses, which
+d o n o t form a white noise source; on the c o n t r a r y
+this o u t p u t series has a s p e c t r u m with a p e a k a r o u n d
+the a l p h a frequency. Since the o u t p u t of T C R cells
+has a low d e n s i t y it m u s t be c o m p l e m e n t e d by a d d i n g
+a s e c o n d a r y noise source in o r d e r to form the i n p u t
+of the s e c o n d network. T h e c o u p l i n g between the
+m a i n cells o f the two n e t w o r k s can be t h o u g h t to
+o c c u r in m a n y w a y s : (a) if a o n e - t o - o n e c o r r e s p o n d e n c e
+between the m a i n cells of the n e t w o r k s in series w o u l d
+be a s s u m e d , the ratio between the s e c o n d a r y noise
+source a n d the filtered noise c o m i n g o u t of the first
+n e t w o r k w o u l d b e c o m e so large that no coherence
+w o u l d be o b t a i n e d between the two n e t w o r k s con-
+
+34
+
+F. H. Lopes da Silva et al.: Model of Brain Activity
+
+nected in series; (b) a more interesting possibility is
+that a group of TCR cells of the first network projects
+upon one cell of the second network. This gives a
+better ratio between the secondary noise source and
+the filtered noise. The main point which we wished
+to investigate by means of this type of simulations was
+whether it was possible to show that three interconnected networks may produce signals with similar
+spectra whereas they have significantly different
+degrees of coherence. In order to achieve this we set
+up the three-order model represented in Fig. 6.
+Network T, or thalamic model, was assumed as being
+the common input to the two networks Ca and C2
+representing cortical projection areas. The projection
+of T upon C~ was made stronger than upon C2;
+four TCR neurons of T projected upon one neuron
+of C1 whereas only two TCR neurons projected upon
+one neuron of C2. There was, of course, overlapping
+between the domains of TCR neurons projecting to
+one neuron of C1 or C2 since every network was
+composed of the same number of neuronal elements.
+The secondary noise sources of the two networks
+(Ca and C2) which were necessary in order to obtain
+equivalent input levels, were simulated in different
+ways: network C1 received only a secondary uncorrelated noise source; network C2 received two
+secondary inputs, namely the output of the main
+neurons of network C1 and an uncorrelated noise
+source.
+The main results, of this simulation are illustrated
+in Fig. 6. They can be summarized as follows: (a) it
+was indeed found that the three networks produce
+signals with spectra which are practically identical;
+(b) however, the values of coherence between networks
+T and C a or C 2 were significantly lower than those
+found between networks Ct and C z. Therefore we
+demonstrated that such a model simulates satisfactorily the finding that the thalamo-cortical coherences are smaller than cortico-cortical coherences.
+The large value of the latter should be attributed to the
+strong interconnections between the cortical areas.
+It should be added that of course, we did not attempt
+to simulate a cortical network in its histological
+organization because of lack of the detailed information which is available for the thalamus. Thus the
+cortical model should be envisaged only as a rough
+approximation.
+The conclusion which emerges from these simulations is that in order to obtain an alpha-rhythm in
+such a system of neural networks as simulated here
+a deterministic pacemaker is not necessary. However,
+the strength of coherence between different brain
+areas emanates from the existence of histological con-
+
+nections between these areas and depends (a) upon the
+arrangement of the neuronal projections from one
+area on another, and (b) on the ratio between several
+noise sources that they receive as inputs.
+
+3. Systems Analysis of the Model
+So far we have dealt with the alpha-rhythm model
+in terms of the results obtained from simulations
+conducted on the digital computer. It is, of course,
+desirable to try to generalize the model so that we may
+understand the influence of different parameters
+analytically. We have treated this problem by simplifying the model and applying a systems analysis
+approach. The basic treatment is inspired from the
+theoretical study of Wilson and Cowan (1972) and
+has been treated in detail elsewhere by Zetterberg
+(1973). The basic system to which our computer
+model reduces is shown in Fig. 7. The translation
+from the model to the scheme of Fig. 7 takes into
+account the following assumptions:
+E(t) is the proportion of excitatory cells (TCR)
+firing per unit of time and I(t) is the proportion of
+inhibitory cells (IN) firing per unit of time; P(t) is
+the pulse density fed into the excitatory subpopulation
+of cells; Ve(t) is the average membrane potential in
+the excitatory population at time t and V~(t) of the
+inhibitory population; fe(x) and f~(x) are static functions (threshold functions) which relate the average
+level of the membrane potential to the pulse density
+of the excitatory and inh.ibitory cell populations,
+respectively; e~ is a constant which may be inter-
+
+Pit)
+
+r
+
+~
+~
+
+fEN)
+
+Eit) =
+
+(,)
+
+Fig. 7. Block diagram for the simplified alpha-rhythm model. The
+TCR neurons are represented by two input devices which have as
+impulse responses potentials simulating an EPSP (he(t)) and an
+IPSP (h~(t)), respectively. Furthermore a static non-linearity fe(V)
+represents the spike generating process. The IN are represented
+only by one input element having the impulse response he(t ) and
+a spike generating process f~(V). The feedback from the TCR to
+the IN is multiplied by two factors, namely C~ which represents the
+number of INs to which one TCR neuron projects and C 2 which
+represents the number of TCR neurons to which one IN projects
+
+F. H. Lopes da Silva et al.: Model of Brain Activity
+
+preted as the average number of synaptic contacts
+that the output of one excitatory cell forms and the
+same applies for % but for one inhibitory cell; he(t)
+and hi(t) are the impulse responses for the excitatory
+and inhibitory synapses. They may be viewed as the
+equivalent to an excitatory postsynaptic potential
+(EPSP) or an inhibitory postsynaptic potential (IPSP).
+The non-linearity introduced by s
+and fi(x) is
+given in the following expressions:
+E(t) = f~[ V~(t)]
+I(t)
+
+=f
+
+[ V~(t)]
+
+(6)
+
+Ve(t) = f e - t [E(t)]
+
+(8)
+
+Vi(t) = fi- 1[I(t)].
+
+(9)
+
+The four stochastic processess E(t), l(t), Ve(t), and Vi(t)
+are defined as spatial averages over a fairly large
+population of cells. Hence it may be expected that
+at a fixed time the standard deviations of these
+quantities are small compared to the mean values.
+For intermediate level of excitation it is reasonable to
+assume that the two functions s
+and f - l ( y )
+may be expanded in a Taylor series around the mean
+value
+f f ' [E(t)] = aeo(E ) + a~x (E(t) - E) + a~2(E(t ) - ~)2
++ a~3(e(t ) - E) 3
+
+where P(s), E(s), I(s), He(s), tti(s), V~(s) and Vi(s) are
+the Laplace transform of p(t), e(t), fit), he(t), hi(t), re(t),
+and vi(t) respectively.
+Combining expressions (12) and (13) we obtain
+the expression for Ve(S):
+
+(10)
+
+and similarly for f~-'[I(t)]. Here only the two first
+terms will be taken into account. But basically we are
+not interested in mean values but rather on variations
+around the means of the stochastic processes E(t),
+I(t), P~(t) and V~(t).
+Therefore it is convenient to introduce the processes:
+e(t) = E(t) - E.
+
+1+
+
+(11)
+
+We can now write the equations governing the operations indicated in the scheme of Fig. 7 applying
+Laplace transforms:
+P(s) I-I~(s) - C fl(s) ~ ( s ) = a~lE(S) = Ve(S)
+
+(12)
+
+and
+
+1
+
+--
+
+Oil
+
+= all
+
+l(s) = V/(s)
+
+(13)
+
+=qil
+
+and
+
+1
+ael
+
+-qel
+
+where qe~ represents the slope of the function fi at
+which gives the relationship between the number of
+excitatory cells firing per unit of time [E(t)] and the
+membrane potential Ve(t); for qil the same holds
+for the inhibitory cells.
+We get
+P(s) He(s )
+Ve(S)-~- I + C t C 2 q e l q i l l t i ( s ) He(S) "
+(15)
+At this stage we must make some assumptions about
+the transfer functions Hi(s) and He(s ) which have
+impulse responses equivalent to the inhibitory (IPSP)
+and excitatory (EPSP) post-synaptic potentials, respectively. These transfer functions may be approximated by second order systems. The corresponding
+impulse responses constitute an approximation of
+the real post-synaptic potentials which are shown in
+Fig. 2. In this case the impulse responses are given by
+the expressions,
+~(t) = B [ e x p ( - b I t) - e x p ( - b2t) ]
+
+(16)
+
+he(t) = A [ e x p ( - al t) - e x p ( - a 2 t)]
+
+(17)
+
+with a 2 > al and b 2 2>bv
+The corresponding transfer functions are then
+Hi(s) =
+
+(b2 - b O B
+(s + bl) (s + b2)
+
+He(s)=
+
+(s+al)(s+a2)
+
+and
+
+(18)
+
+(a2 - al) A
+.
+
+(19)
+
+The values of a 1, a2, b 1, b 2, A and B which were used
+in the present simulations are given below.
+Including these expressions in (15) and setting
+CxC2qelqii(a2-al)(b2-bl)AB=K
+
+(20)
+
+we get
+Ve(S) =
+
+CiHe(S ) E(s)
+
+(14)
+
+ailael
+
+re(t) ~- Ve(t) -- Ve
+
+vi(t) = Vi(t ) - Fi .
+
+c~ C2H,(s) He(s)
+
+setting
+
+i(t) = I(t) - [
+p(t) = P ( t ) - P
+
+P(s) He(S)
+
+Ve(s ) =
+
+(7)
+
+re(x) and fi(x) are monotonously increasing and
+hence they have unique inverses. Thus we may write
+
+35
+
+(a 2 - al) AP(s) (s + bl) (s + b2)
+(21)
+(s + al) (s + a2) (s + bl) (s + b2) + K"
+
+F. H. Lopes da Silva et al.: Model of Brain Activity
+
+36
+-I
+
+We shall consider how these values were numerically accounted for. The numerical values of the
+constants representing the synaptic potentials (see
+Fig. 2) were such that
+
+K
+
+\~
+
+a
+
+,.,07
+
+c
+
+I -10 8
+
+(a2-al)(b2-bl)AB--0.801
+
+in
+
+V2/sec 2
+
+-
+
+g'
+
+d
+
+-8
+0
+
+I
+10
+
+I
+20
+
+/
+
+Hz
+
+30
+
+f
+
+Fig. 8. The influence of the feedback factor K (for explanation see
+text) on the spectrum of the model's output. Note that if K is small
+the spectrum is predominantly that of a low pass filter; as K increases
+the spectrum acquires a clear selectivity at the alpha-frequency
+
+In the constant K there are several factors; the
+coupling constants C~ and C2; the threshold functions qel and qi~ and the parameters of the synaptic
+responses.
+If the coupling within the network is very small
+than K is negligible and the transfer function of the
+network expressed as
+
+9p(s) = V~(s)/P(s)
+approaches the transfer function for the EPSP.
+As the coupling constant K increases complex
+poles will originate. This is the most interesting case
+for understanding the generation of rhythmic activity.
+As K increases still more some poles will move into
+the right half plane ( a > 0 ) and the network will
+become unstable.
+The power spectrum of V~(t) may be obtained from
+expression (21) substituting s by jco and assuming
+that P(s) is a constant since the spectrum of the input
+noise is flat.
+The influence of K on the power spectrum of
+Ve(t) is shown in Fig. 8 for values of K corresponding
+to stable solutions.
+
+with a 1 =55, a 2 = 6 0 5 , b I =27.5, and b 2 =55 in sec -~
+The constants A and B were calculated as indicated
+below; the EPSP has a top value of 1.2mV so that
+A = 1.65 mV and the IPSP has a top value of 8 mV
+so that B = 32 mV.
+For C~ and C2 we used the values obtained from
+the simulations described in the preceding section;
+C~ is the number of TCR cells which project upon one
+IN and was set equal to 32; C2 was the number of IN
+which project upon one TCR and was equal to 3.
+Thus in order to get a value of K = 3.5 x 108 which
+corresponds to the maximum in the spectrum we have
+that qe 1qi ~ = 4.55 x 10 6. That value of K is close to the
+stability limit of the network.
+Considering for simplicity that qel ~ q i l which is
+the case in our computer simulations we have that
+qe ~ ~ 2130 which represents that, theoretically, 2.1 cells
+would fire, per sec., as the average membrane potential
+of the cell population increases by 1 mV. This has been
+confirmed in the computer network simulations;
+it should now be confirmed experimentally.
+One of the very interesting aspects which emerged
+from the model's system analysis is the study of the
+influence of K. Indeed it is curious to note that the
+family of spectra of Fig. 8 approximates the development of the EEG as function of age; in this way we
+have obtained a useful model of the development of the
+EEG. Considering that it is likely that the threshold
+parameters, q~l and qi~ should not change much and
+the synaptic time constants only slightly, it follows
+that the main parameter which should change during
+development would be C~ and C 2 i.e. the coupling
+constants. Therefore it may be seen that the development of the EEG from a predominantly low frequency
+spectrum signal to a signal with a clear rhythmic
+component would depend upon an increase in interconnections and synaptic contacts.
+In conclusion the systems analysis of the model
+enables us to evaluate the influence of different
+parameters upon the statistical properties of the
+resulting rhythmic activity in an analytical form,
+which is simpler than the computer simulations.
+Furthermore it enables us to generalize the model to
+other forms of cooperative processes in neural systems.
+Acknowledgements. We wish to thank Ir. M. ten Hoopen and
+Drs. A. van Rotterdam for reading the manuscript and discussing it.
+
+F. H. Lopes da Silva et al. : Model of Brain Activity
+
+References
+Andersen, P, Gillow, M., Rudjord, T.: Rhythmic activity in a
+simulated neuronal network. J. Physiol. (Lond.) 4 1 8 4 2 8 (1966)
+Fuster, J.M., Herz, A., Creutzfeldt, O.D.: Interval analysis of cell
+discharges in spontaneous and optically modulated activity in
+the visual system. Arch. ital. Biol. 103, 159--177 (1965)
+Lopes da Silva, F, H., Van Lierop, T. H. M.T., Schrijer, C.F., Storm
+van Leeuwen, W.: Organization of thalamic and cortical alpha
+rhythms: spectra and coherences. Electroenceph. clin. Neurophysiol. 35, 627-q539 (1973)
+Levick, W.R., Williams, W. O.: Maintained activity of lateral geniculate neurons in darkness. J. Physiol. (Lond.) 170, 582--597
+(1964)
+Purpura, D.: Operations and processes in thalamic and synaptically
+related neural subsystems. In: Schmitt, F.O. (Ed.): The Neurosciences. Vol. 2, pp. 4 5 8 4 7 0 . New York: Rockefeller Univ.
+Press 1970
+
+37
+
+Rashevsky, N.: A note on nonperiodic undamped oscillations with
+special reference to brain waves. Bull. Math. Biophys. 33, 281--293
+(1971)
+Saunders, M.G.: Amplitude probability density studies on alpha
+and alpha-like patterns. Electroenceph. clin. Neurophysiol. 15,
+761--767 (1960)
+T6mb61,T.: Short neurons and their synaptic relations in the
+specific thalamic nuclei. Brain Res. 3, 307--326 (1967)
+Wilson, H. R., Cowan,J. D.: Excitatory and inhibitory interaction in
+localized populations of model neurons. Biophys. J. 12, 1- 23
+(1972)
+Zetterberg, L.H.: Stochastic activity in a population of neurons a system analysis approach. Report Inst. Med. Physics TNO,
+Utrecht, I, 153 (1973)
+Dr. F. H. Lopes da Silva
+Institute of Medical Physics TNO
+Da Costakade 45
+Utrecht, The Netherlands
+
+

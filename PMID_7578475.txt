@@ -1,0 +1,1469 @@
+Biological
+Cybernetics
+
+Biol. Cybern. 73, 357 366 (1995)
+
+9 Springer-Verlag1995
+
+Electroencephalogram and visual evoked potential generation
+in a mathematical model of coupled cortical columns
+Ben H. Jansen, Vincent G. Rit
+Department of Electrical and Computer Engineering, and Bioengineering Research Center, University of Houston, Houston, TX 77204-4793, USA
+Received: 30 August 1994/Accepted in revised form: 2 May 1995
+
+Abstract. This study deals with neurophysiologically
+based models simulating electrical brain activity (i.e., the
+electroencephalogram or EEG, and evoked potentials or
+EPs). A previously developed lumped-parameter model
+of a single cortical column was implemented using
+a more accurate computational procedure. Anatomically
+acceptable values for the various model parameters were
+determined, and a multi-dimensional exploration of the
+model parameter-space was conducted. It was found that
+the model could produce a large variety of EEG-like
+waveforms and rhythms. Coupling two models, with delays in the interconnections to simulate the synaptic
+connections within and between cortical areas, made it
+possible to replicate the spatial distribution of alpha and
+beta activity. EPs were simulated by presenting pulses to
+the input of the coupled models. In general, the responses
+were more realistic than those produced using a single
+model. Our simulations also suggest that the scalp-recorded EP is at least partially due to a phase reordering
+of the ongoing activity.
+
+1 Introduction
+
+The electroencephalogram (EEG) is a recording of the
+spontaneous electrical activity of the brain recorded from
+surface electrodes placed on the scalp (Martin 1985). An
+evoked potential (EP) is a specific change in the ongoing
+EEG resulting from stimulation of a sensory pathway.
+The EEG and EP result mainly from extracellular
+current flow associated with summed postsynaptic
+potentials in synchronously activated, vertically oriented
+neurons.
+The complexity of the EEG signal reflects the intricate cortical structures which produce it. In order to
+study the latter, various mathematical models have been
+developed to simulate electrical brain activity (see, for
+example, Freeman 1987; Lopes da Silva et al. 1976). The
+concept of a neuronal model makes it possible to reduce
+Correspondence to: B. H. Jansen
+
+the complexity of cortical connections to relatively
+simple circuits. If the model parameters are based on
+anatomical data, such as the number of synapses or the
+excitability of neurons, then it is possible to test their
+respective role and influence.
+The present study deals with the further development
+and exploration of a neurophysiologically based model
+of a cortical column, proposed by Jansen et al. (1993).
+First, a thorough evaluation of the effects brought about
+by variations in the parameters of the postsynaptic potential (PSP) functions and potential-to-pulse density
+transformation defining the model were conducted to
+explore the different kinds of activities a single model
+could produce. Next, we investigated to what degree the
+various components of the scalp-recorded visual evoked
+potential (VEP) are due to (1) the arrival of the specific
+afferent activity associated with the visual stimulus
+and/or (2) interaction between cortical areas.
+Section 2 presents a brief review of the model on
+which the present study is based, followed by a presentation of the double-column model, and a discussion of the
+parameter settings. The spontaneous and evoked activities that such a model may produce are presented in
+Sect. 3. A discussion concludes this paper.
+
+2 EEG and EP modeling
+
+2.1 Single-column model
+The mechanisms of oscillation generation in the brain
+have been proven to be nonlinear, both in cats
+(Kawashima et al. 1983; Shibagaki et al. 1985) and in
+humans (Watanabe and Shikita 1981). Hence, nonlinear
+models should be used to describe cortical activity. The
+present study deals with the further development and
+exploration of a nonlinear model of a cortical column
+described by Jansen et al. (1993). This model, in turn, is
+based upon Lopes da Silva's lumped parameter model
+(Lopes da Silva et al. 1974, 1976; Rotterdam et al. 1982).
+The cortical column is modeled by a population of
+'feedforward' pyramidal cells, receiving inhibitory and
+excitatory feedback from local interneurons (i.e., other
+
+358
+
+~
+
+Colum1:n
+
+C, A, B, v0
+
+fU.,,.,,..v0.
+Column2:
+
+l
+
+p'(t)
+
+Fig. 2. Schematic diagram of the double-column model
+Fig. l. Simplified model for cortical alpha generation
+
+pyramidal, stellate or basket cells residing in the same
+column) and excitatory input from neighboring or more
+distant columns (Fig. 1). The latter input is represented
+by a pulse density p(t) which can be any arbitrary
+function, including white noise (see Sect. 2.2 for further
+details).
+Each of the neuron populations is modeled by two
+blocks. The first block transforms the average pulse density of action potentials coming to the population of
+neurons into an average postsynaptic membrane potential which can either be excitatory or inhibitory. This
+block is referred to as the PSP block and represents
+a linear transformation with an impulse response given
+by
+he(t)={oate-a'
+
+t<0t~>0
+
+(1)
+
+t>~O
+t< 0
+
+(4)
+
+which can be rewritten as
+
+~(t) = z(t)
+5(t)
+
+t
+
+a a x ( t ) - 2az(t) - a2y(t ) j
+
+(5)
+
+where x(t) and y(t) are the input and output signals,
+respectively. Using (5) we obtain the gollowing set of six
+differential equations to describe the model:
+
+Y3 (t) = Aa Sigm [yl (t) - Yz (t)] - 2ay3 (t) - a 2 Yo (t)
+(2)
+
+for the inhibitory case. A and B determine the maximum
+amplitude of the excitatory and inhibitory PSP (EPSP
+and IPSP), respectively, and a and b are the lumped
+representation of the sum of the reciprocal of the time
+constant of passive membrane and all other spatially
+distributed delays in the dendritic network. The second
+block transforms the average membrane potential of
+a population of neurons into an average pulse density of
+action potentials fired by the neurons. This transformation is described by a sigmoid function of the form
+Sigm (v) = 2eo/[1 + e" ~o- ~)]
+
+~(t) = A a x ( t ) - 2aj~(t) - a 2 y(t)
+
+)~o(t) = y3(t)
+
+for the excitatory case, and
+hi(t)={Bbte-~'
+
+branch, active only during processing of external stimuli,
+representing the supplementary excitation due to nonspecific afferent inputs. The effect of this branch is expected to be replicated by the interaction between
+coupled models.]
+Each PSP block introduces two differential equations
+of the form
+
+~1 (t) = Y4 (0
+Y4 (t) = Aa {p(t) + C2 Sigm [C1 Yo(t)] }
+
+(6)
+
+- 2ay4(t) - a2yx (t)
+
+~2 (t) = y5 (t)
+Y5 (t) = Bb {C4 Sigm [C3 Yo(t)] } - 2by5 (t) - b z Y2 (t)
+where Yo, Y~, and Y2 are the outputs of the three PSP
+blocks, respectively. These differential equations were
+solved using an integration method based on the
+Fehlberg fourth-fifth order Runge-Kutta method.
+
+(3)
+
+which is a simplified, but identically behaving version of
+the transformation presented in Jansen et al. (1993). Here,
+eo determines the maximum firing rate of the neural
+population, Vo the PSP for which a 50% firing rate is
+achieved, and r the steepness of the sigmoidal transformation.
+The interaction between the pyramidal cells and the
+excitatory and inhibitory interneurons is characterized
+by the four connectivity constants C1 through C4, which
+account for the total number of synapses established by
+interneurons onto the axons and dendrites of the neurons
+constituting the cortical column. [In the model originally
+presented in Jansen et al. (1993), there was an additional
+
+2.2 Double-column model
+The hypothesis that certain VEP components are due to
+an interaction between two or more cortical columns
+was explored using two coupled model columns. Both
+columns are based on (6), but the system parameters (e.g.,
+A, B and Vo) can be different for each column. Each
+column is fed by two inputs: an external one, which can
+be different for each column, and the output of the other
+column. Two connectivity constants, K1 and K2, attenuate the output of a column before it is fed to the other. In
+some experiments, a delay, ad, will also be incorporated
+in these factors. The resulting double model is represented schematically in Fig. 2.
+
+359
+Typically, one of the two columns in the doublecolumn model may represent the visual cortex, while the
+second one models the prefrontal cortex. We will assume
+that the same cortical column model can be used for the
+visual and prefrontal cortex. This assumption is supported by the fact that the basic neuronal architecture of
+the cortex is similar throughout its areas (Cynader et al.
+1988; Gilbert et al. 1988). However, the proportions of
+cell types differ from one cortical area to the next. These
+differences will be represented by a different setting of the
+model parameter values. The prefrontal cortex typically
+displays beta activity (Martin 1985). The various parameters of the column will be set so that the column
+produces such an activity when the input is random
+noise. [The many projections of the thalamus to the
+prefrontal cortex, which have been described in recent
+articles by Barbas et al. (1991) and Tanibuchi (1992),
+substantiate the assumption of a random-noise input.]
+The column representing the visual cortex will be made
+to generate alpha activity when receiving random input.
+The specific parameter values will be determined on the
+basis of the outcome of the exploration of the singlecolumn parameter-space.
+The cortical columns located in area 17 are linked to
+the prefrontal cortex via two other cortical areas: the
+prestriate cortex (areas 18 and 19), and the inferotemporal cortex. Hence at least three neurons are necessary
+to account for the pathways of the processing of a visual
+stimulus by the prefrontal cortex and three more for the
+feedback to the occipital visual cortex. The delays are
+modeled by linear transformations similar to he(t), defined in Eq. 1, but with a latency 3 times longer. This
+latency is inversely proportional to the he (t) parameter a;
+hence the intercolumn delay will be modeled by
+hd(t)={Aadte-"dt
+
+t>/O
+t< 0
+
+(7)
+
+where ad ~ a/3.
+The analytical description of such a double-column
+model obviously requires twice as many variables as for
+a single column. Three of the new variables, i.e., Y6, Y7,
+and Ys, are used in the second column, and are equivalent
+to Yo, Y~, and Y2, respectively. Four additional variables
+are required to represent the delay blocks in the two
+intercolumn branches: Y12, Y13, Y14, and Y~5. The variables Y12 and Y13 are the outputs of the EPSP blocks
+added to the branches linking column 1 to column 2 and
+column 2 to column 1, respectively. Hence, the following
+set of equations defining the double-column model is
+obtained:
+))0(t) = Y3 (t)
+
+)3 (t) = A a Sigm [ Yl (t) - Y2(t)] - 2ay3 (t) - a 2 Yo (t)
+
+))l(t) = y,(t)
+))4(0 = Aa{p(t) + C2 Sigm[ClYo(t)] + K2Y13}
+-- 2ay4(t) -- aZyx (t)
+
+) ) 2 ( 0 = y , (t)
+)),(t)
+
+=
+
+Bb { Ca Sigm [C3 Yo(t)] } - 2by5 (t) - bE Y2 (t)
+
+P6(t) = y9(t)
+
+))9(0 = A' a Sigm [ Y7(t) - Ys (t)] - 2ay9 (t) - a 2 Y6 (t)
+))7(t) = ylo(t)
+
+(8)
+
+Plo(t) = A'a{p'(t) + C'2Sigm[C'~y6(t)] + K l y 1 2 }
+- 2aylo(t) - aZyT(t)
+
+Ps(t) = y l , ( t )
+))11 (t) = B'b {C'4 Sigm [C~ Y6(t)]} - 2by~ 1 (t) - b 2 Ya (t)
+
+))12(t) = y14(t)
+))14(0 = A'ad Sigm [ Yl (t) - Y2(t)]
+-
+
+2ad y14 (t) -- a 2 yl 2 (t)
+
+3)13(t) = Y15(t)
+))15 (t) = A' ad Sigm [ Y7(t) - Ys (t)]
+- 2ad y15(t) - aEy13(t)
+where the parameters of the second column that are
+different from the corresponding parameters of the first
+column are indicated by a prime.
+2.3 Model parameters
+
+A literature review uncovered a number of useful relationships between the connectivity constants Ca to C4.
+These constants are proportional to the average number
+of synapses between the pyramidal cells and the excitatory and inhibitory feedback elements. Specifically,
+C1 represents the number of synapses made by the feedforward neurons to the dendrites of the excitatory feedback loop; Cz is proportional to the number of synapses
+made by the excitatory feedback loop to the dendrites of
+the feedforward neurons (typically, such counts include
+synapses of a thalamic origin, indicated here by C~);
+C3 stands for the number of synapses made by the feedforward neurons to the dendrites of the inhibitory feedback loop; and C4 is proportional to the number of
+synapses made by the inhibitory feedback loop to the
+dendrites of the feedforward neurons.
+Studies of the visual cortex pyramidal cell of a mouse
+(Braitenberg and SchiJz 1991) suggest that
+C 1 --[- C 3 -~- C 2 --[- C2 + C 4
+
+(9)
+
+Elhanany and White (1990) found that in the mouse
+somato-motor cortex, a pyramidal cell axon would make
+87% of its synapses on spines and 13% on shafts. It has
+been observed (White 1989) that a synapse made onto
+a spine is onto an excitatory (pyramidal) cell, but that
+a synapse onto a shaft is equally likely to be on an
+excitatory or an inhibitory cell. Hence, about 6.5% of the
+synapses made by a pyramidal cell are inhibitory. Therefore,
+C3/(C1 + C3) = 6.5/100
+
+(10)
+
+360
+
+Liu et al. (1991) established that 80% of the synapses
+made on a pyramidal cell dendrite in the cat motor cortex
+were of the excitatory type, hence
+(C2 + C'2)/[(Cz + C~) + C4] = 0.8
+
+(11)
+
+Most of the excitatory cells in the visual cortex are
+pyramidal cells (Braitenberg and Schiiz 1991; Larkman
+1991), hence the excitatory feedback loop is composed
+mainly of pyramidal cells. If the population of such cells
+is assumed to be homogeneous with regard to synapse
+patterns (i.e., all pyramidal cells establish the same number of synapses with other cells), then the number of
+synapses made by the feedforward neurons of a cortical
+column on the excitatory feedback loop should be the
+same as the number of synapses made by the excitatory
+feedback loop on the feedforward neurons. This leads to
+C 1 = C 2 + C2
+
+(12)
+
+According to White (1986), about 20% of the asymmetrical synapses (those assumed to be of the excitatory type)
+in layer IV of the cortex are formed by thalamo-cortical
+terminals, i.e.,
+
+C'2/(C2 + C~) = 0.2 =:, C~ = Cz/4
+
+fixed values as used before (Jansen et al. 1993), namely,
+a = 100 s- 1 and b = 50 s- 1. The PSP blocks accounting
+for the delays in the intercolumn branches in the doublecolumn model will use the same A as the other PSP
+blocks, but ad = 30 S-1.
+The excitability of cortical neurons is also very sensitive to a variety of substances (McCormick et al. 1991;
+Albus et al. 1992; Nowicky et al. 1992). Hence the effect of
+varying Vo, which accounts for the firing threshold in (3),
+will be studied, but in most cases we will use Vo = 6 mV,
+as suggested by Freeman (1987). The remaining parameters in (3) will remain fixed, with eo = 2.5 s-1 and
+r = 0.56 mV-1.
+Following our previous study (Jansen et al. 1993), the
+random white noise input p(t) will have an amplitude
+varying between 120 and 320 pulses per second.
+
+(13)
+
+3 Results
+The first two parts of this section present the types
+of spontaneous activity produced by a single cortical
+column, and by two mutually coupled models, respectively. The third part presents the evoked activity generated using the double-column model.
+
+Substituting (13) in (12), one obtains
+
+C2/C1 = 0.8
+
+(14)
+
+From (9) and (12) we get
+C3 = C4
+
+(15)
+
+The relationship between the number of synapses on
+the excitatory and inhibitory feedback loops is more
+ambiguous. For example, (10) yields C1 = 14.4C3, while
+substituting (12) and (15)in (11) yields C1 = 4Ca. These
+discrepancies may be due to the different biological
+materials used in the synapse counts, the variability
+associated with such studies, and the actual differences
+between pyramidal cells throughout the visual cortex.
+We will assume that C1 = 4C3, resulting in
+C1 = C2/0.8 = 4C3 = 4C4
+
+(16)
+
+These relationships allow us to represent each of
+the four connectivity constants as a fraction of one
+constant, C. Specifically, by selecting C = C~, we obtain
+C2 = 0.8C; C3 = 0.25C; and C, = 0.25C. The variable
+C is one of the parameters most likely to vary under
+different physiological constraints, because it accounts
+for synaptic phenomena such as neurotransmitter depletion, which are common and can have drastic consequences.
+The A and B parameters of the PSP functions are
+proportional to the amplitude of the PSP. It is suggested
+that A = 3.25 mV and B = 22 mV (van Rotterdam et al.
+1982). Certain neuropeptides modify the amplitude of the
+PSPs (Dodt et al. 1991), hence A and B have to be
+granted a degree of freedom. The a and b parameters of
+the PSP blocks are inversely proportional to the duration of the PSP. These are less likely to vary over relatively short periods, and therefore will be set to the same
+
+3.1 Spontaneous activity in a single-column model
+The literature suggests that the model produces oscillating output if A = 3.25 mV (van Rotterdam et al. 1982),
+B = 22 mV (van Rotterdam et al. 1982), and vo = 6 mV
+(Freeman 1987). N o such information can be found for
+the lumped connectivity constant parameter C. The effect
+of this parameter was explored experimentally, using the
+other parameters set to the aforementioned values and
+a random input uniformly distributed between 120 and
+320 pulses per second. Varying C led to the different
+kinds of output presented in Fig. 3. As can be seen,
+increasing C results in an output evolving from noise to
+noisy alpha-like activity, to well-defined alpha-like activity (at C = 135), and a quasi-periodic signal resembling
+spike-wave complexes with a frequency getting lower
+until it reaches zero and finally becomes noise-like.
+The fact that alpha-like activity was seen for C = 135
+led us to define the following set of standard values for the
+model parameters of the visual cortical column:
+A = 3.25
+B = 22
+
+(17)
+
+C = 135
+Vo = 6
+
+Similar activity as presented in Fig. 3 was found when
+either A, B or Vo was independently increased from a low
+value to a high one. This can be explained as follows. The
+third panel from the top in Fig. 3 demonstrates that the
+output level is between 5 and 10 when the standard
+values are used, i.e., in the linear range of the sigmoid
+defining the potential-to-density transformation. If the
+feedback is increased (by increasing A or decreasing B),
+
+361
+mV
+
+C-675
+
+500 units =
+
+1 second
+
+C=405
+
+'-'I
+
+*~
+
+'V
+
+,,,oo
+
+'v"
+
+"v
+
+r
+C=143
+
+6.s|"
+
+"
+
+"
+
+~oo
+
+~o~v
+
+V
+
+60o
+
+-
+
+"
+
+ao~/
+
+V
+
+-~ol
+
+C=135
+
+C=108
+
+I
+
+'~
+
+J~.JI..A.A,
+
+17.6 22 24.2 2e,4 110
+B
+
+17.8 ~2 2412 ~e,4 110
+B
+
+vO :: 3.12
+
+vO = 5.52
+
+~?.e 22 24.2 2C,4 110
+B
+
+vO= 6
+
+,,A,I
+[]:Hyperactive noise
+.
+
+V o.woo .Woo
+
+m :Wexlngend wenlng
+output
+
+,...,
+
+0
+
+0.4
+
+,,
+
+,
+
+.
+
+O.S
+
+t.2
+
+1.e
+
+,,
+
+~
+
+2
+
+Ill: Sio.,oid,,,k.o o t p . t ' o ~
+I ..... P "
+
+,oo . . . . .
+
+.,oo.
+
+v-
+
+- .
+
+v
+
+Fig. 3. Two seconds of the model's output when the lumped connectivity constant C equals (from top to bottom) 68, 128, 135, 270, 675, and
+1350, respectively. The input is uniformly distributed random noise
+
+then the global level of the input (i.e., the random input
+added to the feedback level) will be in the upper saturating region of the sigmoid, bringing about a constant
+output of the sigmoid transformation, hence a constant
+feedback, hence no oscillations. If, on the other hand, the
+feedback is decreased (by decreasing A or increasing B),
+then the global level of the input will be in the lower
+saturating region of the sigmoid, bringing about a null
+output of the sigmoid transformation, hence a null feedback, hence a global input reduced to the random input
+leading to nonoscillatory behavior as presented in Fig. 3
+for a low value of C. Changing the value of Vo corresponds to shifting the range of the linear part of the
+sigmoid, eventually leading to one of the two aforementioned nonoscillatory cases.
+A more detailed exploration of the four-dimensional
+parameter-space (A, B, C and Vo)was done around values
+for which alpha and other periodic activity was generated. Specifically, A was varied between 2.6 and 9.75 mV,
+B ranged from 17.6 to 110 mV, C from 108 to 675, and
+Vo was either 3.12, 5.52, or 6.0 mV. The results are presented in Fig. 4, which shows that the region of the
+parameter-space where the system oscillates is bounded
+by two regions of noise. An increase or decrease in any
+parameter from a point of oscillation will eventually lead
+to a nonoscillatory mode. The two aforementioned regions of noise never touch one another. One is characteristic of a relatively high B parameter compared with A,
+i.e., a low excitatory feedback, and will be referred to as
+hypoactive noise. The other noise region will be denoted
+as hyperactive noise, and resembles the fast, low-amplitude EEG seen during mental activity ('beta activity').
+
+I I L~ ",~'"oy
+'~
+Periodicor
+eo[ V V V V V V V V V V V ]
+qo.i-perloalcootput" "o " "oA" "o.~ " i~" ;~ ' ~'
+0
+
+" 0.4
+
+o.e v
+
+12.
+
+1-6"
+
+2
+
+Fig. 4. Exploration of the four-dimensional parameter-space for one
+column. The input is random noise
+
+Going from the hypoactive noise region to the hyperactive one, a path in the parameter-space would cross the
+regions always in the same order: starting at a lowfrequency quasi-periodic signal (2-3 Hz), via a higherfrequency quasi-periodic signal (8-9 Hz), and alpha
+activity, to a noisy alpha, and, finally, to the hyperactive
+noise. It is interesting to note, however, that for C = 135
+and Vo = 6, the region for which the system oscillates
+forms a valley; for a B value of less than 22, an increase or
+a decrease in A will lead to hyperactive noise, the hypoactive region being reachable for high B values only.
+3.2 Spontaneous activity in a double-column model
+Simulation of the interactions of two columns located in the
+visual cortex. A double-column model was built with the
+parameters of both columns set to identical values. The
+values were chosen such that a single column produced
+alpha activity when receiving random input. A zero-delay
+was used in the intercolumn branches to mimic the short
+neural pathways linking columns located in the same
+cortical area. Both columns received uncorrelated, random, uniformly distributed inputs (between 120 and 320
+pulses per second) while K1 and Kz were varied simultaneously between 0 and 120 in steps of 10.
+As shown in Fig. 5, the model behaves symmetrically
+for variations in K1 and Kz, which is predictable given
+the symmetry of the system, i.e., two identical columns
+fed with similar inputs. The results also demonstrate that,
+if one of the intercolumn connectivity coefficients is
+small (Ki < 12), then both columns generate a waxing
+and waning output. This is understandable, because the
+
+362
+K1
+120 ]
+
+K2
+Q.
+
+0
+
+20
+
+40
+
+60
+
+]
+
+0.4
+
+0.8
+
+1.2
+
+1.iS
+
+2
+
+I.ZJ 12
+
+,
+
+!
+
+80
+
+100
+
+t20
+
+0,4
+
+O.I
+
+t,!
+
+1,e
+
+0.4
+
+0.8
+
+1.2
+
+1.IS
+
+2
+
+~ J 14
+
+_
+
+o.,
+
+o.,
+
+1.~
+
+,.~
+
+,
+
+. . . . .
+
+~
+
+,.,
+
+,.~
+
+,
+
+Fig. 5. Four differentclassesof oscillatorybehaviorwereobservedfor
+a double-columnmodel(no delay)composedof identicalcolumnswith
+parameters at their standardvalues,and fed withuncorrelatedrandom
+inputs. The parameters K1 and K2 are the intercolumnconnectivity
+constants
+parameters of each column have purposely been set to
+obtain that kind of behavior if the columns are not
+coupled. Synchronized activity was obtained when both
+K values where as small as 1.4, which demonstrates that
+a weak coupling between the two columns is enough to
+reach synchronization.
+If K~ and K2 are jointly increased, then the symmetrical coupling between the two columns first induces a decrease in the waxing and waning of the output, which
+becomes almost sinusoidal. It is worthy of note that
+increasing the coupling up to 80 tends to shift the frequency of the synchronized outputs downwards, from
+10.5 Hz to 8 Hz, whereas a further increase in the coupling from 80 to 90 brings about an increase in the output
+frequency. An even larger increase in K~ and K2 provokes a saturation of the columns. Accordingly, their
+outputs look more and more noisy, until desynchronization is reached and the columns produce a noise-like
+signal. This global behavior corroborates the singlecolumn study: a zero-coupling ease corresponds to
+a single column with the (A, B, C, Vo) parameters set to
+their standard values, hence a 10 Hz waxing and waning
+activity. Increasing the coupling between the two columns roughly corresponds to an increase in the excitatory feedback. As shown in Fig. 4, starting from the
+standard values, an increase in A, while keeping the other
+parameters fixed, leads to outputs that are first waxing
+and waning, proceed to become sinusoidal-like, once
+more exhibit waxing and waning, and eventually become
+noise-like.
+
+Simulation of the interactions of two columns located in
+different cortical areas. In the following experiments the
+parameter values for column 1 have been set to the
+standard set, so that it represents a column in the
+visual cortex. Model column 2 is supposed to represent
+a prefrontal column, and its parameters have been
+selected such that it produces beta-like activity. As
+can be seen from Fig. 4, beta-like activity is produced
+for a range of values for A, B, and C when vo = 6.0
+(the standard value), and we selected arbitrarily
+A' =3.25, B ' = 17.6, and C ' = 108. Both columns
+received uncorrelated random inputs uniformly distributed between 120 and 320 pulses per second. K1
+was varied between 0 and 8000 in steps increasing from
+50 to 4000 units, while K2 was varied from 0 to 1500
+in steps of 100 to 500 units. Anatomically, the feedforward connections to the prefrontal cortex are stronger
+than the feedback connections to the visual cortex
+(Pandya and Yeterian 1990), justifying a setting of
+K1 roughly one order of magnitude larger than K2.
+A delay, corresponding to three synapses, was incorporated in the connections between the model columns, as
+discussed Sect. 2.2.
+The results of the simulations are presented in Fig. 6.
+For small values of K2 (< 200), the output of column
+1 was of the waxing and waning type, irrespective of the
+value of K1. This is consistent with the fact that the
+model was designed so that column 1 would produce
+alpha activity when it is independent. As K2 was increased, the additional feedback progressively saturated
+column 1, causing the output to wax and wane more
+sharply, displaying more high-frequency components
+until it eventually resembled beta activity. The output of
+column 2 resembled beta activity when the column operated independently, i.e., for small K~ and K2. For
+K2 < 500, increasing K~ causes column 2 gradually to
+change its output from beta-like to alpha-like activity.
+However, for K2 > 700, column 2 produced beta-like
+activity exclusively.
+3.3 Evoked potentials
+
+Simulations of evoked potentials were done on the
+two types of double-column model explored in the
+previous two subsections, namely the model with two
+identical columns and no delay in the intercolumn
+connections, and the model with the two different
+columns and delays in the interconnections. The doublecolumn models received two types of input, namely
+random and transient activity. The random input was
+provided to both columns, and was uniformly distributed
+between 120 and 320 pulses per second. This input
+represents the 'spontaneous background' activity. A
+transient component, representing the impulse density
+attributable to a brief visual input (a flash), was added
+only to the input of column 1 (set to produce alpha
+activity when stimulated by random input). This transient is similar to the one used in Jansen et al. (1992), and is
+given by
+P(t) = q(t/w)" e -'/w
+
+(18)
+
+363
+
+K1
+
+;....
+
+8000
+40O0
+
+)
+
+( ......
+
+2O0O
+1000
+50O
+100
+50
+
+_ _
+100
+
+200
+
+300 400
+
+500 600
+
+700
+
+800 900 1000 1500
+
+[]
+
+.....
+
+1
+
+Column 1
+
+[]
+
+_/],
+
+Fig. 7. Average VEPs recorded from normal volunteers. The arrow
+indicates the time of stimulation (negative up)
+
+~o
+2OO
+
+400
+
+GO0
+
+2Go
+
+4r
+
+6oo
+
+000
+
+I000
+
+epo
+
+1ooo
+
+[]
+
+as
+
+a.s
+
+?.$ ~.
+
+.....
+-'I
+11.25
+
+9
+
+vv
+
+TM
+
+"~'v'**'~
+
+"
+
+" "
+
+-
+
+~'"
+
+Colunm 1
+
+~o
+lS
+
+~ j
+11
+
+..........
+o
+
+lO'OO
+
+o
+
+Column 2
+
+,,_a,,
+
+25
+90
+200
+
+|
+
+VaoV V
+
+400
+
+/,oo
+
+600
+
+~oo
+
+800
+
+V
+
+- ioo
+
+1000
+
+lO00
+
+Col~n 2
+
+1o
+
+~o
+
+lS
+
+15
+
+I
+
+1
+
+1ooo
+o
+
+"'- ~s=2s"5~
+
+500
+
+10100
+
+o
+
+~
+
+1~o
+
+I
+~2g .2s
+~ C!
+29
+
+K1 = K 2 . 1
+
+,o[
+Fig. 6. Exploration of the K z / K 2 plane for a double-column model
+with one column located in the visual cortex and one in the prefrontal
+area (delay equivalent to three synapses)
+
+with n = 7, w = 0.005 (if t is in seconds), and q = 0.5. The
+models were run for 6 s before the stimulus was applied to
+avoid transient behavior, and ensemble averages of 20 or
+40 single trials each were computed for each model, using
+a different random input for each trial. An actual scalprecorded flash VEP is presented in Fig. 7 for comparison.
+
+Identical columns. Experiments with two interconnected,
+identical models (no delays in the interconnections,
+and K = K1 = K2) revealed that a multicomponent
+response was produced for low K values ( < 10) by
+column 1. A W shape around 100 ms after the stimulus
+can be observed (Fig. 8). Although it appears in certain
+real VEPs (Fig. 7), this feature is not the norm. Increasing
+K makes the response less complicated in form, until it
+resembles the shape of the applied input stimulus as
+K exceeds 100 (Fig. 8). Virtually no stimulus-related
+effect is seen in column 2 for any K value, although some
+
+2s
+
+Column 1
+
+K1 ,,K2=10
+
+Column I
+
+25
+20
+
+Is
+
+IS
+
+I
+
+1
+
+o
+
+as
+
+Column 2
+
+i
+100o
+
+o
+
+10o0
+
+~31un~n 2
+
+ls
+
+20
+
+10
+
+XS
+
+15
+x
+
+o
+
+soo
+
+lOOO
+
+K1 = K 2 = 70
+
+0
+
+S0o
+
+1o~o
+K 1 = K2 = 120
+
+Fig. 8. Average response to a pulse, over 20 trials, of the doublecolumn model (no delay, identical columns) to a pulse. The vertical line
+indicates the time of stimulation (negative up)
+
+alpha attenuation appears to occur in the interval
+100-200 ms after stimulation for K = 10, and for K = 70
+some distortion in the poststimulus alpha activity is seen
+during that same period.
+
+364
+
+30
+f
+2,
+
+N1
+
+K1=1000
+
+Column1
+
+~o
+
+ao
+
+|
+C~umnl
+
+Z5
+1
+
+i0
+
+.
+
+,
+
+,
+
+.
+
+.
+
+.
+
+.
+
+1000
+o
+
+~ooo
+
+xooo
+
+22~.a.~
+
+N2
+
+21
+2S
+
+Column2
+
+20
+
+2O
+
+19
+18
+
+lS
+
+|
+
+z
+
+o
+
+soo
+
+xolo0
+
+sor
+
+looo
+
+1<1=200
+1(2=4o
+
+K1 = 120
+
+K2=10
+
+3
+
+K1=4000
+
+s~o V
+
+0
+
+N2
+
+~
+
+25
+
+K2=100
+
+Column1
+
+20
+
+15
+10
+
+Fig. 9. Average response to a pulse, over 20 trials, of the no-delay,
+identical-columns model to a pulse when K1 # K 2. The vertical line
+indicates the time of stimulation (negative up)
+
+slo V
+N~
+
+zo5
+
+95
+90
+
+N
+
+2^ A A A A A ~
+
+.
+
+Column 1
+
+25
+
+looo
+
+100
+
+C~umn2
+
+3O
+
+zooo
+
+'
+
+.
+
+.
+
+.
+
+500
+
+".
+
+1000
+
+Fig. 11. Average response to a pulse, over 40 trials, of the doublecolumn model (delay, different columns). The vertical line indicates the
+time of stimulation (negative up)
+
+2o
+
+I0
+5
+
+0
+
+5 ,o
+
+IOO0
+
+30
+25
+
+201
+
+especially for larger values of Ka. Also, the peak-to-peak
+amplitude during the first 500 ms poststimulus is much
+larger than prestimulus. This suggests that the presentation of a single stimulus causes a phase reorganization
+(synchronization) of the ongoing activity, and/or a damped sinusoidal response (ringing). This issue was explored
+by investigating single trials. In Fig. 10 we present the
+first five trials used to compute the averaged response for
+Ka = 120 and K2 = 10 as shown in Fig. 9. A ringing
+effect is immediately apparent, but a synchronization
+effect can be observed as well. Specifically, the trials
+appear to synchronize within 50 ms of the stimulus, and
+start to desynchronize about 50 ms later.
+
+Different columns. The results obtained with the doublelo
+5
+0
+
+500
+
+10'00
+
+K1 - 120
+K2= 10
+Fig. 10. Five single responses to a pulse, produced by the no-delay,
+identical-columns model for K 1 = 120 and K 2 = 10
+
+A stimulus-related effect can be observed in column
+2 if K~ is made about an order of magnitude larger
+than K2, as shown in Fig. 9. Under those circumstances,
+the averaged response resembles a damped sinusoid,
+
+column model, using different model parameters for each
+column and delays in the intercolumn branches, are
+presented in Fig. 11. The two examples presented are
+typical of the two kinds of VEPs produced by the model
+when KI is roughly one order of magnitude larger than
+K2. The increased latencies of N1 in the prefrontal columns (columns 2), as compared with the column
+1 latency, are clearly visible. It should be observed that
+the amplitude of N 2 in the prefrontal column depends
+heavily on the values of the constants K1 and K2. For
+relatively low values of K1 and Kz (1000 and 300, respectively), the VEP produced by the system is similar to the
+damped sinusoidal wave already mentioned in the case of
+a double-column model with no delay. For different
+values of K1 and K 2 (such as 4000 and 100, respectively),
+the system yields a new kind of VEP with a highamplitude N1, a very low-amplitude N 2 peak, and the
+
+365
+suggestion of a slow wave component typical of certain
+real flash VEPs (upper panel of Fig. 7). Interestingly, this
+slow wave component occurs in the column that does not
+receive the primary visual stimulus.
+Removing the delay produced results that were very
+similar to those obtained for the model with two identical
+columns (presented in Fig. 9).
+4 Conclusions and discussion
+
+The model for EP generation introduced in Jansen et al.
+(1993) was explored in more detail and extended. A study
+of the four-dimensional system parameter-space demonstrated that, when fed with random noise, five typical
+outputs could be observed depending on the setting of
+the parameter values: hypoactive noise for high values of
+the inhibitory feedback, slow periodic activity similar to
+that obtained in comatose patients (Chatrian 1990),
+alpha activity, noisy alpha activity, and low-amplitude
+high-frequency activity similar to beta activity for high
+values of the excitatory feedback.
+Coupling two identical single-column models, so
+as to simulate the interactions between two columns
+located in the visual cortex, produced in-phase oscillations. The phase locking remained, even for low values
+of the intercolumn connectivity constants. Persistent
+synchronization of neocortical activity may also be
+observed in patients with bilateral pontine infarcts involving the tegmentum, for instance (Daly and Markand
+1990).
+A second simulation involving two different columns,
+one representative of the visual and the other of the
+prefrontal cortical areas, reproduced the alpha and beta
+activities typically found over the visual and the prefrontal regions of the scalp.
+The EP simulations suggest that the averaoed VEP
+components typically seen during the first 100--200 ms
+are primarily due to a combination of phase reorganization and the processing of the primary afferent activity.
+In general, the results obtained with a double-column
+model were not dramatically different from those produced by a single-column model (as presented in Jansen
+et al. 1993). However, the addition of delays within the
+intercolumn branches brought about a slow wave component following P1, not seen in single-column simulations, provided that K1 and K2 (i.e., the intercolumn
+connectivity coefficients) were fairly large. Hence, cortical
+interaction appears to be important in the generation of
+later components.
+It should be stressed that we do not imply that only
+two cortical columns are involved in EP production. We
+used a lumped parameter model of a cortical column and,
+therefore, one model column could be taken to represent
+the action of numerous actual cortical columns or even
+a section of the cortex.
+The model presented here suffers from a problem
+common to all mathematical models, namely that a number of assumptions have been made in its derivation.
+Consequently, our model should be viewed as just one of
+the many possibilities as to how neuronal interactions
+
+may give rise to EEG and EP. However, most of our
+model parameters are related to architectural, neurochemical, and behavioral characteristics of cortical networks. Therefore, experimental verification of the model
+might be possible, by comparing model output with the
+actual EEG recorded under conditions where neuronal
+behavior has been selectively altered through, for
+example, administration of drugs.
+The various counts of synapses we reviewed led to
+different equations between the connectivity constants.
+The most contentious of the ratios used to determine C is
+C2/C 4 (equal to C1/C3).A qualitatively different outcome
+of our simulation experiments could have been obtained
+if a more accurate value of C2/C4 had been available.
+However, an accurate synaptic count might be of little
+value: the location and efficiency of the synapses can have
+an influence on the global connectivity constants at least
+as important as their actual number. Inhibitory neurons,
+for instance, are much more likely to synapse near the cell
+body of a pyramidal cell than are excitatory neurons
+(Martin 1985), producing larger PSPs. This was accounted for in our model by selecting B > A (Eqs. 1 and
+2). Also, it should be noted that the PSP constants A
+and B can compensate for any bias in the values of
+C2 and C4. Since the effect of varying A and B was
+studied in the four-dimensional space exploration, we
+can assume that a wide range of values of the ratio C2/C4
+was explored.
+In our experiments, the nonlinear potential-to-pulse
+density functions of the three neurons included in the
+pathways between visual and prefrontal areas were not
+implemented. Also, the two single-column models were
+coupled by adding the output of one column to the
+excitatory feedback of the other. Although intercolumn
+neurons are generally excitatory (Martin 1985), they can
+synapse on inhibitory cells as well as excitatory ones.
+Thus, an intercolumn reinforcement of the inhibitory
+feedback loop is possible; this case was not dealt with in
+our study.
+We intend to improve our model along aforementioned lines. Also, we will increase the number of model
+columns to replicate better the complex interactions between various brain regions when processing sensory
+stimuli. We hope that such an expanded model will shed
+light on the mechanism underlying the generation of very
+late components, such as P300, which are often associated with cognition.
+References
+
+Albus K, Chao HH-A, Hicks TP (1992) Tachykinins preferentially
+excite certain complex cells in the infragranular layers of feline
+striate cortex. Brain Res 587:353-357
+Barbas H, Henion TH, Dermon CR (1991) Diverse thalamic projections to the prefrontalcortexin the rhesusmonkey.J CompNeurol
+313:65-94
+Braitenberg V, Schfiz A (1991) Anatomy of the cortex: statistics and
+geometry. Springer,Berlin HeidelbergNew York
+Chatrian GE (1990) Coma, other states of altered responsiveness,and
+brain death. In: Daly DD, Pedley TA (eds) Current practice of
+clinicalelectroencephalography,2nd edn. RavenPress, New York,
+pp 425-487
+
+366
+Cynader MS, Andersen RA, Bruce CJ, Humphrey DR, Mountcastle
+VB, Niki H, Palm G, Rizzolatti G, Strick P, Suga N, Seelen W yon,
+Zeki S (1988) Group report: general principles of cortical operation. In: Rakic P, Singer W (eds) Neurobiology of neocortex. Wiley,
+Chichester, pp 353-371
+Daly DD, Markand OM (1990) Focal brain lesions. In: Daly DD,
+Pedley TA (eds) Current practice of clinical electroencephalography, 2nd edn. Raven Press, New York, pp 335 370
+Dodt HU, Pawelzik H, Zieglgansberger W (1991) Actions of noradrenaline on neocortical neurons in vitro. Brain Res 545:307-311
+Elhanany E, White EL (1990) Corticocortical axon collaterals. J Comp
+Neurol 291:43-54
+Freeman WJ (1987) Simulation of chaotic EEG patterns with a dynamic model of the olfactory system. Biol Cybern 56:139-150
+Gilbert CD, Bourgeois J-P, Eckhorn R, Goldman-Rakic PS, Jones EG,
+Kriiger J, Luhmann H J, Lund JS, Orban GA, Prince DA, Sillito
+AM, Somogyi P, Toyoma K, Essern DC van (1988) Group report:
+neuronal and synaptic organization in the cortex. In: Rakic P,
+Singer W (eds) Neurobiology of neocortex. Wiley, Chichester, pp
+219-240
+Jansen BH, Zouridakis G, Brandt ME (1993) A neurophysiologieally
+based mathematical model of flash visual evoked potentials. Biol
+Cybern 68:275-283
+Kawashima T, Miyake A, Yamazaki T, Watanobe S, Shikita Y (1983)
+An analysis of the non-linearity of the visual evoked responses of
+the cats. J Physiol Soc Jpn 45:453
+Larkman AU (1991) Dendritic morphology of pyramidal neurones of
+the visual cortex of the rat. III. Spine distributions. J Comp Neurol
+306:332-343
+Liu XB, Zheng ZH, Xi MC, Wu CP (1991) Distribution of synapses on
+an intracellularly labeled small pyramidal neuron in the cat motor
+cortex. Anat Embryol 184:313-318
+Lopes da Silva FH, Hoek A, Smits H, Zetterberg LH (1974) Model of
+brain rhythmic activity: the alpha rhythm of the thalamus. Kybernetik 15:27-37
+
+Lopes da Silva FH, Rotterdam A van, Barts P, Heusden E van, Burr
+W (1976) Model of neuronal populations: the basic mechanism of
+rhythmicity. Prog Brain Res 45:281-308
+Martin JH (1985) Cortical neurons, the EEG, and the mechanisms of
+epilepsy. In: Kandel ER, Schwartz JH (eds) Principles of neural
+science, 2nd edn. Elsevier, Amsterdam, pp 636-647
+McCormick AD, Pape HC, Williamson A (1991) Actions of
+norepinephrine in the cerebral cortex and thalamus: implications
+for function of the central noradrenergic system. Prog Brain Res
+88:293-305
+Nowicky AV, Christofi G, Bindman LJ (1992) Investigation of betaadrenergic modulation of synaptic transmission and postsynaptic
+induction of associative LTP in layer V neurones in slices of rat
+sensorimotor cortex. Neurosci Lett 137:270-273
+Pandya DN, Yeterian EH (1990) Prefrontal cortex in relation to other
+cortical areas in rhesus monkey: architecture and connections.
+Prog Brain Res 85:63-94
+Rotterdam A van, Lopes da Silva FH, Ende J van der, Viergever MA,
+Hermans AJ (1982) A model of the spatial-temporal characteristics
+of the alpha rhythm. Bull Math Biol 44:283-305
+Shibagaki M, Kiyono S, Kawashima T, Watanabe S (1985) Nonlinearity of VEPs in cerveau isol~ and midpontine pretrigeminal
+cats. Electroencephalogr clin Neurophysiol 62:65-73
+Tanibuchi I (1992) Electrophysiological and anatomical studies on
+thalamic medio-dorsal nucleus projections onto the prefrontal
+cortex in the cat. Brain Res 580:137-149
+Watanabe S, Shikita S (1981) Stability of alpha rhythm. In:
+Yamaguchi N, Fujisawa K (eds) Recent advances in EEG and
+EMG data processing. Elsevier/North-Holland, Amsterdam,
+pp 87-94
+White EL (1986) Terminations of thalamic afferents. In: Peters A, Jones
+EG (eds) The cerebral cortex vol 5, Sensory-motor areas and
+aspects of cortical connectivity. Plenum Press, New York, pp
+271-289
+White EL (1989) Cortical circuits. Birkh~iuser, Boston
+
+

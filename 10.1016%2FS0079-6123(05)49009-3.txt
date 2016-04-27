@@ -1,0 +1,1437 @@
+Progress in Brain Research, Vol. 149
+ISSN 0079-6123
+Copyright ß 2005 Elsevier BV. All rights reserved
+
+CHAPTER 9
+
+Thalamic relays and cortical functioning
+S. Murray Sherman*
+Department of Neurobiology, Pharmacology & Physiology,
+University of Chicago, Chicago, IL 60637, USA
+
+Abstract: Studies on the visual thalamic relays, the lateral geniculate nucleus and pulvinar, provide three key properties
+that have dramatically changed the view that the thalamus serves as a simple relay to get information from subcortical
+sites to cortex. First, the retinal input, although a small minority (7%) in terms of numbers of synapses onto geniculate
+relay cells, dominates receptive ﬁeld properties of these relay cells and strongly drives them; 93% of input thus is
+nonretinal and modulates the relay in dynamic and important ways related to behavioral state, including attention. We
+call the retinal input the driver input and the nonretinal, modulator input, and their unique morphological and
+functional diﬀerences allow us to recognize driver and modulator input to many other thalamic relays. Second, much of
+the modulation is related to control of a voltage-gated, low threshold Ca2+ conductance that determines response
+properties of relay cells — burst or tonic — and this, among other things, aﬀects the salience of information relayed.
+Third, the lateral geniculate nucleus and pulvinar (a massive but generally mysterious and ignored thalamic relay), are
+examples of two diﬀerent types of relay: the LGN is a ﬁrst order relay, transmitting information from a subcortical
+driver source (retina), while the pulvinar is mostly a higher order relay, transmitting information from a driver source
+emanating from layer 5 of one cortical area to another area. Higher order relays seem especially important to general
+corticocortical communication, and this view challenges the conventional dogma that such communication is based on
+direct corticocortical connections. In this sense, any new information reaching a cortical area, whether from a
+subcortical source or another cortical area, beneﬁts from a thalamic relay. Other examples of ﬁrst and higher order
+relays also exist, and generally higher order relays represent the majority of thalamus. A ﬁnal property of interest
+emphasized in chapter 17 by Guillery (2005) is that most or all driver inputs to thalamus, whether from a subcortical
+source or from layer 5 of cortex, are axons that branch, with the extrathalamic branch innervating a motor or premotor
+region in the brainstem, or in some cases, spinal cord. This suggests that actual information relayed by thalamus to
+cortex is actually a copy of motor instructions (Guillery, 2005). Overall, these features of thalamic relays indicate that
+the thalamus not only provides a behaviorally relevant, dynamic control over the nature of information relayed, it also
+plays a key role in basic corticocortical communication.
+
+Introduction
+
+constantly a major focus of neuroscience research,
+but that has not been so. Indeed, we have recently
+emerged from the dark ages of thinking about
+thalamus: the prevalent idea being that its main
+purpose during normal waking behavior was simply
+to relay information from the periphery to cortex, a
+relay function that was machine-like, unvarying, and
+rather boring. According to this view, the thalamus
+only behaved in an interesting fashion during sleep
+or certain pathological conditions, such as epilepsy
+(Steriade and Llinaa´s, 1988; Steriade et al., 1993;
+
+Virtually all information reaching cortex, and thus
+conscious perception, must first pass through thalamus. It thus follows that the thalamus sits in a strategically vital position for brain functioning. One would
+think this enough to ensure that the thalamus was
+
+*Tel.: þ1-773-834-2900; Fax: þ1-773-702-3774;
+E-mail: msherman@bsd.uchicago.edu
+DOI: 10.1016/S0079-6123(05)49009-3
+
+107
+
+108
+
+McCormick and Bal, 1997), but this aspect of
+thalamic functioning, while interesting and still
+viable, is beyond the scope of the present study.
+Rather, the focus here is on the more recent finding
+that the thalamus plays an interesting and dynamic
+role during normal, waking behavior of the animal,
+and there are three aspects to this. First, it is considered that the thalamus provides a changeable relay
+of information to cortex, the purpose of which is to
+adjust the nature of relayed information to varying
+behavioral demands. Second, the thalamus serves not
+only to relay peripheral information to cortex, but
+it continues to play a vital role in further cortical
+processing of this information by acting as a central
+link in various corticothalamocortical routes of information processing. Third, most or all inputs to thalamus that are relayed to cortex carry information
+about ongoing motor instructions, so that the main
+role of thalamic relays is to provide a copy to cortex
+of these instructions. This last point has enormous
+implications for cortical functioning, and has been
+discussed in detail in Chapter 17 of this book
+(Guillery, 2005).
+The vast majority of detailed information we have
+about the cell and circuit properties of the thalamus
+comes from studies of the lateral geniculate nucleus,
+which is the thalamic relay of retinal input to cortex.
+Studies of the lateral geniculate nucleus derive mostly
+from carnivores, rodents, and primates. Fortunately,
+this nucleus has served as an excellent model for
+thalamus, and all of the major concepts learned from
+study of this relay that are described below apply
+widely to thalamus.
+
+Relay functions of the thalamus
+One question that remains relevant and profound is:
+Why does information destined for cortex need to
+pass through a thalamic relay? Why, for instance,
+does retinal information pass through the lateral
+geniculate nucleus instead of projecting directly to
+cortex? If one looks at information processing in the
+visual system, it is clear that as one progresses up the
+hierarchical ladder across the various synaptic zones
+in retina, the receptive fields of cells become richer
+and more complex, and this also occurs as one
+ascends the various hierarchical steps within visual
+cortex (reviewed in Dowling, 1970, 1987; Hubel and
+
+Wiesel, 1977; van Essen, 1979, 1985; van Essen and
+Maunsell, 1983; van Essen et al., 1992). These
+increasingly elaborate receptive fields represent the
+processing of visual information, and especially
+elaborate receptive fields in cortex are thought to
+underlie specific perceptual processes. For instance,
+the complex receptive fields in the middle temporal
+cortical area in monkeys are thought to be a key
+neural substrate for the processing of visual motion
+(Britten et al., 1993; O’Keefe and Movshon, 1998;
+Grunewald et al., 2002; Kohn and Movshon, 2003;
+Osborne et al., 2004).
+The one synapse across which there is virtually no
+receptive field elaboration is the retinogeniculate
+synapse (Hubel and Wiesel, 1961; Sherman, 1985;
+Sherman and Guillery, 1996). A similar pattern holds
+for the other main sensory systems involving a
+thalamic relay1: somatosensory information involves
+little or no receptive field elaboration across the
+synapse from the medial lemniscus to the ventral
+posterior nucleus, and likewise there is essentially no
+such elaboration across the synapse from the inferior
+colliculus to the medial geniculate nucleus, although
+in both systems there is significant receptive field
+elaboration across synapses peripheral to thalamus
+and within the cortex (Purves et al., 1997; Kandel
+et al., 2000).
+These observations used to be viewed as evidence
+that not much was happening in thalamus during
+normal information processing, leading to the abovementioned ‘‘dark ages’’ for thalamic enquiry. In fact,
+this pattern is now interpreted to mean that the
+thalamus has an absolutely unique role to play in
+information processing. That is, while other subcortical and cortical stages involved have a function
+that is related to receptive field elaboration, the
+thalamus does something completely different. It
+controls the flow of information to cortex. Indeed,
+the complex cell and circuit properties controlling
+
+1
+
+The olfactory system is unusual in that information passes
+from a subcortical to a cortical level without a thalamic relay,
+although the cortex in this case is paleocortex rather than
+neocortex. There is a higher level olfactory input to the medial
+dorsal nucleus of the thalamus which may be relayed to frontal
+neocortex, but it is not clear whether this is the only entry of
+olfactory information to cortex or whether a nonthalamic route
+from paleocortex to neocortex exists.
+
+109
+
+relay cell responses contradict the notion that the
+thalamus behaves as a simple relay.
+
+Thalamic relay cell properties
+Like all other brain neurons, thalamic relay cells
+possess many membrane conductances controlled by
+membrane voltage or specific ion concentrations, in
+addition to synaptic activity. This supplies the cell
+with a highly variable, dynamic range of responses
+that thereby varies the nature of information relayed
+to cortex. A detailed discussion of all these properties
+is beyond the scope of the present account and can be
+found elsewhere (McCormick and Huguenard, 1992;
+Sherman and Guillery, 1996, 2001). The focus here is
+a voltage gated Ca2+ conductance involving a T type
+Ca2+ channel found in the cell body and dendrites
+that, when activated, leads to an inward current, IT.
+
+Tonic and burst firing modes
+Figure 1 shows the basic voltage dependence of IT
+(Jahnsen and Llinaa´s, 1984a,b; McCormick and
+Huguenard, 1992; Sherman and Guillery, 1996,
+2001; Smith et al., 1998; Zhan et al., 1999; Gutierrez
+et al., 2001). Anyone who understands the basic properties of the Na+/K+ action potential, will appreciate that the properties of IT are qualitatively
+identical to those of the Naþ channel involved with
+the action potential, albeit with important quantitative differences. Like the Na+ channel, the T type
+Ca2+ channel has two voltage sensitive gates, activation and inactivation gates, and both must be open
+for Ca2+ to flow into the cell. The sequence of events
+is shown in Fig. 1 starting at the lower left panel and
+moving clockwise:
+(1) At a relatively hyperpolarized membrane
+potential (Vm), more than about 5 mV below
+rest, the inactivation gate is open, but the
+activation gate is closed, and there is no IT. In
+this condition, IT is said to have its inactivation removed, or it is ‘‘deinactivated’’, but
+because the activation gate is closed, it is also
+deactivated.
+(2) Depolarization above threshold (roughly À65
+mV to À60 mV) then rapidly opens the activation gate, and Ca2+ flows into the cell in the
+
+form of IT. This creates a depolarizing, all-ornone Ca2+ spike that propagates through the
+dendritic tree and cell body, but not the axon,
+which lacks a sufficient concentration of these
+channels. IT is thus activated.
+(3) After a period of sustained depolarization
+lasting for $100 ms2, the inactivation gate
+closes, and thus IT is now inactivated. A
+variety of slower, non-inactivating K+ conductances also come into play, and this plus IT
+inactivation serves to repolarize the cell.
+(4) Even though it is back at the starting membrane potential, IT remains inactivated for
+$100 ms. After this time, the inactivation of
+IT is removed (i.e., it becomes deinactivated).
+The cycle is then reset as the initial starting
+conditions as in panel 1 are re-established.
+There are several implications to the above. First,
+while activation of IT is very fast, both inactivation
+and deinactivation take time, on the order of 100 ms.
+For inactivation, this means that a typical, fast
+excitatory post-synaptic potential (EPSP) or even an
+action potential will not much inactivate IT. Likewise,
+for deinactivation, a fast inhibitory post-synaptic
+potential (IPSP) will not do. For either process, it is
+necessary to sustain a change in Vm. Second, the
+all-or-none Ca2+ spike created when IT is activated
+propagates through the dendrites and soma, but not
+up the axon, because there are virtually no T channels
+there. Nonetheless, as shown in more detail below,
+this spike does affect the pattern of conventional
+action potentials generated and thus will affect the
+signal sent up the axon to cortex. This Ca2+ spike is
+commonly called the ‘‘low threshold spike’’, because
+its activation threshold is hyperpolarized with respect
+to that of the action potential. This means that, with
+some exceptions (Gutierrez et al., 2001), if IT is
+deinactivated, a ensuing depolarization will activate
+IT and the low threshold spike before activating a
+conventional action potential. Third, as noted, the T
+channel behaves qualitatively just like the Na+
+channel involved in the action potential — both
+2
+
+Actually, inactivation and deinactivation are complex
+functions of voltage and time so that the more the cell is
+depolarized, the faster IT inactivates, and the more the cell is
+hyperpolarized, the faster IT deinactivates.
+
+110
+
+Fig. 1. Schematic view of actions of voltage dependent T (Ca2+) and K+ channels underlying low threshold Ca2+ spike. The 4
+numbered panels show the sequence of channel events in a clockwise fashion, and the central graph shows the eﬀects on membrane
+potential. The T channel has 2 voltage dependent gates: an activation gate that opens with depolarization and closes at hyperpolarized
+levels; and an inactivation gate that shows the opposite voltage dependency. Both of these gates must be open for Ca2+ to enter the cell,
+and this ﬂow of Ca2+ is an inward current known as IT. The K+ channel shown is really a heterogenous conglomeration of diﬀerent
+K+ channels with only a single gate that opens during depolarization; thus, these channels do not inactivate. (1). At a relatively
+hyperpolarized resting membrane potential ($ 70 mV), the inactivation gate of the T channel is open, and so the T channel is
+deinactivated, but the activation gate is closed. The single gate for the K+ channel is closed. (2) With suﬃcient depolarization to reach
+its threshold, the activation gate of the T channel opens, and Ca2+ ﬂows into the cell, producing IT. The T channel is now activated.
+This further depolarizes the cell, providing the rise of the low threshold spike, which is all-or-none. (3) The inactivation gate of the T
+channel closes after $ 100 ms of depolarization, and so the channel is now inactivated. The K+ channel also opens. These actions
+repolarize the cell. (4) Even though the initial resting potential is reached, the T channel remains inactivated, because it takes $100 ms
+of hyperpolarization to deinactivate it. Eventually, the T channel deinactivates, and the conditions of panel 1 are restored. Note that
+the behavior of the T channel qualitatively matches that of the Na+ channel involved with the action potential, but with several
+quantitative diﬀerences: the T channel is slower to inactivate and deinactivate, and it operates in a more hyperpolarized regime.
+
+channels inactivate with a similar voltage dependency
+and the time required for deinactivation establishes a refractory period — but there are important
+quantitative differences. Thus the T channel has a
+much slower time course for inactivation and deinactivation, a longer duration spike, a more
+
+hyperpolarized regime (by about 10 mV), and little
+or no distribution in the axon.
+Figure 2 shows some of the functional implications
+of IT. When the cell has been sufficiently depolarized,
+IT is inactivated and plays no role in the cell’s
+response. Now, a suprathreshold excitatory input
+
+111
+
+Fig. 2. Various properties of the low threshold Ca2+ spike. A, B: Intracellular recording of a relay cell from the lateral geniculate
+nucleus of a cat in vitro. At an initial Vm of À59 mV, IT is inactivated and thus the cell responds in tonic mode (A). Thus, the response
+to a depolarizing 3 nA current injection is a steady stream of unitary action potentials. At an initial Vm of À70 mV, IT is deinactivated
+and thus the cell responds in burst mode (B). Now, the very same current injection activates the low threshold Ca2+ spike, which in
+turn activates, in this case, a burst of 8 conventional action potentials. C: Initial response of cell in A, B to various levels of current
+injection from diﬀerent initial Vms. At levels that inactivate IT and produce tonic ﬁring (À47 mV and À59 mV), a fairly linear
+relationship ensues. At levels that deinactivate IT and produce burst ﬁring (À77 mV and À83 mV), a very nonlinear relationship in the
+form of a step function is seen. D,E: Eﬀect of ﬁring mode on response to drifting sinusoidal grating from a relay cell in the lateral
+geniculate nucleus of an anesthetized cat recorded intracellularly in vivo. The sinusoidal contrast changes in the visual stimulus are
+shown below the histograms and is also shown as a gray dashed line for the lower histograms of D,E. At an initial Vm (À65 mV) that
+promotes tonic ﬁring (D), the spontaneous activity is relatively high, and the response to the grating has a sinusoidal proﬁle. At an
+initial Vm (À75 mV) that promotes burst ﬁring (E), the spontaneous activity is relatively low, and the response to the grating no longer
+has a sinusoidal proﬁle.
+
+112
+
+(a current injection in this example, but think of it
+also as an EPSP) evokes a steady stream of unitary
+action potentials (Fig. 2A). This is called the tonic
+mode of firing. However, when the same cell is
+sufficiently hyperpolarized so that IT is deinactivated,
+the exact same excitatory input produces a very
+different response (Fig. 2B): now IT is activated, producing the all-or-none low threshold spike, which is
+large enough to elicit a high frequency volley of action
+potentials. This is called the burst mode of firing,
+and the burst typically includes 2–6 action potentials,
+although up to 10 or more may be involved. The
+important point is that the same excitatory input
+elicits two different messages relayed to cortex (i.e.,
+the action potentials) depending on the recent voltage history of the cell, which in turn determines the
+state of IT.
+Both response modes, burst and tonic, are seen in
+thalamic relay cells during normal waking behavior.
+Thus burst firing has also been reported in awake,
+alert animals for lateral geniculate cells in response to
+visual stimuli (Guido and Weyand, 1995; Ramcharan
+et al., 2000; Weyand et al., 2001); for medial geniculate cells in response to auditory stimuli (Massaux
+et al., 2004); and for the ventral posterior medial cells
+during periods of active whisking (Nicolelis et al.,
+1995; Fanselow and Nicolelis, 1999; Swadlow and
+Gusev, 2001; Swadlow et al., 2002). Such burst firing
+has also been reported in various thalamic nuclei
+of humans during wakefulness (Lenz et al., 1998;
+Radhakrishnan et al., 1999). Generally, the more
+awake and alert the animal, the more tonic firing
+dominates (Ramcharan et al., 2000; Swadlow and
+Gusev, 2001; Massaux et al., 2004). This means that
+relay cells switch frequently between modes, reflecting
+a change in Vm sufficient to change the inactivation
+state of IT. A major challenge is to define the
+conditions and mechanisms for this switching, and
+some preliminary insights into this are presented
+below. Another challenge is to understand the significance for information processing of the response
+mode, and part of this is introduced in Figs. 2C–E.
+
+Implications of firing mode for thalamic relays
+Note that, in the case of tonic firing (Fig. 2A), the
+action potentials are evoked directly from the
+depolarizing current injection. Thus one would
+
+expect that the larger the current injection, the greater
+the response. This is in fact the case, as shown in
+Fig. 2C for tonic firing for this cell (responses at
+initially depolarized Vm of À47 and À59 mV), where
+the input/output relationship is relatively linear.
+However, with burst firing (Fig. 2B), the action
+potentials are no longer directly caused by the current
+injection but instead result from the low threshold
+Ca2þ spike; because this is an all-or-none spike, a
+larger current injection would not evoke a larger low
+threshold Ca2þ spike, and thus a larger current
+injection would not evoke more action potentials.
+This relationship for burst firing is shown in Fig. 2C
+(responses at initially depolarized Vm of À77 and À83
+mV), where the input/output relationship is a decidedly nonlinear step function. Thus tonic firing represents a much more linear relay than does burst firing.
+Another way of determining the effect of firing
+mode on the thalamic relay is to see its effect on
+response properties of the relay cell as determined by
+receptive field analysis: this reflects how incoming
+information is relayed to the cortex. Figs 2D, E shows
+a prototypical example of this. The example is from
+a lateral geniculate relay cell recorded intracellularly
+in vivo in an anesthetized cat, and shown is the
+spontaneous activity plus the visual responses evoked
+by a sinusoidal grating (i.e., a visual stimulus of
+constant luminance along one axis and of sinusoidally
+modulated luminance along the perpendicular axis)
+drifting through the receptive field of the cell. By
+injecting constant current of different amplitudes, the
+cell was biased either toward a more depolarized
+initial Vm, producing tonic firing (Fig. 2D) or toward
+a more hyperpolarized initial Vm, producing burst
+firing (Fig. 2E). During tonic firing, the profile of
+the response to the visual stimulus looks sinusoidal
+(Fig. 2D, lower histogram), like the stimulus itself,
+and thus there is a close correlation between firing
+rate and stimulus contrast (compare the firing with
+the superimposed stimulus contrast represented by the
+dashed, gray curve). This is another way of saying
+that the response is very linear. The visual response
+to the same stimulus during burst firing is quite
+different, because it no longer is sinusoidal in shape
+(Fig. 2E, lower histogram). This nonlinearity
+during burst firing is predicted from the nonlinear
+input/output relationship of burst firing depicted in
+Fig. 2C.
+
+113
+
+The advantage of tonic firing and its more linear
+relay is self-evident, because the type of nonlinear
+distortion imposed on the relay by burst firing limits
+the extent to which visual cortex can faithfully
+reconstruct the visual scene. Any advantage of burst
+firing is harder to discern, but one such advantage is
+tied to spontaneous activity (i.e., background firing
+or responsiveness when there is no visual stimulus
+present). As shown in the upper histograms of
+Figs. 2D, E, this is considerably lower during burst
+firing. Because spontaneous activity represents responsiveness that, by definition, bears no relationship
+to a visual stimulus, it actually represents noise in the
+relay to cortex. The response to the visual stimulus
+(Figs. 2D, E, lower histograms) is the signal, which is
+quite large in both firing modes. What is of interest
+here is the signal-to-noise ratio, which, chiefly
+because of the lower noise during burst firing, is
+higher during burst firing. A higher signal-to-noise
+ratio is often associated with stimulus detectability.
+This suggestion of improved detectability during
+burst firing has been supported experimentally
+(Guido et al., 1995).
+However, not only does burst firing improve stimulus detectability, it also provides for a more powerful activation of cortex. To understand the reason for
+this, it helps to look at the special pattern of firing
+seen in burst mode, a pattern revealed by plotting a
+two-dimensional interspike interval distribution on
+logarithmic axes (Fig. 3). This plot shows that groups
+of action potentials are clustered and not spread
+evenly in time. In particular, the cluster at the lower
+right (in the shaded area) represents the first action
+potentials of bursts due to low threshold Ca2+ spikes.
+The second to penultimate action potentials in a burst
+are indicated by the cluster at the lower left of each
+histogram, and the last action potentials in a burst are
+found at the left side of each histogram. All other
+action potentials are during tonic firing. The criteria
+developed for the first action potentials in a burst are
+represented by the shaded area: the action potential
+must follow a silent period of !100 ms and be
+followed by the next action potential within 2ms
+(Lu et al., 1992), and minor variants of these criteria
+exist (e.g., Lenz et al., 1998; Zirh et al., 1998). The
+reason for this is as follows. In order for a burst to
+occur, IT must be activated to produce the underlying low threshold spike. For this to happen, IT must
+
+first be deinactivated, and that requires !100 ms
+or so of sustained hyperpolarization. The sustained
+hyperpolarization means that, by definition, there
+can be no evoked action potentials, and so this
+requirement to deinactivate IT leads to a silent
+period of !100 ms before the first spike in a burst.
+In contrast to the clusters related to burst firing, the
+action potentials evoked during tonic firing tend to
+occupy one cloud of points with interspike intervals
+relatively evenly distributed, mostly between 5 and
+30 ms.
+One significance of this distribution of action
+potentials during the two firing modes has to do
+with properties of the thalamocortical synapse, which
+shows paired-pulse depression (Stratford et al., 1996;
+
+Fig. 3. Two-dimensional interspike interval plots for two
+representative relay cells in the lateral geniculate nucleus of
+an anesthetized cat recorded extracellularly in vivo. For each
+action potential recorded during a given period of time, the
+interval to the previous spike is shown on the abscissa, and the
+interval to the next spike is shown on the ordinate. Tonic and
+burst spikes are shown separately. Note the cluster of burst
+spikes on the lower right of each histogram. These follow a
+silent period of !100 ms and are followed by another spike
+within $ 2 ms. These are known to be the ﬁrst spike in a burst
+(Lu et al., 1992). For further details see text.
+
+114
+
+Beierlein and Connors, 2002; Castro-Alamancos and
+Oldford, 2002; Chung et al., 2002; Nicolelis, 2002).
+This means that for a period of time following an
+evoked EPSP from this synapse, EPSP amplitudes
+will be substantially depressed. However, for most of
+these synapses, a silent period of !100 ms as occurs
+before the first action potential in a burst would
+relieve the depression and lead to a maximum EPSP.
+In contrast, tonic firing has interspike intervals that
+are generally too brief to permit much relief of
+the depression, so the synapse will be considerably
+depressed throughout tonic firing. Recent work
+studying efficacy of the thalamocortical synapse in
+the somatosensory system of the awake rabbit has
+shown that, on average, the first action potential in
+a burst is much more effective at driving cortical
+circuitry than is a tonic action potential (Swadlow
+and Gusev, 2001; Swadlow et al., 2002, 2005). This
+does not even take into account that the following
+action potentials in a burst will produce extra EPSPs,
+that, while depressed, would temporally sum and
+enhance the response. The result is that a burst
+punches through to cortex very effectively compared
+to tonic action potentials.3
+These different features related to firing mode —
+a more linear relay for tonic firing versus better
+stimulus detectability and cortical activation for burst
+firing — have suggested what remains a working
+hypothesis for further research (Sherman, 1996, 2001;
+Sherman and Guillery, 2002, 2004). That is, burst
+firing acts as a ‘‘wake-up call’’ for periods during
+which the relevant relay cells are relatively suppressed, as may happen during periods of general
+inattention or drowsiness or when an alert animal
+directs its attention elsewhere. Under these conditions, the idea is that any change in the afferent
+input, such as a new visual stimulus for a lateral
+geniculate relay cell, evokes a burst that ‘‘wakes up’’
+
+cortex with a signal that something has changed out
+there. This could then lead to a switch in the relay to
+tonic firing so that information about the changed
+environment can be relayed more linearly and thus
+more faithfully.
+There is some very limited, indirect evidence
+consistent with this view (for details, see Sherman,
+1996, 2001; Sherman and Guillery, 2002, 2004). One is
+that, as noted above, thalamic relay cells in a variety
+of nuclei and species (including rats, rabbits, cats,
+monkeys, and humans) show both tonic and burst
+firing during the animal’s waking behavior, although
+in the alert animal bursting occurs much less frequently than does tonic firing (Guido and Weyand,
+1995; Nicolelis et al., 1995; Lenz et al., 1998;
+Fanselow and Nicolelis, 1999; Radhakrishnan et al.,
+1999; Ramcharan et al., 2000; Swadlow and Gusev,
+2001; Weyand et al., 2001; Swadlow et al., 2002;
+Massaux et al., 2004). Also, the amount of bursting
+increases as the animal becomes drowsy
+or inattentive, which is consistent with the hypothesis that bursting serves as suggested as a ‘‘wake-up
+call’’ (Ramcharan et al., 2000; Swadlow and Gusev,
+2001; Massaux et al., 2004). It follows that such
+‘‘wake-up calls’’ are especially important when the
+animal is drowsy or otherwise inattentive for
+the information being relayed through thalamus.
+Finally, recordings from lateral geniculate relay cells
+in the awake cat suggest a tendency for bursting to
+the first presentation of a novel stimulus with a
+switch to tonic firing as the stimulus remains
+(Guido and Weyand, 1995), and this, too, is consistent with the hypothesis.
+For this to make sense, there must be thalamic
+circuitry available to control response mode efficiently, and this indeed is the case.
+
+Thalamic circuit properties
+3
+
+This scenario assumes that thalamocortical synapses show
+paired-pulse depression. However, the beauty of burst ﬁring is
+that one would expect bursts to activate cortex more powerfully
+than tonic ﬁring even if the thalamocortical synapse shows
+paired-pulse facilitation. This is because facilitation works well
+for short interspike intervals, and the short interspike intervals
+in a burst ensure considerable facilitation. Just as the interspike
+intervals during tonic ﬁring are too short to relieve a depressed
+synapse, they are generally too long to produce facilitation for a
+facilitating synapse.
+
+Pattern of inputs to relay cells
+Figure 4A schematically shows the various afferents
+that synapse onto relay cells; again the lateral
+geniculate nucleus is the example, but with relatively
+minor variations in the equivalent of the nonretinal
+afferents, the circuitry is similar for other thalamic
+relays, with the major change being the nature of the
+
+115
+
+Fig. 4. Innervation patterns for the lateral geniculate nucleus. A: Inputs to relay cells, showing transmitters and post-synaptic
+receptors (ionotropic and metabotropic) involved. B, C: Two patterns among others possible for corticothalamic projection from layer
+6 to reticular and relay cells. Simple excitation and feedforward inhibition is shown in B, and C shows a more complicated pattern in
+which activation of a cortical axon can excite some relay cells directly and inhibit others through activation of reticular cells. (ACh,
+acetylcholine; GABA, g-aminobutyric acid; Glu, glutamate; LGN, lateral geniculate nucleus; NO, nitric oxide; PBR, parabrachial
+region; TRN, thalamic reticular nucleus.) For further details see text.
+
+input to be relayed (e.g., instead of retinal input for
+the lateral geniculate nucleus, there would be medial
+lemniscal or inferior collicular input for the ventral
+posterior nucleus or medial geniculate nucleus, respectively, or, as noted below, cortical input from layer
+5 for higher order relays).
+Figure 4A, in addition to showing the inputs,
+also indicates the transmitters and post-synaptic
+
+receptors involved. There are two general classes of
+receptor: ionotropic and metabotropic. Ionotropic
+receptors relevant to Fig. 4A include AMPA and
+NMDA receptors (AMPARs and NMDARs) for
+glutamate, nicotinic receptors (nAChRs) for acetylcholine, and GABAA receptors (GABAARs); metabotropic receptors include various metabotropic
+glutamate receptors (mGluRs), various muscarinic
+
+116
+
+receptors (mAChRs) for acetylcholine, and GABAB
+receptors (GABABRs). Detailed differences between
+these receptor classes can be found elsewhere (Nicoll
+et al., 1990; Mott and Lewis, 1994; Pin and Bockaert,
+1995; Pin and Duvoisin, 1995; Recasens and Vignes,
+1995; Conn and Pin, 1997; Conn, 2003; Huettner,
+2003), but for the purposes here, only several differences are considered: ionotropic receptors are simpler, usually with an ion channel directly linked to the
+receptor complex so that when the receptor binds to
+a transmitter, rapid opening of the channel ensues.
+Post-synaptic potentials (PSPs) from activation of
+ionotropic receptors tend to have a short latency ($ 1
+ms) and duration (mostly over in 10–20 ms). In
+contrast, metabotropic receptors are more complicated: each is linked to a G-protein, and transmitter
+binding to the receptor releases the G-protein and sets
+off a chain of biochemical reactions (also known as
+second messenger actions) that create many intracellular changes. Among them is the opening or
+closing of ion channels, which in the case of the
+receptors shown in Fig. 4A are usually K+ channels.
+Opening the K+ channel allows more positive (K+)
+ions to leave the cell, leading to an IPSP, and closing
+the channel does the opposite, producing an EPSP.
+What is more important in the present context is
+that the PSPs evoked via metabotropic receptors
+in the relay cells are slow, with a latency of 10 ms or
+so and a duration of hundreds of ms to several
+seconds. Recall that a change in Vm for !100 ms or
+so is needed for inactivation or deinactivation of IT,
+and thus the fast PSPs related to ionotropic receptors
+are ill-suited for this (and so are action potentials,
+which are over in a ms or so). In contrast, the
+sustained PSPs of the metabotropic receptors are
+ideal for control of IT. That is, the sustained EPSP
+related to the mGluR or the mAChR serves well to
+inactivate IT and convert burst firing to tonic;
+similarly, the sustained IPSP of the GABABR will
+deinactivate IT and convert tonic firing to burst.
+These actions of metabotropic receptors are not
+limited to control of IT: the sustained PSPs will also
+serve to control other slower voltage gated conductances that exist, such as Ih and IA (for details of these
+other conductances, see McCormick and Huguenard,
+1992; Sherman and Guillery, 1996, 2001), and the
+sustained alterations in Vm will also affect the overall
+excitability of the relay cell.
+
+Thalamic circuitry and control of IT
+Figure 4A shows that the retinal input activates only
+ionotropic receptors, mainly AMPARs4, and this has
+two consequences. First, the brief EPSP means that
+up to relatively high rates of firing in the retinal
+afferent(s), individual action potentials presynaptically can be converted to discrete EPSPs. Put
+another way, a sustained EPSP (e.g., from activation
+of an mGluR) would act like a low-pass temporal
+filter in relaying the retinal input, so that temporal
+information would be lost in the relay at higher input
+firing frequencies. Thus the fact that the retinal input
+activates only ionotropic receptors maximizes the
+relay of temporal information. The second implication of this pattern of receptors is that retinally
+evoked EPSPs, being relatively brief, would have
+relatively little effect on IT. Only at rates of retinal
+firing sufficiently high to produce temporal summation of EPSPs would this input serve to inactivate
+IT. The implication here is that a cell in burst mode
+could be switched to tonic mode by high rates of
+retinal firing, but otherwise, response mode of the
+relay cell is better controlled by inputs that activate
+metabotropic receptors.
+Indeed, activation in the relay cell of either
+mGluRs or mAChRs from cortex or the parabrachial
+region, respectively, produces a sustained EPSP that
+inactivates IT and serves to switch firing mode from
+burst to tonic. Activation of GABABRs from the
+thalamic reticular nucleus (and possibly from interneurons, but the nature of receptors post-synaptic to
+interneuron inputs remains largely unexplored) does
+the opposite by producing a sustained EPSP that
+deinactivates IT and switches firing mode from tonic
+to burst. Thus the two major extrathalamic, nonretinal inputs to the lateral geniculate nucleus — from
+cortex and the parabrachial region — control firing
+mode fairly effectively: the direct inputs to relay cells
+from both can promote tonic firing, and indirect
+
+4
+
+Any role of NMDARs here is complicated by their voltage
+dependency, so that they will not contribute to an EPSP unless
+the cell is already fairly depolarized (Mayer and Westbrook,
+1987; Nakanishi et al., 1998; Ozawa et al., 1998; Qian and
+Johnson, 2002). The role of NMDARs in control of IT remains
+unclear.
+
+117
+
+inputs involving the thalamic reticular nucleus (and,
+perhaps, interneurons) can promote burst firing.
+However, there are important differences in these
+inputs. As noted in Fig. 4A, parabrachial axons branch
+to innervate relay cells and both types of local
+GABAergic inhibitory cell (reticular cells and interneurons). The main effect on relay cells is excitatory
+while the simultaneous effect on the local inhibitory
+cells is inhibitory. This neat trick is effected by different post-synaptic receptors: mainly nAChRs and the
+M1 type of mAChR on relay cells to produce EPSPs
+and the M2 type of mAChRs on the GABAergic cells
+to produce IPSPs. This means that activity in these
+inputs has a straightforward depolarizing effect on
+relay cells due to direct excitation and indirect disinibition (i.e., inhibition of the GABAergic inputs), and
+this in turn implies that the more active these inputs,
+the more likely the relay cells fire in tonic mode.
+The effect of cortical inputs is less obvious,
+because, according to Fig. 4A, it can produce direct
+excitation and indirect inhibition. Here, much
+depends on the details of circuitry, details of which
+are very little known, and this point is illustrated in
+Figs. 4B, C. If the corticothalamic circuitry is organized in a simple feedforward inhibitory circuit
+(Fig. 4B), then the net result of cortical activation
+will be relatively balanced increases in EPSPs and
+IPSPs. This would likely have little overall effect on
+Vm and thus on IT. However, recent evidence (Chance
+et al., 2002; Abbott, 2005) suggests that such a
+balanced increase in EPSPs and IPSPs, while slightly
+affecting Vm, will increase synaptic conductance; this
+in turn reduces neuronal input resistance, making the
+relay cell less responsive to other (e.g., retinal) inputs.
+In this way, the circuitry of Fig. 4B can serve as a gain
+control mechanism. Fig. 4C shows another possible
+arrangement, and here the result of corticothalamic
+activation is quite different. For any specific cortical
+axon (or, perhaps, a small related group), activation
+will directly depolarize some relay cells (represented
+by cell 2), inactivating IT to promote tonic firing, and
+indirectly hyperpolarize others (represented by cells 1
+and 3), deinactivating IT to promote burst firing.
+While there is some evidence for the arrangement
+shown in Fig. 4C (Tsumoto et al., 1978), it is plausible
+that heterogeneity exists in the corticothalamic circuits, so that those shown in Fig. 4B,C, as well as
+others not shown, exist.
+
+Role of thalamus in corticocortical communication
+The discussion in the previous section offers some
+functions for the thalamus to perform in relaying
+information to cortex, and other functions will
+doubtless be added as we learn more about this
+topic. This section examines the case that thalamus
+does more than just relay peripheral information to
+cortex; instead, it continues to play a role in how
+cortex processes such information. The logic underlying these arguments begins with a consideration of
+inputs to thalamic relay cells.
+
+Drivers and modulators
+Functional differences
+A glance back at Fig. 4A shows that there are multiple
+inputs to lateral geniculate relay cells, yet only one of
+these, the retinal input, represents the information
+actually relayed. What are all the nonretinal inputs
+doing? A consideration of numbers only adds to the
+mystery, because the presumably dominant retinal
+input contributes only 7% of the synaptic inputs to
+relay cells; the rest are contributed roughly equally,
+about 30% each, from local GABAergic sources,
+from layer 6 of cortex, and from the parabrachial
+region (van Horn et al., 2000). Small numbers of
+serotonergic, noradrenergic, and histaminergic inputs
+are also present (reviewed in Sherman and Guillery,
+1996, 2001) but are not considered further here.
+The point is that not all physical inputs are equal,
+as if they participate in some sort of anatomical
+and functional democracy. Indeed, the retinal inputs,
+despite the number, produce disproportionately large
+EPSPs in relay cells.
+In terms of the lateral geniculate nucleus, there are
+a number of criteria that distinguish the retinal input
+from the nonretinal (Sherman and Guillery, 1996,
+1998, 2001):
+ Retinal inputs to relay cells provide the main
+receptive field properties and are necessary for
+the existence of the receptive fields, whereas
+nonretinal inputs produce only subtle changes
+in receptive field properties.
+
+118
+
+ Retinal inputs end in very large terminals,
+indeed by far the largest in the thalamus, and
+contribute up to 10 or more distinct synaptic
+contact zones. The smaller nonretinal terminals
+rarely have more than one synaptic contact zone
+each.
+ Retinal terminals are limited to proximal dendrites, often in complex synaptic arrangements
+known as triads found within elaborate synaptic
+glomeruli, whereas modulator terminals can be
+found anywhere on the dendritic arbor.
+ As noted, despite the small number of synapses,
+retinal EPSPs are large, suggesting powerful
+synapses, whereas individual nonretinal inputs
+are weak.
+ Again as noted, retinal inputs activate only
+ionotropic glutamate receptors, whereas nonretinal inputs typically activate metabotropic
+receptors as well.
+ There is relatively little convergence of retinal inputs onto relay cells, whereas many or
+most nonretinal inputs show considerable
+convergence.
+ Retinal inputs do not innervate the thalamic
+reticular nucleus, whereas nonretinal inputs do.
+ Retinal synapses show paired-pulse depression
+(following an evoked retinal EPSP, further
+EPSPs from retina are reduced in amplitude
+for 50–100 ms or so), whereas corticogeniculate
+synapses, the only nonretinal input so far tested
+for this effect, show paired-pulse facilitation
+(the opposite of depression, so that evoked
+EPSPs for 50–100 ms or so are enhanced in
+amplitude).
+These systematic differences between retinal and
+nonretinal inputs led to the concept that these
+thalamic afferents could be divided into drivers and
+modulators, the former being the retinal inputs, so
+named because they strongly drive relay cells and
+transmit the message that is processed by cortex, and
+the latter being all other inputs, so named because
+their role is to modulate retinogeniculate transmission. One example of this modulation, among many
+others, is the abovementioned control of IT by cortical
+and parabrachial input, both designated as modulators here. This division of afferents to relay cells into
+drivers and modulators works well in other thalamic
+
+relays for which sufficient information exists: for
+instance the driver inputs to the ventral portion of
+the medial geniculate nucleus or to the ventral posterior nucleus are, respectively, from the inferior
+colliculus or the medial lemniscus. As with the retinal
+input to the lateral geniculate nucleus, these other
+drivers bring the information to be relayed and thus
+confer the basic receptive field properties onto their
+target relay cells.
+This concept that not all anatomical pathways are
+the same, and that some are important to the transmission of basic information (e.g., retinal inputs),
+while others play a subtler role in modulating how
+that information is transformed or relayed (e.g.,
+nonretinal inputs), has a number of other implications
+considered below. A particularly interesting possibility is that this distinction between drivers and
+modulators can be extended beyond thalamus, for
+instance, into cortex. There are reasons for thinking
+this: there is now considerable evidence that the input
+that confers the basic receptive field properties onto
+layer 4 cells of primary visual cortex are the corticogeniculate axons (Hubel and Wiesel, 1962, 1977;
+Ferster et al., 1996; Ferster and Miller, 2000; Usrey
+et al., 2000; Alonso et al., 2001; Kara et al., 2002;
+Ferster, 2004); these synapses have many of the
+features of a driver from the bulleted list above,
+including large EPSPs with paired-pulse depression
+(Stratford et al., 1996), large terminals on proximal
+dendrites; and these contribute only about 6% of the
+synapses onto these layer 4 cells (Ahmed et al., 1994,
+1997). As noted above, only 7% of input to geniculate
+relay cells derives from retina, and thus the 6%
+contribution made by geniculocortical inputs is
+remarkably close to this value, suggesting either an
+extraordinary coincidence or a common functional
+feature of driver inputs. Below, we consider further
+the possibility that other pathways in cortex can also
+be divided into drivers and modulators.
+
+Drivers and the labeled line
+Given that retinal input to geniculate relay cells is the
+defined driver and yet represents a minority of inputs,
+we can ask: What is the consequence in cortex of a
+change in geniculate firing produced by a modulator
+input? This could happen, for instance, if a highly
+
+119
+
+active period of corticogeniculate input were to
+elevate geniculate firing, although evidence cited
+below suggests this happens only rarely. The suggested answer follows from the concept that a driver
+input represents a ‘‘labeled line’’. This means that
+altered firing of the geniculate relay cell must always
+be interpreted by its cortical targets as due to altered
+firing of the retinal inputs. This concept is very much
+like the concept of labeled lines in sensory pathways.
+For instance, if one applies pressure to the side of the
+eyeball, the perception is of spots appearing in the
+visual field. That is, the resultant increased intraocular pressure changes retinal firing, and this is
+perceived not as a pressure change in the eye but
+rather as a visual signal.
+The same principle is suggested to apply to the
+drivers throughout thalamus. If large numbers of
+relay cell action potentials were due to modulator
+inputs rather than drivers, this could create difficulties
+in information processing. However, evidence from
+the lateral geniculate nucleus suggests that this is rare:
+that is, simultaneous recording from a geniculate
+relay cell and its retinal input indicates that nearly
+every action potential in a relay cell result from one in
+its retinal afferent (Cleland et al., 1971; Usrey et al.,
+1999), but the caution here is that these data derive
+from anesthetized preparations.
+
+Modulation via ionotropic receptors
+The point made above is that an important feature of
+modulator inputs to relay cells is that, as a group, they
+activate metabotropic receptors, and the long PSPs
+that result are key to controlling the state of many
+slow acting, voltage-dependent conductances, such
+as that involving IT. However, as shown in Fig. 4A,
+most pathways activate ionotropic receptors as well,
+and it is not clear if certain pathways, such as the
+corticothalamic, reticulothalamic, or those from the
+brainstem, include single axons that activate purely
+one or the other type of receptor.
+As noted in the context of Fig. 4B, Abbot and
+colleagues have provided a clear modulatory role for
+inputs that activate ionotropic receptors, whether or
+not metabotropic receptors might also be involved
+(Chance et al., 2002; Abbott, 2005). That is, combined
+input from modulatory inhibitory and excitatory
+
+sources balanced to have little net effect on Vm can
+nonetheless affect neuronal input resistance and thus
+affect the gain of any driver input. A different
+modulatory role can also be imagined if the combined
+input is unbalanced, leading to a change in Vm. This
+would then lead to a change in spontaneous activity,
+another key modulatory function that affects how
+driver inputs will be processed. For instance, higher
+spontaneous activity could subserve more linear
+processing (i.e., reducing rectification in the processed
+signal), a lower signal-to-noise ratio, and could also
+have effects on the state of the synaptic efficacy of the
+post-synaptic cell as regards its status as a depressing
+or facilitating synapse.
+One further point is important to consider in the
+case that a group of excitatory inputs becomes
+relatively more (or less) active, resulting in increased
+firing in the target cell. One possible interpretation is
+that the enhanced input that was once a modulator
+now becomes a driver, implying a dynamic shifting in
+the function of inputs between driver and modulator.
+While this cannot be ruled out, it would require
+more complex processing if the above idea of a
+labeled line is valid, because this would also require
+dynamic shifting in how targets of the cell in question
+preform computations on these messages. It seems
+more parsimonious to regard such changes in relative
+strength of excitatory versus inhibitory inputs as a
+means to control spontaneous activity, a purely
+modulatory function.
+
+First and higher order thalamic relays
+One of the problems in understanding the functional
+role of a thalamic relay is to identify the information
+it relays to cortex, and essentially this boils down to
+identifying the driver input. This is fairly straightforward for the primary visual, somatosensory, and
+auditory relays. However, in this regard, much of
+thalamus has, until recently, remained terra incognita.
+As a road map exploring thalamus more generally,
+one can start with the bulleted list above, identifying
+which inputs to such relays as the pulvinar, medial
+dorsal, or intralaminar nuclei are likely to be drivers.
+Doing so leads to the conclusion that thalamic relays
+can be divided into two groups — first and higher
+order — depending on the origin of the driver input
+
+120
+
+Fig. 5. Schematic diagrams showing ﬁrst order and higher order relays. A: Distinction between ﬁrst order and higher order relays.
+A ﬁrst order thalamic relay (left) represents the ﬁrst relay of peripheral or subcortical information of a particular type to a ﬁrst order or
+primary cortical area. A higher order relay (right) relays information from layer 5 of one cortical area to another cortical area; this can
+be between ﬁrst order and higher order cortical area (as shown) or between two higher order cortical areas (not shown). The diﬀerence
+is the driver input, which is subcortical (left) for a ﬁrst order relay and from layer 5 of cortex (right) for a higher order relay. A feature
+of driver inputs to thalamus is a thick axon with a large terminal innervating a proximal dendritic site, often in complex synaptic zones
+known as glomeruli. Other distinguishing features are described in the text. Thus all thalamic relays receive an input from layer 6 of
+
+121
+
+(Guillery, 1995; Sherman and Guillery, 1996, 2001,
+2002; Guillery and Sherman, 2002a). This is summarized in Fig. 5A.
+First order relays receive their driver input from a
+subcortical site and relay that information for the first
+time to cortex. Examples of drivers and first order
+relays are retinal input to the lateral geniculate
+nucleus, medial lemniscal input to the ventral posterior nucleus, inferior collicular input to the ventral
+portion of the medial geniculate nucleus, and cerebellar input to the ventral anterior and lateral nuclei.
+Higher order relays, in contrast, receive their driver
+input from layer 5 of a cortical area and relay this
+input to another cortical area. Examples of higher
+order relays are most or all of pulvinar and of the
+medial dorsal nucleus. Overall, there appears to be
+considerably more thalamus devoted to higher order
+than to first order relays (Sherman and Guillery,
+2001).
+An implication that immediately springs from the
+appreciation of higher order thalamic relays is
+illustrated in Fig. 5B. That is, these relays serve as a
+critical link in a corticothalamocortical route for
+information transfer. Thus a great deal of corticocortical communication involves these routes with higher
+order thalamic relays.
+An important challenge to this concept derives
+from a consideration of neuron numbers. Van Essen
+(2005) points out that numbers of neurons in pulvinar
+are orders of magnitude fewer than those in any
+cortical area, and that even for area V1 outputs to
+other cortical areas, this poses a severe bottleneck on
+information transfer. Nonetheless, given that a very
+small percentage of V1 neurons are represented by the
+layer 5 efferents that could provide the afferent link in
+the corticothalamocortical pathway (Callaway and
+Wiser, 1996), these numbers do not seem to pose a
+limitation on the role of the pulvinar as a central relay
+structure for these layer 5 inputs. Thus a related
+question raised is whether or not the limited number
+
+of layer 5 efferents is sufficient to project all of the
+information processed by a cortical area, such as V1.
+The answer is the nature of this information that is
+passed on is not known, and the ignorance here is
+such that the possibility that the small subset of layer
+5 efferent cells is up to the task cannot be ruled out.
+Nonetheless, it is also possible that the full range of
+information processed in a cortical region requires an
+additional route, presumably involving direct corticocortical pathways.
+What, then, of these direct corticocortical projections, of which there are many? The answer to this
+question may depend on the nature of these connections. For instance, if these, like thalamic inputs, can
+be divided into drivers and modulators, then the
+answer will depend on the subset of these direct
+pathways that are drivers, and thus it becomes
+important to characterize these connections functionally; to date virtually all have been defined strictly on
+light microscopic connectional bases with emphasis
+on their laminar origin and termination, and these
+criteria are insufficient to characterize their function.
+One should not be dazzled by sheer numbers here.
+That is, the fact that there are many more direct
+corticocortical inputs to a cortical area than there are
+thalamocortical does not mean that these are functionally dominant. Recall that only 7% of inputs to
+lateral geniculate relay cells are retinal while nearly a
+third derive from the brainstem parabrachial region:
+if this logic of numbers dictating function were
+applied to the lateral geniculate nucleus, one would
+be misled to the conclusion that this nucleus relays
+parabrachial information, with the small retinal input
+playing some minor, ethereal role.
+Even if these direct corticocortical connections
+contain many drivers and thus subserve corticocortical communication, there is at least one important
+difference between this information route and that
+involving higher order thalamic relays. This has
+to do with the nature of driver afferents to thalamus.
+
+cortex, which is mostly feedback, but higher order relays in addition receive a layer 5 input from cortex, which is feedforward. B: Role
+of higher order thalamic relays in corticocortical communication. The suggested route of much of this communication involves a
+projection from layer 5 of cortex to a higher order thalamic relay to another cortical area. In question is the function, driver or
+modulator, of the direct corticocortical projections. Note in both A and B that the driver inputs, both subcortical and from layer 5, are
+typically from branching axons, the signiﬁcance of which is elaborated in the text. (FO, ﬁrst order; HO, higher order; LGN, lateral
+geniculate nucleus; MGNmagno, magnocellular portion of the medial geniculate nucleus; MGNv, ventral portion of the medial
+geniculate nucleus; POm, posterior medial nucleus; Pul, pulvinar; TRN, thalamic reticular nucleus; VP, ventral posterior nucleus.)
+
+122
+
+For both first order and higher order relays
+(Figs. 5A, B), most and perhaps all of these afferents
+are axons that branch, with one branch innervating
+thalamus and other(s) innervating apparent motor
+subcortical centers (Guillery and Sherman, 2002b;
+Guillery, 2003, 2005). As examples, most or all retinal
+axons innervating the lateral geniculate nucleus
+branch to innervate the midbrain as well, and these
+midbrain structures are involved in various oculomotor tasks; likewise, most or all layer 5 axons innervating pulvinar branch to innervate other subcortical
+structures, such as the pons and midbrain, that are
+involved in motor control. This pattern has led to the
+notion that the actual information being relayed to
+cortex via both first order and higher order relays are
+actually copies of motor commands. This notion and
+its implications for cognitive processing have been
+explored elsewhere (Guillery and Sherman, 2002b;
+Guillery, 2003) and are more fully developed by
+Guillery in Chapter 17. The main issue here, however,
+is that any messages sent by way of direct corticocortical drivers are messages that stay within cortex,
+whereas those sent by way of higher order thalamic
+relays are shared with various subcortical structures,
+implying that the very nature of the messages is likely
+to be quite different.
+There is another point made by Fig. 5B, which is
+that most or all information reaching a cortical area,
+whether originating in the periphery or another
+cortical area, benefits from a thalamic relay. That is,
+just as retinal information passes through thalamus
+and does not directly innervate cortex, so does most
+or all information directed from one cortical area to
+another. The same benefits conferred to the relay of
+retinal information through the lateral geniculate
+nucleus — whatever they may be — apply as well to
+corticocortical information flow when a higher order
+thalamic relay is involved. As just one example,
+consider burst and tonic firing of thalamic relay
+cells. It has been suggested that the burst mode may
+be present in the lateral geniculate nucleus when
+attention is either reduced during drowsiness or
+directed elsewhere, so that the relay cells are generally
+inactive and presumably hyperpolarized. This results
+in a burst response to a novel visual stimulus, a
+response that is better detected and more strongly
+activates cortex, producing a sort of ‘‘wake up call’’;
+tonic mode is then initiated to ensure a more faithful
+
+relay of information about the new stimulus. This
+same process may occur for inputs carried by cortical
+layer 5 axons to higher order thalamic relays. Thus if
+such a layer 5 cell has been inactive for a time due to
+drowsiness or other factors related to inattention,
+the target thalamic relay cells may be in burst mode,
+and now new activity from the layer 5 cell will activate
+a burst in the thalamic relay cell that ‘‘wakes up’’ the
+transthalamic cortical target area; tonic firing then
+commences for continued information processing
+along this route. Firing mode in the higher order
+thalamic relays would be controlled as in the first
+order relays like the lateral geniculate nucleus, with
+modulatory brainstem and layer 6 cortical inputs and
+their influence on the thalamic reticular nucleus
+providing this control.
+
+Conclusions
+It should now be clear that the thalamus actually
+plays a central and dynamic role in cortical functioning. Thalamus controls the flow of virtually all information to cortex, and does so in interesting ways
+that we are just beginning to resolve; it not only relays
+peripheral information to cortex in the first place but
+also plays a continuing role in further corticocortical
+processing; and the nature of the information relayed
+to cortex in many and perhaps all cases seems to be a
+copy of motor commands, allowing the target cortical
+areas to be updated about these commands. The
+complex cell and circuit properties of thalamus belie
+any sort of trivial, machine-like relay that was
+thought to be its only function until recently. One
+dynamic relay function that we are just beginning to
+understand is the control of response mode — burst
+or tonic — although we are clearly still far from a
+complete understanding of its control and behavioral
+significance. Yet this is probably just the tip of the
+iceberg: there are undoubtedly many more dynamic
+relay functions that remain to be identified.
+The other two features of thalamic functioning —
+a continued role in corticocortical communication
+and the information relayed being motor commands
+— are summarized schematically in Fig. 6. This places
+the ideas presented here (Fig. 6B) in bold relief by
+comparing them to the conventional view of thalamic functioning (Fig. 6A). In the conventional view
+
+123
+
+Fig. 6. Comparison of conventional view (A) with the alternative view proposed here (B). The role of the direct corticocortical
+connections in B (dashed lines) is questioned (see text for details). (FO, ﬁrst order; HO, higher order.)
+
+(Felleman and Van Essen, 1991; van Essen et al.,
+1992; Purves et al., 1997; Kandel et al., 2000), peripheral information, which is largely sensory, is relayed through appropriate thalamic relays to primary
+
+sensory cortex. This information then stays entirely
+within cortex, passing through sensorimotor and
+motor hierarchical levels, and finally a motor command is computed to be transmitted to subcortical
+
+124
+
+motor centers. All corticocortical communication is
+handled by direct connections wholly within cortex.
+One problem with this view is that it provides no role
+for the majority of thalamic relays, which we have
+designated as higher order.
+The view presented here (Alternative View,
+Fig. 6B) clearly places the higher order relays in the
+thick of things by having them serve as essential links
+in a corticothalamocortical route for cortical processing. This view also shows that most or all of the
+information actually passed on to thalamus for relay,
+both through first order and higher order relays, is
+carried by branching axons that also innervate
+motor centers. In this view, cortical processing can
+be thought of as a continuing elaboration and fine
+tuning of these motor commands. One final point
+stands out: if the scheme shown in Fig. 6B has any
+truth to it, it is obvious that one can no longer
+think about cortical functioning without considering
+thalamus.
+
+Acknowledgments
+This research has been supported by funding from the
+National Eye Institute of the National Institutes of
+Health. I would like to thank R.W.Guillery for many
+helpful discussions and comments on this manuscript.
+
+References
+Abbott, L.F. (2005) Drivers and modulators from push-pull
+and balanced synaptic input. Prog. Brain Res., this volume.
+Ahmed, B., Anderson, J.C., Douglas, R.J., Martin, K.A.C. and
+Nelson, J.C. (1994) Polyneuronal innervation of spiny
+stellate neurons in cat visual cortex. J. Comp. Neurol., 341:
+39–49.
+Ahmed, B., Anderson, J.C., Martin, K.A.C. and Nelson, J.C.
+(1997) Map of the synapses onto layer 4 basket cells of
+the primary visual cortex of the cat. J. Comp. Neurol., 380:
+230–242.
+Alonso, J.M., Usrey, W.M. and Reid, R.C. (2001) Rules of
+connectivity between geniculate cells and simple cells in cat
+primary visual cortex. J. Neurosci., 21: 4002–4015.
+Beierlein, M. and Connors, B.W. (2002) Short-term dynamics
+of thalamocortical and intracortical synapses onto layer 6
+neurons in neocortex. J. Neurophysiol., 88: 1924–1932.
+Britten, K.H., Shadlen, M.N., Newsome, W.T. and Movshon,
+J.A. (1993) Responses of neurons in macaque MT to
+
+stochastic motion signals. Visual Neuroscience, 10:
+1157–1169.
+Callaway, E.M. and Wiser, A.K. (1996) Contributions of
+individual layer 2–5 spiny neurons to local circuits in
+macaque primary visual cortex. Visual Neurosci, 13:
+907–922.
+Castro-Alamancos, M.A. and Oldford, E. (2002) Cortical
+sensory suppression during arousal is due to the activitydependent depression of thalamocortical synapses. Journal
+of Physiology, 541: 319–331.
+Chance, F.S., Abbott, L.F. and Reyes, A. (2002) Gain
+modulation from background synaptic input. Neuron, 35:
+773–782.
+Chung, S., Li, X. and Nelson, S.B. (2002) Short-term
+depression at thalamocortical synapses contributes to rapid
+adaptation of cortical sensory responses in vivo. Neuron, 34:
+437–446.
+Cleland, B.G., Dubin, M.W. and Levick, W.R. (1971)
+Sustained and transient neurones in the cat’s retina and
+lateral geniculate nucleus. J. Physiol. (Lond.), 217: 473–496.
+Conn, P.J. (2003) Physiological roles and therapeutic potential
+of metabotropic glutamate receptors. Prog. Neurobiol., 1003:
+12–21.
+Conn, P.J. and Pin, J.P. (1997) Pharmacology and functions
+of metabotropic glutamate receptors. Annual Review of
+Pharmacology & Toxicology, 37: 205–237.
+Dowling, J.E. (1970) Organization of vertebrate retinas.
+Investigative Ophthalmology, 9: 655–680.
+Dowling, J.E. (1987) The Retina: An Approachable Part of
+the Brain. Belknap Press of Harvard University Press,
+Cambridge, MA.
+Fanselow, E.E. and Nicolelis, M.A. (1999) Behavioral modulation of tactile responses in the rat somatosensory system.
+Journal of Neuroscience, 19: 7603–7616.
+Felleman, D.J. and Van Essen, D.C. (1991) Distributed
+hierarchical processing in the primate cerebral cortex.
+Cerebral Cortex, 1: 1–47.
+Ferster, D. (2004) Assembly of receptive ﬁelds in primary
+visual cortex. In: Chalupa, L.M. and Werner, J.S. (Eds.),
+The Visual Neurosciences. MIT Press, Cambridge, MA.,
+pp. 695–703.
+Ferster, D., Chung, S. and Wheat, H. (1996) Orientation
+selectivity of thalamic input to simple cells of cat visual
+cortex. Nature, 380: 249–252.
+Ferster, D. and Miller, K.D. (2000) Neural mechanisms of
+orientation selectivity in the visual cortex. Annual Review of
+Neuroscience, 23: 441–471.
+Grunewald, A., Bradley, D.C. and Andersen, R.A. (2002)
+Neural correlates of structure-from-motion perception in
+macaque V1 and MT. Journal of Neuroscience, 22:
+6195–6207.
+Guido, W., Lu, S.-M., Vaughan, J.W., Godwin, D.W. and
+Sherman, S.M. (1995) Receiver operating characteristic
+(ROC) analysis of neurons in the cat’s lateral geniculate
+
+125
+nucleus during tonic and burst response mode. Visual
+Neuroscience, 12: 723–741.
+Guido, W. and Weyand, T. (1995) Burst responses in thalamic relay cells of the awake behaving cat. Journal of
+Neurophysiology, 74: 1782–1786.
+Guillery, R.W. (1995) Anatomical evidence concerning the role
+of the thalamus in corticocortical communication: A brief
+review. Journal of Anatomy, 187: 583–592.
+Guillery, R.W. (2003) Branching thalamic aﬀerents link action
+and perception. J. Neurophysiol., 90: 539–548.
+Guillery, R. W. (2005) Anatomical pathways that link action to
+perception. Progress in Brain Research, this volume.
+Guillery, R.W. and Sherman, S.M. (2002a) Thalamic relay
+functions and their role in corticocortical communication:
+Generalizations from the visual system. Neuron, 33: 1–20.
+Guillery, R.W. and Sherman, S.M. (2002b) The thalamus as
+a monitor of motor outputs. Philosophical Transactions of
+the Royal Society of London.B: Biological Sciences, 357:
+1809–1821.
+Gutierrez, C., Cox, C.L., Rinzel, J. and Sherman, S.M. (2001)
+Dynamics of low-threshold spike activation in relay neurons
+of the cat lateral geniculate nucleus. Journal of Neuroscience,
+21: 1022–1032.
+Hubel, D.H. and Wiesel, T.N. (1961) Integrative action in
+the cat’s lateral geniculate body. Journal of Physiology
+(London), 155: 385–398.
+Hubel, D.H. and Wiesel, T.N. (1962) Receptive ﬁelds,
+binocular interaction and functional architecture in the
+cat’s visual cortex. J. Physiol., 160: 106–154.
+Hubel, D.H. and Wiesel, T.N. (1977) Functional architecture
+of macaque monkey visual cortex. Proceedings of the Royal
+Society of London [Biology], 198: 1–59.
+Huettner, J.E. (2003) Kainate receptors and synaptic transmission. Progress in Neurobiology, 70: 387–407.
+Jahnsen, H. and Llinaa´s, R. (1984a) Electrophysiological
+properties of guinea-pig thalamic neurones: an in vitro study.
+Journal of Physiology (London), 349: 205–226.
+Jahnsen, H. and Llinaa´s, R. (1984b) Ionic basis for the
+electroresponsiveness and oscillatory properties of guineapig thalamic neurones in vitro. Journal of Physiology
+(London), 349: 227–247.
+Kandel, E.R., Schwartz, J.H. and Jessell, T.M. (2000)
+Principles of Neural Science. McGraw Hill, New York.
+Kara, P., Pezaris, J.S., Yurgenson, S. and Reid, R.C. (2002)
+The spatial receptive ﬁeld of thalamic inputs to single cortical
+simple cells revealed by the interaction of visual and electrical stimulation. Proceedings of the National Academy of
+Sciences of the United States of America, 99: 16261–16266.
+Kohn, A. and Movshon, J.A. (2003) Neuronal adaptation to
+visual motion in area MT of the macaque. Neuron, 39:
+681–691.
+Lenz, F.A., Garonzik, I.M., Zirh, T.A. and Dougherty, P.M.
+(1998) Neuronal activity in the region of the thalamic
+principal sensory nucleus (ventralis caudalis) in patients
+
+with pain following amputations. Neuroscience, 86:
+1065–1081.
+Lu, S.-M., Guido, W. and Sherman, S.M. (1992) Eﬀects of
+membrane voltage on receptive ﬁeld properties of lateral
+geniculate neurons in the cat: contributions of the low
+threshold Ca++ conductance. Journal of Neurophysiology,
+68: 2185–2198.
+Massaux, A., Dutrieux, G., Cotillon-Williams, N., Manunta,
+Y. and Edeline, J.M. (2004) Auditory thalamus bursts in
+anesthetized and non-anesthetized states: contribution to
+functional properties. J. Neurophysiol., 91: 2117–2134.
+Mayer, M.L. and Westbrook, G.L. (1987) The physiology of
+excitatory amino acids in the vertebrate central nervous
+system. Progress in Neurobiology, 28: 197–276.
+McCormick, D.A. and Bal, T. (1997) Sleep and arousal: Thalamocortical mechanisms. Annual Review of Neuroscience, 20:
+185–215.
+McCormick, D.A. and Huguenard, J.R. (1992) A model of
+the electrophysiological properties of thalamocortical relay
+neurons. Journal of Neurophysiology, 68: 1384–1400.
+Mott, D.D. and Lewis, D.V. (1994) The pharmacology and
+function of central GABAB receptors. International Review
+of Neurobiology, 36: 97–223.
+Nakanishi, S., Nakajima, Y., Masu, M., Ueda, Y., Nakahara,
+K., Watanabe, D., Yamaguchi, S., Kawabata, S. and Okada,
+M. (1998) Glutamate receptors: brain function and signal
+transduction. Brain Research Reviews, 26: 230–235.
+Nicolelis, M.A., Baccala, L.A., Lin, R.C. and Chapin, J.K.
+(1995) Sensorimotor encoding by synchronous neural
+ensemble activity at multiple levels of the somatosensory
+system. Science, 268: 1353–1358.
+Nicolelis, M.A.L. (2002) Depression at thalamocortical
+synapses: The key for cortical neuronal adaptation?
+Neuron, 34: 331–332.
+Nicoll, R.A., Malenka, R.C. and Kauer, J.A. (1990) Functional
+comparison of neurotransmitter receptor subtypes in mammalian central nervous system. Physiological Reviews, 70:
+513–565.
+O’Keefe, L.P. and Movshon, J.A. (1998) Processing of ﬁrstand second-order motion signals by neurons in area MT of
+the macaque monkey. Visual Neuroscience, 15: 305–317.
+Osborne, L.C., Bialek, W. and Lisberger, S.G. (2004) Time
+course of information about motion direction in visual area
+MT of macaque monkeys. Journal of Neuroscience, 24:
+3210–3222.
+Ozawa, S., Kamiya, H. and Tsuzuki, K. (1998) Glutamate
+receptors in the mammalian central nervous system. Progress
+in Neurobiology, 54: 581–618.
+Pin, J.P. and Bockaert, J. (1995) Get receptive to metabotropic
+glutamate receptors. Current Opinion in Neurobiology, 5:
+342–349.
+Pin, J.P. and Duvoisin, R. (1995) The metabotropic glutamate
+receptors: structure and functions. Neuropharmacology, 34:
+1–26.
+
+126
+Purves, D., Augustine, G.J., Fitzpatrick, D., Katz, L.C.,
+Lamantia, A.-S. and McNamara, J.O. (1997) Neuroscience.
+Sinauer, Sunderland, MA.
+Qian, A. and Johnson, J.W. (2002) Channel gating of NMDA
+receptors. Physiol. Behav., 77: 577–582.
+Radhakrishnan, V., Tsoukatos, J., Davis, K.D., Tasker, R.R.,
+Lozano, A.M. and Dostrovsky, J.O. (1999) A comparison of
+the burst activity of lateral thalamic neurons in chronic pain
+and non-pain patients. Pain, 80: 567–575.
+Ramcharan, E.J., Gnadt, J.W. and Sherman, S.M. (2000) Burst
+and tonic ﬁring in thalamic cells of unanesthetized, behaving
+monkeys. Visual Neuroscience, 17: 55–62.
+Recasens, M. and Vignes, M. (1995) Excitatory amino acid
+metabotropic receptor subtypes and calcium regulation.
+Annals of the New York Academy of Sciences, 757: 418–429.
+Sherman, S.M. (1985) Functional organization of the W-,X-,
+and Y-cell pathways in the cat: a review and hypothesis. In:
+Sprague, J.M. and Epstein, A.N. (Eds.), Progress in
+Psychobiology and Physiological Psychology. Vol. 11,
+Academic Press, Orlando, pp. 233–314.
+Sherman, S.M. (1996) Dual response modes in lateral
+geniculate neurons: mechanisms and functions. Visual
+Neuroscience, 13: 205–213.
+Sherman, S.M. (2001) Tonic and burst ﬁring: dual modes of
+thalamocortical relay. Trends in Neurosciences, 24: 122–126.
+Sherman, S.M. and Guillery, R.W. (1996) The functional
+organization of thalamocortical relays. Journal of Neurophysiology, 76: 1367–1395.
+Sherman, S.M. and Guillery, R.W. (1998) On the actions that
+one nerve cell can have on another: Distinguishing ‘‘drivers’’
+from ‘‘modulators’’. Proceedings of the National Academy
+of Sciences USA, 95: 7121–7126.
+Sherman, S.M. and Guillery, R.W. (2001) Exploring the
+Thalamus. Academic Press, San Diego.
+Sherman, S.M. and Guillery, R.W. (2002) The role of thalamus in the ﬂow of information to cortex. Philosophical
+Transactions of the Royal Society of London.B: Biological
+Sciences, 357: 1695–1708.
+Sherman, S.M. and Guillery, R.W. (2004) Thalamus. In:
+Shepherd, G.M. (Ed.), Synaptic Organization of the Brain.
+Oxford University Press., pp. 311–359.
+Smith, G. D., Cox, C. L., Sherman, S. M., & Rinzel, J. (1998)
+Fourier analysis of sinusoidally driven thalamocortical relay
+neurons from cat thalamic slice and a minimal integrate-andﬁre-or-burst model. Society for Neuroscience, 24, 139.
+Steriade, M. and Llinaa´s, R. (1988) The functional states
+of the thalamus and the associated neuronal interplay.
+Physiological Reviews, 68: 649–742.
+Steriade, M., McCormick, D.A. and Sejnowski, T.J. (1993)
+Thalamocortical oscillations in the sleeping and aroused
+brain. Science, 262: 679–685.
+
+Stratford, K.J., Tarczy-Hornoch, K., Martin, K.A.C.,
+Bannister, N.J. and Jack, J.J.B. (1996) Excitatory synaptic
+inputs to spiny stellate cells in cat visual cortex. Nature, 382:
+258–261.
+Swadlow, H. A. Bezdudnaya T, & Gusev, A. G. (2005). Spike
+timing and synaptic dynamics at the awake thalamocortical
+synapse. Progress in Brain Research, this volume.
+Swadlow, H.A. and Gusev, A.G. (2001) The impact of
+‘‘bursting’’ thalamic impulses at a neocortical synapse.
+Nature Neuroscience, 4: 402–408.
+Swadlow, H.A., Gusev, A.G. and Bezdudnaya, T. (2002)
+Activation of a cortical column by a thalamocortical impulse.
+Journal of Neuroscience, 22: 7766–7773.
+Tsumoto, T., Creutzfeldt, O.D. and Legendy, C.R. (1978)
+Functional organization of the cortifugal system from visual
+cortex to lateral geniculate nucleus in the cat. Experimental
+Brain Research, 32: 345–364.
+Usrey, W.M., Alonso, J.M. and Reid, R.C. (2000) Synaptic
+interactions between thalamic inputs to simple cells in cat
+visual cortex. Journal of Neuroscience, 20: 5461–5467.
+Usrey, W.M., Reppas, J.B. and Reid, R.C. (1999) Speciﬁcity
+and strength of retinogeniculate connections. J. Neurophysiol., 82: 3527–3540.
+Van Essen, D. C. (2005) [to be determined]. Progress in Brain
+Research, this volume.
+van Essen, D.C. (1979) Visual areas of the mammalian cerebral
+cortex. Annual Reviews in Neuroscience, 2: 227–263.
+van Essen, D.C. (1985) Functional organization of primate
+visual cortex. In: Peters, A. and Jones, E.G. (Eds.), Cerebral
+Cortex. Vol. 3, Plenum., pp. 259–329.
+van Essen, D.C., Anderson, C.H. and Felleman, D.J. (1992)
+Information processing in the primate visual system: an
+integrated systems perspective. Science, 255: 419–423.
+van Essen, D.C. and Maunsell, J.H.R. (1983) Hierarchical
+organization and functional streams in the visual cortex.
+Trends in Neurosciences, 6: 370–375.
+van Horn, S.C., Eris° ir, A. and Sherman, S.M. (2000) The
+relative distribution of synapses in the A-laminae of the
+lateral geniculate nucleus of the cat. Journal of Comparative
+Neurology, 416: 509–520.
+Weyand, T.G., Boudreaux, M. and Guido, W. (2001) Burst
+and tonic response modes in thalamic neurons during
+sleep and wakefulness. Journal of Neurophysiology, 85:
+1107–1118.
+Zhan, X.J., Cox, C.L., Rinzel, J. and Sherman, S.M. (1999)
+Current clamp and modeling studies of low threshold
+calcium spikes in cells of the cat’s lateral geniculate nucleus.
+Journal of Neurophysiology, 81: 2360–2373.
+Zirh, T.A., Lenz, F.A., Reich, S.G. and Dougherty, P.M.
+(1998) Patterns of bursting occurring in thalamic cells during
+parkinsonian tremor. Neuroscience, 83: 107–121.
+
+

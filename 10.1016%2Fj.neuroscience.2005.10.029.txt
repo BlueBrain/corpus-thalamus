@@ -1,0 +1,1380 @@
+Neuroscience 137 (2006) 1087–1106
+
+GROUPING OF BRAIN RHYTHMS IN CORTICOTHALAMIC SYSTEMS
+M. STERIADE*
+
+Traveling slow oscillation in humans and actions
+on distant subcortical structures
+Synaptic plasticity during and following
+brain rhythms
+Experimental studies on animals
+Human studies on the role of sleep in memory,
+learning, and dreaming mentation
+Transition from cortical sleep rhythms to
+electrical seizures
+Conclusions
+Acknowledgments
+References
+
+Laboratory of Neurophysiology, Laval University, Faculty of Medicine,
+Quebec, Canada G1K 7P4
+
+Abstract—Different brain rhythms, with both low-frequency
+and fast-frequency, are grouped within complex wave-sequences. Instead of dissecting various frequency bands of
+the major oscillations that characterize the brain electrical
+activity during states of vigilance, it is conceptually more
+rewarding to analyze their coalescence, which is due to neuronal interactions in corticothalamic systems. This concept
+of unified brain rhythms does not only include low-frequency
+sleep oscillations but also fast (beta and gamma) activities
+that are not exclusively confined to brain-activated states,
+since they also occur during slow-wave sleep. The major
+factor behind this coalescence is the cortically generated
+slow oscillation that, through corticocortical and corticothalamic drives, is effective in grouping other brain rhythms. The
+experimental evidence for unified oscillations derived from
+simultaneous intracellular recordings of cortical and thalamic neurons in vivo, while recent studies in humans using
+global methods provided congruent results of grouping different types of slow and fast oscillatory activities. Far from
+being epiphenomena, spontaneous brain rhythms have an
+important role in synaptic plasticity. The role of slow-wave
+sleep oscillation in consolidating memory traces acquired
+during wakefulness is being explored in both experimental
+animals and human subjects. Highly synchronized sleep oscillations may develop into seizures that are generated intracortically and lead to inhibition of thalamocortical neurons,
+via activation of thalamic reticular neurons, which may explain the obliteration of signals from the external world and
+unconsciousness during some paroxysmal states. © 2005
+Published by Elsevier Ltd on behalf of IBRO.
+
+1094
+1094
+1097
+1098
+1101
+1103
+1103
+
+I shall elaborate the concept that, instead of strictly defining the frequency bands that characterize various rhythms
+of the electroencephalogram (EEG) and even splitting
+them into sub-types, it is more rewarding and closer to the
+reality to analyze the major EEG oscillations as grouped
+within complex wave-sequences. The progress in analytical methods used in studies on experimental animals, such
+as simultaneous intracellular recordings of cortical and
+thalamic neurons, as well as the advance in more global
+methods used in human investigations, i.e. EEG and magnetoencephalogram (MEG), led to the description of a
+multitude of oscillations generated in the cerebral cortex
+and/or thalamus. This great variety in wave frequencies
+and patterns is due to different electrophysiological and
+connectivity features of cortical, thalamic reticular (RE),
+and thalamocortical (TC) neurons, which generate most
+brain rhythms.
+Francis Crick once asked me: “why so many oscillations?” At least for slow-wave sleep, the question was
+justified because the three cardinal rhythms defining this
+state (spindles, delta, and slow oscillation) are all associated with prolonged hyperpolarizations of TC and cortical
+neurons, which are effective in inhibiting the transmission
+of afferent signals and, thus, each one of these oscillations
+predisposes to brain disconnection and falling asleep. In
+more recent years, the above question received a definite
+answer from analyses of the neuronal circuitry and transmitters in the corticothalamic system, which fully explained
+how different brain rhythms coalesce into complex wavesequences. The idea of grouping brain rhythms originally
+stemmed from analysis of sleep rhythms, with frequencies
+less than 15 Hz (Fig. 1). However, further studies showed
+that waking-like oscillations (beta, 20 –30 Hz; and gamma,
+30 – 60 Hz) are coalesced with the depolarizing phase of
+the slow sleep oscillation (Fig. 2). This might be thought as
+the substratum of peculiar forms of mental activity occurring episodically during slow-wave sleep. Moreover, while
+most investigators consider beta and gamma rhythms as
+distinct oscillatory types, our intracellular recordings have
+
+Key words: neocortex, thalamus, grouped rhythms, states of
+vigilance, seizures.
+Contents
+Neuronal circuitry in the corticothalamic system
+Grouping of brain rhythms: evidence from intracellular
+recordings in animals and EEG
+studies in humans
+Slow oscillation and spindles: the K-complex
+Slow oscillation and delta waves
+Slow oscillation and fast (beta/gamma) and
+ultra-fast rhythms
+
+1094
+
+1088
+
+1090
+1090
+1091
+1091
+
+*Correspondence to: M. Steriade, Department of Physiology, University of Montreal, Pavillon Paul-G. Desmarais, local 5115, 2960 Chemin
+de la Tour, Montreal, Canada H3C 3J7. Tel: ϩ1-514-343-6370; fax:
+ϩ1-514-343-2111.
+E-mail address: mircea.steriade@phs.ulaval.ca (M. Steriade).
+Abbreviations: ACh, acetylcholine; EEG, electroencephalogram; EPSP,
+excitatory postsynaptic potential; FRB, fast-rhythmic-bursting; IPSP, inhibitory postsynaptic potential; LG, lateral geniculate; LTS, low-threshold
+spike; MEG, magnetoencephalogram; PET, positron emission tomography; PGO, ponto-geniculo-occipital; PPT, pedunculopontine tegmental;
+PSW, polyspike wave; rCBF, regional cerebral blood flow; RE, thalamic
+reticular; SW, spike-wave; TC, thalamocortical.
+0306-4522/06$30.00ϩ0.00 © 2005 Published by Elsevier Ltd on behalf of IBRO.
+doi:10.1016/j.neuroscience.2005.10.029
+
+1087
+
+1088
+
+M. Steriade / Neuroscience 137 (2006) 1087–1106
+
+Fig. 1. The cortical slow oscillation groups thalamically generated spindles. (A) Intracellular recording in cat from cortical association area 7 (1.5 mm
+depth). Electrophysiological identification (at right) shows orthodromic response to stimulation of thalamic centrolateral (CL) intralaminar nucleus and
+antidromic response to stimulation of lateroposterior (LP) nucleus. Note slow oscillation of neuron and related EEG waves. One cycle of the slow
+oscillation is framed in dots. Part marked by horizontal bar below the intracellular trace (at left) is expanded above (right) to show spindles following
+the depolarizing envelope of the slow oscillation. (B) Dual simultaneous intracellular recordings from right and left cortical area 4 in cat. Note spindle
+associated with the slow oscillation and synchronization of EEG when both neurons synchronously displayed prolonged hyperpolarizations. Modified
+from Steriade et al. (1993d, 1994)
+
+shown that beta activity transforms into gamma oscillation
+under slight membrane depolarization, and global EEG
+studies in humans support the idea that these two rhythms
+should be considered as grouped into one single entity
+since they occur in conjunction and fluctuate simultaneously during different mental activities (see Slow oscillation and fast (beta/gamma) and ultra-fast rhythms).
+Thus, the variations in distinct oscillation frequencies
+are less important than the unified picture of brain oscillations, which was first revealed by performing in vivo intracellular recordings from formally identified long-axon and
+local-circuit neurons in the cortex or cortex and thalamus
+(Steriade et al., 1993b,e; Contreras and Steriade, 1995).
+In this article, I will successively analyze (i) some aspects of the neuronal circuitry that are relevant to the
+generation and synchronization of low-frequency and fast
+
+rhythms; (ii) the coalescence of these rhythms investigated
+by intracellular recordings in animals, as well as congruent
+results from studies in humans on grouped brain oscillations; (iii) the role of spontaneously occurring rhythms in
+synaptic plasticity and memory consolidation, as resulting
+from animal and human studies; and (iv) the transformation of sleep oscillations into electrical seizures of the
+spike-wave (SW) type, suggesting possible neuronal substrates of unconsciousness during absence epilepsy.
+Neuronal circuitry in the corticothalamic system
+I use the term corticothalamic, instead of TC, because
+axons in the descending pathway are much more numerous than in the ascending projection (Jones, 1985; White,
+1989). Besides, the slow sleep oscillation, which is the
+
+M. Steriade / Neuroscience 137 (2006) 1087–1106
+
+1089
+
+Fig. 2. Coalescence of slow oscillation with spindle and gamma rhythms. Intracellular recordings from cortical and thalamic neurons in cats.
+Slowϩspindle, combined slow oscillation and spindle. Left: depth-EEG from cortical area 4 and intracellular recording of TC neuron from ventrolateral
+(VL) nucleus. The excitatory component (negative depth-EEG wave, downward deflection) of the slow cortical oscillation (0.9 Hz) is followed by a
+sequence of spindle waves at 10 Hz (arrows). One typical cycle of these two combined rhythms is indicated by dotted box; note IPSPs in VL neuron
+leading to a postinhibitory rebound. Right: top and bottom traces represent field potential from the depth of association cortical area 5 and intracellular
+recording from RE neuron. In neuronal circuits (far right), synaptic projections are indicated with small letters, corresponding to the arrows at left, which
+indicate the time sequence of the events. The depolarizing phase of the field slow oscillation (depth-negative, downward deflection) in the cortex (Cx)
+travels through the corticothalamic pathway (a) and triggers in the RE nucleus a spindle sequence that is transferred to TC cells of the dorsal thalamus
+(b) and thereafter back to the cortex (c), where it shapes the tail of the slow oscillatory cycle (see middle panel). Slowϩgamma, fast activity (40 Hz)
+crowns the depolarizing phase of the slow oscillation. Three traces depict: depth-EEG waves from primary somatosensory cortex (S1), intracellular
+recording from S1 neuron, and filtered intracellular trace (between 10 and 100 Hz). Note fast waves (40 Hz) during the depolarizing phase of the slow
+sleep-like oscillation and absence of such fast waves during hyperpolarization. Modified from Steriade et al. (1993c, 1996b); Contreras and Steriade
+(1995); Timofeev and Steriade (1997).
+
+main factor in the coalescence of brain rhythms, is generated intracortically, even in the absence of the thalamus
+(Steriade et al., 1993e; Sanchez-Vives and McCormick,
+2000). Moreover, even though sleep spindles are generated
+within the thalamus, their near-simultaneous occurrence over
+widespread territories is produced by corticothalamic projections (Contreras et al., 1996a, 1997). Finally, fast-rhythmicbursting (FRB) cortical cells are particularly well suited to
+generate coherent gamma rhythms in the corticothalamic
+system because some of them, located in deep cortical
+layers and projecting to the thalamus (Steriade et al.,
+1998a; Cardin et al., 2005), may synchronize cortical and
+thalamic generators of this oscillation. Thus, the cerebral
+
+cortex has a prevalent role in the generation and synchronization of different brain rhythms.
+Some of the main neuronal types and networks implicated in brain oscillations are (i) corticothalamic neurons,
+(ii) the recurrent inhibitory circuit between RE and TC
+neurons, and (iii) thalamically projecting brainstem cholinergic (and other neuromodulatory) projections.
+Although all corticothalamic neurons are glutamatergic
+and thus excitatory, the effect of a synchronous cortical
+drive (an electrical volley or a spike-burst during natural
+states of vigilance) on RE neurons is excitatory and followed by rhythmic spike-bursts in the frequency range of
+spindles, whereas TC neurons simultaneously display bi-
+
+1090
+
+M. Steriade / Neuroscience 137 (2006) 1087–1106
+
+phasic inhibitory postsynaptic potentials (IPSPs) leading to
+low-threshold spikes (LTSs) in isolation or crowned by fast
+action potentials (see Fig. 1 in Steriade, 2000). This contrasting effect on RE and TC neurons is due to the fact that
+excitatory postsynaptic currents (EPSCs) elicited in RE
+neurons by minimal stimulation of corticothalamic axons
+are 2.5 times larger than in TC neurons, and GluR4 receptor subunits in RE neurons outnumber those in TC neurons
+by 3.7 times (Golshani et al., 2001; Jones, 2002). These
+data are important in that they explain how, during the bursting mode of thalamic neurons (as is the case during slowwave sleep and some seizures), the cortically elicited direct
+excitation of TC neurons is overwhelmed by the bisynaptic
+inhibition of these neurons, mediated by GABAergic RE
+neurons.
+Another point in this complex circuitry, which can only
+be studied in intact-brain preparations (see Steriade,
+2001), relates to the effects exerted on thalamic neurons
+by brainstem cholinergic cellular aggregates that are
+among the most important neuromodulatory systems in
+shifting the state of vigilance from the disconnected to the
+activated brain (Steriade and McCarley, 2005). The same
+neuron from the brainstem cholinergic pedunculopontine tegmental nucleus (PPT) may branch its axon to
+innervate both RE and TC neurons (Spreafico et al.,
+1993). At the TC level, PPT neurons produce direct depolarization with increase in input resistance, which explains
+the increased excitability in this gateway to the cerebral
+cortex (Curró Dossi et al., 1991). This effect is combined
+with, and strengthened by, the simultaneous inhibition produced by brainstem cholinergic neurons on GABAergic RE
+neurons (Hu et al., 1989), which leads to disinhibition of
+their targets, TC cells. These effects account for the
+suppression of thalamically generated slow-wave sleep
+rhythms (spindles and the clock-like component of delta
+waves; see below), which consist of long-lasting periods of
+hyperpolarizations, and account for the shift from the disconnected state of sleep to brain-active states.
+Grouping of brain rhythms: evidence from
+intracellular recordings in animals and EEG
+studies in humans
+Three rhythms (spindles, 7–15 Hz; delta, 1– 4 Hz; slow
+oscillation, 0.5–1 Hz) define slow-wave sleep, and two
+rhythms (beta, 20 –30 Hz; gamma, 30 – 60 Hz) occur in a
+sustained manner during the brain-active states of waking
+and REM sleep, though these fast oscillations are also
+episodically present during slow-wave sleep when they
+possibly underlie dreaming mentation during this disconnected behavioral state (see below).
+The importance of the slow oscillation resides in the
+fact that it groups other brain rhythms, with both low- and
+fast-frequencies, within complex wave-sequences (Figs. 1
+and 2). The slow oscillation was first described using intracellular recordings from different neuronal types in
+anesthetized cats and, in the same article (Steriade et al.,
+1993d), was also detected in EEG recordings during natural slow-wave sleep in humans in which cyclic groups of
+delta waves at 1– 4 Hz recurred with a slow periodicity,
+
+0.4 – 0.5 Hz. The grouping of these two oscillatory types is
+one of the arguments supporting the distinctness between
+delta and slow oscillations. Another argument came from
+human studies (Achermann and Borbély, 1997) showing
+that the typical decline in delta activity (1– 4 Hz) from the
+first to the second sleep episode was not present at frequencies characteristic for the slow oscillation (range
+0.55– 0.95 Hz).
+The cortical nature of the slow oscillation was demonstrated by its survival in the cerebral cortex after thalamectomy (Steriade et al., 1993e), its absence in the thalamus of
+decorticated animals (Timofeev and Steriade, 1996), and its
+presence in cortical slices maintained in vitro (Sanchez-Vives
+and McCormick, 2000). This rhythm was recorded in all major
+types of neocortical neurons, including pyramidal-shaped
+and local-circuit inhibitory neurons (Contreras and Steriade,
+1995), and is made up by a prolonged depolarizing (“up”)
+phase, followed by a long-lasting hyperpolarizing (“down”)
+phase (Fig. 1). In intracellular recordings from cortical neurons of chronically-implanted, naturally sleeping animals, the
+slow oscillation with clear-cut hyperpolarizing phases appears from the very onset of slow-wave sleep and disappears
+in wakefulness and REM sleep when hyperpolarizations are
+erased and the activity of cortical neurons is tonically depolarized (Steriade et al., 2001; see also acute experiments,
+Steriade et al., 1993a). The depolarizing phase consists of
+non-N-methyl-D-aspartate-mediated excitatory postsynaptic
+potentials (EPSPs), fast prepotentials, a voltage-dependent
+persistent Naϩ current (INa(p)), and fast IPSPs reflecting the
+action of synaptically coupled GABAergic local-circuit cortical
+cells (Steriade et al., 1993d). The hyperpolarizing (silent)
+phase is not produced by GABAergic inhibitory interneurons
+but is due to disfacilitation (removal of synaptic, mainly excitatory, inputs) in intracortical and TC networks, and also to
+some Kϩ currents (Contreras et al., 1996b; Timofeev et al.,
+2001). The disfacilitation factor may be explained by a progressive depletion of extracellular Ca2ϩ ([Ca2ϩ]out) during the
+depolarizing phase of the slow oscillation (Massimini and
+Amzica, 2001), which would produce a decrease in synaptic
+efficacy and an avalanche reaction that would eventually lead
+to the functional disconnection of cortical networks.
+Unlike “pure” rhythms within distinct frequency bands,
+generated in restricted neuronal circuits of extremely simplified experimental preparations, the living brain does not
+generally display separate oscillations during slow-wave
+sleep, but a coalescence of the slow oscillation with other
+sleep rhythms (spindles and delta) as well as with faster
+(beta and gamma) rhythms that are superimposed on the
+depolarizing phase of the slow oscillation (Fig. 2). Thus,
+such fast oscillations also appear, with lower incidence,
+during natural slow-wave sleep or anesthesia. Here, I
+briefly discuss the circuitry and neuronal mechanisms that
+account for the grouping of low-frequency and fast-frequency rhythms by the slow oscillation.
+Slow oscillation and spindles: the K-complex
+The thalamic generation of sleep spindles and the crucial role of RE GABAergic neurons are discussed in
+detail elsewhere (Steriade, 2003). Recent experimental
+
+M. Steriade / Neuroscience 137 (2006) 1087–1106
+
+(Fuentealba et al., 2004) and modeling (Traub et al., 2005)
+studies support the notion that RE neurons are pacemakers of spindles. During the depolarizing phase of the slow
+oscillation, the synchronous firing of neocortical neurons
+impinges upon thalamic RE pacemaking neurons, thus
+creating conditions for formation of spindles, which are
+transferred to TC neurons and up to cortex, at which level
+spindles shape the tail of the slowly oscillatory cycle (see
+middle panel in Slowϩspindle in Fig. 2). This connectivity
+explains why a cycle of the slow oscillation is followed by a
+brief sequence of spindles in TC neurons and in the cortical EEG (left panel in Slowϩspindle in Fig. 2), as seen with
+intracellular recordings (Fig. 1) as well as with EEG recordings in human slow-wave sleep (Amzica and Steriade,
+1997; Mölle et al., 2002; Fig. 3). The sequence of graphoelements consisting of an ample surface-positive transient,
+corresponding to the excitation in deeply lying cortical
+neurons, followed by a slower, surface-negative component and eventually a few spindle waves, represents the
+combination between the slow and spindle oscillations. It is
+termed the K-complex (Fig. 4) and is a reliable sign for
+stage 2 of human sleep, but it is apparent in all stages of
+slow-wave sleep (Niedermeyer, 2005). Spectral analysis
+shows the periodic recurrence of human K-complexes,
+with main peaks at 0.5– 0.7 Hz (Fig. 4). The other frequency bands in this figure are between 1 and 4 Hz (delta
+band, with several ill-defined peaks) and between 12 and
+15 Hz (the spindling range). The decomposition of the
+signal into three digitally filtered channels (Fig. 4) indicates
+that the S-lead reflects the slow oscillation, the ⌬ lead
+reflects the shape of the K-complex, and the ␴ lead faithfully reflects the spindle activity of the original signal. The
+laminar profile and intracellular substrates of the K-complex during cat sleep or anesthesia revealed that the surface-recorded, positive K-complexes reverse at a cortical
+depth of about 0.3 mm, and that the sharp depth-negative
+(surface-positive) wave of the K-complex is associated
+with cells’ depolarizations, eventually leading to a spindle
+sequence (Amzica and Steriade, 1998). These investigations indicate that the K-complexes are the expression of
+the spontaneously occurring, cortically generated slow oscillation, though K-complexes can also be evoked by sensory stimuli during sleep.
+Slow oscillation and delta waves
+There are two components of delta waves. The cortical one
+survives thalamectomy (Villablanca, 1974; Steriade et al.,
+1993e). The thalamic component is generated through the
+interplay between two intrinsic currents of TC neurons, a
+hyperpolarization-activated cation current, IH (Leresche et al.,
+1990, 1991; McCormick and Pape, 1990), and a low-threshold transient Ca2ϩ current, IT (Llinás, 1988; Huguenard,
+1996). Although arising from intrinsic properties of single TC
+neurons, the thalamic clock-like delta activity can be synchronized by corticothalamic volleys, which set into action
+RE neurons that, in turn, hyperpolarize TC neurons at the
+adequate membrane potential at which delta potentials are
+generated (Steriade et al., 1991). Thus, the synchronous
+discharges of cortical neurons during the depolarizing
+
+1091
+
+phase of the slow oscillation excite RE neurons and the
+resulting hyperpolarization-activated delta potentials in TC
+cells are transferred back to cortex, where they shape the
+slowly oscillatory phase.
+Slow oscillation and fast (beta/gamma) and
+ultra-fast rhythms
+The unexpected association between a slow sleep rhythm
+and fast oscillations that are conventionally regarded as
+defining the electrical activity of brain-active states is explained by the voltage-dependency of fast oscillations.
+Indeed, long-axon and local-circuit cortical neurons generate beta and gamma rhythmicity at relatively depolarized
+values of the membrane potential (Llinás et al., 1991;
+Nuñez et al., 1992; Gray and McCormick, 1996; Steriade
+et al., 1996a). Thus, fast rhythms are sustained during the
+steady depolarization of cortical neurons during waking
+and REM sleep, selectively appear over the depolarizing
+phase of the slow sleep oscillation, and are absent during
+the hyperpolarizing phase of the slow oscillation (see
+Fig. 2). FRB neurons, located throughout cortical layers
+2– 6 and projecting to the thalamus (Steriade et al., 1998a;
+Cardin et al., 2005), are among the best candidates to
+generate and synchronize beta and gamma rhythms because they may link cortical and thalamic generators of
+these fast oscillations. That the thalamus and neocortex
+display coherent beta and gamma rhythms is demonstrated by cross-correlations between intracellularly recorded TC neurons and field potentials in the appropriate
+cortical area (Fig. 5A). At variance with the long-range
+synchrony of the slow sleep oscillation (see below), fast
+rhythms are synchronized over restricted cortical territories
+and within specific circuits between TC and neocortical
+areas (Fig. 5A–B).
+Beta and gamma rhythms can interchangeably be
+termed fast because neurons may pass from beta to
+gamma oscillation in very short periods of time, 0.5–1 s,
+with slight depolarization (Steriade et al., 1996a). Studies
+in humans also showed that there is no precise cutoff
+between the beta and gamma bands, since these activities
+may fluctuate simultaneously, as shown by increased activities within both beta and gamma frequency bands (21–
+34 Hz) during semantic memory recall (Slotnick et al.,
+2002). Also, tasks demanding working memory are associated with phase synchrony of both beta (20 Hz) and
+gamma (30 – 40 Hz) cortical activities (Palva et al., 2005).
+These authors discussed the origin of fast activity in the
+cerebral cortex and considered that FRB neurons are key
+elements in reciprocal corticothalamic loops that generate
+fast rhythms, as demonstrated in experimental studies
+(Steriade et al., 1998a). The association between slow
+oscillation and fast rhythms has also been reported in
+human sleep (Mölle et al., 2002).
+The synchronized fast rhythmic activity led to hypotheses postulating that linkages between spatially distributed
+oscillatory elements in the visual cortex may be the bases
+for “feature binding” and pattern recognition function
+(Singer, 1999; see the evaluation of this theory in Shadlen
+and Movshon, 1999). It should be noted that fast rhythms
+
+1092
+
+M. Steriade / Neuroscience 137 (2006) 1087–1106
+
+Fig. 3. Grouping of slow oscillation and spindle waves in human slow-wave sleep. (A) Analysis of slow oscillation-dependent changes in spindle
+activity. From top to bottom, DC-recorded (0 –30 Hz) original EEG signal, slow oscillatory signal (0.16 – 4 Hz) with detected slow positive and negative
+half-waves indicated by a thick solid line, and spindle rms (root mean square) signal. For one positive and one negative half-wave each, the peak time
+used or for time-locked averaging and the Ϯ1 s averaging interval are indicated by a dotted line and two sold vertical lines, respectively. (B) Grand
+means (across 13 subjects) of results from wave-triggered analysis of slow negative (left) and positive (right) half-waves. The meanϮS.E.M. slow
+oscillation signal (top) and spindle rms signal (bottom) are shown. Dashed lines indicate mean values at Fz. Modified from and courtesy of Mölle et
+al. (2002).
+
+are also present during the depolarizing phase of the slow
+oscillation during deep anesthesia and natural slow-wave
+sleep when consciousness is suspended. However, some
+studies have shown that fast rhythms are correlated with
+high cognitive and conscious processes in wakefulness
+and with dreaming mentation in REM sleep (Llinás and
+Ribary, 1993), and this aspect should be further explored.
+
+Ultra-fast (or very fast) rhythms (80 –200 Hz, up to
+400 Hz), also called “ripples,” are superimposed over
+the depolarizing phase of the slow oscillation in neocortex (Grenier et al., 2001). The synchronous occurrence
+of ripples over many cortical sites is explained by their
+strict relation with the depolarizing phase of the slow
+oscillation, and the fact that the slow oscillation is co-
+
+M. Steriade / Neuroscience 137 (2006) 1087–1106
+
+1093
+
+Fig. 4. Coalescence of slow oscillation and spindles in humans-the K-complex during natural sleep. Scalp monopolar recordings with respect to the
+contralateral ear are shown (see figurine). Traces show a short episode from a stage 3 slow-wave sleep. The two arrows point to two K-complexes,
+consisting of a surface-positive wave, followed (or not) by a sequence of spindle (sigma, ␴) waves. Note the synchrony of K-complexes in all recorded
+sites. On the right, frequency decomposition of the electrical activity from C3 leads into three frequency bands: slow oscillation (S, 0 –1 Hz), delta
+waves (⌬, 1– 4 Hz), and spindles (␴, 12–15 Hz). Modified from Amzica and Steriade (1997).
+
+herent in different, adjacent but also distant, cortical
+areas. The possible involvement of inhibition in the
+phase-locking of neurons during ripples was corroborated by the increased activity of fast-spiking neurons
+(representing local-circuit inhibitory cells) in relation with
+ripples. Ripples are also found in the perirhinal cortex
+and hippocampus, associated with bursts of sharp potentials during anesthesia, behavioral immobility and
+natural sleep (Chrobak and Buzsáki; 1996; Collins et al.,
+
+1999). Surgically isolated stratum oriens neurons in the
+CA1 region of the hippocampus can generate ripples, as
+predicted by a model with axonal electrical coupling
+(Traub et al., 1999, 2003, 2005). Such ultra-fast oscillations are also observed preceding epileptiform bursts in
+children with seizures caused by cortical dysplasia
+(Traub et al., 2001) and in initiating spontaneously occurring electrical paroxysms in cats (Grenier et al.,
+2003).
+
+Fig. 5. Intracortical and corticothalamic synchronization of fast (gamma) rhythms, and their relation with the depolarizing phase of the slow sleep
+oscillation. (A) Short episode of activation in cat cerebral cortex, associated with coherent fast rhythms (ϳ40 Hz) in EEG from motor cortex (area 4)
+and intracellularly recorded TC neuron from ventrolateral (VL) nucleus. Two traces represent simultaneous recordings of depth-EEG and intracellular
+activity of VL neuron (spikes truncated). Note close time-relations between action potentials of VL neuron and depth-negative waves in cortical EEG
+(reflecting summated excitatory events in a pool of neurons) at a frequency of about 40 Hz. Cross-correlations (CROSS) between action potentials
+and depth-EEG shows clear-cut relation, with opposition of phase, between intracellularly recorded VL neuron and EEG waves. (B) Synchronization
+of fast rhythms (35– 40 Hz) among closely spaced leads in cortical areas 5 and 7 of cat. Distance between electrodes 1–2, 2–3 and 3– 4: about 1.5 mm;
+between electrodes 4 –5: about 3 mm. Cross-correlations between field potentials recorded from foci 1–2, 2–3, 3– 4, and 4 –5 (see cortex figurine at
+left). Note decreased correlation with a slightly increased distance (4 –5). Modified from Steriade et al. (1996a).
+
+1094
+
+M. Steriade / Neuroscience 137 (2006) 1087–1106
+
+Traveling slow oscillation in humans and actions
+on distant subcortical structures
+
+Synaptic plasticity during and following
+brain rhythms
+
+The slow oscillation (generally 0.5–1 Hz) was demonstrated during natural sleep of humans using EEG (Achermann and Borbély, 1997; Amzica and Steriade, 1997;
+Mölle et al., 2002; Marshall et al., 2003) and MEG (Simon
+et al., 2000) recordings.
+The intracortical propagation of the slow sleep oscillation was studied in humans, using high-density (180) EEG
+leads (Massimini et al., 2004). The detection of slow oscillation on the multichannel EEG is depicted in Fig. 6. The
+slow oscillation originates in frontal regions and propagates in an anterior–posterior direction with a speed of
+1.2–7 m/s, much faster than described in cortical slices
+(10 –100 mm/s), where only pure neighbor-to-neighbor
+synaptic propagation could be observed (Compte et al.,
+2003). The anterior frontal origin of the slow sleep oscillation in the human study (Massimini et al., 2004) suggested
+a stronger need for sleep of this cortical region, as also
+indicated by very low cerebral blood flow values in this
+area (Maquet et al., 1997). Marked decreased of regional
+cerebral blood flow (rCBF) was also found during slowwave sleep in the medial thalamus (Hofle et al., 1997) and
+significant covariation between the midbrain and the thalamus was reported in a positron emission tomography
+(PET) study on humans (Fiset et al., 1999). This covariation is explained by direct connections between the upper
+brainstem core and thalamus (see Steriade, 2003).
+Rather than global changes in neocortex, rCBF measured with PET in humans showed major deactivation in
+heteromodal association areas during slow-wave sleep,
+while activity in primary and secondary sensory cortices
+was relatively preserved (Braun et al., 1997). The anterior
+frontal origin of the human slow oscillation and the suggestion that this may implicate a stronger need for sleep in
+this cortical region (Massimini et al., 2004) is congruent
+with the fact that the increase in slow-wave sleep activity
+after sleep deprivation is highest in anterior prefrontal regions (Finelli et al., 2000).
+The cortically generated slow oscillation is reflected in
+subcortical structures. The discharge properties of both
+subthalamic and globus pallidus neurons are related to
+neocortical activity as these neurons fire spike-bursts with
+a periodicity that is coincident with the cortical slow oscillation and the oscillatory activity of those basal ganglia
+neurons is lost during cortical inactivation through pharmacological tools (Magill et al., 2000). The close relation
+between the slow oscillation recorded from striatal neurons
+and neocortical activity that generates this oscillation was
+also observed (Wilson and Kawaguchi, 1996; Mahon et al.,
+2001).
+The basolateral nucleus of the amygdala complex and
+the perirhinal cortex display highly synchronous slow oscillation (Collins et al., 2001) and the hippocampus also
+reflects slow oscillatory cortical activity, as spike-bursts in
+deeply lying neocortical neurons trigger population events
+in the hippocampus associated with ultra-fast oscillations
+(Sirota et al., 2003).
+
+The question whether spontaneously occurring brain
+waves are epiphenomena with little or no functional significance may especially apply to the state of sleep that was
+considered to be associated with widespread inhibition
+throughout the cortex and subcortical structures (Pavlov,
+1923), which would lead to abolition of cognitive and conscious events. However, the rich spontaneous firing of
+neocortical neurons, revealed by intracellular recordings
+during natural slow-wave sleep (Steriade et al., 2001),
+challenges the assumption that cortical neurons are inactive in this state. Although external signals are blocked at
+the thalamic level during slow-wave sleep, mainly because
+of TC neurons’ inhibition during spindle waves, the intracortical dialogue is maintained (Timofeev et al., 1996) and
+the responsiveness of cortical neurons to callosal volleys is
+even increased during slow-wave sleep (Steriade et al.,
+1974). In humans too, this response is actually stronger in
+slow-wave sleep than in waking, but it abates much earlier
+(Massimini et al., 2005). That neocortex is active during
+slow-wave sleep suggests a reorganization/specification of
+neuronal circuits (Steriade et al., 1993b). This view is
+supported by studies using indicators of neuronal activities
+during slow-wave sleep in humans, revealing more marked
+changes in those neocortical areas that are implicated in
+memory tasks and decision-making during wakefulness
+(Maquet et al., 1997). In what follows, I shall discuss the
+role of low-frequency (spindle and slow) rhythms in synaptic plasticity. The fast rhythms, which are present in the
+background electrical activity during waking and REM
+sleep, also enhance the responsiveness of neocortical
+neurons (Steriade and Timofeev, 2003a). Then, spontaneous brain rhythms during different states of vigilance may
+lead to increased responsiveness and plastic changes in
+the strength of connections among neurons, a mechanism
+through which information is stored.
+Experimental studies on animals
+The experimental model of sleep spindles is the sequence
+of augmenting (or incremental) responses, defined as thalamically evoked cortical potentials that grow in size during
+the first stimuli at a frequency of 5–15 Hz, which mimics the
+initially waxing pattern of spindle waves. Similar incremental responses can be evoked in the thalamus by stimulating
+the cortex within the frequency of spindle waves. The
+cellular mechanisms of augmenting responses have been
+studied in slices maintained in vitro (Castro-Alamancos
+and Connors, 1996) and using simultaneous intracellular
+recordings from TC and related cortical neurons in vivo
+(Steriade et al., 1998b). In the intact brain, augmenting
+responses evoked by rhythmic (10 Hz) thalamic stimulation are characterized in cortical neurons by an increase in
+the secondary depolarization, at the expense of the primary EPSP. The secondary depolarization in neocortical
+neurons follows by 3 ms the postinhibitory spike-burst in
+simultaneously recorded TC neurons (Steriade et al.,
+1998b) (Fig. 7A). Another factor that may account for the
+
+M. Steriade / Neuroscience 137 (2006) 1087–1106
+
+1095
+
+Fig. 6. The slow oscillation in human sleep as a traveling wave. (A) The signals recorded with 256-channel EEG during one cycle of the slow oscillation
+(SO) are ranked from top to bottom according to the delay of the negative peak of the SO. In this example, the delay from the negative peak at the
+top trace to the negative peak at the bottom trace is 120 ms. (B) Spatial distribution of the delays. The lines starting around the origin represent the
+streamlines calculated on the vector field of delays. The SO originates locally and propagates orderly to the rest of the scalp. Thus, each cycle of the
+slow oscillation behaves as a traveling wave. (C) Time of occurrence of SOs superimposed on the hypnogram. During 1 h of sleep several hundred
+cycles can be detected by means of an automated algorithm. (D) Coverage map. Superimposition of the streamlines describing the propagation of
+all the SOs detected for the first hour of sleep. The size of each dot is proportional to the number of cycles originating from each electrode. This
+representation shows that virtually any pattern of origin and propagation is possible although anterior electrodes tend to start more SOs and
+streamlines traveling in the antero-posterior direction are more numerous. (E) Probability of each EEG sensor being affected by a SO. Sensors in the
+fronto-central region had a 70% chance of being affected by a SO, while parietal and occipital electrodes detected few, or no, SOs. (F) Origin density
+map. The probability of each electrode being the origin of a SO is interpolated to obtain an origin density map. Foci with a higher origin density are
+detected in anterior regions of the scalp. (G) Average direction of propagation. Note the prevalent anterior–posterior direction of propagation of the
+SO. (H) Distribution of propagation speeds. Average speed was calculated for all the cycles traveling on the antero-posterior axis. On average, the
+SO sweeps over the cerebral cortex in the antero-posterior direction at a speed of 2.5 m/s. Modified from and courtesy of Massimini et al. (2004).
+
+increased amplitude of the secondary depolarizing component during augmentation is the activation of local-circuit
+cortical interneurons, which would hyperpolarize pyramidal
+neurons and de-inactivate the Ca2ϩ-dependent LTS in
+these neurons, thus further enhancing augmented waves.
+The role of cortical inhibitory interneurons in augmenting
+
+responses was also shown in a modeling study (Bazhenov
+et al., 1998).
+Synaptic plasticity evoked by augmenting potentials in
+the projection pathway from thalamus to cortex is not only
+seen by progressively enhanced amplitudes of responses
+during the pulse-train but also by persistence of self-sus-
+
+1096
+
+M. Steriade / Neuroscience 137 (2006) 1087–1106
+
+Fig. 7. Synaptic plasticity in TC and intracortical systems, and “memory” of electrical responses in corticothalamic system, induced by low-frequency
+stimuli mimicking sleep spindles. (A) Dual simultaneous intracellular recordings from cortical and TC neurons in cat (top trace is depth-EEG from area
+4). 1, Pulse-train (five stimuli at 10 Hz, arrowheads) applied to the thalamic ventrolateral (VL) nucleus produced augmenting responses in cortical
+neuron, whereas simultaneously recorded VL neuron displayed hyperpolarization. 2, Expanded 5th response; the augmented response in cortical
+neuron followed the rebound spike-burst of VL neuron. Note self-sustained oscillatory activity at 10 Hz in cortical neuron after cessation of thalamic
+stimuli, despite persistent hyperpolarization in the VL neuron. (B) Intracellular responses of cat area 7 bursting cortical neuron to repetitive callosal
+stimulation (10 Hz). The thalamus ipsilateral to the recorded neuron was extensively lesioned using kainic acid. The intracortical augmenting
+responses to the 1st and 8th pulse-trains are illustrated. Note depolarization by about 7 mV and increased number of action potentials within bursts
+after repetitive stimulation. (C) Extracellular recording of VL neuron in brainstem-transected cat. Motor cortex stimulation with pulse-trains at 10 Hz
+(stimuli are marked by dots). In 1, the pattern of responses in thalamic VL neuron in early stages of rhythmic pulse-trains. In 2–3, responses at later
+stages of stimulation. Note appearance of spontaneous spike-bursts resembling the evoked ones, as a form of “memory” in the corticothalamic circuit.
+Modified from Steriade (1991); Steriade et al. (1993e); Steriade and Timofeev (2001).
+
+tained potentials, with the same pattern and frequency as
+those of responses during the prior stimulation period (Steriade et al., 1998b). Setting in action the feedback corticothalamic projections with pulse-trains at 10 Hz results in
+evoked responses but also, after protracted stimulation, in
+“spontaneously” occurring spike-bursts whose form and
+rhythmicity are similar to those of evoked responses, as if
+the repetition of volleys were imprinted in the “memory” of
+the corticothalamic network (Fig. 7C). Synaptic plasticity
+can take place not only in corticothalamic and the ascending TC pathway but also in the cortex of athalamic animals
+(Fig. 7B). That short- and medium-term (5–30 min) neuronal plasticity can occur inside cortical circuitry was also
+shown using callosal stimulation (Cissé et al., 2004). One
+of the mechanisms that may explain the increased neuro-
+
+nal responsiveness to rhythmic and repeated pulse-trains
+at 10 Hz, simulating sleep spindles, is the activation of
+high-threshold Ca2ϩ currents and enhanced [Ca2ϩ]in that,
+in association with synaptic volleys reaching the neuron,
+may activate protein kinase A (Abel et al., 1997) and/or
+Ras/mitogen-activated protein kinase (Dolmetsch et al.,
+2001), which are involved in memory consolidation (see
+also the results by Cirelli et al., 2004, based on molecular
+correlates). The term memory consolidation, often used in
+both animal experiments and human studies, may not
+necessarily imply that the cellular phenomena revealed in
+experiments are the same as those underlying memory
+events in humans.
+Thus, besides their role in cortical disconnection through
+inhibition of incoming messages in the thalamus, spindles are
+
+M. Steriade / Neuroscience 137 (2006) 1087–1106
+
+also operational in important cerebral functions. During spindles, rhythmic and synchronized spike-bursts of thalamic
+neurons depolarize the dendrites of neocortical neurons,
+which is associated with massive Ca2ϩ entry (Yuste and
+Tank, 1996) that may provide an effective signal to efficiently
+activate Ca2ϩ calmodulin-dependent protein kinase II
+(CaMKII), which is implicated in synaptic plasticity of excitatory synapses in cortex and other sites in the nervous system
+(Soderling and Derkach, 2000; see also Sejnowski and Destexhe, 2000).
+Similar phenomena, with Ca2ϩ entry in dendrites and
+somata of cortical neurons, may occur during the rhythmic
+spike-trains associated with oscillations in the slow (0.5–
+1 Hz) or delta (1– 4 Hz) frequency bands, during later stages
+of slow-wave sleep. The hypothesis that the slow oscillation is
+responsible for the consolidation of memory traces acquired
+during the state of wakefulness (Steriade et al., 1993b) is
+supported by data showing that slow and delta (0.5– 4 Hz)
+oscillations are implicated in cortical plasticity evoked by
+monocular deprivation in the developing visual cortex (Frank
+et al., 2001). In the latter study, microelectrode recording
+and optical imaging showed that the effects of monocular deprivation on cortical responses are increased by a
+6 h slow-wave sleep period in the dark, and slow-wave
+sleep deprivation blocked this enhancement.
+Synaptic plasticity has also been observed after testing
+with fast (20 – 60 Hz) pulse-trains. Stimulation of homotopic
+sites in the contralateral cortex with pulse-trains at 40 Hz
+induced prolonged facilitation of control response evoked
+by single callosal volleys, which lasted up to several minutes (Steriade and Timofeev, 2003a; Cissé et al., 2004). In
+some cases, a depolarization plateau lasted for 0.4 – 0.5 s
+after cessation of stimulation and gave rise to action potentials that closely mimicked the grouping and frequency
+of responses recorded during the prior period of stimulation. Spontaneous activity in the gamma frequency band
+(30 – 60 Hz) improves the coherent fluctuations in visual
+cortex excitability and thus may ensure more rapid and
+reliable transmission (Fries et al., 2001).
+In the hippocampus too, neuronal synchrony associated
+with sharp potentials during slow-wave sleep may consolidate the information and transfer it to neocortical fields
+(Buzsáki, 1989). Dendritic recordings from CA1 hippocampal
+pyramidal neurons (Kamondi et al., 1998) suggested that
+sleep patterns are important for the preservation of experience-induced synaptic modifications in the limbic system
+(Buzsáki, 1998). Experiments on hippocampal “place cells”
+showed that, if a rat is confined to a place field, the firing rate
+of neurons is increased during subsequent slow-wave sleep,
+and an increased correlation is observed between cell pairs
+whose activities were related during waking behavior (Pavlides and Winson, 1989; Wilson and McNaughton, 1994).
+Human studies on the role of sleep in memory,
+learning, and dreaming mentation
+The above experimental data and ideas that low-frequency
+oscillations (spindles and slow oscillation) are associated
+with synaptic plasticity are supported by human studies
+demonstrating that the overnight improvement of discrim-
+
+1097
+
+ination tasks requires some steps, including those in early
+slow-wave sleep stages (Stickgold et al., 2000a,b). Also,
+procedural memory formation may be associated with oscillations during early sleep stages (Gais et al., 2000). After
+training on a declarative learning task, the density of human sleep spindles is significantly higher, compared with
+the non-learning control task (Gais et al., 2002). The early
+part of night sleep favors retention of declarative memories
+(which can be brought to conscious recollection), while the
+late part of sleep favors retention of non-declarative (procedural, unconscious) memories (Plihal and Born, 1997).
+During early night (stage 2 sleep), when sleep spindles
+prevail, these effects are due to the rhythmic bombardment
+of neocortical neurons by high-frequency spike-bursts of
+TC neurons, while the spike-trains of cortical neurons are
+associated with the slow oscillation throughout slow-wave
+sleep. The low frequencies (0.5–15 Hz) of spike-bursts and
+trains of single action potentials are the main factors behind synaptic consolidation of memory traces in the
+neocortex.
+Experimental data showing that hippocampal neurons
+that increase firing rates during wakefulness also display
+enhanced discharge rates during subsequent sleep epochs (see above) are congruent with (i) the hypothesis that
+the higher the amount of synaptic potentiation in cortical
+circuits during waking, the higher the increase in slowwave activity during subsequent sleep (Tononi and Cirelli,
+2003), (ii) human data showing that learning activity increases the density of sleep spindles (Gais et al., 2002),
+and (iii) results indicating that simply sensory (auditory) stimulation during wakefulness produces increased power of
+sleep spindles, accompanied by increased coherence between frontal and temporal cortical regions (Cantero et al.,
+2002).
+Acetylcholine (ACh) influences memory consolidation
+during human sleep. The memory for a declarative wordlist
+task was blocked after infusion of physostigmine (a cholinesterase inhibitor that increases cholinergic activation),
+without interfering with a consolidation of a non-declarative
+task (Gais and Born, 2004). Since physostigmine did not
+modify memory consolidation during wakefulness when
+cholinergic tone is maximal, it was predicted that a low
+cholinergic tone during slow-wave sleep is essential for
+consolidation of declarative memory. It was suggested that
+high levels of ACh, known to be present during both brainactivated states of waking and REM sleep (see Steriade
+and McCarley, 2005), may set favorable conditions for
+encoding new information in the hippocampus, whereas
+lower ACh levels, present during slow-wave sleep, facilitate consolidation of memory traces by allowing spread of
+activity from hippocampus to entorhinal cortex, with consequent neocortical involvement (Hasselmo, 1999; see
+also Buzsáki, 1996).
+At variance with the commonly used notion of global
+brain processes in slow-wave sleep, two major findings
+were reported in humans subjects, namely: slow-wave
+sleep activity increases 2 h after a motor learning task and
+the enhancement (ϳ27%) is expressed locally, in parietal
+association areas 40 and 7 that receive converging visual
+
+1098
+
+M. Steriade / Neuroscience 137 (2006) 1087–1106
+
+and proprioceptive inputs relevant to spatial attention and
+skilled actions; and, changes in local slow-wave sleep
+activity are strongly correlated with improved performance
+in the task the next day after sleep (Huber et al., 2004).
+The increased cortical activity that accounts for consolidation of memory traces during slow-wave sleep also
+explains the presence of dreaming mentation during this
+state. In contrast with the assumption that dreams exclusively occur in REM sleep, a series of studies, starting
+during the 1960s (Foulkes, 1962), has demonstrated the
+presence of dreaming mentation during slow-wave sleep.
+In slow-wave sleep dreaming is rational and repetitive,
+whereas during REM sleep the internally generated perceptions are vivid, thought becomes illogical, and the intensity of emotions is higher than during slow-wave sleep
+(Hobson et al., 2000). Awakenings from stages 3– 4 of
+slow-wave sleep reported a recall incidence higher (45–
+65%) than in stage 2 (Pivik and Foulkes, 1968; Nielsen,
+2000) but lower than in REM sleep when the recall may
+reach 90 –95% (Cicogna et al., 2000). Then, the brain is
+never “empty” and mental activity is present during all
+stages of normal sleep.
+Human studies using a sleep monitoring system, which
+distinguishes between waking and different sleep states,
+described the reports of subjects who awoke during all
+stages of the waking–sleep cycle (Hobson and PaceSchott, 2002; Fosse et al., 2004). The results indicate
+reciprocal changes of thinking and hallucinations across
+sleep, with directed thinking (defined as continued mental
+effort as well as attempts to decide and plan) more frequent during slow-wave sleep and hallucinations (endogenous sensations) more frequent during REM sleep. The
+intensified hallucinations with transition from slow-wave
+sleep to REM sleep may reflect the progressive appearance of ponto-geniculo-occipital (PGO) waves, the “stuff
+dreaming is made of,” which occur during slow-wave sleep
+well in advance of muscular atonia, the cardinal sign of
+REM sleep, and are further synchronized throughout the
+cortex during REM sleep (Steriade et al., 1989; Amzica
+and Steriade, 1996). The transitional period between
+EEG-synchronized (slow-wave) and EEG-activated (REM
+sleep) sleep, called pre-REM period, during which PGO
+waves appear over the background of a fully synchronized
+EEG, may have importance for dreaming. Thus, TC neurons are hyperpolarized during the pre-REM period, when
+the sleep EEG is still fully synchronized, whereas they are
+tonically depolarized by 7–10 mV during REM sleep (Hirsch et al., 1983). These two states (pre-REM and fully
+developed REM sleep) generate different PGO-related responses of TC neurons to brainstem inputs, which influence the signal-to-noise ratio in the visual channel, i.e. the
+ratio between the neuronal activities related to the PGO
+signal and the background firing of the same neuron. During pre-REM, the activity of lateral geniculate (LG) TC
+neurons starts with a short, high-frequency (300 –500 Hz)
+spike-burst coinciding with the PGO wave, but during REM
+sleep the rate of LG-cells’ spontaneous firing is 1.5- to
+three-fold higher than in pre-REM and the peak-to-peak
+amplitudes of PGO waves are two to three times lower
+
+(Steriade et al., 1989). Thus, the greater signal-to-noise
+ratio in the LG-cortical channel during the pre-REM epoch
+than during REM sleep suggests that the vivid imagery
+associated with dreaming sleep may appear before fully
+developed REM sleep, during a period of apparent slowwave sleep. The idea that PGO waves with greater amplitudes during the pre-REM stage may reflect more vivid
+imagery during that epoch than even during REM sleep
+(Steriade et al., 1989) corroborates earlier data showing
+that, after interrupting sleep immediately after the occurrence of the first PGO wave (in the pre-REM stage) and
+eliminating about 30 s of the slow-wave sleep stage that
+precedes REM sleep, the increased time of the REM sleep
+rebound was due to phasic events (PGO waves) rather
+than the loss of REM sleep per se (Dement et al., 1969).
+This observation fits in well with data on dream reports
+from the last epoch of EEG-synchronized sleep, which are
+indistinguishable from those obtained from REM sleep
+awakenings (Hobson, 1988; Hobson and Pace-Schott,
+2002).
+Transition from cortical sleep rhythms to
+electrical seizures
+The synaptic plasticity that follows rhythmic brain stimulation within the frequency range of low-frequency sleep
+oscillations may take paroxysmal forms. This is especially
+seen with cortical FRB neurons that display a peculiar
+enhancement of rhythmic responses, with progressively
+grown depolarization and dramatically increased number
+of action potentials, which have an epileptiform aspect
+(Fig. 8). The changes in responsiveness of neocortical
+neurons, which lead to self-sustained oscillations of the
+paroxysmal type, are already initiated during rhythmic
+stimulation with pulse-trains at 10 Hz, within the frequency
+range of sleep spindles. Dual intracellular recordings from
+TC and cortical neurons (Fig. 9) show that (i) the cortical
+neuron exhibited progressively enhanced responsiveness,
+as seen from the increased number of action potentials,
+whereas the TC neuron remained hyperpolarized due to
+the action of GABAergic RE neurons set into action by
+thalamic stimulation; (ii) following cessation of rhythmic
+stimulation, self-sustained electrical seizure occurred in
+the EEG and intracellular activities, consisting of spikewave (SW) complexes at about 2 Hz that lasted for 8 s; and
+(iii) during the stimulation period, “spontaneous” depolarizing events appeared between pulse-trains, with the same
+frequency as that used during pulse-trains (see asterisk in
+the expanded panel at bottom right in Fig. 9). The latter
+aspect is reminiscent of the “memory” in the corticothalamic system, which followed protracted stimulation (see
+above, Fig. 7C). Then, slow-wave sleep oscillations or their
+experimental model (augmenting responses) may lead to
+self-sustained paroxysms of the SW type.
+In clinical studies too, although absences (loss of
+consciousness) can only be detected in the waking
+state, the electrographic correlates of such seizures with
+SW complexes at ϳ3 Hz preferentially occur during the
+early or late stages of slow-wave sleep. The relation
+between SW seizures and the EEG correlates of slow-
+
+M. Steriade / Neuroscience 137 (2006) 1087–1106
+
+1099
+
+Fig. 8. Progressively growing, paroxysmal-like depolarization during cortically evoked augmenting responses in cortical FRB neuron from cat
+suprasylvian area 7. Close intracortical stimulation, in adjacent area 21. (A) Identification of FRB neuron by depolarizing current step (0.5 nA). (B)
+Responses of this FRB neuron to four pulse-trains, each consisting of nine pulses at 10 Hz applied to area 21. Responses to pulse-trains 1 and 2 (last)
+are expanded below, and responses to the last stimulus in these pulse-trains are further expanded at right (arrow). The neuron persistently depolarized
+during stimulation. At depolarized levels of the Vm, IPSPs evoked by area 21 stimuli shunted the early occurring spikes. Modified from Steriade and
+Timofeev (2003b).
+
+wave sleep was repeatedly demonstrated (Kellaway
+and Frost, 1983; Kellaway, 1985; Shouse et al., 1996;
+Shouse, 2001). By contrast, SW seizures are decreased
+or totally absent during REM sleep (Frank, 1969). The
+occurrence of SW seizures is facilitated during transitional states, especially between waking and slow-wave
+sleep, during the state of drowsiness. This was observed in humans (Noachtar, 2001) and in behaving
+monkeys displaying tonic eye movements at the onset
+and the end of seizures, as in clinical absence seizures
+(Steriade, 1974; Fig. 10). SW seizures are reduced or
+abolished with transition from slow-wave sleep to spontaneous or sensory-elicited arousal as well as during
+repetitive brainstem reticular formation stimulation, and
+they are increased after administration of low doses of a
+cholinergic receptor antagonist (Danober et al., 1993,
+1995).
+
+The original assumption that SW seizures originate in
+the diencephalon and the conventional definition of these
+seizures as “suddenly generalized and bilaterally synchronous” have been challenged by recent experimental research that are also congruent with human studies. The
+deeply located source of SW (absence or petit-mal) seizures
+was ascribed to a “centrencephalic” system (Penfield and
+Rasmussen, 1950), based on experiments under barbiturate
+anesthesia reporting SW patterns evoked by stimulation of
+midline thalamic nuclei (Jasper and Droogleever-Fortuyn,
+1949). The morphological substrate of the “centrencephalic” system was never demonstrated, since there are
+no bilateral projections of thalamic nuclei, and the experimental studies reported responses evoked by thalamic
+stimulation but no self-sustained activity, as it would be the
+case in bona fide seizures. On the other hand, SW seizures seem to be “suddenly generalized” only in EEG
+
+1100
+
+M. Steriade / Neuroscience 137 (2006) 1087–1106
+
+Fig. 9. Plastic changes in cortical responsiveness, leading to self-sustained paroxysmal oscillation, simultaneously with decreased low-threshold
+(LT)-type augmenting in TC neuron. Dual simultaneous intracellular recording from TC neuron in cat ventrolateral (VL) nucleus and cortical area 4
+neuron, together with depth-EEG from area 4. Stimulation applied to cortex and consisting of pulse-trains at 10 Hz, repeated every second. Two parts,
+at the beginning and end of stimulation (marked by horizontal bars and arrows) are expanded below. Note that, although LT-type augmenting
+responses in TC neuron diminished from the second pulse-train, cortical augmenting responses were progressively enhanced and, after finishing the
+stimulation period, a self-sustained oscillation at ϳ2 Hz ensued, lasting for ϳ8 s. Also note, in cortical neuronal recording, depolarizing events with
+the similar frequency (10 Hz) as that used in pulse-trains, occurring between pulse-trains (asterisk in bottom right panel). Modified from Steriade and
+Timofeev (2003b).
+
+recordings and, even at this macroscopic level, clinical
+studies have reported that the “spike” of SW complexes
+propagates from one hemisphere to another with time-lags
+as short as 12–25 ms (Lemieux and Blume, 1986; Kobayashi et al., 1994), too short to be estimated by simple
+
+visual inspection. Indeed, experimental studies using neuronal and field potential recordings from cortex or cortex
+and thalamus, have shown that spontaneously occurring
+SW seizures are initiated in one cortical focus, are transferred to neurons in another cortical area with latencies
+
+M. Steriade / Neuroscience 137 (2006) 1087–1106
+
+1101
+
+Fig. 10. SW seizures in chronically-implanted Macaca mulatta. Neuronal activity during seizure with SW complexes at 3 Hz during drowsiness in the
+behaving monkey. Single neuron recorded from the arm area in the precentral gyrus (area 4). The top oscilloscopic trace indicates the corresponding
+part (marked by horizontal bar) in the below-depicted ink-written record (the three traces represent: unit spikes used to deflect a pen of the EEG
+machine; each deflection exceeding the common level representing a group of high-frequency spikes; focal slow EEG waves, simultaneously recorded
+by the same microelectrode; and eye movements, EOG). Arrowheads indicate stimuli applied to the appropriate thalamic nucleus for neuronal
+identification. When the experimenter observed increased amplitude of the evoked field potential (second stimulus), stimuli were interrupted and the
+seizure developed in the absence of any stimulus. Note spike-bursts over the depth-negative (upward in this case) field potential of the SW complexes
+(the EEG “spike”) and silent firing during the late part of the depth-positive “wave” component of SW complexes. Also note tonic eye movements at
+the onset and end of the SW seizure. Modified from Steriade (1974).
+
+ranging from 20 to 100 ms, and finally to the thalamus after
+several seconds (Steriade and Amzica, 1994; Neckelmann
+et al., 1998; Meeren et al., 2002). That some SW seizures
+are locally generated and result from multiple, independent
+cortical foci has been reported in human studies since the
+late 1930s (Jasper and Hawkes, 1938).
+The independence of cortically generated SW seizures, with typical SW and polyspike wave (PSW) complexes at ϳ3 Hz, on the thalamic circuitry was demonstrated in acutely prepared athalamic cats (Steriade and
+Contreras, 1998) and athalamic behaving monkeys displaying impairment of awareness during SW bursts
+(Marcus et al., 1968). These studies, using global methods of recordings, are corroborated by intracellular studies
+showing inhibition of TC neurons during cortically generated SW/PSW seizures (Fig. 11). This inhibition (Steriade
+and Contreras, 1995) was also found in genetic models of
+absence seizures (Crunelli and Leresche, 2002) and is due
+to the fact that, at each paroxysmal depolarizing shift in
+neocortical neurons, thalamic GABAergic RE neurons are
+excited and, consequently, they impose IPSPs on TC neurons that, because of their repetitive nature and increased
+membrane conductance, do not succeed in de-inactivating
+the transient Ca2ϩ current responsible for spike-bursts.
+Thus, during cortically generated SW seizures, TC neurons are steadily hyperpolarized and silent (Fig. 11A). The
+inhibition of TC neurons during cortically generated SW
+seizures is further demonstrated during brief epochs when
+SW/PSW complexes stop and TC neurons are disinhibited, thus recovering their capacity to fire single action
+potentials (Fig. 11, B2).
+
+To sum up, two major types of thalamic neurons, RE
+and TC, behave differently during cortically generated SW/
+PSW seizures. RE neurons are excited by each corticofugal drive during SW/PSW complexes (Steriade and Contreras, 1995; Slaght et al., 2002) and, then, these GABAergic thalamic neurons participate actively during cortically
+generated SW seizures. This conclusion is also drawn
+from the increase in the ionic current that underlies spikebursts of RE cells in SW seizures (Tsakiridou et al., 1995;
+Avanzini et al., 1999) and the fact that the Cd2ϩ-induced
+blockage of RE-cells’ spike-bursts leads to a decrease in
+the ipsilateral SW activity (Avanzini et al., 1992). On the
+contrary, the opposite occurs in TC cells that are inhibited
+during cortically generated SW/PSW seizures (Fig. 11).
+The inhibition of thalamic relay cells may explain the unconsciousness during absence seizures, due to the blockage of signals from the external world in their route to the
+cerebral cortex.
+
+CONCLUSIONS
+The living brain, with intact connections between neocortex, thalamus, and various modulatory systems, displays
+low-frequency and fast rhythms grouped within complex
+wave-sequences. Some of these oscillations can be generated by interplay between intrinsic neuronal properties,
+but the coalescence of various rhythms and their synchronization is due to network operations in corticothalamic
+systems. The tendency to analyze distinct, precise frequency bands of EEG activities, in isolation from others,
+will hopefully be replaced by the concept of unified brain
+
+1102
+
+M. Steriade / Neuroscience 137 (2006) 1087–1106
+
+Fig. 11. TC neurons are inhibited during cortically generated SW seizure, and display phasic IPSPs but not spike-bursts. (A) Depth-EEG from cortical area
+4 and intracellular recording of TC neuron from ventrolateral (VL) nucleus of cat. Note hyperpolarization and phasic IPSPs in VL neuron throughout cortically
+generated SW seizure (between asterisks); also note increased hyperpolarization and IPSPs in thalamic neuron with increased duration of the cortical
+seizure. (B) Dual intracellular recordings from area 4 cortical neuron and TC neuron from VL nucleus, together with surface- and depth-EEG from cortical
+area 4. The SW and PSW seizure developed, without discontinuity, from sleep-like EEG patterns. Note paroxysmal depolarizing shifts (PDSs) in cortical
+neuron, and phasic IPSPs (see three dots below the intracellular VL trace) related to cortical PDSs. Also note that, during a brief period of quiescence in
+cortical SW/PSW seizure (arrow in 2), the hyperpolarization of TC neuron was removed, the TC cell was disinhibited, and the neuron fired single action
+potentials. Modified from Steriade and Contreras (1995) and Lytton et al. (1997).
+
+M. Steriade / Neuroscience 137 (2006) 1087–1106
+
+rhythms based on basic cellular mechanisms that underlie
+generation of brain waves. For example, the separation
+between “lower-frequency” and “faster” EEG spindles can
+be avoided by considering longer hyperpolarization-rebound sequences of some thalamic neurons in the former
+case, without splitting an oscillation generated by identical
+basic mechanisms, regardless of its wide frequency range.
+Similarly, fast rhythms are voltage-dependent, during either brain-active or brain-disconnected states, and the
+transition from beta to gamma oscillation operates in very
+short time periods under slight neuronal depolarization,
+which does not necessarily require their separate analysis.
+Clinical investigators have already begun to use the knowledge obtained in cellular studies on experimental animals.
+Acknowledgments—Personal studies reported in this article were
+supported by the Medical Research Council of Canada (now
+Canadian Institutes of Health Science), Human Frontier Science
+Program, and National Institutes of Health of the USA. I would like
+to thank my previous Ph.D. students and postdoctoral fellows who
+collaborated in our studies mentioned here, especially D. Contreras, F. Amzica and I. Timofeev. I also thank some of my recent
+Ph.D. students and postdoctoral fellows, in particular F. Grenier,
+P. Fuentealba, S. Crochet, Y. Cissé and D. A. Nita. This article is
+dedicated to Claude, with the hope that, when examining electrical
+activities of the cerebrum in humans, she will consider useful the
+concept of unified brain oscillations.
+
+REFERENCES
+Abel T, Nguyen PV, Barad M, Deuel TA, Kandel ER, Bourtchouladze
+R (1997) Genetic demonstration of a role for PKA in the late phase
+of LTP and in hippocampus-based long-term memory. Cell 88:
+615– 626.
+Achermann P, Borbély A (1997) Low-frequency (Ͻ1 Hz) oscillations in
+the human sleep EEG. Neuroscience 81:213–222.
+Amzica F, Steriade M (1996) Progressive cortical synchronization of
+ponto-geniculo-occipital potentials during rapid eye movement
+sleep. Neuroscience 72:309 –314.
+Amzica F, Steriade M (1997) The K-complex: its slow (Ͻ1 Hz) rhythmicity and relation to delta waves. Neurology 49:952–959.
+Amzica F, Steriade M (1998) Cellular substrates and laminar profile of
+sleep K-complex. Neuroscience 82:671– 686.
+Avanzini G, De Curtis M, Marescaux C, Panzica F, Spreafico R,
+Vergnes M (1992) Role of thalamic reticular nucleus in the generation of rhythmic thalamo-cortical activities subserving spike and
+waves. J Neural Transm 35(Suppl):85–95.
+Avanzini G, De Curtis M, Pape HC, Spreafico R (1999) Intrinsic
+properties of reticular thalamic neurons relevant to genetically
+determined spike-wave generation. In: Jasper’s basic mechanisms
+of the epilepsies, 3rd edition (Delgado-Escucta AV, Wilson WA,
+Olsen RW, Porter RJ, eds), pp 297–309. Philadelphia: LippincottWilliams & Wilkins.
+Bazhenov M, Timofeev I, Steriade M, Sejnowski TJ (1998) Computational models of thalamocortical augmenting responses. J Neurosci 18:6444 – 6465.
+Braun AR, Balkin TJ, Wesensten NJ, Carson RE, Varga M, Baldwin P,
+Selbie S, Belenky G, Herscovitch P (1997) Regional cerebral blood
+flow throughout the sleep-wake cycle. Brain 120:1173–1197.
+Buzsáki G (1989) Two-stage model of memory trace formation: a role
+for “noisy” brain states. Neuroscience 31:551–570.
+Buzsáki G (1996) The hippocampo-neocortical dialogue. Cereb Cortex
+6:81–92.
+Buzsáki G (1998) Memory consolidation during sleep: a neurophysiological perspective. J Sleep Res 7(Suppl 1):17–23.
+
+1103
+
+Cantero JL, Atienza M, Salas RM, Dominguez-Marin E (2002) Effects
+of prolonged waking-auditory stimulation on electroencephalogram
+synchronization and cortical coherence during subsequent slowwave sleep. J Neurosci 22:4702– 4708.
+Cardin JA, Palmer LA, Contreras D (2005) Stimulus-dependent
+gamma (30 –50 Hz) oscillations in simple and complex fast rhythmic bursting cells in primary visual cortex. J Neurosci 25:
+5339 –5350.
+Castro-Alamancos MA, Connors BW (1996) Cellular mechanisms of
+the augmenting response: short-term plasticity in a thalamocortical
+pathway. J Neurosci 16:7742–7756.
+Chrobak JJ, Buzsáki G (1996) High-frequency oscillations in the output networks of the hippocampal-entorhinal axis of the freely behaving rat. J Neurosci 16:3056 –3066.
+Cicogna P, Natale V, Occhionero M, Bosinelli M (2000) Slow wave
+sleep and REM sleep mentation. Sleep Res Online 3:67–72.
+Cirelli C, Gutierrez CM, Tononi G (2004) Extensive and divergent
+effects of sleep and wakefulness on brain gene expression. Neuron 41:35– 43.
+Cissé Y, Crochet S, Timofeev I, Steriade M (2004) Synaptic enhancement induced through callosal pathways in cat association cortex.
+J Neurophysiol 92:3221–3232.
+Collins DR, Lang EJ, Paré D (1999) Spontaneous activity of the
+perirhinal cortex in behaving cats. Neuroscience 89:1025–1039.
+Collins DR, Pelletier JG, Paré D (2001) Slow and fast (gamma) neuronal oscillations in the perirhinal cortex and lateral amygdala.
+J Neurophysiol 85:1661–1672.
+Compte A, Sanchez-Vives MV, McCormick DA, Wang XJ (2003) Cellular and network mechanisms of slow oscillatory activity (Ͻ1 Hz)
+and wave propagations in a cortical network model. J Neurophysiol
+89:2707–2725.
+Contreras D, Steriade M (1995) Cellular basis of EEG slow rhythms: a
+study of dynamic corticothalamic relationships. J Neurosci 15:
+604 – 622.
+Contreras D, Destexhe A, Sejnowski TJ, Steriade M (1996a) Control of
+spatiotemporal coherence of a thalamic oscillation by corticothalamic feedback. Science 274:771–774.
+Contreras D, Timofeev I, Steriade M (1996b) Mechanisms of longlasting hyperpolarizations underlying slow sleep oscillations in cat
+corticothalamic networks. J Physiol (Lond) 494:251–264.
+Contreras D, Destexhe A, Sejnowski TJ, Steriade M (1997) Spatiotemporal patterns of spindle oscillations in cortex and thalamus.
+J Neurosci 17:1179 –1196.
+Crunelli V, Leresche N (2002) Childhood absence epilepsy: genes,
+channels, neurons and networks. Nat Rev Neurosci 3:371–382.
+Curró Dossi R, Paré D, Steriade M (1991) Short-lasting nicotinic and
+long-lasting muscarinic depolarizing responses of thalamocortical
+neurons to stimulation of mesopontine cholinergic nuclei. J Neurophysiol 65:393– 406.
+Danober L, Depaulis A, Marescaux C, Vergnes M (1993) Effects of
+cholinergic drugs on genetic absence seizures in rats. Eur J Pharmacol 234:263–268.
+Danober L, Depaulis A, Vergnes M, Marescaux C (1995) Mesopontine
+cholinergic control over generalized non-convulsive seizures in a
+genetic model of absence epilepsy in the rat. Neuroscience 69:
+1183–1193.
+Dement WC, Ferguson J, Cohen H, Barchas J (1969) Non-chemical
+methods and data using a biochemical model: the REM quanta. In:
+Psychochemical research in man: methods, strategy and theory
+(Mandell A, Mandell MP, eds), pp 275–325. New York: Academic
+Press.
+Dolmetsch RE, Pajvani U, Fife K, Spotts JM, Greenberg ME (2001)
+Signaling to the nucleus by an L-type calcium channel-calmodulin
+complex through the MAP kinase pathway. Science 294:333–339.
+Finelli LA, Baumann H, Borbely A, Achermann P (2000) Dual electroencephalogram markers of human sleep homeostasis: correlation
+between theta activity in waking and slow-wave activity in sleep.
+Neuroscience 101:523–529.
+
+1104
+
+M. Steriade / Neuroscience 137 (2006) 1087–1106
+
+Fiset P, Paus T, Daloze T, Plourde G, Meuret P, Bonhomme V, Hajj-Ali
+N, Backman SB, Evans AC (1999) Brain mechanisms of propofolinduced loss of consciousness in humans: a positron emission
+tomography study. J Neurosci 19:5506 –5513.
+Fosse R, Stickgold R, Hobson JA (2004) Thinking and hallucinating:
+reciprocal changes in sleep. Psychophysiology 41:298 –305.
+Foulkes D (1962) Dream reports from different stages of sleep.
+J Abnorm Soc Psychol 65:14 –25.
+Frank G (1969) A study of the inter-relations of spike discharge density
+and sleep stages in epileptic patients. Electroencephalogr Clin
+Neurophysiol 26:238
+Frank MG, Issa NP, Stryker MP (2001) Sleep enhances plasticity in
+the developing visual cortex. Neuron 30:275–287.
+Fries P, Reynolds JH, Rorie AE, Desimone R (2001) Modulation of
+oscillatory neuronal synchronization by selective visual attention.
+Science 291:1560 –1563.
+Fuentealba P, Timofeev I, Steriade M (2004) Prolonged hyperpolarizing potentials precede spindle oscillations in the thalamic reticular
+nucleus. Proc Natl Acad Sci U S A 101:9816 –9821.
+Gais S, Born J (2004) Low acetylcholine during slow-wave sleep is
+critical for declarative memory consolidation. Proc Natl Acad Sci
+U S A 101:2140 –2144.
+Gais S, Plihal W, Wagner U, Born J (2000) Early sleep triggers
+memory for early visual discrimination skills. Nat Neurosci 3:
+1335–1339.
+Gais S, Mölle M, Helms K, Born J (2002) Learning-dependent increases in sleep density. J Neurosci 22:6830 – 6834.
+Golshani P, Liu XB, Jones EG (2001) Differences in quantal amplitude
+reflect GluR4-subunit number at corticothalamic synapses on two
+populations of thalamic neurons. Proc Natl Acad Sci U S A
+98:4172– 4177.
+Gray CM, McCormick DA (1996) Chattering cells: superficial pyramidal
+neurons contributing to the generation of synchronous oscillations
+in the visual cortex. Science 274:109 –113.
+Grenier F, Timofeev I, Steriade M (2001) Focal synchronization of
+ripples (80 –200 Hz) in neocortex and their neuronal correlates.
+J Neurophysiol 86:1884 –1898.
+Grenier F, Timofeev I, Steriade M (2003) Neocortical very fast oscillations (ripples, 80 –200 Hz) during seizures: intracellular correlates. J Neurophysiol 89:841– 852.
+Hasselmo ME (1999) Neuromodulation: acetylcholine and memory
+consolidation. Trends Cogn Sci 3:351–359.
+Hirsch JC, Fourment A, Marc ME (1983) Sleep-related variations of
+membrane potential in the lateral geniculate body relay neurons of
+the cat. Brain Res 259:308 –312.
+Hobson JA (1988) The dreaming brain. New York: Basic Books.
+Hobson JA, Pace-Schott EF (2002) The cognitive neuroscience of
+sleep: neuronal systems, consciousness and learning. Nat Rev
+Neurosci 3:679 – 693.
+Hobson JA, Pace-Schott E, Stickgold R (2000) Dreaming and the
+brain: toward a cognitive neuroscience of conscious states. Brain
+Behav Sci 23:793– 842.
+Hofle N, Paus T, Reutens D, Fiset P, Gotman J, Evans AC, Jones BE
+(1997) Regional cerebral blood flow changes as a function of delta
+and spindle activity during slow wave sleep in humans. J Neurosci
+17:4800 – 4808.
+Hu B, Steriade M, Deschênes M (1989) The effects of peribrachial
+stimulation on reticular thalamic neurons: the blockage of spindle
+waves. Neuroscience 31:1–12.
+Huber R, Ghilardi MF, Massimini M, Tononi G (2004) Local sleep and
+learning. Nature 430:78 – 81.
+Huguenard JR (1996) Low-threshold calcium currents in central nervous system neurons. Annu Rev Physiol 58:329 –348.
+Jasper HH, Droogleever-Fortuyn J (1949) Experimental studies on the
+functional anatomy of petit-mal epilepsy. Res Publ Ass Nerv Ment
+Dis 26:272–298.
+Jasper HH, Hawkes WA (1938) Electroencephalography. IV. Localization of seizure waves in epilepsy. Arch Neurol (Chic) 39:885–901.
+
+Jones EG (1985) The thalamus. New York: Plenum.
+Jones EG (2002) Thalamic circuitry and thalamocortical synchrony.
+Phil Trans R Soc Lond B 357:1659 –1673.
+Kamondi A, Acsády L, Buzsáki G (1998) Dendritic spikes are enhanced by cooperative network activity in the intact hippocampus.
+J Neurosci 18:3919 –3928.
+Kellaway P (1985) Sleep and epilepsy. Epilepsia 26(Suppl 1):15–30.
+Kellaway P, Frost JD Jr (1983) Biorhythmic modulation of epileptic
+events. In: Recent advances in epilepsy, Vol. 1 (Pedley TA, Meldrum BS, eds), pp 139 –154. London: Churchill-Livingstone.
+Kobayashi K, Nishibayashi N, Ohtsuka Y, Oka E, Ohtahara S (1994)
+Epilepsy with electrical status epilepticus during slow sleep and
+secondary bilateral synchrony. Epilepsia 35:1097–1103.
+Lemieux JF, Blume WT (1986) Topographical evolution of spike-wave
+complexes. Brain Res 373:275–287.
+Leresche N, Jassik-Gerschenfeld D, Haby M, Soltesz I, Crunelli V
+(1990) Pacemaker-like and other types of spontaneous membrane
+potential oscillations of thalamocortical cells. Neurosci Lett 113:
+72–77.
+Leresche N, Lightowler S, Soltesz I, Jassik-Gerschenfeld D, Crunelli V
+(1991) Low-frequency oscillatory activities intrinsic to rat and cat
+thalamocortical cells. J Physiol (Lond) 441:155–174.
+Llinás RR (1988) The intrinsic electrophysiological properties of mammalian neurons: insights into central nervous system function.
+Science 242:1654 –1664.
+Llinás RR, Ribary U (1993) Coherent 40-Hz oscillation characterizes
+dream state in humans. Proc Natl Acad Sci U S A 90:2078 –2081.
+Llinás RR, Grace AA, Yarom Y (1991) In vitro neurons in mammalian
+cortical layer 4 exhibit intrinsic oscillatory activity in the 10- to 50-Hz
+frequency range. Proc Natl Acad Sci U S A 88:897–901.
+Lytton WW, Contreras D, Destexhe A, Steriade M (1997) Dynamic
+interactions determine partial thalamic quiescence in a computer
+network model of spike-wave seizures. J Neurophysiol 77:
+1679 –1696.
+Magill PJ, Bolam P, Bevan MD (2000) Relationship of activity in the
+subthalamic nucleus-globus pallidus network to cortical EEG.
+J Neurosci 20:820 – 833.
+Mahon S, Deniau JM, Charpier S (2001) Relationship between EEG
+potentials and intracellular activity of striatal and cortico-striatal
+neurons: an in vivo study under different anesthetics. Cereb Cortex
+11:360 –373.
+Maquet P, Degueldre C, Delfiore G, Aerts J, Péters JP, Luxen A,
+Franck G (1997) Functional neuroanatomy of human slow wave
+sleep. J Neurosci 17:2807–2812.
+Marcus EM, Watson CW, Simon SA (1968) Behavioral correlates of
+acute bilateral symmetrical epileptogenic foci in monkey cerebral
+cortex. Brain Res 9:370 –373.
+Marshall L, Mölle M, Born J (2003) Spindle and slow wave rhythms at
+slow wave sleep transitions are linked to strong shifts in the cortical
+direct current potential. Neuroscience 121:1047–1053.
+Massimini M, Amzica F (2001) Extracellular calcium fluctuations and
+intracellular potentials in the cortex during the slow sleep oscillation. J Neurophysiol 85:1346 –1350.
+Massimini M, Huber R, Ferrarelli F, Tononi G (2004) The sleep slow
+oscillation as a traveling wave. J Neurosci 24:6862– 6870.
+Massimini M, Ferrarelli F, Huber R, Esser SK, Singh H, Tononi G
+(2005) Breakdown of cortical effective connectivity during sleep.
+Science 309:2228 –2232.
+McCormick DA, Pape HC (1990) Properties of a hyperpolarizationactivated cation current and its role in rhythmic oscillation in thalamic relay neurones. J Physiol (Lond) 431:291–318.
+Meeren HKM, Pijn JPM, van Luijtelaar EJLM, Coenen AML, Lopes da
+Silva FH (2002) Cortical focus drives widespread corticothalamic
+networks during spontaneous absence seizures in rats. J Neurosci
+22:1480 –1495.
+Mölle M, Marshall L, Gais S, Born J (2002) Grouping of spindle activity
+during slow oscillations in human non-REM sleep. J Neurosci
+22:10941–10947.
+
+M. Steriade / Neuroscience 137 (2006) 1087–1106
+Neckelmann D, Amzica F, Steriade M (1998) Spike-wave complexes
+and fast components of cortically generated seizures. III. Synchronizing mechanisms. J Neurophysiol 80:1480 –1494.
+Niedermeyer E (2005) Sleep and EEG. In: Electroencephalography:
+basic principles, clinical applications and related fields, 5th edition (Niedermeyer E, Lopes da Silva FH, eds), pp 193–208.
+Philadelphia: Lippincott Williams & Wilkins.
+Nielsen T (2000) Cognition in REM and NREM sleep. Brain Behav Sci
+23:851– 866.
+Noachtar S (2001) Generalized epilepsy and sleep. In: Epilepsy and
+sleep (Dinner DS, Lüders HO, eds), pp 75– 83. San Diego: Academic Press.
+Nuñez A, Amzica F, Steriade M (1992) Voltage-dependent fast
+(20 – 40 Hz) oscillations in long-axoned neocortical neurons. Neuroscience 51:7–10.
+Palva JM, Palva S, Kaila K (2005) Phase synchrony among neuronal
+oscillations in the human cortex. J Neurosci 25:3962–3972.
+Pavlides C, Winson J (1989) Influences of hippocampal place cell
+firing in the awake state on the activity of these cells during
+subsequent sleep episodes. J Neurosci 9:2907–2918.
+Pavlov IP (1923) “Innere Hemmung” der bedingten Reflexe und der
+Schlaf: ein und derselbe Prozess. Skand Arch Physiol 44:42–58.
+Penfield W, Rasmussen T (1950) The cerebral cortex of man. A
+clinical study of localization of function.New York: Macmillan Co.
+Pivik T, Foulkes D (1968) NREM mentation: relation to personality,
+orientation time and time of night. J Consult Clin Psychol 32:
+144 –151.
+Plihal W, Born J (1997) Effects of early and late nocturnal sleep on
+declarative and procedural memory. J Cogn Neurosci 9:534 –547.
+Sanchez-Vives MV, McCormick DA (2000) Cellular and network
+mechanisms of rhythmic recurrent activity in neocortex. Nat Neurosci 3:1027–1034.
+Sejnowski TJ, Destexhe A (2000) Why do we sleep? Brain Res
+886:208 –223.
+Shadlen MN, Movshon JA (1999) Synchrony unbound: a critical evaluation of the temporal binding hypothesis. Neuron 24:67–77.
+Shouse MN (2001) Physiology underlying relationship of epilepsy and
+sleep. In: Epilepsy and sleep (Dinner DS, Lüders HO, eds), pp
+43– 62. San Diego: Academic Press.
+Shouse MN, Martins da Silva A, Sammaritano M (1996) Circadian
+rhythm, sleep, and epilepsy. J Clin Neurophysiol 13:32–50.
+Simon NR, Mandshanden I, Lopes da Silva FH (2000) A MEG study of
+sleep. Brain Res 860:64 –76.
+Singer W (1999) Neuronal synchrony: a versatile code for the definition of relations? Neuron 24:49 – 65.
+Sirota A, Csicsvari J, Buhl D, Buzsáki G (2003) Communication between neocortex and hippocampus during sleep in rodents. Proc
+Natl Acad Sci U S A 100:2065–2069.
+Slaght SJ, Leresche N, Deniau JM, Crunelli V, Charpier S (2002)
+Activity of thalamic reticular neurons during spontaneous genetically determined spike and wave discharges. J Neurosci 22:
+2323–2334.
+Slotnick SD, Moo LR, Kraut MA, Lesser RP, Hart J Jr (2002) Interactions between thalamic and cortical rhythms during semantic memory recall in human. Proc Natl Acad Sci U S A 99:6440 – 6443.
+Soderling TR, Derkach VA (2000) Postsynaptic protein phosphorylation and LTP. Trends Neurosci 23:75– 80.
+Spreafico R, Amadeo A, Angoscini P, Panzica P, Battaglia G (1993)
+Branching projections from mesopontine nuclei to the nucleus
+reticularis and related thalamic nuclei: a double labelling study in
+the rat. J Comp Neurol 336:481– 492.
+Steriade M (1974) Interneuronal epileptic discharges related to spikeand-wave cortical seizures in behaving monkeys. Electroencephalogr Clin Neurophysiol 37:247–263.
+Steriade M (1991) Alertness, quiet sleep, dreaming. In: Cerebral cortex, Vol. 9, Normal and altered states of function (Peters A, Jones
+EG, eds), pp 279 –357. New York: Plenum.
+
+1105
+
+Steriade M (2000) Corticothalamic resonance, states of vigilance, and
+mentation. Neuroscience 101:243–276.
+Steriade M (2001) The intact and sliced brain. Cambridge, MA: MIT
+Press.
+Steriade M (2003) Neuronal substrates of sleep and epilepsy.
+Cambridge: Cambridge University Press.
+Steriade M, Amzica F (1994) Dynamic coupling among neocortical
+neurons during evoked and spontaneous spike-wave seizure activity. J Neurophysiol 72:2051–2069.
+Steriade M, Contreras D (1995) Relations between cortical and thalamic cellular events during transition from sleep pattern to paroxysmal activity. J Neurosci 15:623– 642.
+Steriade M, Contreras D (1998) Spike-wave complexes and fast runs
+of cortically generated seizures. I. Role of neocortex and thalamus.
+J Neurophysiol 80:1439 –1455.
+Steriade M, McCarley RW (2005) Brain control of wakefulness and
+sleep. New York: Springer-Kluwer-Plenum.
+Steriade M, Timofeev I (2001) Corticothalamic operations through
+prevalent inhibition of thalamocortical neurons. Thal Rel Syst
+1:225–236.
+Steriade M, Timofeev I (2003a) Neuronal plasticity in thalamocortical
+networks during sleep and waking oscillations. Neuron 37:563–
+576.
+Steriade M, Timofeev I (2003b) Neuronal plasticity during sleep oscillations in corticothalamic systems. In: Sleep and brain plasticity
+(Maquet P, Stickgold R, Smith CS, eds), pp 271–291. Oxford:
+Oxford University Press.
+Steriade M, Deschênes M, Wyzinski P, Hallé JP (1974) Input-output
+organization of the motor cortex during sleep and waking. In: Basic
+sleep mechanisms (Petre-Quadens O, Schlag J, eds), pp 144 –
+200. New York: Academic.
+Steriade M, Paré D, Bouhassira D, Deschênes M, Oakson G (1989)
+Phasic activation of lateral geniculate and perigeniculate neurons
+during sleep with ponto-geniculo-occipital spikes. J Neurosci 9:
+2215–2229.
+Steriade M, Curró Dossi R, Nuñez A (1991) Network modulation of a
+slow intrinsic oscillation of cat thalamocortical neurons implicated
+in sleep delta waves: cortical potentiation and brainstem cholinergic suppression. J Neurosci 11:3200 –3217.
+Steriade M, Amzica F, Nuñez A (1993a) Cholinergic and noradrenergic modulation of the slow (ϳ0.3 Hz) oscillation in neocortical cells.
+J Neurophysiol 70:1384 –1400.
+Steriade M, Contreras D, Curró Dossi R, Nuñez A (1993b) The slow
+(Ͻ1 Hz) oscillation in reticular thalamic and thalamocortical
+neurons: scenario of sleep rhythm generation in interacting thalamic and neocortical networks. J Neurosci 13:3284 –3299.
+Steriade M, McCormick DA, Sejnowski TJ (1993c) Thalamocortical
+oscillation in the sleeping and aroused brain. Science 262:679 –
+685.
+Steriade M, Nuñez A, Amzica F (1993d) A novel slow (Ͻ1 Hz) oscillation of neocortical neurons in vivo: depolarizing and hyperpolarizing components. J Neurosci 13:3252–3265.
+Steriade M, Nuñez A, Amzica F (1993e) Intracellular analysis of relations between the slow (Ͻ1 Hz) neocortical oscillation and other
+sleep rhythms. J Neurosci 13:3266 –3283.
+Steriade M, Contreras D, Amzica F (1994) Synchronized sleep oscillations and their paroxysmal developments. Trends Neurosci 17:
+199 –208.
+Steriade M, Amzica F, Contreras D (1996a) Synchronization of fast
+(30 – 40 Hz) spontaneous cortical rhythms during brain activation.
+J Neurosci 16:392– 417.
+Steriade M, Contreras D, Amzica F, Timofeev I (1996b) Synchronization of fast (30 – 40 Hz) spontaneous oscillations in intrathalamic
+and thalamocortical networks. J Neurosci 16:2788 –2808.
+Steriade M, Timofeev I, Dürmüller N, Grenier F (1998a) Dynamic
+properties of corticothalamic neurons and local cortical interneurons generating fast rhythmic (30 – 40 Hz) spike bursts. J Neurophysiol 79:483– 490.
+
+1106
+
+M. Steriade / Neuroscience 137 (2006) 1087–1106
+
+Steriade M, Timofeev I, Grenier F, Dürmüller N (1998b) Role of thalamic and cortical neurons in augmenting responses: dual intracellular recordings in vivo. J Neurosci 18:6425– 6443.
+Steriade M, Timofeev I, Grenier F (2001) Natural waking and sleep
+states: a view from inside neocortical neurons. J Neurophysiol
+85:1969 –1985.
+Stickgold R, James L, Hobson JA (2000a) Visual discrimination learning requires sleep after training. Nat Neurosci 3:1237–1238.
+Stickgold R, Whitbee D, Schirmer B, Patel V, Hobson JA (2000b)
+Visual discrimination improvement. A multi-step process occurring
+during sleep. J Cogn Neurosci 12:246 –254.
+Timofeev I, Steriade M (1996) Low-frequency rhythms in the thalamus of
+intact-cortex and decorticated cats. J Neurophysiol 76:4152–4168.
+Timofeev I, Steriade M (1997) Fast (mainly 30 –100 Hz) oscillations in
+the cat cerebellothalamic pathway and their synchronization with
+cortical potentials. J Physiol (Lond) 504:153–168.
+Timofeev I, Contreras D, Steriade M (1996) Synaptic responsiveness
+of cortical and thalamic neurons during various phases of slow
+oscillation in cat. J Physiol (Lond) 494:265–278.
+Timofeev I, Grenier F, Steriade M (2001) Disfacilitation and active
+inhibition in the neocortex during the natural sleep-wake cycle: an
+intracellular study. Proc Natl Acad Sci U S A 98:1924 –1929.
+Tononi G, Cirelli C (2003) Sleep and synaptic homeostasis. Brain Res
+Bull 62:143–150.
+Traub RD, Schmitz D, Jefferys JGR, Draguhn A (1999) High-frequency population oscillations are predicted to occur in hippocampal pyramidal networks interconnected by axoaxonal gap junctions. Neuroscience 92:1370 –1374.
+Traub RD, Whittington MA, Buhl EH, LeBeau FN, Bibbig A,
+Boyd S, Cross H, Baldeweg TA (2001) A possible role of gap
+
+junctions in generation of very fast EEG oscillations preceding
+the onset of, or perhaps initiating, seizures. Epilepsia 42:
+153–170.
+Traub RD, Cunningham MO, Gloveli T, LeBeau FEN, Bibbig A, Buhl
+EH, Whittington MA (2003) GABA-enhanced collective behavior in
+neuronal axons underlies persistent gamma-frequency oscillation.
+Proc Natl Acad Sci U S A 100:11047–11052.
+Traub RD, Contreras D, Cunningham MO, Murray H, LeBeau FE,
+Roopun A, Bibbig A, Wilent WB, Higley MJ, Whittington MA
+(2005) Single column thalamocortical network model exhibiting
+gamma oscillations, sleep spindles, and epileptogenic bursts.
+J Neurophysiol 93:2194 –2232.
+Tsakiridou E, Bertollini L, de Curtis M, Avanzini G, Pape HC (1995)
+Selective increase in T-type calcium conductance of reticular
+thalamic neurons in a rat model of absence epilepsy. J Neurosci
+15:3110 –3117.
+Villablanca J (1974) Role of the thalamus in sleep control: sleepwakefulness studies in chronic diencephalic and athalamic cats. In:
+Basic sleep mechanisms (Petre-Quadens O, Schlag J, eds), pp
+51– 81. New York: Academic Press.
+White EL (1989) Cortical circuits: synaptic organization of the cerebral
+cortex. Boston: Birkhäuser.
+Wilson CJ, Kawaguchi Y (1996) The origin of two-state spontaneous
+membrane potential fluctuations of neostriatal spiny neurons.
+J Neurosci 16:2397–2410.
+Wilson MA, McNaughton BL (1994) Reactivation of hippocampal ensemble memories during sleep. Science 265:676 – 679.
+Yuste R, Tank DW (1996) Dendritic integration in mammalian neurons,
+a century after Cajal. Neuron 16:701–716.
+
+(Accepted 6 October 2005)
+(Available online 15 December 2005)
+
+

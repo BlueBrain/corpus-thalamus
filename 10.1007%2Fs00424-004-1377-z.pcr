@@ -1,0 +1,256 @@
+[
+    {
+        "annotId": "ae9d0c74-0af5-11e6-9abd-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Age of rats used for the evaluation of calcium-binding protein expression.",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 20395,
+            "text": "14-\nto 21-day-old rats",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002001",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "min",
+                                    "type": "simple",
+                                    "unit": "d",
+                                    "values": [
+                                        14
+                                    ]
+                                },
+                                {
+                                    "statistic": "max",
+                                    "type": "simple",
+                                    "unit": "d",
+                                    "values": [
+                                        21
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "d9bd213c-0af5-11e6-9abd-64006a4c56ef",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "10.1007/s00424-004-1377-z",
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFORG:nlx_organ_20081201",
+                "name": "Long Evans Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "dbcb27d0-0af5-11e6-9abd-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "From 60um thick slices; Nissl staining; Annotation with general category \"Cell\" since Nissl staining shows both TC cells and interneurons (which proportion is not negligeable in rats in LGN); from 6 slices from 3 animals.",
+        "experimentProperties": [
+            {
+                "instanceId": "d9bd213c-0af5-11e6-9abd-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "location": 20472,
+            "text": "overall density of neurons in the dLGN\nof 5,434\u00b1326 cells/mm2",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131001",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "1/mm^2",
+                                    "values": [
+                                        5434
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "1/mm^2",
+                                    "values": [
+                                        326
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        6
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "01fbb77a-0af7-11e6-9abd-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1007/s00424-004-1377-z",
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFORG:nlx_organ_20081201",
+                "name": "Long Evans Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "009c137c-0afa-11e6-89e6-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "CB : Calbindin-D28K",
+        "experimentProperties": [
+            {
+                "instanceId": "d9bd213c-0af5-11e6-9abd-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "location": 20721,
+            "text": "In dLGN\nslices, CB-immunoreactive cells were found at a density\nof 183\u00b141 cells/mm2 (n=3), indicating that about 3%\nof neurons in dLGN express CB. Among the CB-positive\nstructures small (soma diameter 8\u201312 lm) bipolar\ncells (Fig. 3A) and, to a much lesser extent, large (soma\ndiameter 15\u201325 lm) multipolar cells could be identified,\nmost likely representing interneurons and relay neurons,\nrespectively [21, 24, 48].",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1007/s00424-004-1377-z",
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFORG:nlx_organ_20081201",
+                "name": "Long Evans Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFORG:nlx_organ_20081201",
+                "name": "Long Evans Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "28a9cc60-0afa-11e6-89e6-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "CR-labelled neurons were found at a density of 488\u00b132 cells/mm2 (n=3 slices), indicating that about 9% of dLGN neurons express CR. Size and shape of CR-positive cells were indicative of interneurons (Fig. 3A).\n\nCR: calretinin",
+        "experimentProperties": [
+            {
+                "instanceId": "d9bd213c-0af5-11e6-9abd-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "location": 21275,
+            "text": "CR-labelled\nneurons were found at a density of 488\u00b132 cells/mm2",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1007/s00424-004-1377-z",
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFORG:nlx_organ_20081201",
+                "name": "Long Evans Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFORG:nlx_organ_20081201",
+                "name": "Long Evans Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "6001200a-0afa-11e6-89e6-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "PV: parvalbumin",
+        "experimentProperties": [
+            {
+                "instanceId": "d9bd213c-0af5-11e6-9abd-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "location": 22096,
+            "text": "Size and shape of PV-positive\ncells were typical of relay neurons (Fig. 3A). Analysis of\nPV expression in dLGN slices and thalamic cell cultures\n(data not shown) indicated that 79\u00b11% (a total of 1687\ncells were counted on seven different slides) of thalamic\ncells and 100% of cultured relay neurons (a total of 49\nrelay neurons were identified in 12 different cultures)\nwere PV positive, respectively.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1007/s00424-004-1377-z",
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFORG:nlx_organ_20081201",
+                "name": "Long Evans Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFORG:nlx_organ_20081201",
+                "name": "Long Evans Rat"
+            }
+        ],
+        "version": "1"
+    }
+]
