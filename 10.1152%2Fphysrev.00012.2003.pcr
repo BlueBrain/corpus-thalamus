@@ -143,5 +143,31 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "4634a2ae-169c-11e6-9a02-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 14673,
+            "text": "Andersen and Eccles (9) were the first to show that TC cells display bursts of action potentials tightly correlated with the offset of inhibitory postsynaptic potentials (IPSPs).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1152/physrev.00012.2003",
+        "tags": [
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
+            },
+            {
+                "id": "NIFMOL:nlx_mol_100202",
+                "name": "Inhibitory postsynaptic current"
+            }
+        ],
+        "version": "1"
     }
 ]
