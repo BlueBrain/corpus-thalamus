@@ -311,5 +311,43 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "dc6dd390-169e-11e6-8a67-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 27130,
+            "text": "Similar findings were re- ported in another modeling study (12), which predicted that the dendrites of TC cells\udbff\udc02must contain the IT (in addition to delayed-rectifier K current IKd)\u0000",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1152/physrev.00012.2003",
+        "tags": [
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
+            },
+            {
+                "id": "BBP_nlx_0011",
+                "name": "Low threshold calcium T-current"
+            },
+            {
+                "id": "NIFSUB:sao1211023249",
+                "name": "Dendrite"
+            },
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            },
+            {
+                "id": "BBP_nlx_0006",
+                "name": "Potassium delayed rectifier"
+            }
+        ],
+        "version": "1"
     }
 ]
