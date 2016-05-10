@@ -243,5 +243,35 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "a63af39e-169d-11e6-b75f-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 25456,
+            "text": "to repro- duce all the features of the rebound burst in TC cells, the IT must be concentrated in the dendrites, where a large number of synaptic terminals are located",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1152/physrev.00012.2003",
+        "tags": [
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
+            },
+            {
+                "id": "NIFSUB:sao1211023249",
+                "name": "Dendrite"
+            },
+            {
+                "id": "BBP_nlx_0011",
+                "name": "Low threshold calcium T-current"
+            }
+        ],
+        "version": "1"
     }
 ]
