@@ -87,5 +87,31 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "1582ebec-169b-11e6-844e-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 16733,
+            "text": "Spindle waves are by far the best understood type of rhythmicity in this system, in part because they can be enhanced by anesthetics such as barbiturates ",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1152/physrev.00012.2003",
+        "tags": [
+            {
+                "id": "BBP_nlx_0021",
+                "name": "Sleep spindle"
+            },
+            {
+                "id": "OLD_CHEBI:22693",
+                "name": "Barbiturate"
+            }
+        ],
+        "version": "1"
     }
 ]
