@@ -29,5 +29,63 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "a78a5088-166f-11e6-8f30-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "bca92aa2-fa54-11e5-b687-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "location": 10799,
+            "text": "feedback projections from layer 6 of cortex to the corresponding afferent thalamic nucleus",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-110000",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": []
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "deef58d2-166f-11e6-add4-c869cd917532",
+                "isExperimentProperty": false,
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFGA:nlx_anat_090812",
+                        "name": "Neocortex layer 6"
+                    },
+                    "entity2": {
+                        "id": "NIFCELL:nlx_cell_20081203",
+                        "name": "Thalamus relay cell"
+                    },
+                    "type": "directed"
+                },
+                "requiredTags": []
+            }
+        ],
+        "pubId": "10.1152/physrev.00012.2003",
+        "tags": [
+            {
+                "id": "NIFGA:nlx_anat_090812",
+                "name": "Neocortex layer 6"
+            },
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
+            }
+        ],
+        "version": "1"
     }
 ]
