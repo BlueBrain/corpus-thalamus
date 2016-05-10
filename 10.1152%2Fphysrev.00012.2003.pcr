@@ -217,5 +217,31 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "d554d8be-169c-11e6-a1fe-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 15315,
+            "text": "In contrast, at hyperpolarized membrane po- tentials, thalamic neurons can enter a \u201cburst mode\u201d (Fig. 2A, right panel), firing high-frequency bursts of action potentials (\udbff\udc00300 Hz) at the offset of hyperpolarizing cur- rent injection\u0000",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1152/physrev.00012.2003",
+        "tags": [
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
+            },
+            {
+                "id": "nlx_78803",
+                "name": "Burst Firing Pattern"
+            }
+        ],
+        "version": "1"
     }
 ]
