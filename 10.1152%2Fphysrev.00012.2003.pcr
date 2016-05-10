@@ -273,5 +273,39 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "22b7d52c-169e-11e6-baf1-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 26751,
+            "text": " The low am- plitude of IT in dissociated cells could be reconciled with the high-amplitude currents observed in intact cells if the concentration of T-type calcium channels was 4.5\u20137.6 times higher in the dendrites than in the soma",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1152/physrev.00012.2003",
+        "tags": [
+            {
+                "id": "BBP_nlx_0011",
+                "name": "Low threshold calcium T-current"
+            },
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
+            },
+            {
+                "id": "NIFSUB:sao1044911821",
+                "name": "Neuronal Cell Body"
+            },
+            {
+                "id": "NIFSUB:sao1211023249",
+                "name": "Dendrite"
+            }
+        ],
+        "version": "1"
     }
 ]
