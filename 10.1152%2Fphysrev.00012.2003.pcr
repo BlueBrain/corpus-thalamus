@@ -113,5 +113,35 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "9f865e5a-169b-11e6-aec3-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 17889,
+            "text": "signs of a seizure were observed first in the thalamus before appearing in the cortex",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1152/physrev.00012.2003",
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_954",
+                "name": "Thalamus"
+            },
+            {
+                "id": "NIFDYS:birnlex_12748",
+                "name": "Seizures"
+            },
+            {
+                "id": "NIFDYS:birnlex_12742",
+                "name": "Absence Epilepsy"
+            }
+        ],
+        "version": "1"
     }
 ]
