@@ -1,0 +1,33 @@
+[
+    {
+        "annotId": "c49b2140-166d-11e6-8a24-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "bca92aa2-fa54-11e5-b687-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "location": 8216,
+            "text": "Experiments on motoneurons in the spinal cord (110) provided convincing evidence that the EEG reflects sum- mated postsynaptic potentials.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1152/physrev.00012.2003",
+        "tags": [
+            {
+                "id": "ERO:0001337",
+                "name": "electroencephalography"
+            },
+            {
+                "id": "NIFNEURBR:nlx_cell_0912009",
+                "name": "Spinal cord neuron"
+            }
+        ],
+        "version": "1"
+    }
+]
