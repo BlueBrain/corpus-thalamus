@@ -169,5 +169,53 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "89ce9270-169c-11e6-9951-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 14853,
+            "text": "n vitro studies (209, 171) demonstrated that TC cells possess two different firing modes. In the \u201ctonic\u201d mode, near the resting membrane potential (approximately \udbff\udc0160 mV)\u0000",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-010002",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                -60
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "aba65fa4-169c-11e6-92c5-c869cd917532",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1152/physrev.00012.2003",
+        "tags": [
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
+            }
+        ],
+        "version": "1"
     }
 ]
