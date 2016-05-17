@@ -349,5 +349,75 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "97497198-1c25-11e6-a8aa-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "Current of a single excitatory synapse onto a relay cell",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 31228,
+            "text": "which represents \udbff\udc02230\u2013350 simultaneously releasing glutama- tergic synapses, based on an estimated quantal amplitude of  }",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030002",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "min",
+                                    "type": "simple",
+                                    "unit": "pS",
+                                    "values": [
+                                        100
+                                    ]
+                                },
+                                {
+                                    "statistic": "max",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        150
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "2aa9339c-1c26-11e6-a24d-c869cd917532",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nlx_cell_20081203",
+                        "name": "Thalamus relay cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFSUB:sao914572699",
+                        "name": "Synapse",
+                        "rootId": "NIFSUB:sao914572699"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1152/physrev.00012.2003",
+        "tags": [
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
+            },
+            {
+                "id": "NIFMOL:nlx_mol_100201",
+                "name": "Excitatory postsynaptic current"
+            }
+        ],
+        "version": "1"
     }
 ]
