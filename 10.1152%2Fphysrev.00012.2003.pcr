@@ -516,5 +516,31 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "2e60bfa4-1c27-11e6-a966-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 27981,
+            "text": "n experi- ments performed in cats in vivo, TC cells generated os- cillations in the delta frequency range (0.5\u20134 Hz) after removal of the cortex (73)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1152/physrev.00012.2003",
+        "tags": [
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
+            },
+            {
+                "id": "NIFORG:birnlex_113",
+                "name": "Domestic cat"
+            }
+        ],
+        "version": "1"
     }
 ]
