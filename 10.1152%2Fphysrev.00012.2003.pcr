@@ -419,5 +419,102 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "58f5f828-1c26-11e6-b9da-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 31946,
+            "text": "In the visual thal- amus, the evoked conductance from a single retinal affer- ent is 0.6\u20133.4 nS (1.7 nS on average), which represents from 4 to 27 quantal events (246).",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030002",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "min",
+                                    "type": "simple",
+                                    "unit": "nS",
+                                    "values": [
+                                        0.6
+                                    ]
+                                },
+                                {
+                                    "statistic": "max",
+                                    "type": "simple",
+                                    "unit": "nS",
+                                    "values": [
+                                        3.4
+                                    ]
+                                },
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "nS",
+                                    "values": [
+                                        1.7
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "f038b452-1c26-11e6-9d86-c869cd917532",
+                "isExperimentProperty": false,
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFGA:birnlex_1153",
+                        "name": "Retina"
+                    },
+                    "entity2": {
+                        "id": "UBERON:0002479",
+                        "name": "dorsal lateral geniculate nucleus"
+                    },
+                    "type": "directed"
+                },
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nlx_cell_20081203",
+                        "name": "Thalamus relay cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFSUB:sao914572699",
+                        "name": "Synapse",
+                        "rootId": "NIFSUB:sao914572699"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1152/physrev.00012.2003",
+        "tags": [
+            {
+                "id": "UBERON:0002479",
+                "name": "dorsal lateral geniculate nucleus"
+            },
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
+            },
+            {
+                "id": "NIFGA:birnlex_1153",
+                "name": "Retina"
+            },
+            {
+                "id": "NIFMOL:nlx_mol_100201",
+                "name": "Excitatory postsynaptic current"
+            }
+        ],
+        "version": "1"
     }
 ]
