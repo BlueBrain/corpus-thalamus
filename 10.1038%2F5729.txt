@@ -1,0 +1,677 @@
+© 1999 Nature America Inc. • http://neurosci.nature.com
+
+articles
+
+Self-sustained rhythmic activity in the
+thalamic reticular nucleus mediated by
+depolarizing GABAA receptor potentials
+
+© 1999 Nature America Inc. • http://neurosci.nature.com
+
+M. Bazhenov1, I. Timofeev2, M. Steriade2 and T.J. Sejnowski1,3
+1
+
+Howard Hughes Medical Institute, The Salk Institute, Computational Neurobiology Laboratory, 10010 North Torrey Pines Road,
+La Jolla, California 92037, USA
+
+2
+
+Laboratory of Neurophysiology, School of Medicine, Laval University, Quebec G1K 7P4, Canada
+
+3
+
+Department of Biology, University of California San Diego, La Jolla, California 92093, USA
+Correspondence should be addressed to M.B. (bazhenov@salk.edu)
+
+Intracellular recordings from reticular thalamic (RE) neurons in vivo revealed inhibitory postsynaptic
+potentials (IPSPs) between RE cells that reversed and became depolarizing at the hyperpolarized
+membrane potentials that occur during sleep. These excitatory IPSPs can directly trigger low-threshold spikes (LTSs). The oscillatory mechanisms underlying IPSP-triggered LTSs crowned by spike
+bursts were investigated in models of isolated RE networks. In a one-dimensional network model,
+external stimulation evoked waves of excitation propagating at a constant velocity of 25–150 cells
+per second. In a large-scale, two-dimensional model of the reticular nucleus, the network showed
+transient or self-sustained oscillations controlled by the maximum conductance of the low-threshold
+calcium current and the membrane potential. This model predicts that the isolated reticular nucleus
+could initiate sequences of spindle oscillations in thalamocortical networks in vivo.
+
+Sleep spindle oscillations consist of waxing-and-waning field potentials of 7 to 14 Hz, which last 1 to 3 seconds and recur every 5 to 15
+seconds. These oscillations are generated in the thalamus by interaction between thalamic reticular (RE) and thalamocortical (TC)
+cells1–4. The waxing phase of spindle oscillations is associated with
+recruitment of neurons from dorsal thalamic and RE nuclei5, whereas the waning phase results from calcium-induced cAMP upregulation of hyperpolarization-activated cation current, Ih, in TC cells6–8.
+Extracellular neuron and field-potential recordings from the isolated RE nucleus in vivo show that the deafferented RE nucleus can
+itself generate 7–14 Hz oscillations9, and so the reticular nucleus
+may be involved in initiating sequences of spindle oscillations in the
+intact RE–TC network.
+The GABAergic neurons of the RE nucleus are usually thought
+to interact by reciprocal inhibition. Computational models of
+inhibitory RE networks produce different types of population
+activity, including full and partial spatial clustering10 and temporal synchronization alternating between periods of coherent oscillatory activity and periods of almost chaotic behavior11. The
+oscillations in these models occur because the synaptic inhibition
+causes burst discharges when the reversal potential for inhibitory synapses is sufficiently negative to remove inactivation of the
+low-threshold calcium current.
+For the reciprocal GABAA receptor synapses between RE cells,
+the chloride reversal potential is about –71 mV, which is depolarized compared to the reversal potential in TC cells12. Thus, at a resting membrane potential of about –78 mV (ref. 13), the
+GABAA-receptor-mediated IPSPs in an RE cell reverse and could
+trigger a burst of sodium spikes14. Here we used in-vivo recordings
+and computational models of RE cells to investigate cellular dynamics at different membrane potentials. We found, in vivo, that when RE
+168
+
+cells were hyperpolarized below the chloride reversal potential,
+GABAA-receptor-mediated synaptic excitation led to a low-threshold calcium action potential crowned by sodium spikes. In a computer model of a hyperpolarized RE network, this mechanism
+produced propagating patterns of spike-burst activity, which could
+be transformed into self-sustained oscillations.
+
+RESULTS
+Low-threshold spike bursts in RE neurons in vivo
+Intracellular recordings from RE cells (n = 97) in cats were characterized by prolonged spike bursts with accelerando-decelerando patterns, during either spontaneous oscillatory activity or activity
+evoked by dorsal thalamic stimulation (Figs. 1–3). Such prolonged
+spike bursts, consisting of progressively decreasing followed by
+increasing interspike intervals, are in contrast to the short spike
+bursts of thalamocortical neurons15. Some RE neurons were also
+morphologically identified by intracellular staining with Neurobiotin
+(data not shown). The resting membrane potential (Vm) of RE neurons was –62.5 ± 2.9 mV (mean ± standard error), which is relatively depolarized compared to results reported with patch pipettes13.
+After Vm was determined, most of the intracellular recordings were
+done with slight (0.2–0.5 nA) DC hyperpolarization.
+During the state of resting sleep with long-range synchronization of electrical activity, neocortical and thalamic neurons display
+three major rhythms: slow oscillations (<1 Hz), delta waves (1–4
+Hz) and spindles (7–15 Hz). In animals under ketamine-xylazine
+anesthesia, RE neurons are hyperpolarized during the depth-positive
+cortical electroencephalogram (EEG) component of the slow oscillation and depolarized during the depth-negative EEG waves16. This
+cortically generated spontaneous slow oscillation was used to test
+the responsiveness of RE neurons at different membrane voltages
+nature neuroscience • volume 2 no 2 • february 1999
+
+© 1999 Nature America Inc. • http://neurosci.nature.com
+
+articles
+
+because it affects both somatic and dendritic compartments
+of RE neurons, unlike the current pulses that are usually
+applied with somatic impalement. This is particularly
+important for RE neurons because their dendritic voltage is
+poorly controlled from the soma17, so current pulses probably do not affect remote parts of the dendritic tree.
+Electrical stimulation applied to the dorsal thalamus elicits an EPSP crowned by a spike burst in RE neurons, followed by an IPSP and a period of disfacilitation: a
+long-lasting absence of synaptic activity18. Here we stimulated the thalamic VL nucleus and confirmed these findings.
+In 10 out of 32 neurons tested, diminishing the stimulus
+intensity resulted in long-latency (32.2 ± 3.5 ms) hyperpolarizing IPSPs when stimuli were applied at a relatively depolarized Vm (Fig. 1). Because RE neurons are GABAergic and
+reciprocally connected19, this primary IPSP probably originated from neighboring RE neurons that were excited by
+axons of thalamocortical and/or corticothalamic cells. However, during the hyperpolarizing phase of the slow oscillation, VL stimuli with the same parameters resulted in reversed IPSPs
+crowned by high-frequency spike bursts (Fig. 1).
+Stimuli were delivered to VL every five seconds. Some of them
+occurred at relatively depolarized Vm levels, whereas others were
+delivered during the hyperpolarizing phase of the slow oscillation,
+associated with different degrees of disfacilitation. Stimuli applied
+during a relatively depolarized Vm elicited an inhibitory IPSP followed by a rebound spike burst (Fig. 1). As stimuli were delivered
+at Vm levels closer to the reversal potential for chloride ions, hyperpolarizing responses disappeared and were replaced by depolarizing responses. At more hyperpolarized Vm levels, these reversed
+IPSPs triggered a full-blown, high-frequency spike burst.
+We studied the activity patterns of RE neurons in ipsilaterally
+decorticated cats. Decortication removes the inputs generated by
+the cortical slow oscillation, leaving intact the thalamically generated spindle and delta oscillations20. RE neurons showed two main
+forms of spontaneous oscillatory activity. The first pattern was a
+spindle oscillation characterized by rhythmically recurring (7–12
+Hz) high-frequency spike bursts on a depolarizing envelope19. The
+second pattern was the occurrence of periodic spike bursts, mainly
+at frequencies around 2–3 Hz (Fig. 2). In multi-site, multi-unit
+recordings, these bursts did not occur simultaneously, but followed
+each other, even when spindle oscillations occurred almost simultaneously. For example, in a typical recording (Fig. 2), a perispike
+histogram triggered by the first action potential in the burst of one
+cell shows that most spikes in a pool of neurons recorded through
+another electrode occurred either before or after these bursts.
+nature neuroscience • volume 2 no 2 • february 1999
+
+Amplitude of IPSPs (mV)
+
+© 1999 Nature America Inc. • http://neurosci.nature.com
+
+Fig. 1. Reversed IPSP in an RE neuron in vivo directly triggers a
+low-threshold spike (LTS). Intact thalamocortical connections.
+Left column, responses of an RE neuron to four stimuli applied to
+the thalamic VL nucleus (arrowhead). At relatively depolarized Vm
+(–61 mV), low-intensity thalamic stimuli evoked an IPSP-rebound
+sequence. When the stimulus (same parameters as above)
+occurred during the hyperpolarizing phase of the slow oscillation,
+the IPSP reversed and (at –78 mV) directly triggered an LTS
+crowned by spike burst. The latency of LTS was in the range of
+40–50 ms. The early part of two responses (at –61 mV and at –78
+mV) are enlarged at right. Bottom right, the amplitude of the
+postsynaptic response, measured 75 ms after the stimulus, is plotted against Vm. The IPSP depended linearly on Vm from depolarized levels to the reversal potential (–68 mV); thereafter, the
+depolarizing IPSP directly activated the LTS, which added a depolarizing deflection to the linear function (solid and dotted lines).
+
+Similar burst patterns were observed in intracellularly recorded
+RE neurons. At rest or under slight DC hyperpolarizing currents,
+RE neurons showed periodic (0.3–0.6 Hz) burst activity (Fig. 3a).
+Usually, this bursting activity was abolished by release of the neuron from DC hyperpolarizing current or by slight DC depolarization. Under these conditions, RE neurons showed hyperpolarizing
+potentials resembling IPSPs. The frequency of the hyperpolarizing
+potentials was almost identical to the frequency of bursts recorded
+under DC hyperpolarizing current (Fig. 3). This observation, and
+the finding that the IPSPs of RE neurons can only slightly shunt the
+low-threshold spikes (LTSs)21, suggest that, at the relatively hyperpolarized Vm levels that occur during resting sleep with EEG synchronization, the reversed IPSPs cause burst firing in RE neurons,
+which may maintain persistent activity within the RE nucleus and
+initiate spindle activity.
+Computer models of activity patterns in the RE network
+The ability of a reversed IPSP to trigger a low-threshold calcium
+spike in RE cells was investigated in computer models of an isolated RE neuron. We first simulated an RE cell with a GABAA receptor IPSP at different levels of membrane potential (Fig. 4). At the
+relatively depolarized membrane potential of –65 mV, the lowthreshold calcium current in the RE cell was inactivated. Hyperpolarization evoked by the GABA A IPSP led to the partial
+deinactivation of the low-threshold calcium current and a weak
+rebound LTS crowned by a single sodium spike. At a more negative level of membrane potential, the low-threshold calcium cur169
+
+© 1999 Nature America Inc. • http://neurosci.nature.com
+
+articles
+
+© 1999 Nature America Inc. • http://neurosci.nature.com
+
+n = 10
+
+Fig. 2. Spontaneous activity of RE neurons in vivo is characterized by spindle activity interspersed with low-frequency (∼ 2 Hz) spike bursts. Ketamine-xylazine
+anesthesia. Cortical activity was depressed by application
+of potassium acetate. Two traces show simultaneous
+recording of multi-neuron activity from RE nucleus (electrodes separated by 1 mm). Spindles occurred virtually
+simultaneously. Expanded fragments show spindles (top
+left arrowhead) and lower-frequency spike bursts of RE
+neurons during interspindle lull (bottom right arrowhead). The histogram (10-ms bins) triggered by the first
+spike in a burst in the top recording depicts the temporal
+relationship between the two multi-neuron traces (filled
+bars for upper trace and open bars for lower trace). The
+burst firing in one neuron preferentially occurs between
+the bursts of the other neuron (peaks of filled histogram
+cut off between 0 and 100 ms).
+
+ms
+
+rent in the RE cell was partially deinactivated at rest; however, near
+the chloride reversal potential, the IPSP was diminished, and, at
+–76 mV, the chloride IPSP in the RE neuron was reversed. Activation of the GABAA receptor synaptic current at the hyperpolarized
+level led to depolarization, followed by an LTS and a burst of sodium spikes in the RE cell. During burst discharge in the RE cell,
+depolarization inactivated the low-threshold calcium current, so
+the cell failed to produce a second burst of spikes after a 200-ms
+delay. However, a third stimulus delivered after a 400-ms delay was
+again followed by a burst of sodium spikes. The IPSP-evoked depolarization was relatively weak, and strong deinactivation of lowthreshold calcium current was required to produce an LTS followed
+by a burst of sodium spikes. Furthermore, immediately after the
+burst of spikes, the cell was hyperpolarized as much as 2–3 mV, and
+additional depolarization was required to elicit an LTS. This hyperpolarization resulted from inactivation of the low-threshold calcium current, which was slightly activated at membrane potentials
+around –76 mV and depolarized the cell about 2 mV before the
+burst. Consequently, a relatively long time delay (about 350 ms)
+between shocks was required to obtain a burst of spikes after the
+
+second stimulus. This is different from an EPSP-evoked LTS, which
+can sustain burst discharges at a frequency of 10 Hz during spindle oscillations5 or augmenting responses22.
+Dynamical properties of the isolated RE network hyperpolarized below the chloride reversal potential were investigated in a
+one-dimensional network model with 100 RE cells (see Methods).
+An external AMPA receptor stimulus applied to the RE cell located at the boundary of the network triggered a localized pattern of
+spike-burst activity that propagated with constant velocity through
+the RE network (Fig. 5a). The mechanism of propagation depended on the level of the membrane potential in RE cells. At membrane potentials of about –75 mV, the low-threshold calcium
+current in RE cells was deinactivated. Bursts of spikes in presynaptic RE cells led to reversed GABAA receptor IPSPs, followed by
+a low-threshold calcium spike and a burst of sodium spikes in
+neighboring RE cells (Fig. 5b). The temporal inactivation of the
+low-threshold calcium current in an RE cell after a burst discharge
+prevented oscillations from developing in the cell. All RE cells were
+grouped into clusters that fired simultaneously, whose size depended on the radius of synaptic interconnections (N). Only some of
+
+a
+
+b
+
+Fig. 3. Spontaneous activity of RE neurons. Different cells (a and b) are from two decorticated cats. At the resting membrane potential (–60 mV), the
+RE neurons showed periodic hyperpolarizing potentials (marked by asterisks). Under slight DC hyperpolarization (–76 mV in a and –68 mV in b), the
+hyperpolarizing potentials were not longer visible, but high-frequency spike bursts occurred with approximately the same period icity. Fragments
+expanded at right are marked by large asterisks.
+170
+
+nature neuroscience • volume 2 no 2 • february 1999
+
+© 1999 Nature America Inc. • http://neurosci.nature.com
+
+articles
+
+network. Only transient waves were observed in networks
+smaller than about 25 × 25 cells.
+A similar transformation of transient oscillations into selfsustained oscillations in a two-dimensional RE network could
+be produced by depolarizing the RE cells. In typical time
+traces of RE cells from a network with 33 × 33 RE cells at different levels of membrane potential produced by DC current
+injection (Fig. 8), only transient oscillations in the form of
+cylindrical waves, similar to those in Fig. 7a, were observed
+at the resting membrane potential. A weak depolarization
+transformed them into an almost periodic self-sustained
+oscillation (spiral wave) with a frequency around 2.5 Hz (Fig.
+8a). Further depolarization increased the population frequency up to about 10 Hz (Fig. 8b) and reduced the amplitude of the average activity (compare the amplitude scales in
+Fig. 8a and b). The decrease reflected a reduction from four spikes
+per burst discharge in the RE cells at more hyperpolarized levels of
+membrane potential into weaker and mostly single-spike discharges
+when the RE cells were only slightly hyperpolarized below the chloride reversal potential. Population oscillations with a frequency
+around 10 Hz were produced by RE cells oscillating at around 5 Hz,
+which occurred by delayed activation of the low-threshold calcium
+spikes in RE cells placed just below the chloride reversal potential.
+These neurons showed long (1–3 s) epochs of subthreshold oscillations interrupted by the sequences of spiking-bursting activity.
+
+the RE cells from each cluster displayed sodium spikes, whereas
+others showed reversed IPSPs and partial calcium spikes but no
+sodium spikes (see cells 6 and 8 in Fig. 5).
+IPSP-based waves of excitation propagated through the network
+with a constant velocity of 25–150 cells per second (Fig. 6). The size
+of the clusters of RE cells that were synchronously activated on each
+cycle of oscillation increased with N, which increased the propagation speed. Increasing the GABAA receptor conductances (gGABAA)
+between the RE cells reduced the time delay between IPSP onset and
+the appearance of sodium spikes, which also raised the speed when
+gGABAA was less than 0.2 µS. For gGABAA > 0.2 µS, the speed of propagation decreased for N < 7 or displayed slow oscillations around
+DISCUSSION
+an average value, which depended on the radius of interconnections,
+Our intracellular recordings from RE neurons at resting and hyperfor N > 7. Stronger GABAA receptor inhibition between RE cells
+polarized membrane potentials in vivo showed that reversed IPSPs
+between RE cells can directly trigger an LTS. Models of thalamic netreduced the length of the burst discharges23, which limited an
+works examined here demonstrate that this reversal may have imporincrease in the speed. Propagating patterns did not occur for gGABAA
+lim
+lim
+< 0.04 µS or for gGABAA > gGABA
+A, where the limiting gGABAA
+increased with increasing N (see Fig. 6). Wave activity was
+also absent for all networks with N < 2.
+In a one-dimensional network with flow boundary a
+conditions (see Methods), the localized patterns terminated at the boundaries. To check the effect of network
+geometry, we simulated a two-dimensional network of
+RE cells hyperpolarized below the chloride reversal potential. The spatiotemporal patterns in a two-dimensional
+network depended on the maximal conductance for the
+low-threshold calcium current in RE cells. For gCa below
+Time (ms)
+lim
+some critical value (gCa
+≅ 2.3 mS/cm2 for a network of 50
+× 50 cells with N = 4), a single stimulus applied at the
+boundary led to a cylindrical wave of spike-burst activity b
+that traveled through the network and disappeared at the
+boundary (Fig. 7a). The wavefront consisted of almost
+synchronously firing RE cells. Increase of the maximal
+lim
+conductance for IT above gCa
+led to self-sustained oscillations; the wave of excitation evoked by the initial stimulus transformed into a rotating spiral wave (Fig. 7b). The
+location of the spiral center was random and depended
+on the initial stimulation as well as the variability in the
+parameters of the cells in the network. The individual cells
+from the network showed bursts of sodium spikes every
+250–300 ms corresponding to the fronts of the spiral wave.
+Further increase of the maximal conductance for the lowFig. 5. Localized pattern of activity propagating through the model of an isolated RE netthreshold calcium current transformed the single spiral
+work. (a) RE cell #1 was stimulated at t = 0, which triggered a localized pattern that
+wave into nonregular burst discharges of the RE cells. The traveled with constant velocity through the RE network. (b) Six neighbor RE cells from
+critical values of the maximal conductance for IT at tran- the network. A burst of spikes in one RE cell led to a depolarizing GABA IPSP followed
+A
+sitions between the transient mode (single cylindrical by an LTS and a burst of sodium spikes in the neighboring RE cells. Temporal inactivation
+wave), the periodic oscillations (spiral wave) and the non- of the low-threshold calcium current in RE cell after the burst discharge prevented the
+regular oscillations decreased with increasing size of the oscillations from developing. Triangles mark t = 0, the time of stimulation.
+RE cell number
+
+© 1999 Nature America Inc. • http://neurosci.nature.com
+
+Fig. 4. Response of a model RE cell stimulated by a 5-Hz train of GABAA receptor
+IPSPs at different levels of membrane
+potential. At a resting membrane potential
+of –65 mV, the low-threshold calcium current was inactivated, and the GABAA
+receptor IPSP was followed by a weak
+rebound LTS with a single spike. For Vm =
+–76 mV, the IPSP was reversed and evoked
+a burst of sodium spikes. Inactivation of
+the low-threshold calcium current during
+the first burst discharge reduced the
+response to the second shock.
+
+nature neuroscience • volume 2 no 2 • february 1999
+
+171
+
+© 1999 Nature America Inc. • http://neurosci.nature.com
+
+articles
+
+a
+
+RE cell #
+
+Velocity (cells/ms)
+
+Time (ms)
+
+GABAA (µS)
+
+© 1999 Nature America Inc. • http://neurosci.nature.com
+
+RE cell #
+
+b
+
+Time (ms)
+
+Fig. 6. Velocity of the traveling wave as a function of GABAA receptor coupling
+strength and radius of RE–RE connections in a one-dimensional RE network
+model. (a) Velocity of propagation as a function of GABAA conductance. N is the
+radii of connections. For N > 6 and gGABAA > 0.2 µS, the speed of propagation
+showed only a weak dependence on GABAA receptor coupling and radius of
+RE–RE connections. The solid curves are the nonlinear fits of the calculated data
+(indicated by different symbols). (b) Localized activity patterns propagating with
+different speed: gGABAA = 0.1 µS, N = 2 (left) and gGABAA = 0.4 µS, N = 7 (right).
+
+by spiral waves of electrical excitation in heart cells32. However, local
+tant consequences for the collective dynamics of large populations of
+RE cells. A single stimulus applied to an isolated one-dimensional
+electrical coupling is required to maintain spiral waves in this sysRE network hyperpolarized below the chloride reversal potential
+tem, which leads to the same mechanism of propagation as in the
+triggered an isolated wave of spike-burst activity that traveled
+reaction-diffusion systems. In our RE network model, the mechathrough the RE network and either terminated at the boundaries or
+nisms promoting pattern formation did not depend on having local
+circulated indefinitely when periodic boundary conditions were
+interconnections between cells. The burst activity in the presynaptic
+used. The mechanism of propagation was based on GABAA-recepRE neurons initiated burst discharges in the target cells through the
+GABAA-receptor-mediated depolarization when the neurons were
+tor-mediated depolarization, followed by a calcium spike in the postsynaptic RE cells. Similar localized patterns have been described in
+below the chloride reversal potential. At the same time, these synapsnetwork models of cortical excitatory cells24,25 and simplified
+es had an inhibitory influence among synchronously firing RE neurons. Such dual excitatory/inhibitory synaptic interconnections may
+inhibitory cells26; however, in the latter study, wave propagation was
+caused by asymmetric inhibition between neurons and
+rebound bursts, but not by direct triggering of the LTS
+a
+by IPSPs. Activity patterns traveling through networks
+of excitatory and inhibitory cells have been investigated in computational models of hippocampal slices27,28.
+In these models, the propagation from one cell to
+another was mediated mostly by AMPA receptors
+between pyramidal neurons, which also synchronized
+the burst discharges elicited by NMDA-receptor-mediated synaptic currents.
+A one-dimensional network of RE cells serves as a
+model for an RE slice preparation cut transversely to
+the thin, two-dimensional sheet of RE neurons19. We
+also tested a two-dimensional RE network model
+hyperpolarized below the chloride reversal potential.
+In this model, the transient wave patterns were trans- b
+formed into persistent oscillations in the form of the
+spiral waves if the maximal conductance for the IT current in RE cells exceeded a critical value, which depended on the size of the network and the level of membrane
+potential in the RE cells. The spiral pattern that
+appeared when gCa for IT reached a bifurcation is similar to those in general reaction-diffusion systems,
+which may display spiral patterns near the point of
+bifurcation from spatially homogeneous solutions29. If
+the size of the system is large enough, coexisting spirals
+occur in the large-scale, two-dimensional, reaction-diffusion model, and an increase of the control parameter
+in this system leads to defect-media turbulence in the
+form of spontaneously appearing and annihilating spi- Fig. 7. Localized patterns of activity in a two-dimensional network model of 50 × 50 RE
+cells (x- and y-axes) with flow boundary conditions. (a) The maximal conductance for
+ral waves30,31. This suggests that in large-scale, two- low-threshold calcium current in RE cells was g = 2.2 mS/cm2. Initial stimulation of the
+T
+dimensional networks of RE cells, regimes similar to RE cell #(1,1; left upper corner) at t = 0 led a cylindrical
+wave traveling through the RE
+defect-media turbulence may be observed. One of the network with a constant velocity. (b) gT = 2.45 mS/cm2. Increasing the maximal conducfirst known examples of spiral-wave activity in a bio- tance for low-threshold calcium current led to self-sustained patterns of activity in the
+logical system is cardiac arrythmias, which are initiated form of a rotating one-arm spiral wave.
+172
+
+nature neuroscience • volume 2 no 2 • february 1999
+
+© 1999 Nature America Inc. • http://neurosci.nature.com
+
+articles
+
+Amplitude (mV)
+
+a
+50 mV
+
+5 mV
+
+Frequency (Hz)
+
+b
+50 mV
+
+Amplitude (mV)
+
+Fig. 8. The influence of the membrane potential on the frequency of oscillations in a twodimensional network model with 33 × 33 RE
+cells. Left, the membrane potentials of two RE
+cells and the average activity of 112 RE cells
+from the center of the network. Right, the
+Fourier spectrum of the average activity. (a) A
+relatively hyperpolarized RE network showed
+oscillations at around 2.5 Hz. (b) After depolarization (just below the chloride reversal
+potential), the frequency of the population
+oscillations shifted to around 9 Hz. In the
+Fourier spectrum, the smaller peak at about
+4.5 Hz corresponded to the oscillation frequencies of the individual RE cells.
+
+© 1999 Nature America Inc. • http://neurosci.nature.com
+
+1 mV
+
+explain the formation of localized activity patterns without highly
+synchronous oscillatory states in a network with nonlocal coupling
+between neurons.
+The same synaptic mechanisms were responsible for traveling
+patterns in one-dimensional chains and two-dimensional lattices of
+RE cells. In particular, the speed of the two-dimensional waves was
+close to that of traveling waves in a one-dimensional RE network.
+The same conditions on cellular and network parameters generated
+propagating activity patterns in all of the networks studied. In its
+oscillatory mode, the average membrane potentials of RE cells in a
+two-dimensional RE network varied with frequencies from 2 to 10
+Hz depending on the absolute levels of the membrane potentials.
+The frequency increased with depolarization until it reached around
+10 Hz just below the chloride reversal potential, which is close to the
+frequency of spindle oscillations recorded in the isolated RE nucleus in vivo9. At relatively hyperpolarized levels of membrane potential, the network oscillations were maintained through the
+re-excitation of RE cells by the circulating waves of bursting neurons. When cells were sufficiently depolarized, the spatiotemporal
+activity in the RE network no longer resembled rotating spirals but
+became more or less irregular. The remaining synchrony of network
+activity was reflected in occasional 9–10 Hz population oscillations,
+lasting 0.5–1 second and separated by epochs of less regular oscillations (see Fig. 8b). A similar temporal pattern of alternations was
+observed in a previous network model of RE cells depolarized above
+the chloride reversal potential, where coherent oscillatory activity
+was accompanied by travelling waves11. However, in that model, the
+oscillations were driven by GABAA-receptor-mediated hyperpolarization followed by rebound bursts in RE cells.
+The proposed mechanism of reciprocal excitation between
+GABAergic cells is not unique to the RE nucleus of the thalamus.
+In-vitro recordings from hippocampal slices have revealed that some
+GABAergic synapses between interneurons and onto pyramidal neurons could function as excitatory synapses33–35. This effect could be
+explained by the depolarizing component of GABAA receptor IPSPs
+whose reversal potential depends on the chloride concentration difference across the plasma membrane36,37.
+Spike-bursting activity in RE nuclei may be important in initiating sequences of spindle oscillations in the intact RE–TC network.
+Depolarization of TC cells during a sequence of spindle oscillations
+terminates oscillations in these cells but may also trigger a set of patterns propagating through the RE network (M.B., I.T., M.S. and
+T.J.S., unpublished). Slow repolarization of TC cells during an internature neuroscience • volume 2 no 2 • february 1999
+
+Frequency (Hz)
+
+spindle lull deinactivates the low-threshold calcium current, so the
+local RE-evoked IPSPs could trigger a new spindle sequence. In-vivo
+data presented here indicate that persistent activity in an RE nucleus during interspindle intervals occurs at low frequencies (0.3–3
+Hz). This confirms the suggestion that the mechanism underlying
+this activity is based on the reversal of GABAA receptor IPSPs followed by calcium spikes in RE cells. If this hypothesis is correct, then
+persistent low-frequency activity in the RE nucleus will lead to the
+more or less simultaneous (within 1 to 2 cycles of spindle oscillations) activation of new spindle sequences at different thalamic foci,
+whereas transient patterns will result in nonsynchronous initiation
+of spatially localized spindle sequences. Future experiments will test
+these predictions.
+In a previous model of spindle oscillations, new spindle
+sequences were triggered without persistent activity inside the RE
+network by including spontaneously oscillating (initiator) TC cells38.
+Our model predicts that even in the absence of such TC cells, the
+RE nucleus could initiate sequences of spindle oscillations in thalamocortical networks in vivo.
+METHODS
+In-vivo recordings. In-vivo experiments were done on 46 unilaterally decorticated cats and 52 cats with intact thalamocortical connections. All animals
+were maintained under ketamine and xylazine (10–15 mg/kg and 2–3 mg/kg,
+i.m.) anesthesia. In addition, tissues to be incised and pressure points were
+infiltrated with lidocaine. The EEG from the intact hemisphere was continuously recorded, and additional doses of anesthetics were administered at
+the slightest tendency toward an increase in frequency and decrease in amplitude of EEG field potentials. The cats were paralyzed with gallamine triethiodide and artificially ventilated to the end-tidal CO2 of 3.5–3.8%. The
+heartbeat was monitored and kept constant (acceptable range, 90–110
+beats/min). Body temperature was maintained at 37–39oC. Glucose saline
+(5% glucose, 10 ml i.p.) was given every 3–4 h during the experiments, which
+lasted for 8–14 h. The stability of intracellular recordings was ensured by
+cisternal drainage, bilateral pneumothorax, hip suspension and filling the
+hole made in the skull with a solution of agar-agar (4%). All experimental
+procedures were done according to national guidelines.
+For microelectrode recordings from thalamic RE neurons, the surface of
+the cortex that corresponds to the anterior half of the marginal and suprasylvian gyri was cauterized with silver nitrate. The cortex and white matter
+were removed by suction until the head of the caudate nucleus was exposed.
+Micropipettes were then lowered through the head of the caudate nucleus
+to reach the rostrolateral sector of the RE nucleus. Intracellular recordings
+were made with conventional sharp electrodes filled with a 2.5 M solution of
+potassium acetate (DC resistance of 30–70 MΩ). Stable intracellular recordings had resting membrane potentials more negative than –55 mV and over173
+
+© 1999 Nature America Inc. • http://neurosci.nature.com
+
+articles
+
+© 1999 Nature America Inc. • http://neurosci.nature.com
+
+shooting action potentials. Stimulations of the ventrolateral (VL) thalamic
+nucleus and motor cortical area 4 were delivered with variable durations
+(0.05–0.2 ms) and intensities (0.05–0.3 mA). To suppress cortical activity in
+5 experiments, the 2 M solution of potassium acetate was washed over the
+cortical surface in area 4. Multi-neuron activity in the RE nucleus was recorded with tungsten microelectrodes (resistance 7–10 MΩ). At the end of an
+experiment, the animal was given a lethal dose of pentobarbital.
+Computational model. We examined a single-compartment model of an
+RE cell, which included voltage-dependent currents described by HodgkinHuxley kinetics:
+dV = –g (V – E ) – Iint – Isyn
+Cm —
+(1)
+L
+L
+dt
+where Cm = 1 µ/cm2 is the membrane capacitance, gL = 0.05 mS/cm2 is the
+leakage conductance, EL = –77 mV is the reversal potential, Iint is a sum of
+active intrinsic currents (Iintj) and Isyn is a sum of synaptic currents (Isynj).
+The area of the RE cell was SRE = 1.43 x 10–4 cm2. The set of intrinsic currents included a fast sodium current INa, a fast potassium current IK (ref. 39),
+a low-threshold calcium current IT (refs. 40, 41) and a potassium leak current
+IKL = gKL(V – EKL). The expressions for the transition rates of all currents
+are given in ref. 23.
+GABAA receptor synaptic current was modeled by a first-order activation
+scheme42 and was calculated according to the equation:
+Isyn = gsyn [O] (V–Esyn)
+
+(2)
+
+where gsyn is the maximal conductivity, [O](t) is the fraction of open channels
+and Esyn = –70 (ref. 12) is the reversal potential. The decay time constant of the
+GABAA synapses between RE cells was varied from 10 ms to 100 ms43 to
+ensure the robustness of the results. We found that the main difference
+between the models with slow and fast synaptic decay kinetics was the duration of the burst discharges in RE cells, which was reduced slightly when slower kinetics was used. The rest of the parameters were the same as in ref. 23.
+We simulated two network models: (1) A one-dimensional chain of
+M = 100 RE cells and (2) a two-dimensional lattice of M × M (33 × 33
+and 50 × 50) RE cells. In the first model, each RE cell xi (i ∈ [1,M]) was
+connected with ± N nearest cells (xj, j ∈ [i-N,i+N], N = 1 to 9), and in
+the second model each RE cell (xi,j) was connected with all cells inside a
+circuit with radius N = 4 cells (xk,l, (k,l) ∈ S, S = {(k,l): k2+l2 ≤ N2 }).
+Flow boundary conditions (V j = V j′ , j′ = –j+1 if j ∈ [–N+1,0],
+j′ = 2M–j+1 if j ∈ [M+1,M+N] in one dimension or Vk.l = Vk′,l′ in two
+dimensions with the same rules for calculation k′ and l′) were used to
+reduce the effect of the boundaries. The maximal conductance for IKL
+was initialized with some random variability (variance σ ∼ 10%) through
+the network to insure the robustness of the results 23.
+
+ACKNOWLEDGEMENTS
+This research was supported by the Howard Hughes Medical Institute, the Sloan
+Center for Theoretical Neurobiology, the Human Frontier Science Program and the
+Medical Research Council of Canada.
+
+RECEIVED 14 SEPTEMBER; ACCEPTED 16 NOVEMBER 1998
+1. Steriade, M., Deschênes, M., Domich, L. & Mulle, C. Abolition of spindle
+oscillations in thalamic neurons disconnected from nucleus reticularis thalami.
+J. Neurophysiol. 54, 1473–1497 (1985).
+2. Steriade, M. & Llinás, R. R. The functional states of the thalamus and the
+associated neuronal interplay. Physiol. Rev. 68, 649–742 (1988).
+3. Steriade, M., Jones, E. G. & Llinás, R. R. Thalamic Oscillations and Signaling
+(Wiley, New York, 1990).
+4. von Krosigk, M., Bal, T. & McCormick, D. A. Cellular mechanisms of a
+synchronized oscillation in the thalamus. Science 261, 361–364 (1993).
+5. Steriade, M., McCormick, D. A. & Sejnowski, T. J. Thalamocortical oscillations
+in the sleeping and aroused brain. Science 262, 679–685 (1993).
+6. Bal, T. & McCormick, D. A. What stops synchronized thalamocortical
+oscillations? Neuron 17, 297–308 (1996).
+7. Budde, T., Biella, G., Munsch, T. & Pape, H. C. Lack of regulation by
+intracellular Ca2+ of the hyperpolarization-activated cation current in rat
+thalamic neurones. J. Physiol. (Lond.) 503, 79–85 (1997).
+8. Lüthi, A., Bal, B. & McCormick, D. A. Periodicity of thalamic spindle waves is
+abolished by ZD7288, a blocker of Ih. J. Neurophysiol. 79, 3284–3289 (1998).
+9. Steriade, M., Domich, L., Oakson, G. & Deschênes, M. The deafferented
+reticular thalamic nucleus generates spindle rhythmicity. J. Neurophysiol. 57,
+260–273 (1987).
+
+174
+
+10. Golomb, D., Wang, X. J. & Rinzel, J. Synchronization properties of spindle
+oscillations in a thalamic reticular nucleus model. J. Neurophysiol. 72,
+1109–1126 (1994).
+11. Destexhe, A., Contreras, D., Sejnowski, T. J. & Steriade, M. A model of spindle
+rhythmicity in the isolated thalamic reticular nucleus. J. Neurophysiol. 72,
+803–818 (1994).
+12. Ulrich, D. & Huguenard, J. R. Nucleus-specific chloride homeostasis in rat
+thalamus. J. Neurosci. 17, 2348–2354 (1997).
+13. Ulrich, D. & Huguenard, J. R. γ-Aminobutyric acid type B receptor-dependent
+burst-firing in thalamic neurons: A dynamic clamp study. Proc. Natl. Acad. Sci.
+USA 93, 13245–13249 (1996).
+14. Contreras, D., Curró Dossi, R. & Steriade, M. Electrophysiological properties
+of cat reticular thalamic neurones in vivo. J. Physiol. (Lond.) 470, 273–294
+(1993).
+15. Domich, L., Oakson, G. & Steriade, M. Thalamic burst patterns in the naturally
+sleeping cat: a comparison between cortically projecting and reticularis
+neurones. J. Physiol. (Lond.) 379, 429–449 (1986).
+16. Contreras, D. & Steriade, M. Cellular basis of EEG slow rhythms: a study of
+dynamic corticothalamic relationships. J. Neurosci. 15, 604–622 (1995).
+17. Destexhe, A., Contreras, D., Steriade, M., Sejnowski, T. J. & Huguenard, J. R. In
+vivo, in vitro, and computational analysis of dendritic calcium currents in
+thalamic reticular neurons. J. Neurosci. 16, 169–185, (1996).
+18. Contreras, D., Timofeev, I. & Steriade, M. Mechanisms of long-lasting
+hyperpolarizations underlying slow sleep oscillations in cat corticothalamic
+networks. J. Physiol. (Lond.) 494, 251–264 (1996).
+19. Steriade, M., Jones, E. G. & McCormick, D. A. Thalamus: Organization and
+Function (Elsevier, Oxford, 1997).
+20. Timofeev, I. & Steriade, M. Low-frequency rhythms in the thalamus of intactcortex and decorticated cats. J. Neurophysiol. 76, 4152–4168 (1996).
+21. Ulrich, D. & Huguenard, J. R. GABAA-receptor-mediated rebound burst firing
+and burst shunting in thalamus. J. Neurophysiol. 78, 1748–1751 (1997).
+22. Timofeev, I. & Steriade, M. Cellular mechanisms underlying intrathalamic
+augmenting responses of reticular and relay neurons. J. Neurophysiol. 79,
+2716–2729 (1998).
+23. Bazhenov, M., Timofeev, I., Steriade, M. & Sejnowski, T. J. Cellular and
+network models for intrathalamic augmenting responses during 10 Hz
+stimulation. J. Neurophysiol. 79, 2730–2748 (1998).
+24. Golomb, D. & Amitai, Y. Propagating neuronal discharges in neocortical slices:
+Computational and experimental study. J. Neurophysiol. 78, 1199–1211 (1997).
+25. Golomb, D. Models of neuronal transient synchrony during propagation of
+activity through neocortical circuitry. J. Neurophysiol. 79, 1–12 (1998).
+26. Rinzel, J., Termal, D., Wang, X. J. & Ermentrout, B. Propagating activity
+patterns in large-scale inhibitory neuronal networks. Science 279, 1351–1355
+(1998).
+27. Traub, R. D., Miles, R. & Jefferys, J. G. R. Synaptic and intrinsic conductances
+shape picrotoxin-induced synchronized after-discharges in the guinea-pig
+hippocampal slice. J. Physiol. (Lond.) 461, 525–547 (1993).
+28. Traub, R. D., Miles, R. & Jefferys, J. G. R. Analysis of the propagation of
+disinhibition-induced after-discharges along the guinea-pig hippocampal slice
+in vitro. J. Physiol. (Lond.) 472, 267–287 (1993).
+29. Kuramoto, Y. Chemical Oscillations, Waves, and Turbulence (Springer-Verlag,
+Berlin, 1984).
+30. Coullet, P., Gil, L. & Lega, J. Defect-mediated turbulence. Phys. Rev. Lett. 62,
+1619–1622 (1989).
+31. Bazhenov, M. & Rabinovich, M. Synchronized disorder in a 2D complex
+Ginzburg-Landau equation. Physica D 73, 318–334 (1994).
+32. Winfree, A. When Time Breaks Down (Springer, New York, 1987).
+33. Michelson, H. B. & Wong, R. K. S. Excitatory synaptic responses mediated by
+GABAA receptors in the hippocampus. Science 253, 1420–1423 (1991).
+34. Michelson, H. B. & Wong, R. K. S. Synchronization of inhibitory neurones in
+the guinea-pig hippocampus in vitro. J. Physiol. (Lond.) 477, 35–45 (1994).
+35. Staley, K. J., Soldo, B. L. & Proctor, W. R. Ionic mechanisms of neuronal
+excitation by inhibitory GABAA receptors. Science 269, 977–981 (1995).
+36. Nicoll, R. A., Malenka, R. C. & Kauer, J. A. Functional comparison of
+neurotransmitter receptor subtypes in mammalian central nervous system.
+Physiol. Rev. 70, 513–565 (1990).
+37. Qian, N. & Sejnowski, T. J. When is an inhibitory synapse effective. Proc. Natl.
+Acad. Sci. USA 87, 8145–8149 (1990).
+38. Destexhe, A., Bal, T., McCormick, D. A. & Sejnowski, T. J. Ionic mechanisms
+underlying synchronized oscillations and propagating waves in a model of
+ferret thalamic slices. J. Neurophysiol. 76, 2049–2070 (1996).
+39. Traub, R. D. & Miles, R. Neuronal Networks of the Hippocampus (Cambridge,
+Cambridge Univ. Press, 1991).
+40. Huguenard, J. R. & Prince, D. A. A novel T-type current underlies prolonged
+Ca2+-dependent burst firing in GABAergic neurons of rat thalamic reticular
+nucleus. J. Neurosci. 12, 3804–3817 (1992).
+41. Huguenard, J. R. & McCormick, D. A. Simulation of the currents involved in
+rhythmic oscillations in thalamic relay neurons. J. Neurophysiol. 68, 1373–1383
+(1992).
+42. Destexhe, A., Mainen, Z. F. & Sejnowski, T. J. Synthesis of models for excitable
+membranes, synaptic transmission and neuromodulation using a common
+kinetic formalism. J. Comp. Neurosci. 1, 195–230 (1994).
+43. Zhang, S. J., Huguenard, J. R. & Prince, D. A. GABAA receptor-mediated Cl–
+currents in rat thalamus reticular and relay neurons. J. Neurophysiol. 78,
+2280–2286 (1997).
+
+nature neuroscience • volume 2 no 2 • february 1999
+
+
