@@ -62,7 +62,7 @@
             },
             {
                 "id": "NIFCELL:nifext_46",
-                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+                "name": "Thalamus interneuron small"
             }
         ],
         "version": "1"
@@ -118,7 +118,7 @@
             },
             {
                 "id": "NIFCELL:nifext_46",
-                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+                "name": "Thalamus interneuron small"
             }
         ],
         "version": "1"
@@ -302,7 +302,7 @@
             },
             {
                 "id": "NIFCELL:nifext_46",
-                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+                "name": "Thalamus interneuron small"
             }
         ],
         "version": "1"
@@ -370,12 +370,12 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0011",
                         "name": "Low threshold calcium T-current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nifext_41",
                         "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
                     }
@@ -385,7 +385,7 @@
         "pubId": "10.1002/cne.22461",
         "tags": [
             {
-                "id": "NIFMOL:sao1797800540",
+                "id": "NIFMOL:sao1846985919",
                 "name": "Calcium Channel"
             }
         ],
@@ -411,7 +411,7 @@
                 "name": "Mouse"
             },
             {
-                "id": "NIFMOL:sao1797800540",
+                "id": "NIFMOL:sao1846985919",
                 "name": "Calcium Channel"
             },
             {

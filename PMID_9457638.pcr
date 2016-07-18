@@ -5,6 +5,7 @@
             "oreilly"
         ],
         "comment": "Boltzmann function used to model steady-state inactivation curve. Measured using prepulpse to membrane potential between -120 and -30 mV.",
+        "experimentProperties": [],
         "localizer": {
             "location": 12072,
             "text": "f = 1\u00cf{1 + exp[(V \u2212 V\u00bd)\u00cfk]}.",
@@ -38,11 +39,11 @@
                     ],
                     "type": "function"
                 },
-                "experimentProperties": [],
                 "id": "71233092-eb80-11e5-a9b7-64006a4c56ef",
+                "isExperimentProperty": false,
                 "relationship": {
                     "entity1": {
-                        "id": "nifext_8055",
+                        "id": "NIFMOL:nifext_8055",
                         "name": "Sodium current"
                     },
                     "entity2": "None",
@@ -50,12 +51,12 @@
                 },
                 "requiredTags": [
                     {
-                        "id": "nifext_8054",
+                        "id": "NIFMOL:nifext_8054",
                         "name": "Transmembrane ionic current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "sao1813327414",
+                        "id": "NIFCELL:sao1813327414",
                         "name": "Cell",
                         "rootId": "sao1813327414"
                     }
@@ -88,11 +89,11 @@
                     ],
                     "type": "function"
                 },
-                "experimentProperties": [],
                 "id": "ae28694a-eb84-11e5-b534-64006a4c56ef",
+                "isExperimentProperty": false,
                 "relationship": {
                     "entity1": {
-                        "id": "nifext_8055",
+                        "id": "NIFMOL:nifext_8055",
                         "name": "Sodium current"
                     },
                     "entity2": "None",
@@ -100,12 +101,12 @@
                 },
                 "requiredTags": [
                     {
-                        "id": "nifext_8054",
+                        "id": "NIFMOL:nifext_8054",
                         "name": "Transmembrane ionic current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "sao1813327414",
+                        "id": "NIFCELL:sao1813327414",
                         "name": "Cell",
                         "rootId": "sao1813327414"
                     }
@@ -113,12 +114,24 @@
             }
         ],
         "pubId": "PMID_9457638",
-        "tags": {
-            "birnlex_254": "Wistar Rat",
-            "birnlex_721": "Hippocampus",
-            "nifext_8055": "Sodium current",
-            "sao1797800540": "Sodium Channel"
-        },
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_721",
+                "name": "Hippocampus"
+            },
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "NIFMOL:nifext_8055",
+                "name": "Sodium current"
+            },
+            {
+                "id": "NIFMOL:sao1797800540",
+                "name": "Sodium Channel"
+            }
+        ],
         "version": "1"
     },
     {
@@ -127,6 +140,7 @@
             "oreilly"
         ],
         "comment": "Inactivation curve mid-point potential (mV) for basket cells in hippocampus of the rat.",
+        "experimentProperties": [],
         "localizer": {
             "no": "1",
             "noCol": "2",
@@ -139,7 +153,7 @@
                     "depVar": {
                         "typeId": "BBP-090002",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
@@ -170,11 +184,11 @@
                     },
                     "type": "pointValue"
                 },
-                "experimentProperties": [],
                 "id": "762f45f0-eade-11e5-94e2-64006a4c56ef",
+                "isExperimentProperty": false,
                 "relationship": {
                     "entity1": {
-                        "id": "birnlex_721",
+                        "id": "NIFGA:birnlex_721",
                         "name": "Hippocampus"
                     },
                     "entity2": "None",
@@ -182,12 +196,12 @@
                 },
                 "requiredTags": [
                     {
-                        "id": "nifext_8054",
+                        "id": "NIFMOL:nifext_8054",
                         "name": "Transmembrane ionic current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "sao1813327414",
+                        "id": "NIFCELL:sao1813327414",
                         "name": "Cell",
                         "rootId": "sao1813327414"
                     }
@@ -195,13 +209,28 @@
             }
         ],
         "pubId": "PMID_9457638",
-        "tags": {
-            "birnlex_254": "Wistar Rat",
-            "birnlex_721": "Hippocampus",
-            "nifext_8055": "Sodium current",
-            "nlx_cell_091205": "Hippocampus CA1 basket cell",
-            "sao1797800540": "Sodium Channel"
-        },
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_721",
+                "name": "Hippocampus"
+            },
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "NIFMOL:nifext_8055",
+                "name": "Sodium current"
+            },
+            {
+                "id": "NIFCELL:nlx_cell_091205",
+                "name": "Hippocampus CA1 basket cell"
+            },
+            {
+                "id": "NIFMOL:sao1797800540",
+                "name": "Sodium Channel"
+            }
+        ],
         "version": "1"
     },
     {
@@ -210,6 +239,7 @@
             "oreilly"
         ],
         "comment": "Slope parameter of the sigmoid curve describing inactivation for backet cells in the hippocampus of the rat.",
+        "experimentProperties": [],
         "localizer": {
             "no": "1",
             "noCol": "2",
@@ -222,7 +252,7 @@
                     "depVar": {
                         "typeId": "BBP-101002",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
@@ -253,11 +283,11 @@
                     },
                     "type": "pointValue"
                 },
-                "experimentProperties": [],
                 "id": "7f3542e0-eb82-11e5-ac32-64006a4c56ef",
+                "isExperimentProperty": false,
                 "relationship": {
                     "entity1": {
-                        "id": "sao1797800540",
+                        "id": "NIFMOL:sao1797800540",
                         "name": "Sodium Channel"
                     },
                     "entity2": "None",
@@ -265,12 +295,12 @@
                 },
                 "requiredTags": [
                     {
-                        "id": "sao1813327414",
+                        "id": "NIFCELL:sao1813327414",
                         "name": "Cell",
                         "rootId": "sao1813327414"
                     },
                     {
-                        "id": "nifext_8054",
+                        "id": "NIFMOL:nifext_8054",
                         "name": "Transmembrane ionic current",
                         "rootId": "nifext_8054"
                     }
@@ -278,13 +308,28 @@
             }
         ],
         "pubId": "PMID_9457638",
-        "tags": {
-            "birnlex_254": "Wistar Rat",
-            "birnlex_721": "Hippocampus",
-            "nifext_8055": "Sodium current",
-            "nlx_cell_091205": "Hippocampus CA1 basket cell",
-            "sao1797800540": "Sodium Channel"
-        },
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_721",
+                "name": "Hippocampus"
+            },
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "NIFMOL:nifext_8055",
+                "name": "Sodium current"
+            },
+            {
+                "id": "NIFCELL:nlx_cell_091205",
+                "name": "Hippocampus CA1 basket cell"
+            },
+            {
+                "id": "NIFMOL:sao1797800540",
+                "name": "Sodium Channel"
+            }
+        ],
         "version": "1"
     },
     {
@@ -293,6 +338,7 @@
             "oreilly"
         ],
         "comment": "Inactivation curve mid-point potential (mV) for pyramidal cells in hippocampus of the rat.",
+        "experimentProperties": [],
         "localizer": {
             "no": "1",
             "noCol": "3",
@@ -305,7 +351,7 @@
                     "depVar": {
                         "typeId": "BBP-090002",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
@@ -336,11 +382,11 @@
                     },
                     "type": "pointValue"
                 },
-                "experimentProperties": [],
                 "id": "042c49f8-eb83-11e5-ac32-64006a4c56ef",
+                "isExperimentProperty": false,
                 "relationship": {
                     "entity1": {
-                        "id": "sao1797800540",
+                        "id": "NIFMOL:sao1797800540",
                         "name": "Sodium Channel"
                     },
                     "entity2": "None",
@@ -348,12 +394,12 @@
                 },
                 "requiredTags": [
                     {
-                        "id": "sao1813327414",
+                        "id": "NIFCELL:sao1813327414",
                         "name": "Cell",
                         "rootId": "sao1813327414"
                     },
                     {
-                        "id": "nifext_8054",
+                        "id": "NIFMOL:nifext_8054",
                         "name": "Transmembrane ionic current",
                         "rootId": "nifext_8054"
                     }
@@ -361,13 +407,28 @@
             }
         ],
         "pubId": "PMID_9457638",
-        "tags": {
-            "birnlex_254": "Wistar Rat",
-            "birnlex_721": "Hippocampus",
-            "nifext_8055": "Sodium current",
-            "sao1797800540": "Sodium Channel",
-            "sao830368389": "Hippocampus CA1 pyramidal cell"
-        },
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_721",
+                "name": "Hippocampus"
+            },
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "NIFCELL:sao830368389",
+                "name": "Hippocampus CA1 pyramidal cell"
+            },
+            {
+                "id": "NIFMOL:nifext_8055",
+                "name": "Sodium current"
+            },
+            {
+                "id": "NIFMOL:sao1797800540",
+                "name": "Sodium Channel"
+            }
+        ],
         "version": "1"
     },
     {
@@ -376,6 +437,7 @@
             "oreilly"
         ],
         "comment": "Slope parameter of the sigmoid curve describing inactivation for pyramidal cells in the hippocampus of the rat.",
+        "experimentProperties": [],
         "localizer": {
             "no": "1",
             "noCol": "3",
@@ -388,7 +450,7 @@
                     "depVar": {
                         "typeId": "BBP-101002",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
@@ -419,11 +481,11 @@
                     },
                     "type": "pointValue"
                 },
-                "experimentProperties": [],
                 "id": "5247d620-eb83-11e5-ac32-64006a4c56ef",
+                "isExperimentProperty": false,
                 "relationship": {
                     "entity1": {
-                        "id": "birnlex_254",
+                        "id": "NIFORG:birnlex_254",
                         "name": "Wistar Rat"
                     },
                     "entity2": "None",
@@ -431,12 +493,12 @@
                 },
                 "requiredTags": [
                     {
-                        "id": "sao1813327414",
+                        "id": "NIFCELL:sao1813327414",
                         "name": "Cell",
                         "rootId": "sao1813327414"
                     },
                     {
-                        "id": "nifext_8054",
+                        "id": "NIFMOL:nifext_8054",
                         "name": "Transmembrane ionic current",
                         "rootId": "nifext_8054"
                     }
@@ -444,12 +506,24 @@
             }
         ],
         "pubId": "PMID_9457638",
-        "tags": {
-            "birnlex_254": "Wistar Rat",
-            "birnlex_721": "Hippocampus",
-            "nifext_8055": "Sodium current",
-            "sao1797800540": "Sodium Channel"
-        },
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_721",
+                "name": "Hippocampus"
+            },
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "NIFMOL:nifext_8055",
+                "name": "Sodium current"
+            },
+            {
+                "id": "NIFMOL:sao1797800540",
+                "name": "Sodium Channel"
+            }
+        ],
         "version": "1"
     },
     {
@@ -458,6 +532,7 @@
             "oreilly"
         ],
         "comment": "Boltzmann function raised to the third power to model activation curve.",
+        "experimentProperties": [],
         "localizer": {
             "location": 11628,
             "text": "The activation\ncurve was obtained from the peak current\u2014voltage relation using\nthe Goldman\u2014Hodgkin\u2014Katz equation (Hille, 1992) and was fitted\nwith a Boltzmann function raised to the third power:\nf = 1\u00cf{1 + exp[\u2212(V \u2212 V\u00bd)\u00cfk]}\u00c5,\nwhere V is membrane potential, V\u00bd is the potential at which the\nvalue of the Boltzmann function is 0\u00b75, and k is the slope factor.",
@@ -491,11 +566,11 @@
                     ],
                     "type": "function"
                 },
-                "experimentProperties": [],
                 "id": "2de5c828-ec55-11e5-bfab-64006a4c56ef",
+                "isExperimentProperty": false,
                 "relationship": {
                     "entity1": {
-                        "id": "nifext_8055",
+                        "id": "NIFMOL:nifext_8055",
                         "name": "Sodium current"
                     },
                     "entity2": "None",
@@ -503,12 +578,12 @@
                 },
                 "requiredTags": [
                     {
-                        "id": "nifext_8054",
+                        "id": "NIFMOL:nifext_8054",
                         "name": "Transmembrane ionic current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "sao1813327414",
+                        "id": "NIFCELL:sao1813327414",
                         "name": "Cell",
                         "rootId": "sao1813327414"
                     }
@@ -541,11 +616,11 @@
                     ],
                     "type": "function"
                 },
-                "experimentProperties": [],
                 "id": "aa942c20-ec5f-11e5-bfab-64006a4c56ef",
+                "isExperimentProperty": false,
                 "relationship": {
                     "entity1": {
-                        "id": "nifext_8055",
+                        "id": "NIFMOL:nifext_8055",
                         "name": "Sodium current"
                     },
                     "entity2": "None",
@@ -553,12 +628,12 @@
                 },
                 "requiredTags": [
                     {
-                        "id": "nifext_8054",
+                        "id": "NIFMOL:nifext_8054",
                         "name": "Transmembrane ionic current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "sao1813327414",
+                        "id": "NIFCELL:sao1813327414",
                         "name": "Cell",
                         "rootId": "sao1813327414"
                     }
@@ -566,12 +641,24 @@
             }
         ],
         "pubId": "PMID_9457638",
-        "tags": {
-            "birnlex_254": "Wistar Rat",
-            "birnlex_721": "Hippocampus",
-            "nifext_8055": "Sodium current",
-            "sao1797800540": "Sodium Channel"
-        },
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_721",
+                "name": "Hippocampus"
+            },
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "NIFMOL:nifext_8055",
+                "name": "Sodium current"
+            },
+            {
+                "id": "NIFMOL:sao1797800540",
+                "name": "Sodium Channel"
+            }
+        ],
         "version": "1"
     },
     {
@@ -580,6 +667,7 @@
             "oreilly"
         ],
         "comment": "Activation curve mid-point potential (mV) for basket cells in hippocampus of the rat.",
+        "experimentProperties": [],
         "localizer": {
             "no": "1",
             "noCol": "2",
@@ -592,7 +680,7 @@
                     "depVar": {
                         "typeId": "BBP-090001",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
@@ -623,11 +711,11 @@
                     },
                     "type": "pointValue"
                 },
-                "experimentProperties": [],
                 "id": "602878cc-ec5e-11e5-bfab-64006a4c56ef",
+                "isExperimentProperty": false,
                 "relationship": {
                     "entity1": {
-                        "id": "nifext_8055",
+                        "id": "NIFMOL:nifext_8055",
                         "name": "Sodium current"
                     },
                     "entity2": "None",
@@ -635,12 +723,12 @@
                 },
                 "requiredTags": [
                     {
-                        "id": "nifext_8054",
+                        "id": "NIFMOL:nifext_8054",
                         "name": "Transmembrane ionic current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "sao1813327414",
+                        "id": "NIFCELL:sao1813327414",
                         "name": "Cell",
                         "rootId": "sao1813327414"
                     }
@@ -648,12 +736,24 @@
             }
         ],
         "pubId": "PMID_9457638",
-        "tags": {
-            "birnlex_254": "Wistar Rat",
-            "birnlex_721": "Hippocampus",
-            "nifext_8055": "Sodium current",
-            "sao1797800540": "Sodium Channel"
-        },
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_721",
+                "name": "Hippocampus"
+            },
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "NIFMOL:nifext_8055",
+                "name": "Sodium current"
+            },
+            {
+                "id": "NIFMOL:sao1797800540",
+                "name": "Sodium Channel"
+            }
+        ],
         "version": "1"
     },
     {
@@ -662,6 +762,7 @@
             "oreilly"
         ],
         "comment": "Slope parameter of the sigmoid curve describing activation for backet cells in the hippocampus of the rat.",
+        "experimentProperties": [],
         "localizer": {
             "no": "1",
             "noCol": "2",
@@ -674,7 +775,7 @@
                     "depVar": {
                         "typeId": "BBP-101001",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
@@ -705,11 +806,11 @@
                     },
                     "type": "pointValue"
                 },
-                "experimentProperties": [],
                 "id": "d2b492c2-ec5e-11e5-bfab-64006a4c56ef",
+                "isExperimentProperty": false,
                 "relationship": {
                     "entity1": {
-                        "id": "nifext_8055",
+                        "id": "NIFMOL:nifext_8055",
                         "name": "Sodium current"
                     },
                     "entity2": "None",
@@ -717,12 +818,12 @@
                 },
                 "requiredTags": [
                     {
-                        "id": "nifext_8054",
+                        "id": "NIFMOL:nifext_8054",
                         "name": "Transmembrane ionic current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "sao1813327414",
+                        "id": "NIFCELL:sao1813327414",
                         "name": "Cell",
                         "rootId": "sao1813327414"
                     }
@@ -730,12 +831,24 @@
             }
         ],
         "pubId": "PMID_9457638",
-        "tags": {
-            "birnlex_254": "Wistar Rat",
-            "birnlex_721": "Hippocampus",
-            "nifext_8055": "Sodium current",
-            "sao1797800540": "Sodium Channel"
-        },
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_721",
+                "name": "Hippocampus"
+            },
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "NIFMOL:nifext_8055",
+                "name": "Sodium current"
+            },
+            {
+                "id": "NIFMOL:sao1797800540",
+                "name": "Sodium Channel"
+            }
+        ],
         "version": "1"
     },
     {
@@ -744,6 +857,7 @@
             "oreilly"
         ],
         "comment": "Activation curve mid-point potential (mV) for pyramidal cells in hippocampus of the rat.",
+        "experimentProperties": [],
         "localizer": {
             "no": "1",
             "noCol": "3",
@@ -756,7 +870,7 @@
                     "depVar": {
                         "typeId": "BBP-090001",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
@@ -787,11 +901,11 @@
                     },
                     "type": "pointValue"
                 },
-                "experimentProperties": [],
                 "id": "43879152-ec5f-11e5-bfab-64006a4c56ef",
+                "isExperimentProperty": false,
                 "relationship": {
                     "entity1": {
-                        "id": "nifext_8055",
+                        "id": "NIFMOL:nifext_8055",
                         "name": "Sodium current"
                     },
                     "entity2": "None",
@@ -799,12 +913,12 @@
                 },
                 "requiredTags": [
                     {
-                        "id": "nifext_8054",
+                        "id": "NIFMOL:nifext_8054",
                         "name": "Transmembrane ionic current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "sao1813327414",
+                        "id": "NIFCELL:sao1813327414",
                         "name": "Cell",
                         "rootId": "sao1813327414"
                     }
@@ -812,12 +926,24 @@
             }
         ],
         "pubId": "PMID_9457638",
-        "tags": {
-            "birnlex_254": "Wistar Rat",
-            "birnlex_721": "Hippocampus",
-            "nifext_8055": "Sodium current",
-            "sao1797800540": "Sodium Channel"
-        },
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_721",
+                "name": "Hippocampus"
+            },
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "NIFMOL:nifext_8055",
+                "name": "Sodium current"
+            },
+            {
+                "id": "NIFMOL:sao1797800540",
+                "name": "Sodium Channel"
+            }
+        ],
         "version": "1"
     },
     {
@@ -826,6 +952,7 @@
             "oreilly"
         ],
         "comment": "Slope parameter of the sigmoid curve describing activation for pyramidal cells in the hippocampus of the rat.",
+        "experimentProperties": [],
         "localizer": {
             "no": "1",
             "noCol": "3",
@@ -838,7 +965,7 @@
                     "depVar": {
                         "typeId": "BBP-101001",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
@@ -869,11 +996,11 @@
                     },
                     "type": "pointValue"
                 },
-                "experimentProperties": [],
                 "id": "84e0d136-ec5f-11e5-bfab-64006a4c56ef",
+                "isExperimentProperty": false,
                 "relationship": {
                     "entity1": {
-                        "id": "nifext_8055",
+                        "id": "NIFMOL:nifext_8055",
                         "name": "Sodium current"
                     },
                     "entity2": "None",
@@ -881,12 +1008,12 @@
                 },
                 "requiredTags": [
                     {
-                        "id": "nifext_8054",
+                        "id": "NIFMOL:nifext_8054",
                         "name": "Transmembrane ionic current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "sao1813327414",
+                        "id": "NIFCELL:sao1813327414",
                         "name": "Cell",
                         "rootId": "sao1813327414"
                     }
@@ -894,12 +1021,24 @@
             }
         ],
         "pubId": "PMID_9457638",
-        "tags": {
-            "birnlex_254": "Wistar Rat",
-            "birnlex_721": "Hippocampus",
-            "nifext_8055": "Sodium current",
-            "sao1797800540": "Sodium Channel"
-        },
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_721",
+                "name": "Hippocampus"
+            },
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "NIFMOL:nifext_8055",
+                "name": "Sodium current"
+            },
+            {
+                "id": "NIFMOL:sao1797800540",
+                "name": "Sodium Channel"
+            }
+        ],
         "version": "1"
     }
 ]

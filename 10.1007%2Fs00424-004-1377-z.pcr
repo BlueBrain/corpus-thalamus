@@ -17,7 +17,7 @@
                     "depVar": {
                         "typeId": "BBP-002001",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "min",
@@ -81,7 +81,7 @@
                     "depVar": {
                         "typeId": "BBP-131001",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",

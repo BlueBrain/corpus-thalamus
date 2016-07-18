@@ -56,7 +56,7 @@
                     "depVar": {
                         "typeId": "BBP-030003",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
@@ -99,12 +99,12 @@
                 },
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nifext_45",
                         "name": "Thalamic reticular nucleus cell",
                         "rootId": "sao1813327414"
                     },
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0001",
                         "name": "Leak ionic current",
                         "rootId": "nifext_8054"
                     }
@@ -123,7 +123,7 @@
             },
             {
                 "id": "NIFCELL:nifext_45",
-                "name": "Thalamus reticular nucleus cell"
+                "name": "Thalamic reticular nucleus cell"
             },
             {
                 "id": "NIFINV:birnlex_2313",
@@ -151,7 +151,7 @@
                     "depVar": {
                         "typeId": "BBP-011001",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
@@ -194,12 +194,12 @@
                 },
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nifext_45",
                         "name": "Thalamic reticular nucleus cell",
                         "rootId": "sao1813327414"
                     },
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0001",
                         "name": "Leak ionic current",
                         "rootId": "nifext_8054"
                     }
@@ -218,7 +218,7 @@
             },
             {
                 "id": "NIFCELL:nifext_45",
-                "name": "Thalamus reticular nucleus cell"
+                "name": "Thalamic reticular nucleus cell"
             },
             {
                 "id": "NIFINV:birnlex_2313",
@@ -246,7 +246,7 @@
                     "depVar": {
                         "typeId": "BBP-030003",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
@@ -289,12 +289,12 @@
                 },
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nifext_45",
                         "name": "Thalamic reticular nucleus cell",
                         "rootId": "sao1813327414"
                     },
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0011",
                         "name": "Low threshold calcium T-current",
                         "rootId": "nifext_8054"
                     }
@@ -313,7 +313,7 @@
             },
             {
                 "id": "NIFCELL:nifext_45",
-                "name": "Thalamus reticular nucleus cell"
+                "name": "Thalamic reticular nucleus cell"
             },
             {
                 "id": "NIFINV:birnlex_2313",
@@ -341,7 +341,7 @@
                     "depVar": {
                         "typeId": "BBP-030003",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
@@ -384,12 +384,12 @@
                 },
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nifext_45",
                         "name": "Thalamic reticular nucleus cell",
                         "rootId": "sao1813327414"
                     },
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0018",
                         "name": "Inward rectifier (h-type) current",
                         "rootId": "nifext_8054"
                     }
@@ -408,7 +408,7 @@
             },
             {
                 "id": "NIFCELL:nifext_45",
-                "name": "Thalamus reticular nucleus cell"
+                "name": "Thalamic reticular nucleus cell"
             },
             {
                 "id": "NIFINV:birnlex_2313",
@@ -436,7 +436,7 @@
                     "depVar": {
                         "typeId": "BBP-030003",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
@@ -479,12 +479,12 @@
                 },
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nlx_cell_20081203",
                         "name": "Thalamus relay cell",
                         "rootId": "sao1813327414"
                     },
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0001",
                         "name": "Leak ionic current",
                         "rootId": "nifext_8054"
                     }
@@ -531,7 +531,7 @@
                     "depVar": {
                         "typeId": "BBP-011001",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
@@ -566,12 +566,12 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nlx_cell_20081203",
                         "name": "Thalamus relay cell",
                         "rootId": "sao1813327414"
                     },
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0001",
                         "name": "Leak ionic current",
                         "rootId": "nifext_8054"
                     }
@@ -618,7 +618,7 @@
                     "depVar": {
                         "typeId": "BBP-030003",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
@@ -653,12 +653,12 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nlx_cell_20081203",
                         "name": "Thalamus relay cell",
                         "rootId": "sao1813327414"
                     },
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0011",
                         "name": "Low threshold calcium T-current",
                         "rootId": "nifext_8054"
                     }
@@ -705,7 +705,7 @@
                     "depVar": {
                         "typeId": "BBP-030003",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
@@ -740,12 +740,12 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nlx_cell_20081203",
                         "name": "Thalamus relay cell",
                         "rootId": "sao1813327414"
                     },
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0018",
                         "name": "Inward rectifier (h-type) current",
                         "rootId": "nifext_8054"
                     }

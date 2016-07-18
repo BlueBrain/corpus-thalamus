@@ -79,12 +79,12 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "NIFMOL:nifext_8055",
                         "name": "Sodium current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:sao840814183",
                         "name": "Neocortex pyramidal cell layer 5",
                         "rootId": "sao1813327414"
                     }

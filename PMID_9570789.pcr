@@ -234,7 +234,7 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nlx_cell_20081203",
                         "name": "Thalamus relay cell",
                         "rootId": "sao1813327414"
                     }
@@ -382,12 +382,12 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0001",
                         "name": "Leak ionic current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nlx_cell_20081203",
                         "name": "Thalamus relay cell",
                         "rootId": "sao1813327414"
                     }
@@ -443,12 +443,12 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0003",
                         "name": "Sodium transient fast current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nlx_cell_20081203",
                         "name": "Thalamus relay cell",
                         "rootId": "sao1813327414"
                     }
@@ -473,12 +473,12 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0006",
                         "name": "Potassium delayed rectifier",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nlx_cell_20081203",
                         "name": "Thalamus relay cell",
                         "rootId": "sao1813327414"
                     }
@@ -534,12 +534,12 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0003",
                         "name": "Sodium transient fast current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nlx_cell_20081203",
                         "name": "Thalamus relay cell",
                         "rootId": "sao1813327414"
                     }
@@ -564,12 +564,12 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0006",
                         "name": "Potassium delayed rectifier",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nlx_cell_20081203",
                         "name": "Thalamus relay cell",
                         "rootId": "sao1813327414"
                     }
@@ -607,7 +607,7 @@
                     "depVar": {
                         "typeId": "BBP-030003",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "min",
@@ -634,12 +634,12 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0011",
                         "name": "Low threshold calcium T-current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nlx_cell_20081203",
                         "name": "Thalamus relay cell",
                         "rootId": "sao1813327414"
                     }

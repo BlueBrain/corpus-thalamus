@@ -17,7 +17,7 @@
         "tags": [
             {
                 "id": "NIFORG:birnlex_113",
-                "name": "Cat"
+                "name": "Domestic cat"
             },
             {
                 "id": "NIFCELL:nifext_41",
@@ -238,12 +238,12 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "NIFMOL:nlx_mol_20081201",
                         "name": "A current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nifext_41",
                         "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
                     }
@@ -268,7 +268,7 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "NIFMOL:nifext_8056",
                         "name": "Potassium current",
                         "rootId": "nifext_8054"
                     },
@@ -298,7 +298,7 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0003",
                         "name": "Sodium transient fast current",
                         "rootId": "nifext_8054"
                     },

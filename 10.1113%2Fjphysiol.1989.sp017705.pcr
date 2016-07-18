@@ -89,7 +89,7 @@
                     "depVar": {
                         "typeId": "BBP-002001",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "min",
@@ -161,7 +161,7 @@
                     "depVar": {
                         "typeId": "BBP-002002",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "min",
@@ -234,7 +234,7 @@
                     "depVar": {
                         "typeId": "BBP-131002",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "min",
@@ -261,7 +261,7 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nlx_cell_20081203",
                         "name": "Thalamus relay cell",
                         "rootId": "sao1813327414"
                     }
@@ -272,7 +272,7 @@
                     "depVar": {
                         "typeId": "BBP-121006",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "min",
@@ -299,7 +299,7 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nlx_cell_20081203",
                         "name": "Thalamus relay cell",
                         "rootId": "sao1813327414"
                     }
@@ -324,7 +324,7 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nlx_cell_20081203",
                         "name": "Thalamus relay cell",
                         "rootId": "sao1813327414"
                     }

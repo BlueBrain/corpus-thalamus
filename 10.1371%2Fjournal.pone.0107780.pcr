@@ -338,7 +338,7 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0011",
                         "name": "Low threshold calcium T-current",
                         "rootId": "nifext_8054"
                     },
@@ -368,7 +368,7 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0003",
                         "name": "Sodium transient fast current",
                         "rootId": "nifext_8054"
                     },
@@ -398,7 +398,7 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0006",
                         "name": "Potassium delayed rectifier",
                         "rootId": "nifext_8054"
                     },
@@ -494,12 +494,12 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0006",
                         "name": "Potassium delayed rectifier",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nifext_46",
                         "name": "Thalamus interneuron small",
                         "rootId": "sao1813327414"
                     }
@@ -673,7 +673,7 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0003",
                         "name": "Sodium transient fast current",
                         "rootId": "nifext_8054"
                     },
@@ -703,7 +703,7 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0006",
                         "name": "Potassium delayed rectifier",
                         "rootId": "nifext_8054"
                     },
@@ -769,7 +769,7 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0003",
                         "name": "Sodium transient fast current",
                         "rootId": "nifext_8054"
                     },
@@ -799,7 +799,7 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0006",
                         "name": "Potassium delayed rectifier",
                         "rootId": "nifext_8054"
                     },

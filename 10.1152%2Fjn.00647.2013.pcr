@@ -58,12 +58,12 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "NIFMOL:nifext_8060",
                         "name": "Calcium-dependent potassium current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "nlx_151691",
                         "name": "Thalamus ventroposterior nucleus principal neuron",
                         "rootId": "sao1813327414"
                     }
@@ -116,12 +116,12 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0010",
                         "name": "Slow calcium-dependent AHP potassium current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "nlx_151691",
                         "name": "Thalamus ventroposterior nucleus principal neuron",
                         "rootId": "sao1813327414"
                     }
@@ -179,7 +179,7 @@
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "nlx_151691",
                         "name": "Thalamus ventroposterior nucleus principal neuron",
                         "rootId": "sao1813327414"
                     }
@@ -220,7 +220,7 @@
         "tags": [
             {
                 "id": "NIFCELL:nlx_cell_20081203",
-                "name": "Thalamus geniculate nucleus (lateral) principal neuron"
+                "name": "Thalamus relay cell"
             },
             {
                 "id": "nlx_151691",
@@ -273,12 +273,12 @@
                 },
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0006",
                         "name": "Potassium delayed rectifier",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "nlx_151691",
                         "name": "Thalamus ventroposterior nucleus principal neuron",
                         "rootId": "sao1813327414"
                     }
@@ -343,12 +343,12 @@
                 },
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8055",
+                        "id": "BBP_nlx_0002",
                         "name": "Sodium leak current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "nlx_151691",
                         "name": "Thalamus ventroposterior nucleus principal neuron",
                         "rootId": "sao1813327414"
                     }
@@ -413,12 +413,12 @@
                 },
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0012",
                         "name": "Slow high threshold calcium current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "nlx_151691",
                         "name": "Thalamus ventroposterior nucleus principal neuron",
                         "rootId": "sao1813327414"
                     }
@@ -527,8 +527,8 @@
         "pubId": "10.1152/jn.00647.2013",
         "tags": [
             {
-                "id": "NIFORG:birnlex_160",
-                "name": "Young rat"
+                "id": "nlx_151691",
+                "name": "Thalamus ventroposterior nucleus principal neuron"
             },
             {
                 "id": "NIFORG:birnlex_160",
@@ -590,12 +590,12 @@
                 },
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0003",
                         "name": "Sodium transient fast current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "nlx_151691",
                         "name": "Thalamus ventroposterior nucleus principal neuron",
                         "rootId": "sao1813327414"
                     }
@@ -659,12 +659,12 @@
                 },
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0007",
                         "name": "Potassium leak current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "nlx_151691",
                         "name": "Thalamus ventroposterior nucleus principal neuron",
                         "rootId": "sao1813327414"
                     }
@@ -755,12 +755,12 @@
                 },
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8055",
+                        "id": "BBP_nlx_0005",
                         "name": "Sodium pesistent current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "nlx_151691",
                         "name": "Thalamus ventroposterior nucleus principal neuron",
                         "rootId": "sao1813327414"
                     }
@@ -793,12 +793,12 @@
                 },
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0005",
                         "name": "Sodium pesistent current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "nlx_151691",
                         "name": "Thalamus ventroposterior nucleus principal neuron",
                         "rootId": "sao1813327414"
                     }
@@ -858,12 +858,12 @@
                 },
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0018",
                         "name": "Inward rectifier (h-type) current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "nlx_151691",
                         "name": "Thalamus ventroposterior nucleus principal neuron",
                         "rootId": "sao1813327414"
                     }
@@ -931,12 +931,12 @@
                 },
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0002",
                         "name": "Sodium leak current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "nlx_151691",
                         "name": "Thalamus ventroposterior nucleus principal neuron",
                         "rootId": "sao1813327414"
                     }
@@ -1004,12 +1004,12 @@
                 },
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "nlx_151691",
                         "name": "Thalamus ventroposterior nucleus principal neuron",
                         "rootId": "sao1813327414"
                     },
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "NIFMOL:nlx_mol_20081201",
                         "name": "A current",
                         "rootId": "nifext_8054"
                     }

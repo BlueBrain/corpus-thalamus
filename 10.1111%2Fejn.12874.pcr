@@ -1,1 +1,36 @@
-[{"version": "1", "tags": {"nlx_78803": "Burst firing pattern", "nlx_151963": "Higher order thalamic relay nucleus", "birnlex_954": "Thalamus", "nlx_151962": "First order thalamic relay nucleus"}, "authors": ["oreilly"], "parameters": [], "comment": "Comparison of bursting in first-oder and higher-order nuclei of thalamus.", "localizer": {"location": 2694, "text": "Thalamic\ncells in higher-order nuclei have higher propensities to discharge in\nburst as compared with those in first-order nuclei (He & Hu, 2002;\nRamcharan et al., 2005; Wei et al., 2011).", "type": "text"}, "annotId": "5409ccce-c9ba-11e5-b05c-64006a4c56ef", "pubId": "10.1111/ejn.12874"}]
+[
+    {
+        "annotId": "5409ccce-c9ba-11e5-b05c-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Comparison of bursting in first-oder and higher-order nuclei of thalamus.",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 2694,
+            "text": "Thalamic\ncells in higher-order nuclei have higher propensities to discharge in\nburst as compared with those in first-order nuclei (He & Hu, 2002;\nRamcharan et al., 2005; Wei et al., 2011).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1111/ejn.12874",
+        "tags": [
+            {
+                "id": "nlx_151963",
+                "name": "Higher order thalamic relay nucleus"
+            },
+            {
+                "id": "NIFGA:birnlex_954",
+                "name": "Thalamus"
+            },
+            {
+                "id": "nlx_151962",
+                "name": "First order thalamic relay nucleus"
+            },
+            {
+                "id": "nlx_78803",
+                "name": "Burst Firing Pattern"
+            }
+        ],
+        "version": "1"
+    }
+]
