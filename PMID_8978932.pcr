@@ -1,1 +1,190 @@
-[{"pubId": "PMID_8978932", "tags": {"birnlex_954": "Thalamus", "birnlex_1721": "Thalamic reticular nucleus", "birnlex_160": "Rat"}, "localizer": {"type": "text", "location": 16462, "text": "The cellular density in Rt was 700 neurons/\\nmmz in the rat"}, "version": "1", "comment": "Neurons density in reticular nucleus: 700 neurons/mm\u00b2", "annotId": "91956208-9aab-11e5-8138-64006a4c56ef", "parameters": [], "authors": ["oreilly"]}, {"pubId": "PMID_8978932", "tags": {"birnlex_954": "Thalamus", "birnlex_1721": "Thalamic reticular nucleus", "birnlex_160": "Rat"}, "localizer": {"type": "text", "location": 16325, "text": "The GABA/non-GABA ratio was close to 0.8 for both spe-\\ncies (Fig. 5);"}, "version": "1", "comment": "The ratio of the size of GABA cell versus the size of non-GABA size is close to 0.8 in rats and mices.", "annotId": "bef1792e-9aad-11e5-8138-64006a4c56ef", "parameters": [], "authors": ["oreilly"]}, {"pubId": "PMID_8978932", "tags": {"birnlex_954": "Thalamus", "birnlex_1721": "Thalamic reticular nucleus", "birnlex_167": "Mouse", "birnlex_160": "Rat"}, "localizer": {"type": "text", "location": 16393, "text": "the Rt/thalamus ratio was 10.12% in the rat and\\n10.31% in the mouse"}, "version": "1", "comment": "The ratio of the area of the reticular nucleus to the area of the dorsal thalamus at different rostrocaudal levels.", "annotId": "e5c184a4-9aad-11e5-8138-64006a4c56ef", "parameters": [], "authors": ["oreilly"]}, {"pubId": "PMID_8978932", "tags": {"birnlex_954": "Thalamus", "birnlex_1721": "Thalamic reticular nucleus", "birnlex_167": "Mouse", "birnlex_160": "Rat"}, "localizer": {"type": "text", "location": 16067, "text": "GABAergic neurons were less than 1% in the\\nother thalamic relays and in the intralaminar nuclei"}, "version": "1", "comment": "Less than 1% of interneurons in thalamic nucleus (except for the lateral geniculate).", "annotId": "2b93aa34-9aae-11e5-8138-64006a4c56ef", "parameters": [], "authors": ["oreilly"]}, {"pubId": "PMID_8978932", "tags": {"birnlex_954": "Thalamus", "birnlex_1721": "Thalamic reticular nucleus", "birnlex_1595": "Dorsal nucleus of lateral geniculate body", "birnlex_160": "Rat"}, "localizer": {"type": "text", "location": 15886, "text": "highest proportion of GABAergic neurons\\noutside the Rt was observed in the LG, where GABA-positive\\nneurons accounted for 15\\u20132.(Mo of the total neuronal population"}, "version": "1", "comment": "Proportion of interneurons in lateral geniculate: 15%-20%", "annotId": "451c913e-a7d6-11e5-b8b9-64006a4c56ef", "parameters": [], "authors": ["oreilly"]}]
+[
+    {
+        "annotId": "91956208-9aab-11e5-8138-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Neurons density in reticular nucleus: 700 neurons/mm\u00b2",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 16462,
+            "text": "The cellular density in Rt was 700 neurons/\\nmmz in the rat",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "1/mm^2",
+                            "values": [
+                                700
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "4330e61a-4d01-11e6-a223-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "PMID_8978932",
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_954",
+                "name": "Thalamus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1721",
+                "name": "Thalamic reticular nucleus"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "bef1792e-9aad-11e5-8138-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "The ratio of the size of GABA cell versus the size of non-GABA size is close to 0.8 in rats and mices.",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 16325,
+            "text": "The GABA/non-GABA ratio was close to 0.8 for both spe-\\ncies (Fig. 5);",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_8978932",
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_954",
+                "name": "Thalamus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1721",
+                "name": "Thalamic reticular nucleus"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "e5c184a4-9aad-11e5-8138-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "The ratio of the area of the reticular nucleus to the area of the dorsal thalamus at different rostrocaudal levels.",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 16393,
+            "text": "the Rt/thalamus ratio was 10.12% in the rat and\\n10.31% in the mouse",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_8978932",
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_954",
+                "name": "Thalamus"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFGA:birnlex_1721",
+                "name": "Thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "2b93aa34-9aae-11e5-8138-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Less than 1% of interneurons in thalamic nucleus (except for the lateral geniculate).",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 16067,
+            "text": "GABAergic neurons were less than 1% in the\\nother thalamic relays and in the intralaminar nuclei",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_8978932",
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_954",
+                "name": "Thalamus"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFGA:birnlex_1721",
+                "name": "Thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "451c913e-a7d6-11e5-b8b9-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Proportion of interneurons in lateral geniculate: 15%-20%",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 15886,
+            "text": "highest proportion of GABAergic neurons\\noutside the Rt was observed in the LG, where GABA-positive\\nneurons accounted for 15\\u20132.(Mo of the total neuronal population",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_8978932",
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_954",
+                "name": "Thalamus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1721",
+                "name": "Thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            }
+        ],
+        "version": "1"
+    }
+]
