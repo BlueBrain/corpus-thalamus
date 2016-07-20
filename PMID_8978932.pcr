@@ -1,5 +1,39 @@
 [
     {
+        "annotId": "451c913e-a7d6-11e5-b8b9-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Proportion of interneurons in lateral geniculate: 15%-20%",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 15886,
+            "text": "highest proportion of GABAergic neurons\\noutside the Rt was observed in the LG, where GABA-positive\\nneurons accounted for 15\\u20132.(Mo of the total neuronal population",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_8978932",
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_954",
+                "name": "Thalamus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1721",
+                "name": "Thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            }
+        ],
+        "version": "1"
+    },
+    {
         "annotId": "91956208-9aab-11e5-8138-64006a4c56ef",
         "authors": [
             "oreilly"
@@ -115,74 +149,6 @@
             {
                 "id": "NIFORG:birnlex_160",
                 "name": "Rat"
-            }
-        ],
-        "version": "1"
-    },
-    {
-        "annotId": "2b93aa34-9aae-11e5-8138-64006a4c56ef",
-        "authors": [
-            "oreilly"
-        ],
-        "comment": "Less than 1% of interneurons in thalamic nucleus (except for the lateral geniculate).",
-        "experimentProperties": [],
-        "localizer": {
-            "location": 16067,
-            "text": "GABAergic neurons were less than 1% in the\\nother thalamic relays and in the intralaminar nuclei",
-            "type": "text"
-        },
-        "parameters": [],
-        "pubId": "PMID_8978932",
-        "tags": [
-            {
-                "id": "NIFGA:birnlex_954",
-                "name": "Thalamus"
-            },
-            {
-                "id": "NIFORG:birnlex_167",
-                "name": "Mouse"
-            },
-            {
-                "id": "NIFGA:birnlex_1721",
-                "name": "Thalamic reticular nucleus"
-            },
-            {
-                "id": "NIFORG:birnlex_160",
-                "name": "Rat"
-            }
-        ],
-        "version": "1"
-    },
-    {
-        "annotId": "451c913e-a7d6-11e5-b8b9-64006a4c56ef",
-        "authors": [
-            "oreilly"
-        ],
-        "comment": "Proportion of interneurons in lateral geniculate: 15%-20%",
-        "experimentProperties": [],
-        "localizer": {
-            "location": 15886,
-            "text": "highest proportion of GABAergic neurons\\noutside the Rt was observed in the LG, where GABA-positive\\nneurons accounted for 15\\u20132.(Mo of the total neuronal population",
-            "type": "text"
-        },
-        "parameters": [],
-        "pubId": "PMID_8978932",
-        "tags": [
-            {
-                "id": "NIFGA:birnlex_954",
-                "name": "Thalamus"
-            },
-            {
-                "id": "NIFORG:birnlex_160",
-                "name": "Rat"
-            },
-            {
-                "id": "NIFGA:birnlex_1721",
-                "name": "Thalamic reticular nucleus"
-            },
-            {
-                "id": "NIFGA:birnlex_1595",
-                "name": "Dorsal nucleus of lateral geniculate body"
             }
         ],
         "version": "1"
