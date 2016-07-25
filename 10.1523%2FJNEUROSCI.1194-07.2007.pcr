@@ -1,1 +1,19 @@
-[]
+[
+    {
+        "annotId": "a0e2cdfc-5277-11e6-9702-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 1113,
+            "text": "Neuronal number decreased during the first postnatal week but increased 2.5-fold over the next 3 weeks.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.1194-07.2007",
+        "tags": [],
+        "version": "1"
+    }
+]
