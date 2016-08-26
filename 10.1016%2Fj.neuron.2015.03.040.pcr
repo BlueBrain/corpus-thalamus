@@ -15,5 +15,22 @@
         "pubId": "10.1016/j.neuron.2015.03.040",
         "tags": [],
         "version": "1"
+    },
+    {
+        "annotId": "7ca269c2-6b89-11e6-a6a4-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 30444,
+            "text": "the\ndecreasing IPSCs recorded during optical CT train stimuli are\nprimarily explained by the robust short-term synaptic depression\nof the TRN-VPm synapse, with only a minimal contribution from\nthe intrinsically mediated reductions in TRN spiking",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1016/j.neuron.2015.03.040",
+        "tags": [],
+        "version": "1"
     }
 ]
