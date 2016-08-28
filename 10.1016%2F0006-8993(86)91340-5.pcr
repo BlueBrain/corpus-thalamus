@@ -1,0 +1,24 @@
+[
+    {
+        "annotId": "7e94d3d8-6d27-11e6-a69d-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 5832,
+            "text": "immunocyto-\nchemistry, using an anti-rat glutamate decarboxylase\n(GAD) serum raised in sheep",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1016/0006-8993(86)91340-5",
+        "tags": [
+            {
+                "id": "NIFINV:birnlex_2055",
+                "name": "Staining protocol"
+            }
+        ],
+        "version": "1"
+    }
+]
