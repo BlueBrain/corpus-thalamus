@@ -20,5 +20,31 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "384fe902-6d28-11e6-a69d-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 21847,
+            "text": "In the 5 rats used for this part of the research, only\n5 GAD-positive neurons are found in VP, all in the\nmost caudal part of this nucleus, i.e. at the V P - P O\nborder.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1016/0006-8993(86)91340-5",
+        "tags": [
+            {
+                "id": "UBERON:0002596",
+                "name": "ventral posterior nucleus of thalamus"
+            },
+            {
+                "id": "NIFNEURNT:nlx_neuron_nt_090803",
+                "name": "GABAergic neuron"
+            }
+        ],
+        "version": "1"
     }
 ]
