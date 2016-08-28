@@ -107,10 +107,10 @@
         "authors": [
             "oreilly"
         ],
-        "comment": "Caption: Morphometry of the VB. Three parameters pertaining to the development of the VB were quantified. The neuronal packing density was determined stereologically. Means are based on five animals per time point. Error bars indicate SEM.",
+        "comment": "Caption: Morphometry of the VB. The total number of neurons. Means are based on five animals per time point. Error bars indicate SEM.",
         "experimentProperties": [],
         "localizer": {
-            "no": "3, top panel",
+            "no": "3, bottom panel",
             "type": "figure"
         },
         "parameters": [],
