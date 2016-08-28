@@ -24,5 +24,26 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "f8233002-6d2f-11e6-b3fc-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Caption: Morphometry of the VB. Three parameters pertaining to the development of the VB were quantified. The neuronal packing density was determined stereologically. Means are based on five animals per time point. Error bars indicate SEM.",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "3, top panel",
+            "type": "figure"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.1194-07.2007",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
+        "version": "1"
     }
 ]
