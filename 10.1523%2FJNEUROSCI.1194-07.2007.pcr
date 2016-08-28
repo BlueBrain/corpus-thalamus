@@ -45,7 +45,14 @@
                             "statistic": "mean",
                             "type": "simple",
                             "unit": "10^5*um^3",
-                            "values": []
+                            "values": [
+                                0.0,
+                                2.97794,
+                                6.01103,
+                                12.0221,
+                                21.011,
+                                30.0551
+                            ]
                         }
                     },
                     "indepVars": [
@@ -55,7 +62,14 @@
                                 "statistic": "raw",
                                 "type": "simple",
                                 "unit": "day",
-                                "values": []
+                                "values": [
+                                    27.8146,
+                                    17.0264,
+                                    8.88744,
+                                    5.12588,
+                                    5.01327,
+                                    2.78158
+                                ]
                             }
                         }
                     ],
