@@ -106,7 +106,56 @@
             "no": "3, middle panel",
             "type": "figure"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131005",
+                        "values": {
+                            "statistic": "mean",
+                            "type": "simple",
+                            "unit": "mm^3",
+                            "values": [
+                                0.437086,
+                                0.543046,
+                                1.43046,
+                                3.23179,
+                                4.62252,
+                                5.61589
+                            ]
+                        }
+                    },
+                    "indepVars": [
+                        {
+                            "typeId": "BBP-002001",
+                            "values": {
+                                "statistic": "raw",
+                                "type": "simple",
+                                "unit": "day",
+                                "values": [
+                                    0.0551471,
+                                    3.03309,
+                                    6.01103,
+                                    11.9669,
+                                    21.011,
+                                    30.0
+                                ]
+                            }
+                        }
+                    ],
+                    "type": "numericalTrace"
+                },
+                "id": "90c530b4-6e05-11e6-873d-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFGA:birnlex_1167",
+                        "name": "Regional part of brain",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            }
+        ],
         "pubId": "10.1523/JNEUROSCI.1194-07.2007",
         "tags": [
             {
