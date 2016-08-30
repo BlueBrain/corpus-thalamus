@@ -44,7 +44,7 @@
                         "values": {
                             "statistic": "mean",
                             "type": "simple",
-                            "unit": "10^5*um^3",
+                            "unit": "10^-5*um^-3",
                             "values": [
                                 27.8146,
                                 17.0264,
