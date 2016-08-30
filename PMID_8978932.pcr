@@ -169,5 +169,35 @@
         "pubId": "PMID_8978932",
         "tags": [],
         "version": "1"
+    },
+    {
+        "annotId": "d972caee-6eb2-11e6-9470-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 15782,
+            "text": "The distribution\nof GABAergic neurons in the dorsal thalamus was similar in both\nanimal species",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_8978932",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFGA:birnlex_954",
+                "name": "Thalamus"
+            }
+        ],
+        "version": "1"
     }
 ]
