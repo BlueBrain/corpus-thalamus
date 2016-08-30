@@ -46,12 +46,12 @@
                 "requiredTags": [
                     {
                         "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
+                        "name": "Thalamus interneuron small",
                         "rootId": "NIFCELL:sao1813327414"
                     },
                     {
                         "id": "NIFGA:birnlex_1167",
-                        "name": "Regional part of brain",
+                        "name": "Lateral geniculate body",
                         "rootId": "NIFGA:birnlex_1167"
                     }
                 ]
