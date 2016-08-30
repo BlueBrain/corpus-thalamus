@@ -220,5 +220,23 @@
         "pubId": "10.1007/s12264-013-1402-3",
         "tags": [],
         "version": "1"
+    },
+    {
+        "annotId": "b23a5d18-6ed3-11e6-9428-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Density of interneurons in Wistar rat VPL (n=5)",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "1",
+            "noCol": "6",
+            "noRow": "5",
+            "type": "table"
+        },
+        "parameters": [],
+        "pubId": "10.1007/s12264-013-1402-3",
+        "tags": [],
+        "version": "1"
     }
 ]
