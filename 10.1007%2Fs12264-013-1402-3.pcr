@@ -295,7 +295,7 @@
                                 {
                                     "statistic": "N",
                                     "type": "simple",
-                                    "unit": "",
+                                    "unit": "dimensionless",
                                     "values": [
                                         5
                                     ]
