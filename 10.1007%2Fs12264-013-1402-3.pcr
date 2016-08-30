@@ -16,5 +16,23 @@
         "pubId": "10.1007/s12264-013-1402-3",
         "tags": [],
         "version": "1"
+    },
+    {
+        "annotId": "2975b36a-6eba-11e6-9470-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Proportion of interneurons in Wistar rat VPM (n=5)",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "1",
+            "noCol": "7",
+            "noRow": "3",
+            "type": "table"
+        },
+        "parameters": [],
+        "pubId": "10.1007/s12264-013-1402-3",
+        "tags": [],
+        "version": "1"
     }
 ]
