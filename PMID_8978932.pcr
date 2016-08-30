@@ -152,5 +152,22 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "83cd7f72-6eb1-11e6-9470-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 16067,
+            "text": "GABAergic neurons were less than 1% in the\nother thalamic relays and in the intralaminar nuclei",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_8978932",
+        "tags": [],
+        "version": "1"
     }
 ]
