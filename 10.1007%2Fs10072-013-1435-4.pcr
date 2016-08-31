@@ -14,7 +14,20 @@
         },
         "parameters": [],
         "pubId": "10.1007/s10072-013-1435-4",
-        "tags": [],
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFNEURNT:nlx_neuron_nt_090803",
+                "name": "GABAergic neuron"
+            }
+        ],
         "version": "1"
     },
     {
