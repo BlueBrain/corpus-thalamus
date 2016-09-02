@@ -199,5 +199,22 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "764cdc76-7118-11e6-aea7-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 2575,
+            "text": "imrnunocytochemical methods demonstrated that pro-\njection neurons in the dorsal thalamus",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_8978932",
+        "tags": [],
+        "version": "1"
     }
 ]
