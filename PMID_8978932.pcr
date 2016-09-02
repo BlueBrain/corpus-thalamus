@@ -199,5 +199,79 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "bcb8f77a-7119-11e6-aea7-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 16003,
+            "text": "for 15\u20132.(Mo of the total",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "S/m^2",
+                                    "values": [
+                                        34
+                                    ]
+                                },
+                                {
+                                    "statistic": "sd",
+                                    "type": "simple",
+                                    "unit": "S/m^2",
+                                    "values": [
+                                        23
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        5
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "00b9615c-711b-11e6-aea7-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "GO:0097458",
+                        "name": "dendrite",
+                        "rootId": "GO:0097458"
+                    },
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Slow high threshold calcium current",
+                        "rootId": "NIFMOL:nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Thalamus relay cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "PMID_8978932",
+        "tags": [],
+        "version": "1"
     }
 ]
