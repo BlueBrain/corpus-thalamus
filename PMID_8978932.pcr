@@ -1,5 +1,35 @@
 [
     {
+        "annotId": "d972caee-6eb2-11e6-9470-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 15782,
+            "text": "The distribution\nof GABAergic neurons in the dorsal thalamus was similar in both\nanimal species",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_8978932",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFGA:birnlex_954",
+                "name": "Thalamus"
+            }
+        ],
+        "version": "1"
+    },
+    {
         "annotId": "451c913e-a7d6-11e5-b8b9-64006a4c56ef",
         "authors": [
             "oreilly"
@@ -34,59 +64,20 @@
         "version": "1"
     },
     {
-        "annotId": "91956208-9aab-11e5-8138-64006a4c56ef",
+        "annotId": "83cd7f72-6eb1-11e6-9470-64006a4c56ef",
         "authors": [
             "oreilly"
         ],
-        "comment": "Neurons density in reticular nucleus: 700 neurons/mm\u00b2",
+        "comment": "",
         "experimentProperties": [],
         "localizer": {
-            "location": 16462,
-            "text": "The cellular density in Rt was 700 neurons/\\nmmz in the rat",
+            "location": 16067,
+            "text": "GABAergic neurons were less than 1% in the\nother thalamic relays and in the intralaminar nuclei",
             "type": "text"
         },
-        "parameters": [
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-131001",
-                        "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "1/mm^2",
-                            "values": [
-                                700
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "4330e61a-4d01-11e6-a223-64006a4c56ef",
-                "isExperimentProperty": false,
-                "requiredTags": [
-                    {
-                        "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
-                        "rootId": "NIFCELL:sao1813327414"
-                    }
-                ]
-            }
-        ],
+        "parameters": [],
         "pubId": "PMID_8978932",
-        "tags": [
-            {
-                "id": "NIFGA:birnlex_954",
-                "name": "Thalamus"
-            },
-            {
-                "id": "NIFORG:birnlex_160",
-                "name": "Rat"
-            },
-            {
-                "id": "NIFGA:birnlex_1721",
-                "name": "Thalamic reticular nucleus"
-            }
-        ],
+        "tags": [],
         "version": "1"
     },
     {
@@ -154,67 +145,59 @@
         "version": "1"
     },
     {
-        "annotId": "83cd7f72-6eb1-11e6-9470-64006a4c56ef",
+        "annotId": "91956208-9aab-11e5-8138-64006a4c56ef",
         "authors": [
             "oreilly"
         ],
-        "comment": "",
+        "comment": "Neurons density in reticular nucleus: 700 neurons/mm\u00b2",
         "experimentProperties": [],
         "localizer": {
-            "location": 16067,
-            "text": "GABAergic neurons were less than 1% in the\nother thalamic relays and in the intralaminar nuclei",
+            "location": 16462,
+            "text": "The cellular density in Rt was 700 neurons/\\nmmz in the rat",
             "type": "text"
         },
-        "parameters": [],
-        "pubId": "PMID_8978932",
-        "tags": [],
-        "version": "1"
-    },
-    {
-        "annotId": "d972caee-6eb2-11e6-9470-64006a4c56ef",
-        "authors": [
-            "oreilly"
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "1/mm^2",
+                            "values": [
+                                700
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "4330e61a-4d01-11e6-a223-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
         ],
-        "comment": "",
-        "experimentProperties": [],
-        "localizer": {
-            "location": 15782,
-            "text": "The distribution\nof GABAergic neurons in the dorsal thalamus was similar in both\nanimal species",
-            "type": "text"
-        },
-        "parameters": [],
         "pubId": "PMID_8978932",
         "tags": [
+            {
+                "id": "NIFGA:birnlex_954",
+                "name": "Thalamus"
+            },
             {
                 "id": "NIFORG:birnlex_160",
                 "name": "Rat"
             },
             {
-                "id": "NIFORG:birnlex_167",
-                "name": "Mouse"
-            },
-            {
-                "id": "NIFGA:birnlex_954",
-                "name": "Thalamus"
+                "id": "NIFGA:birnlex_1721",
+                "name": "Thalamic reticular nucleus"
             }
         ],
-        "version": "1"
-    },
-    {
-        "annotId": "764cdc76-7118-11e6-aea7-64006a4c56ef",
-        "authors": [
-            "oreilly"
-        ],
-        "comment": "",
-        "experimentProperties": [],
-        "localizer": {
-            "location": 2575,
-            "text": "imrnunocytochemical methods demonstrated that pro-\njection neurons in the dorsal thalamus",
-            "type": "text"
-        },
-        "parameters": [],
-        "pubId": "PMID_8978932",
-        "tags": [],
         "version": "1"
     }
 ]
