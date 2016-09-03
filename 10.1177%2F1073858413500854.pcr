@@ -62,5 +62,43 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "5f5d1e0c-71e7-11e6-aea7-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 17946,
+            "text": "Voltage-gated\nCa 2+ channels of the R-type (Zaman and others 2011) and\nrapid K + channels of the K V 3 gene family (Espinosa and\nothers 2008) further sustain the rhythmic burst discharge\nmechanism.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1177/1073858413500854",
+        "tags": [
+            {
+                "id": "BBP_nlx_0021",
+                "name": "Sleep spindle"
+            },
+            {
+                "id": "BBP_nlx_0021",
+                "name": "Sleep spindle"
+            },
+            {
+                "id": "NIFMOL:nifext_2649",
+                "name": "Cav2.3"
+            },
+            {
+                "id": "NIFMOL:sao1120423785",
+                "name": "Kv3"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            }
+        ],
+        "version": "1"
     }
 ]
