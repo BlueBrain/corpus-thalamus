@@ -142,5 +142,43 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "15f8b52c-71e8-11e6-aea7-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 27775,
+            "text": "Ca 2+ -dependent\nsmall-conductance type 2 (SK2) K + channels that are\nfound throughout large portions of proximal TRN den-\ndrites",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1177/1073858413500854",
+        "tags": [
+            {
+                "id": "BBP_nlx_0021",
+                "name": "Sleep spindle"
+            },
+            {
+                "id": "BBP_nlx_0021",
+                "name": "Sleep spindle"
+            },
+            {
+                "id": "PR:000000713",
+                "name": "small conductance calcium-activated potassium channel protein 2"
+            },
+            {
+                "id": "NIFSUB:sao1211023249",
+                "name": "Dendrite"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            }
+        ],
+        "version": "1"
     }
 ]
