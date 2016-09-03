@@ -32,5 +32,35 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "3f4339e4-71e7-11e6-aea7-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 17367,
+            "text": "T-channel expression occurs in a gradi-\nent that increases with increasing somatodendritic dis-\ntance and that reaches maximum levels ~100 \u03bcm from the\nsoma, as indicated through Ca 2+ imaging (Crandall and\nothers 2010).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1177/1073858413500854",
+        "tags": [
+            {
+                "id": "BBP_nlx_0021",
+                "name": "Sleep spindle"
+            },
+            {
+                "id": "BBP_nlx_0021",
+                "name": "Sleep spindle"
+            },
+            {
+                "id": "BBP_nlx_0011",
+                "name": "Low threshold calcium T-current"
+            }
+        ],
+        "version": "1"
     }
 ]
