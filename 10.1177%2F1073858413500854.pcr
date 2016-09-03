@@ -104,5 +104,43 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "b9d296f0-71e7-11e6-aea7-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 18637,
+            "text": "Cortico-TRN synapses are the most abundant excitatory\nafferents onto TRN cells; these synapses have high lev-\nels of \u03b1-amino-3-hydroxy-5-methyl-4-isoxazolepropionic\nacid (AMPA)\u2013type ionotropic glutamate receptors at their\npostsynaptic sites and the pronounced frequency facilitation of the synapses imposes a powerful excitatory\ndrive (reviewed in Fuentealba and Steriade 2005).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1177/1073858413500854",
+        "tags": [
+            {
+                "id": "BBP_nlx_0021",
+                "name": "Sleep spindle"
+            },
+            {
+                "id": "BBP_nlx_0021",
+                "name": "Sleep spindle"
+            },
+            {
+                "id": "NIFMOL:sao265434492",
+                "name": "AMPA Receptor"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFSUB:sao914572699",
+                "name": "Synapse"
+            }
+        ],
+        "version": "1"
     }
 ]
