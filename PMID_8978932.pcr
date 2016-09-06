@@ -176,8 +176,13 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
+                        "id": "UBERON:0001903",
+                        "name": "thalamic reticular nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    },
+                    {
+                        "id": "NIFCELL:nifext_45",
+                        "name": "Thalamic reticular nucleus cell",
                         "rootId": "NIFCELL:sao1813327414"
                     }
                 ]
