@@ -79,8 +79,13 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
+                        "id": "UBERON:0002596",
+                        "name": "ventral posterior nucleus of thalamus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    },
+                    {
+                        "id": "NIFCELL:nlx_cell_20081203",
+                        "name": "Thalamus relay cell",
                         "rootId": "NIFCELL:sao1813327414"
                     }
                 ]
