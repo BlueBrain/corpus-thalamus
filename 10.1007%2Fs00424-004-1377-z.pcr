@@ -116,9 +116,14 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
+                        "id": "NIFGA:birnlex_1662",
+                        "name": "Lateral geniculate body",
+                        "rootId": "NIFGA:birnlex_1167"
+                    },
+                    {
                         "id": "NIFCELL:sao1813327414",
                         "name": "Cell",
-                        "rootId": "sao1813327414"
+                        "rootId": "NIFCELL:sao1813327414"
                     }
                 ]
             }
