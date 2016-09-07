@@ -679,7 +679,27 @@
             "text": "Sections through the Epon-embedded samples were serially cut at 1 \u03bcm.",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002004",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "um",
+                            "values": [
+                                1
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "dbaf5c20-74f5-11e6-bbaf-64006a4c56ef",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
         "pubId": "10.1007/s12264-013-1402-3",
         "tags": [],
         "version": "1"
