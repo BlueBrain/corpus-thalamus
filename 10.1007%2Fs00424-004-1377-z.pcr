@@ -63,7 +63,7 @@
         "authors": [
             "oreilly"
         ],
-        "comment": "From 60um thick slices; Nissl staining; Annotation with general category \"Cell\" since Nissl staining shows both TC cells and interneurons (which proportion is not negligeable in rats in LGN); from 6 slices from 3 animals.",
+        "comment": "From 60um thick slices; Nissl staining; Annotation with general category \"Neuron\" since Nissl staining shows both TC cells and interneurons (which proportion is not negligeable in rats in LGN); from 6 slices from 3 animals.",
         "experimentProperties": [
             {
                 "instanceId": "d9bd213c-0af5-11e6-9abd-64006a4c56ef",
