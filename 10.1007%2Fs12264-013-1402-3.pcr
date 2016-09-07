@@ -462,7 +462,12 @@
             }
         ],
         "pubId": "10.1007/s12264-013-1402-3",
-        "tags": [],
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            }
+        ],
         "version": "1"
     },
     {
