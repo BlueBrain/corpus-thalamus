@@ -649,5 +649,22 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "af77ab7c-74f4-11e6-9804-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 10771,
+            "text": "the\ndisector method was used",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1007/s12264-013-1402-3",
+        "tags": [],
+        "version": "1"
     }
 ]
