@@ -79,8 +79,8 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "UBERON:0002596",
-                        "name": "ventral posterior nucleus of thalamus",
+                        "id": "NIFGA:birnlex_737",
+                        "name": "Ventral posterolateral nucleus",
                         "rootId": "NIFGA:birnlex_1167"
                     },
                     {
