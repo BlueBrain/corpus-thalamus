@@ -77,7 +77,12 @@
             "oreilly"
         ],
         "comment": "Proportion of interneurons in Wistar rat VPM (n=5)",
-        "experimentProperties": [],
+        "experimentProperties": [
+            {
+                "instanceId": "dbaf5c20-74f5-11e6-bbaf-64006a4c56ef",
+                "paramTypeId": "BBP-002004"
+            }
+        ],
         "localizer": {
             "no": "1",
             "noCol": "7",
