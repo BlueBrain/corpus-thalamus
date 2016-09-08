@@ -41,6 +41,17 @@
                                         25.6,
                                         10.1
                                     ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        7.0,
+                                        6.0,
+                                        7.0,
+                                        6.0
+                                    ]
                                 }
                             ]
                         }
