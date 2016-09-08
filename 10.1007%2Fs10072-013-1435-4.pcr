@@ -227,5 +227,42 @@
         "pubId": "10.1007/s10072-013-1435-4",
         "tags": [],
         "version": "1"
+    },
+    {
+        "annotId": "47440424-75f8-11e6-8178-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 6289,
+            "text": "Semi-thin sequential sections (1 lm) from Epon 812 blocks\nwere cut on a Leica Ultracut R ultramicrotome",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002004",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "um",
+                            "values": [
+                                1
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "5771e3fc-75f8-11e6-8178-64006a4c56ef",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "10.1007/s10072-013-1435-4",
+        "tags": [],
+        "version": "1"
     }
 ]
