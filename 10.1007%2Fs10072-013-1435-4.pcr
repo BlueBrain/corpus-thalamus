@@ -112,7 +112,7 @@
         "authors": [
             "oreilly"
         ],
-        "comment": "Mean density of non-GABAergic neurons in the reticular nucleus, in Wistar rats.",
+        "comment": "Mean density of non-GABAergic neurons in the reticular nucleus, in Wistar rats. Sample size is taken from the annotation ac592c44-75e0-11e6-9b20-64006a4c56ef (P10 n = 7, P20\nn = 6, P30 n = 7, P60 n = 6) ) ",
         "experimentProperties": [],
         "localizer": {
             "no": "1",
@@ -132,19 +132,34 @@
                                     "statistic": "mean",
                                     "type": "simple",
                                     "unit": "mm^-2",
-                                    "values": []
+                                    "values": [
+                                        19.5,
+                                        45.3,
+                                        44.6,
+                                        48.8
+                                    ]
                                 },
                                 {
                                     "statistic": "sem",
                                     "type": "simple",
                                     "unit": "mm^-2",
-                                    "values": []
+                                    "values": [
+                                        11.8,
+                                        9.0,
+                                        12.6,
+                                        14.8
+                                    ]
                                 },
                                 {
                                     "statistic": "N",
                                     "type": "simple",
                                     "unit": "dimensionless",
-                                    "values": []
+                                    "values": [
+                                        7.0,
+                                        6.0,
+                                        7.0,
+                                        6.0
+                                    ]
                                 }
                             ]
                         }
@@ -156,7 +171,12 @@
                                 "statistic": "raw",
                                 "type": "simple",
                                 "unit": "day",
-                                "values": []
+                                "values": [
+                                    10.0,
+                                    20.0,
+                                    30.0,
+                                    60.0
+                                ]
                             }
                         }
                     ],
