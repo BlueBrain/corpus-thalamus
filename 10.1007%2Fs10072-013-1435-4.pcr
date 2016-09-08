@@ -96,5 +96,22 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "ac592c44-75e0-11e6-9b20-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 5084,
+            "text": "In the present study, a total of 26 Wistar (P10 n = 7, P20\nn = 6, P30 n = 7, P60 n = 6) and 25 GAERS (P10 n = 7,\nP20 n = 6, P30 n = 6, P60 n = 6) animals were used.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1007/s10072-013-1435-4",
+        "tags": [],
+        "version": "1"
     }
 ]
