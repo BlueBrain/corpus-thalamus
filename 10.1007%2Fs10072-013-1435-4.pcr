@@ -186,8 +186,8 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
+                        "id": "NIFCELL:nifext_45",
+                        "name": "Thalamic reticular nucleus cell",
                         "rootId": "NIFCELL:sao1813327414"
                     },
                     {
