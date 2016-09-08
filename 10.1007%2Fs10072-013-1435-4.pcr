@@ -4,7 +4,7 @@
         "authors": [
             "oreilly"
         ],
-        "comment": "Mean density of GABAergic neurons in the reticular nucleus, in Wistar rats. Sample size is taken from the annotation ac592c44-75e0-11e6-9b20-64006a4c56ef.",
+        "comment": "Mean density of GABAergic neurons in the reticular nucleus, in Wistar rats. Sample size is taken from the annotation ac592c44-75e0-11e6-9b20-64006a4c56ef (P10 n = 7, P20\nn = 6, P30 n = 7, P60 n = 6) )",
         "experimentProperties": [],
         "localizer": {
             "no": "1",
@@ -25,7 +25,10 @@
                                     "type": "simple",
                                     "unit": "mm^-2",
                                     "values": [
-                                        8.0
+                                        142.9,
+                                        178.5,
+                                        185.1,
+                                        215.8
                                     ]
                                 },
                                 {
@@ -33,7 +36,10 @@
                                     "type": "simple",
                                     "unit": "mm^-2",
                                     "values": [
-                                        16.0
+                                        17.3,
+                                        26.4,
+                                        25.6,
+                                        10.1
                                     ]
                                 }
                             ]
@@ -47,7 +53,10 @@
                                 "type": "simple",
                                 "unit": "day",
                                 "values": [
-                                    14.0
+                                    10.0,
+                                    20.0,
+                                    30.0,
+                                    60.0
                                 ]
                             }
                         }
@@ -58,14 +67,14 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "UBERON:0002704",
-                        "name": "metathalamus",
-                        "rootId": "NIFGA:birnlex_1167"
-                    },
-                    {
                         "id": "NIFCELL:sao1813327414",
                         "name": "Cell",
                         "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFGA:birnlex_1167",
+                        "name": "Regional part of brain",
+                        "rootId": "NIFGA:birnlex_1167"
                     }
                 ]
             }
