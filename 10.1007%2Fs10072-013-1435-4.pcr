@@ -18,10 +18,25 @@
                     "depVar": {
                         "typeId": "BBP-131001",
                         "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "mm^-2",
-                            "values": []
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "mm^-2",
+                                    "values": [
+                                        12.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "sd",
+                                    "type": "simple",
+                                    "unit": "mm^-2",
+                                    "values": [
+                                        1.0
+                                    ]
+                                }
+                            ]
                         }
                     },
                     "indepVars": [
@@ -31,7 +46,9 @@
                                 "statistic": "raw",
                                 "type": "simple",
                                 "unit": "day",
-                                "values": []
+                                "values": [
+                                    14.0
+                                ]
                             }
                         }
                     ],
@@ -41,14 +58,14 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:nifext_45",
-                        "name": "Thalamic reticular nucleus cell",
-                        "rootId": "NIFCELL:sao1813327414"
+                        "id": "NIFGA:birnlex_1167",
+                        "name": "Regional part of brain",
+                        "rootId": "NIFGA:birnlex_1167"
                     },
                     {
-                        "id": "UBERON:0001903",
-                        "name": "thalamic reticular nucleus",
-                        "rootId": "NIFGA:birnlex_1167"
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "NIFCELL:sao1813327414"
                     }
                 ]
             }
