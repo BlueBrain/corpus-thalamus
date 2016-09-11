@@ -748,5 +748,27 @@
         "pubId": "10.1007/s12264-013-1402-3",
         "tags": [],
         "version": "1"
+    },
+    {
+        "annotId": "b4b9c8b6-7814-11e6-9673-d0e140998c20",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "dbaf5c20-74f5-11e6-bbaf-64006a4c56ef",
+                "paramTypeId": "BBP-002004"
+            }
+        ],
+        "localizer": {
+            "location": 8331,
+            "text": "Adult (6\u201312 months old) Wistar albino control rats (n = 5)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1007/s12264-013-1402-3",
+        "tags": [],
+        "version": "1"
     }
 ]
