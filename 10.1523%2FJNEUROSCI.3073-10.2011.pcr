@@ -15,5 +15,22 @@
         "pubId": "10.1523/JNEUROSCI.3073-10.2011",
         "tags": [],
         "version": "1"
+    },
+    {
+        "annotId": "38e2c070-7f24-11e6-a9f2-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 4414,
+            "text": "Although there is clear topography in the\nreticulothalamic pathway, the topography in the opposite direc-\ntion, namely the thalamoreticular pathway, is less clear.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.3073-10.2011",
+        "tags": [],
+        "version": "1"
     }
 ]
