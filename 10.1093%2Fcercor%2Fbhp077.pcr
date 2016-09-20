@@ -13,7 +13,12 @@
         },
         "parameters": [],
         "pubId": "10.1093/cercor/bhp077",
-        "tags": [],
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
         "version": "1"
     }
 ]
