@@ -1,1 +1,32 @@
-[]
+[
+    {
+        "annotId": "bb3d22e0-7f0b-11e6-a9f2-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 863,
+            "text": "The main axons of 65% of the\ncells gave rise to intra-nRt collaterals prior to leaving the nucleus and, once within VB, ramified\ninto one of three branching patterns: cluster, intermediate, and diffuse.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1002/(SICI)1096-9861(19960311)366:3&lt;416::AID-CNE4&gt;3.0.CO;2-7",
+        "tags": [
+            {
+                "id": "UBERON:0002596",
+                "name": "ventral posterior nucleus of thalamus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            }
+        ],
+        "version": "1"
+    }
+]
