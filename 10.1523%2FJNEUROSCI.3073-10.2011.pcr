@@ -94,5 +94,31 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "7b38aa18-7f31-11e6-a9f2-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 31981,
+            "text": "(filling of the cell with\nbiocytin) failed to provide consistent data in these experiments.\nWe therefore estimated the area of the dendritic arbors using\nphotostimulation in 24 experiments and using the area from\nwhich direct activation of the neuron exceeded a threshold value\nas a rough estimate of its dendritic extent. We recognize that this\nactually shows the extent of arbor for which glutamate receptors\nare dense enough to produce a detectable response at the soma,\nand so more distal dendrites may not be sampled, either because\nof too few glutamate receptors or too electrotonically distant a\nlocation. However, this is, in some ways, a more functionally\nrelevant estimate of dendritic extent than a straight anatomical\nmeasure.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.3073-10.2011",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
     }
 ]
