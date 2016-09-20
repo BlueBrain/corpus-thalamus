@@ -47,7 +47,12 @@
         },
         "parameters": [],
         "pubId": "10.1523/JNEUROSCI.3073-10.2011",
-        "tags": [],
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
         "version": "1"
     }
 ]
