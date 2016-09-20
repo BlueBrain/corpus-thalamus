@@ -130,5 +130,39 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "e32c79d2-7f14-11e6-a9f2-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 50297,
+            "text": "we\nobserved that Rt cells with nonoverlapping dendritic ar-\nbors projected into distinct thalamic territories (Fig.\n16A1,C) and those with overlapping dendritic fields gener-\nally projected within a common subnuclear thalamic region (Fig. 16A2)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9518268",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
+        "version": "1"
     }
 ]
