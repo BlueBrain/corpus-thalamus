@@ -64,5 +64,35 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "eddc5988-7f2d-11e6-a9f2-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 25844,
+            "text": "For all TRN neurons having only one footprint, Figure 6 A\nplots the relationship between the locations of the recording sites\nand their inputs. Linear regression gave a significant correlation\nbetween these two values (r= -0.763, p < 0.0001).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.3073-10.2011",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
     }
 ]
