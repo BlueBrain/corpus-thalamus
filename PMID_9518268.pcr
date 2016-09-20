@@ -62,5 +62,39 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "05d11e1a-7f0c-11e6-a9f2-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 40217,
+            "text": "We were unable to classify the axonal arborizations of\nthe juxtacellularly labeled Rt neurons into three catego-\nries, as did Cox et al. (1996).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9518268",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
+        "version": "1"
     }
 ]
