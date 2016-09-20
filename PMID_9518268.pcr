@@ -96,5 +96,39 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "4af92644-7f12-11e6-a9f2-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 43125,
+            "text": "first-order (e.g., VP) and higher-order (e.g., LP or Po)\nthalamic nuclei, which contain, respectively, bushy versus\nstarlike relay cells (i.e., Buschzell vs. Strahlenzell; von\nKo \u0308lliker, 1896)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9518268",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
+        "version": "1"
     }
 ]
