@@ -32,5 +32,22 @@
         "pubId": "10.1523/JNEUROSCI.3073-10.2011",
         "tags": [],
         "version": "1"
+    },
+    {
+        "annotId": "43baa60c-7f24-11e6-a9f2-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 4965,
+            "text": "We found the\norganization of the thalamic inputs to TRN neurons to be heter-\nogeneous; even though most TRN neurons receive topographic\ninput from one somatosensory thalamic nucleus, approximately\none-fourth of the recorded TRN cells received convergent input\nfrom spatially offset thalamic regions that usually are located in\ndifferent relay nuclei.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.3073-10.2011",
+        "tags": [],
+        "version": "1"
     }
 ]
