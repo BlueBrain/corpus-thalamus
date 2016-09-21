@@ -20,5 +20,31 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "9216c868-7fe1-11e6-a9f2-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 25287,
+            "text": "The layer 6 sites at which photostimulation evoked responses\nin cells of the ventral posterior medial nucleus were almost\nalways (43 of 44) located in upper part of this layer ( > 200 lm\nfrom the underlying white matter; Figs 3--7).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1093/cercor/bhp077",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
     }
 ]
