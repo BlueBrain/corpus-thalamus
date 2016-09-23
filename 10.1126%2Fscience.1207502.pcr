@@ -55,6 +55,10 @@
             {
                 "id": "GO:0045202",
                 "name": "synapse"
+            },
+            {
+                "id": "NEMO:6834000",
+                "name": "synaptic_plasticity"
             }
         ],
         "version": "1"
