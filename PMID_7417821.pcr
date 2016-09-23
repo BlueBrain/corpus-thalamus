@@ -1,1 +1,24 @@
-[]
+[
+    {
+        "annotId": "43262542-819d-11e6-8db4-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 5898,
+            "text": "Sprague-Dawley rats weighing 250-350 g",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_7417821",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
+    }
+]
