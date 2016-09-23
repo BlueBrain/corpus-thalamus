@@ -20,5 +20,31 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "2c1ff408-81a3-11e6-8db4-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 12959,
+            "text": "After single-cell bursting,\ncc was reduced by 15.0 T 3.4%, and G C was re-\nduced by 13.0 T 2.3% (P < 0.05, n = 11 pairs)\n(Fig. 2F).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1126/science.1207502",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
     }
 ]
