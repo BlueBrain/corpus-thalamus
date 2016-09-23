@@ -51,6 +51,10 @@
             {
                 "id": "NIFORG:birnlex_266",
                 "name": "Sprague Dawley"
+            },
+            {
+                "id": "GO:0045202",
+                "name": "synapse"
             }
         ],
         "version": "1"
