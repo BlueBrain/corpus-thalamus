@@ -42,7 +42,7 @@
         "experimentProperties": [],
         "localizer": {
             "location": 12959,
-            "text": "After single-cell bursting,\ncc was reduced by 15.0 T 3.4%, and G C was re-\nduced by 13.0 T 2.3% (P < 0.05, n = 11 pairs)\n(Fig. 2F).",
+            "text": "After single-cell bursting,\ncc was reduced by 15.0 +/- 3.4%, and Gc was reduced by 13.0 +/- 2.3% (P < 0.05, n = 11 pairs)\n(Fig. 2F).",
             "type": "text"
         },
         "parameters": [],
@@ -51,6 +51,22 @@
             {
                 "id": "NIFORG:birnlex_266",
                 "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "GO:0045202",
+                "name": "synapse"
+            },
+            {
+                "id": "NEMO:6834000",
+                "name": "synaptic_plasticity"
+            },
+            {
+                "id": "GO:0005921",
+                "name": "gap junction"
             },
             {
                 "id": "NIFORG:birnlex_266",
