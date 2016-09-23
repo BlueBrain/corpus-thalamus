@@ -13,7 +13,12 @@
         },
         "parameters": [],
         "pubId": "10.1126/science.1207502",
-        "tags": [],
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
         "version": "1"
     }
 ]
