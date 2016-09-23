@@ -8,12 +8,28 @@
         "experimentProperties": [],
         "localizer": {
             "location": 17393,
-            "text": "After paired\nbursting, cc was reduced by 12.0 T 3.6%, and G C\nwas depressed by 13.2 T 1.8% (P < 0.05, two-tailed unpaired t test, n = 7 pairs)",
+            "text": "After paired\nbursting, cc was reduced by 12.0 +/- 3.6%, and Gc\nwas depressed by 13.2 +/- 1.8% (P < 0.05, two-tailed unpaired t test, n = 7 pairs)",
             "type": "text"
         },
         "parameters": [],
         "pubId": "10.1126/science.1207502",
         "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "GO:0045202",
+                "name": "synapse"
+            },
+            {
+                "id": "NEMO:6834000",
+                "name": "synaptic_plasticity"
+            },
+            {
+                "id": "GO:0005921",
+                "name": "gap junction"
+            },
             {
                 "id": "NIFORG:birnlex_266",
                 "name": "Sprague Dawley"
