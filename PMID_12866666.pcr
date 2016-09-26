@@ -59,5 +59,39 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "0477f84c-83ec-11e6-8db4-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 7230,
+            "text": "stained using the\ncresyl violet method",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_12866666",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_737",
+                "name": "Ventral posterolateral nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_737",
+                "name": "Ventral posterolateral nucleus"
+            }
+        ],
+        "version": "1"
     }
 ]
