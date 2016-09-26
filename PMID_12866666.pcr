@@ -73,8 +73,8 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFGA:birnlex_1575",
-                        "name": "Cerebellar hemisphere",
+                        "id": "UBERON:0001869",
+                        "name": "cerebral hemisphere",
                         "rootId": "NIFGA:birnlex_1167"
                     }
                 ]
