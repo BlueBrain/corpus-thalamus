@@ -8,8 +8,8 @@
         "experimentProperties": [],
         "localizer": {
             "no": "1",
-            "noCol": null,
-            "noRow": null,
+            "noCol": "None",
+            "noRow": "None",
             "type": "table"
         },
         "parameters": [],
@@ -18,6 +18,10 @@
             {
                 "id": "NIFORG:birnlex_254",
                 "name": "Wistar Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_737",
+                "name": "Ventral posterolateral nucleus"
             }
         ],
         "version": "1"
