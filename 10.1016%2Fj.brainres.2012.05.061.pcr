@@ -1,0 +1,32 @@
+[
+    {
+        "annotId": "03dc1e48-8597-11e6-98bf-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 5050,
+            "text": "The thalamic reticular nucleus (TRN) is a shell composed of a\nhomogenous population of parvalbumin (PV)-positive GABAergic\nA\nneurons laterally surrounding the dorsal thalamus (Houser et al.,\n1980; Ohara and Lieberman, 1985; Ottersen and Storm-Mathisen,\n1984).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1016/j.brainres.2012.05.061",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "NIFMOL:nifext_6",
+                "name": "Parvalbumin"
+            }
+        ],
+        "version": "1"
+    }
+]
