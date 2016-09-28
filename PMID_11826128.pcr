@@ -197,5 +197,47 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "f7bd7ec0-8593-11e6-98bf-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 9617,
+            "text": "The axons made very\nfew collaterals within the TRN and traveled 0.5\u20131 mm into\nadjacent relay nuclei before branching extensively; in some cases,\nthey formed terminal tufts.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_11826128",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFSUB:sao118541872",
+                "name": "Gap Junction"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFSUB:sao118541872",
+                "name": "Gap Junction"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            }
+        ],
+        "version": "1"
     }
 ]
