@@ -75,7 +75,54 @@
             "text": "The input resistance of the TRN neurons in rats was\n166 +/- 54 M\u200e\u03a9 (all reported data are means +/- SD), and the time\nconstant was 13.1 +/- 3.7 msec (n = 45).",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-990018",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "MOhm",
+                                    "values": [
+                                        166
+                                    ]
+                                },
+                                {
+                                    "statistic": "sd",
+                                    "type": "simple",
+                                    "unit": "MOhm",
+                                    "values": [
+                                        54
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        45
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "c3690f36-8593-11e6-98bf-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
         "pubId": "PMID_11826128",
         "tags": [
             {
