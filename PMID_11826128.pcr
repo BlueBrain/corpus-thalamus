@@ -13,7 +13,12 @@
         },
         "parameters": [],
         "pubId": "PMID_11826128",
-        "tags": [],
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
         "version": "1"
     }
 ]
