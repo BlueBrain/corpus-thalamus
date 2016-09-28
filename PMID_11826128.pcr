@@ -43,6 +43,14 @@
             {
                 "id": "NIFORG:birnlex_266",
                 "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFSUB:sao118541872",
+                "name": "Gap Junction"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
             }
         ],
         "version": "1"
