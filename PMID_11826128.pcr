@@ -20,5 +20,31 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "2bb70698-8593-11e6-98bf-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 8835,
+            "text": "We did not detect any difference in the\nelectrical coupling of cells recorded at different locations within\nthe TRN.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_11826128",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
     }
 ]
