@@ -1,1 +1,19 @@
-[]
+[
+    {
+        "annotId": "0e808b1c-8593-11e6-98bf-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 5773,
+            "text": "Thalamocortical slices, 300- to 400- \u242e m-thick, were prepared as described\npreviously (Gibson et al., 1999) from either Sprague Dawley rats [post-\nnatal day 14 (P14) to P21] or Cx36 wild-type (W T) or knockout (KO)\nlittermate mice (P14-P18)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_11826128",
+        "tags": [],
+        "version": "1"
+    }
+]
