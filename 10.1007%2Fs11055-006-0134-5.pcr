@@ -13,7 +13,16 @@
         },
         "parameters": [],
         "pubId": "10.1007/s11055-006-0134-5",
-        "tags": [],
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFSUB:sao1799103720",
+                "name": "Dendritic Spine"
+            }
+        ],
         "version": "1"
     }
 ]
