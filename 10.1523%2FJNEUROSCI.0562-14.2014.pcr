@@ -101,6 +101,11 @@
                 },
                 "requiredTags": [
                     {
+                        "id": "NIFSUB:sao1311109124",
+                        "name": "Electrotonic Synapse",
+                        "rootId": "NIFSUB:sao914572699"
+                    },
+                    {
                         "id": "NIFCELL:nifext_45",
                         "name": "Thalamic reticular nucleus cell",
                         "rootId": "NIFCELL:sao1813327414"
