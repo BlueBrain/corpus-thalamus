@@ -39,11 +39,48 @@
                     "depVar": {
                         "typeId": "BBP-110004",
                         "values": {
-                            "statistic": "mean",
-                            "type": "simple",
-                            "unit": "dimensionless",
-                            "values": [
-                                9
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        9
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        2.5
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        9
+                                    ]
+                                },
+                                {
+                                    "statistic": "min",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        1
+                                    ]
+                                },
+                                {
+                                    "statistic": "max",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        24
+                                    ]
+                                }
                             ]
                         }
                     },
@@ -64,8 +101,8 @@
                 },
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
+                        "id": "NIFCELL:nifext_45",
+                        "name": "Thalamic reticular nucleus cell",
                         "rootId": "NIFCELL:sao1813327414"
                     }
                 ]
