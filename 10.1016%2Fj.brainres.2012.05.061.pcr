@@ -93,6 +93,10 @@
             {
                 "id": "NIFORG:birnlex_160",
                 "name": "Rat"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
             }
         ],
         "version": "1"
