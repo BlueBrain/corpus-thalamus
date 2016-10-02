@@ -29,6 +29,10 @@
             {
                 "id": "NIFORG:birnlex_160",
                 "name": "Rat"
+            },
+            {
+                "id": "NIFSUB:sao118541872",
+                "name": "Gap Junction"
             }
         ],
         "version": "1"
@@ -101,6 +105,10 @@
             {
                 "id": "NIFCELL:nifext_45",
                 "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "NIFSUB:sao118541872",
+                "name": "Gap Junction"
             }
         ],
         "version": "1"
