@@ -25,6 +25,10 @@
             {
                 "id": "NIFMOL:nifext_6",
                 "name": "Parvalbumin"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
             }
         ],
         "version": "1"
@@ -85,7 +89,12 @@
         },
         "parameters": [],
         "pubId": "10.1016/j.brainres.2012.05.061",
-        "tags": [],
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
         "version": "1"
     }
 ]
