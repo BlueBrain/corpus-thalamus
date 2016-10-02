@@ -28,5 +28,47 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "0591d754-889a-11e6-92f3-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Activity-dependant LTD last more than 30 min.",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 14738,
+            "text": "This synaptic depression outlasted the activity that\ndrove it and persisted for the length of recordings (for at least\n30 min after paired bursting), with no apparent signs of diminishing (Fig. 2(B)).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1016/j.brainres.2012.05.061",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "NIFSUB:sao118541872",
+                "name": "Gap Junction"
+            },
+            {
+                "id": "NEMO:6834000",
+                "name": "synaptic_plasticity"
+            },
+            {
+                "id": "NIFSUB:sao914572699",
+                "name": "Synapse"
+            }
+        ],
+        "version": "1"
     }
 ]
