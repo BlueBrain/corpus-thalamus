@@ -108,7 +108,7 @@
                             "type": "compound",
                             "valueLst": [
                                 {
-                                    "statistic": "raw",
+                                    "statistic": "mean",
                                     "type": "simple",
                                     "unit": "dimensionless",
                                     "values": [
