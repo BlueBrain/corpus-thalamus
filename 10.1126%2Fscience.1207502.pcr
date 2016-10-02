@@ -102,5 +102,55 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "a636ca5e-88a2-11e6-b01b-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 13531,
+            "text": "After paired bursting\nin TTX, cc decreased by 12.3 +/- 3.2%, and Gc\ndecreased by 11.7 +/- 2.6% (P < 0.05, n = 9 pairs)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1126/science.1207502",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "GO:0045202",
+                "name": "synapse"
+            },
+            {
+                "id": "NEMO:6834000",
+                "name": "synaptic_plasticity"
+            },
+            {
+                "id": "GO:0005921",
+                "name": "gap junction"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "GO:0045202",
+                "name": "synapse"
+            },
+            {
+                "id": "NEMO:6834000",
+                "name": "synaptic_plasticity"
+            },
+            {
+                "id": "GO:0005921",
+                "name": "gap junction"
+            }
+        ],
+        "version": "1"
     }
 ]
