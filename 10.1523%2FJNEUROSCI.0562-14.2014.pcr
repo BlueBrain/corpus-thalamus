@@ -26,7 +26,7 @@
         "authors": [
             "oreilly"
         ],
-        "comment": "",
+        "comment": "These are the number of neurons forming a cluster",
         "experimentProperties": [],
         "localizer": {
             "location": 30523,
@@ -46,7 +46,7 @@
                                     "type": "simple",
                                     "unit": "dimensionless",
                                     "values": [
-                                        9
+                                        8
                                     ]
                                 },
                                 {
