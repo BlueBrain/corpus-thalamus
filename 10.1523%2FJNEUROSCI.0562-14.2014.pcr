@@ -53,12 +53,12 @@
                 "isExperimentProperty": false,
                 "relationship": {
                     "entity1": {
-                        "id": "NIFORG:birnlex_266",
-                        "name": "Sprague Dawley"
+                        "id": "NIFCELL:nifext_45",
+                        "name": "Thalamic reticular nucleus cell"
                     },
                     "entity2": {
-                        "id": "NIFORG:birnlex_266",
-                        "name": "Sprague Dawley"
+                        "id": "NIFCELL:nifext_45",
+                        "name": "Thalamic reticular nucleus cell"
                     },
                     "type": "directed"
                 },
