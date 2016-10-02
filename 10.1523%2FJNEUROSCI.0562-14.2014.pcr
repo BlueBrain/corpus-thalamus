@@ -1,0 +1,24 @@
+[
+    {
+        "annotId": "355aeaca-88b3-11e6-b01b-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 6563,
+            "text": "Sprague Dawley rats [postnatal day 9 (P9) to P14,\nmales] or wild-type (WT) or connexin36 knock-out (Cx36 KO) litter-\nmate mice (P10 \u2013P14, of either sex)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.0562-14.2014",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
+    }
+]
