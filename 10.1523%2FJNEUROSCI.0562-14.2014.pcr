@@ -33,7 +33,44 @@
             "text": "The mean number of neurons per cluster (including the dye-injected neuron) was 9 +/- 2.5 neurons (range, 1\u201324) from rat ",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-110004",
+                        "values": {
+                            "statistic": "mean",
+                            "type": "simple",
+                            "unit": "dimensionless",
+                            "values": [
+                                9
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "7eeb0b54-88b6-11e6-b01f-64006a4c56ef",
+                "isExperimentProperty": false,
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFORG:birnlex_266",
+                        "name": "Sprague Dawley"
+                    },
+                    "entity2": {
+                        "id": "NIFORG:birnlex_266",
+                        "name": "Sprague Dawley"
+                    },
+                    "type": "directed"
+                },
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
         "pubId": "10.1523/JNEUROSCI.0562-14.2014",
         "tags": [
             {
