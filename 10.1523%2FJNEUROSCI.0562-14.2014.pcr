@@ -221,5 +221,51 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "9719dd32-8941-11e6-b4dc-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 64871,
+            "text": "n our current study,\nresidual coupling in the KO clearly indicates the presence of func-\ntional GJ proteins other than Cx36, as reported in some other\nstudies (Pan et al., 2010; Lee et al., 2010; Curti et al., 2012).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.0562-14.2014",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFSUB:sao118541872",
+                "name": "Gap Junction"
+            },
+            {
+                "id": "NIFSUB:sao914572699",
+                "name": "Synapse"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFSUB:sao118541872",
+                "name": "Gap Junction"
+            },
+            {
+                "id": "NIFSUB:sao914572699",
+                "name": "Synapse"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
     }
 ]
