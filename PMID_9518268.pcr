@@ -340,5 +340,47 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "eb4f3fd0-8ae2-11e6-b1c7-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 15337,
+            "text": "reconstructed with the aid of a camera lucida attachment from serial sections using 40\u03eb and/or 100\u03eb objectives, 18 of which were handmade two-dimensional (2D) drawings and 14 of which were computer-aided three-dimensional (3D) reconstructions (Neurolucida, Microbrightfield, Colchester, VT).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9518268",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
     }
 ]
