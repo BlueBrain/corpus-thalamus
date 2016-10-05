@@ -222,6 +222,10 @@
             {
                 "instanceId": "99e04c5a-8b16-11e6-a604-64006a4c56ef",
                 "paramTypeId": "BBP-002003"
+            },
+            {
+                "instanceId": "c28c2c6e-8b16-11e6-a604-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
             }
         ],
         "localizer": {
