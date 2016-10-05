@@ -295,5 +295,56 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "d83ac9e4-8b16-11e6-a604-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "99e04c5a-8b16-11e6-a604-64006a4c56ef",
+                "paramTypeId": "BBP-002003"
+            },
+            {
+                "instanceId": "c28c2c6e-8b16-11e6-a604-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "location": 7573,
+            "text": "Horizontal or coronal thalamic slices (300 um) containing the thalamic ventrobasal complex (VB)\nand reticular nucleus were cut with a Lancer Series 1000 vibratome",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.2333-06.2006",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            }
+        ],
+        "version": "1"
     }
 ]
