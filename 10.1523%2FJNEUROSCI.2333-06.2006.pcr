@@ -150,7 +150,27 @@
             "text": "A liquid junction potential (LJP) of ~17\nmV was estimated based on the LJP calculator in Clampex",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                17
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "99e04c5a-8b16-11e6-a604-64006a4c56ef",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
         "pubId": "10.1523/JNEUROSCI.2333-06.2006",
         "tags": [
             {
