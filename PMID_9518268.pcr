@@ -298,5 +298,47 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "8a6de18a-8ae2-11e6-b1c7-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 12453,
+            "text": "Frontal, horizontal, or sagittal\n60\u2013100-\u03bcm brain sections were cut with a vibratome",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9518268",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
     }
 ]
