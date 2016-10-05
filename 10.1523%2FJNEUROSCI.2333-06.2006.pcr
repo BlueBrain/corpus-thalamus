@@ -317,7 +317,27 @@
             "text": "Horizontal or coronal thalamic slices (300 um) containing the thalamic ventrobasal complex (VB)\nand reticular nucleus were cut with a Lancer Series 1000 vibratome",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002004",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "um",
+                            "values": [
+                                300
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "f39be790-8b16-11e6-a604-64006a4c56ef",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
         "pubId": "10.1523/JNEUROSCI.2333-06.2006",
         "tags": [
             {
