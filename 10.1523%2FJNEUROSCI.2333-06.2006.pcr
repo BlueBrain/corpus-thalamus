@@ -370,5 +370,60 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "753dbafe-8bcf-11e6-994d-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "99e04c5a-8b16-11e6-a604-64006a4c56ef",
+                "paramTypeId": "BBP-002003"
+            },
+            {
+                "instanceId": "c28c2c6e-8b16-11e6-a604-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            },
+            {
+                "instanceId": "f39be790-8b16-11e6-a604-64006a4c56ef",
+                "paramTypeId": "BBP-002004"
+            }
+        ],
+        "localizer": {
+            "location": 58847,
+            "text": "This suggests that each postsynaptic\ncell is connected to distinct populations of presynaptic cells via\nGABAergic versus electrical synapses.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.2333-06.2006",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            }
+        ],
+        "version": "1"
     }
 ]
