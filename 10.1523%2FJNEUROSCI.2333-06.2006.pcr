@@ -425,5 +425,60 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "dcba713a-8bd0-11e6-994d-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "99e04c5a-8b16-11e6-a604-64006a4c56ef",
+                "paramTypeId": "BBP-002003"
+            },
+            {
+                "instanceId": "c28c2c6e-8b16-11e6-a604-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            },
+            {
+                "instanceId": "f39be790-8b16-11e6-a604-64006a4c56ef",
+                "paramTypeId": "BBP-002004"
+            }
+        ],
+        "localizer": {
+            "location": 60305,
+            "text": "electrical connectivity arises from ~13 presynaptic cells in the anteroposterior (horizontal) axis versus 32 in the dorsoventral (coronal) axis, whereas 20 presynaptic cells contact a postsynaptic cell by chemical synapses versus 17 along the same respective planes. These values, likely underestimates of the actual numbers because of the compromised connectivity in brain slices and/or subthreshold glutamate activation of some cells, confirm the higher incidence of electrical coupling along the dorsoventral axis. The proportion of nRt cells interconnected by electrical synapses (31%) reported by Landisman et al. (2002) is similar to our results (37\u2013 48%).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.2333-06.2006",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            }
+        ],
+        "version": "1"
     }
 ]
