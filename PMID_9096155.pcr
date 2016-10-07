@@ -336,5 +336,55 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "80eed686-8caf-11e6-994d-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 47322,
+            "text": "It is worth noting that\nsynaptic inputs on the axon hillock were encountered rarely in\nprevious ultrastructural studies of the RT in rats, cats, and mon-\nkeys (Montero and Singer, 1984; Ohara and Lieberman, 1985;\nYen et al., 1985; Ohara, 1988; Williamson et al., 1994).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9096155",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "UBERON:0004529",
+                "name": "anatomical projection"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "UBERON:0004529",
+                "name": "anatomical projection"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
     }
 ]
