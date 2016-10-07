@@ -13,7 +13,24 @@
         },
         "parameters": [],
         "pubId": "PMID_9096155",
-        "tags": [],
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "UBERON:0004529",
+                "name": "anatomical projection"
+            }
+        ],
         "version": "1"
     }
 ]
