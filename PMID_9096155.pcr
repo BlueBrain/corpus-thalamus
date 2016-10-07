@@ -1,143 +1,5 @@
 [
     {
-        "annotId": "847c620c-8c9e-11e6-994d-64006a4c56ef",
-        "authors": [
-            "oreilly"
-        ],
-        "comment": "",
-        "experimentProperties": [],
-        "localizer": {
-            "location": 4763,
-            "text": "in young\nrats \u03f365% of RT neurons give rise to intrinsic axon collaterals\n(Cox et al., 1996), conjuring up Scheibel and Scheibel\u2019s observa-\ntions (1966) of a dense network of intrinsic axon collaterals in\nGolgi-stained RT neuropil of young animals. On the other hand,\nwhen examining the axonal arborization of a large number of\nbiocytin-filled RT neurons in the adult rat, Pinault et al. (1995a,b)\nnoticed that the axons of these neurons left the nucleus without\ngiving off local collaterals.",
-            "type": "text"
-        },
-        "parameters": [],
-        "pubId": "PMID_9096155",
-        "tags": [
-            {
-                "id": "UBERON:0001903",
-                "name": "thalamic reticular nucleus"
-            },
-            {
-                "id": "NIFCELL:nifext_45",
-                "name": "Thalamic reticular nucleus cell"
-            },
-            {
-                "id": "UBERON:0004529",
-                "name": "anatomical projection"
-            },
-            {
-                "id": "NIFORG:birnlex_266",
-                "name": "Sprague Dawley"
-            }
-        ],
-        "version": "1"
-    },
-    {
-        "annotId": "a4411668-8c9f-11e6-994d-64006a4c56ef",
-        "authors": [
-            "oreilly"
-        ],
-        "comment": "",
-        "experimentProperties": [],
-        "localizer": {
-            "location": 7158,
-            "text": "Sixty-eight Sprague Dawley male rats weighing 280 \u2013350 gm were used in\nthis study",
-            "type": "text"
-        },
-        "parameters": [],
-        "pubId": "PMID_9096155",
-        "tags": [
-            {
-                "id": "UBERON:0001903",
-                "name": "thalamic reticular nucleus"
-            },
-            {
-                "id": "NIFCELL:nifext_45",
-                "name": "Thalamic reticular nucleus cell"
-            },
-            {
-                "id": "UBERON:0004529",
-                "name": "anatomical projection"
-            },
-            {
-                "id": "NIFORG:birnlex_266",
-                "name": "Sprague Dawley"
-            },
-            {
-                "id": "UBERON:0001903",
-                "name": "thalamic reticular nucleus"
-            },
-            {
-                "id": "NIFCELL:nifext_45",
-                "name": "Thalamic reticular nucleus cell"
-            },
-            {
-                "id": "UBERON:0004529",
-                "name": "anatomical projection"
-            },
-            {
-                "id": "NIFORG:birnlex_266",
-                "name": "Sprague Dawley"
-            }
-        ],
-        "version": "1"
-    },
-    {
-        "annotId": "2d2d732c-8ca5-11e6-994d-64006a4c56ef",
-        "authors": [
-            "oreilly"
-        ],
-        "comment": "",
-        "experimentProperties": [],
-        "localizer": {
-            "location": 22842,
-            "text": "the nomenclature of Ohara and Lieberman (1985) is used to categorize the different types of axon terminals in the RT. Accordingly, the RT contains three major types of terminals. The D-type terminals have closely packed spherical vesicles, contain few mitochondria, and form asymmetric synapses. The L-type terminals are paler, slightly larger, contain more mitochondria, have less densely packed synaptic vesicles, and also form asymmetric synapses. Finally, the F-type terminals contain loosely distributed pleomorphic vesicles, as well as numerous mitochondria, and form symmetric synapses.",
-            "type": "text"
-        },
-        "parameters": [],
-        "pubId": "PMID_9096155",
-        "tags": [
-            {
-                "id": "UBERON:0001903",
-                "name": "thalamic reticular nucleus"
-            },
-            {
-                "id": "NIFCELL:nifext_45",
-                "name": "Thalamic reticular nucleus cell"
-            },
-            {
-                "id": "UBERON:0004529",
-                "name": "anatomical projection"
-            },
-            {
-                "id": "NIFORG:birnlex_266",
-                "name": "Sprague Dawley"
-            },
-            {
-                "id": "UBERON:0001903",
-                "name": "thalamic reticular nucleus"
-            },
-            {
-                "id": "NIFCELL:nifext_45",
-                "name": "Thalamic reticular nucleus cell"
-            },
-            {
-                "id": "UBERON:0004529",
-                "name": "anatomical projection"
-            },
-            {
-                "id": "NIFORG:birnlex_266",
-                "name": "Sprague Dawley"
-            },
-            {
-                "id": "NIFQUAL:sao1757774791",
-                "name": "Terminal Bouton"
-            }
-        ],
-        "version": "1"
-    },
-    {
         "annotId": "2d5086a8-8ca7-11e6-994d-64006a4c56ef",
         "authors": [
             "oreilly"
@@ -188,15 +50,15 @@
         "version": "1"
     },
     {
-        "annotId": "0d375860-8cac-11e6-994d-64006a4c56ef",
+        "annotId": "a4411668-8c9f-11e6-994d-64006a4c56ef",
         "authors": [
             "oreilly"
         ],
         "comment": "",
         "experimentProperties": [],
         "localizer": {
-            "location": 36424,
-            "text": "No axoaxonic synapse was found\nwith these elements.",
+            "location": 7158,
+            "text": "Sixty-eight Sprague Dawley male rats weighing 280 \u2013350 gm were used in\nthis study",
             "type": "text"
         },
         "parameters": [],
@@ -283,6 +145,94 @@
             {
                 "id": "NIFORG:birnlex_266",
                 "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "847c620c-8c9e-11e6-994d-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 4763,
+            "text": "in young\nrats \u03f365% of RT neurons give rise to intrinsic axon collaterals\n(Cox et al., 1996), conjuring up Scheibel and Scheibel\u2019s observa-\ntions (1966) of a dense network of intrinsic axon collaterals in\nGolgi-stained RT neuropil of young animals. On the other hand,\nwhen examining the axonal arborization of a large number of\nbiocytin-filled RT neurons in the adult rat, Pinault et al. (1995a,b)\nnoticed that the axons of these neurons left the nucleus without\ngiving off local collaterals.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9096155",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "UBERON:0004529",
+                "name": "anatomical projection"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "2d2d732c-8ca5-11e6-994d-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 22842,
+            "text": "the nomenclature of Ohara and Lieberman (1985) is used to categorize the different types of axon terminals in the RT. Accordingly, the RT contains three major types of terminals. The D-type terminals have closely packed spherical vesicles, contain few mitochondria, and form asymmetric synapses. The L-type terminals are paler, slightly larger, contain more mitochondria, have less densely packed synaptic vesicles, and also form asymmetric synapses. Finally, the F-type terminals contain loosely distributed pleomorphic vesicles, as well as numerous mitochondria, and form symmetric synapses.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9096155",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "UBERON:0004529",
+                "name": "anatomical projection"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "UBERON:0004529",
+                "name": "anatomical projection"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFQUAL:sao1757774791",
+                "name": "Terminal Bouton"
             }
         ],
         "version": "1"
