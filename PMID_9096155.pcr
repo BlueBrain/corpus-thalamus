@@ -236,5 +236,55 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "5cab3dd8-8cae-11e6-994d-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 34404,
+            "text": "Examination in serial sections revealed that the hillock received dense inputs from terminals that, for the most, formed asymmetric synapses (Fig. 11 E) and were nonimmunoreactive for GABA (Fig. 11 B\u2013D). In fact, only one of the 17 boutons in contact with the hillock displayed GABA immunoreactivity (b3 in Fig. 11 B,D). Seventy percent (12 of 17) of the boutons in contact with the hillock were of the L-type (Fig. 11C,E), whereas the remaining (5 of 17) belonged to the D-type (b4 in Fig. 11 D). In the 12 cases in which the synaptic specialization could be seen, they were of the asymmetric type (Fig. 11 E). The initial segment also received asymmetric synaptic inputs from GABA-negative boutons (Fig. 8 E), but its density of innervation was lighter than that of the hillock and the intrinsic collaterals. Three terminals with ultrastructural features that corresponded to those of the D-type boutons (Fig. 8 E) were found in contact with this part of the process.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9096155",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "UBERON:0004529",
+                "name": "anatomical projection"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "UBERON:0004529",
+                "name": "anatomical projection"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
     }
 ]
