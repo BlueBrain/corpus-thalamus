@@ -82,5 +82,59 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "2d2d732c-8ca5-11e6-994d-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 22842,
+            "text": "the nomenclature of Ohara and Lieberman (1985) is used to categorize the different types of axon terminals in the RT. Accordingly, the RT contains three major types of terminals. The D-type terminals have closely packed spherical vesicles, contain few mitochondria, and form asymmetric synapses. The L-type terminals are paler, slightly larger, contain more mitochondria, have less densely packed synaptic vesicles, and also form asymmetric synapses. Finally, the F-type terminals contain loosely distributed pleomorphic vesicles, as well as numerous mitochondria, and form symmetric synapses.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9096155",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "UBERON:0004529",
+                "name": "anatomical projection"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "UBERON:0004529",
+                "name": "anatomical projection"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFQUAL:sao1757774791",
+                "name": "Terminal Bouton"
+            }
+        ],
+        "version": "1"
     }
 ]
