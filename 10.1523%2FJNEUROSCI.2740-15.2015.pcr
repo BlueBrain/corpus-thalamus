@@ -52,7 +52,7 @@
                             "type": "simple",
                             "unit": "um",
                             "values": [
-                                400
+                                400.0
                             ]
                         }
                     },
@@ -197,7 +197,7 @@
                             "type": "simple",
                             "unit": "mV",
                             "values": [
-                                12
+                                12.0
                             ]
                         }
                     },
@@ -536,7 +536,7 @@
                             "type": "simple",
                             "unit": "mV",
                             "values": [
-                                120
+                                120.0
                             ]
                         }
                     },
