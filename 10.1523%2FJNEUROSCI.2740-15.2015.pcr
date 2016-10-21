@@ -636,6 +636,14 @@
                 },
                 "id": "e47c87ee-ffdc-11e5-8b78-64006a4c56ef",
                 "isExperimentProperty": false,
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFCELL:nifext_41",
+                        "name": "Thalamocortical cell"
+                    },
+                    "entity2": "None",
+                    "type": "point"
+                },
                 "requiredTags": [
                     {
                         "id": "BBP_nlx_0016",
