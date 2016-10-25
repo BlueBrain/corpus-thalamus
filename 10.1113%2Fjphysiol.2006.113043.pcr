@@ -585,7 +585,62 @@
             "text": "Ri was similar in the two cell populations with a median of 79 Ohm*cm with 10%\u201390%\nconfidence limits of 22\u2013424 Ohm*cm for the TCs and a median of 113 Ohm*cm for the INs (VC mode).",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-022000",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "median",
+                                    "type": "simple",
+                                    "unit": "Ohm*cm",
+                                    "values": [
+                                        79.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "CI_10",
+                                    "type": "simple",
+                                    "unit": "Ohm*cm",
+                                    "values": [
+                                        22.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "CI_90",
+                                    "type": "simple",
+                                    "unit": "Ohm*cm",
+                                    "values": [
+                                        424.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        15.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "b53e7df8-9aa9-11e6-a2dd-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nlx_cell_20081203",
+                        "name": "Thalamus relay cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
         "pubId": "10.1113/jphysiol.2006.113043",
         "tags": [
             {
