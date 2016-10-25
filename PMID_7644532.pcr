@@ -1,0 +1,29 @@
+[
+    {
+        "annotId": "b03b7856-9a9a-11e6-b82a-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "9a014c52-9a8e-11e6-b82a-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            },
+            {
+                "instanceId": "ed18e0d0-9a98-11e6-b82a-64006a4c56ef",
+                "paramTypeId": "BBP-002003"
+            }
+        ],
+        "localizer": {
+            "no": "1",
+            "noCol": null,
+            "noRow": "1, 2 ",
+            "type": "table"
+        },
+        "parameters": [],
+        "pubId": "PMID_7644532",
+        "tags": [],
+        "version": "1"
+    }
+]
