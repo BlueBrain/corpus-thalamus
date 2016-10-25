@@ -183,11 +183,32 @@
                     "depVar": {
                         "typeId": "BBP-990018",
                         "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "MOhm",
-                            "values": [
-                                170.0
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "CI_10",
+                                    "type": "simple",
+                                    "unit": "MOhm",
+                                    "values": [
+                                        170.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "CI_90",
+                                    "type": "simple",
+                                    "unit": "MOhm",
+                                    "values": [
+                                        370.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        15.0
+                                    ]
+                                }
                             ]
                         }
                     },
@@ -197,8 +218,8 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
+                        "id": "NIFCELL:nlx_cell_20081203",
+                        "name": "Thalamus relay cell",
                         "rootId": "NIFCELL:sao1813327414"
                     }
                 ]
