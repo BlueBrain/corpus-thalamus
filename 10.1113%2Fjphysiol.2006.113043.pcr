@@ -177,7 +177,33 @@
             "text": "Rin values for the 15 TCs (median with 10%\u201390% confidence limits, 170\u2013370 MOhm ) were clearly smaller than\nthe Rin values of the three INs (0.5\u20131.1 GOhm )(P < 0.001, Mann\u2013Whitney U test), both for CC and VC recordings\n(measurements at steady state)",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-990018",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "MOhm",
+                            "values": [
+                                170.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "39e5a70c-9aa0-11e6-bcb3-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
         "pubId": "10.1113/jphysiol.2006.113043",
         "tags": [
             {
