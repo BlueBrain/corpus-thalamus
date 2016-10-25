@@ -11,7 +11,27 @@
             "text": "The experiments were performed using brain slices\nprepared from 21-day-old rats.",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "day",
+                            "values": [
+                                21.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "9a014c52-9a8e-11e6-b82a-64006a4c56ef",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
         "pubId": "10.1113/jphysiol.2006.113043",
         "tags": [
             {
