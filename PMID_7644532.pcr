@@ -5,25 +5,25 @@
             "oreilly"
         ],
         "comment": "",
-        "experimentProperties": [
-            {
-                "instanceId": "9a014c52-9a8e-11e6-b82a-64006a4c56ef",
-                "paramTypeId": "BBP-002001"
-            },
-            {
-                "instanceId": "ed18e0d0-9a98-11e6-b82a-64006a4c56ef",
-                "paramTypeId": "BBP-002003"
-            }
-        ],
+        "experimentProperties": [],
         "localizer": {
             "no": "1",
-            "noCol": null,
+            "noCol": "None",
             "noRow": "1, 2 ",
             "type": "table"
         },
         "parameters": [],
         "pubId": "PMID_7644532",
-        "tags": [],
+        "tags": [
+            {
+                "id": "NCBITaxon:9669",
+                "name": "Mustela putorius furo"
+            },
+            {
+                "id": "UBERON:0001926",
+                "name": "lateral geniculate body"
+            }
+        ],
         "version": "1"
     }
 ]
