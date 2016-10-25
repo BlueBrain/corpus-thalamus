@@ -53,10 +53,6 @@
         "pubId": "PMID_1403085",
         "tags": [
             {
-                "id": "NIFORG:birnlex_160",
-                "name": "Rat"
-            },
-            {
                 "id": "NIFGA:birnlex_1116",
                 "name": "Ventral posterior nucleus"
             },
