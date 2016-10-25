@@ -367,6 +367,60 @@
                         "rootId": "NIFCELL:sao1813327414"
                     }
                 ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-021000",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "CI_10",
+                                    "type": "simple",
+                                    "unit": "kOhm*cm^2",
+                                    "values": [
+                                        83.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "CI_90",
+                                    "type": "simple",
+                                    "unit": "kOhm*cm^2",
+                                    "values": [
+                                        124.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "median",
+                                    "type": "simple",
+                                    "unit": "kOhm*cm^2",
+                                    "values": [
+                                        106.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        3.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "b1329100-9aa8-11e6-a2dd-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nlx_cell_20081203",
+                        "name": "Thalamus relay cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
             }
         ],
         "pubId": "10.1113/jphysiol.2006.113043",
