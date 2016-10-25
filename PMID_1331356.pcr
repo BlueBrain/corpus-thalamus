@@ -82,7 +82,7 @@
                         "values": {
                             "statistic": "raw",
                             "type": "simple",
-                            "unit": "um/cm^2",
+                            "unit": "uF/cm^2",
                             "values": [
                                 1.0
                             ]
