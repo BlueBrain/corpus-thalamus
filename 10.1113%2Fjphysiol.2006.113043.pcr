@@ -63,7 +63,27 @@
             "text": "Liquid junction potential\nwas approximately \u221213 mV and was not included in\nthe measurement of the resting membrane potential.",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                -13.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "ed18e0d0-9a98-11e6-b82a-64006a4c56ef",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
         "pubId": "10.1113/jphysiol.2006.113043",
         "tags": [
             {
