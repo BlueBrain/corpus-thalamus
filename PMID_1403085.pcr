@@ -63,6 +63,10 @@
             {
                 "id": "UBERON:0001903",
                 "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
             }
         ],
         "version": "1"
@@ -357,6 +361,10 @@
             {
                 "id": "UBERON:0001903",
                 "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
             }
         ],
         "version": "1"
@@ -485,6 +493,10 @@
             {
                 "id": "NIFORG:birnlex_160",
                 "name": "Rat"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
             }
         ],
         "version": "1"
