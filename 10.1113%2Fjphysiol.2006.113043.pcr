@@ -100,5 +100,52 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "55d74e0e-9a99-11e6-b82a-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "9a014c52-9a8e-11e6-b82a-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            },
+            {
+                "instanceId": "ed18e0d0-9a98-11e6-b82a-64006a4c56ef",
+                "paramTypeId": "BBP-002003"
+            }
+        ],
+        "localizer": {
+            "location": 10401,
+            "text": "we found very few spines present on our cells.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1113/jphysiol.2006.113043",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "NIFSUB:sao1799103720",
+                "name": "Dendritic Spine"
+            },
+            {
+                "id": "NIFNEURCIR:nlx_cell_1003113",
+                "name": "Intrinsic neuron"
+            },
+            {
+                "id": "UBERON:0001926",
+                "name": "lateral geniculate body"
+            }
+        ],
+        "version": "1"
     }
 ]
