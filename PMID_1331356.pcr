@@ -64,13 +64,14 @@
     {
         "annotId": "20d4b2a6-05ec-11e6-8855-c869cd917532",
         "authors": [
-            "iavarone"
+            "iavarone",
+            "oreilly"
         ],
         "comment": "",
         "experimentProperties": [],
         "localizer": {
-            "location": 12031,
-            "text": "s an input capacitance of 0.29 nF. This value is within the range of input capacitances for feline tha-",
+            "location": 11970,
+            "text": "Given a specific membrane capacitance of 1 uF/cm^2",
             "type": "text"
         },
         "parameters": [
@@ -83,7 +84,7 @@
                             "type": "simple",
                             "unit": "um/cm^2",
                             "values": [
-                                1
+                                1.0
                             ]
                         }
                     },
