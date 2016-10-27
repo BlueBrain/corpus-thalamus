@@ -147,7 +147,7 @@
             "oreilly",
             "iavarone"
         ],
-        "comment": "There appear to be a mistake in the text, with input resistance specified on the mOhm (milli Ohm) instead of in MOhm (mega Ohm). We annotated the parameter as being in MOhm. ",
+        "comment": "There appear to be a mistake in the text, with input resistance specified on the mOhm (milli Ohm) instead of in MOhm (mega Ohm). We annotated the parameter as being in MOhm.",
         "experimentProperties": [],
         "localizer": {
             "location": 27133,
