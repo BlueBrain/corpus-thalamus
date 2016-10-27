@@ -97,7 +97,7 @@
                                     "type": "simple",
                                     "unit": "mV",
                                     "values": [
-                                        -65
+                                        -65.0
                                     ]
                                 },
                                 {
@@ -144,9 +144,10 @@
     {
         "annotId": "12b5b7a4-fa4a-11e5-b687-64006a4c56ef",
         "authors": [
-            "oreilly"
+            "oreilly",
+            "iavarone"
         ],
-        "comment": "There appear to be a mistake in the text, with input resistance specified on the mOhm (milli Ohm) instead of in MOhm (mega Ohm). We annotated the parameter as being in MOhm.",
+        "comment": "There appear to be a mistake in the text, with input resistance specified on the mOhm (milli Ohm) instead of in MOhm (mega Ohm). We annotated the parameter as being in MOhm. ",
         "experimentProperties": [],
         "localizer": {
             "location": 27133,
@@ -243,7 +244,7 @@
                                     "type": "simple",
                                     "unit": "MOhm",
                                     "values": [
-                                        31
+                                        31.0
                                     ]
                                 }
                             ]
