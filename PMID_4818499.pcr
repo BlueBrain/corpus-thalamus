@@ -1,28 +1,5 @@
 [
     {
-        "annotId": "77112d32-9d06-11e6-80b6-64006a4c56ef",
-        "authors": [
-            "oreilly"
-        ],
-        "comment": "",
-        "experimentProperties": [],
-        "localizer": {
-            "no": "12",
-            "noCol": "2",
-            "noRow": "3, 4, 5",
-            "type": "table"
-        },
-        "parameters": [],
-        "pubId": "PMID_4818499",
-        "tags": [
-            {
-                "id": "UBERON:0004529",
-                "name": "anatomical projection"
-            }
-        ],
-        "version": "1"
-    },
-    {
         "annotId": "a6634818-9d06-11e6-80b6-64006a4c56ef",
         "authors": [
             "oreilly"
