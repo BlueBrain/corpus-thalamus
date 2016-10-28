@@ -93,7 +93,27 @@
             "x": 0.6802197802197802,
             "y": 0.7725925925925926
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                -12.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "2612f0b8-9d07-11e6-80b6-64006a4c56ef",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
         "pubId": "PMID_4818499",
         "tags": [
             {
