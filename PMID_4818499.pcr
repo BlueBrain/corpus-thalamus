@@ -7,6 +7,10 @@
         "comment": "fghfghghhjshhjd hjdg hj ghjd ghj ghj ghj df.",
         "experimentProperties": [
             {
+                "instanceId": "39a3637e-9d07-11e6-80b6-64006a4c56ef",
+                "paramTypeId": "BBP-002004"
+            },
+            {
                 "instanceId": "2612f0b8-9d07-11e6-80b6-64006a4c56ef",
                 "paramTypeId": "BBP-002003"
             }
@@ -35,6 +39,36 @@
                 "id": "39a3637e-9d07-11e6-80b6-64006a4c56ef",
                 "isExperimentProperty": true,
                 "requiredTags": []
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mm^-2",
+                            "values": [
+                                20000.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "67b75a22-9d07-11e6-80b6-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFGA:birnlex_1167",
+                        "name": "Regional part of brain",
+                        "rootId": "NIFGA:birnlex_1167"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
             }
         ],
         "pubId": "PMID_4818499",
