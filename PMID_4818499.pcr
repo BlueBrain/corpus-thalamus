@@ -5,13 +5,38 @@
             "oreilly"
         ],
         "comment": "fghfghghhjshhjd hjdg hj ghjd ghj ghj ghj df.",
-        "experimentProperties": [],
+        "experimentProperties": [
+            {
+                "instanceId": "2612f0b8-9d07-11e6-80b6-64006a4c56ef",
+                "paramTypeId": "BBP-002003"
+            }
+        ],
         "localizer": {
             "location": 3038,
             "text": "he remainder in lower trunk, hind limb or tail.\nThe forepaw accounted for 41 % of the",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002004",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "um",
+                            "values": [
+                                100.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "39a3637e-9d07-11e6-80b6-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": []
+            }
+        ],
         "pubId": "PMID_4818499",
         "tags": [
             {
