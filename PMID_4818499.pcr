@@ -13,7 +13,24 @@
         },
         "parameters": [],
         "pubId": "PMID_4818499",
-        "tags": [],
+        "tags": [
+            {
+                "id": "UBERON:0004529",
+                "name": "anatomical projection"
+            },
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "NIFMOL:nifext_2649",
+                "name": "Cav2.3"
+            },
+            {
+                "id": "NIFSUB:sao118541872",
+                "name": "Gap Junction"
+            }
+        ],
         "version": "1"
     }
 ]
