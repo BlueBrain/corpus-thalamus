@@ -83,5 +83,27 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "cbebe27a-9f7c-11e6-bef9-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 11560,
+            "text": "With the\nexception of studies characterizing the temperature dependence of\nthe ionic currents, all isolated cell experiments were performed at\nroom temperature (23-25\u00b0C)\nand were compensated for capaci-\ntance and leak currents with a P/ 4 type subtraction protocol.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_1279135",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
+        "version": "1"
     }
 ]
