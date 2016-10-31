@@ -208,7 +208,8 @@
     {
         "annotId": "18b96b36-061c-11e6-b997-c869cd917532",
         "authors": [
-            "iavarone"
+            "iavarone",
+            "oreilly"
         ],
         "comment": "FIrst model parametrization, sodium and Kdr conductances in the soma",
         "experimentProperties": [],
@@ -313,8 +314,8 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
+                        "id": "NIFCELL:nifext_46",
+                        "name": "Thalamus interneuron small",
                         "rootId": "sao1813327414"
                     }
                 ]
