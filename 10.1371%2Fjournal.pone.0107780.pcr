@@ -507,7 +507,12 @@
             }
         ],
         "pubId": "10.1371/journal.pone.0107780",
-        "tags": [],
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
         "version": "1"
     },
     {
