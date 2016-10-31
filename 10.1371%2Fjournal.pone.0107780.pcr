@@ -55,7 +55,7 @@
                             "type": "simple",
                             "unit": "um^2",
                             "values": [
-                                9864
+                                9864.0
                             ]
                         }
                     },
@@ -115,7 +115,7 @@
                             "type": "simple",
                             "unit": "um",
                             "values": [
-                                673
+                                673.0
                             ]
                         }
                     },
@@ -228,7 +228,7 @@
                             "type": "simple",
                             "unit": "mV",
                             "values": [
-                                63
+                                63.0
                             ]
                         }
                     },
@@ -253,7 +253,7 @@
                             "type": "simple",
                             "unit": "Ohm*cm",
                             "values": [
-                                113
+                                113.0
                             ]
                         }
                     },
@@ -303,7 +303,7 @@
                             "type": "simple",
                             "unit": "kOhm*cm^2",
                             "values": [
-                                22
+                                22.0
                             ]
                         }
                     },
@@ -533,7 +533,7 @@
                             "type": "simple",
                             "unit": "mV",
                             "values": [
-                                -69
+                                -69.0
                             ]
                         }
                     },
@@ -558,7 +558,7 @@
                             "type": "simple",
                             "unit": "Ohm*cm",
                             "values": [
-                                113
+                                113.0
                             ]
                         }
                     },
@@ -608,7 +608,7 @@
                             "type": "simple",
                             "unit": "kOhm*cm^2",
                             "values": [
-                                45
+                                45.0
                             ]
                         }
                     },
@@ -830,6 +830,23 @@
                 "name": "Computational model"
             }
         ],
+        "version": "1"
+    },
+    {
+        "annotId": "25041fb6-9f60-11e6-8e8e-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Used simplified version of the model of Halnes et al:\n45. Halnes G, Augustinaite S, Heggelund P, Einevoll GT, Migliore M (2011) A\nmulti-compartment model for interneurons in the dorsal lateral geniculate\nnucleus. PLoS Comput Biol 7: e1002160.",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 10695,
+            "text": "The model was built using a realistic\nmorphology based on a 3D-reconstruction of a mouse interneuron\n(Fig. 1A).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1371/journal.pone.0107780",
+        "tags": [],
         "version": "1"
     }
 ]
