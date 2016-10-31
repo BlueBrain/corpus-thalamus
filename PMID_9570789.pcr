@@ -773,5 +773,69 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "b5097d0c-9f5d-11e6-8e8e-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "80c3efdc-9f5d-11e6-8e8e-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "location": 6733,
+            "text": "All current-clamp recordings were at a temperature\nof 34 \u201336\u00b0C, whereas voltage-clamp recordings were done at 24\u00b0C.",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002002",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "min",
+                                    "type": "simple",
+                                    "unit": "degC",
+                                    "values": [
+                                        34.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "max",
+                                    "type": "simple",
+                                    "unit": "degC",
+                                    "values": [
+                                        36.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "c9c50c52-9f5d-11e6-8e8e-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "PMID_9570789",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "UBERON:0002596",
+                "name": "ventral posterior nucleus of thalamus"
+            }
+        ],
+        "version": "1"
     }
 ]
