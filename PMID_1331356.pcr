@@ -209,13 +209,14 @@
     {
         "annotId": "04937940-05ee-11e6-b998-c869cd917532",
         "authors": [
-            "iavarone"
+            "iavarone",
+            "oreilly"
         ],
         "comment": "",
         "experimentProperties": [],
         "localizer": {
             "no": "2-6",
-            "noCol": null,
+            "noCol": "None",
             "noRow": "5-6",
             "type": "table"
         },
@@ -225,11 +226,32 @@
                     "depVar": {
                         "typeId": "BBP-030003",
                         "values": {
-                            "statistic": "mean",
-                            "type": "simple",
-                            "unit": "S/cm^2",
-                            "values": [
-                                0.024
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "S/cm^2",
+                                    "values": [
+                                        0.0024
+                                    ]
+                                },
+                                {
+                                    "statistic": "min",
+                                    "type": "simple",
+                                    "unit": "S/cm^2",
+                                    "values": [
+                                        0.0011
+                                    ]
+                                },
+                                {
+                                    "statistic": "max",
+                                    "type": "simple",
+                                    "unit": "S/cm^2",
+                                    "values": [
+                                        0.0047
+                                    ]
+                                }
                             ]
                         }
                     },
@@ -247,6 +269,11 @@
                         "id": "NIFCELL:nifext_41",
                         "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
+                    },
+                    {
+                        "id": "GO:0097458",
+                        "name": "neuron part",
+                        "rootId": "GO:0097458"
                     }
                 ]
             },
