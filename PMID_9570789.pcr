@@ -585,6 +585,10 @@
             {
                 "id": "NIFCELL:nifext_41",
                 "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
             }
         ],
         "version": "1"
@@ -655,6 +659,10 @@
             {
                 "id": "NIFGA:birnlex_1116",
                 "name": "Ventral posterior nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
             }
         ],
         "version": "1"
