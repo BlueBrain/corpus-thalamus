@@ -327,5 +327,22 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "07db3d70-9f7e-11e6-bef9-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "From this paper:\nIT, IA, IK2 : from rats\nIh : from Guinea pig",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 9136,
+            "text": "This model of thalamocortical\nrelay cells was based on the mathematical description of IT, IA, IK2, and Ih presented in the accompanying paper (Huguenard and McCormick\n1992).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_1331356",
+        "tags": [],
+        "version": "1"
     }
 ]
