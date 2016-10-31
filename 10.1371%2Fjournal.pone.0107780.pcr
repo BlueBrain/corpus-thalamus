@@ -385,6 +385,11 @@
                         "id": "NIFCELL:nifext_46",
                         "name": "Thalamus interneuron small",
                         "rootId": "sao1813327414"
+                    },
+                    {
+                        "id": "NIFSUB:sao1044911821",
+                        "name": "Neuronal Cell Body",
+                        "rootId": "GO:0097458"
                     }
                 ]
             },
