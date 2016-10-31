@@ -435,7 +435,8 @@
     {
         "annotId": "1f70b5f8-061d-11e6-a5cb-c869cd917532",
         "authors": [
-            "iavarone"
+            "iavarone",
+            "oreilly"
         ],
         "comment": "First parametrization, added NaT and Kdr conductances value in dendrites",
         "experimentProperties": [],
@@ -465,13 +466,13 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current",
+                        "id": "NIFMOL:nifext_8055",
+                        "name": "Sodium current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
+                        "id": "NIFCELL:nifext_46",
+                        "name": "Thalamus interneuron small",
                         "rootId": "sao1813327414"
                     }
                 ]
