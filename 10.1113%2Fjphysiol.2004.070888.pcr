@@ -305,6 +305,10 @@
             {
                 "id": "NIFCELL:nlx_cell_20081203",
                 "name": "Thalamus relay cell"
+            },
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
             }
         ],
         "version": "1"
@@ -822,6 +826,10 @@
             {
                 "id": "NIFCELL:nlx_cell_20081203",
                 "name": "Thalamus relay cell"
+            },
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
             }
         ],
         "version": "1"
