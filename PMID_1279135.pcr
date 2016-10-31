@@ -193,6 +193,10 @@
             {
                 "id": "NIFCELL:nlx_cell_20081203",
                 "name": "Thalamus relay cell"
+            },
+            {
+                "id": "NEMO:0421000",
+                "name": "adult_age"
             }
         ],
         "version": "1"
