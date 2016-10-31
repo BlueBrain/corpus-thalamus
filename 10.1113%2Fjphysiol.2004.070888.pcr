@@ -212,7 +212,8 @@
     {
         "annotId": "1f9ece4c-02d8-11e6-93a1-3417ebb8f5ca",
         "authors": [
-            "iavarone"
+            "iavarone",
+            "oreilly"
         ],
         "comment": "",
         "experimentProperties": [],
@@ -257,6 +258,10 @@
             {
                 "id": "NIFINV:birnlex_2300",
                 "name": "Computational model"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
             }
         ],
         "version": "1"
