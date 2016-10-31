@@ -20,5 +20,60 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "71d30c8c-9f7c-11e6-bef9-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 11381,
+            "text": "mp studies obtained from acutely isolated ventroposterior\nrelay\nneurons from young rats (7- 14 days old) (Coulter et al. 1989;\nHuguenard et al. 199 1; Huguenard\nand Prince 1992).",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002001",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "min",
+                                    "type": "simple",
+                                    "unit": "day",
+                                    "values": [
+                                        7.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "max",
+                                    "type": "simple",
+                                    "unit": "day ",
+                                    "values": [
+                                        14.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "8c59d554-9f7c-11e6-bef9-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "PMID_1279135",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
+        "version": "1"
     }
 ]
