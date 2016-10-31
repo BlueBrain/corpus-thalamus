@@ -331,6 +331,10 @@
             {
                 "id": "PATO:0002262",
                 "name": "phosphorylation"
+            },
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
             }
         ],
         "version": "1"
@@ -814,7 +818,12 @@
         },
         "parameters": [],
         "pubId": "10.1113/jphysiol.2004.070888",
-        "tags": [],
+        "tags": [
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
+            }
+        ],
         "version": "1"
     }
 ]
