@@ -21,7 +21,7 @@
                             "type": "simple",
                             "unit": "ohm*cm^2",
                             "values": [
-                                50000
+                                50000.0
                             ]
                         }
                     },
@@ -46,7 +46,7 @@
                             "type": "simple",
                             "unit": "ohm*cm",
                             "values": [
-                                150
+                                150.0
                             ]
                         }
                     },
@@ -71,7 +71,7 @@
                             "type": "simple",
                             "unit": "uF/cm^2",
                             "values": [
-                                1
+                                1.0
                             ]
                         }
                     },
@@ -96,7 +96,7 @@
                             "type": "simple",
                             "unit": "mV",
                             "values": [
-                                -64
+                                -64.0
                             ]
                         }
                     },
@@ -179,7 +179,7 @@
                             "type": "simple",
                             "unit": "ms",
                             "values": [
-                                19
+                                19.0
                             ]
                         }
                     },
@@ -283,7 +283,7 @@
                             "type": "simple",
                             "unit": "mV",
                             "values": [
-                                -40
+                                -40.0
                             ]
                         }
                     },
@@ -357,7 +357,7 @@
                             "type": "simple",
                             "unit": "mS/cm^2",
                             "values": [
-                                2
+                                2.0
                             ]
                         }
                     },
@@ -414,7 +414,7 @@
                             "type": "simple",
                             "unit": "mS/cm^2",
                             "values": [
-                                8
+                                8.0
                             ]
                         }
                     },
@@ -497,7 +497,7 @@
                             "type": "simple",
                             "unit": "mV",
                             "values": [
-                                -33
+                                -33.0
                             ]
                         }
                     },
@@ -555,7 +555,7 @@
                             "type": "simple",
                             "unit": "mS/cm^2",
                             "values": [
-                                300
+                                300.0
                             ]
                         }
                     },
@@ -585,7 +585,7 @@
                             "type": "simple",
                             "unit": "mS/cm^2",
                             "values": [
-                                60
+                                60.0
                             ]
                         }
                     },
@@ -615,7 +615,7 @@
                             "type": "simple",
                             "unit": "mS/cm^2",
                             "values": [
-                                2
+                                2.0
                             ]
                         }
                     },
@@ -645,7 +645,7 @@
                             "type": "simple",
                             "unit": "mS/cm^2",
                             "values": [
-                                1
+                                1.0
                             ]
                         }
                     },
@@ -735,7 +735,7 @@
                             "type": "simple",
                             "unit": "mS/cm^2",
                             "values": [
-                                4
+                                4.0
                             ]
                         }
                     },
@@ -765,7 +765,7 @@
                             "type": "simple",
                             "unit": "mS/cm^2",
                             "values": [
-                                24
+                                24.0
                             ]
                         }
                     },
@@ -798,6 +798,23 @@
                 "name": "Thalamus relay cell"
             }
         ],
+        "version": "1"
+    },
+    {
+        "annotId": "66c9b578-9f79-11e6-bef9-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "The morphology the authors used is from rat. We therefore attributed this model to rats, although different parameter values may have been inspired from values in other species.",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 8970,
+            "text": "Final\nsimulations were performed on a relay cell reconstructed using the NeuroLucida digital system used by Alain\nDestexhe and John Huguenard (cf. Destexhe et al.\n1998)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1113/jphysiol.2004.070888",
+        "tags": [],
         "version": "1"
     }
 ]
