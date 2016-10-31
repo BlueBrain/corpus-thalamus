@@ -97,7 +97,8 @@
     {
         "annotId": "8e703718-061b-11e6-960d-c869cd917532",
         "authors": [
-            "iavarone"
+            "iavarone",
+            "oreilly"
         ],
         "comment": "",
         "experimentProperties": [],
@@ -126,8 +127,8 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
+                        "id": "NIFCELL:nifext_46",
+                        "name": "Thalamus interneuron small",
                         "rootId": "sao1813327414"
                     }
                 ]
