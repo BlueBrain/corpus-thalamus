@@ -126,7 +126,27 @@
             "text": "Data\nfor Ih were obtained from neurons in adult guinea pig dorsal lateral geniculate nucleus using switched-single-electrode\nvoltage-\nclamp recordings with sharp electrodes in slices maintained\nin\nvitro at 35.5 degC.",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002002",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "degC",
+                            "values": [
+                                35.5
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "9e8cef12-9f7d-11e6-bef9-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": []
+            }
+        ],
         "pubId": "PMID_1279135",
         "tags": [
             {
