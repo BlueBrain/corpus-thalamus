@@ -747,7 +747,8 @@
     {
         "annotId": "5d843940-061e-11e6-9190-c869cd917532",
         "authors": [
-            "iavarone"
+            "iavarone",
+            "oreilly"
         ],
         "comment": "Second parametrization, conductances NaT and Kdr in dendrites",
         "experimentProperties": [],
@@ -782,8 +783,8 @@
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
+                        "id": "NIFCELL:nifext_46",
+                        "name": "Thalamus interneuron small",
                         "rootId": "sao1813327414"
                     }
                 ]
