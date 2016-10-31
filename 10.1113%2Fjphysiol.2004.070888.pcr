@@ -127,6 +127,10 @@
             {
                 "id": "NIFCELL:nlx_cell_20081203",
                 "name": "Thalamus relay cell"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
             }
         ],
         "version": "1"
@@ -153,6 +157,10 @@
             {
                 "id": "NIFINV:birnlex_2300",
                 "name": "Computational model"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
             }
         ],
         "version": "1"
@@ -205,6 +213,10 @@
             {
                 "id": "NIFINV:birnlex_2300",
                 "name": "Computational model"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
             }
         ],
         "version": "1"
@@ -314,6 +326,10 @@
             {
                 "id": "NIFINV:birnlex_2300",
                 "name": "Computational model"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
             }
         ],
         "version": "1"
@@ -344,6 +360,10 @@
             {
                 "id": "NIFCELL:nlx_cell_20081203",
                 "name": "Thalamus relay cell"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
             }
         ],
         "version": "1"
@@ -401,6 +421,10 @@
             {
                 "id": "NIFCELL:nlx_cell_20081203",
                 "name": "Thalamus relay cell"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
             }
         ],
         "version": "1"
@@ -458,6 +482,10 @@
             {
                 "id": "NIFINV:birnlex_2300",
                 "name": "Computational model"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
             }
         ],
         "version": "1"
@@ -484,6 +512,10 @@
             {
                 "id": "NIFINV:birnlex_2300",
                 "name": "Computational model"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
             }
         ],
         "version": "1"
@@ -541,6 +573,10 @@
             {
                 "id": "NIFINV:birnlex_2300",
                 "name": "Computational model"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
             }
         ],
         "version": "1"
@@ -809,6 +845,10 @@
             {
                 "id": "NIFCELL:nlx_cell_20081203",
                 "name": "Thalamus relay cell"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
             }
         ],
         "version": "1"
@@ -835,6 +875,10 @@
             {
                 "id": "NIFINV:birnlex_2300",
                 "name": "Computational model"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
             }
         ],
         "version": "1"
