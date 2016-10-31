@@ -126,7 +126,7 @@
                     "type": "pointValue"
                 },
                 "id": "b05e6360-9f7d-11e6-bef9-64006a4c56ef",
-                "isExperimentProperty": false,
+                "isExperimentProperty": true,
                 "requiredTags": []
             }
         ],
