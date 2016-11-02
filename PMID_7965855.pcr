@@ -678,5 +678,76 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "ef3cbcc4-a123-11e6-98a4-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "6d371076-a11e-11e6-b300-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            },
+            {
+                "instanceId": "5d175146-a11f-11e6-98a1-64006a4c56ef",
+                "paramTypeId": "BBP-002005"
+            }
+        ],
+        "localizer": {
+            "location": 47648,
+            "text": "When the difference in\nmembrane surface area between the two types of cells is\ntaken into account (see above), the maximal A-conductance\nis slightly (P< 0 01) higher in interneurones (9.6 pS/um2)\ncompared with that in relay cells (8.0 pS/um2).",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "pS/um**2",
+                            "values": [
+                                9.6
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "2c65325c-a124-11e6-98a4-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_46",
+                        "name": "Thalamus interneuron small",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "GO:0097458",
+                        "name": "neuron part",
+                        "rootId": "GO:0097458"
+                    },
+                    {
+                        "id": "NIFMOL:nlx_mol_20081201",
+                        "name": "A current",
+                        "rootId": "NIFMOL:nifext_8054"
+                    }
+                ]
+            }
+        ],
+        "pubId": "PMID_7965855",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "UBERON:0001926",
+                "name": "lateral geniculate body"
+            }
+        ],
+        "version": "1"
     }
 ]
