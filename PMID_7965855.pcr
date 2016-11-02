@@ -1,339 +1,5 @@
 [
     {
-        "annotId": "5ade14e2-a11e-11e6-b300-64006a4c56ef",
-        "authors": [
-            "oreilly"
-        ],
-        "comment": "",
-        "experimentProperties": [],
-        "localizer": {
-            "location": 10396,
-            "text": "Rats of either sex (postnatal days 14-25)",
-            "type": "text"
-        },
-        "parameters": [
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-002001",
-                        "values": {
-                            "type": "compound",
-                            "valueLst": [
-                                {
-                                    "statistic": "min",
-                                    "type": "simple",
-                                    "unit": "day",
-                                    "values": [
-                                        14.0
-                                    ]
-                                },
-                                {
-                                    "statistic": "max",
-                                    "type": "simple",
-                                    "unit": "day",
-                                    "values": [
-                                        25.0
-                                    ]
-                                }
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "6d371076-a11e-11e6-b300-64006a4c56ef",
-                "isExperimentProperty": true,
-                "requiredTags": []
-            }
-        ],
-        "pubId": "PMID_7965855",
-        "tags": [
-            {
-                "id": "NIFORG:birnlex_160",
-                "name": "Rat"
-            },
-            {
-                "id": "UBERON:0001926",
-                "name": "lateral geniculate body"
-            }
-        ],
-        "version": "1"
-    },
-    {
-        "annotId": "8683873a-a11e-11e6-b300-64006a4c56ef",
-        "authors": [
-            "oreilly"
-        ],
-        "comment": "",
-        "experimentProperties": [],
-        "localizer": {
-            "location": 10885,
-            "text": "Neurones were isolated from LGN slices via an enzymatic\ndissociation procedure",
-            "type": "text"
-        },
-        "parameters": [],
-        "pubId": "PMID_7965855",
-        "tags": [
-            {
-                "id": "NIFORG:birnlex_160",
-                "name": "Rat"
-            },
-            {
-                "id": "UBERON:0001926",
-                "name": "lateral geniculate body"
-            }
-        ],
-        "version": "1"
-    },
-    {
-        "annotId": "c6d788e0-a11e-11e6-b300-64006a4c56ef",
-        "authors": [
-            "oreilly"
-        ],
-        "comment": "",
-        "experimentProperties": [
-            {
-                "instanceId": "6d371076-a11e-11e6-b300-64006a4c56ef",
-                "paramTypeId": "BBP-002001"
-            }
-        ],
-        "localizer": {
-            "location": 13942,
-            "text": "For a direct comparison of these groups of cells with living\ncells, a correction factor of 1.35 was calculated to normalize the\nsoma area values.",
-            "type": "text"
-        },
-        "parameters": [
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-002005",
-                        "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "dimensionless",
-                            "values": [
-                                1.35
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "5d175146-a11f-11e6-98a1-64006a4c56ef",
-                "isExperimentProperty": true,
-                "requiredTags": []
-            }
-        ],
-        "pubId": "PMID_7965855",
-        "tags": [
-            {
-                "id": "NIFORG:birnlex_160",
-                "name": "Rat"
-            },
-            {
-                "id": "UBERON:0001926",
-                "name": "lateral geniculate body"
-            }
-        ],
-        "version": "1"
-    },
-    {
-        "annotId": "cbb01a24-a120-11e6-98a4-64006a4c56ef",
-        "authors": [
-            "oreilly"
-        ],
-        "comment": "",
-        "experimentProperties": [
-            {
-                "instanceId": "6d371076-a11e-11e6-b300-64006a4c56ef",
-                "paramTypeId": "BBP-002001"
-            },
-            {
-                "instanceId": "5d175146-a11f-11e6-98a1-64006a4c56ef",
-                "paramTypeId": "BBP-002005"
-            }
-        ],
-        "localizer": {
-            "location": 19455,
-            "text": "Data are presented as means + S.D. and number of\nobservations (n).",
-            "type": "text"
-        },
-        "parameters": [],
-        "pubId": "PMID_7965855",
-        "tags": [
-            {
-                "id": "NIFORG:birnlex_160",
-                "name": "Rat"
-            },
-            {
-                "id": "UBERON:0001926",
-                "name": "lateral geniculate body"
-            }
-        ],
-        "version": "1"
-    },
-    {
-        "annotId": "f7cacca8-a120-11e6-98a4-64006a4c56ef",
-        "authors": [
-            "oreilly"
-        ],
-        "comment": "",
-        "experimentProperties": [
-            {
-                "instanceId": "6d371076-a11e-11e6-b300-64006a4c56ef",
-                "paramTypeId": "BBP-002001"
-            },
-            {
-                "instanceId": "5d175146-a11f-11e6-98a1-64006a4c56ef",
-                "paramTypeId": "BBP-002005"
-            }
-        ],
-        "localizer": {
-            "location": 19985,
-            "text": "In a population of\nacutely dissociated rat LGN cells, neurones possessing a\nmultipolar cell body (14-25 ,um in diameter) giving rise to\nthree to five bifurcating dendrites (1-3 ,um in diameter)\nextending up to 30 ,um from the soma, and smaller\nneurones (around 10 ,um in diameter) of a fusiform or oval\nshape with processes emerging from opposite poles of the\nsoma were easily distinguishable (Fig. 1A).",
-            "type": "text"
-        },
-        "parameters": [],
-        "pubId": "PMID_7965855",
-        "tags": [
-            {
-                "id": "NIFORG:birnlex_160",
-                "name": "Rat"
-            },
-            {
-                "id": "UBERON:0001926",
-                "name": "lateral geniculate body"
-            }
-        ],
-        "version": "1"
-    },
-    {
-        "annotId": "a17c79f4-a121-11e6-98a4-64006a4c56ef",
-        "authors": [
-            "oreilly"
-        ],
-        "comment": "",
-        "experimentProperties": [
-            {
-                "instanceId": "6d371076-a11e-11e6-b300-64006a4c56ef",
-                "paramTypeId": "BBP-002001"
-            },
-            {
-                "instanceId": "5d175146-a11f-11e6-98a1-64006a4c56ef",
-                "paramTypeId": "BBP-002005"
-            }
-        ],
-        "localizer": {
-            "location": 21191,
-            "text": "The size distributions of the somatic areas were\nsignificantly different for acutely dissociated multipolar\n(mean, 214.9 +/- 60.7 um2; n = 398) and for bipolar neurones\n(103.1 +/- 29.3 um2; n = 84; Fig. 2A).",
-            "type": "text"
-        },
-        "parameters": [
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-121004",
-                        "values": {
-                            "type": "compound",
-                            "valueLst": [
-                                {
-                                    "statistic": "mean",
-                                    "type": "simple",
-                                    "unit": "um**2",
-                                    "values": [
-                                        214.9
-                                    ]
-                                },
-                                {
-                                    "statistic": "sd",
-                                    "type": "simple",
-                                    "unit": "um**2",
-                                    "values": [
-                                        60.7
-                                    ]
-                                },
-                                {
-                                    "statistic": "N",
-                                    "type": "simple",
-                                    "unit": "dimensionless",
-                                    "values": [
-                                        398.0
-                                    ]
-                                }
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "bf9f3480-a121-11e6-98a4-64006a4c56ef",
-                "isExperimentProperty": false,
-                "requiredTags": [
-                    {
-                        "id": "NIFCELL:nlx_cell_20081203",
-                        "name": "Thalamus relay cell",
-                        "rootId": "NIFCELL:sao1813327414"
-                    }
-                ]
-            },
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-121004",
-                        "values": {
-                            "type": "compound",
-                            "valueLst": [
-                                {
-                                    "statistic": "mean",
-                                    "type": "simple",
-                                    "unit": "um**2",
-                                    "values": [
-                                        103.1
-                                    ]
-                                },
-                                {
-                                    "statistic": "sd",
-                                    "type": "simple",
-                                    "unit": "um**2",
-                                    "values": [
-                                        29.3
-                                    ]
-                                },
-                                {
-                                    "statistic": "N",
-                                    "type": "simple",
-                                    "unit": "dimensionless",
-                                    "values": [
-                                        84.0
-                                    ]
-                                }
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "dfff77ee-a121-11e6-98a4-64006a4c56ef",
-                "isExperimentProperty": false,
-                "requiredTags": [
-                    {
-                        "id": "NIFCELL:nifext_46",
-                        "name": "Thalamus interneuron small",
-                        "rootId": "NIFCELL:sao1813327414"
-                    }
-                ]
-            }
-        ],
-        "pubId": "PMID_7965855",
-        "tags": [
-            {
-                "id": "NIFORG:birnlex_160",
-                "name": "Rat"
-            },
-            {
-                "id": "UBERON:0001926",
-                "name": "lateral geniculate body"
-            }
-        ],
-        "version": "1"
-    },
-    {
         "annotId": "2b2c8612-a122-11e6-98a4-64006a4c56ef",
         "authors": [
             "oreilly"
@@ -554,7 +220,7 @@
         "version": "1"
     },
     {
-        "annotId": "ae8651dc-a122-11e6-98a4-64006a4c56ef",
+        "annotId": "3c90e752-a129-11e6-98a4-64006a4c56ef",
         "authors": [
             "oreilly"
         ],
@@ -570,134 +236,8 @@
             }
         ],
         "localizer": {
-            "location": 21748,
-            "text": "The relative\nproportion of acutely dissociated bipolar neurones, of\nisolated GABA/GAD-positive neurones, and of isolated\nbipolar cells after Nissl staining was 17.4, 20.6 and 19.2%,\nrespectively.",
-            "type": "text"
-        },
-        "parameters": [
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-131003",
-                        "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "dimensionless",
-                            "values": [
-                                17.4
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "d33a49f2-a122-11e6-98a4-64006a4c56ef",
-                "isExperimentProperty": false,
-                "requiredTags": [
-                    {
-                        "id": "NIFCELL:nifext_46",
-                        "name": "Thalamus interneuron small",
-                        "rootId": "NIFCELL:sao1813327414"
-                    },
-                    {
-                        "id": "UBERON:0001926",
-                        "name": "lateral geniculate body",
-                        "rootId": "NIFGA:birnlex_1167"
-                    }
-                ]
-            },
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-131003",
-                        "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "dimensionless",
-                            "values": [
-                                20.6
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "e6fe7a9e-a122-11e6-98a4-64006a4c56ef",
-                "isExperimentProperty": false,
-                "requiredTags": [
-                    {
-                        "id": "NIFCELL:nifext_46",
-                        "name": "Thalamus interneuron small",
-                        "rootId": "NIFCELL:sao1813327414"
-                    },
-                    {
-                        "id": "UBERON:0001926",
-                        "name": "lateral geniculate body",
-                        "rootId": "NIFGA:birnlex_1167"
-                    }
-                ]
-            },
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-131003",
-                        "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "dimensionless",
-                            "values": [
-                                19.2
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "f83d819c-a122-11e6-98a4-64006a4c56ef",
-                "isExperimentProperty": false,
-                "requiredTags": [
-                    {
-                        "id": "NIFCELL:nifext_46",
-                        "name": "Thalamus interneuron small",
-                        "rootId": "NIFCELL:sao1813327414"
-                    },
-                    {
-                        "id": "UBERON:0001926",
-                        "name": "lateral geniculate body",
-                        "rootId": "NIFGA:birnlex_1167"
-                    }
-                ]
-            }
-        ],
-        "pubId": "PMID_7965855",
-        "tags": [
-            {
-                "id": "NIFORG:birnlex_160",
-                "name": "Rat"
-            },
-            {
-                "id": "UBERON:0001926",
-                "name": "lateral geniculate body"
-            }
-        ],
-        "version": "1"
-    },
-    {
-        "annotId": "ef3cbcc4-a123-11e6-98a4-64006a4c56ef",
-        "authors": [
-            "oreilly"
-        ],
-        "comment": "",
-        "experimentProperties": [
-            {
-                "instanceId": "6d371076-a11e-11e6-b300-64006a4c56ef",
-                "paramTypeId": "BBP-002001"
-            },
-            {
-                "instanceId": "5d175146-a11f-11e6-98a1-64006a4c56ef",
-                "paramTypeId": "BBP-002005"
-            }
-        ],
-        "localizer": {
-            "location": 47648,
-            "text": "When the difference in\nmembrane surface area between the two types of cells is\ntaken into account (see above), the maximal A-conductance\nis slightly (P< 0 01) higher in interneurones (9.6 pS/um2)\ncompared with that in relay cells (8.0 pS/um2).",
+            "location": 27836,
+            "text": "lthough we observed a typical T-type Ca2`\ncurrent in more than 80% of our sample of interneurones\n(n = 34), it was significantly smaller in size (mean maximal\namplitude, 109 +/- 46 pA; n = 11) than that in relay cells\n(289 +/- 131 pA; n = 16)",
             "type": "text"
         },
         "parameters": [
@@ -705,129 +245,23 @@
                 "description": {
                     "depVar": {
                         "typeId": "BBP-030003",
-                        "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "pS/um**2",
-                            "values": [
-                                9.6
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "2c65325c-a124-11e6-98a4-64006a4c56ef",
-                "isExperimentProperty": false,
-                "requiredTags": [
-                    {
-                        "id": "NIFCELL:nifext_46",
-                        "name": "Thalamus interneuron small",
-                        "rootId": "NIFCELL:sao1813327414"
-                    },
-                    {
-                        "id": "GO:0097458",
-                        "name": "neuron part",
-                        "rootId": "GO:0097458"
-                    },
-                    {
-                        "id": "NIFMOL:nlx_mol_20081201",
-                        "name": "A current",
-                        "rootId": "NIFMOL:nifext_8054"
-                    }
-                ]
-            },
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-030003",
-                        "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "pS/um**2",
-                            "values": [
-                                8.0
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "43e8bb2e-a124-11e6-98a4-64006a4c56ef",
-                "isExperimentProperty": false,
-                "requiredTags": [
-                    {
-                        "id": "NIFCELL:nlx_cell_20081203",
-                        "name": "Thalamus relay cell",
-                        "rootId": "NIFCELL:sao1813327414"
-                    },
-                    {
-                        "id": "GO:0097458",
-                        "name": "neuron part",
-                        "rootId": "GO:0097458"
-                    },
-                    {
-                        "id": "NIFMOL:nlx_mol_20081201",
-                        "name": "A current",
-                        "rootId": "NIFMOL:nifext_8054"
-                    }
-                ]
-            }
-        ],
-        "pubId": "PMID_7965855",
-        "tags": [
-            {
-                "id": "NIFORG:birnlex_160",
-                "name": "Rat"
-            },
-            {
-                "id": "UBERON:0001926",
-                "name": "lateral geniculate body"
-            }
-        ],
-        "version": "1"
-    },
-    {
-        "annotId": "e7eb14f6-a124-11e6-98a4-64006a4c56ef",
-        "authors": [
-            "oreilly"
-        ],
-        "comment": "",
-        "experimentProperties": [
-            {
-                "instanceId": "6d371076-a11e-11e6-b300-64006a4c56ef",
-                "paramTypeId": "BBP-002001"
-            },
-            {
-                "instanceId": "5d175146-a11f-11e6-98a1-64006a4c56ef",
-                "paramTypeId": "BBP-002005"
-            }
-        ],
-        "localizer": {
-            "location": 29188,
-            "text": "Threshold (at around -70 mV) and half-activation of IT in local circuit neurones (-54.9 +/- 4.7 mV;\nn = 11) occurred at significantly (P < 0.01) more positive\nvalues of the membrane potential than in relay neurones\n(threshold at -80 mV; half-activation at -64.5 +/- 7.0 mV;\nn = 17)",
-            "type": "text"
-        },
-        "parameters": [
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-090001",
                         "values": {
                             "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
                                     "type": "simple",
-                                    "unit": "mV",
+                                    "unit": "pA",
                                     "values": [
-                                        -54.9
+                                        109.0
                                     ]
                                 },
                                 {
                                     "statistic": "deviation",
                                     "type": "simple",
-                                    "unit": "mV",
+                                    "unit": "pA",
                                     "values": [
-                                        4.7
+                                        46.0
                                     ]
                                 },
                                 {
@@ -843,64 +277,18 @@
                     },
                     "type": "pointValue"
                 },
-                "id": "3d473ea2-a125-11e6-98a4-64006a4c56ef",
-                "isExperimentProperty": false,
-                "requiredTags": [
-                    {
-                        "id": "NIFCELL:nifext_46",
-                        "name": "Thalamus interneuron small",
-                        "rootId": "NIFCELL:sao1813327414"
-                    },
-                    {
-                        "id": "BBP_nlx_0011",
-                        "name": "Low threshold calcium T-current",
-                        "rootId": "NIFMOL:nifext_8054"
-                    }
-                ]
-            },
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-090001",
-                        "values": {
-                            "type": "compound",
-                            "valueLst": [
-                                {
-                                    "statistic": "mean",
-                                    "type": "simple",
-                                    "unit": "mV",
-                                    "values": [
-                                        -64.5
-                                    ]
-                                },
-                                {
-                                    "statistic": "deviation",
-                                    "type": "simple",
-                                    "unit": "mV",
-                                    "values": [
-                                        7.0
-                                    ]
-                                },
-                                {
-                                    "statistic": "N",
-                                    "type": "simple",
-                                    "unit": "dimensionless",
-                                    "values": [
-                                        17.0
-                                    ]
-                                }
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "57512f7e-a125-11e6-98a4-64006a4c56ef",
+                "id": "58bea82e-a129-11e6-98a4-64006a4c56ef",
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
                         "id": "NIFCELL:nlx_cell_20081203",
                         "name": "Thalamus relay cell",
                         "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "GO:0097458",
+                        "name": "neuron part",
+                        "rootId": "GO:0097458"
                     },
                     {
                         "id": "BBP_nlx_0011",
@@ -910,6 +298,100 @@
                 ]
             }
         ],
+        "pubId": "PMID_7965855",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "UBERON:0001926",
+                "name": "lateral geniculate body"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "5ade14e2-a11e-11e6-b300-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 10396,
+            "text": "Rats of either sex (postnatal days 14-25)",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002001",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "min",
+                                    "type": "simple",
+                                    "unit": "day",
+                                    "values": [
+                                        14.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "max",
+                                    "type": "simple",
+                                    "unit": "day",
+                                    "values": [
+                                        25.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "6d371076-a11e-11e6-b300-64006a4c56ef",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "PMID_7965855",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "UBERON:0001926",
+                "name": "lateral geniculate body"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "6de3be7e-a129-11e6-98a4-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "6d371076-a11e-11e6-b300-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            },
+            {
+                "instanceId": "5d175146-a11f-11e6-98a1-64006a4c56ef",
+                "paramTypeId": "BBP-002005"
+            }
+        ],
+        "localizer": {
+            "location": 27835,
+            "text": "Although we observed a typical T-type Ca2`\ncurrent in more than 80% of our sample of interneurones\n(n = 34), it was significantly smaller in size (mean maximal\namplitude, 109 +/- 46 pA; n = 11) than that in relay cells\n(289 +/- 131 pA; n = 16)",
+            "type": "text"
+        },
+        "parameters": [],
         "pubId": "PMID_7965855",
         "tags": [
             {
@@ -1044,6 +526,424 @@
                         "id": "BBP_nlx_0011",
                         "name": "Low threshold calcium T-current",
                         "rootId": "NIFMOL:nifext_8054"
+                    }
+                ]
+            }
+        ],
+        "pubId": "PMID_7965855",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "UBERON:0001926",
+                "name": "lateral geniculate body"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "8683873a-a11e-11e6-b300-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 10885,
+            "text": "Neurones were isolated from LGN slices via an enzymatic\ndissociation procedure",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_7965855",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "UBERON:0001926",
+                "name": "lateral geniculate body"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "91ac9db4-a127-11e6-98a4-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "6d371076-a11e-11e6-b300-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            },
+            {
+                "instanceId": "5d175146-a11f-11e6-98a1-64006a4c56ef",
+                "paramTypeId": "BBP-002005"
+            }
+        ],
+        "localizer": {
+            "location": 34075,
+            "text": "The\ntime course of recovery from inactivation of IT was\napproximated best by a single exponential function, and\nthe mean time constants were very similar in both types of\nneurones (218.1 +/- 26.1 ms in 5 interneurones; 205.9 +/- 51.9 ms\nin 6 relay cells).",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-080003",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "ms",
+                                    "values": [
+                                        218.1
+                                    ]
+                                },
+                                {
+                                    "statistic": "deviation",
+                                    "type": "simple",
+                                    "unit": "ms",
+                                    "values": [
+                                        26.2
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        5.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "ae55965a-a127-11e6-98a4-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_46",
+                        "name": "Thalamus interneuron small",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "BBP_nlx_0011",
+                        "name": "Low threshold calcium T-current",
+                        "rootId": "NIFMOL:nifext_8054"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-080003",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "ms",
+                                    "values": [
+                                        205.9
+                                    ]
+                                },
+                                {
+                                    "statistic": "deviation",
+                                    "type": "simple",
+                                    "unit": "ms",
+                                    "values": [
+                                        51.9
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        6.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "c10d2da8-a127-11e6-98a4-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nlx_cell_20081203",
+                        "name": "Thalamus relay cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "BBP_nlx_0011",
+                        "name": "Low threshold calcium T-current",
+                        "rootId": "NIFMOL:nifext_8054"
+                    }
+                ]
+            }
+        ],
+        "pubId": "PMID_7965855",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "UBERON:0001926",
+                "name": "lateral geniculate body"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "a17c79f4-a121-11e6-98a4-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "6d371076-a11e-11e6-b300-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            },
+            {
+                "instanceId": "5d175146-a11f-11e6-98a1-64006a4c56ef",
+                "paramTypeId": "BBP-002005"
+            }
+        ],
+        "localizer": {
+            "location": 21191,
+            "text": "The size distributions of the somatic areas were\nsignificantly different for acutely dissociated multipolar\n(mean, 214.9 +/- 60.7 um2; n = 398) and for bipolar neurones\n(103.1 +/- 29.3 um2; n = 84; Fig. 2A).",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-121004",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "um**2",
+                                    "values": [
+                                        214.9
+                                    ]
+                                },
+                                {
+                                    "statistic": "sd",
+                                    "type": "simple",
+                                    "unit": "um**2",
+                                    "values": [
+                                        60.7
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        398.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "bf9f3480-a121-11e6-98a4-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nlx_cell_20081203",
+                        "name": "Thalamus relay cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-121004",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "um**2",
+                                    "values": [
+                                        103.1
+                                    ]
+                                },
+                                {
+                                    "statistic": "sd",
+                                    "type": "simple",
+                                    "unit": "um**2",
+                                    "values": [
+                                        29.3
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        84.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "dfff77ee-a121-11e6-98a4-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_46",
+                        "name": "Thalamus interneuron small",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "PMID_7965855",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "UBERON:0001926",
+                "name": "lateral geniculate body"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "ae8651dc-a122-11e6-98a4-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "6d371076-a11e-11e6-b300-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            },
+            {
+                "instanceId": "5d175146-a11f-11e6-98a1-64006a4c56ef",
+                "paramTypeId": "BBP-002005"
+            }
+        ],
+        "localizer": {
+            "location": 21748,
+            "text": "The relative\nproportion of acutely dissociated bipolar neurones, of\nisolated GABA/GAD-positive neurones, and of isolated\nbipolar cells after Nissl staining was 17.4, 20.6 and 19.2%,\nrespectively.",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "dimensionless",
+                            "values": [
+                                17.4
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "d33a49f2-a122-11e6-98a4-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_46",
+                        "name": "Thalamus interneuron small",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "UBERON:0001926",
+                        "name": "lateral geniculate body",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "dimensionless",
+                            "values": [
+                                20.6
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "e6fe7a9e-a122-11e6-98a4-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_46",
+                        "name": "Thalamus interneuron small",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "UBERON:0001926",
+                        "name": "lateral geniculate body",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "dimensionless",
+                            "values": [
+                                19.2
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "f83d819c-a122-11e6-98a4-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_46",
+                        "name": "Thalamus interneuron small",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "UBERON:0001926",
+                        "name": "lateral geniculate body",
+                        "rootId": "NIFGA:birnlex_1167"
                     }
                 ]
             }
@@ -1302,7 +1202,7 @@
         "version": "1"
     },
     {
-        "annotId": "91ac9db4-a127-11e6-98a4-64006a4c56ef",
+        "annotId": "c6d788e0-a11e-11e6-b300-64006a4c56ef",
         "authors": [
             "oreilly"
         ],
@@ -1311,119 +1211,32 @@
             {
                 "instanceId": "6d371076-a11e-11e6-b300-64006a4c56ef",
                 "paramTypeId": "BBP-002001"
-            },
-            {
-                "instanceId": "5d175146-a11f-11e6-98a1-64006a4c56ef",
-                "paramTypeId": "BBP-002005"
             }
         ],
         "localizer": {
-            "location": 34075,
-            "text": "The\ntime course of recovery from inactivation of IT was\napproximated best by a single exponential function, and\nthe mean time constants were very similar in both types of\nneurones (218.1 +/- 26.1 ms in 5 interneurones; 205.9 +/- 51.9 ms\nin 6 relay cells).",
+            "location": 13942,
+            "text": "For a direct comparison of these groups of cells with living\ncells, a correction factor of 1.35 was calculated to normalize the\nsoma area values.",
             "type": "text"
         },
         "parameters": [
             {
                 "description": {
                     "depVar": {
-                        "typeId": "BBP-080003",
+                        "typeId": "BBP-002005",
                         "values": {
-                            "type": "compound",
-                            "valueLst": [
-                                {
-                                    "statistic": "mean",
-                                    "type": "simple",
-                                    "unit": "ms",
-                                    "values": [
-                                        218.1
-                                    ]
-                                },
-                                {
-                                    "statistic": "deviation",
-                                    "type": "simple",
-                                    "unit": "ms",
-                                    "values": [
-                                        26.2
-                                    ]
-                                },
-                                {
-                                    "statistic": "N",
-                                    "type": "simple",
-                                    "unit": "dimensionless",
-                                    "values": [
-                                        5.0
-                                    ]
-                                }
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "dimensionless",
+                            "values": [
+                                1.35
                             ]
                         }
                     },
                     "type": "pointValue"
                 },
-                "id": "ae55965a-a127-11e6-98a4-64006a4c56ef",
-                "isExperimentProperty": false,
-                "requiredTags": [
-                    {
-                        "id": "NIFCELL:nifext_46",
-                        "name": "Thalamus interneuron small",
-                        "rootId": "NIFCELL:sao1813327414"
-                    },
-                    {
-                        "id": "BBP_nlx_0011",
-                        "name": "Low threshold calcium T-current",
-                        "rootId": "NIFMOL:nifext_8054"
-                    }
-                ]
-            },
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-080003",
-                        "values": {
-                            "type": "compound",
-                            "valueLst": [
-                                {
-                                    "statistic": "mean",
-                                    "type": "simple",
-                                    "unit": "ms",
-                                    "values": [
-                                        205.9
-                                    ]
-                                },
-                                {
-                                    "statistic": "deviation",
-                                    "type": "simple",
-                                    "unit": "ms",
-                                    "values": [
-                                        51.9
-                                    ]
-                                },
-                                {
-                                    "statistic": "N",
-                                    "type": "simple",
-                                    "unit": "dimensionless",
-                                    "values": [
-                                        6.0
-                                    ]
-                                }
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "c10d2da8-a127-11e6-98a4-64006a4c56ef",
-                "isExperimentProperty": false,
-                "requiredTags": [
-                    {
-                        "id": "NIFCELL:nlx_cell_20081203",
-                        "name": "Thalamus relay cell",
-                        "rootId": "NIFCELL:sao1813327414"
-                    },
-                    {
-                        "id": "BBP_nlx_0011",
-                        "name": "Low threshold calcium T-current",
-                        "rootId": "NIFMOL:nifext_8054"
-                    }
-                ]
+                "id": "5d175146-a11f-11e6-98a1-64006a4c56ef",
+                "isExperimentProperty": true,
+                "requiredTags": []
             }
         ],
         "pubId": "PMID_7965855",
@@ -1440,7 +1253,7 @@
         "version": "1"
     },
     {
-        "annotId": "3c90e752-a129-11e6-98a4-64006a4c56ef",
+        "annotId": "cbb01a24-a120-11e6-98a4-64006a4c56ef",
         "authors": [
             "oreilly"
         ],
@@ -1456,100 +1269,8 @@
             }
         ],
         "localizer": {
-            "location": 27836,
-            "text": "lthough we observed a typical T-type Ca2`\ncurrent in more than 80% of our sample of interneurones\n(n = 34), it was significantly smaller in size (mean maximal\namplitude, 109 +/- 46 pA; n = 11) than that in relay cells\n(289 +/- 131 pA; n = 16)",
-            "type": "text"
-        },
-        "parameters": [
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-030003",
-                        "values": {
-                            "type": "compound",
-                            "valueLst": [
-                                {
-                                    "statistic": "mean",
-                                    "type": "simple",
-                                    "unit": "pA",
-                                    "values": [
-                                        109.0
-                                    ]
-                                },
-                                {
-                                    "statistic": "deviation",
-                                    "type": "simple",
-                                    "unit": "pA",
-                                    "values": [
-                                        46.0
-                                    ]
-                                },
-                                {
-                                    "statistic": "N",
-                                    "type": "simple",
-                                    "unit": "dimensionless",
-                                    "values": [
-                                        11.0
-                                    ]
-                                }
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "58bea82e-a129-11e6-98a4-64006a4c56ef",
-                "isExperimentProperty": false,
-                "requiredTags": [
-                    {
-                        "id": "NIFCELL:nlx_cell_20081203",
-                        "name": "Thalamus relay cell",
-                        "rootId": "NIFCELL:sao1813327414"
-                    },
-                    {
-                        "id": "GO:0097458",
-                        "name": "neuron part",
-                        "rootId": "GO:0097458"
-                    },
-                    {
-                        "id": "BBP_nlx_0011",
-                        "name": "Low threshold calcium T-current",
-                        "rootId": "NIFMOL:nifext_8054"
-                    }
-                ]
-            }
-        ],
-        "pubId": "PMID_7965855",
-        "tags": [
-            {
-                "id": "NIFORG:birnlex_160",
-                "name": "Rat"
-            },
-            {
-                "id": "UBERON:0001926",
-                "name": "lateral geniculate body"
-            }
-        ],
-        "version": "1"
-    },
-    {
-        "annotId": "6297013e-a129-11e6-98a4-64006a4c56ef",
-        "authors": [
-            "oreilly"
-        ],
-        "comment": "",
-        "experimentProperties": [
-            {
-                "instanceId": "6d371076-a11e-11e6-b300-64006a4c56ef",
-                "paramTypeId": "BBP-002001"
-            },
-            {
-                "instanceId": "5d175146-a11f-11e6-98a1-64006a4c56ef",
-                "paramTypeId": "BBP-002005"
-            }
-        ],
-        "localizer": {
-            "location": 27835,
-            "text": "Although we observed a typical T-type Ca2`\ncurrent in more than 80% of our sample of interneurones\n(n = 34), it was significantly smaller in size (mean maximal\namplitude, 109 +/- 46 pA; n = 11) than that in relay cells\n(289 +/- 131 pA; n = 16)",
+            "location": 19455,
+            "text": "Data are presented as means + S.D. and number of\nobservations (n).",
             "type": "text"
         },
         "parameters": [],
@@ -1567,7 +1288,7 @@
         "version": "1"
     },
     {
-        "annotId": "6de3be7e-a129-11e6-98a4-64006a4c56ef",
+        "annotId": "e7eb14f6-a124-11e6-98a4-64006a4c56ef",
         "authors": [
             "oreilly"
         ],
@@ -1583,8 +1304,252 @@
             }
         ],
         "localizer": {
-            "location": 27835,
-            "text": "Although we observed a typical T-type Ca2`\ncurrent in more than 80% of our sample of interneurones\n(n = 34), it was significantly smaller in size (mean maximal\namplitude, 109 +/- 46 pA; n = 11) than that in relay cells\n(289 +/- 131 pA; n = 16)",
+            "location": 29188,
+            "text": "Threshold (at around -70 mV) and half-activation of IT in local circuit neurones (-54.9 +/- 4.7 mV;\nn = 11) occurred at significantly (P < 0.01) more positive\nvalues of the membrane potential than in relay neurones\n(threshold at -80 mV; half-activation at -64.5 +/- 7.0 mV;\nn = 17)",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-090001",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "mV",
+                                    "values": [
+                                        -54.9
+                                    ]
+                                },
+                                {
+                                    "statistic": "deviation",
+                                    "type": "simple",
+                                    "unit": "mV",
+                                    "values": [
+                                        4.7
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        11.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "3d473ea2-a125-11e6-98a4-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_46",
+                        "name": "Thalamus interneuron small",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "BBP_nlx_0011",
+                        "name": "Low threshold calcium T-current",
+                        "rootId": "NIFMOL:nifext_8054"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-090001",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "mV",
+                                    "values": [
+                                        -64.5
+                                    ]
+                                },
+                                {
+                                    "statistic": "deviation",
+                                    "type": "simple",
+                                    "unit": "mV",
+                                    "values": [
+                                        7.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        17.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "57512f7e-a125-11e6-98a4-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nlx_cell_20081203",
+                        "name": "Thalamus relay cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "BBP_nlx_0011",
+                        "name": "Low threshold calcium T-current",
+                        "rootId": "NIFMOL:nifext_8054"
+                    }
+                ]
+            }
+        ],
+        "pubId": "PMID_7965855",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "UBERON:0001926",
+                "name": "lateral geniculate body"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "ef3cbcc4-a123-11e6-98a4-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "6d371076-a11e-11e6-b300-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            },
+            {
+                "instanceId": "5d175146-a11f-11e6-98a1-64006a4c56ef",
+                "paramTypeId": "BBP-002005"
+            }
+        ],
+        "localizer": {
+            "location": 47648,
+            "text": "When the difference in\nmembrane surface area between the two types of cells is\ntaken into account (see above), the maximal A-conductance\nis slightly (P< 0 01) higher in interneurones (9.6 pS/um2)\ncompared with that in relay cells (8.0 pS/um2).",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "pS/um**2",
+                            "values": [
+                                9.6
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "2c65325c-a124-11e6-98a4-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_46",
+                        "name": "Thalamus interneuron small",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "GO:0097458",
+                        "name": "neuron part",
+                        "rootId": "GO:0097458"
+                    },
+                    {
+                        "id": "NIFMOL:nlx_mol_20081201",
+                        "name": "A current",
+                        "rootId": "NIFMOL:nifext_8054"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "pS/um**2",
+                            "values": [
+                                8.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "43e8bb2e-a124-11e6-98a4-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nlx_cell_20081203",
+                        "name": "Thalamus relay cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "GO:0097458",
+                        "name": "neuron part",
+                        "rootId": "GO:0097458"
+                    },
+                    {
+                        "id": "NIFMOL:nlx_mol_20081201",
+                        "name": "A current",
+                        "rootId": "NIFMOL:nifext_8054"
+                    }
+                ]
+            }
+        ],
+        "pubId": "PMID_7965855",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "UBERON:0001926",
+                "name": "lateral geniculate body"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "f7cacca8-a120-11e6-98a4-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "6d371076-a11e-11e6-b300-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            },
+            {
+                "instanceId": "5d175146-a11f-11e6-98a1-64006a4c56ef",
+                "paramTypeId": "BBP-002005"
+            }
+        ],
+        "localizer": {
+            "location": 19985,
+            "text": "In a population of\nacutely dissociated rat LGN cells, neurones possessing a\nmultipolar cell body (14-25 ,um in diameter) giving rise to\nthree to five bifurcating dendrites (1-3 ,um in diameter)\nextending up to 30 ,um from the soma, and smaller\nneurones (around 10 ,um in diameter) of a fusiform or oval\nshape with processes emerging from opposite poles of the\nsoma were easily distinguishable (Fig. 1A).",
             "type": "text"
         },
         "parameters": [],
