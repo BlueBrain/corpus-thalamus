@@ -400,8 +400,8 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:nlx_cell_20081203",
-                        "name": "Thalamus relay cell",
+                        "id": "NIFCELL:nifext_46",
+                        "name": "Thalamus interneuron small",
                         "rootId": "NIFCELL:sao1813327414"
                     }
                 ]
