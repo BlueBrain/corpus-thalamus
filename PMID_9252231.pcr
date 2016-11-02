@@ -139,5 +139,83 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "afa1363a-a119-11e6-b300-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "b9fc2230-a118-11e6-b300-64006a4c56ef",
+                "paramTypeId": "BBP-002002"
+            },
+            {
+                "instanceId": "d84c0c82-a118-11e6-b300-64006a4c56ef",
+                "paramTypeId": "BBP-002003"
+            }
+        ],
+        "localizer": {
+            "location": 13088,
+            "text": "with our patch pipettes, interneurons exhibited a dramatically higher input resistance than\nrelay cells (682.6 +/- 183.6 vs 118.7 +/- 45.7 MOhm , respectively; mean S.D.) and a longer membrane time-constant (101.2 +/- 19.3 vs 22.5 +/- 7.1 ms).",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-990018",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "M*Ohm",
+                                    "values": [
+                                        682.6
+                                    ]
+                                },
+                                {
+                                    "statistic": "sd",
+                                    "type": "simple",
+                                    "unit": "M*Ohm",
+                                    "values": [
+                                        183.6
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        11.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "134b8a28-a11a-11e6-b300-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_46",
+                        "name": "Thalamus interneuron small",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "PMID_9252231",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
     }
 ]
