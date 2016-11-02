@@ -1300,5 +1300,40 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "91ac9db4-a127-11e6-98a4-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "6d371076-a11e-11e6-b300-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            },
+            {
+                "instanceId": "5d175146-a11f-11e6-98a1-64006a4c56ef",
+                "paramTypeId": "BBP-002005"
+            }
+        ],
+        "localizer": {
+            "location": 34075,
+            "text": "The\ntime course of recovery from inactivation of IT was\napproximated best by a single exponential function, and\nthe mean time constants were very similar in both types of\nneurones (218.1 +/- 26.1 ms in 5 interneurones; 205.9 +/- 51.9 ms\nin 6 relay cells).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_7965855",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "UBERON:0001926",
+                "name": "lateral geniculate body"
+            }
+        ],
+        "version": "1"
     }
 ]
