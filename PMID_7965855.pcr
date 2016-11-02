@@ -784,5 +784,40 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "e7eb14f6-a124-11e6-98a4-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "6d371076-a11e-11e6-b300-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            },
+            {
+                "instanceId": "5d175146-a11f-11e6-98a1-64006a4c56ef",
+                "paramTypeId": "BBP-002005"
+            }
+        ],
+        "localizer": {
+            "location": 29188,
+            "text": "Threshold (at around -70 mV) and half-activation of IT in local circuit neurones (-54.9 +/- 4.7 mV;\nn = 11) occurred at significantly (P < 0.01) more positive\nvalues of the membrane potential than in relay neurones\n(threshold at -80 mV; half-activation at -64.5 +/- 7.0 mV;\nn = 17)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_7965855",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "UBERON:0001926",
+                "name": "lateral geniculate body"
+            }
+        ],
+        "version": "1"
     }
 ]
