@@ -117,5 +117,27 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "f6aa15de-a118-11e6-b300-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 12815,
+            "text": "We studied the nicotinic receptor-mediated responses in 37 relay cells and 11 interneurons in the\nrat\u2019s LGN.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9252231",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
     }
 ]
