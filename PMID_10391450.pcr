@@ -1,0 +1,70 @@
+[
+    {
+        "annotId": "c2adb1fc-a116-11e6-b300-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "62078f52-a10d-11e6-b300-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            },
+            {
+                "instanceId": "9fad5cba-a10d-11e6-b300-64006a4c56ef",
+                "paramTypeId": "BBP-002003"
+            },
+            {
+                "instanceId": "e859b1ca-a10d-11e6-b300-64006a4c56ef",
+                "paramTypeId": "BBP-002002"
+            }
+        ],
+        "localizer": {
+            "location": 6219,
+            "text": "Sprague\u2013Dawley rats (Harlan, Indianapolis, IN; four to\n10 weeks old; 100\u2013300 g) were deeply anesthetized using\nhalothane.",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002001",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "min",
+                                    "type": "simple",
+                                    "unit": "week",
+                                    "values": [
+                                        4.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "max",
+                                    "type": "simple",
+                                    "unit": "week",
+                                    "values": [
+                                        10.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "d56caafa-a116-11e6-b300-64006a4c56ef",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "PMID_10391450",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
+    }
+]
