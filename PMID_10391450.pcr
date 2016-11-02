@@ -455,6 +455,10 @@
             {
                 "id": "UBERON:0001926",
                 "name": "lateral geniculate body"
+            },
+            {
+                "id": "nlx_78803",
+                "name": "Burst Firing Pattern"
             }
         ],
         "version": "1"
