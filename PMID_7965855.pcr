@@ -944,7 +944,59 @@
             "text": "the steepness of the activation curve was\nnot significantly different in the two classes of cells\n(k = -4.8 +/- 1.5 vs. -4.9 +/- 0.9 mV^-1).",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-101001",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "mV^-1",
+                                    "values": [
+                                        -4.8
+                                    ]
+                                },
+                                {
+                                    "statistic": "deviation",
+                                    "type": "simple",
+                                    "unit": "mV^-1",
+                                    "values": [
+                                        1.5
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        11.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "a1ee2208-a125-11e6-98a4-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_46",
+                        "name": "Thalamus interneuron small",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "BBP_nlx_0011",
+                        "name": "Low threshold calcium T-current",
+                        "rootId": "NIFMOL:nifext_8054"
+                    }
+                ]
+            }
+        ],
         "pubId": "PMID_7965855",
         "tags": [
             {
