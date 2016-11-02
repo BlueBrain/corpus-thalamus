@@ -707,5 +707,93 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "4a000438-a113-11e6-b300-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "62078f52-a10d-11e6-b300-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            },
+            {
+                "instanceId": "9fad5cba-a10d-11e6-b300-64006a4c56ef",
+                "paramTypeId": "BBP-002003"
+            },
+            {
+                "instanceId": "e859b1ca-a10d-11e6-b300-64006a4c56ef",
+                "paramTypeId": "BBP-002002"
+            }
+        ],
+        "localizer": {
+            "location": 35249,
+            "text": "3\u201315 nS with a patch\nelectrode (our unpublished data; also see Ref. 9)",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "min",
+                                    "type": "simple",
+                                    "unit": "nS",
+                                    "values": [
+                                        3.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "max",
+                                    "type": "simple",
+                                    "unit": "nS",
+                                    "values": [
+                                        15.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "61211fa8-a113-11e6-b300-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nlx_cell_20081203",
+                        "name": "Thalamus relay cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "GO:0097458",
+                        "name": "neuron part",
+                        "rootId": "GO:0097458"
+                    },
+                    {
+                        "id": "BBP_nlx_0018",
+                        "name": "Inward rectifier (h-type) current",
+                        "rootId": "NIFMOL:nifext_8054"
+                    }
+                ]
+            }
+        ],
+        "pubId": "PMID_10408596",
+        "tags": [
+            {
+                "id": "UBERON:0001926",
+                "name": "lateral geniculate body"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
     }
 ]
