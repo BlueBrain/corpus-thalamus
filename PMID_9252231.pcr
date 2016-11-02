@@ -1,0 +1,24 @@
+[
+    {
+        "annotId": "8c80d198-a118-11e6-b300-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 8287,
+            "text": "Experiments were performed in thalamic slices from\nSprague\u2013Dawley rats (100\u2013300 g, Harlan Sprague Dawley,\nInc.)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9252231",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
+    }
+]
