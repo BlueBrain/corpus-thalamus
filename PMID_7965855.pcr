@@ -806,7 +806,59 @@
             "text": "Threshold (at around -70 mV) and half-activation of IT in local circuit neurones (-54.9 +/- 4.7 mV;\nn = 11) occurred at significantly (P < 0.01) more positive\nvalues of the membrane potential than in relay neurones\n(threshold at -80 mV; half-activation at -64.5 +/- 7.0 mV;\nn = 17)",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-090001",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "mV",
+                                    "values": [
+                                        -54.9
+                                    ]
+                                },
+                                {
+                                    "statistic": "deviation",
+                                    "type": "simple",
+                                    "unit": "mV",
+                                    "values": [
+                                        4.7
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        11.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "3d473ea2-a125-11e6-98a4-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_46",
+                        "name": "Thalamus interneuron small",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "BBP_nlx_0011",
+                        "name": "Low threshold calcium T-current",
+                        "rootId": "NIFMOL:nifext_8054"
+                    }
+                ]
+            }
+        ],
         "pubId": "PMID_7965855",
         "tags": [
             {
