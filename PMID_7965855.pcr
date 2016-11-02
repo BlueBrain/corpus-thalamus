@@ -101,7 +101,27 @@
             "text": "For a direct comparison of these groups of cells with living\ncells, a correction factor of 1.35 was calculated to normalize the\nsoma area values.",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002005",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "dimensionless",
+                            "values": [
+                                1.35
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "5d175146-a11f-11e6-98a1-64006a4c56ef",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
         "pubId": "PMID_7965855",
         "tags": [
             {
