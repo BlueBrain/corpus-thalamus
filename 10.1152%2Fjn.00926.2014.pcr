@@ -79,7 +79,7 @@
                                     "type": "simple",
                                     "unit": "dimensionless",
                                     "values": [
-                                        10
+                                        10.0
                                     ]
                                 }
                             ]
@@ -174,7 +174,7 @@
                                     "type": "simple",
                                     "unit": "dimensionless",
                                     "values": [
-                                        10
+                                        10.0
                                     ]
                                 }
                             ]
@@ -269,7 +269,7 @@
                                     "type": "simple",
                                     "unit": "dimensionless",
                                     "values": [
-                                        10
+                                        10.0
                                     ]
                                 }
                             ]
@@ -364,7 +364,7 @@
                                     "type": "simple",
                                     "unit": "dimensionless",
                                     "values": [
-                                        10
+                                        10.0
                                     ]
                                 }
                             ]
@@ -459,7 +459,7 @@
                                     "type": "simple",
                                     "unit": "dimensionless",
                                     "values": [
-                                        10
+                                        10.0
                                     ]
                                 }
                             ]
@@ -554,7 +554,7 @@
                                     "type": "simple",
                                     "unit": "dimensionless",
                                     "values": [
-                                        10
+                                        10.0
                                     ]
                                 }
                             ]
@@ -641,7 +641,7 @@
                                     "type": "simple",
                                     "unit": "dimensionless",
                                     "values": [
-                                        10
+                                        10.0
                                     ]
                                 }
                             ]
@@ -728,7 +728,7 @@
                                     "type": "simple",
                                     "unit": "dimensionless",
                                     "values": [
-                                        10
+                                        10.0
                                     ]
                                 }
                             ]
@@ -771,6 +771,23 @@
                 "name": "Neural circuit model"
             }
         ],
+        "version": "1"
+    },
+    {
+        "annotId": "b8388d14-a0fd-11e6-bef9-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 10910,
+            "text": "Balb/c mice (30 \u2013 40 days of age)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1152/jn.00926.2014",
+        "tags": [],
         "version": "1"
     }
 ]
