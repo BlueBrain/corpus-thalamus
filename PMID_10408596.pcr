@@ -362,5 +362,44 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "a69e0e18-a110-11e6-b300-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "62078f52-a10d-11e6-b300-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            },
+            {
+                "instanceId": "9fad5cba-a10d-11e6-b300-64006a4c56ef",
+                "paramTypeId": "BBP-002003"
+            },
+            {
+                "instanceId": "e859b1ca-a10d-11e6-b300-64006a4c56ef",
+                "paramTypeId": "BBP-002002"
+            }
+        ],
+        "localizer": {
+            "location": 19299,
+            "text": "The mean reversal potential of the Ih estimated by this measure in four interneurons was\n-44.7 +/- 2.9 mV.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_10408596",
+        "tags": [
+            {
+                "id": "UBERON:0001926",
+                "name": "lateral geniculate body"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
     }
 ]
