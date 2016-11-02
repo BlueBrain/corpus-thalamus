@@ -544,5 +544,80 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "9d2ab4ce-a112-11e6-b300-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "62078f52-a10d-11e6-b300-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            },
+            {
+                "instanceId": "9fad5cba-a10d-11e6-b300-64006a4c56ef",
+                "paramTypeId": "BBP-002003"
+            },
+            {
+                "instanceId": "e859b1ca-a10d-11e6-b300-64006a4c56ef",
+                "paramTypeId": "BBP-002002"
+            }
+        ],
+        "localizer": {
+            "location": 32198,
+            "text": "the mean value of I h conductance (0.13 mS/cm 2 )",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "mean",
+                            "type": "simple",
+                            "unit": "mS/cm**2",
+                            "values": [
+                                0.13
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "c99073aa-a112-11e6-b300-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_46",
+                        "name": "Thalamus interneuron small",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "GO:0097458",
+                        "name": "neuron part",
+                        "rootId": "GO:0097458"
+                    },
+                    {
+                        "id": "BBP_nlx_0018",
+                        "name": "Inward rectifier (h-type) current",
+                        "rootId": "NIFMOL:nifext_8054"
+                    }
+                ]
+            }
+        ],
+        "pubId": "PMID_10408596",
+        "tags": [
+            {
+                "id": "UBERON:0001926",
+                "name": "lateral geniculate body"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
     }
 ]
