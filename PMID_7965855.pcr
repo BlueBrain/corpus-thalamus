@@ -1082,7 +1082,59 @@
             "text": "Approximation of a Boltzmann\nfunction (eqn (1)) to the data points indicated the range of\nsteady-state inactivation of IT in the two types of cells\n(filled and open squares in Fig. 5B), with a significantly\n(P< 0.05) different value of half-inactivation in\ninterneurones ( Vh = -81.1 +/- 5.1 mV, k = 4.6 +/- 1.1 mV^-1;\nn = 11) and in relay cells (Vh = -86.1 +/- 5.8 mV,\nk=4.9 +/- 1.0 mV^-1; n=30).",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-090002",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "mV",
+                                    "values": [
+                                        -81.1
+                                    ]
+                                },
+                                {
+                                    "statistic": "deviation",
+                                    "type": "simple",
+                                    "unit": "mV",
+                                    "values": [
+                                        5.1
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        11.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "ea9b5a1a-a126-11e6-98a4-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_46",
+                        "name": "Thalamus interneuron small",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "BBP_nlx_0011",
+                        "name": "Low threshold calcium T-current",
+                        "rootId": "NIFMOL:nifext_8054"
+                    }
+                ]
+            }
+        ],
         "pubId": "PMID_7965855",
         "tags": [
             {
