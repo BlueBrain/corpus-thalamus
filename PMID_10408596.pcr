@@ -795,5 +795,80 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "823e5fca-a113-11e6-b300-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "62078f52-a10d-11e6-b300-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            },
+            {
+                "instanceId": "9fad5cba-a10d-11e6-b300-64006a4c56ef",
+                "paramTypeId": "BBP-002003"
+            },
+            {
+                "instanceId": "e859b1ca-a10d-11e6-b300-64006a4c56ef",
+                "paramTypeId": "BBP-002002"
+            }
+        ],
+        "localizer": {
+            "location": 25000,
+            "text": "The amplitudes of Ih currents exhibited a scattered distribution between 12.8 and\n159.5 pA, with a mean value of 56.6 +/- 32.1 pA\n(Fig. 7B). This gave a maximal Ih conductance\nof 1.02 nS, assuming its reversal potential to\nbe -44 mV {i.e. g = I/(Vm - Eh ) = -57 pA/\n[-100 mV - (-44 mV)] = 1.02 nA}. This conductance value might be slightly underestimated\nbecause Ih was activated by the commanding hyperpolarizing voltage step from -60 mV, where about\n5% of Ih channels were already activated (see Fig.\n6C).",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "mean",
+                            "type": "simple",
+                            "unit": "nA",
+                            "values": [
+                                1.02
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "ced9d440-a113-11e6-b300-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_46",
+                        "name": "Thalamus interneuron small",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "GO:0097458",
+                        "name": "neuron part",
+                        "rootId": "GO:0097458"
+                    },
+                    {
+                        "id": "BBP_nlx_0018",
+                        "name": "Inward rectifier (h-type) current",
+                        "rootId": "NIFMOL:nifext_8054"
+                    }
+                ]
+            }
+        ],
+        "pubId": "PMID_10408596",
+        "tags": [
+            {
+                "id": "UBERON:0001926",
+                "name": "lateral geniculate body"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
     }
 ]
