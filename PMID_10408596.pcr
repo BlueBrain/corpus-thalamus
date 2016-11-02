@@ -155,7 +155,7 @@
                                     ]
                                 },
                                 {
-                                    "statistic": "deviation",
+                                    "statistic": "sd",
                                     "type": "simple",
                                     "unit": "degC",
                                     "values": [
