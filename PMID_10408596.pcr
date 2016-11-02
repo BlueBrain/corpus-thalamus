@@ -453,5 +453,44 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "0f117138-a111-11e6-b300-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "62078f52-a10d-11e6-b300-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            },
+            {
+                "instanceId": "9fad5cba-a10d-11e6-b300-64006a4c56ef",
+                "paramTypeId": "BBP-002003"
+            },
+            {
+                "instanceId": "e859b1ca-a10d-11e6-b300-64006a4c56ef",
+                "paramTypeId": "BBP-002002"
+            }
+        ],
+        "localizer": {
+            "location": 22083,
+            "text": "The mean reversal potential of Ih\nin five interneurons obtained using this method was\n-44.2 +/- 3.0 mV.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_10408596",
+        "tags": [
+            {
+                "id": "UBERON:0001926",
+                "name": "lateral geniculate body"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
     }
 ]
