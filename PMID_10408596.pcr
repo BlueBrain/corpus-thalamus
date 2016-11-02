@@ -405,7 +405,7 @@
                                     ]
                                 },
                                 {
-                                    "statistic": "deviation",
+                                    "statistic": "sd",
                                     "type": "simple",
                                     "unit": "mV",
                                     "values": [
