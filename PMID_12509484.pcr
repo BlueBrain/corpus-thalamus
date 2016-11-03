@@ -259,7 +259,83 @@
             "no": "3.C",
             "type": "figure"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-080004",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "ms",
+                                    "values": [
+                                        83.0,
+                                        91.0,
+                                        94.0,
+                                        102.0,
+                                        85.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "deviation",
+                                    "type": "simple",
+                                    "unit": "ms",
+                                    "values": [
+                                        6.0,
+                                        8.0,
+                                        9.0,
+                                        8.0,
+                                        4.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        11.0,
+                                        12.0,
+                                        12.0,
+                                        8.0,
+                                        16.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "indepVars": [
+                        {
+                            "typeId": "BBP-002001",
+                            "values": {
+                                "statistic": "raw",
+                                "type": "simple",
+                                "unit": "dimensionless",
+                                "values": [
+                                    7.0,
+                                    14.0,
+                                    21.0,
+                                    28.0,
+                                    35.0
+                                ]
+                            }
+                        }
+                    ],
+                    "type": "numericalTrace"
+                },
+                "id": "5886ae5c-a1b4-11e6-8ba4-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_46",
+                        "name": "Thalamus interneuron small",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
         "pubId": "PMID_12509484",
         "tags": [
             {
