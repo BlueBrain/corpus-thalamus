@@ -193,6 +193,18 @@
                                         68.0,
                                         29.0
                                     ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        11.0,
+                                        12.0,
+                                        12.0,
+                                        8.0,
+                                        16.0
+                                    ]
                                 }
                             ]
                         }
