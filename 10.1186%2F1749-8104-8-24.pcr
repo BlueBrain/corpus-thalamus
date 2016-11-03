@@ -121,5 +121,72 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "0103bf7c-a1a9-11e6-98a4-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 23409,
+            "text": "The overall density of interneurons was determined by\ncounting GFP positive cells within the boundaries of dLGN.\nThese measurements were obtained from 2 to 3 sections\ncorresponding to the middle of dLGN (n = 3 mice; P7, P9,\nand P26).",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002001",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "raw",
+                                    "type": "simple",
+                                    "unit": "day",
+                                    "values": [
+                                        7.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "raw",
+                                    "type": "simple",
+                                    "unit": "day",
+                                    "values": [
+                                        9.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "raw",
+                                    "type": "simple",
+                                    "unit": "day",
+                                    "values": [
+                                        26.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "80436530-a1a9-11e6-98a4-64006a4c56ef",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "10.1186/1749-8104-8-24",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "UBERON:0002479",
+                "name": "dorsal lateral geniculate nucleus"
+            }
+        ],
+        "version": "1"
     }
 ]
