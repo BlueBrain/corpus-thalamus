@@ -80,6 +80,25 @@
                         "rootId": "NIFGA:birnlex_1167"
                     }
                 ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002004",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "um",
+                            "values": [
+                                70.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "63006312-a1a7-11e6-98a4-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": []
             }
         ],
         "pubId": "10.1186/1749-8104-8-24",
