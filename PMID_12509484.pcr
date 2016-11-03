@@ -1,0 +1,29 @@
+[
+    {
+        "annotId": "eccf13c0-a1ae-11e6-98a4-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "80436530-a1a9-11e6-98a4-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "location": 8381,
+            "text": "Experiments were performed in brain slices prepared from\npostnatal (P) 6- to 36-day-old rats, as previously described (Zhu &\nLo, 1999; Zhu, 2000).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_12509484",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            }
+        ],
+        "version": "1"
+    }
+]
