@@ -67,5 +67,32 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "ceb12242-a1b9-11e6-a4e8-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "3237c6a6-a1b8-11e6-a93d-64006a4c56ef",
+                "paramTypeId": "BBP-002002"
+            }
+        ],
+        "localizer": {
+            "location": 7288,
+            "text": "The tissue shrank\nby about 10% horizontally and about 50% vertically.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1046/j.1460-9568.2003.02579.x",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
     }
 ]
