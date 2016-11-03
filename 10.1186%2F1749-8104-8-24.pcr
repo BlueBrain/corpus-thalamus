@@ -24,5 +24,75 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "e611df98-a1a6-11e6-98a4-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 5480,
+            "text": "From fixed tissue and 70 \u03bcm thick coronal sections through the middle of dLGN, the average density of\nGFP positive interneurons in dLGN was around one to\ntwo cells per 2500 \u03bcm^2 .",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131001",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "min",
+                                    "type": "simple",
+                                    "unit": "1/(2500*um^2)",
+                                    "values": [
+                                        1.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "max",
+                                    "type": "simple",
+                                    "unit": "1/(2500*um^2)",
+                                    "values": [
+                                        2.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "553e1e18-a1a7-11e6-98a4-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_46",
+                        "name": "Thalamus interneuron small",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "UBERON:0002479",
+                        "name": "dorsal lateral geniculate nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1186/1749-8104-8-24",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "UBERON:0002479",
+                "name": "dorsal lateral geniculate nucleus"
+            }
+        ],
+        "version": "1"
     }
 ]
