@@ -60,6 +60,14 @@
                                     "values": [
                                         2.0
                                     ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        3.0
+                                    ]
                                 }
                             ]
                         }
