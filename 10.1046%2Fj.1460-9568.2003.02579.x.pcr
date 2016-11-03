@@ -35,5 +35,27 @@
         "pubId": "10.1046/j.1460-9568.2003.02579.x",
         "tags": [],
         "version": "1"
+    },
+    {
+        "annotId": "3921540a-a1b8-11e6-a93d-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "3237c6a6-a1b8-11e6-a93d-64006a4c56ef",
+                "paramTypeId": "BBP-002002"
+            }
+        ],
+        "localizer": {
+            "location": 7966,
+            "text": "Adult Sprague\u2013Dawley rats (100\u2013300 g)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1046/j.1460-9568.2003.02579.x",
+        "tags": [],
+        "version": "1"
     }
 ]
