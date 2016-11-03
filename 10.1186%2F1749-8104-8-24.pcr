@@ -308,15 +308,27 @@
                             "type": "compound",
                             "valueLst": [
                                 {
-                                    "statistic": "raw",
+                                    "statistic": "mean",
                                     "type": "simple",
                                     "unit": "G*Ohm",
                                     "values": [
-                                        1.0,
-                                        2.0,
-                                        3.0,
-                                        4.0,
-                                        5.0
+                                        1.722,
+                                        0.992,
+                                        0.745,
+                                        0.784,
+                                        0.777
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        6.0,
+                                        15.0,
+                                        27.0,
+                                        14.0,
+                                        10.0
                                     ]
                                 }
                             ]
@@ -345,8 +357,8 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
+                        "id": "NIFCELL:nifext_46",
+                        "name": "Thalamus interneuron small",
                         "rootId": "NIFCELL:sao1813327414"
                     }
                 ]
