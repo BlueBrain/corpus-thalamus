@@ -760,6 +760,31 @@
                         "rootId": "NIFCELL:sao1813327414"
                     }
                 ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-121003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "um^2",
+                            "values": [
+                                19231.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "d1866b6e-a1bc-11e6-a4e8-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_46",
+                        "name": "Thalamus interneuron small",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
             }
         ],
         "pubId": "10.1046/j.1460-9568.2003.02579.x",
