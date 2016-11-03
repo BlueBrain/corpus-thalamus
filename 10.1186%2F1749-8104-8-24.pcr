@@ -13,7 +13,16 @@
         },
         "parameters": [],
         "pubId": "10.1186/1749-8104-8-24",
-        "tags": [],
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "UBERON:0002479",
+                "name": "dorsal lateral geniculate nucleus"
+            }
+        ],
         "version": "1"
     }
 ]
