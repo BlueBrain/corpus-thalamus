@@ -85,7 +85,27 @@
             "text": "The tissue shrank\nby about 10% horizontally and about 50% vertically.",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-0020010",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "percent",
+                            "values": [
+                                10.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "e7c25648-a1b9-11e6-a4e8-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": []
+            }
+        ],
         "pubId": "10.1046/j.1460-9568.2003.02579.x",
         "tags": [
             {
