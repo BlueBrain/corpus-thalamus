@@ -884,6 +884,14 @@
                                     "values": [
                                         158.0
                                     ]
+                                },
+                                {
+                                    "statistic": "max",
+                                    "type": "simple",
+                                    "unit": "um",
+                                    "values": [
+                                        724.0
+                                    ]
                                 }
                             ]
                         }
