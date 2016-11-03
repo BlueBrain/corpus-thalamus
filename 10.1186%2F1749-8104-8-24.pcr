@@ -299,7 +299,59 @@
             "no": "2.B",
             "type": "figure"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-990018",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "raw",
+                                    "type": "simple",
+                                    "unit": "G*Ohm",
+                                    "values": [
+                                        1.0,
+                                        2.0,
+                                        3.0,
+                                        4.0,
+                                        5.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "indepVars": [
+                        {
+                            "typeId": "BBP-002001",
+                            "values": {
+                                "statistic": "raw",
+                                "type": "simple",
+                                "unit": "week",
+                                "values": [
+                                    1.0,
+                                    2.0,
+                                    3.0,
+                                    4.0,
+                                    5.0
+                                ]
+                            }
+                        }
+                    ],
+                    "type": "numericalTrace"
+                },
+                "id": "7b729c8a-a1ac-11e6-98a4-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
         "pubId": "10.1186/1749-8104-8-24",
         "tags": [
             {
