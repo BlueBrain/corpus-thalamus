@@ -481,11 +481,37 @@
         ],
         "localizer": {
             "no": "1",
-            "noCol": null,
-            "noRow": null,
+            "noCol": "None",
+            "noRow": "None",
             "type": "table"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-990018",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "M*Ohm",
+                            "values": [
+                                103.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "36e84190-a1bc-11e6-a4e8-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nlx_cell_20081203",
+                        "name": "Thalamus relay cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
         "pubId": "10.1046/j.1460-9568.2003.02579.x",
         "tags": [
             {
