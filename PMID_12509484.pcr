@@ -441,5 +441,27 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "28bbce16-a1d0-11e6-a4e8-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 9657,
+            "text": "Liquid junction potential was not subtracted.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_12509484",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            }
+        ],
+        "version": "1"
     }
 ]
