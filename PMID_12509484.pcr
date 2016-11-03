@@ -69,7 +69,7 @@
             {
                 "description": {
                     "depVar": {
-                        "typeId": "BBP-021000",
+                        "typeId": "BBP-010002",
                         "values": {
                             "type": "compound",
                             "valueLst": [
@@ -135,8 +135,8 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:nifext_46",
-                        "name": "Thalamus interneuron small",
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
                         "rootId": "NIFCELL:sao1813327414"
                     }
                 ]
