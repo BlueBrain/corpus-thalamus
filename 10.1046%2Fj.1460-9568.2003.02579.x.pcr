@@ -11,7 +11,27 @@
             "text": "Physiological measurements were made at 34 degC",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002002",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "degC",
+                            "values": [
+                                34.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "3237c6a6-a1b8-11e6-a93d-64006a4c56ef",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
         "pubId": "10.1046/j.1460-9568.2003.02579.x",
         "tags": [],
         "version": "1"
