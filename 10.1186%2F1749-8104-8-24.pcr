@@ -31,7 +31,12 @@
             "oreilly"
         ],
         "comment": "",
-        "experimentProperties": [],
+        "experimentProperties": [
+            {
+                "instanceId": "80436530-a1a9-11e6-98a4-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
         "localizer": {
             "location": 5480,
             "text": "From fixed tissue and 70 \u03bcm thick coronal sections through the middle of dLGN, the average density of\nGFP positive interneurons in dLGN was around one to\ntwo cells per 2500 \u03bcm^2 .",
