@@ -344,5 +344,26 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "5bec10d2-a1b4-11e6-8ba4-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "3.D",
+            "type": "figure"
+        },
+        "parameters": [],
+        "pubId": "PMID_12509484",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            }
+        ],
+        "version": "1"
     }
 ]
