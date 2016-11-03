@@ -133,5 +133,33 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "9c60870a-a1ba-11e6-a4e8-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "3237c6a6-a1b8-11e6-a93d-64006a4c56ef",
+                "paramTypeId": "BBP-002002"
+            }
+        ],
+        "localizer": {
+            "no": "2",
+            "noCol": null,
+            "noRow": null,
+            "type": "table"
+        },
+        "parameters": [],
+        "pubId": "10.1046/j.1460-9568.2003.02579.x",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
     }
 ]
