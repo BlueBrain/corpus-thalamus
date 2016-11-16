@@ -1,1 +1,32 @@
-[{"annotId": "c90e8bf6-ca67-11e5-aefd-64006a4c56ef", "comment": "AC: Arousal correlated\nSV: Spindle correlated", "localizer": {"location": 11760, "text": "Thus, in SWS, two functional TRN subpopulations are observed:\none that is spindle correlated (SC) and another that is AC.", "type": "text"}, "parameters": [], "version": "1", "pubId": "10.1016/j.cell.2014.06.025", "tags": {"GO_0030431": "Sleep", "birnlex_1721": "Thalamic reticular nucleus", "birnlex_167": "Mouse"}, "authors": ["oreilly"]}]
+[
+    {
+        "annotId": "c90e8bf6-ca67-11e5-aefd-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "AC: Arousal correlated\nSV: Spindle correlated",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 11760,
+            "text": "Thus, in SWS, two functional TRN subpopulations are observed:\none that is spindle correlated (SC) and another that is AC.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1016/j.cell.2014.06.025",
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_1721",
+                "name": "Thalamic reticular nucleus"
+            },
+            {
+                "id": "GO:0030431",
+                "name": "sleep"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
+    }
+]

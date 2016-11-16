@@ -17,7 +17,7 @@
                     "depVar": {
                         "typeId": "BBP-010002",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
@@ -44,7 +44,7 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nifext_41",
                         "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
                     }
@@ -90,14 +90,14 @@
                     "depVar": {
                         "typeId": "BBP-010002",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
                                     "type": "simple",
                                     "unit": "mV",
                                     "values": [
-                                        -65
+                                        -65.0
                                     ]
                                 },
                                 {
@@ -117,7 +117,7 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nifext_41",
                         "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
                     }
@@ -144,7 +144,8 @@
     {
         "annotId": "12b5b7a4-fa4a-11e5-b687-64006a4c56ef",
         "authors": [
-            "oreilly"
+            "oreilly",
+            "iavarone"
         ],
         "comment": "There appear to be a mistake in the text, with input resistance specified on the mOhm (milli Ohm) instead of in MOhm (mega Ohm). We annotated the parameter as being in MOhm.",
         "experimentProperties": [],
@@ -159,7 +160,7 @@
                     "depVar": {
                         "typeId": "BBP-990018",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
@@ -186,7 +187,7 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nifext_41",
                         "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
                     }
@@ -228,7 +229,7 @@
                     "depVar": {
                         "typeId": "BBP-990018",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
@@ -243,7 +244,7 @@
                                     "type": "simple",
                                     "unit": "MOhm",
                                     "values": [
-                                        31
+                                        31.0
                                     ]
                                 }
                             ]
@@ -255,7 +256,7 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nifext_41",
                         "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
                     }

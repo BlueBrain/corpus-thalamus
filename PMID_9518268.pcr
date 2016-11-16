@@ -1,0 +1,428 @@
+[
+    {
+        "annotId": "188f59a4-7e67-11e6-a9f2-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 6272,
+            "text": "Reticular tiers projecting to first-order nuclei display a\nwell-defined topography, whereas those projecting to\nhigher-order nuclei seem not to (Crabtree, 1996).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9518268",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "UBERON:0004529",
+                "name": "anatomical projection"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "7bef7f2c-7f04-11e6-a9f2-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 35912,
+            "text": "One aspect of the connectivity of the Rt cells with thalamic neurons is that the\nspatial distribution of the Rt terminal boutons matched\nthe geometry of the somatodendritic architecture of the\ncorresponding postsynaptic neurons.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9518268",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "05d11e1a-7f0c-11e6-a9f2-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 40217,
+            "text": "We were unable to classify the axonal arborizations of\nthe juxtacellularly labeled Rt neurons into three catego-\nries, as did Cox et al. (1996).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9518268",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "4af92644-7f12-11e6-a9f2-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 43125,
+            "text": "first-order (e.g., VP) and higher-order (e.g., LP or Po)\nthalamic nuclei, which contain, respectively, bushy versus\nstarlike relay cells (i.e., Buschzell vs. Strahlenzell; von\nKo \u0308lliker, 1896)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9518268",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "e32c79d2-7f14-11e6-a9f2-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 50297,
+            "text": "we\nobserved that Rt cells with nonoverlapping dendritic ar-\nbors projected into distinct thalamic territories (Fig.\n16A1,C) and those with overlapping dendritic fields gener-\nally projected within a common subnuclear thalamic region (Fig. 16A2)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9518268",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "39bac84e-7f15-11e6-a9f2-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 49466,
+            "text": "Most cortical and thalamic axons collateralize in the Rt\nand pass through it in an orderly array to form an\norganized network of parallel connection lines",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9518268",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "c500e078-7f15-11e6-a9f2-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 52139,
+            "text": "a single locus in the Rt innervates a small\nregion within a single thalamic nucleus and, occasionally,\nmay innervates two distinct but functionally related tha-\nlamic territories",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9518268",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "4309a3ec-8ae2-11e6-b1c7-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 12159,
+            "text": "Sprague-Dawley rats (280\u2013350 g)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9518268",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "8a6de18a-8ae2-11e6-b1c7-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 12453,
+            "text": "Frontal, horizontal, or sagittal\n60\u2013100-\u03bcm brain sections were cut with a vibratome",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9518268",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "eb4f3fd0-8ae2-11e6-b1c7-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 15337,
+            "text": "reconstructed with the aid of a camera lucida attachment from serial sections using 40\u03eb and/or 100\u03eb objectives, 18 of which were handmade two-dimensional (2D) drawings and 14 of which were computer-aided three-dimensional (3D) reconstructions (Neurolucida, Microbrightfield, Colchester, VT).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9518268",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "11ccdaf0-8ae3-11e6-b1c7-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 21225,
+            "text": "The shrinkage factor had values\nranging from 1.05 to 1.18 (1.11 +/- 0.05) along the x and y\naxes and from 1.66 to 3.33 (2.98 +/- 0.58) along the z axis\n(thickness).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9518268",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
+    }
+]

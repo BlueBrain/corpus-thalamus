@@ -22,14 +22,14 @@
                     "depVar": {
                         "typeId": "BBP-002001",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "min",
                                     "type": "simple",
                                     "unit": "d",
                                     "values": [
-                                        7
+                                        7.0
                                     ]
                                 },
                                 {
@@ -37,7 +37,7 @@
                                     "type": "simple",
                                     "unit": "d",
                                     "values": [
-                                        12
+                                        12.0
                                     ]
                                 }
                             ]
@@ -53,16 +53,16 @@
         "pubId": "PMID_1403085",
         "tags": [
             {
-                "id": "NIFORG:birnlex_160",
-                "name": "Rat"
-            },
-            {
                 "id": "NIFGA:birnlex_1116",
                 "name": "Ventral posterior nucleus"
             },
             {
                 "id": "UBERON:0001903",
                 "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
             }
         ],
         "version": "1"
@@ -94,7 +94,7 @@
                             "type": "simple",
                             "unit": "mV",
                             "values": [
-                                -40
+                                -40.0
                             ]
                         }
                     },
@@ -104,12 +104,12 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nifext_45",
                         "name": "Thalamic reticular nucleus cell",
                         "rootId": "sao1813327414"
                     },
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0011",
                         "name": "Low threshold calcium T-current",
                         "rootId": "nifext_8054"
                     }
@@ -124,7 +124,7 @@
                             "type": "simple",
                             "unit": "mV",
                             "values": [
-                                -50
+                                -50.0
                             ]
                         }
                     },
@@ -134,12 +134,12 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nifext_41",
                         "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
                     },
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0011",
                         "name": "Low threshold calcium T-current",
                         "rootId": "nifext_8054"
                     }
@@ -154,7 +154,7 @@
                             "type": "simple",
                             "unit": "mV",
                             "values": [
-                                -10
+                                -10.0
                             ]
                         }
                     },
@@ -164,12 +164,12 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nifext_45",
                         "name": "Thalamic reticular nucleus cell",
                         "rootId": "sao1813327414"
                     },
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0011",
                         "name": "Low threshold calcium T-current",
                         "rootId": "nifext_8054"
                     }
@@ -184,7 +184,7 @@
                             "type": "simple",
                             "unit": "mV",
                             "values": [
-                                -30
+                                -30.0
                             ]
                         }
                     },
@@ -194,12 +194,12 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nifext_41",
                         "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
                     },
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0011",
                         "name": "Low threshold calcium T-current",
                         "rootId": "nifext_8054"
                     }
@@ -209,10 +209,6 @@
         "pubId": "PMID_1403085",
         "tags": [
             {
-                "id": "NIFORG:birnlex_160",
-                "name": "Rat"
-            },
-            {
                 "id": "NIFGA:birnlex_1116",
                 "name": "Ventral posterior nucleus"
             },
@@ -221,16 +217,8 @@
                 "name": "thalamic reticular nucleus"
             },
             {
-                "id": "NIFORG:birnlex_160",
-                "name": "Rat"
-            },
-            {
-                "id": "NIFGA:birnlex_1116",
-                "name": "Ventral posterior nucleus"
-            },
-            {
-                "id": "UBERON:0001903",
-                "name": "thalamic reticular nucleus"
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
             }
         ],
         "version": "1"
@@ -258,14 +246,14 @@
                     "depVar": {
                         "typeId": "BBP-071001",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
                                     "type": "simple",
                                     "unit": "pA",
                                     "values": [
-                                        280
+                                        280.0
                                     ]
                                 },
                                 {
@@ -273,7 +261,7 @@
                                     "type": "simple",
                                     "unit": "pA",
                                     "values": [
-                                        23
+                                        23.0
                                     ]
                                 },
                                 {
@@ -281,7 +269,7 @@
                                     "type": "simple",
                                     "unit": "dimensionless",
                                     "values": [
-                                        26
+                                        26.0
                                     ]
                                 }
                             ]
@@ -293,12 +281,12 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nifext_41",
                         "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
                     },
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0011",
                         "name": "Low threshold calcium T-current",
                         "rootId": "nifext_8054"
                     }
@@ -309,14 +297,14 @@
                     "depVar": {
                         "typeId": "BBP-071001",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
                                     "type": "simple",
                                     "unit": "pA",
                                     "values": [
-                                        131
+                                        131.0
                                     ]
                                 },
                                 {
@@ -324,7 +312,7 @@
                                     "type": "simple",
                                     "unit": "pA",
                                     "values": [
-                                        15
+                                        15.0
                                     ]
                                 },
                                 {
@@ -332,7 +320,7 @@
                                     "type": "simple",
                                     "unit": "dimensionless",
                                     "values": [
-                                        23
+                                        23.0
                                     ]
                                 }
                             ]
@@ -344,12 +332,12 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nifext_45",
                         "name": "Thalamic reticular nucleus cell",
                         "rootId": "sao1813327414"
                     },
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0011",
                         "name": "Low threshold calcium T-current",
                         "rootId": "nifext_8054"
                     }
@@ -359,10 +347,6 @@
         "pubId": "PMID_1403085",
         "tags": [
             {
-                "id": "NIFORG:birnlex_160",
-                "name": "Rat"
-            },
-            {
                 "id": "NIFGA:birnlex_1116",
                 "name": "Ventral posterior nucleus"
             },
@@ -371,16 +355,8 @@
                 "name": "thalamic reticular nucleus"
             },
             {
-                "id": "NIFORG:birnlex_160",
-                "name": "Rat"
-            },
-            {
-                "id": "NIFGA:birnlex_1116",
-                "name": "Ventral posterior nucleus"
-            },
-            {
-                "id": "UBERON:0001903",
-                "name": "thalamic reticular nucleus"
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
             }
         ],
         "version": "1"
@@ -408,7 +384,7 @@
                     "depVar": {
                         "typeId": "BBP-040001",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
@@ -431,7 +407,7 @@
                                     "type": "simple",
                                     "unit": "dimensionless",
                                     "values": [
-                                        21
+                                        21.0
                                     ]
                                 }
                             ]
@@ -443,7 +419,7 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nifext_41",
                         "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
                     }
@@ -454,7 +430,7 @@
                     "depVar": {
                         "typeId": "BBP-040001",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
@@ -477,7 +453,7 @@
                                     "type": "simple",
                                     "unit": "dimensionless",
                                     "values": [
-                                        19
+                                        19.0
                                     ]
                                 }
                             ]
@@ -489,7 +465,7 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nifext_45",
                         "name": "Thalamic reticular nucleus cell",
                         "rootId": "sao1813327414"
                     }
@@ -499,10 +475,6 @@
         "pubId": "PMID_1403085",
         "tags": [
             {
-                "id": "NIFORG:birnlex_160",
-                "name": "Rat"
-            },
-            {
                 "id": "NIFGA:birnlex_1116",
                 "name": "Ventral posterior nucleus"
             },
@@ -511,16 +483,8 @@
                 "name": "thalamic reticular nucleus"
             },
             {
-                "id": "NIFORG:birnlex_160",
-                "name": "Rat"
-            },
-            {
-                "id": "NIFGA:birnlex_1116",
-                "name": "Ventral posterior nucleus"
-            },
-            {
-                "id": "UBERON:0001903",
-                "name": "thalamic reticular nucleus"
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
             }
         ],
         "version": "1"

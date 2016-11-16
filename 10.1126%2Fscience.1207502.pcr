@@ -1,0 +1,206 @@
+[
+    {
+        "annotId": "fda43c2e-81a2-11e6-8db4-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 17393,
+            "text": "After paired\nbursting, cc was reduced by 12.0 +/- 3.6%, and Gc\nwas depressed by 13.2 +/- 1.8% (P < 0.05, two-tailed unpaired t test, n = 7 pairs)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1126/science.1207502",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "GO:0045202",
+                "name": "synapse"
+            },
+            {
+                "id": "NEMO:6834000",
+                "name": "synaptic_plasticity"
+            },
+            {
+                "id": "GO:0005921",
+                "name": "gap junction"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "GO:0045202",
+                "name": "synapse"
+            },
+            {
+                "id": "NEMO:6834000",
+                "name": "synaptic_plasticity"
+            },
+            {
+                "id": "GO:0005921",
+                "name": "gap junction"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "2c1ff408-81a3-11e6-8db4-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 12959,
+            "text": "After single-cell bursting,\ncc was reduced by 15.0 +/- 3.4%, and Gc was reduced by 13.0 +/- 2.3% (P < 0.05, n = 11 pairs)\n(Fig. 2F).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1126/science.1207502",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "GO:0045202",
+                "name": "synapse"
+            },
+            {
+                "id": "NEMO:6834000",
+                "name": "synaptic_plasticity"
+            },
+            {
+                "id": "GO:0005921",
+                "name": "gap junction"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "GO:0045202",
+                "name": "synapse"
+            },
+            {
+                "id": "NEMO:6834000",
+                "name": "synaptic_plasticity"
+            },
+            {
+                "id": "GO:0005921",
+                "name": "gap junction"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "a636ca5e-88a2-11e6-b01b-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 13531,
+            "text": "After paired bursting\nin TTX, cc decreased by 12.3 +/- 3.2%, and Gc\ndecreased by 11.7 +/- 2.6% (P < 0.05, n = 9 pairs)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1126/science.1207502",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "GO:0045202",
+                "name": "synapse"
+            },
+            {
+                "id": "NEMO:6834000",
+                "name": "synaptic_plasticity"
+            },
+            {
+                "id": "GO:0005921",
+                "name": "gap junction"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "GO:0045202",
+                "name": "synapse"
+            },
+            {
+                "id": "NEMO:6834000",
+                "name": "synaptic_plasticity"
+            },
+            {
+                "id": "GO:0005921",
+                "name": "gap junction"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "cd884b28-88a2-11e6-b01b-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 13732,
+            "text": "After\nsingle-cell activity in TTX, cc decreased by 6.5 +/-\n2.3%, and Gc was reduced by 6.0 +/- 2.0% (P <\n0.05, n = 11 pairs)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1126/science.1207502",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "GO:0045202",
+                "name": "synapse"
+            },
+            {
+                "id": "NEMO:6834000",
+                "name": "synaptic_plasticity"
+            },
+            {
+                "id": "GO:0005921",
+                "name": "gap junction"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "GO:0045202",
+                "name": "synapse"
+            },
+            {
+                "id": "NEMO:6834000",
+                "name": "synaptic_plasticity"
+            },
+            {
+                "id": "GO:0005921",
+                "name": "gap junction"
+            }
+        ],
+        "version": "1"
+    }
+]

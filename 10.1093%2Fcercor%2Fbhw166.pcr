@@ -1,0 +1,24 @@
+[
+    {
+        "annotId": "a2df095a-88b3-11e6-b01b-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 33634,
+            "text": "Information about\nthe number of GJs/neuron is not available for rodents; in the\ncat, the estimate is that each L2/3 LBC connects to other cells\nvia 60 GJs (Fukuda et al. 2006).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1093/cercor/bhw166",
+        "tags": [
+            {
+                "id": "NIFSUB:sao118541872",
+                "name": "Gap Junction"
+            }
+        ],
+        "version": "1"
+    }
+]

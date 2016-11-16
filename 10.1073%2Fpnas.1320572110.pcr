@@ -306,7 +306,7 @@
                     "depVar": {
                         "typeId": "BBP-990005",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
@@ -379,7 +379,7 @@
                     "depVar": {
                         "typeId": "BBP-141002",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
@@ -452,7 +452,7 @@
                     "depVar": {
                         "typeId": "BBP-040001",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
@@ -479,7 +479,7 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nifext_41",
                         "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
                     }
@@ -490,7 +490,7 @@
                     "depVar": {
                         "typeId": "BBP-010002",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
@@ -528,7 +528,7 @@
                     "depVar": {
                         "typeId": "BBP-021000",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",

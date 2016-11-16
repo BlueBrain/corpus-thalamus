@@ -20,5 +20,185 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "71d30c8c-9f7c-11e6-bef9-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 11317,
+            "text": "Data for IT, IA, and IK2 were derived from whole cell voltage-\nclamp studies obtained from acutely isolated ventroposterior\nrelay\nneurons from young rats (7- 14 days old) (Coulter et al. 1989;\nHuguenard et al. 199 1; Huguenard\nand Prince 1992).",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002001",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "min",
+                                    "type": "simple",
+                                    "unit": "day",
+                                    "values": [
+                                        7.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "max",
+                                    "type": "simple",
+                                    "unit": "day ",
+                                    "values": [
+                                        14.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "8c59d554-9f7c-11e6-bef9-64006a4c56ef",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "PMID_1279135",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "UBERON:0002596",
+                "name": "ventral posterior nucleus of thalamus"
+            },
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "cbebe27a-9f7c-11e6-bef9-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 11560,
+            "text": "With the\nexception of studies characterizing the temperature dependence of\nthe ionic currents, all isolated cell experiments were performed at\nroom temperature (23-25\u00b0C)\nand were compensated for capaci-\ntance and leak currents with a P/ 4 type subtraction protocol.",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002002",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "min",
+                                    "type": "simple",
+                                    "unit": "degC",
+                                    "values": [
+                                        23.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "max",
+                                    "type": "simple",
+                                    "unit": "degC",
+                                    "values": [
+                                        25.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "b05e6360-9f7d-11e6-bef9-64006a4c56ef",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "PMID_1279135",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "UBERON:0002596",
+                "name": "ventral posterior nucleus of thalamus"
+            },
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "1b104102-9f7d-11e6-bef9-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 11824,
+            "text": "Data\nfor Ih were obtained from neurons in adult guinea pig dorsal lateral geniculate nucleus using switched-single-electrode\nvoltage-\nclamp recordings with sharp electrodes in slices maintained\nin\nvitro at 35.5 degC.",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002002",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "degC",
+                            "values": [
+                                35.5
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "9e8cef12-9f7d-11e6-bef9-64006a4c56ef",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "PMID_1279135",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_297",
+                "name": "Guinea pig"
+            },
+            {
+                "id": "UBERON:0002479",
+                "name": "dorsal lateral geniculate nucleus"
+            },
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
+            },
+            {
+                "id": "NEMO:0421000",
+                "name": "adult_age"
+            }
+        ],
+        "version": "1"
     }
 ]

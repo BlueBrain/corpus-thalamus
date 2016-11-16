@@ -1,0 +1,54 @@
+[
+    {
+        "annotId": "c06e5524-8715-11e6-92f3-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "The referenced paper ([5]) is in Russian.",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 7916,
+            "text": "The dendrites also have numerous long, rod-like\nspines, which appear to be piliform spines [5].",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1007/s11055-006-0134-5",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFSUB:sao1799103720",
+                "name": "Dendritic Spine"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "61b71bfa-8716-11e6-92f3-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 9156,
+            "text": "Large neurons with round bodies, which the authors designated R\ncells, were found predominantly in the rostral part of the\nnucleus, in its dorsal area.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1007/s11055-006-0134-5",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            }
+        ],
+        "version": "1"
+    }
+]

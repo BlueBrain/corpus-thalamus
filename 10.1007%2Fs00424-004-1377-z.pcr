@@ -17,7 +17,7 @@
                     "depVar": {
                         "typeId": "BBP-002001",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "min",
@@ -63,7 +63,7 @@
         "authors": [
             "oreilly"
         ],
-        "comment": "From 60um thick slices; Nissl staining; Annotation with general category \"Cell\" since Nissl staining shows both TC cells and interneurons (which proportion is not negligeable in rats in LGN); from 6 slices from 3 animals.",
+        "comment": "From 60um thick slices; Nissl staining; Annotation with general category \"Neuron\" since Nissl staining shows both TC cells and interneurons (which proportion is not negligeable in rats in LGN); from 6 slices from 3 animals.",
         "experimentProperties": [
             {
                 "instanceId": "d9bd213c-0af5-11e6-9abd-64006a4c56ef",
@@ -81,7 +81,7 @@
                     "depVar": {
                         "typeId": "BBP-131001",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
@@ -116,9 +116,14 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
-                        "rootId": "sao1813327414"
+                        "id": "NIFGA:birnlex_1662",
+                        "name": "Lateral geniculate body",
+                        "rootId": "NIFGA:birnlex_1167"
+                    },
+                    {
+                        "id": "NIFCELL:sao1417703748",
+                        "name": "Neuron",
+                        "rootId": "NIFCELL:sao1813327414"
                     }
                 ]
             }

@@ -1,0 +1,278 @@
+[
+    {
+        "annotId": "5873d61a-6f91-11e6-81bd-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Mean density of GABAergic neurons in the reticular nucleus, in Wistar rats. Sample size is taken from the annotation ac592c44-75e0-11e6-9b20-64006a4c56ef (P10 n = 7, P20\nn = 6, P30 n = 7, P60 n = 6) ) ",
+        "experimentProperties": [
+            {
+                "instanceId": "5771e3fc-75f8-11e6-8178-64006a4c56ef",
+                "paramTypeId": "BBP-002004"
+            }
+        ],
+        "localizer": {
+            "no": "1",
+            "noCol": "1",
+            "noRow": "1, 3, 5, 7",
+            "type": "table"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131001",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "mm^-2",
+                                    "values": [
+                                        142.9,
+                                        178.5,
+                                        185.1,
+                                        215.8
+                                    ]
+                                },
+                                {
+                                    "statistic": "sd",
+                                    "type": "simple",
+                                    "unit": "mm^-2",
+                                    "values": [
+                                        17.3,
+                                        26.4,
+                                        25.6,
+                                        10.1
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        7.0,
+                                        6.0,
+                                        7.0,
+                                        6.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "indepVars": [
+                        {
+                            "typeId": "BBP-002001",
+                            "values": {
+                                "statistic": "raw",
+                                "type": "simple",
+                                "unit": "day",
+                                "values": [
+                                    10.0,
+                                    20.0,
+                                    30.0,
+                                    60.0
+                                ]
+                            }
+                        }
+                    ],
+                    "type": "numericalTrace"
+                },
+                "id": "8873cc86-6f95-11e6-81bd-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "BBP_nlx_0022",
+                        "name": "Thalamic reticular nucleus cell - GABAergic",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFGA:birnlex_1721",
+                        "name": "Thalamic reticular nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1007/s10072-013-1435-4",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFNEURNT:nlx_neuron_nt_090803",
+                "name": "GABAergic neuron"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "a65f744c-6f91-11e6-81bd-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Mean density of non-GABAergic neurons in the reticular nucleus, in Wistar rats. Sample size is taken from the annotation ac592c44-75e0-11e6-9b20-64006a4c56ef (P10 n = 7, P20\nn = 6, P30 n = 7, P60 n = 6) ) ",
+        "experimentProperties": [
+            {
+                "instanceId": "5771e3fc-75f8-11e6-8178-64006a4c56ef",
+                "paramTypeId": "BBP-002004"
+            }
+        ],
+        "localizer": {
+            "no": "1",
+            "noCol": "2",
+            "noRow": "1, 3, 5, 7",
+            "type": "table"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131001",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "mm^-2",
+                                    "values": [
+                                        19.5,
+                                        45.3,
+                                        44.6,
+                                        48.8
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "mm^-2",
+                                    "values": [
+                                        11.8,
+                                        9.0,
+                                        12.6,
+                                        14.8
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        7.0,
+                                        6.0,
+                                        7.0,
+                                        6.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "indepVars": [
+                        {
+                            "typeId": "BBP-002001",
+                            "values": {
+                                "statistic": "raw",
+                                "type": "simple",
+                                "unit": "day",
+                                "values": [
+                                    10.0,
+                                    20.0,
+                                    30.0,
+                                    60.0
+                                ]
+                            }
+                        }
+                    ],
+                    "type": "numericalTrace"
+                },
+                "id": "df6bbbe6-75f5-11e6-8584-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "BBP_nlx_0021",
+                        "name": "Thalamic reticular nucleus cell - non-GABAergic",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFGA:birnlex_1721",
+                        "name": "Thalamic reticular nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1007/s10072-013-1435-4",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "ac592c44-75e0-11e6-9b20-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 5084,
+            "text": "In the present study, a total of 26 Wistar (P10 n = 7, P20\nn = 6, P30 n = 7, P60 n = 6) and 25 GAERS (P10 n = 7,\nP20 n = 6, P30 n = 6, P60 n = 6) animals were used.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1007/s10072-013-1435-4",
+        "tags": [],
+        "version": "1"
+    },
+    {
+        "annotId": "47440424-75f8-11e6-8178-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 6289,
+            "text": "Semi-thin sequential sections (1 lm) from Epon 812 blocks\nwere cut on a Leica Ultracut R ultramicrotome",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002004",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "um",
+                            "values": [
+                                1
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "5771e3fc-75f8-11e6-8178-64006a4c56ef",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "10.1007/s10072-013-1435-4",
+        "tags": [],
+        "version": "1"
+    }
+]

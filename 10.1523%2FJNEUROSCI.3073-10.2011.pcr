@@ -1,0 +1,150 @@
+[
+    {
+        "annotId": "0709b216-7f24-11e6-a9f2-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 4023,
+            "text": "Starting from the thalamoreticular border, the neurons\nwithin the inner, middle, and outer tiers project mostly to the\nposterior medial (POm), ventroposterior medial (VPM), and\nventroposterior lateral (VPL) nuclei, respectively (Pinault et al.,\n1995; Pinault and Desche\u02c6nes, 1998; Lam and Sherman, 2007).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.3073-10.2011",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "38e2c070-7f24-11e6-a9f2-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 4414,
+            "text": "Although there is clear topography in the\nreticulothalamic pathway, the topography in the opposite direc-\ntion, namely the thalamoreticular pathway, is less clear.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.3073-10.2011",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "43baa60c-7f24-11e6-a9f2-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 4965,
+            "text": "We found the\norganization of the thalamic inputs to TRN neurons to be heter-\nogeneous; even though most TRN neurons receive topographic\ninput from one somatosensory thalamic nucleus, approximately\none-fourth of the recorded TRN cells received convergent input\nfrom spatially offset thalamic regions that usually are located in\ndifferent relay nuclei.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.3073-10.2011",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "eddc5988-7f2d-11e6-a9f2-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 25844,
+            "text": "For all TRN neurons having only one footprint, Figure 6 A\nplots the relationship between the locations of the recording sites\nand their inputs. Linear regression gave a significant correlation\nbetween these two values (r= -0.763, p < 0.0001).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.3073-10.2011",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "7b38aa18-7f31-11e6-a9f2-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Potential limitation for the value of dendritic arbor measurements.",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 31981,
+            "text": "(filling of the cell with\nbiocytin) failed to provide consistent data in these experiments.\nWe therefore estimated the area of the dendritic arbors using\nphotostimulation in 24 experiments and using the area from\nwhich direct activation of the neuron exceeded a threshold value\nas a rough estimate of its dendritic extent. We recognize that this\nactually shows the extent of arbor for which glutamate receptors\nare dense enough to produce a detectable response at the soma,\nand so more distal dendrites may not be sampled, either because\nof too few glutamate receptors or too electrotonically distant a\nlocation. However, this is, in some ways, a more functionally\nrelevant estimate of dendritic extent than a straight anatomical\nmeasure.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.3073-10.2011",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "c17934d4-7f31-11e6-a9f2-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 5907,
+            "text": "thalamocortical slices taken from BALB/c\nmice (Harlan), aged 9 \u201312 d postnatal",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.3073-10.2011",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
+    }
+]

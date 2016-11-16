@@ -1,0 +1,440 @@
+[
+    {
+        "annotId": "2d5086a8-8ca7-11e6-994d-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 20400,
+            "text": "Of the 111 RT cells with a clearly distinguishable axon, 12 neurons gave rise to one (n=8), two (n=3), or four (n=1) intrinsic thin and beaded branch(es) that originated at a distance of 3\u2013116 um from the main onset of the axon.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9096155",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "UBERON:0004529",
+                "name": "anatomical projection"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "UBERON:0004529",
+                "name": "anatomical projection"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "a4411668-8c9f-11e6-994d-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 7158,
+            "text": "Sixty-eight Sprague Dawley male rats weighing 280 \u2013350 gm were used in\nthis study",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9096155",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "UBERON:0004529",
+                "name": "anatomical projection"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "UBERON:0004529",
+                "name": "anatomical projection"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "4a3c8172-8cac-11e6-994d-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "We examined serial ultrathin sections of dendritic bundles cut along their longitudinal plane and found 18 dendrodendritic synapses and more than 30 nonsynaptic puncta adhaerentia between the component dendrites. The dendrodendritic synapses were usually short and always of the symmetric type",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 36918,
+            "text": "We examined serial ultrathin sections of dendritic bundles cut along their longitudinal plane and found 18 dendrodendritic synapses and more than 30 nonsynaptic puncta adhaerentia between the component dendrites. The dendrodendritic synapses were usually short and always of the symmetric type",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9096155",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "UBERON:0004529",
+                "name": "anatomical projection"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "UBERON:0004529",
+                "name": "anatomical projection"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "847c620c-8c9e-11e6-994d-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 4763,
+            "text": "in young\nrats \u03f365% of RT neurons give rise to intrinsic axon collaterals\n(Cox et al., 1996), conjuring up Scheibel and Scheibel\u2019s observa-\ntions (1966) of a dense network of intrinsic axon collaterals in\nGolgi-stained RT neuropil of young animals. On the other hand,\nwhen examining the axonal arborization of a large number of\nbiocytin-filled RT neurons in the adult rat, Pinault et al. (1995a,b)\nnoticed that the axons of these neurons left the nucleus without\ngiving off local collaterals.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9096155",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "UBERON:0004529",
+                "name": "anatomical projection"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "2d2d732c-8ca5-11e6-994d-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 22842,
+            "text": "the nomenclature of Ohara and Lieberman (1985) is used to categorize the different types of axon terminals in the RT. Accordingly, the RT contains three major types of terminals. The D-type terminals have closely packed spherical vesicles, contain few mitochondria, and form asymmetric synapses. The L-type terminals are paler, slightly larger, contain more mitochondria, have less densely packed synaptic vesicles, and also form asymmetric synapses. Finally, the F-type terminals contain loosely distributed pleomorphic vesicles, as well as numerous mitochondria, and form symmetric synapses.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9096155",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "UBERON:0004529",
+                "name": "anatomical projection"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "UBERON:0004529",
+                "name": "anatomical projection"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFQUAL:sao1757774791",
+                "name": "Terminal Bouton"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "5cab3dd8-8cae-11e6-994d-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 34404,
+            "text": "Examination in serial sections revealed that the hillock received dense inputs from terminals that, for the most, formed asymmetric synapses (Fig. 11 E) and were nonimmunoreactive for GABA (Fig. 11 B\u2013D). In fact, only one of the 17 boutons in contact with the hillock displayed GABA immunoreactivity (b3 in Fig. 11 B,D). Seventy percent (12 of 17) of the boutons in contact with the hillock were of the L-type (Fig. 11C,E), whereas the remaining (5 of 17) belonged to the D-type (b4 in Fig. 11 D). In the 12 cases in which the synaptic specialization could be seen, they were of the asymmetric type (Fig. 11 E). The initial segment also received asymmetric synaptic inputs from GABA-negative boutons (Fig. 8 E), but its density of innervation was lighter than that of the hillock and the intrinsic collaterals. Three terminals with ultrastructural features that corresponded to those of the D-type boutons (Fig. 8 E) were found in contact with this part of the process.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9096155",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "UBERON:0004529",
+                "name": "anatomical projection"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "UBERON:0004529",
+                "name": "anatomical projection"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "3d51a156-8caf-11e6-994d-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 47078,
+            "text": "All of\nthe other boutons displayed the ultrastructural features of L-type\nterminals. Previous degeneration or tract-tracing studies showed\nthat this type of terminal arises from thalamocortical neurons\n(Ohara and Lieberman, 1985; Ohara, 1988).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9096155",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "UBERON:0004529",
+                "name": "anatomical projection"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "UBERON:0004529",
+                "name": "anatomical projection"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "80eed686-8caf-11e6-994d-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 47322,
+            "text": "It is worth noting that\nsynaptic inputs on the axon hillock were encountered rarely in\nprevious ultrastructural studies of the RT in rats, cats, and mon-\nkeys (Montero and Singer, 1984; Ohara and Lieberman, 1985;\nYen et al., 1985; Ohara, 1988; Williamson et al., 1994).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9096155",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "UBERON:0004529",
+                "name": "anatomical projection"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "UBERON:0004529",
+                "name": "anatomical projection"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "b97b51d6-8cb0-11e6-994d-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 53335,
+            "text": "dendrodendritic\nbundles are not well developed in young animals (Scheibel and\nScheibel, 1972; Roney et al., 1979).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9096155",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "UBERON:0004529",
+                "name": "anatomical projection"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "UBERON:0004529",
+                "name": "anatomical projection"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
+    }
+]

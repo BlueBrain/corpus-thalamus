@@ -16,7 +16,7 @@
         "tags": [
             {
                 "id": "NIFCELL:nifext_46",
-                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+                "name": "Thalamus interneuron small"
             },
             {
                 "id": "NIFORG:birnlex_160",
@@ -52,7 +52,7 @@
                             "type": "simple",
                             "unit": "um",
                             "values": [
-                                400
+                                400.0
                             ]
                         }
                     },
@@ -62,7 +62,7 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nifext_45",
                         "name": "Thalamic reticular nucleus cell",
                         "rootId": "sao1813327414"
                     }
@@ -73,7 +73,7 @@
         "tags": [
             {
                 "id": "NIFCELL:nifext_46",
-                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+                "name": "Thalamus interneuron small"
             },
             {
                 "id": "NIFORG:birnlex_160",
@@ -120,7 +120,7 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nifext_41",
                         "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
                     }
@@ -145,7 +145,7 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nifext_41",
                         "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
                     }
@@ -156,7 +156,7 @@
         "tags": [
             {
                 "id": "NIFCELL:nifext_46",
-                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+                "name": "Thalamus interneuron small"
             },
             {
                 "id": "NIFORG:birnlex_160",
@@ -197,7 +197,7 @@
                             "type": "simple",
                             "unit": "mV",
                             "values": [
-                                12
+                                12.0
                             ]
                         }
                     },
@@ -212,7 +212,7 @@
         "tags": [
             {
                 "id": "NIFCELL:nifext_46",
-                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+                "name": "Thalamus interneuron small"
             },
             {
                 "id": "NIFORG:birnlex_160",
@@ -242,7 +242,7 @@
         "tags": [
             {
                 "id": "NIFCELL:nifext_46",
-                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+                "name": "Thalamus interneuron small"
             },
             {
                 "id": "NIFORG:birnlex_160",
@@ -268,7 +268,7 @@
         "tags": [
             {
                 "id": "NIFCELL:nifext_46",
-                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+                "name": "Thalamus interneuron small"
             },
             {
                 "id": "NIFORG:birnlex_160",
@@ -320,7 +320,7 @@
         "tags": [
             {
                 "id": "NIFCELL:nifext_46",
-                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+                "name": "Thalamus interneuron small"
             },
             {
                 "id": "NIFORG:birnlex_160",
@@ -362,12 +362,12 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8056",
+                        "id": "BBP_nlx_0001",
                         "name": "Leak ionic current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nifext_41",
                         "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
                     }
@@ -392,12 +392,12 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0001",
                         "name": "Leak ionic current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nifext_41",
                         "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
                     }
@@ -412,7 +412,7 @@
             },
             {
                 "id": "NIFCELL:nifext_46",
-                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+                "name": "Thalamus interneuron small"
             },
             {
                 "id": "NIFORG:birnlex_160",
@@ -454,12 +454,12 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8056",
+                        "id": "BBP_nlx_0018",
                         "name": "Inward rectifier (h-type) current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nifext_41",
                         "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
                     }
@@ -484,12 +484,12 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0018",
                         "name": "Inward rectifier (h-type) current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nifext_41",
                         "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
                     }
@@ -536,7 +536,7 @@
                             "type": "simple",
                             "unit": "mV",
                             "values": [
-                                120
+                                120.0
                             ]
                         }
                     },
@@ -546,12 +546,12 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0011",
                         "name": "Low threshold calcium T-current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nifext_41",
                         "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
                     }
@@ -576,12 +576,12 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0011",
                         "name": "Low threshold calcium T-current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nifext_41",
                         "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
                     }
@@ -636,14 +636,22 @@
                 },
                 "id": "e47c87ee-ffdc-11e5-8b78-64006a4c56ef",
                 "isExperimentProperty": false,
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFCELL:nifext_41",
+                        "name": "Thalamocortical cell"
+                    },
+                    "entity2": "None",
+                    "type": "point"
+                },
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0016",
                         "name": "Calcium activated nonspecific cation current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nifext_41",
                         "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
                     }
@@ -700,12 +708,12 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0019",
                         "name": "Potassium inward rectifier (Kir) current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nifext_41",
                         "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
                     }
@@ -730,12 +738,12 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8056",
+                        "id": "BBP_nlx_0019",
                         "name": "Potassium inward rectifier (Kir) current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nifext_41",
                         "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
                     }
@@ -750,7 +758,7 @@
             },
             {
                 "id": "NIFCELL:nifext_46",
-                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+                "name": "Thalamus interneuron small"
             },
             {
                 "id": "NIFORG:birnlex_160",
@@ -796,12 +804,12 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0020",
                         "name": "Fast voltage-gated potassium (Kf) current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nifext_41",
                         "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
                     }
@@ -826,12 +834,12 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8056",
+                        "id": "BBP_nlx_0020",
                         "name": "Fast voltage-gated potassium (Kf) current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nifext_41",
                         "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
                     }
@@ -846,7 +854,7 @@
             },
             {
                 "id": "NIFCELL:nifext_46",
-                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+                "name": "Thalamus interneuron small"
             },
             {
                 "id": "NIFORG:birnlex_160",
@@ -888,12 +896,12 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0003",
                         "name": "Sodium transient fast current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nifext_41",
                         "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
                     }
@@ -918,12 +926,12 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8055",
+                        "id": "BBP_nlx_0003",
                         "name": "Sodium transient fast current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nifext_41",
                         "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
                     }
@@ -938,7 +946,7 @@
             },
             {
                 "id": "NIFCELL:nifext_46",
-                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+                "name": "Thalamus interneuron small"
             },
             {
                 "id": "NIFORG:birnlex_160",
@@ -965,7 +973,7 @@
         "tags": [
             {
                 "id": "NIFCELL:nifext_46",
-                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+                "name": "Thalamus interneuron small"
             },
             {
                 "id": "NIFORG:birnlex_160",
@@ -1063,7 +1071,7 @@
         "tags": [
             {
                 "id": "NIFCELL:nifext_46",
-                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+                "name": "Thalamus interneuron small"
             },
             {
                 "id": "NIFORG:birnlex_160",
@@ -1119,7 +1127,7 @@
         "tags": [
             {
                 "id": "NIFCELL:nifext_46",
-                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+                "name": "Thalamus interneuron small"
             },
             {
                 "id": "NIFORG:birnlex_160",
@@ -1149,7 +1157,7 @@
         "tags": [
             {
                 "id": "NIFCELL:nifext_46",
-                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+                "name": "Thalamus interneuron small"
             },
             {
                 "id": "NIFORG:birnlex_160",
@@ -1183,7 +1191,7 @@
         "tags": [
             {
                 "id": "NIFCELL:nifext_46",
-                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+                "name": "Thalamus interneuron small"
             },
             {
                 "id": "NIFORG:birnlex_160",
@@ -1218,7 +1226,7 @@
         "tags": [
             {
                 "id": "NIFCELL:nifext_46",
-                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+                "name": "Thalamus interneuron small"
             },
             {
                 "id": "NIFORG:birnlex_160",
@@ -1252,7 +1260,7 @@
         "tags": [
             {
                 "id": "NIFCELL:nifext_46",
-                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+                "name": "Thalamus interneuron small"
             },
             {
                 "id": "NIFORG:birnlex_160",
@@ -1282,7 +1290,7 @@
         "tags": [
             {
                 "id": "NIFCELL:nifext_46",
-                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+                "name": "Thalamus interneuron small"
             },
             {
                 "id": "NIFORG:birnlex_160",
@@ -1316,7 +1324,7 @@
         "tags": [
             {
                 "id": "NIFCELL:nifext_46",
-                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+                "name": "Thalamus interneuron small"
             },
             {
                 "id": "NIFORG:birnlex_160",
@@ -1351,7 +1359,7 @@
         "tags": [
             {
                 "id": "NIFCELL:nifext_46",
-                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+                "name": "Thalamus interneuron small"
             },
             {
                 "id": "NIFORG:birnlex_160",
@@ -1401,12 +1409,12 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFMOL:nifext_8054",
+                        "id": "BBP_nlx_0011",
                         "name": "Low threshold calcium T-current",
                         "rootId": "nifext_8054"
                     },
                     {
-                        "id": "NIFCELL:sao1813327414",
+                        "id": "NIFCELL:nifext_41",
                         "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
                     }
@@ -1421,7 +1429,7 @@
             },
             {
                 "id": "NIFCELL:nifext_46",
-                "name": "Thalamus geniculate nucleus (lateral) interneuron"
+                "name": "Thalamus interneuron small"
             },
             {
                 "id": "NIFORG:birnlex_160",

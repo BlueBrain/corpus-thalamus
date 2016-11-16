@@ -1,1 +1,194 @@
-[]
+[
+    {
+        "annotId": "a0e2cdfc-5277-11e6-9702-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 1113,
+            "text": "Neuronal number decreased during the first postnatal week but increased 2.5-fold over the next 3 weeks.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.1194-07.2007",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "UBERON:0002596",
+                "name": "ventral posterior nucleus of thalamus"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "f8233002-6d2f-11e6-b3fc-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Caption: Morphometry of the VB. Three parameters pertaining to the development of the VB were quantified. The neuronal packing density was determined stereologically. Means are based on five animals per time point. Error bars indicate SEM.",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "3, top panel",
+            "type": "figure"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131001",
+                        "values": {
+                            "statistic": "mean",
+                            "type": "simple",
+                            "unit": "um^-3",
+                            "values": [
+                                0.000278146,
+                                0.000170264,
+                                8.88744e-05,
+                                5.12588e-05,
+                                5.01327e-05,
+                                2.78158e-05
+                            ]
+                        }
+                    },
+                    "indepVars": [
+                        {
+                            "typeId": "BBP-002001",
+                            "values": {
+                                "statistic": "raw",
+                                "type": "simple",
+                                "unit": "day",
+                                "values": [
+                                    0.0,
+                                    2.97794,
+                                    6.01103,
+                                    12.0221,
+                                    21.011,
+                                    30.0551
+                                ]
+                            }
+                        }
+                    ],
+                    "type": "numericalTrace"
+                },
+                "id": "0ebdc338-6d38-11e6-b432-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFGA:birnlex_1116",
+                        "name": "Ventral posterior nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    },
+                    {
+                        "id": "NIFCELL:nlx_cell_20081203",
+                        "name": "Thalamus relay cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1523/JNEUROSCI.1194-07.2007",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "4237cc70-6d30-11e6-b3fc-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Caption: Morphometry of the VB. Cavalieri\u2019s estimator of volume was used to determine the total volume of the VB. Means are based on five animals per\ntime point. Error bars indicate SEM.",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "3, middle panel",
+            "type": "figure"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131005",
+                        "values": {
+                            "statistic": "mean",
+                            "type": "simple",
+                            "unit": "mm^3",
+                            "values": [
+                                0.437086,
+                                0.543046,
+                                1.43046,
+                                3.23179,
+                                4.62252,
+                                5.61589
+                            ]
+                        }
+                    },
+                    "indepVars": [
+                        {
+                            "typeId": "BBP-002001",
+                            "values": {
+                                "statistic": "raw",
+                                "type": "simple",
+                                "unit": "day",
+                                "values": [
+                                    0.0551471,
+                                    3.03309,
+                                    6.01103,
+                                    11.9669,
+                                    21.011,
+                                    30.0
+                                ]
+                            }
+                        }
+                    ],
+                    "type": "numericalTrace"
+                },
+                "id": "90c530b4-6e05-11e6-873d-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFGA:birnlex_1116",
+                        "name": "Ventral posterior nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1523/JNEUROSCI.1194-07.2007",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "6187efec-6d30-11e6-b3fc-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Caption: Morphometry of the VB. The total number of neurons. Means are based on five animals per time point. Error bars indicate SEM.",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "3, bottom panel",
+            "type": "figure"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.1194-07.2007",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
+        "version": "1"
+    }
+]

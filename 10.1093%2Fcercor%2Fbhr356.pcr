@@ -18,7 +18,7 @@
                     "depVar": {
                         "typeId": "BBP-121004",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "min",
@@ -88,7 +88,7 @@
                     "depVar": {
                         "typeId": "BBP-121005",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
@@ -158,7 +158,7 @@
                     "depVar": {
                         "typeId": "BBP-121005",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
@@ -333,7 +333,7 @@
                     "depVar": {
                         "typeId": "BBP-110000",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": []
                         }
                     },
@@ -394,7 +394,7 @@
                     "depVar": {
                         "typeId": "BBP-110000",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": []
                         }
                     },
@@ -459,7 +459,7 @@
                     "depVar": {
                         "typeId": "BBP-110000",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": []
                         }
                     },
@@ -485,7 +485,7 @@
                     "depVar": {
                         "typeId": "BBP-110000",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": []
                         }
                     },
@@ -511,7 +511,7 @@
                     "depVar": {
                         "typeId": "BBP-110000",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": []
                         }
                     },
@@ -537,7 +537,7 @@
                     "depVar": {
                         "typeId": "BBP-110000",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": []
                         }
                     },
@@ -610,7 +610,7 @@
                     "depVar": {
                         "typeId": "BBP-110000",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": []
                         }
                     },
@@ -761,7 +761,7 @@
                     "depVar": {
                         "typeId": "BBP-110001",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
@@ -843,7 +843,7 @@
                     "depVar": {
                         "typeId": "BBP-110001",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
@@ -925,7 +925,7 @@
                     "depVar": {
                         "typeId": "BBP-110001",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
@@ -1007,7 +1007,7 @@
                     "depVar": {
                         "typeId": "BBP-110001",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
@@ -1089,7 +1089,7 @@
                     "depVar": {
                         "typeId": "BBP-110000",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": []
                         }
                     },
@@ -1115,7 +1115,7 @@
                     "depVar": {
                         "typeId": "BBP-110000",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": []
                         }
                     },
@@ -1282,7 +1282,7 @@
                     "depVar": {
                         "typeId": "BBP-110000",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": []
                         }
                     },
@@ -1308,7 +1308,7 @@
                     "depVar": {
                         "typeId": "BBP-110000",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": []
                         }
                     },
@@ -1391,7 +1391,7 @@
                     "depVar": {
                         "typeId": "BBP-110000",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": []
                         }
                     },
@@ -1417,7 +1417,7 @@
                     "depVar": {
                         "typeId": "BBP-110000",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": []
                         }
                     },
@@ -1474,7 +1474,7 @@
                     "depVar": {
                         "typeId": "BBP-110000",
                         "values": {
-                            "type": "compounded",
+                            "type": "compound",
                             "valueLst": []
                         }
                     },

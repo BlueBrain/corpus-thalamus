@@ -1,0 +1,297 @@
+[
+    {
+        "annotId": "03dc1e48-8597-11e6-98bf-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 5050,
+            "text": "The thalamic reticular nucleus (TRN) is a shell composed of a\nhomogenous population of parvalbumin (PV)-positive GABAergic\nA\nneurons laterally surrounding the dorsal thalamus (Houser et al.,\n1980; Ohara and Lieberman, 1985; Ottersen and Storm-Mathisen,\n1984).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1016/j.brainres.2012.05.061",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "NIFMOL:nifext_6",
+                "name": "Parvalbumin"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFSUB:sao118541872",
+                "name": "Gap Junction"
+            },
+            {
+                "id": "NEMO:6834000",
+                "name": "synaptic_plasticity"
+            },
+            {
+                "id": "NIFSUB:sao914572699",
+                "name": "Synapse"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "0591d754-889a-11e6-92f3-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Activity-dependant LTD last more than 30 min.",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 14738,
+            "text": "This synaptic depression outlasted the activity that\ndrove it and persisted for the length of recordings (for at least\n30 min after paired bursting), with no apparent signs of diminishing (Fig. 2(B)).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1016/j.brainres.2012.05.061",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "NIFSUB:sao118541872",
+                "name": "Gap Junction"
+            },
+            {
+                "id": "NEMO:6834000",
+                "name": "synaptic_plasticity"
+            },
+            {
+                "id": "NIFSUB:sao914572699",
+                "name": "Synapse"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "853885fe-889d-11e6-b01b-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 9627,
+            "text": "the average cc was 0.12 +/- 0.08",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-110100",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        0.12
+                                    ]
+                                },
+                                {
+                                    "statistic": "sd",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        0.08
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        313
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "cb42170e-889d-11e6-b01b-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_45",
+                        "name": "Thalamic reticular nucleus cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1016/j.brainres.2012.05.061",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "NIFSUB:sao118541872",
+                "name": "Gap Junction"
+            },
+            {
+                "id": "NEMO:6834000",
+                "name": "synaptic_plasticity"
+            },
+            {
+                "id": "NIFSUB:sao914572699",
+                "name": "Synapse"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "db344056-889d-11e6-b01b-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 11255,
+            "text": "Gc was 0.80 +/- 0.63 nS",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030002",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "nS",
+                                    "values": [
+                                        0.8
+                                    ]
+                                },
+                                {
+                                    "statistic": "sd",
+                                    "type": "simple",
+                                    "unit": "nS",
+                                    "values": [
+                                        0.63
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        313
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "3951fc14-889e-11e6-b01b-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFSUB:sao1311109124",
+                        "name": "Electrotonic Synapse",
+                        "rootId": "NIFSUB:sao914572699"
+                    },
+                    {
+                        "id": "NIFCELL:nifext_45",
+                        "name": "Thalamic reticular nucleus cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1016/j.brainres.2012.05.061",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "NIFSUB:sao118541872",
+                "name": "Gap Junction"
+            },
+            {
+                "id": "NEMO:6834000",
+                "name": "synaptic_plasticity"
+            },
+            {
+                "id": "NIFSUB:sao914572699",
+                "name": "Synapse"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "NIFSUB:sao118541872",
+                "name": "Gap Junction"
+            },
+            {
+                "id": "NEMO:6834000",
+                "name": "synaptic_plasticity"
+            },
+            {
+                "id": "NIFSUB:sao914572699",
+                "name": "Synapse"
+            }
+        ],
+        "version": "1"
+    }
+]

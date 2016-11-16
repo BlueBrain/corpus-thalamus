@@ -1,0 +1,663 @@
+[
+    {
+        "annotId": "22cd426c-9a8e-11e6-b82a-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "The kind of rat (Wistar) is not mentionned in the paper. To find it, we had to go back to (Perreault et al, 2003), which send us back to (Zhu, 2000), annotated as 2d2854b0-9a96-11e6-b82a-64006a4c56ef",
+        "experimentProperties": [
+            {
+                "instanceId": "9a014c52-9a8e-11e6-b82a-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "location": 5907,
+            "text": "The experiments were performed using brain slices\nprepared from 21-day-old rats.",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "day",
+                            "values": [
+                                21.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "9a014c52-9a8e-11e6-b82a-64006a4c56ef",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "10.1113/jphysiol.2006.113043",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "UBERON:0001926",
+                "name": "lateral geniculate body"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "dad6d9c2-9a98-11e6-b82a-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "9a014c52-9a8e-11e6-b82a-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            },
+            {
+                "instanceId": "ed18e0d0-9a98-11e6-b82a-64006a4c56ef",
+                "paramTypeId": "BBP-002003"
+            }
+        ],
+        "localizer": {
+            "location": 7345,
+            "text": "Liquid junction potential\nwas approximately \u221213 mV and was not included in\nthe measurement of the resting membrane potential.",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                -13.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "ed18e0d0-9a98-11e6-b82a-64006a4c56ef",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "10.1113/jphysiol.2006.113043",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "UBERON:0001926",
+                "name": "lateral geniculate body"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "55d74e0e-9a99-11e6-b82a-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "9a014c52-9a8e-11e6-b82a-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            },
+            {
+                "instanceId": "ed18e0d0-9a98-11e6-b82a-64006a4c56ef",
+                "paramTypeId": "BBP-002003"
+            }
+        ],
+        "localizer": {
+            "location": 10401,
+            "text": "we found very few spines present on our cells.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1113/jphysiol.2006.113043",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "NIFSUB:sao1799103720",
+                "name": "Dendritic Spine"
+            },
+            {
+                "id": "NIFNEURCIR:nlx_cell_1003113",
+                "name": "Intrinsic neuron"
+            },
+            {
+                "id": "UBERON:0001926",
+                "name": "lateral geniculate body"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "7c8c6e34-9a9f-11e6-974a-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "9a014c52-9a8e-11e6-b82a-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            },
+            {
+                "instanceId": "ed18e0d0-9a98-11e6-b82a-64006a4c56ef",
+                "paramTypeId": "BBP-002003"
+            }
+        ],
+        "localizer": {
+            "location": 24760,
+            "text": "Rin values for the 15 TCs (median with 10%\u201390% confidence limits, 170\u2013370 MOhm ) were clearly smaller than\nthe Rin values of the three INs (0.5\u20131.1 GOhm )(P < 0.001, Mann\u2013Whitney U test), both for CC and VC recordings\n(measurements at steady state)",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-990018",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "CI_10",
+                                    "type": "simple",
+                                    "unit": "MOhm",
+                                    "values": [
+                                        170.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "CI_90",
+                                    "type": "simple",
+                                    "unit": "MOhm",
+                                    "values": [
+                                        370.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        15.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "39e5a70c-9aa0-11e6-bcb3-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nlx_cell_20081203",
+                        "name": "Thalamus relay cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-990018",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "CI_10",
+                                    "type": "simple",
+                                    "unit": "G*Ohm",
+                                    "values": [
+                                        0.5
+                                    ]
+                                },
+                                {
+                                    "statistic": "CI_90",
+                                    "type": "simple",
+                                    "unit": "G*Ohm",
+                                    "values": [
+                                        1.1
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        3.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "0d30ee1e-9aa1-11e6-a2dd-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_46",
+                        "name": "Thalamus interneuron small",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1113/jphysiol.2006.113043",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "UBERON:0001926",
+                "name": "lateral geniculate body"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "293088ae-9aa1-11e6-a2dd-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "9a014c52-9a8e-11e6-b82a-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            },
+            {
+                "instanceId": "ed18e0d0-9a98-11e6-b82a-64006a4c56ef",
+                "paramTypeId": "BBP-002003"
+            }
+        ],
+        "localizer": {
+            "location": 25007,
+            "text": "Rm values for TCs (20\u201354 kOhm*cm^2 ) were outside the range of the Rm values\nfor INs (83\u2013124 kOhm*cm^2 ), both in CC and VC modes (median 33 and 106 kOhm*cm^2 for TCs and INs, respectively,\nP < 0.001, Mann\u2013Whitney U test).",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-021000",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "CI_10",
+                                    "type": "simple",
+                                    "unit": "kOhm*cm^2",
+                                    "values": [
+                                        20.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "CI_90",
+                                    "type": "simple",
+                                    "unit": "kOhm*cm^2",
+                                    "values": [
+                                        54.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "median",
+                                    "type": "simple",
+                                    "unit": "kOhm*cm^2",
+                                    "values": [
+                                        33.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        15.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "7bf039de-9aa8-11e6-a2dd-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nlx_cell_20081203",
+                        "name": "Thalamus relay cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-021000",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "CI_10",
+                                    "type": "simple",
+                                    "unit": "kOhm*cm^2",
+                                    "values": [
+                                        83.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "CI_90",
+                                    "type": "simple",
+                                    "unit": "kOhm*cm^2",
+                                    "values": [
+                                        124.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "median",
+                                    "type": "simple",
+                                    "unit": "kOhm*cm^2",
+                                    "values": [
+                                        106.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        3.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "b1329100-9aa8-11e6-a2dd-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_46",
+                        "name": "Thalamus interneuron small",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1113/jphysiol.2006.113043",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "UBERON:0001926",
+                "name": "lateral geniculate body"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "d0e91b86-9aa8-11e6-a2dd-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "9a014c52-9a8e-11e6-b82a-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            },
+            {
+                "instanceId": "ed18e0d0-9a98-11e6-b82a-64006a4c56ef",
+                "paramTypeId": "BBP-002003"
+            }
+        ],
+        "localizer": {
+            "location": 25485,
+            "text": "both cell types had similar Cm both\nin CC and VC modes (median 1.2 \u03bcF cm^\u22122 in both cases).",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-040001",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "median",
+                                    "type": "simple",
+                                    "unit": "uF*cm^-2",
+                                    "values": [
+                                        1.2
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        15.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "faffc500-9aa8-11e6-a2dd-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nlx_cell_20081203",
+                        "name": "Thalamus relay cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-040001",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "median",
+                                    "type": "simple",
+                                    "unit": "uF*cm^-2",
+                                    "values": [
+                                        1.2
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        3.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "10f1eeec-9aa9-11e6-a2dd-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_46",
+                        "name": "Thalamus interneuron small",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1113/jphysiol.2006.113043",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "UBERON:0001926",
+                "name": "lateral geniculate body"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "3219d60c-9aa9-11e6-a2dd-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "9a014c52-9a8e-11e6-b82a-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            },
+            {
+                "instanceId": "ed18e0d0-9a98-11e6-b82a-64006a4c56ef",
+                "paramTypeId": "BBP-002003"
+            }
+        ],
+        "localizer": {
+            "location": 25657,
+            "text": "Ri was similar in the two cell populations with a median of 79 Ohm*cm with 10%\u201390%\nconfidence limits of 22\u2013424 Ohm*cm for the TCs and a median of 113 Ohm*cm for the INs (VC mode).",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-022000",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "median",
+                                    "type": "simple",
+                                    "unit": "Ohm*cm",
+                                    "values": [
+                                        79.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "CI_10",
+                                    "type": "simple",
+                                    "unit": "Ohm*cm",
+                                    "values": [
+                                        22.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "CI_90",
+                                    "type": "simple",
+                                    "unit": "Ohm*cm",
+                                    "values": [
+                                        424.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        15.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "b53e7df8-9aa9-11e6-a2dd-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nlx_cell_20081203",
+                        "name": "Thalamus relay cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-022000",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "median",
+                                    "type": "simple",
+                                    "unit": "Ohm*cm",
+                                    "values": [
+                                        113.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        3.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "c6994074-9aa9-11e6-a2dd-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_46",
+                        "name": "Thalamus interneuron small",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1113/jphysiol.2006.113043",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "UBERON:0001926",
+                "name": "lateral geniculate body"
+            }
+        ],
+        "version": "1"
+    }
+]

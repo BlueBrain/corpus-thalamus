@@ -1,1 +1,36 @@
-[{"pubId": "PMID_10662820", "tags": {"birnlex_1595": "Dorsal nucleus of lateral geniculate body", "PATO_0000051": "Morphology", "sao1211023249": "Dendrite", "birnlex_160": "Rat"}, "localizer": {"type": "text", "location": 10871, "text": "These neurons exhibit radial dendritic trees, with 3\\u201310\\nstem dendrites, that branch to form second to seventh order\\nterminal dendrites (Williams et al., 1996)"}, "version": "1", "comment": "3-10 stems, branching 2nd-7th order", "annotId": "b4fcce3a-9744-11e5-942d-64006a4c56ef", "parameters": [], "authors": ["oreilly"]}]
+[
+    {
+        "annotId": "b4fcce3a-9744-11e5-942d-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "3-10 stems, branching 2nd-7th order",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 10871,
+            "text": "These neurons exhibit radial dendritic trees, with 3\\u201310\\nstem dendrites, that branch to form second to seventh order\\nterminal dendrites (Williams et al., 1996)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_10662820",
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFSUB:sao1211023249",
+                "name": "Dendrite"
+            },
+            {
+                "id": "PATO:0000051",
+                "name": "morphology"
+            }
+        ],
+        "version": "1"
+    }
+]

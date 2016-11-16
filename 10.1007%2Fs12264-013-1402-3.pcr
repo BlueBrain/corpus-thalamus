@@ -1,0 +1,774 @@
+[
+    {
+        "annotId": "ec709426-6eb9-11e6-9470-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Proportion of interneurons in Wistar rat LGN (n=5)",
+        "experimentProperties": [
+            {
+                "instanceId": "dbaf5c20-74f5-11e6-bbaf-64006a4c56ef",
+                "paramTypeId": "BBP-002004"
+            }
+        ],
+        "localizer": {
+            "no": "1",
+            "noCol": "7",
+            "noRow": "1",
+            "type": "table"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131003",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "percent",
+                                    "values": [
+                                        16.4
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        5
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "22e29fd2-6ec3-11e6-8097-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_46",
+                        "name": "Thalamus interneuron small",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFGA:birnlex_1662",
+                        "name": "Lateral geniculate body",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1007/s12264-013-1402-3",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "2975b36a-6eba-11e6-9470-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Proportion of interneurons in Wistar rat VPM (n=5)",
+        "experimentProperties": [
+            {
+                "instanceId": "dbaf5c20-74f5-11e6-bbaf-64006a4c56ef",
+                "paramTypeId": "BBP-002004"
+            }
+        ],
+        "localizer": {
+            "no": "1",
+            "noCol": "7",
+            "noRow": "3",
+            "type": "table"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131003",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "percent",
+                                    "values": [
+                                        4.2
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        5
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "614cab12-6ecf-11e6-9428-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_46",
+                        "name": "Thalamus interneuron small",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFGA:birnlex_743",
+                        "name": "Ventral posteromedial nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1007/s12264-013-1402-3",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "3383038a-6eba-11e6-9470-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Proportion of interneurons in Wistar rat VPL (n=5)",
+        "experimentProperties": [
+            {
+                "instanceId": "dbaf5c20-74f5-11e6-bbaf-64006a4c56ef",
+                "paramTypeId": "BBP-002004"
+            }
+        ],
+        "localizer": {
+            "no": "1",
+            "noCol": "7",
+            "noRow": "5",
+            "type": "table"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131003",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "percent",
+                                    "values": [
+                                        3.7
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        5
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "8ca0b484-6ecf-11e6-9428-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_46",
+                        "name": "Thalamus interneuron small",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFGA:birnlex_737",
+                        "name": "Ventral posterolateral nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1007/s12264-013-1402-3",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "8550bc7a-6ed3-11e6-9428-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Density of interneurons in Wistar rat LGN (n=5)",
+        "experimentProperties": [
+            {
+                "instanceId": "dbaf5c20-74f5-11e6-bbaf-64006a4c56ef",
+                "paramTypeId": "BBP-002004"
+            }
+        ],
+        "localizer": {
+            "no": "1",
+            "noCol": "6",
+            "noRow": "1",
+            "type": "table"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131001",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "mm^-2",
+                                    "values": [
+                                        48.4
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "mm^-2",
+                                    "values": [
+                                        12.1
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        5
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "8f01bcb4-6ed4-11e6-9428-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_46",
+                        "name": "Thalamus interneuron small",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFGA:birnlex_1662",
+                        "name": "Lateral geniculate body",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1007/s12264-013-1402-3",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "a489642a-6ed3-11e6-9428-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Density of interneurons in Wistar rat VPM (n=5)",
+        "experimentProperties": [
+            {
+                "instanceId": "dbaf5c20-74f5-11e6-bbaf-64006a4c56ef",
+                "paramTypeId": "BBP-002004"
+            }
+        ],
+        "localizer": {
+            "no": "1",
+            "noCol": "6",
+            "noRow": "3",
+            "type": "table"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131001",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "mm^-2",
+                                    "values": [
+                                        13.3
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "mm^-2",
+                                    "values": [
+                                        0.6
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        5
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "026c0650-6ed5-11e6-9428-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_46",
+                        "name": "Thalamus interneuron small",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFGA:birnlex_743",
+                        "name": "Ventral posteromedial nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1007/s12264-013-1402-3",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "b23a5d18-6ed3-11e6-9428-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Density of interneurons in Wistar rat VPL (n=5)",
+        "experimentProperties": [
+            {
+                "instanceId": "dbaf5c20-74f5-11e6-bbaf-64006a4c56ef",
+                "paramTypeId": "BBP-002004"
+            }
+        ],
+        "localizer": {
+            "no": "1",
+            "noCol": "6",
+            "noRow": "5",
+            "type": "table"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131001",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "mm^-2",
+                                    "values": [
+                                        5.9
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "mm^-2",
+                                    "values": [
+                                        1.1
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        5
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "d98090e8-6ed5-11e6-9428-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_46",
+                        "name": "Thalamus interneuron small",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFGA:birnlex_737",
+                        "name": "Ventral posterolateral nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1007/s12264-013-1402-3",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "be423d9c-6ed3-11e6-9428-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Density of relay cells in Wistar rat LGN (n=5)",
+        "experimentProperties": [
+            {
+                "instanceId": "dbaf5c20-74f5-11e6-bbaf-64006a4c56ef",
+                "paramTypeId": "BBP-002004"
+            }
+        ],
+        "localizer": {
+            "no": "1",
+            "noCol": "2",
+            "noRow": "1",
+            "type": "table"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131001",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "mm^-2",
+                                    "values": [
+                                        246.8
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "mm^-2",
+                                    "values": [
+                                        38.9
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        5
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "3d43a784-6ed4-11e6-9428-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nlx_cell_20081203",
+                        "name": "Thalamus relay cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFGA:birnlex_1662",
+                        "name": "Lateral geniculate body",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1007/s12264-013-1402-3",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "d8095e90-6ed3-11e6-9428-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Density of relay cells in Wistar rat VPM (n=5)",
+        "experimentProperties": [
+            {
+                "instanceId": "dbaf5c20-74f5-11e6-bbaf-64006a4c56ef",
+                "paramTypeId": "BBP-002004"
+            }
+        ],
+        "localizer": {
+            "no": "1",
+            "noCol": "2",
+            "noRow": "3",
+            "type": "table"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131001",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "mm^-2",
+                                    "values": [
+                                        304.3
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "mm^-2",
+                                    "values": [
+                                        16.6
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        5
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "c1651732-6ed4-11e6-9428-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nlx_cell_20081203",
+                        "name": "Thalamus relay cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFGA:birnlex_743",
+                        "name": "Ventral posteromedial nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1007/s12264-013-1402-3",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "dffd516a-6ed3-11e6-9428-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Density of relay cells in Wistar rat VPL (n=5)",
+        "experimentProperties": [
+            {
+                "instanceId": "dbaf5c20-74f5-11e6-bbaf-64006a4c56ef",
+                "paramTypeId": "BBP-002004"
+            }
+        ],
+        "localizer": {
+            "no": "1",
+            "noCol": "2",
+            "noRow": "5",
+            "type": "table"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131001",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "mm^-2",
+                                    "values": [
+                                        150.3
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "mm^-2",
+                                    "values": [
+                                        17.5
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        5
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "8a58a41a-6ed5-11e6-9428-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nlx_cell_20081203",
+                        "name": "Thalamus relay cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFGA:birnlex_737",
+                        "name": "Ventral posterolateral nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1007/s12264-013-1402-3",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "af77ab7c-74f4-11e6-9804-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 10771,
+            "text": "the\ndisector method was used",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1007/s12264-013-1402-3",
+        "tags": [],
+        "version": "1"
+    },
+    {
+        "annotId": "c559a7f6-74f4-11e6-9804-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 10934,
+            "text": "Sections through the Epon-embedded samples were serially cut at 1 \u03bcm.",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002004",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "um",
+                            "values": [
+                                1
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "dbaf5c20-74f5-11e6-bbaf-64006a4c56ef",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "10.1007/s12264-013-1402-3",
+        "tags": [],
+        "version": "1"
+    },
+    {
+        "annotId": "b4b9c8b6-7814-11e6-9673-d0e140998c20",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "dbaf5c20-74f5-11e6-bbaf-64006a4c56ef",
+                "paramTypeId": "BBP-002004"
+            }
+        ],
+        "localizer": {
+            "location": 8331,
+            "text": "Adult (6\u201312 months old) Wistar albino control rats (n = 5)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1007/s12264-013-1402-3",
+        "tags": [],
+        "version": "1"
+    }
+]

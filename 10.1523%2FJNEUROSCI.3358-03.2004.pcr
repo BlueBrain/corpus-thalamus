@@ -1,0 +1,40 @@
+[
+    {
+        "annotId": "961153bc-88af-11e6-b01b-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 30238,
+            "text": "By analogy with cortical inhibitory cells (Sloper and Powell, 1978;\nTamas et al., 2000), gap junctions are most likely to be located at\ndendrodendritic or dendrosomatic sites. The dendrites of TRN\ncells are typically several hundred micrometers in length (Schei-\nbel and Scheibel, 1966; Steriade et al., 1997), yet measurable cou-\npling was limited to intersomatic distances of 40 \u242e m, so it seems\nlikely that electrical synapses preferentially form at very proximal\nlocations rather than on more distal dendrites.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.3358-03.2004",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "NIFSUB:sao118541872",
+                "name": "Gap Junction"
+            },
+            {
+                "id": "NIFSUB:sao914572699",
+                "name": "Synapse"
+            }
+        ],
+        "version": "1"
+    }
+]

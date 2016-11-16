@@ -1,0 +1,271 @@
+[
+    {
+        "annotId": "355aeaca-88b3-11e6-b01b-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 6563,
+            "text": "Sprague Dawley rats [postnatal day 9 (P9) to P14,\nmales] or wild-type (WT) or connexin36 knock-out (Cx36 KO) litter-\nmate mice (P10 \u2013P14, of either sex)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.0562-14.2014",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFSUB:sao118541872",
+                "name": "Gap Junction"
+            },
+            {
+                "id": "NIFSUB:sao914572699",
+                "name": "Synapse"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "53c95f7a-88b6-11e6-b01f-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 30523,
+            "text": "The mean number of neurons per cluster (including the dye-injected neuron) was 9 +/- 2.5 neurons (range, 1\u201324) from rat ",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-110005",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        9.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        2.5
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        9.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "min",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        1.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "max",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        24.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "7eeb0b54-88b6-11e6-b01f-64006a4c56ef",
+                "isExperimentProperty": false,
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFCELL:nifext_45",
+                        "name": "Thalamic reticular nucleus cell"
+                    },
+                    "entity2": {
+                        "id": "NIFCELL:nifext_45",
+                        "name": "Thalamic reticular nucleus cell"
+                    },
+                    "type": "undirected"
+                },
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_45",
+                        "name": "Thalamic reticular nucleus cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFSUB:sao1311109124",
+                        "name": "Electrotonic Synapse",
+                        "rootId": "NIFSUB:sao914572699"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1523/JNEUROSCI.0562-14.2014",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "NIFSUB:sao118541872",
+                "name": "Gap Junction"
+            },
+            {
+                "id": "NIFSUB:sao914572699",
+                "name": "Synapse"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "148ecbb0-88bb-11e6-b4dc-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 38032,
+            "text": "We could consistently find uncoupled so-\nmata interspersed among dye-coupled so-\nmata, indicating that coupling does not\ndepend on proximity from the injected neu-\nron alone.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.0562-14.2014",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFSUB:sao118541872",
+                "name": "Gap Junction"
+            },
+            {
+                "id": "NIFSUB:sao914572699",
+                "name": "Synapse"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "c7a808de-88c4-11e6-b4dc-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 63369,
+            "text": "paired recordings\nseem to be more sensitive indicators of coupling; the prevalence\nof electrical coupling is \u03f350% at short intersomatic distances\n(<20 um), whereas the density of dye-coupled neurons is\nlower at these distances",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.0562-14.2014",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFSUB:sao118541872",
+                "name": "Gap Junction"
+            },
+            {
+                "id": "NIFSUB:sao914572699",
+                "name": "Synapse"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFSUB:sao118541872",
+                "name": "Gap Junction"
+            },
+            {
+                "id": "NIFSUB:sao914572699",
+                "name": "Synapse"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "9719dd32-8941-11e6-b4dc-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 64871,
+            "text": "n our current study,\nresidual coupling in the KO clearly indicates the presence of func-\ntional GJ proteins other than Cx36, as reported in some other\nstudies (Pan et al., 2010; Lee et al., 2010; Curti et al., 2012).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.0562-14.2014",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFSUB:sao118541872",
+                "name": "Gap Junction"
+            },
+            {
+                "id": "NIFSUB:sao914572699",
+                "name": "Synapse"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFSUB:sao118541872",
+                "name": "Gap Junction"
+            },
+            {
+                "id": "NIFSUB:sao914572699",
+                "name": "Synapse"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
+    }
+]

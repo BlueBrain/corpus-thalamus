@@ -1,0 +1,380 @@
+[
+    {
+        "annotId": "583b27ec-a1a6-11e6-98a4-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 4569,
+            "text": "Here we overcame these obstacles by using\ntransgenic mice that express enhanced green fluores-\ncent protein (GFP) in \u03b3-aminobutyric acid (GABA)ergic\ninterneurons (GAD67-GFP)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1186/1749-8104-8-24",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "UBERON:0002479",
+                "name": "dorsal lateral geniculate nucleus"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "e611df98-a1a6-11e6-98a4-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "80436530-a1a9-11e6-98a4-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "location": 5480,
+            "text": "From fixed tissue and 70 \u03bcm thick coronal sections through the middle of dLGN, the average density of\nGFP positive interneurons in dLGN was around one to\ntwo cells per 2500 \u03bcm^2 .",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131001",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "min",
+                                    "type": "simple",
+                                    "unit": "1/(2500*um^2)",
+                                    "values": [
+                                        1.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "max",
+                                    "type": "simple",
+                                    "unit": "1/(2500*um^2)",
+                                    "values": [
+                                        2.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        3.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "553e1e18-a1a7-11e6-98a4-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_46",
+                        "name": "Thalamus interneuron small",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "UBERON:0002479",
+                        "name": "dorsal lateral geniculate nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002004",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "um",
+                            "values": [
+                                70.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "63006312-a1a7-11e6-98a4-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "10.1186/1749-8104-8-24",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "UBERON:0002479",
+                "name": "dorsal lateral geniculate nucleus"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "0103bf7c-a1a9-11e6-98a4-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 23409,
+            "text": "The overall density of interneurons was determined by\ncounting GFP positive cells within the boundaries of dLGN.\nThese measurements were obtained from 2 to 3 sections\ncorresponding to the middle of dLGN (n = 3 mice; P7, P9,\nand P26).",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002001",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "raw",
+                                    "type": "simple",
+                                    "unit": "day",
+                                    "values": [
+                                        7.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "raw",
+                                    "type": "simple",
+                                    "unit": "day",
+                                    "values": [
+                                        9.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "raw",
+                                    "type": "simple",
+                                    "unit": "day",
+                                    "values": [
+                                        26.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "80436530-a1a9-11e6-98a4-64006a4c56ef",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "10.1186/1749-8104-8-24",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "UBERON:0002479",
+                "name": "dorsal lateral geniculate nucleus"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "7a5fb900-a1ab-11e6-98a4-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "2.A",
+            "type": "figure"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-010002",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "mV",
+                                    "values": [
+                                        -60.42,
+                                        -59.9,
+                                        -58.44,
+                                        -59.27,
+                                        -60.63
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        6.0,
+                                        15.0,
+                                        27.0,
+                                        14.0,
+                                        10.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "indepVars": [
+                        {
+                            "typeId": "BBP-002001",
+                            "values": {
+                                "statistic": "raw",
+                                "type": "simple",
+                                "unit": "week",
+                                "values": [
+                                    1.0,
+                                    2.0,
+                                    3.0,
+                                    4.0,
+                                    5.0
+                                ]
+                            }
+                        }
+                    ],
+                    "type": "numericalTrace"
+                },
+                "id": "fdc3e802-a1ab-11e6-98a4-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_46",
+                        "name": "Thalamus interneuron small",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1186/1749-8104-8-24",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "UBERON:0002479",
+                "name": "dorsal lateral geniculate nucleus"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "00b50a96-a1ac-11e6-98a4-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "80436530-a1a9-11e6-98a4-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "no": "2.B",
+            "type": "figure"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-990018",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "G*Ohm",
+                                    "values": [
+                                        1.722,
+                                        0.992,
+                                        0.745,
+                                        0.784,
+                                        0.777
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        6.0,
+                                        15.0,
+                                        27.0,
+                                        14.0,
+                                        10.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "indepVars": [
+                        {
+                            "typeId": "BBP-002001",
+                            "values": {
+                                "statistic": "raw",
+                                "type": "simple",
+                                "unit": "week",
+                                "values": [
+                                    1.0,
+                                    2.0,
+                                    3.0,
+                                    4.0,
+                                    5.0
+                                ]
+                            }
+                        }
+                    ],
+                    "type": "numericalTrace"
+                },
+                "id": "7b729c8a-a1ac-11e6-98a4-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_46",
+                        "name": "Thalamus interneuron small",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1186/1749-8104-8-24",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "UBERON:0002479",
+                "name": "dorsal lateral geniculate nucleus"
+            }
+        ],
+        "version": "1"
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "annotId": "5e820906-894e-11e6-b4dc-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 19491,
+            "text": "Thus, in most mammalian neurons, which have membrane\ntime constants (estimated with the whole cell technique) in the\norder of tens of milliseconds, electrical synapses behave as low-pass\nfilters [28]. It is important to emphasize that this property does not\nrely on the properties of the gap junction itself but on the passive\nproperties of the coupled cell [60].",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1016/j.bbamem.2012.05.026",
+        "tags": [
+            {
+                "id": "NIFSUB:sao118541872",
+                "name": "Gap Junction"
+            },
+            {
+                "id": "NIFSUB:sao914572699",
+                "name": "Synapse"
+            }
+        ],
+        "version": "1"
+    }
+]
