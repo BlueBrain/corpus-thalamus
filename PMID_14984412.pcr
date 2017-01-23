@@ -1,0 +1,63 @@
+[
+    {
+        "annotId": "cc72cdc8-e183-11e6-a9c6-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 14953,
+            "text": "pre-to-postsynaptic transmission speed of ~2 m s_1",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-110003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "m/s",
+                            "values": [
+                                2.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "4efc7f9e-e184-11e6-98bc-c869cd917532",
+                "isExperimentProperty": false,
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFCELL:nlx_cell_20081203",
+                        "name": "Thalamus relay cell"
+                    },
+                    "entity2": {
+                        "id": "BBP_nlx_0022",
+                        "name": "Thalamic reticular nucleus cell - GABAergic"
+                    },
+                    "type": "directed"
+                },
+                "requiredTags": []
+            }
+        ],
+        "pubId": "PMID_14984412",
+        "tags": [
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
+            },
+            {
+                "id": "BBP_nlx_0022",
+                "name": "Thalamic reticular nucleus cell - GABAergic"
+            },
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            }
+        ],
+        "version": "1"
+    }
+]
