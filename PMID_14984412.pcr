@@ -59,5 +59,79 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "f67e0d0c-e184-11e6-963c-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 15284,
+            "text": "Mean EPSP amplitudes (excluding failures) ranged from 0.7 to 27 mV (mean: 7.4 mV)",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-970000",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "mV",
+                                    "values": [
+                                        7.43
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "mV",
+                                    "values": [
+                                        1.53
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "cb96fe36-e185-11e6-877a-c869cd917532",
+                "isExperimentProperty": false,
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFCELL:nlx_cell_20081203",
+                        "name": "Thalamus relay cell"
+                    },
+                    "entity2": {
+                        "id": "BBP_nlx_0022",
+                        "name": "Thalamic reticular nucleus cell - GABAergic"
+                    },
+                    "type": "directed"
+                },
+                "requiredTags": []
+            }
+        ],
+        "pubId": "PMID_14984412",
+        "tags": [
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
+            },
+            {
+                "id": "BBP_nlx_0022",
+                "name": "Thalamic reticular nucleus cell - GABAergic"
+            },
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            }
+        ],
+        "version": "1"
     }
 ]
