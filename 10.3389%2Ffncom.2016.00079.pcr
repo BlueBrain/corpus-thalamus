@@ -11,7 +11,40 @@
             "text": "Thirteen male Wistar rats (weighting 260\u2013290 g) were used in this\nexperiment.",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002011",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "min",
+                                    "type": "simple",
+                                    "unit": "g",
+                                    "values": [
+                                        260.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "max",
+                                    "type": "simple",
+                                    "unit": "g",
+                                    "values": [
+                                        290.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "4ac970ba-e48f-11e6-9b7c-64006a4c56ef",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
         "pubId": "10.3389/fncom.2016.00079",
         "tags": [
             {
