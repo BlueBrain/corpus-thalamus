@@ -5,7 +5,12 @@
             "oreilly"
         ],
         "comment": "",
-        "experimentProperties": [],
+        "experimentProperties": [
+            {
+                "instanceId": "4ac970ba-e48f-11e6-9b7c-64006a4c56ef",
+                "paramTypeId": "BBP-002011"
+            }
+        ],
         "localizer": {
             "location": 9569,
             "text": "Thirteen male Wistar rats (weighting 260\u2013290 g) were used in this\nexperiment.",
