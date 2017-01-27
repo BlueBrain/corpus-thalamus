@@ -13,7 +13,12 @@
         },
         "parameters": [],
         "pubId": "10.3389/fncom.2016.00079",
-        "tags": [],
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            }
+        ],
         "version": "1"
     }
 ]
