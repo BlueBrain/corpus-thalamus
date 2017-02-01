@@ -62,5 +62,27 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "cee7fb86-e864-11e6-994b-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 17408,
+            "text": "This cortical control could explain the fre-\nquently observed link of spindles to EEG slow-waves, and\nto K-complexes in humans [6]. This link is less evident in\nrodent EEG: spindles are hardly detectable as discrete\nevents, but their spectral frequency (s, primarily 9\u2013\n15 Hz) appears throughout NREMS [33], with a predomi-\nnance at periods when low-frequency power weakens.\nAccordingly, spindle activity in mice is estimated from\nthe surge in s power that starts $30 s before NREMS\u2013\nREMS transitions [12,34,35].",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1016/j.tins.2013.10.001",
+        "tags": [
+            {
+                "id": "BBP_nlx_0025",
+                "name": "Sleep spindle"
+            }
+        ],
+        "version": "1"
     }
 ]
