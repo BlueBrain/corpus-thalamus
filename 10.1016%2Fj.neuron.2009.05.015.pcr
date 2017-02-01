@@ -24,5 +24,22 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "0f8f8aec-e896-11e6-994b-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 36192,
+            "text": "GABA A receptors expressed by RT\nneurons normally contain the b 3 subunit, while those expressed\nby TC neurons do not.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1016/j.neuron.2009.05.015",
+        "tags": [],
+        "version": "1"
     }
 ]
