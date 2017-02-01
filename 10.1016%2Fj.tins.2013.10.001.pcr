@@ -13,7 +13,20 @@
         },
         "parameters": [],
         "pubId": "10.1016/j.tins.2013.10.001",
-        "tags": [],
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "NIFMOL:nifext_2654",
+                "name": "Cav3.1"
+            },
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
+            }
+        ],
         "version": "1"
     }
 ]
