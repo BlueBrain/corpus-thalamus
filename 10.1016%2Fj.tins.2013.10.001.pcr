@@ -28,5 +28,31 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "7c60db6a-e861-11e6-a645-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 11344,
+            "text": "Another important factor in the generation and maintenance of reticular intrinsic oscillations is the aforementioned SK2 or Kcnn2 channel. The vigorous Ca 2+ influx in nRt dendrites originating from Ca V 3.3 channels gates SK2 channels, thereby creating a burst afterhyperpolarization (bAHP) [12,19]. As T channels recover partially from inactivation during bAHPs, nRt cells typically generate a series of low-threshold bursts, with a rhythmicity also seen in nRt of sleeping animals [20,21]. In SK2 \u00c0/\u00c0 mice, this oscillatory discharge is replaced by a single burst followed by a slowly decaying plateau potential [10], demonstrating that the cyclical Ca V 3.3\u2013SK2 channel interaction is necessary for nRt rhythmicity. Conversely, genetic overexpression of SK2 channels resulted in increased bAHPs and prolonged cycles of repetitive bursting [13].\n",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1016/j.tins.2013.10.001",
+        "tags": [
+            {
+                "id": "BBP_nlx_0025",
+                "name": "Sleep spindle"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            }
+        ],
+        "version": "1"
     }
 ]
