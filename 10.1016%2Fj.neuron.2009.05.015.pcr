@@ -39,7 +39,24 @@
         },
         "parameters": [],
         "pubId": "10.1016/j.neuron.2009.05.015",
-        "tags": [],
+        "tags": [
+            {
+                "id": "PR:000007774",
+                "name": "gamma-aminobutyric acid receptor subunit beta-3"
+            },
+            {
+                "id": "NIFMOL:sao229636300",
+                "name": "GABA"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
+            }
+        ],
         "version": "1"
     }
 ]
