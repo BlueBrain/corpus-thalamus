@@ -51,6 +51,14 @@
             {
                 "id": "NIFCELL:nifext_45",
                 "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "BBP_nlx_0026",
+                "name": "Cav3.3"
+            },
+            {
+                "id": "PR:000000713",
+                "name": "small conductance calcium-activated potassium channel protein 2"
             }
         ],
         "version": "1"
