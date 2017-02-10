@@ -75,6 +75,10 @@
             {
                 "id": "NIFORG:birnlex_167",
                 "name": "Mouse"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
             }
         ],
         "version": "1"
