@@ -44,5 +44,39 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "cbfed3b4-efa7-11e6-a86f-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 27343,
+            "text": "The lack of optogenetically evoked IPSCs in the TRNs of young adult PV-ChR2 mice suggests that external GABAergic inputs to the TRN primarily come from PV-negative neurons.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.0607-16.2016",
+        "tags": [
+            {
+                "id": "NIFGA:nlx_anat_1010",
+                "name": "Afferent role"
+            },
+            {
+                "id": "NIFMOL:sao229636300",
+                "name": "GABA"
+            },
+            {
+                "id": "NIFMOL:nifext_6",
+                "name": "Parvalbumin"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
     }
 ]
