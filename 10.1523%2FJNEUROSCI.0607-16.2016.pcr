@@ -1,0 +1,48 @@
+[
+    {
+        "annotId": "362b194c-efa7-11e6-a86f-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 26510,
+            "text": "Previous studies have identified a number of external GABAergic\ninputs to the TRN. These include the basal forebrain in rats\n(Asanuma, 1989; Asanuma and Porter, 1990) and cats (Bickford\net al., 1994), the substantia nigra pars reticulata in cats (Pare et al.,\n1990), and the globus pallidus in monkeys (Hazrati and Parent, 1991; Asanuma, 1994) and rats (Govindaiah et al., 2010).\nWhether similar GABAergic inputs are present in the mouse is\nunknown. A recent optogenetic study in the mouse showed that\nGABAergic neurons in the lateral hypothalamus innervate the\nTRN and this projection has an important role in regulating\narousal (Herrera et al., 2016).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.0607-16.2016",
+        "tags": [
+            {
+                "id": "NIFGA:nlx_anat_1010",
+                "name": "Afferent role"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NCBITaxon:9685",
+                "name": "Felis catus"
+            },
+            {
+                "id": "NIFORG:birnlex_349",
+                "name": "Monkey"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFMOL:sao229636300",
+                "name": "GABA"
+            }
+        ],
+        "version": "1"
+    }
+]
