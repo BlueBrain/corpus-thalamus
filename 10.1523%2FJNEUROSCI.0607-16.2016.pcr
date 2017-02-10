@@ -184,5 +184,39 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "0c948cc6-efac-11e6-bd0c-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 16792,
+            "text": "at least 98% of TRN neurons in the mouse express PV.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.0607-16.2016",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFGA:nlx_anat_1010",
+                "name": "Afferent role"
+            },
+            {
+                "id": "NIFMOL:sao229636300",
+                "name": "GABA"
+            }
+        ],
+        "version": "1"
     }
 ]
