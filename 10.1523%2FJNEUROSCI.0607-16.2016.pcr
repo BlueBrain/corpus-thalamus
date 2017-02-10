@@ -78,5 +78,31 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "6823296a-efa9-11e6-a86f-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 24586,
+            "text": "our results\ndemonstrate a lack of intra-TRN GABAergic connections in mice\nolder than P15.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.0607-16.2016",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            }
+        ],
+        "version": "1"
     }
 ]
