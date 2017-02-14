@@ -28,5 +28,31 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "42ef47b0-f2be-11e6-9916-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 48739,
+            "text": "The spindle wave refractory period (3\u201320 s) is the time required for the h-current to return to a level that allows another spindle wave to occur (Bal & McCormick 1995, 1996; see also Soltesz et al 1991). What could cause the persistent activation of the h-current during the generation of a spindle wave? Two possibilities are that the voltage dependence of the h-current is shifted to more positive levels by increases in the intracellular Ca 2+ concentration, or that the h-current exhibits slow deactivation kinetics at normal resting membrane potentials (see Hagiwara & Irisawa 1989, Destexhe et al 1993a,b).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1146/annurev.neuro.20.1.185",
+        "tags": [
+            {
+                "id": "BBP_nlx_0025",
+                "name": "Sleep spindle"
+            },
+            {
+                "id": "BBP_nlx_0018",
+                "name": "Inward rectifier (h-type) current"
+            }
+        ],
+        "version": "1"
     }
 ]
