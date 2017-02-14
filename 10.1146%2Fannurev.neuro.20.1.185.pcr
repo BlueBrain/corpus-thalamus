@@ -54,5 +54,27 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "dd4b2a5e-f2be-11e6-9916-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 51094,
+            "text": "Cortical-cortical interconnections are critically important in the generation and synchronization of this slow oscillation, since it survives massive lesions of the appropriate nuclei of the thalamus (Steriade et al 1993b,d,e), and synchronization is disrupted with block of intracortical connections (Amzica & Steriade 1995b).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1146/annurev.neuro.20.1.185",
+        "tags": [
+            {
+                "id": "BBP_nlx_0025",
+                "name": "Sleep spindle"
+            }
+        ],
+        "version": "1"
     }
 ]
