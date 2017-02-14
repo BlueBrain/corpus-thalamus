@@ -1,1 +1,32 @@
-[]
+[
+    {
+        "annotId": "2c9f6d70-f2bc-11e6-9916-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 39181,
+            "text": "The simultaneous recording from eight sites\nin the ferret LGNd in vitro revealed that spindle oscillations propagate across\nthe slice at a rate of approximately 1 mm/s, or about 100 \u03bcm per burst of ac-\ntivity (Figure 6) (Kim et al 1995). This propagation typically occurs in the\ndorsal-ventral plane of sagittal slices, starting at one end of the slice and prop-\nagating in a somewhat saltatory manner to the other. The propagation occurs\nsimultaneously in the perigeniculate nucleus and in all laminae of the LGNd\nalong the lines of projection of connections between these two structures. The\nlocal pharmacological block of excitatory inputs from thalamocortical cells to\nthe perigeniculate nucleus prevents spindle waves from propagating past the\npoint of application.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1146/annurev.neuro.20.1.185",
+        "tags": [
+            {
+                "id": "BBP_nlx_0025",
+                "name": "Sleep spindle"
+            },
+            {
+                "id": "NCBITaxon:9669",
+                "name": "Mustela putorius furo"
+            },
+            {
+                "id": "UBERON:0001926",
+                "name": "lateral geniculate body"
+            }
+        ],
+        "version": "1"
+    }
+]
