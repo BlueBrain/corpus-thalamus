@@ -42,7 +42,24 @@
             }
         ],
         "pubId": "UNPUBLISHED_cad2844e-0335-11e7-9290-64006a4c56ef",
-        "tags": [],
+        "tags": [
+            {
+                "id": "NIFSUB:sao118541872",
+                "name": "Gap Junction"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFMOL:nifext_6",
+                "name": "Parvalbumin"
+            },
+            {
+                "id": "NIFMOL:nifext_2654",
+                "name": "Cav3.1"
+            }
+        ],
         "version": "1"
     }
 ]
