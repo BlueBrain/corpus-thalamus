@@ -9,9 +9,56 @@
         "localizer": {
             "type": "null"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-014000",
+                        "values": {
+                            "statistic": "CI_99",
+                            "type": "simple",
+                            "unit": "Ohm",
+                            "values": [
+                                123.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "7c12a2cc-0343-11e7-90ab-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFNEURMOR:nlx_cell_100601",
+                        "name": "Spiny neuron",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
         "pubId": "UNPUBLISHED_50d61ea4-0343-11e7-90ab-64006a4c56ef",
-        "tags": [],
+        "tags": [
+            {
+                "id": "NIFSUB:sao914572699",
+                "name": "Synapse"
+            },
+            {
+                "id": "BBP_nlx_0011",
+                "name": "Low threshold calcium T-current"
+            },
+            {
+                "id": "DOID:9065",
+                "name": "leishmaniasis"
+            },
+            {
+                "id": "NIFSUB:sao1799103720",
+                "name": "Dendritic Spine"
+            },
+            {
+                "id": "NIFSUB:sao118541872",
+                "name": "Gap Junction"
+            }
+        ],
         "version": "1"
     }
 ]
