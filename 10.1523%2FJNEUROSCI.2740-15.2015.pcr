@@ -1,14 +1,15 @@
 [
     {
-        "annotId": "d6436d2a-ed29-11e5-b291-3417ebb8f5ca",
+        "annotId": "0919decc-eff4-11e5-9224-c869cd917532",
         "authors": [
-            "iavarone"
+            "iavarone",
+            "oreilly"
         ],
         "comment": "",
         "experimentProperties": [],
         "localizer": {
-            "location": 17366,
-            "text": "mean physical lengths of TC (160\u0002m)",
+            "location": 57398,
+            "text": "LTSD showed minimal\nreduction in amplitude relative to their somatic counterparts\n(0.72\u20131.00, 0.89 \u0007 0.01, n \u0005 28; Fig. 6A,C)",
             "type": "text"
         },
         "parameters": [],
@@ -25,142 +26,6 @@
             {
                 "id": "NIFCELL:nifext_41",
                 "name": "Thalamocortical cell"
-            }
-        ],
-        "version": "1"
-    },
-    {
-        "annotId": "0ec14d5c-ed2a-11e5-b291-3417ebb8f5ca",
-        "authors": [
-            "iavarone",
-            "oreilly"
-        ],
-        "comment": "Physical length of reticular neurons = 400 um",
-        "experimentProperties": [],
-        "localizer": {
-            "location": 17407,
-            "text": "TRN (400\u0002m) neuron\ndendrites",
-            "type": "text"
-        },
-        "parameters": [
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-121005",
-                        "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "um",
-                            "values": [
-                                400.0
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "e5898bd0-fff2-11e5-b628-64006a4c56ef",
-                "isExperimentProperty": false,
-                "requiredTags": [
-                    {
-                        "id": "NIFCELL:nifext_45",
-                        "name": "Thalamic reticular nucleus cell",
-                        "rootId": "sao1813327414"
-                    }
-                ]
-            }
-        ],
-        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
-        "tags": [
-            {
-                "id": "NIFCELL:nifext_46",
-                "name": "Thalamus interneuron small"
-            },
-            {
-                "id": "NIFORG:birnlex_160",
-                "name": "Rat"
-            }
-        ],
-        "version": "1"
-    },
-    {
-        "annotId": "e6914b74-ed2a-11e5-b291-3417ebb8f5ca",
-        "authors": [
-            "iavarone",
-            "oreilly"
-        ],
-        "comment": "Passive properties of thalamocortical relay cells.",
-        "experimentProperties": [
-            {
-                "instanceId": "eca1d35c-fff5-11e5-b628-64006a4c56ef",
-                "paramTypeId": "BBP-002003"
-            }
-        ],
-        "localizer": {
-            "location": 23171,
-            "text": "Ri of 170 \u0004 \u0002 cm and for Cm\nof 0.7 \u0002F/cm2",
-            "type": "text"
-        },
-        "parameters": [
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-022000",
-                        "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "ohm*cm",
-                            "values": [
-                                170.0
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "e47c65ac-ffdc-11e5-8b78-64006a4c56ef",
-                "isExperimentProperty": false,
-                "requiredTags": [
-                    {
-                        "id": "NIFCELL:nifext_41",
-                        "name": "Thalamocortical cell",
-                        "rootId": "sao1813327414"
-                    }
-                ]
-            },
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-040001",
-                        "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "uF/cm^2",
-                            "values": [
-                                0.7
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "e47c6aca-ffdc-11e5-8b78-64006a4c56ef",
-                "isExperimentProperty": false,
-                "requiredTags": [
-                    {
-                        "id": "NIFCELL:nifext_41",
-                        "name": "Thalamocortical cell",
-                        "rootId": "sao1813327414"
-                    }
-                ]
-            }
-        ],
-        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
-        "tags": [
-            {
-                "id": "NIFCELL:nifext_46",
-                "name": "Thalamus interneuron small"
-            },
-            {
-                "id": "NIFORG:birnlex_160",
-                "name": "Rat"
             },
             {
                 "id": "NIFCELL:nifext_41",
@@ -170,123 +35,15 @@
         "version": "1"
     },
     {
-        "annotId": "4b1866e0-ed2b-11e5-b291-3417ebb8f5ca",
-        "authors": [
-            "iavarone",
-            "oreilly"
-        ],
-        "comment": "Liquid junction potential 12 mV",
-        "experimentProperties": [
-            {
-                "instanceId": "eca1d35c-fff5-11e5-b628-64006a4c56ef",
-                "paramTypeId": "BBP-002003"
-            }
-        ],
-        "localizer": {
-            "location": 24207,
-            "text": "where a liquid junction potential of 12 mV",
-            "type": "text"
-        },
-        "parameters": [
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-002003",
-                        "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "mV",
-                            "values": [
-                                12.0
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "eca1d35c-fff5-11e5-b628-64006a4c56ef",
-                "isExperimentProperty": true,
-                "requiredTags": []
-            }
-        ],
-        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
-        "tags": [
-            {
-                "id": "NIFCELL:nifext_46",
-                "name": "Thalamus interneuron small"
-            },
-            {
-                "id": "NIFORG:birnlex_160",
-                "name": "Rat"
-            },
-            {
-                "id": "NIFCELL:nifext_41",
-                "name": "Thalamocortical cell"
-            }
-        ],
-        "version": "1"
-    },
-    {
-        "annotId": "a0e25bf6-eed9-11e5-8a23-c869cd917532",
+        "annotId": "0aedb890-ef65-11e5-a8b2-c869cd917532",
         "authors": [
             "iavarone"
         ],
         "comment": "",
         "experimentProperties": [],
         "localizer": {
-            "location": 23703,
-            "text": "The data were, however, found to be best fit with an invariant channel density, a finding that is consistent with previous in vitro findings (Williams and Stuart, 2000).",
-            "type": "text"
-        },
-        "parameters": [],
-        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
-        "tags": [
-            {
-                "id": "NIFCELL:nifext_46",
-                "name": "Thalamus interneuron small"
-            },
-            {
-                "id": "NIFORG:birnlex_160",
-                "name": "Rat"
-            }
-        ],
-        "version": "1"
-    },
-    {
-        "annotId": "30892498-ef32-11e5-9e02-c869cd917532",
-        "authors": [
-            "iavarone"
-        ],
-        "comment": "",
-        "experimentProperties": [],
-        "localizer": {
-            "location": 24401,
-            "text": "Variations in somatodendritic T-type conductance distribution were tested. When channels were restricted to the soma and/or proximal dendrites",
-            "type": "text"
-        },
-        "parameters": [],
-        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
-        "tags": [
-            {
-                "id": "NIFCELL:nifext_46",
-                "name": "Thalamus interneuron small"
-            },
-            {
-                "id": "NIFORG:birnlex_160",
-                "name": "Rat"
-            }
-        ],
-        "version": "1"
-    },
-    {
-        "annotId": "6a04955c-ef32-11e5-825d-c869cd917532",
-        "authors": [
-            "iavarone"
-        ],
-        "comment": "Ca2+ steady state concentration: 200 nM",
-        "experimentProperties": [],
-        "localizer": {
-            "location": 24986,
-            "text": "simple Ca2\udbff\udc00 extrusion mechanism was inserted.\u0000",
+            "location": 43324,
+            "text": "time constants of 35.0 ",
             "type": "text"
         },
         "parameters": [
@@ -299,13 +56,13 @@
                             "type": "simple",
                             "unit": "ms",
                             "values": [
-                                5.0
+                                35.0
                             ]
                         }
                     },
                     "type": "pointValue"
                 },
-                "id": "e47c702e-ffdc-11e5-8b78-64006a4c56ef",
+                "id": "e47ca15c-ffdc-11e5-8b78-64006a4c56ef",
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
@@ -325,6 +82,10 @@
             {
                 "id": "NIFORG:birnlex_160",
                 "name": "Rat"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
             }
         ],
         "version": "1"
@@ -394,6 +155,749 @@
                     {
                         "id": "BBP_nlx_0001",
                         "name": "Leak ionic current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:nifext_41",
+                        "name": "Thalamocortical cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            },
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus interneuron small"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "0ec14d5c-ed2a-11e5-b291-3417ebb8f5ca",
+        "authors": [
+            "iavarone",
+            "oreilly"
+        ],
+        "comment": "Physical length of reticular neurons = 400 um",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 17407,
+            "text": "TRN (400\u0002m) neuron\ndendrites",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-121005",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "um",
+                            "values": [
+                                400.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "e5898bd0-fff2-11e5-b628-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_45",
+                        "name": "Thalamic reticular nucleus cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus interneuron small"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "0f3075a2-ef36-11e5-a75f-c869cd917532",
+        "authors": [
+            "iavarone",
+            "oreilly"
+        ],
+        "comment": "Resting membrane potential dendrites, TC and TRN cells in order",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 29670,
+            "text": "In both cell types,\nthe mean dendritic resting membrane potential was significantly\nmore depolarized than at the soma (TC: S, 73.8 \u0007 1.2 mV; D,\n71.3\u00071.1 mV; n\u000520; p\u00050.0019, paired t test; Fig. 3C; TRN:\nS, 69.4 \u0007 0.6 mV; D,  65.5 \u0007 0.5 mV; n \u0005 35; p \u0003 0.0001,\npaired t test; Fig. 2B).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus interneuron small"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1721",
+                "name": "Thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "100ddd86-eff7-11e5-8d17-c869cd917532",
+        "authors": [
+            "iavarone",
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 69309,
+            "text": "Uniform distribution of\nT-type Ca2\u0002 channel conductance ( gT) produced model voltage\nresponses in soma and dendrites most similar to those seen in\ndual patch-clamp recordings",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus interneuron small"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "2a11cc6e-eff3-11e5-818d-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 56065,
+            "text": "major T-type Ca2\udbff\udc00 channel subunit ex- pression \udac0\udc00",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus interneuron small"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1721",
+                "name": "Thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "30892498-ef32-11e5-9e02-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 24401,
+            "text": "Variations in somatodendritic T-type conductance distribution were tested. When channels were restricted to the soma and/or proximal dendrites",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus interneuron small"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "31f32286-ef65-11e5-9e6d-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 43324,
+            "text": "time constants ",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-080004",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "ms",
+                            "values": [
+                                12.6
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "e47ca422-ffdc-11e5-8b78-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus interneuron small"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1721",
+                "name": "Thalamic reticular nucleus"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "32b897cc-ef34-11e5-8016-c869cd917532",
+        "authors": [
+            "iavarone",
+            "oreilly"
+        ],
+        "comment": "Ca-activated cationic current, reversal potential = -20 mV",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 26328,
+            "text": "The gCAN had a conductance\nof 250\u0002S/cm2",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "uS/cm^2",
+                            "values": [
+                                250.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "e47c87ee-ffdc-11e5-8b78-64006a4c56ef",
+                "isExperimentProperty": false,
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFCELL:nifext_41",
+                        "name": "Thalamocortical cell"
+                    },
+                    "entity2": "None",
+                    "type": "point"
+                },
+                "requiredTags": [
+                    {
+                        "id": "BBP_nlx_0016",
+                        "name": "Calcium activated nonspecific cation current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:nifext_41",
+                        "name": "Thalamocortical cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "42165554-eff4-11e5-a39f-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 58057,
+            "text": "in TRN neurons, we found that LTSD increased in amplitude relative to LTSS with increasing distance from the soma",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus interneuron small"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1721",
+                "name": "Thalamic reticular nucleus"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "4b1866e0-ed2b-11e5-b291-3417ebb8f5ca",
+        "authors": [
+            "iavarone",
+            "oreilly"
+        ],
+        "comment": "Liquid junction potential 12 mV",
+        "experimentProperties": [
+            {
+                "instanceId": "eca1d35c-fff5-11e5-b628-64006a4c56ef",
+                "paramTypeId": "BBP-002003"
+            }
+        ],
+        "localizer": {
+            "location": 24207,
+            "text": "where a liquid junction potential of 12 mV",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                12.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "eca1d35c-fff5-11e5-b628-64006a4c56ef",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus interneuron small"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "6018bec2-f022-11e5-ab76-c869cd917532",
+        "authors": [
+            "iavarone",
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 69677,
+            "text": "the range of uniformly distributed gT\ndensities capable of reproducing the voltage signals we recorded\nin vitro was relatively narrow, and the optimal value ( gT, 7 \u0011\n10\t5 cm/s)",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "S/cm^2",
+                            "values": [
+                                7e-05
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "e47cae04-ffdc-11e5-8b78-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "BBP_nlx_0011",
+                        "name": "Low threshold calcium T-current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:nifext_41",
+                        "name": "Thalamocortical cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            },
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus interneuron small"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "64cf9fe4-ef34-11e5-80e7-c869cd917532",
+        "authors": [
+            "iavarone",
+            "oreilly"
+        ],
+        "comment": "Kir current parameters",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 26404,
+            "text": "The gKIR and the\nfast voltage-gated potassium channel ( gKf) had conductances of 20 \u0002s/\ncm2 and 50 mS/cm2, respectively. Both potassium channels had reversal\npotentials of 100 mV.",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "uS/cm^2",
+                            "values": [
+                                20.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "93c5d328-ffdc-11e5-8b78-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "BBP_nlx_0019",
+                        "name": "Potassium inward rectifier (Kir) current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:nifext_41",
+                        "name": "Thalamocortical cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-011001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                -100.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "93c5d85a-ffdc-11e5-8b78-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "BBP_nlx_0019",
+                        "name": "Potassium inward rectifier (Kir) current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:nifext_41",
+                        "name": "Thalamocortical cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFINV:birnlex_2300",
+                "name": "Computational model"
+            },
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus interneuron small"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "6a04955c-ef32-11e5-825d-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "Ca2+ steady state concentration: 200 nM",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 24986,
+            "text": "simple Ca2\udbff\udc00 extrusion mechanism was inserted.\u0000",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-080004",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "ms",
+                            "values": [
+                                5.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "e47c702e-ffdc-11e5-8b78-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus interneuron small"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "89963966-eff5-11e5-b76c-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 83158,
+            "text": "we conclude that LTS cannot be initi- ated in dendrites, and to trigger an LTS, dendritic input must be sufficient to depolarize the soma to LTS threshold.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus interneuron small"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1721",
+                "name": "Thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "8e3edae6-ef34-11e5-ba5d-c869cd917532",
+        "authors": [
+            "iavarone",
+            "oreilly"
+        ],
+        "comment": "Fast potassium current parameters",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 26404,
+            "text": "The gKIR and the\nfast voltage-gated potassium channel ( gKf) had conductances of 20 \u0002s/\ncm2 and 50 mS/cm2, respectively. Both potassium channels had reversal\npotentials of 100 mV.",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mS/cm^2",
+                            "values": [
+                                50.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "e47c93ba-ffdc-11e5-8b78-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "BBP_nlx_0020",
+                        "name": "Fast voltage-gated potassium (Kf) current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:nifext_41",
+                        "name": "Thalamocortical cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-011001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                -100.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "e47c95c2-ffdc-11e5-8b78-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "BBP_nlx_0020",
+                        "name": "Fast voltage-gated potassium (Kf) current",
                         "rootId": "nifext_8054"
                     },
                     {
@@ -514,89 +1018,74 @@
         "version": "1"
     },
     {
-        "annotId": "f5d23d2c-ef33-11e5-aea6-c869cd917532",
+        "annotId": "a0e25bf6-eed9-11e5-8a23-c869cd917532",
         "authors": [
-            "iavarone",
-            "oreilly"
+            "iavarone"
         ],
-        "comment": "Eq potential Ca2+ = 120 mV",
+        "comment": "",
         "experimentProperties": [],
         "localizer": {
-            "location": 26247,
-            "text": "were modeled with a reversal potential of 120 mV and a permeability of 0.7 \udbff\udc10m/s. \n\n\u0000",
+            "location": 23703,
+            "text": "The data were, however, found to be best fit with an invariant channel density, a finding that is consistent with previous in vitro findings (Williams and Stuart, 2000).",
             "type": "text"
         },
-        "parameters": [
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-011001",
-                        "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "mV",
-                            "values": [
-                                120.0
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "e47c81f4-ffdc-11e5-8b78-64006a4c56ef",
-                "isExperimentProperty": false,
-                "requiredTags": [
-                    {
-                        "id": "BBP_nlx_0011",
-                        "name": "Low threshold calcium T-current",
-                        "rootId": "nifext_8054"
-                    },
-                    {
-                        "id": "NIFCELL:nifext_41",
-                        "name": "Thalamocortical cell",
-                        "rootId": "sao1813327414"
-                    }
-                ]
-            },
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-035003",
-                        "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "um/s",
-                            "values": [
-                                0.7
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "1ae86a9a-fff2-11e5-b628-64006a4c56ef",
-                "isExperimentProperty": false,
-                "requiredTags": [
-                    {
-                        "id": "BBP_nlx_0011",
-                        "name": "Low threshold calcium T-current",
-                        "rootId": "nifext_8054"
-                    },
-                    {
-                        "id": "NIFCELL:nifext_41",
-                        "name": "Thalamocortical cell",
-                        "rootId": "sao1813327414"
-                    }
-                ]
-            }
-        ],
+        "parameters": [],
         "pubId": "10.1523/JNEUROSCI.2740-15.2015",
         "tags": [
             {
-                "id": "NIFINV:birnlex_2300",
-                "name": "Computational model"
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus interneuron small"
             },
             {
                 "id": "NIFORG:birnlex_160",
                 "name": "Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "ac253818-ef63-11e5-9716-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 31499,
+            "text": "voltage transfer between dendrites and soma (VDD\u00a1VSD) was much less efficient",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [],
+        "version": "1"
+    },
+    {
+        "annotId": "acc93fc6-eff4-11e5-9568-c869cd917532",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 59449,
+            "text": "when evoked by dendritic current injection, a pro- nounced distance-dependent difference in the threshold",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus interneuron small"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1721",
+                "name": "Thalamic reticular nucleus"
             },
             {
                 "id": "NIFCELL:nifext_41",
@@ -606,67 +1095,48 @@
         "version": "1"
     },
     {
-        "annotId": "32b897cc-ef34-11e5-8016-c869cd917532",
+        "annotId": "bb291140-ef63-11e5-b7fb-c869cd917532",
         "authors": [
-            "iavarone",
-            "oreilly"
+            "iavarone"
         ],
-        "comment": "Ca-activated cationic current, reversal potential = -20 mV",
+        "comment": "",
         "experimentProperties": [],
         "localizer": {
-            "location": 26328,
-            "text": "The gCAN had a conductance\nof 250\u0002S/cm2",
+            "location": 33011,
+            "text": "current transmis- sion, calculated as the ratio of current arriving at the soma to that injected into the dendrite, was highly efficient ",
             "type": "text"
         },
-        "parameters": [
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-030003",
-                        "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "uS/cm^2",
-                            "values": [
-                                250.0
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "e47c87ee-ffdc-11e5-8b78-64006a4c56ef",
-                "isExperimentProperty": false,
-                "relationship": {
-                    "entity1": {
-                        "id": "NIFCELL:nifext_41",
-                        "name": "Thalamocortical cell"
-                    },
-                    "entity2": "None",
-                    "type": "point"
-                },
-                "requiredTags": [
-                    {
-                        "id": "BBP_nlx_0016",
-                        "name": "Calcium activated nonspecific cation current",
-                        "rootId": "nifext_8054"
-                    },
-                    {
-                        "id": "NIFCELL:nifext_41",
-                        "name": "Thalamocortical cell",
-                        "rootId": "sao1813327414"
-                    }
-                ]
-            }
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [],
+        "version": "1"
+    },
+    {
+        "annotId": "c2100440-ef65-11e5-b2c2-c869cd917532",
+        "authors": [
+            "iavarone"
         ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 47216,
+            "text": "he predominantly expressed channel isoform is HCN-2,",
+            "type": "text"
+        },
+        "parameters": [],
         "pubId": "10.1523/JNEUROSCI.2740-15.2015",
         "tags": [
             {
-                "id": "NIFINV:birnlex_2300",
-                "name": "Computational model"
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus interneuron small"
             },
             {
                 "id": "NIFORG:birnlex_160",
                 "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1721",
+                "name": "Thalamic reticular nucleus"
             },
             {
                 "id": "NIFCELL:nifext_41",
@@ -676,86 +1146,20 @@
         "version": "1"
     },
     {
-        "annotId": "64cf9fe4-ef34-11e5-80e7-c869cd917532",
+        "annotId": "d6436d2a-ed29-11e5-b291-3417ebb8f5ca",
         "authors": [
-            "iavarone",
-            "oreilly"
+            "iavarone"
         ],
-        "comment": "Kir current parameters",
+        "comment": "",
         "experimentProperties": [],
         "localizer": {
-            "location": 26404,
-            "text": "The gKIR and the\nfast voltage-gated potassium channel ( gKf) had conductances of 20 \u0002s/\ncm2 and 50 mS/cm2, respectively. Both potassium channels had reversal\npotentials of 100 mV.",
+            "location": 17366,
+            "text": "mean physical lengths of TC (160\u0002m)",
             "type": "text"
         },
-        "parameters": [
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-030003",
-                        "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "uS/cm^2",
-                            "values": [
-                                20.0
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "93c5d328-ffdc-11e5-8b78-64006a4c56ef",
-                "isExperimentProperty": false,
-                "requiredTags": [
-                    {
-                        "id": "BBP_nlx_0019",
-                        "name": "Potassium inward rectifier (Kir) current",
-                        "rootId": "nifext_8054"
-                    },
-                    {
-                        "id": "NIFCELL:nifext_41",
-                        "name": "Thalamocortical cell",
-                        "rootId": "sao1813327414"
-                    }
-                ]
-            },
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-011001",
-                        "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "mV",
-                            "values": [
-                                -100.0
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "93c5d85a-ffdc-11e5-8b78-64006a4c56ef",
-                "isExperimentProperty": false,
-                "requiredTags": [
-                    {
-                        "id": "BBP_nlx_0019",
-                        "name": "Potassium inward rectifier (Kir) current",
-                        "rootId": "nifext_8054"
-                    },
-                    {
-                        "id": "NIFCELL:nifext_41",
-                        "name": "Thalamocortical cell",
-                        "rootId": "sao1813327414"
-                    }
-                ]
-            }
-        ],
+        "parameters": [],
         "pubId": "10.1523/JNEUROSCI.2740-15.2015",
         "tags": [
-            {
-                "id": "NIFINV:birnlex_2300",
-                "name": "Computational model"
-            },
             {
                 "id": "NIFCELL:nifext_46",
                 "name": "Thalamus interneuron small"
@@ -767,98 +1171,6 @@
             {
                 "id": "NIFCELL:nifext_41",
                 "name": "Thalamocortical cell"
-            }
-        ],
-        "version": "1"
-    },
-    {
-        "annotId": "8e3edae6-ef34-11e5-ba5d-c869cd917532",
-        "authors": [
-            "iavarone",
-            "oreilly"
-        ],
-        "comment": "Fast potassium current parameters",
-        "experimentProperties": [],
-        "localizer": {
-            "location": 26404,
-            "text": "The gKIR and the\nfast voltage-gated potassium channel ( gKf) had conductances of 20 \u0002s/\ncm2 and 50 mS/cm2, respectively. Both potassium channels had reversal\npotentials of 100 mV.",
-            "type": "text"
-        },
-        "parameters": [
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-030003",
-                        "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "mS/cm^2",
-                            "values": [
-                                50.0
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "e47c93ba-ffdc-11e5-8b78-64006a4c56ef",
-                "isExperimentProperty": false,
-                "requiredTags": [
-                    {
-                        "id": "BBP_nlx_0020",
-                        "name": "Fast voltage-gated potassium (Kf) current",
-                        "rootId": "nifext_8054"
-                    },
-                    {
-                        "id": "NIFCELL:nifext_41",
-                        "name": "Thalamocortical cell",
-                        "rootId": "sao1813327414"
-                    }
-                ]
-            },
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-011001",
-                        "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "mV",
-                            "values": [
-                                -100.0
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "e47c95c2-ffdc-11e5-8b78-64006a4c56ef",
-                "isExperimentProperty": false,
-                "requiredTags": [
-                    {
-                        "id": "BBP_nlx_0020",
-                        "name": "Fast voltage-gated potassium (Kf) current",
-                        "rootId": "nifext_8054"
-                    },
-                    {
-                        "id": "NIFCELL:nifext_41",
-                        "name": "Thalamocortical cell",
-                        "rootId": "sao1813327414"
-                    }
-                ]
-            }
-        ],
-        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
-        "tags": [
-            {
-                "id": "NIFINV:birnlex_2300",
-                "name": "Computational model"
-            },
-            {
-                "id": "NIFCELL:nifext_46",
-                "name": "Thalamus interneuron small"
-            },
-            {
-                "id": "NIFORG:birnlex_160",
-                "name": "Rat"
             }
         ],
         "version": "1"
@@ -956,112 +1268,70 @@
         "version": "1"
     },
     {
-        "annotId": "0f3075a2-ef36-11e5-a75f-c869cd917532",
+        "annotId": "e6914b74-ed2a-11e5-b291-3417ebb8f5ca",
         "authors": [
             "iavarone",
             "oreilly"
         ],
-        "comment": "Resting membrane potential dendrites, TC and TRN cells in order",
-        "experimentProperties": [],
-        "localizer": {
-            "location": 29670,
-            "text": "In both cell types,\nthe mean dendritic resting membrane potential was significantly\nmore depolarized than at the soma (TC: S, 73.8 \u0007 1.2 mV; D,\n71.3\u00071.1 mV; n\u000520; p\u00050.0019, paired t test; Fig. 3C; TRN:\nS, 69.4 \u0007 0.6 mV; D,  65.5 \u0007 0.5 mV; n \u0005 35; p \u0003 0.0001,\npaired t test; Fig. 2B).",
-            "type": "text"
-        },
-        "parameters": [],
-        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
-        "tags": [
+        "comment": "Passive properties of thalamocortical relay cells.",
+        "experimentProperties": [
             {
-                "id": "NIFCELL:nifext_46",
-                "name": "Thalamus interneuron small"
-            },
-            {
-                "id": "NIFORG:birnlex_160",
-                "name": "Rat"
-            },
-            {
-                "id": "NIFGA:birnlex_1721",
-                "name": "Thalamic reticular nucleus"
-            },
-            {
-                "id": "NIFCELL:nifext_41",
-                "name": "Thalamocortical cell"
-            },
-            {
-                "id": "NIFCELL:nifext_41",
-                "name": "Thalamocortical cell"
+                "instanceId": "eca1d35c-fff5-11e5-b628-64006a4c56ef",
+                "paramTypeId": "BBP-002003"
             }
         ],
-        "version": "1"
-    },
-    {
-        "annotId": "ac253818-ef63-11e5-9716-c869cd917532",
-        "authors": [
-            "iavarone"
-        ],
-        "comment": "",
-        "experimentProperties": [],
         "localizer": {
-            "location": 31499,
-            "text": "voltage transfer between dendrites and soma (VDD\u00a1VSD) was much less efficient",
-            "type": "text"
-        },
-        "parameters": [],
-        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
-        "tags": [],
-        "version": "1"
-    },
-    {
-        "annotId": "bb291140-ef63-11e5-b7fb-c869cd917532",
-        "authors": [
-            "iavarone"
-        ],
-        "comment": "",
-        "experimentProperties": [],
-        "localizer": {
-            "location": 33011,
-            "text": "current transmis- sion, calculated as the ratio of current arriving at the soma to that injected into the dendrite, was highly efficient ",
-            "type": "text"
-        },
-        "parameters": [],
-        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
-        "tags": [],
-        "version": "1"
-    },
-    {
-        "annotId": "0aedb890-ef65-11e5-a8b2-c869cd917532",
-        "authors": [
-            "iavarone"
-        ],
-        "comment": "",
-        "experimentProperties": [],
-        "localizer": {
-            "location": 43324,
-            "text": "time constants of 35.0 ",
+            "location": 23171,
+            "text": "Ri of 170 \u0004 \u0002 cm and for Cm\nof 0.7 \u0002F/cm2",
             "type": "text"
         },
         "parameters": [
             {
                 "description": {
                     "depVar": {
-                        "typeId": "BBP-080004",
+                        "typeId": "BBP-022000",
                         "values": {
                             "statistic": "raw",
                             "type": "simple",
-                            "unit": "ms",
+                            "unit": "ohm*cm",
                             "values": [
-                                35.0
+                                170.0
                             ]
                         }
                     },
                     "type": "pointValue"
                 },
-                "id": "e47ca15c-ffdc-11e5-8b78-64006a4c56ef",
+                "id": "e47c65ac-ffdc-11e5-8b78-64006a4c56ef",
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
+                        "id": "NIFCELL:nifext_41",
+                        "name": "Thalamocortical cell",
+                        "rootId": "sao1813327414"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-040001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "uF/cm^2",
+                            "values": [
+                                0.7
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "e47c6aca-ffdc-11e5-8b78-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_41",
+                        "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
                     }
                 ]
@@ -1085,327 +1355,65 @@
         "version": "1"
     },
     {
-        "annotId": "31f32286-ef65-11e5-9e6d-c869cd917532",
+        "annotId": "f5d23d2c-ef33-11e5-aea6-c869cd917532",
         "authors": [
-            "iavarone"
+            "iavarone",
+            "oreilly"
         ],
-        "comment": "",
+        "comment": "Eq potential Ca2+ = 120 mV",
         "experimentProperties": [],
         "localizer": {
-            "location": 43324,
-            "text": "time constants ",
+            "location": 26247,
+            "text": "were modeled with a reversal potential of 120 mV and a permeability of 0.7 \udbff\udc10m/s. \n\n\u0000",
             "type": "text"
         },
         "parameters": [
             {
                 "description": {
                     "depVar": {
-                        "typeId": "BBP-080004",
+                        "typeId": "BBP-011001",
                         "values": {
                             "statistic": "raw",
                             "type": "simple",
-                            "unit": "ms",
+                            "unit": "mV",
                             "values": [
-                                12.6
+                                120.0
                             ]
                         }
                     },
                     "type": "pointValue"
                 },
-                "id": "e47ca422-ffdc-11e5-8b78-64006a4c56ef",
+                "id": "e47c81f4-ffdc-11e5-8b78-64006a4c56ef",
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
+                        "id": "BBP_nlx_0011",
+                        "name": "Low threshold calcium T-current",
+                        "rootId": "nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:nifext_41",
+                        "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
                     }
                 ]
-            }
-        ],
-        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
-        "tags": [
-            {
-                "id": "NIFCELL:nifext_46",
-                "name": "Thalamus interneuron small"
             },
-            {
-                "id": "NIFORG:birnlex_160",
-                "name": "Rat"
-            },
-            {
-                "id": "NIFGA:birnlex_1721",
-                "name": "Thalamic reticular nucleus"
-            }
-        ],
-        "version": "1"
-    },
-    {
-        "annotId": "c2100440-ef65-11e5-b2c2-c869cd917532",
-        "authors": [
-            "iavarone"
-        ],
-        "comment": "",
-        "experimentProperties": [],
-        "localizer": {
-            "location": 47216,
-            "text": "he predominantly expressed channel isoform is HCN-2,",
-            "type": "text"
-        },
-        "parameters": [],
-        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
-        "tags": [
-            {
-                "id": "NIFCELL:nifext_46",
-                "name": "Thalamus interneuron small"
-            },
-            {
-                "id": "NIFORG:birnlex_160",
-                "name": "Rat"
-            },
-            {
-                "id": "NIFGA:birnlex_1721",
-                "name": "Thalamic reticular nucleus"
-            },
-            {
-                "id": "NIFCELL:nifext_41",
-                "name": "Thalamocortical cell"
-            }
-        ],
-        "version": "1"
-    },
-    {
-        "annotId": "2a11cc6e-eff3-11e5-818d-c869cd917532",
-        "authors": [
-            "iavarone"
-        ],
-        "comment": "",
-        "experimentProperties": [],
-        "localizer": {
-            "location": 56065,
-            "text": "major T-type Ca2\udbff\udc00 channel subunit ex- pression \udac0\udc00",
-            "type": "text"
-        },
-        "parameters": [],
-        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
-        "tags": [
-            {
-                "id": "NIFCELL:nifext_46",
-                "name": "Thalamus interneuron small"
-            },
-            {
-                "id": "NIFORG:birnlex_160",
-                "name": "Rat"
-            },
-            {
-                "id": "NIFGA:birnlex_1721",
-                "name": "Thalamic reticular nucleus"
-            },
-            {
-                "id": "NIFCELL:nifext_41",
-                "name": "Thalamocortical cell"
-            }
-        ],
-        "version": "1"
-    },
-    {
-        "annotId": "0919decc-eff4-11e5-9224-c869cd917532",
-        "authors": [
-            "iavarone",
-            "oreilly"
-        ],
-        "comment": "",
-        "experimentProperties": [],
-        "localizer": {
-            "location": 57398,
-            "text": "LTSD showed minimal\nreduction in amplitude relative to their somatic counterparts\n(0.72\u20131.00, 0.89 \u0007 0.01, n \u0005 28; Fig. 6A,C)",
-            "type": "text"
-        },
-        "parameters": [],
-        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
-        "tags": [
-            {
-                "id": "NIFCELL:nifext_46",
-                "name": "Thalamus interneuron small"
-            },
-            {
-                "id": "NIFORG:birnlex_160",
-                "name": "Rat"
-            },
-            {
-                "id": "NIFCELL:nifext_41",
-                "name": "Thalamocortical cell"
-            },
-            {
-                "id": "NIFCELL:nifext_41",
-                "name": "Thalamocortical cell"
-            }
-        ],
-        "version": "1"
-    },
-    {
-        "annotId": "42165554-eff4-11e5-a39f-c869cd917532",
-        "authors": [
-            "iavarone"
-        ],
-        "comment": "",
-        "experimentProperties": [],
-        "localizer": {
-            "location": 58057,
-            "text": "in TRN neurons, we found that LTSD increased in amplitude relative to LTSS with increasing distance from the soma",
-            "type": "text"
-        },
-        "parameters": [],
-        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
-        "tags": [
-            {
-                "id": "NIFCELL:nifext_46",
-                "name": "Thalamus interneuron small"
-            },
-            {
-                "id": "NIFORG:birnlex_160",
-                "name": "Rat"
-            },
-            {
-                "id": "NIFGA:birnlex_1721",
-                "name": "Thalamic reticular nucleus"
-            }
-        ],
-        "version": "1"
-    },
-    {
-        "annotId": "acc93fc6-eff4-11e5-9568-c869cd917532",
-        "authors": [
-            "iavarone"
-        ],
-        "comment": "",
-        "experimentProperties": [],
-        "localizer": {
-            "location": 59449,
-            "text": "when evoked by dendritic current injection, a pro- nounced distance-dependent difference in the threshold",
-            "type": "text"
-        },
-        "parameters": [],
-        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
-        "tags": [
-            {
-                "id": "NIFCELL:nifext_46",
-                "name": "Thalamus interneuron small"
-            },
-            {
-                "id": "NIFORG:birnlex_160",
-                "name": "Rat"
-            },
-            {
-                "id": "NIFGA:birnlex_1721",
-                "name": "Thalamic reticular nucleus"
-            },
-            {
-                "id": "NIFCELL:nifext_41",
-                "name": "Thalamocortical cell"
-            }
-        ],
-        "version": "1"
-    },
-    {
-        "annotId": "89963966-eff5-11e5-b76c-c869cd917532",
-        "authors": [
-            "iavarone"
-        ],
-        "comment": "",
-        "experimentProperties": [],
-        "localizer": {
-            "location": 83158,
-            "text": "we conclude that LTS cannot be initi- ated in dendrites, and to trigger an LTS, dendritic input must be sufficient to depolarize the soma to LTS threshold.",
-            "type": "text"
-        },
-        "parameters": [],
-        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
-        "tags": [
-            {
-                "id": "NIFCELL:nifext_46",
-                "name": "Thalamus interneuron small"
-            },
-            {
-                "id": "NIFORG:birnlex_160",
-                "name": "Rat"
-            },
-            {
-                "id": "NIFGA:birnlex_1721",
-                "name": "Thalamic reticular nucleus"
-            },
-            {
-                "id": "NIFCELL:nifext_41",
-                "name": "Thalamocortical cell"
-            }
-        ],
-        "version": "1"
-    },
-    {
-        "annotId": "100ddd86-eff7-11e5-8d17-c869cd917532",
-        "authors": [
-            "iavarone",
-            "oreilly"
-        ],
-        "comment": "",
-        "experimentProperties": [],
-        "localizer": {
-            "location": 69309,
-            "text": "Uniform distribution of\nT-type Ca2\u0002 channel conductance ( gT) produced model voltage\nresponses in soma and dendrites most similar to those seen in\ndual patch-clamp recordings",
-            "type": "text"
-        },
-        "parameters": [],
-        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
-        "tags": [
-            {
-                "id": "NIFCELL:nifext_46",
-                "name": "Thalamus interneuron small"
-            },
-            {
-                "id": "NIFORG:birnlex_160",
-                "name": "Rat"
-            },
-            {
-                "id": "NIFCELL:nifext_41",
-                "name": "Thalamocortical cell"
-            },
-            {
-                "id": "NIFCELL:nifext_41",
-                "name": "Thalamocortical cell"
-            }
-        ],
-        "version": "1"
-    },
-    {
-        "annotId": "6018bec2-f022-11e5-ab76-c869cd917532",
-        "authors": [
-            "iavarone",
-            "oreilly"
-        ],
-        "comment": "",
-        "experimentProperties": [],
-        "localizer": {
-            "location": 69677,
-            "text": "the range of uniformly distributed gT\ndensities capable of reproducing the voltage signals we recorded\nin vitro was relatively narrow, and the optimal value ( gT, 7 \u0011\n10\t5 cm/s)",
-            "type": "text"
-        },
-        "parameters": [
             {
                 "description": {
                     "depVar": {
-                        "typeId": "BBP-030003",
+                        "typeId": "BBP-035003",
                         "values": {
                             "statistic": "raw",
                             "type": "simple",
-                            "unit": "S/cm^2",
+                            "unit": "um/s",
                             "values": [
-                                7e-05
+                                0.7
                             ]
                         }
                     },
                     "type": "pointValue"
                 },
-                "id": "e47cae04-ffdc-11e5-8b78-64006a4c56ef",
+                "id": "1ae86a9a-fff2-11e5-b628-64006a4c56ef",
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
@@ -1428,89 +1436,12 @@
                 "name": "Computational model"
             },
             {
-                "id": "NIFCELL:nifext_46",
-                "name": "Thalamus interneuron small"
-            },
-            {
                 "id": "NIFORG:birnlex_160",
                 "name": "Rat"
             },
             {
                 "id": "NIFCELL:nifext_41",
                 "name": "Thalamocortical cell"
-            },
-            {
-                "id": "NIFCELL:nifext_41",
-                "name": "Thalamocortical cell"
-            }
-        ],
-        "version": "1"
-    },
-    {
-        "annotId": "206e34dc-031a-11e7-928d-64006a4c56ef",
-        "authors": [
-            "oreilly"
-        ],
-        "comment": "r;ktgljdsf;klg;sdkljfgkjsdf;gk;",
-        "experimentProperties": [],
-        "localizer": {
-            "location": 42813,
-            "text": "local input impedance (ZN ) in TC (1 Hz, 211.3 +/-\n20.1 MOhm",
-            "type": "text"
-        },
-        "parameters": [
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-990018",
-                        "values": {
-                            "type": "compound",
-                            "valueLst": [
-                                {
-                                    "statistic": "mean",
-                                    "type": "simple",
-                                    "unit": "MOhm",
-                                    "values": [
-                                        211.3
-                                    ]
-                                },
-                                {
-                                    "statistic": "sd",
-                                    "type": "simple",
-                                    "unit": "MOhm",
-                                    "values": [
-                                        20.1
-                                    ]
-                                }
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "f2237686-031a-11e7-928d-64006a4c56ef",
-                "isExperimentProperty": false,
-                "requiredTags": [
-                    {
-                        "id": "NIFCELL:nifext_45",
-                        "name": "Thalamic reticular nucleus cell",
-                        "rootId": "NIFCELL:sao1813327414"
-                    }
-                ]
-            }
-        ],
-        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
-        "tags": [
-            {
-                "id": "NIFORG:birnlex_254",
-                "name": "Wistar Rat"
-            },
-            {
-                "id": "UBERON:0001903",
-                "name": "thalamic reticular nucleus"
-            },
-            {
-                "id": "NIFMOL:nifext_2708",
-                "name": "Kv2.1"
             }
         ],
         "version": "1"
