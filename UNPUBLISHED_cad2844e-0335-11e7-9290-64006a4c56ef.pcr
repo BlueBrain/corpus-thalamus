@@ -9,7 +9,38 @@
         "localizer": {
             "type": "null"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-035003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "dimensionless",
+                            "values": [
+                                23.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "360cc1a4-033e-11e7-98b9-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "BBP_nlx_0024",
+                        "name": "Medium calcium-dependent AHP potassium (SK) current",
+                        "rootId": "NIFMOL:nifext_8054"
+                    },
+                    {
+                        "id": "NIFCELL:nlx_cell_091213",
+                        "name": "Hippocampus CA3 basket cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
         "pubId": "UNPUBLISHED_cad2844e-0335-11e7-9290-64006a4c56ef",
         "tags": [],
         "version": "1"
