@@ -1445,5 +1445,74 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "206e34dc-031a-11e7-928d-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "r;ktgljdsf;klg;sdkljfgkjsdf;gk;",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 42813,
+            "text": "local input impedance (ZN ) in TC (1 Hz, 211.3 +/-\n20.1 MOhm",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-990018",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "MOhm",
+                                    "values": [
+                                        211.3
+                                    ]
+                                },
+                                {
+                                    "statistic": "sd",
+                                    "type": "simple",
+                                    "unit": "MOhm",
+                                    "values": [
+                                        20.1
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "f2237686-031a-11e7-928d-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_45",
+                        "name": "Thalamic reticular nucleus cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFMOL:nifext_2708",
+                "name": "Kv2.1"
+            }
+        ],
+        "version": "1"
     }
 ]
