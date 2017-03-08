@@ -197,29 +197,5 @@
             }
         ],
         "version": "1"
-    },
-    {
-        "annotId": "c2a7200a-0401-11e7-922b-64006a4c56ef",
-        "authors": [
-            "oreilly"
-        ],
-        "comment": "",
-        "experimentProperties": [],
-        "localizer": {
-            "type": "null"
-        },
-        "parameters": [],
-        "pubId": "UNPUBLISHED_cded22ee-0400-11e7-922b-64006a4c56ef",
-        "tags": [
-            {
-                "id": "NIFORG:birnlex_254",
-                "name": "Wistar Rat"
-            },
-            {
-                "id": "NEMO:4031000",
-                "name": "male"
-            }
-        ],
-        "version": "1"
     }
 ]
