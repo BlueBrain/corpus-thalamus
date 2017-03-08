@@ -9,7 +9,27 @@
         "localizer": {
             "type": "null"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "days",
+                            "values": [
+                                7.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "92ea419e-0401-11e7-922b-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": []
+            }
+        ],
         "pubId": "UNPUBLISHED_cded22ee-0400-11e7-922b-64006a4c56ef",
         "tags": [
             {
