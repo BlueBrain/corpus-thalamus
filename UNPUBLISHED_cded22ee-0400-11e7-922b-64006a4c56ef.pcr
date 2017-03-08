@@ -35,6 +35,10 @@
             {
                 "id": "NIFORG:birnlex_254",
                 "name": "Wistar Rat"
+            },
+            {
+                "id": "NEMO:4031000",
+                "name": "male"
             }
         ],
         "version": "1"
