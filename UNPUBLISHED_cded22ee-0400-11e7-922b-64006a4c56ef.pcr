@@ -98,6 +98,31 @@
                         "rootId": "NIFMOL:nifext_8054"
                     }
                 ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-150001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mM",
+                            "values": [
+                                7.562744
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "d7959daa-0403-11e7-922b-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "PR:000013178",
+                        "name": "progressive rod-cone degeneration protein",
+                        "rootId": "CHEBI:23367"
+                    }
+                ]
             }
         ],
         "pubId": "UNPUBLISHED_cded22ee-0400-11e7-922b-64006a4c56ef",
