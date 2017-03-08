@@ -1,0 +1,22 @@
+[
+    {
+        "annotId": "4f9cef72-0401-11e7-922b-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "type": "null"
+        },
+        "parameters": [],
+        "pubId": "UNPUBLISHED_cded22ee-0400-11e7-922b-64006a4c56ef",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            }
+        ],
+        "version": "1"
+    }
+]
