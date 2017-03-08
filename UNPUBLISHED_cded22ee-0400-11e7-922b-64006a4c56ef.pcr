@@ -63,6 +63,41 @@
                         "rootId": "NIFMOL:nifext_8054"
                     }
                 ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "nS",
+                            "values": [
+                                9.702789
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "e9811086-0402-11e7-922b-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFSUB:sao1044911821",
+                        "name": "Neuronal Cell Body",
+                        "rootId": "GO:0097458"
+                    },
+                    {
+                        "id": "NIFCELL:sao830368389",
+                        "name": "Hippocampus CA1 pyramidal cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Transmembrane ionic current",
+                        "rootId": "NIFMOL:nifext_8054"
+                    }
+                ]
             }
         ],
         "pubId": "UNPUBLISHED_cded22ee-0400-11e7-922b-64006a4c56ef",
