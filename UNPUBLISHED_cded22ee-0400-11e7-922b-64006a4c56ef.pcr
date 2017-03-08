@@ -595,5 +595,204 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "19243744-041e-11e7-8e6e-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "NeuroID:NID0001\nPurpose: to determine resting [Cl-]I, GABA reversal  and conductance for subsequent Cl- extrusion analysis",
+        "experimentProperties": [
+            {
+                "instanceId": "92ea419e-0401-11e7-922b-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "type": "null"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "days",
+                            "values": [
+                                7.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "1924392e-041e-11e7-8e6e-64006a4c56ef",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-011001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                -68.549798
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "192439e2-041e-11e7-8e6e-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao830368389",
+                        "name": "Hippocampus CA1 pyramidal cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "BBP_nlx_0027",
+                        "name": "GABA-related cloride current",
+                        "rootId": "NIFMOL:nifext_8054"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-030003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "nS",
+                            "values": [
+                                9.702789
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "19243a78-041e-11e7-8e6e-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFSUB:sao1044911821",
+                        "name": "Neuronal Cell Body",
+                        "rootId": "GO:0097458"
+                    },
+                    {
+                        "id": "NIFCELL:sao830368389",
+                        "name": "Hippocampus CA1 pyramidal cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "BBP_nlx_0027",
+                        "name": "GABA-related cloride current",
+                        "rootId": "NIFMOL:nifext_8054"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-150001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mM",
+                            "values": [
+                                7.562744
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "19243af0-041e-11e7-8e6e-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "PR:000013178",
+                        "name": "progressive rod-cone degeneration protein",
+                        "rootId": "CHEBI:23367"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-080003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "s",
+                            "values": [
+                                6.9112
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "19243b68-041e-11e7-8e6e-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao830368389",
+                        "name": "Hippocampus CA1 pyramidal cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "BBP_nlx_0027",
+                        "name": "GABA-related cloride current",
+                        "rootId": "NIFMOL:nifext_8054"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-142002",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "1/(mM*s)",
+                            "values": [
+                                0.0010442
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "19243bd6-041e-11e7-8e6e-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao830368389",
+                        "name": "Hippocampus CA1 pyramidal cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "CHEBI:23367",
+                        "name": "molecular entity",
+                        "rootId": "CHEBI:23367"
+                    }
+                ]
+            }
+        ],
+        "pubId": "UNPUBLISHED_cded22ee-0400-11e7-922b-64006a4c56ef",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "NEMO:4031000",
+                "name": "male"
+            }
+        ],
+        "version": "1"
     }
 ]
