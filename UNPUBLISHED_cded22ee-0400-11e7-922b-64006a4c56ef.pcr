@@ -123,6 +123,36 @@
                         "rootId": "CHEBI:23367"
                     }
                 ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-080003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "s",
+                            "values": [
+                                6.9112
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "26768d9e-0404-11e7-922b-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao383526650",
+                        "name": "Hippocampus CA3 pyramidal cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Transmembrane ionic current",
+                        "rootId": "NIFMOL:nifext_8054"
+                    }
+                ]
             }
         ],
         "pubId": "UNPUBLISHED_cded22ee-0400-11e7-922b-64006a4c56ef",
