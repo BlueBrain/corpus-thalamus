@@ -4,8 +4,13 @@
         "authors": [
             "oreilly"
         ],
-        "comment": "",
-        "experimentProperties": [],
+        "comment": "NeuroID:NID0001\nPurpose: to determine resting [Cl-]I, GABA reversal  and conductance for subsequent Cl- extrusion analysis",
+        "experimentProperties": [
+            {
+                "instanceId": "92ea419e-0401-11e7-922b-64006a4c56ef",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
         "localizer": {
             "type": "null"
         },
@@ -28,6 +33,36 @@
                 "id": "92ea419e-0401-11e7-922b-64006a4c56ef",
                 "isExperimentProperty": true,
                 "requiredTags": []
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-011001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                -68.549798
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "9258cc90-0402-11e7-922b-64006a4c56ef",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao830368389",
+                        "name": "Hippocampus CA1 pyramidal cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Transmembrane ionic current",
+                        "rootId": "NIFMOL:nifext_8054"
+                    }
+                ]
             }
         ],
         "pubId": "UNPUBLISHED_cded22ee-0400-11e7-922b-64006a4c56ef",
