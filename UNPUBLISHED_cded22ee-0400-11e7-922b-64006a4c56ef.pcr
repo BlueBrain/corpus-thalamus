@@ -18,25 +18,6 @@
             {
                 "description": {
                     "depVar": {
-                        "typeId": "BBP-002001",
-                        "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "days",
-                            "values": [
-                                7.0
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "92ea419e-0401-11e7-922b-64006a4c56ef",
-                "isExperimentProperty": true,
-                "requiredTags": []
-            },
-            {
-                "description": {
-                    "depVar": {
                         "typeId": "BBP-011001",
                         "values": {
                             "statistic": "raw",
