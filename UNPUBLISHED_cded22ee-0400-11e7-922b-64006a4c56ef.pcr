@@ -703,7 +703,7 @@
                             "type": "simple",
                             "unit": "1/(mM*s)",
                             "values": [
-                                0.0010442
+                                0.00073
                             ]
                         }
                     },
@@ -718,8 +718,8 @@
                         "rootId": "NIFCELL:sao1813327414"
                     },
                     {
-                        "id": "CHEBI:23367",
-                        "name": "molecular entity",
+                        "id": "CHEBI:17996",
+                        "name": "chloride",
                         "rootId": "CHEBI:23367"
                     }
                 ]
