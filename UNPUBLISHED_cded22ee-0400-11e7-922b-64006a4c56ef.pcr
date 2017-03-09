@@ -1188,7 +1188,7 @@
                             "type": "simple",
                             "unit": "mM",
                             "values": [
-                                7.562744
+                                5.481714
                             ]
                         }
                     },
@@ -1198,8 +1198,8 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "PR:000013178",
-                        "name": "progressive rod-cone degeneration protein",
+                        "id": "CHEBI:17996",
+                        "name": "chloride",
                         "rootId": "CHEBI:23367"
                     }
                 ]
