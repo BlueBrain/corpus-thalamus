@@ -209,13 +209,14 @@
     {
         "annotId": "04937940-05ee-11e6-b998-c869cd917532",
         "authors": [
-            "iavarone"
+            "iavarone",
+            "oreilly"
         ],
         "comment": "",
         "experimentProperties": [],
         "localizer": {
             "no": "2-6",
-            "noCol": null,
+            "noCol": "None",
             "noRow": "5-6",
             "type": "table"
         },
@@ -225,11 +226,32 @@
                     "depVar": {
                         "typeId": "BBP-030003",
                         "values": {
-                            "statistic": "mean",
-                            "type": "simple",
-                            "unit": "S/cm^2",
-                            "values": [
-                                0.024
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "S/cm^2",
+                                    "values": [
+                                        0.0024
+                                    ]
+                                },
+                                {
+                                    "statistic": "min",
+                                    "type": "simple",
+                                    "unit": "S/cm^2",
+                                    "values": [
+                                        0.0011
+                                    ]
+                                },
+                                {
+                                    "statistic": "max",
+                                    "type": "simple",
+                                    "unit": "S/cm^2",
+                                    "values": [
+                                        0.0047
+                                    ]
+                                }
                             ]
                         }
                     },
@@ -247,6 +269,11 @@
                         "id": "NIFCELL:nifext_41",
                         "name": "Thalamocortical cell",
                         "rootId": "sao1813327414"
+                    },
+                    {
+                        "id": "GO:0097458",
+                        "name": "neuron part",
+                        "rootId": "GO:0097458"
                     }
                 ]
             },
@@ -326,6 +353,23 @@
                 "name": "Dorsal nucleus of lateral geniculate body"
             }
         ],
+        "version": "1"
+    },
+    {
+        "annotId": "07db3d70-9f7e-11e6-bef9-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "From this paper:\nIT, IA, IK2 : from rats (Annot ID: 71d30c8c-9f7c-11e6-bef9-64006a4c56ef)\nIh : from Guinea pig (Annot ID: 1b104102-9f7d-11e6-bef9-64006a4c56ef)",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 9136,
+            "text": "This model of thalamocortical\nrelay cells was based on the mathematical description of IT, IA, IK2, and Ih presented in the accompanying paper (Huguenard and McCormick\n1992).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_1331356",
+        "tags": [],
         "version": "1"
     }
 ]

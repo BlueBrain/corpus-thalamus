@@ -33,6 +33,10 @@
             {
                 "id": "NIFINV:birnlex_2313",
                 "name": "Neural circuit model"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
             }
         ],
         "version": "1"
@@ -79,7 +83,7 @@
                                     "type": "simple",
                                     "unit": "dimensionless",
                                     "values": [
-                                        10
+                                        10.0
                                     ]
                                 }
                             ]
@@ -128,6 +132,10 @@
             {
                 "id": "NIFINV:birnlex_2313",
                 "name": "Neural circuit model"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
             }
         ],
         "version": "1"
@@ -174,7 +182,7 @@
                                     "type": "simple",
                                     "unit": "dimensionless",
                                     "values": [
-                                        10
+                                        10.0
                                     ]
                                 }
                             ]
@@ -223,6 +231,10 @@
             {
                 "id": "NIFINV:birnlex_2313",
                 "name": "Neural circuit model"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
             }
         ],
         "version": "1"
@@ -269,7 +281,7 @@
                                     "type": "simple",
                                     "unit": "dimensionless",
                                     "values": [
-                                        10
+                                        10.0
                                     ]
                                 }
                             ]
@@ -318,6 +330,10 @@
             {
                 "id": "NIFINV:birnlex_2313",
                 "name": "Neural circuit model"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
             }
         ],
         "version": "1"
@@ -364,7 +380,7 @@
                                     "type": "simple",
                                     "unit": "dimensionless",
                                     "values": [
-                                        10
+                                        10.0
                                     ]
                                 }
                             ]
@@ -413,6 +429,10 @@
             {
                 "id": "NIFINV:birnlex_2313",
                 "name": "Neural circuit model"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
             }
         ],
         "version": "1"
@@ -459,7 +479,7 @@
                                     "type": "simple",
                                     "unit": "dimensionless",
                                     "values": [
-                                        10
+                                        10.0
                                     ]
                                 }
                             ]
@@ -508,6 +528,10 @@
             {
                 "id": "NIFINV:birnlex_2313",
                 "name": "Neural circuit model"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
             }
         ],
         "version": "1"
@@ -554,7 +578,7 @@
                                     "type": "simple",
                                     "unit": "dimensionless",
                                     "values": [
-                                        10
+                                        10.0
                                     ]
                                 }
                             ]
@@ -595,6 +619,10 @@
             {
                 "id": "NIFINV:birnlex_2313",
                 "name": "Neural circuit model"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
             }
         ],
         "version": "1"
@@ -641,7 +669,7 @@
                                     "type": "simple",
                                     "unit": "dimensionless",
                                     "values": [
-                                        10
+                                        10.0
                                     ]
                                 }
                             ]
@@ -682,6 +710,10 @@
             {
                 "id": "NIFINV:birnlex_2313",
                 "name": "Neural circuit model"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
             }
         ],
         "version": "1"
@@ -728,7 +760,7 @@
                                     "type": "simple",
                                     "unit": "dimensionless",
                                     "values": [
-                                        10
+                                        10.0
                                     ]
                                 }
                             ]
@@ -769,6 +801,73 @@
             {
                 "id": "NIFINV:birnlex_2313",
                 "name": "Neural circuit model"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "b8388d14-a0fd-11e6-bef9-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 10910,
+            "text": "Balb/c mice (30 \u2013 40 days of age)",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002001",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "min",
+                                    "type": "simple",
+                                    "unit": "day",
+                                    "values": [
+                                        30.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "max",
+                                    "type": "simple",
+                                    "unit": "day",
+                                    "values": [
+                                        40.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "d0d97a18-a0fd-11e6-bef9-64006a4c56ef",
+                "isExperimentProperty": true,
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFORG:birnlex_167",
+                        "name": "Mouse"
+                    },
+                    "entity2": "None",
+                    "type": "point"
+                },
+                "requiredTags": []
+            }
+        ],
+        "pubId": "10.1152/jn.00926.2014",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
             }
         ],
         "version": "1"

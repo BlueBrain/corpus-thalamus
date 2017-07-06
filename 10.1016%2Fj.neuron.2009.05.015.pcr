@@ -1,0 +1,62 @@
+[
+    {
+        "annotId": "ebb13f64-e889-11e6-994b-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 13105,
+            "text": "Because cortical activation of RT neurons is far more powerful\nthan activation of TC neurons, and because RT neurons inhibit\nTC neurons, cortical activity primarily inhibits TC neurons,\nan effect mediated by the disynaptic, RT-dominant pathway\n(Destexhe et al., 1998; Golshani et al., 2001).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1016/j.neuron.2009.05.015",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "0f8f8aec-e896-11e6-994b-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 36192,
+            "text": "GABA A receptors expressed by RT\nneurons normally contain the b 3 subunit, while those expressed\nby TC neurons do not.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1016/j.neuron.2009.05.015",
+        "tags": [
+            {
+                "id": "PR:000007774",
+                "name": "gamma-aminobutyric acid receptor subunit beta-3"
+            },
+            {
+                "id": "NIFMOL:sao229636300",
+                "name": "GABA"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
+            }
+        ],
+        "version": "1"
+    }
+]
