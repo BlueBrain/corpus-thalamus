@@ -51,6 +51,10 @@
             {
                 "id": "NIFMOL:nifext_6",
                 "name": "Parvalbumin"
+            },
+            {
+                "id": "NIFGA:birnlex_954",
+                "name": "Thalamus"
             }
         ],
         "version": "1"
