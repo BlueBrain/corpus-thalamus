@@ -45,12 +45,12 @@
         "pubId": "10.1016/j.neuroscience.2007.07.036",
         "tags": [
             {
-                "id": "NIFORG:birnlex_160",
-                "name": "Rat"
-            },
-            {
                 "id": "NIFORG:birnlex_266",
                 "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFMOL:nifext_6",
+                "name": "Parvalbumin"
             }
         ],
         "version": "1"
