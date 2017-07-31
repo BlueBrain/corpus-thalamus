@@ -55,6 +55,10 @@
             {
                 "id": "NIFGA:birnlex_954",
                 "name": "Thalamus"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
             }
         ],
         "version": "1"
