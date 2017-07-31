@@ -1,0 +1,32 @@
+[
+    {
+        "annotId": "b27746aa-7603-11e7-871b-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 9126,
+            "text": "in rats M-type cells are numerous and\nwidely distributed across the thalamus, and that calbindin\nis expressed by a large fraction, but not all, of these cells.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1016/j.neuroscience.2007.07.036",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_954",
+                "name": "Thalamus"
+            },
+            {
+                "id": "PR:000004967",
+                "name": "calbindin"
+            }
+        ],
+        "version": "1"
+    }
+]
