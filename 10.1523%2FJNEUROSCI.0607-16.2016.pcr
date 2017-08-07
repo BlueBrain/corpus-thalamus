@@ -1,0 +1,222 @@
+[
+    {
+        "annotId": "362b194c-efa7-11e6-a86f-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 26510,
+            "text": "Previous studies have identified a number of external GABAergic\ninputs to the TRN. These include the basal forebrain in rats\n(Asanuma, 1989; Asanuma and Porter, 1990) and cats (Bickford\net al., 1994), the substantia nigra pars reticulata in cats (Pare et al.,\n1990), and the globus pallidus in monkeys (Hazrati and Parent, 1991; Asanuma, 1994) and rats (Govindaiah et al., 2010).\nWhether similar GABAergic inputs are present in the mouse is\nunknown. A recent optogenetic study in the mouse showed that\nGABAergic neurons in the lateral hypothalamus innervate the\nTRN and this projection has an important role in regulating\narousal (Herrera et al., 2016).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.0607-16.2016",
+        "tags": [
+            {
+                "id": "NIFGA:nlx_anat_1010",
+                "name": "Afferent role"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NCBITaxon:9685",
+                "name": "Felis catus"
+            },
+            {
+                "id": "NIFORG:birnlex_349",
+                "name": "Monkey"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFMOL:sao229636300",
+                "name": "GABA"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "cbfed3b4-efa7-11e6-a86f-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 27343,
+            "text": "The lack of optogenetically evoked IPSCs in the TRNs of young adult PV-ChR2 mice suggests that external GABAergic inputs to the TRN primarily come from PV-negative neurons.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.0607-16.2016",
+        "tags": [
+            {
+                "id": "NIFGA:nlx_anat_1010",
+                "name": "Afferent role"
+            },
+            {
+                "id": "NIFMOL:sao229636300",
+                "name": "GABA"
+            },
+            {
+                "id": "NIFMOL:nifext_6",
+                "name": "Parvalbumin"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "6823296a-efa9-11e6-a86f-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 24586,
+            "text": "our results\ndemonstrate a lack of intra-TRN GABAergic connections in mice\nolder than P15.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.0607-16.2016",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFGA:nlx_anat_1010",
+                "name": "Afferent role"
+            },
+            {
+                "id": "NIFMOL:sao229636300",
+                "name": "GABA"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "a8d4ea3e-efa9-11e6-a86f-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 24676,
+            "text": "We found that between P11 and P13, 30% of TRN neurons\nin PV-ChR2 mice showed light-evoked GABAergic IPSCs",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.0607-16.2016",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFGA:nlx_anat_1010",
+                "name": "Afferent role"
+            },
+            {
+                "id": "NIFMOL:sao229636300",
+                "name": "GABA"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "cf2da1c6-efa9-11e6-a86f-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 24926,
+            "text": "it is likely that intra-TRN GABAergic\nconnections are present in newborn mice but they are elimi-\nnated after 2 weeks of age",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.0607-16.2016",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFGA:nlx_anat_1010",
+                "name": "Afferent role"
+            },
+            {
+                "id": "NIFMOL:sao229636300",
+                "name": "GABA"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "0c948cc6-efac-11e6-bd0c-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 16792,
+            "text": "at least 98% of TRN neurons in the mouse express PV.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.0607-16.2016",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFGA:nlx_anat_1010",
+                "name": "Afferent role"
+            },
+            {
+                "id": "NIFMOL:sao229636300",
+                "name": "GABA"
+            }
+        ],
+        "version": "1"
+    }
+]

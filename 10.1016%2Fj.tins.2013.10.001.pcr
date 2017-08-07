@@ -1,0 +1,88 @@
+[
+    {
+        "annotId": "164fcd08-e85d-11e6-9b7c-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 12651,
+            "text": "Deficits in EEG s power were also detected in a mouse\nlacking the Ca V 3.1 isoform [22], the only T channel subtype\nexpressed in relay neurons [15].",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1016/j.tins.2013.10.001",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "NIFMOL:nifext_2654",
+                "name": "Cav3.1"
+            },
+            {
+                "id": "NIFCELL:nlx_cell_20081203",
+                "name": "Thalamus relay cell"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "7c60db6a-e861-11e6-a645-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 11344,
+            "text": "Another important factor in the generation and maintenance of reticular intrinsic oscillations is the aforementioned SK2 or Kcnn2 channel. The vigorous Ca 2+ influx in nRt dendrites originating from Ca V 3.3 channels gates SK2 channels, thereby creating a burst afterhyperpolarization (bAHP) [12,19]. As T channels recover partially from inactivation during bAHPs, nRt cells typically generate a series of low-threshold bursts, with a rhythmicity also seen in nRt of sleeping animals [20,21]. In SK2 \u00c0/\u00c0 mice, this oscillatory discharge is replaced by a single burst followed by a slowly decaying plateau potential [10], demonstrating that the cyclical Ca V 3.3\u2013SK2 channel interaction is necessary for nRt rhythmicity. Conversely, genetic overexpression of SK2 channels resulted in increased bAHPs and prolonged cycles of repetitive bursting [13].\n",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1016/j.tins.2013.10.001",
+        "tags": [
+            {
+                "id": "BBP_nlx_0025",
+                "name": "Sleep spindle"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            },
+            {
+                "id": "BBP_nlx_0026",
+                "name": "Cav3.3"
+            },
+            {
+                "id": "PR:000000713",
+                "name": "small conductance calcium-activated potassium channel protein 2"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "cee7fb86-e864-11e6-994b-64006a4c56ef",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 17408,
+            "text": "This cortical control could explain the fre-\nquently observed link of spindles to EEG slow-waves, and\nto K-complexes in humans [6]. This link is less evident in\nrodent EEG: spindles are hardly detectable as discrete\nevents, but their spectral frequency (s, primarily 9\u2013\n15 Hz) appears throughout NREMS [33], with a predomi-\nnance at periods when low-frequency power weakens.\nAccordingly, spindle activity in mice is estimated from\nthe surge in s power that starts $30 s before NREMS\u2013\nREMS transitions [12,34,35].",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1016/j.tins.2013.10.001",
+        "tags": [
+            {
+                "id": "BBP_nlx_0025",
+                "name": "Sleep spindle"
+            }
+        ],
+        "version": "1"
+    }
+]
