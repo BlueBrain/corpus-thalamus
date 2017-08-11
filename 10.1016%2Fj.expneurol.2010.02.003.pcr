@@ -210,7 +210,7 @@
                                 {
                                     "statistic": "mean",
                                     "type": "simple",
-                                    "unit": "10^5/mm^3",
+                                    "unit": "1/mm^3",
                                     "values": [
                                         2704050.0,
                                         1844240.0,
