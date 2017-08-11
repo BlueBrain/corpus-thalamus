@@ -163,13 +163,13 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFGA:birnlex_1116",
-                        "name": "Ventral posterior nucleus",
+                        "id": "NIFGA:birnlex_1167",
+                        "name": "Regional part of brain",
                         "rootId": "NIFGA:birnlex_1167"
                     },
                     {
-                        "id": "NIFCELL:nlx_cell_20081203",
-                        "name": "Thalamus relay cell",
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
                         "rootId": "NIFCELL:sao1813327414"
                     }
                 ]
