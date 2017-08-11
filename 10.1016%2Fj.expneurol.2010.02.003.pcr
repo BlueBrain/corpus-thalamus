@@ -737,7 +737,7 @@
                                 {
                                     "statistic": "mean",
                                     "type": "simple",
-                                    "unit": "1/mm**3",
+                                    "unit": "1/mm^3",
                                     "values": [
                                         103040.45617248,
                                         60975.6698765652,
