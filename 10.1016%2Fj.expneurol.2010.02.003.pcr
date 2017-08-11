@@ -96,31 +96,31 @@
         "authors": [
             "oreilly"
         ],
-        "comment": "",
+        "comment": "Labeled as dendity for TC cells, although no specific efforts has been made to exclude non TC cells. So it may be of by the % of interneurons (about 1%-4%, depending on the sources).",
         "experimentProperties": [],
         "localizer": {
-            "no": "2, top panel",
+            "no": "2, middle panel",
             "type": "figure"
         },
         "parameters": [
             {
                 "description": {
                     "depVar": {
-                        "typeId": "BBP-131005",
+                        "typeId": "BBP-131001",
                         "values": {
                             "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
                                     "type": "simple",
-                                    "unit": "mm**3",
+                                    "unit": "10**5/mm**3",
                                     "values": [
-                                        0.810976,
-                                        0.512195,
-                                        1.10976,
-                                        2.49695,
-                                        3.96951,
-                                        5.25
+                                        27.0405,
+                                        18.4424,
+                                        10.3427,
+                                        6.35514,
+                                        5.35826,
+                                        2.86604
                                     ]
                                 },
                                 {
@@ -166,6 +166,11 @@
                         "id": "NIFGA:birnlex_1116",
                         "name": "Ventral posterior nucleus",
                         "rootId": "NIFGA:birnlex_1167"
+                    },
+                    {
+                        "id": "NIFCELL:nlx_cell_20081203",
+                        "name": "Thalamus relay cell",
+                        "rootId": "NIFCELL:sao1813327414"
                     }
                 ]
             }
