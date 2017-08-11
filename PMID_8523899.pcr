@@ -103,7 +103,7 @@
                                 {
                                     "statistic": "mean",
                                     "type": "simple",
-                                    "unit": "1/mm**2",
+                                    "unit": "1/mm^2",
                                     "values": [
                                         417.83,
                                         333.6,
@@ -115,7 +115,7 @@
                                 {
                                     "statistic": "sem",
                                     "type": "simple",
-                                    "unit": "1/mm**2",
+                                    "unit": "1/mm^2",
                                     "values": [
                                         8.78,
                                         7.98,
