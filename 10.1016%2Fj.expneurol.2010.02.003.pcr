@@ -106,23 +106,18 @@
             {
                 "description": {
                     "depVar": {
-                        "typeId": "BBP-131001",
+                        "typeId": "BBP-131002",
                         "values": {
-                            "type": "compound",
-                            "valueLst": [
-                                {
-                                    "statistic": "mean",
-                                    "type": "simple",
-                                    "unit": "dimensionless",
-                                    "values": [
-                                        0.0,
-                                        0.0,
-                                        0.0,
-                                        0.0,
-                                        0.0,
-                                        0.0
-                                    ]
-                                }
+                            "statistic": "mean",
+                            "type": "simple",
+                            "unit": "dimensionless",
+                            "values": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                0.0,
+                                0.0,
+                                0.0
                             ]
                         }
                     },
