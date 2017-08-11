@@ -632,13 +632,66 @@
         "authors": [
             "oreilly"
         ],
-        "comment": "Obtained by dividing values in lower panel by those in upper panel. ",
+        "comment": "Obtained by dividing values in lower panel by those in upper panel. Labeled as densities for TC cells, although no specific efforts has been made to exclude non TC cells. So it may be of by the % of interneurons (about 1%-4%, depending on the sources). Numbers for controls.",
         "experimentProperties": [],
         "localizer": {
             "no": "3, left",
             "type": "figure"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131001",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "1/mm**3",
+                                    "values": [
+                                        99733.9815527777,
+                                        60344.974078819,
+                                        54166.7048610793
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "indepVars": [
+                        {
+                            "typeId": "BBP-002001",
+                            "values": {
+                                "statistic": "raw",
+                                "type": "simple",
+                                "unit": "dimensionless",
+                                "values": [
+                                    6.0,
+                                    12.0,
+                                    21.0
+                                ]
+                            }
+                        }
+                    ],
+                    "type": "numericalTrace"
+                },
+                "id": "a39b208a-7e95-11e7-8d14-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nlx_cell_20081203",
+                        "name": "Thalamus relay cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFGA:birnlex_743",
+                        "name": "Ventral posteromedial nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            }
+        ],
         "pubId": "10.1016/j.expneurol.2010.02.003",
         "tags": [
             {
