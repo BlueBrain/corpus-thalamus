@@ -221,16 +221,34 @@
                     "depVar": {
                         "typeId": "BBP-131002",
                         "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "dimensionless",
-                            "values": [
-                                0.0,
-                                0.0,
-                                0.0,
-                                0.0,
-                                0.0,
-                                0.0
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        23577.0,
+                                        26337.0,
+                                        17367.0,
+                                        17338.0,
+                                        14827.0,
+                                        13352.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "sd",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        1298.0,
+                                        2125.0,
+                                        71.0,
+                                        2620.0,
+                                        2624.0,
+                                        1082.0
+                                    ]
+                                }
                             ]
                         }
                     },
@@ -258,13 +276,13 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
+                        "id": "NIFCELL:nlx_cell_20081203",
+                        "name": "Thalamus relay cell",
                         "rootId": "NIFCELL:sao1813327414"
                     },
                     {
-                        "id": "NIFGA:birnlex_1167",
-                        "name": "Regional part of brain",
+                        "id": "NIFGA:birnlex_737",
+                        "name": "Ventral posterolateral nucleus",
                         "rootId": "NIFGA:birnlex_1167"
                     }
                 ]
