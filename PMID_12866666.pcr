@@ -276,8 +276,8 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:nlx_cell_20081203",
-                        "name": "Thalamus relay cell",
+                        "id": "NIFCELL:sao1417703748",
+                        "name": "Neuron",
                         "rootId": "NIFCELL:sao1813327414"
                     },
                     {
