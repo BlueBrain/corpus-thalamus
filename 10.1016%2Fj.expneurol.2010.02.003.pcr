@@ -187,5 +187,102 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "458147ec-7e8e-11e7-8d14-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Labeled as dendity for TC cells, although no specific efforts has been made to exclude non TC cells. So it may be of by the % of interneurons (about 1%-4%, depending on the sources).",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "2, middle panel",
+            "type": "figure"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131001",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "10**5/mm**3",
+                                    "values": [
+                                        27.0405,
+                                        18.4424,
+                                        10.3427,
+                                        6.35514,
+                                        5.35826,
+                                        2.86604
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        5.0,
+                                        5.0,
+                                        5.0,
+                                        5.0,
+                                        5.0,
+                                        5.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "indepVars": [
+                        {
+                            "typeId": "BBP-002001",
+                            "values": {
+                                "statistic": "raw",
+                                "type": "simple",
+                                "unit": "day",
+                                "values": [
+                                    0.0,
+                                    3.0,
+                                    6.0,
+                                    12.0,
+                                    21.0,
+                                    30.0
+                                ]
+                            }
+                        }
+                    ],
+                    "type": "numericalTrace"
+                },
+                "id": "458147ed-7e8e-11e7-8d14-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFGA:birnlex_1116",
+                        "name": "Ventral posterior nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    },
+                    {
+                        "id": "NIFCELL:nlx_cell_20081203",
+                        "name": "Thalamus relay cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1016/j.expneurol.2010.02.003",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_954",
+                "name": "Thalamus"
+            }
+        ],
+        "version": "1"
     }
 ]
