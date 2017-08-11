@@ -98,13 +98,44 @@
                     "depVar": {
                         "typeId": "BBP-131001",
                         "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "dimensionless",
-                            "values": [
-                                0.0,
-                                0.0,
-                                0.0
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "1/mm**2",
+                                    "values": [
+                                        417.83,
+                                        333.6,
+                                        260.75,
+                                        220.23,
+                                        306.13
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "1/mm**2",
+                                    "values": [
+                                        8.78,
+                                        7.98,
+                                        6.88,
+                                        5.93,
+                                        7.64
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        5.0,
+                                        5.0,
+                                        5.0,
+                                        5.0,
+                                        5.0
+                                    ]
+                                }
                             ]
                         }
                     },
@@ -118,7 +149,9 @@
                                 "values": [
                                     3.0,
                                     6.0,
-                                    18.0
+                                    18.0,
+                                    24.0,
+                                    30.0
                                 ]
                             }
                         }
@@ -129,13 +162,13 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
+                        "id": "NIFCELL:nlx_cell_20081203",
+                        "name": "Thalamus relay cell",
                         "rootId": "NIFCELL:sao1813327414"
                     },
                     {
-                        "id": "NIFGA:birnlex_1167",
-                        "name": "Regional part of brain",
+                        "id": "NIFGA:birnlex_1721",
+                        "name": "Thalamic reticular nucleus",
                         "rootId": "NIFGA:birnlex_1167"
                     }
                 ]
