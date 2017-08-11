@@ -739,9 +739,9 @@
                                     "type": "simple",
                                     "unit": "1/mm**3",
                                     "values": [
-                                        99733.9815527777,
-                                        60344.974078819,
-                                        54166.7048610793
+                                        103040.45617248,
+                                        60975.6698765652,
+                                        53202.586824061
                                     ]
                                 },
                                 {
@@ -783,8 +783,8 @@
                         "rootId": "NIFCELL:sao1813327414"
                     },
                     {
-                        "id": "NIFGA:birnlex_743",
-                        "name": "Ventral posteromedial nucleus",
+                        "id": "NIFGA:birnlex_737",
+                        "name": "Ventral posterolateral nucleus",
                         "rootId": "NIFGA:birnlex_1167"
                     }
                 ]
