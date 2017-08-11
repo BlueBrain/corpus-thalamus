@@ -86,12 +86,12 @@
         "pubId": "10.1016/j.expneurol.2010.02.003",
         "tags": [
             {
-                "id": "NIFORG:birnlex_160",
-                "name": "Rat"
-            },
-            {
                 "id": "NIFGA:birnlex_954",
                 "name": "Thalamus"
+            },
+            {
+                "id": "NIFORG:nlx_organ_20081201",
+                "name": "Long Evans Rat"
             }
         ],
         "version": "1"
