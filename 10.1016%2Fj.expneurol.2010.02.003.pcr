@@ -376,7 +376,7 @@
         "comment": "",
         "experimentProperties": [],
         "localizer": {
-            "no": "3, top left",
+            "no": "3, top right",
             "type": "figure"
         },
         "parameters": [
@@ -392,9 +392,9 @@
                                     "type": "simple",
                                     "unit": "mm**3",
                                     "values": [
-                                        0.488312,
-                                        1.50649,
-                                        2.18182
+                                        0.384416,
+                                        0.851948,
+                                        1.25714
                                     ]
                                 },
                                 {
@@ -431,8 +431,8 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFGA:birnlex_743",
-                        "name": "Ventral posteromedial nucleus",
+                        "id": "NIFGA:birnlex_737",
+                        "name": "Ventral posterolateral nucleus",
                         "rootId": "NIFGA:birnlex_1167"
                     }
                 ]
