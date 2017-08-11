@@ -96,31 +96,31 @@
         "authors": [
             "oreilly"
         ],
-        "comment": "Labeled as dendity for TC cells, although no specific efforts has been made to exclude non TC cells. So it may be of by the % of interneurons (about 1%-4%, depending on the sources).",
+        "comment": "Labeled as neuron numbers for TC cells, although no specific efforts has been made to exclude non TC cells. So it may be of by the % of interneurons (about 1%-4%, depending on the sources).",
         "experimentProperties": [],
         "localizer": {
-            "no": "2, middle panel",
+            "no": "2, bottom panel",
             "type": "figure"
         },
         "parameters": [
             {
                 "description": {
                     "depVar": {
-                        "typeId": "BBP-131001",
+                        "typeId": "BBP-131002",
                         "values": {
                             "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
                                     "type": "simple",
-                                    "unit": "10**5/mm**3",
+                                    "unit": "dimensionless",
                                     "values": [
-                                        27.0405,
-                                        18.4424,
-                                        10.3427,
-                                        6.35514,
-                                        5.35826,
-                                        2.86604
+                                        208654.0,
+                                        94070.5,
+                                        107692.0,
+                                        155769.0,
+                                        214263.0,
+                                        146154.0
                                     ]
                                 },
                                 {
