@@ -538,5 +538,93 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "c7f141fe-7e94-11e7-8d14-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Labeled as neuron number for TC cells, although no specific efforts has been made to exclude non TC cells. So it may be of by the % of interneurons (about 1%-4%, depending on the sources). Numbers for controls.",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "3, bottom left",
+            "type": "figure"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131002",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        48701.3,
+                                        90909.1,
+                                        118182.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        5.0,
+                                        5.0,
+                                        5.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "indepVars": [
+                        {
+                            "typeId": "BBP-002001",
+                            "values": {
+                                "statistic": "raw",
+                                "type": "simple",
+                                "unit": "day",
+                                "values": [
+                                    6.0,
+                                    12.0,
+                                    21.0
+                                ]
+                            }
+                        }
+                    ],
+                    "type": "numericalTrace"
+                },
+                "id": "c7f141ff-7e94-11e7-8d14-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nlx_cell_20081203",
+                        "name": "Thalamus relay cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFGA:birnlex_743",
+                        "name": "Ventral posteromedial nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1016/j.expneurol.2010.02.003",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_954",
+                "name": "Thalamus"
+            }
+        ],
+        "version": "1"
     }
 ]
