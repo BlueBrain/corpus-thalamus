@@ -8,11 +8,59 @@
         "experimentProperties": [],
         "localizer": {
             "no": "2",
-            "noCol": null,
-            "noRow": null,
+            "noCol": "None",
+            "noRow": "None",
             "type": "table"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "dimensionless",
+                            "values": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ]
+                        }
+                    },
+                    "indepVars": [
+                        {
+                            "typeId": "BBP-002001",
+                            "values": {
+                                "statistic": "raw",
+                                "type": "simple",
+                                "unit": "dimensionless",
+                                "values": [
+                                    3.0,
+                                    6.0,
+                                    18.0
+                                ]
+                            }
+                        }
+                    ],
+                    "type": "numericalTrace"
+                },
+                "id": "bbb668d0-7e97-11e7-8d14-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFGA:birnlex_1167",
+                        "name": "Regional part of brain",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            }
+        ],
         "pubId": "PMID_8523899",
         "tags": [],
         "version": "1"
