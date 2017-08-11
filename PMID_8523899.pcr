@@ -35,7 +35,7 @@
                                 {
                                     "statistic": "N",
                                     "type": "simple",
-                                    "unit": "dimensionless",
+                                    "unit": "1/mm**3",
                                     "values": [
                                         5.0,
                                         5.0,
