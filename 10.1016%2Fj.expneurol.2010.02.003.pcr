@@ -723,7 +723,7 @@
         "comment": "Obtained by dividing values in lower panel by those in upper panel. Labeled as densities for TC cells, although no specific efforts has been made to exclude non TC cells. So it may be of by the % of interneurons (about 1%-4%, depending on the sources). Numbers for controls.",
         "experimentProperties": [],
         "localizer": {
-            "no": "3, left",
+            "no": "3, right",
             "type": "figure"
         },
         "parameters": [
