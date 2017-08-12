@@ -1,1 +1,194 @@
-[]
+[
+    {
+        "annotId": "56bf1a08-7e97-11e7-8d14-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Counted in the visual sector of the Rt. ",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "2",
+            "noCol": "None",
+            "noRow": "None",
+            "type": "table"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131001",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "1/mm^3",
+                                    "values": [
+                                        26679.66,
+                                        21129.56,
+                                        17742.4,
+                                        14504.22,
+                                        19912.83
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "1/mm^3",
+                                    "values": [
+                                        5.0,
+                                        5.0,
+                                        5.0,
+                                        5.0,
+                                        5.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        590.32,
+                                        565.64,
+                                        505.02,
+                                        425.85,
+                                        553.77
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "indepVars": [
+                        {
+                            "typeId": "BBP-002001",
+                            "values": {
+                                "statistic": "raw",
+                                "type": "simple",
+                                "unit": "dimensionless",
+                                "values": [
+                                    3.0,
+                                    6.0,
+                                    18.0,
+                                    24.0,
+                                    30.0
+                                ]
+                            }
+                        }
+                    ],
+                    "type": "numericalTrace"
+                },
+                "id": "bbb668d0-7e97-11e7-8d14-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_45",
+                        "name": "Thalamic reticular nucleus cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFGA:birnlex_1721",
+                        "name": "Thalamic reticular nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131001",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "1/mm^2",
+                                    "values": [
+                                        417.83,
+                                        333.6,
+                                        260.75,
+                                        220.23,
+                                        306.13
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "1/mm^2",
+                                    "values": [
+                                        8.78,
+                                        7.98,
+                                        6.88,
+                                        5.93,
+                                        7.64
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        5.0,
+                                        5.0,
+                                        5.0,
+                                        5.0,
+                                        5.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "indepVars": [
+                        {
+                            "typeId": "BBP-002001",
+                            "values": {
+                                "statistic": "raw",
+                                "type": "simple",
+                                "unit": "dimensionless",
+                                "values": [
+                                    3.0,
+                                    6.0,
+                                    18.0,
+                                    24.0,
+                                    30.0
+                                ]
+                            }
+                        }
+                    ],
+                    "type": "numericalTrace"
+                },
+                "id": "d3af0c4e-7e97-11e7-8d14-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nlx_cell_20081203",
+                        "name": "Thalamus relay cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFGA:birnlex_1721",
+                        "name": "Thalamic reticular nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            }
+        ],
+        "pubId": "PMID_8523899",
+        "tags": [
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            }
+        ],
+        "version": "1"
+    }
+]
