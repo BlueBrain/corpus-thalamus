@@ -76,5 +76,31 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "b9e77dac-801b-11e7-9d91-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 7873,
+            "text": "The number of neocorrtical neurons in control\nanimals was (19.5 +/- 0.9)*10^6 (mean +/- SEM).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_8985685",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            }
+        ],
+        "version": "1"
     }
 ]
