@@ -384,13 +384,56 @@
         "authors": [
             "oreilly"
         ],
-        "comment": "",
+        "comment": "Merged together the ipsilateral and contralateral. Each values is for the VB nucleus of one hemisphere.",
         "experimentProperties": [],
         "localizer": {
             "no": "5.G",
             "type": "figure"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131005",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mm^3",
+                            "values": [
+                                2.64474,
+                                3.11184,
+                                3.16447,
+                                2.71053,
+                                2.54605,
+                                2.90789,
+                                3.03289,
+                                3.25,
+                                2.55921,
+                                2.58553,
+                                2.83553,
+                                2.91447,
+                                3.09868,
+                                2.46711,
+                                2.75658,
+                                2.97368,
+                                2.53947,
+                                2.83553
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "d506a29c-8030-11e7-9d91-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFGA:birnlex_1116",
+                        "name": "Ventral posterior nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            }
+        ],
         "pubId": "10.1016/j.neuroscience.2014.02.026",
         "tags": [
             {
