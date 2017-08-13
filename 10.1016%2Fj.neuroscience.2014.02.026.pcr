@@ -264,13 +264,61 @@
         "authors": [
             "oreilly"
         ],
-        "comment": "",
+        "comment": "Merged together the ipsilateral and contralateral. Each values is for the Rt nucleus of one hemisphere.",
         "experimentProperties": [],
         "localizer": {
             "no": "4.C",
             "type": "figure"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131002",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "dimensionless",
+                            "values": [
+                                35235.5,
+                                41052.6,
+                                44044.3,
+                                32742.4,
+                                48698.1,
+                                46703.6,
+                                43545.7,
+                                41717.5,
+                                35069.3,
+                                33407.2,
+                                43379.5,
+                                38559.6,
+                                36066.5,
+                                40886.4,
+                                49030.5,
+                                33573.4,
+                                38725.8,
+                                44875.3
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "b12edb94-802d-11e7-9d91-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "BBP_nlx_0031",
+                        "name": "Thalamic reticular nucleus cell - PV+",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFGA:birnlex_1721",
+                        "name": "Thalamic reticular nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            }
+        ],
         "pubId": "10.1016/j.neuroscience.2014.02.026",
         "tags": [
             {
