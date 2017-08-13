@@ -119,5 +119,79 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "e7de8d58-8035-11e7-9d91-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 11455,
+            "text": "The total volume of this part of vibrissal thalamus (i.e.,\nconvex hull around 24 barreloids; Materials and Methods) was\n0.19 \u00b1 0.03 mm 3 , resulting in an average neuron density across\nthe entire VPM of 52,494 \u00b1 5,082 mm \u22123 . Densities in VPM\nwithin and above/below barreloids (51,507 \u00b1 4,422 and 54,440 \u00b1\n6,559 mm \u22123 , respectively) were larger compared with the sur-\nrounding thalamic nuclei, with 49,680 \u00b1 1,097 and 41,477 \u00b1 3,612mm \u22123 in nucleus reticularis (RT) and posterior medial nucleus (POm), respectively. ",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131001",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "1/mm^3",
+                                    "values": [
+                                        52494.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "sd",
+                                    "type": "simple",
+                                    "unit": "1/mm^3",
+                                    "values": [
+                                        5082.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        3.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "1c391ee2-8036-11e7-9d91-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1417703748",
+                        "name": "Neuron",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFGA:birnlex_743",
+                        "name": "Ventral posteromedial nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1073/pnas.1312691110",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            }
+        ],
+        "version": "1"
     }
 ]
