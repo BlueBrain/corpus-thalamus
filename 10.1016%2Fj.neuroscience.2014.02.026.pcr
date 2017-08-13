@@ -186,5 +186,77 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "cfe119b8-802b-11e7-9d91-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "4.A",
+            "type": "figure"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131005",
+                        "values": {
+                            "statistic": "mean",
+                            "type": "simple",
+                            "unit": "mm^3",
+                            "values": [
+                                9.16667,
+                                12.2083,
+                                11.2917,
+                                10.0417,
+                                8.91667,
+                                11.75,
+                                11.625,
+                                12.4583,
+                                9.04167,
+                                11.9583,
+                                11.4167,
+                                9.83333,
+                                11.7917,
+                                8.875,
+                                7.66667,
+                                10.6667,
+                                11.4167,
+                                12.2083
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "2fc77e9a-802c-11e7-9d91-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFGA:birnlex_1721",
+                        "name": "Thalamic reticular nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1016/j.neuroscience.2014.02.026",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFMOL:nifext_6",
+                "name": "Parvalbumin"
+            },
+            {
+                "id": "NIFORG:birnlex_681",
+                "name": "Adult"
+            }
+        ],
+        "version": "1"
     }
 ]
