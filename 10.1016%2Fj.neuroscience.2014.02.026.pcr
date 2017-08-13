@@ -447,6 +447,10 @@
             {
                 "id": "NIFORG:birnlex_681",
                 "name": "Adult"
+            },
+            {
+                "id": "UBERON:0002596",
+                "name": "ventral posterior nucleus of thalamus"
             }
         ],
         "version": "1"
