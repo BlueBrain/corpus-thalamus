@@ -234,6 +234,57 @@
                         "rootId": "NIFGA:birnlex_1167"
                     }
                 ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131001",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "1/mm^3",
+                                    "values": [
+                                        41477.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "sd",
+                                    "type": "simple",
+                                    "unit": "1/mm^3",
+                                    "values": [
+                                        3612.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        3.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "a13fe314-8036-11e7-9d91-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1417703748",
+                        "name": "Neuron",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFGA:birnlex_939",
+                        "name": "Posterior nucleus of thalamus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
             }
         ],
         "pubId": "10.1073/pnas.1312691110",
