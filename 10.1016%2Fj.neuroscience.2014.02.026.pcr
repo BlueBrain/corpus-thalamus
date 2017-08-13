@@ -258,5 +258,34 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "7c8dbc7f-802d-11e7-9d91-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "4.C",
+            "type": "figure"
+        },
+        "parameters": [],
+        "pubId": "10.1016/j.neuroscience.2014.02.026",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFMOL:nifext_6",
+                "name": "Parvalbumin"
+            },
+            {
+                "id": "NIFORG:birnlex_681",
+                "name": "Adult"
+            }
+        ],
+        "version": "1"
     }
 ]
