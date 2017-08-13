@@ -110,5 +110,32 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "20702dde-8024-11e7-9d91-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "1",
+            "noCol": null,
+            "noRow": "1",
+            "type": "table"
+        },
+        "parameters": [],
+        "pubId": "10.1016/0006-8993(95)00344-P",
+        "tags": [
+            {
+                "id": "NIFORG:nlx_organ_20081201",
+                "name": "Long Evans Rat"
+            },
+            {
+                "id": "NIFORG:birnlex_681",
+                "name": "Adult"
+            }
+        ],
+        "version": "1"
     }
 ]
