@@ -20,5 +20,27 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "7b54d972-8034-11e7-9d91-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 32081,
+            "text": "detection of GAD67-positive somata",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1073/pnas.1312691110",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            }
+        ],
+        "version": "1"
     }
 ]
