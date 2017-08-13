@@ -264,7 +264,7 @@
         "authors": [
             "oreilly"
         ],
-        "comment": "Merged together the ipsilateral and contralateral. Each values is for the Rt nucleus of one hemisphere.",
+        "comment": "Merged together the ipsilateral and contralateral. Each values is for the Rt nucleus of one hemisphere.\nNeuron density obtained by dividing the total volume (4.A) by the total number of neurons (4.C).",
         "experimentProperties": [],
         "localizer": {
             "no": "4.C",
@@ -304,6 +304,49 @@
                     "type": "pointValue"
                 },
                 "id": "b12edb94-802d-11e7-9d91-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "BBP_nlx_0031",
+                        "name": "Thalamic reticular nucleus cell - PV+",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFGA:birnlex_1721",
+                        "name": "Thalamic reticular nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131001",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "1/mm^3",
+                                    "values": [
+                                        3781.5229293756083
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        18.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "ac71e7f8-802e-11e7-9d91-64006a67e5d0",
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
