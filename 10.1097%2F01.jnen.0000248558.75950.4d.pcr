@@ -116,6 +116,39 @@
                         "rootId": "NIFGA:birnlex_1167"
                     }
                 ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131002",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "dimensionless",
+                            "values": [
+                                82843.1,
+                                85294.1,
+                                88398.7,
+                                99346.4
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "cd52c4a6-8033-11e7-9d91-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1417703748",
+                        "name": "Neuron",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFGA:birnlex_1116",
+                        "name": "Ventral posterior nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
             }
         ],
         "pubId": "10.1097/01.jnen.0000248558.75950.4d",
