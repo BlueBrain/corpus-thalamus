@@ -97,5 +97,27 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "6c3c4f82-8035-11e7-9d91-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 11387,
+            "text": "All\nneurons in VPM thalamus were excitatory (i.e., GAD67 negative)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1073/pnas.1312691110",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            }
+        ],
+        "version": "1"
     }
 ]
