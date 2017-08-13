@@ -42,5 +42,60 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "8e08b2b4-8034-11e7-9d91-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 27663,
+            "text": "Wistar rats (aged 28\u201329 d)",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002001",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "min",
+                                    "type": "simple",
+                                    "unit": "day",
+                                    "values": [
+                                        28.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "max",
+                                    "type": "simple",
+                                    "unit": "day",
+                                    "values": [
+                                        29.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "9c06bd0c-8034-11e7-9d91-64006a67e5d0",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "10.1073/pnas.1312691110",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            }
+        ],
+        "version": "1"
     }
 ]
