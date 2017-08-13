@@ -204,7 +204,7 @@
                     "depVar": {
                         "typeId": "BBP-131005",
                         "values": {
-                            "statistic": "mean",
+                            "statistic": "raw",
                             "type": "simple",
                             "unit": "mm^3",
                             "values": [
