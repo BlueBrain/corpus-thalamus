@@ -58,5 +58,35 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "43864cf8-801e-11e7-9d91-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 16918,
+            "text": "The volume of the VPM\u2013VPL was\ncalculated using a Cavalieri estimation",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1016/j.neuroscience.2014.02.026",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFMOL:nifext_6",
+                "name": "Parvalbumin"
+            },
+            {
+                "id": "NIFORG:birnlex_681",
+                "name": "Adult"
+            }
+        ],
+        "version": "1"
     }
 ]
