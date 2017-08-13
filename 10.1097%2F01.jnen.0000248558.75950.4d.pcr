@@ -50,5 +50,31 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "29d4e26a-8032-11e7-9d91-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 19129,
+            "text": "Cavalieri Principle: Regional Volume Estimate",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1097/01.jnen.0000248558.75950.4d",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFORG:birnlex_681",
+                "name": "Adult"
+            }
+        ],
+        "version": "1"
     }
 ]
