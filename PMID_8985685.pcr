@@ -1,0 +1,28 @@
+[
+    {
+        "annotId": "5163385c-801b-11e7-9d91-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 7729,
+            "text": "No changes in the total number of nRt neurons\nwere found (mean +/- SEM); GAERS = (30.5 +/- 2.4)*10^3 and controls = (31.7 +/- 2.0)*10^3",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_8985685",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            }
+        ],
+        "version": "1"
+    }
+]
