@@ -48,7 +48,7 @@
                                 {
                                     "statistic": "mean",
                                     "type": "simple",
-                                    "unit": "dimensionless",
+                                    "unit": "1/mm^3",
                                     "values": [
                                         17800.0
                                     ]
@@ -56,7 +56,7 @@
                                 {
                                     "statistic": "sd",
                                     "type": "simple",
-                                    "unit": "dimensionless",
+                                    "unit": "1/mm^3",
                                     "values": [
                                         1500.0
                                     ]
@@ -120,7 +120,7 @@
         "experimentProperties": [],
         "localizer": {
             "no": "1",
-            "noCol": "None",
+            "noCol": null,
             "noRow": "1",
             "type": "table"
         },
