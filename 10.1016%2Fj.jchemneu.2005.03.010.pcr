@@ -51,6 +51,10 @@
             {
                 "id": "UBERON:0001903",
                 "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
             }
         ],
         "version": "1"
