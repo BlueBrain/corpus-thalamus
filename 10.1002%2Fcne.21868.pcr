@@ -29,6 +29,10 @@
             {
                 "id": "NIFMOL:sao185580330",
                 "name": "Acetylcholine"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
             }
         ],
         "version": "1"
@@ -47,7 +51,12 @@
         },
         "parameters": [],
         "pubId": "10.1002/cne.21868",
-        "tags": [],
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
         "version": "1"
     },
     {
