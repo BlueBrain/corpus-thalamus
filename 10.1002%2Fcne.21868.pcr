@@ -72,6 +72,14 @@
                                     "values": [
                                         0.06
                                     ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        5.0
+                                    ]
                                 }
                             ]
                         }
@@ -82,8 +90,8 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFGA:birnlex_1167",
-                        "name": "Regional part of brain",
+                        "id": "NIFGA:birnlex_1595",
+                        "name": "Dorsal nucleus of lateral geniculate body",
                         "rootId": "NIFGA:birnlex_1167"
                     }
                 ]
