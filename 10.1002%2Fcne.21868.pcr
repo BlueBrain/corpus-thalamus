@@ -49,5 +49,27 @@
         "pubId": "10.1002/cne.21868",
         "tags": [],
         "version": "1"
+    },
+    {
+        "annotId": "eb9bea68-827d-11e7-9105-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 11171,
+            "text": "Twelve adult male Sprague-Dawley rats (Charles River,\nSt. Constant, Quebec, Canada), weighing 275\u2013325 g, were\nused",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1002/cne.21868",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
     }
 ]
