@@ -1,0 +1,24 @@
+[
+    {
+        "annotId": "09dcc1dc-8283-11e7-9105-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 7908,
+            "text": "Sprague Dawley (SD) rats",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1371/journal.pone.0155457",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
+    }
+]
