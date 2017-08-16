@@ -131,5 +131,27 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "432662c6-827f-11e7-9105-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 14959,
+            "text": "Brain tissue intended for light (five rats)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1002/cne.21868",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
     }
 ]
