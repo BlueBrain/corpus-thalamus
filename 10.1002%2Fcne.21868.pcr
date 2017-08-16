@@ -33,6 +33,10 @@
             {
                 "id": "NIFORG:birnlex_266",
                 "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFORG:birnlex_681",
+                "name": "Adult"
             }
         ],
         "version": "1"
@@ -206,6 +210,10 @@
             {
                 "id": "NIFGA:birnlex_952",
                 "name": "Parafascicular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_681",
+                "name": "Adult"
             }
         ],
         "version": "1"
@@ -254,6 +262,10 @@
             {
                 "id": "NIFORG:birnlex_266",
                 "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFORG:birnlex_681",
+                "name": "Adult"
             }
         ],
         "version": "1"
@@ -442,6 +454,10 @@
             {
                 "id": "NIFGA:birnlex_952",
                 "name": "Parafascicular nucleus"
+            },
+            {
+                "id": "NIFORG:birnlex_681",
+                "name": "Adult"
             }
         ],
         "version": "1"
