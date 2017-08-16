@@ -62,5 +62,27 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "2d550a34-8283-11e7-9105-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 9393,
+            "text": "n = 6 vehicle,\nn = 5 LD, n = 8 HD",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1371/journal.pone.0155457",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
     }
 ]
