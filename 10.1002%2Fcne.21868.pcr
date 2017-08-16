@@ -32,5 +32,22 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "4f256452-827d-11e7-9105-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 29302,
+            "text": "As measured with Cavalieri\u2019s method, the respective\nvolumes of DLG, PF, and Rt were 0.82 +/- 0.06, 0.25 +/- 0.02,\nand 0.76 +/- 0.11 mm^3",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1002/cne.21868",
+        "tags": [],
+        "version": "1"
     }
 ]
