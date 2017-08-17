@@ -270,12 +270,7 @@
             "oreilly"
         ],
         "comment": "",
-        "experimentProperties": [
-            {
-                "instanceId": "80436530-a1a9-11e6-98a4-64006a4c56ef",
-                "paramTypeId": "BBP-002001"
-            }
-        ],
+        "experimentProperties": [],
         "localizer": {
             "no": "2.B",
             "type": "figure"
