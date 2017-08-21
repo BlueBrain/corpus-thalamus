@@ -813,7 +813,7 @@
                                 {
                                     "statistic": "min",
                                     "type": "simple",
-                                    "unit": "m",
+                                    "unit": "month",
                                     "values": [
                                         6.0
                                     ]
@@ -821,7 +821,7 @@
                                 {
                                     "statistic": "max",
                                     "type": "simple",
-                                    "unit": "m",
+                                    "unit": "month",
                                     "values": [
                                         12.0
                                     ]
