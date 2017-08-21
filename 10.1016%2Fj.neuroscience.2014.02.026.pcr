@@ -705,6 +705,65 @@
                         "rootId": "NIFCELL:sao1813327414"
                     }
                 ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131001",
+                        "values": {
+                            "statistic": "mean",
+                            "type": "simple",
+                            "unit": "1/mm^2",
+                            "values": [
+                                42.8442454595,
+                                39.3466818379,
+                                39.2513332948,
+                                35.4099314293,
+                                41.92211296,
+                                42.1689584454,
+                                32.5815098076,
+                                32.2439156463,
+                                46.766972203
+                            ]
+                        }
+                    },
+                    "indepVars": [
+                        {
+                            "typeId": "BBP-001011",
+                            "values": {
+                                "statistic": "raw",
+                                "type": "simple",
+                                "unit": "percent",
+                                "values": [
+                                    5.9814,
+                                    17.6917,
+                                    29.48595,
+                                    41.19625,
+                                    52.9907,
+                                    64.78515,
+                                    76.49525,
+                                    88.28985,
+                                    100.0
+                                ]
+                            }
+                        }
+                    ],
+                    "type": "numericalTrace"
+                },
+                "id": "05d8bab2-869f-11e7-8c48-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFGA:birnlex_1721",
+                        "name": "Thalamic reticular nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    },
+                    {
+                        "id": "BBP_nlx_0031",
+                        "name": "Thalamic reticular nucleus cell - PV+",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
             }
         ],
         "pubId": "10.1016/j.neuroscience.2014.02.026",
