@@ -57,17 +57,17 @@
                                 {
                                     "statistic": "min",
                                     "type": "simple",
-                                    "unit": "1/(2500*um^2)",
+                                    "unit": "1/um^2",
                                     "values": [
-                                        1.0
+                                        0.0004
                                     ]
                                 },
                                 {
                                     "statistic": "max",
                                     "type": "simple",
-                                    "unit": "1/(2500*um^2)",
+                                    "unit": "1/um^2",
                                     "values": [
-                                        2.0
+                                        0.0008
                                     ]
                                 },
                                 {
