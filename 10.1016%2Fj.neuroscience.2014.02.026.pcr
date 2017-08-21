@@ -302,7 +302,7 @@
                             "values": {
                                 "statistic": "raw",
                                 "type": "simple",
-                                "unit": "dimensionless",
+                                "unit": "percent",
                                 "values": [
                                     5.9814,
                                     17.6917,
