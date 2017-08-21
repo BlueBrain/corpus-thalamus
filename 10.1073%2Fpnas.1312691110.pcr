@@ -126,7 +126,12 @@
             "oreilly"
         ],
         "comment": "",
-        "experimentProperties": [],
+        "experimentProperties": [
+            {
+                "instanceId": "9c06bd0c-8034-11e7-9d91-64006a67e5d0",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
         "localizer": {
             "location": 11455,
             "text": "The total volume of this part of vibrissal thalamus (i.e.,\nconvex hull around 24 barreloids; Materials and Methods) was\n0.19 \u00b1 0.03 mm 3 , resulting in an average neuron density across\nthe entire VPM of 52,494 \u00b1 5,082 mm \u22123 . Densities in VPM\nwithin and above/below barreloids (51,507 \u00b1 4,422 and 54,440 \u00b1\n6,559 mm \u22123 , respectively) were larger compared with the sur-\nrounding thalamic nuclei, with 49,680 \u00b1 1,097 and 41,477 \u00b1 3,612mm \u22123 in nucleus reticularis (RT) and posterior medial nucleus (POm), respectively. ",
