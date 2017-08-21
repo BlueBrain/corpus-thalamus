@@ -656,15 +656,15 @@
                             "type": "simple",
                             "unit": "dimensionless",
                             "values": [
-                                785319.0,
-                                1221610.0,
-                                1038780.0,
-                                777008.0,
-                                652355.0,
-                                581717.0,
-                                544321.0,
-                                498615.0,
-                                240997.0
+                                33.6464,
+                                48.0663,
+                                40.7735,
+                                27.5138,
+                                27.3481,
+                                24.5304,
+                                17.7348,
+                                16.0773,
+                                11.2707
                             ]
                         }
                     },
@@ -695,13 +695,13 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFGA:birnlex_1167",
-                        "name": "Regional part of brain",
+                        "id": "NIFGA:birnlex_1721",
+                        "name": "Thalamic reticular nucleus",
                         "rootId": "NIFGA:birnlex_1167"
                     },
                     {
-                        "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
+                        "id": "BBP_nlx_0031",
+                        "name": "Thalamic reticular nucleus cell - PV+",
                         "rootId": "NIFCELL:sao1813327414"
                     }
                 ]
