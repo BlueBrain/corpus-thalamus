@@ -1,35 +1,5 @@
 [
     {
-        "annotId": "b60adbdc-801d-11e7-9d91-64006a67e5d0",
-        "authors": [
-            "oreilly"
-        ],
-        "comment": "",
-        "experimentProperties": [],
-        "localizer": {
-            "location": 9582,
-            "text": "25 adult male Sprague\u2013Dawley rats (body\nweight 298\u2013368 g at the time of injury",
-            "type": "text"
-        },
-        "parameters": [],
-        "pubId": "10.1016/j.neuroscience.2014.02.026",
-        "tags": [
-            {
-                "id": "NIFORG:birnlex_266",
-                "name": "Sprague Dawley"
-            },
-            {
-                "id": "NIFORG:birnlex_681",
-                "name": "Adult"
-            },
-            {
-                "id": "NIFMOL:nifext_6",
-                "name": "Parvalbumin"
-            }
-        ],
-        "version": "1"
-    },
-    {
         "annotId": "109574fe-801e-11e7-9d91-64006a67e5d0",
         "authors": [
             "oreilly"
@@ -188,6 +158,36 @@
         "version": "1"
     },
     {
+        "annotId": "b60adbdc-801d-11e7-9d91-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 9582,
+            "text": "25 adult male Sprague\u2013Dawley rats (body\nweight 298\u2013368 g at the time of injury",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1016/j.neuroscience.2014.02.026",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFORG:birnlex_681",
+                "name": "Adult"
+            },
+            {
+                "id": "NIFMOL:nifext_6",
+                "name": "Parvalbumin"
+            }
+        ],
+        "version": "1"
+    },
+    {
         "annotId": "cfe119b8-802b-11e7-9d91-64006a67e5d0",
         "authors": [
             "oreilly"
@@ -259,6 +259,90 @@
             {
                 "id": "UBERON:0001903",
                 "name": "thalamic reticular nucleus"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "c578d463-8699-11e7-8c48-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "4.B, top panel",
+            "type": "figure"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131007",
+                        "values": {
+                            "statistic": "mean",
+                            "type": "simple",
+                            "unit": "um^2",
+                            "values": [
+                                872576.0,
+                                1130190.0,
+                                997230.0,
+                                747922.0,
+                                631579.0,
+                                552632.0,
+                                540166.0,
+                                477839.0,
+                                349030.0
+                            ]
+                        }
+                    },
+                    "indepVars": [
+                        {
+                            "typeId": "BBP-001011",
+                            "values": {
+                                "statistic": "raw",
+                                "type": "simple",
+                                "unit": "percent",
+                                "values": [
+                                    5.90219,
+                                    17.7066,
+                                    29.3423,
+                                    41.1467,
+                                    52.9511,
+                                    64.7555,
+                                    76.3912,
+                                    88.3642,
+                                    100.0
+                                ]
+                            }
+                        }
+                    ],
+                    "type": "numericalTrace"
+                },
+                "id": "13aac436-869b-11e7-8c48-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFGA:birnlex_1721",
+                        "name": "Thalamic reticular nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1016/j.neuroscience.2014.02.026",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFMOL:nifext_6",
+                "name": "Parvalbumin"
+            },
+            {
+                "id": "NIFORG:birnlex_681",
+                "name": "Adult"
             }
         ],
         "version": "1"
@@ -463,174 +547,6 @@
             {
                 "id": "UBERON:0002596",
                 "name": "ventral posterior nucleus of thalamus"
-            }
-        ],
-        "version": "1"
-    },
-    {
-        "annotId": "c578d463-8699-11e7-8c48-64006a67e5d0",
-        "authors": [
-            "oreilly"
-        ],
-        "comment": "",
-        "experimentProperties": [],
-        "localizer": {
-            "no": "4.B, top panel",
-            "type": "figure"
-        },
-        "parameters": [
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-131007",
-                        "values": {
-                            "statistic": "mean",
-                            "type": "simple",
-                            "unit": "um^2",
-                            "values": [
-                                872576.0,
-                                1130190.0,
-                                997230.0,
-                                747922.0,
-                                631579.0,
-                                552632.0,
-                                540166.0,
-                                477839.0,
-                                349030.0
-                            ]
-                        }
-                    },
-                    "indepVars": [
-                        {
-                            "typeId": "BBP-001011",
-                            "values": {
-                                "statistic": "raw",
-                                "type": "simple",
-                                "unit": "percent",
-                                "values": [
-                                    5.90219,
-                                    17.7066,
-                                    29.3423,
-                                    41.1467,
-                                    52.9511,
-                                    64.7555,
-                                    76.3912,
-                                    88.3642,
-                                    100.0
-                                ]
-                            }
-                        }
-                    ],
-                    "type": "numericalTrace"
-                },
-                "id": "13aac436-869b-11e7-8c48-64006a67e5d0",
-                "isExperimentProperty": false,
-                "requiredTags": [
-                    {
-                        "id": "NIFGA:birnlex_1721",
-                        "name": "Thalamic reticular nucleus",
-                        "rootId": "NIFGA:birnlex_1167"
-                    }
-                ]
-            }
-        ],
-        "pubId": "10.1016/j.neuroscience.2014.02.026",
-        "tags": [
-            {
-                "id": "NIFORG:birnlex_266",
-                "name": "Sprague Dawley"
-            },
-            {
-                "id": "NIFMOL:nifext_6",
-                "name": "Parvalbumin"
-            },
-            {
-                "id": "NIFORG:birnlex_681",
-                "name": "Adult"
-            }
-        ],
-        "version": "1"
-    },
-    {
-        "annotId": "3319cf38-869b-11e7-8c48-64006a67e5d0",
-        "authors": [
-            "oreilly"
-        ],
-        "comment": "",
-        "experimentProperties": [],
-        "localizer": {
-            "no": "4.B, bottom panel",
-            "type": "figure"
-        },
-        "parameters": [
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-131007",
-                        "values": {
-                            "statistic": "mean",
-                            "type": "simple",
-                            "unit": "um^2",
-                            "values": [
-                                872576.0,
-                                1130190.0,
-                                997230.0,
-                                747922.0,
-                                631579.0,
-                                552632.0,
-                                540166.0,
-                                477839.0,
-                                349030.0
-                            ]
-                        }
-                    },
-                    "indepVars": [
-                        {
-                            "typeId": "BBP-001011",
-                            "values": {
-                                "statistic": "raw",
-                                "type": "simple",
-                                "unit": "percent",
-                                "values": [
-                                    5.90219,
-                                    17.7066,
-                                    29.3423,
-                                    41.1467,
-                                    52.9511,
-                                    64.7555,
-                                    76.3912,
-                                    88.3642,
-                                    100.0
-                                ]
-                            }
-                        }
-                    ],
-                    "type": "numericalTrace"
-                },
-                "id": "3319cf39-869b-11e7-8c48-64006a67e5d0",
-                "isExperimentProperty": false,
-                "requiredTags": [
-                    {
-                        "id": "NIFGA:birnlex_1721",
-                        "name": "Thalamic reticular nucleus",
-                        "rootId": "NIFGA:birnlex_1167"
-                    }
-                ]
-            }
-        ],
-        "pubId": "10.1016/j.neuroscience.2014.02.026",
-        "tags": [
-            {
-                "id": "NIFORG:birnlex_266",
-                "name": "Sprague Dawley"
-            },
-            {
-                "id": "NIFMOL:nifext_6",
-                "name": "Parvalbumin"
-            },
-            {
-                "id": "NIFORG:birnlex_681",
-                "name": "Adult"
             }
         ],
         "version": "1"
