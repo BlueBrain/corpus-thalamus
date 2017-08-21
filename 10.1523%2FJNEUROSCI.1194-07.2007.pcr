@@ -30,7 +30,7 @@
         "authors": [
             "oreilly"
         ],
-        "comment": "Caption: Morphometry of the VB. Three parameters pertaining to the development of the VB were quantified. The neuronal packing density was determined stereologically. Means are based on five animals per time point. Error bars indicate SEM.",
+        "comment": "Caption: Morphometry of the VB. Three parameters pertaining to the development of the VB were quantified. The neuronal packing density was determined stereologically. Means are based on five animals per time point. Error bars indicate SEM. The unit in the graph is inconsistent (i.e., the volume unit cannot be on the numerator). To ensure the right unit, we divide the lower panel from the middle panel. ",
         "experimentProperties": [],
         "localizer": {
             "no": "3, top panel",
@@ -44,14 +44,14 @@
                         "values": {
                             "statistic": "mean",
                             "type": "simple",
-                            "unit": "um^-3",
+                            "unit": "mm^-3",
                             "values": [
-                                0.000278146,
-                                0.000170264,
-                                8.88744e-05,
-                                5.12588e-05,
-                                5.01327e-05,
-                                2.78158e-05
+                                278146.0,
+                                170264.0,
+                                88874.4,
+                                51258.8,
+                                50132.7,
+                                27815.8
                             ]
                         }
                     },
