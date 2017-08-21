@@ -650,11 +650,11 @@
             {
                 "description": {
                     "depVar": {
-                        "typeId": "BBP-131007",
+                        "typeId": "BBP-131002",
                         "values": {
                             "statistic": "mean",
                             "type": "simple",
-                            "unit": "um^2",
+                            "unit": "dimensionless",
                             "values": [
                                 785319.0,
                                 1221610.0,
@@ -674,7 +674,7 @@
                             "values": {
                                 "statistic": "raw",
                                 "type": "simple",
-                                "unit": "dimensionless",
+                                "unit": "percent",
                                 "values": [
                                     5.9814,
                                     17.6917,
@@ -695,9 +695,14 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFGA:birnlex_1721",
-                        "name": "Thalamic reticular nucleus",
+                        "id": "NIFGA:birnlex_1167",
+                        "name": "Regional part of brain",
                         "rootId": "NIFGA:birnlex_1167"
+                    },
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "NIFCELL:sao1813327414"
                     }
                 ]
             }
