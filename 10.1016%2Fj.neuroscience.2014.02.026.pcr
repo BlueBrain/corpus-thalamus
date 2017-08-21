@@ -274,7 +274,62 @@
             "no": "4.B",
             "type": "figure"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131007",
+                        "values": {
+                            "statistic": "mean",
+                            "type": "simple",
+                            "unit": "um^2",
+                            "values": [
+                                785319.0,
+                                1221610.0,
+                                1038780.0,
+                                777008.0,
+                                652355.0,
+                                581717.0,
+                                544321.0,
+                                498615.0,
+                                240997.0
+                            ]
+                        }
+                    },
+                    "indepVars": [
+                        {
+                            "typeId": "BBP-001011",
+                            "values": {
+                                "statistic": "raw",
+                                "type": "simple",
+                                "unit": "dimensionless",
+                                "values": [
+                                    5.9814,
+                                    17.6917,
+                                    29.48595,
+                                    41.19625,
+                                    52.9907,
+                                    64.78515,
+                                    76.49525,
+                                    88.28985,
+                                    100.0
+                                ]
+                            }
+                        }
+                    ],
+                    "type": "numericalTrace"
+                },
+                "id": "16e1ab36-869d-11e7-8c48-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFGA:birnlex_1721",
+                        "name": "Thalamic reticular nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            }
+        ],
         "pubId": "10.1016/j.neuroscience.2014.02.026",
         "tags": [
             {
