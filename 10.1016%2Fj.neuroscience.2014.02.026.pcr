@@ -808,7 +808,7 @@
             {
                 "description": {
                     "depVar": {
-                        "typeId": "BBP-131002",
+                        "typeId": "BBP-131008",
                         "values": {
                             "statistic": "mean",
                             "type": "simple",
