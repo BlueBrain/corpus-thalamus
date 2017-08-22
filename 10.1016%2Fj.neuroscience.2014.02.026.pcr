@@ -1035,5 +1035,60 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "279a52be-871c-11e7-8c48-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "e8f25c96-871b-11e7-8c48-64006a67e5d0",
+                "paramTypeId": "BBP-002103"
+            }
+        ],
+        "localizer": {
+            "location": 14310,
+            "text": "area sampling fraction (asf, the\narea of the counting frame divided by the area of\nsampling grid) was 0.049",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002101",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "dimensionless",
+                            "values": [
+                                0.04938271604938271
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "49600c18-871c-11e7-8c48-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "10.1016/j.neuroscience.2014.02.026",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFMOL:nifext_6",
+                "name": "Parvalbumin"
+            },
+            {
+                "id": "NIFORG:birnlex_681",
+                "name": "Adult"
+            }
+        ],
+        "version": "1"
     }
 ]
