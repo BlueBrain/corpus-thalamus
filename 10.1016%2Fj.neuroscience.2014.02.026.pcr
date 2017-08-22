@@ -640,7 +640,7 @@
         "authors": [
             "oreilly"
         ],
-        "comment": "Densities are computed from dividinf the numbers in from the 4.D by those from 4.B, multiplying by the ASF factors linked as an experimental property.",
+        "comment": "Densities are computed from dividinf the numbers in from the 4.D by those from 4.B, dividing by the ASF factors linked as an experimental property.",
         "experimentProperties": [
             {
                 "instanceId": "49600c18-871c-11e7-8c48-64006a67e5d0",
