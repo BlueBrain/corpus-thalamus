@@ -998,7 +998,27 @@
             "text": "For every x\u2013y step,\ncells were counted using a counting frame of\n20 x 20 um.",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002102",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "um^2",
+                            "values": [
+                                400.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "122f4344-871c-11e7-8c48-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": []
+            }
+        ],
         "pubId": "10.1016/j.neuroscience.2014.02.026",
         "tags": [
             {
