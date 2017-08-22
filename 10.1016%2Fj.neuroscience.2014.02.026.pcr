@@ -980,5 +980,40 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "03681a48-871c-11e7-8c48-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "e8f25c96-871b-11e7-8c48-64006a67e5d0",
+                "paramTypeId": "BBP-002103"
+            }
+        ],
+        "localizer": {
+            "location": 13899,
+            "text": "For every x\u2013y step,\ncells were counted using a counting frame of\n20 x 20 um.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1016/j.neuroscience.2014.02.026",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFMOL:nifext_6",
+                "name": "Parvalbumin"
+            },
+            {
+                "id": "NIFORG:birnlex_681",
+                "name": "Adult"
+            }
+        ],
+        "version": "1"
     }
 ]
