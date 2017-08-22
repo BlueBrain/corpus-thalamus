@@ -1015,7 +1015,7 @@
                     "type": "pointValue"
                 },
                 "id": "122f4344-871c-11e7-8c48-64006a67e5d0",
-                "isExperimentProperty": false,
+                "isExperimentProperty": true,
                 "requiredTags": []
             }
         ],
