@@ -1,0 +1,204 @@
+[
+    {
+        "annotId": "d28e4924-8031-11e7-9d91-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 8694,
+            "text": "Adult male Sprague-Dawley rats (375-400 g)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1097/01.jnen.0000248558.75950.4d",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFORG:birnlex_681",
+                "name": "Adult"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "21e4aa4a-8032-11e7-9d91-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 16589,
+            "text": "Fractionator: Neuronal Number Estimate",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1097/01.jnen.0000248558.75950.4d",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFORG:birnlex_681",
+                "name": "Adult"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "29d4e26a-8032-11e7-9d91-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 19129,
+            "text": "Cavalieri Principle: Regional Volume Estimate",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1097/01.jnen.0000248558.75950.4d",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFORG:birnlex_681",
+                "name": "Adult"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "e23d2010-8032-11e7-9d91-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "3.C",
+            "type": "figure"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131005",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mm^3",
+                            "values": [
+                                1.67653,
+                                1.61736,
+                                1.51479,
+                                1.60158
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "add189aa-8033-11e7-9d91-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFGA:birnlex_1116",
+                        "name": "Ventral posterior nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131002",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "dimensionless",
+                            "values": [
+                                82843.1,
+                                85294.1,
+                                88398.7,
+                                99346.4
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "cd52c4a6-8033-11e7-9d91-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1417703748",
+                        "name": "Neuron",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFGA:birnlex_1116",
+                        "name": "Ventral posterior nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "1/mm^3",
+                            "values": [
+                                49413.4313135,
+                                52736.6201711,
+                                58357.0659959,
+                                62030.2451329
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "051391a4-8034-11e7-9d91-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1417703748",
+                        "name": "Neuron",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFGA:birnlex_1116",
+                        "name": "Ventral posterior nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1097/01.jnen.0000248558.75950.4d",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFORG:birnlex_681",
+                "name": "Adult"
+            },
+            {
+                "id": "NIFGA:birnlex_1116",
+                "name": "Ventral posterior nucleus"
+            }
+        ],
+        "version": "1"
+    }
+]

@@ -1,57 +1,107 @@
 [
     {
-        "annotId": "2c2258b0-07dc-11e6-8742-64006a4c56ef",
-        "authors": [
-            "oreilly"
-        ],
-        "comment": "Afferent to the thalamus. Acetylcholine hyperpolarize the reticular cells.",
-        "experimentProperties": [],
-        "localizer": {
-            "location": 4027,
-            "text": "Whereas in specific relay nuclei,\nsuch as the dorsolateral geniculate nucleus (DLG),\nand in intralaminar nuclei, such as the parafascicular\nnucleus (PF), ACh may depolarize thalamocortical neurons\ndirectly, it hyperpolarizes the inhibitory neurons in\nthe reticular thalamic nucleus (Rt), with a consequent\ndisinhibition of the thalamocortical cells that brings them\ncloser to their firing threshold (McCormick and Prince,\n1986; Steriade, 2004).",
-            "type": "text"
-        },
-        "parameters": [],
-        "pubId": "10.1002/cne.21868",
-        "tags": [
-            {
-                "id": "UBERON:0001903",
-                "name": "thalamic reticular nucleus"
-            },
-            {
-                "id": "NIFCELL:nifext_45",
-                "name": "Thalamic reticular nucleus cell"
-            },
-            {
-                "id": "NIFGA:nlx_anat_1010",
-                "name": "Afferent role"
-            },
-            {
-                "id": "NIFMOL:sao185580330",
-                "name": "Acetylcholine"
-            },
-            {
-                "id": "NIFORG:birnlex_266",
-                "name": "Sprague Dawley"
-            },
-            {
-                "id": "NIFORG:birnlex_681",
-                "name": "Adult"
-            }
-        ],
-        "version": "1"
-    },
-    {
-        "annotId": "4f256452-827d-11e7-9105-64006a67e5d0",
+        "annotId": "09dcc1dc-8283-11e7-9105-64006a67e5d0",
         "authors": [
             "oreilly"
         ],
         "comment": "",
         "experimentProperties": [],
         "localizer": {
-            "location": 29302,
-            "text": "As measured with Cavalieri\u2019s method, the respective\nvolumes of DLG, PF, and Rt were 0.82 +/- 0.06, 0.25 +/- 0.02,\nand 0.76 +/- 0.11 mm^3",
+            "location": 7908,
+            "text": "Sprague Dawley (SD) rats",
             "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1371/journal.pone.0155457",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "12aac9b2-8283-11e7-9105-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 7973,
+            "text": "All rats were male and 4\nweeks old at the start of the study.",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "week",
+                            "values": [
+                                4.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "1af70770-8283-11e7-9105-64006a67e5d0",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "10.1371/journal.pone.0155457",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "2d550a34-8283-11e7-9105-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 9393,
+            "text": "n = 6 vehicle,\nn = 5 LD, n = 8 HD",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1371/journal.pone.0155457",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "48596837-8283-11e7-9105-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "1af70770-8283-11e7-9105-64006a67e5d0",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "no": "1",
+            "noCol": "1",
+            "noRow": "None",
+            "type": "table"
         },
         "parameters": [
             {
@@ -66,7 +116,7 @@
                                     "type": "simple",
                                     "unit": "mm^3",
                                     "values": [
-                                        0.82
+                                        87.2
                                     ]
                                 },
                                 {
@@ -74,7 +124,7 @@
                                     "type": "simple",
                                     "unit": "mm^3",
                                     "values": [
-                                        0.06
+                                        3.6
                                     ]
                                 },
                                 {
@@ -82,7 +132,7 @@
                                     "type": "simple",
                                     "unit": "dimensionless",
                                     "values": [
-                                        5.0
+                                        6.0
                                     ]
                                 }
                             ]
@@ -90,12 +140,12 @@
                     },
                     "type": "pointValue"
                 },
-                "id": "3e39a9b2-827f-11e7-9105-64006a67e5d0",
+                "id": "70cfcc22-8283-11e7-9105-64006a67e5d0",
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFGA:birnlex_1595",
-                        "name": "Dorsal nucleus of lateral geniculate body",
+                        "id": "NIFGA:birnlex_1672",
+                        "name": "Striatum",
                         "rootId": "NIFGA:birnlex_1167"
                     }
                 ]
@@ -112,7 +162,7 @@
                                     "type": "simple",
                                     "unit": "mm^3",
                                     "values": [
-                                        0.25
+                                        11.9
                                     ]
                                 },
                                 {
@@ -120,7 +170,7 @@
                                     "type": "simple",
                                     "unit": "mm^3",
                                     "values": [
-                                        0.76
+                                        1.1
                                     ]
                                 },
                                 {
@@ -128,7 +178,7 @@
                                     "type": "simple",
                                     "unit": "dimensionless",
                                     "values": [
-                                        5.0
+                                        6.0
                                     ]
                                 }
                             ]
@@ -136,12 +186,12 @@
                     },
                     "type": "pointValue"
                 },
-                "id": "84f2cc6c-827f-11e7-9105-64006a67e5d0",
+                "id": "833a62d2-8283-11e7-9105-64006a67e5d0",
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFGA:birnlex_952",
-                        "name": "Parafascicular nucleus",
+                        "id": "NIFGA:birnlex_1234",
+                        "name": "Globus pallidus",
                         "rootId": "NIFGA:birnlex_1167"
                     }
                 ]
@@ -158,7 +208,7 @@
                                     "type": "simple",
                                     "unit": "mm^3",
                                     "values": [
-                                        0.76
+                                        748.7
                                     ]
                                 },
                                 {
@@ -166,7 +216,7 @@
                                     "type": "simple",
                                     "unit": "mm^3",
                                     "values": [
-                                        0.11
+                                        9.5
                                     ]
                                 },
                                 {
@@ -174,7 +224,7 @@
                                     "type": "simple",
                                     "unit": "dimensionless",
                                     "values": [
-                                        5.0
+                                        6.0
                                     ]
                                 }
                             ]
@@ -182,154 +232,12 @@
                     },
                     "type": "pointValue"
                 },
-                "id": "a35e28f4-827f-11e7-9105-64006a67e5d0",
+                "id": "9baaff5c-8283-11e7-9105-64006a67e5d0",
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFGA:birnlex_1721",
-                        "name": "Thalamic reticular nucleus",
-                        "rootId": "NIFGA:birnlex_1167"
-                    }
-                ]
-            }
-        ],
-        "pubId": "10.1002/cne.21868",
-        "tags": [
-            {
-                "id": "NIFORG:birnlex_266",
-                "name": "Sprague Dawley"
-            },
-            {
-                "id": "NIFGA:birnlex_1595",
-                "name": "Dorsal nucleus of lateral geniculate body"
-            },
-            {
-                "id": "UBERON:0001903",
-                "name": "thalamic reticular nucleus"
-            },
-            {
-                "id": "NIFGA:birnlex_952",
-                "name": "Parafascicular nucleus"
-            },
-            {
-                "id": "NIFORG:birnlex_681",
-                "name": "Adult"
-            }
-        ],
-        "version": "1"
-    },
-    {
-        "annotId": "eb9bea68-827d-11e7-9105-64006a67e5d0",
-        "authors": [
-            "oreilly"
-        ],
-        "comment": "",
-        "experimentProperties": [],
-        "localizer": {
-            "location": 11171,
-            "text": "Twelve adult male Sprague-Dawley rats (Charles River,\nSt. Constant, Quebec, Canada), weighing 275\u2013325 g, were\nused",
-            "type": "text"
-        },
-        "parameters": [],
-        "pubId": "10.1002/cne.21868",
-        "tags": [
-            {
-                "id": "NIFORG:birnlex_266",
-                "name": "Sprague Dawley"
-            },
-            {
-                "id": "NIFORG:birnlex_681",
-                "name": "Adult"
-            }
-        ],
-        "version": "1"
-    },
-    {
-        "annotId": "432662c6-827f-11e7-9105-64006a67e5d0",
-        "authors": [
-            "oreilly"
-        ],
-        "comment": "",
-        "experimentProperties": [],
-        "localizer": {
-            "location": 14959,
-            "text": "Brain tissue intended for light (five rats)",
-            "type": "text"
-        },
-        "parameters": [],
-        "pubId": "10.1002/cne.21868",
-        "tags": [
-            {
-                "id": "NIFORG:birnlex_266",
-                "name": "Sprague Dawley"
-            },
-            {
-                "id": "NIFORG:birnlex_681",
-                "name": "Adult"
-            }
-        ],
-        "version": "1"
-    },
-    {
-        "annotId": "e78db88c-827f-11e7-9105-64006a67e5d0",
-        "authors": [
-            "oreilly"
-        ],
-        "comment": "",
-        "experimentProperties": [],
-        "localizer": {
-            "location": 29612,
-            "text": "As estimated with\nStereoInvestigator, the neuronal density was the highest\nin PF (51,465 +/- 3,577 neurons/mm^3 ), followed by DLG\n(40,069 +/- 1,540) and Rt (31,884 +/- 3,351; PF > DLG, P <\n0.05; PF > Rt, P < 0.01).",
-            "type": "text"
-        },
-        "parameters": [
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-131001",
-                        "values": {
-                            "type": "compound",
-                            "valueLst": [
-                                {
-                                    "statistic": "mean",
-                                    "type": "simple",
-                                    "unit": "1/mm^3",
-                                    "values": [
-                                        51465.0
-                                    ]
-                                },
-                                {
-                                    "statistic": "sem",
-                                    "type": "simple",
-                                    "unit": "1/mm^3",
-                                    "values": [
-                                        3577.0
-                                    ]
-                                },
-                                {
-                                    "statistic": "N",
-                                    "type": "simple",
-                                    "unit": "dimensionless",
-                                    "values": [
-                                        5.0
-                                    ]
-                                }
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "25f3f82a-8280-11e7-9105-64006a67e5d0",
-                "isExperimentProperty": false,
-                "requiredTags": [
-                    {
-                        "id": "NIFCELL:sao1417703748",
-                        "name": "Neuron",
-                        "rootId": "NIFCELL:sao1813327414"
-                    },
-                    {
-                        "id": "NIFGA:birnlex_952",
-                        "name": "Parafascicular nucleus",
+                        "id": "NIFGA:birnlex_1494",
+                        "name": "Cerebral cortex",
                         "rootId": "NIFGA:birnlex_1167"
                     }
                 ]
@@ -337,32 +245,32 @@
             {
                 "description": {
                     "depVar": {
-                        "typeId": "BBP-131001",
+                        "typeId": "BBP-131005",
                         "values": {
                             "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
                                     "type": "simple",
-                                    "unit": "1/mm^3",
+                                    "unit": "mm^3",
                                     "values": [
-                                        40069.0
+                                        117.3
                                     ]
                                 },
                                 {
                                     "statistic": "sem",
                                     "type": "simple",
-                                    "unit": "1/mm^3",
+                                    "unit": "mm^3",
                                     "values": [
-                                        1540.0
+                                        2.9
                                     ]
                                 },
                                 {
                                     "statistic": "N",
                                     "type": "simple",
-                                    "unit": "dimensionless",
+                                    "unit": "mm^3",
                                     "values": [
-                                        5.0
+                                        6.0
                                     ]
                                 }
                             ]
@@ -370,17 +278,12 @@
                     },
                     "type": "pointValue"
                 },
-                "id": "48af896a-8280-11e7-9105-64006a67e5d0",
+                "id": "b553d258-8283-11e7-9105-64006a67e5d0",
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1417703748",
-                        "name": "Neuron",
-                        "rootId": "NIFCELL:sao1813327414"
-                    },
-                    {
-                        "id": "NIFGA:birnlex_1595",
-                        "name": "Dorsal nucleus of lateral geniculate body",
+                        "id": "NIFGA:birnlex_721",
+                        "name": "Hippocampus",
                         "rootId": "NIFGA:birnlex_1167"
                     }
                 ]
@@ -388,24 +291,24 @@
             {
                 "description": {
                     "depVar": {
-                        "typeId": "BBP-131001",
+                        "typeId": "BBP-131005",
                         "values": {
                             "type": "compound",
                             "valueLst": [
                                 {
                                     "statistic": "mean",
                                     "type": "simple",
-                                    "unit": "1/mm^3",
+                                    "unit": "mm^3",
                                     "values": [
-                                        31884.0
+                                        324.3
                                     ]
                                 },
                                 {
                                     "statistic": "sem",
                                     "type": "simple",
-                                    "unit": "1/mm^3",
+                                    "unit": "mm^3",
                                     "values": [
-                                        3351.0
+                                        7.9
                                     ]
                                 },
                                 {
@@ -413,7 +316,7 @@
                                     "type": "simple",
                                     "unit": "dimensionless",
                                     "values": [
-                                        5.0
+                                        6.0
                                     ]
                                 }
                             ]
@@ -421,43 +324,114 @@
                     },
                     "type": "pointValue"
                 },
-                "id": "2a18044a-8281-11e7-9105-64006a67e5d0",
+                "id": "e50627f8-8283-11e7-9105-64006a67e5d0",
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:sao1417703748",
-                        "name": "Neuron",
-                        "rootId": "NIFCELL:sao1813327414"
+                        "id": "NIFGA:birnlex_1489",
+                        "name": "Cerebellum",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131005",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "mm^3",
+                                    "values": [
+                                        107.8
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "mm^3",
+                                    "values": [
+                                        4.9
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        6.0
+                                    ]
+                                }
+                            ]
+                        }
                     },
+                    "type": "pointValue"
+                },
+                "id": "b0a9bc70-8285-11e7-9105-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": [
                     {
-                        "id": "NIFGA:birnlex_1721",
-                        "name": "Thalamic reticular nucleus",
+                        "id": "NIFGA:nlx_anat_1010013",
+                        "name": "External capsule",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131005",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "mm^3",
+                                    "values": [
+                                        2592.4
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "mm^3",
+                                    "values": [
+                                        39.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        6.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "a28133ba-8287-11e7-9105-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFGA:birnlex_1167",
+                        "name": "Regional part of brain",
                         "rootId": "NIFGA:birnlex_1167"
                     }
                 ]
             }
         ],
-        "pubId": "10.1002/cne.21868",
+        "pubId": "10.1371/journal.pone.0155457",
         "tags": [
             {
                 "id": "NIFORG:birnlex_266",
                 "name": "Sprague Dawley"
-            },
-            {
-                "id": "NIFGA:birnlex_1721",
-                "name": "Thalamic reticular nucleus"
-            },
-            {
-                "id": "NIFGA:birnlex_1595",
-                "name": "Dorsal nucleus of lateral geniculate body"
-            },
-            {
-                "id": "NIFGA:birnlex_952",
-                "name": "Parafascicular nucleus"
-            },
-            {
-                "id": "NIFORG:birnlex_681",
-                "name": "Adult"
             }
         ],
         "version": "1"
