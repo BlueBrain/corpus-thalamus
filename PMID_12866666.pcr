@@ -661,12 +661,12 @@
         "pubId": "PMID_12866666",
         "tags": [
             {
-                "id": "NIFORG:birnlex_254",
-                "name": "Wistar Rat"
-            },
-            {
                 "id": "NIFGA:birnlex_737",
                 "name": "Ventral posterolateral nucleus"
+            },
+            {
+                "id": "NCBITaxon:9986",
+                "name": "Oryctolagus cuniculus"
             }
         ],
         "version": "1"
