@@ -204,5 +204,60 @@
         "pubId": "PMID_9288676",
         "tags": [],
         "version": "1"
+    },
+    {
+        "annotId": "9c6ca514-9258-11e7-a5f8-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "22bdd26a-9258-11e7-a5f8-3417ebb8f5ca",
+                "paramTypeId": "BBP-002002"
+            }
+        ],
+        "localizer": {
+            "location": 5436,
+            "text": "postnatal days 10-20",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002001",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "min",
+                                    "type": "simple",
+                                    "unit": "days",
+                                    "values": [
+                                        10.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "max",
+                                    "type": "simple",
+                                    "unit": "days",
+                                    "values": [
+                                        20.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "ba3d2d48-9258-11e7-a5f8-3417ebb8f5ca",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "PMID_9288676",
+        "tags": [],
+        "version": "1"
     }
 ]
