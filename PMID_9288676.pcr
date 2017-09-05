@@ -154,5 +154,55 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "bfd37c2c-9257-11e7-a5f8-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 21820,
+            "text": "the present\nexperiments were performed at room temperature,",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002002",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "min",
+                                    "type": "simple",
+                                    "unit": "Celsius",
+                                    "values": [
+                                        23.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "max",
+                                    "type": "simple",
+                                    "unit": "Celsius",
+                                    "values": [
+                                        25.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "22bdd26a-9258-11e7-a5f8-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "PMID_9288676",
+        "tags": [],
+        "version": "1"
     }
 ]
