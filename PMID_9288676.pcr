@@ -259,5 +259,51 @@
         "pubId": "PMID_9288676",
         "tags": [],
         "version": "1"
+    },
+    {
+        "annotId": "d64b6c2a-9258-11e7-a5f8-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "22bdd26a-9258-11e7-a5f8-3417ebb8f5ca",
+                "paramTypeId": "BBP-002002"
+            },
+            {
+                "instanceId": "ba3d2d48-9258-11e7-a5f8-3417ebb8f5ca",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "location": 7443,
+            "text": "The low [CF] of the intracellular solutions resulted in a liquid\njunction potential (measured according to Neher, 1992) of -10 mV,",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                -10.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "ef6d0d44-9258-11e7-a5f8-3417ebb8f5ca",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "PMID_9288676",
+        "tags": [],
+        "version": "1"
     }
 ]
