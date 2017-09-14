@@ -77,11 +77,24 @@
                     "depVar": {
                         "typeId": "BBP-002001",
                         "values": {
-                            "statistic": "max",
-                            "type": "simple",
-                            "unit": "days",
-                            "values": [
-                                10.0
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "min",
+                                    "type": "simple",
+                                    "unit": "days",
+                                    "values": [
+                                        7.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "max",
+                                    "type": "simple",
+                                    "unit": "days",
+                                    "values": [
+                                        11.0
+                                    ]
+                                }
                             ]
                         }
                     },
