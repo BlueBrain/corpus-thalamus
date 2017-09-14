@@ -90,6 +90,38 @@
                 "id": "a183dd1e-991b-11e7-a5f8-3417ebb8f5ca",
                 "isExperimentProperty": true,
                 "requiredTags": []
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002002",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "min",
+                                    "type": "simple",
+                                    "unit": "celsius",
+                                    "values": [
+                                        23.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "max",
+                                    "type": "simple",
+                                    "unit": "celsius",
+                                    "values": [
+                                        23.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "d4f2403c-991b-11e7-a5f8-3417ebb8f5ca",
+                "isExperimentProperty": true,
+                "requiredTags": []
             }
         ],
         "pubId": "PMID_9437007",
