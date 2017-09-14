@@ -233,6 +233,25 @@
                         "rootId": "NIFMOL:nifext_8054"
                     }
                 ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002003",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                8.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "5355f8a0-9954-11e7-a5f8-3417ebb8f5ca",
+                "isExperimentProperty": true,
+                "requiredTags": []
             }
         ],
         "pubId": "PMID_9437007",
