@@ -5,7 +5,16 @@
             "iavarone"
         ],
         "comment": "",
-        "experimentProperties": [],
+        "experimentProperties": [
+            {
+                "instanceId": "a183dd1e-991b-11e7-a5f8-3417ebb8f5ca",
+                "paramTypeId": "BBP-002001"
+            },
+            {
+                "instanceId": "d4f2403c-991b-11e7-a5f8-3417ebb8f5ca",
+                "paramTypeId": "BBP-002002"
+            }
+        ],
         "localizer": {
             "location": 27340,
             "text": "The activation of I NaP\ncould be well fitted with a Boltzmann curve (Fig. 5B 3 ), charac-\nterized by a k of 9.09 and a V 1/2 (256.93 mV",
