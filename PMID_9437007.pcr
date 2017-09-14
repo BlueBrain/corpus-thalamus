@@ -182,6 +182,10 @@
             {
                 "id": "NIFCELL:nifext_41",
                 "name": "Thalamocortical cell"
+            },
+            {
+                "id": "ILX:0115056",
+                "name": "Sodium persistent current"
             }
         ],
         "version": "1"
