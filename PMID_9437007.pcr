@@ -340,6 +340,10 @@
             {
                 "instanceId": "5355f8a0-9954-11e7-a5f8-3417ebb8f5ca",
                 "paramTypeId": "BBP-002003"
+            },
+            {
+                "instanceId": "aff7c8a0-9958-11e7-a5f8-3417ebb8f5ca",
+                "paramTypeId": "BBP-002011"
             }
         ],
         "localizer": {
@@ -379,6 +383,44 @@
                 "id": "aff7c8a0-9958-11e7-a5f8-3417ebb8f5ca",
                 "isExperimentProperty": true,
                 "requiredTags": []
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-010002",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "mV",
+                                    "values": [
+                                        -62.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "mV",
+                                    "values": [
+                                        2.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "f588e1ba-9958-11e7-a5f8-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
             }
         ],
         "pubId": "PMID_9437007",
