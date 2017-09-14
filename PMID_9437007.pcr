@@ -326,6 +326,10 @@
             {
                 "id": "NIFORG:birnlex_254",
                 "name": "Wistar Rat"
+            },
+            {
+                "id": "ILX:0115056",
+                "name": "Sodium persistent current"
             }
         ],
         "version": "1"
