@@ -122,6 +122,25 @@
                 "id": "d4f2403c-991b-11e7-a5f8-3417ebb8f5ca",
                 "isExperimentProperty": true,
                 "requiredTags": []
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002003",
+                        "values": {
+                            "statistic": "min",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                -8.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "46a3fea0-991c-11e7-a5f8-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": []
             }
         ],
         "pubId": "PMID_9437007",
