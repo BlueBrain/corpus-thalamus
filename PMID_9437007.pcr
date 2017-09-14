@@ -233,5 +233,44 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "8f6177e0-9952-11e7-a5f8-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "a183dd1e-991b-11e7-a5f8-3417ebb8f5ca",
+                "paramTypeId": "BBP-002001"
+            },
+            {
+                "instanceId": "d4f2403c-991b-11e7-a5f8-3417ebb8f5ca",
+                "paramTypeId": "BBP-002002"
+            }
+        ],
+        "localizer": {
+            "location": 31020,
+            "text": "The difference in I NaP\namplitude between dissociated neonate rat neurons and neurons\nin neonate rat slices was significant ( p < 0.05), indicating the\npresence of this current in TC neuron dendrites.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "PMID_9437007",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            }
+        ],
+        "version": "1"
     }
 ]
