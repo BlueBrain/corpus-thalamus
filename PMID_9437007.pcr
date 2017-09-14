@@ -485,5 +485,96 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "9b3a299c-995a-11e7-a5f8-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "d4f2403c-991b-11e7-a5f8-3417ebb8f5ca",
+                "paramTypeId": "BBP-002002"
+            },
+            {
+                "instanceId": "5355f8a0-9954-11e7-a5f8-3417ebb8f5ca",
+                "paramTypeId": "BBP-002003"
+            },
+            {
+                "instanceId": "aff7c8a0-9958-11e7-a5f8-3417ebb8f5ca",
+                "paramTypeId": "BBP-002011"
+            }
+        ],
+        "localizer": {
+            "location": 30889,
+            "text": "adult rat in slices, 155.75 6\n34.7 pA (n 5 4)",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-070001",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "pA",
+                                    "values": [
+                                        155.75
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "pA",
+                                    "values": [
+                                        34.7
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "d0a3b03a-995a-11e7-a5f8-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Transmembrane ionic current",
+                        "rootId": "NIFMOL:nifext_8054"
+                    }
+                ]
+            }
+        ],
+        "pubId": "PMID_9437007",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "ILX:0115056",
+                "name": "Sodium persistent current"
+            }
+        ],
+        "version": "1"
     }
 ]
