@@ -219,36 +219,6 @@
             {
                 "description": {
                     "depVar": {
-                        "typeId": "BBP-070001",
-                        "values": {
-                            "statistic": "max",
-                            "type": "simple",
-                            "unit": "pA",
-                            "values": [
-                                100.0
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "6a9f9830-9950-11e7-a5f8-3417ebb8f5ca",
-                "isExperimentProperty": false,
-                "requiredTags": [
-                    {
-                        "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
-                        "rootId": "NIFCELL:sao1813327414"
-                    },
-                    {
-                        "id": "NIFMOL:nifext_8054",
-                        "name": "Transmembrane ionic current",
-                        "rootId": "NIFMOL:nifext_8054"
-                    }
-                ]
-            },
-            {
-                "description": {
-                    "depVar": {
                         "typeId": "BBP-002003",
                         "values": {
                             "statistic": "raw",
