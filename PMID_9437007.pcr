@@ -71,6 +71,25 @@
                         "rootId": "NIFMOL:nifext_8054"
                     }
                 ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002001",
+                        "values": {
+                            "statistic": "max",
+                            "type": "simple",
+                            "unit": "days",
+                            "values": [
+                                10.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "a183dd1e-991b-11e7-a5f8-3417ebb8f5ca",
+                "isExperimentProperty": true,
+                "requiredTags": []
             }
         ],
         "pubId": "PMID_9437007",
