@@ -159,5 +159,79 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "1db8de8c-9950-11e7-a5f8-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "a183dd1e-991b-11e7-a5f8-3417ebb8f5ca",
+                "paramTypeId": "BBP-002001"
+            },
+            {
+                "instanceId": "d4f2403c-991b-11e7-a5f8-3417ebb8f5ca",
+                "paramTypeId": "BBP-002002"
+            }
+        ],
+        "localizer": {
+            "location": 26341,
+            "text": "the maximal amplitude of this current was relatively small\n(~100 pA)",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-070001",
+                        "values": {
+                            "statistic": "max",
+                            "type": "simple",
+                            "unit": "pA",
+                            "values": [
+                                100.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "6a9f9830-9950-11e7-a5f8-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Transmembrane ionic current",
+                        "rootId": "NIFMOL:nifext_8054"
+                    }
+                ]
+            }
+        ],
+        "pubId": "PMID_9437007",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "ILX:0115056",
+                "name": "Sodium persistent current"
+            }
+        ],
+        "version": "1"
     }
 ]
