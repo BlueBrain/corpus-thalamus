@@ -325,5 +325,77 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "7cf6a3ae-9958-11e7-a5f8-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "d4f2403c-991b-11e7-a5f8-3417ebb8f5ca",
+                "paramTypeId": "BBP-002002"
+            },
+            {
+                "instanceId": "5355f8a0-9954-11e7-a5f8-3417ebb8f5ca",
+                "paramTypeId": "BBP-002003"
+            }
+        ],
+        "localizer": {
+            "location": 37943,
+            "text": "resting membrane potential: 262 6 2 mV\napparent steady-state input resistance: 191 6 24 MV; n 5 10)",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002011",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "min",
+                                    "type": "simple",
+                                    "unit": "g",
+                                    "values": [
+                                        150.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "max",
+                                    "type": "simple",
+                                    "unit": "g",
+                                    "values": [
+                                        200.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "aff7c8a0-9958-11e7-a5f8-3417ebb8f5ca",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "PMID_9437007",
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            }
+        ],
+        "version": "1"
     }
 ]
