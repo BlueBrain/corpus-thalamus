@@ -65,6 +65,10 @@
             {
                 "id": "NIFORG:birnlex_266",
                 "name": "Sprague Dawley"
+            },
+            {
+                "id": "NCBITaxon:10116",
+                "name": "Rattus norvegicus"
             }
         ],
         "version": "1"
