@@ -16,25 +16,6 @@
             {
                 "description": {
                     "depVar": {
-                        "typeId": "BBP-002001",
-                        "values": {
-                            "statistic": "raw",
-                            "type": "simple",
-                            "unit": "months",
-                            "values": [
-                                7.0
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "152c9c2e-b40b-11e7-8ee2-acbc328c3997",
-                "isExperimentProperty": true,
-                "requiredTags": []
-            },
-            {
-                "description": {
-                    "depVar": {
                         "typeId": "BBP-131005",
                         "values": {
                             "type": "compound",
