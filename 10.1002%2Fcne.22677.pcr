@@ -109,7 +109,27 @@
             "text": "Four Sprague-Dawley rats, Rattus norvegicus, two\rmales and two females at 7 months of age, were used for\rthis study.",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "months",
+                            "values": [
+                                7.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "b9b7f6b0-b40d-11e7-bb74-acbc328c3997",
+                "isExperimentProperty": false,
+                "requiredTags": []
+            }
+        ],
         "pubId": "10.1002/cne.22677",
         "tags": [],
         "version": "1"
