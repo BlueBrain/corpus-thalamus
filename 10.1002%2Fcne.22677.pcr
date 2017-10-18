@@ -31,6 +31,52 @@
                 "id": "152c9c2e-b40b-11e7-8ee2-acbc328c3997",
                 "isExperimentProperty": true,
                 "requiredTags": []
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131005",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "mm^3",
+                                    "values": [
+                                        994.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "sd",
+                                    "type": "simple",
+                                    "unit": "mm^3",
+                                    "values": [
+                                        110.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        4.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "8134ffd8-b40b-11e7-88f0-acbc328c3997",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFGA:birnlex_1167",
+                        "name": "Regional part of brain",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
             }
         ],
         "pubId": "10.1002/cne.22677",
