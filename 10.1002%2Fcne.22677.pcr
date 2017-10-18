@@ -232,7 +232,12 @@
             }
         ],
         "pubId": "10.1002/cne.22677",
-        "tags": [],
+        "tags": [
+            {
+                "id": "NCBITaxon:9544",
+                "name": "Macaca mulatta"
+            }
+        ],
         "version": "1"
     }
 ]
