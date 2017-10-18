@@ -136,9 +136,37 @@
             "text": "Four rhesus monkeys, Macaca mulatta, (two males: 5.3\rand 9.4 years of age; two females: 7.7 and 9.3 years of\rage) were used for this study.",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "years",
+                            "values": [
+                                9.4,
+                                9.3,
+                                7.7,
+                                5.3
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "918dfc28-b40f-11e7-8c79-acbc328c3997",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
         "pubId": "10.1002/cne.22677",
-        "tags": [],
+        "tags": [
+            {
+                "id": "NCBITaxon:9544",
+                "name": "Macaca mulatta"
+            }
+        ],
         "version": "1"
     }
 ]
