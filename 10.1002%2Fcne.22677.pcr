@@ -1,0 +1,49 @@
+[
+    {
+        "annotId": "13f2c0c2-b409-11e7-b303-acbc328c3997",
+        "authors": [
+            "sjimenez"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "2",
+            "noCol": "1",
+            "noRow": "1-2",
+            "type": "table"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "months",
+                            "values": [
+                                7.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "152c9c2e-b40b-11e7-8ee2-acbc328c3997",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "10.1002/cne.22677",
+        "tags": [
+            {
+                "id": "NCBITaxon:10116",
+                "name": "Rattus norvegicus"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
+    }
+]
