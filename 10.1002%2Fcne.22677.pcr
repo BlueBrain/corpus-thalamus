@@ -53,8 +53,8 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFGA:birnlex_1167",
-                        "name": "Regional part of brain",
+                        "id": "NIFGA:birnlex_1509",
+                        "name": "Forebrain",
                         "rootId": "NIFGA:birnlex_1167"
                     }
                 ]
