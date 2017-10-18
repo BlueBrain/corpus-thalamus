@@ -239,5 +239,30 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "f99daabe-b411-11e7-b8a4-acbc328c3997",
+        "authors": [
+            "sjimenez"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "b9b7f6b0-b40d-11e7-bb74-acbc328c3997",
+                "paramTypeId": "BBP-002001"
+            },
+            {
+                "instanceId": "918dfc28-b40f-11e7-8c79-acbc328c3997",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "no": "5a",
+            "type": "figure"
+        },
+        "parameters": [],
+        "pubId": "10.1002/cne.22677",
+        "tags": [],
+        "version": "1"
     }
 ]
