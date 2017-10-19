@@ -8,7 +8,7 @@
         "experimentProperties": [],
         "localizer": {
             "no": "1",
-            "noCol": "1",
+            "noCol": "1, 4, 5",
             "noRow": "1, 3, 5",
             "type": "table"
         },
