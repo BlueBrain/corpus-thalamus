@@ -227,5 +227,23 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "f5802640-b4d0-11e7-b9e1-acbc328c3997",
+        "authors": [
+            "sjimenez"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "",
+            "noCol": null,
+            "noRow": null,
+            "type": "table"
+        },
+        "parameters": [],
+        "pubId": "10.1006/exnr.2000.7578",
+        "tags": [],
+        "version": "1"
     }
 ]
