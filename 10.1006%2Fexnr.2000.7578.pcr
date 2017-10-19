@@ -79,6 +79,48 @@
                         "rootId": "NIFGA:birnlex_1167"
                     }
                 ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131005",
+                        "values": {
+                            "statistic": "mean",
+                            "type": "simple",
+                            "unit": "mm^3",
+                            "values": [
+                                46.0,
+                                54.0,
+                                71.0
+                            ]
+                        }
+                    },
+                    "indepVars": [
+                        {
+                            "typeId": "BBP-002001",
+                            "values": {
+                                "statistic": "raw",
+                                "type": "simple",
+                                "unit": "weeks",
+                                "values": [
+                                    4.0,
+                                    7.0,
+                                    13.0
+                                ]
+                            }
+                        }
+                    ],
+                    "type": "numericalTrace"
+                },
+                "id": "c6ce8808-b4cf-11e7-b41c-acbc328c3997",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFGA:birnlex_721",
+                        "name": "Hippocampus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
             }
         ],
         "pubId": "10.1006/exnr.2000.7578",
