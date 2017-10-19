@@ -152,13 +152,38 @@
                     "depVar": {
                         "typeId": "BBP-131005",
                         "values": {
-                            "statistic": "mean",
-                            "type": "simple",
-                            "unit": "mm^3",
-                            "values": [
-                                235.0,
-                                239.0,
-                                233.0
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "mm^3",
+                                    "values": [
+                                        235.0,
+                                        239.0,
+                                        233.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "mm^3",
+                                    "values": [
+                                        11.6,
+                                        20.3,
+                                        10.4
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        5.0,
+                                        5.0,
+                                        3.0
+                                    ]
+                                }
                             ]
                         }
                     },
