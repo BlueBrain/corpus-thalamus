@@ -24,5 +24,39 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "5f6d0926-75f0-11e7-871b-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 21526,
+            "text": "In\nmost nuclei of monkeys and rats, Calbindin 28K is expressed by the\nTC neurons projecting to layer I but not those innervating cortical\nlayers III\u2013IV (Rausell et al., 1992; Hashikawa et al., 1995; Rubio-\nGarrido et al., 2007).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1111/j.1460-9568.2012.08033.x",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_160",
+                "name": "Rat"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            },
+            {
+                "id": "NIFGA:birnlex_954",
+                "name": "Thalamus"
+            },
+            {
+                "id": "NIFMOL:nlx_mol_1006006",
+                "name": "Calbindin 28K"
+            }
+        ],
+        "version": "1"
     }
 ]

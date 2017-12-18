@@ -1,0 +1,163 @@
+[
+    {
+        "annotId": "9faec252-991a-11e7-a5f8-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 27340,
+            "text": "The activation of I NaP\ncould be well fitted with a Boltzmann curve (Fig. 5B 3 ), charac-\nterized by a k of 9.09 and a V 1/2 (256.93 mV",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-090001",
+                        "values": {
+                            "statistic": "mean",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                -56.93
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "06eff486-991b-11e7-a5f8-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Transmembrane ionic current",
+                        "rootId": "NIFMOL:nifext_8054"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-101001",
+                        "values": {
+                            "statistic": "mean",
+                            "type": "simple",
+                            "unit": "dimensionless",
+                            "values": [
+                                9.09
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "1bc983cc-991b-11e7-a5f8-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Transmembrane ionic current",
+                        "rootId": "NIFMOL:nifext_8054"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002001",
+                        "values": {
+                            "statistic": "max",
+                            "type": "simple",
+                            "unit": "days",
+                            "values": [
+                                10.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "a183dd1e-991b-11e7-a5f8-3417ebb8f5ca",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002002",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "min",
+                                    "type": "simple",
+                                    "unit": "celsius",
+                                    "values": [
+                                        23.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "max",
+                                    "type": "simple",
+                                    "unit": "celsius",
+                                    "values": [
+                                        23.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "d4f2403c-991b-11e7-a5f8-3417ebb8f5ca",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002003",
+                        "values": {
+                            "statistic": "min",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                -8.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "46a3fea0-991c-11e7-a5f8-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "PMID_9437007",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1595",
+                "name": "Dorsal nucleus of lateral geniculate body"
+            },
+            {
+                "id": "NIFCELL:nifext_41",
+                "name": "Thalamocortical cell"
+            }
+        ],
+        "version": "1"
+    }
+]

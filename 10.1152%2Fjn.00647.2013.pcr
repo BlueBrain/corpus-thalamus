@@ -333,14 +333,6 @@
                 },
                 "id": "b2575ed4-f289-11e5-b804-64006a4c56ef",
                 "isExperimentProperty": false,
-                "relationship": {
-                    "entity1": {
-                        "id": "NIFINV:birnlex_2304",
-                        "name": "Ionic current model"
-                    },
-                    "entity2": "None",
-                    "type": "point"
-                },
                 "requiredTags": [
                     {
                         "id": "BBP_nlx_0002",

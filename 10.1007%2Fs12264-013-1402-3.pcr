@@ -9,6 +9,10 @@
             {
                 "instanceId": "dbaf5c20-74f5-11e6-bbaf-64006a4c56ef",
                 "paramTypeId": "BBP-002004"
+            },
+            {
+                "instanceId": "5a174880-8688-11e7-8c48-64006a67e5d0",
+                "paramTypeId": "BBP-002001"
             }
         ],
         "localizer": {
@@ -38,7 +42,7 @@
                                     "type": "simple",
                                     "unit": "dimensionless",
                                     "values": [
-                                        5
+                                        5.0
                                     ]
                                 }
                             ]
@@ -81,6 +85,10 @@
             {
                 "instanceId": "dbaf5c20-74f5-11e6-bbaf-64006a4c56ef",
                 "paramTypeId": "BBP-002004"
+            },
+            {
+                "instanceId": "5a174880-8688-11e7-8c48-64006a67e5d0",
+                "paramTypeId": "BBP-002001"
             }
         ],
         "localizer": {
@@ -110,7 +118,7 @@
                                     "type": "simple",
                                     "unit": "dimensionless",
                                     "values": [
-                                        5
+                                        5.0
                                     ]
                                 }
                             ]
@@ -153,6 +161,10 @@
             {
                 "instanceId": "dbaf5c20-74f5-11e6-bbaf-64006a4c56ef",
                 "paramTypeId": "BBP-002004"
+            },
+            {
+                "instanceId": "5a174880-8688-11e7-8c48-64006a67e5d0",
+                "paramTypeId": "BBP-002001"
             }
         ],
         "localizer": {
@@ -182,7 +194,7 @@
                                     "type": "simple",
                                     "unit": "dimensionless",
                                     "values": [
-                                        5
+                                        5.0
                                     ]
                                 }
                             ]
@@ -225,6 +237,10 @@
             {
                 "instanceId": "dbaf5c20-74f5-11e6-bbaf-64006a4c56ef",
                 "paramTypeId": "BBP-002004"
+            },
+            {
+                "instanceId": "5a174880-8688-11e7-8c48-64006a67e5d0",
+                "paramTypeId": "BBP-002001"
             }
         ],
         "localizer": {
@@ -262,7 +278,7 @@
                                     "type": "simple",
                                     "unit": "dimensionless",
                                     "values": [
-                                        5
+                                        5.0
                                     ]
                                 }
                             ]
@@ -305,6 +321,10 @@
             {
                 "instanceId": "dbaf5c20-74f5-11e6-bbaf-64006a4c56ef",
                 "paramTypeId": "BBP-002004"
+            },
+            {
+                "instanceId": "5a174880-8688-11e7-8c48-64006a67e5d0",
+                "paramTypeId": "BBP-002001"
             }
         ],
         "localizer": {
@@ -342,7 +362,7 @@
                                     "type": "simple",
                                     "unit": "dimensionless",
                                     "values": [
-                                        5
+                                        5.0
                                     ]
                                 }
                             ]
@@ -385,6 +405,10 @@
             {
                 "instanceId": "dbaf5c20-74f5-11e6-bbaf-64006a4c56ef",
                 "paramTypeId": "BBP-002004"
+            },
+            {
+                "instanceId": "5a174880-8688-11e7-8c48-64006a67e5d0",
+                "paramTypeId": "BBP-002001"
             }
         ],
         "localizer": {
@@ -422,7 +446,7 @@
                                     "type": "simple",
                                     "unit": "dimensionless",
                                     "values": [
-                                        5
+                                        5.0
                                     ]
                                 }
                             ]
@@ -465,6 +489,10 @@
             {
                 "instanceId": "dbaf5c20-74f5-11e6-bbaf-64006a4c56ef",
                 "paramTypeId": "BBP-002004"
+            },
+            {
+                "instanceId": "5a174880-8688-11e7-8c48-64006a67e5d0",
+                "paramTypeId": "BBP-002001"
             }
         ],
         "localizer": {
@@ -502,7 +530,7 @@
                                     "type": "simple",
                                     "unit": "dimensionless",
                                     "values": [
-                                        5
+                                        5.0
                                     ]
                                 }
                             ]
@@ -545,6 +573,10 @@
             {
                 "instanceId": "dbaf5c20-74f5-11e6-bbaf-64006a4c56ef",
                 "paramTypeId": "BBP-002004"
+            },
+            {
+                "instanceId": "5a174880-8688-11e7-8c48-64006a67e5d0",
+                "paramTypeId": "BBP-002001"
             }
         ],
         "localizer": {
@@ -582,7 +614,7 @@
                                     "type": "simple",
                                     "unit": "dimensionless",
                                     "values": [
-                                        5
+                                        5.0
                                     ]
                                 }
                             ]
@@ -625,6 +657,10 @@
             {
                 "instanceId": "dbaf5c20-74f5-11e6-bbaf-64006a4c56ef",
                 "paramTypeId": "BBP-002004"
+            },
+            {
+                "instanceId": "5a174880-8688-11e7-8c48-64006a67e5d0",
+                "paramTypeId": "BBP-002001"
             }
         ],
         "localizer": {
@@ -662,7 +698,7 @@
                                     "type": "simple",
                                     "unit": "dimensionless",
                                     "values": [
-                                        5
+                                        5.0
                                     ]
                                 }
                             ]
@@ -734,7 +770,7 @@
                             "type": "simple",
                             "unit": "um",
                             "values": [
-                                1
+                                1.0
                             ]
                         }
                     },
@@ -766,7 +802,40 @@
             "text": "Adult (6\u201312 months old) Wistar albino control rats (n = 5)",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002001",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "min",
+                                    "type": "simple",
+                                    "unit": "month",
+                                    "values": [
+                                        6.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "max",
+                                    "type": "simple",
+                                    "unit": "month",
+                                    "values": [
+                                        12.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "5a174880-8688-11e7-8c48-64006a67e5d0",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
         "pubId": "10.1007/s12264-013-1402-3",
         "tags": [],
         "version": "1"

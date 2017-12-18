@@ -33,6 +33,10 @@
         "comment": "",
         "experimentProperties": [
             {
+                "instanceId": "63006312-a1a7-11e6-98a4-64006a4c56ef",
+                "paramTypeId": "BBP-002004"
+            },
+            {
                 "instanceId": "80436530-a1a9-11e6-98a4-64006a4c56ef",
                 "paramTypeId": "BBP-002001"
             }
@@ -53,17 +57,17 @@
                                 {
                                     "statistic": "min",
                                     "type": "simple",
-                                    "unit": "1/(2500*um^2)",
+                                    "unit": "1/um^2",
                                     "values": [
-                                        1.0
+                                        0.0004
                                     ]
                                 },
                                 {
                                     "statistic": "max",
                                     "type": "simple",
-                                    "unit": "1/(2500*um^2)",
+                                    "unit": "1/um^2",
                                     "values": [
-                                        2.0
+                                        0.0008
                                     ]
                                 },
                                 {
@@ -110,7 +114,7 @@
                     "type": "pointValue"
                 },
                 "id": "63006312-a1a7-11e6-98a4-64006a4c56ef",
-                "isExperimentProperty": false,
+                "isExperimentProperty": true,
                 "requiredTags": []
             }
         ],
@@ -145,32 +149,13 @@
                     "depVar": {
                         "typeId": "BBP-002001",
                         "values": {
-                            "type": "compound",
-                            "valueLst": [
-                                {
-                                    "statistic": "raw",
-                                    "type": "simple",
-                                    "unit": "day",
-                                    "values": [
-                                        7.0
-                                    ]
-                                },
-                                {
-                                    "statistic": "raw",
-                                    "type": "simple",
-                                    "unit": "day",
-                                    "values": [
-                                        9.0
-                                    ]
-                                },
-                                {
-                                    "statistic": "raw",
-                                    "type": "simple",
-                                    "unit": "day",
-                                    "values": [
-                                        26.0
-                                    ]
-                                }
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "day",
+                            "values": [
+                                7.0,
+                                9.0,
+                                26.0
                             ]
                         }
                     },
@@ -289,12 +274,7 @@
             "oreilly"
         ],
         "comment": "",
-        "experimentProperties": [
-            {
-                "instanceId": "80436530-a1a9-11e6-98a4-64006a4c56ef",
-                "paramTypeId": "BBP-002001"
-            }
-        ],
+        "experimentProperties": [],
         "localizer": {
             "no": "2.B",
             "type": "figure"

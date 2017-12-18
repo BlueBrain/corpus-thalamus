@@ -1,0 +1,243 @@
+[
+    {
+        "annotId": "13f2c0c2-b409-11e7-b303-acbc328c3997",
+        "authors": [
+            "sjimenez"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "2",
+            "noCol": "1",
+            "noRow": "1-2",
+            "type": "table"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131005",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "mm^3",
+                                    "values": [
+                                        994.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "sd",
+                                    "type": "simple",
+                                    "unit": "mm^3",
+                                    "values": [
+                                        110.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        4.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "8134ffd8-b40b-11e7-88f0-acbc328c3997",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFGA:birnlex_1509",
+                        "name": "Forebrain",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1002/cne.22677",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NCBITaxon:10116",
+                "name": "Rattus norvegicus"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "6f53c324-b40d-11e7-8a06-acbc328c3997",
+        "authors": [
+            "sjimenez"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 13400,
+            "text": "Four Sprague-Dawley rats, Rattus norvegicus, two\rmales and two females at 7 months of age, were used for\rthis study.",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "months",
+                            "values": [
+                                7.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "b9b7f6b0-b40d-11e7-bb74-acbc328c3997",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "10.1002/cne.22677",
+        "tags": [
+            {
+                "id": "NCBITaxon:10116",
+                "name": "Rattus norvegicus"
+            },
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "b0f0e122-b40f-11e7-997e-acbc328c3997",
+        "authors": [
+            "sjimenez"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "b9b7f6b0-b40d-11e7-bb74-acbc328c3997",
+                "paramTypeId": "BBP-002001"
+            },
+            {
+                "instanceId": "918dfc28-b40f-11e7-8c79-acbc328c3997",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "no": "2",
+            "noCol": "2",
+            "noRow": "1-2",
+            "type": "table"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131005",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "mm^3",
+                                    "values": [
+                                        52360.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "sd",
+                                    "type": "simple",
+                                    "unit": "mm^3",
+                                    "values": [
+                                        4875.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "fa9fae34-b40f-11e7-a64e-acbc328c3997",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFGA:birnlex_1509",
+                        "name": "Forebrain",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1002/cne.22677",
+        "tags": [
+            {
+                "id": "NCBITaxon:9544",
+                "name": "Macaca mulatta"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "d26a4d5e-b40e-11e7-a4c1-acbc328c3997",
+        "authors": [
+            "sjimenez"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "b9b7f6b0-b40d-11e7-bb74-acbc328c3997",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "location": 12100,
+            "text": "Four rhesus monkeys, Macaca mulatta, (two males: 5.3\rand 9.4 years of age; two females: 7.7 and 9.3 years of\rage) were used for this study.",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "years",
+                            "values": [
+                                9.4,
+                                9.3,
+                                7.7,
+                                5.3
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "918dfc28-b40f-11e7-8c79-acbc328c3997",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "10.1002/cne.22677",
+        "tags": [
+            {
+                "id": "NCBITaxon:9544",
+                "name": "Macaca mulatta"
+            }
+        ],
+        "version": "1"
+    }
+]

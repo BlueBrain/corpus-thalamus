@@ -24,5 +24,70 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "2be8c866-2f0f-11e6-9613-d0e140998c20",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "fdgjhkkjrgkdsfdhjkfskjhf",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 9538,
+            "text": "resting membrane potential of \u221270 mV",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-010002",
+                        "values": {
+                            "type": "compounded",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "mV",
+                                    "values": [
+                                        -70
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "mV",
+                                    "values": [
+                                        4
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "1dafc5f0-2f10-11e6-a79a-d0e140998c20",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1073/pnas.1105115108",
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_1721",
+                "name": "Thalamic reticular nucleus"
+            },
+            {
+                "id": "BBP_nlx_0021",
+                "name": "Sleep spindle"
+            }
+        ],
+        "version": "1"
     }
 ]

@@ -30,7 +30,7 @@
         "authors": [
             "oreilly"
         ],
-        "comment": "Caption: Morphometry of the VB. Three parameters pertaining to the development of the VB were quantified. The neuronal packing density was determined stereologically. Means are based on five animals per time point. Error bars indicate SEM.",
+        "comment": "Caption: Morphometry of the VB. Three parameters pertaining to the development of the VB were quantified. The neuronal packing density was determined stereologically. Means are based on five animals per time point. Error bars indicate SEM. The unit in the graph is inconsistent (i.e., the volume unit cannot be on the numerator). To ensure the right unit, we divide the lower panel from the middle panel. ",
         "experimentProperties": [],
         "localizer": {
             "no": "3, top panel",
@@ -44,14 +44,14 @@
                         "values": {
                             "statistic": "mean",
                             "type": "simple",
-                            "unit": "um^-3",
+                            "unit": "mm^-3",
                             "values": [
-                                0.000278146,
-                                0.000170264,
-                                8.88744e-05,
-                                5.12588e-05,
-                                5.01327e-05,
-                                2.78158e-05
+                                278146.0,
+                                170264.0,
+                                88874.4,
+                                51258.8,
+                                50132.7,
+                                27815.8
                             ]
                         }
                     },
@@ -64,11 +64,11 @@
                                 "unit": "day",
                                 "values": [
                                     0.0,
-                                    2.97794,
-                                    6.01103,
-                                    12.0221,
-                                    21.011,
-                                    30.0551
+                                    3.0,
+                                    6.0,
+                                    12.0,
+                                    21.0,
+                                    30.0
                                 ]
                             }
                         }
@@ -138,11 +138,11 @@
                                 "type": "simple",
                                 "unit": "day",
                                 "values": [
-                                    0.0551471,
-                                    3.03309,
-                                    6.01103,
-                                    11.9669,
-                                    21.011,
+                                    0.0,
+                                    3.0,
+                                    6.0,
+                                    12.0,
+                                    21.0,
                                     30.0
                                 ]
                             }
@@ -181,7 +181,61 @@
             "no": "3, bottom panel",
             "type": "figure"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131002",
+                        "values": {
+                            "statistic": "mean",
+                            "type": "simple",
+                            "unit": "dimensionless",
+                            "values": [
+                                239350.0,
+                                89686.1,
+                                125000.0,
+                                158072.0,
+                                224215.0,
+                                150785.0
+                            ]
+                        }
+                    },
+                    "indepVars": [
+                        {
+                            "typeId": "BBP-002001",
+                            "values": {
+                                "statistic": "raw",
+                                "type": "simple",
+                                "unit": "dimensionless",
+                                "values": [
+                                    0.0,
+                                    3.0,
+                                    6.0,
+                                    12.0,
+                                    21.0,
+                                    30.0
+                                ]
+                            }
+                        }
+                    ],
+                    "type": "numericalTrace"
+                },
+                "id": "427391ae-8672-11e7-8c48-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFGA:birnlex_1116",
+                        "name": "Ventral posterior nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    },
+                    {
+                        "id": "NIFCELL:nlx_cell_20081203",
+                        "name": "Thalamus relay cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
         "pubId": "10.1523/JNEUROSCI.1194-07.2007",
         "tags": [
             {

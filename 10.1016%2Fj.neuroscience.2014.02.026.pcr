@@ -1,0 +1,1108 @@
+[
+    {
+        "annotId": "109574fe-801e-11e7-9d91-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 13553,
+            "text": "The total number of PARV-ir neurons in the RT\nwas estimated using unbiased stereology",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1016/j.neuroscience.2014.02.026",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFMOL:nifext_6",
+                "name": "Parvalbumin"
+            },
+            {
+                "id": "NIFORG:birnlex_681",
+                "name": "Adult"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "43864cf8-801e-11e7-9d91-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 16918,
+            "text": "The volume of the VPM\u2013VPL was\ncalculated using a Cavalieri estimation",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1016/j.neuroscience.2014.02.026",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFMOL:nifext_6",
+                "name": "Parvalbumin"
+            },
+            {
+                "id": "NIFORG:birnlex_681",
+                "name": "Adult"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "72a4fcb8-8029-11e7-9d91-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 23853,
+            "text": "Control animals had 41 000 \u00b1 1800 (range 32 800\u2013\n48 800) PARV-ir neurons in the RT.",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131002",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        41000.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "deviation",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        1800.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "min",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        32800.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "max",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        48800.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        9.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "cd80e94e-8029-11e7-9d91-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "BBP_nlx_0031",
+                        "name": "Thalamic reticular nucleus cell - PV+",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFGA:birnlex_1721",
+                        "name": "Thalamic reticular nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1016/j.neuroscience.2014.02.026",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFMOL:nifext_6",
+                "name": "Parvalbumin"
+            },
+            {
+                "id": "NIFORG:birnlex_681",
+                "name": "Adult"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "b60adbdc-801d-11e7-9d91-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 9582,
+            "text": "25 adult male Sprague\u2013Dawley rats (body\nweight 298\u2013368 g at the time of injury",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1016/j.neuroscience.2014.02.026",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFORG:birnlex_681",
+                "name": "Adult"
+            },
+            {
+                "id": "NIFMOL:nifext_6",
+                "name": "Parvalbumin"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "cfe119b8-802b-11e7-9d91-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Merged together the ipsilateral and contralateral. Each values is for the Rt nucleus of one hemisphere.",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "4.A",
+            "type": "figure"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131006",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mm^3",
+                            "values": [
+                                9.16667,
+                                12.2083,
+                                11.2917,
+                                10.0417,
+                                8.91667,
+                                11.75,
+                                11.625,
+                                12.4583,
+                                9.04167,
+                                11.9583,
+                                11.4167,
+                                9.83333,
+                                11.7917,
+                                8.875,
+                                7.66667,
+                                10.6667,
+                                11.4167,
+                                12.2083
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "2fc77e9a-802c-11e7-9d91-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFGA:birnlex_1721",
+                        "name": "Thalamic reticular nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1016/j.neuroscience.2014.02.026",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFMOL:nifext_6",
+                "name": "Parvalbumin"
+            },
+            {
+                "id": "NIFORG:birnlex_681",
+                "name": "Adult"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "c578d463-8699-11e7-8c48-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "4.B, top panel",
+            "type": "figure"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131007",
+                        "values": {
+                            "statistic": "mean",
+                            "type": "simple",
+                            "unit": "um^2",
+                            "values": [
+                                872576.0,
+                                1130190.0,
+                                997230.0,
+                                747922.0,
+                                631579.0,
+                                552632.0,
+                                540166.0,
+                                477839.0,
+                                349030.0
+                            ]
+                        }
+                    },
+                    "indepVars": [
+                        {
+                            "typeId": "BBP-001011",
+                            "values": {
+                                "statistic": "raw",
+                                "type": "simple",
+                                "unit": "percent",
+                                "values": [
+                                    5.9814,
+                                    17.6917,
+                                    29.48595,
+                                    41.19625,
+                                    52.9907,
+                                    64.78515,
+                                    76.49525,
+                                    88.28985,
+                                    100.0
+                                ]
+                            }
+                        }
+                    ],
+                    "type": "numericalTrace"
+                },
+                "id": "16e1ab36-869d-11e7-8c48-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFGA:birnlex_1721",
+                        "name": "Thalamic reticular nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1016/j.neuroscience.2014.02.026",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFMOL:nifext_6",
+                "name": "Parvalbumin"
+            },
+            {
+                "id": "NIFORG:birnlex_681",
+                "name": "Adult"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "7c8dbc7f-802d-11e7-9d91-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Merged together the ipsilateral and contralateral. Each values is for the Rt nucleus of one hemisphere.\nNeuron density obtained by dividing the total volume (4.A) by the total number of neurons (4.C).",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "4.C",
+            "type": "figure"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131002",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "dimensionless",
+                            "values": [
+                                35235.5,
+                                41052.6,
+                                44044.3,
+                                32742.4,
+                                48698.1,
+                                46703.6,
+                                43545.7,
+                                41717.5,
+                                35069.3,
+                                33407.2,
+                                43379.5,
+                                38559.6,
+                                36066.5,
+                                40886.4,
+                                49030.5,
+                                33573.4,
+                                38725.8,
+                                44875.3
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "b12edb94-802d-11e7-9d91-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "BBP_nlx_0031",
+                        "name": "Thalamic reticular nucleus cell - PV+",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFGA:birnlex_1721",
+                        "name": "Thalamic reticular nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131001",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "1/mm^3",
+                                    "values": [
+                                        3781.5229293756083
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        18.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "ac71e7f8-802e-11e7-9d91-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "BBP_nlx_0031",
+                        "name": "Thalamic reticular nucleus cell - PV+",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFGA:birnlex_1721",
+                        "name": "Thalamic reticular nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1016/j.neuroscience.2014.02.026",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFMOL:nifext_6",
+                "name": "Parvalbumin"
+            },
+            {
+                "id": "NIFORG:birnlex_681",
+                "name": "Adult"
+            },
+            {
+                "id": "UBERON:0001903",
+                "name": "thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFCELL:nifext_45",
+                "name": "Thalamic reticular nucleus cell"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "71643110-8030-11e7-9d91-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Merged together the ipsilateral and contralateral. Each values is for the VB nucleus of one hemisphere.",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "5.G",
+            "type": "figure"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131006",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mm^3",
+                            "values": [
+                                2.64474,
+                                3.11184,
+                                3.16447,
+                                2.71053,
+                                2.54605,
+                                2.90789,
+                                3.03289,
+                                3.25,
+                                2.55921,
+                                2.58553,
+                                2.83553,
+                                2.91447,
+                                3.09868,
+                                2.46711,
+                                2.75658,
+                                2.97368,
+                                2.53947,
+                                2.83553
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "d506a29c-8030-11e7-9d91-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFGA:birnlex_1116",
+                        "name": "Ventral posterior nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1016/j.neuroscience.2014.02.026",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFMOL:nifext_6",
+                "name": "Parvalbumin"
+            },
+            {
+                "id": "NIFORG:birnlex_681",
+                "name": "Adult"
+            },
+            {
+                "id": "UBERON:0002596",
+                "name": "ventral posterior nucleus of thalamus"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "18da1b80-869d-11e7-8c48-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "4.B, bottom panel",
+            "type": "figure"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131007",
+                        "values": {
+                            "statistic": "mean",
+                            "type": "simple",
+                            "unit": "um^2",
+                            "values": [
+                                785319.0,
+                                1221610.0,
+                                1038780.0,
+                                777008.0,
+                                652355.0,
+                                581717.0,
+                                544321.0,
+                                498615.0,
+                                240997.0
+                            ]
+                        }
+                    },
+                    "indepVars": [
+                        {
+                            "typeId": "BBP-001011",
+                            "values": {
+                                "statistic": "raw",
+                                "type": "simple",
+                                "unit": "percent",
+                                "values": [
+                                    5.9814,
+                                    17.6917,
+                                    29.48595,
+                                    41.19625,
+                                    52.9907,
+                                    64.78515,
+                                    76.49525,
+                                    88.28985,
+                                    100.0
+                                ]
+                            }
+                        }
+                    ],
+                    "type": "numericalTrace"
+                },
+                "id": "18da1b81-869d-11e7-8c48-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFGA:birnlex_1721",
+                        "name": "Thalamic reticular nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1016/j.neuroscience.2014.02.026",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFMOL:nifext_6",
+                "name": "Parvalbumin"
+            },
+            {
+                "id": "NIFORG:birnlex_681",
+                "name": "Adult"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "207424de-869e-11e7-8c48-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Densities are computed from dividinf the numbers in from the 4.D by those from 4.B, dividing by the ASF factors linked as an experimental property.",
+        "experimentProperties": [
+            {
+                "instanceId": "49600c18-871c-11e7-8c48-64006a67e5d0",
+                "paramTypeId": "BBP-002101"
+            }
+        ],
+        "localizer": {
+            "no": "4.D, bottom panel",
+            "type": "figure"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131008",
+                        "values": {
+                            "statistic": "mean",
+                            "type": "simple",
+                            "unit": "dimensionless",
+                            "values": [
+                                33.6464,
+                                48.0663,
+                                40.7735,
+                                27.5138,
+                                27.3481,
+                                24.5304,
+                                17.7348,
+                                16.0773,
+                                11.2707
+                            ]
+                        }
+                    },
+                    "indepVars": [
+                        {
+                            "typeId": "BBP-001011",
+                            "values": {
+                                "statistic": "raw",
+                                "type": "simple",
+                                "unit": "percent",
+                                "values": [
+                                    5.9814,
+                                    17.6917,
+                                    29.48595,
+                                    41.19625,
+                                    52.9907,
+                                    64.78515,
+                                    76.49525,
+                                    88.28985,
+                                    100.0
+                                ]
+                            }
+                        }
+                    ],
+                    "type": "numericalTrace"
+                },
+                "id": "207424df-869e-11e7-8c48-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFGA:birnlex_1721",
+                        "name": "Thalamic reticular nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    },
+                    {
+                        "id": "BBP_nlx_0031",
+                        "name": "Thalamic reticular nucleus cell - PV+",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131001",
+                        "values": {
+                            "statistic": "mean",
+                            "type": "simple",
+                            "unit": "1/mm^2",
+                            "values": [
+                                867.5959705546,
+                                796.7703072175,
+                                794.8394992202,
+                                717.0511114429,
+                                848.9227874394,
+                                853.92140852,
+                                659.7755736045,
+                                652.9392918384,
+                                947.0311871102
+                            ]
+                        }
+                    },
+                    "indepVars": [
+                        {
+                            "typeId": "BBP-001011",
+                            "values": {
+                                "statistic": "raw",
+                                "type": "simple",
+                                "unit": "percent",
+                                "values": [
+                                    5.9814,
+                                    17.6917,
+                                    29.48595,
+                                    41.19625,
+                                    52.9907,
+                                    64.78515,
+                                    76.49525,
+                                    88.28985,
+                                    100.0
+                                ]
+                            }
+                        }
+                    ],
+                    "type": "numericalTrace"
+                },
+                "id": "05d8bab2-869f-11e7-8c48-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFGA:birnlex_1721",
+                        "name": "Thalamic reticular nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    },
+                    {
+                        "id": "BBP_nlx_0031",
+                        "name": "Thalamic reticular nucleus cell - PV+",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1016/j.neuroscience.2014.02.026",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFMOL:nifext_6",
+                "name": "Parvalbumin"
+            },
+            {
+                "id": "NIFORG:birnlex_681",
+                "name": "Adult"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "09a7fe46-869f-11e7-8c48-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Densities are computed from dividinf the numbers in from the 4.D by those from 4.B, dividing by the ASF factors linked as an experimental property.",
+        "experimentProperties": [
+            {
+                "instanceId": "49600c18-871c-11e7-8c48-64006a67e5d0",
+                "paramTypeId": "BBP-002101"
+            }
+        ],
+        "localizer": {
+            "no": "4.D, top panel",
+            "type": "figure"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131008",
+                        "values": {
+                            "statistic": "mean",
+                            "type": "simple",
+                            "unit": "dimensionless",
+                            "values": [
+                                36.5651,
+                                44.2105,
+                                38.7258,
+                                30.9141,
+                                26.759,
+                                24.0997,
+                                19.1136,
+                                20.6094,
+                                14.1274
+                            ]
+                        }
+                    },
+                    "indepVars": [
+                        {
+                            "typeId": "BBP-001011",
+                            "values": {
+                                "statistic": "raw",
+                                "type": "simple",
+                                "unit": "percent",
+                                "values": [
+                                    5.9814,
+                                    17.6917,
+                                    29.48595,
+                                    41.19625,
+                                    52.9907,
+                                    64.78515,
+                                    76.49525,
+                                    88.28985,
+                                    100.0
+                                ]
+                            }
+                        }
+                    ],
+                    "type": "numericalTrace"
+                },
+                "id": "09a7fe47-869f-11e7-8c48-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFGA:birnlex_1721",
+                        "name": "Thalamic reticular nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    },
+                    {
+                        "id": "BBP_nlx_0031",
+                        "name": "Thalamic reticular nucleus cell - PV+",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131001",
+                        "values": {
+                            "statistic": "mean",
+                            "type": "simple",
+                            "unit": "1/mm^2",
+                            "values": [
+                                848.5716716939,
+                                792.1346189579,
+                                786.3757107187,
+                                836.9997472999,
+                                857.9603660033,
+                                883.081191462,
+                                716.5397303792,
+                                873.3911422048,
+                                819.642580867
+                            ]
+                        }
+                    },
+                    "indepVars": [
+                        {
+                            "typeId": "BBP-001011",
+                            "values": {
+                                "statistic": "raw",
+                                "type": "simple",
+                                "unit": "percent",
+                                "values": [
+                                    5.9814,
+                                    17.6917,
+                                    29.48595,
+                                    41.19625,
+                                    52.9907,
+                                    64.78515,
+                                    76.49525,
+                                    88.28985,
+                                    100.0
+                                ]
+                            }
+                        }
+                    ],
+                    "type": "numericalTrace"
+                },
+                "id": "09a7fe48-869f-11e7-8c48-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFGA:birnlex_1721",
+                        "name": "Thalamic reticular nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    },
+                    {
+                        "id": "BBP_nlx_0031",
+                        "name": "Thalamic reticular nucleus cell - PV+",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1016/j.neuroscience.2014.02.026",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFMOL:nifext_6",
+                "name": "Parvalbumin"
+            },
+            {
+                "id": "NIFORG:birnlex_681",
+                "name": "Adult"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "ca529670-871b-11e7-8c48-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 13844,
+            "text": "A sampling grid of\n90\u0002x 90 um was laid on the section.",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002103",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "um^2",
+                            "values": [
+                                8100.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "e8f25c96-871b-11e7-8c48-64006a67e5d0",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "10.1016/j.neuroscience.2014.02.026",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFMOL:nifext_6",
+                "name": "Parvalbumin"
+            },
+            {
+                "id": "NIFORG:birnlex_681",
+                "name": "Adult"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "03681a48-871c-11e7-8c48-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "e8f25c96-871b-11e7-8c48-64006a67e5d0",
+                "paramTypeId": "BBP-002103"
+            }
+        ],
+        "localizer": {
+            "location": 13899,
+            "text": "For every x\u2013y step,\ncells were counted using a counting frame of\n20 x 20 um.",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002102",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "um^2",
+                            "values": [
+                                400.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "122f4344-871c-11e7-8c48-64006a67e5d0",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "10.1016/j.neuroscience.2014.02.026",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFMOL:nifext_6",
+                "name": "Parvalbumin"
+            },
+            {
+                "id": "NIFORG:birnlex_681",
+                "name": "Adult"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "279a52be-871c-11e7-8c48-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "e8f25c96-871b-11e7-8c48-64006a67e5d0",
+                "paramTypeId": "BBP-002103"
+            },
+            {
+                "instanceId": "122f4344-871c-11e7-8c48-64006a67e5d0",
+                "paramTypeId": "BBP-002102"
+            }
+        ],
+        "localizer": {
+            "location": 14310,
+            "text": "area sampling fraction (asf, the\narea of the counting frame divided by the area of\nsampling grid) was 0.049",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002101",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "dimensionless",
+                            "values": [
+                                0.04938271604938271
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "49600c18-871c-11e7-8c48-64006a67e5d0",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "10.1016/j.neuroscience.2014.02.026",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NIFMOL:nifext_6",
+                "name": "Parvalbumin"
+            },
+            {
+                "id": "NIFORG:birnlex_681",
+                "name": "Adult"
+            }
+        ],
+        "version": "1"
+    }
+]
