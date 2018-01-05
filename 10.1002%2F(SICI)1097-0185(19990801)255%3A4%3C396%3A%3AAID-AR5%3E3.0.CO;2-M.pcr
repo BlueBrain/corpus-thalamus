@@ -1,0 +1,29 @@
+[
+    {
+        "annotId": "c5b8fb00-f21b-11e7-8ae1-acbc328c3997",
+        "authors": [
+            "sjimenez"
+        ],
+        "comment": "Values of the different parameters analyzed in the dLGN of young, adult, and old rats",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "1",
+            "noCol": "1, 3, 4",
+            "noRow": "1, 3, 5, 7",
+            "type": "table"
+        },
+        "parameters": [],
+        "pubId": "10.1002/(SICI)1097-0185(19990801)255:4<396::AID-AR5>3.0.CO;2-M",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            },
+            {
+                "id": "NCBITaxon:10116",
+                "name": "Rattus norvegicus"
+            }
+        ],
+        "version": "1"
+    }
+]
