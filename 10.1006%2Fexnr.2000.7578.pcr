@@ -243,7 +243,16 @@
         },
         "parameters": [],
         "pubId": "10.1006/exnr.2000.7578",
-        "tags": [],
+        "tags": [
+            {
+                "id": "NCBITaxon:10116",
+                "name": "Rattus norvegicus"
+            },
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            }
+        ],
         "version": "1"
     }
 ]
