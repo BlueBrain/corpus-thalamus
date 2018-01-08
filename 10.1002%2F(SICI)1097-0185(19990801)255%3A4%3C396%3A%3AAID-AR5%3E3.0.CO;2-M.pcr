@@ -165,14 +165,30 @@
                     "depVar": {
                         "typeId": "BBP-131002",
                         "values": {
-                            "statistic": "mean",
-                            "type": "simple",
-                            "unit": "dimensionless",
-                            "values": [
-                                39607.0,
-                                30123.0,
-                                30989.0,
-                                31178.0
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        39607.0,
+                                        30123.0,
+                                        30989.0,
+                                        31178.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        1023.0,
+                                        1230.0,
+                                        586.0,
+                                        773.0
+                                    ]
+                                }
                             ]
                         }
                     },
