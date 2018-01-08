@@ -268,6 +268,16 @@
                                         130000.0,
                                         170000.0
                                     ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        5.0,
+                                        5.0,
+                                        3.0
+                                    ]
                                 }
                             ]
                         }
