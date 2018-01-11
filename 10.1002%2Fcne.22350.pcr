@@ -83,5 +83,65 @@
         "pubId": "10.1002/cne.22350",
         "tags": [],
         "version": "1"
+    },
+    {
+        "annotId": "c9e885d6-f6ea-11e7-a854-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "For the wlidtype mice.",
+        "experimentProperties": [
+            {
+                "instanceId": "75ec2ffc-f6e6-11e7-a854-64006a67e5d0",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "no": "5.A",
+            "type": "figure"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-121009",
+                        "values": {
+                            "statistic": "mean",
+                            "type": "simple",
+                            "unit": "1/um",
+                            "values": [
+                                1.261
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "771b033a-f6eb-11e7-a854-64006a67e5d0",
+                "isExperimentProperty": false,
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFORG:birnlex_167",
+                        "name": "Mouse"
+                    },
+                    "entity2": "None",
+                    "type": "point"
+                },
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nlx_cell_20090309",
+                        "name": "Striatum patch medium spiny cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1002/cne.22350",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
     }
 ]
