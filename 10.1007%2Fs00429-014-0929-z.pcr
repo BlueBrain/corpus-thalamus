@@ -78,5 +78,27 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "71ea63cc-f6b1-11e7-a854-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 6827,
+            "text": "Experiments were performed on Long\u2013Evans pigmented rats",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1007/s00429-014-0929-z",
+        "tags": [
+            {
+                "id": "NIFORG:nlx_organ_20081201",
+                "name": "Long Evans Rat"
+            }
+        ],
+        "version": "1"
     }
 ]
