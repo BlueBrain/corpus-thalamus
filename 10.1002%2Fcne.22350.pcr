@@ -140,6 +140,10 @@
             {
                 "id": "NIFORG:birnlex_167",
                 "name": "Mouse"
+            },
+            {
+                "id": "UBERON:0002435",
+                "name": "striatum"
             }
         ],
         "version": "1"
