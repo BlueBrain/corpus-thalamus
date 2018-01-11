@@ -153,7 +153,7 @@
         "authors": [
             "oreilly"
         ],
-        "comment": "numerical density of spines per micrometer of neuronal branches in the ventral and dorsal divisions of the MGB ",
+        "comment": "numerical density of spines per micrometer of neuronal branches in the ventral and dorsal divisions of the MGB, control rats",
         "experimentProperties": [],
         "localizer": {
             "no": "3.e",
@@ -167,8 +167,8 @@
                 "name": "Long Evans Rat"
             },
             {
-                "id": "NIFGA:birnlex_1608",
-                "name": "Dorsal nucleus of medial geniculate body"
+                "id": "NIFGA:birnlex_845",
+                "name": "Ventral nucleus of medial geniculate body"
             }
         ],
         "version": "1"
