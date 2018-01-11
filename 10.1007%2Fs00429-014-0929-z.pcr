@@ -282,5 +282,85 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "b1ea70ff-f6b3-11e7-a854-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "numerical density of spines per micrometer of neuronal branches in the pyramidal neurons of the auditory cortex",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "6.c",
+            "type": "figure"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-121009",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "1/um",
+                                    "values": [
+                                        0.5385
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "1/um",
+                                    "values": [
+                                        0.0359
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        6.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "047ba3de-f6b4-11e7-a854-64006a67e5d0",
+                "isExperimentProperty": false,
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFORG:nlx_organ_20081201",
+                        "name": "Long Evans Rat"
+                    },
+                    "entity2": "None",
+                    "type": "point"
+                },
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao2128417084",
+                        "name": "Neocortex pyramidal cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1007/s00429-014-0929-z",
+        "tags": [
+            {
+                "id": "NIFORG:nlx_organ_20081201",
+                "name": "Long Evans Rat"
+            },
+            {
+                "id": "UBERON:0001393",
+                "name": "auditory cortex"
+            }
+        ],
+        "version": "1"
     }
 ]
