@@ -140,6 +140,10 @@
             {
                 "id": "NIFORG:nlx_organ_20081201",
                 "name": "Long Evans Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1608",
+                "name": "Dorsal nucleus of medial geniculate body"
             }
         ],
         "version": "1"
