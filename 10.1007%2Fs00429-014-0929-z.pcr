@@ -159,7 +159,62 @@
             "no": "3.e",
             "type": "figure"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-121009",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "1/um",
+                                    "values": [
+                                        0.3594
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "1/um",
+                                    "values": [
+                                        0.03438
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        6.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "1f4d226a-f6b3-11e7-a854-64006a67e5d0",
+                "isExperimentProperty": false,
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFORG:nlx_organ_20081201",
+                        "name": "Long Evans Rat"
+                    },
+                    "entity2": "None",
+                    "type": "point"
+                },
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_41",
+                        "name": "Thalamocortical cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
         "pubId": "10.1007/s00429-014-0929-z",
         "tags": [
             {
