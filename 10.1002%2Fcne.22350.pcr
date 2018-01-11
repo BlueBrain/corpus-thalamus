@@ -61,5 +61,27 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "1d85401c-f6e9-11e7-a854-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "75ec2ffc-f6e6-11e7-a854-64006a67e5d0",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "location": 17421,
+            "text": "determined using the\noptical dissector method",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1002/cne.22350",
+        "tags": [],
+        "version": "1"
     }
 ]
