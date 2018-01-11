@@ -1,0 +1,25 @@
+[
+    {
+        "annotId": "a2dc0c64-f6df-11e7-97d6-4a0002b51460",
+        "authors": [
+            "sjimenez"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "",
+            "noCol": null,
+            "noRow": null,
+            "type": "table"
+        },
+        "parameters": [],
+        "pubId": "10.1002/cne.10747",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_254",
+                "name": "Wistar Rat"
+            }
+        ],
+        "version": "1"
+    }
+]
