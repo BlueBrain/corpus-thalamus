@@ -100,5 +100,27 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "8c9bee2a-f6b1-11e7-a854-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 7030,
+            "text": "six female rats exposed as young pups briefly to noise (3 and 3 from each litter) and the other six female control rats (3 and 3 from each litter)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1007/s00429-014-0929-z",
+        "tags": [
+            {
+                "id": "NIFORG:nlx_organ_20081201",
+                "name": "Long Evans Rat"
+            }
+        ],
+        "version": "1"
     }
 ]
