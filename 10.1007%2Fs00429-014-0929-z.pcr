@@ -10,9 +10,73 @@
             "no": "6",
             "type": "figure"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-121007",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "um",
+                                    "values": [
+                                        2.067
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "um",
+                                    "values": [
+                                        0.1763
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        6.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "5a44fc6e-f6b1-11e7-a854-64006a67e5d0",
+                "isExperimentProperty": false,
+                "relationship": {
+                    "entity1": {
+                        "id": "UBERON:0001393",
+                        "name": "auditory cortex"
+                    },
+                    "entity2": "None",
+                    "type": "point"
+                },
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao2128417084",
+                        "name": "Neocortex pyramidal cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
         "pubId": "10.1007/s00429-014-0929-z",
-        "tags": [],
+        "tags": [
+            {
+                "id": "UBERON:0001393",
+                "name": "auditory cortex"
+            },
+            {
+                "id": "NIFORG:nlx_organ_20081201",
+                "name": "Long Evans Rat"
+            }
+        ],
         "version": "1"
     }
 ]
