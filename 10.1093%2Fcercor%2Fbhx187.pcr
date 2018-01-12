@@ -72,7 +72,12 @@
         },
         "parameters": [],
         "pubId": "10.1093/cercor/bhx187",
-        "tags": [],
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_398",
+                "name": "C57BL/6"
+            }
+        ],
         "version": "1"
     }
 ]
