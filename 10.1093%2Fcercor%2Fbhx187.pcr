@@ -11,9 +11,47 @@
             "text": "About 6 male C57/BL6 mice (60\u201365 days of age) were used.",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002001",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "min",
+                                    "type": "simple",
+                                    "unit": "day",
+                                    "values": [
+                                        60.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "max",
+                                    "type": "simple",
+                                    "unit": "day",
+                                    "values": [
+                                        65.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "34e4063c-f7aa-11e7-99c4-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": []
+            }
+        ],
         "pubId": "10.1093/cercor/bhx187",
-        "tags": [],
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
         "version": "1"
     }
 ]
