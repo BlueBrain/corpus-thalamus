@@ -76,6 +76,10 @@
             {
                 "id": "NIFORG:birnlex_398",
                 "name": "C57BL/6"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
             }
         ],
         "version": "1"
