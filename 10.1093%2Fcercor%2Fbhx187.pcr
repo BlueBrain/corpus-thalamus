@@ -70,7 +70,62 @@
             "text": "Interbouton distances ranged\nbetween 2.4 and 7.3 \u03bcm (mean 4.60 \u00b1 1.16 \u03bcm; see also Fig. 1E,F)",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-121012",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "min",
+                                    "type": "simple",
+                                    "unit": "um",
+                                    "values": [
+                                        2.4
+                                    ]
+                                },
+                                {
+                                    "statistic": "max",
+                                    "type": "simple",
+                                    "unit": "um",
+                                    "values": [
+                                        7.3
+                                    ]
+                                },
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "um",
+                                    "values": [
+                                        4.6
+                                    ]
+                                },
+                                {
+                                    "statistic": "sd",
+                                    "type": "simple",
+                                    "unit": "um",
+                                    "values": [
+                                        1.16
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "063ccba6-f7ab-11e7-99c4-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_41",
+                        "name": "Thalamocortical cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
         "pubId": "10.1093/cercor/bhx187",
         "tags": [
             {
