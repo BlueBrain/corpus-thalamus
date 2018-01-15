@@ -1,1 +1,29 @@
-[]
+[
+    {
+        "annotId": "a50ea64a-fa0e-11e7-80a1-4a0002b51460",
+        "authors": [
+            "sjimenez"
+        ],
+        "comment": "Data from the right MHb of six rats showing means, standard deviations and coefficients of variation for all stereological parameters",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "1",
+            "noCol": "12, 13",
+            "noRow": "1, 2, 3, 4, 5, 6",
+            "type": "table"
+        },
+        "parameters": [],
+        "pubId": "10.1111/j.1469-7580.2006.00573.x",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NCBITaxon:10116",
+                "name": "Rattus norvegicus"
+            }
+        ],
+        "version": "1"
+    }
+]
