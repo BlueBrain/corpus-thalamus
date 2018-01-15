@@ -12,62 +12,7 @@
             "noRow": "None",
             "type": "table"
         },
-        "parameters": [
-            {
-                "description": {
-                    "depVar": {
-                        "typeId": "BBP-131002",
-                        "values": {
-                            "type": "compound",
-                            "valueLst": [
-                                {
-                                    "statistic": "mean",
-                                    "type": "simple",
-                                    "unit": "dimensionless",
-                                    "values": [
-                                        23.0,
-                                        23.0,
-                                        23.0,
-                                        90.0
-                                    ]
-                                },
-                                {
-                                    "statistic": "N",
-                                    "type": "simple",
-                                    "unit": "dimensionless",
-                                    "values": [
-                                        16.0,
-                                        16.0,
-                                        16.0
-                                    ]
-                                },
-                                {
-                                    "statistic": "raw",
-                                    "type": "simple",
-                                    "unit": "dimensionless",
-                                    "values": []
-                                }
-                            ]
-                        }
-                    },
-                    "type": "pointValue"
-                },
-                "id": "304311d4-fa04-11e7-88c8-4a0002b51460",
-                "isExperimentProperty": false,
-                "requiredTags": [
-                    {
-                        "id": "NIFGA:birnlex_1431",
-                        "name": "Medial habenular nucleus",
-                        "rootId": "NIFGA:birnlex_1167"
-                    },
-                    {
-                        "id": "NIFCELL:sao1813327414",
-                        "name": "Cell",
-                        "rootId": "NIFCELL:sao1813327414"
-                    }
-                ]
-            }
-        ],
+        "parameters": [],
         "pubId": "10.1111/j.1469-7580.2006.00573.x",
         "tags": [
             {
