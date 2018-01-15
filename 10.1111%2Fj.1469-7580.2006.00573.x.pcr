@@ -12,7 +12,43 @@
             "noRow": "1, 2, 3, 4, 5, 6",
             "type": "table"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131002",
+                        "values": {
+                            "statistic": "mean",
+                            "type": "simple",
+                            "unit": "dimensionless",
+                            "values": [
+                                15268.0,
+                                20797.0,
+                                22187.0,
+                                19714.0,
+                                15514.0,
+                                14780.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "61e52100-fa0e-11e7-9655-4a0002b51460",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFGA:birnlex_1431",
+                        "name": "Medial habenular nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    },
+                    {
+                        "id": "NIFCELL:sao1417703748",
+                        "name": "Neuron",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
         "pubId": "10.1111/j.1469-7580.2006.00573.x",
         "tags": [
             {
