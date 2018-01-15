@@ -8,11 +8,33 @@
         "experimentProperties": [],
         "localizer": {
             "no": "1",
-            "noCol": null,
-            "noRow": null,
+            "noCol": "None",
+            "noRow": "None",
             "type": "table"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-010000",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "dimensionless",
+                            "values": [
+                                23.0,
+                                23.0,
+                                23.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "d396929a-fa11-11e7-99c4-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": []
+            }
+        ],
         "pubId": "PMID_9660897",
         "tags": [],
         "version": "1"
