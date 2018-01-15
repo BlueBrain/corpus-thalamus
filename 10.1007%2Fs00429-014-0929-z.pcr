@@ -1,0 +1,366 @@
+[
+    {
+        "annotId": "d38c8100-f6ac-11e7-a854-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "mean length of the dendritic spines in the pyramidal neurons of the auditory cortex, control rats.",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "6.d",
+            "type": "figure"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-121007",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "um",
+                                    "values": [
+                                        2.067
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "um",
+                                    "values": [
+                                        0.1763
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        6.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "5a44fc6e-f6b1-11e7-a854-64006a67e5d0",
+                "isExperimentProperty": false,
+                "relationship": {
+                    "entity1": {
+                        "id": "UBERON:0001393",
+                        "name": "auditory cortex"
+                    },
+                    "entity2": "None",
+                    "type": "point"
+                },
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao2128417084",
+                        "name": "Neocortex pyramidal cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1007/s00429-014-0929-z",
+        "tags": [
+            {
+                "id": "UBERON:0001393",
+                "name": "auditory cortex"
+            },
+            {
+                "id": "NIFORG:nlx_organ_20081201",
+                "name": "Long Evans Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "71ea63cc-f6b1-11e7-a854-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 6827,
+            "text": "Experiments were performed on Long\u2013Evans pigmented rats",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1007/s00429-014-0929-z",
+        "tags": [
+            {
+                "id": "NIFORG:nlx_organ_20081201",
+                "name": "Long Evans Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "8c9bee2a-f6b1-11e7-a854-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 7030,
+            "text": "six female rats exposed as young pups briefly to noise (3 and 3 from each litter) and the other six female control rats (3 and 3 from each litter)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1007/s00429-014-0929-z",
+        "tags": [
+            {
+                "id": "NIFORG:nlx_organ_20081201",
+                "name": "Long Evans Rat"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "f0fd3d10-f6b1-11e7-a854-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "numerical density of spines per micrometer of neuronal branches in the dorsal divisions of the MGB, control rats",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "3.e",
+            "type": "figure"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-121009",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "1/um",
+                                    "values": [
+                                        0.3188
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "1/um",
+                                    "values": [
+                                        0.03438
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        6.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "633439c8-f6b3-11e7-a854-64006a67e5d0",
+                "isExperimentProperty": false,
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFORG:nlx_organ_20081201",
+                        "name": "Long Evans Rat"
+                    },
+                    "entity2": "None",
+                    "type": "point"
+                },
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_41",
+                        "name": "Thalamocortical cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1007/s00429-014-0929-z",
+        "tags": [
+            {
+                "id": "NIFORG:nlx_organ_20081201",
+                "name": "Long Evans Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_1608",
+                "name": "Dorsal nucleus of medial geniculate body"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "55858882-f6b2-11e7-a854-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "numerical density of spines per micrometer of neuronal branches in the ventral divisions of the MGB, control rats",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "3.e",
+            "type": "figure"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-121009",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "1/um",
+                                    "values": [
+                                        0.3594
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "1/um",
+                                    "values": [
+                                        0.03438
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        6.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "1f4d226a-f6b3-11e7-a854-64006a67e5d0",
+                "isExperimentProperty": false,
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFORG:nlx_organ_20081201",
+                        "name": "Long Evans Rat"
+                    },
+                    "entity2": "None",
+                    "type": "point"
+                },
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nifext_41",
+                        "name": "Thalamocortical cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1007/s00429-014-0929-z",
+        "tags": [
+            {
+                "id": "NIFORG:nlx_organ_20081201",
+                "name": "Long Evans Rat"
+            },
+            {
+                "id": "NIFGA:birnlex_845",
+                "name": "Ventral nucleus of medial geniculate body"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "b1ea70ff-f6b3-11e7-a854-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "numerical density of spines per micrometer of neuronal branches in the pyramidal neurons of the auditory cortex",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "6.c",
+            "type": "figure"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-121009",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "1/um",
+                                    "values": [
+                                        0.5385
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "1/um",
+                                    "values": [
+                                        0.0359
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        6.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "047ba3de-f6b4-11e7-a854-64006a67e5d0",
+                "isExperimentProperty": false,
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFORG:nlx_organ_20081201",
+                        "name": "Long Evans Rat"
+                    },
+                    "entity2": "None",
+                    "type": "point"
+                },
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao2128417084",
+                        "name": "Neocortex pyramidal cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1007/s00429-014-0929-z",
+        "tags": [
+            {
+                "id": "NIFORG:nlx_organ_20081201",
+                "name": "Long Evans Rat"
+            },
+            {
+                "id": "UBERON:0001393",
+                "name": "auditory cortex"
+            }
+        ],
+        "version": "1"
+    }
+]
