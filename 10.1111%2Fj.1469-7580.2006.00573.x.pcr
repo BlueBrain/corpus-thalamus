@@ -21,7 +21,10 @@
                             "statistic": "mean",
                             "type": "simple",
                             "unit": "dimensionless",
-                            "values": []
+                            "values": [
+                                45.0,
+                                56.0
+                            ]
                         }
                     },
                     "type": "pointValue"
