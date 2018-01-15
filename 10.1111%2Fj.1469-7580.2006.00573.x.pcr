@@ -18,27 +18,16 @@
                     "depVar": {
                         "typeId": "BBP-131002",
                         "values": {
-                            "type": "compound",
-                            "valueLst": [
-                                {
-                                    "statistic": "mean",
-                                    "type": "simple",
-                                    "unit": "dimensionless",
-                                    "values": [
-                                        15268.0,
-                                        20797.0,
-                                        22187.0,
-                                        19714.0,
-                                        15514.0,
-                                        14780.0
-                                    ]
-                                },
-                                {
-                                    "statistic": "raw",
-                                    "type": "simple",
-                                    "unit": "dimensionless",
-                                    "values": []
-                                }
+                            "statistic": "mean",
+                            "type": "simple",
+                            "unit": "dimensionless",
+                            "values": [
+                                15268.0,
+                                20797.0,
+                                22187.0,
+                                19714.0,
+                                15514.0,
+                                14780.0
                             ]
                         }
                     },
