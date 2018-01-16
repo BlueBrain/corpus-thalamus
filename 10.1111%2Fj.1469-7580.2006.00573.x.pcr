@@ -4,7 +4,7 @@
         "authors": [
             "sjimenez"
         ],
-        "comment": "Data from the right MHb of six rats showing means, standard deviations and coefficients of variation for all stereological parameters",
+        "comment": "Data from the right MHb of six rats showing means, standard deviations and coefficients of variation for all stereological parameters\n\nMedial habernular nulceus from the right hemisphere",
         "experimentProperties": [],
         "localizer": {
             "no": "1",
@@ -45,6 +45,36 @@
                         "id": "NIFCELL:sao1417703748",
                         "name": "Neuron",
                         "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131006",
+                        "values": {
+                            "statistic": "mean",
+                            "type": "simple",
+                            "unit": "dimensionless",
+                            "values": [
+                                0.098,
+                                0.109,
+                                0.112,
+                                0.103,
+                                0.086,
+                                0.1
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "17f27ada-fad5-11e7-aaf0-4a0002b51460",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFGA:birnlex_1431",
+                        "name": "Medial habenular nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
                     }
                 ]
             }
