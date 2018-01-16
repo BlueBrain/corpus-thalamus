@@ -75,7 +75,45 @@
             "noRow": "1, 2, 3, 4, 5, 6, 7, 8",
             "type": "table"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131002",
+                        "values": {
+                            "statistic": "mean",
+                            "type": "simple",
+                            "unit": "dimensionless",
+                            "values": [
+                                14931.0,
+                                12026.0,
+                                13698.0,
+                                10978.0,
+                                10637.0,
+                                13290.0,
+                                12506.0,
+                                16110.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "c2791088-fad3-11e7-a946-4a0002b51460",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFGA:birnlex_1438",
+                        "name": "Lateral habenular nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    },
+                    {
+                        "id": "NIFCELL:sao1417703748",
+                        "name": "Neuron",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
         "pubId": "10.1111/j.1469-7580.2006.00573.x",
         "tags": [],
         "version": "1"
