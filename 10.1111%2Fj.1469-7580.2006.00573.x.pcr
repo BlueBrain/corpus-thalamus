@@ -61,5 +61,23 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "1e7895c6-fad3-11e7-87ca-4a0002b51460",
+        "authors": [
+            "sjimenez"
+        ],
+        "comment": "Data from the right LHb of eight rats showing means, standard deviations, and coefficients of variation for all\nstereological parameters",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "1",
+            "noCol": "2, 12, 13",
+            "noRow": "1, 2, 3, 4, 5, 6, 7, 8",
+            "type": "table"
+        },
+        "parameters": [],
+        "pubId": "10.1111/j.1469-7580.2006.00573.x",
+        "tags": [],
+        "version": "1"
     }
 ]
