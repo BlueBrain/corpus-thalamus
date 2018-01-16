@@ -198,6 +198,38 @@
                         "rootId": "NIFCELL:sao1813327414"
                     }
                 ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131006",
+                        "values": {
+                            "statistic": "mean",
+                            "type": "simple",
+                            "unit": "mm^3",
+                            "values": [
+                                0.1959,
+                                0.173,
+                                0.1785,
+                                0.1693,
+                                0.1768,
+                                0.1758,
+                                0.1743,
+                                0.1849
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "18a103d0-fad6-11e7-a0f6-4a0002b51460",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFGA:birnlex_1438",
+                        "name": "Lateral habenular nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
             }
         ],
         "pubId": "10.1111/j.1469-7580.2006.00573.x",
