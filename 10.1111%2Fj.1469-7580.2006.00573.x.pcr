@@ -204,18 +204,38 @@
                     "depVar": {
                         "typeId": "BBP-131006",
                         "values": {
-                            "statistic": "mean",
-                            "type": "simple",
-                            "unit": "mm^3",
-                            "values": [
-                                0.1959,
-                                0.173,
-                                0.1785,
-                                0.1693,
-                                0.1768,
-                                0.1758,
-                                0.1743,
-                                0.1849
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "mm^3",
+                                    "values": [
+                                        0.1959,
+                                        0.173,
+                                        0.1785,
+                                        0.1693,
+                                        0.1768,
+                                        0.1758,
+                                        0.1743,
+                                        0.1849
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        20.0,
+                                        20.0,
+                                        19.0,
+                                        18.0,
+                                        16.0,
+                                        17.0,
+                                        15.0,
+                                        19.0
+                                    ]
+                                }
                             ]
                         }
                     },
