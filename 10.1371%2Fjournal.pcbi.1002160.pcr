@@ -166,7 +166,38 @@
             "text": "Note that the maximum value of t h is about\n200 ms",
             "type": "text"
         },
-        "parameters": [],
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-080001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "ms",
+                            "values": [
+                                200.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "672a1e04-0517-11e8-96a5-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Transmembrane ionic current",
+                        "rootId": "NIFMOL:nifext_8054"
+                    }
+                ]
+            }
+        ],
         "pubId": "10.1371/journal.pcbi.1002160",
         "tags": [
             {
