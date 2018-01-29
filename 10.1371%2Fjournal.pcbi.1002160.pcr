@@ -92,7 +92,16 @@
         },
         "parameters": [],
         "pubId": "10.1371/journal.pcbi.1002160",
-        "tags": [],
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus interneuron small"
+            },
+            {
+                "id": "MBA:1008",
+                "name": "Geniculate group, dorsal thalamus"
+            }
+        ],
         "version": "1"
     },
     {
