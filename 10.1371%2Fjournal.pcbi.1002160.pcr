@@ -2,7 +2,8 @@
     {
         "annotId": "66746cc2-9c17-11e6-b85a-64006a4c56ef",
         "authors": [
-            "oreilly"
+            "oreilly",
+            "iavarone"
         ],
         "comment": "",
         "experimentProperties": [],
@@ -13,7 +14,16 @@
         },
         "parameters": [],
         "pubId": "10.1371/journal.pcbi.1002160",
-        "tags": [],
+        "tags": [
+            {
+                "id": "NIFCELL:nifext_46",
+                "name": "Thalamus interneuron small"
+            },
+            {
+                "id": "MBA:1008",
+                "name": "Geniculate group, dorsal thalamus"
+            }
+        ],
         "version": "1"
     },
     {
