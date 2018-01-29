@@ -15,5 +15,48 @@
         "pubId": "10.1371/journal.pcbi.1002160",
         "tags": [],
         "version": "1"
+    },
+    {
+        "annotId": "04dd4098-050b-11e8-96a5-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 19246,
+            "text": "The axial (cytoplastic) resistivity (R a ) was\ntaken from the literature, R a = 113 Vcm",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-022000",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "Ohm*cm",
+                            "values": [
+                                113.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "11f5357e-050b-11e8-96a5-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1371/journal.pcbi.1002160",
+        "tags": [],
+        "version": "1"
     }
 ]
