@@ -58,5 +58,22 @@
         "pubId": "10.1371/journal.pcbi.1002160",
         "tags": [],
         "version": "1"
+    },
+    {
+        "annotId": "8ef8768a-0515-11e8-96a5-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 31936,
+            "text": "time course of the initial sag for recordings from rat INs\n[36,41] with ours from mouse INs, especially IN1 (Figure 2A1),\nindicated that I h may differ between the two species.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1371/journal.pcbi.1002160",
+        "tags": [],
+        "version": "1"
     }
 ]
