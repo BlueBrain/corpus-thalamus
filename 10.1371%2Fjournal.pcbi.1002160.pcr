@@ -75,5 +75,53 @@
         "pubId": "10.1371/journal.pcbi.1002160",
         "tags": [],
         "version": "1"
+    },
+    {
+        "annotId": "d82565b6-0515-11e8-96a5-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 32935,
+            "text": "we obtained the optimal parameters shift = -96 mV and\nstp = 10 mV.",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-090001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "mV",
+                            "values": [
+                                -96.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "3d765a9c-0516-11e8-96a5-3417ebb8f5ca",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFMOL:nifext_8054",
+                        "name": "Transmembrane ionic current",
+                        "rootId": "NIFMOL:nifext_8054"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1371/journal.pcbi.1002160",
+        "tags": [],
+        "version": "1"
     }
 ]
