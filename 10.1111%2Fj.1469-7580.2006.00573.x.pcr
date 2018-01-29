@@ -1,0 +1,259 @@
+[
+    {
+        "annotId": "a50ea64a-fa0e-11e7-80a1-4a0002b51460",
+        "authors": [
+            "sjimenez"
+        ],
+        "comment": "Data from the right MHb of six rats showing means, standard deviations and coefficients of variation for all stereological parameters\n\nMedial habernular nulceus from the right hemisphere",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "1",
+            "noCol": "2, 10, 12",
+            "noRow": "1, 2, 3, 4, 5, 6",
+            "type": "table"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131002",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        15268.0,
+                                        20797.0,
+                                        22187.0,
+                                        19714.0,
+                                        15514.0,
+                                        14780.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        16.0,
+                                        16.0,
+                                        17.0,
+                                        61.0,
+                                        15.0,
+                                        16.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "f80f691e-fa12-11e7-86c3-4a0002b51460",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFGA:birnlex_1431",
+                        "name": "Medial habenular nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    },
+                    {
+                        "id": "NIFCELL:sao1417703748",
+                        "name": "Neuron",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131006",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        0.098,
+                                        0.109,
+                                        0.112,
+                                        0.103,
+                                        0.086,
+                                        0.1
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        16.0,
+                                        16.0,
+                                        17.0,
+                                        16.0,
+                                        15.0,
+                                        16.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "17f27ada-fad5-11e7-aaf0-4a0002b51460",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFGA:birnlex_1431",
+                        "name": "Medial habenular nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1111/j.1469-7580.2006.00573.x",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            },
+            {
+                "id": "NCBITaxon:10116",
+                "name": "Rattus norvegicus"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "1e7895c6-fad3-11e7-87ca-4a0002b51460",
+        "authors": [
+            "sjimenez"
+        ],
+        "comment": "Data from the right LHb of eight rats showing means, standard deviations, and coefficients of variation for all stereological parameters\n\nLateral habernular nucleus right hemisphere",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "2",
+            "noCol": "2, 10, 11, 12",
+            "noRow": "1, 2, 3, 4, 5, 6, 7, 8",
+            "type": "table"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131002",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        14931.0,
+                                        12026.0,
+                                        13698.0,
+                                        10978.0,
+                                        10637.0,
+                                        13290.0,
+                                        12506.0,
+                                        16110.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        20.0,
+                                        20.0,
+                                        19.0,
+                                        18.0,
+                                        16.0,
+                                        17.0,
+                                        15.0,
+                                        19.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "c2791088-fad3-11e7-a946-4a0002b51460",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFGA:birnlex_1438",
+                        "name": "Lateral habenular nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    },
+                    {
+                        "id": "NIFCELL:sao1417703748",
+                        "name": "Neuron",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131006",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "mm^3",
+                                    "values": [
+                                        0.1959,
+                                        0.173,
+                                        0.1785,
+                                        0.1693,
+                                        0.1768,
+                                        0.1758,
+                                        0.1743,
+                                        0.1849
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        20.0,
+                                        20.0,
+                                        19.0,
+                                        18.0,
+                                        16.0,
+                                        17.0,
+                                        15.0,
+                                        19.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "18a103d0-fad6-11e7-a0f6-4a0002b51460",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFGA:birnlex_1438",
+                        "name": "Lateral habenular nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1111/j.1469-7580.2006.00573.x",
+        "tags": [],
+        "version": "1"
+    }
+]

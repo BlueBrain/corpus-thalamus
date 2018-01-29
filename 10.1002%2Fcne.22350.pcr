@@ -1,0 +1,151 @@
+[
+    {
+        "annotId": "32c05b4a-f6e6-11e7-a854-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 7352,
+            "text": "between 3 and 5 months of age",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002001",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "min",
+                                    "type": "simple",
+                                    "unit": "months",
+                                    "values": [
+                                        3.0
+                                    ]
+                                },
+                                {
+                                    "statistic": "max",
+                                    "type": "simple",
+                                    "unit": "months",
+                                    "values": [
+                                        5.0
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "75ec2ffc-f6e6-11e7-a854-64006a67e5d0",
+                "isExperimentProperty": true,
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFORG:birnlex_167",
+                        "name": "Mouse"
+                    },
+                    "entity2": "None",
+                    "type": "point"
+                },
+                "requiredTags": []
+            }
+        ],
+        "pubId": "10.1002/cne.22350",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
+    },
+    {
+        "annotId": "1d85401c-f6e9-11e7-a854-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "75ec2ffc-f6e6-11e7-a854-64006a67e5d0",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "location": 17421,
+            "text": "determined using the\noptical dissector method",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1002/cne.22350",
+        "tags": [],
+        "version": "1"
+    },
+    {
+        "annotId": "c9e885d6-f6ea-11e7-a854-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "For the wlidtype mice.",
+        "experimentProperties": [
+            {
+                "instanceId": "75ec2ffc-f6e6-11e7-a854-64006a67e5d0",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "no": "5.A",
+            "type": "figure"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-121009",
+                        "values": {
+                            "statistic": "mean",
+                            "type": "simple",
+                            "unit": "1/um",
+                            "values": [
+                                1.261
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "771b033a-f6eb-11e7-a854-64006a67e5d0",
+                "isExperimentProperty": false,
+                "relationship": {
+                    "entity1": {
+                        "id": "NIFORG:birnlex_167",
+                        "name": "Mouse"
+                    },
+                    "entity2": "None",
+                    "type": "point"
+                },
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:nlx_cell_20090309",
+                        "name": "Striatum patch medium spiny cell",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1002/cne.22350",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "UBERON:0002435",
+                "name": "striatum"
+            }
+        ],
+        "version": "1"
+    }
+]

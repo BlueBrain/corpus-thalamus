@@ -1,0 +1,24 @@
+[
+    {
+        "annotId": "b9d436ec-f7b8-11e7-99c4-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 7859,
+            "text": "Three adult male B6/C57 mice (Harlan Laboratories) under the\nlicense of K.A.C.M. (approved by Cantonal Veterinary Office, Zurich)\nwere used in this study",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.2557-16.2017",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_398",
+                "name": "C57BL/6"
+            }
+        ],
+        "version": "1"
+    }
+]
