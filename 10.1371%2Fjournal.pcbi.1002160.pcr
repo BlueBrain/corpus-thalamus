@@ -153,5 +153,27 @@
         "pubId": "10.1371/journal.pcbi.1002160",
         "tags": [],
         "version": "1"
+    },
+    {
+        "annotId": "a2def344-0516-11e8-96a5-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 30714,
+            "text": "Note that the maximum value of t h is about\n200 ms",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1371/journal.pcbi.1002160",
+        "tags": [
+            {
+                "id": "MBA:1008",
+                "name": "Geniculate group, dorsal thalamus"
+            }
+        ],
+        "version": "1"
     }
 ]
