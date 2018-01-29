@@ -231,6 +231,10 @@
             {
                 "id": "NIFCELL:nifext_46",
                 "name": "Thalamus interneuron small"
+            },
+            {
+                "id": "MBA:1008",
+                "name": "Geniculate group, dorsal thalamus"
             }
         ],
         "version": "1"
