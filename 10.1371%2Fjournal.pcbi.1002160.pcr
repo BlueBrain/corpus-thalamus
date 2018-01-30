@@ -187,6 +187,10 @@
             {
                 "id": "NIFCELL:nifext_46",
                 "name": "Thalamus interneuron small"
+            },
+            {
+                "id": "BBP_nlx_0018",
+                "name": "Inward rectifier (h-type) current"
             }
         ],
         "version": "1"
