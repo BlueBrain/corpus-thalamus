@@ -8,7 +8,7 @@
         "experimentProperties": [],
         "localizer": {
             "no": "1",
-            "noCol": "2, 10, 12",
+            "noCol": "2, 10, 12, 13",
             "noRow": "1, 2, 3, 4, 5, 6",
             "type": "table"
         },
@@ -34,6 +34,19 @@
                                     ]
                                 },
                                 {
+                                    "statistic": "deviation",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        0.063,
+                                        0.054,
+                                        0.057,
+                                        0.06,
+                                        0.068,
+                                        0.064
+                                    ]
+                                },
+                                {
                                     "statistic": "N",
                                     "type": "simple",
                                     "unit": "dimensionless",
@@ -41,7 +54,7 @@
                                         16.0,
                                         16.0,
                                         17.0,
-                                        61.0,
+                                        16.0,
                                         15.0,
                                         16.0
                                     ]
