@@ -1445,26 +1445,5 @@
             }
         ],
         "version": "1"
-    },
-    {
-        "annotId": "8e2ae2e3-123b-11e8-9784-64006a67e5d0",
-        "authors": [
-            "oreilly"
-        ],
-        "comment": "",
-        "experimentProperties": [
-            {
-                "instanceId": "eca1d35c-fff5-11e5-b628-64006a4c56ef",
-                "paramTypeId": "BBP-002003"
-            }
-        ],
-        "localizer": {
-            "no": "1.c",
-            "type": "figure"
-        },
-        "parameters": [],
-        "pubId": "10.1523/JNEUROSCI.2740-15.2015",
-        "tags": [],
-        "version": "1"
     }
 ]
