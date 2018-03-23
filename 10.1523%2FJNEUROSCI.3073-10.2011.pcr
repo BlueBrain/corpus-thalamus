@@ -146,5 +146,31 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "33eb9ece-154c-11e8-9c7c-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 5049,
+            "text": " even though most TRN neurons receive topographic input from one somatosensory thalamic nucleus, roughly 1/4 of the recorded TRN cells receive convergent input from spatially offset thalamic regions that usually are located in different relay nuclei",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1523/JNEUROSCI.3073-10.2011",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "BBP_nlx_0022",
+                "name": "Thalamic reticular nucleus cell - GABAergic"
+            }
+        ],
+        "version": "1"
     }
 ]

@@ -1,0 +1,32 @@
+[
+    {
+        "annotId": "2754743c-1723-11e8-9c7c-3417ebb8f5ca",
+        "authors": [
+            "iavarone"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 4251,
+            "text": "PV is a Ca 2\u2af9 -buffer protein that is highly expressed in RTN\nneurons (Celio 1990).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1152/jn.00375.2012",
+        "tags": [
+            {
+                "id": "NIFGA:birnlex_1721",
+                "name": "Thalamic reticular nucleus"
+            },
+            {
+                "id": "NIFEXT:6",
+                "name": "Parvalbumin"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
+    }
+]
