@@ -70,5 +70,36 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "074b5cd2-31c7-11e8-b594-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "f8647942-31c6-11e8-b594-64006a67e5d0",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "location": 11330,
+            "text": "All prepared tissue samples were analyzed using Stereo Investi-\ngator (MBF Biosciences, Williston, VT, USA) integrated with a Zeiss\nAxio Imager A2 microscope",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1016/j.bbr.2014.12.046",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_117",
+                "name": "BXD"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
     }
 ]
