@@ -1,0 +1,28 @@
+[
+    {
+        "annotId": "6470ba2a-31c6-11e8-b594-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 9675,
+            "text": "Ten male and ten female BXD29-Tlr4 lps\u22122J /J mutant (JAX stock\nnumber 000029) and ten male and ten female BXD29/Ty wildtype",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1016/j.bbr.2014.12.046",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_117",
+                "name": "BXD"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
+    }
+]
