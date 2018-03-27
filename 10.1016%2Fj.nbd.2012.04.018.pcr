@@ -1,0 +1,33 @@
+[
+    {
+        "annotId": "dcef08a6-31a0-11e8-b594-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "75ec2ffc-f6e6-11e7-a854-64006a67e5d0",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "location": 9649,
+            "text": "The Cln8 mnd mouse strain was backcrossed to C57BL/6JRccHsd for\nmore than 10 generations, and congenity was confirmed with the\nMouse Medium Density SNP Panel (Illumina, San Diego, CA, USA).\nThe homozygous male Cln8 mnd /Cln8 mnd mice and their age- and sex-\nmatched wildtype littermates were used",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1016/j.nbd.2012.04.018",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_393",
+                "name": "C57BL/6J"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
+    }
+]
