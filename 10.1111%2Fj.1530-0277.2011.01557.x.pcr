@@ -15,5 +15,22 @@
         "pubId": "10.1111/j.1530-0277.2011.01557.x",
         "tags": [],
         "version": "1"
+    },
+    {
+        "annotId": "bfeef4a4-31ba-11e8-b594-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 15581,
+            "text": "Cell counting was carried out on retinas obtained from different\nanimals as follows: A (n = 7), IC (n = 7), and C (n = 6).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1111/j.1530-0277.2011.01557.x",
+        "tags": [],
+        "version": "1"
     }
 ]
