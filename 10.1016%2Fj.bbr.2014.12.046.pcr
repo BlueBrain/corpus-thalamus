@@ -24,5 +24,51 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "eebe9a80-31c6-11e8-b594-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 10498,
+            "text": "\u223cP265",
+            "type": "text"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "days",
+                            "values": [
+                                265.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "f8647942-31c6-11e8-b594-64006a67e5d0",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "10.1016/j.bbr.2014.12.046",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_117",
+                "name": "BXD"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
     }
 ]
