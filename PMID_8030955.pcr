@@ -1,0 +1,27 @@
+[
+    {
+        "annotId": "359a8e60-31c1-11e8-b594-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "\"Neuron numbers in contralateral and ipsilateral dorsal lateral geniculate nucleus following unilateral intraocular injection of C57BL mice with either ME7 scrapie or normal brain homogenate. Each point is the mean dLGN count from 5 mice.\" Annotating ipsi and contra numbers for controls.",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "1",
+            "type": "figure"
+        },
+        "parameters": [],
+        "pubId": "PMID_8030955",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_197",
+                "name": "C57BL"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
+    }
+]
