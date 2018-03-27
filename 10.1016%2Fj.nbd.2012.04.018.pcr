@@ -91,5 +91,36 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "225efa5e-31a1-11e8-b594-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "75ec2ffc-f6e6-11e7-a854-64006a67e5d0",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "location": 15494,
+            "text": "Analysis was performed using the StereoInvestigator\nprogram (MBF Bioscience, Williston, VT, USA) using a sampling grid\nof 175\u00d7175 \u03bcm. Frame sizes were 74\u00d742 \u03bcm for thalamic nuclei,\n41\u00d726 \u03bcm for cortical layers IV and VI and 58\u00d730 \u03bcm for layer V. The\nGundersen's coefficient of error of was b0.08 in all analyses (Gundersen\nand Jensen, 1987). In all instances 6 animals per genotype and age were\nanalyzed, unless otherwise stated.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1016/j.nbd.2012.04.018",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_393",
+                "name": "C57BL/6J"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
     }
 ]
