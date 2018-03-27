@@ -64,5 +64,27 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "17402c82-31bb-11e8-b594-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 17829,
+            "text": "The numbers of\nneurons within the dLGN were counted by unbiased stereological\nmethods, using the optical fractionator probe in the StereoInvestiga-\ntor software.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1111/j.1530-0277.2011.01557.x",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
     }
 ]
