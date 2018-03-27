@@ -298,6 +298,36 @@
                         "rootId": "NIFCELL:sao1813327414"
                     }
                 ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131002",
+                        "values": {
+                            "statistic": "mean",
+                            "type": "simple",
+                            "unit": "dimensionless",
+                            "values": [
+                                3949.37
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "53825644-31b5-11e8-b594-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFGA:birnlex_1721",
+                        "name": "Thalamic reticular nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    },
+                    {
+                        "id": "NIFCELL:sao1417703748",
+                        "name": "Neuron",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
             }
         ],
         "pubId": "10.1097/nen.0b013e31815f3899",
