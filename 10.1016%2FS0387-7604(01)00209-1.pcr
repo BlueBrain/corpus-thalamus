@@ -1,0 +1,28 @@
+[
+    {
+        "annotId": "ad7e735e-319b-11e8-b594-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 4335,
+            "text": "A colony of the C57BL/KsJ-npc1 spm mice was main-\ntained by interbreeding of heterozygous mice or by that of\nheterozygous males (1 /spm) with normal females who\nreceived transplantation of ovaries from homozygous\nfemales (spm/spm).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1016/S0387-7604(01)00209-1",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFORG:birnlex_197",
+                "name": "C57BL"
+            }
+        ],
+        "version": "1"
+    }
+]
