@@ -86,5 +86,46 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "1d41eb3e-31bb-11e8-b594-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Annotating both incubation control (IC) and control (C). Estimated at P20 (from the caption of the figure).",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "4.C",
+            "type": "figure"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-002001",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "days",
+                            "values": [
+                                20.0
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "900bef34-31bb-11e8-b594-64006a67e5d0",
+                "isExperimentProperty": true,
+                "requiredTags": []
+            }
+        ],
+        "pubId": "10.1111/j.1530-0277.2011.01557.x",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
     }
 ]
