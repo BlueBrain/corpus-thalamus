@@ -13,7 +13,12 @@
         },
         "parameters": [],
         "pubId": "10.1111/j.1530-0277.2011.01557.x",
-        "tags": [],
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
         "version": "1"
     },
     {
