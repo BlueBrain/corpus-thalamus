@@ -122,5 +122,30 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "ae5b03ca-31a2-11e8-b594-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Deviation measure unclear from the text. From pannel A, the counting seems to be unilateral. Multiplying numbers per 2 to compensate. Stained with NeuN.",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "5.B",
+            "type": "figure"
+        },
+        "parameters": [],
+        "pubId": "10.1016/j.nbd.2012.04.018",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_393",
+                "name": "C57BL/6J"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
     }
 ]
