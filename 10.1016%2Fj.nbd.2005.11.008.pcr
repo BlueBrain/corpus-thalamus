@@ -29,5 +29,36 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "8403260a-31be-11e8-b594-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "900bef34-31bb-11e8-b594-64006a67e5d0",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "location": 10488,
+            "text": "For histological analyses, 6-month-old homozygous Cln3 /\nand age- and sex-matched 129/SvJ controls (n = 3 animal per\ngenotype) were fixed by transcardial perfusion",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1016/j.nbd.2005.11.008",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_219",
+                "name": "129 Mouse strain"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
     }
 ]
