@@ -135,7 +135,12 @@
             "oreilly"
         ],
         "comment": "Used N=5.5 since in the paper it is written as 5-6.",
-        "experimentProperties": [],
+        "experimentProperties": [
+            {
+                "instanceId": "8f6f665a-31b1-11e8-b594-64006a67e5d0",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
         "localizer": {
             "no": "1.B",
             "type": "figure"
