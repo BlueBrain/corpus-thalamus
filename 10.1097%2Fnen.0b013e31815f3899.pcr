@@ -24,5 +24,31 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "e8c7174a-31a5-11e8-b594-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 8691,
+            "text": "brains were dissected from CTSD -/- mice and age-\nmatched control +/+ littermates at postnatal day (P) 16, P20,\nand P23 +/- 1 (n = 5-6 for P23 +/- 1, n = 2 for P16, and n = 3\nfor P20).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1097/nen.0b013e31815f3899",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_393",
+                "name": "C57BL/6J"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
     }
 ]
