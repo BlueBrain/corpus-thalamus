@@ -200,5 +200,31 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "826a40b0-31b1-11e8-b594-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 22735,
+            "text": "at the age of 24 days",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1097/nen.0b013e31815f3899",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_393",
+                "name": "C57BL/6J"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
     }
 ]
