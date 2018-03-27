@@ -1,0 +1,28 @@
+[
+    {
+        "annotId": "95a14216-31a5-11e8-b594-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 6656,
+            "text": "Cathepsin DYdeficient mice produced by Saftig et al\n(8) were maintained on a mixed C57BL6J strain background",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1097/nen.0b013e31815f3899",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_393",
+                "name": "C57BL/6J"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
+    }
+]
