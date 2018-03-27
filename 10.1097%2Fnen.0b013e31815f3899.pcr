@@ -102,5 +102,31 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "21f8a858-31a6-11e8-b594-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 17801,
+            "text": "StereoInvestigator software was used to obtain optical\nfractionator estimates of the number of Nissl-stained\nsomatosensory relay neurons in the ventral posterior thala-\nmic nucleus (VPM/VPL), PV-positive inhibitory neurons in\nthe reticular thalamic (Rt) nucleus, and Nissl-stained cortical\nneurons in laminae IV and VI of S1BF.",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1097/nen.0b013e31815f3899",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_393",
+                "name": "C57BL/6J"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
     }
 ]
