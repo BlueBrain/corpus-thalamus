@@ -29,5 +29,36 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "077878c8-31a1-11e8-b594-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "75ec2ffc-f6e6-11e7-a854-64006a67e5d0",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "location": 12837,
+            "text": "Mice of 1, 3, 5 and 8 months of age (6 animals per genotype and\nage)",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1016/j.nbd.2012.04.018",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_393",
+                "name": "C57BL/6J"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
     }
 ]
