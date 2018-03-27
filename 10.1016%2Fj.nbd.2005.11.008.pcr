@@ -91,5 +91,36 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "a33186de-31be-11e8-b594-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "900bef34-31bb-11e8-b594-64006a67e5d0",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "location": 12354,
+            "text": "we used StereoInvestigator software (MicroBrightField, Inc.) to\nobtain unbiased optical fractionator estimates from Nissl-stained\nsections of the total number of neurons in dorsal nucleus of the\nlateral geniculate nucleus, together with nucleator estimates of\nneuronal volume in this region",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1016/j.nbd.2005.11.008",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_219",
+                "name": "129 Mouse strain"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
     }
 ]
