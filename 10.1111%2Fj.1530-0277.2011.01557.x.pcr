@@ -32,5 +32,22 @@
         "pubId": "10.1111/j.1530-0277.2011.01557.x",
         "tags": [],
         "version": "1"
+    },
+    {
+        "annotId": "c9ecd12e-31ba-11e8-b594-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 10347,
+            "text": "The newborn YFP pups were divided into 3 groups: alcohol trea-\nted (A), intubation controls (ICs), and nonintubated controls (Cs).",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1111/j.1530-0277.2011.01557.x",
+        "tags": [],
+        "version": "1"
     }
 ]
