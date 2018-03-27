@@ -76,5 +76,31 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "143452bc-31a6-11e8-b594-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [],
+        "localizer": {
+            "location": 14872,
+            "text": "number of points covering each central\nnervous system (CNS) region was counted from 1 hemi-\nsphere, and the corresponding regional volume was calculated\nas described previously",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1097/nen.0b013e31815f3899",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_393",
+                "name": "C57BL/6J"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
     }
 ]
