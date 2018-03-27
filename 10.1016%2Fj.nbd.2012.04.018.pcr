@@ -60,5 +60,36 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "15d7bdca-31a1-11e8-b594-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "75ec2ffc-f6e6-11e7-a854-64006a67e5d0",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "location": 15166,
+            "text": "the optical fractionator\nprobe was used",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1016/j.nbd.2012.04.018",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_393",
+                "name": "C57BL/6J"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
     }
 ]
