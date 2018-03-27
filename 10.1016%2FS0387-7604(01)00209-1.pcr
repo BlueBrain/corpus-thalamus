@@ -212,5 +212,86 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "f89b07d0-319f-11e8-b594-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "How many samples have been used PER AGE GROUP is unclear from the paper. Deviation are too small to be accurately resolved with ENGAUGE. ",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "4.D",
+            "type": "figure"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131001",
+                        "values": {
+                            "statistic": "mean",
+                            "type": "simple",
+                            "unit": "1/mm^3",
+                            "values": [
+                                348586.0,
+                                375321.0,
+                                384576.0,
+                                393830.0,
+                                387661.0,
+                                372237.0,
+                                223136.0
+                            ]
+                        }
+                    },
+                    "indepVars": [
+                        {
+                            "typeId": "BBP-002001",
+                            "values": {
+                                "statistic": "raw",
+                                "type": "simple",
+                                "unit": "week",
+                                "values": [
+                                    3.0,
+                                    5.0,
+                                    6.0,
+                                    7.0,
+                                    8.0,
+                                    10.0,
+                                    13.0
+                                ]
+                            }
+                        }
+                    ],
+                    "type": "numericalTrace"
+                },
+                "id": "5b114858-31a0-11e8-b594-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFGA:birnlex_1237",
+                        "name": "Ventral lateral nucleus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    },
+                    {
+                        "id": "NIFCELL:sao1417703748",
+                        "name": "Neuron",
+                        "rootId": "NIFCELL:sao1813327414"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1016/S0387-7604(01)00209-1",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            },
+            {
+                "id": "NIFORG:birnlex_197",
+                "name": "C57BL"
+            }
+        ],
+        "version": "1"
     }
 ]
