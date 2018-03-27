@@ -78,6 +78,57 @@
                         "rootId": "NIFGA:birnlex_1167"
                     }
                 ]
+            },
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131002",
+                        "values": {
+                            "statistic": "raw",
+                            "type": "simple",
+                            "unit": "dimensionless",
+                            "values": [
+                                18909.3,
+                                14181.9,
+                                16724.0,
+                                15091.2,
+                                17829.8
+                            ]
+                        }
+                    },
+                    "indepVars": [
+                        {
+                            "typeId": "BBP-002001",
+                            "values": {
+                                "statistic": "raw",
+                                "type": "simple",
+                                "unit": "days",
+                                "values": [
+                                    50.0,
+                                    100.0,
+                                    150.0,
+                                    200.0,
+                                    237.0
+                                ]
+                            }
+                        }
+                    ],
+                    "type": "numericalTrace"
+                },
+                "id": "6db5e712-31c2-11e8-b594-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFCELL:sao1417703748",
+                        "name": "Neuron",
+                        "rootId": "NIFCELL:sao1813327414"
+                    },
+                    {
+                        "id": "NIFGA:birnlex_1595",
+                        "name": "Dorsal nucleus of lateral geniculate body",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
             }
         ],
         "pubId": "PMID_8030955",
