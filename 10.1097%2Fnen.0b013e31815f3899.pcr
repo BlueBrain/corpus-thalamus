@@ -128,5 +128,77 @@
             }
         ],
         "version": "1"
+    },
+    {
+        "annotId": "1132613e-31b1-11e8-b594-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "Used N=5.5 since in the paper it is written as 5-6.",
+        "experimentProperties": [],
+        "localizer": {
+            "no": "1.B",
+            "type": "figure"
+        },
+        "parameters": [
+            {
+                "description": {
+                    "depVar": {
+                        "typeId": "BBP-131005",
+                        "values": {
+                            "type": "compound",
+                            "valueLst": [
+                                {
+                                    "statistic": "mean",
+                                    "type": "simple",
+                                    "unit": "mm^3",
+                                    "values": [
+                                        8.91089
+                                    ]
+                                },
+                                {
+                                    "statistic": "sem",
+                                    "type": "simple",
+                                    "unit": "mm^3",
+                                    "values": [
+                                        0.35644
+                                    ]
+                                },
+                                {
+                                    "statistic": "N",
+                                    "type": "simple",
+                                    "unit": "dimensionless",
+                                    "values": [
+                                        5.5
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "type": "pointValue"
+                },
+                "id": "7617d714-31b1-11e8-b594-64006a67e5d0",
+                "isExperimentProperty": false,
+                "requiredTags": [
+                    {
+                        "id": "NIFGA:birnlex_954",
+                        "name": "Thalamus",
+                        "rootId": "NIFGA:birnlex_1167"
+                    }
+                ]
+            }
+        ],
+        "pubId": "10.1097/nen.0b013e31815f3899",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_393",
+                "name": "C57BL/6J"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
     }
 ]
