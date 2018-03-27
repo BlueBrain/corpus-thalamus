@@ -1,0 +1,33 @@
+[
+    {
+        "annotId": "34d3c512-31be-11e8-b594-64006a67e5d0",
+        "authors": [
+            "oreilly"
+        ],
+        "comment": "",
+        "experimentProperties": [
+            {
+                "instanceId": "900bef34-31bb-11e8-b594-64006a67e5d0",
+                "paramTypeId": "BBP-002001"
+            }
+        ],
+        "localizer": {
+            "location": 8169,
+            "text": "129/SvJ and homozygous Cln3 knockout (Cln3 / ) mice on a\n129/SvJ background were used",
+            "type": "text"
+        },
+        "parameters": [],
+        "pubId": "10.1016/j.nbd.2005.11.008",
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_219",
+                "name": "129 Mouse strain"
+            },
+            {
+                "id": "NIFORG:birnlex_167",
+                "name": "Mouse"
+            }
+        ],
+        "version": "1"
+    }
+]
