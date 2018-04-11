@@ -2,7 +2,8 @@
     {
         "annotId": "c5b8fb00-f21b-11e7-8ae1-acbc328c3997",
         "authors": [
-            "sjimenez"
+            "sjimenez",
+            "oreilly"
         ],
         "comment": "Values of the different parameters analyzed in the dLGN of young, adult, and old rats\n\nNeuronal Density Method: was calculated by applying the method of Weibel and\nGomez\n\nFor location of the dLGN the stereotaxic criteria of Pellegrino et al. (1979), Sherwood\nand Timiras (1970) and Paxinos and Watson (1986) were followed",
         "experimentProperties": [],
@@ -242,10 +243,6 @@
             {
                 "id": "NIFORG:birnlex_254",
                 "name": "Wistar Rat"
-            },
-            {
-                "id": "NCBITaxon:10116",
-                "name": "Rattus norvegicus"
             }
         ],
         "version": "1"
