@@ -280,7 +280,12 @@
             }
         ],
         "pubId": "10.1111/j.1469-7580.2006.00573.x",
-        "tags": [],
+        "tags": [
+            {
+                "id": "NIFORG:birnlex_266",
+                "name": "Sprague Dawley"
+            }
+        ],
         "version": "1"
     }
 ]
