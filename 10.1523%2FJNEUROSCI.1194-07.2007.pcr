@@ -206,7 +206,7 @@
                             "values": {
                                 "statistic": "raw",
                                 "type": "simple",
-                                "unit": "dimensionless",
+                                "unit": "days",
                                 "values": [
                                     0.0,
                                     3.0,
