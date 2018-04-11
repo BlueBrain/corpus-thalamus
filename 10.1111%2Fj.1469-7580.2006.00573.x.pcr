@@ -2,7 +2,8 @@
     {
         "annotId": "a50ea64a-fa0e-11e7-80a1-4a0002b51460",
         "authors": [
-            "sjimenez"
+            "sjimenez",
+            "oreilly"
         ],
         "comment": "Data from the right MHb of six rats showing means, standard deviations and coefficients of variation for all stereological parameters\n\nMedial habernular nulceus from the right hemisphere",
         "experimentProperties": [],
@@ -133,10 +134,6 @@
             {
                 "id": "NIFORG:birnlex_266",
                 "name": "Sprague Dawley"
-            },
-            {
-                "id": "NCBITaxon:10116",
-                "name": "Rattus norvegicus"
             }
         ],
         "version": "1"
