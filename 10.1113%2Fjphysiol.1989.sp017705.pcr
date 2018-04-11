@@ -34,7 +34,7 @@
                             "type": "simple",
                             "unit": "mV",
                             "values": [
-                                8
+                                8.0
                             ]
                         }
                     },
@@ -96,7 +96,7 @@
                                     "type": "simple",
                                     "unit": "d",
                                     "values": [
-                                        2
+                                        2.0
                                     ]
                                 },
                                 {
@@ -104,7 +104,7 @@
                                     "type": "simple",
                                     "unit": "d",
                                     "values": [
-                                        25
+                                        25.0
                                     ]
                                 }
                             ]
@@ -168,7 +168,7 @@
                                     "type": "simple",
                                     "unit": "degC",
                                     "values": [
-                                        22
+                                        22.0
                                     ]
                                 },
                                 {
@@ -176,7 +176,7 @@
                                     "type": "simple",
                                     "unit": "degC",
                                     "values": [
-                                        24
+                                        24.0
                                     ]
                                 }
                             ]
@@ -232,7 +232,7 @@
             {
                 "description": {
                     "depVar": {
-                        "typeId": "BBP-131002",
+                        "typeId": "BBP-121002",
                         "values": {
                             "type": "compound",
                             "valueLst": [
@@ -241,7 +241,7 @@
                                     "type": "simple",
                                     "unit": "um",
                                     "values": [
-                                        15
+                                        15.0
                                     ]
                                 },
                                 {
@@ -249,7 +249,7 @@
                                     "type": "simple",
                                     "unit": "um",
                                     "values": [
-                                        25
+                                        25.0
                                     ]
                                 }
                             ]
@@ -261,9 +261,9 @@
                 "isExperimentProperty": false,
                 "requiredTags": [
                     {
-                        "id": "NIFCELL:nlx_cell_20081203",
-                        "name": "Thalamus relay cell",
-                        "rootId": "sao1813327414"
+                        "id": "NIFCELL:sao1813327414",
+                        "name": "Cell",
+                        "rootId": "NIFCELL:sao1813327414"
                     }
                 ]
             },
@@ -279,7 +279,7 @@
                                     "type": "simple",
                                     "unit": "um",
                                     "values": [
-                                        2
+                                        2.0
                                     ]
                                 },
                                 {
@@ -287,7 +287,7 @@
                                     "type": "simple",
                                     "unit": "um",
                                     "values": [
-                                        3
+                                        3.0
                                     ]
                                 }
                             ]
@@ -314,7 +314,7 @@
                             "type": "simple",
                             "unit": "um",
                             "values": [
-                                80
+                                80.0
                             ]
                         }
                     },
